@@ -1,0 +1,71 @@
+% Term paper proposal.
+
+\documentclass[]{IEEEtran}
+
+\usepackage{float}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{color}
+
+\begin{document}
+
+\title{AutoCiter: Let's Go Cite-Seeing!}
+
+% author names and affiliations
+% use a multiple column layout for up to two different
+% affiliations
+
+\author{\IEEEauthorblockN{Eriq Augustine, Aldrin Montana, Ryan Verdon}
+\\
+\IEEEauthorblockA{Department of Computer Science\\
+Cal Poly, San Luis Obispo\\
+ \textsf{eaugusti@calpoly.edu, amontant@calpoly.edu, rverdon@calpoly.edu}
+}
+}
+
+\maketitle
+
+\thispagestyle{empty}
+\pagestyle{empty}
+
+\section{Introduction}
+We will be doing the Auto-Citer project. We LOVE acedemic papers.
+
+\section{Problem Description}
+The probem of auto-citation can be broken up into two cases.
+
+\subsection{Known Location}
+In this case, the location of the citation is known, but the proper paper index is unknown.
+
+\subsection{Unknown Location}
+In this case, the list of citations is known. However, there is no citation markers in the paper.
+
+\section{Background}
+Taken alone, this problem does not solve many questions in the wild. However without loss of generality, these
+methods should be able to be used on a larger scale to make citation reccomendations.
+
+\section{Dataset}
+We will be acquiring our dataset from the ACM Digital Library. The dataset will include multiple
+papers where most of the references are also available on the ACM DL. Both the main paper and the
+references will be included in out final dataset.
+
+On the ACM DL, only read-only (usually PDF) versions of the papers are supplied.
+To make things easier, we will be pre-prossing the PDFs and converting them into plain text files.
+
+\subsection{Test Dataset}
+For our testing dataset, we will remove the citation index from the citation markers. For example,
+``[164]'' will become ``[]''. If there are multiple cites in the same sentence, then we will break this up into
+many single citations. ``[1, 2, 3]'' or ``[1][2][3]'' will become ``[][][]''. However if we do not have access to the
+text of one of the citations, then we will just leave that citation marker. So if citation 2 is not available,
+``[1, 2]'' will become ``[][2]''.
+
+For the problem where we do not know where the citation marker belongs, then will just remove all markers from the paper.
+
+\section{Proposed Methods}
+We have yet to decide what language we will be using for this project, but we will probably either use the WEKA machine learning
+packageweka\cite{weka} or NLTK\cite{nltk}.
+
+\bibliographystyle{acm}
+\bibliography{refs}
+
+\end{document}
