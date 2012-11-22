@@ -1,0 +1,6 @@
+TITLE: An algorithm for concurrency control and recovery in replicated distributed databases
+AUTHORS: Philip A. Bernstein, Nathan Goodman
+TERMS: algorithms, Serializability, continuous operation, transaction processing, distributed databases, replicated databases
+CATEGORIES: Database Management: Concurrency Control, Database Management: Physical Design
+ABSTRACT:
+In a one-copy distributed database, each data item is stored at exactly one site. In a replicated database, some data items may be stored at multiple sites. The main motivation is improved reliability: by storing important data at multiple sites, the DBS can operate even though some sites have failed. This paper describes an algorithm for handling replicated data, which allows users to operate on data so long as one copy is “available.” A copy is “available” when (i) its site is up, and (ii) the copy is not out-of-date because of an earlier crash. The algorithm handles clean, detectable site failures, but not Byzantine failures or network partitions.

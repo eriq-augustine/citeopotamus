@@ -1,0 +1,6 @@
+TITLE: The dangers of replication and a solution
+AUTHORS: Jim Gray, Pat Helland, Patrick O'Neil, Dennis Shasha
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Update anywhere-anytime-anyway transactional replication has unstable behavior as the workload scales up: a ten-fold increase in nodes and traffic gives a thousand fold increase in deadlocks or reconciliations. Master copy replication (primary copy) schemes reduce this problem. A simple analytic model demonstrates these results. A new two-tier replication algorithm is proposed that allows mobile (disconnected) applications to propose tentative update transactions that are later applied to a master copy. Commutative update transactions avoid the instability of other replication schemes.

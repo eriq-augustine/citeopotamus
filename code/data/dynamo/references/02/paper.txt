@@ -1,0 +1,373 @@
+﻿An Algorithm for Concurrency Control and Recovery in Replicated Distributed Databases
+PHILIP A. BERNSTEIN and NATHAN GOODMAN Sequoia Systems, Inc.
+In a one-copy distributed database, each data item is stored at exactly one site. In a replicated database, some data items may be stored at multiple sites. The main motivation is improved reliability: by storing important data at multiple sites, the DBS can operate even though some sites have failed.
+This paper describes an algorithm for handling replicated data, which allows users to operate on data so long as one copy is "available." A copy is "available" when (i) its site is up, and (ii) the copy is not out-of-date because of an earlier crash.
+The algorithm handles clean, detectable site failures, but not Byzantine failures or network partitions.
+Categories and Subject Descriptors: H.2.0 [Database Management]: General—concurrency control; H.2.2 [Database Management]: Physical Design
+General Terms: Algorithms
+Additional Key Words and Phrases: Serializability, distributed databases, replicated databases, continuous operation, transaction processing
+1. INTRODUCTION
+A replicated database is a distributed database in which some data items are stored redundantly at multiple sites. The main goal is to improve system reliability [1, 20]. By storing critical data at multiple sites, the system can operate even though some sites have failed.
+There are two correctness criteria for replicated databases: replication control— the multiple copies of a data item must behave like a single copy, insofar as users can tell; and concurrency control—the effect of a concurrent execution must be equivalent to a serial one. A replicated database system that achieves replication and concurrency control has the same input/output behavior as a centralized,
+This research was supported by the NSF under grant MCS79-07762 and by the Office of Naval Research under grant N00014-80-674.
+Authors' address: Sequoia Systems, Inc., 1 Metropolitan Corporation Center, Marlborough, MA 01752.
+Permission to copy without fee all or part of this material is granted provided that the copies are not made or distributed for direct commercial advantage, the ACM copyright notice and the title of the publication and its date appear, and notice is given that copying is by permission of the Association for Computing Machinery. To copy otherwise, or to republish, requires a fee and/or specific permission.
+© 1984 ACM 0730-0301/84/1200-0596 $00.75
+ACM Transactions on Database Systems, Vol. 9, No. 4, December 1984, Pages 596-615.
+An Algorithm for Concurrency Control and Recovery • 597
+one-copy database system that executes user requests one at a time [33]. Such behavior is termed 1-serializability [5, 6].
+In an ideal world, where sites never fail, there is a simple way to manage replicated data [33], When a user wishes to read x, the system reads any copy of x. When a user updates x, the system applies the update to all copies of x. Concurrency control is by distributed two-phase locking [15].
+This paper extends this simple algorithm to an environment where sites fail and recover.
+To illustrate the problem, let us extend the simple algorithm in obvious ways and see what goes wrong.
+The obvious way to handle site failures is to ignore failed sites. When a user wants to update x, the system applies the update to all copies of x at "up" sites and ignores the copies at "down" sites.
+Site recoveries are a little harder. Consider data item x with copies xa and xt at sites a and b, respectively. And suppose site a has failed. While the site is down, copy xa may become out-of-date, because users may update xiWhen site a recovers, the system must bring xa up-to-date before letting users access it. An obvious way to do this is to copy the value of Xb into xa.
+The examples below show what goes wrong with this algorithm. Example 1 shows a problem caused by site failures; Example 2 shows a problem caused by site recoveries.
+Example 1. Consider a database with data items x and y and copies xa, xb> yc, and yd stored at sites a, b, c, and d, respectively. Consider two transactions: TV reads x and writes y; T2 reads y and writes x. The simple algorithm allows the following execution.
+r'Ayd]	d-fails ====^5? u)2[xb]
+"M*a]" denotes a read of xa by 7\; "a-fails" denotes the failure of site a, and so forth. Arrows indicate the order in which events occur. Ti and T2 do their reads concurrently; we assume that each read sets a read-lock on the corresponding copy. Then sites a and d fail. Then TV and T2 do their writes. TV writes y by writing, and implicitly locking all copies of y at "up" sites. By now, the only such copy is yc. Note that TVs write-lock on yc does not conflict with T2's read-lock on yd because yc and yd are different copies at different sites. T2 writes x similarly.
+Logically TV and T2 conflict. A correct system must synchronize these transactions to prevent them from running concurrently. But the algorithm does not synchronize them, because sites a and d fail at a crucial moment.
+More formally, the execution is incorrect because it does not have the same effect as a serial execution of Tj and T2 against a one-copy database. In a serial execution of 7V and T2, one or the other comes first. If TV comes first, the execution is
+ri[x]-» -» r2[y]-» w2[x].
+The important fact to note is that T2 reads the value of y written by 7\. By contrast, in the original execution, T2 reads some prior value of y. Since T2 reads
+ACM Transactions on Database Systems, Vol. 9, No. 4, December 1984.
+598 • P. A. Bernstein and N. Goodman
+a different value of y in each execution, the executions are not "equivalent"; i.e., in general, they do not have the same effect. A similar argument holds if T2 comes first in the serial execution.
+Example 2. Consider a database with data-items x and y and copies xa, xb, xc, and yd at sites a, b, c, and d, respectively. Consider two transactions: 7\ writes x then reads y; T2 reads x then writes y. And suppose site b is recovering from failure as the example begins. The algorithm allows the following execution:
+wi[xc] -*wi[xa\ rx[yd]
+nn[*«] —" w.n[x/>r
+^^^[Xfc] w2[yd]
+"'"info]" and "win[xi,]" are operations invoked by the system to bring xb up-to-date. (The subscript "in" stands for "include"; this is explained in Section 3.1.)
+When the example begins, xa and xc are the only copies of x at up sites. So to write x, Ti only writes these copies. However, site b is recovering in parallel with Ti's execution. By the time Ti finishes, copy xb is also up. The algorithm makes no provision for this case.
+Proceeding as in Example 1, we can show that the execution is not equivalent to a serial execution of 7\ and T2 on a one-copy database. The serial execution in which Ti comes first is
+Wi[x]-» ri[y]-» r2[x]-» w2[y].
+Note that T2 reads the value of x written by Tx, whereas in the original execution, T2 reads a prior value of x (copied from xa into xb). Since T2 reads a different value of x in each execution, the executions are not equivalent. A similar argument holds if T2 comes first.
+This paper presents an embellished form of this simple algorithm, called an available copies algorithm. For each data item x, the algorithm maintains a directory listing the copies of x that are "available for use." If a transaction operates on x, the site running the transaction must store a copy of this directory (except as discussed in Section 3.7). When a transaction reads x, the algorithm consults the directory and reads some copy listed there. When a transaction writes x, the algorithm consults the directory and writes all copies. The algorithm runs special status transactions to keep directories up-to-date as sites fail and recover.
+Related work includes [1-3, 5, 9,11, 13,14, 17, 18, 20, 30, 32, 33],
+Our algorithm is a close relative of the one used in Computer Corporation of America's Adaplex system [10, 18]; other related algorithms appear in [5]. Our algorithm is an intellectual descendent of Alsberg's et al. primary site algorithm [1, 2], the primary copy algorithm proposed for distributed Ingres [30], and of SDD-l's reliable network [20].
+Two other approaches to replicated data are quorum consensus [9, 11, 17, 32] and missing write [13, 14]. In the simplest form of quorum consensus, a transaction reads x by accessing a majority of copies and reading the most up-to-date
+ACM Transactions on Database Systems, Vol. 9, No. 4, December 1984.
+/
+An Algorithm for Concurrency Control and Recovery • 599
+one; a transaction writes x by writing a majority of copies. In the missing writes algorithm, a transaction executes differently, depending on whether sites are up or down. While all sites are up, a transaction reads x by reading any copy and writes x by writing all copies; while any site is down, transactions use quorum consensus.
+The main features of our algorithm are
+(1)	A transaction can operate on a data item so long as one or more copies are available. To tolerate k failures, the system only needs k + 1 copies. In particular, to tolerate single-site failures, the system only needs two copies. (By contrast, quorum consensus and missing writes need three copies to tolerate single-site failures.)
+(2)	A transaction can read a data item by accessing a single copy. If a user has a copy of x at his local site, he can read it without involving other sites.
+(3)	The algorithm provides an integrated mechanism for adding and removing data item copies from the database. In this paper we only use the mechanism for failure and recovery purposes, but it could also be used to reconfigure the database as users' needs change.
+(4)	The algorithm is biased in favor of routine, predictable transactions at the expense of ad hoc queries. With proper database design, our algorithm processes routine transactions as efficiently as the simple algorithm does. The algorithm assumes that site failures occur infrequently compared to the transaction processing rate. Major costs are only paid when a site fails or recovers.
+There are also some weaknesses:
+(1)	The algorithm handles a limited class of failures, namely, clean, detectable site failures. The algorithm does not handle Byzantine failures, network failures, or network partitions. See Section 2 for a discussion of this point. (Quorum consensus and missing writes can handle more failures.)
+(2)	Our presentation is abstract. We describe basic concepts and mechanisms for replicated data; we do not explain how to build these mechanisms into a complete distributed database system. See [18] for one approach to this issue.
+(3)	We do not prove the correctness of our algorithm, although we sketch a correctness proof. See [5] for a complete proof of a similar algorithm.
+This paper has five sections. Section 2 defines basic terms and assumptions, and explains the types of failures our algorithms can handle. Section 3 presents the algorithm. Section 4 sketches a correctness proof. Section 5 is the conclusion.
+2. BACKGROUND 2.1 Database Model
+Logically, a database is a set of data items, denoted by x, y, z,.... The database system (DBS) processes read and write operations on data items. Operation read(x) returns the current value of x. Operation write(x) assigns a new value to x. Users interact with the DBS by running programs, called transactions, that issue reads and writes.
+ACM Transactions on Database Systems, Vol. 9, No. 4, December 1984.
+600 • P. A. Bernstein and N. Goodman
+Physically, each data item x has one or more copies, denoted xa, xb.....Each
+copy is stored at a site. When a user transaction issues a read(x) operation, the DBS reads some copy of x. When a user transaction issues a write (x) operation, the DBS writes one or more copies of x.
+Data items are an abstraction. They do not correspond directly to real database objects, such as records and files. Data items are record-like in that they can be read and written by basic operations. They are file-like in that they are named objects visible to the user. To build our algorithm into a system, one must recast this abstraction in terms of database objects that exist in the system.
+Users expect the DBS to behave as if it executes transactions one-at-a-time against the logical, one-copy database. Physically, though, the DBS executes many transactions at a time against the physical, multicopy database. The problem addressed in this paper is to ensure that every physical execution is equivalent to a logical execution.
+2.2 Failure Assumptions
+The components of a distributed DBS can fail in many ways. No algorithm can survive all possible failures. This section describes the failures our algorithm is designed to survive.
+We assume that site failures are clean: when a site fails it simply stops running; when the site recovers, it "knows" that it failed and initiates a recovery procedure. We do not consider Byzantine failures [12, 24], in which a site continues to run but performs incorrect actions.
+Clean failures and Byzantine failures are two ends of a spectrum. Most real failures lie between these extremes. When a fault occurs, the site runs incorrectly for some time until it detects the fault. By assuming that failures are clean, we are assuming that faults are detected before serious damage is done. This assumption is implicit in all centralized database recovery algorithms [19].
+We assume that site failures are detectable: while a site is "down," other sites can detect this fact. Some networks provide this feature internally (e.g., the early ARPANET NCP protocol [31] and SNA's virtual circuit protocol [21]). Others do not (e.g., the current ARPANET TCP/IP protocol [31]). If the network does not provide this feature, the DBS must implement it through high-level timeouts—which are not completely satisfactory, but are workable in practice.
+This assumption is controversial. Quorum consensus and missing writes algorithms do not need it. We feel it is justified for two reasons. First, algorithms that do not make this assumption pay dearly. Quorum consensus and missing writes need three copies of a data item to tolerate a single failure; we feel this is too expensive. Second, failure detection is a generally useful feature. There is compelling theoretical evidence [16] that every reliable, distributed algorithm needs this feature or something comparable (namely, high-level time-outs).
+Our third assumption is that the network never becomes partitioned: if two sites are "up," they can always communicate. This assumption is appropriate for some networks, but not others. It is appropriate for most local area networks and for long-haul networks such as ARPANET that have multiple paths between sites and automatic routing. This assumption is not needed by quorum consensus and missing writes algorithms.
+ACM Transactions on Database Systems, Vol. 9, No. 4, December 1984.
+An Algorithm for Concurrency Control and Recovery • 601
+Finally, we assume that routine communication errors—lost, duplicate, and garbled messages—are handled by the network. If site a sends a message to site b, site b eventually receives the message, unless it fails first. We make no assumption about message ordering.
+In summary, our algorithm is designed to survive clean, detectable site failures; it is not designed to handle Byzantine failures, network partitions, or network errors.
+2.3 System Assumptions
+Many important aspects of DBS reliability are beyond the scope of this paper.
+We assume that every site runs a centralized DBS recovery algorithm [7, 19]. When a transaction commits, the site installs the transaction's updates into the permanent database. When a transaction aborts, the site undoes the transaction's updates. When a site recovers, the site undoes uncommitted updates and redoes committed updates, as necessary.
+We assume that the distributed DBS runs a distributed atomic commit algorithm, such as two-phase commit [22, 27]. When a transaction commits (or, respectively, aborts), the system commits (or, respectively, aborts) the transaction at all sites where it was active.
+Finally, we assume that the system runs a "total failure" algorithm [18, 28]. A total failure of data item x occurs when all sites storing copies of x fail. During a total failure of x, no one can operate on x because there are no "up" copies. As sites recover, the total failure algorithm determines which site (or, sites) failed last. When the last site to fail has recovered, transactions can resume using x, because that site holds the most up-to-date copy of x. There is an important case of total failure: if x is not replicated, a total failure of x occurs every time the site storing x fails.
+Total failure is orthogonal to this paper. Total failure cannot cause executions to violate 1-serializability.
+3. THE ALGORITHM
+Sections 3.1 to 3.3 explain basic concepts and techniques used in the algorithm; Sections 3.4 and 3.5 describe the algorithm itself; Section 3.6 illustrates the algorithm based on the examples from the Introduction; and Section 3.7 discusses a way of tuning performance.
+3.1 Basic Concepts
+Associated with each data item x is a directory d(x). Directories are replicated. We use dt(x), du(x),... to denote copies of d(x); we leave out the "x," writing dt, du,... when no ambiguity is possible. Each directory copy dt(x) stores two kinds of information: a list of available copies of x, denoted dt-data-items-, and a list of available copies of d(x), denoted dr directories.
+The heart of our algorithm consists of special transactions, called status transactions, which make copies available and unavailable. These are
+INCLUDE (^0)—make x„ available EXCLUDE(xa)—make xa unavailable DIRECTORY-INCLUDE (d,)—make dt available
+ACM Transactions on Database Systems, Vol. 9, No. 4, December 1984.
+602 • P. A. Bernstein and N. Goodman
+There is no DIRECTORY-EXCLUDE transaction; dt becomes unavailable the instant its site fails.
+The DBS invokes EXCLUDE transactions when a site fails, and INCLUDE and DIRECTORY-INCLUDE transactions when a site recovers. There is one exception: the DBS does not exclude copies of data items that have "totally failed"; see Section 2.3 and [18].
+It is notationally convenient to treat copies at recovering sites as new copies that are joining the system for the first time. Thus, each copy has a well-defined lifetime. It is "born" (i.e., joins the system) at some point. Then it is included, thereby becoming available. Later it dies (i.e., its site fails). Then it is excluded. Once a copy is excluded, it remains unavailable forever.
+Each transaction is supervised by a single site, called its transaction manager; cf. [4]. (Different transactions may, of course, have different transaction managers.) In most cases, if a transaction operates on x or d(x), its transaction manager must have an available copy of d(x). (Section 3.7 relaxes this requirement.) If the transaction manager for a transaction fails before the transaction reaches its "locked point" (see below), the DBS aborts the transaction.
+3.2 Two-Phase Locking
+Concurrency control is by two-phase locking (2PL). The algorithm sets some types of locks on data item copies and others on directory copies.
+On data item copies, the algorithm sets read-locks and write-locks. These conflict in the usual way.
+On directory copies, the algorithm sets din-locks, in-locks, ex-locks, and user-locks. These are set by DIRECTORY-INCLUDE, INCLUDE, EXCLUDE, and user transactions, respectively. As usual, locks on different copies do not conflict. Locks on the same copy conflict as shown below.
+|------(-----h----1-----
+	din	in	ex	i user 1
+din-lock		X	i x	i 1 — 1
+in-lock	r	X	1 X	1 1 X 1
+ex-lock	X	X	1 X	1 1 — i
+user-lock	_	X	j —	1 1 — 1
+— = compatible x = conflict
+It is a basic property of 2PL that, for every transaction, there is a period of time during which it owns all of its locks. The locked point of a transaction is an arbitrarily chosen point within this period [8].
+We pay no attention to deadlock, which can be handled by well-known techniques.
+ACM Transactions on Database Systems, Vol. 9, No. 4, December 1984.
+An Algorithm for Concurrency Control and Recovery • 603
+3.3	Availability Testing
+This section describes mechanisms for telling if copies stored at remote sites are available. There is one mechanism for directory copies and another for data item copies.
+Suppose site b stores directory copy du, and suppose site a knows that du was available sometime in the past. Site a determines if du is still available as follows:
+(1)	If site b is "up," site a asks b whether du is available.
+(2)	If site b is "down," site a asserts that du is unavailable.
+This is correct because directory copies become unavailable the instant their site fails, and remain unavailable thereafter (see Section 3.1). This mechanism depends critically on our assumption that site failures are detectable (see Section 2.2).
+Suppose site b stores data item copy xh, and suppose site a knows that x was available sometime in the past. Site a determines whether xb is still available by consulting an available directory copy dt. Copy xb is still available if xb is in dr data-items.
+3.4	Status Transactions
+The next two sections present the body of our algorithm. This section describes status transactions, the next section user transactions.
+An INCLUDE transaction, INCLUDED), makes data item copy xa available. This transaction has two jobs: it initializes xa to the "current value" of x and it adds xa to the data-item list of each available copy of d(x).
+A DIRECTORY-INCLUDE transaction, DIRECTORY-INCLUDE (dt), makes directory copy dt available. This transaction is similar to INCLUDE: it initializes dt to the "current value" of d(x), and it adds dt to the directory list of each available copy of d{x).
+An EXCLUDE transaction, EXCLUDE(x„), makes data item copy xa unavailable. The transaction removes xa from the data item list of each available copy of d(x).
+Each status transaction has one other job. If the transaction discovers that some directory copy du has become unavailable, the transaction removes du from the directory list of each available copy of d(x).
+Special forms of INCLUDE and DIRECTORY-INCLUDE exist to create the first copy of each logical data item. When a user decides to add a new logical data item x to the database, there are two steps. First, he creates an initial copy of d(x) by invoking an initial DIRECTORY-INCLUDE transaction. Then, he creates the initial copy of x by invoking an initial INCLUDE transaction.
+We present the special "initial" transactions first, followed by the normal DIRECTORY-INCLUDE, INCLUDE, and EXCLUDE transactions.
+Initial DIRECTORY-INCLUDE Input: dt—the initial directory copy for x
+1.	Set a din-lock on dt.
+2.	Write d,-data-items := j}, signifying that no copies of x are available, and dt ■ directories := |d,|, signifying that dt is the only available copy of d(x). This write implicitly releases the din-lock on dt.
+ACM Transactions on Database Systems, Vol. 9, No. 4, December 1984.
+604 • P. A. Bernstein and N. Goodman
+Initial INCLUDE
+Input: x„—the initial copy of x
+x-val—the initial value of xa The transaction manager for this transaction must have an available copy of d{x). Let d, be this copy.
+1.1	Set an in-lock on dt and read d,- directories. Let dir be the value read.
+1.2	Set a write-lock on xa.
+2. For each d„ in dir-jd,), test whether d„ is still available and, if so, set an in-lock on d„. Let avbl = |d,} union the set of copies locked in this step.
+3.1	For each d„ in avbl, test whether d„ is still available and, if so, write dL-directories := avbl and d„-data-items := |x„ j. Each write implicitly releases the in-lock on d„.
+3.2	In parallel with step 3.1, write xa := x-val and release the write-lock on xa.
+Normal DIRECTORY-INCLUDE Input: du—a new directory copy for x
+The transaction manager for this transaction must have an available copy of d(x). Let d, be this copy.
+1.	Set din-locks on d, and du, then read d, • directories and d, ■ data-items. Let dir and data be the values read.
+2.	For each d„ in dir-jd,}, test whether d„ is still available and, if so, set a din-lock on d„. Let avbl = jd(, du j union the set of copies locked in this step.
+3.	For each d„ in avbl, test whether dv is still available and, if so, write d„-directories := avbl. For du, also write du ■ data-items := data. Each write implicitly releases the din-lock on d„.
+Normal INCLUDE Input: xb—a new copy of x
+The transaction manager for this transaction must have an available copy of d(x). Let d, be this copy.
+1.1	Set an in-lock on d, and read d, • directories and d, • data-items. Let dir and data be the values read.
+1.2	For some xa in data, set a read-lock on xa and read it. Let x-val be the value read.
+1.3	Set a write-lock on xb.
+2. For each d„ in dir-(d,j, test whether d„ is still available and, if so, set an in-lock on
+d„.
+Let avbl = |d,J union the set of copies locked in this step.
+3.1	For each d„ in avbl, test whether d„ is still available and, if so, write du-directories : = avbl and d„-data-items := data union \xb}. Each write implicitly releases the in-lock on dv.
+3.2	In parallel with step 3.1, write xb := x-val and release the read-lock on xa and the write-lock on xb.
+EXCLUDE Input: xb—an existing copy of x
+The transaction manager for this transaction must have an available copy of d(x). Let d, be this copy.
+ACM Transactions on Database Systems, Vol. 9, No. 4, December 1984.
+An Algorithm for Concurrency Control and Recovery • 605
+1.1	Set an ex-lock on dt and read drdirectories and dt-data-items. Let dir and data be the values read.
+1.2	If data = (*;,), then this is a total failure of x, so stop.
+2.	For each dv in dir-jd,), test whether d„ is still available and, if so, set an ex-lock on du. Let avbl = \d,\ union the set of copies locked in this step.
+3.	For each d„ in avbl, test whether dv is still available and, if so, write du ■ directories := avbl and d„-data-items := data minus (xj}. Each write implicitly releases the in-lock on d„.
+3.5 User Transactions
+We now explain how the algorithm processes user transactions. There are three parts: procedures to process read(x) and write (a) operations and a procedure executed when a user transaction reaches its locked point.
+Let Tj be a user transaction. To operate on x, T,'s transaction manager must have an available copy of d(x). Let dt be this copy.
+To read(x )
+(1)	Read data-items. Let data be the value read.
+(2)	Set a read-lock on some xa in data, then read xa.
+To write(x)
+(1)	Set a user-lock on dt.
+(2)	For each xa in dt ■ data-items, test whether xa is still available and, if so, set a write-lock on xa.
+A copy xa may be available when this step begins, but becomes unavailable during the step, because we allow EXCLUDES to run concurrently with user transactions. (Note from Section 3.2 that ex-locks and user-locks do not conflict.) This is not an error.
+The step ends when every xa in dt- data-items is write-locked or is unavailable. T, can go on to its next operation before this step ends, leaving this step running in the background. T; does not reach its locked point until this step ends.
+(3)	For each xa locked in step 2, test whether xa is still available and, if so, write it. If xa has become unavailable, ignore it.
+This step occurs independently for each xa. For some, it may occur right after step 2 sets the lock, for others, much later, after Ti reaches its locked point.
+When T reaches its locked point
+1.	For each xa read by Ti, if xa is not in dr data-items or, if EXCLUDER) has an ex-lock on dt, then abort T,.
+This test ensures that every xa read by Ti is still available, and is not in the process of being made unavailable.
+2.	Do the following in parallel.
+2.1	Release all user-locks and read-locks.
+2.2	Finish step 3 of the write procedure and release all write-locks. Two practical notes should be mentioned.
+ACM Transactions on Database Systems, Vol. 9, No. 4, December 1984.
+606 • 
+P. A. Bernstein and N. Goodman
+T,
+r[di(x)]rl[xa]r[xa]ul[di(y)]r[di{y)]wl[yc]lpw[yc]
+EXCLUDE (xa)
+EXCLUDE (y„)
+e/[d„(y)]r[tf„(y)]e/[d,(y)]e/[d2(y)]/pw[c
+e/[d,(x)]r[d,(x)]e/[d,(x)]e/[c(2(x)]/pw[d,(J<)]w[d,(x)]iv[c/2(x)]
+r[d2(y)]d[y0]/-[yt)]u/[d2(y)]/-[d2(x)]kv/[xb]/p ABORT!
+Fig. 1. The execution. Notation: r and w represent read and write operations, rl, wl, el, and ul represent the settings of read-locks, write-locks, ex-locks, and user-locks, respectively. lp represents a transaction's locked point. We indicate off to the left which symbols go with which transactions. The order of execution is given by the left-to-right order of symbols on the page and by arrows.
+(1)	If EXCLUDE (x0) locks dt while T, is running, the DBS can abort T, immediately instead of waiting for Ti to reach its locked point.
+(2)	Phase 1 of two-phase commit can run before T, reaches its locked point. Phase 2, however, must not run until step 1 of the locked-point procedure ends. Phase 2 of two-phase commit and step 2 of the locked-point procedure can use the same messages.
+3.6 Examples
+To see how the algorithm works, let us apply it to the examples from the Introduction. The first example illustrates EXCLUDE, the second illustrates INCLUDE.
+Example 1 (revisited). See Figure 1. The database has logical data items x and y, with copies xa, xb, yc, and yd. There are two user transactions: 1\ reads x then writes y, T2 reads y then writes x.
+We shall need several directory copies: di{x) and di(y) at Ti's transaction manager; d2(x) and d2(y) at T2 s transaction manager; and dt(x) and du(y) for use by EXCLUDES.
+All copies are available when the example begins.
+Let us consider T, first. The DBS processes read(.t) by reading di(x), then locking and reading xa. It processes write(y) by setting a user-lock on di(y), reading di(y), and trying to lock all copies listed on d\• data-items, namely, yc and yd. As in the Introduction, we assume that jv's site fails during this activity, and only yc is locked. Tj cannot reach its locked point until yd becomes unavail-
+ACM Transactions on Database Systems, Vol. 9, No. 4, December 1984.
+An Algorithm for Concurrency Control and Recovery • 607
+able. This cannot happen until EXCLUDER) writes d^(y). So, let us examine the execution of EXCLUDE (yd) next.
+EXCLUDER) locks and reads du(y) and then locks all copies listed in du-directories, namely, di(y) and d2(y). After reaching its locked point, EXCLUDER) writes du{y), di(y), and d2(y). As observed above, the write on di (y) must precede Tt's locked point. There is an arrow in Figure 1 to reflect this. EXCLUDED,) executes similarly.
+Now, let us return to Ti. When 7\ reaches its locked point, the DBS tests whether xa is still available. More precisely, it ensures that EXCLUDE(xa) has not yet locked di(x). There is an arrow in Figure 1 to reflect this.
+Finally, let us see how T2 executes. The DBS processes read(y) by reading d2{y), then locking and reading yd. It processes write(x) by setting a user-lock on d2(x), reading d2(x), and trying to lock all copies listed in d2■ data-items, namely, xa and Xb. As in the Introduction, jca's site fails during this activity, and only xb is locked. T2 cannot reach its locked point until xa becomes unavailable. This cannot happen until EXCLUDER) writes d2(x). There is an arrow in Figure 1 to reflect this.
+When T2 reaches its locked point, the DBS tests whether EXCLUDER) has locked d2{y). Following paths in Figure 1, we find:
+(1)	EXCLUDER) locks d2(y) before writing dAyY,
+(2)	EXCLUDE(yd) writes cMy) before Tj reaches its locked point;
+(3)	Ti reaches its locked point before EXCLUDE(x0) locks di(x);
+(4)	EXCLUDE(xa) locks d:(x) before writing c?2(x); and
+(5)	EXCLUDER) writes d2(x) before T2 reaches its locked point.
+Therefore, EXCLUDER) locks d2(y) before T2 reaches its locked point, and T2 aborts. This is the outcome we want, because the example represents an incorrect execution.
+Example 2 (revisited). The database has logical data items x andy, with copies xa, xb, xc, and yd. There are two user transactions: T\ writes x then reads y, T2 reads x then writes y.
+We need the following directory copies: dt (x) and dr (y) at 7Ys transaction manager; d2(x) and d2(y) at T2's transaction manager; and dt(x) for use by INCLUDE(xfc).
+All copies except Xb are available when the example begins. Copy xh becomes available during the example.
+The problem is to synchronize INCLUDE (*(,) with T}. There are three possible correct outcomes:
+(1)	Ti logically precedes INCLUDE^). In this case, the INCLUDE initializes xb to the value of x written by Ti.
+(2)	INCLUDE(xfc) logically precedes Ti. In this case, copy xb is available when Ti runs, and Tj writes all three copies of x.
+(3)	Deadlock. One or the other transactions aborts.
+The algorithm achieves this synchronization by locking. T\ sets a user-lock on di(x); INCLUDE(xfc) sets an in-lock on d\ (x); these locks conflict. If Tx sets its
+ACM Transactions on Database Systems, Vol. 9, No. 4, December 1984.
+608 • P. A. Bernstein and N. Goodman
+Fig. 2.
+Fig. 3.
+lock first, we get the first outcome (or deadlock). If the INCLUDE sets its lock first, we get the second outcome (or deadlock).
+Figures 2 and 3 illustrate the first two outcomes. The only new notation is: "il" represents the setting of an in-lock.
+In both cases, T2 reads the value of x produced by Tx. Both outcomes are equivalent to a serial execution of T, followed by T2 on a one-copy database.
+3.7 Performance Tuning
+For site a to serve as the transaction manager for Ti, a must store a directory copy for each data item used by Ti. The allocation of directory copies to sites is an important optimization problem.
+With most reasonable allocations, cases may arise in which a user wants to run Ti at site a, even though o does not have copies of all needed directories. We can handle such cases in two ways.
+(1)	We can move the missing copies to a by running DIRECTORY-INCLUDE transactions. When the copies are no longer needed, we would like to exclude them. This requires that the system support explicit DIRECTORY-EXCLUDE transactions.
+(2)	We can let T, use nonlocal copies of the missing directories. This requires a change to the algorithm: when T, reaches its locked point, the algorithm must
+ACM Transactions on Database Systems, Vol. 9, No. 4, December 1984.
+An Algorithm for Concurrency Control and Recovery • 609
+test whether each nonlocal directory copy is still available, and abort T; if any is not.
+The second choice can be expensive. In some DBS's, a transaction reaches it locked point after the first phase of atomic commit. The availability testing must be done after the first phase ends, but before the second phase begins. In effect, this adds an extra phase to atomic commit.
+Intuition suggests that the second approach may be worthwhile for ad hoc queries, as opposed to production transactions. In [5] we describe an algorithm that takes this idea to its extreme, treating all directory copies as nonlocal.
+4. CORRECTNESS PROOF
+This section sketches a correctness proof for our algorithm. The proof is based on serializability theory [4, 8, 23, 26, 29, 34]. Serializability theory analyzes an algorithm by analyzing the execution orders it allows. An algorithm is correct if all of its execution orders are correct. For a replicated data algorithm, "correct" means "1-serializable."
+The proof has two main stages. The first derives "synchronization properties" enforced by the algorithms. The second proves that these synchronization properties imply correctness.
+Section 4.1 defines terminology used in the proof; Section 4.2 sketches the first stage; and Section 4.3 sketches the second stage. Complete proofs of related algorithms appear in [5].
+4.1	Terminology
+An execution order is called a log. Logs are like the diagrams we use in Sections 1 and 3. The main differences are (1) logs only contain operations from committed transactions; this is acceptable because an aborted transaction has no visible effects. And, (2) logs contain INCLUDES and EXCLUDES for all data item copies used in the log, and DIRECTORY-INCLUDEs and DIRECTORY-EXCLUDEs for all directory copies used in the log.
+When we draw logs as diagrams, we indicate the execution order by the left-to-right order of symbols and by arrows; in text, we use "<."
+We use the following notation: "r" and "w" represent reads and writes executed on behalf of transaction Ti, "op " means "r" or "in,"; "/pi" represents T's locked point. We abbreviate INCLUDE by IN, EXCLUDE by EX, DIRECTORY-INCLUDE by DIN, and DIRECTORY-EXCLUDE by DEX.
+Let Ti be a status transaction. Directory copy du is potentially available for Ti if du is listed in the directory copy that Ti reads. Let 71, be a user transaction. Data item copy xa is potentially available for Ti if Ti operates on x, and xa is listed in the copy of d(x) that Ti reads.
+4.2	Synchronization Properties
+We analyze the algorithm by studying the logs that result from running the algorithm.
+The first step is to derive synchronization properties that hold in every log produced by the algorithm. Bear in mind that logs only contain committed
+ACM Transactions on Database Systems, Vol. 9, No. 4, December 1984.
+610 • P. A. Bernstein and N. Goodman
+transactions; if a transaction violates the synchronization properties, it is aborted. Intuitively, the synchronization properties are
+Conflict property—if transactions Ti and Tj execute conflicting operations, the transactions are synchronized so that one transaction "logically precedes" the other.
+Write property—if a copy is potentially available for T,, but Ti does not use the copy, then Ti "logically follows" the copy's exclusion.
+Read property—if Ti reads a copy, then Ti "logically precedes" the copy's exclusion.
+We now state the synchronization properties precisely, and explain briefly how the algorithm enforces them.
+Conflict property. Let T, and Tj both be status transactions, or let both be user transactions, or let one be a user transaction that writes x and the other an INCLUDE on x. If op, < opj and these operations conflict, then lpi < lPJ.
+For the cases listed here, all conflicting operations are synchronized by locks. (This can be verified by inspecting the algorithm.) The conclusion (lpi < lP]) is a basic property of two-phase locking.
+Write property 1. Let Tt be a status transaction. If du is potentially available for Ti, but Ti does not lock du, then DEX(dJ < lpi.
+The locked point of a status transaction (except an initial DIN) occurs after step 2. Step 2 tries to lock every potentially available copy, and does not finish until it locks each copy or discovers that the copy is unavailable.
+Write property 2. Let Ti be a user transaction that writes x. If xa is potentially available for T, , but T, does not write-lock xa, then the locked point of EX(xa) is <lpi.
+The locked point of T, occurs after step 2 of the write (x) procedure. Step 2 does not finish until it locks each potentially available copy or discovers that the copy is unavailable.
+Read property 1. Let Ti be a status or user transaction. If T, reads dt> then lpi < DEX(<2t).
+Every directory copy that T, reads is stored at its transaction manager. So DEX(dt) represents the failure of T's transaction manager. If this site fails before T, reaches its locked point, the DBS aborts Tl (see Section 3.1). This is why we insist that dt be stored at T's transaction manager.
+Read property 2. Let T, be a user transaction that reads x. If T, reads xa, then lPi < the locked point of EX(x„).
+Let dt be the copy of d(x) at T,'s transaction manager. Step 1 of the locked-point procedure makes sure that EX(xa) has not yet locked dt. EX(xa) cannot reach its locked point before this.
+4.3 Stage Two
+The remaining problem is to show that the synchronization properties, plus other facts apparent from the algorithm, imply 1-serializability.
+ACM Transactions on Database Systems, Vol. 9, No. 4, December 1984.
+An Algorithm for Concurrency Control and Recovery • 611
+This stage has three steps. Let L be a log produced by the algorithm. Step 1 finds a serial log L„, equivalent to L. Step 2 studies the behavior of status transactions in Ls; this step shows that status transactions use directories in the intuitively correct manner. Step 3 uses the result of step 2 to prove that Ls is 1-serializable. It follows that L is 1-serializable since L is equivalent to Ls by step 1.
+Step 1. An Equivalent Serial Log. Given a log L, we can obtain a serial log Ls by sorting L in order. We must show that Ls is equivalent to L. Let«: denote the left-to-right order of transactions in Ls, and let <sc= mean "<sc or identical to."
+Most pairs of conflicting operations in L are synchronized by 2PL. This ensures that the conflicting operations appear in the same order in L and Ls, and so cannot violate equivalence. The only conflicts not synchronized this way are directory reads by user transactions versus directory writes by status transactions. We argue that such conflicts appear in the same order in L and Ls anyway, or else do not matter.
+Let Ti be a user transaction that reads x, let xa be the copy T, reads, and let dt be the directory copy at T's transaction manager. The operations that matter vis a vis ri[dt] are writes on dt that change the status of xa or dt. These are writes on dt by lN(xa), DIN(dt), and EX(xa).
+In L, IN(jc0) writes dt before Ti reads dt. IN(x„) also writes xa before T, reads xa. Although the operations on dt are not locked, the operations on xa are locked. These locks force < lP in L, hence IN(x„) <sc Tl in Ls, as desired. In effect, the locks on xa act as surrogates for locks on dt.
+In L, DIN(g^) also writes dt before Ti reads dt. In order for Ti to run, dt must be available, meaning that DIN(d,) has written dt, thereby releasing its lock on dt. This ensures /pDiNwt) lPi in L, hence DIN(d() <sc Ti in Ls.
+The final case is EX(xa). In L, EX(jca) writes dt after T, reads dt. Read property 2 "catches" this conflict, by forcing lpi < lPExua) in L, hence T, <sc EX(xa) in Ls.
+Now let T be a user transaction that writes x. The operations that matter vis a vis ri[dt] are writes on dt by INCLUDES on any copies of x and DIN(df). Writes by EXCLUDES do not matter; it is always safe to write excluded copies since they cannot be read.
+The conflict between Ti and INCLUDES is synchronized by 2PL; this is what user-locks are for. The conflict between Ti and DIN(d() has already been discussed.
+To summarize the argument: All conflicts that matter are synchronized by 2PL or some other mechanism. This means that these conflicts appear in the same order in L and Ls. Therefore L and Ls are equivalent.
+Step 2. Status Transactions. Status transactions for different data items are disjoint. With no loss of generality, this step considers a single data item x.
+Intuitively, copy xa is available at a point in Ls if xa was included before the point and excluded after it. Step 2 proves that status transactions use directories in this intuitive manner.
+The main part of the argument shows that each status transaction reads a directory copy written by the last status transaction before it. This lemma is
+ACM Transactions on Database Systems, Vol. 9, No. 4, December 1984.
+612 • P. A. Bernstein and N. Goodman
+proved as follows. Suppose the lemma is false, and let Tj be the first transaction that violates it. That is,
+(1)	Tj is a status transaction,
+(2)	Tj reads du written by Th, and
+(3)	there exists a status transaction between Th and Tj that does not write du.
+Let Ti be the first such transaction (i.e., the one immediately following Th). The construction looks like this:
+wh[dt] wh[du] | r,[d,] ...lpi | r,K] ... lpj
+no write on du here.
+Since Th writes du, du is potentially available for Ti. Therefore, by write property 1, one of the following must hold.
+Case 1. Ti locks du. Tj reads du after Ti locks it, and so T, must unlock it. The only way T, can unlock du is to write it. But, by construction, Ti does not write du. Contradiction.
+Case 2. DEX(du) < lpi. Tj reads dt, and so read property 1 states that lP] < DEX(d(). Hence, lpj < DEX(d() < lpi. But by construction, lpi < lpj. Again, a contradiction.
+Since both cases lead to contradiction, the lemma is proved.
+To prove the main result of step 2 we use this lemma in a simple induction.
+Step 3. L„ is 1 -Serializable. In a serial one-copy log, a transaction that reads x reads the value written by the last transaction before it that writes x. Step 3 proves that the same property holds in L„, and so Ls is 1-serializable.
+The main part of the argument shows that L, satisfies the following property. Let Ti be a user transaction that writes x but does not write xa, and let IN(xa) <sc Ti. If transaction Tj reads xa, then Tj <sc=T,. That is, if xa is included before T,, but Ti does not write xa, then every transaction that reads xa comes before Ti.
+The proof goes as follows. Suppose the lemma is false, and let Ti and Tj violate it. That is,
+(1)	Ti is a user transaction that writes x, but not xa,
+(2)	IN(xJ « T,,
+(3)	Tj reads xa, and
+(4)	Ti«Tj.
+Let T read its copy of d(x) from Th.
+By an argument similar to case 1 of step 2, we can show that no INCLUDE on x comes between Th and Ti. Since IN(xJ «:=T'i by assumption (3), it follows that IN(xa) <sc Th. We can also show that Tj <$; EX(xc): if Tj is a status transaction, it holds by step 2; if Tj is a user transaction, it holds by read property 2. So, Ls looks like this:
+IN(xa) « Th « Ti« Tj« EX(x0).
+ACM Transactions on Database Systems, Vol. 9, No. 4, December 1984.
+An Algorithm for Concurrency Control and Recovery • 613
+By step 2, copy x„ is potentially available for 71,, since xa is included before T, and excluded after it. Therefore, by write property 2, one of the following must hold.
+Case 1. Ti locks xa. Tj reads x„ after T locks it, so Ti must unlock it. The only way Tj can unlock xa is to write it. But, by construction, T, does not write xa. Contradiction.
+Case 2. The locked point of EX(xJ < lpi. Tj reads xa, so read property 2 states that lPj < the locked point of EX(xa). Hence, lPJ < locked point of EX(xa) < lpi. But, by construction, lpi < lpj. Again, a contradiction.
+Since both cases lead to contradiction, the desired property of Ls is proved.
+Because of this property, it is easy to transform Ls into an equivalent serial one-copy log. For each x, make all operations in Ls refer to a single copy, and discard all noninitial INCLUDES.
+For example, if L, is
+the transformation yields
+wiN(xG)[*Jri[x„]u;i[x0]r2[xa].
+Thus, Ls is 1-serializable, as claimed.
+5. CONCLUSION
+We have presented an algorithm for managing replicated databases in a system where sites can fail and recover. Our algorithm extends the simple algorithm given in the Introduction, while preserving its essential character: namely, to read x, a transaction reads a single copy of x\ and to write x, a transaction writes all available copies. We have added enough mechanism to make this simple idea work.
+We believe our algorithm is an attractive alternative to quorum consensus and missing writes algorithms for systems that can use it. To use our algorithm, a system must employ lower-level mechanisms to make site failures look clean and detectable, and must use a network that does not partition easily. One system that meets these conditions is Computer Corporation of America's Adaplex system [10].
+We believe the algorithm will perform well when two further conditions are met.
+First, sites must fail infrequently. When a site fails, the algorithm updates all directory copies for all data items stored at the site. When the site recovers, the algorithm updates those directories again and, also, updates all directory copies for all directories stored at site. This is a lot of work. In systems where sites fail too often, quorum consensus and missing write algorithms might be better choices.
+Second, data access patterns must be predictable. If a transaction operates on x, its transaction manager must have a copy of the directory for x, or it must use
+ACM Transactions on Database Systems, Vol. 9, No. 4, December 1984.
+614 • P. A. Bernstein and N. Goodman
+the less efficient techniques discussed in Section 3.7. For routine "production" transactions, it is reasonable to assume that transaction managers will have the needed directories. For ad hoc queries, it is a less reasonable assumption. In systems with too many ad hoc queries, the algorithm in [5] might be better.
+For systems that meet these conditions, we believe our algorithm is a practical solution to the replicated data problem.
+ACKNOWLEDGMENTS
+We thank Umesh Dayal, Vassos Hadzilacos, and Dale Skeen for helping to formulate the ideas in this paper. We thank Jim Gray and an anonymous referee for improving the presentation.
+REFERENCES
+1.	Alsberg, P.A., Belford, G.G., Day, J.D., and Grapa, E. Multicopy resiliency techniques. In Distributed Data Management, J.B. Rothnie, P.A. Bernstein, and D.W. Shipman, Eds., IEEE, New York, 1978, 128-176.
+2.	Alsberg, P.A., and Day, J.D. A principle for resilient sharing of distributed resources. In Proceedings 2nd International Conference on Software Engineering (Oct. 1976), 562-570.
+3.	Attar, R., Bernstein, P.A., and Goodman, N. Site initialization, recovery, and back-up in a distributed database system. In Proceedings 6th Berkeley Workshop (Feb. 1982), 185-202.
+4.	Bernstein, P.A., and Goodman, N. A sophisticated introduction to distributed database concurrency control. In Proceedings 8th VLDB (Sept. 1982), 62-76.
+5.	Bernstein, P.A., and Goodman, N. Concurrency control and recovery for replicated distributed databases. TR-20-83, Center for Research in Computing Technology, Harvard Univ., July 1983.
+6.	Bernstein, P.A., and Goodman, N. Multiversion concurrency control—theory and algorithms. ACM Trans. Database Syst. 8, 4 (Dec. 1983), 465-483.
+7.	Bernstein, P.A., Goodman, N., and Hadzilacos, V. Recovery algorithms for database systems. In Proceedings 9th, IFIP Congress (Sept. 1983), 799-801.
+8.	Bernstein, P.A., Shipman, D., and Wong, W.S. Formal aspects of serializability in database concurrency control. IEEE Trans. Softw. Eng. SE-5, 3 (May 1979).
+9.	Breitwieser, H., and Leszak, M. A distributed transaction processing protocol based on majority consensus. In Proceedings 1st ACM SIGACT-SIGOPS Symposium on Principles of Distributed Computing (Aug. 1982), 224-231.
+10.	Chan, H., Dayal, U., Fox, S., Goodman, N., Ries, D., and Skeen, D. Overview of an Ada compatible distributed data manager. In Proceedings 1983 ACM SIGMOD Conference on Management of Data (May 1983), 228-231.
+11.	Daniels, D., and Spector, A.Z. An algorithm for replicated directories. In Proceedings 2nd ACM SIGACT-SIGOPS Symposium on Principles of Distributed Computing (Aug. 1983), 104113.
+12.	Doley, D. The Byzantine generals strike again. J. Algorithms 3, 1 (1982).
+13.	Eager, D.L. Robust concurrency control in a distributed database. TR CSRG U135, Univ. Toronto, Oct. 1981.
+14.	Eager, D.L., and Sevcik, K.C. Achieving robustness in distributed database systems. ACM Trans. Database Syst. 8, 3 (Sept. 1983), 354-381.
+15.	Eswaran, K.P., Gray, J.N., Lorie, R.A., and Traiger, I.L. The notions of consistency and predicate locks in a database system. Commun. ACM 19,11 (Nov. 1976), 624-633.
+16.	Fischer, M.J., Lynch, N.A., and Paterson, M.S. Impossibility of distributed consensus with one fault process. In Proceedings 2nd ACM SIGACT-SIGMOD Symposium on Principles of Database Systems (Mar. 1983).
+17.	Gifford, D.K. Weighted voting for replicated data. In Proceedings 7th Symposium on Operating Systems Principles (Dec. 1979), 150-159.
+18.	Goodman, N., Skeen, D., Chan, A., Dayal, U., Fox, S., and Ries, D. A recovery algorithm
+ACM Transactions on Database Systems, Vol. 9, No. 4, December 1984.
+An Algorithm for Concurrency Control and Recovery • 615
+for a distributed database system. In Proceedings 2nd ACM SIGACT-SIGMOD Symposium on Principles of Database Systems (Mar. 1983).
+19.	Gray, J.N. Notes on database operating systems. In Operating Systems: An Advanced Course, vol. 60, Springer-Verlag, 1978, 393-481.
+20.	Hammer, M.M., and Shipman, D.W. Reliability mechanisms for SDD-1: A system for distributed databases. ACM Trans. Database Syst. 5, 4 (Dec. 1980), 431-466.
+21.	Lindsay, B.G., Hass, L.M., Mohan, C., Wilms, P.F., and Yost, R.A. Computation and communication in R*: A distributed database manager. ACM Trans. Comput. Syst. 2, 1 (Feb. 1984), 24-38.
+22.	Lindsay, B.G., Selinger, P.G., Galtieri, C., Gray, J.N., Lorie, R.A., Price, T.G., Putzulo, F., Traiger, I.L., and Wade, B.W. Notes on distributed databases. In Distributed Databases, Drattan and Poole, Eds., Cambridge University Press, New York, 1980, 247-284.
+23.	Papadimitriou, C.H. Serializability of concurrent updates. J. ACM 26,4 (Oct. 1979), 631-653.
+24.	Pease, M., Shostak, R., and Lamport, L. Reaching agreement in the presence of faults. J. ACM 27, 2 (1980), 228-234.
+25.	Reed, D,P. Implementing atomic actions. In Proceedings 7th ACM Symposium on Operating Systems Principles (Dec. 1979).
+26.	Silberschatz, A., and Kedem, Z. Consistency in hierarchical database systems. J. ACM 27, 1 (Jan. 1980), 72-80.
+27.	Skeen, D. Nonblocking commit protocols. In Proceedings 1982 ACM SIGMOD Conference on Management of Data, 133-147.
+28.	Skeen, D. Calculating the last process to fail. In Proceedings 2nd ACM SIGACT-SIGMOD Symposium on Principles of Database Systems (Mar. 1983).
+29.	Stearns, R.E., Lewis, P.M., II, and Rosenkrantz, D.J. Concurrency controls for database systems. In Proceedings 17th Symposium on Foundations of Computer Science. IEEE, New York, 1976, 19-32.
+30.	Stonebraker, M. Concurrency control and consistency of multiple copies of data in distributed INGRES. IEEE Trans. Softui. Eng. SE-5, 3 (May 1979), 188-194.
+31.	Tannenbaum, A.S. Computer Networks. Prentice-Hall, Englewood Cliffs, N.J., 1981.
+32.	Thomas, R.H. A majority consensus approach to concurrency control for multiple copy databases. ACM Trans. Database Syst. 4, 2 (June 1979), 180-209.
+33.	Traiger, I.L., Gray, J., Galthier, C.A., and Lindsay, B.G. Transactions and consistency in distributed database systems. ACM Trans. Database Syst. 7, 3 (Sept. 1982), 323-342.
+34.	Yannakakis, M., Papadimitriou, C.H., and Kung, H.T. Locking policies: Safety and freedom from deadlock. In Proceedings 20th IEEE Symposium on Foundations of Computer Science (1979), 286-297.
+Received October 1983; revised June 1984; accepted June 1984
+ACM Transactions on Database Systems, Vol. 9, No. 4, December 1984.

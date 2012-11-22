@@ -1,0 +1,6 @@
+TITLE: Coda: A Resilient Distributed File System
+AUTHORS: M. Satyanarayanan, James Kistler, Ellen Siegel
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Distributed file systems have grown in importance in recent years. As our reliance on such systems increases, the problem of availability becomes more acute. Today, a single server crash or network partition can seriously inconvenience many users. Coda is a distributed file system that addresses this problem in its full generality. It is designed to operate in an environment such as the Andrew system at CMU [3, 5, 2], where many hundreds or thousands of workstations span a complex local area network. Coda aspires to provide the highest degree of availability possible in such an environment. An important goal is to provide this functionality without significant loss of performance.

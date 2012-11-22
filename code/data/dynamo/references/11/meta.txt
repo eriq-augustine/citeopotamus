@@ -1,0 +1,6 @@
+TITLE: NOTES ON DISTRIBUTED DATABASES
+AUTHORS: B.G. Lindsay
+TERMS:
+CATEGORIES:
+ABSTRACT:
+This paper is a set of notes on various subjects in singlesite and distributed database management systems. It is intended as our contribution to a set of notes for a course on distributed databases. Although the discussion is couched in relational terminology, the technology is relevant to other data models as well. Five subjects are covered inthis paper. The first is replicated data, with an emphasis on summarizing several update strategies and discussing their impact upon data consistency and currency. The second subject covered is authorization and views. Access control to files, logical views, and application programs is described in both local and multi-site environments. The next subject covered isan overview of distributed transaction management. The fourth discussion details recovery management protocols for transaction abort during normal processing, site recovery to a transaction consistent state. and media recovery for damaged on-line data. The last subject covered is multi-site transaction initiation, migration, and termination. Two commit protocols are presented which achieve uniform and atomic transactioncommit in the presence of site failures during a multi-site transaction.

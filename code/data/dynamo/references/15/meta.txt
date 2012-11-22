@@ -1,0 +1,6 @@
+TITLE: Resolving file conflicts in the Ficus file system
+AUTHORS: Peter Reiher, John Heidemann, David Ratner, Greg Skinner, Gerald Popek
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Ficus is a flexible replication facility with optimistic concurrency control designed to span a wide range of scales and network environments. Optimistic concurrency control provides rapid local access and high availability of files for update in the face of disconnection, at the cost of occasional conflicts that are only discovered when the system is reconnected. Ficus reliably detects all possible conflicts. Many conflicts can be automatically resolved by recognizing the file type and understanding the file's semantics. This paper describes experiences with conflicts and automatic conflict resolution in Ficus. It presents data on the frequency and character of conflicts in our environment. This paper also describes how semantically knowledgeable resolvers are designed and implemented, and discusses our experiences with their strengths and limitations. We conclude from our experience that optimistic concurrency works well in at least one realistic environment, conflicts are rare, and a large proportion of those conflicts that do occur can be automatically solved without human intervention.
