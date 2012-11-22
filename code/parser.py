@@ -2,6 +2,8 @@ import os
 import re
 import sys
 
+from paper import Paper
+
 # Use a more complicated marker for citations to reduce chance of collisions.
 CITATION_MARKER = '[<?>]'
 # This is used when there are multiple citation in a context.
@@ -12,7 +14,7 @@ def parseMeta(fileName):
    fileObj = open(fileName, 'r')
 
    rtn = {}
-   rtn['title'] = fileObj.readline().replace('TITLE: ', '')
+   rtn['title'] = fileObj.readline().replace('TITLE: ', '').strip()
    rtn['authors'] = [ author.strip() for author in fileObj.readline().replace('AUTHORS: ', '').split(',') ]
    rtn['terms'] = [ term.strip() for term in fileObj.readline().replace('TERMS: ', '').split(',') ]
    rtn['categories'] = [ cat.strip() for cat in fileObj.readline().replace('CATEGORIES: ', '').split(',') ]
@@ -41,12 +43,12 @@ def parseDir(dirName):
       fileObj = open(dirName + '/paper.txt')
       entry['fullText'] = fileObj.read().strip()
    else:
-      entry['fullText'] = none
+      entry['fullText'] = ''
 
    if os.path.exists(dirName + '/paper.pdf'):
       entry['pdfPath'] = dirName + '/paper.pdf'
    else:
-      entry['pdfPath'] = none
+      entry['pdfPath'] = ''
 
    return entry
 
@@ -129,9 +131,12 @@ def parseFullDataset(baseDir):
 
    parseCitations(rtn['root'])
 
-   return rtn
+   return Paper(rtn)
 
 if __name__ == "__main__":
    #print parseDir('data/dynamo')
-   #print parseFullDataset('data/dynamo')
-   parseFullDataset('data/dynamo')
+   paper = parseFullDataset('data/dynamo')
+   #parseFullDataset('data/dynamo')
+
+   print paper
+   print paper.references
