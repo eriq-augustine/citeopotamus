@@ -101,12 +101,37 @@ def parseCitations(entry):
             markedLine = rawLine.replace(cite, MARKED_CITATION_MARKER)
             markedLine = re.sub('\[\s*\d+\s*\]', CITATION_MARKER, markedLine)
 
-            #TODO(eriq): Sentence.
+            # HACK(eriq): I am replacing anoying false-positive sentence enders eg.
+            # 'e.g.', 'mr.', etc.
+            # This may accidentally join extra sentences, but it is better than too short sentences.
+            # This could be done in one, but it looks ugly and it should be fine.
+            hackLine = re.sub('e\.?g\.', '_eg_', rawLine, flags=re.IGNORECASE)
+            hackLine = re.sub('dr\.', '_dr_', hackLine, flags=re.IGNORECASE)
+            hackLine = re.sub('mr\.', '_mr_', hackLine, flags=re.IGNORECASE)
+            hackLine = re.sub('mrs\.', '_mrs_', hackLine, flags=re.IGNORECASE)
+            hackLine = re.sub('ms\.', '_ms_', hackLine, flags=re.IGNORECASE)
+            hackLine = re.sub('mme\.', '_mme_', hackLine, flags=re.IGNORECASE)
+
+            rawSentence = re.search(
+                  '(?:^|[\.\?!])\s*([^\.\?!]*' +
+                     re.escape(cite) +
+                     '\s*[^\.\?!]*\s*(?:$|[\.\?!]))',
+                  hackLine).group(1)
+
+            noCitationsSentence = re.sub('\[\s*\d+\s*\]', '', rawSentence)
+            noNumbersSentence = re.sub('\[\s*\d+\s*\]', CITATION_MARKER, rawSentence)
+            markedSentence = rawSentence.replace(cite, MARKED_CITATION_MARKER)
+            markedSentence = re.sub('\[\s*\d+\s*\]', CITATION_MARKER, markedSentence)
+
             citations.append({'paragraph': rawLine,
                               'noCitesParagraph': noCitationsLine,
                               'noNumbersParagraph': noNumbersLine,
                               'markedParagraph': markedLine,
-                              'numberOfCitesInParagraph': len(cites)
+                              'numberOfCitesInParagraph': len(cites),
+                              'sentence': rawSentence,
+                              'noCitationsSentence': noCitationsSentence,
+                              'noNumbersSentence': noNumbersSentence,
+                              'markedSentence': markedSentence
                              })
       else:
          noCitationsText += rawLine + "\n"
