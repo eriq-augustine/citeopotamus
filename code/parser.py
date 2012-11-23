@@ -3,6 +3,7 @@ import re
 import sys
 
 from paper import Paper
+from paper import Citation
 
 # Use a more complicated marker for citations to reduce chance of collisions.
 CITATION_MARKER = '[<?>]'
@@ -122,17 +123,13 @@ def parseCitations(entry):
             noNumbersSentence = re.sub('\[\s*\d+\s*\]', CITATION_MARKER, rawSentence)
             markedSentence = rawSentence.replace(cite, MARKED_CITATION_MARKER)
             markedSentence = re.sub('\[\s*\d+\s*\]', CITATION_MARKER, markedSentence)
+            citesPerSentence = len(re.findall('\[\s*\d+\s*\]', rawSentence))
 
-            citations.append({'paragraph': rawLine,
-                              'noCitesParagraph': noCitationsLine,
-                              'noNumbersParagraph': noNumbersLine,
-                              'markedParagraph': markedLine,
-                              'numberOfCitesInParagraph': len(cites),
-                              'sentence': rawSentence,
-                              'noCitationsSentence': noCitationsSentence,
-                              'noNumbersSentence': noNumbersSentence,
-                              'markedSentence': markedSentence
-                             })
+            citations.append(Citation(rawLine, noCitationsLine,
+                                      noNumbersLine, markedLine,
+                                      rawSentence, noCitationsSentence,
+                                      noNumbersSentence, markedSentence,
+                                      len(cites), citesPerSentence))
       else:
          noCitationsText += rawLine + "\n"
          noNumbersText += rawLine + "\n"

@@ -1,3 +1,5 @@
+import re
+
 class Paper:
    # |parseStructire| is assumed to be a dict generated from parser::parseFullDataset().
    def __init__(self, parseStructure, root = True):
@@ -42,3 +44,25 @@ class Paper:
          rtn += "\n{0} Citations and {1} References".format(len(self.citations), len(self.references))
 
       return rtn
+
+# Some context surrounding a citation.
+class Context:
+   # TODO(eriq): Have a good way of generating a context given just some raw text.
+   # It is non-trivial to do it nocely because we need to know what cite we are on
+   #  (since there can be multiple cites per context).
+   def __init__(self, rawText, noCitations, noNumbers, marked, number):
+      self.raw = rawText
+      self.noCitations = noCitations
+      self.noNumbers = noNumbers
+      self.marked = marked
+      self.numCitations = number
+
+class Citation:
+   def __init__(self,
+                paragraph, noCitesParagraph, noNumbersParagraph, markedParagraph,
+                sentence, noCitesSentence, noNumbersSentence, markedSentence,
+                citesPerParagraph, citesPerSentence):
+      self.sentenceContext = Context(sentence, noCitesSentence, noNumbersSentence,
+                                     markedSentence, citesPerSentence)
+      self.paragraphContext = Context(paragraph, noCitesParagraph, noNumbersParagraph,
+                                     markedParagraph, citesPerParagraph)
