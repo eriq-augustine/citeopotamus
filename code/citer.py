@@ -9,7 +9,7 @@ def main():
 
 def debugRun(paper):
    methods = []
-   methods.append(method.ProperNounMethod(paper))
+   #methods.append(method.ProperNounMethod(paper))
    methods.append(method.AbstractMethod(paper))
 
    hits = 0
@@ -36,7 +36,7 @@ def debugRun(paper):
       print "Actual Reference: {0}".format(correctReference)
       print '---------'
 
-   print "{0} / {1}".format(hits, len(paper.citations))
+   print "{0} / {1} ({2})".format(hits, len(paper.citations), hits / float(len(paper.citations)))
 
 if __name__ == "__main__":
    main()

@@ -14,7 +14,7 @@ def uniqueSets(sets):
       for key in sets.keys():
          if (key != currentKey):
             currentSet -= sets[key]
-            
+
       rtn[currentKey] = currentSet
 
    return rtn
@@ -31,15 +31,24 @@ def wordSplit(text):
    modText = re.sub("'|-|\$", '', modText)
    return modText.split()
 
-# Get bigrams, but remove stopwords before the stops.
-def getNonStopBigrams(text):
+# Get n-grams, but remove stopwords before the combination.
+def getNonStopNgrams(text, n):
    words = wordSplit(text)
    validWords = removeStopwords(set(words))
 
    bigrams = set()
-   for i in range(1, len(words)):
-      if words[i - 1] in validWords and words[i] in validWords:
-         bigrams.add('{0}-{1}'.format(words[i - 1], words[i]))
+   for i in range(n - 1, len(words)):
+      valid = True
+      gram = ''
+
+      for j in range(0, n):
+         if not words[i - j] in validWords:
+            valid = False
+            break
+         gram += words[i - j] + '-'
+
+      if valid:
+         bigrams.add(re.sub('\-$', '', gram))
 
    return bigrams
 

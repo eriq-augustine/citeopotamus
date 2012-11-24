@@ -60,7 +60,8 @@ class AbstractMethod(Method):
 
       for (key, reference) in paper.references.items():
          self.abstractWords[key] = util.getCapitalWords(reference.abstract)
-         self.abstractBigrams[key] = util.getNonStopBigrams(reference.abstract)
+         #self.abstractWords[key] = util.removeStopwords(set(util.wordSplit(reference.abstract)))
+         self.abstractBigrams[key] = util.getNonStopNgrams(reference.abstract, 2)
 
       self.abstractWords = util.uniqueSets(self.abstractWords)
       self.abstractBigrams = util.uniqueSets(self.abstractBigrams)
@@ -75,22 +76,37 @@ class AbstractMethod(Method):
 
    def guess(self, cite, paper):
       words = util.getCapitalWords(cite.sentenceContext.noCitations)
-      bigrams = util.getNonStopBigrams(cite.sentenceContext.noCitations)
+      bigrams = util.getNonStopNgrams(cite.sentenceContext.noCitations, 2)
 
       # Get the citation history for this context
       if not self.contextHistory.has_key(cite.sentenceContext.noCitations):
          self.contextHistory[cite.sentenceContext.noCitations] = set()
       history = self.contextHistory[cite.sentenceContext.noCitations]
 
+      maxIntersection = 0
+      bestRef = None
+
       # Check the bigrams first.
       for (referenceKey, abstractBigrams) in self.abstractBigrams.items():
-         if not referenceKey in history and len(abstractBigrams & bigrams) > 0:
-            history.add(referenceKey)
-            return int(referenceKey)
+         if not referenceKey in history:
+            intersection = len(abstractBigrams & bigrams)
+            if intersection > maxIntersection:
+               maxIntersection = intersection
+               bestRef = referenceKey
+
+      if bestRef:
+         history.add(bestRef)
+         return int(bestRef)
 
       for (referenceKey, nouns) in self.abstractWords.items():
-         if not referenceKey in history and len(nouns & words) > 0:
-            history.add(referenceKey)
-            return int(referenceKey)
+         if not referenceKey in history:
+            intersection = len(nouns & words)
+            if intersection > maxIntersection:
+               maxIntersection = intersection
+               bestRef = referenceKey
+
+      if bestRef:
+         history.add(bestRef)
+         return int(bestRef)
 
       return None
