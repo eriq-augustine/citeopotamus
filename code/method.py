@@ -52,3 +52,45 @@ class ProperNounMethod(Method):
             return int(referenceKey)
 
       return None
+
+class AbstractMethod(Method):
+   def __init__(self, paper):
+      self.abstractWords = {}
+      self.abstractBigrams = {}
+
+      for (key, reference) in paper.references.items():
+         self.abstractWords[key] = util.getCapitalWords(reference.abstract)
+         self.abstractBigrams[key] = util.getNonStopBigrams(reference.abstract)
+
+      self.abstractWords = util.uniqueSets(self.abstractWords)
+      self.abstractBigrams = util.uniqueSets(self.abstractBigrams)
+
+      #TEST
+      print "ABSTRACT:"
+      for (ref, nouns) in self.abstractWords.items():
+         print "{0}\n\tWords -- {1}\n\tBigrams -- {2}".format(ref, nouns, self.abstractBigrams[ref])
+
+      # There will be no more than one citation per reference per context (probably).
+      self.contextHistory = {}
+
+   def guess(self, cite, paper):
+      words = util.getCapitalWords(cite.sentenceContext.noCitations)
+      bigrams = util.getNonStopBigrams(cite.sentenceContext.noCitations)
+
+      # Get the citation history for this context
+      if not self.contextHistory.has_key(cite.sentenceContext.noCitations):
+         self.contextHistory[cite.sentenceContext.noCitations] = set()
+      history = self.contextHistory[cite.sentenceContext.noCitations]
+
+      # Check the bigrams first.
+      for (referenceKey, abstractBigrams) in self.abstractBigrams.items():
+         if not referenceKey in history and len(abstractBigrams & bigrams) > 0:
+            history.add(referenceKey)
+            return int(referenceKey)
+
+      for (referenceKey, nouns) in self.abstractWords.items():
+         if not referenceKey in history and len(nouns & words) > 0:
+            history.add(referenceKey)
+            return int(referenceKey)
+
+      return None

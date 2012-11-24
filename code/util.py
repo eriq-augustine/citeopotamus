@@ -1,6 +1,7 @@
 import re
 
-STOP_WORDS = []
+# Note: It convention for this code base to represent a unigram (and therefore
+# n-grams) as all capital.
 
 # Given a dict of sets, return a new dict of matching sets where each item
 # is unique to that set.
@@ -23,10 +24,32 @@ def getCapitalWords(text):
    words = re.findall('(?<![a-z])[A-Z]\w+', text)
    return set([word.upper() for word in words])
 
+# This will split the text into a list (NOT SET) of unigrams.
+def wordSplit(text):
+   modText = text.upper()
+   modText = re.sub('\[|\]|\(|\)|,|\.|:|;|"|~|\/|\\|(--)|#|!|\?', ' ', modText)
+   modText = re.sub("'|-|\$", '', modText)
+   return modText.split()
+
+# Get bigrams, but remove stopwords before the stops.
+def getNonStopBigrams(text):
+   words = wordSplit(text)
+   validWords = removeStopwords(set(words))
+
+   bigrams = set()
+   for i in range(1, len(words)):
+      if words[i - 1] in validWords and words[i] in validWords:
+         bigrams.add('{0}-{1}'.format(words[i - 1], words[i]))
+
+   return bigrams
+
 # TODO: More title stopwords
 # There are more words that are considered stopwords in the context of CS acedemic Paper titles.
 def removeTitleStopwords(words):
    return words - STOPWORDS - ADDITIONAL_STOPWORDS - TITLE_STOPWORDS
+
+def removeStopwords(words):
+   return words - STOPWORDS - ADDITIONAL_STOPWORDS
 
 TITLE_STOPWORDS = set([
                        'SYSTEM',
