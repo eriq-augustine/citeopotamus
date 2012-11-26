@@ -75,16 +75,20 @@ class AbstractMethod(Method):
       self.contextHistory = {}
 
    def guess(self, cite, paper):
-      words = util.getCapitalWords(cite.sentenceContext.noCitations)
-      bigrams = util.getNonStopNgrams(cite.sentenceContext.noCitations, 2)
+      words = util.removeStopwords(util.getCapitalWords(cite.paragraphContext.noCitations))
+      bigrams = util.getNonStopNgrams(cite.paragraphContext.noCitations, 2)
 
       # Get the citation history for this context
-      if not self.contextHistory.has_key(cite.sentenceContext.noCitations):
-         self.contextHistory[cite.sentenceContext.noCitations] = set()
-      history = self.contextHistory[cite.sentenceContext.noCitations]
+      if not self.contextHistory.has_key(cite.paragraphContext.noCitations):
+         self.contextHistory[cite.paragraphContext.noCitations] = set()
+      history = self.contextHistory[cite.paragraphContext.noCitations]
 
       maxIntersection = 0
       bestRef = None
+
+      #TEST
+      print bigrams
+      print words
 
       # Check the bigrams first.
       for (referenceKey, abstractBigrams) in self.abstractBigrams.items():
@@ -95,6 +99,9 @@ class AbstractMethod(Method):
                bestRef = referenceKey
 
       if bestRef:
+         #TEST
+         print self.abstractBigrams[bestRef]
+
          history.add(bestRef)
          return int(bestRef)
 
@@ -106,6 +113,9 @@ class AbstractMethod(Method):
                bestRef = referenceKey
 
       if bestRef:
+         #TEST
+         print self.abstractWords[bestRef]
+
          history.add(bestRef)
          return int(bestRef)
 

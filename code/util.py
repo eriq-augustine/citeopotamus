@@ -20,6 +20,7 @@ def uniqueSets(sets):
    return rtn
 
 # TODO(eriq): Watch the first capital.
+# This really aims to get proper nouns.
 def getCapitalWords(text):
    words = re.findall('(?<![a-z])[A-Z]\w+', text)
    return set([word.upper() for word in words])
@@ -27,8 +28,8 @@ def getCapitalWords(text):
 # This will split the text into a list (NOT SET) of unigrams.
 def wordSplit(text):
    modText = text.upper()
-   modText = re.sub('\[|\]|\(|\)|,|\.|:|;|"|~|\/|\\|(--)|#|!|\?', ' ', modText)
-   modText = re.sub("'|-|\$", '', modText)
+   modText = re.sub('\[|\]|\(|\)|,|\.|:|;|"|~|\/|\\|(--)|#|!|\?|\-', ' ', modText)
+   modText = re.sub("'|\$", '', modText)
    return modText.split()
 
 # Get n-grams, but remove stopwords before the combination.
@@ -70,6 +71,8 @@ TITLE_STOPWORDS = set([
 ADDITIONAL_STOPWORDS = set([
                             'WHEN',
                             'EACH',
+                            'DATA',
+                            'RESULTS'
                            ])
 
 # This list was taken from http://www.lextek.com/manuals/onix/stopwords1.html

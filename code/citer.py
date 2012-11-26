@@ -9,7 +9,7 @@ def main():
 
 def debugRun(paper):
    methods = []
-   #methods.append(method.ProperNounMethod(paper))
+   methods.append(method.ProperNounMethod(paper))
    methods.append(method.AbstractMethod(paper))
 
    hits = 0
@@ -19,6 +19,7 @@ def debugRun(paper):
       correctReference = paper.citationKey[i]
 
       print '---------'
+      print cite.paragraphContext.raw
       print cite.sentenceContext.raw
       print cite.sentenceContext.marked
       res = ''
