@@ -66,6 +66,20 @@ class AbstractMethod(Method):
       self.abstractWords = util.uniqueSets(self.abstractWords)
       self.abstractBigrams = util.uniqueSets(self.abstractBigrams)
 
+      # If a word appears in >= 25% of bigrams, then put it in the unigrams.
+      for (referenceKey, bigrams) in self.abstractBigrams.items():
+         counts = {}
+         for bigram in bigrams:
+            for word in bigram.split('-'):
+               word = util.STEMMER.stem(word)
+               if not counts.has_key(word):
+                  counts[word] = 1
+               else:
+                  counts[word] += 1
+         for (word, count) in counts.items():
+            if float(count) / len(bigrams) >= 0.25:
+               self.abstractWords[referenceKey].add(word)
+
       #TEST
       print "ABSTRACT:"
       for (ref, nouns) in self.abstractWords.items():
@@ -86,6 +100,19 @@ class AbstractMethod(Method):
       maxIntersection = 0
       bestRef = None
 
+      # If a word appears in >= 25% of bigrams, then put it in the unigrams.
+      counts = {}
+      for bigram in bigrams:
+         for word in bigram.split('-'):
+            word = util.STEMMER.stem(word)
+            if not counts.has_key(word):
+               counts[word] = 1
+            else:
+               counts[word] += 1
+      for (word, count) in counts.items():
+         if float(count) / len(bigrams) >= 0.25:
+            words.add(word)
+
       #TEST
       print bigrams
       print words
@@ -99,9 +126,6 @@ class AbstractMethod(Method):
                bestRef = referenceKey
 
       if bestRef:
-         #TEST
-         print self.abstractBigrams[bestRef]
-
          history.add(bestRef)
          return int(bestRef)
 
@@ -113,9 +137,6 @@ class AbstractMethod(Method):
                bestRef = referenceKey
 
       if bestRef:
-         #TEST
-         print self.abstractWords[bestRef]
-
          history.add(bestRef)
          return int(bestRef)
 
