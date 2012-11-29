@@ -1,21 +1,51 @@
 import re
 
+from nltk.stem.porter import PorterStemmer
+
+class StupidStemmer:
+   def stem(self, word):
+      return re.sub('[Ss]$', '', word)
+
+#STEMMER = PorterStemmer()
+STEMMER = StupidStemmer()
+
 # Note: It convention for this code base to represent a unigram (and therefore
 # n-grams) as all capital.
 
 # Given a dict of sets, return a new dict of matching sets where each item
 # is unique to that set.
-def uniqueSets(sets):
+# n is the number of sets that a word is allowed to belong in.
+def uniqueSets(sets, n = 1):
    rtn = {}
 
-   for currentKey in sets.keys():
-      currentSet = set(sets[currentKey])
+   if (n == 1):
+      for currentKey in sets.keys():
+         currentSet = set(sets[currentKey])
 
-      for key in sets.keys():
-         if (key != currentKey):
-            currentSet -= sets[key]
+         for key in sets.keys():
+            if (key != currentKey):
+               currentSet -= sets[key]
 
-      rtn[currentKey] = currentSet
+         rtn[currentKey] = currentSet
+   else:
+      for currentKey in sets.keys():
+         counts = {}
+
+         for key in sets.keys():
+            if (key != currentKey):
+               words = sets[currentKey] - sets[key]
+               for word in words:
+                  if not counts.has_key(word):
+                     counts[word] = 1
+                  else:
+                     counts[word] += 1
+
+         finalWords = set()
+         for (word, count) in counts.items():
+            if len(sets) - count <= n:
+               finalWords.add(word)
+         rtn[currentKey] = finalWords
+
 
    return rtn
 
@@ -26,11 +56,14 @@ def getCapitalWords(text):
    return set([word.upper() for word in words])
 
 # This will split the text into a list (NOT SET) of unigrams.
-def wordSplit(text):
+def wordSplit(text, stem = False):
    modText = text.upper()
    modText = re.sub('\[|\]|\(|\)|,|\.|:|;|"|~|\/|\\|(--)|#|!|\?|\-', ' ', modText)
    modText = re.sub("'|\$", '', modText)
-   return modText.split()
+   if stem:
+      return [ STEMMER.stem(word) for word in modText.split() ]
+   else:
+      return modText.split()
 
 # Get n-grams, but remove stopwords before the combination.
 def getNonStopNgrams(text, n):
@@ -42,7 +75,7 @@ def getNonStopNgrams(text, n):
       valid = True
       gram = ''
 
-      for j in range(0, n):
+      for j in reversed(range(0, n)):
          if not words[i - j] in validWords:
             valid = False
             break
