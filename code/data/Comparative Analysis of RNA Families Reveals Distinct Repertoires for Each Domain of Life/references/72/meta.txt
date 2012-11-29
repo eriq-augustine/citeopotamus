@@ -1,0 +1,6 @@
+TITLE: The enigma of ribonuclease P evolution.
+AUTHORS: Hartmann E, Hartmann RK
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The 5'-end maturation of tRNAs is catalyzed by the ribonucleoprotein enzyme ribonuclease P (RNase P) in all organisms. Here we provide, for the first time, a comprehensive overview on the representation of individual RNase P protein homologs within the Eukarya and Archaea. Most eukaryotes have homologs for all four protein subunits (Pop4, Rpp1, Pop5 and Rpr2) present in the majority of Archaea. Pop4 is the only RNase P protein subunit identifiable in all Eukarya and Archaea with available genome sequences. Remarkably, there is no structural homology between bacterial and archaeal-eukaryotic RNase P proteins. The simplest interpretation is that RNase P has an 'RNA-alone' origin and progenitors of Bacteria and Archaea diverged very early in evolution and then pursued completely different strategies in the recruitment of protein subunits during the transition from the 'RNA-alone' to the 'RNA-protein' state of the enzyme.

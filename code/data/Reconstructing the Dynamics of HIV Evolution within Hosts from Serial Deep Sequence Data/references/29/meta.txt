@@ -1,0 +1,6 @@
+TITLE: Dates of HIV infection can be estimated for seroprevalent patients by coalescent analysis of serial next-generation sequencing data.
+AUTHORS: Poon AF, McGovern RA, Mo T, Knapp DJ, Brenner B, Routy JP, Wainberg MA, Harrigan PR
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

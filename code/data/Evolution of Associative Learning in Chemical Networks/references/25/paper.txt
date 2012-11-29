@@ -1,0 +1,4 @@
+Classical conditioning in Aplysia californica.
+Walters ET, Carew TJ, Kandel ER
+Abstract:
+A form of aversive classical conditioning is described in which a chemosensory conditioned stimulus rapidly acquires the ability to modulate a defensive response (escape locomotion). Because Aplysia show both sensitization and classical conditioning, it is now possible to begin to examine the relationship between nonassociative and associative learning on behavioral and cellular levels.

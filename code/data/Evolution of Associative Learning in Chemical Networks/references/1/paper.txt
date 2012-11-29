@@ -1,0 +1,4 @@
+Molecular circuits for associative learning in single-celled organisms.
+Fernando CT, Liekens AM, Bingle LE, Beck C, Lenser T, Stekel DJ, Rowe JE
+Abstract:
+We demonstrate how a single-celled organism could undertake associative learning. Although to date only one previous study has found experimental evidence for such learning, there is no reason in principle why it should not occur. We propose a gene regulatory network that is capable of associative learning between any pre-specified set of chemical signals, in a Hebbian manner, within a single cell. A mathematical model is developed, and simulations show a clear learned response. A preliminary design for implementing this model using plasmids within Escherichia coli is presented, along with an alternative approach, based on double-phosphorylated protein kinases.

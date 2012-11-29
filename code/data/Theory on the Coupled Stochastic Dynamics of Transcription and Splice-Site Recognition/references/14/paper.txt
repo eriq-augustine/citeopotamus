@@ -1,0 +1,4 @@
+The mRNA assembly line: transcription and processing machines in the same factory.
+Bentley D
+Abstract:
+Processing of RNA precursors to their mature form often occurs co-transcriptionally. Consequently, the ternary complex of DNA template, RNA polymerase and nascent RNA chain is the physiological substrate for factors that modify the nascent RNA by capping, splicing and cleavage/polyadenylation. mRNA production is thought to occur within a "factory" that contains the RNA polymerase II transcription machine and the processing machines. Newly discovered protein-protein contacts between RNA polymerase and factors that process mRNA precursors are beginning to illuminate how the "mRNA factory" works.

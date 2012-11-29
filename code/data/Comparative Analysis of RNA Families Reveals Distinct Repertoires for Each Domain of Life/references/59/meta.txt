@@ -1,0 +1,6 @@
+TITLE: The origin of eukaryotes and their relationship with the Archaea: are we at a phylogenomic impasse?
+AUTHORS: Gribaldo S, Poole AM, Daubin V, Forterre P, Brochier-Armanet C
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The origin of eukaryotes and their evolutionary relationship with the Archaea is a major biological question and the subject of intense debate. In the context of the classical view of the universal tree of life, the Archaea and the Eukarya have a common ancestor, the nature of which remains undetermined. Alternative views propose instead that the Eukarya evolved directly from a bona fide archaeal lineage. Several recent large-scale phylogenomic studies using an array of approaches are divided in supporting either one or the other scenario, despite analysing largely overlapping data sets of universal genes. We examine the reasons for such a lack of consensus and consider how alternative approaches may enable progress in answering this fascinating and as-yet-unresolved question.

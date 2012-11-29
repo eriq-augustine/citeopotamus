@@ -1,0 +1,4 @@
+Rules of engagement: co-transcriptional recruitment of pre-mRNA processing factors.
+Bentley DL
+Abstract:
+The universal pre-mRNA processing events of 5' end capping, splicing, and 3' end formation by cleavage/polyadenylation occur co-transcriptionally. As a result, the substrate for mRNA processing factors is a nascent RNA chain that is being extruded from the RNA polymerase II exit channel at 10-30 bases per second. How do processing factors find their substrate RNAs and complete most mRNA maturation before transcription is finished? Recent studies suggest that this task is facilitated by a combination of protein-RNA and protein-protein interactions within a 'mRNA factory' that comprises the elongating RNA polymerase and associated processing factors. This 'factory' undergoes dynamic changes in composition as it traverses a gene and provides the setting for regulatory interactions that couple processing to transcriptional elongation and termination.

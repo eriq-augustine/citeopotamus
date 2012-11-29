@@ -1,0 +1,6 @@
+TITLE: The genetic core of the universal ancestor.
+AUTHORS: Harris JK, Kelley ST, Spiegelman GB, Pace NR
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Molecular analysis of conserved sequences in the ribosomal RNAs of modern organisms reveals a three-domain phylogeny that converges in a universal ancestor for all life. We used the Clusters of Orthologous Groups database and information from published genomes to search for other universally conserved genes that have the same phylogenetic pattern as ribosomal RNA, and therefore constitute the ancestral genetic core of cells. Our analyses identified a small set of genes that can be traced back to the universal ancestor and have coevolved since that time. As indicated by earlier studies, almost all of these genes are involved with the transfer of genetic information, and most of them directly interact with the ribosome. Other universal genes have either undergone lateral transfer in the past, or have diverged so much in sequence that their distant past could not be resolved. The nature of the conserved genes suggests innovations that may have been essential to the divergence of the three domains of life. The analysis also identified several genes of unknown function with phylogenies that track with the ribosomal RNA genes. The products of these genes are likely to play fundamental roles in cellular processes.

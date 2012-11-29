@@ -1,0 +1,6 @@
+TITLE: Ribozyme catalysis of metabolism in the RNA world.
+AUTHORS: Chen X, Li N, Ellington AD
+TERMS:
+CATEGORIES:
+ABSTRACT:
+In vitro selection has proven to be a useful means of explore the molecules and catalysts that may have existed in a primordial 'RNA world'. By selecting binding species (aptamers) and catalysts (ribozymes) from random sequence pools, the relationship between biopolymer complexity and function can be better understood, and potential evolutionary transitions between functional molecules can be charted. In this review, we have focused on several critical events or transitions in the putative RNA world: RNA self-replication; the synthesis and utilization of nucleotide-based cofactors; acyl-transfer reactions leading to peptide and protein synthesis; and the basic metabolic pathways that are found in modern living systems.

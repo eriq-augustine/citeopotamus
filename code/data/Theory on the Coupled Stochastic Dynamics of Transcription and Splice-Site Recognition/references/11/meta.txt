@@ -1,0 +1,6 @@
+TITLE: Initial splice-site recognition and pairing during pre-mRNA splicing.
+AUTHORS: Reed R
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Advances over the past year have provided new insights into the mechanisms involved in the initial recognition and pairing of the 5' and 3' splice sites in complex metazoan pre-mRNAs. Highlights include the demonstration that exonic enhancers can promote trans splicing and that an excess of the serine and arginine rich family of splicing proteins can obviate the requirement for U1 small nuclear ribonucleoprotein particle in splicing.

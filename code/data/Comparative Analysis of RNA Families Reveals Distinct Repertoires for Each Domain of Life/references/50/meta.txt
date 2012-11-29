@@ -1,0 +1,6 @@
+TITLE: Archaeal homologs of eukaryotic methylation guide small nucleolar RNAs: lessons from the Pyrococcus genomes.
+AUTHORS: Gaspin C, Cavaillé J, Erauso G, Bachellerie JP
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

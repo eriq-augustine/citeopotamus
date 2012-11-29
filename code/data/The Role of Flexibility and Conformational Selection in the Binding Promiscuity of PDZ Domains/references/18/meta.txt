@@ -1,0 +1,6 @@
+TITLE: PDZ domains and the organization of supramolecular complexes.
+AUTHORS: Sheng M, Sala C
+TERMS:
+CATEGORIES:
+ABSTRACT:
+PDZ domains are modular protein interaction domains that bind in a sequence-specific fashion to short C-terminal peptides or internal peptides that fold in a beta-finger. The diversity of PDZ binding specificities can be explained by variable amino acids lining the peptide-binding groove of the PDZ domain. Abundantly represented in Caenorhabditis elegans, Drosophila melanogaster, and mammalian genomes, PDZ domains are frequently found in multiple copies or are associated with other protein-binding motifs in multidomain scaffold proteins. PDZ-containing proteins are typically involved in the assembly of supramolecular complexes that perform localized signaling functions at particular subcellular locations. Organization around a PDZ-based scaffold allows the stable localization of interacting proteins and enhances the rate and fidelity of signal transduction within the complex. Some PDZ-containing proteins are more dynamically regulated in distribution and may also be involved in the trafficking of interacting proteins within the cell.

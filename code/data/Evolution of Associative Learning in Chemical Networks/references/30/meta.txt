@@ -1,0 +1,6 @@
+TITLE: Using artificial evolution and selection to model insect navigation.
+AUTHORS: Dale K, Collett TS
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

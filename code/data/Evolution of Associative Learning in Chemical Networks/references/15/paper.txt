@@ -1,0 +1,4 @@
+Mechanisms of theory formation in young children.
+Gopnik A, Schulz L
+Abstract:
+Research suggests that by the age of five, children have extensive causal knowledge, in the form of intuitive theories. The crucial question for developmental cognitive science is how young children are able to learn causal structure from evidence. Recently, researchers in computer science and statistics have developed representations (causal Bayes nets) and learning algorithms to infer causal structure from evidence. Here we explore evidence suggesting that infants and children have the prerequisites for making causal inferences consistent with causal Bayes net learning algorithms. Specifically, we look at infants and children's ability to learn from evidence in the form of conditional probabilities, interventions and combinations of the two.

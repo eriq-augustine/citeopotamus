@@ -1,0 +1,6 @@
+TITLE: The function of multisite splicing enhancers.
+AUTHORS: Hertel KJ, Maniatis T
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Splicing enhancers are RNA sequences consisting of one or more binding sites (enhancer elements) for specific serine/arginine (SR)-rich proteins. When associated with these elements, SR proteins activate splicing by recruiting the splicing machinery to the adjacent intron through protein-protein interactions. Here, we show that the rate and efficiency of splicing increases linearly, rather than synergistically, as the number of identical or nonidentical enhancer elements present on pre-mRNA is increased. We conclude that only one splicing enhancer complex at a time is capable of interacting with the constitutive splicing machinery. Thus, the function of multisite enhancer elements to increase the probability of an interaction between the enhancer complex and the splicing machinery rather than to promote functional synergy.

@@ -1,0 +1,6 @@
+TITLE: Exonic splicing enhancers: mechanism of action, diversity and role in human genetic diseases.
+AUTHORS: Blencowe BJ
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Exonic splicing enhancers (ESEs) are discrete sequences within exons that promote both constitutive and regulated splicing. The precise mechanism by which ESEs facilitate the assembly of splicing complexes has been controversial. However, recent studies have provided insights into this question and have led to a new model for ESE function. Other recent work has suggested that ESEs are comprised of diverse sequences and occur frequently within exons. Ominously, these latter studies predict that many human genetic diseases linked to mutations within exons might be caused by the inactivation of ESEs.

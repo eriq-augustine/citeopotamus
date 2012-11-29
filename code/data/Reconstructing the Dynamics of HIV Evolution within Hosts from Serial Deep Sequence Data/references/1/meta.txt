@@ -1,0 +1,6 @@
+TITLE: Prognostic value of HIV-1 syncytium-inducing phenotype for rate of CD4+ cell depletion and progression to AIDS.
+AUTHORS: Koot M, Keet IP, Vos AH, de Goede RE, Roos MT, Coutinho RA, Miedema F, Schellekens PT, Tersmette M
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

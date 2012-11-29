@@ -1,0 +1,4 @@
+Using artificial evolution and selection to model insect navigation.
+Dale K, Collett TS
+Abstract:
+None

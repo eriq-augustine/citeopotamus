@@ -1,0 +1,6 @@
+TITLE: A slow RNA polymerase II affects alternative splicing in vivo.
+AUTHORS: de la Mata M, Alonso CR, Kadener S, Fededa JP, Blaustein M, Pelisch F, Cramer P, Bentley D, Kornblihtt AR
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Changes in promoter structure and occupation have been shown to modify the splicing pattern of several genes, evidencing a coupling between transcription and alternative splicing. It has been proposed that the promoter effect involves modulation of RNA pol II elongation rates. The C4 point mutation of the Drosophila pol II largest subunit confers on the enzyme a lower elongation rate. Here we show that expression of a human equivalent to Drosophila's C4 pol II in human cultured cells affects alternative splicing of the fibronectin EDI exon and adenovirus E1a pre-mRNA. Most importantly, resplicing of the Hox gene Ultrabithorax is stimulated in Drosophila embryos mutant for C4, which demonstrates the transcriptional control of alternative splicing on an endogenous gene. These results provide a direct proof for the elongation control of alternative splicing in vivo.

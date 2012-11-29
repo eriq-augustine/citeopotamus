@@ -1,0 +1,6 @@
+TITLE: CRISPR/Cas and Cmr modules, mobility and evolution of adaptive immune systems.
+AUTHORS: Shah SA, Garrett RA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

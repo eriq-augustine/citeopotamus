@@ -1,0 +1,6 @@
+TITLE: Spatio-temporal point processes, partial likelihood, foot and mouth disease.
+AUTHORS: Diggle PJ
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Spatio-temporal point process data arise in many fields of application. An intuitively natural way to specify a model for a spatio-temporal point process is through its conditional intensity at location x and time t, given the history of the process up to time t. Often, this results in an analytically intractable likelihood. Likelihood-based inference then relies on Monte Carlo methods which are computationally intensive and require careful tuning to each application. A partial likelihood alternative is proposed, which is computationally straightforward and can be applied routinely. The method is applied to data from the 2001 foot and mouth epidemic in the UK, using a previously published model for the spatio-temporal spread of the disease.

@@ -1,0 +1,6 @@
+TITLE: Sequence homologies between eukaryotic 5.8S rRNA and the 5' end of prokaryotic 23S rRNa: evidences for a common evolutionary origin.
+AUTHORS: Jacq B
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The question of the evolutionary origin of eukaryotic 5.8S rRNA was re-examined after the recent publication of the E. coli 23S rRNA sequence (26,40). A region of the 23S RNA located at its 5' end was found to be approximately 50% homologous to four different eukaryotic 5.8S rRNAs. A computer comparison analysis indicates that no other region of the E. coli ribosomal transcription unit (greater than 5 000 nucleotides in length) shares a comparable homology with 5.8S rRNA. Homology between the 5' end of e. coli 23S and four different eukaryotic 5.8S rRNAs falls within the same range as that between E. coli 5S RNA from the same four eukaryotic species. All these data strongly suggest that the 5' end of prokaryotic 23S rRNA and eukaryotic 5.8S RNA have a common evolutionary origin. Secondary structure models are proposed for the 5' region of E. coli 23S RNA.

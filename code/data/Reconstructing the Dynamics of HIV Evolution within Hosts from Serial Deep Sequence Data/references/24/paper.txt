@@ -1,0 +1,4 @@
+HyPhy: hypothesis testing using phylogenies.
+Pond SL, Frost SD, Muse SV
+Abstract:
+ The HyPhypackage is designed to provide a flexible and unified platform for carrying out likelihood-based analyses on multiple alignments of molecular sequence data, with the emphasis on studies of rates and patterns of sequence evolution. AVAILABILITY: http://www.hyphy.org CONTACT: muse@stat.ncsu.edu SUPPLEMENTARY INFORMATION: HyPhydocumentation and tutorials are available at http://www.hyphy.org.

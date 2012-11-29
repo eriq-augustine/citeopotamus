@@ -1,0 +1,6 @@
+TITLE: Alternative splicing: increasing diversity in the proteomic world.
+AUTHORS: Graveley BR
+TERMS:
+CATEGORIES:
+ABSTRACT:
+How can the genome of Drosophila melanogaster contain fewer genes than the undoubtedly simpler organism Caenorhabditis elegans? The answer must lie within their proteomes. It is becoming clear that alternative splicing has an extremely important role in expanding protein diversity and might therefore partially underlie the apparent discrepancy between gene number and organismal complexity. Alternative splicing can generate more transcripts from a single gene than the number of genes in an entire genome. However, for the vast majority of alternative splicing events, the functional significance is unknown. Developing a full catalog of alternatively spliced transcripts and determining each of their functions will be a major challenge of the upcoming proteomic era.

@@ -1,0 +1,4 @@
+Probing transcription factor dynamics at the single-molecule level in a living cell.
+Elf J, Li GW, Xie XS
+Abstract:
+Transcription factors regulate gene expression through their binding to DNA. In a living Escherichia coli cell, we directly observed specific binding of a lac repressor, labeled with a fluorescent protein, to a chromosomal lac operator. Using single-molecule detection techniques, we measured the kinetics of binding and dissociation of the repressor in response to metabolic signals. Furthermore, we characterized the nonspecific binding to DNA, one-dimensional (1D) diffusion along DNA segments, and 3D translocation among segments through cytoplasm at the single-molecule level. In searching for the operator, a lac repressor spends approximately 90% of time nonspecifically bound to and diffusing along DNA with a residence time of <5 milliseconds. The methods and findings can be generalized to other nucleic acid binding proteins.

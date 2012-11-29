@@ -1,0 +1,6 @@
+TITLE: Protein binding specificity versus promiscuity.
+AUTHORS: Schreiber G, Keating AE
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

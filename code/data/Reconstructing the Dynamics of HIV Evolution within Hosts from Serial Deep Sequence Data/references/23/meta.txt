@@ -1,0 +1,6 @@
+TITLE: Parallel tagged sequencing on the 454 platform.
+AUTHORS: Meyer M, Stenzel U, Hofreiter M
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Parallel tagged sequencing (PTS) is a molecular barcoding method designed to adapt the recently developed high-throughput 454 parallel sequencing technology for use with multiple samples. Unlike other barcoding methods, PTS can be applied to any type of double-stranded DNA (dsDNA) sample, including shotgun DNA libraries and pools of PCR products, and requires no amplification or gel purification steps. The method relies on attaching sample-specific barcoding adapters, which include sequence tags and a restriction site, to blunt-end repaired DNA samples by ligation and strand-displacement. After pooling multiple barcoded samples, molecules without sequence tags are effectively excluded from sequencing by dephosphorylation and restriction digestion, and using the tag sequences, the source of each DNA sequence can be traced. This protocol allows for sequencing 300 or more complete mitochondrial genomes on a single 454 GS FLX run, or twenty-five 6-kb plasmid sequences on only one 16th plate region. Most of the reactions can be performed in a multichannel setup on 96-well reaction plates, allowing for processing up to several hundreds of samples in a few days.

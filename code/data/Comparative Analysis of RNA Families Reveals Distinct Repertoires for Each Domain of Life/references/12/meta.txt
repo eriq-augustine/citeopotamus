@@ -1,0 +1,6 @@
+TITLE: Crawling out of the RNA world.
+AUTHORS: Cech TR
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Comparison of phylogenetically diverse ribonucleoprotein (RNP) enzymes and information about their biochemistry have stimulated hypotheses about their evolution. Instead of the canonical view, in which catalysis proceeds from ribozyme to RNP enzyme to protein enzyme, RNP enzymes and proteins are seen to share contemporary catalysis. Furthermore, the RNA components of RNP enzymes show no evidence of fading out but instead, in some cases, have elaborated new functions.

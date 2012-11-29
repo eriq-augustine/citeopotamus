@@ -1,0 +1,6 @@
+TITLE: Induced fit, conformational selection and independent dynamic segments: an extended view of binding events.
+AUTHORS: Csermely P, Palotai R, Nussinov R
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

@@ -1,0 +1,6 @@
+TITLE: What would be conserved if "the tape were played twice"?
+AUTHORS: Fontana W, Buss LW
+TERMS:
+CATEGORIES:
+ABSTRACT:
+We develop an abstract chemistry, implemented in a lambda-calculus-based modeling platform, and argue that the following features are generic to this particular abstraction of chemistry; hence, they would be expected to reappear if "the tape were run twice": (i) hypercycles of self-reproducing objects arise; (ii) if self-replication is inhibited, self-maintaining organizations arise; and (iii) self-maintaining organizations, once established, can combine into higher-order self-maintaining organizations.

@@ -1,0 +1,4 @@
+CRISPR/Cas and Cmr modules, mobility and evolution of adaptive immune systems.
+Shah SA, Garrett RA
+Abstract:
+None

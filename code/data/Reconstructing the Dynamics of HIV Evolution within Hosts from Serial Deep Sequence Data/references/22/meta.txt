@@ -1,0 +1,6 @@
+TITLE: Improved detection of CXCR4-using HIV by V3 genotyping: application of population-based and "deep" sequencing to plasma RNA and proviral DNA.
+AUTHORS: Swenson LC, Moores A, Low AJ, Thielen A, Dong W, Woods C, Jensen MA, Wynhoven B, Chan D, Glascock C, Harrigan PR
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

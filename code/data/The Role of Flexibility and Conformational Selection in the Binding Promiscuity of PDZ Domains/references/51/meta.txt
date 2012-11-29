@@ -1,0 +1,6 @@
+TITLE: Rational approaches to improving selectivity in drug design.
+AUTHORS: Huggins DJ, Sherman W, Tidor B
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

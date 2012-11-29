@@ -1,0 +1,6 @@
+TITLE: Theory of site-specific DNA-protein interactions in the presence of conformational fluctuations of DNA binding domains.
+AUTHORS: Murugan R
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

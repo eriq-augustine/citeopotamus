@@ -1,0 +1,4 @@
+Chromatin, transcript elongation and alternative splicing.
+Kornblihtt AR
+Abstract:
+A recent study reveals that the chromatin-remodeling factor SWI/SNF regulates alternative splicing by creating internal 'roadblocks' to transcriptional elongation where the phosphorylation status of RNA pol II is qualitatively changed.

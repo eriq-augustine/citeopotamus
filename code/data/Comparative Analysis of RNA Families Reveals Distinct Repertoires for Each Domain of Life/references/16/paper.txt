@@ -1,0 +1,4 @@
+Modern metabolism as a palimpsest of the RNA world.
+Benner SA, Ellington AD, Tauer A
+Abstract:
+An approach is developed for constructing models of ancient organisms using data from metabolic pathways, genetic organization, chemical structure, and enzymatic reaction mechanisms found in contemporary organisms. This approach is illustrated by a partial reconstruction of a model for the "breakthrough organism," the last organism to use RNA as the sole genetically encoded biological catalyst. As reconstructed here, this organism had a complex metabolism that included dehydrogenations, transmethylations, carbon-carbon bond-forming reactions, and an energy metabolism based on phosphate esters. Furthermore, the breakthrough organism probably used DNA to store genetic information, biosynthesized porphyrins, and used terpenes as its major lipid component. This model differs significantly from prevailing models based primarily on genetic data.

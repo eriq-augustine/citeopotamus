@@ -1,0 +1,6 @@
+TITLE: Interaction of nitric oxide synthase with the postsynaptic density protein PSD-95 and alpha1-syntrophin mediated by PDZ domains.
+AUTHORS: Brenman JE, Chao DS, Gee SH, McGee AW, Craven SE, Santillano DR, Wu Z, Huang F, Xia H, Peters MF, Froehner SC, Bredt DS
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Neuronal nitric oxide synthase (nNOS) is concentrated at synaptic junctions in brain and motor endplates in skeletal muscle. Here, we show that the N-terminus of nNOS, which contains a PDZ protein motif, interacts with similar motifs in postsynaptic density-95 protein (PSD-95) and a related novel protein, PSD-93.nNOS and PSD-95 are coexpressed in numerous neuronal populations, and a PSD-95/nNOS complex occurs in cerebellum. PDZ domain interactions also mediate binding of nNOS to skeletal muscle syntrophin, a dystrophin-associated protein. nNOS isoforms lacking a PDZ domain, identified in nNOSdelta/delta mutant mice, do not associate with PSD-95 in brain or with skeletal muscle sarcolemma. Interaction of PDZ-containing domains therefore mediates synaptic association of nNOS and may play a more general role in formation of macromolecular signaling complexes.

@@ -1,0 +1,4 @@
+The binding affinities of proteins interacting with the PDZ domain of PICK1.
+Bolia A, Gerek ZN, Keskin O, Banu Ozkan S, Dev KK
+Abstract:
+None

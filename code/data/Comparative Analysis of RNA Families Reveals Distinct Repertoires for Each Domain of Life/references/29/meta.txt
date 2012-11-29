@@ -1,0 +1,6 @@
+TITLE: Evolution of genes and organisms: the tree/web of life in light of horizontal gene transfer.
+AUTHORS: Olendzenski L, Gogarten JP
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Gene exchange necessitates expanding the model of the tree of life, impacts the notion of organismal and molecular most recent common ancestors, and provides examples of natural selection working at multiple levels. Gene exchange, whether by horizontal gene transfer (HGT), hybridization of species, or symbiosis, modifies the organismal tree of life into a web. Darwin suggested the tree of life was like a coral, where living surface branches were supported by masses of dead branches. In phylogenetic trees, organismal or molecular lineages coalesce back to a lucky universal ancestor whose descendents are found in current lineages and which coexisted with other, now-extinct lineages. HGT complicates the reconstruction of a universal ancestor; genes in a genome can have different evolutionary histories, and even infrequent gene transfer will cause different molecular lineages to coalesce to molecular ancestors that existed in different organismal lineages and at different times. HGT, as well as symbiosis, provides a mechanism for integrating and expanding the organizational level on which natural selection acts, contributing to selection at the group and community level.

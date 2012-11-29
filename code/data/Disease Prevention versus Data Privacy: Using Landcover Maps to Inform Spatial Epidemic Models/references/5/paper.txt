@@ -1,0 +1,4 @@
+Statistical modeling of holding level susceptibility to infection during the 2001 foot and mouth disease epidemic in Great Britain.
+Bessell PR, Shaw DJ, Savill NJ, Woolhouse ME
+Abstract:
+None

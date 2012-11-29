@@ -1,0 +1,6 @@
+TITLE: Protein dynamism and evolvability.
+AUTHORS: Tokuriki N, Tawfik DS
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The traditional view that proteins possess absolute functional specificity and a single, fixed structure conflicts with their marked ability to adapt and evolve new functions and structures. We consider an alternative, "avant-garde view" in which proteins are conformationally dynamic and exhibit functional promiscuity. We surmise that these properties are the foundation stones of protein evolvability; they facilitate the divergence of new functions within existing folds and the evolution of entirely new folds. Packing modes of proteins also affect their evolvability, and poorly packed, disordered, and conformationally diverse proteins may exhibit high evolvability. This dynamic view of protein structure, function, and evolvability is extrapolated to describe hypothetical scenarios for the evolution of the early proteins and future research directions in the area of protein dynamism and evolution.

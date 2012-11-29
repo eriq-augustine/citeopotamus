@@ -1,0 +1,4 @@
+Rfam: Wikipedia, clans and the "decimal" release.
+Gardner PP, Daub J, Tate J, Moore BL, Osuch IH, Griffiths-Jones S, Finn RD, Nawrocki EP, Kolbe DL, Eddy SR, Bateman A
+Abstract:
+The Rfam database aims to catalogue non-coding RNAs through the use of sequence alignments and statistical profile models known as covariance models. In this contribution, we discuss the pros and cons of using the online encyclopedia, Wikipedia, as a source of community-derived annotation. We discuss the addition of groupings of related RNA families into clans and new developments to the website. Rfam is available on the Web at http://rfam.sanger.ac.uk.

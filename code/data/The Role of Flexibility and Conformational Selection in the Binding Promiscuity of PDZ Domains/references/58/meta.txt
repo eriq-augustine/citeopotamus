@@ -1,0 +1,6 @@
+TITLE: Dynamics based alignment of proteins: an alternative approach to quantify dynamic similarity.
+AUTHORS: Münz M, Lyngsø R, Hein J, Biggin PC
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

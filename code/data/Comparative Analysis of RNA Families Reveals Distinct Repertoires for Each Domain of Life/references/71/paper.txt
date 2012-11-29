@@ -1,0 +1,4 @@
+Dendroscope: An interactive viewer for large phylogenetic trees.
+Huson DH, Richter DC, Rausch C, Dezulian T, Franz M, Rupp R
+Abstract:
+None

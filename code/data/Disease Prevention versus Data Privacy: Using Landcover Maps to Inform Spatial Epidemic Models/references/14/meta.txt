@@ -1,0 +1,6 @@
+TITLE: The foot-and-mouth epidemic in Great Britain: pattern of spread and impact of interventions.
+AUTHORS: Ferguson NM, Donnelly CA, Anderson RM
+TERMS:
+CATEGORIES:
+ABSTRACT:
+We present an analysis of the current foot-and-mouth disease epidemic in Great Britain over the first 2 months of the spread of the virus. The net transmission potential of the pathogen and the increasing impact of control measures are estimated over the course of the epidemic to date. These results are used to parameterize a mathematical model of disease transmission that captures the differing spatial contact patterns between farms before and after the imposition of movement restrictions. The model is used to make predictions of future incidence and to simulate the impact of additional control strategies. Hastening the slaughter of animals with suspected infection is predicted to slow the epidemic, but more drastic action, such as "ring" culling or vaccination around infection foci, is necessary for more rapid control. Culling is predicted to be more effective than vaccination.

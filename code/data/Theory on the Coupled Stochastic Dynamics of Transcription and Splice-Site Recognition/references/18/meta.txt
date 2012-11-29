@@ -1,0 +1,6 @@
+TITLE: Predictive identification of exonic splicing enhancers in human genes.
+AUTHORS: Fairbrother WG, Yeh RF, Sharp PA, Burge CB
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Specific short oligonucleotide sequences that enhance pre-mRNA splicing when present in exons, termed exonic splicing enhancers (ESEs), play important roles in constitutive and alternative splicing. A computational method, RESCUE-ESE, was developed that predicts which sequences have ESE activity by statistical analysis of exon-intron and splice site composition. When large data sets of human gene sequences were used, this method identified 10 predicted ESE motifs. Representatives of all 10 motifs were found to display enhancer activity in vivo, whereas point mutants of these sequences exhibited sharply reduced activity. The motifs identified enable prediction of the splicing phenotypes of exonic mutations in human genes.

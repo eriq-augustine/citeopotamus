@@ -1,0 +1,6 @@
+TITLE: Protein diversity from alternative splicing: a challenge for bioinformatics and post-genome biology.
+AUTHORS: Black DL
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

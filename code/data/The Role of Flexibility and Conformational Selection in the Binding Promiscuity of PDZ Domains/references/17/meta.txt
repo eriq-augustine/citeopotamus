@@ -1,0 +1,6 @@
+TITLE: Molecular evolution of affinity and flexibility in the immune system.
+AUTHORS: Thorpe IF, Brooks CL 3rd
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The immune system responds to the introduction of foreign antigens by rapidly evolving antibodies with increasing affinity for the antigen (i.e., maturation). To investigate the factors that control this process at the molecular level, we have assessed the changes in flexibility that accompany ligand binding at four stages of maturation in the 4-4-20 antibody. Our studies, based on molecular dynamics, indicate that increased affinity for the target ligand is associated with a decreased entropic cost to binding. The entropy of binding is unfavorable, opposing favorable enthalpic contributions that arise during complex formation. Computed binding free energies for the various antibody-ligand complexes qualitatively reproduce the trends observed in the experimentally derived values, although the absolute magnitude of free-energy differences is overestimated. Our results support the existence of a correlation between high-affinity interactions and decreased protein flexibility in this series of antibody molecules. This observation is likely to be a general feature of molecular association processes and key to the molecular evolution of antibody responses.

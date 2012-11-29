@@ -1,0 +1,4 @@
+Forty years of in vitro evolution.
+Joyce GF
+Abstract:
+It has been 40 years since Spiegelman and co-workers demonstrated how RNA molecules can be evolved in the test tube. This result established Darwinian evolution as a chemical process and paved the way for the many directed evolution experiments that followed. Chemists can benefit from reflecting on Spiegelman's studies and the subsequent advances, which have taken the field to the brink of the generation of life itself in the laboratory. This Review summarizes the concepts and methods for the directed evolution of RNA molecules in vitro.

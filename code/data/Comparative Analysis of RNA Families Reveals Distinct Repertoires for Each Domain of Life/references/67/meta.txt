@@ -1,0 +1,6 @@
+TITLE: ProtTest: selection of best-fit models of protein evolution.
+AUTHORS: Abascal F, Zardoya R, Posada D
+TERMS:
+CATEGORIES:
+ABSTRACT:
+SUMMARY: Using an appropriate model of amino acid replacement is very important for the study of protein evolution and phylogenetic inference. We have built a tool for the selection of the best-fit model of evolution, among a set of candidate models, for a given protein sequence alignment. AVAILABILITY: ProtTest is available under the GNU license from http://darwin.uvigo.es
