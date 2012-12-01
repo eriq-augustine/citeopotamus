@@ -1,0 +1,6 @@
+TITLE: Annotation transfer between genomes: protein-protein interologs and protein-DNA regulogs.
+AUTHORS: Yu H, Luscombe NM, Lu HX, Zhu X, Xia Y, Han JD, Bertin N, Chung S, Vidal M, Gerstein M
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

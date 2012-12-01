@@ -1,0 +1,6 @@
+TITLE: The NCBI dbGaP database of genotypes and phenotypes.
+AUTHORS: Mailman MD, Feolo M, Jin Y, Kimura M, Tryka K, Bagoutdinov R, Hao L, Kiang A, Paschall J, Phan L, Popova N, Pretel S, Ziyabari L, Lee M, Shao Y, Wang ZY, Sirotkin K, Ward M, Kholodov M, Zbicz K, Beck J, Kimelman M, Shevelev S, Preuss D, Yaschenko E, Graeff A, Ostell J, Sherry ST
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The National Center for Biotechnology Information has created the dbGaP public repository for individual-level phenotype, exposure, genotype and sequence data and the associations between them. dbGaP assigns stable, unique identifiers to studies and subsets of information from those studies, including documents, individual phenotypic variables, tables of trait data, sets of genotype data, computed phenotype-genotype associations, and groups of study subjects who have given similar consents for use of their data.

@@ -1,0 +1,4 @@
+Synchrony of thalamocortical inputs maximizes cortical reliability.
+Wang HP, Spencer D, Fellous JM, Sejnowski TJ
+Abstract:
+Thalamic inputs strongly drive neurons in the primary visual cortex, even though these neurons constitute only approximately 5% of the synapses on layer 4 spiny stellate simple cells. We modeled the feedforward excitatory and inhibitory inputs to these cells based on in vivo recordings in cats, and we found that the reliability of spike transmission increased steeply between 20 and 40 synchronous thalamic inputs in a time window of 5 milliseconds, when the reliability per spike was most energetically efficient. The optimal range of synchronous inputs was influenced by the balance of background excitation and inhibition in the cortex, which could gate the flow of information into the cortex. Ensuring reliable transmission by spike synchrony in small populations of neurons may be a general principle of cortical function.

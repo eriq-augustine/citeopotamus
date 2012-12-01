@@ -1,0 +1,4 @@
+On the molecular evolutionary clock.
+Zuckerkandl E
+Abstract:
+The conceptual framework surrounding the origin of the molecular evolutionary clock and circumstances of this origin are described. In regard to the quest for the best available molecular clocks, a return to protein clocks is conditionally recommended. On the basis of recent data and certain considerations, it is pointed out that the realm of neutrality in evolution is probably less extensive than is now commonly thought, in the three distinct senses of the term neutrality--neutrality as nonfunctionality of mutations, neutrality as equifunctionality of mutations, and neutrality as a mode of fixation of mutations. The possibility is raised that complex sets of interacting components forming a system that is bounded with respect to its environment may quite generally display an intrinsic trend to a quasi-clockwise evolutionary behavior.

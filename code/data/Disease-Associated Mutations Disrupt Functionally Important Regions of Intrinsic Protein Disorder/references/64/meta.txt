@@ -1,0 +1,6 @@
+TITLE: Accelerated molecular dynamics: a promising and efficient simulation method for biomolecules.
+AUTHORS: Hamelberg D, Mongan J, McCammon JA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

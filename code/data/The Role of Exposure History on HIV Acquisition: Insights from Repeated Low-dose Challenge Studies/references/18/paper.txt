@@ -1,0 +1,4 @@
+Assessing vaccine effects in repeated low-dose challenge experiments.
+Hudgens MG, Gilbert PB
+Abstract:
+Evaluation of HIV vaccine candidates in nonhuman primates (NHPs) is a critical step toward developing a successful vaccine to control the HIV pandemic. Historically, HIV vaccine regimens have been tested in NHPs by administering a single high dose of the challenge virus. More recently, evaluation of candidate HIV vaccines has entailed repeated low-dose challenges, which more closely mimic typical exposure in natural transmission settings. In this article, we consider evaluation of the type and magnitude of vaccine efficacy from such experiments. Based on the principal stratification framework, we also address evaluation of potential immunological surrogate endpoints for infection.

@@ -1,0 +1,4 @@
+Sequence effects in the categorization of tones varying in frequency.
+Stewart N, Brown GD
+Abstract:
+In contrast to exemplar and decision-bound categorization models, the memory and contrast models described here do not assume that long-term representations of stimulus magnitudes are available. Instead, stimuli are assumed to be categorized using only their differences from a few recent stimuli. To test this alternative, the authors examined sequential effects in a binary categorization of 10 tones varying in frequency. Stimuli up to 2 trials back in the sequence had a significant effect on the response to the current stimulus. The effects of previous stimuli interacted with one another. A memory and contrast model, according to which only ordinal information about the differences between the current stimulus and recent preceding stimuli is used, best accounted for these data.

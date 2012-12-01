@@ -1,0 +1,6 @@
+TITLE: Competing pathways control host resistance to virus via tRNA modification and programmed ribosomal frameshifting.
+AUTHORS: Maynard ND, Macklin DN, Kirkegaard K, Covert MW
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Viral infection depends on a complex interplay between host and viral factors. Here, we link host susceptibility to viral infection to a network encompassing sulfur metabolism, tRNA modification, competitive binding, and programmed ribosomal frameshifting (PRF). We first demonstrate that the iron-sulfur cluster biosynthesis pathway in Escherichia coli exerts a protective effect during lambda phage infection, while a tRNA thiolation pathway enhances viral infection. We show that tRNA(Lys) uridine 34 modification inhibits PRF to influence the ratio of lambda phage proteins gpG and gpGT. Computational modeling and experiments suggest that the role of the iron-sulfur cluster biosynthesis pathway in infection is indirect, via competitive binding of the shared sulfur donor IscS. Based on the universality of many key components of this network, in both the host and the virus, we anticipate that these findings may have broad relevance to understanding other infections, including viral infection of humans.

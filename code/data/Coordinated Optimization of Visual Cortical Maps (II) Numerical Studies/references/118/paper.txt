@@ -1,0 +1,4 @@
+Weakly nonlinear theory of grain boundary motion in patterns with crystalline symmetry.
+Boyer D, Viñals J
+Abstract:
+We study the motion of a grain boundary separating two otherwise stationary domains of hexagonal symmetry. Starting from an order parameter equation, a multiple scale analysis leads to an analytical equation of motion for the boundary that shares many properties with that of a crystalline solid. We find that defect motion is generically opposed by a pinning force that arises from nonadiabatic corrections to the standard amplitude equations. The magnitude of this force depends sharply on the misorientation angle between adjacent domains: the most easily pinned grain boundaries are those with a low angle (typically 4 degrees < or =theta;< or =8 degrees ). Although pinning effects may be small, they can be orders of magnitude larger than those present in smectic phases.

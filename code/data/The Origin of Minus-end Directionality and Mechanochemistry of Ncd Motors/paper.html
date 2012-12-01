@@ -1,0 +1,1365 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:dc="http://purl.org/dc/terms/"
+      xmlns:doi="http://dx.doi.org/"
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes#"
+      lang="en" xml:lang="en"
+      itemscope itemtype="http://schema.org/Article">
+
+<head>
+   <title>PLOS Computational Biology: The Origin of Minus-end Directionality and Mechanochemistry of Ncd Motors</title>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9" />
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+<link rel="home" title="home" href="/home.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" />
+<link rel="alternate" type="application/rss+xml"
+  title="PLOS Computational Biology: New Articles"
+  href="http://www.ploscompbiol.org/article/feed" />
+
+<link rel="pingback" href="http://www.ploscompbiol.org/pingback" />
+
+
+<!-- global_css.ftl -->
+<link rel="stylesheet" type="text/css" media="screen" href="/css/dojo/dijit/themes/tundra/tundra.css?v=zwugcxLdpBWmb72qqlHgGyeNAGM" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/star_rating.css?v=Mm3HyaUPUahAJAq6xG5W3tdF7Hk" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/rating.css?v=AOT9rozE9sYVjGTdeiyxHf18Ykw" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/screen.css?v=KBNFqBmhD635U0NgiM5tf9dtxRE" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/iepc.css?v=FIjyR83BhSovq_5yNVk1Sih60AI" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/journal.css?v=SiREXztjNSUsOyrlkE9sv028Y+0" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/lightBox.css?v=sDgsUXamFoYAakEshdj0YWrZiiQ" />
+<link rel="stylesheet" type="text/css" media="print" href="/css/print.css?v=0T+LTV7Gd0jtHEhqEvBfSrmHUGg" />
+
+<!--chartbeat --> 
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+
+
+<!--[if IE]><![endif]-->
+<meta name="description" content="PLOS Computational Biology is an open-access" />
+
+<meta name="keywords" content="plos computational biology" />
+
+  <meta name="citation_publisher" content="Public Library of Science" />
+  <meta name="citation_doi" content="10.1371/journal.pcbi.1002783" />
+    <meta name="citation_title" content="The Origin of Minus-end Directionality and Mechanochemistry of Ncd Motors"/>
+    <meta itemprop="name" content="The Origin of Minus-end Directionality and Mechanochemistry of Ncd Motors"/>
+
+      <meta name="citation_author" content="Biman Jana" />
+          <meta name="citation_author_institution" content="Center for Theoretical Biological Physics, Rice University, Houston, Texas, United States of America" />
+      <meta name="citation_author" content="Changbong Hyeon" />
+          <meta name="citation_author_institution" content="School of Computational Sciences, Korea Institute for Advanced Study, Seoul, Korea" />
+      <meta name="citation_author" content="José N. Onuchic" />
+          <meta name="citation_author_institution" content="Center for Theoretical Biological Physics, Rice University, Houston, Texas, United States of America" />
+
+    <meta name="citation_date" content="2012/11/15"/>
+
+  <meta name="citation_pdf_url" content="http://dx.plos.org/10.1371/journal.pcbi.1002783.pdf" />
+
+    <meta name="citation_journal_title" content="PLOS Computational Biology" />
+    <meta name="citation_firstpage" content="e1002783"/>
+    <meta name="citation_issue" content="11"/>
+    <meta name="citation_volume" content="8"/>
+    <meta name="citation_issn" content="1553-7358"/>
+
+    <meta name="citation_journal_abbrev" content="PLoS Comput Biol" />
+
+      <meta name="citation_reference" content="citation_title=Kinesin and Dynein superfamily proteins and the mechanism of organelle transport; citation_volume=279; citation_number=1; citation_pages=519-526; citation_date=1998; " />
+      <meta name="citation_reference" content="citation_title=The way things move: looking under the hood of molecular motor proteins; citation_volume=288; citation_number=2; citation_pages=88-95; citation_date=2000; " />
+      <meta name="citation_reference" content="citation_title=Dynamics and mechanics of the microtubule plus end; citation_volume=422; citation_number=3; citation_pages=753-758; citation_date=2003; " />
+      <meta name="citation_reference" content="citation_title=Crystal structure of the kinesin motor domain reveals a structural similarity to myosin; citation_volume=380; citation_number=4; citation_pages=550-555; citation_date=1996; " />
+      <meta name="citation_reference" content="citation_title=Crystal structure of the motor domain of the kinesin-related motor ncd; citation_volume=380; citation_number=5; citation_pages=555-559; citation_date=1996; " />
+      <meta name="citation_reference" content="citation_title=Identification of a novel force-generating protein, kinesin, involved in microtubule-based motility; citation_volume=42; citation_number=6; citation_pages=39-50; citation_date=1985; " />
+      <meta name="citation_reference" content="citation_title=Single kinesin molecules studied with a molecular force clamp; citation_volume=400; citation_number=7; citation_pages=184-189; citation_date=1999; " />
+      <meta name="citation_reference" content="citation_title=Mitotic spindle organization by a plus-end-directed microtubule motor; citation_volume=359; citation_number=8; citation_pages=540-543; citation_date=1992; " />
+      <meta name="citation_reference" content="citation_title=A plus-end-directed motor enzyme that moves antiparallel microtubules in vitro localizes to the interzone of mitotic spindles; citation_volume=359; citation_number=9; citation_pages=543-547; citation_date=1992; " />
+      <meta name="citation_reference" content="citation_title=The depolymerizing kinesin MCAK uses lattice diffusion to rapidly target microtubule ends; citation_volume=441; citation_number=10; citation_pages=115-119; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=The kinesin-like ncd protein of Drosophila is a minus end-directed microtubule motor; citation_volume=21; citation_number=11; citation_pages=1159-1165; citation_date=1990; " />
+      <meta name="citation_reference" content="citation_title=Kinesin motor mechanics: binding, stepping, tracking, gating, and limping; citation_volume=92; citation_number=12; citation_pages=2986-2995; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Direct observation of single kinesin molecules moving along microtubules; citation_volume=380; citation_number=13; citation_pages=451-453; citation_date=1996; " />
+      <meta name="citation_reference" content="citation_title=Kinesin moves by an asymmetric hand-over-hand mechanism; citation_volume=302; citation_number=14; citation_pages=2130-2134; citation_date=2003; " />
+      <meta name="citation_reference" content="citation_title=Kinesin walks hand-over-hand; citation_volume=303; citation_number=15; citation_pages=676-678; citation_date=2004; " />
+      <meta name="citation_reference" content="citation_title=Kinesin's processivity results from mechanical and chemical coordination between the ATP hydrolysis cycles of the two motor domains; citation_volume=96; citation_number=16; citation_pages=13147-13152; citation_date=1999; " />
+      <meta name="citation_reference" content="citation_title=A structural change in the kinesin motor protein that drives motility; citation_volume=402; citation_number=17; citation_pages=778-784; citation_date=1999; " />
+      <meta name="citation_reference" content="citation_title=Loading direction regulates the affinity of ADP for kinesin; citation_volume=10; citation_number=18; citation_pages=308-311; citation_date=2003; " />
+      <meta name="citation_reference" content="citation_title=Internal strain regulates the nucleotide binding site of the kinesin leading head; citation_volume=104; citation_number=19; citation_pages=2175-2180; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Mechanical control of the directional stepping dynamics of the kinesin motor; citation_volume=104; citation_number=20; citation_pages=17382-17387; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Intramolecular Strain Coordinates Kinesin Stepping Behavior along Microtubules; citation_volume=134; citation_number=21; citation_pages=1030-1041; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=A universal pathway for kinesin stepping; citation_volume=18; citation_number=22; citation_pages=1020-1027; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=A structural perspective on the dynamics of Kinesin motors; citation_volume=101; citation_number=23; citation_pages=2749-2759; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Dissecting the kinematics of the kinesin step; citation_volume=20; citation_number=24; citation_pages=628-640; citation_date=2012; " />
+      <meta name="citation_reference" content="citation_title=Direction determination in the minus-end-directed kinesin motor ncd; citation_volume=395; citation_number=25; citation_pages=813-816; citation_date=1998; " />
+      <meta name="citation_reference" content="citation_title=Working strokes by single molecules of the kinesin-related microtubule motor ncd; citation_volume=2; citation_number=26; citation_pages=724-729; citation_date=2000; " />
+      <meta name="citation_reference" content="citation_title=Microscopic evidence for a minus-end-directed power stroke in the kinesin motor ncd; citation_volume=21; citation_number=27; citation_pages=5969-5978; citation_date=2002; " />
+      <meta name="citation_reference" content="citation_title=A nechanistic model for ncd directionality; citation_volume=276; citation_number=28; citation_pages=19259-19266; citation_date=2001; " />
+      <meta name="citation_reference" content="citation_title=Rotation of the stalk/neck and one head in a new crystal structure of the kinesin motor protein, Ncd; citation_volume=22; citation_number=29; citation_pages=5382-5389; citation_date=2003; " />
+      <meta name="citation_reference" content="citation_title=Evidence for existence of multiple conformations of kinesin and ncd motor domains in solution revealed by 31P-NMR of the tightly bound ADP; citation_volume=257; citation_number=30; citation_pages=466-471; citation_date=1998; " />
+      <meta name="citation_reference" content="citation_title=The Directional preference of kinesin motors is specified by an element outside of the motor catalytic domain; citation_volume=90; citation_number=31; citation_pages=959-966; citation_date=1997; " />
+      <meta name="citation_reference" content="citation_title=Determinants of Kinesin motor polarity; citation_volume=281; citation_number=32; citation_pages=1200-1202; citation_date=1998; " />
+      <meta name="citation_reference" content="citation_title=Reversal in the direction of movement of a molecular motor; citation_volume=389; citation_number=33; citation_pages=93-96; citation_date=1997; " />
+      <meta name="citation_reference" content="citation_title=Folding-based molecular simulations reveal mechanisms of the rotary motor F1–ATPase; citation_volume=103; citation_number=34; citation_pages=5367-5372; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=Dynamics of allosteric transitions in GroEL; citation_volume=103; citation_number=35; citation_pages=18939-18944; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=Unidirectional Brownian motion observed in an in silico single molecule experiment of an actomyosin motor; citation_volume=107; citation_number=36; citation_pages=7769-7774; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Promoter melting triggered by bacterial RNA polymerase occurs in three steps; citation_volume=2; citation_number=37; citation_pages=12523-12528; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Accommodation of aminoacyl-tRNA into the ribosome involves reversible excursions along multiple pathways; citation_volume=16; citation_number=38; citation_pages=1196-1204; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Unfolding and translocation pathway of substrate protein controlled by structure in repetitive allosteric cycles of the ClpY ATPase; citation_volume=108; citation_number=39; citation_pages=2234-2239; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Capturing the essence of folding and functions of biomolecules using coarse-grained models; citation_volume=2; citation_number=40; citation_pages=487; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Hysteresis-based mechanism for the directed motility of the Ncd motor; citation_volume=101; citation_number=41; citation_pages=1105-1113; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Ligand-induced global transitions in the catalytic domain of protein kinase A; citation_volume=106; citation_number=42; citation_pages=3023-3028; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Link between allosteric signal transduction and functional dynamics in a multisubunit enzyme: S-adenosylhomocysteine hydrolase; citation_volume=133; citation_number=43; citation_pages=19807-19815; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Nonlinear elasticity, proteinquakes, and the energy landscapes of functional transitions in proteins; citation_volume=100; citation_number=44; citation_pages=12570-12775; citation_date=2003; " />
+      <meta name="citation_reference" content="citation_title=Simple energy landscape model for the kinetics of functional transitions in proteins; citation_volume=109; citation_number=45; citation_pages=1959-1969; citation_date=2005; " />
+      <meta name="citation_reference" content="citation_title=Energy landscape along an enzymatic reaction trajectory: hinges or cracks?; citation_volume=2; citation_number=46; citation_pages=61-64; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Topological and energetic factors: what determines the structural details of the transition state ensemble and “en-route” intermediates for protein folding? an investigation for small globular proteins; citation_volume=298; citation_number=47; citation_pages=937-953; citation_date=2000; " />
+      <meta name="citation_reference" content="citation_title=Collective motions in proteins: A covariance analysis of atomic fluctuations in molecular dynamics and normal mode simulations; citation_volume=11; citation_number=48; citation_pages=205-217; citation_date=1991; " />
+      <meta name="citation_reference" content="citation_title=An atomic-level mechanism for activation of the kinesin molecular motors; citation_volume=107; citation_number=49; citation_pages=4111-4116; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Predicting coiled coils from protein sequences; citation_volume=252; citation_number=50; citation_pages=1162-1164; citation_date=1991; " />
+      <meta name="citation_reference" content="citation_title=Reversing a ‘backwards’ motor; citation_volume=20; citation_number=51; citation_pages=108-112; citation_date=1998; " />
+      <meta name="citation_reference" content="citation_title=Equilibrium binding studies of non-claret disjunctional protein (Ncd) reveal cooperative interactions between the motor domains; citation_volume=273; citation_number=52; citation_pages=35307-35318; citation_date=1998; " />
+      <meta name="citation_reference" content="citation_title=The conformational cycle of kinesin; citation_volume=355; citation_number=53; citation_pages=459-464; citation_date=2000; " />
+      <meta name="citation_reference" content="citation_title=Weak and strong states of Kinesin and ncd; citation_volume=257; citation_number=54; citation_pages=66-76; citation_date=1996; " />
+      <meta name="citation_reference" content="citation_title=Kinetic mechanism of monomeric non-claret disjunctional protein (Ncd) ATPase; citation_volume=272; citation_number=55; citation_pages=30735-30740; citation_date=1997; " />
+      <meta name="citation_reference" content="citation_title=SMOG@ctbp: simplified deployment of structure-based models in GROMACS; citation_volume=38; citation_number=56; citation_pages=W657-661; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Microtubule Structure at 8 Å Resolution; citation_volume=10; citation_number=57; citation_pages=1317-1328; citation_date=2002; " />
+      <meta name="citation_reference" content="citation_title=The nature of folded states of globular proteins; citation_volume=32; citation_number=58; citation_pages=695-709; citation_date=1992; " />
+      <meta name="citation_reference" content="citation_title=ncd and kinesin motor domains interact with both alpha- and beta-tubulin; citation_volume=92; citation_number=59; citation_pages=5960-5964; citation_date=1995; " />
+      <meta name="citation_reference" content="citation_title=Binding sites on microtubules of Kinesin motors of the same or opposite polarity; citation_volume=35; citation_number=60; citation_pages=11203-11209; citation_date=1996; " />
+      <meta name="citation_reference" content="citation_title=Kinesin and ncd bind through a single head to microtubules and compete for a shared MT binding site; citation_volume=249; citation_number=61; citation_pages=763-771; citation_date=1995; " />
+
+
+
+<!--
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002783">
+   <license rdf:resource="http://creativecommons.org/licenses/by/2.5/" />
+</Work>
+<License rdf:about="http://creativecommons.org/licenses/by/2.5/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+</License>
+<rdf:Description
+     rdf:about="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002783"
+     dc:identifier="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002783"
+     dc:title="PLOS Computational Biology: The Origin of Minus-end Directionality and Mechanochemistry of Ncd Motors"
+       trackback:ping="http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002783/trackback;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3"
+     />
+</rdf:RDF>
+
+-->
+</head>
+<body>
+<span property="dc:language" content="en"></span>
+<!-- begin : container -->
+<div id="container">
+  <!-- begin : top banner external ad space -->
+  <div id="topBanner">
+
+
+<!-- begin : left banner slot -->
+<div class="left">
+  <iframe id='affe494b' name='affe494b'
+    src='http://ads.plos.org/www/delivery/afr.php?zoneid=84&amp;cb=1366'
+    frameborder='0' scrolling='no' width='468' height='60'><a
+    href='http://ads.plos.org/www/delivery/ck.php?n=affe494b&amp;cb=9048'
+    target='_top'><img src='http://ads.plos.org/www/delivery/avw.php?zoneid=84&amp;cb=1585&amp;n=affe494b'
+    border='0' alt='' /></a></iframe>
+</div>
+<!-- end : left banner slot -->
+<!-- begin : right banner slot -->
+<div class="right">
+  <iframe id='af654bd5' name='af654bd5'
+    src='http://ads.plos.org/www/delivery/afr.php?zoneid=85&amp;cb=4168'
+    frameborder='0' scrolling='no' width='468' height='60'><a
+    href='http://ads.plos.org/www/delivery/ck.php?n=af654bd5&amp;cb=4841'
+    target='_top'><img src='http://ads.plos.org/www/delivery/avw.php?zoneid=85&amp;cb=6618&amp;n=af654bd5'
+    border='0' alt='' /></a></iframe>
+</div>
+<!-- end : right banner slot -->
+
+  </div>
+  <!-- end : top banner external ad space -->
+
+  <!-- begin : header -->
+  <div id="hdr" class="login">
+
+  <!-- begin : logo -->
+  <div id="logo" title="PLOS Computational Biology"><a href="/home.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" title="PLOS Computational Biology"><span>PLOS Computational Biology</span></a></div>
+  <!-- end : logo -->
+  <!-- begin : user controls -->
+
+
+
+
+
+  <div id="user">
+    <div>
+      <ul>
+        <li><a href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002783" class="feedback"><strong>Login</strong></a> | </li>
+        <li><a href="https://register.plos.org:443/ambra-registration/register.action">Create Account</a> | </li>
+        <li class="feedback"><a href="/feedbackCreate.action?page=%252Farticle%252FfetchArticle.action%253FarticleURI%253Dinfo%25253Adoi%25252F10.1371%25252Fjournal.pcbi.1002783" title="Send us your feedback">Feedback</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <!-- end : user controls -->
+  <!-- begin search links -->
+  <ul id="links"><li class="browse"><a href="/article/browse.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3?field=date" title="Browse Articles">Browse</a></li><li class="rss"><a href="/static/rssFeeds.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" title="RSS Feeds">RSS</a></li></ul>
+  <!-- end : search links -->
+  <!-- begin : dashboard -->
+  <div id="db">
+    <form name="searchForm" action="/search/simpleSearch.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" method="get">
+      <input type="hidden" name="from" value="globalSimpleSearch"/>
+      <input type="hidden" name="filterJournals" value="PLoSCompBiol">
+      <fieldset>
+        <legend>Search</legend>
+        <label for="search">Search</label>
+        <div class="wrap"><input id="search" type="text" name="query" value="Search articles..." onfocus="if(this.value=='Search articles...')value='';" onblur="if(this.value=='')value='Search articles...';" class="searchField" alt="Search articles..."/></div>
+        <input src="/images/search_btn1.gif" onclick="submit();" value="ftsearch" alt="SEARCH" tabindex="3" class="button" type="image" />
+      </fieldset>
+    </form>
+    <form name="gasf" action="/search/advancedSearch.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" method="get">
+<input type="hidden" name="noSearchFlag" value="true" id="noSearchFlag"/><input type="hidden" name="query" value="" id="query"/>    </form>
+    <a id="advSearch" href="#" onclick="if(document.searchForm.query.value!='Search articles...')document.gasf.query.value=document.searchForm.query.value;document.gasf.submit();return false;">Advanced Search</a>
+  </div>
+  <!-- end : dashboard -->
+  <!-- begin : navigation -->
+  <ul id="nav">
+    <li><a href="/home.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" tabindex="101">Home</a></li>
+     <!-- This is a temporary action to link to th static toc page -->
+    <li><a href="/static/browse.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" tabindex="102">Browse Articles</a>
+        <ul>
+          <li><a href="/article/browseIssue.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3?field=issue">Current Issue</a></li> <!-- Assuming dynamic TOC is in place -->
+          <li><a href="/article/browseVolume.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3?field=volume">Journal Archive</a></li> 
+          <li><a href="/article/browse.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3?field=date">By Publication Date</a></li>
+          <li><a href="/article/browse.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">By Subject</a></li>
+          <li><a href="http://www.ploscollections.org/static/pcbiCollections.action">Collections</a></li>
+        </ul>
+    </li>
+    <li><a href="/static/about.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" tabindex="103">About</a>
+        <ul>
+          <li><a href="/static/information.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">Journal Information</a></li>
+          <li><a href="/static/edboard.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">Editorial Board</a></li>
+          <li><a href="/static/eic.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">Editors-in-Chief</a></li>
+          <li><a href="/static/almInfo.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">Article-Level Metrics</a></li>
+          <li><a href="/static/license.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">Open-Access License</a></li>
+          <li><a href="/static/contact.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">Contact Us</a></li>
+        </ul>
+      </li>
+    <li><a href="/static/users.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" tabindex="104">For Readers</a>
+        <ul>
+          <li><a href="/static/commentGuidelines.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">Guidelines for Notes, Comments, and Corrections</a></li>
+          <li><a href="/static/ratingGuidelines.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">Guidelines for Rating</a></li>
+          <li><a href="/static/help.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">Help Using This Site</a></li>
+          <li><a href="/static/downloads.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">Media Downloads</a></li>
+          <li><a href="/static/sitemap.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">Site Map</a></li>
+        </ul>
+      </li>
+    <li><a href="/static/authors.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" tabindex="105">For Authors and Reviewers</a>
+        <ul>
+          <li><a href="/static/policies.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">Editorial and Publishing Policies</a></li>
+          <li><a href="/static/guidelines.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">Author Guidelines</a></li>
+          <li><a href="/static/figureGuidelines.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">Figure and Table Guidelines</a></li>
+          <li><a href="/static/checklist.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">Submit Your Paper</a></li>
+          <li><a href="/static/reviewerGuidelines.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">Reviewer Guidelines</a></li>
+	   <li><a href="http://www.plos.org/journals/index.php">Submit to Other PLOS Journals</a></li>
+        </ul>
+      </li>
+      <li class="journalnav"><a href="http://www.plos.org" title="PLOS" tabindex="110" class="drop">PLOS.org</a>
+        <ul>
+          <li><a href="http://www.plos.org/oa/index.html" title="Open Access Statement">Open Access</a></li>
+          <li><a href="http://www.plos.org/support/donate.php" title="Join PLOS: Show Your Support">Join PLOS</a></li>
+          <li><a href="http://blogs.plos.org/" title="PLOS Blogs">PLOS Blogs</a></li>
+	  <li><a href="http://www.zazzle.com/plos?rf=238434112415374154" title="PLOS Store">PLOS Store</a></li>
+          <li><a href="http://currents.plos.org" title="PLOS Currents">PLOS Currents</a></li>
+          <li><a href="http://www.plos.org/connect.html" title="PLOS.org | Stay Connected">Stay Connected</a></li>
+        </ul>
+      </li>
+      <li class="journalnav"><a href="http://hubs.plos.org" tabindex="109">Hubs</a>
+        <ul>
+          <li><a href="http://hubs.plos.org/biodiversity" title="PLOS Hubs: Biodiversity">Biodiversity</a></li>
+          <li><a href="http://clinicaltrials.ploshubs.org" title="PLOS Hub for Clinical Trials">Clinical Trials</a></li>
+        </ul>
+    </li>
+      <li class="journalnav"><a href="http://www.plosjournals.org" tabindex="108">Journals</a>
+        <ul>
+          <li><a href="http://www.plosbiology.org/" title="PLOSBiology.org">PLOS Biology</a></li>
+          <li><a href="http://www.plosmedicine.org/" title="PLOSMedicine.org">PLOS Medicine</a></li>
+          <li><a href="http://www.ploscompbiol.org/" title="PLOSCompBiol.org">PLOS Computational Biology</a></li>
+          <li><a href="http://www.plosgenetics.org/" title="PLOSGenetics.org">PLOS Genetics</a></li>
+          <li><a href="http://www.plospathogens.org/" title="PLOSPathogens.org">PLOS Pathogens</a></li>
+          <li><a href="http://www.plosone.org/" title="PLOSONE.org">PLOS ONE</a></li>
+          <li><a href="http://www.plosntds.org/" title="PLOSNTDs.org">PLOS Neglected Tropical Diseases</a></li>
+        </ul>
+      </li>
+    </ul>
+  <!-- end : navigation -->
+  </div>
+  <!-- end : header --> 
+
+
+
+<!-- begin : main content -->
+<div id="content" class="article" style="visibility:visible;">
+
+<!-- begin : right hand column -->
+
+<div id="rhc" xpathLocation="noDialog">
+
+  <div id="download" class="rhcBox_type1">
+    <div class="wrap">
+      <ul>
+        <li class="download icon"><strong>Download:</strong>
+          <a href="/article/fetchObjectAttachment.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3?uri=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002783&amp;representation=PDF" title="Download article PDF">PDF</a> |
+          <a href="/article/citationList.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002783" title="Download citations">Citation</a> |
+          <a href="/article/fetchObjectAttachment.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3?uri=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002783&amp;representation=XML" title="Download Article XML">XML</a>
+        </li>
+        <li class="print icon"><a href="#" onclick="window.print();return false;" title="Print Article"><strong>Print article</strong></a></li>
+        <li class="reprint icon"><a href="https://www.odysseypress.com/onlinehost/reprint_order.php?type=A&page=0&journal=3&doi=10.1371/journal.pcbi.1002783&volume=&issue=&title=The Origin of Minus-end Directionality and Mechanochemistry of Ncd Motors&author_name=Biman%20Jana%2C%20Changbong%20Hyeon%2C%20Jos%C3%A9%20N.%20Onuchic&start_page=1&end_page=9" title="Odyssey Press">EzReprint</a> New &amp; improved!</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="issues" class="rhcBox_type2">
+    <p><strong>Published in the</strong>
+    <a href="http://www.ploscompbiol.org/article/browseIssue.action?issue=info%3Adoi%2F10.1371%2Fissue.pcbi.v08.i11" title="Browse the Open-Access Issue">November 2012 Issue of <em>PLOS Computational Biology</em></a></p>
+  </div>
+
+  <div id="impact" class="rhcBox_type2">
+    <h6>Metrics <a href="/static/help.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3#articleMetrics" class="replaced" id="info" title="More information"><span>info</span></a></h6>
+
+    <div class="wrap">
+      <img id="rhcDataSpinner" src="/images/loading_small.gif" class="loading" />
+      <div id="totalDataInRHC"></div>
+      <div id="pubDateInRHC"></div>
+      <div id="relatedCitesInRHC"></div>
+    </div>
+
+    <div class="more clearfix"><a href="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002783;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" title="More information">More</a></div>
+  </div>
+
+  <div id="related" class="rhcBox_type2">
+    <h6>Related Content</h6>
+    <dl class="related">
+      <dt>Related Articles on the Web</dt>
+      <dd><a href="http://scholar.google.com/scholar?hl=en&lr=&q=related:http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002783&btnG=Search">Google Scholar</a></dd>
+      <dd id="pubMedRelatedLIInRHC" style="display:none;"><a id="pubMedRelatedURLInRHC">PubMed</a></dd>
+    </dl>
+    <div class="more clearfix"><a href="/article/related/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002783;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" title="More information">More</a></div>
+  </div>
+
+  <div id="share" class="rhcBox_type2">
+    <h6>Share this Article <a href="/static/help.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3#socialBookmarkLinks" class="replaced" id="info" title="More information"><span>info</span></a></h6>
+    <ul>
+      <li class="bookmarklets">
+
+        <a href="http://www.reddit.com/submit?url=http://dx.plos.org/10.1371/journal.pcbi.1002783"
+           target="_new"
+           id="reddit">
+          <img src="http://www.reddit.com/static/spreddit4.gif" alt="submit to reddit" border="0"/> </a>
+        <g:plusone size="small" annotation="none" href=http://dx.plos.org/10.1371/journal.pcbi.1002783></g:plusone>
+        <script type="text/javascript">
+          (function () {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+          })();
+        </script>
+        <a href="http://www.stumbleupon.com/submit?url=http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002783" target="_new"> <img border=0 src="http://cdn.stumble-upon.com/images/16x16_su_solid.gif" alt="StumbleUpon" title="Add to StumbleUpon"></a>
+        <script>function fbs_click() {u='http://dx.plos.org/10.1371/journal.pcbi.1002783';t='The%20Origin%20of%20Minus-end%20Directionality%20and%20Mechanochemistry%20of%20Ncd%20Motors';window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436');return false;}</script><a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002783" onclick="return fbs_click()" target="_blank"><img src="http://static.ak.fbcdn.net/images/share/facebook_share_icon.gif" alt="Facebook" title="Add to Facebook" /></a>       <!-- for mor info, see http://www.facebook.com/share_partners.php -->
+        <script type="text/javascript">
+          function bookmark_in_connotea(u) {
+            a=false; x=window; e=x.encodeURIComponent; d=document;
+            w=open('http://www.connotea.org/addpopup?continue=confirm&uri='+e(u),
+                'add', 'width=600, height=400, scrollbars, resizable');
+            void(x.setTimeout('w.focus()',200));
+          }
+        </script>
+        <a style='cursor: pointer;' onclick='javascript:bookmark_in_connotea("http://dx.plos.org/10.1371/journal.pcbi.1002783");'><img src='/images/icon_connotea_16x16.gif' alt="Connotea" title="Add to Connotea"/></a>
+        <a href="http://www.citeulike.org/posturl?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002783&title=The%20Origin%20of%20Minus-end%20Directionality%20and%20Mechanochemistry%20of%20Ncd%20Motors" target="_new"><img src='/images/icon_citeulike_16x16.gif' alt="CiteULike" title="Add to CiteULike" /></a>
+        <a href="http://www.mendeley.com/import/?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002783" title="Add to Mendeley" target="_new"><img src="/images/icon_mendeley_16x16.gif" alt="Bibliography"></a>
+        <script type="text/javascript">
+          var twtTitle  = 'The Origin of Minus-end Directionality and Mechanochemistry of Ncd Motors';
+          var twtUrl    = 'http://dx.plos.org/10.1371/journal.pcbi.1002783';
+          var twtTag    = '#PLOSCompBio:'
+          var maxLength = 140 - (twtUrl.length + 1);
+          if (twtTitle.length > maxLength) {
+            twtTitle = twtTitle.substr(0, (maxLength - 17))+'...';  //truncates title to include space for twtTag and ellipsis
+          }
+          var twtLink = 'http://twitter.com/intent/tweet?text='+encodeURIComponent(twtTag + ' ' + twtTitle + ' ' + twtUrl);
+          document.write('<a href="'+twtLink+'" target="_blank"><img src="/images/icon_twitter.gif" border="0" alt="Twitter icon" title="Tweet This!" /></a>');
+        </script>
+
+      </li>
+      <li class="email icon"><a href="/article/emailArticle.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002783" title="Email this article">Email this article</a></li>
+    </ul>
+  </div>
+  <div id="articleTwitterStream" style="display:none">
+    <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script>
+      new TWTR.Widget({
+        version: 2,
+        type: 'search',
+        search: encodeURIComponent('10.1371/journal.pcbi.1002783'),
+        interval: 6000,
+        title: '',
+        subject: 'From Twitter',
+        width: 300,
+        height: 300,
+        theme: {
+          shell: {
+            background: '#667893',
+            color: '#ffffff'
+          },
+          tweets: {
+            background: '#ffffff',
+            color: '#444444',
+            links: '#006699'
+          }
+        },
+        features: {
+          scrollbar: true,
+          loop: false,
+          live: true,
+          hashtags: true,
+          timestamp: true,
+          avatars: true,
+          toptweets: true,
+          behavior: 'all'
+        }
+      }).render().start();
+    </script>
+  </div>
+</div>
+<!-- end : right hand column -->
+<form name="articleInfo" id="articleInfo" method="" action="">
+<input type="hidden" name="isAuthor" value="true" />
+<input type="hidden" name="authorIdList" value="" />
+<input type="hidden" name="userIdList" value="" />
+<input type="hidden" name="otherIdList" value="" />
+<input type="hidden" name="annotationId" value="" />
+<input type="hidden" name="isResearchArticle" value="true" />
+</form>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.XML" value="100153"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.PDF" value="1858698"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.g001.TIF" value="929304"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.g001.PNG_I" value="88530"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.g001.PNG_S" value="21576"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.g001.PNG_M" value="209637"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.g001.PNG_L" value="631422"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.g002.TIF" value="630070"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.g002.PNG_I" value="59934"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.g002.PNG_S" value="16077"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.g002.PNG_M" value="135874"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.g002.PNG_L" value="407893"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.g003.TIF" value="790318"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.g003.PNG_I" value="56403"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.g003.PNG_S" value="13634"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.g003.PNG_M" value="132312"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.g003.PNG_L" value="473327"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.g004.TIF" value="1058068"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.g004.PNG_I" value="66461"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.g004.PNG_S" value="15657"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.g004.PNG_M" value="154960"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.g004.PNG_L" value="619475"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.g005.TIF" value="1324934"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.g005.PNG_I" value="62904"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.g005.PNG_S" value="11697"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.g005.PNG_M" value="181515"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.g005.PNG_L" value="867621"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.g006.TIF" value="1229510"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.g006.PNG_I" value="54829"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.g006.PNG_S" value="12967"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.g006.PNG_M" value="140296"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.g006.PNG_L" value="888216"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e001.TIF" value="78014"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e001.PNG" value="32594"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e002.TIF" value="1390"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e002.PNG" value="886"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e003.TIF" value="924"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e003.PNG" value="673"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e004.TIF" value="1504"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e004.PNG" value="931"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e005.TIF" value="734"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e005.PNG" value="590"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e006.TIF" value="664"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e006.PNG" value="558"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e007.TIF" value="1242"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e007.PNG" value="817"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e008.TIF" value="794"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e008.PNG" value="612"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e009.TIF" value="1202"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e009.PNG" value="813"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e010.TIF" value="1216"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e010.PNG" value="828"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e011.TIF" value="1504"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e011.PNG" value="931"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e012.TIF" value="1242"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e012.PNG" value="817"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e013.TIF" value="1256"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e013.PNG" value="830"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e014.TIF" value="1144"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e014.PNG" value="778"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e015.TIF" value="864"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e015.PNG" value="639"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e016.TIF" value="798"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e016.PNG" value="612"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e017.TIF" value="824"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e017.PNG" value="627"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e018.TIF" value="798"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e018.PNG" value="612"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e019.TIF" value="824"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e019.PNG" value="627"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e020.TIF" value="1220"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e020.PNG" value="812"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e021.TIF" value="1206"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e021.PNG" value="822"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e022.TIF" value="1012"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e022.PNG" value="723"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e023.TIF" value="580"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e023.PNG" value="512"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e024.TIF" value="1240"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e024.PNG" value="822"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e025.TIF" value="1188"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e025.PNG" value="789"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e026.TIF" value="1012"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e026.PNG" value="723"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e027.TIF" value="1012"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e027.PNG" value="723"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e028.TIF" value="798"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e028.PNG" value="612"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e029.TIF" value="824"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e029.PNG" value="627"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e030.TIF" value="838"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e030.PNG" value="639"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e031.TIF" value="864"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e031.PNG" value="649"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e032.TIF" value="834"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e032.PNG" value="636"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e033.TIF" value="1012"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e033.PNG" value="723"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e034.TIF" value="1144"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e034.PNG" value="778"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e035.TIF" value="4678"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e035.PNG" value="2488"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e036.TIF" value="2448"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e036.PNG" value="1461"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e037.TIF" value="1294"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e037.PNG" value="858"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e038.TIF" value="6058"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e038.PNG" value="3091"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e039.TIF" value="832"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e039.PNG" value="640"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e040.TIF" value="600"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e040.PNG" value="519"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e041.TIF" value="2622"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.e041.PNG" value="1541"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002783.s001.MPG" value="10981256"/>
+<div id="articleContainer">
+
+<span about="http://www.plos.org"  typeof="foaf:Organization" property="foaf:name" style="display:none; visibility:hidden;">PLOS</span>
+<div id="researchArticle" class="content">
+  <span rel="dc:publisher" href="http://www.plos.org"></span>
+  <a id="top" name="top"></a>
+<div id="contentHeader" xpathLocation="noSelect">
+  <p>Open Access</p><p id="articleType">Research Article</p>
+</div>
+
+  <h1 xpathLocation="noSelect" property="dc:title" datatype="" rel="dc:type" href="http://purl.org/dc/dcmitype/Text">The Origin of Minus-end Directionality and Mechanochemistry of Ncd Motors</h1>
+  <div property="dc:description" datatype="" style="display:none; visibility:hidden;">Author SummaryProteins belonging to the kinesin superfamily are responsible for vesicle or organelle transport, spindle morphogenesis, and chromosome sorting during cell division. Interestingly, while most proteins in kinesin superfamily that share the common catalytic motor head domain have plus-end directionality along microtubules, kinesin-14 (Ncd) exhibits minus-end directionality. Despite the several circumstantial evidences on the determining factors for the motor directionality in the last decade, a comprehensive understanding of the mechanism governing the Ncd minus-end directionality is still missing. Our studies provide a clear explanation for this minus-end directionality and the associated mechanochemical cycle. Here, we modeled an Ncd motor by employing structural details available in the literature to simulate its conformational dynamics. Simulations using our structure-based model of Ncd assert that the dynamics due to a simple rearrangement of structural elements, peripheral to the catalytic motor domain, is the key player in determining both the directionality and mechanochemistry unique to Ncd motors. Although Ncd has a different directionality, it uses a similar strategy to kinesin-1 of structural adaptation of the catalytic motor domain. Therefore using the same physical principle of protein folding and very similar structural elements, motors in the kinesin superfamily are able to achieve a variety of biological function.</div>
+  <span property="dc:date" content="2012-11-15" datatype="xsd:date" rel="dc:identifier" href="http://dx.doi.org/10.1371/journal.pcbi.1002783"></span>
+  <span property="dc:subject" content="Biophysics"></span>
+  <span property="dc:subject" content="Computational Biology"></span>
+  <span property="dc:subject" content="Physics"></span>
+<form action="">
+  <input type="hidden" name="journalDisplayName" id="journalDisplayName" value="PLOS Computational Biology" />
+  <input type="hidden" name="crossRefPageURL" id="crossRefPageURL" value="/article/crossref/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002783;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" />
+  <input type="hidden" name="twitterPageURL" id="twitterPageURL" value="/article/twitter/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002783;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" />
+  <input type="hidden" name="metricsTabURL" id="metricsTabURL" value="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002783;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" />
+  <input type="hidden" name="doi" id="doi" value="info:doi/10.1371/journal.pcbi.1002783" />
+  <input type="hidden" name="articleTitleUnformatted" id="articleTitleUnformatted" value="The%20Origin%20of%20Minus-end%20Directionality%20and%20Mechanochemistry%20of%20Ncd%20Motors" />
+  <input type="hidden" name="articlePubDate" id="articlePubDate" value="1352966400000" />
+</form>
+<div class="horizontalTabs" xpathLocation="noSelect">
+  <ul id="tabsContainer">
+        <li id="article" class="active"><a href="/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002783;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" class="tab" title="Article">Article</a></li>
+        <li id="metrics"><a href="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002783;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" class="tab" title="Metrics">Metrics</a></li>
+        <li id="related"><a href="/article/related/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002783;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" class="tab" title="Related Content">Related Content</a></li>
+        <li id="comments"><a href="/article/comments/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002783;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" class="tab" title="Comments">Comments: 0</a></li>
+  </ul>
+</div>
+  <div id="articleMenuBox" xpathLocation="noSelect">
+    <div id="articleMenu">
+      <div class="wrap">
+        <ul>
+          <li class="annotation icon">To <strong>add a note</strong>, highlight some text. <a href="#" onclick="toggleAnnotation(this, 'public'); return false;" title="Click to turn notes on/off">Hide notes</a></li>
+          <li class="discuss icon">
+              <a href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002783">Make a general comment</a>
+          </li>
+        </ul>
+        <div id="sectionNavTopBox" style="display:none;">
+          <p><strong>Jump to</strong></p>
+          <div id="sectionNavTop" class="tools"></div>
+        </div>
+      </div>
+    </div>
+      <div id="lightBox" xpathLocation="noDialog" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002783')">
+      </div>
+  </div>
+
+
+
+
+<p class="authors" xpathLocation="noSelect"><span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Biman Jana</span></span><sup><a href="#aff1">1</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Changbong Hyeon</span></span><sup><a href="#aff2">2</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">José N. Onuchic</span></span><sup><a href="#aff1">1</a></sup><sup><a href="#cor1" class="fnoteref">*</a></sup></p><p class="affiliations" xpathLocation="noSelect"><a name="aff1" id="aff1"></a><strong>1</strong> Center for Theoretical Biological Physics, Rice University, Houston, Texas, United States of America, <a name="aff2" id="aff2"></a><strong>2</strong> School of Computational Sciences, Korea Institute for Advanced Study, Seoul, Korea</p><div class="abstract" xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[1]"><a id="abstract0" name="abstract0" toc="abstract0" title="Abstract"></a><h2 xpathLocation="noSelect">Abstract&nbsp;<a href="#top">Top</a></h2><p xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[1]/p[1]">Adaptation of molecular structure to the ligand chemistry and interaction with the cytoskeletal filament are key to understanding the mechanochemistry of molecular motors. Despite the striking structural similarity with kinesin-1, which moves towards plus-end, Ncd motors exhibit minus-end directionality on microtubules (MTs). Here, by employing a structure-based model of protein folding, we show that a simple repositioning of the neck-helix makes the dynamics of Ncd non-processive and minus-end directed as opposed to kinesin-1. Our computational model shows that Ncd in solution can have both symmetric and asymmetric conformations with disparate ADP binding affinity, also revealing that there is a strong correlation between distortion of motor head and decrease in ADP binding affinity in the asymmetric state. The nucleotide (NT) free-ADP (φ-ADP) state bound to MTs favors the symmetric conformation whose coiled-coil stalk points to the plus-end. Upon ATP binding, an enhanced flexibility near the head-neck junction region, which we have identified as the important structural element for directional motility, leads to reorienting the coiled-coil stalk towards the minus-end by stabilizing the asymmetric conformation. The minus-end directionality of the Ncd motor is a remarkable example that demonstrates how motor proteins in the kinesin superfamily diversify their functions by simply rearranging the structural elements peripheral to the catalytic motor head domain.</p>
+</div><div class="abstract" xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[2]"><a id="abstract1" name="abstract1" toc="abstract1" title="Author Summary"></a>
+<h2 xpathLocation="noSelect">Author Summary&nbsp;<a href="#top">Top</a></h2>
+<p xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[2]/p[1]">Proteins belonging to the kinesin superfamily are responsible for vesicle or organelle transport, spindle morphogenesis, and chromosome sorting during cell division. Interestingly, while most proteins in kinesin superfamily that share the common catalytic motor head domain have plus-end directionality along microtubules, kinesin-14 (Ncd) exhibits minus-end directionality. Despite the several circumstantial evidences on the determining factors for the motor directionality in the last decade, a comprehensive understanding of the mechanism governing the Ncd minus-end directionality is still missing. Our studies provide a clear explanation for this minus-end directionality and the associated mechanochemical cycle. Here, we modeled an Ncd motor by employing structural details available in the literature to simulate its conformational dynamics. Simulations using our structure-based model of Ncd assert that the dynamics due to a simple rearrangement of structural elements, peripheral to the catalytic motor domain, is the key player in determining both the directionality and mechanochemistry unique to Ncd motors. Although Ncd has a different directionality, it uses a similar strategy to kinesin-1 of structural adaptation of the catalytic motor domain. Therefore using the same physical principle of protein folding and very similar structural elements, motors in the kinesin superfamily are able to achieve a variety of biological function.</p>
+</div>
+
+
+<div class="articleinfo" xpathLocation="noSelect"><p><strong>Citation: </strong>Jana B, Hyeon C, Onuchic JN (2012) The Origin of Minus-end Directionality and Mechanochemistry of Ncd Motors. PLoS Comput Biol 8(11):
+          e1002783.
+            doi:10.1371/journal.pcbi.1002783</p><p><strong>Editor: </strong>Emad Tajkhorshid, 
+        University of Illinois, United States of America
+      </p><p></p><p><strong>Received:</strong> May 25, 2012; <strong>Accepted:</strong> September 30, 2012; <strong>Published:</strong> November 15, 2012</p><p><strong>Copyright:</strong> © 2012 Jana et al. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</p><p><strong>Funding: </strong>This work was supported in part by the grants from the National Research Foundation of Korea (2010-0000602), the Center for Theoretical Biological Physics sponsored by the National Science Foundation (Grant PHY-0822283 and MCB-1214457), and by the Welch Foundation. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p><p><strong>Competing interests:</strong> The authors have declared that no competing interests exist.</p><p><a name="cor1"></a>* E-mail: <a href="mailto:jonuchic@rice.edu">jonuchic@rice.edu</a></p></div>
+
+
+
+
+
+<div id="section1" xpathLocation="/article[1]/body[1]/sec[1]"><a id="s1" name="s1" toc="s1" title="Introduction"></a><h3 xpathLocation="noSelect">Introduction&nbsp;<a href="#top">Top</a></h3><p xpathLocation="/article[1]/body[1]/sec[1]/p[1]">Motor proteins in the kinesin superfamily play critical roles in a number of cellular processes such as vesicle and organelle transport, microtubule depolarization, chromosome and spindle organization during cell division <a href="#pcbi.1002783-Hirokawa1">[1]</a>, <a href="#pcbi.1002783-Vale1">[2]</a>, <a href="#pcbi.1002783-Howard1">[3]</a>. They convert chemical energy associated with ATP hydrolysis into mechanical work to undertake their specific tasks in the cell. While sharing a very similar structure, especially in the catalytic motor head (MH) domain, proteins in the kinesin superfamily exhibit stark variations in their biological function <a href="#pcbi.1002783-Kull1">[4]</a>, <a href="#pcbi.1002783-Sablin1">[5]</a>. Kinesin-1 moves from the minus-end of MTs to the plus-end <a href="#pcbi.1002783-Vale2">[6]</a>, <a href="#pcbi.1002783-Visscher1">[7]</a>; kinesin-5 (or Eg5) assembles antiparallel MTs to organize bipolar spindles <a href="#pcbi.1002783-Sawin1">[8]</a>, <a href="#pcbi.1002783-Nislow1">[9]</a>; kinesin-13, responsible for the depolymerization of MTs, diffuses bidirectionally along the MT <a href="#pcbi.1002783-Helenius1">[10]</a>; and kinesin-14 (Ncd) is minus-end-directed <a href="#pcbi.1002783-McDonald1">[11]</a>. Among many outstanding questions related to motor dynamics <a href="#pcbi.1002783-Block1">[12]</a>, it is of particular interest to ask how the directionality of the molecular movement is determined for a given structure of a motor.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[2]">Among the motor proteins in the kinesin family, one of the best studied is the kinesin-1 that walks hand-over-hand towards the plus-end of MTs <a href="#pcbi.1002783-Vale3">[13]</a>, <a href="#pcbi.1002783-Asbury1">[14]</a>, <a href="#pcbi.1002783-Yildiz1">[15]</a>. In kinesin-1, NT-dependent affinity of the MH to MTs and order-disorder transition of the neck-linker, which connects the MH with C-terminal neck-helix, were suggested as the key structural elements responsible for the motor directionality and head-to-head coordination <a href="#pcbi.1002783-Hancock1">[16]</a>, <a href="#pcbi.1002783-Rice1">[17]</a>, <a href="#pcbi.1002783-Uemura1">[18]</a>, <a href="#pcbi.1002783-Hyeon1">[19]</a>, <a href="#pcbi.1002783-Hyeon2">[20]</a>, <a href="#pcbi.1002783-Yildiz2">[21]</a>, <a href="#pcbi.1002783-Clancy1">[22]</a>, <a href="#pcbi.1002783-Hyeon3">[23]</a>, <a href="#pcbi.1002783-Zhang1">[24]</a>. For a given binding interface between the MH and MTs, ATP-binding induced disorder-to-order transition of the neck-linker rectifies the diffusive dynamics of a tethered head towards the plus-end. In contrast to the kinesin-1, Ncd motors retain its MH next to the N-terminal neck-helix. Cryo-electron microscope studies and a single molecule assay suggest that Ncd generates force from the plus to minus-end using only one head by keeping the remaining head away from the MTs during the entire motor cycle <a href="#pcbi.1002783-Sablin2">[25]</a>, <a href="#pcbi.1002783-deCastro1">[26]</a>, <a href="#pcbi.1002783-Wendt1">[27]</a>; thus suggesting that the dynamics of Ncd is non-processive <a href="#pcbi.1002783-McDonald1">[11]</a>, <a href="#pcbi.1002783-deCastro1">[26]</a>. Although the reconstructed images of the kinesin-1 and Ncd on MTs provide partial glimpses of their functional mechanism <a href="#pcbi.1002783-Sablin2">[25]</a>, <a href="#pcbi.1002783-deCastro1">[26]</a>, <a href="#pcbi.1002783-Wendt1">[27]</a>, a further study is needed to address the structural and dynamical origin of opposite directionalities for the two motors.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[3]">Several findings from previous experiments provide valuable insights into Ncd dynamics. Stopped-flow experiment by Foster <em>et al.</em> suggested an apparent asymmetry between the two MHs in Ncd dimers <a href="#pcbi.1002783-Foster1">[28]</a>, showing biphasic ADP release kinetics with disparate time scales of 7 s<sup>−1</sup> and 0.005 s<sup>−1</sup>. An asymmetric Ncd conformer crystallized by mutating a residue (N600K) in the MT binding motif showed a structure, with a considerably low ADP affinity, distorted from the wild type <a href="#pcbi.1002783-Yun1">[29]</a>, suggesting that such an asymmetric conformation can be accessible for the wild type Ncd. As a plausible link between the biphasic ADP release kinetics and the presence of accessible asymmetric states, <sup>13</sup>P-NMR spectroscopy showed that multiple Ncd dimer conformations, including asymmetric conformers, are accessible in solution <a href="#pcbi.1002783-Suzuki1">[30]</a>. Furthermore, according to mutation studies, the directionality of motor hinges on the structural elements outside of the MH domain <a href="#pcbi.1002783-Case1">[31]</a>: a chimeric kinesin-1 with Ncd's neck is minus-end-directed, whereas an Ncd with kinesin-1's neck-linker exhibited the plus-end directionality although the motility was impaired in both cases <a href="#pcbi.1002783-Endow1">32</a>,<a href="#pcbi.1002783-Henningsen1">33</a>, which highlights the role of the neck domain for the motor directionality.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[4]">Despite a number of studies on Ncd motors, still missing is a more integrated understanding that explicitly relates the scattered experimental findings mentioned above with the mechanochemical cycle of Ncd motors and their minus-end directionality in structural terms. A series of efforts have recently been made to decipher a number of crucially interesting issues involving molecular motors by performing large-scale molecular simulations <a href="#pcbi.1002783-Hyeon1">[19]</a>, <a href="#pcbi.1002783-Hyeon2">[20]</a>, <a href="#pcbi.1002783-Zhang1">[24]</a>, <a href="#pcbi.1002783-Koga1">[34]</a>, <a href="#pcbi.1002783-Hyeon4">[35]</a>, <a href="#pcbi.1002783-Takano1">[36]</a>, <a href="#pcbi.1002783-Chen1">[37]</a>, <a href="#pcbi.1002783-Whitford1">[38]</a>, <a href="#pcbi.1002783-Kravats1">[39]</a>, <a href="#pcbi.1002783-Hyeon5">[40]</a>, <a href="#pcbi.1002783-Lakkaraju1">[41]</a>. Among them, our previous studies that employed the coarse-grained structure-based model of kinesin-1, which retains its native-like configuration in the absence of external perturbation, could show that the conformational adaptation in response to the chemical and mechanical stresses renders the movement of kinesin-1 plus-end directed and highly processive <a href="#pcbi.1002783-Hyeon1">[19]</a>, <a href="#pcbi.1002783-Hyeon2">[20]</a>, <a href="#pcbi.1002783-Hyeon3">[23]</a>. Here, our model of the Ncd motor, adopting the computational strategy based on the theory of protein folding as the previous models <a href="#pcbi.1002783-Hyeon1">[19]</a>, <a href="#pcbi.1002783-Hyeon2">[20]</a>, <a href="#pcbi.1002783-Hyeon3">[23]</a>, <a href="#pcbi.1002783-Hyeon6">[42]</a>, <a href="#pcbi.1002783-Lee1">[43]</a>, clarifies how the repositioning of neck-helix to the N-terminal and the deletion of neck-linker from kinesin-1 drastically alter the intramolecular structural adaptation, giving rise to the minus-end directionality and associated mechanochemistry unique to the Ncd motors. Finally, our study show explicitly how the basic physical principle of protein folding <a href="#pcbi.1002783-Hyeon1">[19]</a>, <a href="#pcbi.1002783-Hyeon2">[20]</a>, <a href="#pcbi.1002783-Hyeon3">[23]</a>, <a href="#pcbi.1002783-Miyashita1">[44]</a>, <a href="#pcbi.1002783-Miyashita2">[45]</a>, <a href="#pcbi.1002783-Whitford2">[46]</a> play roles for motor proteins in the kinesin superfamily to achieve a wealth of different behaviors needed for their biological functions.</p>
+</div>
+
+<div id="section2" xpathLocation="/article[1]/body[1]/sec[2]"><a id="s2" name="s2" toc="s2" title="Results"></a><h3 xpathLocation="noSelect">Results&nbsp;<a href="#top">Top</a></h3>
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/title[1]">Structural comparison between kinesin-1 and Ncd</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[1]">Native contact maps and superimposed structures between the kinesin-1 (<a href="#pcbi-1002783-g001">Fig. 1a</a>) and symmetric conformer of Ncd (<a href="#pcbi-1002783-g001">Fig. 1b</a>) reveal notable similarity of the two molecules. The MH domains of two motors are very similar in both structure (<a href="#pcbi-1002783-g001">Fig. 1c</a>) and contact map (<a href="#pcbi-1002783-g001">Fig. 1d</a>). The main difference between the Ncd and kinesin lies in the organization of structural motifs peripheral to the MH domain. While kinesin-1 has a C-terminal neck-helix followed by neck-linker and MH, Ncd has a N-terminal neck-helix that is linked to the MH via a short stretch of amino acids called neck-junction, which introduces slight variations in the contact maps. It is of particular note that the contacts between the neck-helix (or coiled-coil stalk) and the MH are unique to Ncd (enclosed by the magenta box in <a href="#pcbi-1002783-g001">Fig. 1d</a>). Instead of these head-stalk contacts, kinesin-1 has multiple contacts between the MH and neck-linker (enclosed by the green box in <a href="#pcbi-1002783-g001">Fig. 1d</a>). We show that this seemingly minor difference in contact map leads to stark differences in terms of motor functions between Ncd and kinesin-1.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]"><a name="pcbi-1002783-g001" id="pcbi-1002783-g001" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002783?imageURI=info:doi/10.1371/journal.pcbi.1002783.g001" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002783', 'info:doi/10.1371/journal.pcbi.1002783.g001');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002783', 'info:doi/10.1371/journal.pcbi.1002783.g001');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.g001&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002783?imageURI=info:doi/10.1371/journal.pcbi.1002783.g001" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002783', 'info:doi/10.1371/journal.pcbi.1002783.g001');"><span>Figure 1. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]/caption[1]/title[1]">Structural comparison of kinesin-1 and Ncd.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]/caption[1]/p[1]">(a) Dimer structures of kinesin-1 (PDB ID 3KIN) in ADP-ADP state in the absence of MT. (b) Dimer structure of the symmetric Ncd dimer (PDB ID 1CZ7). Note that the Ncd motor lacks the neck-linker region. (c) Superposition of the MHs of kinesin-1 (red) and Ncd (blue). Between the MHs of the two motors Cα-rmsd is 1.06 Å, and there is 41% sequence identify. (d) Native contact maps of the two motors, upper left for Ncd and lower right for kinesin-1. Note that the patterns of the contact map between the two MH domains enclosed in black box are very similar, and that the differences are in structural motifs peripheral to MH.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002783.g001</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002783.g001/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002783.g001/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002783.g001.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002783.g001/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002783.g001.TIF"></span> TIFF)
+                  </a></li></ul></div></div>
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/title[1]">Transitions between symmetric and asymmetric conformations of Ncd (ADP-ADP state) in solution</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/p[1]">In the asymmetric conformation of Ncd (<a href="#pcbi-1002783-g002">Fig. 2a</a>), one of the two MHs has a structure rotated around the neck-junction and thus “distorted” from its symmetric counterpart that leads to a different contact map (<a href="#pcbi-1002783-g002">Fig. 2c &amp; d</a>). As we have discussed earlier, wild type Ncd can exists in either the symmetric or asymmetric form in solution. In our structure-based potential we combine the information of the native contacts from both symmetric and asymmetric states. As clearly depicted in the Ncd structure of <a href="#pcbi-1002783-g002">Fig. 2b</a>, it is impossible for the stalk (residue indices around 50) to form contacts concurrently with MH in the symmetric state (residue indices around 125) and in the asymmetric state (residue indices 80–100). Thus, the head-stalk contacts in the symmetric and asymmetric states are energetically frustrated and this leads to a competitive energy landscape (see Methods for further details of how this is implemented in energy Hamiltonian) <a href="#pcbi.1002783-Hyeon6">[42]</a>, <a href="#pcbi.1002783-Lee1">[43]</a>, <a href="#pcbi.1002783-Clementi1">[47]</a>. Our simulation of the Ncd dimer in the absence of the MT reveals both symmetric and asymmetric conformations. Comparison of the contact maps explicitly demonstrates that the pattern of head-stalk contacts in the asymmetric state differs from that in the symmetric state (<a href="#pcbi-1002783-g002">Figs. 2c and 2d</a>). Interestingly, while each MH can acquire distorted configuration with equal probability, we do not observe a conformation where both MHs are distorted. We found that only one of MHs is distorted towards its asymmetric conformation; the other MH still retains a conformation similar to the one in symmetric dimer. To quantify our findings from simulation, we follow the dynamics of the inter-residue distance (E567 from each monomer) in the dimer structure (<a href="#pcbi-1002783-g003">Fig. 3a</a>). The distribution of inter-residue distance shows two peaks corresponding to the symmetric and asymmetric conformations with preference to the symmetric conformer. Since the probability for a monomer to sample one of the two asymmetric states is small (prob. = exp(−2.1)~0.12 from <a href="#pcbi-1002783-g003">Fig. 3b</a>), the odds to observe a conformation with both MHs being distorted are even smaller (<a href="#pcbi-1002783-g003">Fig. 3b</a>). Two-dimensional free energy diagram (<a href="#pcbi-1002783-g003">Fig. 3b</a>), plotted using the distances between K325 and E567 of the two monomers, shows that there are three free energy minima; one for the symmetric state, the others for the two asymmetric states (asymmetric A and B in <a href="#pcbi-1002783-g003">Fig. 3b</a>). It is also evident from the free energy diagram that a configuration with both heads being distorted is inaccessible.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[1]"><a name="pcbi-1002783-g002" id="pcbi-1002783-g002" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002783?imageURI=info:doi/10.1371/journal.pcbi.1002783.g002" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002783', 'info:doi/10.1371/journal.pcbi.1002783.g002');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002783', 'info:doi/10.1371/journal.pcbi.1002783.g002');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.g002&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002783?imageURI=info:doi/10.1371/journal.pcbi.1002783.g002" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002783', 'info:doi/10.1371/journal.pcbi.1002783.g002');"><span>Figure 2. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[1]/caption[1]/title[1]">Conformational transition between symmetric and asymmetric conformers of Ncd dimer in the absence of MTs.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[1]/caption[1]/p[1]">(a) Ncd motor in the symmetric and asymmetric states. (b) Head-stalk contacts present in the symmetric (green) and asymmetric state (red) shown for a monomer. These two sets of contacts cannot be satisfied simultaneously. Residue contact maps for (c) symmetric and (d) asymmetric conformations. The difference in the head-stalk contacts in the asymmetric conformer is highlighted in the contact map by using circles.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002783.g002</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002783.g002/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002783.g002/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002783.g002.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002783.g002/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002783.g002.TIF"></span> TIFF)
+                  </a></li></ul></div></div><div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[2]"><a name="pcbi-1002783-g003" id="pcbi-1002783-g003" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002783?imageURI=info:doi/10.1371/journal.pcbi.1002783.g003" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002783', 'info:doi/10.1371/journal.pcbi.1002783.g003');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002783', 'info:doi/10.1371/journal.pcbi.1002783.g003');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.g003&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[2]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002783?imageURI=info:doi/10.1371/journal.pcbi.1002783.g003" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002783', 'info:doi/10.1371/journal.pcbi.1002783.g003');"><span>Figure 3. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[2]/caption[1]/title[1]">Dynamics between symmetric and asymmetric states of Ncd in solution.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[2]/caption[1]/p[1]">(a) Distribution of the inter-residue distance between E567 of the two monomers calculated from simulation show two peaks corresponding to the symmetric and asymmetric states with representative Ncd structures for each peak position. (b) Two dimensional free energy diagram color-coded in <em>k</em><sub>B</sub><em>T</em> unit. Energetically possible transitions are between symmetric and one of the two asymmetric states (A or B). (c) Low frequency modes from PCA lend support to the distortion dynamics that drives the Ncd dimer from its symmetric to its asymmetric state. Residue-wise vector represents one of the two low frequency modes.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002783.g003</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002783.g003/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002783.g003/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002783.g003.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002783.g003/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002783.g003.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/p[2]">In addition, principle component analysis <a href="#pcbi.1002783-Ichiye1">[48]</a> of our simulation trajectories (see Methods) reveals that the first two low frequency modes are associated with symmetry-breaking fluctuations that are responsible for bringing the symmetric Ncd structure towards the asymmetric state (<a href="#pcbi-1002783-g003">Fig. 3c</a>) (also see the supporting movie S1).</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/title[1]">Distorted MH has nonnative-like environment in the NT binding pocket</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[1]">To identify the correlation between the MH distortion and the NT binding affinity, we first monitor the change in the number of the head-stalk contacts and the RMS deviation of the NT binding pocket (residues 432–451, 535–555, 576–590) (<a href="#pcbi-1002783-g004">Fig. 4a</a>). Our simulation finds an interesting anti-correlation between these two quantities at the global level when the distortion dynamic between the symmetric and asymmetric conformers take place (<a href="#pcbi-1002783-g004">Fig. 4b</a>). As the head-stalk contacts in the symmetric state decrease, the RMS deviation of the NT binding pocket region increases. This anti-correlation is observed in both heads, suggesting that there is an allosteric communication between the head-stalk contact region and the nativeness of the binding pocket. Furthermore, inspecting the details of NT binding pocket, i.e. (residue 434–441 P-loop (residue 434–441), switch I (residue 540–549) and switch II (residue 580–585) <a href="#pcbi.1002783-Sindelar1">[49]</a> in both symmetric and asymmetric states, we find that there is a noticeable enhancement of fluctuation in switch I region whereas the change in the fluctuation dynamics of switch II and P-loop is relatively small (<a href="#pcbi-1002783-g004">Fig. 4c, 4d</a>). This provides is a clear signature of the increased distortion (especially for switch I) of the ADP binding pocket when it acquires an asymmetric conformation. It may be argued that there is an allosteric communication between the head-stalk contact region and ADP binding pocket as symmetric-asymmetric transition involves changes in head-stalk contact pattern. Provided that the distortion in the NT-binding pocket leads to a weakening the ADP binding affinity <a href="#pcbi.1002783-Uemura1">[18]</a>, <a href="#pcbi.1002783-Hyeon1">[19]</a>, our simulation results suggest a possible explanation for the origin of the biphasic ADP release kinetics observed in Ncd dimer in solution and also confirm the proposition by Foster <em>et al</em> <a href="#pcbi.1002783-Foster1">[28]</a> about an apparent asymmetry between the two MHs of the Ncd dimer.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[1]"><a name="pcbi-1002783-g004" id="pcbi-1002783-g004" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002783?imageURI=info:doi/10.1371/journal.pcbi.1002783.g004" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002783', 'info:doi/10.1371/journal.pcbi.1002783.g004');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002783', 'info:doi/10.1371/journal.pcbi.1002783.g004');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.g004&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002783?imageURI=info:doi/10.1371/journal.pcbi.1002783.g004" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002783', 'info:doi/10.1371/journal.pcbi.1002783.g004');"><span>Figure 4. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[1]/caption[1]/title[1]">Correlation between symmetric-asymmetric transition and fluctuation at NT binding region.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[1]/caption[1]/p[1]">(a) Head-stalk contact region and NT binding pocket in Ncd motor are marked on the Ncd structure. (b) Disruption of the head-stalk contact induces disruption of NT binding pocket. Shaded in grey are the anti-correlated signals between the number of head-stalk contacts and the RMSD of NT binding pocket. (c) Different elements of NT binding pocket region in Ncd motor are marked: P-loop (orange), switch I (red) and switch II (yellow). Structural differences of these motifs are compared between the two states. For symmetric state, we use blue color for all elements. Switch I region reveals maximum deformation. (d) RMSD distribution of P-loop, switch I and switch II are shown for both the states. Note the noticeable difference for switch I region.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002783.g004</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002783.g004/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002783.g004/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002783.g004.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002783.g004/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002783.g004.TIF"></span> TIFF)
+                  </a></li></ul></div></div>
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/title[1]">Population shift mechanism of microtubule binding</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/p[1]">Based on our above findings, we also propose that the population shift (or conformational selection) mechanism is involved when Ncd binds to MTs. In the solution, Ncd can have a stable symmetric conformation with an asymmetric conformation. However, because the NT free-ADP (φ-ADP) state, attained due to fast ADP release from asymmetric conformation <a href="#pcbi.1002783-deCastro1">[26]</a>, is a strong MT-binder, the equilibrium population associated with asymmetric ADP-ADP state in solution would be depleted as more Ncd motors bind to MTs. This MT-binding process produces a flux of population shift from the stable symmetric conformation to the less stable asymmetric conformation.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[5]/title[1]">Coiled-coil stalk in φ-ADP state is plus-end-directed</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[5]/p[1]">Next, we perform the simulation of φ-ADP state of Ncd dimer with the NT free head being bound to the MT. Since no crystal structure is available in the protein data bank (PDB) for the MT bound Ncd, we use the binding interface (contacts) between MT and kinesin-1 by noting that MH of Ncd is homologous to that of kinesin-1. This is also supported by docking studies that revealed similar orientation of the binding head for these two motors <a href="#pcbi.1002783-Sablin2">[25]</a>. Thus, by incorporating the MH-MT contacts in our structure-based model we simulated the φ-ADP state on the MTs. Our simulation finds that the Ncd on the MT (<a href="#pcbi-1002783-g005">Fig. 5a</a>) prefers the symmetric conformation whose coiled-coil stalk points towards the plus-end, which is in agreement with the previous Cryo-EM measurement <a href="#pcbi.1002783-Wendt1">[27]</a>. The distribution of an angle <em>θ</em>, defined using three residues (LEU296 in the unbound monomer and D424, E567 in the bound monomer; see <a href="#pcbi-1002783-g005">Fig. 5</a>) is bimodal with a dominant population near <em>θ</em>~25° for symmetric and a small population near <em>θ</em>~150° for asymmetric states, respectively. Of particular note is that the interaction of Ncd with MTs greatly reduces the population of asymmetric state in comparison to that of the solution state (compare <a href="#pcbi-1002783-g003">Figs. 3a</a> and <a href="#pcbi-1002783-g005">5a</a>).</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[5]/fig[1]"><a name="pcbi-1002783-g005" id="pcbi-1002783-g005" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002783?imageURI=info:doi/10.1371/journal.pcbi.1002783.g005" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002783', 'info:doi/10.1371/journal.pcbi.1002783.g005');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002783', 'info:doi/10.1371/journal.pcbi.1002783.g005');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.g005&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[5]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002783?imageURI=info:doi/10.1371/journal.pcbi.1002783.g005" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002783', 'info:doi/10.1371/journal.pcbi.1002783.g005');"><span>Figure 5. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[5]/fig[1]/caption[1]/title[1]">ATP dependent population change and minus-end directed power stroke of Ncd on MT track.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[5]/fig[1]/caption[1]/p[1]">(a) Distributions of the angle (θ), among LEU296 in the unbound monomer and D424, E567 in the bound monomer, calculated from simulation for φ-ADP state on MT. The structure of Ncd with <em>θ</em>~25° (peak position) is depicted on the MTs. (b) The angle (θ) distribution calculated from simulation for the ATP-ADP state. The structure of the Ncd on the MT with <em>θ</em>~150° (peak position) is shown on the top. Change from φ-ADP to ATP-ADP state (a→b) implies the minus-end-directed power stroke.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002783.g005</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002783.g005/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002783.g005/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002783.g005.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002783.g005/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002783.g005.TIF"></span> TIFF)
+                  </a></li></ul></div></div>
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/title[1]">Coiled-coil stalk in ATP-ADP state directed towards minus end of microtubule</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/p[1]">Subsequently, we perform the simulation of the MT bound Ncd dimer in the ATP-ADP state. Several mutation studies have suggested the importance of the neck-junction region for the directional motility of Ncd dimer <a href="#pcbi.1002783-Endow1">[32]</a>, <a href="#pcbi.1002783-Henningsen1">[33]</a>, <a href="#pcbi.1002783-Lupas1">[50]</a>. Bioinformatics analysis based on COILS <a href="#pcbi.1002783-Lupas1">[50]</a>, which assess the feasibility of the amino-acid sequence to form a coiled-coil structure, have also reported that the contacts near the neck-junction region are metastable <a href="#pcbi.1002783-Lupas1">[50]</a>, <a href="#pcbi.1002783-Endow2">[51]</a>. Additionally, binding of ATP to the NT free MH may allosterically influence the residues in the junction region. Thus, to mimic the effect of ATP binding we increase structural flexibility by destabilizing the contacts in the junction region (see Methods for details). Our simulation renders a striking inversion from a symmetric to an asymmetric biased landscape (<a href="#pcbi-1002783-g005">Fig. 5</a>). The distribution of the angle (θ) calculated above for the φ-ADP state (<a href="#pcbi-1002783-g005">Fig. 5b</a>) now shows a peak around 150°, suggesting that the Ncd dimer stays mostly in the asymmetric conformation when the neck-junction becomes flexible. This finding is in agreement with the previous cryo-EM study that the ATP-ADP state has a coiled-coil stalk pointing towards minus-end of MTs <a href="#pcbi.1002783-Wendt1">[27]</a>. Thus, our simulation indicates a direct link between destabilization of head-stalk contacts and stabilization of the asymmetric Ncd on MTs. In fact, the conformational change of Ncd from symmetric to asymmetric state leads to the swinging of coiled-coil stalk from plus-end to minus-end, accounting for the structural origin of minus-end directionality of Ncd motors on MTs.</p>
+
+</div>
+
+<div id="section3" xpathLocation="/article[1]/body[1]/sec[3]"><a id="s3" name="s3" toc="s3" title="Discussion"></a><h3 xpathLocation="noSelect">Discussion&nbsp;<a href="#top">Top</a></h3><p xpathLocation="/article[1]/body[1]/sec[3]/p[1]">The results obtained from our simulation can be recapitulated in the mechanochemical cycle for Ncd motor in <a href="#pcbi-1002783-g006">Fig. 6</a>. In solution, the Ncd dimer (ADP-ADP state) exists in either (i) symmetric or (ii) (or (ii)’) asymmetric conformations with more dominant population in the symmetric state. In the asymmetric conformation, distortion in one of the heads from its wild type structure is correlated with enhanced fluctuation near ADP binding pocket. Hence, the distorted head in an asymmetric conformation has a lower ADP affinity that facilitates the ADP release. Simulations from our Ncd model explicitly demonstrate that this symmetric-to-asymmetric conformational transition occurs occasionally and that there is a clear correlation between this transition and the increase of fluctuation at the binding pocket of the distorted head (especially in switch I) <a href="#pcbi.1002783-Sindelar1">[49]</a>. This transition explains how the bi-phasic ADP release kinetics occurs while Ncd is a homodimer. Following, the NT-free MH, which retains strong MT-binding affinity (K<sub>d</sub>~nM), binds to the MTs and reaches (iii) a further stabilized symmetric conformation on the MT, whose coiled-coil stalk points towards the plus-end. (iv) ATP binding to the free head destabilizes the neck-head junction region of the MT-bound head, which overturns the ensemble of symmetric Ncd conformation in the φ-ADP or ADP-ADP state into the ensemble of asymmetric state that has a minus-end-directed coiled-coil stalk. Our studies have identified head-neck junction region as the critical structural element responsible for power stroke mechanism of Ncd, which in fact is amenable to further experimental studies. Furthermore, the step involving (iii)→(iv) corresponds to the power stroke, i.e., the force production due to conformational changes. Our estimate of a lower bound of stall force from a probability <em>P</em>(<em>z</em>), which provides a potential of mean force <em>F</em>(<em>z</em>) = −<em>k</em><sub>B</sub><em>T</em> log <em>P</em>(<em>z</em>) (see the inset between step (iii) and (iv) in <a href="#pcbi-1002783-g006">Fig. 6</a>), where z is the position of stalk tip projected along the MT axis is 0.42 pN. Compared to the stall force value of other molecular motors (2–3 pN for myosin V (Biophys J. (2000) 79:1524–1529, PNAS (2004) 101:5542–5546) and 5–6 pN for kinesin-1 <a href="#pcbi.1002783-Visscher1">[7]</a>), this value is rather small; however, given that the Ncd is a non-processive motor that should cooperate with other motors to generate force, our estimate of the stall force for a single Ncd, which no experiment has measured to date, is not unreasonable. Finally, the ADP-ADP (or ADP·P<sub>i</sub>-ADP) state of the Ncd with weak MT affinity (K<sub>d</sub>&gt; mM) <a href="#pcbi.1002783-Foster2">[52]</a>, produced as a result of ATP hydrolysis and subsequent release of inorganic phosphate from the bound head, leads to the dissociation of the Ncd motor from the MT ((iv)→(i)). The minus-end-directed power stroke of Ncd motor is generated between the step (iii) and (iv). The dissociation of Ncd motor after a single stroke suggests that the movement of Ncd on the MTs is non-processive. Thus the minus-end-directed cargo transport is realized by cooperation between multiple Ncd motors <a href="#pcbi.1002783-deCastro1">[26]</a>.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[3]/fig[1]"><a name="pcbi-1002783-g006" id="pcbi-1002783-g006" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002783?imageURI=info:doi/10.1371/journal.pcbi.1002783.g006" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002783', 'info:doi/10.1371/journal.pcbi.1002783.g006');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002783', 'info:doi/10.1371/journal.pcbi.1002783.g006');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.g006&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[3]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002783?imageURI=info:doi/10.1371/journal.pcbi.1002783.g006" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002783', 'info:doi/10.1371/journal.pcbi.1002783.g006');"><span>Figure 6. </span></a> <span xpathLocation="/article[1]/body[1]/sec[3]/fig[1]/caption[1]/title[1]">Mechanochemical cycle for Ncd motor.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[3]/fig[1]/caption[1]/p[1]">In solution, Ncd exists in (i) symmetric and two asymmetric states (either (ii) or (ii)’). On the MTs, Ncd in φ-ADP state exists predominantly in (iii) symmetric plus-end directed conformer. ATP binding stabilizes (iv) asymmetric conformer, which gives rise to minus-end-directed stroke. Finally, the ATP hydrolysis returns the Ncd to the ADP-ADP state that has weak MT-binding affinity; thus Ncd dissociates from MT to the solution. The free energy (F(z)) profile of the power stroke step which is calculated by taking stalk tip position (z) on MT as order parameter is also shown in the same figure.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002783.g006</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002783.g006/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002783.g006/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002783.g006.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002783.g006/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002783.g006.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[3]/p[2]">The results of the simulation can be understood as follows. In the case without MT, both the symmetric and asymmetric states were populated as we have constructed a dual-basin structure-based model with a bias towards the symmetric state. The symmetric state is more populated because the native bond, angle and dihedral parameters are derived from symmetric crystal structure (see Methods). In the MT bound φ-ADP state, the presence of MT reduces the configuration space of the Ncd. This increases the stability of symmetric state whose coiled-coil stalk points towards the plus end of MT. Binding of ATP to the empty head, destabilizes few contacts in the head-stalk junction region which in turn destabilizes the symmetric basin. Therefore, it now preferentially populates the asymmetric basin whose coiled-coil stalk points towards the minus end of MT.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/p[3]">Molecular motors in the kinesin superfamily share the common structural motifs, such as the MH, the neck-linker (or the extended coiled-coil stalk), and the neck-helix that are used in their biological functions. The MH domain used for MT-binding is essentially identical for kinesin-1, Ncd, Eg5 that use tetrameric MHs (two pairs of dimer heads) to bind the two anti-parallel MTs, and other kinesin-like proteins. Furthermore, the MT-binding affinity of MH in Ncd obeys a similar rule as in kinesin-1; the MH in ADP state has weak MT-affinity whereas the MH in φ or ATP state binds MT strongly <a href="#pcbi.1002783-Hyeon3">[23]</a>, <a href="#pcbi.1002783-Cross1">[53]</a>, <a href="#pcbi.1002783-Crevel1">[54]</a>, <a href="#pcbi.1002783-Pechantikova1">[55]</a>. Although there is a quantitative difference in the value of the binding affinity for different kinesin families due to the sequence variation, kinesin-1 and Ncd have the identical “footstep” on MTs and bind to MTs tightly during the processes of ATP binding and hydrolysis. Our study asserts that the determining factors of the directionality in kinesin-1 and Ncd are the structural motifs peripheral to the MH (<a href="#pcbi-1002783-g001">Fig. 1d</a>), i.e., neck-linker and neck-helix. This is evident from our Ncd model that is adapted from the previous model for kinesin-1. The difference in directionality for the kinesin-1 and the Ncd is a remarkable example of how motor proteins in the kinesin superfamily diversify their functions by repositioning the structural motifs peripheral to the MH domain that are in charge of catalytic activity <a href="#pcbi.1002783-Case1">[31]</a>. Our study provides unambiguous structural and dynamical understandings to the effect of such repositioning on the biological function.</p>
+</div>
+
+<div id="section4" xpathLocation="/article[1]/body[1]/sec[4]"><a id="s4" name="s4" toc="s4" title="Methods"></a><h3 xpathLocation="noSelect">Methods&nbsp;<a href="#top">Top</a></h3><p xpathLocation="/article[1]/body[1]/sec[4]/p[1]">Simulations were performed using standard structure-based (SB) potential in SMOG <a href="#pcbi.1002783-Noel1">[56]</a> protocol implemented in Gromacs. MT bound structure was generated by overlapping the MH of Ncd on the single-headed kinesin (KIF1A) bound structure on tubulin (PDB ID 1IAO). We used 13-protofilament structure <a href="#pcbi.1002783-Le1">[57]</a> to illustrate MT bound Ncd structure.</p>
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[1]/title[1]">Structure-based potential</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[1]/p[1]">Using the MT bound Ncd structures generated by aligning the crystal structures of Ncd on MTs, we simulated Ncd motor dimer with or without the MT track. Langevin dynamics simulations using the SB potential were performed where equation of motion was integrated using a Verlet algorithm. The energy function used for these simulations are given as follows:<br><a name="pcbi.1002783.e001" id="pcbi.1002783.e001"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e001&amp;representation=PNG"></span><br></p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[1]/p[2]">Here, total energy Hamiltonian is separated into intramolecular interaction for the Ncd and intermolecular interaction at the Ncd-MT interface. The subscripts N and MT denote the Ncd and MT, respectively and N-MT denotes the Ncd-MT interaction. We have fixed coordinates of MT in space throughout the simulation.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[1]/p[3]">The first and second terms associated with bond potential in <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e002&amp;representation=PNG"></span> define the backbone interactions. The bond distance (<span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e003&amp;representation=PNG"></span>) between the neighboring residues <em>i</em> and <em>i</em>+1 are constrained harmonically with respect to its native bond distance (<span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e004&amp;representation=PNG"></span>) with a spring constant (<span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e005&amp;representation=PNG"></span>) of 20 kcal/(mol×Å<sup>2</sup>). In the second term, the angle <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e006&amp;representation=PNG"></span> defined among residues <em>i</em>, <em>i</em>+1 and <em>i</em>+2 is constrained harmonically around its native state value (<span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e007&amp;representation=PNG"></span>) with <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e008&amp;representation=PNG"></span> = 20 kcal/(mol×rad<sup>2</sup>). The third term represents the dihedral angle potential with <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e009&amp;representation=PNG"></span> = 1.0 kcal/mol and <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e010&amp;representation=PNG"></span> = 0.5 kcal/mol that describes the rotation of the backbone involving successive residues from <em>i</em> to <em>i</em>+3. The native values, <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e011&amp;representation=PNG"></span>, <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e012&amp;representation=PNG"></span>, and <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e013&amp;representation=PNG"></span> are taken from the symmetric conformer and the superscript (<em>S</em>) refer to the symmetric state.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[1]/p[4]">The 10–12 Lennard-Jones (LJ) potential is used in <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e014&amp;representation=PNG"></span> to describe the interactions that stabilize the non-bonded native contacts. A native contact is defined for a pair of residues (<em>i</em> and <em>j</em>), if the distance between them is less than 8 Å in the native state and <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e015&amp;representation=PNG"></span>&gt;3. If <em>i</em> and <em>j</em> (<em>k</em> for Ncd-MT interface) residues are in contact in the native state, <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e016&amp;representation=PNG"></span> (or <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e017&amp;representation=PNG"></span>) = 1; otherwise <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e018&amp;representation=PNG"></span> (or <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e019&amp;representation=PNG"></span>) = 0. It is of particular note that this non-bonded LJ potential retains three terms <a href="#pcbi.1002783-Hyeon6">[42]</a>, <a href="#pcbi.1002783-Lee1">[43]</a>: (i) the native bias mainly from symmetric state (the first term) with an equilibrium distance <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e020&amp;representation=PNG"></span> for <em>i</em> and <em>j</em> residue pairs, (ii) the perturbative bias from asymmetric state (the second term) with an equilibrium distance <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e021&amp;representation=PNG"></span>, and (iii) the repulsive potential for the residue pairs that belong to neither the symmetric nor the asymmetric state. The superscript of <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e022&amp;representation=PNG"></span>, i.e., <em>X</em> = <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e023&amp;representation=PNG"></span>, <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e024&amp;representation=PNG"></span>, <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e025&amp;representation=PNG"></span> and, refers to the symmetric state, “purely” asymmetric state, and the union of symmetric and asymmetric state, respectively, so that <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e026&amp;representation=PNG"></span> = 1 when <em>i</em> and <em>j</em> residue pairs are in the state <em>X</em>, otherwise <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e027&amp;representation=PNG"></span> = 0. Non-native pairs with <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e028&amp;representation=PNG"></span> (or <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e029&amp;representation=PNG"></span>) = 0 are under repulsive potential with a distance parameter σ = 4 Å. We assign ε<sub>h</sub> = 1.8 kcal/mol for the upper part of intraneck, interneck helix (residue &lt;331) and Ncd-MT interactions to secure coiled-coil association and MT binding, respectively. For other residue-residue interactions, we set ε<sub>h</sub> = ε<sub>l</sub> = 1.0 kcal/mol regardless of sequence identity. The parameters determining the native topology <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e030&amp;representation=PNG"></span>, <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e031&amp;representation=PNG"></span>, <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e032&amp;representation=PNG"></span> and <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e033&amp;representation=PNG"></span> are determined from the symmetric and asymmetric crystal structure of Ncd.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[1]/p[5]">The intramolecular non-bonding energy term, <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e034&amp;representation=PNG"></span>, provides competition between the native contacts from symmetric and asymmetric states with more bias towards the symmetric conformer when NT-binding pocket is in φ or ADP state. This bias changes to the asymmetric state by removing a few native contacts from the neck-stalk junction (see below).</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[2]/title[1]">Simulations</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[2]/p[1]">Initial structures in each case were relaxed under the SB Hamiltonian and subsequently Langevin dynamics simulations at low-friction limit were performed at T = 300 K to sample the equilibrium structural ensemble. The equation of motion for the Langevin dynamics used for integration is<br><a name="pcbi.1002783.e035" id="pcbi.1002783.e035"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e035&amp;representation=PNG"></span><br>where ζ is the friction coefficient, <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e036&amp;representation=PNG"></span> is the conformational force. <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e037&amp;representation=PNG"></span> is the random force satisfying <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e038&amp;representation=PNG"></span> where integration time <em>h</em> is discretized. In this dynamics we chose ζ = 0.05<span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e039&amp;representation=PNG"></span> and <em>h</em> = 0.0025<span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e040&amp;representation=PNG"></span> with <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002783.e041&amp;representation=PNG"></span>. Low friction was chosen for the purpose of effective conformational space sampling <a href="#pcbi.1002783-Honeycutt1">[58]</a>.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[3]/title[1]">ADP-ADP state</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[3]/p[1]">To simulate the Ncd dimer in solution we used the topological information from the crystal structures with PDB code of 1CZ7 (symmetric state) and 1N6M (asymmetric state). All the native backbone and dihedral parameter was derived from the symmetric crystal structure. For each monomer nonbonded potential corresponding to the additional contacts for the asymmetric conformation are added to the potential. Here, we neglected the Ncd-MT interaction term from the Hamiltonian to simulate Ncd dimer in solution without MT.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[4]/title[1]">Principle component analysis</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[4]/p[1]">We superimposed the structure of each frame from the simulation onto the symmetric dimer to obtain the covariance matrix <a href="#pcbi.1002783-Ichiye1">[48]</a>. After diagonalization we examined the first few low frequency modes. The lowest frequency eigenvector was then represented residue-wise to illustrate the collective dynamics towards the asymmetric state.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[5]/title[1]">Construction of MT bound state</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[5]/p[1]">For the construction of the MT bound state of Ncd, we used three structures: single-headed kinesin (KIF1A) bound to the MT (PDB ID 1IA0); Ncd dimer structure (PDB ID 1CZ7); and three consecutive αβ tubulin dimers from 13-protofilament MT structure <a href="#pcbi.1002783-Le1">[57]</a>. We overlapped chain A of 1CZ7 onto chain K of 1IA0 and αβ tubulin dimer of 1IA0 onto terminal αβ tubulin dimer of the tubular MT structure. This leads to the MT bound state of Ncd. Here, we assume that Ncd employs a similar binding interface on the MTs with kinesin-1, which was shown in earlier studies <a href="#pcbi.1002783-deCastro1">[26]</a>, <a href="#pcbi.1002783-Pechantikova1">[55]</a>, <a href="#pcbi.1002783-Walker1">[59]</a>, <a href="#pcbi.1002783-Song1">[60]</a>, <a href="#pcbi.1002783-Lockhart1">[61]</a>.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[6]/title[1]">Simulation of φ-ADP state on MT</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[6]/p[1]">Using the structure obtained from the construction of the MT bound state of Ncd, we extracted the Ncd-MT contacts at the interface and included in the total Hamiltonian to generate the conformations corresponding to the NT free-ADP state on MT.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[7]/title[1]">Simulation of ATP-ADP state on MT</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[7]/p[1]">It was proposed earlier that the head-stalk junction of Ncd plays important role in determining the directional motility of motor <a href="#pcbi.1002783-Endow1">[32]</a>, <a href="#pcbi.1002783-Henningsen1">[33]</a>, <a href="#pcbi.1002783-Lupas1">[50]</a>. While retaining the same Hamiltonian as the φ-ADP state on MT, we deleted a few native contacts in the junction region (residues 341–345 of the coiled-coil stalk and residues 346–351 of the MH) between the coiled-coil stalk and bound head of Ncd to mimic the binding of ATP. The junction region (lower part of extended coiled-coil region) of the Ncd motor is shown explicitly in the <a href="#pcbi-1002783-g001">Fig. 1b</a>.</p>
+
+</div>
+
+<div id="section5" xpathLocation="/article[1]/body[1]/sec[5]"><a id="s5" name="s5" toc="s5" title="Supporting Information"></a><h3 xpathLocation="noSelect">Supporting Information&nbsp;<a href="#top">Top</a></h3><a name="pcbi.1002783.s001" id="pcbi.1002783.s001"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002783.s001">Video S1. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[1]/caption[1]/p[1]">The motion along the one of the two low frequency principal component of Ncd is shown in this video.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[1]/caption[1]/p[2]">(MPG)</p>
+</div>
+
+
+
+
+
+<div xpathLocation="noSelect"><a id="ack" name="ack" toc="ack" title="Acknowledgments"></a><h3 xpathLocation="noSelect">Acknowledgments&nbsp;<a href="#top">Top</a></h3>
+<p xpathLocation="/article[1]/back[1]/ack[1]/p[1]">We thank Paul Whitford, Joanna Sulkowska, Faruck Morcos, Heiko Lammert and Jeffrey Noel for helpful discussions.</p>
+</div><div class="contributions"><a id="authcontrib" name="authcontrib" toc="authcontrib" title="Author Contributions"></a><h3 xpathLocation="noSelect">Author Contributions&nbsp;<a href="#top">Top</a></h3><p xpathLocation="noSelect">Conceived and designed the experiments: BJ CH JNO. Performed the experiments: BJ. Analyzed the data: BJ CH JNO. Wrote the paper: BJ CH JNO.</p></div><div xpathLocation="noSelect"><a id="references" name="references" toc="references" title="References"></a><h3 xpathLocation="noSelect">References&nbsp;<a href="#top">Top</a></h3><ol class="references" xpathLocation="noSelect"><li xpathLocation="noSelect"><a name="pcbi.1002783-Hirokawa1" id="pcbi.1002783-Hirokawa1"></a>Hirokawa N (1998) Kinesin and Dynein superfamily proteins and the mechanism of organelle transport. Science 279: 519–526.
+        doi:
+        <a href="http://dx.doi.org/10.1126/science.279.5350.519">10.1126/science.279.5350.519</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133655">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Vale1" id="pcbi.1002783-Vale1"></a>Vale RD, Milligan RA (2000) The way things move: looking under the hood of molecular motor proteins. Science 288: 88–95.
+        doi:
+        <a href="http://dx.doi.org/10.1126/science.288.5463.88">10.1126/science.288.5463.88</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133657">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Howard1" id="pcbi.1002783-Howard1"></a>Howard J, Hyman AA (2003) Dynamics and mechanics of the microtubule plus end. Nature 422: 753–758.
+        doi:
+        <a href="http://dx.doi.org/10.1038/nature01600">10.1038/nature01600</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133659">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Kull1" id="pcbi.1002783-Kull1"></a>Kull FJ, Sablin EP, Lau R, Fletterick RJ, Vale RD (1996) Crystal structure of the kinesin motor domain reveals a structural similarity to myosin. Nature 380: 550–555. <a class="find" href="/article/findArticle.action?citedArticleID=6133661">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Sablin1" id="pcbi.1002783-Sablin1"></a>Sablin EP, Kull FJ, Cooke R, Vale RD, Fletterick RJ (1996) Crystal structure of the motor domain of the kinesin-related motor ncd. Nature 380: 555–559.
+        doi:
+        <a href="http://dx.doi.org/10.1038/380555a0">10.1038/380555a0</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133663">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Vale2" id="pcbi.1002783-Vale2"></a>Vale RD, Reese TS, Sheetz MP (1985) Identification of a novel force-generating protein, kinesin, involved in microtubule-based motility. Cell 42: 39–50.
+        doi:
+        <a href="http://dx.doi.org/10.1016/S0092-8674(85)80099-4">10.1016/S0092-8674(85)80099-4</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133665">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Visscher1" id="pcbi.1002783-Visscher1"></a>Visscher K, Schnitzer MJ, Block SM (1999) Single kinesin molecules studied with a molecular force clamp. Nature 400: 184–189. <a class="find" href="/article/findArticle.action?citedArticleID=6133667">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Sawin1" id="pcbi.1002783-Sawin1"></a>Sawin KE, LeGuellec K, Phillippe M, Mitchison TJ (1992) Mitotic spindle organization by a plus-end-directed microtubule motor. Nature 359: 540–543.
+        doi:
+        <a href="http://dx.doi.org/10.1038/359540a0">10.1038/359540a0</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133669">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Nislow1" id="pcbi.1002783-Nislow1"></a>Nislow C, Lombillo VA, Kuriyama R, McIntosh JR (1992) A plus-end-directed motor enzyme that moves antiparallel microtubules <em>in vitro</em> localizes to the interzone of mitotic spindles. Nature 359: 543–547. <a class="find" href="/article/findArticle.action?citedArticleID=6133671">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Helenius1" id="pcbi.1002783-Helenius1"></a>Helenius J, Brouhard G, Kalaidzidis Y, Diez S, Howard J (2006) The depolymerizing kinesin MCAK uses lattice diffusion to rapidly target microtubule ends. Nature 441: 115–119.
+        doi:
+        <a href="http://dx.doi.org/10.1038/nature04736">10.1038/nature04736</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133673">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-McDonald1" id="pcbi.1002783-McDonald1"></a>McDonald HB, Stewart JR, Goldstein LS (1990) The kinesin-like <em>ncd</em> protein of Drosophila is a minus end-directed microtubule motor. Cell 21: 1159–1165. <a class="find" href="/article/findArticle.action?citedArticleID=6133675">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Block1" id="pcbi.1002783-Block1"></a>Block SM (2007) Kinesin motor mechanics: binding, stepping, tracking, gating, and limping. Biophys J 92: 2986–2995.
+        doi:
+        <a href="http://dx.doi.org/10.1529/biophysj.106.100677">10.1529/biophysj.106.100677</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133677">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Vale3" id="pcbi.1002783-Vale3"></a>Vale RD, Funatsu T, Pierce DW, Romberg L, Harada Y, et al. (1996) Direct observation of single kinesin molecules moving along microtubules. Nature 380: 451–453.
+        doi:
+        <a href="http://dx.doi.org/10.1038/380451a0">10.1038/380451a0</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133679">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Asbury1" id="pcbi.1002783-Asbury1"></a>Asbury CL, Fehr AN, Block SM (2003) Kinesin moves by an asymmetric hand-over-hand mechanism. Science 302: 2130–2134.
+        doi:
+        <a href="http://dx.doi.org/10.1126/science.1092985">10.1126/science.1092985</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133681">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Yildiz1" id="pcbi.1002783-Yildiz1"></a>Yildiz A, Tomishige M, Vale RD, Selvin PR (2004) Kinesin walks hand-over-hand. Science 303: 676–678.
+        doi:
+        <a href="http://dx.doi.org/10.1126/science.1093753">10.1126/science.1093753</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133683">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Hancock1" id="pcbi.1002783-Hancock1"></a>Hancock WO, Howard J (1999) Kinesin's processivity results from mechanical and chemical coordination between the ATP hydrolysis cycles of the two motor domains. Proc Natl Acad Sci USA 96: 13147–13152.
+        doi:
+        <a href="http://dx.doi.org/10.1073/pnas.96.23.13147">10.1073/pnas.96.23.13147</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133685">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Rice1" id="pcbi.1002783-Rice1"></a>Rice SA, Lin AW, Safer D, Hart CL, Naber N, et al. (1999) A structural change in the kinesin motor protein that drives motility. Nature 402: 778–784. <a class="find" href="/article/findArticle.action?citedArticleID=6133687">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Uemura1" id="pcbi.1002783-Uemura1"></a>Uemura S, Ishiwata S (2003) Loading direction regulates the affinity of ADP for kinesin. Nature Struct Biol 10: 308–311.
+        doi:
+        <a href="http://dx.doi.org/10.1038/nsb911">10.1038/nsb911</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133689">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Hyeon1" id="pcbi.1002783-Hyeon1"></a>Hyeon C, Onuchic JN (2007) Internal strain regulates the nucleotide binding site of the kinesin leading head. Proc Natl Acad Sci USA 104: 2175–2180.
+        doi:
+        <a href="http://dx.doi.org/10.1073/pnas.0610939104">10.1073/pnas.0610939104</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133691">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Hyeon2" id="pcbi.1002783-Hyeon2"></a>Hyeon C, Onuchic JN (2007) Mechanical control of the directional stepping dynamics of the kinesin motor. Proc Natl Acad Sci USA 104: 17382–17387.
+        doi:
+        <a href="http://dx.doi.org/10.1073/pnas.0708828104">10.1073/pnas.0708828104</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133693">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Yildiz2" id="pcbi.1002783-Yildiz2"></a>Yildiz A, Tomishige M, Gennerich A, Vale RD (2008) Intramolecular Strain Coordinates Kinesin Stepping Behavior along Microtubules. Cell 134: 1030–1041.
+        doi:
+        <a href="http://dx.doi.org/10.1016/j.cell.2008.07.018">10.1016/j.cell.2008.07.018</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133695">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Clancy1" id="pcbi.1002783-Clancy1"></a>Clancy BE, Behnke-Parks WM, Andreasson JO, Rosenfeld SS, Block SM (2011) A universal pathway for kinesin stepping. Nat Struct Mol Biol 18: 1020–1027.
+        doi:
+        <a href="http://dx.doi.org/10.1038/nsmb.2104">10.1038/nsmb.2104</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133697">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Hyeon3" id="pcbi.1002783-Hyeon3"></a>Hyeon C, Onuchic JN (2011) A structural perspective on the dynamics of Kinesin motors. Biophys J 101: 2749–2759.
+        doi:
+        <a href="http://dx.doi.org/10.1016/j.bpj.2011.10.037">10.1016/j.bpj.2011.10.037</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133699">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Zhang1" id="pcbi.1002783-Zhang1"></a>Zhang Z, Thirumalai D (2012) Dissecting the kinematics of the kinesin step. Structure 20: 628–640.
+        doi:
+        <a href="http://dx.doi.org/10.1016/j.str.2012.02.013">10.1016/j.str.2012.02.013</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133701">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Sablin2" id="pcbi.1002783-Sablin2"></a>Sablin EP, Case RB, Dai SC, Hart CL, Ruby A, et al. (1998) Direction determination in the minus-end-directed kinesin motor ncd. Nature 395: 813–816. <a class="find" href="/article/findArticle.action?citedArticleID=6133703">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-deCastro1" id="pcbi.1002783-deCastro1"></a>deCastro MJ, Fondecave RM, Clarke LA, Schmidt CF, Stewart RJ (2000) Working strokes by single molecules of the kinesin-related microtubule motor ncd. Nat Cell Biol 2: 724–729. <a class="find" href="/article/findArticle.action?citedArticleID=6133705">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Wendt1" id="pcbi.1002783-Wendt1"></a>Wendt TG, Volkmann N, Skiniotis G, Goldie KN, Muller J, et al. (2002) Microscopic evidence for a minus-end-directed power stroke in the kinesin motor ncd. EMBO J 21: 5969–5978.
+        doi:
+        <a href="http://dx.doi.org/10.1093/emboj/cdf622">10.1093/emboj/cdf622</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133707">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Foster1" id="pcbi.1002783-Foster1"></a>Foster KA, Mackey AT, Gilbert SP (2001) A nechanistic model for ncd directionality. J Biol Chem 276: 19259–19266. <a class="find" href="/article/findArticle.action?citedArticleID=6133709">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Yun1" id="pcbi.1002783-Yun1"></a>Yun M, Bronner CE, Park C-G, Cha S-S, Park H-W, et al. (2003) Rotation of the stalk/neck and one head in a new crystal structure of the kinesin motor protein, Ncd. EMBO J 22: 5382–5389.
+        doi:
+        <a href="http://dx.doi.org/10.1093/emboj/cdg531">10.1093/emboj/cdg531</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133711">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Suzuki1" id="pcbi.1002783-Suzuki1"></a>Suzuki Y, Tanokura M, Shimizu T (1998) Evidence for existence of multiple conformations of kinesin and ncd motor domains in solution revealed by <sup>31</sup>P-NMR of the tightly bound ADP. Eur J Biochem 257: 466–471. <a class="find" href="/article/findArticle.action?citedArticleID=6133713">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Case1" id="pcbi.1002783-Case1"></a>Case RB, Pierce DW, Hom-Booher N, Hart CL, Vale RD (1997) The Directional preference of kinesin motors is specified by an element outside of the motor catalytic domain. Cell 90: 959–966.
+        doi:
+        <a href="http://dx.doi.org/10.1016/S0092-8674(00)80360-8">10.1016/S0092-8674(00)80360-8</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133715">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Endow1" id="pcbi.1002783-Endow1"></a>Endow SA, Waligora KW (1998) Determinants of Kinesin motor polarity. Science 281: 1200–1202.
+        doi:
+        <a href="http://dx.doi.org/10.1126/science.281.5380.1200">10.1126/science.281.5380.1200</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133717">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Henningsen1" id="pcbi.1002783-Henningsen1"></a>Henningsen U, Schliwa M (1997) Reversal in the direction of movement of a molecular motor. Nature 389: 93–96. <a class="find" href="/article/findArticle.action?citedArticleID=6133719">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Koga1" id="pcbi.1002783-Koga1"></a>Koga N, Takada S (2006) Folding-based molecular simulations reveal mechanisms of the rotary motor F<sub>1</sub>–ATPase. Proc Natl Acad Sci USA 103: 5367–5372. <a class="find" href="/article/findArticle.action?citedArticleID=6133721">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Hyeon4" id="pcbi.1002783-Hyeon4"></a>Hyeon C, Lorimer GH, Thirumalai D (2006) Dynamics of allosteric transitions in GroEL. Proc Natl Acad Sci USA 103: 18939–18944.
+        doi:
+        <a href="http://dx.doi.org/10.1073/pnas.0608759103">10.1073/pnas.0608759103</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133723">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Takano1" id="pcbi.1002783-Takano1"></a>Takano M, Terada T, Sasai M (2010) Unidirectional Brownian motion observed in an <em>in silico</em> single molecule experiment of an actomyosin motor. Proc Natl Acad Sci USA 107: 7769–7774. <a class="find" href="/article/findArticle.action?citedArticleID=6133725">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Chen1" id="pcbi.1002783-Chen1"></a>Chen J, Darst S, Thirumalai D (2010) Promoter melting triggered by bacterial RNA polymerase occurs in three steps. Proc Natl Acad Sci USA 2: 12523–12528.
+        doi:
+        <a href="http://dx.doi.org/10.1073/pnas.1003533107">10.1073/pnas.1003533107</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133727">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Whitford1" id="pcbi.1002783-Whitford1"></a>Whitford PC, Geggler P, Altman RB, Blanchard SC, Onuchic JN, et al. (2010) Accommodation of aminoacyl-tRNA into the ribosome involves reversible excursions along multiple pathways. RNA 16: 1196–1204.
+        doi:
+        <a href="http://dx.doi.org/10.1261/rna.2035410">10.1261/rna.2035410</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133729">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Kravats1" id="pcbi.1002783-Kravats1"></a>Kravats A, Jayashinghe M, Stan G (2011) Unfolding and translocation pathway of substrate protein controlled by structure in repetitive allosteric cycles of the ClpY ATPase. Proc Natl Acad Sci USA 108: 2234–2239.
+        doi:
+        <a href="http://dx.doi.org/10.1073/pnas.1014278108">10.1073/pnas.1014278108</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133731">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Hyeon5" id="pcbi.1002783-Hyeon5"></a>Hyeon C, Thirumalai D (2011) Capturing the essence of folding and functions of biomolecules using coarse-grained models. Nature Commun 2: 487.
+        doi:
+        <a href="http://dx.doi.org/10.1038/ncomms1481">10.1038/ncomms1481</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133733">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Lakkaraju1" id="pcbi.1002783-Lakkaraju1"></a>Lakkaraju SK, Hwang W (2011) Hysteresis-based mechanism for the directed motility of the Ncd motor. Biophys J 101: 1105–1113.
+        doi:
+        <a href="http://dx.doi.org/10.1016/j.bpj.2011.07.017">10.1016/j.bpj.2011.07.017</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133735">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Hyeon6" id="pcbi.1002783-Hyeon6"></a>Hyeon C, Jennings PA, Adams JA, Onuchic JN (2009) Ligand-induced global transitions in the catalytic domain of protein kinase A. Proc Natl Acad Sci USA 106: 3023–3028.
+        doi:
+        <a href="http://dx.doi.org/10.1073/pnas.0813266106">10.1073/pnas.0813266106</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133737">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Lee1" id="pcbi.1002783-Lee1"></a>Lee Y, Jeong LS, Choi S, Hyeon C (2011) Link between allosteric signal transduction and functional dynamics in a multisubunit enzyme: <em>S</em>-adenosylhomocysteine hydrolase. J Am Chem Soc 133: 19807–19815. <a class="find" href="/article/findArticle.action?citedArticleID=6133739">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Miyashita1" id="pcbi.1002783-Miyashita1"></a>Miyashita O, Onuchic JN, Wolynes PG (2003) Nonlinear elasticity, proteinquakes, and the energy landscapes of functional transitions in proteins. Proc Natl Acad Sci USA 100: 12570–12775.
+        doi:
+        <a href="http://dx.doi.org/10.1073/pnas.2135471100">10.1073/pnas.2135471100</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133741">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Miyashita2" id="pcbi.1002783-Miyashita2"></a>Miyashita O, Wolynes PG, Onuchic JN (2005) Simple energy landscape model for the kinetics of functional transitions in proteins. J Phys Chem B 109: 1959–1969.
+        doi:
+        <a href="http://dx.doi.org/10.1021/jp046736q">10.1021/jp046736q</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133743">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Whitford2" id="pcbi.1002783-Whitford2"></a>Whitford PC, Onuchic JN, Wolynes PG (2008) Energy landscape along an enzymatic reaction trajectory: hinges or cracks? HFSP J 2: 61–64.
+        doi:
+        <a href="http://dx.doi.org/10.2976/1.2894846">10.2976/1.2894846</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133745">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Clementi1" id="pcbi.1002783-Clementi1"></a>Clementi C, Nymeyer H, Onuchic JN (2000) Topological and energetic factors: what determines the structural details of the transition state ensemble and “en-route” intermediates for protein folding? an investigation for small globular proteins. J Mol Biol 298: 937–953.
+        doi:
+        <a href="http://dx.doi.org/10.1006/jmbi.2000.3693">10.1006/jmbi.2000.3693</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133747">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Ichiye1" id="pcbi.1002783-Ichiye1"></a>Ichiye T, Karplus M (1991) Collective motions in proteins: A covariance analysis of atomic fluctuations in molecular dynamics and normal mode simulations. Proteins: Struct Funct Gen 11: 205–217.
+        doi:
+        <a href="http://dx.doi.org/10.1002/prot.340110305">10.1002/prot.340110305</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133749">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Sindelar1" id="pcbi.1002783-Sindelar1"></a>Sindelar CV, Downing KH (2010) An atomic-level mechanism for activation of the kinesin molecular motors. Proc Natl Acad Sci USA 107: 4111–4116.
+        doi:
+        <a href="http://dx.doi.org/10.1073/pnas.0911208107">10.1073/pnas.0911208107</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133751">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Lupas1" id="pcbi.1002783-Lupas1"></a>Lupas A, Van Dyke M, Stock J (1991) Predicting coiled coils from protein sequences. Science 252: 1162–1164.
+        doi:
+        <a href="http://dx.doi.org/10.1126/science.252.5009.1162">10.1126/science.252.5009.1162</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133753">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Endow2" id="pcbi.1002783-Endow2"></a>Endow SA, Fletterick RJ (1998) Reversing a ‘backwards’ motor. Bio Essays 20: 108–112.
+        doi:
+        <a href="http://dx.doi.org/10.1002/(SICI)1521-1878(199802)20:2<108::AID-BIES2&gt;3.0.CO;2-P">10.1002/(SICI)1521-1878(199802)20:2&lt;108::AID-BIES2&gt;3.0.CO;2-P</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6133755">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Foster2" id="pcbi.1002783-Foster2"></a>Foster KA, Correia JJ, Gilbert SP (1998) Equilibrium binding studies of non-claret disjunctional protein (Ncd) reveal cooperative interactions between the motor domains. J Biol Chem 273: 35307–35318. <a class="find" href="/article/findArticle.action?citedArticleID=6133757">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Cross1" id="pcbi.1002783-Cross1"></a>Cross RA, Crevel I, Carter NJ, Alonso MC, Hirose K, et al. (2000) The conformational cycle of kinesin. Phil Trans Royal Soc London B 355: 459–464. <a class="find" href="/article/findArticle.action?citedArticleID=6133759">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Crevel1" id="pcbi.1002783-Crevel1"></a>Crevel IM, Lockhart A, Cross RA (1996) Weak and strong states of Kinesin and ncd. J Mol Biol 257: 66–76. <a class="find" href="/article/findArticle.action?citedArticleID=6133761">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Pechantikova1" id="pcbi.1002783-Pechantikova1"></a>Pechantikova E, Taylor EW (1997) Kinetic mechanism of monomeric non-claret disjunctional protein (Ncd) ATPase. J Biol Chem 272: 30735–30740. <a class="find" href="/article/findArticle.action?citedArticleID=6133763">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Noel1" id="pcbi.1002783-Noel1"></a>Noel JK, Whitford PC, Sanbonmatsu KY, Onuchic JN (2010) SMOG@ctbp: simplified deployment of structure-based models in GROMACS. Nuc Acids Res 38: W657–661. <a class="find" href="/article/findArticle.action?citedArticleID=6133765">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Le1" id="pcbi.1002783-Le1"></a>Le H, deRosier D, Nicholson W, Nogales E, Downing K (2002) Microtubule Structure at 8 Å Resolution. Structure 10: 1317–1328. <a class="find" href="/article/findArticle.action?citedArticleID=6133767">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Honeycutt1" id="pcbi.1002783-Honeycutt1"></a>Honeycutt JD, Thirumalai D (1992) The nature of folded states of globular proteins. Bioplymers 32: 695–709. <a class="find" href="/article/findArticle.action?citedArticleID=6133769">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Walker1" id="pcbi.1002783-Walker1"></a>Walker RA (1995) ncd and kinesin motor domains interact with both alpha- and beta-tubulin. Proc Natl Acad Sci USA 92: 5960–5964. <a class="find" href="/article/findArticle.action?citedArticleID=6133771">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Song1" id="pcbi.1002783-Song1"></a>Song A, Endow SA (1996) Binding sites on microtubules of Kinesin motors of the same or opposite polarity. Biochemistry 35: 11203–11209. <a class="find" href="/article/findArticle.action?citedArticleID=6133773">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002783-Lockhart1" id="pcbi.1002783-Lockhart1"></a>Lockhart A, Crevel M-TC, Cross RA (1995) Kinesin and ncd bind through a single head to microtubules and compete for a shared MT binding site. J Mol Biol 249: 763–771. <a class="find" href="/article/findArticle.action?citedArticleID=6133775">
+                      Find this article online
+                    </a></li></ol></div>
+
+</div></div>
+<div style="display:none">
+<div dojoType="ambra.widget.RegionalDialog" id="AnnotationDialog" style="padding:0;margin:0;">
+  <div class="dialog annotate">
+    <div class="tipu" id="dTipu"></div>
+    <div class="comment">
+      <h5><span>Post Your Note (For Public Viewing)</span></h5>
+      <div class="posting pane">
+        <form name="createAnnotation" id="createAnnotation" method="post" action="">
+          <input type="hidden" name="target" value="info:doi/10.1371/journal.pcbi.1002783" />
+          <input type="hidden" name="startPath" value="" />
+          <input type="hidden" name="startOffset" value="" />
+          <input type="hidden" name="endPath" value="" />
+          <input type="hidden" name="endOffset" value="" />
+          <input type="hidden" name="commentTitle" id="commentTitle" value="" />
+          <input type="hidden" name="comment" id="commentArea" value="" />
+          <input type="hidden" name="ciStatement" id="statementArea" value="" />
+          <input type="hidden" name="isCompetingInterest" id="isCompetingInterest" value="false" />
+          <input type="hidden" name="noteType" id="noteType" value="" />
+          <fieldset>
+            <legend>Compose Your Note</legend>
+            <span id="submitMsg" class="error" style="display:none;"></span>
+            <table class="layout">
+              <tr>
+                <td>
+                  <label for="cNoteType">This is a </label><select name="cNoteType" id="cNoteType"><option value="note">note</option><option value="correction">correction</option></select>
+                  <span id="cdls" style="visibility:hidden;margin-left:0.3em; white-space:nowrap;"><a href="/static/commentGuidelines.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3?target=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002783#corrections">What are corrections?</a></span>
+                  <label for="cTitle"><span class="none">Enter your note title</span><!-- error message text <em>A title is required for all public notes</em>--></label>
+                  <input type="text" name="cTitle" id="cTitle" value="Enter your note title..." class="title" alt="Enter your note title..." />
+                  <label for="cArea"><span class="none">Enter your note</span><!-- error message text <em>Please enter your note</em>--></label>
+                  <textarea name="cArea" id="cArea" value="Enter your note..." alt="Enter your note...">Enter your note...</textarea>
+                  <input type="hidden" name="isPublic" value="true" />
+                </td>
+                <td>&nbsp;</td>
+                <td class="coi">
+                  <fieldset>
+                    <legend>Declare any competing interests.</legend>
+                    <ul>
+                      <li><label><input id="isCompetingInterestNo" type="radio" checked="checked" name="competingInterest" value="false"  /> No, I don't have any competing interests to declare.</label></li>
+                      <li><label><input id="isCompetingInterestYes" type="radio" name="competingInterest" value="true"  /> Yes, I have competing interests to declare (enter below):</label></li>
+                    </ul>
+                    <textarea name="ciStatementArea" id="ciStatementArea" disabled value="Enter your competing interests..." alt="Enter your competing interests...">Enter your competing interests...</textarea>
+                  </fieldset>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3" class="buttons">
+                  <input type="button" value="Cancel" title="Click to close and cancel" id="btn_cancel"/>
+                  <input type="button" value="Submit" title="Click to post your note publicly" id="btn_post" class="primary"/>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <p>Notes and Corrections can include the following markup tags:</p>
+                  <p><strong>Emphasis:</strong> ''<em>italic</em>''&nbsp;&nbsp;'''<strong>bold</strong>'''&nbsp;&nbsp;'''''<strong><em>bold italic</em></strong>'''''</p>
+                  <p><strong>Other:</strong> ^^<sup>superscript</sup>^^&nbsp;&nbsp;~~<sub>subscript</sub>~~</p>
+                </td>
+              </tr>
+            </table>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <div class="tip" id="dTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialog" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="caTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      Please follow our <a href="/static/commentGuidelines.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">guidelines for notes and comments</a> and review our <a href="/static/competing.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">competing interests policy</a>. Comments that do not conform to our guidelines will be promptly removed and the user account disabled. The following must be avoided:
+      <ul>
+        <li>Remarks that could be interpreted as allegations of misconduct</li>
+        <li>Unsupported assertions or statements</li>
+        <li>Inflammatory or insulting language</li>
+      </ul>
+      <form name="contextActionForm" id="contextActionForm" class="clearfix buttons" method="post" action="">
+        <input type="button" name="Continue" value="Continue" id="ContextActionDialogContinueButton" onmouseup="ambra.displayAnnotationContext.startComment(event);" title="Add a note to this text" class="primary"/>
+        <input type="button" name="Cancel" value="Cancel" id="ContextActionDialogCancelButton" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);" title="Close this Window"/>
+      </form>
+    </div>
+    <div class="tip" id="caTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogNotLogged" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canlTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You must be logged in to add a note to an article.
+      You may log in by <a onmousedown="ambra.displayAnnotationContext.disconnect(event);" href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002783">clicking here</a> or <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">cancel this note</a>.
+    </div>
+    <div class="tip" id="canlTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogBadSelection" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canBDTipu"></div>
+    <div class="contextActionContent">
+      <h5 class="annotation icon"><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You cannot annotate this area of the document. <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">Close</a>
+    </div>
+    <div class="tip" id="canBDTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogBadRangeSelection" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canbrTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You cannot create an annotation that spans different sections of the document; please adjust your selection.<br/>
+      <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">Close</a>
+    </div>
+    <div class="tip" id="canbrTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.RegionalDialog" id="CommentDialog" style="padding:0;margin:0;">
+  <div class="dialog preview">
+    <div class="tipu" id="cTipu"></div>
+    <div class="btn close" id="btn_close" title="Click to close"><a title="Click to close">Close</a></div>
+    <div id="cmtContainer" class="comment">
+      <h6 id="viewCmtTitle"></h6>
+      <div class="detail" id="viewCmtDetail"></div>
+      <div class="contentwrap" id="viewComment"></div>
+      <div class="contentwrap" id="viewCIStatement"></div>
+      <div class="detail" id="viewLink">
+        <!--<a href="#" class="commentary icon" title="Click to view full thread and respond">View all responses</a>
+        <a href="#" class="respond tooltip" title="Click to respond to this posting">Respond to this</a>-->
+      </div>
+    </div>
+    <div class="tip" id="cTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.RegionalDialog" id="CommentDialogMultiple" style="padding:0;margin:0;">
+  <div class="dialog multiple preview">
+    <div class="tipu" id="mTipu"></div>
+    <div class="btn close" id="btn_close_multi" title="Click to close"><a title="Click to close">Close</a></div>
+    <ol id="multilist"></ol>
+    <br/>
+    <div id="multidetail"></div>
+    <div class="tip" id="mTip"></div>
+  </div>
+</div>
+
+
+<div dojoType="dijit.Dialog" id="Rating">
+  <div class="dialog annotate">
+    <div class="tipu" id="dTipu"></div>
+    <div class="comment">
+      <h5><span>Rate This Article</span></h5>
+      <div class="instructions">Please follow our <a  href="/static/ratingGuidelines.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">guidelines for rating</a> and review our <a href="/static/competing.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">competing interests policy</a>. Comments that do not conform to our guidelines will be promptly removed and the user account disabled. The following must be avoided:
+        <ol>
+          <li>Remarks that could be interpreted as allegations of misconduct</li>
+          <li>Unsupported assertions or statements</li>
+          <li>Inflammatory or insulting language</li>
+        </ol>
+      </div>
+      <div class="posting pane">
+        <form name="ratingForm" id="ratingForm" method="post" action="">
+          <input type="hidden" name="articleURI" value="info:doi/10.1371/journal.pcbi.1002783" />  
+          <input type="hidden" name="commentTitle" id="commentTitle" value="" />
+          <input type="hidden" name="comment" id="commentArea" value="" />
+          <input type="hidden" name="ciStatement" id="statementArea" value="" />
+          <input type="hidden" name="isCompetingInterest" id="isCompetingInterest" value="" />
+          <fieldset>
+            <legend>Compose Your Annotation</legend>
+            <span id="submitRatingMsg" class="error" style="display:none;"></span>
+            <table class="layout">
+              <tr>
+                <td rowspan="2">
+                  <label for="insight">Insight</label>
+                  <ul class="star-rating rating edit" title="Rate insight" id="rateInsight">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Bland" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'insight', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Profound" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="insight" title="insight" value="" />
+                  <label for="reliability">Reliability</label>
+                  <ul class="star-rating rating edit" title="Rate reliability" id="rateReliability">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Tenuous" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'reliability', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Unassailable" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="reliability" title="reliability" value="" />
+                  <label for="style">Style</label>
+                  <ul class="star-rating rating edit" title="Rate style" id="rateStyle">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Crude" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'style', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Elegant" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="style" title="style" value="" />
+                  <label for="cTitle"><span class="none">Enter your comment title</span><!-- error message text <em>A title is required for all public annotations</em>--></label>
+                  <input type="text" name="cTitle" id="cTitle" value="Enter your comment title..." class="title" alt="Enter your comment title..." />
+                  <label for="cArea"><span class="none">Enter your comment</span><!-- error message text <em>Please enter your annotation</em>--></label>
+                  <textarea name="cArea" id="cArea" value="Enter your comment..." alt="Enter your comment...">Enter your comment...</textarea>
+                </td>
+                <td rowspan="2">&nbsp;</td>
+                <td class="coi">
+                  <fieldset>
+                    <legend>Declare any competing interests.</legend>
+                    <ul>
+                      <li><label><input id="isCompetingInterestNo" type="radio" name="competingInterest" value="false"  /> No, I don't have any competing interests to declare.</label></li>
+                      <li><label><input id="isCompetingInterestYes" type="radio" name="competingInterest" value="true"  /> Yes, I have competing interests to declare (enter below):</label></li>
+                    </ul>
+                    <textarea name="ciStatementArea" id="ciStatementArea" disabled value="Enter your competing interests..." title="Enter your competing interests...">Enter your competing interests...</textarea>
+                  </fieldset>
+                </td>
+              </tr>
+              <tr>
+                <td class="buttons">
+                  <input type="button" value="Cancel" title="Click to close and cancel" id="btn_cancel_rating"/>
+                  <input type="button" value="Submit" title="Click to post your annotation publicly" id="btn_post_rating" class="primary"/>
+                </td>
+              </tr>
+              <tr>
+                  <td colspan="3"><p>Ratings can include the following markup tags:</p>
+                  <p><strong>Emphasis:</strong> ''<em>italic</em>''&nbsp;&nbsp;'''<strong>bold</strong>'''&nbsp;&nbsp;'''''<strong><em>bold italic</em></strong>'''''</p>
+                  <p><strong>Other:</strong> ^^<sup>superscript</sup>^^&nbsp;&nbsp;~~<sub>subscript</sub>~~</p></td>
+              </tr>
+            </table>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div dojoType="ambra.widget.LoadingCycle" id="LoadingCycle" class="loadingCycler">
+  <img src="/images/loading.gif" width="58" height="58" title="Loading..." />
+</div>
+<div dojoType="dijit.Dialog" id="LightBox">
+
+    <!-- start main window wrapper-->
+    <div class="figure-window-wrapper">
+
+      <!--start film strip Wrapper-->
+      <div class="figure-window-nav-wrapper">
+        <div id="figure-window-nav"></div>
+      </div><!--end figure-window-nav-wrapper-->
+
+      <!-- start figure container-->
+      <div class="figure-window-container">
+
+        <!-- start/end figure viewer-->
+        <div id="figure-window-viewer">
+          <img id="figure-window-img" class="large"/>
+        </div>
+
+        <!-- start/end figure doi-->
+        <div id="figure-window-doi"></div>
+
+        <!--start figure title-box-->
+        <div id="figure-window-title-box" class="figure-window-title-less">
+          <span id="figure-window-title"></span>
+          <div id="figure-window-more" class="figure-window-more" onclick="return ambra.lightBox.showMoreOrLess();"></div>
+          <div id="figure-window-description"></div>
+        </div><!--end figure title-box-->
+
+        <!--start figure download-->
+        <div class="figure-window-download">
+          <ul>
+            <li class="download icon"><strong>Download:</strong>
+              <a id="figure-window-ppt" title="Click to download PowerPoint slide of this image">PowerPoint
+                slide</a> |
+              <a id="figure-window-large" title="Click to download a larger version of this image">larger image
+                (<span id="figure-window-large-size"></span>)</a> |
+              <a id="figure-window-tiff" title="Click to download a original version of this image">original image
+                (<span id="figure-window-tiff-size"></span>)</a>
+            </li>
+          </ul>
+        </div><!--end figure download-->
+
+        <!--start/end of close, context, next and previous button-->
+        <div class="figure-window-close" onclick="return ambra.lightBox.hide();"></div>
+        <div class="figure-window-context" onclick="return ambra.lightBox.showInContext();"></div>
+        <div id="figure-window-previous" onclick="return ambra.lightBox.showPrevious();"></div>
+        <div id="figure-window-next" onclick="return ambra.lightBox.showNext();"></div>
+
+      </div><!--end figure-window-container-->
+
+    </div><!--end figure-window-wrapper-->
+
+</div><!--end dijit.Dialog-->
+</div>
+</div>
+<!-- end : main contents -->
+
+</div>
+<!-- end : container -->	
+
+<!-- begin : footer -->
+<div id="ftr">
+  <p><span>All site content, except where otherwise noted, is licensed under a <a href="http://creativecommons.org/licenses/by/2.5/" title="Creative Commons Attribution License 2.5" tabindex="200">Creative Commons Attribution License</a>.</span></p>
+  <ul>
+    <li><a href="/static/privacy.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" title="PLOS Privacy Statement" tabindex="501">Privacy Statement</a></li>
+    <li><a href="/static/terms.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" title="PLOS Terms of Use" tabindex="502">Terms of Use</a></li>
+    <li><a href="http://www.plos.org/advertise/" title="Advertise With PLOS" tabindex="503">Advertise</a></li>
+    <li><a href="http://www.plos.org/about/media-inquiries/" title="PLOS Embargo Policy" tabindex="504">Media Inquiries</a></li>
+    <li><a href="http://www.plos.org/publish/order-reprints/" title="PLOS in Print" tabindex="505">PLOS in Print</a></li>
+    <li><a href="/static/sitemap.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" title="Site Map" tabindex="506">Site Map</a></li>
+    <li><a href="http://www.plos.org" title="PLOS.org" tabindex="507">PLOS.org</a></li>
+  </ul>
+  <div class="powered">
+  <ul>
+    <li><a href="/static/releaseNotes.action" title="Ambra | Release Notes">Ambra 2.4.9</a></li>
+    <li>Managed Colocation provided by <a href="http://www.isc.org/" title="Internet Systems Consortium">Internet Systems Consortium</a>.</li>
+  </ul>
+  </div>
+</div>
+<!-- end : footer -->
+<script type="text/javascript">
+  var _namespace="";
+    var loggedIn = false;
+
+  var almHost = "http://alm.plos.org";
+  var solrHost = "http://api.plos.org/search";
+  var pubGetHost = "http://pubget.com/widgetizer/links_hash";
+  var appContext = "";
+
+  // Safari v3.1.1 "console.debug" issue (http://trac.dojotoolkit.org/ticket/6849) workaround
+  if (/3[\.0-9]+ Safari/.test(navigator.appVersion)) {
+    window.console = {
+      origConsole: window.console,
+      log: function(s){ this.origConsole.log(s); },
+      info: function(s){ this.origConsole.info(s); },
+      error: function(s){ this.origConsole.error(s); },
+      warn: function(s){ this.origConsole.warn(s); }
+    };
+  }
+
+  var djConfig = {
+    // don't debug for IE - as dojo's firebug lite module is error prone in IE
+    isDebug: false,
+    parseOnLoad: true
+  };
+
+  var bamGAID = 'UA-338393-1';
+  var bamGAVPV = location.pathname + location.search + location.hash;
+</script>
+<script type="text/javascript" src="/javascript/dojo/dojo/dojo.js?v=pzlwVCPPo+oJC12upPgJrJ5EG_k"></script>
+<script type="text/javascript" src="/javascript/dojo/dojo/ambra.js?v=Y8JM0CVD9YwjC99M_jvbcRTiGhY"></script>
+<script type="text/javascript" src="/javascript/init_global.js?v=fF03pfG3r+Nkj_czZ8ORg8o5sNM"></script>
+<script type="text/javascript" src="/javascript/init_article.js?v=qzBD_a7nKbeMM2xNUtB3vckN+Zc"></script>
+<script type="text/javascript" src="/javascript/init_ratings.js?v=seKykuS0X33CQGS7Lj+8FtBy5Uw"></script>
+<script type="text/javascript" src="/javascript/init_lightBox.js?v=vJRLPy7RRX8Zp31Ogcm3i+TA4f8"></script>
+<script type="text/javascript" src="/javascript/init_article_body.js?v=YgFei2xCi50CahwaPbSsxUxUsmw"></script>
+<script type="text/javascript" src="/javascript/init_article_rhc.js?v=djtbTMOagorKE6ZPrkCwufAfWWI"></script>
+<script type="text/javascript" src="/javascript/alm.js?v=1tH9JZ8uDtXspXssGJDr8O+jBOs"></script>
+<script type="text/javascript" src="/javascript/reporting/articleViewsCumulative.js?v=RQ+gCrcAl0dBeLbmokxgQZTGYYA"></script>
+<script type="text/javascript" src="/javascript/check_twitter.js?v=Hc0sH1W9xIu0qhqxWPD4c1u50K4"></script>
+<script type="text/javascript" src="/javascript/init_googleAnalytics.js?v=yCD4h9PHGI0dsefmuWDlMn7pHog"></script>
+
+</body>
+</html>
+

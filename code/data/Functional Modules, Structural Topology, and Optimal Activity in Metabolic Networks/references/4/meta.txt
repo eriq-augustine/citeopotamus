@@ -1,0 +1,6 @@
+TITLE: Modular analysis of the transcriptional regulatory network of E. coli.
+AUTHORS: Resendis-Antonio O, Freyre-González JA, Menchaca-Méndez R, Gutiérrez-Ríos RM, Martínez-Antonio A, Avila-Sánchez C, Collado-Vides J
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The transcriptional network of Escherichia coli is currently the best-understood regulatory network of a single cell. Motivated by statistical evidence, suggesting a hierarchical modular architecture in this network, we identified eight modules with well-defined physiological functions. These modules were identified by a clustering approach, using the shortest path to trace regulatory relationships across genes in the network. We report the type (feed forward and bifan) and distribution of motifs between and within modules. Feed-forward motifs tend to be embedded within modules, whereas bi-fan motifs tend to link modules, supporting the notion of a hierarchical network with defined functional modules.

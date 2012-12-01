@@ -1,0 +1,6 @@
+TITLE: The kinesin-like ncd protein of Drosophila is a minus end-directed microtubule motor.
+AUTHORS: McDonald HB, Stewart RJ, Goldstein LS
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The Drosophila ncd gene is required for chromosome segregation during female meiosis. Previous analyses suggested that the ncd gene encoded a protein with sequence similarity to the kinesin motor domain, which suggested that, like kinesin, the ncd protein might be a plus end-directed microtubule motor. Here we describe the expression of ncd protein in E. coli and the initial characterization of the ncd protein's motor properties. The ncd protein is indeed a microtubule motor, but the polarity of movement is minus end directed. The ncd protein also has microtubule bundling activity. These findings limit possible models for the in vivo functions of the ncd protein and suggest that motor proteins with similar sequence can generate movement in opposite directions along a microtubule.

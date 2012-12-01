@@ -1,0 +1,6 @@
+TITLE: Comparative protein modeling by satisfaction of spatial restraints.
+AUTHORS: Sali A
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Approximately one third of known protein sequences are related to at least one known protein structure. As a result, an order of magnitude more sequences can be modeled by comparative modeling than there are experimentally determined protein structures. A large fraction of these models has an accuracy approaching that of a low resolution X-ray structure or a medium resolution nuclear magnetic resonance structure. The number of applications where homology modeling has been proven useful is growing rapidly.

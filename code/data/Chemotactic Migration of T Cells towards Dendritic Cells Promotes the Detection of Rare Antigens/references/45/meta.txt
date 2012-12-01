@@ -1,0 +1,6 @@
+TITLE: Simulating T-cell motility in the lymph node paracortex with a packed lattice geometry.
+AUTHORS: Bogle G, Dunbar PR
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Agent-based simulation modelling of T-cell trafficking, activation and proliferation in the lymph node paracortex requires a model for cell motility. Such a model must be able to reproduce the observed random-walk behaviour of T cells, while accommodating large numbers of tightly packed cells, and must be computationally efficient. We report the development of a motility model, based on a three-dimensional lattice geometry, that meets these objectives. Cells make discrete jumps between neighbouring lattice sites in directions that are randomly determined from specified discrete probability distributions, which are defined by a small number of parameters. It is shown that the main characteristics of the random motion of T cells as typically observed in vivo can be reproduced by suitable specification of model parameters. The model is computationally highly efficient and provides a suitable engine for a model capable of simulating the full T-cell population of the paracortex.

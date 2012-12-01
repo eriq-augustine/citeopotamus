@@ -1,0 +1,6 @@
+TITLE: Minimal media for quantitative studies with Bacillus subtilis.
+AUTHORS: DEMAIN AL
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

@@ -1,0 +1,6 @@
+TITLE: Receptive fields of P and M ganglion cells across the primate retina.
+AUTHORS: Croner LJ, Kaplan E
+TERMS:
+CATEGORIES:
+ABSTRACT:
+We studied the receptive field organization and contrast sensitivity of ganglion cells located within the central 80 (radius of 40) deg of the macaque retina. Ganglion cell activity was monitored as synaptic (S) potentials recorded extracellularly in the lateral geniculate nuclei of anesthetized and paralyzed monkeys. Receptive field center and surround regions of magnocellularly-projecting (M) and parvocellularly-projecting (P) cells increase in area with distance from the fovea, with the center radii of M cells being about twice those of neighboring P cells. Peak sensitivities of center and surround regions are inversely proportional to the regions' areas, so that integrated contrast sensitivities (contrast gains) are constant across the visual field, with the gain of M cells being, on average, six times that of P cells. For both M and P cells, the average ratio of surround/center gain is 0.55. Constant gain of P cells across the visual field is achieved by increasing sensitivity to stimuli falling on the peripheral retina to an extent that counteracts the aberrations introduced by the eye's optics.

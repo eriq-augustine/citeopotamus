@@ -1,0 +1,6 @@
+TITLE: Sensitivity Measures for Oscillating Systems: Application to Mammalian Circadian Gene Network.
+AUTHORS: Taylor SR, Gunawan R, Petzold LR, Doyle FJ
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Vital physiological behaviors exhibited daily by bacteria, plants, and animals are governed by endogenous oscillators called circadian clocks. The most salient feature of the circadian clock is its ability to change its internal time (phase) to match that of the external environment. The circadian clock, like many oscillators in nature, is regulated at the cellular level by a complex network of interacting components. As a complementary approach to traditional biological investigation, we utilize mathematical models and systems theoretic tools to elucidate these mechanisms. The models are systems of ordinary differential equations exhibiting stable limit cycle behavior. To study the robustness of circadian phase behavior, we use sensitivity analysis. As the standard set of sensitivity tools are not suitable for the study of phase behavior, we introduce a novel tool, the parametric impulse phase response curve (pIPRC).

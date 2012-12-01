@@ -1,0 +1,6 @@
+TITLE: Validation of the 53A6 GROMOS force field.
+AUTHORS: Oostenbrink C, Soares TA, van der Vegt NF, van Gunsteren WF
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The quality of biomolecular dynamics simulations relies critically on the force field that is used to describe the interactions between particles in the system. Force fields, which are generally parameterized using experimental data on small molecules, can only prove themselves in realistic simulations of relevant biomolecular systems. In this work, we begin the validation of the new 53A6 GROMOS parameter set by examining three test cases. Simulations of the well-studied 129 residue protein hen egg-white lysozyme, of the DNA dodecamer d(CGCGAATTCGCG)(2), and a proteinogenic beta(3)-dodecapeptide were performed and analysed. It was found that the new parameter set performs as well as the previous parameter sets in terms of protein (45A3) and DNA (45A4) stability and that it is better at describing the folding-unfolding balance of the peptide. The latter is a property that is directly associated with the free enthalpy of hydration, to which the 53A6 parameter set was parameterized.

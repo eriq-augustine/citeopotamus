@@ -1,0 +1,4 @@
+Metabolite-centric approaches for the discovery of antibacterials using genome-scale metabolic networks.
+Kim TY, Kim HU, Lee SY
+Abstract:
+None

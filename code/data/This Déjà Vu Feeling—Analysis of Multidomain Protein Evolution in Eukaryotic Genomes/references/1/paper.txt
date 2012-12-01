@@ -1,0 +1,4 @@
+Arrangements in the modular evolution of proteins.
+Moore AD, Björklund AK, Ekman D, Bornberg-Bauer E, Elofsson A
+Abstract:
+It has been known for the last couple of decades that proteins evolve partly through rearrangements of larger fragments, typically domains. These units are considered the basic modules of protein structure, evolution and function. In the last few years, the analysis of protein-domain rearrangements has provided us with functional and evolutionary insights and has aided improved functional predictions and domain assignments to previously uncharacterised genes and proteins. Although some mechanisms that govern modular rearrangements of protein domains have been uncovered, such as the addition or deletion of a single N- or C-terminal domain, much is still unknown about the genetics behind these arrangements.

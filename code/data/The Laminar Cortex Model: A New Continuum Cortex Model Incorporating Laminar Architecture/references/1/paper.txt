@@ -1,0 +1,4 @@
+Interpreting the BOLD signal.
+Logothetis NK, Wandell BA
+Abstract:
+The development of functional magnetic resonance imaging (fMRI) has brought together a broad community of scientists interested in measuring the neural basis of the human mind. Because fMRI signals are an indirect measure of neural activity, interpreting these signals to make deductions about the nervous system requires some understanding of the signaling mechanisms. We describe our current understanding of the causal relationships between neural activity and the blood-oxygen-level-dependent (BOLD) signal, and we review how these analyses have challenged some basic assumptions that have guided neuroscience. We conclude with a discussion of how to use the BOLD signal to make inferences about the neural signal.

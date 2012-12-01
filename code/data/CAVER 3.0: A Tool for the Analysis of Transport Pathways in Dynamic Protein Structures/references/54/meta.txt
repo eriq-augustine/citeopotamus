@@ -1,0 +1,6 @@
+TITLE: The plasmid-located haloalkane dehalogenase gene from Rhodococcus rhodochrous NCIMB 13064.
+AUTHORS: Kulakova AN, Larkin MJ, Kulakov LA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The haloalkane dehalogenase (dhaA) gene from Rhodococcus rhodochrous NCIMB 13064 was cloned and sequenced. Its comparison with the previously studied dhlA gene from Xanthobacter autotrophicus GJ10 did not show homology. However, the amino acid sequences of the products of these genes showed approximately 30% identity and several of the catalytic amino acid residues were conserved in the NCIMB 13,064 dehalogenase. A high level of dhaA expression was demonstrated in Escherichia coli cells and this gene was shown to encode a dehalogenase with the activity against chloroalkanes of chain length C3-C10. Also, some dehalogenase activity against 1,2-dichloroethane encoded by the cloned dhaA gene was detected. The analysis of NCIMB 13,064 derivatives lacking dehalogenase activity showed that the dhaA gene was located on the 100 kbp pRTL1 plasmid. It was also found that reversible rearrangements of DNA in the dhaA region may be responsible for the control of expression of haloalkane dehalogenase in R. rhodochrous NCIMB 13064. A number of repeated and inverted sequences which may cause genetic instability at the locus were found in the haloalkane dehalogenase gene region.

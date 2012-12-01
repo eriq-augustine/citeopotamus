@@ -1,0 +1,6 @@
+TITLE: RIO: analyzing proteomes by automated phylogenomics using resampled inference of orthologs.
+AUTHORS: Zmasek CM, Eddy SR
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

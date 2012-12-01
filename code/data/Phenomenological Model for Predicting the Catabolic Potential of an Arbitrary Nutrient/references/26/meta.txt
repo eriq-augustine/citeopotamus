@@ -1,0 +1,6 @@
+TITLE: What is flux balance analysis?
+AUTHORS: Orth JD, Thiele I, Palsson BØ
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

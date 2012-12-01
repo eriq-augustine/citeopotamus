@@ -1,0 +1,6 @@
+TITLE: Mapping of two networks of residues that exhibit structural and dynamical changes upon binding in a PDZ domain protein.
+AUTHORS: Dhulesia A, Gsponer J, Vendruscolo M
+TERMS:
+CATEGORIES:
+ABSTRACT:
+We describe the changes in structure and dynamics that occur in the second PDZ domain of human tyrosine phosphatase 1E upon binding the small peptide RA-GEF2 by an analysis of NMR data based on their use as ensemble-averaged restraints in molecular dynamics simulations. This approach reveals the presence of two interconnected networks of residues, the first exhibiting structural changes and the second dynamical changes upon binding, and it provides a detailed mapping of the regions of increased and decreased mobility upon binding. Analysis of the dynamical properties of the residues in these networks reveals that conformational changes are transmitted through pathways of coupled side-chain reorientations. These results illustrate how the strategy we described, in which NMR data are used in combination with molecular dynamics simulations, can be used to characterize in detail the complex organization of the changes in structure and dynamics that take place in proteins upon binding.

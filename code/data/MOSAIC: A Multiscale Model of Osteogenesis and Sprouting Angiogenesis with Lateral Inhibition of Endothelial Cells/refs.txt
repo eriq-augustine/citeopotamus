@@ -1,0 +1,67 @@
+REFERENCES
+[1]	Taguchi K, Ogawa R, Migita M, Hanawa H, Ito H, et al. (2005) The role of bone marrow-derived cells in bone fracture repair in a green fluorescent protein chimeric mouse model. Biochem Biophys Res Commun 331: 31–36. 
+[2]	Carmeliet P, De Smet F, Loges S, Mazzone M (2009) Branching morphogenesis and antiangiogenesis candidates: tip cells lead the way. Nat Rev Clin Oncol 6: 315–326. 
+[3]	Bentley K, Gerhardt H, Bates PA (2008) Agent-based simulation of notch-mediated tip cell selection in angiogenic sprout initialisation. J Theor Biol 250: 25–36 S0022-5193(07)00443-2 [pii];10.1016/j.jtbi.2007.09.015 [doi]. doi: 10.1016/j.jtbi.2007.09.015. 
+[4]	De Smet F, Segura I, De Bock K, Hohensinner PJ, Carmeliet P (2009) Mechanisms of Vessel Branching Filopodia on Endothelial Tip Cells Lead the Way. Arterioscler Thromb Vasc Biol 29: 639–649. 
+[5]	Hellstrom M, Phng LK, Hofmann JJ, Wallgard E, Coultas L, et al. (2007) Dll4 signalling through Notch1 regulates formation of tip cells during angiogenesis. Nature 445: 776–780. doi: 10.1038/nature05571. 
+[6]	Liu G, Qutub AA, Vempati P, Mac Gabhann F, Popel AS (2011) Module-based multiscale simulation of angiogenesis in skeletal muscle. Theor Biol and Med Model 8. 
+[7]	Meier-Schellersheim M, Fraser IDC, Klauschen F (2009) Multiscale modeling for biologists. Wiley Interdiscip Rev Syst Biol Med 1: 4–14. doi: 10.1002/wsbm.33. 
+[8]	Wang ZH, Deisboeck TS (2008) Computational modeling of brain tumors: discrete, continuum or hybrid? SMNS 15: 381–393. 
+[9]	Thorne BC, Bailey AM, DeSimone DW, Peirce SM (2007) Agent-based modeling of multicell morphogenic processes during development. Birth Defects Res Part C: Embryo Today: Reviews 81: 344–353 10.1002/bdrc.20106. doi: 10.1002/bdrc.20106. 
+[10]	Zhang L, Wang ZH, Sagotsky JA, Deisboeck TS (2009) Multiscale agent-based cancer modeling. J Math Biol 58: 545–559. 
+[11]	Byrne H, Drasdo D (2009) Individual-based and continuum models of growing cell populations: a comparison. J Math Biol 58: 657–687. 
+[12]	Mantzaris NV, Webb S, Othmer HG (2004) Mathematical modeling of tumor-induced angiogenesis. J Math Biol 49: 111–187. 
+[13]	Qutub AA, Mac Gabhann F, Karagiannis ED, Vempati P, Popel AS (2009) Multiscale models of angiogenesis. IEEE Eng Med Biol Mag 28: 14–31. doi: 10.1109/MEMB.2009.931791. 
+[14]	Peirce S (2008) Computational and Mathematical Modeling of Angiogenesis. Microcirculation 15: 739–751. 
+[15]	Milde F, Bergdorf M, Koumoutsakos P (2008) A hybrid model for three-dimensional simulations of sprouting angiogenesis. Biophys J 95: 3146–3160. doi: 10.1529/biophysj.107.124511. 
+[16]	Lemon G, Howard D, Rose FRAJ, King JR (2011) Individual-based modelling of angiogenesis inside three-dimensional porous biomaterials. Biosystems 103: 372–383. 
+[17]	Checa S, Prendergast PJ (2009) A Mechanobiological Model for Tissue Differentiation that Includes Angiogenesis: A Lattice-Based Modeling Approach. Ann Biomed Eng 37: 129–145 10.1007/s10439-008-9594-9. 
+[18]	Peiffer V, Gerisch A, Vandepitte D, Van Oosterwyck H, Geris L (2011) A hybrid bioregulatory model of angiogenesis during bone fracture healing. Biomech Model Mechanobiol 10: 383–395 10.1007/s10237-010-0241-7 [doi]. doi: 10.1007/s10237-010-0241-7. 
+[19]	Sun SY, Wheeler MF, Obeyesekere M, Patrick CW (2005) A deterministic model of growth factor-induced angiogenesis. Bull Math Biol 67: 313–337. 
+[20]	Qutub AA, Popel AS (2009) Elongation, proliferation & migration differentiate endothelial cell phenotypes and determine capillary sprouting. Bmc Syst Biol 3 10.1186/1752-0509-3-13. 
+[21]	Bentley K, Mariggi G, Gerhardt H, Bates PA (2009) Tipping the Balance: Robustness of Tip Cell Selection, Migration and Fusion in Angiogenesis. PloS Comput Biol 5: 10.1371/journal.pcbi.1000549. 
+[22]	Geris L, Vander SJ, Van Oosterwyck H (2009) In silico biology of bone modelling and remodelling: regeneration. Philos Transact A Math Phys Eng Sci 367: 2031–2053 367/1895/2031 [pii];10.1098/rsta.2008.0293 [doi]. 
+[23]	Tillmann U, Bereiterhahn J (1986) Relation of Actin Fibrils to Energy-Metabolism of Endothelial-Cells. Cell Tissue Res 243: 579–585. 
+[24]	Waingeh VF, Gustafson CD, Kozliak EI, Lowe SL, Knull HR, Thomasson KA (2006) Glycolytic enzyme interactions with yeast and skeletal muscle F-actin. Biophysical J 90: 1371–1384. 
+[25]	Potente M, Gerhardt H, Carmeliet P (2011) Basic and Therapeutic Aspects of Angiogenesis. Cell 146: 873–887. 
+[26]	Zhang JH, Fukuhara S, Sako K, Takenouchi T, Kitani H, et al. (2011) Angiopoietin-1/Tie2 Signal Augments Basal Notch Signal Controlling Vascular Quiescence by Inducing Delta-Like 4 Expression through AKT-mediated Activation of beta-Catenin. J Biol Chem 286: 8055–8066. 
+[27]	Yan MH, Callahan CA, Beyer JC, Allamneni KP, Zhang G, et al. (2010) Chronic DLL4 blockade induces vascular neoplasms. Nature 463: E6–E7. 
+[28]	Giudicelli F, Lewis J (2004) The vertebrate segmentation clock. Curr Opin Genet Dev 14: 407–414. 
+[29]	Roca C, Adams RH (2007) Regulation of vascular morphogenesis by Notch signaling. Genes Dev 21: 2511–2524. 
+[30]	Phng LK, Gerhardt H (2009) Angiogenesis: A Team Effort Coordinated by Notch. Dev Cell 16: 196–208. 
+[31]	Geris L, Gerisch A, Sloten JV, Weiner R, Oosterwyck HV (2008) Angiogenesis in bone fracture healing: a bioregulatory model. J Theor Biol 251: 137–158 S0022-5193(07)00567-X [pii];10.1016/j.jtbi.2007.11.008 [doi]. 
+[32]	Gerisch A, Chaplain MAJ (2006) Robust numerical methods for taxis-diffusion-reaction systems: Applications to biomedical problems. Math Comp Model 43: 49–75. 
+[33]	Weiner R, Schmitt BA, Podhaisky H (1997) ROWMAP - a ROW-code with Krylov techniques for large stiff ODEs. Appl Numer Math 25: 303–319. 
+[34]	Street J, Bao M, deGuzman L, Bunting S, Peale FV, et al. (2002) Vascular endothelial growth factor stimulates bone repair by promoting angiogenesis and bone turnover. Proc Natl Acad Sci U S A 99: 9656–9661. 
+[35]	Harrison LJ, Cunningham JL, Stromberg L, Goodship AE (2003) Controlled induction of a pseudarthrosis: A study using a rodent model. J Orthop Trauma 17: 11–21. 
+[36]	Duvall CL, Taylor WR, Weiss D, Wojtowicz AM, Guldberg RE (2007) Impaired angiogenesis, early callus formation, and late stage remodeling in fracture healing of osteopontin-deficient mice. J Bone Miner Res 22: 286–297. 
+[37]	Maes C, Coenegrachts L, Stockmans I, Daci E, Luttun A, et al. (2006) Placental growth factor mediates mesenchymal cell development, cartilage turnover, and bone remodeling during fracture repair. J Clin Investig 116: 1230–1242. 
+[38]	Maes C, Kobayashi T, Selig MK, Torrekens S, Roth SI, et al. (2010) Osteoblast Precursors, but Not Mature Osteoblasts, Move into Developing and Fractured Bones along with Invading Blood Vessels. Dev Cell 19: 329–344. 
+[39]	Lu C, Marcucio R, Miclau T (2006) Assessing angiogenesis during fracture healing. Iowa Orthop J 26: 17–26. 
+[40]	Reumann MK, Nair T, Strachna O, Boskey AL, Mayer-Kuckuk P (2010) Production of VEGF receptor 1 and 2 mRNA and protein during endochondral bone repair is differential and healing phase specific. J Appl Physiol 109: 1930–1938. 
+[41]	Jacobsen KA, Al-Aql ZS, Wan C, Fitch JL, Stapleton SN, et al. (2008) Bone formation during distraction osteogenesis is dependent on both VEGFR1 and VEGFR2 signaling. J Bone Miner Res 23: 596–609. 
+[42]	Kleinheinz J, Stratmann U, Joos U, Wiesmann HP (2005) VEGF-activated angiogenesis during bone regeneration. J Oral Maxillofac Surg 63: 1310–1316. 
+[43]	Peng HR, Wright V, Usas A, Gearhart B, Shen HC, et al. (2002) Synergistic enhancement of bone formation and healing by stem cell-expressed VEGF and bone morphogenetic protein-4. J Clin Investig 110: 751–759. 
+[44]	Tarkka T, Sipola A, Jamsa T, Soini Y, Yla-Herttuala S, et al. (2003) Adenoviral VEGF-A gene transfer induces angiogenesis and promotes bone formation in heating osseous tissues. J Gene Med 5: 560–566. 
+[45]	Street J, Winter D, Wang JH, Wakai A, McGuinness A, et al. (2000) Is human fracture hematoma inherently angiogenic? Clin Orthop Relat Res 224–237. 
+[46]	Ridgway J, Zhang G, Wu Y, Stawicki S, Liang WC, et al. (2006) Inhibition of Dll4 signalling inhibits tumour growth by deregulating angiogenesis. Nature 444: 1083–1087. 
+[47]	Noguera-Troise I, Daly C, Papadopoulos NJ, Coetzee S, Boland P, et al. (2006) Blockade of Dll4 inhibits tumour growth by promoting non-productive angiogenesis. Nature 444: 1032–1037. 
+[48]	Krueger J, Liu D, Scholz K, Zimmer A, Shi Y, et al. (2011) Flt1 acts as a negative regulator of tip cell formation and branching morphogenesis in the zebrafish embryo. Development 138: 2111–2120. 
+[49]	Arima S, Nishiyama K, Ko T, Arima Y, Hakozaki Y, et al. (2011) Angiogenic morphogenesis driven by dynamic and heterogeneous collective endothelial cell movement. Development 138: 4763–4776. 
+[50]	Jakobsson L, Franco CA, Bentley K, Collins RT, Ponsioen B, et al. (2010) Endothelial cells dynamically compete for the tip cell position during angiogenic sprouting. Nat Cell Biol 12: 943–953 10.1038/ncb2103. 
+[51]	Harrington LS, Sainson RCA, Williams CK, Taylor JM, Shi W, et al. (2008) Regulation of multiple angiogenic pathways by D114 and Notch in human umbilical vein endothelial cells. Microvasc Res 75: 144–154. 
+[52]	Bray SJ (2006) Notch signalling: a simple pathway becomes complex. Nat Rev Mol Cell Biol 7: 678–689. 
+[53]	Fiuza UM, Arias AM (2007) Cell and molecular biology of Notch. J Endocrinol 194: 459–474. 
+[54]	Suchting S, Freitas C, del Toro R, le Noble F, Benedito R, et al. (2007) The Notch ligand Delta-like 4 (Dll4) negatively regulates endothelial tip cell formation and vessel branching. Faseb J 21: A15. 
+[55]	Suchting S, Freitas C, le Noble F, Benedito R, Breant C, et al. (2007) The Notch ligand Delta-like 4 negatively regulates endothelial tip cell formation and vessel branching. Proc Natl Acad Sci U S A 104: 3225–3230. 
+[56]	Lobov IB, Cheung E, Wudali R, Cao JT, Halasz G, et al. (2011) The Dll4/Notch pathway controls postangiogenic blood vessel remodeling and regression by modulating vasoconstriction and blood flow. Blood 117: 6728–6737. 
+[57]	Lai EC (2004) Notch signaling: control of cell communication and cell fate. Development 131: 965–973. 
+[58]	Kubo H, Fujiwara T, Jussila L, Hashi H, Ogawa M, et al. (2000) Involvement of vascular endothelial growth factor receptor-3 in maintenance of integrity of endothelial cell lining during tumor angiogenesis. Blood 96: 546–553. 
+[59]	Tammela T, Zarkada G, Wallgard E, Murtomaki A, Suchting S, et al. (2008) Blocking VEGFR-3 suppresses angiogenic sprouting and vascular network formation. Nature 454: 656–U68. 
+[60]	Gerhardt H, Golding M, Fruttiger M, Ruhrberg C, Lundkvist A, et al. (2003) VEGF guides angiogenic sprouting utilizing endothelial tip cell filopodia. J Cell Biol 161: 1163–1177. 
+[61]	Vempati P, Popel AS, Mac Gabhann F (2011) Formation of VEGF isoform-specific spatial distributions governing angiogenesis: computational analysis. Bmc Syst Biol 5. 
+[62]	Mac Gabhann F, Ji JW, Popel AS (2006) Computational model of vascular endothelial growth factor spatial distribution in muscle and pro-angiogenic cell therapy. PloS Comput Biol 2: 1107–1120. 
+[63]	Liu ZJ, Shirakawa T, Li Y, Soma A, Oka M, et al. (2003) Regulation of Notch1 and Dll4 by vascular endothelial growth factor in arterial endothelial cells: Implications for modulating arteriogenesis and angiogenesis. Mol Cell Biol 23: 14–25. 
+[64]	Gerstenfeld LC, Cullinane DM, Barnes GL, Graves DT, Einhorn TA (2003) Fracture healing as a post-natal developmental process: Molecular, spatial, and temporal aspects of its regulation. J Cell Biochem 88: 873–884. 
+[65]	Barnes GL, Kostenuik PJ, Gerstenfeld LC, Einhorn TA (1999) Growth factor regulation of fracture repair. J Bone Miner Res 14: 1805–1815 jbmpr11 [pii];10.1359/jbmr.1999.14.11.1805 [doi]. 
+[66]	Dimitriou R, Tsiridis E, Giannoudis PV (2005) Current concepts of molecular aspects of bone healing. Injury 36: 1392–1404 S0020-1383(05)00276-7 [pii];10.1016/j.injury.2005.07.019 [doi]. 

@@ -1,0 +1,6 @@
+TITLE: Dynamics of CD8+ T cell priming by dendritic cells in intact lymph nodes.
+AUTHORS: Bousso P, Robey E
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The cellular dynamics underlying activation of CD8+ T cells by dendritic cells (DCs) in the lymph node are not known. Here we have tracked the behavior of T cells and DCs by subjecting intact lymph nodes to real-time two-photon microscopy. We show that DCs scan at least 500 different T cells per hour in the absence of antigen. Antigen-bearing DCs are highly efficient in recruiting peptide-specific T cells and can engage more than ten T cells simultaneously. The duration of these interactions is of the order of hours, not minutes. The overall avidity of the interaction influences the probability that T cells will be stably captured by DCs, providing a possible basis for T cell competition. Taken together, our results identify the cellular behaviors that promote an efficient CD8+ T cell response in the lymph node.

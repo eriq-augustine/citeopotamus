@@ -1,0 +1,6 @@
+TITLE: Investigating nonlinear dynamics from time series: The influence of symmetries and the choice of observables.
+AUTHORS: Letellier C, Aguirre LA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+When a dynamical system is investigated from a time series, one of the most challenging problems is to obtain a model that reproduces the underlying dynamics. Many papers have been devoted to this problem but very few have considered the influence of symmetries in the original system and the choice of the observable. Indeed, it is well known that there are usually some variables that provide a better representation of the underlying dynamics and, consequently, a global model can be obtained with less difficulties starting from such variables. This is connected to the problem of observing the dynamical system from a single time series. The roots of the nonequivalence between the dynamical variables will be investigated in a more systematic way using previously defined observability indices. It turns out that there are two important ingredients which are the complexity of the coupling between the dynamical variables and the symmetry properties of the original system. As will be mentioned, symmetries and the choice of observables also has important consequences in other problems such as synchronization of nonlinear oscillators. (c) 2002 American Institute of Physics.

@@ -1,0 +1,6 @@
+TITLE: Major role for mRNA stability in shaping the kinetics of gene induction.
+AUTHORS: Elkon R, Zlotorynski E, Zeller KI, Agami R
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

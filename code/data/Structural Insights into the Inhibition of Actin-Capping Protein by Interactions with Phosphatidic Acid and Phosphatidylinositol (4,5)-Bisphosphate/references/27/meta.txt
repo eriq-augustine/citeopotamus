@@ -1,0 +1,6 @@
+TITLE: Molecular simulation approaches to membrane proteins.
+AUTHORS: Stansfeld PJ, Sansom MS
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

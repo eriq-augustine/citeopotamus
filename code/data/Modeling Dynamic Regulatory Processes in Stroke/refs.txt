@@ -1,0 +1,42 @@
+REFERENCES
+[1]	Stevens SL, Leung PY, Vartanian KB, Gopalan B, Yang T, et al. (2011) Multiple preconditioning paradigms converge on interferon regulatory factor-dependent signaling to promote tolerance to ischemic brain injury. J Neurosci 31: 8456–8463. doi: 10.1523/JNEUROSCI.0821-11.2011. 
+[2]	Stenzel-Poore MP, Stevens SL, Xiong Z, Lessov NS, Harrington CA, et al. (2003) Effect of ischaemic preconditioning on genomic response to cerebral ischaemia: similarity to neuroprotective strategies in hibernation and hypoxia-tolerant states. Lancet 362: 1028–1037. 
+[3]	Marsh B, Stevens SL, Packard AE, Gopalan B, Hunter B, et al. (2009) Systemic lipopolysaccharide protects the brain from ischemic injury by reprogramming the response of the brain to stroke: a critical role for IRF3. J Neurosci 29: 9839–9849. 
+[4]	Mandel J, Palfreyman NM, Lopez JA, Dubitzky W (2004) Representing bioinformatics causality. Brief Bioinform 5: 270–283. doi: 10.1093/bib/5.3.270. 
+[5]	Kim SY, Imoto S, Miyano S (2003) Inferring gene networks from time series microarray data using dynamic Bayesian networks. Brief Bioinform 4: 228–235. 
+[6]	David LA, Wiggins CH (2007) Benchmarking of dynamic Bayesian networks inferred from stochastic time-series data. Ann N Y Acad Sci 1115: 90–101. doi: 10.1196/annals.1407.009. 
+[7]	Akutsu T, Miyano S, Kuhara S (1999) Identification of genetic networks from a small number of gene expression patterns under the Boolean network model. Pac Symp Biocomput 17–28. 
+[8]	Shmulevich I, Dougherty ER, Kim S, Zhang W (2002) Probabilistic Boolean Networks: a rule-based uncertainty model for gene regulatory networks. Bioinformatics 18: 261–274. 
+[9]	Chen M, Hu M, Hofestadt R (2011) A systematic petri net approach for multiple-scale modeling and simulation of biochemical processes. Appl Biochem Biotechnol 164: 338–352. 
+[10]	Dong X, Foteinou PT, Calvano SE, Lowry SF, Androulakis IP (2010) Agent-based modeling of endotoxin-induced acute inflammatory response in human blood leukocytes. PLoS ONE 5: e9249. 
+[11]	Cao J, Qi X, Zhao H (2012) Modeling gene regulation networks using ordinary differential equations. Methods Mol Biol 802: 185–197. 
+[12]	Madar A, Bonneau R (2009) Learning global models of transcriptional regulatory networks from data. Methods Mol Biol 541: 181. 
+[13]	Madar A, Greenfield A, Ostrer H, Vanden-Eijnden E, Bonneau R (2009) The Inferelator 2.0: a scalable framework for reconstruction of dynamic regulatory network models. Conf Proc IEEE Eng Med Biol Soc 2009: 5448–5451. 
+[14]	Bonneau R, Reiss DJ, Shannon P, Facciotti M, Hood L, et al. (2006) The Inferelator: an algorithm for learning parsimonious regulatory networks from systems-biology data sets de novo. Genome Biol 7: R36. 
+[15]	Polynikis A, Hogan SJ, di Bernardo M (2009) Comparing different ODE modelling approaches for gene regulatory networks. J Theor Biol 261: 511–530. 
+[16]	Bonneau R, Facciotti MT, Reiss DJ, Schmid AK, Pan M, et al. (2007) A predictive model for transcriptional control of physiology in a free living cell. Cell 131: 1354–1365. doi: 10.1016/j.cell.2007.10.053. 
+[17]	Leung PY, Packard AE, Stenzel-Poore MP (2009) It's all in the family: multiple Toll-like receptors offer promise as novel therapeutic targets for stroke neuroprotection. Future Neurol 4: 201–208. 
+[18]	Stevens SL, Ciesielski TM, Marsh BJ, Yang T, Homen DS, et al. (2008) Toll-like receptor 9: a new target of ischemic preconditioning in the brain. J Cereb Blood Flow Metab 28: 1040–1047. 
+[19]	Marsh BJ, Stevens SL, Hunter B, Stenzel-Poore MP (2009) Inflammation and the emerging role of the toll-like receptor system in acute brain ischemia. Stroke 40: S34–37. 
+[20]	The Gene Ontology Consortium (2001) Creating the gene ontology resource: design and implementation. Genome Res 11: 1425–1433. 
+[21]	Tibshirani R (1996) Regression shrinkage and selection via the lasso. J Royal Statist Soc B 58: 267–288. 
+[22]	Efron B, Johnstone I, Hastie T, Tibshirani R (2003) Least angle regression. Ann Stat 32: 407–499. 
+[23]	McDermott JE, Archuleta M, Stevens SL, Stenzel-Poore MP, Sanfilippo A (2011) Defining the players in higher-order networks: predictive modeling for reverse engineering functional influence networks. Pac Symp Biocomput 314–325. 
+[24]	McDermott JE, Archuleta M, Thrall BD, Adkins JN, Waters KM (2011) Controlling the response: predictive modeling of a highly central, pathogen-targeted core response module in macrophage activation. PLoS ONE 6: e14673. 
+[25]	McDermott JE, Oehmen CS, McCue LA, Hill E, Choi DM, et al. (2011) A model of cyclic transcriptomic behavior in the cyanobacterium Cyanothece sp. ATCC 51142. Mol Biosyst 7: 2407–2418. 
+[26]	Sanfilippo A, Baddeley B, Beagley N, McDermott J, Riensche R, et al. (2009) Using the gene ontology to enrich biological pathways. Int J Comput Biol Drug Des 2: 221–235. 
+[27]	Lachmann A, Xu H, Krishnan J, Berger SI, Mazloom AR, et al. (2010) ChEA: Transcription Factor Regulation Inferred from Integrating Genome-Wide ChIP-X Experiments. Bioinformatics 26: 2438–2444. 
+[28]	Peri S, Navarro JD, Kristiansen TZ, Amanchy R, Surendranath V, et al. (2004) Human protein reference database as a discovery resource for proteomics. Nucleic Acids Res 32: D497–501. 
+[29]	Liberzon A, Subramanian A, Pinchback R, Thorvaldsdottir H, Tamayo P, et al. (2011) Molecular signatures database (MSigDB) 3.0. Bioinformatics 27: 1739–1740. 
+[30]	Kim WK, Krumpelman C, Marcotte EM (2008) Inferring mouse gene functions from genomic-scale data using a combined functional network/classification strategy. Genome Biol 9 Suppl 1: S5. 
+[31]	Marucci L, Santini S, di Bernardo M, di Bernardo D (2011) Derivation, identification and validation of a computational model of a novel synthetic regulatory network in yeast. J Math Biol 62: 685–706. 
+[32]	Thakar J, Pilione M, Kirimanjeswara G, Harvill ET, Albert R (2007) Modeling systems-level regulation of host immune responses. PLoS Comput Biol 3: e109. 
+[33]	Nawashiro H, Martin D, Hallenbeck JM (1997) Neuroprotective effects of TNF binding protein in focal cerebral ischemia. Brain Res 778: 265–271. 
+[34]	Rosenzweig HL, Minami M, Lessov NS, Coste SC, Stevens SL, et al. (2007) Endotoxin preconditioning protects against the cytotoxic effects of TNFalpha after stroke: a novel role for TNFalpha in LPS-ischemic tolerance. J Cereb Blood Flow Metab 27: 1663–1674. 
+[35]	Marsh BJ, Williams-Karnesky RL, Stenzel-Poore MP (2009) Toll-like receptor signaling in endogenous neuroprotection and stroke. Neuroscience 158: 1007–1020. 
+[36]	Vartanian KB, Stevens SL, Marsh BJ, Williams-Karnesky R, Lessov NS, et al. (2011) LPS preconditioning redirects TLR signaling following stroke: TRIF-IRF3 plays a seminal role in mediating tolerance to ischemic injury. J Neuroinflammation 8: 140. 
+[37]	Vartanian K, Stenzel-Poore M (2010) Toll-like receptor tolerance as a mechanism for neuroprotection. Transl Stroke Res 1: 252–260. 
+[38]	Irizarry RA, Hobbs B, Collin F, Beazer-Barclay YD, Antonellis KJ, et al. (2003) Exploration, normalization, and summaries of high density oligonucleotide array probe level data. Biostatistics 4: 249–264. doi: 10.1093/biostatistics/4.2.249. 
+[39]	Ward JH (1963) Hierarchical grouping to optimize an objective function. J Am Stat Assoc 58: 236–244. 
+[40]	Falcon S, Gentleman R (2007) Using GOstats to test gene lists for GO term association. Bioinformatics 23: 257–258. doi: 10.1093/bioinformatics/btl567. 
+[41]	Yu H, Luscombe NM, Lu HX, Zhu X, Xia Y, et al. (2004) Annotation Transfer Between Genomes: Protein-Protein Interologs and Protein-DNA Regulogs. Genome Res 14: 1107–1118. 

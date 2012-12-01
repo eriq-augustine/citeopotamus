@@ -1,0 +1,6 @@
+TITLE: Crystal structures of a multidrug transporter reveal a functionally rotating mechanism.
+AUTHORS: Murakami S, Nakashima R, Yamashita E, Matsumoto T, Yamaguchi A
+TERMS:
+CATEGORIES:
+ABSTRACT:
+AcrB is a principal multidrug efflux transporter in Escherichia coli that cooperates with an outer-membrane channel, TolC, and a membrane-fusion protein, AcrA. Here we describe crystal structures of AcrB with and without substrates. The AcrB-drug complex consists of three protomers, each of which has a different conformation corresponding to one of the three functional states of the transport cycle. Bound substrate was found in the periplasmic domain of one of the three protomers. The voluminous binding pocket is aromatic and allows multi-site binding. The structures indicate that drugs are exported by a three-step functionally rotating mechanism in which substrates undergo ordered binding change.

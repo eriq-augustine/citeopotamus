@@ -1,0 +1,6 @@
+TITLE: Cellular construction of a circadian clock: period determination in the suprachiasmatic nuclei.
+AUTHORS: Liu C, Weaver DR, Strogatz SH, Reppert SM
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The circadian clock in the suprachiasmatic nuclei is composed of multiple, single-cell circadian oscillators (clock cells). We now test the hypothesis that the circadian period in behavior is determined by the mean period that arises from the coupling of clock cells with diverse circadian periods. For these studies, we monitored firing rate rhythms of individual suprachiasmatic nuclei neurons on fixed multielectrode plates and exploited the altered circadian periods expressed by heterozygous and homozygous tau mutant hamsters. The results show that circadian period in the whole animal is determined by averaging widely dispersed periods of individual clock cells. The data also demonstrate that the tau mutation affects circadian function in a cell-autonomous manner.

@@ -1,0 +1,6 @@
+TITLE: Heteroplasmic mitochondrial DNA mutations in normal and tumour cells.
+AUTHORS: He Y, Wu J, Dressman DC, Iacobuzio-Donahue C, Markowitz SD, Velculescu VE, Diaz LA Jr, Kinzler KW, Vogelstein B, Papadopoulos N
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The presence of hundreds of copies of mitochondrial DNA (mtDNA) in each human cell poses a challenge for the complete characterization of mtDNA genomes by conventional sequencing technologies. Here we describe digital sequencing of mtDNA genomes with the use of massively parallel sequencing-by-synthesis approaches. Although the mtDNA of human cells is considered to be homogeneous, we found widespread heterogeneity (heteroplasmy) in the mtDNA of normal human cells. Moreover, the frequency of heteroplasmic variants varied considerably between different tissues in the same individual. In addition to the variants identified in normal tissues, cancer cells harboured further homoplasmic and heteroplasmic mutations that could also be detected in patient plasma. These studies provide insights into the nature and variability of mtDNA sequences and have implications for mitochondrial processes during embryogenesis, cancer biomarker development and forensic analysis. In particular, they demonstrate that individual humans are characterized by a complex mixture of related mitochondrial genotypes rather than a single genotype.

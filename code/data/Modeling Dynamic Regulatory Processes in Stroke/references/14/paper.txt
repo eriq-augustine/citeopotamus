@@ -1,0 +1,4 @@
+It's all in the family: multiple Toll-like receptors offer promise as novel therapeutic targets for stroke neuroprotection.
+Leung PY, Packard AE, Stenzel-Poore MP
+Abstract:
+Ischemic tolerance is a biological process that can be utilized to unlock the brain's own endogenous protection mechanisms and, as such, holds true promise for patients at risk of ischemic injury. Experimentally, preconditioning with various Toll-like receptor (TLR) agonists has now been demonstrated to successfully attenuate ischemic damage, partly through genomic reprogramming of the body's response to stroke. This treatment diminishes the inflammatory response to stroke and at the same time enhances the production of anti-inflammatory cytokines and neuroprotective mediators. This review discusses recent discoveries about the role of TLRs in preconditioning and ischemic tolerance.

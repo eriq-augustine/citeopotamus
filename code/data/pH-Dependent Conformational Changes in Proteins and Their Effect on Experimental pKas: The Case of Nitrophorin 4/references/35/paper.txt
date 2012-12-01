@@ -1,0 +1,4 @@
+Constant pH molecular dynamics in generalized Born implicit solvent.
+Mongan J, Case DA, McCammon JA
+Abstract:
+None

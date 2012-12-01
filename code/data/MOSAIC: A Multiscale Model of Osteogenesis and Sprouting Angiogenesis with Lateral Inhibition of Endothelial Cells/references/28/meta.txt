@@ -1,0 +1,6 @@
+TITLE: The vertebrate segmentation clock.
+AUTHORS: Giudicelli F, Lewis J
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

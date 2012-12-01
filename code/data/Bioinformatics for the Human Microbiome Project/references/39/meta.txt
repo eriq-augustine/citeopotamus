@@ -1,0 +1,6 @@
+TITLE: Metagenomic microbial community profiling using unique clade-specific marker genes.
+AUTHORS: Segata N, Waldron L, Ballarini A, Narasimhan V, Jousson O, Huttenhower C
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Metagenomic shotgun sequencing data can identify microbes populating a microbial community and their proportions, but existing taxonomic profiling methods are inefficient for increasingly large data sets. We present an approach that uses clade-specific marker genes to unambiguously assign reads to microbial clades more accurately and >50× faster than current approaches. We validated our metagenomic phylogenetic analysis tool, MetaPhlAn, on terabases of short reads and provide the largest metagenomic profiling to date of the human gut. It can be accessed at http://huttenhower.sph.harvard.edu/metaphlan/.

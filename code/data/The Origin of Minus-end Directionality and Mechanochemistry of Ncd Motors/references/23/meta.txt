@@ -1,0 +1,6 @@
+TITLE: A structural perspective on the dynamics of kinesin motors.
+AUTHORS: Hyeon C, Onuchic JN
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

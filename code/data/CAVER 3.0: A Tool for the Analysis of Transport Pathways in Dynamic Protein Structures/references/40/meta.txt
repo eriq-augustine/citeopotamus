@@ -1,0 +1,6 @@
+TITLE: Finding and characterizing tunnels in macromolecules with application to ion channels and pores.
+AUTHORS: Coleman RG, Sharp KA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+We describe a new algorithm, CHUNNEL, to automatically find, characterize, and display tunnels or pores in proteins. The correctness and accuracy of the algorithm is verified on a constructed set of proteins and used to analyze large sets of real proteins. The verification set contains proteins with artificially created pores of known path and width profile. The previous benchmark algorithm, HOLE, is compared with the new algorithm. Results show that the major advantage of the new algorithm is that it can successfully find and characterize tunnels with no a priori guidance or clues about the location of the tunnel mouth, and it will successfully find multiple tunnels if present. CHUNNEL can also be used in conjunction with HOLE, with the former used toprime HOLE and the latter to track and characterize the pores. Analysis was conducted on families of membrane protein structures culled from the Protein Data Bank as well as on a set of transmembrane proteins with predicted membrane-aqueous phase interfaces, yielding the first completely automated examination of tunnels through membrane proteins, including tunnels that exit in the membrane bilayer.

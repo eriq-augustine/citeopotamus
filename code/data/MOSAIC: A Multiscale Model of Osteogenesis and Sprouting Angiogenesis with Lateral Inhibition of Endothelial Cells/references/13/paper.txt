@@ -1,0 +1,4 @@
+Multiscale models of angiogenesis.
+Qutub AA, Mac Gabhann F, Karagiannis ED, Vempati P, Popel AS
+Abstract:
+Vascular disease, cancer, stroke, neurodegeneration, diabetes, inflammation, asthma, obesity, arthritis--the list of conditions that involve angiogenesis reads like main chapters in a book on pathology. Angiogenesis, the growth of capillaries from preexisting vessels, also occurs in normal physiology, in response to exercise or in the process of wound healing.Why and when is angiogenesis prevalent? What controls the process? How can we intelligently control it? These are the key questions driving researchers in fields as diverse as cell biology, oncology, cardiology, neurology, biomathematics, systems biology, and biomedical engineering. As bioengineers, we approach angiogenesis as a complex, interconnected system of events occurring in sequence and in parallel, on multiple levels, triggered by a main stimulus, e.g., hypoxia.

@@ -1,0 +1,4 @@
+Modeling lymphocyte homing and encounters in lymph nodes.
+Baldazzi V, Paci P, Bernaschi M, Castiglione F
+Abstract:
+None

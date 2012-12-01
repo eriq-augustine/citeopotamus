@@ -1,0 +1,6 @@
+TITLE: Normative model of human hand for biomechanical analysis.
+AUTHORS: An KN, Chao EY, Cooney WP 3rd, Linscheid RL
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

@@ -1,0 +1,6 @@
+TITLE: Malaria: progress, perils, and prospects for eradication.
+AUTHORS: Greenwood BM, Fidock DA, Kyle DE, Kappe SH, Alonso PL, Collins FH, Duffy PE
+TERMS:
+CATEGORIES:
+ABSTRACT:
+There are still approximately 500 million cases of malaria and 1 million deaths from malaria each year. Yet recently, malaria incidence has been dramatically reduced in some parts of Africa by increasing deployment of anti-mosquito measures and new artemisinin-containing treatments, prompting renewed calls for global eradication. However, treatment and mosquito control currently depend on too few compounds and thus are vulnerable to the emergence of compound-resistant parasites and mosquitoes. As discussed in this Review, new drugs, vaccines, and insecticides, as well as improved surveillance methods, are research priorities. Insights into parasite biology, human immunity, and vector behavior will guide efforts to translate parasite and mosquito genome sequences into novel interventions.

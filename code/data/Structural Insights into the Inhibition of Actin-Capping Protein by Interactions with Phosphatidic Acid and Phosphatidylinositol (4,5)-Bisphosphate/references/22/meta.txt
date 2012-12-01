@@ -1,0 +1,6 @@
+TITLE: Evolution: revisiting the root of the eukaryote tree.
+AUTHORS: Roger AJ, Simpson AG
+TERMS:
+CATEGORIES:
+ABSTRACT:
+A recent phylogenomic investigation shows that the enigmatic flagellate Breviata is a distinct anaerobic lineage within the eukaryote super-group Amoebozoa and challenges the unikont-bikont rooting of the tree of eukaryotes.

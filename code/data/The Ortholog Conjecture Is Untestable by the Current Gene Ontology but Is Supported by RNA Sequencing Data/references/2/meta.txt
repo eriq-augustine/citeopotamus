@@ -1,0 +1,6 @@
+TITLE: Orthology, paralogy and proposed classification for paralog subtypes.
+AUTHORS: Sonnhammer EL, Koonin EV
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

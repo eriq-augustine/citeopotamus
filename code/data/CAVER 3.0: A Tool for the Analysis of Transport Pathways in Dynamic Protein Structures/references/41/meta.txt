@@ -1,0 +1,6 @@
+TITLE: HOLLOW: generating accurate representations of channel and interior surfaces in molecular structures.
+AUTHORS: Ho BK, Gruswitz F
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

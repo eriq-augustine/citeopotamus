@@ -1,0 +1,6 @@
+TITLE: A new correlation-based measure of spike timing reliability.
+AUTHORS: Schreiber S, Fellous JM, Whitmer D, Tiesinga P, Sejnowski TJ
+TERMS:
+CATEGORIES:
+ABSTRACT:
+We introduce a new correlation-based measure of spike timing reliability. Unlike other measures, it does not require the definition of a posteriori "events". It relies on only one parameter, which relates to the timescale of spike timing precision. We test the measure on surrogate data sets with varying amounts of spike time jitter, and missing or additional spikes, and compare it with a widely used histogram-based measure. The measure is efficient and faithful in characterizing spike timing reliability and produces smaller errors in the reliability estimate than the histogram-based measure based on the same number of trials.

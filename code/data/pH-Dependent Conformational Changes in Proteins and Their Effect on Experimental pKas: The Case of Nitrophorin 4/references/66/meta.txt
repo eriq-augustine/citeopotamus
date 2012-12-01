@@ -1,0 +1,6 @@
+TITLE: Comparison of multiple Amber force fields and development of improved protein backbone parameters.
+AUTHORS: Hornak V, Abel R, Okur A, Strockbine B, Roitberg A, Simmerling C
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

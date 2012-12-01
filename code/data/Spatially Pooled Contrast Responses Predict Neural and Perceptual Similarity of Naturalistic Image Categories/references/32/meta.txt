@@ -1,0 +1,6 @@
+TITLE: Calculating the contrasts that retinal ganglion cells and LGN neurones encounter in natural scenes.
+AUTHORS: Tadmor Y, Tolhurst DJ
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Visual responses are known to depend on stimulus contrast and not simply on the absolute levels of retinal illumination. Here, we have determined the contrasts that mammalian retinal ganglion cells and lateral geniculate neurones (LGN) are likely to encounter in real world scenes. Local contrasts were calculated in 135 calibrated images of a variety of real world scenes using contrast operators that closely mirror the characteristic receptive-field organisation of mammalian retinal ganglion cells and LGN neurones. We have found that the frequency distribution of the calculated local contrasts has a pronounced peak at zero contrast and that it tails off roughly exponentially with increasing positive and negative contrasts; about 90% of the contrasts in the images were within the equivalent range of +/-0.5 Michelson and Weber contrasts. Further analysis suggests that the characteristic forms of the contrast-response functions of mammalian retinal and LGN neurones are matched to the range of contrasts that they experience when viewing real world images.

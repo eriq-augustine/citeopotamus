@@ -1,0 +1,6 @@
+TITLE: Agent-based modeling of multicell morphogenic processes during development.
+AUTHORS: Thorne BC, Bailey AM, DeSimone DW, Peirce SM
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

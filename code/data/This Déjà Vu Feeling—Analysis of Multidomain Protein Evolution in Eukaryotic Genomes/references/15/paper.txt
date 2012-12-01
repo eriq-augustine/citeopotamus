@@ -1,0 +1,4 @@
+Evolution of the protein repertoire.
+Chothia C, Gough J, Vogel C, Teichmann SA
+Abstract:
+Most proteins have been formed by gene duplication, recombination, and divergence. Proteins of known structure can be matched to about 50% of genome sequences, and these data provide a quantitative description and can suggest hypotheses about the origins of these processes.

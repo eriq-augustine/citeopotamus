@@ -1,0 +1,6 @@
+TITLE: Simulation of the differential adhesion driven rearrangement of biological cells.
+AUTHORS: Glazier JA, Graner F
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

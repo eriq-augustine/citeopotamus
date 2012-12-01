@@ -1,0 +1,4 @@
+Symbolic observability coefficients for univariate and multivariate analysis.
+Letellier C, Aguirre LA
+Abstract:
+In practical problems, the observability of a system not only depends on the choice of observable(s) but also on the space which is reconstructed. In fact starting from a given set of observables, the reconstructed space is not unique, since the dimension can be varied and, in the case of multivariate measurement functions, there are various ways to combine the measured observables. Using a graphical approach recently introduced, we analytically compute symbolic observability coefficients which allow to choose from the system equations the best observable, in the case of scalar reconstructions, and the best way to combine the observables in the case of multivariate reconstructions. It is shown how the proposed coefficients are also helpful for analysis in higher dimension.

@@ -1,0 +1,6 @@
+TITLE: Solution structure of the PDZ2 domain from cytosolic human phosphatase hPTP1E complexed with a peptide reveals contribution of the beta2-beta3 loop to PDZ domain-ligand interactions.
+AUTHORS: Kozlov G, Banville D, Gehring K, Ekiel I
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

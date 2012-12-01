@@ -1,0 +1,6 @@
+TITLE: WAVOS: a MATLAB toolkit for wavelet analysis and visualization of oscillatory systems.
+AUTHORS: Harang R, Bonnet G, Petzold LR
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

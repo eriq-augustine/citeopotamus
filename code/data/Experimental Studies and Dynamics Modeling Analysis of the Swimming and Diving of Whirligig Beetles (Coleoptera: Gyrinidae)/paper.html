@@ -1,0 +1,1179 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:dc="http://purl.org/dc/terms/"
+      xmlns:doi="http://dx.doi.org/"
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes#"
+      lang="en" xml:lang="en"
+      itemscope itemtype="http://schema.org/Article">
+
+<head>
+   <title>PLOS Computational Biology: Experimental Studies and Dynamics Modeling Analysis of the Swimming and Diving of Whirligig Beetles (Coleoptera: Gyrinidae)</title>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9" />
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+<link rel="home" title="home" href="/home.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" />
+<link rel="alternate" type="application/rss+xml"
+  title="PLOS Computational Biology: New Articles"
+  href="http://www.ploscompbiol.org/article/feed" />
+
+<link rel="pingback" href="http://www.ploscompbiol.org/pingback" />
+
+
+<!-- global_css.ftl -->
+<link rel="stylesheet" type="text/css" media="screen" href="/css/dojo/dijit/themes/tundra/tundra.css?v=zwugcxLdpBWmb72qqlHgGyeNAGM" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/star_rating.css?v=Mm3HyaUPUahAJAq6xG5W3tdF7Hk" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/rating.css?v=AOT9rozE9sYVjGTdeiyxHf18Ykw" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/screen.css?v=KBNFqBmhD635U0NgiM5tf9dtxRE" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/iepc.css?v=FIjyR83BhSovq_5yNVk1Sih60AI" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/journal.css?v=SiREXztjNSUsOyrlkE9sv028Y+0" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/lightBox.css?v=sDgsUXamFoYAakEshdj0YWrZiiQ" />
+<link rel="stylesheet" type="text/css" media="print" href="/css/print.css?v=0T+LTV7Gd0jtHEhqEvBfSrmHUGg" />
+
+<!--chartbeat --> 
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+
+
+<!--[if IE]><![endif]-->
+<meta name="description" content="PLOS Computational Biology is an open-access" />
+
+<meta name="keywords" content="plos computational biology" />
+
+  <meta name="citation_publisher" content="Public Library of Science" />
+  <meta name="citation_doi" content="10.1371/journal.pcbi.1002792" />
+    <meta name="citation_title" content="Experimental Studies and Dynamics Modeling Analysis of the Swimming and Diving of Whirligig Beetles (Coleoptera: Gyrinidae)"/>
+    <meta itemprop="name" content="Experimental Studies and Dynamics Modeling Analysis of the Swimming and Diving of Whirligig Beetles (Coleoptera: Gyrinidae)"/>
+
+      <meta name="citation_author" content="Zhonghua Xu" />
+      <meta name="citation_author" content="Scott C. Lenaghan" />
+      <meta name="citation_author" content="Benjamin E. Reese" />
+      <meta name="citation_author" content="Xinghua Jia" />
+      <meta name="citation_author" content="Mingjun Zhang" />
+          <meta name="citation_author_institution" content="Department of Mechanical, Aerospace, and Biomedical Engineering, University of Tennessee, Knoxville, Tennessee, United States of America" />
+
+    <meta name="citation_date" content="2012/11/29"/>
+
+  <meta name="citation_pdf_url" content="http://dx.plos.org/10.1371/journal.pcbi.1002792.pdf" />
+
+    <meta name="citation_journal_title" content="PLOS Computational Biology" />
+    <meta name="citation_firstpage" content="e1002792"/>
+    <meta name="citation_issue" content="11"/>
+    <meta name="citation_volume" content="8"/>
+    <meta name="citation_issn" content="1553-7358"/>
+
+    <meta name="citation_journal_abbrev" content="PLoS Comput Biol" />
+
+      <meta name="citation_reference" content="citation_title=The management of fluid and wave resistances by whirligig beetles; citation_volume=7; citation_number=1; citation_pages=343-352; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=The morphology of Gyrinidae; citation_volume=7; citation_number=2; citation_pages=311-350; citation_date=1927; " />
+      <meta name="citation_reference" content="citation_title=Funktionelle Morphologie, Kinematik und Hydromechanik des Ruderapparates von. Gyrinus; citation_volume=45; citation_number=3; citation_pages=193-226; citation_date=1961; " />
+      <meta name="citation_reference" content="citation_title=Wave-Making by Whirligig Beetles (Gyrinidae); citation_volume=166; citation_number=4; citation_pages=897-899; citation_date=1969; " />
+      <meta name="citation_reference" content="citation_title=Walking on water: biolocomotion at the interface; citation_volume=38; citation_number=5; citation_pages=339-369; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=Meniscus-climbing insects; citation_volume=437; citation_number=6; citation_pages=733-736; citation_date=2005; " />
+      <meta name="citation_reference" content="citation_title=The hydrodynamics of water-walking arthropods; citation_volume=644; citation_number=7; citation_pages=5-33; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=The hydrodynamics of water strider locomotion; citation_volume=424; citation_number=8; citation_pages=663-666; citation_date=2003; " />
+      <meta name="citation_reference" content="citation_title=A numerical investigation of the propulsion of water walkers; citation_volume=668; citation_number=9; citation_pages=363-383; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=The Role of Adaptive-Deformation of Water Strider Leg in Its Walking on Water; citation_volume=23; citation_number=10; citation_pages=493-501; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Impulsive fluid forcing and water strider locomotion; citation_volume=573; citation_number=11; citation_pages=211-236; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Locomotion on the water surface: hydrodynamic constraints on rowing velocity require a gait change; citation_volume=202; citation_number=12; citation_pages=2771-2785; citation_date=1999; " />
+      <meta name="citation_reference" content="citation_number=13; " />
+      <meta name="citation_reference" content="citation_title=Aquatic turning performance by the whirligig beetle: constraints on maneuverability by a rigid biological system; citation_volume=206; citation_number=14; citation_pages=1649-1656; citation_date=2003; " />
+      <meta name="citation_reference" content="citation_title=Locomotion: mechanics and hydrodynamics of swimming in aquatic insects; citation_volume=III; citation_number=15; citation_pages=381-432; citation_date=1974; " />
+      <meta name="citation_reference" content="citation_title=Capillary-Gravity Waves Generated by a Slow Moving Object; citation_volume=100; citation_number=16; citation_pages=074504; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Capillary-gravity waves generated by a sudden object motion; citation_volume=22; citation_number=17; citation_pages=052107; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=How Animals Move: An Integrative View; citation_volume=288; citation_number=18; citation_pages=100-106; citation_date=2000; " />
+      <meta name="citation_reference" content="citation_title=Position preferences within groups: do whirligigs select positions which balance feeding opportunities with predator avoidance?; citation_volume=37; citation_number=19; citation_pages=195-200; citation_date=1995; " />
+      <meta name="citation_reference" content="citation_title=Nature's Design of Hierarchical Superhydrophobic Surfaces of a Water Strider for Low Adhesion and Low-Energy Dissipation; citation_volume=26; citation_number=20; citation_pages=18926-18937; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Biophysics: Water-repellent legs of water striders; citation_volume=432; citation_number=21; citation_pages=36-36; citation_date=2004; " />
+      <meta name="citation_reference" content="citation_title=Mechanosensory cues control chasing behaviour of whirligig beetles (Coleoptera, Gyrinidae); citation_volume=158; citation_number=22; citation_pages=405-411; citation_date=1986; " />
+      <meta name="citation_reference" content="citation_title=Mechanics of Underwater Locomotion in Diving Ducks: Drag, Buoyancy and Acceleration in a Size Gradient of Specffis; citation_volume=159; citation_number=23; citation_pages=89-108; citation_date=1991; " />
+      <meta name="citation_reference" content="citation_title=Swimming gaits, passive drag and buoyancy of diving sperm whales Physeter macrocephalus; citation_volume=207; citation_number=24; citation_pages=1953-1967; citation_date=2004; " />
+      <meta name="citation_reference" content="citation_title=Body density affects stroke patterns in Baikal seals; citation_volume=209; citation_number=25; citation_pages=3269-3280; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=Hydromechanics and biology; citation_volume=8; citation_number=26; citation_pages=1-22; citation_date=1981; " />
+      <meta name="citation_reference" content="citation_number=27; " />
+      <meta name="citation_reference" content="citation_title=The hydrodynamics of water strider locomotion; citation_volume=424; citation_number=28; citation_pages=663-666; citation_date=2003; " />
+      <meta name="citation_reference" content="citation_title=Bioinspired Aquatic Microrobot Capable of Walking on Water Surface Like a Water Strider; citation_volume=3; citation_number=29; citation_pages=2630-2636; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Surface-Tension-Driven Biologically Inspired Water Strider Robots: Theory and Experiments; citation_volume=23; citation_number=30; citation_pages=578-589; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_number=31; " />
+      <meta name="citation_reference" content="citation_title=AmphiBot I: an amphibious snake-like robot; citation_volume=50; citation_number=32; citation_pages=163-175; citation_date=2005; " />
+      <meta name="citation_reference" content="citation_number=33; " />
+      <meta name="citation_reference" content="citation_number=34; " />
+      <meta name="citation_reference" content="citation_title=A Biomimetic Climbing Robot Based on the Gecko; citation_volume=3; citation_number=35; citation_pages=115-125; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_number=36; " />
+      <meta name="citation_reference" content="citation_number=37; " />
+      <meta name="citation_reference" content="citation_title=Architectures for a biomimetic hexapod robot; citation_volume=30; citation_number=38; citation_pages=5-15; citation_date=2000; " />
+      <meta name="citation_reference" content="citation_title=Capillary gravity waves caused by a moving disturbance: Wave resistance; citation_volume=53; citation_number=39; citation_pages=3448-3455; citation_date=1996; " />
+      <meta name="citation_reference" content="citation_title=Wake-based unsteady modeling of the aquatic beetle Dytiscus marginalis; citation_volume=291; citation_number=40; citation_pages=14-21; citation_date=2011; " />
+
+
+
+<!--
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002792">
+   <license rdf:resource="http://creativecommons.org/licenses/by/2.5/" />
+</Work>
+<License rdf:about="http://creativecommons.org/licenses/by/2.5/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+</License>
+<rdf:Description
+     rdf:about="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002792"
+     dc:identifier="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002792"
+     dc:title="PLOS Computational Biology: Experimental Studies and Dynamics Modeling Analysis of the Swimming and Diving of Whirligig Beetles (Coleoptera: Gyrinidae)"
+       trackback:ping="http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002792/trackback;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3"
+     />
+</rdf:RDF>
+
+-->
+</head>
+<body>
+<span property="dc:language" content="en"></span>
+<!-- begin : container -->
+<div id="container">
+  <!-- begin : top banner external ad space -->
+  <div id="topBanner">
+
+
+<!-- begin : left banner slot -->
+<div class="left">
+  <iframe id='affe494b' name='affe494b'
+    src='http://ads.plos.org/www/delivery/afr.php?zoneid=84&amp;cb=5739'
+    frameborder='0' scrolling='no' width='468' height='60'><a
+    href='http://ads.plos.org/www/delivery/ck.php?n=affe494b&amp;cb=1497'
+    target='_top'><img src='http://ads.plos.org/www/delivery/avw.php?zoneid=84&amp;cb=2519&amp;n=affe494b'
+    border='0' alt='' /></a></iframe>
+</div>
+<!-- end : left banner slot -->
+<!-- begin : right banner slot -->
+<div class="right">
+  <iframe id='af654bd5' name='af654bd5'
+    src='http://ads.plos.org/www/delivery/afr.php?zoneid=85&amp;cb=3598'
+    frameborder='0' scrolling='no' width='468' height='60'><a
+    href='http://ads.plos.org/www/delivery/ck.php?n=af654bd5&amp;cb=3074'
+    target='_top'><img src='http://ads.plos.org/www/delivery/avw.php?zoneid=85&amp;cb=4156&amp;n=af654bd5'
+    border='0' alt='' /></a></iframe>
+</div>
+<!-- end : right banner slot -->
+
+  </div>
+  <!-- end : top banner external ad space -->
+
+  <!-- begin : header -->
+  <div id="hdr" class="login">
+
+  <!-- begin : logo -->
+  <div id="logo" title="PLOS Computational Biology"><a href="/home.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" title="PLOS Computational Biology"><span>PLOS Computational Biology</span></a></div>
+  <!-- end : logo -->
+  <!-- begin : user controls -->
+
+
+
+
+
+  <div id="user">
+    <div>
+      <ul>
+        <li><a href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002792" class="feedback"><strong>Login</strong></a> | </li>
+        <li><a href="https://register.plos.org:443/ambra-registration/register.action">Create Account</a> | </li>
+        <li class="feedback"><a href="/feedbackCreate.action?page=%252Farticle%252FfetchArticle.action%253FarticleURI%253Dinfo%25253Adoi%25252F10.1371%25252Fjournal.pcbi.1002792" title="Send us your feedback">Feedback</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <!-- end : user controls -->
+  <!-- begin search links -->
+  <ul id="links"><li class="browse"><a href="/article/browse.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3?field=date" title="Browse Articles">Browse</a></li><li class="rss"><a href="/static/rssFeeds.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" title="RSS Feeds">RSS</a></li></ul>
+  <!-- end : search links -->
+  <!-- begin : dashboard -->
+  <div id="db">
+    <form name="searchForm" action="/search/simpleSearch.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" method="get">
+      <input type="hidden" name="from" value="globalSimpleSearch"/>
+      <input type="hidden" name="filterJournals" value="PLoSCompBiol">
+      <fieldset>
+        <legend>Search</legend>
+        <label for="search">Search</label>
+        <div class="wrap"><input id="search" type="text" name="query" value="Search articles..." onfocus="if(this.value=='Search articles...')value='';" onblur="if(this.value=='')value='Search articles...';" class="searchField" alt="Search articles..."/></div>
+        <input src="/images/search_btn1.gif" onclick="submit();" value="ftsearch" alt="SEARCH" tabindex="3" class="button" type="image" />
+      </fieldset>
+    </form>
+    <form name="gasf" action="/search/advancedSearch.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" method="get">
+<input type="hidden" name="noSearchFlag" value="true" id="noSearchFlag"/><input type="hidden" name="query" value="" id="query"/>    </form>
+    <a id="advSearch" href="#" onclick="if(document.searchForm.query.value!='Search articles...')document.gasf.query.value=document.searchForm.query.value;document.gasf.submit();return false;">Advanced Search</a>
+  </div>
+  <!-- end : dashboard -->
+  <!-- begin : navigation -->
+  <ul id="nav">
+    <li><a href="/home.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" tabindex="101">Home</a></li>
+     <!-- This is a temporary action to link to th static toc page -->
+    <li><a href="/static/browse.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" tabindex="102">Browse Articles</a>
+        <ul>
+          <li><a href="/article/browseIssue.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3?field=issue">Current Issue</a></li> <!-- Assuming dynamic TOC is in place -->
+          <li><a href="/article/browseVolume.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3?field=volume">Journal Archive</a></li> 
+          <li><a href="/article/browse.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3?field=date">By Publication Date</a></li>
+          <li><a href="/article/browse.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">By Subject</a></li>
+          <li><a href="http://www.ploscollections.org/static/pcbiCollections.action">Collections</a></li>
+        </ul>
+    </li>
+    <li><a href="/static/about.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" tabindex="103">About</a>
+        <ul>
+          <li><a href="/static/information.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">Journal Information</a></li>
+          <li><a href="/static/edboard.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">Editorial Board</a></li>
+          <li><a href="/static/eic.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">Editors-in-Chief</a></li>
+          <li><a href="/static/almInfo.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">Article-Level Metrics</a></li>
+          <li><a href="/static/license.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">Open-Access License</a></li>
+          <li><a href="/static/contact.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">Contact Us</a></li>
+        </ul>
+      </li>
+    <li><a href="/static/users.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" tabindex="104">For Readers</a>
+        <ul>
+          <li><a href="/static/commentGuidelines.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">Guidelines for Notes, Comments, and Corrections</a></li>
+          <li><a href="/static/ratingGuidelines.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">Guidelines for Rating</a></li>
+          <li><a href="/static/help.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">Help Using This Site</a></li>
+          <li><a href="/static/downloads.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">Media Downloads</a></li>
+          <li><a href="/static/sitemap.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">Site Map</a></li>
+        </ul>
+      </li>
+    <li><a href="/static/authors.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" tabindex="105">For Authors and Reviewers</a>
+        <ul>
+          <li><a href="/static/policies.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">Editorial and Publishing Policies</a></li>
+          <li><a href="/static/guidelines.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">Author Guidelines</a></li>
+          <li><a href="/static/figureGuidelines.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">Figure and Table Guidelines</a></li>
+          <li><a href="/static/checklist.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">Submit Your Paper</a></li>
+          <li><a href="/static/reviewerGuidelines.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">Reviewer Guidelines</a></li>
+	   <li><a href="http://www.plos.org/journals/index.php">Submit to Other PLOS Journals</a></li>
+        </ul>
+      </li>
+      <li class="journalnav"><a href="http://www.plos.org" title="PLOS" tabindex="110" class="drop">PLOS.org</a>
+        <ul>
+          <li><a href="http://www.plos.org/oa/index.html" title="Open Access Statement">Open Access</a></li>
+          <li><a href="http://www.plos.org/support/donate.php" title="Join PLOS: Show Your Support">Join PLOS</a></li>
+          <li><a href="http://blogs.plos.org/" title="PLOS Blogs">PLOS Blogs</a></li>
+	  <li><a href="http://www.zazzle.com/plos?rf=238434112415374154" title="PLOS Store">PLOS Store</a></li>
+          <li><a href="http://currents.plos.org" title="PLOS Currents">PLOS Currents</a></li>
+          <li><a href="http://www.plos.org/connect.html" title="PLOS.org | Stay Connected">Stay Connected</a></li>
+        </ul>
+      </li>
+      <li class="journalnav"><a href="http://hubs.plos.org" tabindex="109">Hubs</a>
+        <ul>
+          <li><a href="http://hubs.plos.org/biodiversity" title="PLOS Hubs: Biodiversity">Biodiversity</a></li>
+          <li><a href="http://clinicaltrials.ploshubs.org" title="PLOS Hub for Clinical Trials">Clinical Trials</a></li>
+        </ul>
+    </li>
+      <li class="journalnav"><a href="http://www.plosjournals.org" tabindex="108">Journals</a>
+        <ul>
+          <li><a href="http://www.plosbiology.org/" title="PLOSBiology.org">PLOS Biology</a></li>
+          <li><a href="http://www.plosmedicine.org/" title="PLOSMedicine.org">PLOS Medicine</a></li>
+          <li><a href="http://www.ploscompbiol.org/" title="PLOSCompBiol.org">PLOS Computational Biology</a></li>
+          <li><a href="http://www.plosgenetics.org/" title="PLOSGenetics.org">PLOS Genetics</a></li>
+          <li><a href="http://www.plospathogens.org/" title="PLOSPathogens.org">PLOS Pathogens</a></li>
+          <li><a href="http://www.plosone.org/" title="PLOSONE.org">PLOS ONE</a></li>
+          <li><a href="http://www.plosntds.org/" title="PLOSNTDs.org">PLOS Neglected Tropical Diseases</a></li>
+        </ul>
+      </li>
+    </ul>
+  <!-- end : navigation -->
+  </div>
+  <!-- end : header --> 
+
+
+
+<!-- begin : main content -->
+<div id="content" class="article" style="visibility:visible;">
+
+<!-- begin : right hand column -->
+
+<div id="rhc" xpathLocation="noDialog">
+
+  <div id="download" class="rhcBox_type1">
+    <div class="wrap">
+      <ul>
+        <li class="download icon"><strong>Download:</strong>
+          <a href="/article/fetchObjectAttachment.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3?uri=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002792&amp;representation=PDF" title="Download article PDF">PDF</a> |
+          <a href="/article/citationList.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002792" title="Download citations">Citation</a> |
+          <a href="/article/fetchObjectAttachment.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3?uri=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002792&amp;representation=XML" title="Download Article XML">XML</a>
+        </li>
+        <li class="print icon"><a href="#" onclick="window.print();return false;" title="Print Article"><strong>Print article</strong></a></li>
+        <li class="reprint icon"><a href="https://www.odysseypress.com/onlinehost/reprint_order.php?type=A&page=0&journal=3&doi=10.1371/journal.pcbi.1002792&volume=&issue=&title=Experimental Studies and Dynamics Modeling Analysis of the Swimming and Diving of Whirligig Beetles (Coleoptera: Gyrinidae)&author_name=Zhonghua%20Xu%2C%20Scott%20C.%20Lenaghan%2C%20Benjamin%20E.%20Reese%2C%20Xinghua%20Jia%2C%20Mingjun%20Zhang&start_page=1&end_page=15" title="Odyssey Press">EzReprint</a> New &amp; improved!</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="issues" class="rhcBox_type2">
+    <p><strong>Published in the</strong>
+    <a href="http://www.ploscompbiol.org/article/browseIssue.action?issue=info%3Adoi%2F10.1371%2Fissue.pcbi.v08.i11" title="Browse the Open-Access Issue">November 2012 Issue of <em>PLOS Computational Biology</em></a></p>
+  </div>
+
+  <div id="impact" class="rhcBox_type2">
+    <h6>Metrics <a href="/static/help.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3#articleMetrics" class="replaced" id="info" title="More information"><span>info</span></a></h6>
+
+    <div class="wrap">
+      <img id="rhcDataSpinner" src="/images/loading_small.gif" class="loading" />
+      <div id="totalDataInRHC"></div>
+      <div id="pubDateInRHC"></div>
+      <div id="relatedCitesInRHC"></div>
+    </div>
+
+    <div class="more clearfix"><a href="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002792;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" title="More information">More</a></div>
+  </div>
+
+  <div id="related" class="rhcBox_type2">
+    <h6>Related Content</h6>
+    <dl class="related">
+      <dt>Related Articles on the Web</dt>
+      <dd><a href="http://scholar.google.com/scholar?hl=en&lr=&q=related:http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002792&btnG=Search">Google Scholar</a></dd>
+      <dd id="pubMedRelatedLIInRHC" style="display:none;"><a id="pubMedRelatedURLInRHC">PubMed</a></dd>
+    </dl>
+    <div class="more clearfix"><a href="/article/related/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002792;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" title="More information">More</a></div>
+  </div>
+
+  <div id="share" class="rhcBox_type2">
+    <h6>Share this Article <a href="/static/help.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3#socialBookmarkLinks" class="replaced" id="info" title="More information"><span>info</span></a></h6>
+    <ul>
+      <li class="bookmarklets">
+
+        <a href="http://www.reddit.com/submit?url=http://dx.plos.org/10.1371/journal.pcbi.1002792"
+           target="_new"
+           id="reddit">
+          <img src="http://www.reddit.com/static/spreddit4.gif" alt="submit to reddit" border="0"/> </a>
+        <g:plusone size="small" annotation="none" href=http://dx.plos.org/10.1371/journal.pcbi.1002792></g:plusone>
+        <script type="text/javascript">
+          (function () {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+          })();
+        </script>
+        <a href="http://www.stumbleupon.com/submit?url=http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002792" target="_new"> <img border=0 src="http://cdn.stumble-upon.com/images/16x16_su_solid.gif" alt="StumbleUpon" title="Add to StumbleUpon"></a>
+        <script>function fbs_click() {u='http://dx.plos.org/10.1371/journal.pcbi.1002792';t='Experimental%20Studies%20and%20Dynamics%20Modeling%20Analysis%20of%20the%20Swimming%20and%20Diving%20of%20Whirligig%20Beetles%20(%3Citalic%3EColeoptera%3A%3C%2Fitalic%3E%20%3Citalic%3EGyrinidae%3C%2Fitalic%3E)';window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436');return false;}</script><a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002792" onclick="return fbs_click()" target="_blank"><img src="http://static.ak.fbcdn.net/images/share/facebook_share_icon.gif" alt="Facebook" title="Add to Facebook" /></a>       <!-- for mor info, see http://www.facebook.com/share_partners.php -->
+        <script type="text/javascript">
+          function bookmark_in_connotea(u) {
+            a=false; x=window; e=x.encodeURIComponent; d=document;
+            w=open('http://www.connotea.org/addpopup?continue=confirm&uri='+e(u),
+                'add', 'width=600, height=400, scrollbars, resizable');
+            void(x.setTimeout('w.focus()',200));
+          }
+        </script>
+        <a style='cursor: pointer;' onclick='javascript:bookmark_in_connotea("http://dx.plos.org/10.1371/journal.pcbi.1002792");'><img src='/images/icon_connotea_16x16.gif' alt="Connotea" title="Add to Connotea"/></a>
+        <a href="http://www.citeulike.org/posturl?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002792&title=Experimental%20Studies%20and%20Dynamics%20Modeling%20Analysis%20of%20the%20Swimming%20and%20Diving%20of%20Whirligig%20Beetles%20(%3Citalic%3EColeoptera%3A%3C%2Fitalic%3E%20%3Citalic%3EGyrinidae%3C%2Fitalic%3E)" target="_new"><img src='/images/icon_citeulike_16x16.gif' alt="CiteULike" title="Add to CiteULike" /></a>
+        <a href="http://www.mendeley.com/import/?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002792" title="Add to Mendeley" target="_new"><img src="/images/icon_mendeley_16x16.gif" alt="Bibliography"></a>
+        <script type="text/javascript">
+          var twtTitle  = 'Experimental Studies and Dynamics Modeling Analysis of the Swimming and Diving of Whirligig Beetles (<italic>Coleoptera:</italic> <italic>Gyrinidae</italic>)';
+          var twtUrl    = 'http://dx.plos.org/10.1371/journal.pcbi.1002792';
+          var twtTag    = '#PLOSCompBio:'
+          var maxLength = 140 - (twtUrl.length + 1);
+          if (twtTitle.length > maxLength) {
+            twtTitle = twtTitle.substr(0, (maxLength - 17))+'...';  //truncates title to include space for twtTag and ellipsis
+          }
+          var twtLink = 'http://twitter.com/intent/tweet?text='+encodeURIComponent(twtTag + ' ' + twtTitle + ' ' + twtUrl);
+          document.write('<a href="'+twtLink+'" target="_blank"><img src="/images/icon_twitter.gif" border="0" alt="Twitter icon" title="Tweet This!" /></a>');
+        </script>
+
+      </li>
+      <li class="email icon"><a href="/article/emailArticle.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002792" title="Email this article">Email this article</a></li>
+    </ul>
+  </div>
+  <div id="articleTwitterStream" style="display:none">
+    <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script>
+      new TWTR.Widget({
+        version: 2,
+        type: 'search',
+        search: encodeURIComponent('10.1371/journal.pcbi.1002792'),
+        interval: 6000,
+        title: '',
+        subject: 'From Twitter',
+        width: 300,
+        height: 300,
+        theme: {
+          shell: {
+            background: '#667893',
+            color: '#ffffff'
+          },
+          tweets: {
+            background: '#ffffff',
+            color: '#444444',
+            links: '#006699'
+          }
+        },
+        features: {
+          scrollbar: true,
+          loop: false,
+          live: true,
+          hashtags: true,
+          timestamp: true,
+          avatars: true,
+          toptweets: true,
+          behavior: 'all'
+        }
+      }).render().start();
+    </script>
+  </div>
+</div>
+<!-- end : right hand column -->
+<form name="articleInfo" id="articleInfo" method="" action="">
+<input type="hidden" name="isAuthor" value="true" />
+<input type="hidden" name="authorIdList" value="" />
+<input type="hidden" name="userIdList" value="" />
+<input type="hidden" name="otherIdList" value="" />
+<input type="hidden" name="annotationId" value="" />
+<input type="hidden" name="isResearchArticle" value="true" />
+</form>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.XML" value="147355"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.PDF" value="1166328"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g001.TIF" value="1368722"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g001.PNG_I" value="111042"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g001.PNG_S" value="13279"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g001.PNG_M" value="350658"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g001.PNG_L" value="1938818"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g002.TIF" value="1897850"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g002.PNG_I" value="60913"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g002.PNG_S" value="14876"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g002.PNG_M" value="161294"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g002.PNG_L" value="1106146"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g003.TIF" value="3811126"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g003.PNG_I" value="84234"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g003.PNG_S" value="14798"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g003.PNG_M" value="251802"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g003.PNG_L" value="3373698"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.t001.TIF" value="358878"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.t001.PNG_I" value="15297"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.t001.PNG_S" value="2595"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.t001.PNG_M" value="36902"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.t001.PNG_L" value="79577"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g004.TIF" value="979468"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g004.PNG_I" value="70696"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g004.PNG_S" value="12446"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g004.PNG_M" value="203707"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g004.PNG_L" value="891043"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.t002.TIF" value="276880"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.t002.PNG_I" value="14405"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.t002.PNG_S" value="2486"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.t002.PNG_M" value="35170"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.t002.PNG_L" value="71512"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g005.TIF" value="2232676"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g005.PNG_I" value="66168"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g005.PNG_S" value="12052"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g005.PNG_M" value="180395"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g005.PNG_L" value="1800602"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.t003.TIF" value="443730"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.t003.PNG_I" value="20716"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.t003.PNG_S" value="2975"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.t003.PNG_M" value="50815"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.t003.PNG_L" value="109320"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g006.TIF" value="925548"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g006.PNG_I" value="38105"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g006.PNG_S" value="8767"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g006.PNG_M" value="106646"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g006.PNG_L" value="517700"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.t004.TIF" value="275514"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.t004.PNG_I" value="10343"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.t004.PNG_S" value="5765"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.t004.PNG_M" value="17878"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.t004.PNG_L" value="93060"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g007.TIF" value="1859890"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g007.PNG_I" value="68862"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g007.PNG_S" value="12103"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g007.PNG_M" value="206007"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g007.PNG_L" value="1293580"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.t005.TIF" value="118034"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.t005.PNG_I" value="43281"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.t005.PNG_S" value="33160"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.t005.PNG_M" value="60963"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.t005.PNG_L" value="76544"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.e001.TIF" value="17144"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.e001.PNG" value="7885"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g008.TIF" value="2841126"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g008.PNG_I" value="78419"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g008.PNG_S" value="15231"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g008.PNG_M" value="224759"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.g008.PNG_L" value="1779263"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.s001.TIF" value="901068"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.s002.TIF" value="748892"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.s003.TIF" value="3375312"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.s004.DOCX" value="85646"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.s005.WMV" value="2389743"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002792.s006.WMV" value="2845773"/>
+<div id="articleContainer">
+
+<span about="http://www.plos.org"  typeof="foaf:Organization" property="foaf:name" style="display:none; visibility:hidden;">PLOS</span>
+<div id="researchArticle" class="content">
+  <span rel="dc:publisher" href="http://www.plos.org"></span>
+  <a id="top" name="top"></a>
+<div id="contentHeader" xpathLocation="noSelect">
+  <p>Open Access</p><p id="articleType">Research Article</p>
+</div>
+
+  <h1 xpathLocation="noSelect" property="dc:title" datatype="" rel="dc:type" href="http://purl.org/dc/dcmitype/Text">Experimental Studies and Dynamics Modeling Analysis of the Swimming and Diving of Whirligig Beetles (<i>Coleoptera:</i> <i>Gyrinidae</i>)</h1>
+  <div property="dc:description" datatype="" style="display:none; visibility:hidden;">Author SummaryThe whirligig beetles belong to the family Gyrinidae, consisting of over 700 species of water beetles. They are characterized by a divided eye, ellipsoidal body, and rapidly swim in circles when alarmed. Perhaps the most interesting characteristic of whirligig beetles is their ability to rapidly swim on the surface of water, and also to quickly transition to diving beneath the surface. In this study, we have measured the key physical parameters that allow whirligig beetles to swim and dive, and have used these values to develop dynamics models of the swimming and diving processes. Based on these models, we were able to analyze how the beetle is capable of making sharp turns, the efficiency of varying leg beating patterns, and the key parameters involved in swimming, as well as diving. We were then able to identify fundamental principles used by the beetle to transition from swimming to diving, and examine how the morphology and &ldquo;design&rdquo; of the beetle leads to its ability to rapidly swim and maneuver. Based on the results obtained, we further identified principles and components of the beetle design that could be translated into the development of bio-inspired robotics.</div>
+  <span property="dc:date" content="2012-11-29" datatype="xsd:date" rel="dc:identifier" href="http://dx.doi.org/10.1371/journal.pcbi.1002792"></span>
+  <span property="dc:subject" content="Computational Biology"></span>
+  <span property="dc:subject" content="Physics"></span>
+<form action="">
+  <input type="hidden" name="journalDisplayName" id="journalDisplayName" value="PLOS Computational Biology" />
+  <input type="hidden" name="crossRefPageURL" id="crossRefPageURL" value="/article/crossref/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002792;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" />
+  <input type="hidden" name="twitterPageURL" id="twitterPageURL" value="/article/twitter/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002792;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" />
+  <input type="hidden" name="metricsTabURL" id="metricsTabURL" value="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002792;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" />
+  <input type="hidden" name="doi" id="doi" value="info:doi/10.1371/journal.pcbi.1002792" />
+  <input type="hidden" name="articleTitleUnformatted" id="articleTitleUnformatted" value="Experimental%20Studies%20and%20Dynamics%20Modeling%20Analysis%20of%20the%20Swimming%20and%20Diving%20of%20Whirligig%20Beetles%20(Coleoptera%3A%20Gyrinidae)" />
+  <input type="hidden" name="articlePubDate" id="articlePubDate" value="1354176000000" />
+</form>
+<div class="horizontalTabs" xpathLocation="noSelect">
+  <ul id="tabsContainer">
+        <li id="article" class="active"><a href="/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002792;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" class="tab" title="Article">Article</a></li>
+        <li id="metrics"><a href="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002792;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" class="tab" title="Metrics">Metrics</a></li>
+        <li id="related"><a href="/article/related/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002792;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" class="tab" title="Related Content">Related Content</a></li>
+        <li id="comments"><a href="/article/comments/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002792;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" class="tab" title="Comments">Comments: 0</a></li>
+  </ul>
+</div>
+  <div id="articleMenuBox" xpathLocation="noSelect">
+    <div id="articleMenu">
+      <div class="wrap">
+        <ul>
+          <li class="annotation icon">To <strong>add a note</strong>, highlight some text. <a href="#" onclick="toggleAnnotation(this, 'public'); return false;" title="Click to turn notes on/off">Hide notes</a></li>
+          <li class="discuss icon">
+              <a href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002792">Make a general comment</a>
+          </li>
+        </ul>
+        <div id="sectionNavTopBox" style="display:none;">
+          <p><strong>Jump to</strong></p>
+          <div id="sectionNavTop" class="tools"></div>
+        </div>
+      </div>
+    </div>
+      <div id="lightBox" xpathLocation="noDialog" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792')">
+      </div>
+  </div>
+
+
+
+
+<p class="authors" xpathLocation="noSelect"><span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Zhonghua Xu</span></span><sup><a href="#equal-contrib">#</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Scott C. Lenaghan</span></span><sup><a href="#equal-contrib">#</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Benjamin E. Reese</span></span><sup><a href="#equal-contrib">#</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Xinghua Jia</span></span>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Mingjun Zhang</span></span><sup><a href="#cor1" class="fnoteref">*</a></sup></p><p class="affiliations" xpathLocation="noSelect"><a name="aff1" id="aff1"></a>Department of Mechanical, Aerospace, and Biomedical Engineering, University of Tennessee, Knoxville, Tennessee, United States of America</p><div class="abstract" xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[1]"><a id="abstract0" name="abstract0" toc="abstract0" title="Abstract"></a><h2 xpathLocation="noSelect">Abstract&nbsp;<a href="#top">Top</a></h2><p xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[1]/p[1]">Whirligig beetles (<em>Coleoptera</em>, <em>Gyrinidae</em>) can fly through the air, swiftly swim on the surface of water, and quickly dive across the air-water interface. The propulsive efficiency of the species is believed to be one of the highest measured for a thrust generating apparatus within the animal kingdom. The goals of this research were to understand the distinctive biological mechanisms that allow the beetles to swim and dive, while searching for potential bio-inspired robotics applications. Through static and dynamic measurements obtained using a combination of microscopy and high-speed imaging, parameters associated with the morphology and beating kinematics of the whirligig beetle's legs in swimming and diving were obtained. Using data obtained from these experiments, dynamics models of both swimming and diving were developed. Through analysis of simulations conducted using these models it was possible to determine several key principles associated with the swimming and diving processes. First, we determined that curved swimming trajectories were more energy efficient than linear trajectories, which explains why they are more often observed in nature. Second, we concluded that the hind legs were able to propel the beetle farther than the middle legs, and also that the hind legs were able to generate a larger angular velocity than the middle legs. However, analysis of circular swimming trajectories showed that the middle legs were important in maintaining stable trajectories, and thus were necessary for steering. Finally, we discovered that in order for the beetle to transition from swimming to diving, the legs must change the plane in which they beat, which provides the force required to alter the tilt angle of the body necessary to break the surface tension of water. We have further examined how the principles learned from this study may be applied to the design of bio-inspired swimming/diving robots.</p>
+</div><div class="abstract" xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[2]"><a id="abstract1" name="abstract1" toc="abstract1" title="Author Summary"></a>
+<h2 xpathLocation="noSelect">Author Summary&nbsp;<a href="#top">Top</a></h2>
+<p xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[2]/p[1]">The whirligig beetles belong to the family Gyrinidae, consisting of over 700 species of water beetles. They are characterized by a divided eye, ellipsoidal body, and rapidly swim in circles when alarmed. Perhaps the most interesting characteristic of whirligig beetles is their ability to rapidly swim on the surface of water, and also to quickly transition to diving beneath the surface. In this study, we have measured the key physical parameters that allow whirligig beetles to swim and dive, and have used these values to develop dynamics models of the swimming and diving processes. Based on these models, we were able to analyze how the beetle is capable of making sharp turns, the efficiency of varying leg beating patterns, and the key parameters involved in swimming, as well as diving. We were then able to identify fundamental principles used by the beetle to transition from swimming to diving, and examine how the morphology and “design” of the beetle leads to its ability to rapidly swim and maneuver. Based on the results obtained, we further identified principles and components of the beetle design that could be translated into the development of bio-inspired robotics.</p>
+</div>
+
+
+<div class="articleinfo" xpathLocation="noSelect"><p><strong>Citation: </strong>Xu Z, Lenaghan SC, Reese BE, Jia X, Zhang M (2012) Experimental Studies and Dynamics Modeling Analysis of the Swimming and Diving of Whirligig Beetles (<em>Coleoptera:</em> <em>Gyrinidae</em>). PLoS Comput Biol 8(11):
+          e1002792.
+            doi:10.1371/journal.pcbi.1002792</p><p><strong>Editor: </strong>Philip R. LeDuc, 
+        Carnegie Mellon University, United States of America
+      </p><p></p><p><strong>Received:</strong> June 19, 2012; <strong>Accepted:</strong> October 5, 2012; <strong>Published:</strong> November 29, 2012</p><p><strong>Copyright:</strong> © 2012 Xu et al. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</p><p><strong>Funding: </strong>This research is sponsored by the Office of Naval Research Young Investigator Program award under award number ONR-N00014-11-1-0622. The authors are grateful for the support. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p><p><strong>Competing interests:</strong> The authors have declared that no competing interests exist.</p><p><a name="cor1"></a>* E-mail: <a href="mailto:mjzhang@utk.edu">mjzhang@utk.edu</a></p><p><a name="equal-contrib"></a>#
+              These authors contributed equally to this work.
+          </p></div>
+
+
+
+
+
+<div id="section1" xpathLocation="/article[1]/body[1]/sec[1]"><a id="s1" name="s1" toc="s1" title="Introduction"></a><h3 xpathLocation="noSelect">Introduction&nbsp;<a href="#top">Top</a></h3><p xpathLocation="/article[1]/body[1]/sec[1]/p[1]">Few organisms maintain the ability to freely crawl on land, swim in water, and fly through the air; however, the whirligig beetle (<em>Coleoptera Gyrinidae</em>) is able to efficiently maneuver in all three environments <a href="#pcbi.1002792-Voise1">[1]</a>. The whirligig beetle also has the fastest measured speed for a swimming insect, while still maintaining the ability to produce very sharp turns. In this study, we will focus on investigating how the whirligig beetle uses its legs to swim on the surface of water, and how it transitions from surface swimming to diving. Ultimately, we will use mathematical models combined with experimental data to quantitatively characterize the detailed kinematics and dynamics for the swimming and diving processes.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[2]">The morphology of whirligig beetles is highly adapted for the environment in which they live. As shown in <a href="#pcbi-1002792-g001"><strong>Figure 1A–B</strong></a>, they have divided compound eyes for simultaneously looking above and below the water's surface, a pronounced pair of anterior appendages for grasping prey and climbing, and two pairs of paddle-like legs for swimming <a href="#pcbi.1002792-Hatch1">[2]</a>. While many studies have attempted to understand the highly efficient swimming motion of whirligig beetles <a href="#pcbi.1002792-Hatch1">[2]</a>, <a href="#pcbi.1002792-Nachtigall1">[3]</a>, <a href="#pcbi.1002792-Tucker1">[4]</a>, few studies have investigated the swimming mechanism and the transition to diving. The insect's ability to swiftly transition between swimming and diving is particularly interesting for bio-inspiration of swimming/diving robots. In this paper, parameters related to swimming and diving of the whirligig beetle were characterized through experimental analysis, and further used to conduct simulations to answer questions that could not be experimentally verified.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[1]/fig[1]"><a name="pcbi-1002792-g001" id="pcbi-1002792-g001" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002792?imageURI=info:doi/10.1371/journal.pcbi.1002792.g001" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.g001');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.g001');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002792.g001&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[1]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002792?imageURI=info:doi/10.1371/journal.pcbi.1002792.g001" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.g001');"><span>Figure 1. </span></a> <span xpathLocation="/article[1]/body[1]/sec[1]/fig[1]/caption[1]/title[1]">Light micrographs of the whirligig beetle.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[1]/fig[1]/caption[1]/p[1]">(A) Dorsal view of the beetle, demonstrating the overall shape. (B) Ventral view of the beetle showing the fore, middle and hind legs. (C&amp;D) Micrographs of dissected middle right (C) and left (D) legs. (E&amp;F) Micrographs of dissected hind right (E) and left (F) legs. Measurements of leg length (<em>L<sub>h</sub></em> and <em>L<sub>m</sub></em>) and area (<em>S<sub>h−</sub></em> and <em>S<sub>m−</sub></em>) were made from micrographs of dissected legs. The scale bars are 1 mm.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002792.g001</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002792.g001/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002792.g001/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002792.g001.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002792.g001/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002792.g001.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[1]/p[3]">Water-walking arthropods have received much attention in recent years <a href="#pcbi.1002792-Bush1">[5]</a>, <a href="#pcbi.1002792-Hu1">[6]</a>, <a href="#pcbi.1002792-HU1">[7]</a>, <a href="#pcbi.1002792-Hu2">[8]</a>, <a href="#pcbi.1002792-GAO1">[9]</a>, <a href="#pcbi.1002792-Zheng1">[10]</a>, <a href="#pcbi.1002792-BHLER1">[11]</a>, <a href="#pcbi.1002792-Suter1">[12]</a>, <a href="#pcbi.1002792-Bush2">[13]</a>, however, less research has been conducted on swimming/diving insects. Despite this fact, whirligig beetles have long fascinated researchers, owing to some of the astounding features of their movement. Previous studies have concluded that whirligig beetles can swim at speeds up to 44.5 body lengths/s with a maximum turning rate of 4428°/s and a maximum centripetal acceleration of 2.86 g <a href="#pcbi.1002792-Fish1">[14]</a>. In addition to the incredible speed these insects are able to achieve, the turning radius can be as small as 24% of the body length, and typically 84% of the energy devoted to swimming can be transformed into forward propulsion <a href="#pcbi.1002792-Voise1">[1]</a>, <a href="#pcbi.1002792-Nachtigall2">[15]</a>. This propulsive efficiency is believed to be the highest measured for a thrust generating apparatus within the animal kingdom <a href="#pcbi.1002792-Nachtigall1">[3]</a>. Additionally, the swimming mechanics of the whirligig beetle has been studied in terms of wave management and turning performance <a href="#pcbi.1002792-Voise1">[1]</a>, <a href="#pcbi.1002792-Tucker1">[4]</a>, <a href="#pcbi.1002792-Chepelianskii1">[16]</a>, <a href="#pcbi.1002792-Closa1">[17]</a>. Findings from these studies have also shown that whirligig beetles are able to attain high swimming speeds while reducing or avoiding hydroplaning and maximum drag due to their unique leg kinematics and structures. Results from studying the management of fluid and wave resistances produced by the beetles, has also led to a better understanding of the efficiency of their propulsive mechanisms, and what enables the insect to maintain such high speeds. In order to understand the ability of the insect to rapidly and efficiently maneuver, it is necessary to investigate how it uses the unique morphology of its propulsive structures to swim and dive.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[4]">One of the morphological adaptations that allow whirligig beetles to rapidly swim on the surface of water is the streamlined ellipsoidal body shape, which minimizes the fluid resistance <a href="#pcbi.1002792-Fish1">[14]</a>. The forward propulsive efficiency is further increased by the prevention of lateral movement due to the rigid body of the beetle. Although lateral forces do not make direct contributions to forward propulsion, they assist in this process by increasing stability and maneuverability <a href="#pcbi.1002792-Dickinson1">[18]</a>. To maintain this low drag body shape, the forelegs remain folded underneath the body, preventing drag that would be generated, if they were extended <a href="#pcbi.1002792-Voise1">[1]</a>. To further reduce the drag when moving on the surface, the beetle has been reported to have a waxy covering that prevents wetting of the body <a href="#pcbi.1002792-Romey1">[19]</a>, <a href="#pcbi.1002792-Su1">[20]</a>. But perhaps the most important morphological characteristic of the whirligig beetle in relation to its propulsive efficiency is the design of the swimming legs. Unlike the forelegs, the middle and hind legs have evolved into highly efficient swimming paddles with specialized morphology <a href="#pcbi.1002792-Nachtigall1">[3]</a>. As shown in <a href="#pcbi-1002792-g001"><strong>Figure 1C–F</strong></a>, both pairs of the swimming legs, termed middle and hind legs, have a large number of swimming “hairs” that increase the effective contact area generating a larger propulsive force <a href="#pcbi.1002792-Gao1">[21]</a>. During the power phase, the middle and hind legs have a contact area about 40 times greater than during the recovery phase <a href="#pcbi.1002792-Nachtigall1">[3]</a>, <a href="#pcbi.1002792-Nachtigall2">[15]</a>. A previous report indicated that the middle legs can also paddle at a frequency up to 25 Hz, with the hind legs beating twice as fast <a href="#pcbi.1002792-Bendele1">[22]</a>. When the beetle swims in a straight line, the left and right swimming legs beat together with the hind and middle legs beating in an alternating fashion. However, the left and right legs paddle asymmetrically during turning <a href="#pcbi.1002792-Voise1">[1]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[5]">Another feature of the whirligig beetles' unique motion is its ability to rapidly transition from swimming on the water surface to diving below the surface. While the diving behavior has been observed as a necessary trait for predator avoidance and egg laying, the dynamics associated with the transition from swimming to diving has not been well understood. In fact, the effects of swimming acceleration and body size on the mechanical energy consumptions of diving have only been investigated in a few organisms, such as ducks <a href="#pcbi.1002792-LOWORN1">[23]</a> and marine mammals <a href="#pcbi.1002792-Miller1">[24]</a>, <a href="#pcbi.1002792-Watanabe1">[25]</a>. In general, the rigid exoskeleton of insects limits the efficiency of diving. In this paper, we will examine how the whirligig beetle can overcome this limitation.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[6]">This research combines both experimental analysis of the swimming and diving of the whirligig beetles, and the development of dynamics models to better understand these behaviors. By using parameters obtained from the systematic analysis of high-speed video and microscopic images, dynamics models for both the swimming and diving patterns were developed. Based on simulations from these models, we were able to understand several phenomena that could not be directly observed through experimental studies and further inspire principles that may be used in the design of swimming or diving robots.</p>
+</div>
+
+<div id="section2" xpathLocation="/article[1]/body[1]/sec[2]"><a id="s2" name="s2" toc="s2" title="Results/Discussion"></a><h3 xpathLocation="noSelect">Results/Discussion&nbsp;<a href="#top">Top</a></h3>
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/title[1]">Swimming parameters obtained from imaging and high-speed video experiments</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[1]">In order to build dynamics models for both swimming and diving, it was necessary to determine the parameters related to the dimensions of whirligig beetles. The average beetles' mass (<em>M</em>) was determined to be 10±2 mg by blotting the beetles with filter paper and weighing them on a precision balance. To determine the morphology of the beetles, images were captured while they were floating on the water's surface. Measurements obtained from feature traces were conducted in <em>ImageJ</em>. From the acquired traces, we identified that the beetles had a characteristic body length (<em>L<sub>b</sub></em>) of 5.23±0.31 mm and a width (<em>W<sub>b</sub></em>) of 2.2±0.23 mm, as shown in <a href="#pcbi-1002792-g002"><strong>Figure 2A</strong></a>. Additionally, by tracing the outline of the beetle's body, the contact line length (<em>C</em>) was determined to be 10.93±0.54 mm, and the contact area (<em>S<sub>b</sub></em>) was 7.32±0.14 mm<sup>2</sup>. Using a similar tracing approach, the depth of the submerged portion of the body (<em>h</em>) was determined to be 0.74±0.14 mm. The average frontal area (<em>A<sub>y</sub></em>) and average side area (<em>A<sub>x</sub></em>) of the beetles in contact with water was calculated by tracing the submerged portion of the body in the <em>y</em>–<em>z</em> and <em>x</em>–<em>z</em> planes as shown in <a href="#pcbi-1002792-g002"><strong>Figure 2B–C</strong></a>, and was determined to be 1.31±0.4 mm<sup>2</sup> and 2.65±0.2 mm<sup>2</sup>, respectively. For the convenience of analysis, we define the <em>x</em>–<em>y</em>–<em>z</em> coordinates as the lateral direction (<em>x</em>-axis), the longitudinal direction (<em>y</em>-axis, the forward direction), and the vertical direction (<em>z</em>-axis) (<strong><a href="#pcbi.1002792.s001">Figures S1</a> &amp; <a href="#pcbi.1002792.s002">S2</a></strong>). Due to the small size of the legs, it was necessary to use a higher magnification imaging system to determine the accurate measurements of their morphology.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]"><a name="pcbi-1002792-g002" id="pcbi-1002792-g002" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002792?imageURI=info:doi/10.1371/journal.pcbi.1002792.g002" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.g002');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.g002');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002792.g002&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002792?imageURI=info:doi/10.1371/journal.pcbi.1002792.g002" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.g002');"><span>Figure 2. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]/caption[1]/title[1]">Diagram demonstrating how each parameter was calculated.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]/caption[1]/p[1]">(A) Top-down view of the body showing key parameters for swimming. (B&amp;C) Side view of the body on the surface of water (indicated by blue line) showing both the maximum and minimum position of the legs during a leg beat when diving. In all of the above diagrams, the hind legs are indicated by the subscript <em>h</em>, while the middle legs are indicated by the subscript <em>m</em>. Using this notation, the length of the hind legs is <em>L<sub>h</sub></em>, etc. The direction of motion of the beetle is indicated by an arrow showing the forward velocity (<em>U<sub>y</sub></em>). The dashed line in B&amp;C indicates the submerged portion of the beetle. All other parameters designations are listed in <a href="#pcbi-1002792-t001"><strong>Tables 1</strong></a><strong>–</strong><a href="#pcbi-1002792-t002"></a><a href="#pcbi-1002792-t003"><strong>3</strong></a>.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002792.g002</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002792.g002/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002792.g002/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002792.g002.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002792.g002/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002792.g002.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[2]">As shown in <a href="#pcbi-1002792-g001"><strong>Figure 1C–F</strong></a>, light micrographs of dissected middle and rear legs were analyzed to obtain dimensions for these structures. From the micrographs, the length of the middle legs (<em>L<sub>m</sub></em>) was 2.08±0.08 mm, and the length of the hind legs was (<em>L<sub>h</sub></em>) 2.67±0.03 mm. By conducting polygonal traces of the hind legs when they were outstretched, we have obtained the area of these legs without the swimming laminae extended (S<em><sub>h−</sub></em>) as 1.08±0.03 mm<sup>2</sup>. Similarly, analysis of the middle legs showed a reduced area (<em>S<sub>m−</sub></em>) of only 0.66±0.01 mm<sup>2</sup>. Considering that the true effective area of the swimming legs during the power stroke is dependent on the extension of “swimming laminae” used to increase the surface area <a href="#pcbi.1002792-Nachtigall3">[26]</a>, it was necessary to measure the increase in area with these structures extended. Due to the small size of the laminae, scanning electron microscopy (SEM) was used to measure the size of these structures, as shown in <a href="#pcbi-1002792-g003"><strong>Figure 3</strong></a>. Based on the SEM data, the average length of the laminae (<em>L<sub>laminae</sub></em>) was 366.98±31.3 µm with an average width (<em>W<sub>laminae</sub></em>) of 30.84±0.03 µm. It appeared that the laminae on the exterior portion of the leg were longer than those on the interior portion of the legs. Previous studies of <em>Gyrinus</em> indicated that 74 laminae were present on the hind legs and 47 on the middle legs <a href="#pcbi.1002792-Nachtigall3">[26]</a>, <a href="#pcbi.1002792-Wichard1">[27]</a>. Using this value for the number of laminae, the effective area of the hind legs with the laminae extended (<em>S<sub>h+</sub></em>) was estimated to be 1.92 mm<sup>2</sup>. This represents a 77% increase in propulsive area compared to the hind leg without the laminae extended. The area for the middle legs with the laminae extended (S<sub>m+</sub>) was 1.19 mm<sup>2</sup>, representing an 80% increase in propulsive area, when compared to the folded state. Since the laminae are folded in the recovery phase of the beat and only extended in the power phase, this leads to a reduced-drag recovery stroke aiding in the propulsive efficiency. On the other hand, the legs may also be oriented at different angles, so that the maximum area is not perpendicular to the direction in which the beetle is moving. All parameter values obtained from the analysis of the imaging data are summarized in <a href="#pcbi-1002792-t001"><strong>Table 1</strong></a>.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[2]"><a name="pcbi-1002792-g003" id="pcbi-1002792-g003" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002792?imageURI=info:doi/10.1371/journal.pcbi.1002792.g003" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.g003');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.g003');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002792.g003&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[2]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002792?imageURI=info:doi/10.1371/journal.pcbi.1002792.g003" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.g003');"><span>Figure 3. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[2]/caption[1]/title[1]">The SEM micrographs of the legs of <em>Gyrinus</em>.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[2]/caption[1]/p[1]">(A) SEM micrograph of the middle leg showing the folded swimming laminae. On the middle leg, the laminae are predominately on the outer surface. (B) SEM micrograph of the hind leg demonstrating the presence of laminae on both the inner and outer surface of the rowing blade. (C) SEM micrograph showing the significantly altered morphology of the foreleg. (D) Image of the point of attachment of a leg. The inset demonstrates the location of the micrograph relative to the beetle's body, with the area analyzed highlighted by the red box. SEM micrographs were used to measure the length (<em>L<sub>laminae</sub></em>) and width (<em>W<sub>laminae</sub></em>) of the laminae for calculation of the effective are of the hind (<em>S<sub>h+</sub></em>) and middle legs (<em>S<sub>m+</sub></em>) with laminae extended. In all micrographs, the scale bar = 100 µm.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002792.g003</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002792.g003/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002792.g003/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002792.g003.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002792.g003/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002792.g003.TIF"></span> TIFF)
+                  </a></li></ul></div></div><div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/table-wrap[1]"><a name="pcbi-1002792-t001" id="pcbi-1002792-t001" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002792?imageURI=info:doi/10.1371/journal.pcbi.1002792.t001" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.t001');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.t001');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002792.t001&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/table-wrap[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002792?imageURI=info:doi/10.1371/journal.pcbi.1002792.t001" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.t001');"><span>Table 1. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/table-wrap[1]/caption[1]/title[1]">Parameters obtained from micrographs.</span></strong></p><span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002792.t001</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002792.t001/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002792.t001/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002792.t001.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002792.t001/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002792.t001.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[3]">After completing analysis of the static images, experimental measurements were obtained from the high-speed camera system in order to obtain parameters related to the dynamic motion of the beetle. A typical hind leg stroke is shown in <a href="#pcbi-1002792-g004"><strong>Figure 4</strong></a> and <strong><a href="#pcbi.1002792.s005">Video S1</a></strong>. Based on our experimental studies, we observed a peak leg speed in the forward direction (<em>U<sub>p</sub></em>) of 0.67 m/s for rapid swimming. In addition, the average forward velocity (<em>U<sub>y</sub></em>) of the beetles observed in this study was 0.0936±0.0226 m/s. The maximum forward velocity (<em>U<sub>max</sub></em>) was 0.8 m/s, which is astonishing for such a small organism. The maximum forward speed (<em>U<sub>max</sub></em>) measured is in agreement with that reported by Voise <a href="#pcbi.1002792-Voise1">[1]</a>. Important parameters related to the development of the dynamics model for swimming were the values related to the beating motion of the swimming legs, and their positions relative to the center of mass of the beetle. The center of mass of the beetle was assumed to be the center point of the beetle on the <em>x</em>–<em>y</em> axis. Previous studies have shown that the legs during one beating cycle have a maximum sweep of ~120° around the point of attachment of the leg <a href="#pcbi.1002792-Nachtigall1">[3]</a>. To determine the maximum and minimum angles between the negative <em>y</em> axis and the straight line from the center of mass to the acting point of force on the legs, the maximum and minimum angles of both the hind (<em>Ø<sub>hmax</sub></em>,, <em>Ø<sub>hmin</sub></em>) and middle (<em>Ø<sub>mmax</sub></em>,, <em>Ø<sub>mmin</sub></em>) legs were measured relative to the center of mass using the angle tool in <em>ImageJ</em>. For both pairs of legs, at the minimum angle (<em>Ø<sub>hmin</sub></em>,, <em>Ø<sub>mmin</sub></em>), the point at which the legs completed the power stroke, was 0°. This means that upon the completion of the cycle, the legs were parallel to the longitudinal, <em>y</em> axis, of the beetle. The maximum angles relative to the center of mass during beating, however, were 79.5±10.32° for the hind legs (<em>Ø<sub>hmax</sub></em>) and 120.4±8.14° for the middle legs (<em>Ø<sub>mmax</sub></em>). Previous studies have determined that the acting point of drag on the leg, essentially the position along the length of the leg where 50% of the torque is generated, occurred at a point approximately 68% from the point of attachment for the leg <a href="#pcbi.1002792-Nachtigall3">[26]</a>. This means that the acting point of force along the middle legs was 1.41 mm, and 1.81 mm for the hind legs based on the leg measurements. Due to the error that could occur in manually tracing this position, a relationship was established to allow for a more precise calculation of the distance between the acting point of force on the leg and the center of mass. First, it was necessary to determine the position of attachment of the legs relative to the origin, which was achieved by measuring the distance from the origin to the attachment point of the legs using micrographs of the underside of the beetle (<a href="#pcbi-1002792-g001"><strong>Figure 1B</strong></a>). From these micrographs, the point of attachment for the middle legs (<em>P<sub>m</sub></em>) was 0.44 mm anterior to the origin, whereas the point of attachment of the hind legs (<em>P<sub>h</sub></em>) was 0.53 mm posterior to the origin. Next, the distance from the center of mass to the acting point of drag on the legs at <em>Ø<sub>hmin</sub></em> and <em>Ø<sub>mmin</sub></em>, <em>r<sub>hmin</sub></em> and <em>r<sub>mmin</sub></em> as shown in <a href="#pcbi-1002792-g002"><strong>Figure 2</strong></a>, could be easily calculated as 2.34 mm and 0.97 mm, respectively. Since the distance from the center of mass to the acting point of drag on the legs at <em>Ø<sub>hmax</sub></em> and <em>Ø<sub>mmax</sub></em>, <em>r<sub>hmax</sub></em> and <em>r<sub>mmax</sub></em>, were not linear, calculation of these variables was achieved by using the triangle formed from these angles, the length of the legs at their acting points of force, and the distance from the attachment point to the center of mass of the body. Using these relationships, the triangle could be solved, giving a value of 1.8 mm for the distance from the center of mass to the acting point of drag on the legs at <em>Ø<sub>hmax</sub></em> (<em>r<sub>hmax</sub></em>) and 1.6 mm for the distance from the center of mass to the acting point of drag on the legs at <em>Ø<sub>mmax</sub></em> (<em>r<sub>mmax</sub></em>). All parameter values obtained from the high-speed video analysis are summarized in <a href="#pcbi-1002792-t002"><strong>Table 2</strong></a>.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[3]"><a name="pcbi-1002792-g004" id="pcbi-1002792-g004" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002792?imageURI=info:doi/10.1371/journal.pcbi.1002792.g004" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.g004');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.g004');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002792.g004&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[3]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002792?imageURI=info:doi/10.1371/journal.pcbi.1002792.g004" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.g004');"><span>Figure 4. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[3]/caption[1]/title[1]">The sequence of one hind leg stroke.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[3]/caption[1]/p[1]">In frames 1–5, only the hind leg is visible, with the middle leg emerging in frame 6. In frames 6–10 it is possible to observe the beating of both legs. During the course of one leg stroke, the effective area of the legs decreases in the horizontal plane, indicating that the effective area for forward propelling increases.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002792.g004</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002792.g004/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002792.g004/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002792.g004.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002792.g004/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002792.g004.TIF"></span> TIFF)
+                  </a></li></ul></div></div><div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/table-wrap[2]"><a name="pcbi-1002792-t002" id="pcbi-1002792-t002" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002792?imageURI=info:doi/10.1371/journal.pcbi.1002792.t002" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.t002');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.t002');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002792.t002&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/table-wrap[2]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002792?imageURI=info:doi/10.1371/journal.pcbi.1002792.t002" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.t002');"><span>Table 2. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/table-wrap[2]/caption[1]/title[1]">Swimming parameters obtained from high-speed video analysis.</span></strong></p><span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002792.t002</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002792.t002/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002792.t002/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002792.t002.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002792.t002/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002792.t002.TIF"></span> TIFF)
+                  </a></li></ul></div></div>
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/title[1]">Calculation of static buoyancy and curvature forces at the air-water interface</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/p[1]">Weight support plays an important role in diving and swimming of whirligig beetles. Since whirligig beetles have a density greater than water, the body weight must be supported by the combination of the buoyancy force (<em>F<sub>b</sub></em>) and the curvature force (<em>F<sub>c</sub></em>), i.e, <em>Mg</em> = <em>F<sub>b</sub></em>+<em>F<sub>c</sub></em>, where <em>M</em> is the mass of the whirligig beetle, and <em>g</em> is the gravitational constant. The buoyancy force can be calculated by integrating the hydrostatic pressure over the effective body surface area <em>S<sub>b</sub></em> in contact with the water, and is equal to the weight of fluid displaced above the body and inside the contact line <em>C</em>, as shown in <a href="#pcbi-1002792-g002"><strong>Figure 2</strong></a>. From this definition, <em>F<sub>b</sub></em> = <em>ρgV<sub>b</sub></em>, where <em>ρ</em> is the density of water at 20°C, 998.2 kg/m<sup>3</sup>, <em>g</em> is the gravitational constant, 9.8 m/s<sup>2</sup>, and <em>V<sub>b</sub></em> is the volume of water displaced by the body. <em>V<sub>b</sub></em> is equal to the total submerged volume of the body, or <em>S<sub>b</sub>h</em>. Using the measurements obtained from the experiments, the buoyancy force on the beetles was 52 µN. Similarly, the weight of the beetles (<em>Mg</em>) was calculated as 98 µN. From the relationship outlined above, the curvature force due to the surface tension of water, F<sub>c</sub>, can be calculated as 46 µN and contributes 46.9% of the total weight support. The percentage of weight supported by the curvature force is much lower than water walking insects due to the submersion of the ventral portion of the beetle, whereas a much smaller total volume is submerged in water walking insects. In fact, in an analysis of the weight distribution of a variety of water striders, &gt;90% of the weight was supported by the curvature force in the majority of species tested <a href="#pcbi.1002792-Hu3">[28]</a>.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/title[1]">Calculation of Reynold's number</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[1]">In general, the motion of the legs of aquatic insects is characterized by a high Reynolds number (<em>Re</em>), <em>Re</em>&gt;&gt;1. Using the equation <em>Re</em> = <em>Uw</em>/<em>υ</em>, where <em>U</em> is the peak speed of the object, <em>w</em> is the characteristic leg width, and <em>υ</em> is the kinematic viscosity of water, which is 9.79×10<sup>−7</sup> m<sup>2</sup>/s <a href="#pcbi.1002792-HU1">[7]</a>, . Based on the experimental measurements obtained from this study, the <em>Re</em> of the hind legs was 444.8 and the <em>Re</em> of the body was 2042.9. Since the <em>Re</em> of both the hind legs and body were much greater than 1, the inertial forces dominate the flow, allowing us to neglect viscous forces when modeling the dynamics of the beetle.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/title[1]">Experimental analysis of the diving process</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/p[1]">Similar to the approach taken to study the swimming kinematics of the whirligig beetle on the surface of water, analysis of the diving process of whirligig beetles was conducted using a high-speed video camera. <strong><a href="#pcbi.1002792.s006">Video S2</a></strong> shows a typical diving motion from which the parameters related to the diving were obtained. The complete diving process was further divided into a pre-diving stage and a diving stage. The pre-diving stage occurred over the first few leg beats, and was characterized by an oscillation in tilt angle. For the diving stage, the tilt angle constantly increased from the maximum observed in the pre-diving stage. The tilt angle (<em>γ</em>) was defined as the degree of body rotation, where a negative value indicates that the head of the beetle dips toward the water, and a positive value indicates that the beetle's head is raised above the water surface. The maximum change in tilt angle observed during the pre-diving process (<em>γ<sub>max</sub></em>) was 10.2°, which can be defined by the difference in the instantaneous maximum and minimum tilt angles produced during one oscillation. After achieving this maximum oscillatory change in tilt angle, the average tilt angle over the remaining oscillations steadily decreased as the beetle further dove, serving as the signal for the initiation of the diving process. During the pre-diving process, the average velocity (<em>U<sub>pre</sub></em>) was relatively slow, 0.1 m/s. This average pre-diving speed was generated by four leg beats, leading to a leg beating frequency (<em>f<sub>pre</sub></em>) of 52 Hz. From the direct observation of the beating motion of the legs in both the pre-diving and diving motion, we found that the legs beat primarily in the <em>y</em>–<em>z</em> plane, as opposed to beating primarily in the <em>x</em>–<em>y</em> plane, which was a characteristic of swimming. In other words, during the swimming process, the legs beat more along the side of the body, whereas in diving, the legs beat further underneath the body. Not surprisingly, this change in beating direction leads to a reduced sweep range and a slower velocity, while also providing the force necessary for angular rotation around the x axis. This slower speed, combined with an oscillating <em>γ</em>, also allows for a larger wave resistance leading to the formation of a large wave in front of the beetle <a href="#pcbi.1002792-Voise1">[1]</a>, which will further increase the clockwise rotation by applying a downward force on the anterior portion of the beetle's body. The maximum angular velocity measured in the pre-diving process (<em>ω<sub>pre</sub></em>) was 1090°/s. Upon completion of the pre-diving process, the beetle rapidly dove underneath the water surface by increasing its average leg beating frequency (<em>f<sub>diving</sub></em>) to 100 Hz, and realized a maximum leg beating frequency (<em>f<sub>max</sub></em>) of 142 Hz. This represented a 1.92 fold increase in average leg beating frequency from the pre-diving to diving stage. The maximum velocity (<em>U<sub>max</sub></em>) of 0.56 m/s, was attained during the first leg beat in the diving process, while the average velocity during the diving process (<em>U<sub>diving</sub></em>) was much lower, 0.17 m/s, due to the decrease in velocity associated with increasing fluid resistance. In total, 9 full leg beating cycles were completed during the 89 millisecond diving process, compared to 4 full leg beating cycles over 83 ms for the pre-diving process, as shown in <a href="#pcbi-1002792-g005"><strong>Figure 5</strong></a>.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/fig[1]"><a name="pcbi-1002792-g005" id="pcbi-1002792-g005" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002792?imageURI=info:doi/10.1371/journal.pcbi.1002792.g005" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.g005');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.g005');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002792.g005&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002792?imageURI=info:doi/10.1371/journal.pcbi.1002792.g005" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.g005');"><span>Figure 5. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/fig[1]/caption[1]/title[1]">Time-lapse images of the diving process.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/fig[1]/caption[1]/p[1]">This image shows the complete diving process, from the 83 ms pre-diving to the 89 ms diving process. To illustrate the diving motion, images captured every 17 ms are overlaid onto each other to show the complete diving motion.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002792.g005</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002792.g005/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002792.g005/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002792.g005.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002792.g005/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002792.g005.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/p[2]">The final set of parameters that could be obtained from the high-speed video of the diving process, were the parameters related to the motion of the legs. Similar to the analysis conducted from the swimming videos, it was necessary to obtain the maximum angle (<em>Ø<sub>max</sub></em>) and minimum angle (<em>Ø<sub>min</sub></em>) between the negative <em>y</em> axis and the straight line from the center of mass to the acting point of drag on the legs. In essence, this will be a measure of the sweep range of the legs. Whereas this angle was calculated in the <em>x</em>–<em>y</em> plane for swimming, as discussed earlier, the motion of the legs during the diving process necessitate the measurement of these angles in the <em>y</em>–<em>z</em> plane. Using the same procedure described for swimming, the average maximum angle of the hind legs over all leg beats used in diving (<em>Ø<sub>hmax</sub></em>) was found to be 93.9±10.37°, while the minimum angle (<em>Ø<sub>hmin</sub></em>) was 26.1±6.94°. This means that the average sweep of the middle legs during the diving process was 61.8° in the <em>y</em>–<em>z</em> plane. Similarly, the maximum angle for the middle legs (<em>Ø<sub>mmax</sub></em>) was 124.9±12.7°, and the minimum angle (<em>Ø<sub>mmin</sub></em>) was 43±5.26°. Again, the sweep angle was relative to the origin, center of mass, and thus not the sweep angle from the attachment point of the leg to the body. Using the known distance from the attachment point of the leg to the origin, the distance from the attachment point of the leg to the acting point of the force on the leg, and the angle of the straight line formed from the origin to the acting point of force on the leg, it was possible to solve for the distance between the distance from the center of mass to the acting point of drag on the legs (<em>r</em>), as shown in <a href="#pcbi-1002792-g002"><strong>Figure 2B–C</strong></a>. It was assumed that the acting point of drag on the legs was 1.41 mm for the middle legs, and 1.81 mm for the hind legs based on the values calculated for swimming. Despite the change in the plane of beating from occurring primarily in <em>x</em>–<em>y</em> during swimming to primarily in <em>y</em>–<em>z</em> during diving, this acting point of drag was assumed to remain the same, since the maximum area of both pairs of legs was beating in the <em>y</em>–<em>z</em> plane, since the maximum area of the legs in both planes are assumed to remain equal with the only change being the angle at which the legs strike and not the orientation of the legs as they generate forward propulsion. The point of attachment of both the hind legs and middle legs to the origin was the same as measured for swimming, 0.53 mm posterior for the hind legs and 0.44 mm anterior for the middle legs. Using these known values, the distance from the center of mass to the acting point of drag on the legs at the maximum and minimum angle, <em>Ø<sub>max</sub></em> and <em>Ø<sub>min</sub></em>, was calculated as, 2.3 mm for <em>r<sub>hmin</sub></em>, 1.7 mm for <em>r<sub>hmax</sub></em>, 1.1 mm for <em>r<sub>mmin</sub></em>, and 1.6 mm for <em>r<sub>mmax</sub></em>. The diving parameters obtained from the experimental analysis of the high-speed capture of the diving process are summarized in <a href="#pcbi-1002792-t003"><strong>Table 3</strong></a>.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/table-wrap[1]"><a name="pcbi-1002792-t003" id="pcbi-1002792-t003" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002792?imageURI=info:doi/10.1371/journal.pcbi.1002792.t003" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.t003');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.t003');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002792.t003&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/table-wrap[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002792?imageURI=info:doi/10.1371/journal.pcbi.1002792.t003" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.t003');"><span>Table 3. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/table-wrap[1]/caption[1]/title[1]">Diving parameters obtained from high-speed video analysis.</span></strong></p><span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002792.t003</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002792.t003/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002792.t003/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002792.t003.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002792.t003/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002792.t003.TIF"></span> TIFF)
+                  </a></li></ul></div></div>
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[5]/title[1]">Analysis of simulation results</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[5]/p[1]">In order to analyze the swimming and diving processes, simulations were conducted based on the models described above, and the parameters obtained from the experimental analysis listed in <a href="#pcbi-1002792-t001"><strong>Tables 1</strong></a>, <a href="#pcbi-1002792-t002"><strong>2</strong></a>, and <a href="#pcbi-1002792-t003"><strong>3</strong></a>. Two types of trajectories were analyzed from the swimming simulations: trajectories that displayed a net forward motion and trajectories that generated a repeating circular shape. These trajectories were chosen since they were the most relevant, based on the typical swimming patterns observed in nature. Similarly, these types of trajectories were the most important for inspiration of robotics principles, as they directly relate to steering and forward propulsion. For simplification, the leg beating patterns used in the swimming simulations are annotated as follows: <em>m</em> or <em>h</em> indicates the beating of the middle or hind leg, and the subscript <em>r</em> or <em>l</em> indicates either the right or left leg. Further, if the legs beat simultaneously, then the notation will be a summation. For example, if the right and left middle legs beat in unison, the notation would be (<em>m<sub>r</sub></em>+<em>m<sub>l</sub></em>). If the leg beats are followed by one another, then there will be a “,” separating the beats. For the case of a middle right leg beat followed by a hind right leg beat, the notation will be (<em>m<sub>r</sub></em>, <em>h<sub>r</sub></em>). For all swimming simulations, the duration of the simulation was 2 seconds, and the initial values for velocity (<em>U<sub>x</sub></em>, <em>U<sub>y</sub></em>), angular velocity (ω), and the turning angle of the body (<em>β</em>) were all set to zero.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/title[1]">Analysis of net forward trajectories</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/p[1]">Out of all simulations conducted, six beating patterns that generated a net forward motion were analyzed. Most trajectories simulated showed a high degree of repetitive motions that led to complex patterns, or no net forward motion. The six forward beating patterns analyzed were (<em>m<sub>r</sub>+m<sub>l</sub></em>), (<em>h<sub>r</sub>+h<sub>l</sub></em>), (<em>h<sub>r</sub>+h<sub>l</sub>, m<sub>r</sub>+m<sub>l</sub></em>), (<em>m<sub>r</sub>, m<sub>l</sub></em>), (<em>h<sub>r</sub>, h<sub>l</sub></em>), and (<em>h<sub>r</sub>+h<sub>l</sub>, m<sub>r</sub>, h<sub>r</sub>+h<sub>l</sub>, m<sub>l</sub></em>), as indicated using the notation described above. The trajectories for these motions are shown in <a href="#pcbi-1002792-g006"><strong>Figure 6</strong></a> and the values calculated from these trajectories are shown in <a href="#pcbi-1002792-t004"><strong>Table 4</strong></a>. Based on the results obtained from these simulations, the highest forward velocity, 0.5268 m/s, was achieved for (<em>h<sub>r</sub>+h<sub>l</sub>, m<sub>r</sub>+m<sub>l</sub></em>), the simultaneous beating of the hind legs followed by the simultaneous beating of the middle legs, while the lowest maximum speed, 0.2473 m/s, was attained for (<em>m<sub>r</sub>, m<sub>l</sub></em>), the alternate beating of the middle legs. Similarly, the greatest net forward motion, 0.8284 m, was observed for (<em>h<sub>r</sub>+h<sub>l</sub>, m<sub>r</sub>+m<sub>l</sub></em>) and the least, 0.3445 m, was observed for (<em>m<sub>r</sub>, m<sub>l</sub></em>). However, if we consider these beating motions in terms of efficiency, then the most efficient strategy would be the one that results in the largest net forward motion per leg beat. From a biological perspective, the energy expenditure relative to distance traveled is important, since excessive leg beating will lead to exhaustion. Using this definition of efficiency, the most efficient strategy of the Whirligig beetle was calculated to be (<em>h<sub>r</sub>+h<sub>l</sub></em>), the simultaneous beating of the hind legs, at 17.1 mm/beat, followed by (<em>h<sub>r</sub>, h<sub>l</sub></em>), the alternate beating of the hind legs, at 14.5 mm/beat. What can clearly be concluded from this efficiency value is the importance of the hind legs in forward propulsion. When comparing (<em>h<sub>r</sub>+h<sub>l</sub></em>) to (<em>m<sub>r</sub>+m<sub>l</sub></em>), the average speed and net forward distance traveled using the hind legs is 1.55 times larger. In terms of the strategy that was the most efficient per beat in total distance traveled, (<em>h<sub>r</sub>, h<sub>l</sub></em>), 17.7 mm/beat, was the most efficient followed by (<em>h<sub>r</sub>+h<sub>l</sub></em>), 17.1 mm/beat. In general, over the total distance traveled, strategies using the hind legs only (<em>h<sub>r</sub>+h<sub>l</sub></em>) were 1.55 times more efficient than those with the middle legs only (<em>m<sub>r</sub>+m<sub>l</sub></em>). When considering the total distance traveled per beat as a measure of efficiency, (<em>h<sub>r</sub>+h<sub>l</sub>, m<sub>r</sub>+m<sub>l</sub></em>) was the worst strategy 10.3 mm/beat, despite moving the greatest overall distance. It should be noted that this pattern of beating was not observed in the experimental study, and may be the result of the low efficiency of this beating pattern.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/fig[1]"><a name="pcbi-1002792-g006" id="pcbi-1002792-g006" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002792?imageURI=info:doi/10.1371/journal.pcbi.1002792.g006" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.g006');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.g006');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002792.g006&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002792?imageURI=info:doi/10.1371/journal.pcbi.1002792.g006" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.g006');"><span>Figure 6. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/fig[1]/caption[1]/title[1]">Net forward trajectories from swimming simulations.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/fig[1]/caption[1]/p[1]">As indicated above each frame, the beating patterns that generated a true linear path were those where the right and left middle legs (<em>m<sub>r</sub></em>+<em>m<sub>l</sub></em>), hind legs (<em>h<sub>r</sub></em>+<em>h<sub>l</sub></em>), and hind followed by middle legs (<em>h<sub>r</sub></em>+<em>h<sub>l</sub></em>, <em>m<sub>r</sub></em>+<em>m<sub>l</sub></em>) beat simultaneously. In these three cases, the total distance traveled was equal to Δy. For the other three cases where the middle right and left legs (<em>m<sub>r</sub></em>, <em>m<sub>l</sub></em>) and the hind right and left legs (<em>h<sub>r</sub></em>, <em>h<sub>l</sub></em>) beat alternately, and the simultaneous beating of the hind legs followed by the beating of a middle leg (<em>h<sub>r</sub></em>+<em>h<sub>l</sub></em>, <em>m<sub>r</sub></em>, <em>h<sub>r</sub></em>+<em>h<sub>l</sub></em>, <em>m<sub>l</sub></em>) the net forward distance traveled was calculated from a line between the start and end point. Numerical analysis of these trajectories is shown in <a href="#pcbi-1002792-t004"><strong>Table 4</strong></a>.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002792.g006</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002792.g006/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002792.g006/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002792.g006.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002792.g006/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002792.g006.TIF"></span> TIFF)
+                  </a></li></ul></div></div><div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/table-wrap[1]"><a name="pcbi-1002792-t004" id="pcbi-1002792-t004" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002792?imageURI=info:doi/10.1371/journal.pcbi.1002792.t004" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.t004');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.t004');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002792.t004&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/table-wrap[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002792?imageURI=info:doi/10.1371/journal.pcbi.1002792.t004" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.t004');"><span>Table 4. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/table-wrap[1]/caption[1]/title[1]">Analysis of forward trajectories.</span></strong></p><span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002792.t004</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002792.t004/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002792.t004/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002792.t004.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002792.t004/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002792.t004.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/p[2]">The results obtained from the simulations can be interpreted from a biological perspective to understand reasons of the beating patterns, and trajectories observed in nature. One of the hallmarks of the movement of whirligig beetles is their overall rounded trajectories, and the common observation of <em>S</em>-shaped trajectories. Based on the analysis from the simulations, <em>S</em>-shaped trajectories generated by (<em>h<sub>r</sub>, h<sub>l</sub></em>) represent the most energetically favorable strategy for covering a large distance with an efficiency of 17.7 mm/leg beat (<a href="#pcbi-1002792-t004"><strong>Table 4</strong></a>). While this may seem counterintuitive, the anatomical structure of the beetle may dictate the efficiency of this strategy over a linear trajectory. In terms of predator avoidance and escape, an effective “flight” response would allow the beetle to rapidly move away from the perceived threat. In addition, to maximize the distance between the beetle and the threat, a strategy must be chosen that would balance the energetic costs of escape, in terms of both speed and distance traveled. A short beating duration using (<em>h<sub>r</sub>+h<sub>l</sub>, m<sub>r</sub>+m<sub>l</sub></em>) would result in a maximum burst speed, but would most likely lead to a tiring of the beetle due to the higher energetic cost. This may explain why linear trajectories have rarely been observed when studying the whirligig beetles. The most efficient strategy that would allow the beetle to cover a large distance with minimal energy expenditure would be the S-shaped trajectory generated by the alternate beating of the hind legs. This strategy would allow the beetle to outdistance the predator while moving along a less predictable trajectory, without leading to exhaustion, and may explain why S-shaped trajectories are commonly observed in nature.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/p[3]">Another result from the analysis of the leg patterns used in swimming was the obvious propulsive advantage of using the hind legs over the middle legs. This may explain why several researchers have noted that the hind legs are often observed beating twice as fast as the middle legs <a href="#pcbi.1002792-Fish1">[14]</a>. The results from this study suggest that, rather than a physiological constraint that allows the hind legs to beat twice as fast, the hind legs beat twice as much due to the benefit in overall propulsion efficiency. The middle legs would then be expected to contribute to stability control to maintain a given path and prevent a loss of control during swimming. This will be analyzed in greater detail in the following section.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[7]/title[1]">Analysis of the circling trajectories</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[7]/p[1]">Five of the simulations displayed an overall circular trajectory as shown in <a href="#pcbi-1002792-g007"><strong>Figure 7</strong></a>. These beating patterns demonstrating an overall circular trajectory were (<em>m<sub>r</sub></em>), (<em>h<sub>r</sub></em>), (<em>m<sub>r</sub>, h<sub>r</sub></em>), (<em>m<sub>r</sub>+m<sub>l</sub>, h<sub>r</sub></em>), and (<em>m<sub>r</sub>, h<sub>r</sub>+h<sub>l</sub></em>), and the values associated with their analysis are shown in <a href="#pcbi-1002792-t005"><strong>Table 5</strong></a>. From these trajectories, we can conclude that the most efficient, in terms of total distance traveled per leg beat was (<em>h<sub>r</sub></em>), 30.9 mm/beat, which was also the most efficient out of all the leg beating patterns analyzed in this study. In fact, this was 1.74 times more efficient than the most efficient beating pattern observed from the net forward trajectories (<em>h<sub>r</sub></em>, <em>h<sub>l</sub></em>) of the beetle. Comparison of the efficiency of the motion generated by patterns (<em>h<sub>r</sub></em>) and (<em>m<sub>r</sub></em>), the use of only one hind leg or middle leg, led to a 1.74 fold increase in the overall distance traveled per leg beat, similar to the results observed from the forward trajectories. As expected, motion generated by (<em>h<sub>r</sub></em>) had a much higher average angular velocity, 4336.52°/s, compared to (<em>m<sub>r</sub></em>), 1958.74°/s. This is a 121% fold increase from the hind leg only to middle leg only beating, which is likely due to the attachment point of the rear legs being 0.53 mm posterior to the origin of the body. In addition, the longer length of the hind legs and their larger propulsive area, further have a significant impact on turning. The beating pattern that had the greatest average angular velocity, 4742.54°/s, was the middle right leg followed by the hind right leg (<em>m<sub>r</sub>, h<sub>r</sub></em>). This was in accordance with several studies that have pointed out that the most common leg beating pattern in the circling behavior of whirligig beetles is the beating of the outboard legs, which in the case of the simulation was (<em>m<sub>r</sub>, h<sub>r</sub></em>). Similarly, the values for angular velocity obtained from the simulations were very close to the value of 4428°/s obtained in previous studies. The beating patterns that were most likely to reproduce a truly circular trajectory, were (<em>m<sub>r</sub>+m<sub>l</sub>, h<sub>r</sub></em>) and (<em>m<sub>r</sub>, h<sub>r</sub>+h<sub>l</sub></em>), both with nearly the same efficiency, distance traveled, and number of beats. There was however a significant difference in the average angular velocity among these beating patterns, where (<em>m<sub>r</sub>+m<sub>l</sub>, h<sub>r</sub></em>) was 2.15 times faster than (<em>m<sub>r</sub>, h<sub>r</sub>+h<sub>l</sub></em>), resulting in a difference in the radius of curvature.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[7]/fig[1]"><a name="pcbi-1002792-g007" id="pcbi-1002792-g007" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002792?imageURI=info:doi/10.1371/journal.pcbi.1002792.g007" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.g007');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.g007');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002792.g007&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[7]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002792?imageURI=info:doi/10.1371/journal.pcbi.1002792.g007" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.g007');"><span>Figure 7. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[7]/fig[1]/caption[1]/title[1]">Circling trajectories from swimming simulations.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[7]/fig[1]/caption[1]/p[1]">The circular trajectories obtained from the swimming simulations are illustrated above. Based on the simulations, only three beating patterns stabilized to form a consistent circular trajectory, the middle right leg only (<em>m<sub>r</sub></em>), the middle right followed by the hind right (<em>m<sub>r</sub></em>, <em>h<sub>r</sub></em>), and the middle right followed by the simultaneous beating of the hind legs (<em>m<sub>r</sub></em>, <em>h<sub>r</sub></em>+<em>h<sub>l</sub></em>). The other beating patterns analyzed produced unstable trajectories, resulting in trajectories not observed in nature. Numerical analysis of the circular swimming trajectories is shown in <a href="#pcbi-1002792-t005"><strong>Table 5</strong></a>.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002792.g007</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002792.g007/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002792.g007/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002792.g007.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002792.g007/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002792.g007.TIF"></span> TIFF)
+                  </a></li></ul></div></div><div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[7]/table-wrap[1]"><a name="pcbi-1002792-t005" id="pcbi-1002792-t005" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002792?imageURI=info:doi/10.1371/journal.pcbi.1002792.t005" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.t005');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.t005');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002792.t005&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[7]/table-wrap[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002792?imageURI=info:doi/10.1371/journal.pcbi.1002792.t005" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.t005');"><span>Table 5. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[7]/table-wrap[1]/caption[1]/title[1]">Analysis of circling trajectories.</span></strong></p><span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002792.t005</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002792.t005/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002792.t005/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002792.t005.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002792.t005/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002792.t005.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/sec[7]/p[2]">From the analysis of the circling trajectories, we see again that the hind legs were more effective per leg beat, and also were able to produce a larger angular velocity when compared to the middle legs. Unlike the forward trajectories, however, as shown in <a href="#pcbi-1002792-g007"><strong>Figure 7</strong></a>, the trajectory from only the right hind leg beating, (<em>h<sub>r</sub></em>), was more chaotic due to the larger increase in the angular velocity. The most common trends observed in nature were the circling trajectories produced by (<em>m<sub>r</sub>+m<sub>l</sub>, h<sub>r</sub></em>), the simultaneous beating of the middle legs followed by the beating of the right hind leg, and (<em>m<sub>r</sub>, h<sub>r</sub>+h<sub>l</sub></em>), a middle right leg beat followed by the simultaneous beating of the hind legs. By using the middle legs to balance out the large angular velocity of the hind legs, it is possible to get a much more stable path. The exact reason that the beetles prefer rapid circular trajectories remains unknown; however, from this study, it can be concluded that these patterns appear to be more energy efficient than other motions. Biologically, the energy conserved by using these motions may dictate their use for both predator avoidance, and prey capture.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[7]/p[3]">To determine the effect of errors associated with the measurement of the swimming parameters obtained experimentally, parametric analysis was conducted to examine how perturbation of these terms affected the swimming simulations. In order to maintain realistic variation among these terms, they were perturbed by the percent change associated with the standard deviations reported in <a href="#pcbi-1002792-t001"><strong>Table 1</strong></a>. The complete results from this parametric analysis are included in the <strong><a href="#pcbi.1002792.s004">Text S1</a></strong>.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[8]/title[1]">Analysis of diving simulation</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[8]/p[1]">A numerical study of the diving process was also conducted to validate the dynamics model for the diving process. The values of morphological parameters were given in <a href="#pcbi-1002792-t001"><strong>Table 1</strong></a>. The parameters obtained for diving are listed in <a href="#pcbi-1002792-t003"><strong>Table 3</strong></a>. The initial values of the forward velocity, the angular velocity, and the turning angle of the body were chosen to be 0.17 m/s, −333°/s, and −7°, which were consistent with the parameter values obtained at the start of the diving process, based on the experimental study. The initial depth of the body under the free surface of water was set to be 0.74 mm, with the assumption that the center of mass was in the plane of free surface at <em>t</em> = 0. The 89 ms diving process was simulated, as shown in <a href="#pcbi-1002792-g005"><strong>Figure 5</strong></a>, using the body coordinate system. For diving, the hind legs beat together with a speed of 0.18 m/s, followed by simultaneous middle leg striking at 0.14 m/s. The leg beating pattern that was observed in the diving video, and used in the simulation, contained 6 hind legs beats and 3 middle legs beats. Additionally, the timing of the leg beats used for the simulation was the same as that observed in the diving video. Despite careful analysis of the diving videos, determination of the dynamic changes in the buoyancy and curvature force during diving proved difficult. Since these forces could not be obtained experimentally, it was necessary to establish a coefficient to explain the dynamic changes in these forces. As such, the combination of the buoyancy and curvature force was estimated to change nonlinearly according to the segmented function <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002792.e001&amp;representation=PNG"></span> This segmented function was established to explain the slow change in tilt angle over the first 60 ms, followed by the rapid change in tilt angle during the final 29 ms, as shown in <a href="#pcbi-1002792-g005"><strong>Figure 5</strong></a>. The change in tilt angle will have a large impact on the value for the curvature force term, since the contact line length will change correspondingly, and the buoyancy force will more gradually increase to a maximum when the beetle is completely submerged. Using this approximation as the change in both curvature and buoyancy forces, a simulation result was attained that closely followed the actual diving trajectory observed in the experimental study, <a href="#pcbi-1002792-g008"><strong>Figure 8</strong></a>. This simulation used the initial values from the experimental study, as indicated above. To determine if any of these parameters had a crucial effect on the beetle's ability to dive, further simulations were conducted by varying the initial values of the forward velocity, angular velocity, turning angle of the body, hind leg speed, and middle leg speed.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[8]/fig[1]"><a name="pcbi-1002792-g008" id="pcbi-1002792-g008" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002792?imageURI=info:doi/10.1371/journal.pcbi.1002792.g008" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.g008');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.g008');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002792.g008&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[8]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002792?imageURI=info:doi/10.1371/journal.pcbi.1002792.g008" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002792', 'info:doi/10.1371/journal.pcbi.1002792.g008');"><span>Figure 8. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[8]/fig[1]/caption[1]/title[1]">Results from the diving simulations.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[8]/fig[1]/caption[1]/p[1]">Simulation results of diving with different initial conditions. The initial values of forward speed (0.17 m/s), angular velocity of the body (−333°/s), tilt angle of the body (7°), striking speed of the hind legs (0.18 m/s), and striking speed of the middle legs (0.14 m/s), were varied ±30% to determine the effect on the diving trajectory. Each of these terms was varied ±30%, with the other terms held constant, to determine their effects on the overall trajectory. The values generated the closest diving trajectory as observed in the experimental studies was with an initial speed of 0.17 m/s, angular velocity of −333°/s, tilt angle of −7°, hind leg speed of 0.18 m/s, and middle leg speed of 0.14 m/s.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002792.g008</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002792.g008/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002792.g008/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002792.g008.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002792.g008/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002792.g008.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/sec[8]/p[2]">The initial conditions of forward velocity, angular velocity, tilt angle of the body, hind leg speed, and middle leg speed were 0.17 m/s, −333°/s, −7°, 0.18 m/s, and 0.14 m/s, respectively. For each parameter, the value was varied ±30% of the initial value, while the other values were kept constant. A 30% increase in any of the following velocity terms, forward velocity, hind leg speed, and middle leg speed, led to an increase in the distance traveled in the y-axis and the depth of the dive in the <em>z</em>-axis. Of these parameters, the middle leg speed had the smallest effect on the overall diving trajectory. This was due to the leg beating pattern modeled, where only 3 middle leg beats occurred, compared to 6 for the hind legs. The lower propulsive area of the middle legs also led to only a minimal change in the observed diving trajectories for ±30%. The parameter that had the largest effect on the diving trajectory was the hind leg speed, since these legs have a large effect on propulsion, and there are twice as many beats in the diving simulation. For the larger hind leg speed (the solid magenta line), the beetle will dive farther in y 13.57% and deeper 37.6%, compared to the simulated initial trajectory. Unlike the previous velocity terms, increases in the angular terms, tilt angle and angular velocity, led to diving trajectories with decreased distance traveled in y, 4.53% and 6.37%, respectively. However, increases in these terms still led to an increase in the depth of the dive. Biologically this can be explained, since the increase in the angular terms equates to the beetle more rapidly entering the water, leading to a deeper dive with a decrease in the length of the dive (distance in y). Overall, the simulation data showed that changes in any of the initial terms used for the simulation played only a minor role compared to dynamic changes in the buoyancy and curvature forces. With 2D data, it was not possible to determine the absolute dynamic changes in these terms, thus, a 3D setup must be used to obtain experimental values for these forces.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[9]/title[1]">Bio-inspiration for robotic design</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[9]/p[1]">As discussed above, the high speed of swimming and diving, large angular velocity of the body in swimming, and unique strategy for maximizing the effective area during a propulsive stroke, are key features for bio-inspiration of robot design. Based on the simulations, we were able to determine that with the morphology present in the whirligig beetles, it was energetically more efficient to use an alternating beating of the hind legs, even though this beating pattern does not move in a straight line. This is consistent with experimental observations of curved trajectories being the most common and can be used for potential propulsion system design in small swimming robots under similar conditions. The <em>S</em>-shaped swimming motion, commonly observed in the wild, thus represents a more efficient strategy than linear motion, assuming a robot with the same size and morphology as the beetle. This is a very interesting phenomenon and could be used for small swimming robot path planning to improve energy efficiency. Similarly, the attachment point of the legs relative to the origin, allows the beetle to attain an incredible angular velocity by paddling the outboard legs in an alternating fashion. Another important source of inspiration for robotic design is the morphology of the hind leg, which is crucial in both propulsion and turning. By minimizing the drag in the recovery stroke, and maximizing the effective propulsive area in the power stroke, the whirligig beetle is able to achieve rapid speeds with a highly efficient motion. By designing an oar, with similar morphology to the hind legs of the whirligig beetle, it would be expected that the swimming device would achieve much more efficient propulsion. Many studies have sought to develop biomimetic robots to achieve a goal similar to that of their biological counterparts. These robots include water-walking robots based on the water strider <a href="#pcbi.1002792-Zhang1">[29]</a>, <a href="#pcbi.1002792-YunSeong1">[30]</a>, <a href="#pcbi.1002792-Suzuki1">[31]</a>, snake inspired robots <a href="#pcbi.1002792-Crespi1">[32]</a>, <a href="#pcbi.1002792-Kamamichi1">[33]</a>, and even wall climbing gecko robots <a href="#pcbi.1002792-Menon1">[34]</a>, <a href="#pcbi.1002792-Carlo1">[35]</a>. Based on the highly efficient design of the whirligig beetle's legs, we envision a bio-inspired robot that can mimic the design of both the hind and middle legs of the beetle.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[9]/p[2]">Similarly, by using comparable body geometry, the robot would be able to achieve a high angular velocity by beating the rear paddles, while adjusting its trajectory, in effect, steering with the middle paddles. In addition, the motion of the legs during both swimming and diving provides a source of inspiration. In swimming, the legs beat predominantly in the <em>x</em>–<em>y</em> plane, whereas in diving, the legs beat predominantly in the <em>y</em>–<em>z</em> plane. By changing the plane of the beating motion, the beetle is able to achieve an angular rotation in the <em>y</em>–<em>z</em> plane relative to the surface of the water, creating an angle that will allow it to break the surface tension of the water and dive. This seemingly subtle change has potential applications in robot design. For example, by designing a robot with similar leg structures, the robot would be able to swim or dive using the same propulsive structures, which are dependent on the plane of beating. The ability to adjust this angle of the leg beating plane during swimming would also enable a much larger set of trajectories offering more precise and finer control over the desired swimming path. The pattern of the leg beating used by the beetle to alter its angle of the leg beating plane, and eventually break the surface tension, may also represent an ideal pattern that could be implemented into a diving robot.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[9]/p[3]">Yet another source of inspiration comes from the ability of the beetle to maintain an overall ellipsoid shape when the legs are not beating. As shown in <a href="#pcbi-1002792-g001"><strong>Figures 1</strong></a> and <a href="#pcbi-1002792-g003"><strong>3</strong></a>, the beetles could fold the legs underneath the body, thus reducing drag. In terms of the body, the point of attachment of the legs allows them to swing out away from the body during beating, but to return underneath the body when not beating. This allows the beetle to effectively coast after each beat, which conserves energy. This phenomenon was observed in nearly all beetle studies, where after a beat, there is a period of time where the beetle will decelerate and “coast” prior to initiating another beat. This was also typically observed in turning, where either a right or left leg would beat, and the beetle would continue to rotate without further beating. Previous robotics studies have sought to mimic the morphology of other biological organisms to design more advanced and efficient robots <a href="#pcbi.1002792-Junzhi1">[36]</a>, <a href="#pcbi.1002792-Clark1">[37]</a>, <a href="#pcbi.1002792-Delcomyn1">[38]</a>. By designing a swimming robot that can effectively coast and reduce drag when not using its propelling structures, it would be possible to reduce the energetic costs required to move the robot over an equal distance, leading to a more efficient strategy and utilization of its energy.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[10]/title[1]">Conclusion</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[10]/p[1]">By integrating experimental studies and theoretical analysis, this research has made several contributions to the study of dynamics and kinematics involved in the swimming and diving of whirligig beetles with potential applications in bio-inspired robotics. First, it was discovered that the whirligig beetle dives by altering the plane in which the legs are beating, from <em>x</em>–<em>y</em> in swimming, to <em>y</em>–<em>z</em> in diving. The dynamics model developed in this study further supports this claim. Second, results from the swimming dynamics model demonstrated that the most efficient strategy for net forward motion was the beating of the hind legs simultaneously (<em>h<sub>l</sub></em>+<em>h<sub>r</sub></em>). However, the most efficient beating over the total distance traveled was observed in S-shaped swimming (<em>h<sub>r</sub></em>, <em>h<sub>l</sub></em>), alternating beating of the hind legs, and circling (<em>m<sub>r</sub>, h<sub>r</sub></em>), alternating beating of the middle right and hind right legs, (<em>m<sub>r</sub></em>), the beating of the middle right leg only, and (<em>h<sub>r</sub></em>), the beating of the hind right leg only. This finding explains why these swimming trajectories are most commonly observed in nature. Third, analysis of the beating patterns used in the generation of circular trajectories showed that the largest average angular velocity was attained by the beating of a middle leg followed by the beating of a hind leg on the outboard side of the turn. This was consistent with the experimental observations of circular swimming seen in the wild, where this was the most common beating pattern. Comparison of simulations using either the hind or middle legs showed that the hind legs were able to generate larger forward propulsion, and also a greater turning angle when compared to the middle legs. This led to the conclusion that the middle legs serve mainly to control the stability of the beetle, and for path correction. This was confirmed by the generation of stable circular trajectories with middle leg beating, compared to unstable trajectories observed as shown <a href="#pcbi-1002792-g005"><strong>Figure 5</strong></a> without the presence of the middle legs.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[10]/p[2]">Based on the results obtained from this study several key points of inspiration were identified related to the design of swimming/diving robots. The unique morphology of the legs, allowing for greater increase in area during the power stroke, through the use of collapsible laminae, may lead to the design of more advanced paddles or oars. Next, the ability of the legs to fold underneath the body and maintain an ellipsoidal body shape, reduces the drag on the beetle and allows it to effectively coast, preventing the need for constant beating. Finally, by changing the plane of beating of the legs, an angular rotation can be created that provides the angle necessary for penetration below the surface, essentially diving. By combining these principles, it may be possible to build a more efficient bio-inspired swimming/diving robot.</p>
+
+</div>
+
+<div id="section3" xpathLocation="/article[1]/body[1]/sec[3]"><a id="s3" name="s3" toc="s3" title="Methods"></a><h3 xpathLocation="noSelect">Methods&nbsp;<a href="#top">Top</a></h3>
+<h4 xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/title[1]">Experimental procedures</h4>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/p[1]">The whirligig beetles were collected from the Tennessee River and maintained in an aquarium at room temperature. A system consisting of several components was assembled to generate a platform for high-contrast imaging of the beating legs. A Powerview HS-650 (TSI, Inc., Shoreview, MN) particle tracking camera with a Sigma 18–200 lens was used to capture the leg beating pattern and swimming motion at more than 800 fps. Using this setup, we were able to track the leg beating pattern throughout its entire movement. Other components of the system included Camware (PCO AG) and ImageJ (NIH), a motion analysis software package. Camware allowed for the playback of videos at different controllable rates. The speed of each leg in both the swimming and diving processes was analyzed by conducting traces of the movement over individual frames using ImageJ. An SEM study was also conducted on the model LEO 1525 from Carl Zeiss equipped with a ‘Gemini’ column.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/title[1]">Modeling the swimming and diving dynamics</h4>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/p[1]">The swimming of whirligig beetles has been well-studied, with all previous studies operating under the assumption that the body is rigid, with no flexibility, and that the legs behave as “rigid paddles” or “swimming blades” during a swimming stroke <a href="#pcbi.1002792-Voise1">[1]</a>, <a href="#pcbi.1002792-Hatch1">[2]</a>, <a href="#pcbi.1002792-Tucker1">[4]</a>, <a href="#pcbi.1002792-Bush1">[5]</a>, <a href="#pcbi.1002792-Hu2">[8]</a>. While the legs are actually separated into 3 distinct segments (femur, tibia, and tarsi), we define a swimming stroke as starting, when the leg is completely unfolded and extended from underneath the body, and then terminating when the leg begins to fold back underneath the body and returns to its starting position. Using this definition, the angular sweep of a single stroke can be calculated as an arc, as illustrated in <a href="#pcbi.1002792-Tucker1">[4]</a>, and <a href="#pcbi-1002792-g002">Figure 2</a> of the manuscript. Using this definition of a stroke is consistent with the previous works <a href="#pcbi.1002792-Tucker1">[4]</a>, <a href="#pcbi.1002792-Hu2">[8]</a>, the flexibility of the legs during a swimming stoke can be neglected. Similarly, the swimming laminae may exhibit some minor flexion, but for the purposes of this study, this flexibility is negligible.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/p[2]">In this work two models were developed to study the swimming and diving of Whirligig beetles. Both of the models were used to obtain simulations of these processes. The complete description of the models and code are contained in the <strong><a href="#pcbi.1002792.s004">Text S1</a></strong>; however, the key factors involved in the development of the models are identified in this section. In the swimming model, the key hydrodynamic forces involved in the model are the fluid resistive force in x and y (<em>f<sub>rx</sub></em> and <em>f<sub>ry</sub></em>), and the drag force of the legs in x and y (<em>f<sub>mx</sub></em>, <em>f<sub>my</sub></em>, <em>f<sub>hx</sub></em>, <em>f<sub>hy</sub></em>). Since the swimming model is 2D, and the beetle is assumed to always be on the surface of the water, the buoyancy and curvature forces, <em>F<sub>b</sub></em> and <em>F<sub>c</sub></em>, are neglected because they do not oppose the direction of motion. Unlike <em>F<sub>b</sub></em> and <em>F<sub>c</sub></em>, however, wave resistance can significantly affect the motion of the beetle. Previous studies have shown that wave resistance and fluid resistance are of similar magnitude for whirligig beetles, however, all current models for calculating wave resistance assume an absence of contact between the object and the water surface, quantification of wave resistance is not currently possible based on this assumption <a href="#pcbi.1002792-Voise1">[1]</a>. Following the model for wave resistance provided by <a href="#pcbi.1002792-Raphal1">[39]</a>, and assuming that the beetle has no size, but a defined weight, the magnitude of wave resistance would be discontinuous producing a maximum value at 23 cm/s, a value of 0 at speeds &lt;23 cm/s, and decrease exponentially at speeds &gt;23 cm/s <a href="#pcbi.1002792-Voise1">[1]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/p[3]">Considering that the diving model functions in the y–z plane, as opposed to the x–y plane of the swimming model, the hydrodynamic forces considered in this model differ from those defined in the swimming model. The fluid resistive forces in y and z (<em>f<sub>ry</sub></em> and <em>f<sub>rz</sub></em>), and the drag force of the legs in y and z (<em>f<sub>my</sub></em>, <em>f<sub>mz</sub></em>, <em>f<sub>hy</sub></em>, <em>f<sub>hz</sub></em>) are considered, similar to the swimming model. Again, wave resistance was neglected from the diving model for the same reasons as the swimming model, described above. However, since diving acts in opposition to both buoyancy and curvature forces, these forces must be considered in the diving model. As described above in the analysis of the diving simulations, due to limitations in experimentally determining the dynamic changes in the buoyancy and curvature forces, a segment function (<em>f<sub>seg</sub></em>) was created to account for these forces. This segment function accounted for the slow change in tilt angle over the first 60 ms of the diving process, compared to the rapid change in tilt angle during the final 29 ms of the diving process. The change in tilt angle is related to the curvature force, by changing the contact line length, and thus this approximation was used in simulations of the diving process.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/p[4]">In both models, the forces generated by the creation of vortices from the movement of the legs and body have been neglected due to the use of an experimentally measured drag coefficient. The drag coefficient of the beetle, <em>C<sub>db</sub></em>, used in this study was obtained from <a href="#pcbi.1002792-Nachtigall3">[26]</a>, where this parameter was calculated for a variety of Whirligig beetles using both wind tunnel and water channel experiments. In these experimental studies, the value for <em>C<sub>db</sub></em> accounts for the vortices created by the beetle. To further confirm that the coefficient of drag accounted for the formation of the resulting vortices, we calculated the force from the body vortices of the Whirligig beetles used in this study as outlined in the equations provided by <a href="#pcbi.1002792-Whittlesey1">[40]</a>. The force from the formation of vortices by the body was found to be 18 µN, while our calculation of the drag force using the coefficient of drag at the same velocity was 24 µN. Considering that other factors were involved in the drag calculation used in this study, the values indicate that the force from the formation of vortices has been accounted for in our drag calculation. Further, other studies have used the drag coefficient from <a href="#pcbi.1002792-Nachtigall3">[26]</a> to calculate the drag from Whirligig beetles, and obtained values similar to those obtained in this study <a href="#pcbi.1002792-Voise1">[1]</a>.</p>
+
+</div>
+
+<div id="section4" xpathLocation="/article[1]/body[1]/sec[4]"><a id="s4" name="s4" toc="s4" title="Supporting Information"></a><h3 xpathLocation="noSelect">Supporting Information&nbsp;<a href="#top">Top</a></h3><a name="pcbi.1002792.s001" id="pcbi.1002792.s001"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002792.s001">Figure S1. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[1]/caption[1]/p[1]"><strong>The swimming dynamics analysis of whirligig beetles.</strong> (A) Both the rowing of middle legs and striking of hind legs will generate the force component in the longitudinal and lateral directions. The lateral force component will form the centripetal acceleration to change the direction of the forward speed. The net torque produced by the striking of one hind leg will result in a rotation of the whirligig beetle's rigid body. (B) The body coordinate system of the whirligig beetle. The increment of displacement in the <em>y</em> direction is assumed to always be positive. The increment of displacement in the <em>x</em> direction is negative in the left hand direction. The increment of the turning angle of the body is positive in the counterclockwise direction.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[1]/caption[1]/p[2]">(TIF)</p>
+<a name="pcbi.1002792.s002" id="pcbi.1002792.s002"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002792.s002">Figure S2. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[2]/caption[1]/p[1]"><strong>The dynamics modeling for the diving process of the whirligig beetle.</strong> (A) the pre-diving process, (B) the diving process. The diving is powered by a torque <em>T<sub>x</sub></em> combining the forces generated by striking the middle and hind legs and the fluid resistance. The beetle will turn its body perpendicular to the free water surface, towards decreasing the water resistance and surface tension.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[2]/caption[1]/p[2]">(TIF)</p>
+<a name="pcbi.1002792.s003" id="pcbi.1002792.s003"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002792.s003">Table S1. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[3]/caption[1]/p[1]"><strong>Parametric analysis of swimming motion.</strong> Simulations were conducted to determine the effect of perturbation of the key swimming variables ±10% of the measured values. The effect of the perturbed variables on maximum forward speed and distance traveled per beat were recorded two forward trajectory simulations (<em>hr+hl</em>, <em>mr+ml</em>) and (<em>hr+hl</em>,<em>mr</em>,<em>hr+hl</em>,<em>ml</em>), and one circular trajectory simulation (<em>mr</em>,<em>hr</em>). In addition, the average angular velocity was determined for the circular trajectory simulation.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[3]/caption[1]/p[2]">(TIF)</p>
+<a name="pcbi.1002792.s004" id="pcbi.1002792.s004"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002792.s004">Text S1. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[4]/caption[1]/p[1]"><strong>Supporting information text.</strong> Included in the supporting text are the details for the parametric analysis of the swimming variables, more detailed methods detailing the model, as well as, the annotated swimming and diving code.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[4]/caption[1]/p[2]">(DOCX)</p>
+<a name="pcbi.1002792.s005" id="pcbi.1002792.s005"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002792.s005">Video S1. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[5]/caption[1]/p[1]"><strong>Real-time swimming of </strong><strong><em>Gyrinidae</em></strong><strong>.</strong> This video showed that the whirligig beetle folded the forelegs under the body, propelled forward using middle legs and hind legs, and turned by beating hind legs in different phases. The video is played back at 30 fps to demonstrate the motion. This video corresponds to the series of figures in <a href="#pcbi-1002792-g004"><strong>Figure 4</strong></a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[5]/caption[1]/p[2]">(WMV)</p>
+<a name="pcbi.1002792.s006" id="pcbi.1002792.s006"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002792.s006">Video S2. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[6]/caption[1]/p[1]"><strong>Real-time diving of </strong><strong><em>Gyrinidae</em></strong><strong>.</strong> The Video captured the whole diving process including pre-diving, diving, and post-diving, as well as the wave generation. Each frame in the video represents ~1.7 ms. This video corresponds to the figures in <a href="#pcbi-1002792-g005"><strong>Figure 5</strong></a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[6]/caption[1]/p[2]">(WMV)</p>
+</div>
+
+
+
+<div class="contributions"><a id="authcontrib" name="authcontrib" toc="authcontrib" title="Author Contributions"></a><h3 xpathLocation="noSelect">Author Contributions&nbsp;<a href="#top">Top</a></h3><p xpathLocation="noSelect">Conceived and designed the experiments: SCL MZ. Performed the experiments: SCL BER. Analyzed the data: SCL BER XJ MZ. Contributed reagents/materials/analysis tools: MZ ZX. Wrote the paper: SCL BER XJ MZ.</p></div><div xpathLocation="noSelect"><a id="references" name="references" toc="references" title="References"></a><h3 xpathLocation="noSelect">References&nbsp;<a href="#top">Top</a></h3><ol class="references" xpathLocation="noSelect"><li xpathLocation="noSelect"><a name="pcbi.1002792-Voise1" id="pcbi.1002792-Voise1"></a>Voise J, Casas J (2010) The management of fluid and wave resistances by whirligig beetles. Journal of The Royal Society Interface 7: 343–352. <a class="find" href="/article/findArticle.action?citedArticleID=6232236">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002792-Hatch1" id="pcbi.1002792-Hatch1"></a>Hatch MH (1927) The morphology of Gyrinidae. Pap Mich Acad Sci Arts Lett 7: 311–350. <a class="find" href="/article/findArticle.action?citedArticleID=6232238">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002792-Nachtigall1" id="pcbi.1002792-Nachtigall1"></a>Nachtigall W (1961) Funktionelle Morphologie, Kinematik und Hydromechanik des Ruderapparates von. Gyrinus. Journal of Comparative Physiology A: Neuroethology, Sensory, Neural, and Behavioral Physiology 45: 193–226. <a class="find" href="/article/findArticle.action?citedArticleID=6232240">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002792-Tucker1" id="pcbi.1002792-Tucker1"></a>Tucker VA (1969) Wave-Making by Whirligig Beetles (Gyrinidae). Science 166: 897–899. <a class="find" href="/article/findArticle.action?citedArticleID=6232242">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002792-Bush1" id="pcbi.1002792-Bush1"></a>Bush JWMH, David L (2006) Walking on water: biolocomotion at the interface. Annu Rev Fluid Mech 38: 339–369. <a class="find" href="/article/findArticle.action?citedArticleID=6232244">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002792-Hu1" id="pcbi.1002792-Hu1"></a>Hu DL, Bush JWM (2005) Meniscus-climbing insects. Nature 437: 733–736. <a class="find" href="/article/findArticle.action?citedArticleID=6232246">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002792-HU1" id="pcbi.1002792-HU1"></a>HU DL, BUSH JWM (2010) The hydrodynamics of water-walking arthropods. Journal of Fluid Mechanics 644: 5–33. <a class="find" href="/article/findArticle.action?citedArticleID=6232248">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002792-Hu2" id="pcbi.1002792-Hu2"></a>Hu DL, Chan B, Bush JWM (2003) The hydrodynamics of water strider locomotion. Nature 424: 663–666. <a class="find" href="/article/findArticle.action?citedArticleID=6232250">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002792-GAO1" id="pcbi.1002792-GAO1"></a>GAO P, FENG JJ (2011) A numerical investigation of the propulsion of water walkers. Journal of Fluid Mechanics 668: 363–383. <a class="find" href="/article/findArticle.action?citedArticleID=6232252">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002792-Zheng1" id="pcbi.1002792-Zheng1"></a>Zheng Q-S, Yu Y, Feng X-Q (2009) The Role of Adaptive-Deformation of Water Strider Leg in Its Walking on Water. Journal of Adhesion Science and Technology 23: 493–501. <a class="find" href="/article/findArticle.action?citedArticleID=6232254">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002792-BHLER1" id="pcbi.1002792-BHLER1"></a>BÜHLER O (2007) Impulsive fluid forcing and water strider locomotion. Journal of Fluid Mechanics 573: 211–236. <a class="find" href="/article/findArticle.action?citedArticleID=6232256">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002792-Suter1" id="pcbi.1002792-Suter1"></a>Suter RB, Wildman H (1999) Locomotion on the water surface: hydrodynamic constraints on rowing velocity require a gait change. Journal of Experimental Biology 202: 2771–2785. <a class="find" href="/article/findArticle.action?citedArticleID=6232258">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002792-Bush2" id="pcbi.1002792-Bush2"></a>Bush JWM, Hu DL, Prakash M (2007) The Integument of Water-walking Arthropods: Form and Function. In: Casas J, Simpson SJ, editors. Advances in Insect Physiology. Academic Press. pp. 117–192. </li><li xpathLocation="noSelect"><a name="pcbi.1002792-Fish1" id="pcbi.1002792-Fish1"></a>Fish FE, Nicastro AJ (2003) Aquatic turning performance by the whirligig beetle: constraints on maneuverability by a rigid biological system. Journal of Experimental Biology 206: 1649–1656. <a class="find" href="/article/findArticle.action?citedArticleID=6232262">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002792-Nachtigall2" id="pcbi.1002792-Nachtigall2"></a>Nachtigall W (1974) Locomotion: mechanics and hydrodynamics of swimming in aquatic insects. The physiology of Insecta III: 381–432. <a class="find" href="/article/findArticle.action?citedArticleID=6232264">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002792-Chepelianskii1" id="pcbi.1002792-Chepelianskii1"></a>Chepelianskii AD, Chevy F, Raphaël E (2008) Capillary-Gravity Waves Generated by a Slow Moving Object. Physical Review Letters 100: 074504. <a class="find" href="/article/findArticle.action?citedArticleID=6232266">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002792-Closa1" id="pcbi.1002792-Closa1"></a>Closa F, Chepelianskii AD, Raphael E (2010) Capillary-gravity waves generated by a sudden object motion. Physics of Fluids 22: 052107. <a class="find" href="/article/findArticle.action?citedArticleID=6232268">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002792-Dickinson1" id="pcbi.1002792-Dickinson1"></a>Dickinson MH, Farley CT, Full RJ, Koehl MAR, Kram R, et al. (2000) How Animals Move: An Integrative View. Science 288: 100–106. <a class="find" href="/article/findArticle.action?citedArticleID=6232270">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002792-Romey1" id="pcbi.1002792-Romey1"></a>Romey WL (1995) Position preferences within groups: do whirligigs select positions which balance feeding opportunities with predator avoidance? Behavioral Ecology and Sociobiology 37: 195–200. <a class="find" href="/article/findArticle.action?citedArticleID=6232272">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002792-Su1" id="pcbi.1002792-Su1"></a>Su Y, Ji B, Huang Y, Hwang K-c (2010) Nature's Design of Hierarchical Superhydrophobic Surfaces of a Water Strider for Low Adhesion and Low-Energy Dissipation. Langmuir 26: 18926–18937. <a class="find" href="/article/findArticle.action?citedArticleID=6232274">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002792-Gao1" id="pcbi.1002792-Gao1"></a>Gao X, Jiang L (2004) Biophysics: Water-repellent legs of water striders. Nature 432: 36–36. <a class="find" href="/article/findArticle.action?citedArticleID=6232276">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002792-Bendele1" id="pcbi.1002792-Bendele1"></a>Bendele H (1986) Mechanosensory cues control chasing behaviour of whirligig beetles (Coleoptera, Gyrinidae). Journal of Comparative Physiology A: Neuroethology, Sensory, Neural, and Behavioral Physiology 158: 405–411. <a class="find" href="/article/findArticle.action?citedArticleID=6232278">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002792-LOWORN1" id="pcbi.1002792-LOWORN1"></a>LOWORN JR, JONES DR, BLAKE RW (1991) Mechanics of Underwater Locomotion in Diving Ducks: Drag, Buoyancy and Acceleration in a Size Gradient of Specffis. Journal of Experimental Biology 159: 89–108. <a class="find" href="/article/findArticle.action?citedArticleID=6232280">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002792-Miller1" id="pcbi.1002792-Miller1"></a>Miller PJO, Johnson MP, Tyack PL, Terray EA (2004) Swimming gaits, passive drag and buoyancy of diving sperm whales Physeter macrocephalus. Journal of Experimental Biology 207: 1953–1967. <a class="find" href="/article/findArticle.action?citedArticleID=6232282">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002792-Watanabe1" id="pcbi.1002792-Watanabe1"></a>Watanabe Y, Baranov EA, Sato K, Naito Y, Miyazaki N (2006) Body density affects stroke patterns in Baikal seals. Journal of Experimental Biology 209: 3269–3280. <a class="find" href="/article/findArticle.action?citedArticleID=6232284">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002792-Nachtigall3" id="pcbi.1002792-Nachtigall3"></a>Nachtigall W (1981) Hydromechanics and biology. European Biophysics Journal 8: 1–22. <a class="find" href="/article/findArticle.action?citedArticleID=6232286">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002792-Wichard1" id="pcbi.1002792-Wichard1"></a>Wichard W, Arens W, Eisenbeis G (2002) Biological Atlas of Aquatic Insects. Stenstrup, Denmark: Apollo Books. </li><li xpathLocation="noSelect"><a name="pcbi.1002792-Hu3" id="pcbi.1002792-Hu3"></a>Hu DL, Chan B, Bush JW (2003) The hydrodynamics of water strider locomotion. Nature 424: 663–666. <a class="find" href="/article/findArticle.action?citedArticleID=6232290">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002792-Zhang1" id="pcbi.1002792-Zhang1"></a>Zhang X, Zhao J, Zhu Q, Chen N, Zhang M, et al. (2011) Bioinspired Aquatic Microrobot Capable of Walking on Water Surface Like a Water Strider. ACS Applied Materials &amp; Interfaces 3: 2630–2636. <a class="find" href="/article/findArticle.action?citedArticleID=6232292">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002792-YunSeong1" id="pcbi.1002792-YunSeong1"></a>Yun Seong S, Sitti M (2007) Surface-Tension-Driven Biologically Inspired Water Strider Robots: Theory and Experiments. IEEE Transactions on Robotics 23: 578–589. <a class="find" href="/article/findArticle.action?citedArticleID=6232294">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002792-Suzuki1" id="pcbi.1002792-Suzuki1"></a>Suzuki K, Takanobu H, Noya K, Koike H, Miura H (2007) Water strider robots with microfabricated hydrophobic legs. In: International Conference on Intelligent Robots and Systems, 2007. 29 Oct 2007–2 Nov 2007. pp. 590–595. </li><li xpathLocation="noSelect"><a name="pcbi.1002792-Crespi1" id="pcbi.1002792-Crespi1"></a>Crespi A, Badertscher A, Guignard A, Ijspeert AJ (2005) AmphiBot I: an amphibious snake-like robot. Robotics and Autonomous Systems 50: 163–175. <a class="find" href="/article/findArticle.action?citedArticleID=6232298">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002792-Kamamichi1" id="pcbi.1002792-Kamamichi1"></a>Kamamichi N, Yamakita M, Asaka K, Zhi-Wei L. (2006) A snake-like swimming robot using IPMC actuator/sensor. In: IEEE International Conference on Robotics and Automation. 15–19 May 2006. pp. 1812–1817. </li><li xpathLocation="noSelect"><a name="pcbi.1002792-Menon1" id="pcbi.1002792-Menon1"></a>Menon C, Murphy M, Sitti M (2004) Gecko Inspired Surface Climbing Robots In: Proceedings of the International Conference on Robotics and Biomimetics, 2004. 22–26 Aug 2004. pp. 431–436. </li><li xpathLocation="noSelect"><a name="pcbi.1002792-Carlo1" id="pcbi.1002792-Carlo1"></a>Carlo M, Metin S (2006) A Biomimetic Climbing Robot Based on the Gecko. Journal of Bionic Engineering 3: 115–125. <a class="find" href="/article/findArticle.action?citedArticleID=6232304">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002792-Junzhi1" id="pcbi.1002792-Junzhi1"></a>Junzhi Y, Long W, Min T (2005) A framework for biomimetic robot fish's design and its realization. In: Proceedings of the 2005 American Control Conference; 2005 8–10 June 2005. pp. 1593–1598 vol. 1593. </li><li xpathLocation="noSelect"><a name="pcbi.1002792-Clark1" id="pcbi.1002792-Clark1"></a>Clark JE, Cham JG, Bailey SA, Froehlich EM, Nahata PK, et al.. Biomimetic design and fabrication of a hexapedal running robot; 2001 2001. pp. 3643–3649 vol. 3644. </li><li xpathLocation="noSelect"><a name="pcbi.1002792-Delcomyn1" id="pcbi.1002792-Delcomyn1"></a>Delcomyn F, Nelson ME (2000) Architectures for a biomimetic hexapod robot. Robotics and Autonomous Systems 30: 5–15. <a class="find" href="/article/findArticle.action?citedArticleID=6232310">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002792-Raphal1" id="pcbi.1002792-Raphal1"></a>Raphaël E, de Gennes PG (1996) Capillary gravity waves caused by a moving disturbance: Wave resistance. Physical Review E 53: 3448–3455. <a class="find" href="/article/findArticle.action?citedArticleID=6232312">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002792-Whittlesey1" id="pcbi.1002792-Whittlesey1"></a>Whittlesey RW (2011) Wake-based unsteady modeling of the aquatic beetle Dytiscus marginalis. Journal of Theoretical Biology 291: 14–21. <a class="find" href="/article/findArticle.action?citedArticleID=6232314">
+                      Find this article online
+                    </a></li></ol></div>
+
+</div></div>
+<div style="display:none">
+<div dojoType="ambra.widget.RegionalDialog" id="AnnotationDialog" style="padding:0;margin:0;">
+  <div class="dialog annotate">
+    <div class="tipu" id="dTipu"></div>
+    <div class="comment">
+      <h5><span>Post Your Note (For Public Viewing)</span></h5>
+      <div class="posting pane">
+        <form name="createAnnotation" id="createAnnotation" method="post" action="">
+          <input type="hidden" name="target" value="info:doi/10.1371/journal.pcbi.1002792" />
+          <input type="hidden" name="startPath" value="" />
+          <input type="hidden" name="startOffset" value="" />
+          <input type="hidden" name="endPath" value="" />
+          <input type="hidden" name="endOffset" value="" />
+          <input type="hidden" name="commentTitle" id="commentTitle" value="" />
+          <input type="hidden" name="comment" id="commentArea" value="" />
+          <input type="hidden" name="ciStatement" id="statementArea" value="" />
+          <input type="hidden" name="isCompetingInterest" id="isCompetingInterest" value="false" />
+          <input type="hidden" name="noteType" id="noteType" value="" />
+          <fieldset>
+            <legend>Compose Your Note</legend>
+            <span id="submitMsg" class="error" style="display:none;"></span>
+            <table class="layout">
+              <tr>
+                <td>
+                  <label for="cNoteType">This is a </label><select name="cNoteType" id="cNoteType"><option value="note">note</option><option value="correction">correction</option></select>
+                  <span id="cdls" style="visibility:hidden;margin-left:0.3em; white-space:nowrap;"><a href="/static/commentGuidelines.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3?target=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002792#corrections">What are corrections?</a></span>
+                  <label for="cTitle"><span class="none">Enter your note title</span><!-- error message text <em>A title is required for all public notes</em>--></label>
+                  <input type="text" name="cTitle" id="cTitle" value="Enter your note title..." class="title" alt="Enter your note title..." />
+                  <label for="cArea"><span class="none">Enter your note</span><!-- error message text <em>Please enter your note</em>--></label>
+                  <textarea name="cArea" id="cArea" value="Enter your note..." alt="Enter your note...">Enter your note...</textarea>
+                  <input type="hidden" name="isPublic" value="true" />
+                </td>
+                <td>&nbsp;</td>
+                <td class="coi">
+                  <fieldset>
+                    <legend>Declare any competing interests.</legend>
+                    <ul>
+                      <li><label><input id="isCompetingInterestNo" type="radio" checked="checked" name="competingInterest" value="false"  /> No, I don't have any competing interests to declare.</label></li>
+                      <li><label><input id="isCompetingInterestYes" type="radio" name="competingInterest" value="true"  /> Yes, I have competing interests to declare (enter below):</label></li>
+                    </ul>
+                    <textarea name="ciStatementArea" id="ciStatementArea" disabled value="Enter your competing interests..." alt="Enter your competing interests...">Enter your competing interests...</textarea>
+                  </fieldset>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3" class="buttons">
+                  <input type="button" value="Cancel" title="Click to close and cancel" id="btn_cancel"/>
+                  <input type="button" value="Submit" title="Click to post your note publicly" id="btn_post" class="primary"/>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <p>Notes and Corrections can include the following markup tags:</p>
+                  <p><strong>Emphasis:</strong> ''<em>italic</em>''&nbsp;&nbsp;'''<strong>bold</strong>'''&nbsp;&nbsp;'''''<strong><em>bold italic</em></strong>'''''</p>
+                  <p><strong>Other:</strong> ^^<sup>superscript</sup>^^&nbsp;&nbsp;~~<sub>subscript</sub>~~</p>
+                </td>
+              </tr>
+            </table>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <div class="tip" id="dTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialog" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="caTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      Please follow our <a href="/static/commentGuidelines.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">guidelines for notes and comments</a> and review our <a href="/static/competing.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">competing interests policy</a>. Comments that do not conform to our guidelines will be promptly removed and the user account disabled. The following must be avoided:
+      <ul>
+        <li>Remarks that could be interpreted as allegations of misconduct</li>
+        <li>Unsupported assertions or statements</li>
+        <li>Inflammatory or insulting language</li>
+      </ul>
+      <form name="contextActionForm" id="contextActionForm" class="clearfix buttons" method="post" action="">
+        <input type="button" name="Continue" value="Continue" id="ContextActionDialogContinueButton" onmouseup="ambra.displayAnnotationContext.startComment(event);" title="Add a note to this text" class="primary"/>
+        <input type="button" name="Cancel" value="Cancel" id="ContextActionDialogCancelButton" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);" title="Close this Window"/>
+      </form>
+    </div>
+    <div class="tip" id="caTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogNotLogged" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canlTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You must be logged in to add a note to an article.
+      You may log in by <a onmousedown="ambra.displayAnnotationContext.disconnect(event);" href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002792">clicking here</a> or <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">cancel this note</a>.
+    </div>
+    <div class="tip" id="canlTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogBadSelection" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canBDTipu"></div>
+    <div class="contextActionContent">
+      <h5 class="annotation icon"><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You cannot annotate this area of the document. <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">Close</a>
+    </div>
+    <div class="tip" id="canBDTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogBadRangeSelection" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canbrTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You cannot create an annotation that spans different sections of the document; please adjust your selection.<br/>
+      <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">Close</a>
+    </div>
+    <div class="tip" id="canbrTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.RegionalDialog" id="CommentDialog" style="padding:0;margin:0;">
+  <div class="dialog preview">
+    <div class="tipu" id="cTipu"></div>
+    <div class="btn close" id="btn_close" title="Click to close"><a title="Click to close">Close</a></div>
+    <div id="cmtContainer" class="comment">
+      <h6 id="viewCmtTitle"></h6>
+      <div class="detail" id="viewCmtDetail"></div>
+      <div class="contentwrap" id="viewComment"></div>
+      <div class="contentwrap" id="viewCIStatement"></div>
+      <div class="detail" id="viewLink">
+        <!--<a href="#" class="commentary icon" title="Click to view full thread and respond">View all responses</a>
+        <a href="#" class="respond tooltip" title="Click to respond to this posting">Respond to this</a>-->
+      </div>
+    </div>
+    <div class="tip" id="cTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.RegionalDialog" id="CommentDialogMultiple" style="padding:0;margin:0;">
+  <div class="dialog multiple preview">
+    <div class="tipu" id="mTipu"></div>
+    <div class="btn close" id="btn_close_multi" title="Click to close"><a title="Click to close">Close</a></div>
+    <ol id="multilist"></ol>
+    <br/>
+    <div id="multidetail"></div>
+    <div class="tip" id="mTip"></div>
+  </div>
+</div>
+
+
+<div dojoType="dijit.Dialog" id="Rating">
+  <div class="dialog annotate">
+    <div class="tipu" id="dTipu"></div>
+    <div class="comment">
+      <h5><span>Rate This Article</span></h5>
+      <div class="instructions">Please follow our <a  href="/static/ratingGuidelines.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">guidelines for rating</a> and review our <a href="/static/competing.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3">competing interests policy</a>. Comments that do not conform to our guidelines will be promptly removed and the user account disabled. The following must be avoided:
+        <ol>
+          <li>Remarks that could be interpreted as allegations of misconduct</li>
+          <li>Unsupported assertions or statements</li>
+          <li>Inflammatory or insulting language</li>
+        </ol>
+      </div>
+      <div class="posting pane">
+        <form name="ratingForm" id="ratingForm" method="post" action="">
+          <input type="hidden" name="articleURI" value="info:doi/10.1371/journal.pcbi.1002792" />  
+          <input type="hidden" name="commentTitle" id="commentTitle" value="" />
+          <input type="hidden" name="comment" id="commentArea" value="" />
+          <input type="hidden" name="ciStatement" id="statementArea" value="" />
+          <input type="hidden" name="isCompetingInterest" id="isCompetingInterest" value="" />
+          <fieldset>
+            <legend>Compose Your Annotation</legend>
+            <span id="submitRatingMsg" class="error" style="display:none;"></span>
+            <table class="layout">
+              <tr>
+                <td rowspan="2">
+                  <label for="insight">Insight</label>
+                  <ul class="star-rating rating edit" title="Rate insight" id="rateInsight">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Bland" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'insight', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Profound" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="insight" title="insight" value="" />
+                  <label for="reliability">Reliability</label>
+                  <ul class="star-rating rating edit" title="Rate reliability" id="rateReliability">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Tenuous" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'reliability', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Unassailable" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="reliability" title="reliability" value="" />
+                  <label for="style">Style</label>
+                  <ul class="star-rating rating edit" title="Rate style" id="rateStyle">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Crude" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'style', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Elegant" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="style" title="style" value="" />
+                  <label for="cTitle"><span class="none">Enter your comment title</span><!-- error message text <em>A title is required for all public annotations</em>--></label>
+                  <input type="text" name="cTitle" id="cTitle" value="Enter your comment title..." class="title" alt="Enter your comment title..." />
+                  <label for="cArea"><span class="none">Enter your comment</span><!-- error message text <em>Please enter your annotation</em>--></label>
+                  <textarea name="cArea" id="cArea" value="Enter your comment..." alt="Enter your comment...">Enter your comment...</textarea>
+                </td>
+                <td rowspan="2">&nbsp;</td>
+                <td class="coi">
+                  <fieldset>
+                    <legend>Declare any competing interests.</legend>
+                    <ul>
+                      <li><label><input id="isCompetingInterestNo" type="radio" name="competingInterest" value="false"  /> No, I don't have any competing interests to declare.</label></li>
+                      <li><label><input id="isCompetingInterestYes" type="radio" name="competingInterest" value="true"  /> Yes, I have competing interests to declare (enter below):</label></li>
+                    </ul>
+                    <textarea name="ciStatementArea" id="ciStatementArea" disabled value="Enter your competing interests..." title="Enter your competing interests...">Enter your competing interests...</textarea>
+                  </fieldset>
+                </td>
+              </tr>
+              <tr>
+                <td class="buttons">
+                  <input type="button" value="Cancel" title="Click to close and cancel" id="btn_cancel_rating"/>
+                  <input type="button" value="Submit" title="Click to post your annotation publicly" id="btn_post_rating" class="primary"/>
+                </td>
+              </tr>
+              <tr>
+                  <td colspan="3"><p>Ratings can include the following markup tags:</p>
+                  <p><strong>Emphasis:</strong> ''<em>italic</em>''&nbsp;&nbsp;'''<strong>bold</strong>'''&nbsp;&nbsp;'''''<strong><em>bold italic</em></strong>'''''</p>
+                  <p><strong>Other:</strong> ^^<sup>superscript</sup>^^&nbsp;&nbsp;~~<sub>subscript</sub>~~</p></td>
+              </tr>
+            </table>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div dojoType="ambra.widget.LoadingCycle" id="LoadingCycle" class="loadingCycler">
+  <img src="/images/loading.gif" width="58" height="58" title="Loading..." />
+</div>
+<div dojoType="dijit.Dialog" id="LightBox">
+
+    <!-- start main window wrapper-->
+    <div class="figure-window-wrapper">
+
+      <!--start film strip Wrapper-->
+      <div class="figure-window-nav-wrapper">
+        <div id="figure-window-nav"></div>
+      </div><!--end figure-window-nav-wrapper-->
+
+      <!-- start figure container-->
+      <div class="figure-window-container">
+
+        <!-- start/end figure viewer-->
+        <div id="figure-window-viewer">
+          <img id="figure-window-img" class="large"/>
+        </div>
+
+        <!-- start/end figure doi-->
+        <div id="figure-window-doi"></div>
+
+        <!--start figure title-box-->
+        <div id="figure-window-title-box" class="figure-window-title-less">
+          <span id="figure-window-title"></span>
+          <div id="figure-window-more" class="figure-window-more" onclick="return ambra.lightBox.showMoreOrLess();"></div>
+          <div id="figure-window-description"></div>
+        </div><!--end figure title-box-->
+
+        <!--start figure download-->
+        <div class="figure-window-download">
+          <ul>
+            <li class="download icon"><strong>Download:</strong>
+              <a id="figure-window-ppt" title="Click to download PowerPoint slide of this image">PowerPoint
+                slide</a> |
+              <a id="figure-window-large" title="Click to download a larger version of this image">larger image
+                (<span id="figure-window-large-size"></span>)</a> |
+              <a id="figure-window-tiff" title="Click to download a original version of this image">original image
+                (<span id="figure-window-tiff-size"></span>)</a>
+            </li>
+          </ul>
+        </div><!--end figure download-->
+
+        <!--start/end of close, context, next and previous button-->
+        <div class="figure-window-close" onclick="return ambra.lightBox.hide();"></div>
+        <div class="figure-window-context" onclick="return ambra.lightBox.showInContext();"></div>
+        <div id="figure-window-previous" onclick="return ambra.lightBox.showPrevious();"></div>
+        <div id="figure-window-next" onclick="return ambra.lightBox.showNext();"></div>
+
+      </div><!--end figure-window-container-->
+
+    </div><!--end figure-window-wrapper-->
+
+</div><!--end dijit.Dialog-->
+</div>
+</div>
+<!-- end : main contents -->
+
+</div>
+<!-- end : container -->	
+
+<!-- begin : footer -->
+<div id="ftr">
+  <p><span>All site content, except where otherwise noted, is licensed under a <a href="http://creativecommons.org/licenses/by/2.5/" title="Creative Commons Attribution License 2.5" tabindex="200">Creative Commons Attribution License</a>.</span></p>
+  <ul>
+    <li><a href="/static/privacy.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" title="PLOS Privacy Statement" tabindex="501">Privacy Statement</a></li>
+    <li><a href="/static/terms.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" title="PLOS Terms of Use" tabindex="502">Terms of Use</a></li>
+    <li><a href="http://www.plos.org/advertise/" title="Advertise With PLOS" tabindex="503">Advertise</a></li>
+    <li><a href="http://www.plos.org/about/media-inquiries/" title="PLOS Embargo Policy" tabindex="504">Media Inquiries</a></li>
+    <li><a href="http://www.plos.org/publish/order-reprints/" title="PLOS in Print" tabindex="505">PLOS in Print</a></li>
+    <li><a href="/static/sitemap.action;jsessionid=7A02DD243343C98EF23CCD1CF348B2C3" title="Site Map" tabindex="506">Site Map</a></li>
+    <li><a href="http://www.plos.org" title="PLOS.org" tabindex="507">PLOS.org</a></li>
+  </ul>
+  <div class="powered">
+  <ul>
+    <li><a href="/static/releaseNotes.action" title="Ambra | Release Notes">Ambra 2.4.9</a></li>
+    <li>Managed Colocation provided by <a href="http://www.isc.org/" title="Internet Systems Consortium">Internet Systems Consortium</a>.</li>
+  </ul>
+  </div>
+</div>
+<!-- end : footer -->
+<script type="text/javascript">
+  var _namespace="";
+    var loggedIn = false;
+
+  var almHost = "http://alm.plos.org";
+  var solrHost = "http://api.plos.org/search";
+  var pubGetHost = "http://pubget.com/widgetizer/links_hash";
+  var appContext = "";
+
+  // Safari v3.1.1 "console.debug" issue (http://trac.dojotoolkit.org/ticket/6849) workaround
+  if (/3[\.0-9]+ Safari/.test(navigator.appVersion)) {
+    window.console = {
+      origConsole: window.console,
+      log: function(s){ this.origConsole.log(s); },
+      info: function(s){ this.origConsole.info(s); },
+      error: function(s){ this.origConsole.error(s); },
+      warn: function(s){ this.origConsole.warn(s); }
+    };
+  }
+
+  var djConfig = {
+    // don't debug for IE - as dojo's firebug lite module is error prone in IE
+    isDebug: false,
+    parseOnLoad: true
+  };
+
+  var bamGAID = 'UA-338393-1';
+  var bamGAVPV = location.pathname + location.search + location.hash;
+</script>
+<script type="text/javascript" src="/javascript/dojo/dojo/dojo.js?v=pzlwVCPPo+oJC12upPgJrJ5EG_k"></script>
+<script type="text/javascript" src="/javascript/dojo/dojo/ambra.js?v=Y8JM0CVD9YwjC99M_jvbcRTiGhY"></script>
+<script type="text/javascript" src="/javascript/init_global.js?v=fF03pfG3r+Nkj_czZ8ORg8o5sNM"></script>
+<script type="text/javascript" src="/javascript/init_article.js?v=qzBD_a7nKbeMM2xNUtB3vckN+Zc"></script>
+<script type="text/javascript" src="/javascript/init_ratings.js?v=seKykuS0X33CQGS7Lj+8FtBy5Uw"></script>
+<script type="text/javascript" src="/javascript/init_lightBox.js?v=vJRLPy7RRX8Zp31Ogcm3i+TA4f8"></script>
+<script type="text/javascript" src="/javascript/init_article_body.js?v=YgFei2xCi50CahwaPbSsxUxUsmw"></script>
+<script type="text/javascript" src="/javascript/init_article_rhc.js?v=djtbTMOagorKE6ZPrkCwufAfWWI"></script>
+<script type="text/javascript" src="/javascript/alm.js?v=1tH9JZ8uDtXspXssGJDr8O+jBOs"></script>
+<script type="text/javascript" src="/javascript/reporting/articleViewsCumulative.js?v=RQ+gCrcAl0dBeLbmokxgQZTGYYA"></script>
+<script type="text/javascript" src="/javascript/check_twitter.js?v=Hc0sH1W9xIu0qhqxWPD4c1u50K4"></script>
+<script type="text/javascript" src="/javascript/init_googleAnalytics.js?v=yCD4h9PHGI0dsefmuWDlMn7pHog"></script>
+
+</body>
+</html>
+

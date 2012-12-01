@@ -1,0 +1,6 @@
+TITLE: Molecular and biochemical analyses of fatty acid transport, metabolism, and gene regulation in Escherichia coli.
+AUTHORS: Black PN, DiRusso CC
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

@@ -1,0 +1,6 @@
+TITLE: Entropy and information in neural spike trains: progress on the sampling problem.
+AUTHORS: Nemenman I, Bialek W, de Ruyter van Steveninck R
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The major problem in information theoretic analysis of neural responses and other biological data is the reliable estimation of entropy-like quantities from small samples. We apply a recently introduced Bayesian entropy estimator to synthetic data inspired by experiments, and to real experimental spike trains. The estimator performs admirably even very deep in the undersampled regime, where other techniques fail. This opens new possibilities for the information theoretic analysis of experiments, and may be of general interest as an example of learning from limited data.

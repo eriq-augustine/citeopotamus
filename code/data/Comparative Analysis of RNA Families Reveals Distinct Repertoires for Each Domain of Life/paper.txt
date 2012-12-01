@@ -76,3 +76,78 @@ Text S1.
             PDF with supporting text and references, and supplementary tables S1–S4.
           
 (DOC)
+[1]	Fraenkel-Conrat H (1956) The role of the nucleic acid in the reconstitution of active Tobacco Mosaic Virus. Journal of the American Chemical Society 78: 882–883. 
+[2]	Gierer A, Schramm G (1956) Infectivity of ribonucleic acid from Tobacco Mosaic Virus. Nature 177: 702–703. doi: 10.1038/177702a0. 
+[3]	Diener TO (1971) Potato spindle tuber “virus”. IV. A replicating, low molecular weight RNA. Virology 45: 411–428. 
+[4]	Kruger K, Grabowski PJ, Zaug AJ, Sands J, Gottschling DE, et al. (1982) Self-splicing RNA: autoexcision and autocyclization of the ribosomal RNA intervening sequence of Tetrahymena. Cell 31: 147–157. doi: 10.1016/0092-8674(82)90414-7. 
+[5]	Guerrier-Takada C, Gardiner K, Marsh T, Pace N, Altman S (1983) The RNA moiety of ribonuclease P is the catalytic subunit of the enzyme. Cell 35: 849–857. doi: 10.1016/0092-8674(83)90117-4. 
+[6]	Orgel LE (1968) Evolution of the genetic apparatus. J Mol Biol 38: 381–393. 
+[7]	Crick FH (1968) The origin of the genetic code. J Mol Biol 38: 367–379. 
+[8]	Gilbert W (1986) The RNA world. Nature 319: 618. doi: 10.1038/319618a0. 
+[9]	Joyce GF (2007) Forty years of in vitro evolution. Angewandte Chemie (International ed 46: 6420–6436. 
+[10]	Chen X, Li N, Ellington AD (2007) Ribozyme catalysis of metabolism in the RNA world. Chem Biodivers 4: 633–655. 
+[11]	Breaker RR (2010) Riboswitches and the RNA World. Cold Spring Harb Perspect Biol 10.1101/cshperspect.a003566. doi: 10.1101/cshperspect.a003566. 
+[12]	Cech TR (2009) Crawling out of the RNA world. Cell 136: 599–602. doi: 10.1016/j.cell.2009.02.002. 
+[13]	Eddy SR (2001) Non-coding RNA genes and the modern RNA world. Nat Rev Genet 2: 919–929. doi: 10.1038/35103511. 
+[14]	Collins LJ, Kurland CG, Biggs P, Penny D (2009) The modern RNP world of eukaryotes. J Hered 100: 597–604. doi: 10.1093/jhered/esp064. 
+[15]	Amaral PP, Dinger ME, Mercer TR, Mattick JS (2008) The eukaryotic genome as an RNA machine. Science 319: 1787–1789. doi: 10.1126/science.1155472. 
+[16]	Benner SA, Ellington AD, Tauer A (1989) Modern metabolism as a palimpsest of the RNA world. Proc Natl Acad Sci U S A 86: 7054–7058. doi: 10.1073/pnas.86.18.7054. 
+[17]	Jeffares DC, Poole AM, Penny D (1998) Relics from the RNA world. J Mol Evol 46: 18–36. doi: 10.1007/PL00006280. 
+[18]	Yarus M (2002) Primordial Genetics: Phenotype of the Ribocyte. Annu Rev Genet 36: 125–151. 
+[19]	Freyhult EK, Bollback JP, Gardner PP (2007) Exploring genomic dark matter: a critical assessment of the performance of homology search methods on noncoding RNA. Genome Res 17: 117–125. doi: 10.1101/gr.5890907. 
+[20]	Mattick JS, Gagen MJ (2001) The evolution of controlled multitasked gene networks: the role of introns and other noncoding RNAs in the development of complex organisms. Mol Biol Evol 18: 1611–1630. doi: 10.1093/oxfordjournals.molbev.a003951. 
+[21]	Harris JK, Kelley ST, Spiegelman GB, Pace NR (2003) The genetic core of the universal ancestor. Genome Res 13: 407–412. doi: 10.1101/gr.652803. 
+[22]	Chothia C, Gough J, Vogel C, Teichmann SA (2003) Evolution of the protein repertoire. Science (New York, NY) 300: 1701–1703. doi: 10.1126/science.1085371. 
+[23]	Wang M, Yafremava LS, Caetano-Anolles D, Mittenthal JE, Caetano-Anolles G (2007) Reductive evolution of architectural repertoires in proteomes and the birth of the tripartite world. Genome Res 17: 1572–1585. doi: 10.1101/gr.6454307. 
+[24]	Keese PK, Gibbs A (1992) Origins of genes: “big bang” or continuous creation? Proc Natl Acad Sci U S A 89: 9489–9493. doi: 10.1073/pnas.89.20.9489. 
+[25]	Choi IG, Kim SH (2006) Evolution of protein structural classes and protein sequence families. Proc Natl Acad Sci U S A 103: 14056–14061. doi: 10.1073/pnas.0606239103. 
+[26]	Penny D, Poole A (1999) The nature of the last universal common ancestor. Curr Opin Genet Dev 9: 672–677. doi: 10.1016/S0959-437X(99)00020-9. 
+[27]	Penny D, Hoeppner MP, Poole AM, Jeffares DC (2009) An Overview of the Introns-First Theory. J Mol Evol 69: 527–40. doi: 10.1007/s00239-009-9279-5. 
+[28]	Hoeppner MP, Poole AM (2012) Comparative genomics of eukaryotic small nucleolar RNAs reveals deep evolutionary ancestry amidst ongoing intragenomic mobility. BMC Evol Biol 12: 183. doi: 10.1186/1471-2148-12-183. 
+[29]	Olendzenski L, Gogarten JP (2009) Evolution of genes and organisms: the tree/web of life in light of horizontal gene transfer. Ann N Y Acad Sci 1178: 137–145. 
+[30]	Puigbo P, Wolf YI, Koonin EV (2009) Search for a ‘Tree of Life’ in the thicket of the phylogenetic forest. J Biol 8: 59. doi: 10.1186/jbiol159. 
+[31]	Bapteste E, O'Malley MA, Beiko RG, Ereshefsky M, Gogarten JP, et al. (2009) Prokaryotic evolution and the tree of life are two different things. Biol Direct 4: 34. doi: 10.1186/1745-6150-4-34. 
+[32]	Poole AM, Jeffares DC, Penny D (1998) The path from the RNA world. J Mol Evol 46: 1–17. doi: 10.1007/PL00006275. 
+[33]	Kurland CG (2010) The RNA dreamtime: modern cells feature proteins that might have supported a prebiotic polypeptide world but nothing indicates that RNA world ever was. BioEssays 32: 866–871. 
+[34]	Gardner PP, Daub J, Tate J, Moore BL, Osuch IH, et al. (2011) Rfam: Wikipedia, clans and the “decimal” release. Nucleic Acids Res 39: D141–145. doi: 10.1093/nar/gkq1129. 
+[35]	Nawrocki EP, Kolbe DL, Eddy SR (2009) Infernal 1.0: inference of RNA alignments. Bioinformatics 25: 1335–1337. 
+[36]	Woese CR (2002) On the evolution of cells. Proc Natl Acad Sci U S A 99: 8742–8747. doi: 10.1073/pnas.132266999. 
+[37]	Cannone JJ, Subramanian S, Schnare MN, Collett JR, D'Souza LM, et al. (2002) The comparative RNA web (CRW) site: an online database of comparative sequence and structure information for ribosomal, intron, and other RNAs. BMC Bioinformatics 3: 2. 
+[38]	Pruesse E, Quast C, Knittel K, Fuchs BM, Ludwig W, et al. (2007) SILVA: a comprehensive online resource for quality checked and aligned ribosomal RNA sequence data compatible with ARB. Nucleic Acids Res 35: 7188–7196. doi: 10.1093/nar/gkm864. 
+[39]	Raschke M, Burkle L, Muller N, Nunes-Nesi A, Fernie AR, et al. (2007) Vitamin B1 biosynthesis in plants requires the essential iron sulfur cluster protein, THIC. Proc Natl Acad Sci USA 104: 19637–19642. doi: 10.1073/pnas.0709597104. 
+[40]	Kong D, Zhu Y, Wu H, Cheng X, Liang H, et al. (2008) AtTHIC, a gene involved in thiamine biosynthesis in Arabidopsis thaliana. Cell Res 18: 566–576. doi: 10.1038/cr.2008.35. 
+[41]	Sudarsan N, Barrick JE, Breaker RR (2003) Metabolite-binding RNA domains are present in the genes of eukaryotes. RNA 9: 644–647. doi: 10.1261/rna.5090103. 
+[42]	Chabregas SM, Luche DD, Van Sluys MA, Menck CF, Silva-Filho MC (2003) Differential usage of two in-frame translational start codons regulates subcellular localization of Arabidopsis thaliana THI1. J Cell Sci 116: 285–291. doi: 10.1242/jcs.00228. 
+[43]	Shah SA, Garrett RA (2011) CRISPR/Cas and Cmr modules, mobility and evolution of adaptive immune systems. Res Micro 162: 27–38. doi: 10.1016/j.resmic.2010.09.001. 
+[44]	Haft DH, Selengut J, Mongodin EF, Nelson KE (2005) A guild of 45 CRISPR-associated (Cas) protein families and multiple CRISPR/Cas subtypes exist in prokaryotic genomes. PLoS Comput Biol 1: e60. doi: 10.1371/journal.pcbi.0010060. 
+[45]	Esser C, Ahmadinejad N, Wiegand C, Rotte C, Sebastiani F, et al. (2004) A genome phylogeny for mitochondria among alpha-proteobacteria and a predominantly eubacterial ancestry of yeast nuclear genes. Mol Biol Evol 21: 1643–1660. 
+[46]	Martin W, Rujan T, Richly E, Hansen A, Cornelsen S, et al. (2002) Evolutionary analysis of Arabidopsis, cyanobacterial, and chloroplast genomes reveals plastid phylogeny and thousands of cyanobacterial genes in the nucleus. Proc Natl Acad Sci U S A 99: 12246–12251. doi: 10.1073/pnas.182432999. 
+[47]	Tang TH, Bachellerie JP, Rozhdestvensky T, Bortolin ML, Huber H, et al. (2002) Identification of 86 candidates for small non-messenger RNAs from the archaeon Archaeoglobus fulgidus. Proc Natl Acad Sci U S A 99: 7536–7541. 
+[48]	Muller S, Leclerc F, Behm-Ansmant I, Fourmann JB, Charpentier B, et al. (2008) Combined in silico and experimental identification of the Pyrococcus abyssi H/ACA sRNAs and their target sites in ribosomal RNAs. Nucleic Acids Res 36: 2459–2475. doi: 10.1093/nar/gkn077. 
+[49]	Gardner PP, Bateman A, Poole AM (2010) SnoPatrol: how many snoRNA genes are there? J Biol 9: 4. doi: 10.1186/jbiol211. 
+[50]	Gaspin C, Cavaille J, Erauso G, Bachellerie JP (2000) Archaeal homologs of eukaryotic methylation guide small nucleolar RNAs: lessons from the Pyrococcus genomes. J Mol Biol 297: 895–906. doi: 10.1006/jmbi.2000.3593. 
+[51]	Omer AD, Lowe TM, Russell AG, Ebhardt H, Eddy SR, et al. (2000) Homologs of small nucleolar RNAs in Archaea. Science 288: 517–522. doi: 10.1126/science.288.5465.517. 
+[52]	Davila Lopez M, Rosenblad MA, Samuelsson T (2008) Computational screen for spliceosomal RNA genes aids in defining the phylogenetic distribution of major and minor spliceosomal components. Nucleic Acids Res 36: 3001–3010. 
+[53]	Russell AG, Charette JM, Spencer DF, Gray MW (2006) An early evolutionary origin for the minor spliceosome. Nature 443: 863–866. doi: 10.1038/nature05228. 
+[54]	Collins L, Penny D (2005) Complex spliceosomal organization ancestral to extant eukaryotes. Mol Biol Evol 22: 1053–1066. doi: 10.1093/molbev/msi091. 
+[55]	Shabalina SA, Koonin EV (2008) Origins and evolution of eukaryotic RNA interference. Trends Ecol Evol 23: 578–587. doi: 10.1016/j.tree.2008.06.005. 
+[56]	Wu D, Hugenholtz P, Mavromatis K, Pukall R, Dalin E, et al. (2009) A phylogeny-driven genomic encyclopaedia of Bacteria and Archaea. Nature 462: 1056–1060. doi: 10.1038/nature08656. 
+[57]	Anantharaman V, Koonin EV, Aravind L (2002) Comparative genomics and evolution of proteins involved in RNA metabolism. Nucleic Acids Res 30: 1427–1464. doi: 10.1093/nar/30.7.1427. 
+[58]	Cox CJ, Foster PG, Hirt RP, Harris SR, Embley TM (2008) The archaebacterial origin of eukaryotes. Proc Natl Acad Sci U S A 105: 20356–20361. doi: 10.1073/pnas.0810647105. 
+[59]	Gribaldo S, Poole AM, Daubin V, Forterre P, Brochier-Armanet C (2010) The origin of eukaryotes and their relationship with the Archaea: are we at a phylogenomic impasse? Nat Rev Micro 8: 743–752. doi: 10.1038/nrmicro2426. 
+[60]	Cochrane G, Akhtar R, Bonfield J, Bower L, Demiralp F, et al. (2009) Petabyte-scale innovations at the European Nucleotide Archive. Nucleic Acids Res 37: D19–25. doi: 10.1093/nar/gkn765. 
+[61]	Brochier-Armanet C, Boussau B, Gribaldo S, Forterre P (2008) Mesophilic Crenarchaeota: proposal for a third archaeal phylum, the Thaumarchaeota. Nat Rev Microbiol 6: 245–252. doi: 10.1038/nrmicro1852. 
+[62]	Adl SM, Simpson AG, Farmer MA, Andersen RA, Anderson OR, et al. (2005) The new higher level classification of eukaryotes with emphasis on the taxonomy of protists. J Eukaryot Microbiol 52: 399–451. doi: 10.1111/j.1550-7408.2005.00053.x. 
+[63]	Frickey T, Lupas A (2004) CLANS: a Java application for visualizing protein families based on pairwise similarity. Bioinformatics 20: 3702–3704. doi: 10.1093/bioinformatics/bth444. 
+[64]	Enright AJ, Van Dongen S, Ouzounis CA (2002) An efficient algorithm for large-scale detection of protein families. Nucleic Acids Res 30: 1575–1584. doi: 10.1093/nar/30.7.1575. 
+[65]	Liu Y, Schmidt B, Maskell DL (2010) MSAProbs: multiple sequence alignment based on pair hidden Markov models and partition function posterior probabilities. Bioinformatics 26: 1958–1964. doi: 10.1093/bioinformatics/btq338. 
+[66]	Castresana J (2000) Selection of conserved blocks from multiple alignments for their use in phylogenetic analysis. Mol Biol Evol 17: 540–552. doi: 10.1093/oxfordjournals.molbev.a026334. 
+[67]	Abascal F, Zardoya R, Posada D (2005) ProtTest: selection of best-fit models of protein evolution. Bioinformatics 21: 2104–2105. doi: 10.1093/bioinformatics/bti263. 
+[68]	Guindon S, Gascuel O (2003) A simple, fast, and accurate algorithm to estimate large phylogenies by maximum likelihood. Syst Biol 52: 696–704. doi: 10.1080/10635150390235520. 
+[69]	Stamatakis A (2006) RAxML-VI-HPC: maximum likelihood-based phylogenetic analyses with thousands of taxa and mixed models. Bioinformatics 22: 2688–2690. doi: 10.1093/bioinformatics/btl446. 
+[70]	Gascuel O (1997) BIONJ: an improved version of the NJ algorithm based on a simple model of sequence data. Mol Biol Evol 14: 685–695. doi: 10.1093/oxfordjournals.molbev.a025808. 
+[71]	Huson DH, Richter DC, Rausch C, Dezulian T, Franz M, et al. (2007) Dendroscope: An interactive viewer for large phylogenetic trees. BMC Bioinformatics 8: 460. doi: 10.1186/1471-2105-8-460. 
+[72]	Hartmann E, Hartmann RK (2003) The enigma of ribonuclease P evolution. Trends Genet 19: 561–569. doi: 10.1016/j.tig.2003.08.007. 
+[73]	Fournier GP, Andam CP, Alm EJ, Gogarten JP (2011) Molecular Evolution of Aminoacyl tRNA Synthetase Proteins in the Early History of Life. Orig Life Evol Biosph 41: 621–32. doi: 10.1007/s11084-011-9261-2. 
+[74]	Jacq B (1981) Sequence homologies between eukaryotic 5.8S rRNA and the 5′ end of prokaryotic 23S rRNa: evidences for a common evolutionary origin. Nucleic Acids Res 9: 2913–2932. doi: 10.1093/nar/9.12.2913. 
+[75]	Lafontaine DL, Tollervey D (2001) The function and synthesis of ribosomes. Nat Rev Mol Cell Biol 2: 514–520. doi: 10.1038/35080045. 

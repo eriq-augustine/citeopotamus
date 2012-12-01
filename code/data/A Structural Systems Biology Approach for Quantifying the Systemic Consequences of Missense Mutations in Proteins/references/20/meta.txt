@@ -1,0 +1,6 @@
+TITLE: Differential feedback regulation of the MAPK cascade underlies the quantitative differences in EGF and NGF signalling in PC12 cells.
+AUTHORS: Brightman FA, Fell DA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Although epidermal growth factor (EGF) induces transient activation of Ras and the mitogen-activated protein kinase (MAPK) cascade in PC12 cells, whereas nerve growth factor (NGF) stimulates sustained activation, the basis for these contrasting responses is not known. We have developed a computer simulation of EGF-induced MAPK cascade activation, which provides quantitative evidence that feedback inhibition of the MAPK cascade is the most important factor in determining the duration of cascade activation. Hence, we propose that the observed quantitative differences in EGF and NGF signalling can be accounted for by differential feedback regulation of the MAPK cascade.

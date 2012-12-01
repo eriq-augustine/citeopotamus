@@ -1,0 +1,4 @@
+Stagger-and-step method: detecting and computing chaotic saddles in higher dimensions.
+Sweet D, Nusse HE, Yorke JA
+Abstract:
+Chaotic transients occur in many experiments including those in fluids, in simulations of the plane Couette flow, and in coupled map lattices. These transients are caused by the presence of chaotic saddles, and they are a common phenomenon in higher dimensional dynamical systems. For many physical systems, chaotic saddles have a big impact on laboratory measurements, but there has been no way to observe these chaotic saddles directly. We present the first general method to locate and visualize chaotic saddles in higher dimensions.

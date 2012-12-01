@@ -1,0 +1,6 @@
+TITLE: Cellular and molecular mechanisms of pain.
+AUTHORS: Basbaum AI, Bautista DM, Scherrer G, Julius D
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The nervous system detects and interprets a wide range of thermal and mechanical stimuli, as well as environmental and endogenous chemical irritants. When intense, these stimuli generate acute pain, and in the setting of persistent injury, both peripheral and central nervous system components of the pain transmission pathway exhibit tremendous plasticity, enhancing pain signals and producing hypersensitivity. When plasticity facilitates protective reflexes, it can be beneficial, but when the changes persist, a chronic pain condition may result. Genetic, electrophysiological, and pharmacological studies are elucidating the molecular mechanisms that underlie detection, coding, and modulation of noxious stimuli that generate pain.

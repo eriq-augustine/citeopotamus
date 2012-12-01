@@ -1,0 +1,4 @@
+A binless correlation measure reduces the variability of memory reactivation estimates.
+Kruskal PB, Stanis JJ, McNaughton BL, Thomas PJ
+Abstract:
+None

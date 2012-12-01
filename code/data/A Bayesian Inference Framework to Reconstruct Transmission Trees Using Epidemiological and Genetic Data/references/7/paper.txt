@@ -1,0 +1,4 @@
+Unifying the epidemiological and evolutionary dynamics of pathogens.
+Grenfell BT, Pybus OG, Gog JR, Wood JL, Daly JM, Mumford JA, Holmes EC
+Abstract:
+A key priority for infectious disease research is to clarify how pathogen genetic variation, modulated by host immunity, transmission bottlenecks, and epidemic dynamics, determines the wide variety of pathogen phylogenies observed at scales that range from individual host to population. We call the melding of immunodynamics, epidemiology, and evolutionary biology required to achieve this synthesis pathogen "phylodynamics." We introduce a phylodynamic framework for the dissection of dynamic forces that determine the diversity of epidemiological and phylogenetic patterns observed in RNA viruses of vertebrates. A central pillar of this model is the Evolutionary Infectivity Profile, which captures the relationship between immune selection and pathogen transmission.

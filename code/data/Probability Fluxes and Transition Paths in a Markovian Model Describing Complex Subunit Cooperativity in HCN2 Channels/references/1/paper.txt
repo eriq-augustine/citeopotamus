@@ -1,0 +1,4 @@
+The internal dynamics of globular proteins.
+Karplus M, McCammon JA
+Abstract:
+None

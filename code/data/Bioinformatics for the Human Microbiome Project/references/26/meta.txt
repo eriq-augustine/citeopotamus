@@ -1,0 +1,6 @@
+TITLE: Fast and accurate short read alignment with Burrows-Wheeler transform.
+AUTHORS: Li H, Durbin R
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

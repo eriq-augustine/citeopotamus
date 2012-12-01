@@ -1,0 +1,6 @@
+TITLE: Phospholipid-based signaling in plants.
+AUTHORS: Meijer HJ, Munnik T
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Phospholipids are emerging as novel second messengers in plant cells. They are rapidly formed in response to a variety of stimuli via the activation of lipid kinases or phospholipases. These lipid signals can activate enzymes or recruit proteins to membranes via distinct lipid-binding domains, where the local increase in concentration promotes interactions and downstream signaling. Here, the latest developments in phospholipid-based signaling are discussed, including the lipid kinases and phospholipases that are activated, the signals they produce, the domains that bind them, the downstream targets that contain them and the processes they control.

@@ -1,0 +1,6 @@
+TITLE: Accurate and fast estimation of taxonomic profiles from metagenomic shotgun sequences.
+AUTHORS: Liu B, Gibbons T, Ghodsi M, Treangen T, Pop M
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

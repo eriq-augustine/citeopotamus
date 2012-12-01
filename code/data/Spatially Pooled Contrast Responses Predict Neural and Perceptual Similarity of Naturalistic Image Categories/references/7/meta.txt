@@ -1,0 +1,6 @@
+TITLE: Parallel processing in high-level categorization of natural images.
+AUTHORS: Rousselet GA, Fabre-Thorpe M, Thorpe SJ
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Models of visual processing often include an initial parallel stage that is restricted to relatively low-level features, whereas activation of higher-level object descriptions is generally assumed to require attention. Here we report that even high-level object representations can be accessed in parallel: in a rapid animal versus non-animal categorization task, both behavioral and electrophysiological data show that human subjects were as fast at responding to two simultaneously presented natural images as they were to a single one. The implication is that even complex natural images can be processed in parallel without the need for sequential focal attention.

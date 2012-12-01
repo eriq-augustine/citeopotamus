@@ -1,0 +1,6 @@
+TITLE: Testing the ortholog conjecture with comparative functional genomic data from mammals.
+AUTHORS: Nehrt NL, Clark WT, Radivojac P, Hahn MW
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

@@ -1,0 +1,6 @@
+TITLE: Strong functional patterns in the evolution of eukaryotic genomes revealed by the reconstruction of ancestral protein domain repertoires.
+AUTHORS: Zmasek CM, Godzik A
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

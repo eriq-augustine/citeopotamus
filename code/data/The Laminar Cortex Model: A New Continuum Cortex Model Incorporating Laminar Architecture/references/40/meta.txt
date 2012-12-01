@@ -1,0 +1,6 @@
+TITLE: Cross-frequency phase-phase coupling between θ and γ oscillations in the hippocampus.
+AUTHORS: Belluscio MA, Mizuseki K, Schmidt R, Kempter R, Buzsáki G
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Neuronal oscillations allow for temporal segmentation of neuronal spikes. Interdependent oscillators can integrate multiple layers of information. We examined phase-phase coupling of theta and gamma oscillators in the CA1 region of rat hippocampus during maze exploration and rapid eye movement sleep. Hippocampal theta waves were asymmetric, and estimation of the spatial position of the animal was improved by identifying the waveform-based phase of spiking, compared to traditional methods used for phase estimation. Using the waveform-based theta phase, three distinct gamma bands were identified: slow gamma(S) (gamma(S); 30-50 Hz), midfrequency gamma(M) (gamma(M); 50-90 Hz), and fast gamma(F) (gamma(F); 90-150 Hz or epsilon band). The amplitude of each sub-band was modulated by the theta phase. In addition, we found reliable phase-phase coupling between theta and both gamma(S) and gamma(M) but not gamma(F) oscillators. We suggest that cross-frequency phase coupling can support multiple time-scale control of neuronal spikes within and across structures.

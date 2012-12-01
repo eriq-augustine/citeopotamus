@@ -1,0 +1,6 @@
+TITLE: The HADDOCK web server for data-driven biomolecular docking.
+AUTHORS: de Vries SJ, van Dijk M, Bonvin AM
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Computational docking is the prediction or modeling of the three-dimensional structure of a biomolecular complex, starting from the structures of the individual molecules in their free, unbound form. HADDOCK is a popular docking program that takes a data-driven approach to docking, with support for a wide range of experimental data. Here we present the HADDOCK web server protocol, facilitating the modeling of biomolecular complexes for a wide community. The main web interface is user-friendly, requiring only the structures of the individual components and a list of interacting residues as input. Additional web interfaces allow the more advanced user to exploit the full range of experimental data supported by HADDOCK and to customize the docking process. The HADDOCK server has access to the resources of a dedicated cluster and of the e-NMR GRID infrastructure. Therefore, a typical docking run takes only a few minutes to prepare and a few hours to complete.

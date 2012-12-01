@@ -1,0 +1,6 @@
+TITLE: Crystal structure and mechanism of a calcium-gated potassium channel.
+AUTHORS: Jiang Y, Lee A, Chen J, Cadene M, Chait BT, MacKinnon R
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Ion channels exhibit two essential biophysical properties; that is, selective ion conduction, and the ability to gate-open in response to an appropriate stimulus. Two general categories of ion channel gating are defined by the initiating stimulus: ligand binding (neurotransmitter- or second-messenger-gated channels) or membrane voltage (voltage-gated channels). Here we present the structural basis of ligand gating in a K(+) channel that opens in response to intracellular Ca(2+). We have cloned, expressed, analysed electrical properties, and determined the crystal structure of a K(+) channel (MthK) from Methanobacterium thermoautotrophicum in the Ca(2+)-bound, opened state. Eight RCK domains (regulators of K(+) conductance) form a gating ring at the intracellular membrane surface. The gating ring uses the free energy of Ca(2+) binding in a simple manner to perform mechanical work to open the pore.

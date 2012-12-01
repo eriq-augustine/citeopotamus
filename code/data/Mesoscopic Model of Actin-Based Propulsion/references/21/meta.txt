@@ -1,0 +1,6 @@
+TITLE: Observation and kinematic description of long actin tracks induced by spherical beads.
+AUTHORS: Kang H, Perlmutter DS, Shenoy VB, Tang JX
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

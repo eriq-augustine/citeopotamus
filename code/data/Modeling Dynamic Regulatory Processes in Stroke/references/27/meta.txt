@@ -1,0 +1,6 @@
+TITLE: Derivation, identification and validation of a computational model of a novel synthetic regulatory network in yeast.
+AUTHORS: Marucci L, Santini S, di Bernardo M, di Bernardo D
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Systems biology aims at building computational models of biological pathways in order to study in silico their behaviour and to verify biological hypotheses. Modelling can become a new powerful method in molecular biology, if correctly used. Here we present step-by-step the derivation and identification of the dynamical model of a biological pathway using a novel synthetic network recently constructed in the yeast Saccharomyces cerevisiae for In-vivo Reverse-Engineering and Modelling Assessment. This network consists of five genes regulating each other transcription. Moreover, it includes one protein-protein interaction, and its genes can be switched on by addition of galactose to the medium. In order to describe the network dynamics, we adopted a deterministic modelling approach based on non-linear differential equations. We show how, through iteration between experiments and modelling, it is possible to derive a semi-quantitative prediction of network behaviour and to better understand the biology of the pathway of interest.

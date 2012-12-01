@@ -1,0 +1,6 @@
+TITLE: Meaning in visual search.
+AUTHORS: Potter MC
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Viewers briefly glimpsed pictures presented in a sequence at rates up to eight per second. They recognized a target picture as accurately and almost as rapidly when they knew only its meaning given by a name (for example, a boat) as when they had seen the picture itself in advance.

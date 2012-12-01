@@ -1,0 +1,4 @@
+The molecular genetics of embryonic pattern formation in Drosophila.
+Ingham PW
+Abstract:
+Analysis of the genes that control the early events of Drosophila embryogenesis is providing details of the molecular processes underlying the positional specification of cells. There are two distinct phases: the first precedes the cellularization of the blastoderm embryo and is associated with a cascade of interactions between transcriptional regulators; the second occurs after cellularization and depends on communication between cells. These processes may be conserved in a wide range of invertebrates and vertebrates.

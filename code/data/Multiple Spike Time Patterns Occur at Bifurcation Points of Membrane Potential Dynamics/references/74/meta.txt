@@ -1,0 +1,6 @@
+TITLE: Rapid neocortical dynamics: cellular and network mechanisms.
+AUTHORS: Haider B, McCormick DA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The highly interconnected local and large-scale networks of the neocortical sheet rapidly and dynamically modulate their functional connectivity according to behavioral demands. This basic operating principle of the neocortex is mediated by the continuously changing flow of excitatory and inhibitory synaptic barrages that not only control participation of neurons in networks but also define the networks themselves. The rapid control of neuronal responsiveness via synaptic bombardment is a fundamental property of cortical dynamics that may provide the basis of diverse behaviors, including sensory perception, motor integration, working memory, and attention.

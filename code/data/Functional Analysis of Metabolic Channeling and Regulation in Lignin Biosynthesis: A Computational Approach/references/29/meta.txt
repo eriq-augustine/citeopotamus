@@ -1,0 +1,6 @@
+TITLE: Neutral networks in protein space: a computational study based on knowledge-based potentials of mean force.
+AUTHORS: Babajide A, Hofacker IL, Sippl MJ, Stadler PF
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

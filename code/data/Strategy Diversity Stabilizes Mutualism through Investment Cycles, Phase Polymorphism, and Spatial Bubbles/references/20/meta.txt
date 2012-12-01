@@ -1,0 +1,6 @@
+TITLE: Amino-acid cycling drives nitrogen fixation in the legume-Rhizobium symbiosis.
+AUTHORS: Lodwig EM, Hosie AH, Bourdès A, Findlay K, Allaway D, Karunakaran R, Downie JA, Poole PS
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The biological reduction of atmospheric N2 to ammonium (nitrogen fixation) provides about 65% of the biosphere's available nitrogen. Most of this ammonium is contributed by legume-rhizobia symbioses, which are initiated by the infection of legume hosts by bacteria (rhizobia), resulting in formation of root nodules. Within the nodules, rhizobia are found as bacteroids, which perform the nitrogen fixation: to do this, they obtain sources of carbon and energy from the plant, in the form of dicarboxylic acids. It has been thought that, in return, bacteroids simply provide the plant with ammonium. But here we show that a more complex amino-acid cycle is essential for symbiotic nitrogen fixation by Rhizobium in pea nodules. The plant provides amino acids to the bacteroids, enabling them to shut down their ammonium assimilation. In return, bacteroids act like plant organelles to cycle amino acids back to the plant for asparagine synthesis. The mutual dependence of this exchange prevents the symbiosis being dominated by the plant, and provides a selective pressure for the evolution of mutualism.

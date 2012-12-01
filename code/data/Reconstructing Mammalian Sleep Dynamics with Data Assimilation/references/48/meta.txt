@@ -1,0 +1,6 @@
+TITLE: Synchronization-based approach for estimating all model parameters of chaotic systems.
+AUTHORS: Konnur R
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The problem of dynamic estimation of all parameters of a model representing chaotic and hyperchaotic systems using information from a scalar measured output is solved. The variational calculus based method is robust in the presence of noise, enables online estimation of the parameters and is also able to rapidly track changes in operating parameters of the experimental system. The method is demonstrated using the Lorenz, Rossler chaos, and hyperchaos models. Its possible application in decoding communications using chaos is discussed.

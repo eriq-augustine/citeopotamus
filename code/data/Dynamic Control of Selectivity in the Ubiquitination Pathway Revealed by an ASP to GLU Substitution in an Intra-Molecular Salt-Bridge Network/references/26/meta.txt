@@ -1,0 +1,6 @@
+TITLE: Solution structure of the ubiquitin-conjugating enzyme UbcH5B.
+AUTHORS: Houben K, Dominguez C, van Schaik FM, Timmers HT, Bonvin AM, Boelens R
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The ubiquitination pathway is the main pathway for protein degradation in eukaryotic cells. The attachment of ubiquitin to a substrate protein is catalyzed by three types of enzymes, namely a ubiquitin activating enzyme (E1), a ubiquitin-conjugating enzyme (E2), and a ubiquitin ligase (E3). Here, the structure of the human ubiquitin-conjugating enzyme (E2) UbcH5B has been solved by a combination of homology modeling, NMR relaxation data and automated NOE assignments. Comparison to E2 structures solved previously by X-ray crystallography or NMR shows in all cases the same compact fold, but differences are observed in the orientation of both N and C-terminal alpha-helices. The N-terminal helix that is involved in binding to ubiquitin ligases (E3) displays a different position, which could have consequences for precise E2-E3 recognition. In addition, multiple conformations of the side-chain of Asn77 are found in solution, which contrasts the single hydrogen-bonded conformation in the crystal structures of E2 enzymes. The possible implication of this conformational freedom of Asn77 for its catalytic function is discussed.

@@ -1,0 +1,6 @@
+TITLE: Cognate CD4(+) T cell licensing of dendritic cells in CD8(+) T cell immunity.
+AUTHORS: Smith CM, Wilson NS, Waithman J, Villadangos JA, Carbone FR, Heath WR, Belz GT
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Several studies have indicated that CD8(+) T cells require CD4(+) T cell help for memory formation. Evidence suggests that such help can be antigen independent, challenging whether the 'licensing' of dendritic cells (DCs) by CD4(+) T cells is ever required for cytotoxic T lymphocyte (CTL) responses. We show here that help is essential for the generation of CTL immunity to herpes simplex virus 1 and that CD4(+) T cells mediate help in a cognate, antigen-specific way. We provide direct in vivo evidence for DC licensing by helper T cells and show that licensing is rapid and essential for the formation of effector and memory CTLs. In situations in which DCs are poorly licensed by pathogen-derived signals, our findings suggest that CTL immunity may be heavily dependent on cognate DC licensing.

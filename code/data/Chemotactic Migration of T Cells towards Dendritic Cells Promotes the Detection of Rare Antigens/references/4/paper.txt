@@ -1,0 +1,4 @@
+Two-photon imaging of lymphocyte motility and antigen response in intact lymph node.
+Miller MJ, Wei SH, Parker I, Cahalan MD
+Abstract:
+Lymphocyte motility is vital for trafficking within lymphoid organs and for initiating contact with antigen-presenting cells. Visualization of these processes has previously been limited to in vitro systems. We describe the use of two-photon laser microscopy to image the dynamic behavior of individual living lymphocytes deep within intact lymph nodes. In their native environment, T cells achieved peak velocities of more than 25 micrometers per minute, displaying a motility coefficient that is five to six times that of B cells. Antigenic challenge changed T cell trajectories from random walks to "swarms" and stable clusters. Real-time two-photon imaging reveals lymphocyte behaviors that are fundamental to the initiation of the immune response.

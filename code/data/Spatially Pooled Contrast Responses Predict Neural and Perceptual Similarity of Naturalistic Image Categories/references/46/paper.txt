@@ -1,0 +1,4 @@
+The Psychophysics Toolbox.
+Brainard DH
+Abstract:
+The Psychophysics Toolbox is a software package that supports visual psychophysics. Its routines provide an interface between a high-level interpreted language (MATLAB on the Macintosh) and the video display hardware. A set of example programs is included with the Toolbox distribution.

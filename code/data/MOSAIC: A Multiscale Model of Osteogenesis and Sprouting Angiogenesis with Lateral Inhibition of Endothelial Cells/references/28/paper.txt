@@ -1,0 +1,4 @@
+The vertebrate segmentation clock.
+Giudicelli F, Lewis J
+Abstract:
+None

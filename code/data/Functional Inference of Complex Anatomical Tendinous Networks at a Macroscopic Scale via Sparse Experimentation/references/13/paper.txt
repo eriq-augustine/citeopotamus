@@ -1,0 +1,4 @@
+Extensor mechanism of the fingers. I. A quantitative geometric study.
+Garcia-Elias M, An KN, Berglund L, Linscheid RL, Cooney WP 3rd, Chao EY
+Abstract:
+A close-range stereophotogrammetric measurement system was used to determine the three-dimensional geometric characteristics of the extensor assembly in seven human finger specimens and five finger configurations. The numerical data obtained showed that, although changes in length of the different bundles are small, their spatial orientation varies considerably from one to another position. This information should help to improve the accuracy of models derived to understand the extensor assembly behavior in normal and pathological conditions.

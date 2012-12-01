@@ -1,0 +1,6 @@
+TITLE: Orientation and direction selectivity of synaptic inputs in visual cortical neurons: a diversity of combinations produces spike tuning.
+AUTHORS: Monier C, Chavane F, Baudot P, Graham LJ, Frégnac Y
+TERMS:
+CATEGORIES:
+ABSTRACT:
+This intracellular study investigates synaptic mechanisms of orientation and direction selectivity in cat area 17. Visually evoked inhibition was analyzed in 88 cells by detecting spike suppression, hyperpolarization, and reduction of trial-to-trial variability of membrane potential. In 25 of these cells, inhibition visibility was enhanced by depolarization and spike inactivation and by direct measurement of synaptic conductances. We conclude that excitatory and inhibitory inputs share the tuning preference of spiking output in 60% of cases, whereas inhibition is tuned to a different orientation in 40% of cases. For this latter type of cells, conductance measurements showed that excitation shared either the preference of the spiking output or that of the inhibition. This diversity of input combinations may reflect inhomogeneities in functional intracortical connectivity regulated by correlation-based activity-dependent processes.

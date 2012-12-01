@@ -1,0 +1,4 @@
+Purification, partial characterization, and cloning of nitric oxide-carrying heme proteins (nitrophorins) from salivary glands of the blood-sucking insect Rhodnius prolixus.
+Champagne DE, Nussenzveig RH, Ribeiro JM
+Abstract:
+Four nitric oxide (NO)-carrying proteins have been isolated from salivary glands of the blood-sucking insect Rhodnius prolixus. These have been given the collective name "nitrophorins," and individual proteins are designated NP1-NP4 in order of their relative abundance in the glands. All four reversibly bind NO; spectral shifts associated with NO binding indicate the interaction of NO with an Fe(III) heme. Physical properties, amino acid composition, and amino-terminal sequences of the nitrophorins are reported. The most abundant nitrophorin was cloned, and its sequence was determined.

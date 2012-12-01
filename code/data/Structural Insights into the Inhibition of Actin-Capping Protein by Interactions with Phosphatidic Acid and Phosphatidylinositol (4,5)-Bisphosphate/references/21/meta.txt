@@ -1,0 +1,6 @@
+TITLE: A Coarse-Grained Martini Model of Polyethylene Glycol and of Polyoxyethylene Alkyl Ether Surfactants.
+AUTHORS: Rossi G, Fuchs PF, Barnoud J, Monticelli L
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Non-ionic surfactants are used for the isolation and purification of membrane proteins, as well as for the study of fundamental aspects of protein diffusion in membranes. Here we present a new coarse-grained model of polyethylene glycol (PEG) and of the family of polyoxyethylene alkyl ether (CiEj) surfactants. The model is compatible with the MARTINI coarse-grained force-field for lipids and proteins. We validate the model by comparing Molecular Dynamics simulations with experimental data. In particular, we show that the model reproduces the phase behavior of water-surfactant mixtures as a function of water concentration. We also simulate the self-assembly of two ternary mixtures that have been used for the experimental measure of protein diffusion coefficients. The first includes a co-surfactant that affects the curvature of the surfactant bilayers; the second is a mixture of CiEj surfactants, alkanes and water. In both cases, the results of self-assembly simulations are in agreement with experimental observations and pave the way to the use of the surfactant model in combination with MARTINI peptides and proteins.

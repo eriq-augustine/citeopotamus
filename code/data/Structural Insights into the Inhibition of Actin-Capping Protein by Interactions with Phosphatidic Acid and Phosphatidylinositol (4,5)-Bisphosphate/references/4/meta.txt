@@ -1,0 +1,6 @@
+TITLE: Crystal structure of CapZ: structural basis for actin filament barbed end capping.
+AUTHORS: Yamashita A, Maeda K, Maéda Y
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Capping protein, a heterodimeric protein composed of alpha and beta subunits, is a key cellular component regulating actin filament assembly and organization. It binds to the barbed ends of the filaments and works as a 'cap' by preventing the addition and loss of actin monomers at the end. Here we describe the crystal structure of the chicken sarcomeric capping protein CapZ at 2.1 A resolution. The structure shows a striking resemblance between the alpha and beta subunits, so that the entire molecule has a pseudo 2-fold rotational symmetry. CapZ has a pair of mobile extensions for actin binding, one of which also provides concomitant binding to another protein for the actin filament targeting. The mobile extensions probably form flexible links to the end of the actin filament with a pseudo 2(1) helical symmetry, enabling the docking of the two in a symmetry mismatch.

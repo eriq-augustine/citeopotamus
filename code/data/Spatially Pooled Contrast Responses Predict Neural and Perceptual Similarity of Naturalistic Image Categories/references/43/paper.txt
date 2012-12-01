@@ -1,0 +1,4 @@
+A technique of nonparametric multivariate analysis.
+Mantel N, Valand RS
+Abstract:
+None

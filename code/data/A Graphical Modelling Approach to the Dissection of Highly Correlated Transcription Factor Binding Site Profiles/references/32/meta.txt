@@ -1,0 +1,6 @@
+TITLE: A transcription factor collective defines cardiac cell fate and reflects lineage history.
+AUTHORS: Junion G, Spivakov M, Girardot C, Braun M, Gustafson EH, Birney E, Furlong EE
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

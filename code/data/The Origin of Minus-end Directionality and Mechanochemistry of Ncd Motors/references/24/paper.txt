@@ -1,0 +1,4 @@
+Dissecting the kinematics of the kinesin step.
+Zhang Z, Thirumalai D
+Abstract:
+None

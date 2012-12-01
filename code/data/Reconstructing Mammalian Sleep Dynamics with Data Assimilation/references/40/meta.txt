@@ -1,0 +1,6 @@
+TITLE: A data-driven framework for neural field modeling.
+AUTHORS: Freestone DR, Aram P, Dewar M, Scerri K, Grayden DB, Kadirkamanathan V
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

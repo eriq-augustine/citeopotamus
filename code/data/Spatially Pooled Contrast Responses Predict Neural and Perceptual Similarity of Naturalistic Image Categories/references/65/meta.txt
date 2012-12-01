@@ -1,0 +1,6 @@
+TITLE: Statistics of natural images: Scaling in the woods.
+AUTHORS: Ruderman DL, Bialek W
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

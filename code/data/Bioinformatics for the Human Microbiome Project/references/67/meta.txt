@@ -1,0 +1,6 @@
+TITLE: Meta-IDBA: a de Novo assembler for metagenomic data.
+AUTHORS: Peng Y, Leung HC, Yiu SM, Chin FY
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

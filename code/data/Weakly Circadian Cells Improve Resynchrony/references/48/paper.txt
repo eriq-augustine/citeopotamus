@@ -1,0 +1,4 @@
+The chi square periodogram: its utility for analysis of circadian rhythms.
+Sokolove PG, Bushell WN
+Abstract:
+None

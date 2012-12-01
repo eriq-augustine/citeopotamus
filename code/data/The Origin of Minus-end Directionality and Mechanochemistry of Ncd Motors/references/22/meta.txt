@@ -1,0 +1,6 @@
+TITLE: A universal pathway for kinesin stepping.
+AUTHORS: Clancy BE, Behnke-Parks WM, Andreasson JO, Rosenfeld SS, Block SM
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Kinesin-1 is an ATP-driven, processive motor that transports cargo along microtubules in a tightly regulated stepping cycle. Efficient gating mechanisms ensure that the sequence of kinetic events proceeds in the proper order, generating a large number of successive reaction cycles. To study gating, we created two mutant constructs with extended neck-linkers and measured their properties using single-molecule optical trapping and ensemble fluorescence techniques. Owing to a reduction in the inter-head tension, the constructs access an otherwise rarely populated conformational state in which both motor heads remain bound to the microtubule. ATP-dependent, processive backstepping and futile hydrolysis were observed under moderate hindering loads. On the basis of measurements, we formulated a comprehensive model for kinesin motion that incorporates reaction pathways for both forward and backward stepping. In addition to inter-head tension, we found that neck-linker orientation is also responsible for ensuring gating in kinesin.

@@ -1,0 +1,4 @@
+Biological markets.
+Noë R, Hammerstein P
+Abstract:
+In biological markets, two classes of traders exchange commodities to their mutual benefit. Characteristics of markets are: competition within trader classes by contest or outbidding; preference for partners offering the highest value; and conflicts over the exchange value of commodities. Biological markets are currently studied under at least three different headings: sexual selection, intraspecific cooperation and interspecific mutualism. The time is ripe for the development of game theoretic models that describe the common core of biological markets and integrate existing knowledge from the separate fields.

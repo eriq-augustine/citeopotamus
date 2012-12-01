@@ -1,0 +1,6 @@
+TITLE: Engineering by homologous recombination: exploring sequence and function within a conserved fold.
+AUTHORS: Carbone MN, Arnold FH
+TERMS:
+CATEGORIES:
+ABSTRACT:
+In nature similar protein folds accommodate distant sequences and support diverse functions. This observation coupled with the recognition that proteins can tolerate many homologous substitutions inspires protein engineers to use recombination to search for new functions within sequences encoding structurally related molecules. These searches have led to proteins with novel activities, diversified specificities and greater stabilities. Computational methods that exploit structural and evolutionary information are being used to design highly mutated yet still natively folded chimeric proteins and protein libraries.

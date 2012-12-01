@@ -1,0 +1,4 @@
+Representing bioinformatics causality.
+Mandel J, Palfreyman NM, Lopez JA, Dubitzky W
+Abstract:
+This paper reviews a variety of different graphical notations currently in active use for modelling dynamic processes in bioinformatics and biotechnology, and crystallises from these notations a set of properties essential to any proposal for a modelling language seeking to provide an adequate systemic description of biological processes.

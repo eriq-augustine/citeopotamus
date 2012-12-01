@@ -1,0 +1,4 @@
+A note on evolutionary stable strategies and game dynamics.
+Hofbauer J, Schuster P, Sigmund K
+Abstract:
+None

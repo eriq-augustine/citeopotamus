@@ -1,0 +1,4 @@
+Simulation of the differential adhesion driven rearrangement of biological cells.
+Glazier JA, Graner F
+Abstract:
+None

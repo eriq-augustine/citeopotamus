@@ -1,0 +1,4 @@
+Normative model of human hand for biomechanical analysis.
+An KN, Chao EY, Cooney WP 3rd, Linscheid RL
+Abstract:
+None

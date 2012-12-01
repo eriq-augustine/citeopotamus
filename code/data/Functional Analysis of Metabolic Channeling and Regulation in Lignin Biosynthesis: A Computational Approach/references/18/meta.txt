@@ -1,0 +1,6 @@
+TITLE: Metabolic channeling in plants.
+AUTHORS: Winkel BS
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The organization of cooperating enzymes into macromolecular complexes is a central feature of cellular metabolism. A major advantage of such spatial organization is the transfer of biosynthetic intermediates between catalytic sites without diffusion into the bulk phase of the cell. This so-called "metabolic channeling" offers unique opportunities for enhancing and regulating cellular biochemistry. Studies in a number of plant primary and secondary metabolic systems continue to contribute to our understanding of the nature and importance of this phenomenon. This article reviews advances in four systems: the cysteine synthase complex, the Calvin cycle, cyanogenic glucoside biosynthesis, and the phenylpropanoid pathway. Each of these systems is providing new evidence for the importance of enzyme organization in cellular biochemistry as well as exclusive insights into the molecular basis of enzyme complex assembly. This review also explores current prospects for understanding metabolon structure, assembly, and biological function.

@@ -1,0 +1,4 @@
+Coarse-grained MD simulations of membrane protein-bilayer self-assembly.
+Scott KA, Bond PJ, Ivetac A, Chetwynd AP, Khalid S, Sansom MS
+Abstract:
+Complete determination of a membrane protein structure requires knowledge of the protein position within the lipid bilayer. As the number of determined structures of membrane proteins increases so does the need for computational methods which predict their position in the lipid bilayer. Here we present a coarse-grained molecular dynamics approach to lipid bilayer self-assembly around membrane proteins. We demonstrate that this method can be used to predict accurately the protein position in the bilayer for membrane proteins with a range of different sizes and architectures.

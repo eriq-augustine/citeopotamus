@@ -1,0 +1,4 @@
+Soft Listeria: actin-based propulsion of liquid drops.
+Boukellal H, Campás O, Joanny JF, Prost J, Sykes C
+Abstract:
+We study the motion of oil drops propelled by actin polymerization in cell extracts. Drops deform and acquire a pearlike shape under the action of the elastic stresses exerted by the actin comet, a tail of cross-linked actin filaments. We solve this free boundary problem and calculate the drop shape taking into account the elasticity of the actin gel and the variation of the polymerization velocity with normal stress. The pressure balance on the liquid drop imposes a zero propulsive force if gradients in surface tension or internal pressure are not taken into account. Quantitative parameters of actin polymerization are obtained by fitting theory to experiment.

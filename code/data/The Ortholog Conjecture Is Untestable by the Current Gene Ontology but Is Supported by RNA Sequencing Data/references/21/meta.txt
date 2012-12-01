@@ -1,0 +1,6 @@
+TITLE: The use of gene ontology evidence codes in preventing classifier assessment bias.
+AUTHORS: Rogers MF, Ben-Hur A
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

@@ -1,0 +1,1277 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:dc="http://purl.org/dc/terms/"
+      xmlns:doi="http://dx.doi.org/"
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes#"
+      lang="en" xml:lang="en"
+      itemscope itemtype="http://schema.org/Article">
+
+<head>
+   <title>PLOS Computational Biology: Determining Host Metabolic Limitations on Viral Replication via Integrated Modeling and Experimental Perturbation</title>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9" />
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+<link rel="home" title="home" href="/home.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" />
+<link rel="alternate" type="application/rss+xml"
+  title="PLOS Computational Biology: New Articles"
+  href="http://www.ploscompbiol.org/article/feed" />
+
+<link rel="pingback" href="http://www.ploscompbiol.org/pingback" />
+
+
+<!-- global_css.ftl -->
+<link rel="stylesheet" type="text/css" media="screen" href="/css/dojo/dijit/themes/tundra/tundra.css?v=zwugcxLdpBWmb72qqlHgGyeNAGM" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/star_rating.css?v=Mm3HyaUPUahAJAq6xG5W3tdF7Hk" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/rating.css?v=AOT9rozE9sYVjGTdeiyxHf18Ykw" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/screen.css?v=KBNFqBmhD635U0NgiM5tf9dtxRE" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/iepc.css?v=FIjyR83BhSovq_5yNVk1Sih60AI" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/journal.css?v=SiREXztjNSUsOyrlkE9sv028Y+0" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/lightBox.css?v=sDgsUXamFoYAakEshdj0YWrZiiQ" />
+<link rel="stylesheet" type="text/css" media="print" href="/css/print.css?v=0T+LTV7Gd0jtHEhqEvBfSrmHUGg" />
+
+<!--chartbeat --> 
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+
+
+<!--[if IE]><![endif]-->
+<meta name="description" content="PLOS Computational Biology is an open-access" />
+
+<meta name="keywords" content="plos computational biology" />
+
+  <meta name="citation_publisher" content="Public Library of Science" />
+  <meta name="citation_doi" content="10.1371/journal.pcbi.1002746" />
+    <meta name="citation_title" content="Determining Host Metabolic Limitations on Viral Replication via Integrated Modeling and Experimental Perturbation"/>
+    <meta itemprop="name" content="Determining Host Metabolic Limitations on Viral Replication via Integrated Modeling and Experimental Perturbation"/>
+
+      <meta name="citation_author" content="Elsa W. Birch" />
+          <meta name="citation_author_institution" content="Chemical Engineering, Stanford University, Stanford, California, United States of America" />
+      <meta name="citation_author" content="Nicholas A. Ruggero" />
+          <meta name="citation_author_institution" content="Chemical Engineering, Stanford University, Stanford, California, United States of America" />
+      <meta name="citation_author" content="Markus W. Covert" />
+          <meta name="citation_author_institution" content="Bioengineering, Stanford University, Stanford, California, United States of America" />
+
+    <meta name="citation_date" content="2012/10/18"/>
+
+  <meta name="citation_pdf_url" content="http://dx.plos.org/10.1371/journal.pcbi.1002746.pdf" />
+
+    <meta name="citation_journal_title" content="PLOS Computational Biology" />
+    <meta name="citation_firstpage" content="e1002746"/>
+    <meta name="citation_issue" content="10"/>
+    <meta name="citation_volume" content="8"/>
+    <meta name="citation_issn" content="1553-7358"/>
+
+    <meta name="citation_journal_abbrev" content="PLoS Comput Biol" />
+
+      <meta name="citation_reference" content="citation_title=A forward-genetic screen and dynamic analysis of lambda phage host-dependencies reveals an extensive interaction network and a new anti-viral strategy; citation_volume=6; citation_number=1; citation_pages=e1001017; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Genomewide screens for Escherichia coli genes affecting growth of T7 bacteriophage; citation_volume=103; citation_number=2; citation_pages=19039; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=Identification of Host Proteins Required for HIV Infection Through a Functional Genomic Screen; citation_volume=319; citation_number=3; citation_pages=921-926; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Global analysis of hostpathogen interactions that regulate early-stage HIV-1 replication; citation_volume=135; citation_number=4; citation_pages=49-60; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Genome-Scale RNAi Screen for Host Factors Required for HIV Replication; citation_volume=4; citation_number=5; citation_pages=495-504; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=The IFITM proteins mediate cellular resistance to inuenza A H1N1 virus, West Nile virus, and dengue virus; citation_volume=139; citation_number=6; citation_pages=1243-1254; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Genome-wide RNAi screen identifies human host factors crucial for inuenza virus replication; citation_volume=463; citation_number=7; citation_pages=818-822; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Human host factors required for inuenza virus replication; citation_volume=463; citation_number=8; citation_pages=813-817; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Modeling the Fitness Consequences of a Cyanophage-Encoded Photosynthesis Gene; citation_volume=3; citation_number=9; citation_pages=e3550; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Transcription of a ‘photosynthetic’ T4-type phage during infection of a marine cyanobacterium; citation_volume=8; citation_number=10; citation_pages=827-835; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=The virus as metabolic engineer; citation_volume=5; citation_number=11; citation_pages=686-694; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Competing pathways control host resistance to virus via tRNA modification and programmed ribosomal frameshifting; citation_volume=8; citation_number=12; citation_pages=1-13; citation_date=2012; " />
+      <meta name="citation_reference" content="citation_number=13; " />
+      <meta name="citation_reference" content="citation_title=Bacteriophage for biocontrol of foodborne pathogens: calculations and considerations; citation_volume=11; citation_number=14; citation_pages=58-68; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Intracellular kinetics of a growing virus: a genetically structured simulation for bacteriophage T7; citation_volume=55; citation_number=15; citation_pages=375-389; citation_date=1997; " />
+      <meta name="citation_reference" content="citation_title=Computation, prediction, and experimental tests of fitness for bacteriophage T7 mutants with permuted genomes; citation_volume=97; citation_number=16; citation_pages=5375; citation_date=2000; " />
+      <meta name="citation_reference" content="citation_number=17; " />
+      <meta name="citation_reference" content="citation_title=Stoichiometric interpretation of Escherichia coli glucose catabolism under various oxygenation rates; citation_volume=59; citation_number=18; citation_pages=2465-2473; citation_date=1993; " />
+      <meta name="citation_reference" content="citation_title=An expanded genome-scale model of Escherichia coli K-12 (iJR904 GSM/GPR); citation_volume=4; citation_number=19; citation_pages=R54; citation_date=2003; " />
+      <meta name="citation_reference" content="citation_title=A genome-scale metabolic reconstruction for Escherichia coli K-12 MG1655 that accounts for 1260 ORFs and thermodynamic information; citation_volume=3; citation_number=20; citation_pages=121; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=A comprehensive genome-scale reconstruction of Escherichia coli metabolism–2011; citation_volume=7; citation_number=21; citation_pages=535; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Transcriptional regulation in constraints-based metabolic models of Escherichia coli; citation_volume=277; citation_number=22; citation_pages=28058-28064; citation_date=2002; " />
+      <meta name="citation_reference" content="citation_title=Flux balance analysis of biological systems: applications and challenges; citation_volume=10; citation_number=23; citation_pages=435-449; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=What is ux balance analysis?; citation_volume=28; citation_number=24; citation_pages=245-248; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Metabolic investigation of host/pathogen interaction using MS2-infected Escherichia coli; citation_volume=3; citation_number=25; citation_pages=121; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Effects of Escherichia coli physiology on growth of phage T7 in vivo and in silico; citation_volume=184; citation_number=26; citation_pages=1888; citation_date=2002; " />
+      <meta name="citation_reference" content="citation_title=Integrating metabolic, transcriptional regulatory and signal transduction models in Escherichia coli; citation_volume=24; citation_number=27; citation_pages=2044-2050; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_number=28; " />
+      <meta name="citation_reference" content="citation_number=29; " />
+      <meta name="citation_reference" content="citation_title=Bacteriophage T4 development depends on the physiology of its host Escherichia coli; citation_volume=143; citation_number=30; citation_pages=179-185; citation_date=1997; " />
+      <meta name="citation_reference" content="citation_title=The genetics and physiology of bacteriophage T7; citation_volume=39; citation_number=31; citation_pages=562-574; citation_date=1969; " />
+      <meta name="citation_reference" content="citation_title=Comparative analysis of the in vivo and in vitro expression of bacteriophage T7 messenger RNAs during infection of Escherichia coli; citation_volume=94; citation_number=32; citation_pages=539-554; citation_date=1975; " />
+      <meta name="citation_reference" content="citation_title=Integrating high-throughput and computational data elucidates bacterial networks; citation_volume=429; citation_number=33; citation_pages=92-96; citation_date=2004; " />
+      <meta name="citation_reference" content="citation_title=Molecular Basis for Recognition of Nucleoside Triphosphate by Gene 4 Helicase of Bacteriophage T7; citation_volume=285; citation_number=34; citation_pages=31462-31471; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Early to late switch in bacteriophage T7 development: functional decay of T7 early messenger RNA; citation_volume=89; citation_number=35; citation_pages=293-303; citation_date=1974; " />
+      <meta name="citation_reference" content="citation_title=Organization and expression of bacteriophage T7 DNA; citation_volume=47 Pt 2; citation_number=36; citation_pages=999-1007; citation_date=1983; " />
+
+
+
+<!--
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002746">
+   <license rdf:resource="http://creativecommons.org/licenses/by/2.5/" />
+</Work>
+<License rdf:about="http://creativecommons.org/licenses/by/2.5/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+</License>
+<rdf:Description
+     rdf:about="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002746"
+     dc:identifier="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002746"
+     dc:title="PLOS Computational Biology: Determining Host Metabolic Limitations on Viral Replication via Integrated Modeling and Experimental Perturbation"
+       trackback:ping="http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002746/trackback;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D"
+     />
+</rdf:RDF>
+
+-->
+</head>
+<body>
+<span property="dc:language" content="en"></span>
+<!-- begin : container -->
+<div id="container">
+  <!-- begin : top banner external ad space -->
+  <div id="topBanner">
+
+
+<!-- begin : left banner slot -->
+<div class="left">
+  <iframe id='affe494b' name='affe494b'
+    src='http://ads.plos.org/www/delivery/afr.php?zoneid=84&amp;cb=9368'
+    frameborder='0' scrolling='no' width='468' height='60'><a
+    href='http://ads.plos.org/www/delivery/ck.php?n=affe494b&amp;cb=7706'
+    target='_top'><img src='http://ads.plos.org/www/delivery/avw.php?zoneid=84&amp;cb=171&amp;n=affe494b'
+    border='0' alt='' /></a></iframe>
+</div>
+<!-- end : left banner slot -->
+<!-- begin : right banner slot -->
+<div class="right">
+  <iframe id='af654bd5' name='af654bd5'
+    src='http://ads.plos.org/www/delivery/afr.php?zoneid=85&amp;cb=2468'
+    frameborder='0' scrolling='no' width='468' height='60'><a
+    href='http://ads.plos.org/www/delivery/ck.php?n=af654bd5&amp;cb=4007'
+    target='_top'><img src='http://ads.plos.org/www/delivery/avw.php?zoneid=85&amp;cb=2077&amp;n=af654bd5'
+    border='0' alt='' /></a></iframe>
+</div>
+<!-- end : right banner slot -->
+
+  </div>
+  <!-- end : top banner external ad space -->
+
+  <!-- begin : header -->
+  <div id="hdr" class="login">
+
+  <!-- begin : logo -->
+  <div id="logo" title="PLOS Computational Biology"><a href="/home.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" title="PLOS Computational Biology"><span>PLOS Computational Biology</span></a></div>
+  <!-- end : logo -->
+  <!-- begin : user controls -->
+
+
+
+
+
+  <div id="user">
+    <div>
+      <ul>
+        <li><a href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002746" class="feedback"><strong>Login</strong></a> | </li>
+        <li><a href="https://register.plos.org:443/ambra-registration/register.action">Create Account</a> | </li>
+        <li class="feedback"><a href="/feedbackCreate.action?page=%252Farticle%252FfetchArticle.action%253FarticleURI%253Dinfo%25253Adoi%25252F10.1371%25252Fjournal.pcbi.1002746" title="Send us your feedback">Feedback</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <!-- end : user controls -->
+  <!-- begin search links -->
+  <ul id="links"><li class="browse"><a href="/article/browse.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?field=date" title="Browse Articles">Browse</a></li><li class="rss"><a href="/static/rssFeeds.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" title="RSS Feeds">RSS</a></li></ul>
+  <!-- end : search links -->
+  <!-- begin : dashboard -->
+  <div id="db">
+    <form name="searchForm" action="/search/simpleSearch.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" method="get">
+      <input type="hidden" name="from" value="globalSimpleSearch"/>
+      <input type="hidden" name="filterJournals" value="PLoSCompBiol">
+      <fieldset>
+        <legend>Search</legend>
+        <label for="search">Search</label>
+        <div class="wrap"><input id="search" type="text" name="query" value="Search articles..." onfocus="if(this.value=='Search articles...')value='';" onblur="if(this.value=='')value='Search articles...';" class="searchField" alt="Search articles..."/></div>
+        <input src="/images/search_btn1.gif" onclick="submit();" value="ftsearch" alt="SEARCH" tabindex="3" class="button" type="image" />
+      </fieldset>
+    </form>
+    <form name="gasf" action="/search/advancedSearch.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" method="get">
+<input type="hidden" name="noSearchFlag" value="true" id="noSearchFlag"/><input type="hidden" name="query" value="" id="query"/>    </form>
+    <a id="advSearch" href="#" onclick="if(document.searchForm.query.value!='Search articles...')document.gasf.query.value=document.searchForm.query.value;document.gasf.submit();return false;">Advanced Search</a>
+  </div>
+  <!-- end : dashboard -->
+  <!-- begin : navigation -->
+  <ul id="nav">
+    <li><a href="/home.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" tabindex="101">Home</a></li>
+     <!-- This is a temporary action to link to th static toc page -->
+    <li><a href="/static/browse.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" tabindex="102">Browse Articles</a>
+        <ul>
+          <li><a href="/article/browseIssue.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?field=issue">Current Issue</a></li> <!-- Assuming dynamic TOC is in place -->
+          <li><a href="/article/browseVolume.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?field=volume">Journal Archive</a></li> 
+          <li><a href="/article/browse.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?field=date">By Publication Date</a></li>
+          <li><a href="/article/browse.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">By Subject</a></li>
+          <li><a href="http://www.ploscollections.org/static/pcbiCollections.action">Collections</a></li>
+        </ul>
+    </li>
+    <li><a href="/static/about.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" tabindex="103">About</a>
+        <ul>
+          <li><a href="/static/information.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Journal Information</a></li>
+          <li><a href="/static/edboard.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Editorial Board</a></li>
+          <li><a href="/static/eic.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Editors-in-Chief</a></li>
+          <li><a href="/static/almInfo.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Article-Level Metrics</a></li>
+          <li><a href="/static/license.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Open-Access License</a></li>
+          <li><a href="/static/contact.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Contact Us</a></li>
+        </ul>
+      </li>
+    <li><a href="/static/users.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" tabindex="104">For Readers</a>
+        <ul>
+          <li><a href="/static/commentGuidelines.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Guidelines for Notes, Comments, and Corrections</a></li>
+          <li><a href="/static/ratingGuidelines.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Guidelines for Rating</a></li>
+          <li><a href="/static/help.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Help Using This Site</a></li>
+          <li><a href="/static/downloads.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Media Downloads</a></li>
+          <li><a href="/static/sitemap.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Site Map</a></li>
+        </ul>
+      </li>
+    <li><a href="/static/authors.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" tabindex="105">For Authors and Reviewers</a>
+        <ul>
+          <li><a href="/static/policies.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Editorial and Publishing Policies</a></li>
+          <li><a href="/static/guidelines.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Author Guidelines</a></li>
+          <li><a href="/static/figureGuidelines.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Figure and Table Guidelines</a></li>
+          <li><a href="/static/checklist.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Submit Your Paper</a></li>
+          <li><a href="/static/reviewerGuidelines.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Reviewer Guidelines</a></li>
+	   <li><a href="http://www.plos.org/journals/index.php">Submit to Other PLOS Journals</a></li>
+        </ul>
+      </li>
+      <li class="journalnav"><a href="http://www.plos.org" title="PLOS" tabindex="110" class="drop">PLOS.org</a>
+        <ul>
+          <li><a href="http://www.plos.org/oa/index.html" title="Open Access Statement">Open Access</a></li>
+          <li><a href="http://www.plos.org/support/donate.php" title="Join PLOS: Show Your Support">Join PLOS</a></li>
+          <li><a href="http://blogs.plos.org/" title="PLOS Blogs">PLOS Blogs</a></li>
+	  <li><a href="http://www.zazzle.com/plos?rf=238434112415374154" title="PLOS Store">PLOS Store</a></li>
+          <li><a href="http://currents.plos.org" title="PLOS Currents">PLOS Currents</a></li>
+          <li><a href="http://www.plos.org/connect.html" title="PLOS.org | Stay Connected">Stay Connected</a></li>
+        </ul>
+      </li>
+      <li class="journalnav"><a href="http://hubs.plos.org" tabindex="109">Hubs</a>
+        <ul>
+          <li><a href="http://hubs.plos.org/biodiversity" title="PLOS Hubs: Biodiversity">Biodiversity</a></li>
+          <li><a href="http://clinicaltrials.ploshubs.org" title="PLOS Hub for Clinical Trials">Clinical Trials</a></li>
+        </ul>
+    </li>
+      <li class="journalnav"><a href="http://www.plosjournals.org" tabindex="108">Journals</a>
+        <ul>
+          <li><a href="http://www.plosbiology.org/" title="PLOSBiology.org">PLOS Biology</a></li>
+          <li><a href="http://www.plosmedicine.org/" title="PLOSMedicine.org">PLOS Medicine</a></li>
+          <li><a href="http://www.ploscompbiol.org/" title="PLOSCompBiol.org">PLOS Computational Biology</a></li>
+          <li><a href="http://www.plosgenetics.org/" title="PLOSGenetics.org">PLOS Genetics</a></li>
+          <li><a href="http://www.plospathogens.org/" title="PLOSPathogens.org">PLOS Pathogens</a></li>
+          <li><a href="http://www.plosone.org/" title="PLOSONE.org">PLOS ONE</a></li>
+          <li><a href="http://www.plosntds.org/" title="PLOSNTDs.org">PLOS Neglected Tropical Diseases</a></li>
+        </ul>
+      </li>
+    </ul>
+  <!-- end : navigation -->
+  </div>
+  <!-- end : header --> 
+
+
+
+<!-- begin : main content -->
+<div id="content" class="article" style="visibility:visible;">
+
+<!-- begin : right hand column -->
+
+<div id="rhc" xpathLocation="noDialog">
+
+  <div id="download" class="rhcBox_type1">
+    <div class="wrap">
+      <ul>
+        <li class="download icon"><strong>Download:</strong>
+          <a href="/article/fetchObjectAttachment.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?uri=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002746&amp;representation=PDF" title="Download article PDF">PDF</a> |
+          <a href="/article/citationList.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002746" title="Download citations">Citation</a> |
+          <a href="/article/fetchObjectAttachment.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?uri=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002746&amp;representation=XML" title="Download Article XML">XML</a>
+        </li>
+        <li class="print icon"><a href="#" onclick="window.print();return false;" title="Print Article"><strong>Print article</strong></a></li>
+        <li class="reprint icon"><a href="https://www.odysseypress.com/onlinehost/reprint_order.php?type=A&page=0&journal=3&doi=10.1371/journal.pcbi.1002746&volume=&issue=&title=Determining Host Metabolic Limitations on Viral Replication via Integrated Modeling and Experimental Perturbation&author_name=Elsa%20W.%20Birch%2C%20Nicholas%20A.%20Ruggero%2C%20Markus%20W.%20Covert&start_page=1&end_page=12" title="Odyssey Press">EzReprint</a> New &amp; improved!</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="issues" class="rhcBox_type2">
+    <p><strong>Published in the</strong>
+    <a href="http://www.ploscompbiol.org/article/browseIssue.action?issue=info%3Adoi%2F10.1371%2Fissue.pcbi.v08.i10" title="Browse the Open-Access Issue">October 2012 Issue of <em>PLOS Computational Biology</em></a></p>
+  </div>
+
+  <div id="impact" class="rhcBox_type2">
+    <h6>Metrics <a href="/static/help.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D#articleMetrics" class="replaced" id="info" title="More information"><span>info</span></a></h6>
+
+    <div class="wrap">
+      <img id="rhcDataSpinner" src="/images/loading_small.gif" class="loading" />
+      <div id="totalDataInRHC"></div>
+      <div id="pubDateInRHC"></div>
+      <div id="relatedCitesInRHC"></div>
+    </div>
+
+    <div class="more clearfix"><a href="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002746;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" title="More information">More</a></div>
+  </div>
+
+  <div id="related" class="rhcBox_type2">
+    <h6>Related Content</h6>
+    <dl class="related">
+      <dt>Related Articles on the Web</dt>
+      <dd><a href="http://scholar.google.com/scholar?hl=en&lr=&q=related:http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002746&btnG=Search">Google Scholar</a></dd>
+      <dd id="pubMedRelatedLIInRHC" style="display:none;"><a id="pubMedRelatedURLInRHC">PubMed</a></dd>
+    </dl>
+    <div class="more clearfix"><a href="/article/related/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002746;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" title="More information">More</a></div>
+  </div>
+
+  <div id="share" class="rhcBox_type2">
+    <h6>Share this Article <a href="/static/help.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D#socialBookmarkLinks" class="replaced" id="info" title="More information"><span>info</span></a></h6>
+    <ul>
+      <li class="bookmarklets">
+
+        <a href="http://www.reddit.com/submit?url=http://dx.plos.org/10.1371/journal.pcbi.1002746"
+           target="_new"
+           id="reddit">
+          <img src="http://www.reddit.com/static/spreddit4.gif" alt="submit to reddit" border="0"/> </a>
+        <g:plusone size="small" annotation="none" href=http://dx.plos.org/10.1371/journal.pcbi.1002746></g:plusone>
+        <script type="text/javascript">
+          (function () {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+          })();
+        </script>
+        <a href="http://www.stumbleupon.com/submit?url=http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002746" target="_new"> <img border=0 src="http://cdn.stumble-upon.com/images/16x16_su_solid.gif" alt="StumbleUpon" title="Add to StumbleUpon"></a>
+        <script>function fbs_click() {u='http://dx.plos.org/10.1371/journal.pcbi.1002746';t='Determining%20Host%20Metabolic%20Limitations%20on%20Viral%20Replication%20via%20Integrated%20Modeling%20and%20Experimental%20Perturbation';window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436');return false;}</script><a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002746" onclick="return fbs_click()" target="_blank"><img src="http://static.ak.fbcdn.net/images/share/facebook_share_icon.gif" alt="Facebook" title="Add to Facebook" /></a>       <!-- for mor info, see http://www.facebook.com/share_partners.php -->
+        <script type="text/javascript">
+          function bookmark_in_connotea(u) {
+            a=false; x=window; e=x.encodeURIComponent; d=document;
+            w=open('http://www.connotea.org/addpopup?continue=confirm&uri='+e(u),
+                'add', 'width=600, height=400, scrollbars, resizable');
+            void(x.setTimeout('w.focus()',200));
+          }
+        </script>
+        <a style='cursor: pointer;' onclick='javascript:bookmark_in_connotea("http://dx.plos.org/10.1371/journal.pcbi.1002746");'><img src='/images/icon_connotea_16x16.gif' alt="Connotea" title="Add to Connotea"/></a>
+        <a href="http://www.citeulike.org/posturl?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002746&title=Determining%20Host%20Metabolic%20Limitations%20on%20Viral%20Replication%20via%20Integrated%20Modeling%20and%20Experimental%20Perturbation" target="_new"><img src='/images/icon_citeulike_16x16.gif' alt="CiteULike" title="Add to CiteULike" /></a>
+        <a href="http://www.mendeley.com/import/?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002746" title="Add to Mendeley" target="_new"><img src="/images/icon_mendeley_16x16.gif" alt="Bibliography"></a>
+        <script type="text/javascript">
+          var twtTitle  = 'Determining Host Metabolic Limitations on Viral Replication via Integrated Modeling and Experimental Perturbation';
+          var twtUrl    = 'http://dx.plos.org/10.1371/journal.pcbi.1002746';
+          var twtTag    = '#PLOSCompBio:'
+          var maxLength = 140 - (twtUrl.length + 1);
+          if (twtTitle.length > maxLength) {
+            twtTitle = twtTitle.substr(0, (maxLength - 17))+'...';  //truncates title to include space for twtTag and ellipsis
+          }
+          var twtLink = 'http://twitter.com/intent/tweet?text='+encodeURIComponent(twtTag + ' ' + twtTitle + ' ' + twtUrl);
+          document.write('<a href="'+twtLink+'" target="_blank"><img src="/images/icon_twitter.gif" border="0" alt="Twitter icon" title="Tweet This!" /></a>');
+        </script>
+
+      </li>
+      <li class="email icon"><a href="/article/emailArticle.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002746" title="Email this article">Email this article</a></li>
+    </ul>
+  </div>
+  <div id="articleTwitterStream" style="display:none">
+    <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script>
+      new TWTR.Widget({
+        version: 2,
+        type: 'search',
+        search: encodeURIComponent('10.1371/journal.pcbi.1002746'),
+        interval: 6000,
+        title: '',
+        subject: 'From Twitter',
+        width: 300,
+        height: 300,
+        theme: {
+          shell: {
+            background: '#667893',
+            color: '#ffffff'
+          },
+          tweets: {
+            background: '#ffffff',
+            color: '#444444',
+            links: '#006699'
+          }
+        },
+        features: {
+          scrollbar: true,
+          loop: false,
+          live: true,
+          hashtags: true,
+          timestamp: true,
+          avatars: true,
+          toptweets: true,
+          behavior: 'all'
+        }
+      }).render().start();
+    </script>
+  </div>
+</div>
+<!-- end : right hand column -->
+<form name="articleInfo" id="articleInfo" method="" action="">
+<input type="hidden" name="isAuthor" value="true" />
+<input type="hidden" name="authorIdList" value="" />
+<input type="hidden" name="userIdList" value="" />
+<input type="hidden" name="otherIdList" value="" />
+<input type="hidden" name="annotationId" value="" />
+<input type="hidden" name="isResearchArticle" value="true" />
+</form>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.XML" value="101762"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.PDF" value="1219073"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e001.TIF" value="434"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e001.PNG" value="435"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g001.TIF" value="539982"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g001.PNG_I" value="141141"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g001.PNG_S" value="23383"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g001.PNG_M" value="111774"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g001.PNG_L" value="124549"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e002.TIF" value="512"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e002.PNG" value="468"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g002.TIF" value="200262"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g002.PNG_I" value="22865"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g002.PNG_S" value="10294"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g002.PNG_M" value="42148"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g002.PNG_L" value="39644"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e003.TIF" value="1004"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e003.PNG" value="716"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e004.TIF" value="816"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e004.PNG" value="622"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e005.TIF" value="2060"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e005.PNG" value="1211"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g003.TIF" value="556696"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g003.PNG_I" value="53517"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g003.PNG_S" value="16765"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g003.PNG_M" value="114883"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g003.PNG_L" value="187751"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g004.TIF" value="1106326"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g004.PNG_I" value="94399"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g004.PNG_S" value="21326"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g004.PNG_M" value="172868"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g004.PNG_L" value="384235"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e006.TIF" value="5758"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e006.PNG" value="2968"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g005.TIF" value="215502"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g005.PNG_I" value="59868"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g005.PNG_S" value="19544"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g005.PNG_M" value="117094"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g005.PNG_L" value="82320"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e007.TIF" value="816"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e007.PNG" value="622"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g006.TIF" value="943906"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g006.PNG_I" value="88234"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g006.PNG_S" value="21267"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g006.PNG_M" value="158012"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g006.PNG_L" value="336454"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g007.TIF" value="220784"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g007.PNG_I" value="61525"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g007.PNG_S" value="21772"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g007.PNG_M" value="121196"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.g007.PNG_L" value="72298"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e008.TIF" value="648"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e008.PNG" value="531"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e009.TIF" value="2630"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e009.PNG" value="1482"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e010.TIF" value="2088"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e010.PNG" value="1194"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e011.TIF" value="1020"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e011.PNG" value="711"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e012.TIF" value="1432"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e012.PNG" value="889"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e013.TIF" value="1020"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e013.PNG" value="711"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e014.TIF" value="1360"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e014.PNG" value="847"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e015.TIF" value="1360"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e015.PNG" value="847"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e016.TIF" value="1202"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e016.PNG" value="791"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e017.TIF" value="854"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e017.PNG" value="640"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e018.TIF" value="1070"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e018.PNG" value="728"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e019.TIF" value="1070"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e019.PNG" value="728"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e020.TIF" value="1020"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e020.PNG" value="711"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e021.TIF" value="1020"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e021.PNG" value="711"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e022.TIF" value="1020"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e022.PNG" value="711"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e023.TIF" value="6080"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e023.PNG" value="3088"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e024.TIF" value="2520"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e024.PNG" value="1471"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e025.TIF" value="2578"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e025.PNG" value="1493"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e026.TIF" value="2520"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e026.PNG" value="1471"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e027.TIF" value="8914"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.e027.PNG" value="4019"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.s001.EPS" value="29621"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.s002.EPS" value="1316981"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.s003.EPS" value="1305216"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.s004.EPS" value="1298489"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.s005.EPS" value="3210803"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.s006.EPS" value="438328"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.s007.PDF" value="41959"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.s008.PDF" value="45811"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.s009.PDF" value="48714"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.s010.PDF" value="76792"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.s011.PDF" value="121146"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002746.s012.PDF" value="172875"/>
+<div id="articleContainer">
+
+<span about="http://www.plos.org"  typeof="foaf:Organization" property="foaf:name" style="display:none; visibility:hidden;">PLOS</span>
+<div id="researchArticle" class="content">
+  <span rel="dc:publisher" href="http://www.plos.org"></span>
+  <a id="top" name="top"></a>
+<div id="contentHeader" xpathLocation="noSelect">
+  <p>Open Access</p><p id="articleType">Research Article</p>
+</div>
+
+  <h1 xpathLocation="noSelect" property="dc:title" datatype="" rel="dc:type" href="http://purl.org/dc/dcmitype/Text">Determining Host Metabolic Limitations on Viral Replication via Integrated Modeling and Experimental Perturbation</h1>
+  <div property="dc:description" datatype="" style="display:none; visibility:hidden;">Author SummaryViral infection is a serious problem with relatively few known solutions. Much of the complexity of viral infection is contributed by the host's own resources that the virus commandeers. Viruses lack the machinery and precursors required to replicate, and thus may be considered metabolic products of their host. Our goal is a systems-level understanding of host-viral metabolic interaction via computational tools and quantitative dynamic measurements. Here we present an integrated model of T7 phage viral replication and host E. coli metabolism that predicts phage production changes across media conditions and provides insight into the underlying limiting factors in T7 replication. The model simulations, supported by our experimental measurements, highlight the role of host metabolism in determining the dynamics of viral infection.</div>
+  <span property="dc:date" content="2012-10-18" datatype="xsd:date" rel="dc:identifier" href="http://dx.doi.org/10.1371/journal.pcbi.1002746"></span>
+  <span property="dc:subject" content="Computational Biology"></span>
+  <span property="dc:subject" content="Genetics and Genomics"></span>
+<form action="">
+  <input type="hidden" name="journalDisplayName" id="journalDisplayName" value="PLOS Computational Biology" />
+  <input type="hidden" name="crossRefPageURL" id="crossRefPageURL" value="/article/crossref/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002746;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" />
+  <input type="hidden" name="twitterPageURL" id="twitterPageURL" value="/article/twitter/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002746;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" />
+  <input type="hidden" name="metricsTabURL" id="metricsTabURL" value="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002746;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" />
+  <input type="hidden" name="doi" id="doi" value="info:doi/10.1371/journal.pcbi.1002746" />
+  <input type="hidden" name="articleTitleUnformatted" id="articleTitleUnformatted" value="Determining%20Host%20Metabolic%20Limitations%20on%20Viral%20Replication%20via%20Integrated%20Modeling%20and%20Experimental%20Perturbation" />
+  <input type="hidden" name="articlePubDate" id="articlePubDate" value="1350543600000" />
+</form>
+<div class="horizontalTabs" xpathLocation="noSelect">
+  <ul id="tabsContainer">
+        <li id="article" class="active"><a href="/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002746;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" class="tab" title="Article">Article</a></li>
+        <li id="metrics"><a href="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002746;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" class="tab" title="Metrics">Metrics</a></li>
+        <li id="related"><a href="/article/related/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002746;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" class="tab" title="Related Content">Related Content</a></li>
+        <li id="comments"><a href="/article/comments/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002746;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" class="tab" title="Comments">Comments: 0</a></li>
+  </ul>
+</div>
+  <div id="articleMenuBox" xpathLocation="noSelect">
+    <div id="articleMenu">
+      <div class="wrap">
+        <ul>
+          <li class="annotation icon">To <strong>add a note</strong>, highlight some text. <a href="#" onclick="toggleAnnotation(this, 'public'); return false;" title="Click to turn notes on/off">Hide notes</a></li>
+          <li class="discuss icon">
+              <a href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002746">Make a general comment</a>
+          </li>
+        </ul>
+        <div id="sectionNavTopBox" style="display:none;">
+          <p><strong>Jump to</strong></p>
+          <div id="sectionNavTop" class="tools"></div>
+        </div>
+      </div>
+    </div>
+      <div id="lightBox" xpathLocation="noDialog" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002746')">
+      </div>
+  </div>
+
+
+
+
+<p class="authors" xpathLocation="noSelect"><span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Elsa W. Birch</span></span><sup><a href="#aff1">1</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Nicholas A. Ruggero</span></span><sup><a href="#aff1">1</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Markus W. Covert</span></span><sup><a href="#aff2">2</a></sup><sup><a href="#cor1" class="fnoteref">*</a></sup></p><p class="affiliations" xpathLocation="noSelect"><a name="aff1" id="aff1"></a><strong>1</strong> Chemical Engineering, Stanford University, Stanford, California, United States of America, <a name="aff2" id="aff2"></a><strong>2</strong> Bioengineering, Stanford University, Stanford, California, United States of America</p><div class="abstract" xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[1]"><a id="abstract0" name="abstract0" toc="abstract0" title="Abstract"></a><h2 xpathLocation="noSelect">Abstract&nbsp;<a href="#top">Top</a></h2><p xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[1]/p[1]">Viral replication relies on host metabolic machinery and precursors to produce large numbers of progeny - often very rapidly. A fundamental example is the infection of <em>Escherichia coli</em> by bacteriophage T7. The resource draw imposed by viral replication represents a significant and complex perturbation to the extensive and interconnected network of host metabolic pathways. To better understand this system, we have integrated a set of structured ordinary differential equations quantifying T7 replication and an <em>E. coli</em> flux balance analysis metabolic model. Further, we present here an integrated simulation algorithm enforcing mutual constraint by the models across the entire duration of phage replication. This method enables quantitative dynamic prediction of virion production given only specification of host nutritional environment, and predictions compare favorably to experimental measurements of phage replication in multiple environments. The level of detail of our computational predictions facilitates exploration of the dynamic changes in host metabolic fluxes that result from viral resource consumption, as well as analysis of the limiting processes dictating maximum viral progeny production. For example, although it is commonly assumed that viral infection dynamics are predominantly limited by the amount of protein synthesis machinery in the host, our results suggest that in many cases metabolic limitation is at least as strict. Taken together, these results emphasize the importance of considering viral infections in the context of host metabolism.</p>
+</div><div class="abstract" xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[2]"><a id="abstract1" name="abstract1" toc="abstract1" title="Author Summary"></a>
+<h2 xpathLocation="noSelect">Author Summary&nbsp;<a href="#top">Top</a></h2>
+<p xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[2]/p[1]">Viral infection is a serious problem with relatively few known solutions. Much of the complexity of viral infection is contributed by the host's own resources that the virus commandeers. Viruses lack the machinery and precursors required to replicate, and thus may be considered metabolic products of their host. Our goal is a systems-level understanding of host-viral metabolic interaction via computational tools and quantitative dynamic measurements. Here we present an integrated model of T7 phage viral replication and host <em>E. coli</em> metabolism that predicts phage production changes across media conditions and provides insight into the underlying limiting factors in T7 replication. The model simulations, supported by our experimental measurements, highlight the role of host metabolism in determining the dynamics of viral infection.</p>
+</div>
+
+
+<div class="articleinfo" xpathLocation="noSelect"><p><strong>Citation: </strong>Birch EW, Ruggero NA, Covert MW (2012) Determining Host Metabolic Limitations on Viral Replication via Integrated Modeling and Experimental Perturbation. PLoS Comput Biol 8(10):
+          e1002746.
+            doi:10.1371/journal.pcbi.1002746</p><p><strong>Editor: </strong>Costas D. Maranas, 
+        The Pennsylvania State University, United States of America
+      </p><p></p><p><strong>Received:</strong> May 27, 2012; <strong>Accepted:</strong> August 31, 2012; <strong>Published:</strong> October 18, 2012</p><p><strong>Copyright:</strong> ©  Birch et al. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</p><p><strong>Funding: </strong>This work was supported by an NIH Director's Pioneer Award (5DP1LM01150-05) to MWC, an NSF Graduate Student Fellowship to NAR, and a Stanford BioX Graduate Student Fellowship to EWB. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p><p><strong>Competing interests:</strong> The authors have declared that no competing interests exist.</p><p><a name="cor1"></a>* E-mail: <a href="mailto:mcovert@stanford.edu">mcovert@stanford.edu</a></p></div>
+
+
+
+
+
+<div id="section1" xpathLocation="/article[1]/body[1]/sec[1]"><a id="s1" name="s1" toc="s1" title="Introduction"></a><h3 xpathLocation="noSelect">Introduction&nbsp;<a href="#top">Top</a></h3><p xpathLocation="/article[1]/body[1]/sec[1]/p[1]">Any virus is necessarily a metabolic product of its host, since viruses lack the macromolecule machinery and small molecule precursors required to replicate. This dependence has been underscored by recent screens to determine the host genes required for viral infection in a variety of species. The published sets of host-gene viral dependencies have consistently included metabolic genes - both enzymes and regulators - in systems ranging from phages T7 and lambda, to the human viruses HIV and influenza <a href="#pcbi.1002746-Maynard1">[1]</a>–<a href="#pcbi.1002746-Knig2">[8]</a>. In complementary findings, some bacterial viruses have recently been shown to encode components as well as direct modifiers of host metabolic machinery <a href="#pcbi.1002746-Bragg1">[9]</a>, <a href="#pcbi.1002746-Clokie1">[10]</a>. Taken together, these studies emphasize the need to understand viral infection in the context of host metabolism <a href="#pcbi.1002746-Maynard2">[11]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[2]">Viral host dependency screens are useful for identifying individual host genes involved in the metabolic interplay of viral infection; however, studying any of these single points of connection is likely to reveal a complex network of host-viral interactions <a href="#pcbi.1002746-Maynard3">[12]</a>. Understanding infection as a highly integrated system is therefore necessary to predict the outcome of viral infection following perturbations, such as changes to the host nutritional environment. Similarly, metabolism is a deeply interconnected network, and viral infection represents a dynamic perturbation of it. Achieving a systems-level understanding of host-viral metabolic interaction therefore requires, a strong set of computational tools coupled with quantitative dynamic measurements.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[3]">Given the challenge presented by developing such modeling tools and making the needed measurements, bacteria and their viruses, particularly <em>E. coli</em> and certain of its bacteriophages, are favorable candidate model systems for building a systems-level understanding of infection. These systems have a long history of study, individually and together, and as a result are associated with a wealth of well-established observations and experimental protocols. Additionally, the host-viral dependency screens involving <em>E. coli</em> identified sets of genes whose products were far better characterized and annotated than in any other screen <a href="#pcbi.1002746-Maynard1">[1]</a>, <a href="#pcbi.1002746-Qimron1">[2]</a>. These systems also have industrial relevance: threatening large-scale cultures <a href="#pcbi.1002746-Bogosian1">[13]</a>, and alternately providing highly specific disinfection tools <a href="#pcbi.1002746-Hagens1">[14]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[4]">Critically, <em>E. coli</em> and its phage are sufficiently understood to enable the construction of predictive computational models. Phage T7 replication has been described with structured ordinary differential equations (ODEs), that account for the dynamic production of molecular species that comprise the phage during infection <a href="#pcbi.1002746-Endy1">[15]</a> (<a href="#pcbi-1002746-g001">Figure 1A</a> right). This model was used to computationally predict the infection outcome of phage genome modifications <a href="#pcbi.1002746-Endy2">[16]</a>, <a href="#pcbi.1002746-Endy3">[17]</a>. Separately, host <em>E. coli</em> metabolism has been most comprehensively modeled using Flux Balance Analysis (FBA), which uses linear optimization of an objective function to solve a system of steady-state mass balance ODEs <a href="#pcbi.1002746-Varma1">[18]</a>. FBA-based models have expanded to account for essentially all of the known metabolic functionality in <em>E. coli</em> (<a href="#pcbi-1002746-g001">Figure 1A</a> upper left) <a href="#pcbi.1002746-Reed1">[19]</a>–<a href="#pcbi.1002746-Orth1">[21]</a>; these models capture growth rates and nutrient exhaustion as well as the impact of genome perturbation and evolutionary outcomes over time <a href="#pcbi.1002746-Covert1">[22]</a>–<a href="#pcbi.1002746-Orth2">[24]</a>.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[1]/fig[1]"><a name="pcbi-1002746-g001" id="pcbi-1002746-g001" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002746?imageURI=info:doi/10.1371/journal.pcbi.1002746.g001" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002746', 'info:doi/10.1371/journal.pcbi.1002746.g001');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002746', 'info:doi/10.1371/journal.pcbi.1002746.g001');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.g001&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[1]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002746?imageURI=info:doi/10.1371/journal.pcbi.1002746.g001" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002746', 'info:doi/10.1371/journal.pcbi.1002746.g001');"><span>Figure 1. </span></a> <span xpathLocation="/article[1]/body[1]/sec[1]/fig[1]/caption[1]/title[1]">Model approaches, scopes, and additions used in the current integration.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[1]/fig[1]/caption[1]/p[1]">(A) The computational methods and the organisms represented by previous modeling efforts that are combined in this study. (B) The additional reactions constructed in this study for the purpose of translating T7 ODE reaction rates into host metabolite use. Shown at the top for each category is a schematic of metabolite connections to host metabolism, and under it the full stoichiometric reaction, which may be a formula based on nucleotide or amino acid sequence (the gene designations <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.e001&amp;representation=PNG"></span> taking both decimal and integer values in correspondence with the naming of T7 genes <a href="#pcbi.1002746-Studier2">[36]</a>, a total of n = 59 included). Assumptions made in formulating the reactions are expanded in Methods and SI, and the metabolite abbreviations used are consistent with the FBA model definition.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002746.g001</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002746.g001/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002746.g001/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002746.g001.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002746.g001/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002746.g001.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[1]/p[5]">Two previous extensions of the <em>E. coli</em> FBA and T7 ODE models have attempted to encode some dependence of viral replication on host state. One effort was based on the <em>E. coli</em> FBA model, with metabolic reactions added to describe production of MS2 virions <a href="#pcbi.1002746-Jain1">[25]</a>, thus demonstrating the fundamental translation of viral composition to host metabolic terms (the analogous translation for T7 is denoted in <a href="#pcbi-1002746-g001">Figure 1A</a>, lower left). The implemented FBA objective function assumed that the host optimized all of its resources toward viral production immediately upon infection, resulting in an overprediction of phage production. The other modeling effort added a set of correlations between the host growth rate and the availability of replication machinery for T7 processes <a href="#pcbi.1002746-You1">[26]</a>, improving the model's predictions (<a href="#pcbi-1002746-g001">Figure 1A</a> upper right) to the T7 ODE model.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[6]">Both of these efforts strongly suggest that a comprehensive, detailed effort to integrate the host and virus into a single computational model will significantly advance our understanding of viral infection in its metabolic context. Ideally such an effort would build on previous work with this host-virus system, despite the different ODE and FBA modeling techniques. Integration of FBA and ODE-type models sets the flux values for a subset of reactions using available kinetic rate equations <a href="#pcbi.1002746-Covert2">[27]</a>, providing a conceptual framework for combining the host and viral models as depicted in <a href="#pcbi-1002746-g001">Figure 1A</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[7]">Here we present an integrated model that is based equally on <em>E. coli</em> FBA and the T7 ODEs. It includes a mathematical description of metabolic reactions and demand introduced by the virus, as well as a simulation algorithm that facilitates interaction between the two models throughout the entire course of infection. Our integrated modeling approach enables us to predict phage production changes as the host nutritional environment shifts, and provides insight into the underlying limiting factors in T7 infection.</p>
+</div>
+
+<div id="section2" xpathLocation="/article[1]/body[1]/sec[2]"><a id="s2" name="s2" toc="s2" title="Results"></a><h3 xpathLocation="noSelect">Results&nbsp;<a href="#top">Top</a></h3>
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/title[1]">An Integrated Model of E. coli and T7 Infection</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[1]">Our integration of the T7 ODEs and <em>E. coli</em> FBA (<a href="#pcbi-1002746-g001">Figure 1A</a>) began with a set of additions to each of the individual models. The <em>E. coli</em> FBA model stoichiometric matrix required new reactions to describe the routing of host precursors and energy towards viral synthesis. One reaction was constructed for the synthesis of each viral species represented in the ODE model: mRNA and protein for each of 59 viral genes, viral genome synthesis, and a reaction enforcing the recharge of nucleotide monophosphates (NMPs) released from host genome degradation (123 total reactions; <a href="#pcbi-1002746-g001">Figure 1B</a> and Methods). The T7 ODEs required one ‘production only’ reaction rate equation for each of the 123 phage reactions that consume the host metabolites that were added to the host FBA; the net concentration change rate for each molecular species in the original T7 ODEs consisted of production minus consumption terms. However, only the production rate term constrained the stoichiometric reaction in the FBA.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[2]">Furthermore, predictions based on the T7 ODEs are valid for a single infection cycle only, and lysis has not been modeled because knowledge of the proteins involved is still insufficient to inform a meaningful representation <a href="#pcbi.1002746-Kutter1">[28]</a>. As a result we constrained the scope of the integrated model to one single infection cycle.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[3]">Next, we expanded the integrated-FBA approach beyond its original capacity to handle the viral demand for resources when these resource demands outpaced the host production capacity. The original implementation of integrated-FBA <a href="#pcbi.1002746-Covert2">[27]</a> included ODEs based on central metabolism, which were informed by the environmental state and thus remained within the capacity of host metabolism without any direct communication of host limitations. In contrast, the T7 ODEs do not encode variation in the environmental conditions or the corresponding changes in the host network state's supply of metabolites. As a result, conflicts between the viral metabolite demands and host metabolite supply can arise during the simulation. We therefore encoded communication of information about host limits to the T7 ODEs. This strategy was complicated by the fact that the kinetic formulation of the T7 ODEs is largely independent of small molecule concentrations, except for the nucleotides required for T7 genome synthesis. Furthermore, FBA does not provide concentration information.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[4]">Consequently, we devised a metabolite allocation-based approach to bounding reaction rates. Recognizing that the host-viral metabolic interface is the set of common metabolites used in macromolecule synthesis, we split the matrix formulation (<a href="#pcbi-1002746-g002">Figure 2A</a>) into a sum of metabolite rate vectors that represent the host supply and viral demand, where the former constrains the latter. Given a selected host flux distribution, we calculate a strict bound on viral metabolite use. Due to the lack of kinetic information about how the viral metabolic reactions contribute to the metabolite demand, we assume that all viral reactions have an equal and high affinity for precursor metabolites. After calculating rates for the viral reactions from the T7 ODEs to determine the demand for viral metabolites, we scale the rates of all reactions consuming a given metabolite by the same fraction such that total demand is brought within host supply. This method assures that while all reactions are limited evenly, no reaction is limited by a metabolite it does not consume; if amino acids are scarce but dNTPs are available, genome synthesis can proceed but translation cannot.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]"><a name="pcbi-1002746-g002" id="pcbi-1002746-g002" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002746?imageURI=info:doi/10.1371/journal.pcbi.1002746.g002" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002746', 'info:doi/10.1371/journal.pcbi.1002746.g002');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002746', 'info:doi/10.1371/journal.pcbi.1002746.g002');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.g002&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002746?imageURI=info:doi/10.1371/journal.pcbi.1002746.g002" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002746', 'info:doi/10.1371/journal.pcbi.1002746.g002');"><span>Figure 2. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]/caption[1]/title[1]">Format and method for the integrated simulation.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]/caption[1]/p[1]">(A) The combined host-viral form of the integrated FBA problem is a stoichiometric matrix (Stoich.) that can be considered as blocks: left, the independent host stoichiometric matrix; right, viral reactions consuming host metabolites. The combined matrix may be further organized by host metabolites that do not supply viral reactions (rows of the <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.e002&amp;representation=PNG"></span> matrix in the upper right) and host metabolites that are consumed by viral reactions (rows at the bottom aligned with Host-Viral Stoich). The vector of fluxes contains host reaction rates at the top and viral reaction fluxes at the bottom to multiply properly with the host-left and viral-right organization of reactions in the stoichiometric matrix. Accumulation is allowed at the intersections of host viral metabolism (Met. Accumulation; right), but the steady-state assumption is enforced for host-only metabolites (0). A simplified flowchart (B) of the algorithm for integrated simulations, where Initialize indicates the definition of media nutritional conditions and the start of iterations across time, simulating at each integration time point the individual T7 ODEs and <em>E. coli</em> FBA, then reconciling the viral rate metabolite demand with host network state supply (Allocate). Both models are then recalculated to incorporate information on their mutual constraint (Revised Viral Demand, and Infected Host Fluxes). Update of environmental information and regulatory constraints at the initiation of each integration step (not specifically denoted on figure) further constrains the host-viral system.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002746.g002</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002746.g002/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002746.g002/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002746.g002.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002746.g002/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002746.g002.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[5]">In summary, this allocation method converts the information about the host metabolic network state into constraints on the T7 ODEs. We implemented this method as part of an algorithm for T7 ODE and <em>E. coli</em> FBA integration with bidirectional information exchange and mutual constraint at each time step (<a href="#pcbi-1002746-g002">Figure 2B</a>). After initial specification of the host nutritional environment, the overall viral demand is calculated (without consideration of host limits) using the T7 ODEs, and the host capacity calculated using FBA. Host supply and viral demand are reconciled by calculating the upper bounds on viral production fluxes, after which the T7 ODEs are re-evaluated over the integration time step because metabolite limitation of one viral ODE may affect the ODE solution as a whole. Finally, the infected host flux distribution is calculated using optimization on the host metabolic network, with viral fluxes bounded exactly to constrained T7 ODE reaction rate values.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/title[1]">Comparing Model and Experimental Data - Tryptone Media</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/p[1]">To validate the ability of the model to predict infection phenotypes, we observed <em>E. coli</em> infection by T7 during growth on tryptone broth. We first measured the growth of <em>E. coli</em> cultures in the presence and absence of T7 (<a href="#pcbi-1002746-g003">Figure 3A</a>). The culture is cleared within 35 minutes, representing approximately two infection cycles at <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.e003&amp;representation=PNG"></span>.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[1]"><a name="pcbi-1002746-g003" id="pcbi-1002746-g003" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002746?imageURI=info:doi/10.1371/journal.pcbi.1002746.g003" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002746', 'info:doi/10.1371/journal.pcbi.1002746.g003');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002746', 'info:doi/10.1371/journal.pcbi.1002746.g003');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.g003&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002746?imageURI=info:doi/10.1371/journal.pcbi.1002746.g003" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002746', 'info:doi/10.1371/journal.pcbi.1002746.g003');"><span>Figure 3. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[1]/caption[1]/title[1]">Host population and phage population time courses.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[1]/caption[1]/p[1]">(A) Dynamic time courses of experimental host population data uninfected (line is mean of n = 2) and infected cultures (line is mean of n = 3); an immediate drop in population density occurs when the solution of phage is added at <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.e004&amp;representation=PNG"></span>, due to dilution. Initial infection multiplicity was 0.1. (B) Measured and simulated phage production per infected host in tryptone broth media (circles are mean, error bars shown are the standard deviation, n = 3). Simulation presented for the integrated model and T7 ODEs alone simulated at <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.e005&amp;representation=PNG"></span>. (C) Expanded comparison of the simulated concentrations of critical phage replication machinery and phage virion components compared to T7 ODEs alone. Gene Product 1 is the T7 RNA polymerase; Gene product 10A is the major capsid protein.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002746.g003</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002746.g003/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002746.g003/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002746.g003.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002746.g003/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002746.g003.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/p[2]">Unfortunately, with standard OD resolution, the infected and uninfected cultures were not distinguishable from one another within the single infection cycle (<a href="#pcbi-1002746-g003">Figure 3A</a>) simulated by the model. Thus, differences in host growth rate were not a useful metric to assess the prediction performance of our computational model. We therefore returned to the traditional plaque assay-based approach to determine the number of phage produced per infected host cell during a single initial infection cycle, consistent with previous work with the T7 ODEs <a href="#pcbi.1002746-Endy1">[15]</a>, <a href="#pcbi.1002746-You1">[26]</a> (<a href="#pcbi-1002746-g003">Figure 3B</a>). We observed rapid increases in the number of phage beginning around 10 minutes.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/p[3]">To compare model predictions to observations, we simulated phage production time courses under the same environmental conditions using our fully integrated model as well as the T7 ODEs alone. We found that the T7 ODEs alone substantially overpredicted the production of T7 phage over time (<a href="#pcbi-1002746-g003">Figure 3B</a>). This overprediction has been reported previously <a href="#pcbi.1002746-Endy1">[15]</a>, <a href="#pcbi.1002746-You1">[26]</a>. The integrated model more accurately captured the phage production time course (<a href="#pcbi-1002746-g003">Figure 3B</a>), suggesting that the integrated model is limiting the production of T7 virions (detailed comparison across media given below).</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/p[4]">To determine the cause of this limitation, we considered the model's predictions of phage production and host metabolism in more detail. We compared simulated intracellular concentrations of selected phage components for the integrated simulation to those during simulation of the T7 ODEs alone (<a href="#pcbi-1002746-g003">Figure 3C</a>). The model predicts that production of Gene Product (GP) 1 is limited at translation; GP 1 is the T7 RNA polymerase and is required to transcribe middle and late T7 genes. Despite reduced transcription capacity, sufficient mRNA for the major capsid protein (Gene 10A) is still produced. Major capsid protein production is metabolically limited at translation, and thus procapsid availability for phage assembly is decreased, resulting in fewer phage produced during late infection than predicted by the T7 ODEs alone. In the integrated simulation, although phage T7 genome is produced at the same rate as the T7 ODEs alone, it is not packaged as quickly, with a considerable fraction of the total genomes produced remaining unpackaged after assumed lysis. This excess phage T7 genome resulting from phage production limitation at the protein level is consistent with previous experimental observations <a href="#pcbi.1002746-Endy1">[15]</a>. The most prominent limitation by metabolism appears during the later steps of replication: mid and late gene product synthesis and genome production. In contrast, mRNA production is relatively unperturbed early in the simulation, suggesting that metabolic limitation varies in its impact over different periods during infection.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/p[5]">After considering the phage reaction changes in the integrated simulation, we used the model to investigate the changes in host metabolism during infection. The flux-balance component of the integrated model calculates a predicted flux distribution for <em>E. coli</em> growth on tryptone in the presence and absence of phage. Essentially all of the non-zero fluxes change dynamically over time in the presence of T7; a subset of these changes are shown alongside the underlying metabolic map (<a href="#pcbi-1002746-g004">Figure 4</a>). Many metabolic reactions experienced prominent flux changes that were coordinated during infection. Dynamic coordination of fluxes in time is not particularly surprising considering the underlying network structure of constraints. However, these similarities in addition to the sheer number of total fluxes that require consideration render unaided visual inspection of infection dynamic information rather uninformative. We found it useful to cluster the flux dynamics into broad categories, which facilitate interpretation of the interesting flux patterns in central and peripheral metabolism during viral replication.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[2]"><a name="pcbi-1002746-g004" id="pcbi-1002746-g004" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002746?imageURI=info:doi/10.1371/journal.pcbi.1002746.g004" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002746', 'info:doi/10.1371/journal.pcbi.1002746.g004');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002746', 'info:doi/10.1371/journal.pcbi.1002746.g004');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.g004&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[2]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002746?imageURI=info:doi/10.1371/journal.pcbi.1002746.g004" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002746', 'info:doi/10.1371/journal.pcbi.1002746.g004');"><span>Figure 4. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[2]/caption[1]/title[1]">Infected host fluxes on tryptone media.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[2]/caption[1]/p[1]">(A) Flux dynamics are displayed for a subset of the metabolic network map. Arrows representing reactions and the subplots of flux through those reactions are colored according to clustering of flux dynamics. Positive flux values correspond to the reaction direction indicated by the colored arrowhead, negative flux direction is depicted with light grey barbs. Asterisks (*) represent an abbreviation of the arrow for uptake from media. Metabolite abbreviations are consistent with FBA model definition. For clustering, fluxes were treated as vectors with (1-correlation) as distance, and clustered using average hierarchical grouping with a cutoff height of 0.25. Clusters with fewer than ten members appear in black, and clusters with constant dynamics are highlighted in grey. All nonzero fluxes in any media (tryptone, glucose, succinate, and acetate) were included in the flux clustering so that cluster designation and color coding is consistent across media and figures. Maps for media other than tryptone are included in the SI. (B) Select flux dynamics expanded for clarity ordered to exemplify host flux changes driven by viral dynamics: (i) host amino acid synthesis, (ii) major viral capsid protein synthesis, (iii) host nucleotide phosphorylation, (iv) viral digestion of host genome to dNMPs, (v) purine biosynthesis, (vi) viral mRNA synthesis, (vii) viral genome synthesis, (viii) host cell envelope biosynthesis, (ix) host biomass accumulation.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002746.g004</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002746.g004/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002746.g004/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002746.g004.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002746.g004/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002746.g004.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/p[6]">The majority of the observed flux clusters are driven by viral flux requirements (<a href="#pcbi-1002746-g004">Figure 4B</a>). The increase in amino acid synthesis and uptake corresponds in time to the synthesis of viral proteins (<a href="#pcbi-1002746-g004">Figure 4Bi–ii</a>), and similarly flux through nucleotide phosphorylation is high during the period of host genome digestion to dNMPs and viral use of dNTPs (<a href="#pcbi-1002746-g004">Figure 4Biii–iv</a>). Increased nucleotide recharge and pooling is known to occur during phage T7 replication, due at least in part to interactions between phage gene products and host metabolic enzymes <a href="#pcbi.1002746-Qimron1">[2]</a>. Some complex host flux dynamics result from multiple viral resource interactions (<a href="#pcbi-1002746-g004">Figure 4Bv–vii</a>); flux towards nucleotides first increases during rapid early viral mRNA production, and then decreases as viral genome synthesis occurs, corresponding to the presence of large quantities of nucleotides.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/p[7]">Flux towards host membrane components and cofactors decreases as the ability of the host to synthesize biomass is reduced by the viral draw on components (biomass flux decrease before 5 min) and energy (biomass flux decrease between 5 and 10 mins during dNTP recycling) (<a href="#pcbi-1002746-g004">Figure 4Bvii–ix</a>; light blue). This cluster is the largest of the nonzero flux clusters across and within media, and the sharp decrease in flux within 5 min represents the shutdown in processes that are not required by the virus. Interestingly, this shutdown is not explicitly encoded by either model and therefore represents an emergent property of the integrated model system. The detailed flux maps therefore provide potential for a deeper biological insight regarding the underlying metabolic changes that occur during viral infection.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/title[1]">Comparing Model and Experimental Data - Other Media</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[1]">The T7 ODEs were originally parameterized to fit data where <em>E. coli</em> grew on tryptone broth or other rich media <a href="#pcbi.1002746-Endy1">[15]</a>. Later work incorporated correlations between available host machinery (e.g., ribosomes) and host growth rate into the ODEs in order to account for the effect of growth rate on infection dynamics <a href="#pcbi.1002746-You1">[26]</a>. Host metabolism is encoded explicitly in our integrated host-virus model, and so instead of a given growth rate parameter, the integrated model requires only the environmental conditions as inputs.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[2]">Unlike either individual model, the integrated model is capable of predicting the viral infection dynamics for many different culture conditions. We tested model predictions for three previously unmodeled conditions: glucose, succinate, and acetate minimal media. In each case, we measured the phage production over time (<a href="#pcbi-1002746-g005">Figure 5</a>, bottom left and top panels). For glucose and succinate media, the models produced dynamics nearly identical to each other as well as similar to the experimental data. However, for infections on acetate minimal media, the integrated model was more accurate than the T7 ODEs alone. The two predicted time courses differ because the integrated model accounts for the slow growth and nutritional limitation of <em>E. coli</em> on acetate (roughly half of the growth rate on succinate). In particular, small decreases in gene product synthesis result in delayed achievement of the thresholds necessary for phage genome replication initiation. Furthermore, all of the simulations, from both the integrated model and the ODEs alone, deviate from the typical one-step-growth phage production trajectory. This is due to the rigid description of host DNA degradation and incorporation into viral genomes in the ODEs, which was originally characterized under a single environmental condition. Quantitative comparison of our observations to the model predictions verified that tryptone simulations were the most indicative of experiment, and that the tryptone and acetate integrated model simulations outperformed those of the ODEs alone (<a href="#pcbi-1002746-g005">Figure 5</a>, bottom right panel).</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[1]"><a name="pcbi-1002746-g005" id="pcbi-1002746-g005" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002746?imageURI=info:doi/10.1371/journal.pcbi.1002746.g005" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002746', 'info:doi/10.1371/journal.pcbi.1002746.g005');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002746', 'info:doi/10.1371/journal.pcbi.1002746.g005');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.g005&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002746?imageURI=info:doi/10.1371/journal.pcbi.1002746.g005" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002746', 'info:doi/10.1371/journal.pcbi.1002746.g005');"><span>Figure 5. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[1]/caption[1]/title[1]">Measured and simulated phage production.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[1]/caption[1]/p[1]">Shown per infected host, across time, experiment compared to model predictions for integrated model system, and the T7 ODEs alone, on M9 minimal media with glucose, succinate, or acetate as carbon source (growth rates for T7 ODEs alone are <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.e006&amp;representation=PNG"></span>, respectively). Error bars are standard deviation of n = 3. For glucose and succinate media the T7 ODEs time course is not visible because it falls directly beneath the integrated simulation line. The lower right panel quantifies the goodness of fit of the integrated simulation and the T7 ODEs alone to experimental observations using normalized mean squared error.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002746.g005</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002746.g005/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002746.g005/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002746.g005.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002746.g005/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002746.g005.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[3]">We next wanted to understand how the host and viral fluxes change under these different nutrient conditions. Detailed individual media flux maps analogous to 4 are provided for glucose, succinate, and acetate media in Figures S2, S3, and S4 respectively. To generate a global evaluation of the host flux response to infection on varying media, we analyzed the aggregate similarity of the total flux distribution between pairs of media (<a href="#pcbi.1002746.s005">Figure S5</a>). Generally this comparison indicated that the flux distribution for infection during growth on acetate was very similar to the distribution during growth on succinate, while there was more divergence between the tryptone and glucose flux distributions than for any other media pair.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[4]"><a href="#pcbi-1002746-g006">Figure 6</a> displays the dynamic metabolic flux distribution for all four infection simulations, normalized to facilitate comparison. Of the fluxes that are non-zero in any of the media conditions, a large fraction show highly similar dynamics. These fluxes include critical biomass-related reactions such as those that contribute to membrane (<a href="#pcbi-1002746-g006">Figure 6Bi–iii</a>) or ribonuclotide biosynthesis. In some regions of the metabolic network, flux dynamics depend more on the media conditions; for example, in central metabolism the flux direction is often reversed between glucose and the other media because glycolysis is occurring rather than gluconeogenesis (<a href="#pcbi-1002746-g006">Figure 6Biv</a>). Reactions involved in amino acid synthesis also exhibit this phenomenon, as they increase in rate on all three minimal media, yet are zero on tryptone medium (<a href="#pcbi-1002746-g006">Figure 6Bv</a>), which contains amino acids. Another interesting example involves citric acid cycle activity, which is especially increased during the high energy demands of nucleotide recycling (<a href="#pcbi-1002746-g006">Figure 6Bvi</a>). One final subset, adjacent to key metabolites such as pyruvate (PYR), oxaloacetate (OAA), and succinate (SUCC), displayed erratic and rapid jumps between their extreme values, which results from equivalent optimal flux distributions calculated by FBA in highly interconnected sections of the metabolic network.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[2]"><a name="pcbi-1002746-g006" id="pcbi-1002746-g006" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002746?imageURI=info:doi/10.1371/journal.pcbi.1002746.g006" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002746', 'info:doi/10.1371/journal.pcbi.1002746.g006');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002746', 'info:doi/10.1371/journal.pcbi.1002746.g006');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.g006&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[2]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002746?imageURI=info:doi/10.1371/journal.pcbi.1002746.g006" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002746', 'info:doi/10.1371/journal.pcbi.1002746.g006');"><span>Figure 6. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[2]/caption[1]/title[1]">Comparing normalized infected host flux dynamics spark-lines for all four media.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[2]/caption[1]/p[1]">(A) Metabolic map and normalized flux dynamics for tryptone, glucose M9, succinate M9, and acetate M9 media. Flux values were shifted to the uninfected value (<span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.e007&amp;representation=PNG"></span>), and then normalized to their maximum magnitude on each medium; zero (initial) value is indicated by a grey horizontal line. Metabolite abbreviations are consistent with FBA model definition. (B) Expansion of a selected subset of normalized fluxes. Host cell envelope synthesis (i), and biomass accumulation (ii) decrease similarity across media. Purine synthesis (iii) exhibits dynamic similarity across media. Glycolysis (iv) is observed on glucose while gluconeogenisis occurs on other media. Amino acid synthesis (v) increases on minimal media but not on amino acid-rich tryptone; and the citric acid cycle (vi) demonstrates similarity in dynamic flux change timing, but differences in scaling and direction.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002746.g006</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002746.g006/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002746.g006/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002746.g006.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002746.g006/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002746.g006.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[5]">Finally, we used our model results to address the issue of host-based limitation of viral infection. Many studies assume that phage infection of <em>E. coli</em> is limited by “machinery” – the number of ribosomes, RNA polymerases, and similar factors. Another possibility is that in some cases the host metabolic rates are limiting factors; however, decoupling this limitation is difficult due to the regulation of <em>E. coli</em> protein synthesis capacity by the availability and type of nutrients <a href="#pcbi.1002746-Bremer1">[29]</a>. We sought to compare the effects of <em>E. coli</em> machinery- or metabolic-based limitation on T7 infection, an exploration enabled by our integrated simulation which can be perturbed in ways not practical experimentally. The detailed simulation output presented in <a href="#pcbi-1002746-g003">Figure 3C</a> indicates that metabolic limitation may be more prominent for certain phage processes and during specific periods of infection. As a summary output for comparison across conditions, we chose the phage production at seventeen minutes post infection. This point is shortly after which all cultures had begun to lyse, releasing phage, and thus making the bulk quantity relevant to phage propagation across generations within a host population.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[6]">The boundary representing machinery limitations is provided by evaluation of the T7 ODEs alone across varied input growth rates (<a href="#pcbi-1002746-g007">Figure 7</a>). The region that falls below the model prediction is feasible (dark gray), and everything above is not (light gray). To calculate the bounding metabolic phage production limitation, we simulated the integrated model with the modification that excess host replication machinery components were provided to the ODE model (accomplished by passing a higher host growth rate to the ODEs than that predicted by FBA). This calculation was carried out for carbon- and oxygen-limited growth at each resulting growth rate, which resulted in uniform predictions of phage production at each growth rate. Metabolic feasibility here refers to the supply of small molecule metabolites needed to build phage virions; the metabolic limit increases smoothly with host growth rate because the phage is made of a subset of the metabolites included in the host biomass reaction that represents FBA growth, and a state of host growth maximization is assumed for host supply. This context reveals the integrated model to be slightly mechanistically limited over the range of growth rates between approximately 0.4/hour and 1/hour, and more severely metabolically limited at higher and lower growth rates; however, simulations at very low growth rates do produce empty capsids, reflecting the strong repression of virion DNA production encoded in the ODEs. Metabolic limitation at high and low growth rates explains the better performance of the integrated model than the T7 ODEs alone in predicting phage production on acetate and tryptone media (<a href="#pcbi-1002746-g003">Figure 3</a> and <a href="#pcbi-1002746-g005">5</a> respectively).</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[3]"><a name="pcbi-1002746-g007" id="pcbi-1002746-g007" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002746?imageURI=info:doi/10.1371/journal.pcbi.1002746.g007" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002746', 'info:doi/10.1371/journal.pcbi.1002746.g007');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002746', 'info:doi/10.1371/journal.pcbi.1002746.g007');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.g007&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[3]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002746?imageURI=info:doi/10.1371/journal.pcbi.1002746.g007" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002746', 'info:doi/10.1371/journal.pcbi.1002746.g007');"><span>Figure 7. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[3]/caption[1]/title[1]">Variation in the limiting factor for phage production across host growth rates.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[3]/caption[1]/p[1]">Modeling results overlaid with experimental phage production measurements. The machinery-feasible region represents phage production values from T7 ODEs alone, with the growth rate supplied to correlations for availability of the host replication machinery; phage production values above the machinery-feasible boundary are considered machinery infeasible. The upper boundary of the metabolically feasible region was calculated using the integrated simulation, but with access to excess host replication factors, which we simulated by multiplying the host growth rate from FBA by a factor of 1.25 when it was passed to the T7 ODE host machinery correlations. Growth rate variation for calculating limitation boundaries and integrated simulation was evaluated with a set of modified flux bounds, with most growth rate sampling values simulated with both carbon and oxygen limitation, which produced essentially identical phage production predictions (resulting points lie within width of the line displayed). Error bars are standard deviation of n = 3.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002746.g007</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002746.g007/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002746.g007/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002746.g007.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002746.g007/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002746.g007.TIF"></span> TIFF)
+                  </a></li></ul></div></div>
+</div>
+
+<div id="section3" xpathLocation="/article[1]/body[1]/sec[3]"><a id="s3" name="s3" toc="s3" title="Discussion"></a><h3 xpathLocation="noSelect">Discussion&nbsp;<a href="#top">Top</a></h3><p xpathLocation="/article[1]/body[1]/sec[3]/p[1]">In summary, we investigated the role of host metabolism in viral infection. <em>E. coli</em> infection by T7 provided a unique opportunity to address this issue because each system had been modeled, parameterized, and tested independently. We integrated the host metabolic FBA and T7 ODE models and compared the resulting integrated model predictions with new experimental observations. We found that our integrated model was not only a better predictor of viral infection dynamics than either of the individual models for a range of experimental conditions, but also shed new insight on the interplay between virus and host during infection. Most of the active host metabolic pathways were highly impacted by the metabolic demand imposed by virion production. Moreover, we grouped and categorized these pathways by their dynamics; these groups were directly related to the timing of viral demand for key virion components.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/p[2]">It is commonly assumed that viral infection dynamics are predominantly limited by the amount of protein synthesis machinery in the host <a href="#pcbi.1002746-Endy1">[15]</a>, <a href="#pcbi.1002746-Hadas1">[30]</a>. In contrast, our results suggest that in many cases metabolic limitation is at least as severe as machinery limitation. This conclusion in turn implies that the wealth of available metabolic reconstructions may enable computational predictions on virion production even when detailed information about interaction with host macromolecules is lacking. More broadly, these results emphasize the importance of considering viral infections in the context of host metabolism.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/p[3]">Finally, we anticipate that models such as this integrated model may be used to rationally perturb the viral infection process by manipulating the host. The modeling and integration approaches developed here are general to a host flux-balance model and a set of viral ODEs, and by integrating the two it may be possible to predict key host metabolic factors whose absence would hamper infection, even as these factors depend on environmental conditions.</p>
+</div>
+
+<div id="section4" xpathLocation="/article[1]/body[1]/sec[4]"><a id="s4" name="s4" toc="s4" title="Materials and Methods"></a><h3 xpathLocation="noSelect">Materials and Methods&nbsp;<a href="#top">Top</a></h3>
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[1]/title[1]">Bacterial Strains, Phages, Media, and Assays</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[1]/p[1]">The bacterial host strain used was <em>E. coli</em> K12 BW25113, and WT T7 phage (ATCC, BAA-1025-B2) was propagated according to established protocol <a href="#pcbi.1002746-Studier1">[31]</a>. Tryptone media contained 10 g/liter Tryptone (BD Bionutrients Bacto<span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.e008&amp;representation=PNG"></span> Tryptone) and 5 g/liter NaCl consistent with previous T7 work <a href="#pcbi.1002746-Endy1">[15]</a>, <a href="#pcbi.1002746-Studier1">[31]</a>. M9 minimal media contained 56.4 g/liter Difco M9 Minimal salts, with added <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.e009&amp;representation=PNG"></span> and <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.e010&amp;representation=PNG"></span>; carbon sources glucose, succinate, and acetate were added at 10 mM, 15 mM, and 30 mM to media preparations, respectively. All culture experiments were conducted at <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.e011&amp;representation=PNG"></span> in a circulating water bath at a volume of 30 ml culture in a 250 ml flask that was magnetically stirred. Infections were at an initial MOI of 0.1 to assure hosts would only be infected once, and replicates were taken from separately infected flasks. Host population was measured as the optical density (OD) using a spectrophotometer at a wavelength of 595 nm. Phage dilution and storage was in SM phage buffer <a href="#pcbi.1002746-You1">[26]</a>. Measurements of phage titer were made by plating phage sample with <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.e012&amp;representation=PNG"></span> fresh bacterial culture at 1 OD from tryptone media in 3 ml tryptone broth with 0.7% agar atop tryptone broth 1% agar, and incubating the plate in an inverted position at <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.e013&amp;representation=PNG"></span> for approximately 3 hr <a href="#pcbi.1002746-Studier1">[31]</a>.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[2]/title[1]">Phage Time Course Assays</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[2]/p[1]">One-step phage growth experiments were conducted consistent with published protocols <a href="#pcbi.1002746-Endy1">[15]</a>, <a href="#pcbi.1002746-You1">[26]</a>, <a href="#pcbi.1002746-Kutter1">[28]</a>. Prior to infection, bacterial hosts grew exponentially to a total density of 0.2 OD. Pilot experiments suggested that essentially all phage absorbed into the host cells within five minutes. Therefore, after 5 minutes of infection in the initial culture flask, a sample was diluted 1000-fold in warm shaken media into another flask of the same total culture volume (30 ml) to minimize adsorption of produced phage to new hosts. At 6 and 7 minutes (time points selected as just following complete phage absorption)infected hosts were counted. To count infected hosts <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.e014&amp;representation=PNG"></span> samples were transferred into ice-cold 900 ml aliquots of phage buffer, returned to ice, and plated less than 30 minutes later. At 6 and 7 minutes, as well as all other time points, <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.e015&amp;representation=PNG"></span> samples were transferred into room-temperature 900 ml aliquots phage buffer with <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.e016&amp;representation=PNG"></span> chloroform for host lysis. The chloroformed samples were incubated at room temperature for 30 minutes with periodic vortexing, then stored at <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.e017&amp;representation=PNG"></span> until plating, usually within an hour. Phage from lysed samples at later time points are reported normalized to the infected host count obtained by the difference of unlysed and lysed samples at 6 and 7 minutes.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[3]/title[1]">Modeling Approach</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[3]/p[1]">We implemented the T7 ODEs in MATLAB (R2011a The MathWorks Inc.), informed by the equations presented in the initial publication <a href="#pcbi.1002746-Endy1">[15]</a> as well as the code available for the most recent version <a href="#pcbi.1002746-You1">[26]</a>. The T7 ODEs were originally compared to phage production data at <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.e018&amp;representation=PNG"></span> having been simulated using parameters measured at either <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.e019&amp;representation=PNG"></span> or <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.e020&amp;representation=PNG"></span> <a href="#pcbi.1002746-Endy1">[15]</a>, <a href="#pcbi.1002746-You1">[26]</a>. The published flux bounds and regulatory rules of FBA correspond to <em>E. coli</em> growth at <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.e021&amp;representation=PNG"></span>, and therefore for consistency the T7 parameters were modified to <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.e022&amp;representation=PNG"></span> where necessary (<a href="#pcbi.1002746.s011">Table S5</a>). This modification included kinetic parameters and promotor strengths to maintain prediction constancy with the proportion of phage gene products produced <a href="#pcbi.1002746-Hopper1">[32]</a>, (<a href="#pcbi.1002746.s010">Tables S4</a>). A stiff solver (ode15s) was used for all solutions of T7 ODEs, as required by discontinuous rate definition equations.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[3]/p[2]">The regulatory-FBA model reaction equations and metabolites are iMC1010v2 <a href="#pcbi.1002746-Covert3">[33]</a>, with the minor change that a few reversible reactions were reversed for pathway direction consistency. Media definitions for simulated M9 minimal were consistent with past publications and tryptone media was approximated as amino acids (<a href="#pcbi.1002746.s007">Table S1</a>); the short time of T7 infection meant that media components were in excess for all simulations with growth rate limitations resulted from flux bound constraints. Some regulatory rules were updated to permit growth on rich media (<a href="#pcbi.1002746.s008">Table S2</a>). Flux bounds were mostly consistent with previous publications, with the exception of the relevant set used during growth on tryptone amino acids that were fit using growth rates we collected (<a href="#pcbi.1002746.s001">Figure S1</a>).</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[3]/p[3]">Phage stoichiometry reactions were included in the FBA system (<a href="#pcbi-1002746-g001">Figure 1B</a>), one for each gene”s mRNA and each gene product, as well as for phage genome synthesis and a reaction accounting for degraded host genome dNMP recycling to dNTPs. Included in these reactions are the precursor small molecules that make up each final macromolecule, as well as the energy required for transcription or translation. The FBA host biomass reaction energy requirements are typically phrased in terms of ATP only; to be consistent, the GTP used for energy in phage production processes is included in the reaction stoichiometry as ATP, and the energy requirements for the T7 DNA helicase, which is known to use dTTP preferentially <a href="#pcbi.1002746-Lee1">[34]</a> for energy, were also converted to ATP. A full list of assumptions and references for generating phage stoichiometry reactions is in <a href="#pcbi.1002746.s009">Table S3</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[3]/p[4]">We added a production rate equation consisting of only the positive terms from the net rate equation for each molecular species in the original T7 ODE model, to bound the forward-only reaction fluxes in FBA. Furthermore, another ODE was added to account for the fraction of the host genome material remaining for degradation. A set of input arguments to the T7 ODEs was also introduced to pass limits on one or more of the production rates. If a production rate was limited, its value is accounted for in the net rate equation. Implicit in this implementation is the assumption that if an mRNA or gene product is degraded, the components are not available to metabolism during infection <a href="#pcbi.1002746-Yamada1">[35]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[3]/p[5]">The code used in preparation of this article is available at <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.e023&amp;representation=PNG"></span>.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[4]/title[1]">Integrated Simulation Algorithm</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[4]/p[1]">A simplified flowchart of the integrated simulation algorithm is shown in <a href="#pcbi-1002746-g002">Figure 2B</a>. The FBA and ODE numerical simulations interacted at every 10 seconds of simulation time. Since host lysis is not modeled by the T7 ODEs, there is not a single logical exit criterion for the simulation. Thus the simulation is run for a set time length slightly greater than what is expected to be the productive duration of infection. A text expansion of the integrated simulation algorithm flowchart shown in (<a href="#pcbi-1002746-g002">Figure 2B</a>) follows, with further detail presented in (<a href="#pcbi.1002746.s012">Text S1</a> and <a href="#pcbi.1002746.s006">Figure S6</a>):</p>
+
+
+<ol class="order">
+
+<li xpathLocation="/article[1]/body[1]/sec[4]/sec[4]/list[1]/list-item[1]"><strong>Specification:</strong> Define media composition of nutrient concentrations, including those that are replenished (often O2) and those that are exhaustible (usually carbon source).</li>
+
+<li xpathLocation="/article[1]/body[1]/sec[4]/sec[4]/list[1]/list-item[2]"><strong>Initialization, Host:</strong> Determine steady regulation state and growth rate in media, set all media to replenished, and run sequential rFBA simulations until convergence. Set initial time point host regulation state and pass growth rate to T7 ODEs.</li>
+
+<li xpathLocation="/article[1]/body[1]/sec[4]/sec[4]/list[1]/list-item[3]"><strong>Initialization, Virus:</strong> Evaluate T7 ODE host growth rate correlations to set model parameters for host machinery availability. Set initial concentration state of viral ODEs to 0, except for the variable representing host genome for degradation, which is set from growth rate correlations.</li>
+
+<li xpathLocation="/article[1]/body[1]/sec[4]/sec[4]/list[1]/list-item[4]"><strong>Initial Viral Demand:</strong> Evaluate T7 ODEs without any limits imposed for initial estimates of the amount of resources the virus will request from host metabolism. Many viral sub time steps are made within integration time step as determined by ODE solver.</li>
+
+<li xpathLocation="/article[1]/body[1]/sec[4]/sec[4]/list[1]/list-item[5]"><strong>Host Supply:</strong> Set flux bounds based on environmental availability, and regulatory rules referencing environment and host state. Evaluate host linear programming problem (maximize biomass flux in this case) to determine host resources feasibly available to viral reactions.</li>
+
+<li xpathLocation="/article[1]/body[1]/sec[4]/sec[4]/list[1]/list-item[6]"><strong>Allocate Host Supply To Viral Demands:</strong> Distribute metabolites to viral fluxes and set production reaction rate bounds (see expanded section that follows).</li>
+
+<li xpathLocation="/article[1]/body[1]/sec[4]/sec[4]/list[1]/list-item[7]"><strong>Revised Viral Demand:</strong> Evaluate T7 ODEs with production reaction limits. Many viral sub time steps within integration time step as determined by ODE solver.</li>
+
+<li xpathLocation="/article[1]/body[1]/sec[4]/sec[4]/list[1]/list-item[8]"><strong>Infected Host Fluxes:</strong> Set viral reaction fluxes in FBA vector to net viral production rate averaged over integration time step, and evaluate combined linear programming problem (maximize biomass flux) to arrive at overall flux distribution.</li>
+
+<li xpathLocation="/article[1]/body[1]/sec[4]/sec[4]/list[1]/list-item[9]"><strong>Update States:</strong> Consumption and excretion to/from the environment, flux distribution values, viral concentrations. Return to 4 or exit.</li>
+
+</ol>
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[5]/title[1]">Metabolite Distribution</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[5]/p[1]">Because the T7 ODE kinetic rates do not depend on small molecule concentrations, we bound the phage macromolecule production rates themselves to host production capacity. The method to determine rate limits relies first on an initial ‘viral demand’ which is based on an evaluation of the T7 ODEs without applied limits over the integration time step. Implementation of this strategy takes advantage of the divided matrix formulation of the problem shown in <a href="#pcbi-1002746-g002">Figure 2A</a>. We further split the matrix (detail in supplement) into summed terms representing the small metabolites provided by the host <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.e024&amp;representation=PNG"></span>, and those consumed by the viral production fluxes <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.e025&amp;representation=PNG"></span>. In the resulting relationship, shown in <a href="#pcbi.1002746.e027">Eq. 1</a> (consistent with convention of FBA intake to organism being negative flux), <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.e026&amp;representation=PNG"></span> is the solution of the typical host FBA problem neglecting biomass exchange, taking advantage of the fact that host biomass is composed of a superset of the small metabolites consumed by viral reactions. The simplified form of this relationship is enabled by allowance of metabolite accumulation at the intersection of host and viral reactions.<br><a name="pcbi.1002746.e027" id="pcbi.1002746.e027"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002746.e027&amp;representation=PNG"><span class="note" xpathLocation="/article[1]/body[1]/sec[4]/sec[5]/p[1]/disp-formula[1]/label[1]">(1)</span></span><br></p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[5]/p[2]">Once a feasible host flux distribution is selected (by solving for a ‘host supply’ flux distribution), <a href="#pcbi.1002746.e027">Eq. 1</a> provides a simple relation that must be obeyed by viral production flux rates in order to assure a solution exists to the combined host viral metabolic problem. The method devised to select a vector of maximal viral fluxes or rates (to pass to T7 ODEs) is detailed in the supplement, but essentially allows the maximal evenly scaled flux through viral reactions consuming any given metabolic precursor. For example, allowing full production of viral DNA even if amino acid availability is limiting protein synthesis, yet restricting both if a shared reactant such as ATP is limiting.</p>
+
+</div>
+
+<div id="section5" xpathLocation="/article[1]/body[1]/sec[5]"><a id="s5" name="s5" toc="s5" title="Supporting Information"></a><h3 xpathLocation="noSelect">Supporting Information&nbsp;<a href="#top">Top</a></h3><a name="pcbi.1002746.s001" id="pcbi.1002746.s001"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002746.s001">Figure S1. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[1]/caption[1]/p[1]">Time courses of uninfected <em>E. coli</em> growth on tryptone, succinate, glucose and, acetate. Each time course was fit by a simple exponential (dotted) as well as using dynamic FBA (solid line), where initial conditions were determined by the first experimental measurement.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[1]/caption[1]/p[2]">(EPS)</p>
+<a name="pcbi.1002746.s002" id="pcbi.1002746.s002"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002746.s002">Figure S2. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[2]/caption[1]/p[1]">Infected host fluxes on glucose M9 minimal media. (A) Flux dynamics are displayed for a subset of the metabolic network map. Arrows representing reactions and the subplots of flux through those reactions are colored according to clustering of flux dynamics. Positive flux values correspond to the reaction direction indicated by the colored arrowhead, negative flux direction is depicted with light grey barbs. Asterisks (*) represent an abbreviation of the arrow for uptake from media. Metabolite abbreviations are consistent with FBA model definition. For clustering, fluxes were treated as vectors with (1-correlation) as distance, and clustered using average hierarchical grouping with a cutoff height of 0.25. clusters with fewer than ten members appear in black, and clusters with constant dynamics are highlighted in grey. All nonzero fluxes in any media (tryptone, glucose, succinate, and acetate) were included in the flux clustering so that cluster designation and color coding is consistent across media and figures. (B) Select flux dynamics expanded for clarity ordered to exemplify host flux changes driven by viral dynamics: (i) host amino acid synthesis, (ii) major viral capsid protein synthesis, (iii) host nucleotide phosphorylation, (iv) viral digestion of host genome to dNMPs, (v) purine biosynthesis, (vi) viral mRNA synthesis, (vii) viral genome synthesis, (viii) host cell envelope biosynthesis, (ix) host biomass accumulation.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[2]/caption[1]/p[2]">(EPS)</p>
+<a name="pcbi.1002746.s003" id="pcbi.1002746.s003"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002746.s003">Figure S3. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[3]/caption[1]/p[1]">Infected host fluxes on succinate M9 minimal media. (A) Flux dynamics are displayed for a subset of the metabolic network map. Arrows representing reactions and the subplots of flux through those reactions are colored according to clustering of flux dynamics. Positive flux values correspond to the reaction direction indicated by the colored arrowhead, negative flux direction is depicted with light grey barbs. Asterisks (*) represent an abbreviation of the arrow for uptake from media. Metabolite abbreviations are consistent with FBA model definition. For clustering, fluxes were treated as vectors with (1-correlation) as distance, and clustered using average hierarchical grouping with a cutoff height of 0.25. clusters with fewer than ten members appear in black, and clusters with constant dynamics are highlighted in grey. All nonzero fluxes in any media (tryptone, glucose, succinate, and acetate) were included in the flux clustering so that cluster designation and color coding is consistent across media and figures. (B) Select flux dynamics expanded for clarity ordered to exemplify host flux changes driven by viral dynamics: (i) host amino acid synthesis, (ii) major viral capsid protein synthesis, (iii) host nucleotide phosphorylation, (iv) viral digestion of host genome to dNMPs, (v) purine biosynthesis, (vi) viral mRNA synthesis, (vii) viral genome synthesis, (viii) host cell envelope biosynthesis, (ix) host biomass accumulation.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[3]/caption[1]/p[2]">(EPS)</p>
+<a name="pcbi.1002746.s004" id="pcbi.1002746.s004"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002746.s004">Figure S4. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[4]/caption[1]/p[1]">Infected host fluxes on acetate M9 minimal media. (A) Flux dynamics are displayed for a subset of the metabolic network map. Arrows representing reactions and the subplots of flux through those reactions are colored according to clustering of flux dynamics. Positive flux values correspond to the reaction direction indicated by the colored arrowhead, negative flux direction is depicted with light grey barbs. Asterisks (*) represent an abbreviation of the arrow for uptake from media. Metabolite abbreviations are consistent with FBA model definition. For clustering, fluxes were treated as vectors with (1-correlation) as distance, and clustered using average hierarchical grouping with a cutoff height of 0.25. clusters with fewer than ten members appear in black, and clusters with constant dynamics are highlighted in grey. All nonzero fluxes in any media (tryptone, glucose, succinate, and acetate) were included in the flux clustering so that cluster designation and color coding is consistent across media and Figures S2, S3, and S4. (B) Select flux dynamics expanded for clarity ordered to exemplify host flux changes driven by viral dynamics: (i) host amino acid synthesis, (ii) major viral capsid protein synthesis, (iii) host nucleotide phosphorylation, (iv) viral digestion of host genome to dNMPs, (v) purine biosynthesis, (vi) viral mRNA synthesis, (vii) viral genome synthesis, (viii) host cell envelope biosynthesis, (ix) host biomass accumulation.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[4]/caption[1]/p[2]">(EPS)</p>
+<a name="pcbi.1002746.s005" id="pcbi.1002746.s005"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002746.s005">Figure S5. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[5]/caption[1]/p[1]">Similarity of flux dynamics within a media condition compared to similarity across different media conditions. Correlation of each pair of fluxes within a metabolic class (Y), plotted against the correlation between a single flux between pair of media (Y-X). T, tryptone; G, glucose; S, succinate; A, acetate. Flux dynamics were treated as vectors to calculate the Pearson correlation. Only pairs that include one non-zero flux value were considered; for constant-constant pairs of flux dynamics a correlation of 1 was assigned, and for constant-varying pairs a correlation of 0 was assigned. Individual flux correlations were aggregated as density for plotting (darker as more dense), using kernel smoothing with a grid of 80 points and a bandwidth of 0.25. The density shading scale is not comparable between pairs. Similarity, as measured by positive correlation, of flux distributions indicated by high density on the right of the axis, and similarity within a single media indicated as density in upper regions. Centered density on either axis indicates dissimilarity, or lack of correlation. Panels highlighted with green are the highly similar flux dynamic distribution pair acetate succinate, most alike to the analysis of media with itself for reference, bounded in black. Panels highlighted with a blue border (glucose to succinate or acetate) are largely similar with some uncorrelated fluxes. Panels highlighter with red border (tryptone to any of the minimal media) are largely dissimilar. All media pairs display a large correlated fluxes because viral fluxes which are constrained by the T7 ODEs, which have dynamics that are similar except for scale across media. Inverse correlation within media and metabolic class potentially arises from the arbitrary directionality assigned to reversible reactions in the FBA definition.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[5]/caption[1]/p[2]">(EPS)</p>
+<a name="pcbi.1002746.s006" id="pcbi.1002746.s006"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002746.s006">Figure S6. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[6]/caption[1]/p[1]">Detailed algorithm used for integrated simulation of <em>E. coli</em> FBA and T7 ODEs. Solid lines are each integration time step, from beginning to end of iteration top to bottom. Shaded boxes are stored states describing model time course. Dotted lines completed for initialization. Dashed line connecting Viral Demand and Host Supply is needed or not needed depending on the optimization method being implemented in the latter. Full expansion of steps in <a href="#pcbi.1002746.s012">Text S1</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[6]/caption[1]/p[2]">(EPS)</p>
+<a name="pcbi.1002746.s007" id="pcbi.1002746.s007"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002746.s007">Table S1. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[7]/caption[1]/p[1]">FBA simulation media definitions.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[7]/caption[1]/p[2]">(PDF)</p>
+<a name="pcbi.1002746.s008" id="pcbi.1002746.s008"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002746.s008">Table S2. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[8]/caption[1]/p[1]">List of FBA rules relaxed for rich media growth.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[8]/caption[1]/p[2]">(PDF)</p>
+<a name="pcbi.1002746.s009" id="pcbi.1002746.s009"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002746.s009">Table S3. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[9]/caption[1]/p[1]">Assumptions and references for construction of phage stoichiometry reactions.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[9]/caption[1]/p[2]">(PDF)</p>
+<a name="pcbi.1002746.s010" id="pcbi.1002746.s010"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002746.s010">Table S4. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[10]/caption[1]/p[1]">Table of major T7 ODEs genome definition update.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[10]/caption[1]/p[2]">(PDF)</p>
+<a name="pcbi.1002746.s011" id="pcbi.1002746.s011"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002746.s011">Table S5. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[11]/caption[1]/p[1]">T7 ODEs parameter updates, values, and references.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[11]/caption[1]/p[2]">(PDF)</p>
+<a name="pcbi.1002746.s012" id="pcbi.1002746.s012"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002746.s012">Text S1. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[12]/caption[1]/p[1]">Expanded methods detail.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[12]/caption[1]/p[2]">(PDF)</p>
+</div>
+
+
+
+
+
+<div xpathLocation="noSelect"><a id="ack" name="ack" toc="ack" title="Acknowledgments"></a><h3 xpathLocation="noSelect">Acknowledgments&nbsp;<a href="#top">Top</a></h3>
+<p xpathLocation="/article[1]/back[1]/ack[1]/p[1]">We thank D. Endy, L. You, I. Molineux and the Covert Lab for helpful discussion and assistance.</p>
+</div><div class="contributions"><a id="authcontrib" name="authcontrib" toc="authcontrib" title="Author Contributions"></a><h3 xpathLocation="noSelect">Author Contributions&nbsp;<a href="#top">Top</a></h3><p xpathLocation="noSelect">Conceived and designed the experiments: MWC EWB NAR. Performed the experiments: EWB NAR. Analyzed the data: MWC EWB NAR. Contributed reagents/materials/analysis tools: MWC EWB NAR. Wrote the paper: MWC EWB NAR. Built the integrated model: EWB NAR.</p></div><div xpathLocation="noSelect"><a id="references" name="references" toc="references" title="References"></a><h3 xpathLocation="noSelect">References&nbsp;<a href="#top">Top</a></h3><ol class="references" xpathLocation="noSelect"><li xpathLocation="noSelect"><a name="pcbi.1002746-Maynard1" id="pcbi.1002746-Maynard1"></a>Maynard N, Birch E, Sanghvi J, Chen L, Gutschow M, et al. (2010) A forward-genetic screen and dynamic analysis of lambda phage host-dependencies reveals an extensive interaction network and a new anti-viral strategy. PLoS Genet 6: e1001017.
+        doi:
+        <a href="http://dx.doi.org/10.1371/journal.pgen.1001017">10.1371/journal.pgen.1001017</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5929109">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002746-Qimron1" id="pcbi.1002746-Qimron1"></a>Qimron U, Marintcheva B, Tabor S, Richardson C (2006) Genomewide screens for Escherichia coli genes affecting growth of T7 bacteriophage. Proc Natl Acad Sci U S A 103: 19039.
+        doi:
+        <a href="http://dx.doi.org/10.1073/pnas.0609428103">10.1073/pnas.0609428103</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5929111">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002746-Brass1" id="pcbi.1002746-Brass1"></a>Brass AL, Dykxhoorn DM, Benita Y, Yan N, Engelman A, et al. (2008) Identification of Host Proteins Required for HIV Infection Through a Functional Genomic Screen. Science 319: 921–926.
+        doi:
+        <a href="http://dx.doi.org/10.1126/science.1152725">10.1126/science.1152725</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5929113">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002746-Knig1" id="pcbi.1002746-Knig1"></a>König R, Zhou Y, Elleder D, Diamond TL, Bonamy GMC, et al. (2008) Global analysis of hostpathogen interactions that regulate early-stage HIV-1 replication. Cell 135: 49–60. <a class="find" href="/article/findArticle.action?citedArticleID=5929115">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002746-Zhou1" id="pcbi.1002746-Zhou1"></a>Zhou H, Xu M, Huang Q, Gates AT, Zhang XD, et al. (2008) Genome-Scale RNAi Screen for Host Factors Required for HIV Replication. Cell Host Microbe 4: 495–504.
+        doi:
+        <a href="http://dx.doi.org/10.1016/j.chom.2008.10.004">10.1016/j.chom.2008.10.004</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5929117">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002746-Brass2" id="pcbi.1002746-Brass2"></a>Brass AL, Huang IC, Benita Y, John SP, Krishnan MN, et al. (2009) The IFITM proteins mediate cellular resistance to inuenza A H1N1 virus, West Nile virus, and dengue virus. Cell 139: 1243–1254. <a class="find" href="/article/findArticle.action?citedArticleID=5929119">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002746-Karlas1" id="pcbi.1002746-Karlas1"></a>Karlas A, Machuy N, Shin Y, Pleissner KP, Artarini A, et al. (2010) Genome-wide RNAi screen identifies human host factors crucial for inuenza virus replication. Nature 463: 818–822. <a class="find" href="/article/findArticle.action?citedArticleID=5929121">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002746-Knig2" id="pcbi.1002746-Knig2"></a>König R, Stertz S, Zhou Y, Inoue A, Hoffmann HH, et al. (2010) Human host factors required for inuenza virus replication. Nature 463: 813–817. <a class="find" href="/article/findArticle.action?citedArticleID=5929123">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002746-Bragg1" id="pcbi.1002746-Bragg1"></a>Bragg JG, Chisholm SW (2008) Modeling the Fitness Consequences of a Cyanophage-Encoded Photosynthesis Gene. PLoS ONE 3: e3550.
+        doi:
+        <a href="http://dx.doi.org/10.1371/journal.pone.0003550">10.1371/journal.pone.0003550</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5929125">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002746-Clokie1" id="pcbi.1002746-Clokie1"></a>Clokie MRJ, Shan J, Bailey S, Jia Y, Krisch HM, et al. (2006) Transcription of a ‘photosynthetic’ T4-type phage during infection of a marine cyanobacterium. Environ Microbiol 8: 827–835.
+        doi:
+        <a href="http://dx.doi.org/10.1111/j.1462-2920.2005.00969.x">10.1111/j.1462-2920.2005.00969.x</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5929127">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002746-Maynard2" id="pcbi.1002746-Maynard2"></a>Maynard ND, Gutschow MV, Birch EW, Covert MW (2010) The virus as metabolic engineer. Biotechnol J 5: 686–694.
+        doi:
+        <a href="http://dx.doi.org/10.1002/biot.201000080">10.1002/biot.201000080</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5929129">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002746-Maynard3" id="pcbi.1002746-Maynard3"></a>Maynard ND, Macklin DN, Kirkegaard K, Covert MW (2012) Competing pathways control host resistance to virus via tRNA modification and programmed ribosomal frameshifting. Mol Syst Biol 8: 1–13.
+        doi:
+        <a href="http://dx.doi.org/10.1038/msb.2011.101">10.1038/msb.2011.101</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5929131">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002746-Bogosian1" id="pcbi.1002746-Bogosian1"></a>Bogosian G (2006) Control of bacteriophage in commercial microbiology and fermentation facilities. In: Calendar R, Abedon S, editors. The Bacteriophages. Oxford University Press. </li><li xpathLocation="noSelect"><a name="pcbi.1002746-Hagens1" id="pcbi.1002746-Hagens1"></a>Hagens S, Loessner M (2010) Bacteriophage for biocontrol of foodborne pathogens: calculations and considerations. Curr Pharm Biotechnol 11: 58–68.
+        doi:
+        <a href="http://dx.doi.org/10.2174/138920110790725429">10.2174/138920110790725429</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5929135">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002746-Endy1" id="pcbi.1002746-Endy1"></a>Endy D, Kong D, Yin J (1997) Intracellular kinetics of a growing virus: a genetically structured simulation for bacteriophage T7. Biotechnol Bioeng 55: 375–389.
+        doi:
+        <a href="http://dx.doi.org/10.1002/(SICI)1097-0290(19970720)55:2<375::AID-BIT15&gt;3.0.CO;2-G">10.1002/(SICI)1097-0290(19970720)55:2&lt;375::AID-BIT15&gt;3.0.CO;2-G</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5929137">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002746-Endy2" id="pcbi.1002746-Endy2"></a>Endy D, You L, Yin J, Molineux I (2000) Computation, prediction, and experimental tests of fitness for bacteriophage T7 mutants with permuted genomes. Proc Natl Acad Sci U S A 97: 5375.
+        doi:
+        <a href="http://dx.doi.org/10.1073/pnas.090101397">10.1073/pnas.090101397</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5929139">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002746-Endy3" id="pcbi.1002746-Endy3"></a>Endy D (1997) Development and application of a genetically-structured simulation for bacteriophage T7 [PhD dissertation]. Hanover (New Hampshire): Thayer School of Engineering, Dartmouth College. 190p. </li><li xpathLocation="noSelect"><a name="pcbi.1002746-Varma1" id="pcbi.1002746-Varma1"></a>Varma A, Boesch BW, Palsson BO (1993) Stoichiometric interpretation of Escherichia coli glucose catabolism under various oxygenation rates. Appl Environ Microbiol 59: 2465–2473. <a class="find" href="/article/findArticle.action?citedArticleID=5929143">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002746-Reed1" id="pcbi.1002746-Reed1"></a>Reed JL, Vo TD, Schilling CH, Palsson BO (2003) An expanded genome-scale model of Escherichia coli K-12 (iJR904 GSM/GPR). Genome Biol 4: R54. <a class="find" href="/article/findArticle.action?citedArticleID=5929145">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002746-Feist1" id="pcbi.1002746-Feist1"></a>Feist AM, Henry CS, Reed JL, Krummenacker M, Joyce AR, et al. (2007) A genome-scale metabolic reconstruction for Escherichia coli K-12 MG1655 that accounts for 1260 ORFs and thermodynamic information. Mol Syst Biol 3: 121.
+        doi:
+        <a href="http://dx.doi.org/10.1038/msb4100155">10.1038/msb4100155</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5929147">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002746-Orth1" id="pcbi.1002746-Orth1"></a>Orth JD, Conrad TM, Na J, Lerman JA, Nam H, et al. (2011) A comprehensive genome-scale reconstruction of Escherichia coli metabolism–2011. Mol Syst Biol 7: 535.
+        doi:
+        <a href="http://dx.doi.org/10.1038/msb.2011.65">10.1038/msb.2011.65</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5929149">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002746-Covert1" id="pcbi.1002746-Covert1"></a>Covert MW, Palsson BØ (2002) Transcriptional regulation in constraints-based metabolic models of Escherichia coli. J Biol Chem 277: 28058–28064.
+        doi:
+        <a href="http://dx.doi.org/10.1074/jbc.M201691200">10.1074/jbc.M201691200</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5929151">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002746-Raman1" id="pcbi.1002746-Raman1"></a>Raman K, Chandra N (2009) Flux balance analysis of biological systems: applications and challenges. Brief Bioinform 10: 435–449.
+        doi:
+        <a href="http://dx.doi.org/10.1093/bib/bbp011">10.1093/bib/bbp011</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5929153">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002746-Orth2" id="pcbi.1002746-Orth2"></a>Orth JD, Thiele I, Palsson BO (2010) What is ux balance analysis? Nat Biotechnol 28: 245–248. <a class="find" href="/article/findArticle.action?citedArticleID=5929155">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002746-Jain1" id="pcbi.1002746-Jain1"></a>Jain R, Srivastava R (2009) Metabolic investigation of host/pathogen interaction using MS2-infected Escherichia coli. BMC Syst Biol 3: 121.
+        doi:
+        <a href="http://dx.doi.org/10.1186/1752-0509-3-121">10.1186/1752-0509-3-121</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5929157">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002746-You1" id="pcbi.1002746-You1"></a>You L, Suthers P, Yin J (2002) Effects of Escherichia coli physiology on growth of phage T7 in vivo and in silico. J Bacteriol 184: 1888.
+        doi:
+        <a href="http://dx.doi.org/10.1128/JB.184.7.1888-1894.2002">10.1128/JB.184.7.1888-1894.2002</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5929159">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002746-Covert2" id="pcbi.1002746-Covert2"></a>Covert MW, Xiao N, Chen TJ, Karr JR (2008) Integrating metabolic, transcriptional regulatory and signal transduction models in Escherichia coli. Bioinformatics 24: 2044–2050.
+        doi:
+        <a href="http://dx.doi.org/10.1093/bioinformatics/btn352">10.1093/bioinformatics/btn352</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5929161">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002746-Kutter1" id="pcbi.1002746-Kutter1"></a>Kutter E, Sulakvelidze A (2005) Bacteriophages. Biology and Applications. CRC. </li><li xpathLocation="noSelect"><a name="pcbi.1002746-Bremer1" id="pcbi.1002746-Bremer1"></a>Bremer H, Dennis PP (1996) Modulation of chemical composition and other parameters of the cell by growth rate. In: Escherichia coli and Salmonella: cellular and molecular biology, volume 2. pp. 1553–1569. </li><li xpathLocation="noSelect"><a name="pcbi.1002746-Hadas1" id="pcbi.1002746-Hadas1"></a>Hadas H, Einav M, Fishov I (1997) Bacteriophage T4 development depends on the physiology of its host Escherichia coli. Microbiology 143: 179–185.
+        doi:
+        <a href="http://dx.doi.org/10.1099/00221287-143-1-179">10.1099/00221287-143-1-179</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5929167">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002746-Studier1" id="pcbi.1002746-Studier1"></a>Studier F (1969) The genetics and physiology of bacteriophage T7. Virology 39: 562–574.
+        doi:
+        <a href="http://dx.doi.org/10.1016/0042-6822(69)90104-4">10.1016/0042-6822(69)90104-4</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5929169">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002746-Hopper1" id="pcbi.1002746-Hopper1"></a>Hopper JE, Ko G, Young ET (1975) Comparative analysis of the in vivo and in vitro expression of bacteriophage T7 messenger RNAs during infection of Escherichia coli. J Mol Biol 94: 539–554.
+        doi:
+        <a href="http://dx.doi.org/10.1016/0022-2836(75)90320-4">10.1016/0022-2836(75)90320-4</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5929171">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002746-Covert3" id="pcbi.1002746-Covert3"></a>Covert MW, Knight EM, Reed JL, Herrgard MJ, Palsson BO (2004) Integrating high-throughput and computational data elucidates bacterial networks. Nature 429: 92–96.
+        doi:
+        <a href="http://dx.doi.org/10.1038/nature02456">10.1038/nature02456</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5929173">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002746-Lee1" id="pcbi.1002746-Lee1"></a>Lee SJ, Richardson CC (2010) Molecular Basis for Recognition of Nucleoside Triphosphate by Gene 4 Helicase of Bacteriophage T7. J Biol Chem 285: 31462–31471.
+        doi:
+        <a href="http://dx.doi.org/10.1074/jbc.M110.156067">10.1074/jbc.M110.156067</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5929175">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002746-Yamada1" id="pcbi.1002746-Yamada1"></a>Yamada Y, Whitaker PA, Nakada D (1974) Early to late switch in bacteriophage T7 development: functional decay of T7 early messenger RNA. J Mol Biol 89: 293–303.
+        doi:
+        <a href="http://dx.doi.org/10.1016/0022-2836(74)90520-8">10.1016/0022-2836(74)90520-8</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5929177">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002746-Studier2" id="pcbi.1002746-Studier2"></a>Studier FW, Dunn JJ (1983) Organization and expression of bacteriophage T7 DNA. Cold Spring Harb Symp Quant Biol 47 Pt 2: 999–1007.
+        doi:
+        <a href="http://dx.doi.org/10.1101/SQB.1983.047.01.114">10.1101/SQB.1983.047.01.114</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5929179">
+                      Find this article online
+                    </a></li></ol></div>
+
+</div></div>
+<div style="display:none">
+<div dojoType="ambra.widget.RegionalDialog" id="AnnotationDialog" style="padding:0;margin:0;">
+  <div class="dialog annotate">
+    <div class="tipu" id="dTipu"></div>
+    <div class="comment">
+      <h5><span>Post Your Note (For Public Viewing)</span></h5>
+      <div class="posting pane">
+        <form name="createAnnotation" id="createAnnotation" method="post" action="">
+          <input type="hidden" name="target" value="info:doi/10.1371/journal.pcbi.1002746" />
+          <input type="hidden" name="startPath" value="" />
+          <input type="hidden" name="startOffset" value="" />
+          <input type="hidden" name="endPath" value="" />
+          <input type="hidden" name="endOffset" value="" />
+          <input type="hidden" name="commentTitle" id="commentTitle" value="" />
+          <input type="hidden" name="comment" id="commentArea" value="" />
+          <input type="hidden" name="ciStatement" id="statementArea" value="" />
+          <input type="hidden" name="isCompetingInterest" id="isCompetingInterest" value="false" />
+          <input type="hidden" name="noteType" id="noteType" value="" />
+          <fieldset>
+            <legend>Compose Your Note</legend>
+            <span id="submitMsg" class="error" style="display:none;"></span>
+            <table class="layout">
+              <tr>
+                <td>
+                  <label for="cNoteType">This is a </label><select name="cNoteType" id="cNoteType"><option value="note">note</option><option value="correction">correction</option></select>
+                  <span id="cdls" style="visibility:hidden;margin-left:0.3em; white-space:nowrap;"><a href="/static/commentGuidelines.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?target=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002746#corrections">What are corrections?</a></span>
+                  <label for="cTitle"><span class="none">Enter your note title</span><!-- error message text <em>A title is required for all public notes</em>--></label>
+                  <input type="text" name="cTitle" id="cTitle" value="Enter your note title..." class="title" alt="Enter your note title..." />
+                  <label for="cArea"><span class="none">Enter your note</span><!-- error message text <em>Please enter your note</em>--></label>
+                  <textarea name="cArea" id="cArea" value="Enter your note..." alt="Enter your note...">Enter your note...</textarea>
+                  <input type="hidden" name="isPublic" value="true" />
+                </td>
+                <td>&nbsp;</td>
+                <td class="coi">
+                  <fieldset>
+                    <legend>Declare any competing interests.</legend>
+                    <ul>
+                      <li><label><input id="isCompetingInterestNo" type="radio" checked="checked" name="competingInterest" value="false"  /> No, I don't have any competing interests to declare.</label></li>
+                      <li><label><input id="isCompetingInterestYes" type="radio" name="competingInterest" value="true"  /> Yes, I have competing interests to declare (enter below):</label></li>
+                    </ul>
+                    <textarea name="ciStatementArea" id="ciStatementArea" disabled value="Enter your competing interests..." alt="Enter your competing interests...">Enter your competing interests...</textarea>
+                  </fieldset>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3" class="buttons">
+                  <input type="button" value="Cancel" title="Click to close and cancel" id="btn_cancel"/>
+                  <input type="button" value="Submit" title="Click to post your note publicly" id="btn_post" class="primary"/>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <p>Notes and Corrections can include the following markup tags:</p>
+                  <p><strong>Emphasis:</strong> ''<em>italic</em>''&nbsp;&nbsp;'''<strong>bold</strong>'''&nbsp;&nbsp;'''''<strong><em>bold italic</em></strong>'''''</p>
+                  <p><strong>Other:</strong> ^^<sup>superscript</sup>^^&nbsp;&nbsp;~~<sub>subscript</sub>~~</p>
+                </td>
+              </tr>
+            </table>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <div class="tip" id="dTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialog" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="caTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      Please follow our <a href="/static/commentGuidelines.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">guidelines for notes and comments</a> and review our <a href="/static/competing.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">competing interests policy</a>. Comments that do not conform to our guidelines will be promptly removed and the user account disabled. The following must be avoided:
+      <ul>
+        <li>Remarks that could be interpreted as allegations of misconduct</li>
+        <li>Unsupported assertions or statements</li>
+        <li>Inflammatory or insulting language</li>
+      </ul>
+      <form name="contextActionForm" id="contextActionForm" class="clearfix buttons" method="post" action="">
+        <input type="button" name="Continue" value="Continue" id="ContextActionDialogContinueButton" onmouseup="ambra.displayAnnotationContext.startComment(event);" title="Add a note to this text" class="primary"/>
+        <input type="button" name="Cancel" value="Cancel" id="ContextActionDialogCancelButton" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);" title="Close this Window"/>
+      </form>
+    </div>
+    <div class="tip" id="caTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogNotLogged" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canlTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You must be logged in to add a note to an article.
+      You may log in by <a onmousedown="ambra.displayAnnotationContext.disconnect(event);" href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002746">clicking here</a> or <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">cancel this note</a>.
+    </div>
+    <div class="tip" id="canlTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogBadSelection" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canBDTipu"></div>
+    <div class="contextActionContent">
+      <h5 class="annotation icon"><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You cannot annotate this area of the document. <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">Close</a>
+    </div>
+    <div class="tip" id="canBDTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogBadRangeSelection" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canbrTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You cannot create an annotation that spans different sections of the document; please adjust your selection.<br/>
+      <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">Close</a>
+    </div>
+    <div class="tip" id="canbrTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.RegionalDialog" id="CommentDialog" style="padding:0;margin:0;">
+  <div class="dialog preview">
+    <div class="tipu" id="cTipu"></div>
+    <div class="btn close" id="btn_close" title="Click to close"><a title="Click to close">Close</a></div>
+    <div id="cmtContainer" class="comment">
+      <h6 id="viewCmtTitle"></h6>
+      <div class="detail" id="viewCmtDetail"></div>
+      <div class="contentwrap" id="viewComment"></div>
+      <div class="contentwrap" id="viewCIStatement"></div>
+      <div class="detail" id="viewLink">
+        <!--<a href="#" class="commentary icon" title="Click to view full thread and respond">View all responses</a>
+        <a href="#" class="respond tooltip" title="Click to respond to this posting">Respond to this</a>-->
+      </div>
+    </div>
+    <div class="tip" id="cTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.RegionalDialog" id="CommentDialogMultiple" style="padding:0;margin:0;">
+  <div class="dialog multiple preview">
+    <div class="tipu" id="mTipu"></div>
+    <div class="btn close" id="btn_close_multi" title="Click to close"><a title="Click to close">Close</a></div>
+    <ol id="multilist"></ol>
+    <br/>
+    <div id="multidetail"></div>
+    <div class="tip" id="mTip"></div>
+  </div>
+</div>
+
+
+<div dojoType="dijit.Dialog" id="Rating">
+  <div class="dialog annotate">
+    <div class="tipu" id="dTipu"></div>
+    <div class="comment">
+      <h5><span>Rate This Article</span></h5>
+      <div class="instructions">Please follow our <a  href="/static/ratingGuidelines.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">guidelines for rating</a> and review our <a href="/static/competing.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">competing interests policy</a>. Comments that do not conform to our guidelines will be promptly removed and the user account disabled. The following must be avoided:
+        <ol>
+          <li>Remarks that could be interpreted as allegations of misconduct</li>
+          <li>Unsupported assertions or statements</li>
+          <li>Inflammatory or insulting language</li>
+        </ol>
+      </div>
+      <div class="posting pane">
+        <form name="ratingForm" id="ratingForm" method="post" action="">
+          <input type="hidden" name="articleURI" value="info:doi/10.1371/journal.pcbi.1002746" />  
+          <input type="hidden" name="commentTitle" id="commentTitle" value="" />
+          <input type="hidden" name="comment" id="commentArea" value="" />
+          <input type="hidden" name="ciStatement" id="statementArea" value="" />
+          <input type="hidden" name="isCompetingInterest" id="isCompetingInterest" value="" />
+          <fieldset>
+            <legend>Compose Your Annotation</legend>
+            <span id="submitRatingMsg" class="error" style="display:none;"></span>
+            <table class="layout">
+              <tr>
+                <td rowspan="2">
+                  <label for="insight">Insight</label>
+                  <ul class="star-rating rating edit" title="Rate insight" id="rateInsight">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Bland" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'insight', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Profound" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="insight" title="insight" value="" />
+                  <label for="reliability">Reliability</label>
+                  <ul class="star-rating rating edit" title="Rate reliability" id="rateReliability">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Tenuous" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'reliability', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Unassailable" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="reliability" title="reliability" value="" />
+                  <label for="style">Style</label>
+                  <ul class="star-rating rating edit" title="Rate style" id="rateStyle">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Crude" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'style', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Elegant" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="style" title="style" value="" />
+                  <label for="cTitle"><span class="none">Enter your comment title</span><!-- error message text <em>A title is required for all public annotations</em>--></label>
+                  <input type="text" name="cTitle" id="cTitle" value="Enter your comment title..." class="title" alt="Enter your comment title..." />
+                  <label for="cArea"><span class="none">Enter your comment</span><!-- error message text <em>Please enter your annotation</em>--></label>
+                  <textarea name="cArea" id="cArea" value="Enter your comment..." alt="Enter your comment...">Enter your comment...</textarea>
+                </td>
+                <td rowspan="2">&nbsp;</td>
+                <td class="coi">
+                  <fieldset>
+                    <legend>Declare any competing interests.</legend>
+                    <ul>
+                      <li><label><input id="isCompetingInterestNo" type="radio" name="competingInterest" value="false"  /> No, I don't have any competing interests to declare.</label></li>
+                      <li><label><input id="isCompetingInterestYes" type="radio" name="competingInterest" value="true"  /> Yes, I have competing interests to declare (enter below):</label></li>
+                    </ul>
+                    <textarea name="ciStatementArea" id="ciStatementArea" disabled value="Enter your competing interests..." title="Enter your competing interests...">Enter your competing interests...</textarea>
+                  </fieldset>
+                </td>
+              </tr>
+              <tr>
+                <td class="buttons">
+                  <input type="button" value="Cancel" title="Click to close and cancel" id="btn_cancel_rating"/>
+                  <input type="button" value="Submit" title="Click to post your annotation publicly" id="btn_post_rating" class="primary"/>
+                </td>
+              </tr>
+              <tr>
+                  <td colspan="3"><p>Ratings can include the following markup tags:</p>
+                  <p><strong>Emphasis:</strong> ''<em>italic</em>''&nbsp;&nbsp;'''<strong>bold</strong>'''&nbsp;&nbsp;'''''<strong><em>bold italic</em></strong>'''''</p>
+                  <p><strong>Other:</strong> ^^<sup>superscript</sup>^^&nbsp;&nbsp;~~<sub>subscript</sub>~~</p></td>
+              </tr>
+            </table>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div dojoType="ambra.widget.LoadingCycle" id="LoadingCycle" class="loadingCycler">
+  <img src="/images/loading.gif" width="58" height="58" title="Loading..." />
+</div>
+<div dojoType="dijit.Dialog" id="LightBox">
+
+    <!-- start main window wrapper-->
+    <div class="figure-window-wrapper">
+
+      <!--start film strip Wrapper-->
+      <div class="figure-window-nav-wrapper">
+        <div id="figure-window-nav"></div>
+      </div><!--end figure-window-nav-wrapper-->
+
+      <!-- start figure container-->
+      <div class="figure-window-container">
+
+        <!-- start/end figure viewer-->
+        <div id="figure-window-viewer">
+          <img id="figure-window-img" class="large"/>
+        </div>
+
+        <!-- start/end figure doi-->
+        <div id="figure-window-doi"></div>
+
+        <!--start figure title-box-->
+        <div id="figure-window-title-box" class="figure-window-title-less">
+          <span id="figure-window-title"></span>
+          <div id="figure-window-more" class="figure-window-more" onclick="return ambra.lightBox.showMoreOrLess();"></div>
+          <div id="figure-window-description"></div>
+        </div><!--end figure title-box-->
+
+        <!--start figure download-->
+        <div class="figure-window-download">
+          <ul>
+            <li class="download icon"><strong>Download:</strong>
+              <a id="figure-window-ppt" title="Click to download PowerPoint slide of this image">PowerPoint
+                slide</a> |
+              <a id="figure-window-large" title="Click to download a larger version of this image">larger image
+                (<span id="figure-window-large-size"></span>)</a> |
+              <a id="figure-window-tiff" title="Click to download a original version of this image">original image
+                (<span id="figure-window-tiff-size"></span>)</a>
+            </li>
+          </ul>
+        </div><!--end figure download-->
+
+        <!--start/end of close, context, next and previous button-->
+        <div class="figure-window-close" onclick="return ambra.lightBox.hide();"></div>
+        <div class="figure-window-context" onclick="return ambra.lightBox.showInContext();"></div>
+        <div id="figure-window-previous" onclick="return ambra.lightBox.showPrevious();"></div>
+        <div id="figure-window-next" onclick="return ambra.lightBox.showNext();"></div>
+
+      </div><!--end figure-window-container-->
+
+    </div><!--end figure-window-wrapper-->
+
+</div><!--end dijit.Dialog-->
+</div>
+</div>
+<!-- end : main contents -->
+
+</div>
+<!-- end : container -->	
+
+<!-- begin : footer -->
+<div id="ftr">
+  <p><span>All site content, except where otherwise noted, is licensed under a <a href="http://creativecommons.org/licenses/by/2.5/" title="Creative Commons Attribution License 2.5" tabindex="200">Creative Commons Attribution License</a>.</span></p>
+  <ul>
+    <li><a href="/static/privacy.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" title="PLOS Privacy Statement" tabindex="501">Privacy Statement</a></li>
+    <li><a href="/static/terms.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" title="PLOS Terms of Use" tabindex="502">Terms of Use</a></li>
+    <li><a href="http://www.plos.org/advertise/" title="Advertise With PLOS" tabindex="503">Advertise</a></li>
+    <li><a href="http://www.plos.org/about/media-inquiries/" title="PLOS Embargo Policy" tabindex="504">Media Inquiries</a></li>
+    <li><a href="http://www.plos.org/publish/order-reprints/" title="PLOS in Print" tabindex="505">PLOS in Print</a></li>
+    <li><a href="/static/sitemap.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" title="Site Map" tabindex="506">Site Map</a></li>
+    <li><a href="http://www.plos.org" title="PLOS.org" tabindex="507">PLOS.org</a></li>
+  </ul>
+  <div class="powered">
+  <ul>
+    <li><a href="/static/releaseNotes.action" title="Ambra | Release Notes">Ambra 2.4.9</a></li>
+    <li>Managed Colocation provided by <a href="http://www.isc.org/" title="Internet Systems Consortium">Internet Systems Consortium</a>.</li>
+  </ul>
+  </div>
+</div>
+<!-- end : footer -->
+<script type="text/javascript">
+  var _namespace="";
+    var loggedIn = false;
+
+  var almHost = "http://alm.plos.org";
+  var solrHost = "http://api.plos.org/search";
+  var pubGetHost = "http://pubget.com/widgetizer/links_hash";
+  var appContext = "";
+
+  // Safari v3.1.1 "console.debug" issue (http://trac.dojotoolkit.org/ticket/6849) workaround
+  if (/3[\.0-9]+ Safari/.test(navigator.appVersion)) {
+    window.console = {
+      origConsole: window.console,
+      log: function(s){ this.origConsole.log(s); },
+      info: function(s){ this.origConsole.info(s); },
+      error: function(s){ this.origConsole.error(s); },
+      warn: function(s){ this.origConsole.warn(s); }
+    };
+  }
+
+  var djConfig = {
+    // don't debug for IE - as dojo's firebug lite module is error prone in IE
+    isDebug: false,
+    parseOnLoad: true
+  };
+
+  var bamGAID = 'UA-338393-1';
+  var bamGAVPV = location.pathname + location.search + location.hash;
+</script>
+<script type="text/javascript" src="/javascript/dojo/dojo/dojo.js?v=pzlwVCPPo+oJC12upPgJrJ5EG_k"></script>
+<script type="text/javascript" src="/javascript/dojo/dojo/ambra.js?v=Y8JM0CVD9YwjC99M_jvbcRTiGhY"></script>
+<script type="text/javascript" src="/javascript/init_global.js?v=fF03pfG3r+Nkj_czZ8ORg8o5sNM"></script>
+<script type="text/javascript" src="/javascript/init_article.js?v=qzBD_a7nKbeMM2xNUtB3vckN+Zc"></script>
+<script type="text/javascript" src="/javascript/init_ratings.js?v=seKykuS0X33CQGS7Lj+8FtBy5Uw"></script>
+<script type="text/javascript" src="/javascript/init_lightBox.js?v=vJRLPy7RRX8Zp31Ogcm3i+TA4f8"></script>
+<script type="text/javascript" src="/javascript/init_article_body.js?v=YgFei2xCi50CahwaPbSsxUxUsmw"></script>
+<script type="text/javascript" src="/javascript/init_article_rhc.js?v=djtbTMOagorKE6ZPrkCwufAfWWI"></script>
+<script type="text/javascript" src="/javascript/alm.js?v=1tH9JZ8uDtXspXssGJDr8O+jBOs"></script>
+<script type="text/javascript" src="/javascript/reporting/articleViewsCumulative.js?v=RQ+gCrcAl0dBeLbmokxgQZTGYYA"></script>
+<script type="text/javascript" src="/javascript/check_twitter.js?v=Hc0sH1W9xIu0qhqxWPD4c1u50K4"></script>
+<script type="text/javascript" src="/javascript/init_googleAnalytics.js?v=yCD4h9PHGI0dsefmuWDlMn7pHog"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,6 @@
+TITLE: Neural correlates of prickle sensation: a percept-related fMRI study.
+AUTHORS: Davis KD, Pope GE, Crawley AP, Mikulis DJ
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The painful sensations produced by a laceration, freeze, burn, muscle strain or internal injury are readily distinguishable because each is characterized by a particular sensory quality such as sharp, aching, burning or prickling. We propose that there are specific neural correlates of each pain quality, and here we used a new functional magnetic resonance imaging (fMRI) method to identify time-locked responses to prickle sensations that were evoked by noxious cold stimuli. With percept-related fMRI, we identified prickle-related brain activations in the anterior cingulate cortex (ACC), insula, secondary somatosensory cortex (S2), prefrontal cortex (PFC), premotor cortex (PMC), caudate nucleus and dorsomedial thalamus, indicating that multiple pain, sensory and motor areas act together to produce the prickle sensation.

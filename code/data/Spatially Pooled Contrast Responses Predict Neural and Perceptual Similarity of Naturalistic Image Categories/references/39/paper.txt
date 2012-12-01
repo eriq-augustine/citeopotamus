@@ -1,0 +1,4 @@
+Spherical splines for scalp potential and current density mapping.
+Perrin F, Pernier J, Bertrand O, Echallier JF
+Abstract:
+Description of mapping methods using spherical splines, both to interpolate scalp potentials (SPs), and to approximate scalp current densities (SCDs). Compared to a previously published method using thin plate splines, the advantages are a very simple derivation of the SCD approximation, faster computing times, and greater accuracy in areas with few electrodes.

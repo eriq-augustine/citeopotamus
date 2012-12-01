@@ -1,0 +1,6 @@
+TITLE: The path forward for biofuels and biomaterials.
+AUTHORS: Ragauskas AJ, Williams CK, Davison BH, Britovsek G, Cairney J, Eckert CA, Frederick WJ Jr, Hallett JP, Leak DJ, Liotta CL, Mielenz JR, Murphy R, Templer R, Tschaplinski T
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Biomass represents an abundant carbon-neutral renewable resource for the production of bioenergy and biomaterials, and its enhanced use would address several societal needs. Advances in genetics, biotechnology, process chemistry, and engineering are leading to a new manufacturing concept for converting renewable biomass to valuable fuels and products, generally referred to as the biorefinery. The integration of agroenergy crops and biorefinery manufacturing technologies offers the potential for the development of sustainable biopower and biomaterials that will lead to a new manufacturing paradigm.

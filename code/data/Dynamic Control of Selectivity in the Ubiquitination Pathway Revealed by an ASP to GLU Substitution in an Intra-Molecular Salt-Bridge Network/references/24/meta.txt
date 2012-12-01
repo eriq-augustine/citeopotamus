@@ -1,0 +1,6 @@
+TITLE: Structural model of the UbcH5B/CNOT4 complex revealed by combining NMR, mutagenesis, and docking approaches.
+AUTHORS: Dominguez C, Bonvin AM, Winkler GS, van Schaik FM, Timmers HT, Boelens R
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The protein CNOT4 possesses an N-terminal RING finger domain that acts as an E3 ubiquitin ligase and specifically interacts with UbcH5B, a ubiquitin-conjugating enzyme. The structure of the CNOT4 RING domain has been solved and the amino acids important for the binding to UbcH5B have been mapped. Here, the residues of UbcH5B important for the binding to CNOT4 RING domain were identified by NMR chemical shift perturbation experiments, and these data were used to generate structural models of the complex with the program HADDOCK. Together with the NMR data, additional biochemical data were included in a second docking, and comparisons of the resulting model with the structure of the c-Cbl/UbcH7 complex reveal some significant differences, notably at specific residues, and give structural insights into the E2/E3 specificity.

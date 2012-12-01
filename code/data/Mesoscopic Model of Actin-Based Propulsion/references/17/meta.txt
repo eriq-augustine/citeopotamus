@@ -1,0 +1,6 @@
+TITLE: Mechanism of actin-based motility: a dynamic state diagram.
+AUTHORS: Bernheim-Groswasser A, Prost J, Sykes C
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Cells move by a dynamical reorganization of their cytoskeleton, orchestrated by a cascade of biochemical reactions directed to the membrane. Designed objects or bacteria can hijack this machinery to undergo actin-based propulsion inside cells or in a cell-like medium. These objects can explore the dynamical regimes of actin-based propulsion, and display different regimes of motion, in a continuous or periodic fashion. We show that bead movement can switch from one regime to the other, by changing the size of the beads or the surface concentration of the protein activating actin polymerization. We experimentally obtain the state diagram of the bead dynamics, in which the transitions between the different regimes can be understood by a theoretical approach based on an elastic force opposing a friction force. Moreover, the experimental characteristics of the movement, such as the velocity and the characteristic times of the periodic movement, are predicted by our theoretical analysis.

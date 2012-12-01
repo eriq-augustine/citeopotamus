@@ -1,0 +1,4 @@
+Protein dynamics and ligand migration interplay as studied by computer simulation.
+Arroyo-Mañez P, Bikiel DE, Boechi L, Capece L, Di Lella S, Estrin DA, Martí MA, Moreno DM, Nadra AD, Petruk AA
+Abstract:
+None

@@ -1,0 +1,4 @@
+Cell and molecular biology of Notch.
+Fiúza UM, Arias AM
+Abstract:
+Notch signalling is a cell-cell communication process, which allows the establishment of patterns of gene expression and differentiation, regulates binary cell fate choice and the maintenance of stem cell populations. So far, the data published has elucidated the main players in the Notch signalling pathway. However, its regulatory mechanisms are exhibiting an increasing complexity which could account for the multitude of roles it has during development and in adult organisms. In this review, we will describe the multiple roles of Notch and how various factors can regulate Notch signalling.

@@ -1,0 +1,6 @@
+TITLE: An expanded genome-scale model of Escherichia coli K-12 (iJR904 GSM/GPR).
+AUTHORS: Reed JL, Vo TD, Schilling CH, Palsson BO
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

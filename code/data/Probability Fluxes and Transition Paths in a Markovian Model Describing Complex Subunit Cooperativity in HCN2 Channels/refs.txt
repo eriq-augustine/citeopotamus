@@ -1,0 +1,43 @@
+REFERENCES
+[1]	Karplus M, McCammon JA (1981) The internal dynamics of globular proteins. CRC Crit Rev Biochem 9: 293–349. 
+[2]	Neher E, Sakmann B, Steinbach JH (1978) The extracellular patch clamp: a method for resolving currents through individual open channels in biological membranes. Pflug Arch Eur J Phy 375: 219–228. 
+[3]	Sigworth FJ, Neher E (1980) Single Na+ channel currents observed in cultured rat muscle cells. Nature 287: 447–449. 
+[4]	Conti F, Neher E (1980) Single channel recordings of K+ currents in squid axons. Nature 285: 140–143. 
+[5]	Markwick PR, McCammon JA (2011) Studying functional dynamics in bio-molecules using accelerated molecular dynamics. Phys Chem Chem Phys 13: 20053–20065. 
+[6]	Glasstone S, Laidler KJ, Eyring H (1941) The Theory of Rate Processes. New York: McGraw-Hill. 611 pp. 
+[7]	Monod J, Wyman J, Changeux JP (1965) On the Nature of Allosteric Transitions: A Plausible Model. J Mol Biol 12: 88–118. 
+[8]	Perutz MF, Wilkinson AJ, Paoli M, Dodson GG (1998) The stereochemical mechanism of the cooperative effects in hemoglobin revisited. Annu Rev Bioph Biom 27: 1–34. 
+[9]	Karlin A (1967) On the application of “a plausible model” of allosteric proteins to the receptor for acetylcholine. J Theor Biol 16: 306–320. doi: 10.1016/0022-5193(67)90011-2. 
+[10]	Goulding EH, Tibbs GR, Siegelbaum SA (1994) Molecular mechanism of cyclic-nucleotide-gated channel activation. Nature 372: 369–374. 
+[11]	Altomare C, Bucchi A, Camatini E, Baruscotti M, Viscomi C, et al. (2001) Integrated allosteric model of voltage gating of HCN channels. J Gen Physiol 117: 519–532. 
+[12]	Ackers G (1998) Deciphering the molecular code of hemoglobin allostery. Adv Protein Chem 51: 185–253. 
+[13]	Eaton WA, Henry ER, Hofrichter J, Mozzarelli A (1999) Is cooperative oxygen binding by hemoglobin really understood? Nat Struct Biol 6: 351–358. 
+[14]	Colquhoun D (1998) Binding, gating, affinity and efficacy: the interpretation of structure-activity relationships for agonists and of the effects of mutating receptors. Br J Pharmacol 125: 924–47. 
+[15]	Lee WY, Sine SM (2004) Invariant aspartic Acid in muscle nicotinic receptor contributes selectively to the kinetics of agonist binding. J Gen Physiol 124: 555–567. 
+[16]	Lape R, Colquhoun D, Sivilotti LG (2008) On the nature of partial agonism in the nicotinic receptor superfamily. Nature 454: 722–727. 
+[17]	Burzomato V, Beato M, Groot-Kormelink PJ, Colquhoun D, Sivilotti LG (2004) Single-channel behavior of heteromeric alpha1beta glycine receptors: an attempt to detect a conformational change before the channel opens. J Neurosci 24: 10924–10940. 
+[18]	Beato M, Groot-Kormelink PJ, Colquhoun D, Sivilotti LG (2004) The activation mechanism of alpha1 homomeric glycine receptors. J Neurosci 24: 895–906. 
+[19]	Zheng J, Zagotta WN (2000) Gating rearrangements in cyclic nucleotide-gated channels revealed by patch-clamp fluorometry. Neuron 28: 369–374. 
+[20]	Biskup C, Kusch J, Schulz E, Nache V, Schwede F, et al. (2007) Relating ligand binding to activation gating in CNGA2 channels. Nature 446: 440–443. 
+[21]	Kusch J, Biskup C, Thon S, Schulz E, Nache V, et al. (2010) Interdependence of receptor activation and ligand binding in HCN2 pacemaker channels. Neuron 67: 75–85. 
+[22]	Kusch J, Thon S, Schulz E, Biskup C, Nache V, et al. (2012) How subunits cooperate in cAMP-induced activation of homotetrameric HCN2 channels. Nat Chem Biol 8: 162–169. doi: 10.1038/nchembio.747. 
+[23]	Noe F, Schutte C, Vanden-Eijnden E, Reich L, Weikl TR (2009) Constructing the equilibrium ensemble of folding pathways from short off-equilibrium simulations. P Natl Acad Sci U S A 106: 19011–19016. 
+[24]	Weinan E, Vanden-Eijnden E (2010) Transition-path theory and path-finding algorithms for the study of rare events. Annu Rev Phys Chem 61: 391–420. 
+[25]	Prinz JH, Keller B, Noe F (2011) Probing molecular kinetics with Markov models: metastable states, transition pathways and spectroscopic observables. Phys Chem Ch Ph 13: 16912–16927. 
+[26]	Zhuravlev PI, Papoian GA (2010) Protein functional landscapes, dynamics, allostery: a tortuous path towards a universal theoretical framework. Q Rev Biophys 43: 295–332. 
+[27]	Dror RO, Pan AC, Arlow DH, Borhani DW, Maragakis P, et al. (2011) Pathway and mechanism of drug binding to G-protein-coupled receptors. Proc Natl Acad Sci U S A 108: 13118–13123. 
+[28]	Lindorff-Larsen K, Piana S, Dror RO, Shaw DE (2011) How fast-folding proteins fold. Science 334: 517–520. 
+[29]	Dror RO, Arlow DH, Maragakis P, Mildorf TJ, Pan AC, et al. (2011) Activation mechanism of the beta2-adrenergic receptor. Proc Natl Acad Sci U S A 108: 18684–18689. 
+[30]	Bruening-Wright A, Elinder F, Larsson HP (2007) Kinetic relationship between the voltage sensor and the activation gate in spHCN channels. J Gen Physiol 130: 71–81. 
+[31]	Loots E, Isacoff EY (1998) Protein rearrangements underlying slow inactivation of the Shaker K+ channel. J Gen Physiol 112: 377–389. 
+[32]	Mannuzzu LM, Isacoff EY (2000) Independence and cooperativity in rearrangements of a potassium channel voltage sensor revealed by single subunit fluorescence. J Gen Physiol 115: 257–268. 
+[33]	Armstrong CM, Bezanilla F (1974) Charge movement associated with the opening and closing of the activation gates of the Na channels. J Gen Physiol 63: 533–552. 
+[34]	Taglialatela M, Stefani E (1993) Gating currents of the cloned delayed-rectifier K+ channel DRK1. Proc Natl Acad Sci U S A 90: 4758–4762. 
+[35]	Männikkö R, Pandey S, Larsson HP, Elinder F (2005) Hysteresis in the voltage dependence of HCN channels: conversion between two modes affects pacemaker properties. J Gen Physiol 125: 305–326. 
+[36]	Noe F, Horenko I, Schutte C, Smith JC (2007) Hierarchical analysis of conformational dynamics in biomolecules: transition networks of metastable states. J Chem Phys 126: 155102. 
+[37]	Rao F, Caflisch A (2004) The protein folding network. J Mol Biol 342: 299–306. 
+[38]	Meyer R, Heinemann SH (1997) Temperature and pressure dependence of Shaker K+ channel N- and C-type inactivation. Eur Biophys J 26: 433–445. doi: 10.1007/s002490050098. 
+[39]	Tiwari JK, Sikdar SK (1999) Temperature-dependent conformational changes in a voltage-gated potassium channel. Eur Biophys J 28: 338–345. 
+[40]	Rodriguez BM, Sigg D, Bezanilla F (1998) Voltage Gating of Shaker K+ channels. The effect of temperature on ionic and gating currents. J Gen Physiol 112: 223–242. 
+[41]	Benndorf K, Koopmann R (1993) Thermodynamic entropy of two conformational transitions of single Na+ channel molecules. Biophys J 65: 1585–1589. 
+[42]	Nache V, Kusch J, Biskup C, Schulz E, Zimmer T, et al. (2008) Thermodynamics of activation gating in olfactory-type cyclic nucleotide-gated (CNGA2) channels. Biophys J 95: 2750–2758. 

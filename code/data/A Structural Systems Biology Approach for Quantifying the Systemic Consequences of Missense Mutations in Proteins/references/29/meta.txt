@@ -1,0 +1,6 @@
+TITLE: Stability effects of mutations and protein evolvability.
+AUTHORS: Tokuriki N, Tawfik DS
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The past several years have seen novel insights at the interface of protein biophysics and evolution. The accepted paradigm that proteins can tolerate nearly any amino acid substitution has been replaced by the view that the deleterious effects of mutations, and especially their tendency to undermine the thermodynamic and kinetic stability of protein, is a major constraint on protein evolvability--the ability of proteins to acquire changes in sequence and function. We summarize recent findings regarding how mutations affect protein stability, and how stability affects protein evolution. We describe ways of predicting and analyzing stability effects of mutations, and mechanisms that buffer or compensate for these destabilizing effects and thereby promote protein evolvabilty, in nature and in the laboratory.

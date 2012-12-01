@@ -1,0 +1,109 @@
+[1]	Nurse P (1990) Universal control mechanism regulating onset of M-phase. Nature 344: 503–508 doi:10.1038/344503a0. 
+[2]	Nurse P (2002) Cyclin dependent kinases and cell cycle control (nobel lecture). Chembiochem 3: 596–603 doi:10.1002/1439-7633(20020703)3:7<596::AID-​CBIC596>3.0.CO;2-U. 
+[3]	Morgan DO (2006) The Cell Cycle: Principles of Control. New Science Press, Ltd. 
+[4]	Enoch T, Carr AM, Nurse P (1992) Fission yeast genes involved in coupling mitosis to completion of DNA replication. Genes Dev 6: 2035–2046 doi:10.1101/gad.6.11.2035. 
+[5]	Lacroix B, Maddox AS (2012) Cytokinesis, ploidy and aneuploidy. J Pathol 226: 338–351 doi:10.1002/path.3013. 
+[6]	Diffley JFX (2011) Quality control in the initiation of eukaryotic DNA replication. Phil Trans R Soc Lond B Biol Sci 366: 3545–3553 doi:10.1098/rstb.2011.0073. 
+[7]	Martin SG (2009) Geometric control of the cell cycle. Cell Cycle 8: 3643–3647. doi: 10.4161/cc.8.22.9891. 
+[8]	Verde F, Mata J, Nurse P (1995) Fission yeast cell morphogenesis: identification of new genes and analysis of their role during the cell cycle. J Cell Biol 131: 1529–1538. doi: 10.1083/jcb.131.6.1529. 
+[9]	Kellogg DR (2003) Wee1-dependent mechanisms required for coordination of cell growth and cell division. J Cell Sci 116: 4883–4890 doi:10.1242/jcs.00908. 
+[10]	Wilson PD (1997) Epithelial cell polarity and disease. Am J Physiol 272: F434–42. 
+[11]	Mitchison JM (1990) The fission yeast, Schizosaccharomyces pombe. Bioessays 12: 189–191 doi:10.1002/bies.950120409. 
+[12]	Mitchison JM, Nurse P (1985) Growth in cell length in the fission yeast Schizosaccharomyces pombe. J Cell Sci 75: 357–376. 
+[13]	Hayles J, Nurse P (2001) A journey into space. Nat Rev Mol Cell Biol 2: 647–656 doi:10.1038/35089520. 
+[14]	Vavylonis D, Wu J-Q, Hao S, Shaughnessy BO, Pollard TD, et al. (2007) Assembly mechanism of the contractile ring for cytokinesis by fission yeast. Science 319: 97–100 doi:10.1126/science.1151086. 
+[15]	Wu J-Q, Sirotkin V, Kovar DR, Lord M, Beltzner CC, et al. (2006) Assembly of the cytokinetic contractile ring from a broad band of nodes in fission yeast. J Cell Biol 174: 391–402 doi:10.1083/jcb.200602032. 
+[16]	Csikász-Nagy A, Gyorffy B, Alt W, Tyson JJ, Novák B (2008) Spatial controls for growth zone formation during the fission yeast cell cycle. Yeast 25: 59–69 doi:10.1002/yea.1571. 
+[17]	Martin SG, Berthelot-Grosjean M (2009) Polar gradients of the DYRK-family kinase Pom1 couple cell length with the cell cycle. Nature 459: 852–856 doi:10.1038/nature08054. 
+[18]	Csikász-Nagy A, Kapuy O, Gyorffy B, Tyson JJ, Novák B (2007) Modeling the septation initiation network (SIN) in fission yeast cells. Curr Genet 51: 245–255 doi:10.1007/s00294-007-0123-4. 
+[19]	Pollard TD, Wu J-Q (2010) Understanding cytokinesis: lessons from fission yeast. Nat Rev Mol Cell Biol 11: 149–155 doi:10.1038/nrm2834. 
+[20]	Csikász-Nagy A, Battogtokh D, Chen KC, Novák B, Tyson JJ (2006) Analysis of a generic model of eukaryotic cell-cycle regulation. Biophys J 90: 4361–4379 doi:10.1529/biophysj.106.081240. 
+[21]	Bähler J, Pringle JR (1998) Pom1p, a fission yeast protein kinase that provides positional information for both polarized growth and cytokinesis. Genes Dev 12: 1356–1370. doi: 10.1101/gad.12.9.1356. 
+[22]	Hachet O, Berthelot-Grosjean M, Kokkoris K, Vincenzetti V, Moosbrugger J, et al. (2011) A Phosphorylation Cycle Shapes Gradients of the DYRK Family Kinase Pom1 at the Plasma Membrane. Cell 145: 1116–1128 doi:10.1016/j.cell.2011.05.014. 
+[23]	Moseley JB, Mayeux A, Paoletti A, Nurse P (2009) A spatial gradient coordinates cell size and mitotic entry in fission yeast. Nature 459: 857–860 doi:10.1038/nature08074. 
+[24]	Krapp A, Simanis V (2008) An overview of the fission yeast septation initiation network (SIN). Biochem Soc Trans 36: 411–415 doi:10.1042/BST0360411. 
+[25]	Ray S, Kume K, Gupta S, Ge W, Balasubramanian M, et al. (2010) The mitosis-to-interphase transition is coordinated by cross talk between the SIN and MOR pathways in Schizosaccharomyces pombe. J Cell Biol 190: 793–805 doi:10.1083/jcb.201002055. 
+[26]	Gupta S, McCollum D (2011) Crosstalk between NDR kinase pathways coordinates cell cycle dependent actin rearrangements. Cell Div 6: 19 doi:10.1186/1747-1028-6-19. 
+[27]	Cornils H, Kohler RS, Hergovich A, Hemmings BA (2011) Downstream of human NDR kinases: impacting on c-myc and p21 protein stability to control cell cycle progression. Cell Cycle 10: 1897–1904. doi: 10.4161/cc.10.12.15826. 
+[28]	Hergovich A, Cornils H, Hemmings BA (2008) Mammalian NDR protein kinases: from regulation to a role in centrosome duplication. Biochim Biophys Acta 1784: 3–15 doi:10.1016/j.bbapap.2007.07.017. 
+[29]	Jensen LJ, Jensen TS, de Lichtenberg U, Brunak S, Bork P (2006) Co-evolution of transcriptional and post-translational cell-cycle regulation. Nature 443: 594–597 doi:10.1038/nature05186. 
+[30]	Rupes I, Webb BA, Mak A, Young PG (2001) G2/M Arrest Caused by Actin Disruption Is a Manifestation of the Cell Size Checkpoint in Fission Yeast. Mol Biol Cell 12: 3892–3903. 
+[31]	Liu J, Wang H, Balasubramanian M (2000) A checkpoint that monitors cytokinesis in Schizosaccharomyces pombe. J Cell Sci 113: 1223–1230. 
+[32]	Jensen LJ, Saric J, Bork P (2006) Literature mining for the biologist: from information retrieval to biological discovery. Nat Rev Genet 7: 119–129 doi:10.1038/nrg1768. 
+[33]	Pancaldi V, Sarac OS, Rallis C, McLean JR, Prevorovsky M, et al. (2012) Predicting the Fission Yeast Protein Interaction Network. G3: Genes|Genomes|Genetics 2: 453–467 doi:10.1534/g3.111.001560. 
+[34]	Wood V (2006) Schizosaccharomyces pombe comparative genomics; from sequence to systems. In: Sunnerhagen P, Piskur J, editors. Comparative Genomics using fungi as models. Comparative Genomics using fungi as models. Springer. pp. 233–285. 
+[35]	Jensen LJ, Kuhn M, Stark M, Chaffron S, Creevey C, et al. (2009) STRING 8–a global view on proteins and their functional interactions in 630 organisms. Nucleic Acids Res 37: D412–6 doi:10.1093/nar/gkn760. 
+[36]	von Mering C, Jensen LJ, Kuhn M, Chaffron S, Doerks T, et al. (2007) STRING 7–recent developments in the integration and prediction of protein interactions. Nucleic Acids Res 35: D358–62 doi:10.1093/nar/gkl825. 
+[37]	Aslett M, Wood V (2006) Gene Ontology annotation status of the fission yeast genome: preliminary coverage approaches 100%. Yeast 23: 913–919 doi:10.1002/yea.1420. 
+[38]	Wood V, Harris MA, McDowall MD, Rutherford K, Vaughan BW, et al. (2012) PomBase: a comprehensive online resource for fission yeast. Nucleic Acids Res 40: D695–9 doi:10.1093/nar/gkr853. 
+[39]	Bitton DA, Wood V, Scutt PJ, Grallert A, Yates T, et al. (2011) Augmented annotation of the Schizosaccharomyces pombe genome reveals additional genes required for growth and viability. Genetics 187: 1207–1217 doi:10.1534/genetics.110.123497. 
+[40]	Ashburner M, Ball CA, Blake JA, Botstein D, Butler H, et al. (2000) Gene ontology: tool for the unification of biology. The Gene Ontology Consortium. Nat Genet 25: 25–29 doi:10.1038/75556. 
+[41]	Gene Ontology Consortium (2012) The Gene Ontology: enhancements for 2011. Nucleic Acids Res 40: D559–64 doi:10.1093/nar/gkr1028. 
+[42]	Vaggi F, Jordan F, Csikász-Nagy A (2011) Keystone species of the molecular network of cellular functions. In: Jordan F, Jorgensen SE, editors. Models of the Ecological Hierarchy. Elsevier Press. pp. 71–86. 
+[43]	Han J-DJ, Bertin N, Hao T, Goldberg DS, Berriz GF, et al. (2004) Evidence for dynamically organized modularity in the yeast protein-protein interaction network. Nature 430: 88–93 doi:10.1038/nature02555. 
+[44]	Batada NN, Hurst LD, Tyers M (2006) Evolutionary and physiological importance of hub proteins. PLoS Comput Biol 2: e88 doi:10.1371/journal.pcbi.0020088. 
+[45]	Yu H, Kim PM, Sprecher E, Trifonov V, Gerstein M (2007) The importance of bottlenecks in protein networks: correlation with gene essentiality and expression dynamics. PLoS Comput Biol 3: e59 doi:10.1371/journal.pcbi.0030059. 
+[46]	Batada NN, Reguly T, Breitkreutz A, Boucher L, Breitkreutz B-J, et al. (2006) Stratus not altocumulus: a new view of the yeast protein interaction network. PLoS Biol 4: e317 doi:10.1371/journal.pbio.0040317. 
+[47]	Stark C, Breitkreutz B-J, Reguly T, Boucher L, Breitkreutz A, et al. (2006) BioGRID: a general repository for interaction datasets. Nucleic Acids Res 34: D535–9 doi:10.1093/nar/gkj109. 
+[48]	Barabási A-L (2009) Scale-free networks: a decade and beyond. Science 325: 412–413 doi:10.1126/science.1173299. 
+[49]	Kim D-U, Hayles J, Kim D, Wood V, Park H-O, et al. (2010) Analysis of a genome-wide set of gene deletions in the fission yeast Schizosaccharomyces pombe. Nat Biotechnol 28: 617–623 doi:10.1038/nbt.1628. 
+[50]	Decottignies A, Sanchez-Perez I, Nurse P (2003) Schizosaccharomyces pombe essential genes: a pilot study. Genome Res 13: 399–406 doi:10.1101/gr.636103. 
+[51]	Forsburg S, Nurse P (1991) CELL CYCLE REGULATION IN CEREVISIAE AND POMBE. Ann Rev Cell Biol 7: 227–56. 
+[52]	Cross FR, Buchler NE, Skotheim JM (2011) Evolution of networks and sequences in eukaryotic cell cycle control. Phil Trans R Soc Lond B Biol Sci 366: 3532–3544 doi:10.1098/rstb.2011.0078. 
+[53]	Derényi I, Palla G, Vicsek T (2005) Clique percolation in random networks. Phys Rev Lett 94: 160202. doi: 10.1103/PhysRevLett.94.160202. 
+[54]	Palla G, Derényi I, Farkas I, Vicsek T (2005) Uncovering the overlapping community structure of complex networks in nature and society. Nature 435: 814–818 doi:10.1038/nature03607. 
+[55]	Morrell-Falvey JL, Ren L, Feoktistova A, Haese GD, Gould KL (2005) Cell wall remodeling at the fission yeast cell division site requires the Rho-GEF Rgf3p. J Cell Sci 118: 5563–5573 doi:10.1242/jcs.02664. 
+[56]	Tajadura V, García B, García I, García P, Sánchez Y (2004) Schizosaccharomyces pombe Rgf3p is a specific Rho1 GEF that regulates cell wall beta-glucan biosynthesis through the GTPase Rho1p. J Cell Sci 117: 6163–6174 doi:10.1242/jcs.01530. 
+[57]	Sawin KE, Snaith Ha (2004) Role of microtubules and tea1p in establishment and maintenance of fission yeast cell polarity. J Cell Sci 117: 689–700 doi:10.1242/jcs.00925. 
+[58]	Niccoli T, Arellano M, Nurse P (2003) Role of Tea1p, Tea3p and Pom1p in the determination of cell ends in Schizosaccharomyces pombe. Yeast 20: 1349–1358 doi:10.1002/yea.1054. 
+[59]	Mata J, Nurse P (1997) tea1 and the microtubular cytoskeleton are important for generating global spatial order within the fission yeast cell. Cell 89: 939–949. doi: 10.1016/S0092-8674(00)80279-2. 
+[60]	Kelly FD, Nurse P (2011) Spatial control of Cdc42 activation determines cell width in fission yeast. Mol Biol Cell 22: 3801–3811 doi:10.1091/mbc.E11-01-0057. 
+[61]	Chang F, Martin SG (2009) Shaping fission yeast with microtubules. Cold Spring Harb Perspect Biol 1: a001347 doi:10.1101/cshperspect.a001347. 
+[62]	Nurse P (2000) A long twentieth century of the cell cycle and beyond. Cell 100: 71–78. doi: 10.1016/S0092-8674(00)81684-0. 
+[63]	Krapp A, Schmidt S, Cano E, Simanis V (2001) S. pombe cdc11p, together with sid4p, provides an anchor for septation initiation network proteins on the spindle pole body. Curr Biol 11: 1559–1568. doi: 10.1016/S0960-9822(01)00478-X. 
+[64]	Cueille N, Salimova E, Esteban V, Blanco M, Moreno S, et al. (2001) Flp1, a fission yeast orthologue of the s. cerevisiae CDC14 gene, is not required for cyclin degradation or rum1p stabilisation at the end of mitosis. J Cell Sci 114: 2649–2664. 
+[65]	Trautmann S, Wolfe BA, Jorgensen P, Tyers M, Gould KL, et al. (2001) Fission yeast Clp1p phosphatase regulates G2/M transition and coordination of cytokinesis with cell cycle progression. Curr Biol 11: 931–940. doi: 10.1016/S0960-9822(01)00268-8. 
+[66]	Feierbach B, Chang F (2001) Roles of the fission yeast formin for3p in cell polarity, actin cable formation and symmetric cell division. Curr Biol 11: 1656–1665. doi: 10.1016/S0960-9822(01)00525-5. 
+[67]	Matsuzawa T, Fujita Y, Tohda H, Takegawa K (2012) Snf1-like protein kinase Ssp2 regulates glucose derepression in Schizosaccharomyces pombe. Eukaryot Cell 11: 159–167 doi:10.1128/EC.05268-11. 
+[68]	Matsusaka T, Hirata D, Yanagida M, Toda T (1995) A novel protein kinase gene ssp1+ is required for alteration of growth polarity and actin localization in fission yeast. EMBO J 14: 3325–3338. 
+[69]	Toda T, Niwa H, Nemoto T, Dhut S, Eddison M, et al. (1996) The fission yeast sts5+ gene is required for maintenance of growth polarity and functionally interacts with protein kinase C and an osmosensing MAP-kinase pathway. J Cell Sci 109 (Pt 9) 2331–2342. 
+[70]	Nakayama J-I, Xiao G, Noma K-I, Malikzay A, Bjerling P, et al. (2003) Alp13, an MRG family protein, is a component of fission yeast Clr6 histone deacetylase required for genomic integrity. EMBO J 22: 2776–2787 doi:10.1093/emboj/cdg248. 
+[71]	Wang H, Vavylonis D (2008) Model of For3p-mediated actin cable assembly in fission yeast. PLoS One 3: e4078 doi:10.1371/journal.pone.0004078. 
+[72]	Martin SG, McDonald WH, Yates JR, Chang F (2005) Tea4p links microtubule plus ends with the formin for3p in the establishment of cell polarity. Dev Cell 8: 479–491 doi:10.1016/j.devcel.2005.02.008. 
+[73]	Nakano K, Mutoh T, Arai R, Mabuchi I (2003) The small GTPase Rho4 is involved in controlling cell morphology and septation in fission yeast. Genes Cells 8: 357–370. doi: 10.1046/j.1365-2443.2003.00639.x. 
+[74]	Gauthier NP, Jensen LJ, Wernersson R, Brunak S, Jensen TS (2010) Cyclebase.org: version 2.0, an updated comprehensive, multi-species repository of cell cycle experiments and derived analysis results. Nucleic Acids Res 38: D699–702. doi: 10.1093/nar/gkp1044. 
+[75]	Madrid M, Soto T, Khong HK, Franco A, Vicente J, et al. (2006) Stress-induced response, localization, and regulation of the Pmk1 cell integrity pathway in Schizosaccharomyces pombe. J Biol Chem 281: 2033–2043. doi: 10.1074/jbc.M506467200. 
+[76]	Cortés JCG, Konomi M, Martins IM, Muñoz J, Moreno MB, et al. (2007) The (1,3)beta-D-glucan synthase subunit Bgs1p is responsible for the fission yeast primary septum formation. Mol Microbiol 65: 201–217. 
+[77]	Valbuena N, Moreno S (2012) AMPK phosphorylation by Ssp1 is required for proper sexual differentiation in fission yeast. J Cell Sci 125: 2655–64. doi: 10.1242/jcs.098533. 
+[78]	Kurischko C, Kim HK, Kuravi VK, Pratzka J, Luca FC (2011) The yeast Cbk1 kinase regulates mRNA localization via the mRNA-binding protein Ssd1. J Cell Biol 192: 583–598 doi:10.1083/jcb.201011061. 
+[79]	Rustici G, Mata J, Kivinen K, Lió P, Penkett CJ, et al. (2004) Periodic gene expression program of the fission yeast cell cycle. Nat Genet 36: 809–817 doi:10.1038/ng1377. 
+[80]	Alberghina L, Mavelli G, Drovandi G, Palumbo P, Pessina S, et al. (2012) Cell growth and cell cycle in Saccharomyces cerevisiae: basic regulatory design and protein-protein interaction network. Biotechnol Adv 30: 52–72 doi:10.1016/j.biotechadv.2011.07.010. 
+[81]	Kovács IA, Palotai R, Szalay MS, Csermely P (2010) Community Landscapes: An Integrative Approach to Determine Overlapping Network Module Hierarchy, Identify Key Nodes and Predict Network Dynamics. PLoS ONE 5: e12528 doi:10.1371/journal.pone.0012528. 
+[82]	Orr SJ, Boutz DR, Wang R, Chronis C, Lea NC, et al. (2012) Proteomic and protein interaction network analysis of human T lymphocytes during cell-cycle entry. Mol Sys Biol 8: 573 doi:10.1038/msb.2012.5. 
+[83]	Fankhauser C, Reymond A, Cerutti L, Utzig S, Hofmann K, et al. (1995) The S. pombe cdc15 gene is a key element in the reorganization of F-actin at mitosis. Cell 82: 435–444. doi: 10.1016/0092-8674(95)90432-8. 
+[84]	Wiley DJ, Marcus S, D'urso G, Verde F (2003) Control of cell polarity in fission yeast by association of Orb6p kinase with the highly conserved protein methyltransferase Skb1p. J Biol Chem 278: 25256–25263 doi:10.1074/jbc.M209703200. 
+[85]	Szappanos B, Kovács K, Szamecz B, Honti F, Costanzo M, et al. (2011) An integrated approach to characterize genetic interaction networks in yeast metabolism. Nat Genet 43: 656–662 doi:10.1038/ng.846. 
+[86]	Nguyen T-P, Liu W, Jordán F (2011) Inferring pleiotropy by network analysis: linked diseases in the human PPI network. BMC Syst Biol 5: 179 doi:10.1186/1752-0509-5-179. 
+[87]	Martin SG (2009) Microtubule-dependent cell morphogenesis in the fission yeast. Trends Cell Biol 19: 447–454 doi:10.1016/j.tcb.2009.06.003. 
+[88]	Kurischko C, Kuravi VK, Herbert CJ, Luca FC (2011) Nucleocytoplasmic shuttling of Ssd1 defines the destiny of its bound mRNAs. Mol Microbiol 81: 831–849 doi:10.1111/j.1365-2958.2011.07731.x. 
+[89]	Koyano T, Kume K, Konishi M, Toda T, Hirata D (2010) Search for kinases related to transition of growth polarity in fission yeast. Biosci Biotechnol Biochem 74: 1129–1133. doi: 10.1271/bbb.100223. 
+[90]	Tatebe H, Shimada K, Uzawa S, Morigasaki S, Shiozaki K (2005) Wsh3/Tea4 is a novel cell-end factor essential for bipolar distribution of Tea1 and protects cell polarity under environmental stress in S. pombe. Curr Biol 15: 1006–1015 doi:10.1016/j.cub.2005.04.061. 
+[91]	Williams T, Brenman JE (2008) LKB1 and AMPK in cell polarity and division. Trends Cell Biol 18: 193–198 doi:10.1016/j.tcb.2008.01.008. 
+[92]	Waskiewicz AJ, Cooper JA (1995) Mitogen and stress response pathways: MAP kinase cascades and phosphatase regulation in mammals and yeast. Cur Opin Cell Biol 7: 798–805 doi:10.1016/0955-0674(95)80063-8. 
+[93]	Aves SJ, Durkacz BW, Carr A, Nurse P (1985) Cloning, sequencing and transcriptional control of the Schizosaccharomyces pombe cdc10 “start” gene. EMBO J 4: 457–463. 
+[94]	Agarwal S, Deane CM, Porter M a, Jones NS (2010) Revisiting date and party hubs: novel approaches to role assignment in protein interaction networks. PLoS Comput Biol 6: e1000817 doi:10.1371/journal.pcbi.1000817. 
+[95]	Hakes L, Pinney JW, Robertson DL, Lovell SC (2008) Protein-protein interaction networks and biology–what's the connection? Nat Biotechnol 26: 69–72 doi:10.1038/nbt0108-69. 
+[96]	Rhee SY, Wood V, Dolinski K, Draghici S (2008) Use and misuse of the gene ontology annotations. Nat Rev Genet 9: 509–515 doi:10.1038/nrg2363. 
+[97]	Newman MEJ (2003) The Structure and Function of Complex Networks. SIAM Review 45: 58 doi:10.1137/S003614450342480. 
+[98]	Strogatz SH (2001) Exploring complex networks. Nature 410: 268–276 doi:10.1038/35065725. 
+[99]	Fortunato S (2010) Community detection in graphs. Physics Rep 486: 75–174 doi:10.1016/j.physrep.2009.11.002. 
+[100]	Hagberg A, Daniel S, Swart P (2008) Exploring Network Structure, Dynamics, and Function using NetworkX. In: Varoquaux G, Vaught T, Millman J, editors. Proceedings of the 7th Python in Science conference; 19–24 August 2008; Pasadena, California, United States. SciPy 2008. pp. 11–15. 
+[101]	Bähler J, Wu JQ, Longtine MS, Shah NG, McKenzie A, et al. (1998) Heterologous modules for efficient and versatile PCR-based gene targeting in Schizosaccharomyces pombe. Yeast 14: 943–951 doi:10.1002/(SICI)1097-0061(199807)14:10<943​::AID-YEA292>3.0.CO;2-Y. 
+[102]	Sato M, Dhut S, Toda T (2005) New drug-resistant cassettes for gene disruption and epitope tagging in Schizosaccharomyces pombe. Yeast 22: 583–591 doi:10.1002/yea.1233. 
+[103]	Moreno S, Klar A, Nurse P (1991) Molecular genetic analysis of fission yeast Schizosaccharomyces pombe. Methods Enzymol 194: 795–823. 
+[104]	De Chaumont F, Dallongeville S, Olivo-Marin J-C (2011) ICY: A new open-source community image processing software. IEEE International Symposium on Biomedical Imaging ISBI. IEEE. pp. 234–237. doi:10.1109/ISBI.2011.5872395. 
+[105]	Yook S-H, Oltvai ZN, Barabási A-L (2004) Functional and topological characterization of protein interaction networks. Proteomics 4: 928–942 doi:10.1002/pmic.200300636. 
+[106]	Joy MP, Brock A, Ingber DE, Huang S (2005) High-betweenness proteins in the yeast protein interaction network. J Biomed Biotechnol 2005: 96–103 doi:10.1155/JBB.2005.96. 
+[107]	Zotenko E, Mestre J, O'Leary DP, Przytycka TM (2008) Why do hubs in the yeast protein interaction network tend to be essential: reexamining the connection between the network topology and essentiality. PLoS Comput Biol 4: e1000140 doi:10.1371/journal.pcbi.1000140. 
+[108]	Gkantsidis C, Mihail M, Zegura E (2003) The Markov Chain Simulation Method for Generating Connected Power Law Random Graphs. In: Proceedings of the Fifth Workshop on Algorithm Engineering and Experiments; 11 January 2003; Baltimore, Maryland; United States. ALENEX 03. pp. 16–25. 
+[109]	Sokal RR, Rohlf FJ (1994) Biometry: The Principles and Practices of Statistics in Biological Research. W. H. Freeman. 

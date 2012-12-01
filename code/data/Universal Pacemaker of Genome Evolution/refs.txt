@@ -1,0 +1,41 @@
+REFERENCES
+[1]	Grishin NV, Wolf YI, Koonin EV (2000) From complete genomes to measures of substitution rate variability within and between proteins. Genome Res 10: 991–1000. 
+[2]	Drummond DA, Wilke CO (2008) Mistranslation-induced protein misfolding as a dominant constraint on coding-sequence evolution. Cell 134: 341–352. 
+[3]	Wolf YI, Novichkov PS, Karev GP, Koonin EV, Lipman DJ (2009) The universal distribution of evolutionary rates of genes and distinct characteristics of eukaryotic genes of different apparent ages. Proc Natl Acad Sci U S A 106: 7273–7280. 
+[4]	Bromham L (2009) Why do species vary in their rate of molecular evolution? Biol Lett 5: 401–404. 
+[5]	Bromham L (2011) The genome as a life-history character: why rate of molecular evolution varies between mammal species. Philos Trans R Soc Lond B Biol Sci 366: 2503–2513. 
+[6]	Waterston RH, Lindblad-Toh K, Birney E, Rogers J, Abril JF, et al. (2002) Initial sequencing and comparative analysis of the mouse genome. Nature 420: 520–562. 
+[7]	Jordan IK, Kondrashov FA, Rogozin IB, Tatusov RL, Wolf YI, et al. (2001) Constant relative rate of protein evolution and detection of functional diversification among bacterial, archaeal and eukaryotic proteins. Genome Biol 2: RESEARCH0053. 
+[8]	Bininda-Emonds OR (2007) Fast genes and slow clades: comparative rates of molecular evolution in mammals. Evol Bioinform Online 3: 59–85. 
+[9]	Martin AP, Naylor GJ, Palumbi SR (1992) Rates of mitochondrial DNA evolution in sharks are slow compared with mammals. Nature 357: 153–155. 
+[10]	Nabholz B, Glemin S, Galtier N (2009) The erratic mitochondrial clock: variations of mutation rate, not population size, affect mtDNA diversity across birds and mammals. BMC Evol Biol 9: 54. 
+[11]	Ayala FJ (2000) Neutralism and selectionism: the molecular clock. Gene 261: 27–33. 
+[12]	Rodriguez-Trelles F, Tarrio R, Ayala FJ (2001) Erratic overdispersion of three molecular clocks: GPDH, SOD, and XDH. Proc Natl Acad Sci U S A 98: 11405–11410. 
+[13]	Zuckerkandl E, Pauling L (1962) Molecular evolution. In: Kasha M, B P, editors. Horizons in Biochemistry. New York: Academic Press. pp. 189–225. 
+[14]	Zuckerkandl E, Pauling L (1965) Evolutionary divergence and convergence of proteins. In: Bryson V, Vogel HJ, editors. Evolving Gene and Proteins. New York: Academic Press. pp. 97–166. 
+[15]	Zuckerkandl E (1987) On the molecular evolutionary clock. J Mol Evol 26: 34–46. 
+[16]	Kimura M (1987) Molecular evolutionary clock and the neutral theory. J Mol Evol 26: 24–33. 
+[17]	Bromham L, Penny D (2003) The modern molecular clock. Nat Rev Genet 4: 216–224. 
+[18]	Lanfear R, Welch JJ, Bromham L (2010) Watching the clock: studying variation in rates of molecular evolution between species. Trends Ecol Evol 25: 495–503. 
+[19]	Kumar S, Hedges SB (1998) A molecular timescale for vertebrate evolution. Nature 392: 917–920. 
+[20]	Hedges SB (2002) The origin and evolution of model organisms. Nat Rev Genet 3: 838–849. 
+[21]	Graur D, Martin W (2004) Reading the entrails of chickens: molecular timescales of evolution and the illusion of precision. Trends Genet 20: 80–86. 
+[22]	Welch JJ, Bromham L (2005) Molecular dating when rates vary. Trends Ecol Evol 20: 320–327. 
+[23]	Takahata N (1987) On the overdispersed molecular clock. Genetics 116: 169–179. 
+[24]	Cutler DJ (2000) Understanding the overdispersed molecular clock. Genetics 154: 1403–1417. 
+[25]	Wilke CO (2004) Molecular clock in neutral protein evolution. BMC Genet 5: 25. 
+[26]	Bedford T, Hartl DL (2008) Overdispersion of the molecular clock: temporal variation of gene-specific substitution rates in Drosophila. Mol Biol Evol 25: 1631–1638. 
+[27]	Bedford T, Wapinski I, Hartl DL (2008) Overdispersion of the molecular clock varies between yeast, Drosophila and mammals. Genetics 179: 977–984. 
+[28]	Drummond AJ, Ho SY, Phillips MJ, Rambaut A (2006) Relaxed phylogenetics and dating with confidence. PLoS Biol 4: e88. 
+[29]	Drummond AJ, Suchard MA (2010) Bayesian random local clocks, or one rate to rule them all. BMC Biol 8: 114. 
+[30]	Puigbo P, Wolf YI, Koonin EV (2009) Search for a Tree of Life in the thicket of the phylogenetic forest. J Biol 8: 59. 
+[31]	Doolittle WF (1999) Phylogenetic classification and the universal tree. Science 284: 2124–2129. 
+[32]	Doolittle WF, Bapteste E (2007) Pattern pluralism and the Tree of Life hypothesis. Proc Natl Acad Sci U S A 104: 2043–2049. 
+[33]	Puigbo P, Wolf YI, Koonin EV (2010) The tree and net components of prokaryote evolution. Genome Biol Evol 2: 745–756. 
+[34]	Novichkov PS, Omelchenko MV, Gelfand MS, Mironov AA, Wolf YI, et al. (2004) Genome-wide molecular clock and horizontal gene transfer in bacterial evolution. J Bacteriol 186: 6575–6585. 
+[35]	Schwarz GE (1978) Estimating the dimension of a model. Annals of Statistics 6: 461–464. 
+[36]	Koonin EV, Wolf YI (2008) Genomics of bacteria and archaea: the emerging dynamic view of the prokaryotic world. Nucleic Acids Res 36: 6688–6719. 
+[37]	Creevey CJ, McInerney JO (2005) Clann: investigating phylogenetic information through supertree analyses. Bioinformatics 21: 390–392. 
+[38]	Snir S, Rao S (2012) Quartet MaxCut: a fast algorithm for amalgamating quartet trees. Mol Phylogenet Evol 62: 1–8. 
+[39]	Yutin N, Koonin EV, Wolf YI (2012) Phylogenomics of prokaryotic ribosomal proteins. PLOS ONE 7: e36972. 
+[40]	Swofford DL (2000) PAUP*. Phylogenetic Analysis Using Parsimony (*and Other Methods). Version 4. Sunderland, Massachusetts: Sinauer Associates. 

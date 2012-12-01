@@ -1,0 +1,6 @@
+TITLE: Working strokes by single molecules of the kinesin-related microtubule motor ncd.
+AUTHORS: deCastro MJ, Fondecave RM, Clarke LA, Schmidt CF, Stewart RJ
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The ncd protein is a dimeric, ATP-powered motor that belongs to the kinesin family of microtubule motor proteins. Here we resolve single mechanochemical cycles of recombinant, dimeric, full-length ncd, using optical-tweezers-based instrumentation and a three-bead, suspended-microtubule assay. Under conditions of limiting ATP, isolated and transient microtubule-binding events exhibit exponentially distributed and ATP-concentration-dependent lifetimes. These events do not involve consecutive steps along the microtubule, quantitatively confirming that ncd is non-processive. At low loads, a single motor molecule produces ATP-triggered working strokes of about 9 nm, which occur at the ends of binding events.

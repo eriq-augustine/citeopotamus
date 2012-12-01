@@ -1,0 +1,6 @@
+TITLE: Using the gene ontology to enrich biological pathways.
+AUTHORS: Sanfilippo A, Baddeley B, Beagley N, McDermott J, Riensche R, Taylor R, Gopalan B
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Most current approaches to automatic pathway generation are based on a reverse engineering approach in which pathway plausibility is solely derived from gene expression data and not independently validated. Alternative approaches use prior biological knowledge to validate automatically inferred pathways, but the prior knowledge is usually not sufficiently tuned to the pathology of focus. We present a novel pathway generation approach that combines insights from the reverse engineering and knowledge-based approaches to increase the biological plausibility of automatically generated regulatory networks and describe an application of this approach to transcriptional data from a mouse model of neuroprotection during stroke.

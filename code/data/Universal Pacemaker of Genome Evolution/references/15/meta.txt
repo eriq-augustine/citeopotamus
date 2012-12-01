@@ -1,0 +1,6 @@
+TITLE: The modern molecular clock.
+AUTHORS: Bromham L, Penny D
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The discovery of the molecular clock--a relatively constant rate of molecular evolution--provided an insight into the mechanisms of molecular evolution, and created one of the most useful new tools in biology. The unexpected constancy of rate was explained by assuming that most changes to genes are effectively neutral. Theory predicts several sources of variation in the rate of molecular evolution. However, even an approximate clock allows time estimates of events in evolutionary history, which provides a method for testing a wide range of biological hypotheses ranging from the origins of the animal kingdom to the emergence of new viral epidemics.

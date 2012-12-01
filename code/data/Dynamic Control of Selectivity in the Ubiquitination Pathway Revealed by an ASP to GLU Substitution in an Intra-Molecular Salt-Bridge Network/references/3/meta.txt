@@ -1,0 +1,6 @@
+TITLE: Structural mechanisms underlying posttranslational modification by ubiquitin-like proteins.
+AUTHORS: Dye BT, Schulman BA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Covalent attachment of ubiquitin-like proteins (Ubls) is a predominant mechanism for regulating protein function in eukaryotes. Several structurally related Ubls, such as ubiquitin, SUMO, NEDD8, and ISG15, modify a vast number of proteins, altering their functions in a variety of ways. Ubl modifications can affect the target's half-life, subcellular localization, enzymatic activity, or ability to interact with protein or DNA partners. Generally, these diverse Ubls are covalently attached via their C termini to their targets by parallel, but specific, cascades involving three classes of enzymes known as E1, E2, and E3. Structures are now available for many protein complexes in E1-E2-E3 cascades, revealing a series of modular building blocks and providing mechanistic insights into their functions.

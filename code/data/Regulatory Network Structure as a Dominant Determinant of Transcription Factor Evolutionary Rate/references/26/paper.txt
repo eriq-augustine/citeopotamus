@@ -1,0 +1,4 @@
+Influence of metabolic network structure and function on enzyme evolution.
+Vitkup D, Kharchenko P, Wagner A
+Abstract:
+None

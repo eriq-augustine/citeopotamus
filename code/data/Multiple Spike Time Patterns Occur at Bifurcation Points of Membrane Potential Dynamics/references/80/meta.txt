@@ -1,0 +1,6 @@
+TITLE: Pyramidal neuron as two-layer neural network.
+AUTHORS: Poirazi P, Brannon T, Mel BW
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The pyramidal neuron is the principal cell type in the mammalian forebrain, but its function remains poorly understood. Using a detailed compartmental model of a hippocampal CA1 pyramidal cell, we recorded responses to complex stimuli consisting of dozens of high-frequency activated synapses distributed throughout the apical dendrites. We found the cell's firing rate could be predicted by a simple formula that maps the physical components of the cell onto those of an abstract two-layer "neural network." In the first layer, synaptic inputs drive independent sigmoidal subunits corresponding to the cell's several dozen long, thin terminal dendrites. The subunit outputs are then summed within the main trunk and cell body prior to final thresholding. We conclude that insofar as the neural code is mediated by average firing rate, a two-layer neural network may provide a useful abstraction for the computing function of the individual pyramidal neuron.

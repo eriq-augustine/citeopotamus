@@ -1,0 +1,6 @@
+TITLE: Vision and cortical map development.
+AUTHORS: White LE, Fitzpatrick D
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Functional maps arise in developing visual cortex as response selectivities become organized into columnar patterns of population activity. Recent studies of developing orientation and direction maps indicate that both are sensitive to visual experience, but not to the same degree or duration. Direction maps have a greater dependence on early vision, while orientation maps remain sensitive to experience for a longer period of cortical maturation. There is also a darker side to experience: abnormal vision through closed lids produces severe impairments in neuronal selectivity, rendering these maps nearly undetectable. Thus, the rules that govern their formation and the construction of the underlying neural circuits are modulated-for better or worse-by early vision. Direction maps, and possibly maps of other properties that are dependent upon precise conjunctions of spatial and temporal signals, are most susceptible to the potential benefits and maladaptive consequences of early sensory experience.

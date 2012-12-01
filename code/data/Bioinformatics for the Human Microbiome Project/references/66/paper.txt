@@ -1,0 +1,4 @@
+Phylogenomics: intersection of evolution and genomics.
+Eisen JA, Fraser CM
+Abstract:
+Much has been gained from genomic and evolutionary studies of species. Combining the perspectives of these different approaches suggests that an integrated phylogenomic approach will be beneficial.

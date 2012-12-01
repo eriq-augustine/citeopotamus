@@ -1,0 +1,6 @@
+TITLE: Escherichia coli K-12 undergoes adaptive evolution to achieve in silico predicted optimal growth.
+AUTHORS: Ibarra RU, Edwards JS, Palsson BO
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Annotated genome sequences can be used to reconstruct whole-cell metabolic networks. These metabolic networks can be modelled and analysed (computed) to study complex biological functions. In particular, constraints-based in silico models have been used to calculate optimal growth rates on common carbon substrates, and the results were found to be consistent with experimental data under many but not all conditions. Optimal biological functions are acquired through an evolutionary process. Thus, incorrect predictions of in silico models based on optimal performance criteria may be due to incomplete adaptive evolution under the conditions examined. Escherichia coli K-12 MG1655 grows sub-optimally on glycerol as the sole carbon source. Here we show that when placed under growth selection pressure, the growth rate of E. coli on glycerol reproducibly evolved over 40 days, or about 700 generations, from a sub-optimal value to the optimal growth rate predicted from a whole-cell in silico model. These results open the possibility of using adaptive evolution of entire metabolic networks to realize metabolic states that have been determined a priori based on in silico analysis.

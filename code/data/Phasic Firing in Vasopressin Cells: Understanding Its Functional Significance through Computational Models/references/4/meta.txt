@@ -1,0 +1,6 @@
+TITLE: Mechanisms of vasopressin secretion.
+AUTHORS: Leng G, Dyball RE, Luckman SM
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The magnocellular vasopressin system of the rat has been studied intensively in recent years. This review outlines the electrophysiological characteristics of vasopressin neurons, the characteristics of stimulus-secretion coupling in the neural lobe, and describes some of the major features of the neural regulation of this system which underlie physiological regulation of vasopressin release by osmoregulatory stimuli. The major afferent pathways to the magnocellular system are now well characterised. Those involved in osmoregulation have been mapped using expression of the primary response gene c-fos as a marker for neuronal activation.

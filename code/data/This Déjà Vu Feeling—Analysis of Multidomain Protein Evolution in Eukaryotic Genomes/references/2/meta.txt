@@ -1,0 +1,6 @@
+TITLE: Evolutionary history and functional implications of protein domains and their combinations in eukaryotes.
+AUTHORS: Itoh M, Nacher JC, Kuma K, Goto S, Kanehisa M
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

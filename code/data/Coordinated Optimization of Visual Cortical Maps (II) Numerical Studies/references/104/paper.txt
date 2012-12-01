@@ -1,0 +1,4 @@
+Symmetry considerations and development of pinwheels in visual maps.
+Lee HY, Yahyanejad M, Kardar M
+Abstract:
+Neurons in the visual cortex respond best to rod-like stimuli of given orientation. While the preferred orientation varies continuously across most of the cortex, there are prominent pinwheel centers around which all orientations are present. Oriented segments abound in natural images and tend to be collinear; neurons are also more likely to be connected if their preferred orientations are aligned to their topographic separation. These are indications of a reduced symmetry requiring joint rotations of both orientation preference and the underlying topography. We verify that this requirement extends to cortical maps of monkey and cat by direct statistical analysis. Furthermore, analytical arguments and numerical studies indicate that pinwheels are generically stable in evolving field models that couple orientation and topography.

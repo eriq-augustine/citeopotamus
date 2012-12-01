@@ -1,0 +1,6 @@
+TITLE: Search and clustering orders of magnitude faster than BLAST.
+AUTHORS: Edgar RC
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

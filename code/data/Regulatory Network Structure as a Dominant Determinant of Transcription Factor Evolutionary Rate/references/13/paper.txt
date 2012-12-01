@@ -1,0 +1,4 @@
+Relating three-dimensional structures to protein networks provides evolutionary insights.
+Kim PM, Lu LJ, Xia Y, Gerstein MB
+Abstract:
+Most studies of protein networks operate on a high level of abstraction, neglecting structural and chemical aspects of each interaction. Here, we characterize interactions by using atomic-resolution information from three-dimensional protein structures. We find that some previously recognized relationships between network topology and genomic features (e.g., hubs tending to be essential proteins) are actually more reflective of a structural quantity, the number of distinct binding interfaces. Subdividing hubs with respect to this quantity provides insight into their evolutionary rate and indicates that additional mechanisms of network growth are active in evolution (beyond effective preferential attachment through gene duplication).

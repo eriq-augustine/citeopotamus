@@ -1,0 +1,4 @@
+The normalization model of attention.
+Reynolds JH, Heeger DJ
+Abstract:
+Attention has been found to have a wide variety of effects on the responses of neurons in visual cortex. We describe a model of attention that exhibits each of these different forms of attentional modulation, depending on the stimulus conditions and the spread (or selectivity) of the attention field in the model. The model helps reconcile proposals that have been taken to represent alternative theories of attention. We argue that the variety and complexity of the results reported in the literature emerge from the variety of empirical protocols that were used, such that the results observed in any one experiment depended on the stimulus conditions and the subject's attentional strategy, a notion that we define precisely in terms of the attention field in the model, but that has not typically been completely under experimental control.

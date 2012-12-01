@@ -1,0 +1,6 @@
+TITLE: Langevin dynamics of proteins at constant pH.
+AUTHORS: Walczak AM, Antosiewicz JM
+TERMS:
+CATEGORIES:
+ABSTRACT:
+An application of the Langevin dynamics algorithm for simulation of protein conformational equilibria at constant pH is presented. The algorithm is used to compute average protonation of titratable groups in ovomucoid third domain, as functions of pH, resulting in data, basically equivalent to the pH dependencies of chemical shifts obtained from multidimensional nuclear magnetic resonance (NMR) spectroscopy, for the protein titratable residues. The pK(a) values obtained from the simulation are in reasonable agreement with experimental data. Possible improvements of this methodology, using achievements from other fields of mesoscopic biomolecular simulations, are also discussed.

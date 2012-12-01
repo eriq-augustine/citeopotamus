@@ -1,0 +1,6 @@
+TITLE: Rapidly learned stimulus expectations alter perception of motion.
+AUTHORS: Chalk M, Seitz AR, Seriès P
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Expectations broadly influence our experience of the world. However, the process by which they are acquired and then shape our sensory experiences is not well understood. Here, we examined whether expectations of simple stimulus features can be developed implicitly through a fast statistical learning procedure. We found that participants quickly and automatically developed expectations for the most frequently presented directions of motion and that this altered their perception of new motion directions, inducing attractive biases in the perceived direction as well as visual hallucinations in the absence of a stimulus. Further, the biases in motion direction estimation that we observed were well explained by a model that accounted for participants' behavior using a Bayesian strategy, combining a learned prior of the stimulus statistics (the expectation) with their sensory evidence (the actual stimulus) in a probabilistically optimal manner. Our results demonstrate that stimulus expectations are rapidly learned and can powerfully influence perception of simple visual features.

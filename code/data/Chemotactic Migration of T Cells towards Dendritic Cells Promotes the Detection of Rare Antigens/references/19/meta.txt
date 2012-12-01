@@ -1,0 +1,6 @@
+TITLE: Simulation of biological cell sorting using a two-dimensional extended Potts model.
+AUTHORS: Graner F, Glazier JA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

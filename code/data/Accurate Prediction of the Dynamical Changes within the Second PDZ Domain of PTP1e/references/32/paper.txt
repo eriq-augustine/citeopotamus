@@ -1,0 +1,4 @@
+Making optimal use of empirical energy functions: force-field parameterization in crystal space.
+Krieger E, Darden T, Nabuurs SB, Finkelstein A, Vriend G
+Abstract:
+None

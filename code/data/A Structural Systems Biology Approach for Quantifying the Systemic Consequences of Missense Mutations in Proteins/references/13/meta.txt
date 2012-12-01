@@ -1,0 +1,6 @@
+TITLE: Different effects of redundant feedback loops on a bistable switch.
+AUTHORS: Domingo-Sananes MR, Novak B
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

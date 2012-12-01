@@ -1,0 +1,6 @@
+TITLE: Zinc finger proteins: new insights into structural and functional diversity.
+AUTHORS: Laity JH, Lee BM, Wright PE
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Zinc finger proteins are among the most abundant proteins in eukaryotic genomes. Their functions are extraordinarily diverse and include DNA recognition, RNA packaging, transcriptional activation, regulation of apoptosis, protein folding and assembly, and lipid binding. Zinc finger structures are as diverse as their functions. Structures have recently been reported for many new zinc finger domains with novel topologies, providing important insights into structure/function relationships. In addition, new structural studies of proteins containing the classical Cys(2)His(2) zinc finger motif have led to novel insights into mechanisms of DNA binding and to a better understanding of their broader functions in transcriptional regulation.

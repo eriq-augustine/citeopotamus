@@ -1,0 +1,6 @@
+TITLE: Erratic overdispersion of three molecular clocks: GPDH, SOD, and XDH.
+AUTHORS: Rodríguez-Trelles F, Tarrío R, Ayala FJ
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The neutrality theory predicts that the rate of neutral molecular evolution is constant over time, and thus that there is a molecular clock for timing evolutionary events. It has been observed that the variance of the rate of evolution is generally larger than expected according to the neutrality theory, which has raised the question of how reliable the molecular clock is or, indeed, whether there is a molecular clock at all. We have carried out an extensive investigation of three proteins, glycerol-3-phosphate dehydrogenase (GPDH), superoxide dismutase (SOD), and xanthine dehydrogenase (XDH). We have observed that (i) the three proteins evolve erratically through time and across lineages and (ii) the erratic patterns of acceleration and deceleration differ from locus to locus, so that one locus may evolve faster in one than another lineage, whereas the opposite may be the case for another locus. The observations are inconsistent with the predictions made by various subsidiary hypotheses proposed to account for the overdispersion of the molecular clock.

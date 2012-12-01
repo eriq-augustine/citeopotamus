@@ -1,0 +1,4 @@
+Simulation of biological cell sorting using a two-dimensional extended Potts model.
+Graner F, Glazier JA
+Abstract:
+None

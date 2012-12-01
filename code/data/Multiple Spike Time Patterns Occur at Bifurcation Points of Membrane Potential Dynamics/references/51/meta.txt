@@ -1,0 +1,6 @@
+TITLE: Noise in neurons is message dependent.
+AUTHORS: Cecchi GA, Sigman M, Alonso JM, Martínez L, Chialvo DR, Magnasco MO
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Neuronal responses are conspicuously variable. We focus on one particular aspect of that variability: the precision of action potential timing. We show that for common models of noisy spike generation, elementary considerations imply that such variability is a function of the input, and can be made arbitrarily large or small by a suitable choice of inputs. Our considerations are expected to extend to virtually any mechanism of spike generation, and we illustrate them with data from the visual pathway. Thus, a simplification usually made in the application of information theory to neural processing is violated: noise is not independent of the message. However, we also show the existence of error-correcting topologies, which can achieve better timing reliability than their components.

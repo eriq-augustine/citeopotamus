@@ -1,0 +1,6 @@
+TITLE: Role of the TAK1-NLK-STAT3 pathway in TGF-beta-mediated mesoderm induction.
+AUTHORS: Ohkawara B, Shirakabe K, Hyodo-Miura J, Matsuo R, Ueno N, Matsumoto K, Shibuya H
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Transforming growth factor (TGF)-beta-activated kinase 1 (TAK1) and Nemo-like kinase (NLK) function in Xenopus, Drosophila, and Caenorhabditis elegans development. Here we report that serine phosphorylation of STAT3 induced by TAK1-NLK cascade is essential fo TGF-beta-mediated mesoderm induction in Xenopus embryo. Depletion of TAK1, NLK, or STAT3 blocks TGF-beta-mediated mesoderm induction. Coexpression of NLK and STAT3 induces mesoderm by a mechanism that requires serine phosphorylation of STAT3. Activin activates NLK, which in turn directly phosphorylates STAT3. Moreover, depletion of either TAK1 or NLK inhibits endogenous serine phosphorylation of STAT3. These results provide the first evidence that TAK1-NLK-STAT3 cascade participates in TGF-beta-mediated mesoderm induction.

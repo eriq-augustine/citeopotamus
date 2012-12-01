@@ -1,0 +1,6 @@
+TITLE: Bioluminescence imaging of period1 gene expression in utero.
+AUTHORS: Saxena MT, Aton SJ, Hildebolt C, Prior JL, Abraham U, Piwnica-Worms D, Herzog ED
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The use of real-time reporters has accelerated our understanding of gene expression in vivo. This study examined the feasibility of a luciferase-based reporter to image spatiotemporal changes in fetal gene expression in utero. We chose to monitor Period1 (Per1) because it is expressed broadly in the body and plays a role in circadian rhythmicity. Using rats carrying a Per1::luc transgene, we repetitively imaged fetuses in utero throughout gestation. We found that bioluminescence was specific to transgenic pups, increased dramatically on embryonic day 10 (10 days after successful mating), and continued to increase logarithmically until birth. Diurnal fluctuations in Per1 expression were apparent several days prior to birth. These results demonstrate the feasibility of in utero imaging of mammalian gene expression, tracking of fetal gene expression from the same litter, and early detection of mammalian clock gene expression. We conclude that luciferase-based reporters can provide a sensitive, noninvasive measure of in utero gene expression.

@@ -1,0 +1,6 @@
+TITLE: The cytoskeleton, cellular motility and the reductionist agenda.
+AUTHORS: Pollard TD
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Eukaryotic cells depend on cytoskeletal polymers and molecular motors to establish their asymmetrical shapes, to transport intracellular constituents and to drive their motility. Cell biologists are using diverse experimental approaches to understand the molecular basis of cellular movements and to explain why defects in the component proteins cause disease. Much of the molecular machinery for motility evolved in early eukaryotes, so a limited set of general principles can explain the motility of most cells.

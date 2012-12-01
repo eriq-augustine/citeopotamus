@@ -1,0 +1,6 @@
+TITLE: Functional architecture of cortex revealed by optical imaging of intrinsic signals.
+AUTHORS: Grinvald A, Lieke E, Frostig RD, Gilbert CD, Wiesel TN
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Optical imaging of cortical activity offers several advantages over conventional electrophysiological and anatomical techniques. One can map a relatively large region, obtain successive maps to different stimuli in the same cortical area and follow variations in response over time. In the intact mammalian brain this imaging has been accomplished with the aid of voltage sensitive dyes. However, it has been known for many years that some intrinsic changes in the optical properties of the tissue are dependent on electrical or metabolic activity. Here we show that these changes can be used to study the functional architecture of cortex. Optical maps of whisker barrels in the rat and the orientation columns in the cat visual cortex, obtained by reflection measurements of the intrinsic signal, were confirmed with voltage sensitive dyes or by electrophysiological recordings. In addition, we describe an intrinsic signal originating from small arteries which can be used to investigate the communication between local neuronal activity and the microvasculature. One advantage of the method is that it is non-invasive and does not require dyes, a clear benefit for clinical applications.

@@ -1,0 +1,4 @@
+The Bayesian reader: explaining word recognition as an optimal Bayesian decision process.
+Norris D
+Abstract:
+None

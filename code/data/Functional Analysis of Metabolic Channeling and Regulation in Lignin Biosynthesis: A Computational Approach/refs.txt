@@ -1,0 +1,42 @@
+REFERENCES
+[1]	Weng J-K, Chapple C (2010) The origin and evolution of lignin biosynthesis. New Phytol 187: 273–285. 
+[2]	Boerjan W, Ralph J, Baucher M (2003) Lignin biosynthesis. Annu Rev Plant Biol 54: 519–546. 
+[3]	Himmel ME, Ding S-Y, Johnson DK, Adney WS, Nimlos MR, et al. (2007) Biomass recalcitrance: engineering plants and enzymes for biofuels production. Science 315: 804–807. 
+[4]	Ragauskas AJ, Williams CK, Davison BH, Britovsek G, Cairney J, et al. (2006) The path forward for biofuels and biomaterials. Science 311: 484–489. 
+[5]	Chen F, Dixon RA (2007) Lignin modification improves fermentable sugar yields for biofuel production. Nat Biotechnol 25: 759–761. 
+[6]	Dixon RA, Chen F, Guo D, Parvathi K (2001) The biosynthesis of monolignols: a “metabolic grid”, or independent pathways to guaiacyl and syringyl units? Phytochemistry 57: 1069–1084. 
+[7]	Zhou R, Jackson L, Shadle G, Nakashima J, Temple S, et al. (2010) Distinct cinnamoyl CoA reductases involved in parallel routes to lignin in Medicago truncatula. Proc Natl Acad Sci USA 107: 17803–17808. 
+[8]	Weng J-K, Akiyama T, Bonawitz ND, Li X, Ralph J, et al. (2010) Convergent evolution of syringyl lignin biosynthesis via distinct pathways in the lycophyte Selaginella and flowering plants. Plant Cell 22: 1033–1045. 
+[9]	Weng J-K, Akiyama T, Ralph J, Chapple C (2011) Independent recruitment of an O-methyltransferase for syringyl lignin biosynthesis in Selaginella moellendorffii. Plant Cell 23: 2708–2724. 
+[10]	Weng J-K, Li X, Stout J, Chapple C (2008) Independent origins of syringyl lignin in vascular plants. Proc Natl Acad Sci USA 105: 7887–7892. 
+[11]	Chen F, Reddy MSS, Temple S, Jackson L, Shadle G, et al. (2006) Multi-site genetic modulation of monolignol biosynthesis suggests new routes for formation of syringyl lignin and wall-bound ferulic acid in alfalfa (Medicago sativa L.). Plant J 48: 113–124. 
+[12]	Lee Y, Chen F, Gallego-Giraldo L, Dixon RA, Voit EO (2011) Integrative analysis of transgenic alfalfa (Medicago sativa L.) suggests new metabolic control mechanisms for monolignol biosynthesis. PLoS Comput Biol 7: e1002047. 
+[13]	Zhao Q, Dixon RA (2011) Transcriptional networks for lignin biosynthesis: more complex than we thought? Trends Plant Sci 16: 227–233. 
+[14]	ter Kuile BH, Westerhoff HV (2001) Transcriptome meets metabolome: hierarchical and metabolic regulation of the glycolytic pathway. FEBS Lett 500: 169–171. 
+[15]	Parvathi K, Chen F, Guo D, Blount JW, Dixon RA (2001) Substrate preferences of O-methyltransferases in alfalfa suggest new pathways for 3-O-methylation of monolignols. Plant J 25: 193–202. 
+[16]	Louie GV, Bowman ME, Tu Y, Mouradov A, Spangenberg G, et al. (2010) Structure-function analyses of a caffeic acid O-methyltransferase from perennial ryegrass reveal the molecular basis for substrate preference. Plant Cell 22: 4114–4127. 
+[17]	Kirschner M, Gerhart J (1998) Evolvability. Proc Natl Acad Sci USA 95: 8420–8427. 
+[18]	Jørgensen K, Rasmussen AV, Morant M, Nielsen AH, Bjarnholt N, et al. (2005) Metabolon formation and metabolic channeling in the biosynthesis of plant natural products. Curr Opin Plant Biol 8: 280–291. 
+[19]	Winkel BSJ (2004) Metabolic channeling in plants. Annu Rev Plant Biol 55: 85–107. 
+[20]	Graham JWA, Williams TCR, Morgan M, Fernie AR, Ratcliffe RG, et al. (2007) Glycolytic enzymes associate dynamically with mitochondria in response to respiratory demand and support substrate channeling. Plant Cell 19: 3723–3738. 
+[21]	Achnine L, Blancaflor EB, Rasmussen S, Dixon RA (2004) Colocalization of L-phenylalanine ammonia-lyase and cinnamate 4-hydroxylase for metabolic channeling in phenylpropanoid biosynthesis. Plant Cell 16: 3098–3109. 
+[22]	Rasmussen S, Dixon RA (1999) Transgene-mediated and elicitor-induced perturbation of metabolic channeling at the entry point into the phenylpropanoid pathway. Plant Cell 11: 1537–1552. 
+[23]	Franke R, McMichael CM, Meyer K, Shirley AM, Cusumano JC, et al. (2000) Modified lignin in tobacco and poplar plants over-expressing the Arabidopsis gene encoding ferulate 5-hydroxylase. Plant J 22: 223–234. 
+[24]	Meyer K, Shirley AM, Cusumano JC, Bell-Lelong DA, Chapple C (1998) Lignin monomer composition is determined by the expression of a cytochrome P450-dependent monooxygenase in Arabidopsis. Proc Natl Acad Sci USA 95: 6619–6623. 
+[25]	Reddy MSS, Chen F, Shadle G, Jackson L, Aljoe H, et al. (2005) Targeted down-regulation of cytochrome P450 enzymes for forage quality improvement in alfalfa (Medicago sativa L.). Proc Natl Acad Sci USA 102: 16573–16578. 
+[26]	Zhao Q, Wang H, Yin Y, Xu Y, Chen F, et al. (2010) Syringyl lignin biosynthesis is directly regulated by a secondary cell wall master switch. Proc Natl Acad Sci USA 107: 14496–14501. 
+[27]	Menden B, Kohlhoff M, Moerschbacher BM (2007) Wheat cells accumulate a syringyl-rich lignin during the hypersensitive resistance response. Phytochemistry 68: 513–520. 
+[28]	Mitsuda N, Iwase A, Yamamoto H, Yoshida M, Seki M, et al. (2007) NAC transcription factors, NST1 and NST3, are key regulators of the formation of secondary walls in woody tissues of Arabidopsis. Plant Cell 19: 270–280. 
+[29]	Schuster P, Fontana W, Stadler PF, Hofacker IL (1994) From sequences to shapes and back: a case study in RNA secondary structures. Proc R Soc London B 255: 279–284. 
+[30]	Babajide A, Hofacker IL, Sippl MJ, Stadler PF (1997) Neutral networks in protein space: a computational study based on knowledge-based potentials of mean force. Fold Des 2: 261–269. 
+[31]	Ciliberti S, Martin OC, Wagner A (2007) Robustness can evolve gradually in complex regulatory gene networks with varying topology. PLoS Comput Biol 3: e15. 
+[32]	Savageau MA (1976) Biochemical Systems Analysis: A Study of Function and Design in Molecular Biology. Reading, MA: Addison-Wesley. 
+[33]	Voit EO (2000) Computational Analysis of Biochemical Systems: A Practical Guide for Biochemists and Molecular Biologists. Cambridge University Press. 
+[34]	Voit EO (2008) Modelling metabolic networks using power-laws and S-systems. Essays Biochem 45: 29–40. 
+[35]	Chou I-C, Voit EO (2009) Recent developments in parameter estimation and structure identification of biochemical and genomic systems. Math Biosci 219: 57–83. 
+[36]	Chen F, Duran AL, Blount JW, Sumner LW, Dixon RA (2003) Profiling phenolic metabolites in transgenic alfalfa modified in lignin biosynthesis. Phytochemistry 64: 1013–1021. 
+[37]	Schrijver A (1998) Theory of Linear and Integer Programming. John Wiley & Sons. 
+[38]	Schilling CH, Letscher D, Palsson BØ (2000) Theory for the systemic definition of metabolic pathways and their use in interpreting metabolic function from a pathway-oriented perspective. J Theor Biol 203: 229–248. 
+[39]	Stöckigt J, Zenk MH (1975) Chemical syntheses and properties of hydroxycinnamoyl-coenzyme A derivatives. Z Naturforsch C 30: 352–358. 
+[40]	Chen F, Kota P, Blount JW, Dixon RA (2001) Chemical syntheses of caffeoyl and 5-OH coniferyl aldehydes and alcohols and determination of lignin O-methyltransferase activities in dicot and monocot species. Phytochemistry 58: 1035–1042. 
+[41]	Marita JM, Ralph J, Hatfield RD, Guo D, Chen F, et al. (2003) Structural and compositional modifications in lignin of transgenic alfalfa down-regulated in caffeic acid 3-O-methyltransferase and caffeoyl coenzyme A 3-O-methyltransferase. Phytochemistry 62: 53–65. 

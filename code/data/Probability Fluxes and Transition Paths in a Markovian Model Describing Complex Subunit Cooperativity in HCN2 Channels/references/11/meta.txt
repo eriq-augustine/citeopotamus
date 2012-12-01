@@ -1,0 +1,6 @@
+TITLE: Is cooperative oxygen binding by hemoglobin really understood?
+AUTHORS: Eaton WA, Henry ER, Hofrichter J, Mozzarelli A
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The enormous success of structural biology challenges the physical scientist. Can biophysical studies provide a truly deeper understanding of how a protein works than can be obtained from static structures and qualitative analysis of biochemical data? We address this question in a case study by presenting the key concepts and experimental results that have led to our current understanding of cooperative oxygen binding by hemoglobin, the paradigm of structure function relations in multisubunit proteins. We conclude that the underlying simplicity of the two-state allosteric mechanism could not have been demonstrated without novel physical experiments and a rigorous quantitative analysis.

@@ -1,0 +1,6 @@
+TITLE: A combined method to estimate parameters of neuron from a heavily noise-corrupted time series of active potential.
+AUTHORS: Deng B, Wang J, Che Y
+TERMS:
+CATEGORIES:
+ABSTRACT:
+A method that combines the means of unscented Kalman filter (UKF) with the technique of synchronization-based parameter estimation is introduced for estimating unknown parameters of neuron when only a heavily noise-corrupted time series of active potential is given. Compared with other synchronization-based methods, this approach uses the state variables estimated by UKF instead of the measured data to drive the auxiliary system. The synchronization-based approach supplies a systematic and analytical procedure for estimating parameters from time series; however, it is only robust against weak noise of measurement, so the UKF is employed to estimate state variables which are used by the synchronization-based method to estimate all unknown parameters of neuron model. It is found out that the estimation accuracy of this combined method is much higher than only using UKF or synchronization-based method when the data of measurement were heavily noise corrupted.

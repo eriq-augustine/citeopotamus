@@ -1,0 +1,6 @@
+TITLE: ABC transporters: physiology, structure and mechanism--an overview.
+AUTHORS: Higgins CF
+TERMS:
+CATEGORIES:
+ABSTRACT:
+ABC transporters form one of the largest of all protein families with a diversity of physiological functions. In Escherichia coli almost 5% of the genome is occupied by genes encoding components of these transporters, and there are examples in all species from microbes to man. In this overview, the importance of studies on bacteria in elucidating many basic principles pertaining to ABC transporters is emphasised. The family is described and a general overview of the structure and function of these transporters is presented.

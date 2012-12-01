@@ -1,0 +1,6 @@
+TITLE: Protection against deprivation amblyopia depends on relative not absolute daily binocular exposure.
+AUTHORS: Mitchell DE, Sengpiel F, Hamilton DC, Schwarzkopf DS, Kennie J
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Short daily periods of binocular exposure (BE) can offset longer single daily episodes of monocular exposure (ME) to prevent the development of deprivation amblyopia. To determine whether the outcome depended upon an absolute daily amount of BE or its proportion of the daily visual exposure, daily mixed visual input of 3 different durations (3.5, 7, or 12 h) was imposed on 3 cohorts of kittens. Measurements of the visual acuity of the deprived eye at the end of mixed daily visual input revealed that the acuity of the deprived eye developed to normal values so long as the proportion of the total exposure that was binocular was 30% or more. By contrast, the development of functional ocular dominance domains in V1 revealed by optical imaging suggests that normal domains emerge with a fixed amount of daily binocular exposure. The latter result is consistent with the effects of any daily period of ME, or BE, or both, effectively saturating with a small dose so that the effects of ME of any length can be offset by a short period of BE. The different result for vision may reflect neural events at higher and/or multiple levels in the visual pathway.

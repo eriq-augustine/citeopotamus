@@ -1,0 +1,6 @@
+TITLE: Neurophysiology of the BOLD fMRI signal in awake monkeys.
+AUTHORS: Goense JB, Logothetis NK
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

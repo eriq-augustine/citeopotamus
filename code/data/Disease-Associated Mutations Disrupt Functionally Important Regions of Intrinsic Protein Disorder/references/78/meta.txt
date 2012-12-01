@@ -1,0 +1,6 @@
+TITLE: Improved prediction of protein secondary structure by use of sequence profiles and neural networks.
+AUTHORS: Rost B, Sander C
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The explosive accumulation of protein sequences in the wake of large-scale sequencing projects is in stark contrast to the much slower experimental determination of protein structures. Improved methods of structure prediction from the gene sequence alone are therefore needed. Here, we report a substantial increase in both the accuracy and quality of secondary-structure predictions, using a neural-network algorithm. The main improvements come from the use of multiple sequence alignments (better overall accuracy), from "balanced training" (better prediction of beta-strands), and from "structure context training" (better prediction of helix and strand lengths). This method, cross-validated on seven different test sets purged of sequence similarity to learning sets, achieves a three-state prediction accuracy of 69.7%, significantly better than previous methods. In addition, the predicted structures have a more realistic distribution of helix and strand segments. The predictions may be suitable for use in practice as a first estimate of the structural type of newly sequenced proteins.

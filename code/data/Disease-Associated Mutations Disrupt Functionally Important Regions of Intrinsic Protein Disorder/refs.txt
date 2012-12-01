@@ -1,0 +1,84 @@
+REFERENCES
+[1]	Cooper GM, Shendure J (2011) Needles in stacks of needles: finding disease-causal variants in a wealth of genomic data. Nat Rev Genet 12: 628–640. doi: 10.1038/nrg3046. 
+[2]	Jordan DM, Ramensky VE, Sunyaev SR (2010) Human allelic variation: perspective from protein function, structure, and evolution. Curr Opin Struct Biol 20: 342–350. doi: 10.1016/j.sbi.2010.03.006. 
+[3]	Mooney SD, Krishnan VG, Evani US (2010) Bioinformatic tools for identifying disease gene and SNP candidates. Methods Mol Biol 628: 307–319. 
+[4]	Yue P, Li Z, Moult J (2005) Loss of protein structure stability as a major causative factor in monogenic disease. J Mol Biol 353: 459–473. doi: 10.1016/j.jmb.2005.08.020. 
+[5]	Ramensky V, Bork P, Sunyaev S (2002) Human non-synonymous SNPs: server and survey. Nucleic Acids Res 30: 3894–3900. 
+[6]	Chasman D, Adams RM (2001) Predicting the functional consequences of non-synonymous single nucleotide polymorphisms: structure-based assessment of amino acid variation. J Mol Biol 307: 683–706. 
+[7]	Sunyaev S, Ramensky V, Koch I, Lathe W, Kondrashov AS, et al. (2001) Prediction of deleterious human alleles. Hum Mol Genet 10: 591–597. 
+[8]	Cavallo A, Martin AC (2005) Mapping SNPs to protein sequence and structure data. Bioinformatics 21: 1443–1450. doi: 10.1093/bioinformatics/bti220. 
+[9]	Bao L, Cui Y (2005) Prediction of the phenotypic effects of non-synonymous single nucleotide polymorphisms using structural and evolutionary information. Bioinformatics 21: 2185–2190. doi: 10.1093/bioinformatics/bti365. 
+[10]	Kumar P, Henikoff S, Ng PC (2009) Predicting the effects of coding non-synonymous variants on protein function using the SIFT algorithm. Nat Protoc 4: 1073–1081. doi: 10.1038/nprot.2009.86. 
+[11]	Yue P, Moult J (2006) Identification and analysis of deleterious human SNPs. J Mol Biol 356: 1263–1274. 
+[12]	Ng PC, Henikoff S (2001) Predicting deleterious amino acid substitutions. Genome Res 11: 863–874. doi: 10.1101/gr.176601. 
+[13]	Saunders CT, Baker D (2002) Evaluation of structural and evolutionary contributions to deleterious mutation prediction. J Mol Biol 322: 891–901. doi: 10.1016/S0022-2836(02)00813-6. 
+[14]	Mort M, Evani US, Krishnan VG, Kamati KK, Baenziger PH, et al. (2010) In silico functional profiling of human disease-associated and polymorphic amino acid substitutions. Hum Mutat 31: 335–346. doi: 10.1002/humu.21192. 
+[15]	Wright PE, Dyson HJ (1999) Intrinsically unstructured proteins: re-assessing the protein structure-function paradigm. J Mol Biol 293: 321–331. 
+[16]	Dunker AK, Lawson JD, Brown CJ, Williams RM, Romero P, et al. (2001) Intrinsically disordered protein. J Mol Graph Model 19: 26–59. 
+[17]	Tompa P (2002) Intrinsically unstructured proteins. Trends Biochem Sci 27. 
+[18]	Uversky V, Gillespie J, Fink A (2000) Why are “natively unfolded” proteins unstructured under physiologic conditions? Proteins 41: 415–427. 
+[19]	Ward JJ, Sodhi JS, McGuffin LJ, Buxton BF, Jones DT (2004) Prediction and functional analysis of native disorder in proteins from the three kingdoms of life. J Mol Biol 337: 635–645. 
+[20]	Iakoucheva LM, Brown CJ, Lawson JD, Obradovic Z, Dunker AK (2002) Intrinsic disorder in cell-signaling and cancer-associated proteins. J Mol Biol 323: 573–584. 
+[21]	Uversky VN, Oldfield CJ, Dunker AK (2005) Showing your ID: intrinsic disorder as an ID for recognition, regulation and cell signaling. J Mol Recognit 18: 343–384. doi: 10.1002/jmr.747. 
+[22]	Iakoucheva LM, Radivojac P, Brown CJ, O'Connor TR, Sikes JG, et al. (2004) The importance of intrinsic disorder for protein phosphorylation. Nucleic Acids Res 32: 1037–1049. 
+[23]	Radivojac P, Vacic V, Haynes C, Cocklin RR, Mohan A, et al. (2010) Identification, analysis, and prediction of protein ubiquitination sites. Proteins 78: 365–580. 
+[24]	Haynes C, Oldfield CJ, Ji F, Klitgord N, Cusick ME, et al. (2006) Intrinsic disorder is a common feature of hub proteins from four eukaryotic interactomes. PLoS Comput Biol 2: e100. 
+[25]	Ekman D, Light S, Bjorklund AK, Elofsson A (2006) What properties characterize the hub proteins of the protein-protein interaction network of Saccharomyces cerevisiae? Genome Biol 7: R45. 
+[26]	Dunker AK, Cortese MS, Romero P, Iakoucheva LM, Uversky VN (2005) Flexible nets. The roles of intrinsic disorder in protein interaction networks. Febs J 272: 5129–5148. doi: 10.1111/j.1742-4658.2005.04948.x. 
+[27]	Uversky VN, Dunker AK (2010) Understanding protein non-folding. Biochim Biophys Acta 1804: 1231–1264. 
+[28]	Dunker AK, Brown CJ, Lawson JD, Iakoucheva LM, Obradovic Z (2002) Intrinsic disorder and protein function. Biochemistry 41: 6573–6582. 
+[29]	Xie H, Vucetic S, Iakoucheva LM, Oldfield CJ, Dunker AK, et al. (2007) Functional anthology of intrinsic disorder. 1. Biological processes and functions of proteins with long disordered regions. J Proteome Res 6: 1882–1898. 
+[30]	Vucetic S, Xie H, Iakoucheva LM, Oldfield CJ, Dunker AK, et al. (2007) Functional anthology of intrinsic disorder. 2. Cellular components, domains, technical terms, developmental processes, and coding sequence diversities correlated with long disordered regions. J Proteome Res 6: 1899–1916. doi: 10.1021/pr060393m. 
+[31]	Xie H, Vucetic S, Iakoucheva LM, Oldfield CJ, Dunker AK, et al. (2007) Functional anthology of intrinsic disorder. 3. Ligands, post-translational modifications, and diseases associated with intrinsically disordered proteins. J Proteome Res 6: 1917–1932. 
+[32]	Brown CJ, Johnson AK, Dunker AK, Daughdrill GW (2011) Evolution and disorder. Curr Opin Struct Biol doi: 10.1016/j.sbi.2011.02.005. 
+[33]	Bellay J, Han S, Michaut M, Kim T, Costanzo M, et al. (2011) Bringing order to protein disorder through comparative genomics and genetic interactions. Genome Biol 12: R14. doi: 10.1186/gb-2011-12-2-r14. 
+[34]	Uversky VN, Oldfield CJ, Dunker AK (2008) Intrinsically disordered proteins in human diseases: introducing the D2 concept. Annu Rev Biophys 37: 215–246. 
+[35]	Babu MM, van der Lee R, de Groot NS, Gsponer J (2011) Intrinsically disordered proteins: regulation and disease. Curr Opin Struct Biol 21: 432–440. doi: 10.1016/j.sbi.2011.03.011. 
+[36]	Li X, Romero P, Rani M, Dunker AK, Obradovic Z (1999) Predicting protein disorder for N-, C-, and internal regions. Genome Inform 10: 30–40. 
+[37]	Peng K, Radivojac P, Vucetic S, Dunker AK, Obradovic Z (2006) Length-dependent prediction of protein intrinsic disorder. BMC Bioinformatics 7: 208. 
+[38]	Dosztanyi Z, Csizmok V, Tompa P, Simon I (2005) IUPred: web server for the prediction of intrinsically unstructured regions of proteins based on estimated energy content. Bioinformatics 21: 3433–3434. 
+[39]	Rost B (1996) PHD: predicting one-dimensional protein structure by profile-based neural networks. Methods Enzymol 266: 525–539. 
+[40]	Schlessinger A, Liu J, Rost B (2007) Natively unstructured loops differ from other loops. PLoS Comput Biol 3: e140. 
+[41]	Fuxreiter M, Simon I, Friedrich P, Tompa P (2004) Preformed structural elements feature in partner recognition by intrinsically unstructured proteins. J Mol Biol 338: 1015–1026. 
+[42]	Liu J, Tan H, Rost B (2002) Loopy proteins appear conserved in evolution. J Mol Biol 322: 53–64. 
+[43]	Schlessinger A, Punta M, Rost B (2007) Natively unstructured regions in proteins identified from contact predictions. Bioinformatics 23: 2376–2384. 
+[44]	Oldfield CJ, Cheng Y, Cortese MS, Romero P, Uversky VN, et al. (2005) Coupled folding and binding with alpha-helix-forming molecular recognition elements. Biochemistry 44: 12454–12470. 
+[45]	Dyson HJ, Wright PE (2002) Coupling of folding and binding for unstructured proteins. Curr Opin Struct Biol 12: 54–60. 
+[46]	Wright PE, Dyson HJ (2009) Linking folding and binding. Curr Opin Struct Biol 19: 31–38. 
+[47]	Mohan A, Oldfield CJ, Radivojac P, Vacic V, Cortese MS, et al. (2006) Analysis of molecular recognition features (MoRFs). J Mol Biol 362: 1043–1059. 
+[48]	Dinkel H, Michael S, Weatheritt RJ, Davey NE, Van Roey K, et al. (2012) ELM–the database of eukaryotic linear motifs. Nucleic Acids Res 40: D242–251. 
+[49]	Fuxreiter M, Tompa P, Simon I (2007) Local structural disorder imparts plasticity on linear motifs. Bioinformatics 23: 950–956. 
+[50]	Laity JH, Lee BM, Wright PE (2001) Zinc finger proteins: new insights into structural and functional diversity. Curr Opin Struct Biol 11: 39–46. 
+[51]	Freedman SJ, Blostein MD, Baleja JD, Jacobs M, Furie BC, et al. (1996) Identification of the phospholipid binding site in the vitamin K-dependent blood coagulation protein factor IX. J Biol Chem 271: 16227–16236. 
+[52]	Spolar RS, Record MT (1994) Coupling of local folding to site-specific binding of proteins to DNA. Science 263: 777–784. 
+[53]	Brown CJ, Johnson AK, Daughdrill GW (2010) Comparing models of evolution for ordered and disordered proteins. Mol Biol Evol 27: 609–621. 
+[54]	Campen A, Williams RM, Brown CJ, Meng J, Uversky VN, et al. (2008) TOP-IDP-scale: a new amino acid scale measuring propensity for intrinsic disorder. Protein Pept Lett 15: 956–963. doi: 10.2174/092986608785849164. 
+[55]	Vacic V, Uversky VN, Dunker AK, Lonardi S (2007) Composition Profiler: a tool for discovery and visualization of amino acid composition differences. BMC Bioinformatics 8: 211. 
+[56]	Steward RE, MacArthur MW, Laskowski RA, Thornton JM (2003) Molecular basis of inherited diseases: a structural perspective. Trends Genet 19: 505–513. 
+[57]	Vitkup D, Sander C, Church GM (2003) The amino-acid mutational spectrum of human genetic disease. Genome Biol 4: R72. 
+[58]	Adzhubei IA, Schmidt S, Peshkin L, Ramensky VE, Gerasimova A, et al. (2010) A method and server for predicting damaging missense mutations. Nat Methods 7: 248–249. doi: 10.1038/nmeth0410-248. 
+[59]	Vacic V, Iakoucheva LM (2012) Disease mutations in disordered regions-exception to the rule? Mol Biosyst 8: 27–32. 
+[60]	Yang A, Kaghad M, Wang Y, Gillett E, Fleming MD, et al. (1998) p63, a p53 homolog at 3q27–29, encodes multiple products with transactivating, death-inducing, and dominant-negative activities. Mol Cell 2: 305–316. 
+[61]	Osada M, Ohba M, Kawahara C, Ishioka C, Kanamaru R, et al. (1998) Cloning and functional analysis of human p51, which structurally and functionally resembles p53. Nat Med 4: 839–843. 
+[62]	Celli J, Duijf P, Hamel BC, Bamshad M, Kramer B, et al. (1999) Heterozygous germline mutations in the p53 homolog p63 are the cause of EEC syndrome. Cell 99: 143–153. 
+[63]	Chen C, Gorlatova N, Kelman Z, Herzberg O (2011) Structures of p63 DNA binding domain in complexes with half-site and with spacer-containing full response elements. Proc Natl Acad Sci U S A 108: 6456–6461. 
+[64]	Liu J, Perumal NB, Oldfield CJ, Su EW, Uversky VN, et al. (2006) Intrinsic disorder in transcription factors. Biochemistry 45: 6873–6888. 
+[65]	Guo X, Bulyk ML, Hartemink AJ (2012) Intrinsic disorder within and flanking the DNA-binding domains of human transcription factors. Pac Symp Biocomput 104–115. 
+[66]	Hyre DE, Klevit RE (1998) A disorder-to-order transition coupled to DNA binding in the essential zinc-finger DNA-binding domain of yeast ADR1. J Mol Biol 279: 929–943. doi: 10.1006/jmbi.1998.1811. 
+[67]	Hamelberg D, Mongan J, McCammon JA (2004) Accelerated molecular dynamics: a promising and efficient simulation method for biomolecules. J Chem Phys 120: 11919–11929. doi: 10.1063/1.1755656. 
+[68]	Markwick PR, McCammon JA (2011) Studying functional dynamics in bio-molecules using accelerated molecular dynamics. Phys Chem Chem Phys 13: 20053–20065. doi: 10.1039/c1cp22100k. 
+[69]	Mukrasch MD, Markwick P, Biernat J, Bergen M, Bernado P, et al. (2007) Highly populated turn conformations in natively unfolded tau protein identified from residual dipolar couplings and molecular simulation. J Am Chem Soc 129: 5235–5243. 
+[70]	Markwick PR, Bouvignies G, Salmon L, McCammon JA, Nilges M, et al. (2009) Toward a unified representation of protein structural dynamics in solution. J Am Chem Soc 131: 16968–16975. doi: 10.1021/ja907476w. 
+[71]	Dan A, Ofran Y, Kliger Y (2010) Large-scale analysis of secondary structure changes in proteins suggests a role for disorder-to-order transitions in nucleotide binding proteins. Proteins 78: 236–248. doi: 10.1002/prot.22531. 
+[72]	Torkamani A, Kannan N, Taylor SS, Schork NJ (2008) Congenital disease SNPs target lineage specific structural elements in protein kinases. Proc Natl Acad Sci U S A 105: 9011–9016. 
+[73]	Schaefer C, Schlessinger A, Rost B (2010) Protein secondary structure appears to be robust under in silico evolution while protein disorder appears not to be. Bioinformatics 26: 625–631. 
+[74]	Kondrashov AS, Sunyaev S, Kondrashov FA (2002) Dobzhansky-Muller incompatibilities in protein evolution. Proc Natl Acad Sci U S A 99: 14878–14883. 
+[75]	Chen JW, Romero P, Uversky VN, Dunker AK (2006) Conservation of intrinsic disorder in protein domains and families: I. A database of conserved predicted disordered regions. J Proteome Res 5: 879–887. doi: 10.1021/pr060048x. 
+[76]	Care MA, Needham CJ, Bulpitt AJ, Westhead DR (2007) Deleterious SNP prediction: be mindful of your training data!. Bioinformatics 23: 664–672. 
+[77]	Yip YL, Famiglietti M, Gos A, Duek PD, David FP, et al. (2008) Annotating single amino acid polymorphisms in the UniProt/Swiss-Prot knowledgebase. Hum Mutat 29: 361–366. 
+[78]	Sunyaev S, Ramensky V, Bork P (2000) Towards a structural basis of human non-synonymous single nucleotide polymorphisms. Trends Genet 16: 198–200. 
+[79]	Edgar RC (2004) MUSCLE: multiple sequence alignment with high accuracy and high throughput. Nucleic Acids Res 32: 1792–1797. 
+[80]	Berglund AC, Sjolund E, Ostlund G, Sonnhammer EL (2008) InParanoid 6: eukaryotic ortholog clusters with inparalogs. Nucleic Acids Res 36: D263–266. 
+[81]	Rost B, Sander C (1993) Improved prediction of protein secondary structure by use of sequence profiles and neural networks. Proc Natl Acad Sci U S A USA 90: 7558–7562. 
+[82]	Case DA, Cheatham TE, Darden T, Gohlke H, Luo R, et al. (2005) The Amber biomolecular simulation programs. J Comput Chem 26: 1668–1688. 
+[83]	Vihinen M, Torkkila E, Riikonen P (1994) Accuracy of protein flexibility predictions. Proteins 19: 141–149. 

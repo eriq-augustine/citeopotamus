@@ -1,0 +1,4 @@
+Calcium-dependent spike after-current induces burst firing in magnocellular neurosecretory cells.
+Bourque CW
+Abstract:
+Magnocellular neurosecretory cells (MNCs) were impaled in perfused explants of rat hypothalamus. Application of a voltage clamp after 1-5 current-evoked spikes revealed a tetrodotoxin-resistant, but Cd2+-sensitive inward current. From a threshold near -85 mV, the amplitude of this current increased as post-spike commands were made to more positive potentials. Following its activation, the current-voltage relation of the cell displayed a region of negative resistance which crossed the spike threshold. This Ca2+-dependent spike after-current can therefore induce and sustain burst firing in MNCs.

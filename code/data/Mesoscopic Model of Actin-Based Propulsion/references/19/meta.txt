@@ -1,0 +1,6 @@
+TITLE: Loading history determines the velocity of actin-network growth.
+AUTHORS: Parekh SH, Chaudhuri O, Theriot JA, Fletcher DA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Directional polymerization of actin filaments in branched networks is one of the most powerful force-generating systems in eukaryotic cells. Growth of densely cross-linked actin networks drives cell crawling, intracellular transport of vesicles and organelles, and movement of intracellular pathogens such as Listeria monocytogenes. Using a modified atomic force microscope (AFM), we obtained force-velocity (Fv) measurements of growing actin networks in vitro until network elongation ceased at the stall force. We found that the growth velocity of a branched actin network against increasing forces is load-independent over a wide range of forces before a convex decline to stall. Surprisingly, when force was decreased on a growing network, the velocity increased to a value greater than the previous velocity, such that two or more stable growth velocities can exist at a single load. These results demonstrate that a single Fv relationship does not capture the complete behaviour of this system, unlike other molecular motors in cells, because the growth velocity depends on loading history rather than solely on the instantaneous load.

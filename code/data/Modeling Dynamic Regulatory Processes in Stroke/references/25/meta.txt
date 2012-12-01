@@ -1,0 +1,6 @@
+TITLE: Molecular signatures database (MSigDB) 3.0.
+AUTHORS: Liberzon A, Subramanian A, Pinchback R, Thorvaldsdóttir H, Tamayo P, Mesirov JP
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

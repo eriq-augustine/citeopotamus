@@ -1,0 +1,4 @@
+Identifiability and observability analysis for experimental design in nonlinear dynamical models.
+Raue A, Becker V, Klingmüller U, Timmer J
+Abstract:
+None

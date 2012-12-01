@@ -1,0 +1,6 @@
+TITLE: Nitric oxide binding to nitrophorin 4 induces complete distal pocket burial.
+AUTHORS: Weichsel A, Andersen JF, Roberts SA, Montfort WR
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The nitrophorins comprise an unusual family of proteins that use ferric (Fe(III)) heme to transport highly reactive nitric oxide (NO) from the salivary gland of a blood sucking bug to the victim, resulting in vasodilation and reduced blood coagulation. We have determined structures of nitrophorin 4 in complexes with H2O, cyanide and nitric oxide. These structures reveal a remarkable feature: the nitrophorins have a broadly open distal pocket in the absence of NO, but upon NO binding, three or more water molecules are expelled and two loops fold into the distal pocket, resulting in the packing of hydrophobic groups around the NO molecule and increased distortion of the heme. In this way, the protein apparently forms a 'hydrophobic trap' for the NO molecule. The structures are very accurate, ranging between 1.6 and 1.4 A resolutions.

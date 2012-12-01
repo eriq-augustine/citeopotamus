@@ -1,0 +1,4 @@
+Protein function annotation by homology-based inference.
+Loewenstein Y, Raimondo D, Redfern OC, Watson J, Frishman D, Linial M, Orengo C, Thornton J, Tramontano A
+Abstract:
+With many genomes now sequenced, computational annotation methods to characterize genes and proteins from their sequence are increasingly important. The BioSapiens Network has developed tools to address all stages of this process, and here we review progress in the automated prediction of protein function based on protein sequence and structure.

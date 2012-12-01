@@ -1,0 +1,6 @@
+TITLE: The mechanism of linkage-specific ubiquitin chain elongation by a single-subunit E2.
+AUTHORS: Wickliffe KE, Lorenz S, Wemmer DE, Kuriyan J, Rape M
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

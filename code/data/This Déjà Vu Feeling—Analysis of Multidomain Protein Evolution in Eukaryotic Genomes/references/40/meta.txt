@@ -1,0 +1,6 @@
+TITLE: Molecular cloning of a human cDNA encoding a trifunctional enzyme of carbamoyl-phosphate synthetase-aspartate transcarbamoylase-dihydroorotase in de Novo pyrimidine synthesis.
+AUTHORS: Iwahana H, Fujimura M, Ii S, Kondo M, Moritani M, Takahashi Y, Yamaoka T, Yoshimoto K, Itakura M
+TERMS:
+CATEGORIES:
+ABSTRACT:
+A human CAD cDNA encoding a trifunctional enzyme of carbamoylphosphate synthetase-aspartate transcarbamoylase-dihydroorotase, which catalyzes the first three steps of de novo pyrimidine nucleotide biosynthesis, was cloned from a human fibroblast cell line of TIG-1-20 by polymerase chain reaction (PCR). The predicted open reading frame encodes a protein of 2,225 amino acids with a deduced molecular weight (Mr) OF 242,913. The deduced amino acid sequence exhibits 95.3 and 76.1% identity with the CAD sequences of hamster and Squalus acanthias. The DNA fragment of 6,679 bp containing the full-length coding sequence was amplified by nested PCR using the first-strand cDNA of human cell lines of TIG-1-20 and COLO205 as a template. Southern blot analysis suggested that the CAD gene exists as a single copy in the human genome.

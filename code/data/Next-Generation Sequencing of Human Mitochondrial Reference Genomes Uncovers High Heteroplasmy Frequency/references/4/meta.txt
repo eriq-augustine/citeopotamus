@@ -1,0 +1,6 @@
+TITLE: Maternal inheritance of human mitochondrial DNA.
+AUTHORS: Giles RE, Blanc H, Cann HM, Wallace DC
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Human mitochondrial DNA was obtained from peripheral blood platelets donated by the members of several independent families. The samples were screened for nucleotide sequence polymorphisms between individuals within these families. In each family in which we were able to detect a distinctly different restriction endonuclease cleavage pattern between the parents, the progeny exhibited the maternal cleavage pattern. Informative polymorphisms were detected for Hae II (PuGCGCPy) in a three-generation family composed of 33 members, for HincII (GTPyPuAC) in a two-generation family composed of four members, and for Hae III(GGCC) in a two-generation family composed of four members. The Hae II polymorphism was analyzed through all three generations in both the maternal and paternal lines. The results of this study demonstrate that human mitochondrial DNA is maternally inherited. The techniques described for using peripheral blood platelets as a source of human mitochondrial DNA represent a convenient way to obtain data on mitochondrial DNA variation in both individuals and populations.

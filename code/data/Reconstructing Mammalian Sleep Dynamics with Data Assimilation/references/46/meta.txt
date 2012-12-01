@@ -1,0 +1,6 @@
+TITLE: Estimating model parameters from time series by autosynchronization.
+AUTHORS: Parlitz U
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

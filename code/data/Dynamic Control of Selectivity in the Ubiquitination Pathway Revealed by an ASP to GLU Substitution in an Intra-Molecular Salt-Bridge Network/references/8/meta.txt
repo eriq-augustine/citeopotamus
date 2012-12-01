@@ -1,0 +1,6 @@
+TITLE: Building ubiquitin chains: E2 enzymes at work.
+AUTHORS: Ye Y, Rape M
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The modification of proteins with ubiquitin chains can change their localization, activity and/or stability. Although ubiquitylation requires the concerted action of ubiquitin-activating enzymes (E1s), ubiquitin-conjugating enzymes (E2s) and ubiquitin ligases (E3s), it is the E2s that have recently emerged as key mediators of chain assembly. These enzymes are able to govern the switch from ubiquitin chain initiation to elongation, regulate the processivity of chain formation and establish the topology of assembled chains, thereby determining the consequences of ubiquitylation for the modified proteins.

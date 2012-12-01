@@ -1,0 +1,6 @@
+TITLE: Principles for the post-GWAS functional characterization of cancer risk loci.
+AUTHORS: Freedman ML, Monteiro AN, Gayther SA, Coetzee GA, Risch A, Plass C, Casey G, De Biasi M, Carlson C, Duggan D, James M, Liu P, Tichelaar JW, Vikis HG, You M, Mills IG
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

@@ -1,0 +1,4 @@
+Transcriptome meets metabolome: hierarchical and metabolic regulation of the glycolytic pathway.
+ter Kuile BH, Westerhoff HV
+Abstract:
+The fact that information flows from DNA to RNA to protein to function suggests that regulation is 'hierarchical', i.e. dominated by regulation of gene expression. In the case of dominant regulation at the metabolic level, however, there is no quantitative relationship between mRNA levels and function. We here develop a method to quantitate the relative contributions of metabolic and hierarchical regulation. Applying this method to the glycolytic flux in three species of parasitic protists, we conclude that it is rarely regulated by gene expression alone. This casts strong doubts on whether transcriptome and proteome analysis suffices to assess biological function.

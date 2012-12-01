@@ -1,0 +1,6 @@
+TITLE: Conservation of side-chain dynamics within a protein family.
+AUTHORS: Law AB, Fuentes EJ, Lee AL
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The question of protein dynamics and its relevance to function is currently a topic of great interest. Proteins are particularly dynamic at the side-chain level on the time scale of picoseconds to nanoseconds. Here, we present a comparison of NMR-monitored side-chain motion between three PDZ domains of approximately 30% sequence identity and show that the side-chain dynamics display nontrivial conservation. Methyl (2)H relaxation was carried out to determine side-chain order parameters (S(2)), which were found to be more similar than naively expected from sequence, local packing, or a combination of the two. Thus, the dynamics of a rather distant homologue appears to be an excellent predictor of a protein's side-chain dynamics and, on average, better than current structure-based methods. Fast side-chain dynamics therefore display a high level of organization associated with global fold. Beyond simple conservation, the analysis herein suggests that the pattern of side-chain flexibility has significant contributions from nonlocal elements of the PDZ fold, such as correlated motions, and that the conserved dynamics may directly support function.

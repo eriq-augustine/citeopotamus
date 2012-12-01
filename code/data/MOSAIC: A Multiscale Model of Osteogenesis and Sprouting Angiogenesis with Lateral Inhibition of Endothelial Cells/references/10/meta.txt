@@ -1,0 +1,6 @@
+TITLE: Multiscale agent-based cancer modeling.
+AUTHORS: Zhang L, Wang Z, Sagotsky JA, Deisboeck TS
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Agent-based modeling (ABM) is an in silico technique that is being used in a variety of research areas such as in social sciences, economics and increasingly in biomedicine as an interdisciplinary tool to study the dynamics of complex systems. Here, we describe its applicability to integrative tumor biology research by introducing a multi-scale tumor modeling platform that understands brain cancer as a complex dynamic biosystem. We summarize significant findings of this work, and discuss both challenges and future directions for ABM in the field of cancer research.

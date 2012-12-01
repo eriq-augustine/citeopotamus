@@ -1,0 +1,6 @@
+TITLE: Vasoactive intestinal polypeptide mediates circadian rhythmicity and synchrony in mammalian clock neurons.
+AUTHORS: Aton SJ, Colwell CS, Harmar AJ, Waschek J, Herzog ED
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The mammalian suprachiasmatic nucleus (SCN) is a master circadian pacemaker. It is not known which SCN neurons are autonomous pacemakers or how they synchronize their daily firing rhythms to coordinate circadian behavior. Vasoactive intestinal polypeptide (VIP) and the VIP receptor VPAC(2) (encoded by the gene Vipr2) may mediate rhythms in individual SCN neurons, synchrony between neurons, or both. We found that Vip(-/-) and Vipr2(-/-) mice showed two daily bouts of activity in a skeleton photoperiod and multiple circadian periods in constant darkness. Loss of VIP or VPAC(2) also abolished circadian firing rhythms in approximately half of all SCN neurons and disrupted synchrony between rhythmic neurons. Critically, daily application of a VPAC(2) agonist restored rhythmicity and synchrony to VIP(-/-) SCN neurons, but not to Vipr2(-/-) neurons. We conclude that VIP coordinates daily rhythms in the SCN and behavior by synchronizing a small population of pacemaking neurons and maintaining rhythmicity in a larger subset of neurons.

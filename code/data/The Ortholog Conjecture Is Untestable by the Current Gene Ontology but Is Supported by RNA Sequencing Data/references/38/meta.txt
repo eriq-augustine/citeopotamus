@@ -1,0 +1,6 @@
+TITLE: Mammalian prohibitin proteins respond to mitochondrial stress and decrease during cellular senescence.
+AUTHORS: Coates PJ, Nenutil R, McGregor A, Picksley SM, Crouch DH, Hall PA, Wright EG
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

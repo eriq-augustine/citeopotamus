@@ -1,0 +1,6 @@
+TITLE: The origin and evolution of model organisms.
+AUTHORS: Hedges SB
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The phylogeny and timescale of life are becoming better understood as the analysis of genomic data from model organisms continues to grow. As a result, discoveries are being made about the early history of life and the origin and development of complex multicellular life. This emerging comparative framework and the emphasis on historical patterns is helping to bridge barriers among organism-based research communities.

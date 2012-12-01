@@ -1,0 +1,6 @@
+TITLE: The evolutionary mechanics of domain organization in proteomes and the rise of modularity in the protein world.
+AUTHORS: Wang M, Caetano-Anollés G
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Protein domains are compact evolutionary units of structure and function that usually combine in proteins to produce complex domain arrangements. In order to study their evolution, we reconstructed genome-based phylogenetic trees of architectures from a census of domain structure and organization conducted at protein fold and fold-superfamily levels in hundreds of fully sequenced genomes. These trees defined timelines of architectural discovery and revealed remarkable evolutionary patterns, including the explosive appearance of domain combinations during the rise of organismal lineages, the dominance of domain fusion processes throughout evolution, and the late appearance of a new class of multifunctional modules in Eukarya by fission of domain combinations. Our study provides a detailed account of the history and diversification of a molecular interactome and shows how the interplay of domain fusions and fissions defines an evolutionary mechanics of domain organization that is fundamentally responsible for the complexity of the protein world.

@@ -1,0 +1,6 @@
+TITLE: Estimating parameters and hidden variables in non-linear state-space models based on ODEs for biological networks inference.
+AUTHORS: Quach M, Brunel N, d'Alché-Buc F
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

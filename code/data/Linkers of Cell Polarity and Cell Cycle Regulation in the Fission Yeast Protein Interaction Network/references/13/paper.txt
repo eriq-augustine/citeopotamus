@@ -1,0 +1,4 @@
+S. pombe cdc11p, together with sid4p, provides an anchor for septation initiation network proteins on the spindle pole body.
+Krapp A, Schmidt S, Cano E, Simanis V
+Abstract:
+None

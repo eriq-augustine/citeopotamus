@@ -1,0 +1,6 @@
+TITLE: The tyrosine kinase negative regulator c-Cbl as a RING-type, E2-dependent ubiquitin-protein ligase.
+AUTHORS: Joazeiro CA, Wing SS, Huang H, Leverson JD, Hunter T, Liu YC
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Ubiquitination of receptor protein-tyrosine kinases (RPTKs) terminates signaling by marking active receptors for degradation. c-Cbl, an adapter protein for RPTKs, positively regulates RPTK ubiquitination in a manner dependent on its variant SRC homology 2 (SH2) and RING finger domains. Ubiquitin-protein ligases (or E3s) are the components of ubiquitination pathways that recognize target substrates and promote their ligation to ubiquitin. The c-Cbl protein acted as an E3 that can recognize tyrosine-phosphorylated substrates, such as the activated platelet-derived growth factor receptor, through its SH2 domain and that recruits and allosterically activates an E2 ubiquitin-conjugating enzyme through its RING domain. These results reveal an SH2-containing protein that functions as a ubiquitin-protein ligase and thus provide a distinct mechanism for substrate targeting in the ubiquitin system.

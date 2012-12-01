@@ -1,0 +1,6 @@
+TITLE: Caught in the act: visualization of SNARE-mediated fusion events in molecular detail.
+AUTHORS: Risselada HJ, Kutzner C, Grubmüller H
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

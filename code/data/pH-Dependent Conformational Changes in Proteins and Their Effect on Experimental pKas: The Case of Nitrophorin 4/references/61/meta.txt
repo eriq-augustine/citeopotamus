@@ -1,0 +1,6 @@
+TITLE: Rate of ligand-promoted isomerization of proteins. Relaxation study of the "alkaline-transition" of delta-chymotrypsin.
+AUTHORS: Garel JR, Labouesse B
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

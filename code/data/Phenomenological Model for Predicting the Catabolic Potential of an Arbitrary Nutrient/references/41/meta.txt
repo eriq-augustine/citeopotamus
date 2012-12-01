@@ -1,0 +1,6 @@
+TITLE: Hexose and pentose transport in ascomycetous yeasts: an overview.
+AUTHORS: Leandro MJ, Fonseca C, Gonçalves P
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The biochemical characterization of sugar uptake in yeasts started five decades ago and led to the early production of abundant kinetic and mechanistic data. However, the first accurate overview of the underlying sugar transporter genes was obtained relatively late, due mainly to the genetic complexity of hexose uptake in the model yeast Saccharomyces cerevisiae. The genomic era generated in turn a massive amount of information, allowing the identification of a multitude of putative sugar transporter and sensor-encoding genes in yeast genomes, many of which are phylogenetically related. This review aims to briefly summarize our current knowledge on the biochemical and molecular features of the transporters of hexoses and pentoses in yeasts, when possible establishing links between previous kinetic studies and genomic data currently available. Emphasis is given to recent developments concerning the identification of d-xylose and l-arabinose transporter genes, which are thought to be key players in the optimization of S. cerevisiae strains for bioethanol production from lignocellulose hydrolysates.

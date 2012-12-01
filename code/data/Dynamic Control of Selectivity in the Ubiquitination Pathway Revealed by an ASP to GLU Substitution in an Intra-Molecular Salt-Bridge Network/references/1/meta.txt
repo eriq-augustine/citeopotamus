@@ -1,0 +1,6 @@
+TITLE: Evolution of biomolecular networks: lessons from metabolic and protein interactions.
+AUTHORS: Yamada T, Bork P
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Despite only becoming popular at the beginning of this decade, biomolecular networks are now frameworks that facilitate many discoveries in molecular biology. The nodes of these networks are usually proteins (specifically enzymes in metabolic networks), whereas the links (or edges) are their interactions with other molecules. These networks are made up of protein-protein interactions or enzyme-enzyme interactions through shared metabolites in the case of metabolic networks. Evolutionary analysis has revealed that changes in the nodes and links in protein-protein interaction and metabolic networks are subject to different selection pressures owing to distinct topological features. However, many evolutionary constraints can be uncovered only if temporal and spatial aspects are included in the network analysis.

@@ -1,0 +1,6 @@
+TITLE: T cell costimulation by chemokine receptors.
+AUTHORS: Molon B, Gri G, Bettella M, Gómez-Moutón C, Lanzavecchia A, Martínez-A C, Mañes S, Viola A
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Signals mediated by chemokine receptors may compete with T cell receptor stop signals and determine the duration of T cell-antigen-presenting cell interactions. Here we show that during T cell stimulation by antigen-presenting cells, T cell chemokine receptors coupled to G(q) and/or G(11) protein were recruited to the immunological synapse by a G(i)-independent mechanism. When chemokine receptors were sequestered at the immunological synapse, T cells became insensitive to chemotactic gradients, formed more stable conjugates and finally responded with enhanced proliferation and cytokine production. We suggest that chemokine receptor trapping at the immunological synapse enhances T cell activation by improving T cell-antigen-presenting cell attraction and impeding the 'distraction' of successfully engaged T cells by other chemokine sources.

@@ -1,0 +1,4 @@
+A diverse set of family 48 bacterial glycoside hydrolase cellulases created by structure-guided recombination.
+Smith MA, Rentmeister A, Snow CD, Wu T, Farrow MF, Mingardon F, Arnold FH
+Abstract:
+None

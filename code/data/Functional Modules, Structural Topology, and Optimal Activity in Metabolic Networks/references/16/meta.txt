@@ -1,0 +1,6 @@
+TITLE: The growing scope of applications of genome-scale metabolic reconstructions using Escherichia coli.
+AUTHORS: Feist AM, Palsson BØ
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The number and scope of methods developed to interrogate and use metabolic network reconstructions has significantly expanded over the past 15 years. In particular, Escherichia coli metabolic network reconstruction has reached the genome scale and been utilized to address a broad spectrum of basic and practical applications in five main categories: metabolic engineering, model-directed discovery, interpretations of phenotypic screens, analysis of network properties and studies of evolutionary processes. Spurred on by these accomplishments, the field is expected to move forward and further broaden the scope and content of network reconstructions, develop new and novel in silico analysis tools, and expand in adaptation to uses of proximal and distal causation in biology. Taken together, these efforts will solidify a mechanistic genotype-phenotype relationship for microbial metabolism.

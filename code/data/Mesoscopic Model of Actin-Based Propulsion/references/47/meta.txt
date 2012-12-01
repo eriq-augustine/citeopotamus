@@ -1,0 +1,6 @@
+TITLE: Contractility and retrograde flow in lamellipodium motion.
+AUTHORS: Kruse K, Joanny JF, Jülicher F, Prost J
+TERMS:
+CATEGORIES:
+ABSTRACT:
+We present a phenomenological description of cell locomotion on a solid substrate. The material properties of the actin cytoskeleton in the lamellipodium are described by the constitutive equations of a viscous polar gel with intrinsic activity. The polymerization of the gel takes place in a localized region near the leading edge. Using a simple two-dimensional description, we calculate in the steady state the thickness profile of the lamellipodium which at the rear connects to the cell body; we also calculate the flow profiles and the forces exerted on the substrate. The cell velocity is estimated as a function of externally applied forces. Our description is consistent with experimentally observed properties of motile cells such as the existence of a retrograde flow in the lamellipodium and a dipolar force distribution exerted by the cell on the substrate.

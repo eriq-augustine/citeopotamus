@@ -1,0 +1,6 @@
+TITLE: Agent-based modeling of endotoxin-induced acute inflammatory response in human blood leukocytes.
+AUTHORS: Dong X, Foteinou PT, Calvano SE, Lowry SF, Androulakis IP
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

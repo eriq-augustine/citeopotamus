@@ -1,0 +1,6 @@
+TITLE: T cell responses in lymph nodes.
+AUTHORS: Bogle G, Dunbar PR
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Activation of T cells by antigen-presenting cells (APCs) in lymph nodes (LNs) is a key initiating event in many immune responses. Our understanding of this process has been both improved and complicated in recent years by evidence from techniques such as intravital microscopy that has revealed new levels of dynamism in the interaction of T cells and APCs. In particular, the complex motility of T cells within LNs, and their serial interactions with many APCs, imply that earlier static models of T cell activation need to be updated. Here we review the first attempts to model T cell interactions with APCs in LNs that incorporate simulations of T cell motility, based on experimental observations. We show that lattice-based modeling approaches are the dominant trend in these models, and then chart a possible course for development of these models toward spatially-resolved models of immune responses within LNs.

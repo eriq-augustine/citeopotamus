@@ -1,0 +1,4 @@
+The codon Adaptation Index--a measure of directional synonymous codon usage bias, and its potential applications.
+Sharp PM, Li WH
+Abstract:
+A simple, effective measure of synonymous codon usage bias, the Codon Adaptation Index, is detailed. The index uses a reference set of highly expressed genes from a species to assess the relative merits of each codon, and a score for a gene is calculated from the frequency of use of all codons in that gene. The index assesses the extent to which selection has been effective in moulding the pattern of codon usage. In that respect it is useful for predicting the level of expression of a gene, for assessing the adaptation of viral genes to their hosts, and for making comparisons of codon usage in different organisms. The index may also give an approximate indication of the likely success of heterologous gene expression.

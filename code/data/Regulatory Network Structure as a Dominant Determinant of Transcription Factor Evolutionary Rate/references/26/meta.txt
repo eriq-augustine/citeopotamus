@@ -1,0 +1,6 @@
+TITLE: Influence of metabolic network structure and function on enzyme evolution.
+AUTHORS: Vitkup D, Kharchenko P, Wagner A
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

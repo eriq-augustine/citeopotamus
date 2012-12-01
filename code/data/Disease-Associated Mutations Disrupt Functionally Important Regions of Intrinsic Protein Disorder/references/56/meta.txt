@@ -1,0 +1,6 @@
+TITLE: A method and server for predicting damaging missense mutations.
+AUTHORS: Adzhubei IA, Schmidt S, Peshkin L, Ramensky VE, Gerasimova A, Bork P, Kondrashov AS, Sunyaev SR
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

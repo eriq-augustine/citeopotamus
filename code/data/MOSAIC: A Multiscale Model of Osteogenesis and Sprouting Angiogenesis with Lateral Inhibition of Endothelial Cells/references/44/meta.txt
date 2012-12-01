@@ -1,0 +1,6 @@
+TITLE: Adenoviral VEGF-A gene transfer induces angiogenesis and promotes bone formation in healing osseous tissues.
+AUTHORS: Tarkka T, Sipola A, Jämsä T, Soini Y, Ylä-Herttuala S, Tuukkanen J, Hautala T
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

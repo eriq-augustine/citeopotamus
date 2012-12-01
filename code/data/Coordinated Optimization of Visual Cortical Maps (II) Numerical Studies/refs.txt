@@ -1,0 +1,153 @@
+REFERENCES
+[1]	Grinwald A, Lieke E, Frostig RD, Gilbert CD, Wiesel TN (1986) Functional architecture of cortex revealed by optical imaging of intrinsic signals. Nature 324: 361–364. 
+[2]	Blasdel GG, Salama G (1986) Voltage-sensitive dyes reveal a modular organization in monkey striate cortex. Nature 321: 579–585. doi: 10.1038/321579a0. 
+[3]	Swindale NV, Matsubara J, Cynader M (1987) Surface organization of orientation and direction selectivity in cat area 18. J Neurosci 7: 1414–1427. 
+[4]	Bonhoeffer T, Grinwald A (1991) Iso-orientation domains in cat visual cortex are arranged in pinwheel-like patterns. Nature 353: 429–431. doi: 10.1038/353429a0. 
+[5]	Bartfeld E, Grinwald A (1992) Relationships between orientation-preference pinwheels, cytochrome oxidase blobs, and ocular-dominance columns in primate striate cortex. Proc Natl Acad Sci U S A 89: 11905–11909. doi: 10.1073/pnas.89.24.11905. 
+[6]	Blasdel GG (1992) Diferential imaging of ocular dominance and orientation selectivity in monkey striate cortex. J Neurosci 12: 3115–3138. 
+[7]	Obermayer K, Blasdel GG (1993) Geometry of orientation and ocular dominance columns in monkey striate cortex. J Neurosci 13: 4114–4129. 
+[8]	Bonhoeffer T, Grinwald A (1993) The layout of iso-orientation domains in area 18 of cat visual cortex: optical imaging reveals a pinwheel-like organization. J Neurosci 13: 4157–80. 
+[9]	Weliky M, Bosking WH, Fitzpatrick D (1996) A systematic map of direction preference in primary visual cortex. Nature 379: 725–728. doi: 10.1038/379725a0. 
+[10]	Shmuel A, Grinwald A (1996) Functional organization for direction of motion and its relationship to orientation maps in cat area 18. J Neurosci 16: 6945–6964. 
+[11]	Chapman B, Stryker MP, Bonhoeffer T (1996) Development of orientation preference maps in ferret primary visual cortex. J Neurosci 16: 6443–6453. 
+[12]	Rao SC, Toth LJ, Sur M (1997) Optically imaged maps of orientation preference in primary visual cortex of cats and ferrets. J Comp Neurol 387: 358–370. 
+[13]	Bosking WH, Zhang Y, Schofield B, Fitzpatrick D (1997) Orientation selectivity and the arrangement of horizontal connections in tree shrew striate cortex. J Neurosci 17: 2112–2127. 
+[14]	Das A, Gilbert CD (1997) Distortions of visuotopic map match orientation singularities in primary visual cortex. Nature 387: 594–598. 
+[15]	Löwel S, Schmidt KE, Kim DS, Wolf F, Hoffsümmer F, et al. (1998) The layout of orientation and ocular dominance domains in area 17 of strabismic cats. Eur J Neurosci 10: 2629–2643. 
+[16]	Issa NP, Trepel C, Stryker MP (2000) Spatial frequency maps in cat visual cortex. J Neurosci 15: 8504–8514. 
+[17]	White LE, Coppola DM, Fitzpatrick D (2001) The contribution of sensory experience to the maturation of orientation selectivity in ferret visual cortex. Nature 411: 1049–1052. 
+[18]	Galuske RAW, Schmidt KE, Goebel R, Lomber SG, Payne BR (2002) The role of feedback in shaping neural representations in cat visual cortex. Proc Natl Acad Sci U S A 99: 17083–88. doi: 10.1073/pnas.242399199. 
+[19]	Xu X, Bosking WH, White LE, Fitzpatrick D, Casagrande VA (2005) Functional organization of visual cortex in the prosimian bush baby revealed by optical imaging of intrinsic signals. J Neurophysiol 94: 2748–2762. doi: 10.1152/jn.00354.2005. 
+[20]	Li Y, Fitzpatrick D, White LE (2006) The development of direction selectivity in ferret visual cortex requires early visual experience. Nat Neurosci 9: 676–681. doi: 10.1038/nn1684. 
+[21]	White LE, Fitzpatrick D (2007) Vision and cortical map development. Neuron 56: 327–338. doi: 10.1016/j.neuron.2007.10.011. 
+[22]	Wolf F, Geisel T (1998) Spontaneous pinwheel annihilation during visual development. Nature 395: 73–78. 
+[23]	Hoffsümmer F, Wolf F, Geisel T, Löwel S, Schmidt KE (1996) Sequential bifurcation and dynamic rearrangement of columnar patterns during cortical development. In: Bower J, editor, Computational Neuroscience, Trends in Research. San Diego: Academic Press, pp. 197–202. 
+[24]	Goodhill GJ, Cimponeriu A (2000) Analysis of the elastic net model applied to the formation of ocular dominance and orientation columns. Comput Neural Syst 11: 153–168. doi: 10.1088/0954-898X/11/2/303. 
+[25]	Carreira-Perpinan MA, Lister RJ, Goodhill GJ (2005) A computational model for the development of multiple maps in primary visual cortex. Cereb Cortex 15: 1222–1233. doi: 10.1093/cercor/bhi004. 
+[26]	Yu H, Farley BJ, Jin DZ, Sur M (2005) The coordinated mapping of visual space and response features in visual cortex. Neuron 47: 267–280. doi: 10.1016/j.neuron.2005.06.011. 
+[27]	Erwin E, Obermayer K, Schulten K (1995) Models of orientation and ocular dominance columns in the visual cortex: A critical comparison. Neural Comput 7: 425–468. doi: 10.1162/neco.1995.7.3.425. 
+[28]	Obermayer K, Blasdel GG, Schulten K (1992) Statistical-mechanical analysis of self-organization and pattern formation during the development of visual maps. Phys Rev A 45: 7568–7589. doi: 10.1103/PhysRevA.45.7568. 
+[29]	Farley BJ, Yu H, Jin DZ, Sur M (2007) Alteration of visual input results in a coordinated reorganization of multiple visual cortex maps. J Neurosci 27: 10299–10310. doi: 10.1523/JNEUROSCI.2257-07.2007. 
+[30]	Swindale NV (2004) How different feature spaces may be represented in cortical maps. Network: Comput Neural Syst 15: 217–242. doi: 10.1088/0954-898X/15/4/001. 
+[31]	Swindale NV (2000) How many maps are there in visual cortex? Cereb Cortex 10: 633–634. doi: 10.1093/cercor/10.7.633. 
+[32]	Bednar JA, Miikkulainen R (2006) Joint maps for orientation, eye, and direction preference in a self-organizing model of V1. Neurocomputing 69: 1272–1276. doi: 10.1016/j.neucom.2005.12.090. 
+[33]	Cho MW, Kim S (2005) Different ocular dominance map formation influenced by orientation preference columns in visual cortices. Phys Rev Lett 94: 068701. doi: 10.1103/PhysRevLett.94.068701. 
+[34]	Cho MW, Kim S (2004) Understanding visual map formation through vortex dynamics of spin hamiltonian models. Phys Rev Lett 92: 018101. doi: 10.1103/PhysRevLett.92.018101. 
+[35]	Nakagama H, Tani T, Tanaka S (2006) Theoretical and experimental studies of relationship between pinwheel centers and ocular dominance columns in the visual cortex. Neurosci Res 55: 370–382. doi: 10.1016/j.neures.2006.05.004. 
+[36]	Erwin E, Miller KD (1998) Correlation-based development of ocularly matched orientation and ocular dominance maps: Determination of required input activities. J Neurosci 18: 9870–9895. 
+[37]	Pierre DM (1997) Modeling Orientation and Ocular Dominance Columns in the Visual Cortex [Ph.D. thesis]. Cambridge (Massachusetts): Department of Physics, Massachusetts Institute of Technology. 
+[38]	Grossberg S, Olson SJ (1994) Rules for the cortical map of ocular dominance and orientation columns. Neural Net 7: 883–894. doi: 10.1016/S0893-6080(05)80150-9. 
+[39]	Reichl L, Heide D, Löwel S, Crowley JC, Kaschube M, et al. (2012) Coordinated optimization of visual cortical maps (I) Symmetry-based analysis. PLoS Comput Biol 8 e1002466. doi:10.1371/journal.pcbi.1002466. 
+[40]	Hübener M, Shoham D, Grinwald A, Bonhoeffer T (1997) Spatial relationships among three columnar systems in cat area 17. J Neurosci 17: 9270–9284. 
+[41]	Engelmann R, Crook JM, Löwel S (2002) Optical imaging of orientation and ocular dominance maps in area 17 of cats with convergent strabismus. Visual Neurosci 19: 39–49. doi: 10.1017/S0952523801191042. 
+[42]	Kaschube M, Schnabel M, Löwel S, Coppola DM, White LE, et al. (2010) Universality in the evolution of orientation columns in the visual cortex. Science 330: 1113–1116. doi: 10.1126/science.1194869. 
+[43]	Keil W, Kaschube M, Schnabel M, Kisvarday ZF, Löwel S, et al. (2012) Response to comment on ‘Universality in the evolution of orientation columns in the visual cortex’. Science 336: 413. doi: 10.1126/science.1206416. 
+[44]	Miller KD (2010) π = visual cortex. Science 330: 1059–1060. 
+[45]	Stevens CF (2011) A universal design principle for visual system pinwheels. Brain Behav Evol 77: 132–135. doi: 10.1159/000326061. 
+[46]	Blasdel GG, Obermayer K, Kiorpes L (1995) Organization of ocular dominance and orientation columns in the striate cortex of neonatal macaque monkeys. Visual Neurosci 12: 589–603. doi: 10.1017/S0952523800008476. 
+[47]	Diao Y, Jia W, Swindale NV, Cynader MS (1990) Functional organization of the cortical 17/18 border region in the cat. Exp Brain Res 79: 271–282. doi: 10.1007/BF00608236. 
+[48]	Kaschube M, Wolf F, Geisel T, Löwel S (2002) Genetic influence on quantitative features of neocortical architecture. J Neurosci 22: 7206–7217. 
+[49]	Kaschube M, Wolf F, Puhlmann M, Rathjen S, Schmidt KE, et al. (2003) The pattern of ocular dominance columns in cat primary visual cortex: Intra- and interindividual variability of column spacing and its dependence on genetic background. Eur J Neurosci 18: 3251–3266. doi: 10.1111/j.1460-9568.2003.02979.x. 
+[50]	Swindale NV (1982) A model for the formation of orientation columns. Proc R Soc Lond B 215: 211–230. doi: 10.1098/rspb.1982.0038. 
+[51]	Swindale NV (1992) A model for the coordinated development of columnar systems in primate striate cortex. Biol Cybern 66: 217–230. doi: 10.1007/BF00198475. 
+[52]	Swindale NV (1996) The development of topography in the visual cortex: A review of models. Network 7: 161–247. doi: 10.1088/0954-898X/7/2/002. 
+[53]	Ohki K, Chung S, Kara P, Hübener M, Bonhoeffer T, et al. (2006) Highly ordered arrangement of single neurons in orientation pinwheels. Nature 442: 925–928. doi: 10.1038/nature05019. 
+[54]	Obermayer K, Blasdel GG (1997) Singularities in primate orientation maps. Neural Comput 9: 555–575. doi: 10.1162/neco.1997.9.3.555. 
+[55]	Bonhoeffer T, Kim DS, Malonek D, Shoham D, Grinwald A (1995) Optical imaging of the layout of functional domains in area 17 and across the area 17/18 border in cat visual cortex. Eur J Neurosci 7: 1973–1988. doi: 10.1111/j.1460-9568.1995.tb00720.x. 
+[56]	Mermin ND (1979) The topological theory of defects in ordered media. Rev Mod Phys 51: 591–648. doi: 10.1103/RevModPhys.51.591. 
+[57]	Wolf F, Pawelzik K, Scherf O, Geisel T, Löwel S (2000) How can squint change the spacing of ocular dominance columns? J Physiol 94: 525–537. doi: 10.1016/S0928-4257(00)01104-9. 
+[58]	Swift JB, Hohenberg PC (1977) Hydrodynamic fluctuations at the convective instability. Phys Rev A 15: 319–328. doi: 10.1103/PhysRevA.15.319. 
+[59]	Cross MC, Hohenberg PC (1993) Pattern formation outside of equilibrium. Rev Mod Phys 65: 851–1112. doi: 10.1103/RevModPhys.65.851. 
+[60]	Busse FH (1978) Non-linear properties of thermal convection. Rep Prog Phys 41: 1929–1967. doi: 10.1088/0034-4885/41/12/003. 
+[61]	Bodenschatz E, Pesch W, Ahlers G (2000) Recent developments in Rayleigh-Bénard convection. Annu Rev Fluid Mech 32: 709–778. doi: 10.1146/annurev.fluid.32.1.709. 
+[62]	Soward A (1985) Bifurcation and stability of finite amplitude convection in a rotating layer. Physica D 14: 227–241. doi: 10.1016/0167-2789(85)90181-2. 
+[63]	Zhang W, Vinals J (1997) Pattern formation in weakly damped parametric surface waves. J Fluid Mech 336: 301–330. doi: 10.1017/S0022112096004764. 
+[64]	Manneville P, editor (1990) Dissipative Structures and Weak Turbulence. Boston: Academic Press. 
+[65]	Cross MC, Greenside H (2009) Pattern Formation and Dynamics in Nonequilibrium Systems. Cambridge: Cambride University Press. 
+[66]	Wolf F (2005) Symmetry, multistability and long-range interactions in brain development. Phys Rev Lett 95: 208701. doi: 10.1103/PhysRevLett.95.208701. 
+[67]	Wolf F (2005) Symmetry breaking and pattern selection in visual cortical development. Les houches 2003 lecture notes. In: Methods and Models in neurophysics. Amsterdam: Elsevier. 575–639 pp. 
+[68]	Schnabel M, Kaschube M, Löwel S, Wolf F (2007) Random waves in the brain: Symmetries and defect generation in the visual cortex. European Physical Journal 145: 137–157. doi: 10.1140/epjst/e2007-00152-5. 
+[69]	Wang BS, Sarnaik R, Cang J (2010) Critical period plasticity matches binocular orientation preference in the visual cortex. Neuron 65: 246–256. doi: 10.1016/j.neuron.2010.01.002. 
+[70]	Kaschube M, Schnabel M, Wolf F, Löwel S (2009) Inter-areal coordination of columnar architectures during visual cortical development. Proc Natl Acad Sci USA 106: 17205–10. 
+[71]	Keil W, Schmidt KF, Löwel S, Kaschube M (2010) Reorganization of columnar architecture in the growing visual cortex. Proc Natl Acad Sci USA 107: 12293–12298. doi: 10.1073/pnas.0913020107. 
+[72]	Rochefort NL, Narushima M, Grienberger C, Marandi N, Hill DN, et al. (2011) Development of direction selectivity in mouse cortical neurons. Neuron 71: 425–432. doi: 10.1016/j.neuron.2011.06.013. 
+[73]	Espinosa SJ, Stryker MP (2012) Development and plasticity of the primary visual cortex. Neuron 75: 230–249. doi: 10.1016/j.neuron.2012.06.009. 
+[74]	Duffy KR, Murphy KM, Jones DG (1998) Analysis of the postnatal growth of visual cortex. Visual Neurosci 15: 831–839. doi: 10.1017/S0952523898155049. 
+[75]	Rathjen S, Engelmann R, Struif S, Kaulisch T, Stiller D, et al. (2003) The growth of cat cerebral cortex in postnatal life: a magnetic resonance imaging study. Eur J Neurosci 18: 1797–1806. doi: 10.1046/j.1460-9568.2003.02909.x. 
+[76]	Villablanca JR, Schmanke TD, Lekht V, Crutcher HA (2000) The growth of the feline brain from late fetal into adult life. i. a morphometric study of the neocortex and white matter. Brain Research 122: 11–20. 
+[77]	Rathjen S, Schmidt KE, Löwel S (2003) Postnatal growth and column spacing in cat primary visual cortex. Exp Brain Res 149: 151–158. 
+[78]	Sato M, Stryker MP (2008) Distinctive features of adult ocular dominance plasticity. J Neurosci 28: 10278–86. doi: 10.1523/JNEUROSCI.2451-08.2008. 
+[79]	Lehmann K, Löwel S (2008) Age-dependent ocular dominance plasticity in adult mice. PLoS ONE 3: e3120. doi: 10.1371/journal.pone.0003120. 
+[80]	Kremer Y, Leger JF, Goodman D, Brette R, Bourdieu L (2011) Late emergence of the vibrissae direction selectivity map in the rat barrel cortex. J Neurosci 31: 10689–10700. doi: 10.1523/JNEUROSCI.6541-10.2011. 
+[81]	von der Malsburg C (1973) Self-organization of orientation sensitive cells in the striate cortex. Kybernetik 14: 85–100. 
+[82]	Ritter H, Schulten K (1988) Convergence properties of Kohonen's topology conserving maps: Fluctuations, stability and dimension selection. Biol Cybern 60: 59–71. doi: 10.1007/BF00205972. 
+[83]	Miller KD, Keller JB, Stryker MP (1989) Ocular dominance column development: Analysis and simulation. Science 245: 605–615. doi: 10.1126/science.2762813. 
+[84]	Miller KD (1994) A model for the development of simple cell receptive fields and orientation columns through activity-dependent competition between ON- and OFF-center inputs. J Neurosci 14: 409–441. 
+[85]	Albus K, Wolf W (1984) Early postnatal development of neuronal function in the kitten's visual cortex: A laminar analysis. Journal of Physiology 348: 153–185. 
+[86]	Fregnac Y, Imbert M (1984) Development of neuronal selectivity in primary visual cortex of cat. Physiological Reviews 64: 325–434. 
+[87]	Crair MC, Gillespie DC, Stryker MP (1998) The role of visual experience in the development of columns in cat visual cortex. Science 279: 556–570. doi: 10.1126/science.279.5350.566. 
+[88]	Levelt CN, Hübener M (2012) Critical-period plasticity in the visual cortex. Annu Rev Neurosci 35: 309–330. doi: 10.1146/annurev-neuro-061010-113813. 
+[89]	Antonini A, Stryker MP (1993) Development of individual geniculocortical arbors in cat striate cortex and effects of binocular impulse blockade. J Neurosci 13: 3549–3573. 
+[90]	Wiesel TN, Hubel DH (1970) The period of susceptibility to the physiological effects of unilateral eye closure in kittens. J Physiol 206: 419–436. 
+[91]	Blakemore C, Van Sluyters RC (1974) Reversal of the physiological effects of monocular deprivation in kittens: further evidence for a sensitive period. J Physiol 237: 195–216. 
+[92]	und R D Freeman CRO (1980) Profile of the sensitive period for monocular deprivation in kittens. Experimental Brain Research 39: 17–21. 
+[93]	Jones KR, Spear PD, Tong L (1984) Critical periods for effects of monocular deprivation: differences between striate and extrastriate cortex. J Neurosci 4: 2543–2552. 
+[94]	Cynader M, Timney BN, Mitchell DE (1980) Period of susceptibility of kitten visual cortex to the effects of monocular deprivation extends beyond six months of age. Brain Res 191: 545–550. doi: 10.1016/0006-8993(80)91303-7. 
+[95]	Daw NW, Fox K, Sato H, Czepita D (1992) Critical period for monocular deprivation in the cat visual cortex. J Neurophysiol 67: 197–202. 
+[96]	Blakemore C, Mitchell D (1973) Environmental modification of the visual cortex and the neural basis of learning and memory. Nature 241: 467–468. doi: 10.1038/241467a0. 
+[97]	Imbert M, Buisseret P (1975) Receptive field characteristics and plastic properties of visual cortical cells in kittens reared with or without visual experience. Exp Brain Res 22: 25–36. doi: 10.1007/BF00235409. 
+[98]	Buisseret P, Gary-Bobo E, Imbert M (1978) Ocular motility and recovery of orientational properties of visual cortical neurones in dark-reared kittens. Nature 272: 816–817. doi: 10.1038/272816a0. 
+[99]	Buisseret P, Gary-Bobo E, Imbert M (1982) Plasticity in the kittens visual cortex: Effects of the suppression of visual experience upon the orientational properties of visual cortical cells. Brain Res 4: 417–426. doi: 10.1016/0165-3806(82)90185-7. 
+[100]	Mitchell D, Kind P, Sengpiel F, Murphy K (2006) Short periods of concordant binocular vision prevent the development of deprivation amblyopia. Eur J Neurosci 23: 2458–66. doi: 10.1111/j.1460-9568.2006.04755.x. 
+[101]	Mitchell DE, Sengpiel F (2009) Neural mechanisms of recovery following early visual deprivation. Phil Trans R Soc B 364: 383–398. doi: 10.1098/rstb.2008.0192. 
+[102]	Mitchell DE, Kennie J, Schwarzkopf DS, Sengpiel F (2009) Daily mixed visual experience that prevents amblyopia in cats does not always allow the development of good binocular depth perception. J Vis 9: 22–22. 
+[103]	Mitchell DE, Sengpiel F, Hamilton DC, Schwarzkopf DS, Kennie J (2011) Protection against deprivation amblyopia depends on relative not absolute daily binocular exposure. J Vis 11: 1–11. doi: 10.1167/11.7.13. 
+[104]	Li Y, Hooser SDV, Mazurek M, White LE, Fitzpatrick D (2008) Experience with moving visual stimuli drives the early development of cortical direction selectivity. Nature 456: 952–956. doi: 10.1038/nature07417. 
+[105]	Fregnac Y, Shulz D, Thorpe S, Bienenstock E (1988) A cellular analogue of visual cortical plasticity. Nature 333: 367–370. doi: 10.1038/333367a0. 
+[106]	Fregnac Y, Shulz D, Thorpe S, Bienenstock E (1992) Cellular analogs of visual cortical epigenesis. I. plasticity of orientation selectivity. J Neurosci 12: 1280–1300. 
+[107]	Shulz D, Fregnac Y (1992) Cellular analogs of visual cortical epigenesis. II. plasticity of binocular integration. J Neurosci 12: 1301–1318. 
+[108]	Schuett S, Bonhoeffer T, Hübener M (2001) Pairing-induced changes of orientation maps in cat visual cortex. Neuron 32: 325–337. doi: 10.1016/S0896-6273(01)00472-X. 
+[109]	Koulakov AA, Chklovskii DB (2001) Orientation preference patterns in mammalian visual cortex: A wire length minimization approach. Neuron 29: 519–527. 
+[110]	Lee HY, Yahyanejad M, Kardar M (2003) Symmetry considerations and development of pinwheels in visual maps. Proc Natl Acad Sci U S A 100: 16036–16040. doi: 10.1073/pnas.2531343100. 
+[111]	Mayer N, Herrmann MJ, Asada M, Geisel T (2007) Pinwheel stability in a non-Euclidean model of pattern fomation in the visual cortex. J Korean Phys Soc 50: 150–157. 
+[112]	Grabska-Barwinska A, von der Malsburg C (2008) Establishment of a scaffold for orientation maps in primary visual cortex of higher mammals. J Neurosci 28: 249–257. doi: 10.1523/JNEUROSCI.5514-06.2008. 
+[113]	Huang M (2009) Spatio-Temporal Dynamics of Pattern Formation in the Cerebral Cortex [Ph.D. thesis] Göttingen: Faculty of Biology, Göttingen University. 
+[114]	Paik SB, Ringach DL (2011) Retinal origin of orientation maps in visual cortex. Nat Neurosci 14: 919–926. doi: 10.1038/nn.2824. 
+[115]	Ringach DL (2007) On the origin of the functional architecture of the cortex. PLoS ONE 2: e251. doi: 10.1371/journal.pone.0000251. 
+[116]	Ringach DL (2004) Haphazard wiring of simple receptive fields and orientation columns in visual cortex. J Neurophysiol 92: 468–476. doi: 10.1152/jn.01202.2003. 
+[117]	Reichl L, Löwel S, Wolf F (2009) Pinwheel stabilization by ocular dominance segregation. Phys Rev Lett 102: 208101. doi: 10.1103/PhysRevLett.102.208101. 
+[118]	Bressloff PC, Cowan JD (2002) The visual cortex as a crystal. Physica D 173: 226–258. doi: 10.1016/S0167-2789(02)00677-2. 
+[119]	Ernst U, Pawelzik K, Sahar-Pikielny C, Tsodyks MV (2001) Intracortical origin of visual maps. Nat Neurosci 4: 431–436. 
+[120]	Soodak RE (1987) The retinal ganglion cell mosaic defines orientation columns in striate cortex. Proc Natl Acad Sci U S A 84: 3936–3940. doi: 10.1073/pnas.84.11.3936. 
+[121]	Boyer D, Vinals J (2002) Grain boundary pinning and glassy dynamics in stripe phases. Phys Rev E 65: 046119. doi: 10.1103/PhysRevE.65.046119. 
+[122]	Pomeau Y (1986) Front motion, metastability and subcritical bifurcations in hydrodynamics. Physica D 23: 3–11. doi: 10.1016/0167-2789(86)90104-1. 
+[123]	Malomed BA, Nepomnyashchy AA, Tribelsky MI (1990) Domain boundaries in convection patterns. Phys Rev A 42: 7244–7263. doi: 10.1103/PhysRevA.42.7244. 
+[124]	Bensimon D, Shraiman B, Croquette V (1988) Nonadiabatic effects in convection. Phys Rev A 38: 5461–5464. doi: 10.1103/PhysRevA.38.5461. 
+[125]	Boyer D, Vinals J (2002) Weakly nonlinear theory of grain boundary motion in patterns with crystalline symmetry. Phys Rev Lett 89: 1–4. doi: 10.1103/PhysRevLett.89.055501. 
+[126]	Jacobs A (1986) Intrinsic domain-wall pinning and spatial chaos in continuum models of onedimensionally incommensurate systems. Phys Rev B 33: 6340–6345. 
+[127]	Coullet P, Elphick C, Repaux D (1987) Nature of spatial chaos. Phys Rev Lett 58: 431–434. doi: 10.1103/PhysRevLett.58.431. 
+[128]	Argentina M, Coullet P (1998) A generic mechanism for spatiotemporal intermittency. Physica A 257: 45–60. doi: 10.1016/S0378-4371(98)00213-1. 
+[129]	Wassle H, Boycott BB, Illing RB (1981) Morphology and mosaic of on- and off-beta cells in the cat retina and some functional considerations. Proc R Soc Lond 212: 177–195. doi: 10.1098/rspb.1981.0033. 
+[130]	Adams DL, Horton JC (2003) Capricious expression of cortical columns in the primate brain. Nat Neurosci 6: 113–114. doi: 10.1038/nn1004. 
+[131]	Adams DL, Horton JC (2002) Shadows cast by retinal blood vessels mapped in primary visual cortex. Science 298: 572–576. doi: 10.1126/science.1074887. 
+[132]	Giacomantonio CE, Goodhill GJ (2007) The effect of angioscotomas on map structure in primary visual cortex. J Neurosci 27: 4935–4946. doi: 10.1523/JNEUROSCI.1261-06.2007. 
+[133]	Zimmermann W, Seesselberg M, Petruccione F (1993) Effects of disorder in pattern formation. Phys Rev E 48: 2699–2703. doi: 10.1103/PhysRevE.48.2699. 
+[134]	Zimmermann W, Painter B, Behringer R (1998) Pattern formation in an inhomogeneous environment. Eur Phys J B 5: 757–770. 
+[135]	Hammele M, Schuler S, Zimmermann W (2006) Effects of parametric disorder on a stationary bifurcation. Physica D 218: 139–157. doi: 10.1016/j.physd.2006.05.001. 
+[136]	Pomeau Y (1993) Bifurcation in a random environment. Journal de Physique I 3: 365–369. doi: 10.1051/jp1:1993137. 
+[137]	Shouval HZ, Goldberg DH, Jones JP, Beckerman M, Cooper LN (2000) Structured long-range connections can provide a scaffold for orientation maps. J Neurosci 20: 1119–1128. 
+[138]	Bartsch AP, Hemmen JL (2001) Combined hebbian development of geniculocortical and lateral connectivity in a model of primary visual cortex. Cybernetics 84: 41–55. doi: 10.1007/s004220170003. 
+[139]	Bednar JA, Miikkulainen R (2003) Self-organization of spatiotemporal receptive fields and laterally connected direction and orientation maps. Neurocomputing 52–54: 473–480. doi: 10.1016/S0925-2312(02)00735-X. 
+[140]	Kaschube M, Schnabel M, Wolf F (2008) Self-organization and the selection of pinwheel density in visual cortical development. New J Phys 10: 015009. doi: 10.1088/1367-2630/10/1/015009. 
+[141]	Löwel S, Singer W (1990) Tangential intracortical pathways and the development of iso-orientation bands in cat striate cortex. Brain Research 56: 99–106. doi: 10.1016/0165-3806(90)90168-X. 
+[142]	Zepeda A, Vaca L, Arias C, Sengpiel F (2003) Reorganization of visual cortical maps after focal ischemic lesions. J Cereb Blood Flow Metab 23: 811–820. doi: 10.1097/01.WCB.0000075010.31477.1E. 
+[143]	Johns DC, Marx R, Mains RE, O'Rourke B, Marban E (1999) Inducible genetic suppression of neuronal excitability. J Neurosci 19: 1691–1697. 
+[144]	Slimko EM, McKinney S, Anderson DJ, Davidson N, Lester HA (2002) Selective electrical silencing of mammalian neurons in vitro by the use of invertebrate ligand-gated chloride channels. J Neurosci 22: 7373–7379. 
+[145]	LeVay S, Stryker MP, Shatz CJ (1978) Ocular dominance columns and their development in layer IV of the cat's visual cortex: A quantitative study. J Comp Neurol 179: 223–244. doi: 10.1002/cne.901790113. 
+[146]	Shatz CJ, Lindström S, Wiesel TN (1977) The distribution of afferents representing the right and left eyes in the cat's visual cortex. Brain Res 131: 103–116. doi: 10.1016/0006-8993(77)90031-2. 
+[147]	Shatz CJ, Stryker MP (1978) Ocular dominance in layer iv of the cat's visual cortex and the effects of monocular deprivation. J Physiol 281: 267–283. 
+[148]	Löwel S, Singer W (1987) The pattern of ocular dominance columns in flat-mounts of the cat visual cortex. Exp Brain Res 68: 661–666. doi: 10.1007/BF00249809. 
+[149]	Brown PN, Saad Y (1990) Hybrid Krylov methods for nonlinear systems of equations. J Sci and Stat Comput 11: 450–481. doi: 10.1137/0911026. 
+[150]	Dennis JE, Schnabel RB (1983) Numerical Methods for Unconstrained Optimization and Nonlinear Equations. Prentice-Hall 
+[151]	Balay S, Buschelman K, Gropp WD, Kaushik D, Knepley MG, et al.. (2001). PETSc Web page. URL http://www.mcs.anl.gov/petsc/petsc-as/. 
+[152]	Press WH (1992) Numerical recipes in C: The art of scientific computing. Cambridge University Press. 

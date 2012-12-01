@@ -1,0 +1,4 @@
+METAREP: JCVI metagenomics reports--an open source tool for high-performance comparative metagenomics.
+Goll J, Rusch DB, Tanenbaum DM, Thiagarajan M, Li K, Methé BA, Yooseph S
+Abstract:
+None

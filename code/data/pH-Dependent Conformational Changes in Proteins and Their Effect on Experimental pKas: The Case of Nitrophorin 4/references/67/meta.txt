@@ -1,0 +1,6 @@
+TITLE: Modeling heme proteins using atomistic simulations.
+AUTHORS: Bikiel DE, Boechi L, Capece L, Crespo A, De Biase PM, Di Lella S, González Lebrero MC, Martí MA, Nadra AD, Perissinotti LL, Scherlis DA, Estrin DA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Heme proteins are found in all living organisms, and perform a wide variety of tasks ranging from electron transport, to the oxidation of organic compounds, to the sensing and transport of small molecules. In this work we review the application of classical and quantum-mechanical atomistic simulation tools to the investigation of several relevant issues in heme proteins chemistry: (i) conformational analysis, ligand migration, and solvation effects studied using classical molecular dynamics simulations; (ii) electronic structure and spin state energetics of the active sites explored using quantum-mechanics (QM) methods; (iii) the interaction of heme proteins with small ligands studied through hybrid quantum mechanics-molecular mechanics (QM-MM) techniques; (iv) and finally chemical reactivity and catalysis tackled by a combination of quantum and classical tools.

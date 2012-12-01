@@ -1,0 +1,6 @@
+TITLE: The IFITM proteins mediate cellular resistance to influenza A H1N1 virus, West Nile virus, and dengue virus.
+AUTHORS: Brass AL, Huang IC, Benita Y, John SP, Krishnan MN, Feeley EM, Ryan BJ, Weyer JL, van der Weyden L, Fikrig E, Adams DJ, Xavier RJ, Farzan M, Elledge SJ
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

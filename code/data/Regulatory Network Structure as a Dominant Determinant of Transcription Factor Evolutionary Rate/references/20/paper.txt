@@ -1,0 +1,4 @@
+Factor analysis for gene regulatory networks and transcription factor activity profiles.
+Pournara I, Wernisch L
+Abstract:
+None

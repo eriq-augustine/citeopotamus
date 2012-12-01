@@ -1,0 +1,4 @@
+Rac3-induced neuritogenesis requires binding to Neurabin I.
+Orioli D, Colaluca IN, Stefanini M, Riva S, Dotti CG, Peverali FA
+Abstract:
+Rac3, a neuronal GTP-binding protein of the Rho family, induces neuritogenesis in primary neurons. Using yeast two-hybrid analysis, we show that Neurabin I, the neuronal F-actin binding protein, is a direct Rac3-interacting molecule. Biochemical and light microscopy studies indicate that Neurabin I copartitions and colocalizes with Rac3 at the growth cones of neurites, inducing Neurabin I association to the cytoskeleton. Moreover, Neurabin I antisense oligonucleotides abolish Rac3-induced neuritogenesis, which in turn is rescued by exogenous Neurabin I but not by Neurabin I mutant lacking the Rac3-binding domain. These results show that Neurabin I mediates Rac3-induced neuritogenesis, possibly by anchoring Rac3 to growth cone F-actin.

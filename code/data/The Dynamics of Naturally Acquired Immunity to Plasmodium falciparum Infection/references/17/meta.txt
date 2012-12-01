@@ -1,0 +1,6 @@
+TITLE: Sporozoite transmission by Anopheles freeborni and Anopheles gambiae experimentally infected with Plasmodium falciparum.
+AUTHORS: Beier JC, Beier MS, Vaughan JA, Pumpuni CB, Davis JR, Noden BH
+TERMS:
+CATEGORIES:
+ABSTRACT:
+A micro-membrane feeding technique was used to evaluate sporozoite transmission for Anopheles freeborni and An. gambiae experimentally infected with Plasmodium falciparum. From cohorts of infected mosquitoes with equivalent sporozoite loads, 75.9% of 29 An. freeborni transmitted a geometric mean (GM) of 4.9 sporozoites and 80% of 30 An. gambiae transmitted a GM of 11.3 sporozoites. Ingested sporozoites, in the blood meal immediately after feeding, were detected in 86.2% of 29 An. freeborni (GM = 9.0) and in 70% of 30 An. gambiae (GM = 44.1). Overall, sporozoites were transmitted and/or ingested by 90% of both species. Most infective mosquitoes transmitted < 1% of the total sporozoites in the salivary glands, and only up to 30% of the variation in transmission, ingestion, or total sporozoite output was related to sporozoite loads. The demonstration that An. gambiae transmitted more than twice as many sporozoites as An. freeborni is the first indication that vector species of anopheline mosquitoes differ in their innate potential for sporozoite transmission.

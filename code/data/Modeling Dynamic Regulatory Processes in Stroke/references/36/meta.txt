@@ -1,0 +1,6 @@
+TITLE: Using GOstats to test gene lists for GO term association.
+AUTHORS: Falcon S, Gentleman R
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

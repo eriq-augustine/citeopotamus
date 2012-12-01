@@ -1,0 +1,4 @@
+Accelerated molecular dynamics: a promising and efficient simulation method for biomolecules.
+Hamelberg D, Mongan J, McCammon JA
+Abstract:
+None

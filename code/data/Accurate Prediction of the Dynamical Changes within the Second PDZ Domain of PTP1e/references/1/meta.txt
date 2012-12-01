@@ -1,0 +1,6 @@
+TITLE: PDZ domains: targeting signalling molecules to sub-membranous sites.
+AUTHORS: Ponting CP, Phillips C, Davies KE, Blake DJ
+TERMS:
+CATEGORIES:
+ABSTRACT:
+PDZ (also called DHR or GLGF) domains are found in diverse membrane-associated proteins including members of the MAGUK family of guanylate kinase homologues, several protein phosphatases and kinases, neuronal nitric oxide synthase, and several dystrophin-associated proteins, collectively known as syntrophins. Many PDZ domain-containing proteins appear to be localised to highly specialised submembranous sites, suggesting their participation in cellular junction formation, receptor or channel clustering, and intracellular signalling events. PDZ domains of several MAGUKs interact with the C-terminal polypeptides of a subset of NMDA receptor subunits and/or with Shaker-type K+ channels. Other PDZ domains have been shown to bind similar ligands of other transmembrane receptors. Recently, the crystal structures of PDZ domains, with and without ligand, have been determined. These demonstrate the mode of ligand-binding and the structural bases for sequence conservation among diverse PDZ domains.

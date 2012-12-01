@@ -1,0 +1,4 @@
+Influence of lateral connections on the structure of cortical maps.
+Carreira-Perpiñán MA, Goodhill GJ
+Abstract:
+Maps of ocular dominance and orientation in primary visual cortex have a highly characteristic structure. The factors that determine this structure are still largely unknown. In particular, it is unclear how short-range excitatory and inhibitory connections between nearby neurons influence structure both within and between maps. Using a generalized version of a well-known computational model of visual cortical map development, we show that the number of excitatory and inhibitory oscillations in this interaction function critically influences map structure. Specifically, we demonstrate that functions that oscillate more than once do not produce maps closely resembling those seen biologically. This strongly suggests that local lateral connections in visual cortex oscillate only once and have the form of a Mexican hat.

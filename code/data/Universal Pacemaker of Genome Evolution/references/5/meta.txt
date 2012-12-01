@@ -1,0 +1,6 @@
+TITLE: The genome as a life-history character: why rate of molecular evolution varies between mammal species.
+AUTHORS: Bromham L
+TERMS:
+CATEGORIES:
+ABSTRACT:
+DNA sequences evolve at different rates in different species. This rate variation has been most closely examined in mammals, revealing a large number of characteristics that can shape the rate of molecular evolution. Many of these traits are part of the mammalian life-history continuum: species with small body size, rapid generation turnover, high fecundity and short lifespans tend to have faster rates of molecular evolution. In addition, rate of molecular evolution in mammals might be influenced by behaviour (such as mating system), ecological factors (such as range restriction) and evolutionary history (such as diversification rate). I discuss the evidence for these patterns of rate variation, and the possible explanations of these correlations. I also consider the impact of these systematic patterns of rate variation on the reliability of the molecular date estimates that have been used to suggest a Cretaceous radiation of modern mammals, before the final extinction of the dinosaurs.

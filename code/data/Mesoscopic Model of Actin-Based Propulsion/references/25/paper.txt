@@ -1,0 +1,4 @@
+Non-Gaussian curvature distribution of actin-propelled biomimetic colloid trajectories.
+Schmidt S, van der Gucht J, Biesheuvel PM, Weinkamer R, Helfer E, Fery A
+Abstract:
+We analyze the motion of colloids propelled by a comet-like tail of polymerizing actin filaments. The curvature of the particle trajectories deviates strongly from a Gaussian distribution, implying that the underlying microscopic processes are fluctuating in a non-independent manner. Trajectories for beads of different size all showed the same non-Gaussian behavior, while the mean curvature decreased weakly with size. A stochastic simulation that includes nucleation, force-dependent dissociation, growth, and capping of filaments, shows that the non-Gaussian curvature distribution can be explained by a positive feedback mechanism in which attached chains under higher tension are more likely to snap.

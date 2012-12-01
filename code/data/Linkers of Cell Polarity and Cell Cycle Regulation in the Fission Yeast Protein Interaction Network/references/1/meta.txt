@@ -1,0 +1,6 @@
+TITLE: Geometric control of the cell cycle.
+AUTHORS: Martin SG
+TERMS:
+CATEGORIES:
+ABSTRACT:
+How do cells sense their own size and shape? And how does this information regulate progression of the cell cycle? Our group, in parallel to that of Paul Nurse, have recently demonstrated that fission yeast cells use a novel geometry-sensing mechanism to couple cell length perception with entry into mitosis. These rod-shaped cells measure their own length by using a medially-placed sensor, Cdr2, that reads a protein gradient emanating from cell tips, Pom1, to control entry into mitosis. Budding yeast cells use a similar molecular sensor to delay entry into mitosis in response to defects in bud morphogenesis. Metazoan cells also modulate cell proliferation in response to their own shape by sensing tension. Here I discuss the recent results obtained for the fission yeast system and compare them to the strategies used by these other organisms to perceive their own morphology.

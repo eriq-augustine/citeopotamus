@@ -1,0 +1,6 @@
+TITLE: Profiling phenolic metabolites in transgenic alfalfa modified in lignin biosynthesis.
+AUTHORS: Chen F, Duran AL, Blount JW, Sumner LW, Dixon RA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Soluble phenolics, wall-bound phenolics and soluble and core lignin were analyzed in transgenic alfalfa with genetically down-regulated O-methyltransferase genes involved in lignin biosynthesis. High performance liquid chromatography and principal component analysis were used to distinguish metabolic phenotypes of different transgenic alfalfa genotypes growing under standard greenhouse conditions. Principal component analysis of HPLC chromatograms did not resolve differences in leaf metabolite profiles between wild-type and transgenic plants of the same genetic background, although stem phenolic profiles were clearly different between wild-type and transgenic plants. However, the analytical methods clearly differentiated two non-transgenic alfalfa cultivars based on either leaf or stem profiles. Metabolic profiling provides a useful approach to monitoring the broader biochemical phenotypes of transgenic plants with altered expression of lignin pathway enzymes.

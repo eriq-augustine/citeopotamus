@@ -1,0 +1,6 @@
+TITLE: A note on neuronal firing and input variability.
+AUTHORS: Smith CE
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The Ornstein-Uhlenbeck process with a constant forcing function has often been used as a model for the subthreshold membrane potential of a neuron. The mean, variance and coefficient of variation of the first passage time to a constant threshold are examined for this model in the limit of small synaptic noise and low thresholds. A comparison is made between the asymptotic results of Wan & Tuckwell, who used perturbation analysis, and several computationally simpler approximation methods. A generalization of Stein's method gives an overestimate of the mean interval while an approximation by a Wiener process with linear drift gives an underestimate of the mean interval. These bounds are simple to calculate and can be used as a prelude to a more detailed perturbation analysis.

@@ -1,0 +1,6 @@
+TITLE: Modeling the spatial reach of the LFP.
+AUTHORS: Lindén H, Tetzlaff T, Potjans TC, Pettersen KH, Grün S, Diesmann M, Einevoll GT
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

@@ -1,0 +1,6 @@
+TITLE: Multiscale modeling for biologists.
+AUTHORS: Meier-Schellersheim M, Fraser ID, Klauschen F
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Biomedical research frequently involves performing experiments and developing hypotheses that link different scales of biological systems such as, for instance, the scales of intracellular molecular interactions to the scale of cellular behavior and beyond to the behavior of cell populations. Computational modeling efforts that aim at exploring such multiscale systems quantitatively with the help of simulations have to incorporate several different simulation techniques because of the different time and space scales involved. Here, we provide a nontechnical overview of how different scales of experimental research can be combined with the appropriate computational modeling techniques. We also show that current modeling software permits building and simulating multiscale models without having to become involved with the underlying technical details of computational modeling.

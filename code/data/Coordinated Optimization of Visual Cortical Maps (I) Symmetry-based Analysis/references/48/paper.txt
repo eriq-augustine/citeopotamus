@@ -1,0 +1,4 @@
+Statistical-mechanical analysis of self-organization and pattern formation during the development of visual maps.
+Obermayer K, Blasdel GG, Schulten K
+Abstract:
+None

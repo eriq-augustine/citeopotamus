@@ -1,0 +1,6 @@
+TITLE: Reversal in the direction of movement of a molecular motor.
+AUTHORS: Henningsen U, Schliwa M
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Kinesin and non-claret disjunctional (ncd) are molecular motors of the kinesin superfamily that move in opposite directions along microtubules. The molecular basis underlying the direction of movement is unclear, although it is thought to be an intrinsic property of the motor domain, a conserved region about 330 amino acids in length. The motor domain is found at the amino terminus in conventional kinesins, but at the carboxy terminus in ncd. Here we report on a chimaera composed of the motor domain of the minus-end-directed kinesin of Neurospora crassa. The bacterially expressed fusion protein was tested in motility assays using polarity-marked microtubules. Surprisingly, the chimaera moved towards the plus end, demonstrating that the polarity of force generation of the ncd motor domain has been reversed. This finding indicates that the domain organization, particularly the position of the motor domain, is of fundamental importance for the polarity of force production. It also demonstrates that the direction of microtubule movement is not controlled solely by the motor domain.

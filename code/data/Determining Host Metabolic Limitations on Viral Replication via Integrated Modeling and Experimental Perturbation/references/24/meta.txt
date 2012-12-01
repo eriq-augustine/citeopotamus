@@ -1,0 +1,6 @@
+TITLE: Integrating metabolic, transcriptional regulatory and signal transduction models in Escherichia coli.
+AUTHORS: Covert MW, Xiao N, Chen TJ, Karr JR
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

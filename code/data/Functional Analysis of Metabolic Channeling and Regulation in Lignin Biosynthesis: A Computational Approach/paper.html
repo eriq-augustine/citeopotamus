@@ -1,0 +1,1224 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:dc="http://purl.org/dc/terms/"
+      xmlns:doi="http://dx.doi.org/"
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes#"
+      lang="en" xml:lang="en"
+      itemscope itemtype="http://schema.org/Article">
+
+<head>
+   <title>PLOS Computational Biology: Functional Analysis of Metabolic Channeling and Regulation in Lignin Biosynthesis: A Computational Approach</title>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9" />
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+<link rel="home" title="home" href="/home.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1" />
+<link rel="alternate" type="application/rss+xml"
+  title="PLOS Computational Biology: New Articles"
+  href="http://www.ploscompbiol.org/article/feed" />
+
+<link rel="pingback" href="http://www.ploscompbiol.org/pingback" />
+
+
+<!-- global_css.ftl -->
+<link rel="stylesheet" type="text/css" media="screen" href="/css/dojo/dijit/themes/tundra/tundra.css?v=zwugcxLdpBWmb72qqlHgGyeNAGM" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/star_rating.css?v=Mm3HyaUPUahAJAq6xG5W3tdF7Hk" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/rating.css?v=AOT9rozE9sYVjGTdeiyxHf18Ykw" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/screen.css?v=KBNFqBmhD635U0NgiM5tf9dtxRE" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/iepc.css?v=FIjyR83BhSovq_5yNVk1Sih60AI" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/journal.css?v=SiREXztjNSUsOyrlkE9sv028Y+0" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/lightBox.css?v=sDgsUXamFoYAakEshdj0YWrZiiQ" />
+<link rel="stylesheet" type="text/css" media="print" href="/css/print.css?v=0T+LTV7Gd0jtHEhqEvBfSrmHUGg" />
+
+<!--chartbeat --> 
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+
+
+<!--[if IE]><![endif]-->
+<meta name="description" content="PLOS Computational Biology is an open-access" />
+
+<meta name="keywords" content="plos computational biology" />
+
+  <meta name="citation_publisher" content="Public Library of Science" />
+  <meta name="citation_doi" content="10.1371/journal.pcbi.1002769" />
+    <meta name="citation_title" content="Functional Analysis of Metabolic Channeling and Regulation in Lignin Biosynthesis: A Computational Approach"/>
+    <meta itemprop="name" content="Functional Analysis of Metabolic Channeling and Regulation in Lignin Biosynthesis: A Computational Approach"/>
+
+      <meta name="citation_author" content="Yun Lee" />
+          <meta name="citation_author_institution" content="The Interdisciplinary Bioengineering Program, Georgia Institute of Technology and Emory University, Atlanta, Georgia, United States of America" />
+          <meta name="citation_author_institution" content="BioEnergy Sciences Center (BESC), Oak Ridge, Tennessee, United States of America" />
+      <meta name="citation_author" content="Luis Escamilla-Treviño" />
+          <meta name="citation_author_institution" content="BioEnergy Sciences Center (BESC), Oak Ridge, Tennessee, United States of America" />
+          <meta name="citation_author_institution" content="Plant Biology Division, Samuel Roberts Noble Foundation, Ardmore, Oklahoma, United States of America" />
+      <meta name="citation_author" content="Richard A. Dixon" />
+          <meta name="citation_author_institution" content="BioEnergy Sciences Center (BESC), Oak Ridge, Tennessee, United States of America" />
+          <meta name="citation_author_institution" content="Plant Biology Division, Samuel Roberts Noble Foundation, Ardmore, Oklahoma, United States of America" />
+      <meta name="citation_author" content="Eberhard O. Voit" />
+          <meta name="citation_author_institution" content="BioEnergy Sciences Center (BESC), Oak Ridge, Tennessee, United States of America" />
+          <meta name="citation_author_institution" content="The Wallace H. Coulter Department of Biomedical Engineering, Georgia Institute of Technology and Emory University, Atlanta, Georgia, United States of America" />
+
+    <meta name="citation_date" content="2012/11/8"/>
+
+  <meta name="citation_pdf_url" content="http://dx.plos.org/10.1371/journal.pcbi.1002769.pdf" />
+
+    <meta name="citation_journal_title" content="PLOS Computational Biology" />
+    <meta name="citation_firstpage" content="e1002769"/>
+    <meta name="citation_issue" content="11"/>
+    <meta name="citation_volume" content="8"/>
+    <meta name="citation_issn" content="1553-7358"/>
+
+    <meta name="citation_journal_abbrev" content="PLoS Comput Biol" />
+
+      <meta name="citation_reference" content="citation_title=The origin and evolution of lignin biosynthesis; citation_volume=187; citation_number=1; citation_pages=273-285; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Lignin biosynthesis; citation_volume=54; citation_number=2; citation_pages=519-546; citation_date=2003; " />
+      <meta name="citation_reference" content="citation_title=Biomass recalcitrance: engineering plants and enzymes for biofuels production; citation_volume=315; citation_number=3; citation_pages=804-807; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=The path forward for biofuels and biomaterials; citation_volume=311; citation_number=4; citation_pages=484-489; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=Lignin modification improves fermentable sugar yields for biofuel production; citation_volume=25; citation_number=5; citation_pages=759-761; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=The biosynthesis of monolignols: a “metabolic grid”, or independent pathways to guaiacyl and syringyl units?; citation_volume=57; citation_number=6; citation_pages=1069-1084; citation_date=2001; " />
+      <meta name="citation_reference" content="citation_title=Distinct cinnamoyl CoA reductases involved in parallel routes to lignin in Medicago truncatula; citation_volume=107; citation_number=7; citation_pages=17803-17808; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Convergent evolution of syringyl lignin biosynthesis via distinct pathways in the lycophyte Selaginella and flowering plants; citation_volume=22; citation_number=8; citation_pages=1033-1045; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Independent recruitment of an O-methyltransferase for syringyl lignin biosynthesis in Selaginella moellendorffii; citation_volume=23; citation_number=9; citation_pages=2708-2724; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Independent origins of syringyl lignin in vascular plants; citation_volume=105; citation_number=10; citation_pages=7887-7892; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Multi-site genetic modulation of monolignol biosynthesis suggests new routes for formation of syringyl lignin and wall-bound ferulic acid in alfalfa (Medicago sativa L.); citation_volume=48; citation_number=11; citation_pages=113-124; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=Integrative analysis of transgenic alfalfa (Medicago sativa L.) suggests new metabolic control mechanisms for monolignol biosynthesis; citation_volume=7; citation_number=12; citation_pages=e1002047; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Transcriptional networks for lignin biosynthesis: more complex than we thought?; citation_volume=16; citation_number=13; citation_pages=227-233; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Transcriptome meets metabolome: hierarchical and metabolic regulation of the glycolytic pathway; citation_volume=500; citation_number=14; citation_pages=169-171; citation_date=2001; " />
+      <meta name="citation_reference" content="citation_title=Substrate preferences of O-methyltransferases in alfalfa suggest new pathways for 3-O-methylation of monolignols; citation_volume=25; citation_number=15; citation_pages=193-202; citation_date=2001; " />
+      <meta name="citation_reference" content="citation_title=Structure-function analyses of a caffeic acid O-methyltransferase from perennial ryegrass reveal the molecular basis for substrate preference; citation_volume=22; citation_number=16; citation_pages=4114-4127; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Evolvability; citation_volume=95; citation_number=17; citation_pages=8420-8427; citation_date=1998; " />
+      <meta name="citation_reference" content="citation_title=Metabolon formation and metabolic channeling in the biosynthesis of plant natural products; citation_volume=8; citation_number=18; citation_pages=280-291; citation_date=2005; " />
+      <meta name="citation_reference" content="citation_title=Metabolic channeling in plants; citation_volume=55; citation_number=19; citation_pages=85-107; citation_date=2004; " />
+      <meta name="citation_reference" content="citation_title=Glycolytic enzymes associate dynamically with mitochondria in response to respiratory demand and support substrate channeling; citation_volume=19; citation_number=20; citation_pages=3723-3738; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Colocalization of L-phenylalanine ammonia-lyase and cinnamate 4-hydroxylase for metabolic channeling in phenylpropanoid biosynthesis; citation_volume=16; citation_number=21; citation_pages=3098-3109; citation_date=2004; " />
+      <meta name="citation_reference" content="citation_title=Transgene-mediated and elicitor-induced perturbation of metabolic channeling at the entry point into the phenylpropanoid pathway; citation_volume=11; citation_number=22; citation_pages=1537-1552; citation_date=1999; " />
+      <meta name="citation_reference" content="citation_title=Modified lignin in tobacco and poplar plants over-expressing the Arabidopsis gene encoding ferulate 5-hydroxylase; citation_volume=22; citation_number=23; citation_pages=223-234; citation_date=2000; " />
+      <meta name="citation_reference" content="citation_title=Lignin monomer composition is determined by the expression of a cytochrome P450-dependent monooxygenase in Arabidopsis; citation_volume=95; citation_number=24; citation_pages=6619-6623; citation_date=1998; " />
+      <meta name="citation_reference" content="citation_title=Targeted down-regulation of cytochrome P450 enzymes for forage quality improvement in alfalfa (Medicago sativa L.); citation_volume=102; citation_number=25; citation_pages=16573-16578; citation_date=2005; " />
+      <meta name="citation_reference" content="citation_title=Syringyl lignin biosynthesis is directly regulated by a secondary cell wall master switch; citation_volume=107; citation_number=26; citation_pages=14496-14501; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Wheat cells accumulate a syringyl-rich lignin during the hypersensitive resistance response; citation_volume=68; citation_number=27; citation_pages=513-520; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=NAC transcription factors, NST1 and NST3, are key regulators of the formation of secondary walls in woody tissues of Arabidopsis; citation_volume=19; citation_number=28; citation_pages=270-280; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=From sequences to shapes and back: a case study in RNA secondary structures; citation_volume=255; citation_number=29; citation_pages=279-284; citation_date=1994; " />
+      <meta name="citation_reference" content="citation_title=Neutral networks in protein space: a computational study based on knowledge-based potentials of mean force; citation_volume=2; citation_number=30; citation_pages=261-269; citation_date=1997; " />
+      <meta name="citation_reference" content="citation_title=Robustness can evolve gradually in complex regulatory gene networks with varying topology; citation_volume=3; citation_number=31; citation_pages=e15; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_number=32; " />
+      <meta name="citation_reference" content="citation_number=33; " />
+      <meta name="citation_reference" content="citation_title=Modelling metabolic networks using power-laws and S-systems; citation_volume=45; citation_number=34; citation_pages=29-40; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Recent developments in parameter estimation and structure identification of biochemical and genomic systems; citation_volume=219; citation_number=35; citation_pages=57-83; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Profiling phenolic metabolites in transgenic alfalfa modified in lignin biosynthesis; citation_volume=64; citation_number=36; citation_pages=1013-1021; citation_date=2003; " />
+      <meta name="citation_reference" content="citation_number=37; " />
+      <meta name="citation_reference" content="citation_title=Theory for the systemic definition of metabolic pathways and their use in interpreting metabolic function from a pathway-oriented perspective; citation_volume=203; citation_number=38; citation_pages=229-248; citation_date=2000; " />
+      <meta name="citation_reference" content="citation_title=Chemical syntheses and properties of hydroxycinnamoyl-coenzyme A derivatives; citation_volume=30; citation_number=39; citation_pages=352-358; citation_date=1975; " />
+      <meta name="citation_reference" content="citation_title=Chemical syntheses of caffeoyl and 5-OH coniferyl aldehydes and alcohols and determination of lignin O-methyltransferase activities in dicot and monocot species; citation_volume=58; citation_number=40; citation_pages=1035-1042; citation_date=2001; " />
+      <meta name="citation_reference" content="citation_title=Structural and compositional modifications in lignin of transgenic alfalfa down-regulated in caffeic acid 3-O-methyltransferase and caffeoyl coenzyme A 3-O-methyltransferase; citation_volume=62; citation_number=41; citation_pages=53-65; citation_date=2003; " />
+
+
+
+<!--
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002769">
+   <license rdf:resource="http://creativecommons.org/licenses/by/2.5/" />
+</Work>
+<License rdf:about="http://creativecommons.org/licenses/by/2.5/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+</License>
+<rdf:Description
+     rdf:about="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002769"
+     dc:identifier="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002769"
+     dc:title="PLOS Computational Biology: Functional Analysis of Metabolic Channeling and Regulation in Lignin Biosynthesis: A Computational Approach"
+       trackback:ping="http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002769/trackback;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1"
+     />
+</rdf:RDF>
+
+-->
+</head>
+<body>
+<span property="dc:language" content="en"></span>
+<!-- begin : container -->
+<div id="container">
+  <!-- begin : top banner external ad space -->
+  <div id="topBanner">
+
+
+<!-- begin : left banner slot -->
+<div class="left">
+  <iframe id='affe494b' name='affe494b'
+    src='http://ads.plos.org/www/delivery/afr.php?zoneid=84&amp;cb=1074'
+    frameborder='0' scrolling='no' width='468' height='60'><a
+    href='http://ads.plos.org/www/delivery/ck.php?n=affe494b&amp;cb=2144'
+    target='_top'><img src='http://ads.plos.org/www/delivery/avw.php?zoneid=84&amp;cb=6103&amp;n=affe494b'
+    border='0' alt='' /></a></iframe>
+</div>
+<!-- end : left banner slot -->
+<!-- begin : right banner slot -->
+<div class="right">
+  <iframe id='af654bd5' name='af654bd5'
+    src='http://ads.plos.org/www/delivery/afr.php?zoneid=85&amp;cb=2597'
+    frameborder='0' scrolling='no' width='468' height='60'><a
+    href='http://ads.plos.org/www/delivery/ck.php?n=af654bd5&amp;cb=4152'
+    target='_top'><img src='http://ads.plos.org/www/delivery/avw.php?zoneid=85&amp;cb=3142&amp;n=af654bd5'
+    border='0' alt='' /></a></iframe>
+</div>
+<!-- end : right banner slot -->
+
+  </div>
+  <!-- end : top banner external ad space -->
+
+  <!-- begin : header -->
+  <div id="hdr" class="login">
+
+  <!-- begin : logo -->
+  <div id="logo" title="PLOS Computational Biology"><a href="/home.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1" title="PLOS Computational Biology"><span>PLOS Computational Biology</span></a></div>
+  <!-- end : logo -->
+  <!-- begin : user controls -->
+
+
+
+
+
+  <div id="user">
+    <div>
+      <ul>
+        <li><a href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002769" class="feedback"><strong>Login</strong></a> | </li>
+        <li><a href="https://register.plos.org:443/ambra-registration/register.action">Create Account</a> | </li>
+        <li class="feedback"><a href="/feedbackCreate.action?page=%252Farticle%252FfetchArticle.action%253FarticleURI%253Dinfo%25253Adoi%25252F10.1371%25252Fjournal.pcbi.1002769" title="Send us your feedback">Feedback</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <!-- end : user controls -->
+  <!-- begin search links -->
+  <ul id="links"><li class="browse"><a href="/article/browse.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1?field=date" title="Browse Articles">Browse</a></li><li class="rss"><a href="/static/rssFeeds.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1" title="RSS Feeds">RSS</a></li></ul>
+  <!-- end : search links -->
+  <!-- begin : dashboard -->
+  <div id="db">
+    <form name="searchForm" action="/search/simpleSearch.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1" method="get">
+      <input type="hidden" name="from" value="globalSimpleSearch"/>
+      <input type="hidden" name="filterJournals" value="PLoSCompBiol">
+      <fieldset>
+        <legend>Search</legend>
+        <label for="search">Search</label>
+        <div class="wrap"><input id="search" type="text" name="query" value="Search articles..." onfocus="if(this.value=='Search articles...')value='';" onblur="if(this.value=='')value='Search articles...';" class="searchField" alt="Search articles..."/></div>
+        <input src="/images/search_btn1.gif" onclick="submit();" value="ftsearch" alt="SEARCH" tabindex="3" class="button" type="image" />
+      </fieldset>
+    </form>
+    <form name="gasf" action="/search/advancedSearch.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1" method="get">
+<input type="hidden" name="noSearchFlag" value="true" id="noSearchFlag"/><input type="hidden" name="query" value="" id="query"/>    </form>
+    <a id="advSearch" href="#" onclick="if(document.searchForm.query.value!='Search articles...')document.gasf.query.value=document.searchForm.query.value;document.gasf.submit();return false;">Advanced Search</a>
+  </div>
+  <!-- end : dashboard -->
+  <!-- begin : navigation -->
+  <ul id="nav">
+    <li><a href="/home.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1" tabindex="101">Home</a></li>
+     <!-- This is a temporary action to link to th static toc page -->
+    <li><a href="/static/browse.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1" tabindex="102">Browse Articles</a>
+        <ul>
+          <li><a href="/article/browseIssue.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1?field=issue">Current Issue</a></li> <!-- Assuming dynamic TOC is in place -->
+          <li><a href="/article/browseVolume.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1?field=volume">Journal Archive</a></li> 
+          <li><a href="/article/browse.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1?field=date">By Publication Date</a></li>
+          <li><a href="/article/browse.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1">By Subject</a></li>
+          <li><a href="http://www.ploscollections.org/static/pcbiCollections.action">Collections</a></li>
+        </ul>
+    </li>
+    <li><a href="/static/about.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1" tabindex="103">About</a>
+        <ul>
+          <li><a href="/static/information.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1">Journal Information</a></li>
+          <li><a href="/static/edboard.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1">Editorial Board</a></li>
+          <li><a href="/static/eic.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1">Editors-in-Chief</a></li>
+          <li><a href="/static/almInfo.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1">Article-Level Metrics</a></li>
+          <li><a href="/static/license.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1">Open-Access License</a></li>
+          <li><a href="/static/contact.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1">Contact Us</a></li>
+        </ul>
+      </li>
+    <li><a href="/static/users.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1" tabindex="104">For Readers</a>
+        <ul>
+          <li><a href="/static/commentGuidelines.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1">Guidelines for Notes, Comments, and Corrections</a></li>
+          <li><a href="/static/ratingGuidelines.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1">Guidelines for Rating</a></li>
+          <li><a href="/static/help.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1">Help Using This Site</a></li>
+          <li><a href="/static/downloads.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1">Media Downloads</a></li>
+          <li><a href="/static/sitemap.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1">Site Map</a></li>
+        </ul>
+      </li>
+    <li><a href="/static/authors.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1" tabindex="105">For Authors and Reviewers</a>
+        <ul>
+          <li><a href="/static/policies.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1">Editorial and Publishing Policies</a></li>
+          <li><a href="/static/guidelines.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1">Author Guidelines</a></li>
+          <li><a href="/static/figureGuidelines.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1">Figure and Table Guidelines</a></li>
+          <li><a href="/static/checklist.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1">Submit Your Paper</a></li>
+          <li><a href="/static/reviewerGuidelines.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1">Reviewer Guidelines</a></li>
+	   <li><a href="http://www.plos.org/journals/index.php">Submit to Other PLOS Journals</a></li>
+        </ul>
+      </li>
+      <li class="journalnav"><a href="http://www.plos.org" title="PLOS" tabindex="110" class="drop">PLOS.org</a>
+        <ul>
+          <li><a href="http://www.plos.org/oa/index.html" title="Open Access Statement">Open Access</a></li>
+          <li><a href="http://www.plos.org/support/donate.php" title="Join PLOS: Show Your Support">Join PLOS</a></li>
+          <li><a href="http://blogs.plos.org/" title="PLOS Blogs">PLOS Blogs</a></li>
+	  <li><a href="http://www.zazzle.com/plos?rf=238434112415374154" title="PLOS Store">PLOS Store</a></li>
+          <li><a href="http://currents.plos.org" title="PLOS Currents">PLOS Currents</a></li>
+          <li><a href="http://www.plos.org/connect.html" title="PLOS.org | Stay Connected">Stay Connected</a></li>
+        </ul>
+      </li>
+      <li class="journalnav"><a href="http://hubs.plos.org" tabindex="109">Hubs</a>
+        <ul>
+          <li><a href="http://hubs.plos.org/biodiversity" title="PLOS Hubs: Biodiversity">Biodiversity</a></li>
+          <li><a href="http://clinicaltrials.ploshubs.org" title="PLOS Hub for Clinical Trials">Clinical Trials</a></li>
+        </ul>
+    </li>
+      <li class="journalnav"><a href="http://www.plosjournals.org" tabindex="108">Journals</a>
+        <ul>
+          <li><a href="http://www.plosbiology.org/" title="PLOSBiology.org">PLOS Biology</a></li>
+          <li><a href="http://www.plosmedicine.org/" title="PLOSMedicine.org">PLOS Medicine</a></li>
+          <li><a href="http://www.ploscompbiol.org/" title="PLOSCompBiol.org">PLOS Computational Biology</a></li>
+          <li><a href="http://www.plosgenetics.org/" title="PLOSGenetics.org">PLOS Genetics</a></li>
+          <li><a href="http://www.plospathogens.org/" title="PLOSPathogens.org">PLOS Pathogens</a></li>
+          <li><a href="http://www.plosone.org/" title="PLOSONE.org">PLOS ONE</a></li>
+          <li><a href="http://www.plosntds.org/" title="PLOSNTDs.org">PLOS Neglected Tropical Diseases</a></li>
+        </ul>
+      </li>
+    </ul>
+  <!-- end : navigation -->
+  </div>
+  <!-- end : header --> 
+
+
+
+<!-- begin : main content -->
+<div id="content" class="article" style="visibility:visible;">
+
+<!-- begin : right hand column -->
+
+<div id="rhc" xpathLocation="noDialog">
+
+  <div id="download" class="rhcBox_type1">
+    <div class="wrap">
+      <ul>
+        <li class="download icon"><strong>Download:</strong>
+          <a href="/article/fetchObjectAttachment.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1?uri=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002769&amp;representation=PDF" title="Download article PDF">PDF</a> |
+          <a href="/article/citationList.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002769" title="Download citations">Citation</a> |
+          <a href="/article/fetchObjectAttachment.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1?uri=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002769&amp;representation=XML" title="Download Article XML">XML</a>
+        </li>
+        <li class="print icon"><a href="#" onclick="window.print();return false;" title="Print Article"><strong>Print article</strong></a></li>
+        <li class="reprint icon"><a href="https://www.odysseypress.com/onlinehost/reprint_order.php?type=A&page=0&journal=3&doi=10.1371/journal.pcbi.1002769&volume=&issue=&title=Functional Analysis of Metabolic Channeling and Regulation in Lignin Biosynthesis: A Computational Approach&author_name=Yun%20Lee%2C%20Luis%20Escamilla-Trevi%C3%B1o%2C%20Richard%20A.%20Dixon%2C%20Eberhard%20O.%20Voit&start_page=1&end_page=16" title="Odyssey Press">EzReprint</a> New &amp; improved!</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="issues" class="rhcBox_type2">
+    <p><strong>Published in the</strong>
+    <a href="http://www.ploscompbiol.org/article/browseIssue.action?issue=info%3Adoi%2F10.1371%2Fissue.pcbi.v08.i11" title="Browse the Open-Access Issue">November 2012 Issue of <em>PLOS Computational Biology</em></a></p>
+  </div>
+
+  <div id="impact" class="rhcBox_type2">
+    <h6>Metrics <a href="/static/help.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1#articleMetrics" class="replaced" id="info" title="More information"><span>info</span></a></h6>
+
+    <div class="wrap">
+      <img id="rhcDataSpinner" src="/images/loading_small.gif" class="loading" />
+      <div id="totalDataInRHC"></div>
+      <div id="pubDateInRHC"></div>
+      <div id="relatedCitesInRHC"></div>
+    </div>
+
+    <div class="more clearfix"><a href="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002769;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1" title="More information">More</a></div>
+  </div>
+
+  <div id="related" class="rhcBox_type2">
+    <h6>Related Content</h6>
+    <dl class="related">
+      <dt>Related Articles on the Web</dt>
+      <dd><a href="http://scholar.google.com/scholar?hl=en&lr=&q=related:http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002769&btnG=Search">Google Scholar</a></dd>
+      <dd id="pubMedRelatedLIInRHC" style="display:none;"><a id="pubMedRelatedURLInRHC">PubMed</a></dd>
+    </dl>
+    <div class="more clearfix"><a href="/article/related/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002769;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1" title="More information">More</a></div>
+  </div>
+
+  <div id="share" class="rhcBox_type2">
+    <h6>Share this Article <a href="/static/help.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1#socialBookmarkLinks" class="replaced" id="info" title="More information"><span>info</span></a></h6>
+    <ul>
+      <li class="bookmarklets">
+
+        <a href="http://www.reddit.com/submit?url=http://dx.plos.org/10.1371/journal.pcbi.1002769"
+           target="_new"
+           id="reddit">
+          <img src="http://www.reddit.com/static/spreddit4.gif" alt="submit to reddit" border="0"/> </a>
+        <g:plusone size="small" annotation="none" href=http://dx.plos.org/10.1371/journal.pcbi.1002769></g:plusone>
+        <script type="text/javascript">
+          (function () {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+          })();
+        </script>
+        <a href="http://www.stumbleupon.com/submit?url=http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002769" target="_new"> <img border=0 src="http://cdn.stumble-upon.com/images/16x16_su_solid.gif" alt="StumbleUpon" title="Add to StumbleUpon"></a>
+        <script>function fbs_click() {u='http://dx.plos.org/10.1371/journal.pcbi.1002769';t='Functional%20Analysis%20of%20Metabolic%20Channeling%20and%20Regulation%20in%20Lignin%20Biosynthesis%3A%20A%20Computational%20Approach';window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436');return false;}</script><a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002769" onclick="return fbs_click()" target="_blank"><img src="http://static.ak.fbcdn.net/images/share/facebook_share_icon.gif" alt="Facebook" title="Add to Facebook" /></a>       <!-- for mor info, see http://www.facebook.com/share_partners.php -->
+        <script type="text/javascript">
+          function bookmark_in_connotea(u) {
+            a=false; x=window; e=x.encodeURIComponent; d=document;
+            w=open('http://www.connotea.org/addpopup?continue=confirm&uri='+e(u),
+                'add', 'width=600, height=400, scrollbars, resizable');
+            void(x.setTimeout('w.focus()',200));
+          }
+        </script>
+        <a style='cursor: pointer;' onclick='javascript:bookmark_in_connotea("http://dx.plos.org/10.1371/journal.pcbi.1002769");'><img src='/images/icon_connotea_16x16.gif' alt="Connotea" title="Add to Connotea"/></a>
+        <a href="http://www.citeulike.org/posturl?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002769&title=Functional%20Analysis%20of%20Metabolic%20Channeling%20and%20Regulation%20in%20Lignin%20Biosynthesis%3A%20A%20Computational%20Approach" target="_new"><img src='/images/icon_citeulike_16x16.gif' alt="CiteULike" title="Add to CiteULike" /></a>
+        <a href="http://www.mendeley.com/import/?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002769" title="Add to Mendeley" target="_new"><img src="/images/icon_mendeley_16x16.gif" alt="Bibliography"></a>
+        <script type="text/javascript">
+          var twtTitle  = 'Functional Analysis of Metabolic Channeling and Regulation in Lignin Biosynthesis: A Computational Approach';
+          var twtUrl    = 'http://dx.plos.org/10.1371/journal.pcbi.1002769';
+          var twtTag    = '#PLOSCompBio:'
+          var maxLength = 140 - (twtUrl.length + 1);
+          if (twtTitle.length > maxLength) {
+            twtTitle = twtTitle.substr(0, (maxLength - 17))+'...';  //truncates title to include space for twtTag and ellipsis
+          }
+          var twtLink = 'http://twitter.com/intent/tweet?text='+encodeURIComponent(twtTag + ' ' + twtTitle + ' ' + twtUrl);
+          document.write('<a href="'+twtLink+'" target="_blank"><img src="/images/icon_twitter.gif" border="0" alt="Twitter icon" title="Tweet This!" /></a>');
+        </script>
+
+      </li>
+      <li class="email icon"><a href="/article/emailArticle.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002769" title="Email this article">Email this article</a></li>
+    </ul>
+  </div>
+  <div id="articleTwitterStream" style="display:none">
+    <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script>
+      new TWTR.Widget({
+        version: 2,
+        type: 'search',
+        search: encodeURIComponent('10.1371/journal.pcbi.1002769'),
+        interval: 6000,
+        title: '',
+        subject: 'From Twitter',
+        width: 300,
+        height: 300,
+        theme: {
+          shell: {
+            background: '#667893',
+            color: '#ffffff'
+          },
+          tweets: {
+            background: '#ffffff',
+            color: '#444444',
+            links: '#006699'
+          }
+        },
+        features: {
+          scrollbar: true,
+          loop: false,
+          live: true,
+          hashtags: true,
+          timestamp: true,
+          avatars: true,
+          toptweets: true,
+          behavior: 'all'
+        }
+      }).render().start();
+    </script>
+  </div>
+</div>
+<!-- end : right hand column -->
+<form name="articleInfo" id="articleInfo" method="" action="">
+<input type="hidden" name="isAuthor" value="true" />
+<input type="hidden" name="authorIdList" value="" />
+<input type="hidden" name="userIdList" value="" />
+<input type="hidden" name="otherIdList" value="" />
+<input type="hidden" name="annotationId" value="" />
+<input type="hidden" name="isResearchArticle" value="true" />
+</form>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.XML" value="115892"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.PDF" value="1773546"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g001.TIF" value="547128"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g001.PNG_I" value="36008"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g001.PNG_S" value="11247"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g001.PNG_M" value="71470"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g001.PNG_L" value="86574"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g002.TIF" value="381442"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g002.PNG_I" value="28700"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g002.PNG_S" value="9652"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g002.PNG_M" value="58543"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g002.PNG_L" value="102799"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.e008.TIF" value="19248"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.e008.PNG" value="6306"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.e009.TIF" value="18880"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.e009.PNG" value="6014"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.e010.TIF" value="18896"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.e010.PNG" value="6015"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.e011.TIF" value="18868"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.e011.PNG" value="5995"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.e012.TIF" value="18880"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.e012.PNG" value="6004"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.e013.TIF" value="18888"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.e013.PNG" value="6015"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g003.TIF" value="709264"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g003.PNG_I" value="45225"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g003.PNG_S" value="13885"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g003.PNG_M" value="98089"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g003.PNG_L" value="331738"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g004.TIF" value="621024"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g004.PNG_I" value="28150"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g004.PNG_S" value="10704"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g004.PNG_M" value="56016"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g004.PNG_L" value="288600"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g005.TIF" value="1021252"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g005.PNG_I" value="44855"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g005.PNG_S" value="14564"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g005.PNG_M" value="84208"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g005.PNG_L" value="489947"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g006.TIF" value="1114296"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g006.PNG_I" value="50809"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g006.PNG_S" value="15826"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g006.PNG_M" value="95969"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g006.PNG_L" value="585213"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g007.TIF" value="286288"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g007.PNG_I" value="20857"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g007.PNG_S" value="8862"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g007.PNG_M" value="38141"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g007.PNG_L" value="39689"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g008.TIF" value="685428"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g008.PNG_I" value="68912"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g008.PNG_S" value="18831"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g008.PNG_M" value="149899"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g008.PNG_L" value="169186"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g009.TIF" value="460340"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g009.PNG_I" value="36481"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g009.PNG_S" value="12226"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g009.PNG_M" value="68732"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g009.PNG_L" value="174287"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g010.TIF" value="713400"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g010.PNG_I" value="57351"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g010.PNG_S" value="15650"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g010.PNG_M" value="127748"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.g010.PNG_L" value="337238"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.e001.TIF" value="19800"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.e001.PNG" value="8751"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.e002.TIF" value="2454"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.e002.PNG" value="1419"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.e003.TIF" value="9434"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.e003.PNG" value="4505"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.e004.TIF" value="2532"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.e004.PNG" value="1497"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.e005.TIF" value="1172"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.e005.PNG" value="807"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.e006.TIF" value="9150"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.e006.PNG" value="4187"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.e007.TIF" value="10402"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.e007.PNG" value="4950"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.s001.TIF" value="620508"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.s002.TIF" value="580704"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.s003.TIF" value="548688"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.s004.TIF" value="523111"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.s005.DOCX" value="17020"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.s006.DOCX" value="16991"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002769.s007.DOCX" value="42844"/>
+<div id="articleContainer">
+
+<span about="http://www.plos.org"  typeof="foaf:Organization" property="foaf:name" style="display:none; visibility:hidden;">PLOS</span>
+<div id="researchArticle" class="content">
+  <span rel="dc:publisher" href="http://www.plos.org"></span>
+  <a id="top" name="top"></a>
+<div id="contentHeader" xpathLocation="noSelect">
+  <p>Open Access</p><p id="articleType">Research Article</p>
+</div>
+
+  <h1 xpathLocation="noSelect" property="dc:title" datatype="" rel="dc:type" href="http://purl.org/dc/dcmitype/Text">Functional Analysis of Metabolic Channeling and Regulation in Lignin Biosynthesis: A Computational Approach</h1>
+  <div property="dc:description" datatype="" style="display:none; visibility:hidden;">Author SummaryThe organization of cooperating enzymes into complexes is a pervasive feature of metabolism. In particular, this phenomenon has been shown to participate in the regulation of flux through the networks of both primary and secondary metabolism in plants. It remains a challenging task to unravel the organizing principles of such &ldquo;metabolic channels,&rdquo; which can be temporary or persistent, and to understand their biological function. In this article, we analyze metabolic channels in the biosynthetic pathway of lignin, a complex polymer that stiffens and fortifies secondary cell walls within woody tissues. This system is well suited because the present analysis can be based on a computational, experimentally validated model demonstrating that several enzymes are spatially associated into channels specific for the production of two lignin monomers. To characterize the functioning of these channels, we develop a novel computational approach that is capable of identifying interesting structural and regulatory features of metabolic channeling and permits the formulation of targeted and readily testable hypotheses. Since the spontaneous or controlled assembly of molecules into functional units is known to occur in many biological contexts where information flow is tightly coordinated, the proposed approach might have broad applications in the field of computational systems biology.</div>
+  <span property="dc:date" content="2012-11-08" datatype="xsd:date" rel="dc:identifier" href="http://dx.doi.org/10.1371/journal.pcbi.1002769"></span>
+  <span property="dc:subject" content="Biochemistry"></span>
+  <span property="dc:subject" content="Computational Biology"></span>
+  <span property="dc:subject" content="Genetics and Genomics"></span>
+  <span property="dc:subject" content="Mathematics"></span>
+  <span property="dc:subject" content="Plant Biology"></span>
+<form action="">
+  <input type="hidden" name="journalDisplayName" id="journalDisplayName" value="PLOS Computational Biology" />
+  <input type="hidden" name="crossRefPageURL" id="crossRefPageURL" value="/article/crossref/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002769;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1" />
+  <input type="hidden" name="twitterPageURL" id="twitterPageURL" value="/article/twitter/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002769;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1" />
+  <input type="hidden" name="metricsTabURL" id="metricsTabURL" value="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002769;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1" />
+  <input type="hidden" name="doi" id="doi" value="info:doi/10.1371/journal.pcbi.1002769" />
+  <input type="hidden" name="articleTitleUnformatted" id="articleTitleUnformatted" value="Functional%20Analysis%20of%20Metabolic%20Channeling%20and%20Regulation%20in%20Lignin%20Biosynthesis%3A%20A%20Computational%20Approach" />
+  <input type="hidden" name="articlePubDate" id="articlePubDate" value="1352361600000" />
+</form>
+<div class="horizontalTabs" xpathLocation="noSelect">
+  <ul id="tabsContainer">
+        <li id="article" class="active"><a href="/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002769;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1" class="tab" title="Article">Article</a></li>
+        <li id="metrics"><a href="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002769;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1" class="tab" title="Metrics">Metrics</a></li>
+        <li id="related"><a href="/article/related/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002769;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1" class="tab" title="Related Content">Related Content</a></li>
+        <li id="comments"><a href="/article/comments/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002769;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1" class="tab" title="Comments">Comments: 0</a></li>
+  </ul>
+</div>
+  <div id="articleMenuBox" xpathLocation="noSelect">
+    <div id="articleMenu">
+      <div class="wrap">
+        <ul>
+          <li class="annotation icon">To <strong>add a note</strong>, highlight some text. <a href="#" onclick="toggleAnnotation(this, 'public'); return false;" title="Click to turn notes on/off">Hide notes</a></li>
+          <li class="discuss icon">
+              <a href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002769">Make a general comment</a>
+          </li>
+        </ul>
+        <div id="sectionNavTopBox" style="display:none;">
+          <p><strong>Jump to</strong></p>
+          <div id="sectionNavTop" class="tools"></div>
+        </div>
+      </div>
+    </div>
+      <div id="lightBox" xpathLocation="noDialog" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002769')">
+      </div>
+  </div>
+
+
+
+
+<p class="authors" xpathLocation="noSelect"><span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Yun Lee</span></span><sup><a href="#aff1">1</a></sup><sup>,</sup><sup><a href="#aff2">2</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Luis Escamilla-Treviño</span></span><sup><a href="#aff2">2</a></sup><sup>,</sup><sup><a href="#aff3">3</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Richard A. Dixon</span></span><sup><a href="#aff2">2</a></sup><sup>,</sup><sup><a href="#aff3">3</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Eberhard O. Voit</span></span><sup><a href="#aff2">2</a></sup><sup>,</sup><sup><a href="#aff4">4</a></sup><sup><a href="#cor1" class="fnoteref">*</a></sup></p><p class="affiliations" xpathLocation="noSelect"><a name="aff1" id="aff1"></a><strong>1</strong> The Interdisciplinary Bioengineering Program, Georgia Institute of Technology and Emory University, Atlanta, Georgia, United States of America, <a name="aff2" id="aff2"></a><strong>2</strong> BioEnergy Sciences Center (BESC), Oak Ridge, Tennessee, United States of America, <a name="aff3" id="aff3"></a><strong>3</strong> Plant Biology Division, Samuel Roberts Noble Foundation, Ardmore, Oklahoma, United States of America, <a name="aff4" id="aff4"></a><strong>4</strong> The Wallace H. Coulter Department of Biomedical Engineering, Georgia Institute of Technology and Emory University, Atlanta, Georgia, United States of America</p><div class="abstract" xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[1]"><a id="abstract0" name="abstract0" toc="abstract0" title="Abstract"></a><h2 xpathLocation="noSelect">Abstract&nbsp;<a href="#top">Top</a></h2><p xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[1]/p[1]">Lignin is a polymer in secondary cell walls of plants that is known to have negative impacts on forage digestibility, pulping efficiency, and sugar release from cellulosic biomass. While targeted modifications of different lignin biosynthetic enzymes have permitted the generation of transgenic plants with desirable traits, such as improved digestibility or reduced recalcitrance to saccharification, some of the engineered plants exhibit monomer compositions that are clearly at odds with the expected outcomes when the biosynthetic pathway is perturbed. In <em>Medicago</em>, such discrepancies were partly reconciled by the recent finding that certain biosynthetic enzymes may be spatially organized into two independent channels for the synthesis of guaiacyl (G) and syringyl (S) lignin monomers. Nevertheless, the mechanistic details, as well as the biological function of these interactions, remain unclear. To decipher the working principles of this and similar control mechanisms, we propose and employ here a novel computational approach that permits an expedient and exhaustive assessment of hundreds of minimal designs that could arise <em>in vivo</em>. Interestingly, this comparative analysis not only helps distinguish two most parsimonious mechanisms of crosstalk between the two channels by formulating a targeted and readily testable hypothesis, but also suggests that the G lignin-specific channel is more important for proper functioning than the S lignin-specific channel. While the proposed strategy of analysis in this article is tightly focused on lignin synthesis, it is likely to be of similar utility in extracting unbiased information in a variety of situations, where the spatial organization of molecular components is critical for coordinating the flow of cellular information, and where initially various control designs seem equally valid.</p>
+</div><div class="abstract" xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[2]"><a id="abstract1" name="abstract1" toc="abstract1" title="Author Summary"></a>
+<h2 xpathLocation="noSelect">Author Summary&nbsp;<a href="#top">Top</a></h2>
+<p xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[2]/p[1]">The organization of cooperating enzymes into complexes is a pervasive feature of metabolism. In particular, this phenomenon has been shown to participate in the regulation of flux through the networks of both primary and secondary metabolism in plants. It remains a challenging task to unravel the organizing principles of such “metabolic channels,” which can be temporary or persistent, and to understand their biological function. In this article, we analyze metabolic channels in the biosynthetic pathway of lignin, a complex polymer that stiffens and fortifies secondary cell walls within woody tissues. This system is well suited because the present analysis can be based on a computational, experimentally validated model demonstrating that several enzymes are spatially associated into channels specific for the production of two lignin monomers. To characterize the functioning of these channels, we develop a novel computational approach that is capable of identifying interesting structural and regulatory features of metabolic channeling and permits the formulation of targeted and readily testable hypotheses. Since the spontaneous or controlled assembly of molecules into functional units is known to occur in many biological contexts where information flow is tightly coordinated, the proposed approach might have broad applications in the field of computational systems biology.</p>
+</div>
+
+
+<div class="articleinfo" xpathLocation="noSelect"><p><strong>Citation: </strong>Lee Y, Escamilla-Treviño L, Dixon RA, Voit EO (2012) Functional Analysis of Metabolic Channeling and Regulation in Lignin Biosynthesis: A Computational Approach. PLoS Comput Biol 8(11):
+          e1002769.
+            doi:10.1371/journal.pcbi.1002769</p><p><strong>Editor: </strong>Costas D. Maranas, 
+        The Pennsylvania State University, United States of America
+      </p><p></p><p><strong>Received:</strong> May 29, 2012; <strong>Accepted:</strong> September 21, 2012; <strong>Published:</strong> November 8, 2012</p><p><strong>Copyright:</strong> © 2012 Lee et al. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</p><p><strong>Funding: </strong>This work was funded by DoE-BESC. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p><p><strong>Competing interests:</strong> The authors have declared that no competing interests exist.</p><p><a name="cor1"></a>* E-mail: <a href="mailto:eberhard.voit@bme.gatech.edu">eberhard.voit@bme.gatech.edu</a></p></div>
+
+
+
+
+
+<div id="section1" xpathLocation="/article[1]/body[1]/sec[1]"><a id="s1" name="s1" toc="s1" title="Introduction"></a><h3 xpathLocation="noSelect">Introduction&nbsp;<a href="#top">Top</a></h3><p xpathLocation="/article[1]/body[1]/sec[1]/p[1]">Lignin is a phenolic heteropolymer in the secondary cell walls of vascular plants. It is derived mainly from three hydroxycinnamyl alcohol monomers, namely <em>p-</em>coumaryl, coniferyl, and sinapyl alcohols, which, when incorporated into the lignin polymer, give rise to <em>p-</em>hydroxyphenyl (H), guaiacyl (G), and syringyl (S) subunits, respectively. The development of lignin biosynthesis is considered to be one of the key factors that allowed vascular plants to dominate the terrestrial ecosystem <a href="#pcbi.1002769-Weng1">[1]</a>. This evolutionary advantage is in part due to the fact that lignin, when deposited in the cell wall, contributes to the structural integrity of the cell, facilitates transport of water and minerals through the tracheary elements, and serves as a defensive barrier against pathogens and herbivores <a href="#pcbi.1002769-Boerjan1">[2]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[2]">In addition to lignin, the secondary cell walls of vascular plants contain several polysaccharides, such as cellulose and hemicellulose. Extraction of these polymers from lignocellulosic biomass for biofuel production has attracted extensive interest partly because exploitation of this source of fermentable sugars could minimize the competition for food, which has been criticized in the case of corn- or sugarcane-based biofuel production. However, the natural resistance of lignocellulosic biomass to enzymatic or microbial deconstruction has rendered the task of generating sustainable and cost effective biofuels from lignocellulosic feedstocks very challenging. While impressive advances have been made toward the reduction of biomass recalcitrance <a href="#pcbi.1002769-Himmel1">[3]</a>, <a href="#pcbi.1002769-Ragauskas1">[4]</a>, it was also shown that the amount of fermentable sugars released through chemical and enzymatic treatments is inversely proportional to that of lignin present in biomass, and that some transgenic plants with reduced lignin content yield up to twice as much sugar from their stems as wild-type plants <a href="#pcbi.1002769-Chen1">[5]</a>. These observations suggest that lignin biosynthesis may be targeted for generating engineered crops with reduced recalcitrance. The challenge of this task derives from the fact that a rational design of less recalcitrant varieties would require a thorough, multi-level understanding of the lignin biosynthesis in wild- type plants, which we do not yet have. Such an understanding would include a grasp of the system of interactions between the enzyme-encoding genes, proteins and metabolites involved in the biosynthesis of lignin, as well as details of the regulation of this multi-tiered system.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[3]">The metabolic scaffold for the biosynthesis of the three building blocks of lignin originally was seen as a grid-like structure <a href="#pcbi.1002769-Dixon1">[6]</a>, but this initial structure has been revised and refined and is now understood as an essentially linear pathway with only a few branch points (<a href="#pcbi-1002769-g001">Figure 1</a>). Although this generic pathway structure is now widely accepted, it has become clear that different lineages of vascular plants have evolved variants that engage distinct biosynthetic strategies. An interesting example is the model legume <em>Medicago truncatula</em>, where the characterization of two distinct cinnamoyl CoA reductases, CCR1 and CCR2, has suggested parallel routes from caffeoyl CoA to coniferyl aldehyde (<a href="#pcbi-1002769-g001">Figure 1</a>) <a href="#pcbi.1002769-Zhou1">[7]</a>. A more unusual case is the lycophyte <em>Selaginella moellendorffi</em>. Functional analyses of the two enzymes recently discovered from this species, <em>Sm</em>F5H and <em>Sm</em>COMT, support the notion that <em>S. moellendorffi</em> may have adopted a non-canonical pathway from that in angiosperms to synthesize coniferyl and sinapyl alcohol (<a href="#pcbi-1002769-g001">Figure 1</a>) <a href="#pcbi.1002769-Weng2">[8]</a>, <a href="#pcbi.1002769-Weng3">[9]</a>, <a href="#pcbi.1002769-Weng4">[10]</a>.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[1]/fig[1]"><a name="pcbi-1002769-g001" id="pcbi-1002769-g001" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002769?imageURI=info:doi/10.1371/journal.pcbi.1002769.g001" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002769', 'info:doi/10.1371/journal.pcbi.1002769.g001');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002769', 'info:doi/10.1371/journal.pcbi.1002769.g001');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002769.g001&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[1]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002769?imageURI=info:doi/10.1371/journal.pcbi.1002769.g001" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002769', 'info:doi/10.1371/journal.pcbi.1002769.g001');"><span>Figure 1. </span></a> <span xpathLocation="/article[1]/body[1]/sec[1]/fig[1]/caption[1]/title[1]">Generic pathway diagram of lignin biosynthesis with species-specific extensions.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[1]/fig[1]/caption[1]/p[1]">The widely accepted generic pathway consists of black arrows. It leads to the biosynthesis of three hydroxycinnamyl alcohol monomers that in turn give rise to <em>p</em>-hydroxyphenyl (H), guaiacyl (G), and syringyl (S) subunits of lignin. Listed next to each reaction arrow are the catalyzing enzymes, which are highlighted in bold if considered major. The lycophyte <em>Selaginella moellendorffi</em> contains two bi-functional enzymes, <em>Sm</em>F5H and <em>Sm</em>COMT, which are shown in blue. Co-expression of these two enzymes would permit <em>S. moellendorffi</em> to synthesize coniferyl and sinapyl alcohol directly from <em>p</em>-coumaryl aldehyde and <em>p</em>-coumaryl alcohol. By contrast, <em>Medicago truncatula</em> has two functionally distinct isoforms of CCR, which are shown in red. The green arrow that connects caffeyl aldehyde to coniferyl aldehyde denotes the only non-canonical reaction that is likely to be functional in both <em>S. moellendorffi</em> and <em>M. truncatula</em>. Abbreviations: CAD, cinnamyl alcohol dehydrogenase; CCoAOMT, caffeoyl CoA <em>O</em>-methyltransferase; CCR, cinnamoyl CoA reductase; C3′H, <em>p</em>-coumaroyl shikimate 3′-hydroxylase; C4H, cinnamate 4-hydroxylase; 4CL, 4-coumarate:CoA ligase; COMT, caffeic acid <em>O</em>-methyltransferase; F5H, ferulate 5-hydroxylase; HCT, hydroxycinnamoyl-CoA:shikimate hydroxycinnamoyl transferase; PAL, L-phenylalanine ammonia-lyase.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002769.g001</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002769.g001/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002769.g001/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002769.g001.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002769.g001/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002769.g001.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[1]/p[4]">Given such variations, it would appear reasonable to consider genus- or species-specific similarities and differences. However, such data are seldom available, and even if a customized pathway structure can be established, its regulation often remains obscure. This shortcoming tends to become evident with new, precise data. For instance, experiments using genetically modified <em>M. truncatula</em> lines with reduced CCR1 activity exhibited an unexplainable decrease in the ratio of S to G lignin over wild type <a href="#pcbi.1002769-Zhou1">[7]</a>. Such discrepancies between expectation and observation suggest that the currently accepted pathway diagrams may require further revisions that include regulatory mechanisms affecting the physiological outcome when the pathway is perturbed.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[5]">The focus of this article is an assessment of such a regulatory system associated with lignin biosynthesis in <em>Medicago</em>. This genus includes model species like <em>M. truncatula</em>, as well as alfalfa (<em>Medicago sativa</em> L.), an important forage legume. <em>Medicago</em> is particularly suited for these studies, because comparatively extensive information is available. For instance, a detailed dataset was established that characterized different lines in which seven lignin biosynthetic enzymes were independently down-regulated, and the resulting lignin content and monomer composition were determined in several stem segments <a href="#pcbi.1002769-Chen2">[11]</a>. In a recent study, we demonstrated that these types of data contain substantial, although hidden, information. In particular, we used these data to show that certain enzymes may co-localize and/or assemble into two independent channels for the synthesis of G and S lignin, and that salicylic acid acts as a potential regulatory molecule for the lignin biosynthetic pathway <a href="#pcbi.1002769-Lee1">[12]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[6]">Although these earlier results provided significant insights into the mechanisms of regulation in this pathway, several critical questions, especially regarding the biological function as well as the operating mode of the channels, remain unanswered: For instance, are these channels always active <em>in vivo</em>? Are they sufficient to explain all available data in <em>Medicago</em>? Is there crosstalk between them, and if so, how is it organized? Exploring all pertinent scenarios associated with such questions would be experimentally intractable because they are simply too numerous.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[7]">Instead, we present here a novel computational approach to investigate exhaustively all regulatory schemes involving the key reactions associated with G and S channels in the lignin biosynthetic pathway (<a href="#pcbi-1002769-g002">Figure 2</a>). The specific hypothesis is that the formerly postulated and validated channels may have two different modes of operation. Either they are <em>permanent</em> in a sense that the component enzymes are persistently assembled into a complex; such a complex could be realized through membrane co-localization, thereby ensuring that the corresponding alcohol is always synthesized. As an alternative, the channels could be <em>facultative</em>, thereby displaying a functionality that depends on the sub-cellular localization of the component enzymes and the metabolic milieu. This hypothesis, in turn, leads to 19 possible topological configurations (<a href="#pcbi-1002769-g003">Figure 3A</a>). For each of these topologies, we consider an additional level of regulation, involving individual or combined regulatory mechanisms that may serve as a means of “crosstalk” between the two channels (<a href="#pcbi-1002769-g003">Figure 3B</a>). The emphasis of this approach is on mechanisms at the metabolic level, but one must not forget that the transcriptional network governing the system could be involved in regulation of the pathway as well <a href="#pcbi.1002769-Zhao1">[13]</a>.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[1]/fig[2]"><a name="pcbi-1002769-g002" id="pcbi-1002769-g002" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002769?imageURI=info:doi/10.1371/journal.pcbi.1002769.g002" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002769', 'info:doi/10.1371/journal.pcbi.1002769.g002');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002769', 'info:doi/10.1371/journal.pcbi.1002769.g002');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002769.g002&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[1]/fig[2]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002769?imageURI=info:doi/10.1371/journal.pcbi.1002769.g002" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002769', 'info:doi/10.1371/journal.pcbi.1002769.g002');"><span>Figure 2. </span></a> <span xpathLocation="/article[1]/body[1]/sec[1]/fig[2]/caption[1]/title[1]">Scaffold of topological configurations.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[1]/fig[2]/caption[1]/p[1]">The relevant metabolites and enzymatic reactions (arrows) for the biosynthesis of guaiacyl (G), 5-hydroxyguaiacyl (5HG), and syringyl (S) lignin monomers are shown in black, if they are included in all topological configurations, or gray, if they are included in only some specific configurations. G and S channels are represented as blue and red arrows, respectively. Notice that 5-hydroxyconiferyl alcohol is allowed to be incorporated into lignin polymer as 5HG subunit because this actually occurs when COMT is down-regulated <a href="#pcbi.1002769-Marita1">[41]</a>. Enzymes are highlighted in bold and italics.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002769.g002</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002769.g002/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002769.g002/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002769.g002.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002769.g002/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002769.g002.TIF"></span> TIFF)
+                  </a></li></ul></div></div><div class="figure" xpathLocation="/article[1]/body[1]/sec[1]/fig[3]"><a name="pcbi-1002769-g003" id="pcbi-1002769-g003" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002769?imageURI=info:doi/10.1371/journal.pcbi.1002769.g003" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002769', 'info:doi/10.1371/journal.pcbi.1002769.g003');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002769', 'info:doi/10.1371/journal.pcbi.1002769.g003');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002769.g003&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[1]/fig[3]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002769?imageURI=info:doi/10.1371/journal.pcbi.1002769.g003" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002769', 'info:doi/10.1371/journal.pcbi.1002769.g003');"><span>Figure 3. </span></a> <span xpathLocation="/article[1]/body[1]/sec[1]/fig[3]/caption[1]/title[1]">Lists of topological configurations and regulatory mechanisms.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[1]/fig[3]/caption[1]/p[1]">Panel A: The topological configurations differ in their numbers of edges. Panel B: The orange arrows represent activation processes, whereas the blocked lines (aqua) represent inhibition processes. Arrows colored in gray are reactions included in only some specific topological configurations. Metabolite names: <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002769.e008&amp;representation=PNG"></span>1 caffeoyl CoA; <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002769.e009&amp;representation=PNG"></span>, caffeyl aldehyde; <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002769.e010&amp;representation=PNG"></span> feruloyl CoA; <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002769.e011&amp;representation=PNG"></span> coniferyl aldehyde; <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002769.e012&amp;representation=PNG"></span> coniferyl alcohol; <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002769.e013&amp;representation=PNG"></span> 5-hydroxyconiferyl aldehyde.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002769.g003</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002769.g003/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002769.g003/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002769.g003.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002769.g003/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002769.g003.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[1]/p[8]">The goal is thus to assess and compare the functionality of all given combinations of topological configurations and crosstalk patterns, each of which we call a <em>design</em>. To obtain insights that are independent of parameter choices, we constructed for each design a library of 100,000 loosely constrained dynamic models and tested each of them against the observed ratios of S to G lignin in four lignin-modified <em>Medicago</em> lines. The resulting analysis of hundreds of designs and millions of models led to the intriguing hypothesis that either a single activation mechanism or a dual-inhibition mechanism lies at the core of all experimentally supported designs. The former mechanism was not supported by an <em>in vitro</em> enzyme assay, while the latter is consistent with several lines of evidence from <em>Medicago</em> and other species. As an added insight, the analysis suggested that functionality of the G lignin channel is more important than that of the S lignin channel. Overall, these findings not only enrich our current understanding of how lignin biosynthesis is regulated, but they also demonstrate the possible application of the proposed approach in entirely different biological scenarios where the task is to identify true regulatory circuit among many theoretically feasible designs that depend on the functionality and localization of interacting molecules.</p>
+</div>
+
+<div id="section2" xpathLocation="/article[1]/body[1]/sec[2]"><a id="s2" name="s2" toc="s2" title="Results"></a><h3 xpathLocation="noSelect">Results&nbsp;<a href="#top">Top</a></h3>
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/title[1]">Enumeration of circuit designs</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[1]">The base scaffold on which the different topological variants were built is shown in <a href="#pcbi-1002769-g002">Figure 2</a>. It consists of all relevant steps in the lignin biosynthetic pathway that possibly affect the relative amounts of G and S lignin. Prior work <a href="#pcbi.1002769-Lee1">[12]</a> provided evidence that CCR1 and cinnamyl alcohol dehydrogenase (CAD) may organize into a functional complex through which the substrate coniferyl aldehyde is transferred from CCR1 to CAD without much leakage, thereby acting as a channel leading specifically to the synthesis of G lignin. Similarly, caffeic acid <em>O</em>-methyltransferase (COMT) and ferulate 5-hydroxylase (F5H) were suggested to form an analogous complex contributing specifically to the synthesis of S lignin. These two complexes, which we called G and S lignin channels, are represented in <a href="#pcbi-1002769-g002">Figure 2</a> as two directed edges, one linking feruloyl CoA and coniferyl alcohol (G channel) and the other linking caffeyl aldehyde and 5-hydroxyconiferyl aldehyde (S channel). The experimentally validated channeling hypothesis permits 19 different topological configurations (<a href="#pcbi-1002769-g003">Figure 3A</a>) that satisfy the following constraints. First, at least one edge must be leaving caffeyl aldehyde and feruloyl CoA, and at least one edge must be entering coniferyl alcohol and 5-hydroxyconiferyl aldehyde; otherwise mass would unduly accumulate in intermediate pools. Second, if coniferyl aldehyde can be produced by a free CCR1 and/or COMT, it must also be consumed by a free enzyme, thereby decreasing the metabolic burden that would otherwise be imposed on the cell. For reasons that will be explained below, we also consider for each topological configuration various crosstalk patterns between the CCR2/COMT and CCoAOMT/CCR1 pathways. Each pattern is composed of documented or postulated mechanisms of metabolic regulation (activation or inhibition) (<a href="#pcbi-1002769-g003">Figure 3B</a>). The specific combinations of topological configurations and crosstalk patterns lead to hundreds of different designs, which were analyzed and compared (see <a href="#pcbi.1002769.s004">Figure S4</a>).</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[2]">For each design, we first constructed 100,000 Generalized Mass Action (GMA) models by randomly sampling loosely-constrained parameter combinations from a parameter space that was deemed biologically realistic. A notable feature of this approach was that the parameter space was not only constrained at the level of individual parameters (<em>e.g.</em> kinetic orders), but also at the level of steady-state fluxes. For instance, the ratio of fluxes leading to S and G lignin was fixed at a value observed in the wild-type <em>Medicago</em> species (see <a href="#s4">Materials and Methods</a> and <a href="#pcbi.1002769.s007">Text S1</a> for details). Once all parameters for a given GMA model instantiation were specified, we determined steady-state fluxes under conditions that mimic CCoAOMT and COMT down-regulated alfalfa lines as well as <em>ccr1</em> and <em>ccr2 M. truncatula</em> mutant lines and computed the S/G ratios for which we had experimental data. We declared a model as <em>valid</em> if it yielded quantitatively and qualitatively correct results for both transgenic alfalfa and <em>M. truncatula</em> plants (see <a href="#s4">Materials and Methods</a>). To assess the robustness of a design to parametric perturbations, we defined <em>Q</em> as the total number of valid model instantiations.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/title[1]">Channels are necessary but not sufficient</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/p[1]">As a reasonable baseline, we first assumed the absence of crosstalk between the CCR2/COMT and CCoAOMT/CCR1 pathways (<a href="#pcbi-1002769-g004">Figure 4</a>). Of all possible topological configurations lacking crosstalk, only six had at least one parameter combination that yielded quantitatively correct predictions of S/G ratios for CCoAOMT and COMT down-regulated alfalfa plants. Supporting our previous findings <a href="#pcbi.1002769-Lee1">[12]</a>, all six configurations include either one or both channels, suggesting that the channels are necessary. In other words, the pathway models are consistent with the observed changes in the S/G ratios of CCoAOMT and COMT down-regulated alfalfa plants only if at least one channel is present.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[1]"><a name="pcbi-1002769-g004" id="pcbi-1002769-g004" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002769?imageURI=info:doi/10.1371/journal.pcbi.1002769.g004" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002769', 'info:doi/10.1371/journal.pcbi.1002769.g004');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002769', 'info:doi/10.1371/journal.pcbi.1002769.g004');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002769.g004&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002769?imageURI=info:doi/10.1371/journal.pcbi.1002769.g004" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002769', 'info:doi/10.1371/journal.pcbi.1002769.g004');"><span>Figure 4. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[1]/caption[1]/title[1]">Simulation results for pathway designs without crosstalk.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[1]/caption[1]/p[1]">Each of the 6 panels represents one topological configuration (as indicated with labels (A, C, D, G, K, N) corresponding to model designs in <a href="#pcbi-1002769-g003">Figure 3</a>) with at least one randomly parameterized S-system model that yields quantitatively correct predictions of S/G ratios for both CCoAOMT and COMT down-regulated alfalfa plants. Each open circle refers to the S/G ratio of CCR1 and CCR2 in a <em>M. truncatula</em> knockout mutant, as predicted by one randomly parameterized S-system model; its color indicates the type of regulation. The gray strips denote regions within 5% of the wild-type level; model predictions within these strips are considered essentially the same as wild-type. Qualitatively correct predictions should fall into the northwest quadrant. It is evident that not a single model instantiation is admissible. The total number of randomly parameterized model instantiations per panel was 10<sup>5</sup>.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002769.g004</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002769.g004/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002769.g004/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002769.g004.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002769.g004/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002769.g004.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/p[2]">To assess these initially feasible parameter combinations further, we used the models with these parameter values to predict the S/G ratios for <em>ccr1</em> and <em>ccr2</em> knockout mutants. The <em>M. truncatula</em> lines harboring transposon insertions in <em>CCR1</em> and <em>CCR2</em> show a corresponding reduction in CCR1 and CCR2 activity, and their S/G ratio is decreased or increased, respectively, compared to the wild-type level <a href="#pcbi.1002769-Zhou1">[7]</a>. Moreover, the activities of CCR1 and CCoAOMT, as well as their mRNA transcripts and proteins, are increased in the <em>ccr2</em> knockout mutant, indicating that part of their activation might be processed through a hierarchical control of gene expression <a href="#pcbi.1002769-terKuile1">[14]</a>; see also <a href="#pcbi.1002769.s004">Figure S4</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/p[3]"><a href="#pcbi-1002769-g004">Figure 4</a> shows simulation results for those topological configurations where at least one out of 100,000 randomly parameterized models yielded quantitatively correct predictions of S/G ratios for both CCoAOMT and COMT down-regulated alfalfa plants. In these plots, a model is valid only if its predicted S/G ratios for <em>ccr1</em> and <em>ccr2</em> knockout mutants fall within the northwest quadrant.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/p[4]">In the case of no hierarchical regulation, <em>i.e.</em>, the <em>ccr2</em> mutant exhibits only reduced CCR2 activity, some model instantiations from configuration A showed a decreased S/G ratio for the <em>ccr1</em> knockout mutant, but not a single case exhibited an increased S/G ratio for the <em>ccr2</em> knockout mutant. This outcome did not improve much when hierarchical regulation was considered: not one of the 1.9 million model instantiations from the 19 possible configurations yielded qualitatively acceptable predictions for both <em>ccr1</em> and <em>ccr2</em> knockout mutants. These findings indicate that the S and G channels alone are not sufficient to explain all available transgenic data, and that some type of crosstalk is highly likely to occur between the CCR2/COMT and CCoAOMT/CCR1 pathways.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/title[1]">Crosstalk between the CCR2/COMT and CCoAOMT/CCR1 pathways</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[1]">One potential source of crosstalk between the CCR2/COMT and CCoAOMT/CCR1 pathways is substrate competition. CCR1/2 converts hydroxycinnamoyl CoA esters to their corresponding cinnamyl aldehydes, whereas CCoAOMT and COMT together complete the methylation of the aromatic C<sub>3</sub> and C<sub>5</sub> positions of the aldehydes and alcohols (<a href="#pcbi-1002769-g001">Figure 1</a>). All these enzymes are known to be multi-functional, acting upon multiple substrates with distinct catalytic efficiency. Because of their promiscuous nature, different substrates compete with each other if the supply of enzyme is limited. As a consequence, the enzymatic conversion of one substrate is effectively subjected to competitive inhibition by another substrate, and vice versa. This type of cross-inhibition is not necessarily equally strong in both directions because a promiscuous enzyme often displays preference for some substrates over others.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[2]">In the case of lignin biosynthesis, two regulatory mechanisms could arise from substrate competition. First, recombinant <em>Medicago</em> CCR2 exhibits similar <em>k</em><sub>cat</sub>/<em>K</em><sub>M</sub> values for caffeoyl CoA (0.49 µM<sup>−1</sup>•min<sup>−1</sup>) and feruloyl CoA (0.40 µM<sup>−1</sup>•min<sup>−1</sup>) <a href="#pcbi.1002769-Zhou1">[7]</a>, suggesting that the CCR2-mediated conversion of caffeoyl CoA to caffeyl aldehyde in <em>Medicago</em> might be competitively inhibited by feruloyl CoA (<a href="#pcbi-1002769-g003">Figure 3B</a>; Mechanism 1). Furthermore, CCR2 is inhibited by feruloyl CoA at a concentration above 20 µM <a href="#pcbi.1002769-Zhou1">[7]</a>. Conversely, it is highly unlikely that the CCR1-mediated conversion of feruloyl CoA to coniferyl aldehyde is significantly affected by caffeoyl CoA, because CCR1 has a <em>k</em><sub>cat</sub>/<em>K</em><sub>M</sub> value for caffeoyl CoA (0.019 µM<sup>−1</sup>•min<sup>−1</sup>) that is 60 times lower than that for feruloyl CoA (1.14 µM<sup>−1</sup>•min<sup>−1</sup>) <a href="#pcbi.1002769-Zhou1">[7]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[3]">Second, the methylation of caffeoyl CoA by the combined activity of COMT and CCoAOMT may be subject to weak competitive inhibition by caffeyl aldehyde (<a href="#pcbi-1002769-g003">Figure 3B</a>; Mechanism 2). This assumption is based on the following observation. Although the combined <em>O</em>-methyltransferase (OMT) activity against caffeoyl CoA in extracts from internodes 6 to 8 of CCoAOMT-down-regulated alfalfa was reduced by 4.2-fold compared with the empty vector control line, about ~25% of OMT activity remained <a href="#pcbi.1002769-Parvathi1">[15]</a>. This activity is presumably associated with COMT, for which caffeyl aldehyde is the preferred substrate. Notably, both mechanisms are independent of each other and may work individually or collaboratively to establish crosstalk between the two channels, thereby leading to three different crosstalk patterns and 57 different designs.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[4]">In the case where only Mechanism 1 (<a href="#pcbi-1002769-g003">Figure 3B</a>) was incorporated in the design, we observed a substantial increase in the number of model instantiations showing a decreased S/G ratio for the <em>ccr1</em> knockout mutant (<a href="#pcbi.1002769.s001">Figure S1</a>). Yet, even when we accounted for the effect of hierarchical regulation, none of the models was capable of delivering a qualitatively correct change in the S/G ratio for the <em>ccr2</em> knockout mutant. This finding indicates that the experimentally inferred inhibition evidently exists but is not sufficient. Similarly, we found no valid models when Mechanism 2, either by itself or coupled with Mechanism 1, was employed (<a href="#pcbi.1002769.s002">Figures S2</a> and <a href="#pcbi.1002769.s003">S3</a>). An explanation may be that, with caffeyl aldehyde inhibiting the 3-<em>O</em>-methylation of caffeoyl CoA, knocking down CCR2 activity will consistently lead to a deregulation of CCoAOMT by caffeyl aldehyde, thereby increasing the flux to G lignin and reducing the S/G ratio.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/title[1]">Is caffeyl aldehyde an activator of CCoAOMT?</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/p[1]">One could surmise that the 3-<em>O</em>-methylation of caffeoyl CoA, for which CCoAOMT is the primary enzyme, is actually activated by caffeyl aldehyde. This conjecture is based on the following argument. When the production of S lignin is compromised due to a knockout of <em>ccr2</em>, the only way of raising the S/G ratio beyond its wild-type level is to further reduce the flux through the CCoAOMT/CCR1 pathway, which can be accomplished if CCoAOMT is activated by caffeyl aldehyde. The simulation results using this type of postulated mechanism, either by itself (<a href="#pcbi-1002769-g005">Figure 5</a>) or coupled with the documented inhibition of CCR2 by feruloyl CoA (<a href="#pcbi-1002769-g006">Figure 6</a>), are very intriguing: For each crosstalk pattern where millions of randomly parameterized models were generated, we found thousands of valid instantiations that yielded quantitatively and qualitatively correct predictions for both transgenic alfalfa and <em>M. truncatula</em> plants. Perhaps more surprisingly, only six topological configurations (A, B, E, F, I, O) had at least one valid model (<em>Q</em>&gt;0; see <a href="#s4">Materials and Methods</a>). To ensure that this result was not due to the use of overly restrictive thresholds, we relaxed the criteria and found more parameter combinations that qualified. Nevertheless, the same six topological configurations always passed the screening test by a wide margin (<a href="#pcbi.1002769.s005">Table S1</a>). Collectively, these findings suggested that this activation mechanism, acting alone or with the inhibition of CCR2 by feruloyl CoA, is necessary for consistency with the <em>ccr1</em> and <em>ccr2</em> knockout data. This conclusion immediately translated into a targeted hypothesis that was independent of specific parameter choices and readily testable by experiment.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/fig[1]"><a name="pcbi-1002769-g005" id="pcbi-1002769-g005" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002769?imageURI=info:doi/10.1371/journal.pcbi.1002769.g005" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002769', 'info:doi/10.1371/journal.pcbi.1002769.g005');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002769', 'info:doi/10.1371/journal.pcbi.1002769.g005');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002769.g005&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002769?imageURI=info:doi/10.1371/journal.pcbi.1002769.g005" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002769', 'info:doi/10.1371/journal.pcbi.1002769.g005');"><span>Figure 5. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/fig[1]/caption[1]/title[1]">Simulation results for pathway designs using only Mechanism 3.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/fig[1]/caption[1]/p[1]">See <a href="#pcbi-1002769-g003">Figure 3B</a> for the structure of this mechanism and the legend of <a href="#pcbi-1002769-g004">Figure 4</a> for more information on details shown. In contrast to the results in <a href="#pcbi-1002769-g004">Figure 4</a>, the pathway designs analyzed here permit numerous admissible model instantiations (topologies A, B, E, F, I, and O), which fall into the northwest quadrant. The total number of randomly parameterized model instantiations per panel was 10<sup>5</sup>.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002769.g005</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002769.g005/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002769.g005/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002769.g005.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002769.g005/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002769.g005.TIF"></span> TIFF)
+                  </a></li></ul></div></div><div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/fig[2]"><a name="pcbi-1002769-g006" id="pcbi-1002769-g006" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002769?imageURI=info:doi/10.1371/journal.pcbi.1002769.g006" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002769', 'info:doi/10.1371/journal.pcbi.1002769.g006');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002769', 'info:doi/10.1371/journal.pcbi.1002769.g006');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002769.g006&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/fig[2]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002769?imageURI=info:doi/10.1371/journal.pcbi.1002769.g006" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002769', 'info:doi/10.1371/journal.pcbi.1002769.g006');"><span>Figure 6. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/fig[2]/caption[1]/title[1]">Simulation results for pathway designs that contain Mechanisms 1 and 3 simultaneously.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/fig[2]/caption[1]/p[1]">See <a href="#pcbi-1002769-g003">Figure 3B</a> for the structure of these mechanisms and the legend of <a href="#pcbi-1002769-g004">Figure 4</a> for more information on details shown. Similar to the results in <a href="#pcbi-1002769-g005">Figure 5</a>, the pathway designs analyzed here permit numerous admissible model instantiations (topologies A, B, E, F, I, and O), which fall into the northwest quadrant. The total number of randomly parameterized model instantiations per panel was 10<sup>5</sup>.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002769.g006</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002769.g006/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002769.g006/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002769.g006.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002769.g006/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002769.g006.TIF"></span> TIFF)
+                  </a></li></ul></div></div>
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[5]/title[1]">The hypothesized activation is not supported by experimental data</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[5]/p[1]">To examine whether caffeyl aldehyde indeed activates CCoAOMT, we expressed alfalfa CCoAOMT in <em>Escherichia coli</em> and assayed the purified recombinant enzyme with caffeoyl CoA as substrate and caffeyl aldehyde as the putative activator. As shown in <a href="#pcbi-1002769-g007">Figure 7</a>, the CCoAOMT activity increased by 16% at 2 µM of caffeyl aldehyde and 20 µM of caffeoyl CoA; at higher substrate concentrations (<em>i.e.</em>, 30 and 40 µM of caffeoyl CoA), the increase in mean CCoAOMT activity became less. Assays using lower concentrations of the substrate caffeoyl CoA (2, 4, 5 and 10 µM) and the putative activator caffeyl aldehyde (0.5, 1, 2 and 4 µM) showed no increase in CCoAOMT activity compared to the reaction without caffeyl aldehyde (data no shown). The maximal activation achieved <em>in vitro</em> was only 16%, which may not be biologically significant.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[5]/fig[1]"><a name="pcbi-1002769-g007" id="pcbi-1002769-g007" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002769?imageURI=info:doi/10.1371/journal.pcbi.1002769.g007" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002769', 'info:doi/10.1371/journal.pcbi.1002769.g007');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002769', 'info:doi/10.1371/journal.pcbi.1002769.g007');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002769.g007&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[5]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002769?imageURI=info:doi/10.1371/journal.pcbi.1002769.g007" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002769', 'info:doi/10.1371/journal.pcbi.1002769.g007');"><span>Figure 7. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[5]/fig[1]/caption[1]/title[1]">Experimental data indicating that the activation of CCoAOMT-mediated methylation of caffeoyl CoA by caffeyl aldehyde, while statistically significant, is too small to be biologically significant.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[5]/fig[1]/caption[1]/p[1]">Error bars, mean ± s.d.; ***<em>p</em>&lt;0.001, *<em>p</em>&lt;0.05 by Student's <em>t</em>-test; <em>n</em> = 3.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002769.g007</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002769.g007/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002769.g007/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002769.g007.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002769.g007/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002769.g007.TIF"></span> TIFF)
+                  </a></li></ul></div></div>
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/title[1]">Analysis of caffeyl aldehyde as a dual inhibitor of two 3-<em>O</em>-methylation reactions</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/p[1]">Since a direct activation of CCoAOMT by caffeyl aldehyde was not observed with recombinant enzymes, we tested other regulatory mechanisms by themselves and in combination with known mechanisms. According to one possible mechanism, based again on the concept of substrate competition, caffeoyl CoA could be a competitive inhibitor for the 3-<em>O</em>-methylation of caffeyl aldehyde (<a href="#pcbi-1002769-g003">Figure 3B</a>; Mechanism 4). This proposal agrees with the fact that CCoAOMT may contribute up to ~10% of the methylation reaction in alfalfa <a href="#pcbi.1002769-Parvathi1">[15]</a>. In addition, evidence in ryegrass (<em>Lolium perenne</em>) points to the possibility of COMT being inhibited by different substrates, such as caffeyl aldehyde and 5-hydroxyconiferyl aldehyde <a href="#pcbi.1002769-Louie1">[16]</a>. Interestingly, substrate inhibition by caffeyl alcohol and 5-hydroxyconiferyl alcohol has also been observed in <em>Selagniella moellendorffii</em> COMT <a href="#pcbi.1002769-Weng3">[9]</a>. Thus, we hypothesized that COMT might be inhibited by caffeyl aldehyde (<a href="#pcbi-1002769-g003">Figure 3B</a>; Mechanism 5) in <em>Medicago</em> as well; direct evidence supporting this hypothesis in <em>Medicago</em> remains to be determined.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/p[2]">In total, there are 2<sup>4</sup> = 16 different crosstalk patterns that can result from the combination of four independent regulatory mechanisms (<a href="#pcbi-1002769-g003">Figure 3B</a>; Mechanisms 1, 2, 4 and 5). However, only four of them, when combined with the same six topological configurations (A, B, E, F, I and O) that were identified previously (cf. <a href="#pcbi-1002769-g005">Figures 5</a> and <a href="#pcbi-1002769-g006">6</a>), gave rise to designs with at least one valid model instantiation (<a href="#pcbi-1002769-g008">Figure 8</a>). Interestingly, all these crosstalk patterns require that caffeyl aldehyde is an inhibitor of the 3-<em>O</em>-methylation of both caffeoyl CoA and itself (<a href="#pcbi-1002769-g003">Figure 3B</a>; Mechanisms 2 and 5), providing computational evidence that this synergy between the two seemingly unrelated mechanisms is necessary for consistency with the <em>ccr1</em> and <em>ccr2</em> knockout data. Indeed, with respect to the <em>ccr2</em> knockout, such a combination of two inhibition mechanisms appears to have a similar ultimate effect as a single activation mechanism (see <a href="#s3">Discussion</a> section).</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/fig[1]"><a name="pcbi-1002769-g008" id="pcbi-1002769-g008" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002769?imageURI=info:doi/10.1371/journal.pcbi.1002769.g008" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002769', 'info:doi/10.1371/journal.pcbi.1002769.g008');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002769', 'info:doi/10.1371/journal.pcbi.1002769.g008');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002769.g008&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002769?imageURI=info:doi/10.1371/journal.pcbi.1002769.g008" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002769', 'info:doi/10.1371/journal.pcbi.1002769.g008');"><span>Figure 8. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/fig[1]/caption[1]/title[1]">Summary of simulation results from 304 designs.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/fig[1]/caption[1]/p[1]">Each row corresponds to one crosstalk pattern, whereas each column in the table to the right of dashed line corresponds to one topological configuration. A design is represented by a filled circle if at least one of the 10<sup>5</sup> randomly parameterized model instantiations is valid. Empty circles thus refer to designs that are incongruent with observations. Rows highlighted in red contain at least one topological configuration with valid model instantiations.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002769.g008</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002769.g008/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002769.g008/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002769.g008.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002769.g008/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002769.g008.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/p[3]">Inspecting the crosstalk patterns giving rise to at least one design with valid model instantiations (rows colored in red in <a href="#pcbi-1002769-g008">Figure 8</a>), one might surmise that caffeyl aldehyde would accumulate to an unduly high level, because Mechanism 5, which is employed in all these patterns, reflects substrate inhibition of COMT by caffeyl aldehyde. To examine the validity of this inference, we checked, for all designs with valid model instantiations, the predicted changes in caffeyl aldehyde under conditions that mimic the down-regulation of four lignin biosynthetic enzymes. As shown in <a href="#pcbi-1002769-g009">Figure 9</a>, it appears that down-regulation of CCoAOMT or COMT is consistently associated with a lower caffeyl aldehyde level compared with wild type, regardless of the crosstalk pattern being considered. Similarly, knocking out <em>ccr2</em> consistently raises the caffeyl aldehyde level in all crosstalk patterns examined. However, in the case of the <em>ccr1</em> knockout mutant, the results are mixed in a sense that some crosstalk patterns are associated with significantly higher caffeyl aldehyde levels, whereas others are associated with only modest changes. Interestingly, both crosstalk patterns suffering from an undue accumulation of caffeyl aldehyde contain Mechanism 1. By contrast, this mechanism is absent from other patterns, which maintain a relatively stable caffeyl aldehyde level. This finding suggests that the control pattern in Mechanism 1 may disrupt the metabolic homeostasis via accumulation of caffeyl aldehyde when CCR1 drops below its normal level. As any cellular system is constantly afflicted by a variety of intrinsic and extrinsic noises, this type of fluctuation must be expected to occur frequently and spontaneously, suggesting that Mechanism 1 is disadvantageous.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/fig[2]"><a name="pcbi-1002769-g009" id="pcbi-1002769-g009" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002769?imageURI=info:doi/10.1371/journal.pcbi.1002769.g009" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002769', 'info:doi/10.1371/journal.pcbi.1002769.g009');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002769', 'info:doi/10.1371/journal.pcbi.1002769.g009');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002769.g009&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/fig[2]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002769?imageURI=info:doi/10.1371/journal.pcbi.1002769.g009" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002769', 'info:doi/10.1371/journal.pcbi.1002769.g009');"><span>Figure 9. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/fig[2]/caption[1]/title[1]">Relative levels of caffeyl aldehyde (compared to wild-type values) in simulations of four down-regulated lines.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/fig[2]/caption[1]/p[1]">Each panel is shaded to highlight the results from four different crosstalk patterns. These patterns, when combined with specific topological configurations, give rise to designs with valid model instantiations (<em>cf.</em> rows with red circles in <a href="#pcbi-1002769-g008">Figure 8</a>). In contrast to the other three perturbation schemes, where all four crosstalk patterns (and their corresponding designs) exhibit similar responses regarding the caffeyl aldehyde level, knocking out <em>ccr1</em> is associated with a higher caffeyl aldehyde level only for the two crosstalk patterns including Mechanism 1. The circles, colored according to topological configuration, are the medians, and the error bars represent interquartile ranges. The dashed line in each panel, if present, denotes the wild-type level of caffeyl aldehyde.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002769.g009</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002769.g009/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002769.g009/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002769.g009.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002769.g009/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002769.g009.TIF"></span> TIFF)
+                  </a></li></ul></div></div>
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[7]/title[1]">Robust designs are evolutionarily connected</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[7]/p[1]">Investigation of the six robust topological configurations, which contain at least one valid model instantiation, revealed interesting structural features of the pathway. In particular, the G lignin channel is common to all robust designs and thus may be considered critical for the proper functioning of the pathway, at least for the cases studied. The evolutionary conservation of such a feature, one may argue further, is not due to the fact that it cannot possibly be altered, but that this particular design can sustain maximally tolerable changes and variability in other features <a href="#pcbi.1002769-Kirschner1">[17]</a>. These arguments lead to an interesting follow-up question, namely: Are the robust topological configurations related in an evolutionary sense?</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[7]/p[2]">To address this question, we constructed a “topology graph” where each node corresponds to a topological configuration. Two nodes are connected if the corresponding topological configurations differ only by one edge. For instance, configurations A and B are directly linked to each other because the only difference between them is whether caffeyl aldehyde can be converted, via free COMT, to coniferyl aldehyde. In other words, moving from a node to its neighbor may be considered a singular evolutionary event where an enzyme's preferred mode of action is changed.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[7]/p[3]">Two outcomes are possible for the structure of such a topology graph. First, the graph may be disconnected, that is, there exist pairs of topological configurations such that no evolutionary path (defined as a series of evolutionary events) connects one to the other. In the most extreme case, the graph would consist exclusively of isolated nodes. Second, the graph is fully connected, so that any pair of topological configurations is connected by at least one evolutionary path. As shown in <a href="#pcbi-1002769-g010">Figure 10</a>, the actual topology graph of the six robust configurations of lignin biosynthesis is indeed connected, and so is the graph of all configurations, except for design S. This interconnectedness can be interpreted as facilitating the evolvability of the system <a href="#pcbi.1002769-Kirschner1">[17]</a>, because the gain or loss of specific features that are needed to produce phenotypically novel traits will be tolerated and survive during evolution if robustness is preserved. Of course, this evolutionary aspect, which was derived purely with computational means, will require additional analysis.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[7]/fig[1]"><a name="pcbi-1002769-g010" id="pcbi-1002769-g010" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002769?imageURI=info:doi/10.1371/journal.pcbi.1002769.g010" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002769', 'info:doi/10.1371/journal.pcbi.1002769.g010');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002769', 'info:doi/10.1371/journal.pcbi.1002769.g010');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002769.g010&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[7]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002769?imageURI=info:doi/10.1371/journal.pcbi.1002769.g010" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002769', 'info:doi/10.1371/journal.pcbi.1002769.g010');"><span>Figure 10. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[7]/fig[1]/caption[1]/title[1]">Robust configurations are evolutionarily connected.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[7]/fig[1]/caption[1]/p[1]">Each node represents a specific topological configuration (see <a href="#pcbi-1002769-g003">Figure 3</a>); two nodes are connected if the corresponding configurations differ only by one edge. The subgraph of all the robust configurations, colored in red, is connected, thereby indicating the potential of direct evolvability.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002769.g010</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002769.g010/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002769.g010/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002769.g010.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002769.g010/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002769.g010.TIF"></span> TIFF)
+                  </a></li></ul></div></div>
+</div>
+
+<div id="section3" xpathLocation="/article[1]/body[1]/sec[3]"><a id="s3" name="s3" toc="s3" title="Discussion"></a><h3 xpathLocation="noSelect">Discussion&nbsp;<a href="#top">Top</a></h3><p xpathLocation="/article[1]/body[1]/sec[3]/p[1]">The spatial organization of cooperating enzymes, known as metabolic channeling, has long been recognized as an effective means of regulation in primary and secondary plant metabolism <a href="#pcbi.1002769-Jrgensen1">[18]</a>, <a href="#pcbi.1002769-Winkel1">[19]</a>, <a href="#pcbi.1002769-Graham1">[20]</a>. This channeling phenomenon involves the organization of enzymes into complexes and/or the co-localization of enzymes at the plasma membrane or on the surfaces of organelles, as was demonstrated for the two initial enzymes, L-phenylalanine ammonia-lyase (PAL) and cinnamate 4-hydroxylase (C4H), in the phenylpropanoid pathway <a href="#pcbi.1002769-Achnine1">[21]</a>, <a href="#pcbi.1002769-Rasmussen1">[22]</a>. Interestingly, some complexes or interactions are persistent, while others are temporary. In fact, many of the component enzymes such as PAL may be operationally soluble and are therefore only facultatively channeled. Such short-lived or dynamic complexes, while being readily responsive to the metabolic status of the cell, are inherently difficult to study with existing or emerging experimental models.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/p[2]">Using the lignin biosynthetic pathway as a model system, we propose here a novel strategy for studying metabolic channeling in unprecedented detail. Specifically, we consider all possible modes of action for both the G lignin and S lignin channels, and these can be mapped into 19 different topological configurations (<a href="#pcbi-1002769-g003">Figure 3A</a>). Metabolic channeling is clearly not the only process that affects the functionality of this system, and it is therefore necessary to study control processes affecting a channeled system. In the present case, this control is potentially exerted by individual or combined mechanisms of crosstalk between the CCR2/COMT and CCoAOMT/CCR1 pathways (<a href="#pcbi-1002769-g003">Figure 3B</a>). Some of these were documented in the literature, while others were hypothesized. Taken together, a topological configuration and a specific crosstalk pattern constitute a design. We evaluated each design with or without consideration of non-allosteric or hierarchical regulation which could involve transcription, as well as a variety of non-transcriptional processes such as phosphorylation, methylation, and targeted degradation of proteins and mRNA.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/p[3]">Ideally, the comparative assessment of design features would be entirely symbolic and independent of specific parameter values. However, systems of a realistic size are rarely analyzable in such fashion. As a reasonable alternative, we analyzed the possible design space comprehensively with widely varying parameter values, which resulted in a computational analysis of millions of models from hundreds of designs. This analysis yielded several interesting findings.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/p[4]">Importantly, it predicted that CCoAOMT is directly or indirectly activated by caffeyl aldehyde. This piece of information by itself is essentially unbiased, but insufficient to explain the exact mechanism of regulation. Nevertheless, it offered a specifically targeted hypothesis and was therefore experimentally testable. However, the hypothesis of a direct activation was refuted by subsequent experiments using the recombinant <em>Medicago</em> CCoAOMT, which failed to provide evidence confirming the putative role of caffeyl aldehyde as an allosteric activator. It might still be possible that activation exists <em>in vivo</em>, but it seems more likely that the activation is indirect rather than direct.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/p[5]">As a possible mechanism, the design analysis suggested that caffeyl aldehyde inhibits the 3-<em>O</em>-methylation of both caffeoyl CoA and itself. Several lines of evidence, although not exclusively from <em>Medicago</em>, support this computational prediction. Most importantly, the same six topological configurations were identified in the indirect design analysis and in the initial analysis of a putative activation mechanism. However, the two most parsimonious mechanisms differ in their proposed control strategies. The original analysis suggested just one activation mechanism, while the second analysis proposed two inhibition mechanisms. To some degree, these two mechanisms have the same ultimate effect. If <em>ccr2</em> is knocked out, the flux entering the CCR2/COMT pathway and the subsequent synthesis of S lignin decline. The only possibility to increase the S/G ratio is to reduce the flux entering the CCoAOMT/CCR1 pathway. This task can be accomplished either through a diminished activation, as suggested for the single activation mechanism, or through an enhanced inhibition, as suggested for the dual-inhibition mechanism. The latter mechanism seems sufficient to restore consistency with the data, but it is of course possible that more complicated control patterns are present.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/p[6]">The computational analysis suggests that the G lignin channel is necessary for the system to respond correctly and robustly to certain genetic perturbations. By contrast, the S lignin channel appears to be dispensable. This theoretical deduction is indirectly in line with the fact that S lignin has arisen much later in the evolution of higher plants than G lignin <a href="#pcbi.1002769-Weng1">[1]</a>. It is also consistent with the observation that its formation, which in many plant species is dictated by F5H expression <a href="#pcbi.1002769-Franke1">[23]</a>, <a href="#pcbi.1002769-Meyer1">[24]</a>, <a href="#pcbi.1002769-Reddy1">[25]</a>, is directly regulated by a secondary cell wall master switch NST1/SND1 and not by MYB58, a SND1-regulated transcription factor that can activate other lignin biosynthetic genes <a href="#pcbi.1002769-Zhao2">[26]</a>. It could also be possible that S lignin, which is specifically involved in the pathogen defense of some plants <a href="#pcbi.1002769-Menden1">[27]</a>, was relatively recently recruited for lignin biosynthesis and thus may not be essential for plant growth. Evidence supporting this postulate includes an <em>Arabidopsis</em> NST1/SND1 double knockout mutant that shows a complete suppression of secondary cell wall thickening in woody tissues, including interfascicular fibers and secondary xylem, but otherwise grows quite well as compared to the wild-type plants <a href="#pcbi.1002769-Mitsuda1">[28]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/p[7]">Within an evolutionary context, the multiplicity of robust solutions can be represented with a graph representation that connects any two (robust) topological configurations differing by a single edge. This graph is reminiscent of the “neutral network” concept that was initially proposed in genotype-phenotype models for RNA secondary structures <a href="#pcbi.1002769-Schuster1">[29]</a> and protein folds <a href="#pcbi.1002769-Babajide1">[30]</a>, but also more recently extended to Boolean models for gene regulatory networks <a href="#pcbi.1002769-Ciliberti1">[31]</a>. In the case of proteins, neutral networks are defined as sets of amino acid sequences that are connected by single-mutation neighbors and that map into the same tertiary structure. Such degeneracy of the mapping from genotype to phenotype allows a neutral drift in genotypic space, which is critical for accessing adjacent neutral networks with novel phenotypes that may confer higher fitness to the cells. As of yet, it is unclear whether individual plants within a <em>Medicago</em> population use the same or different designs, or whether the response to selected perturbations is an adequate phenotypic feature. Further investigation of the protein-protein interactions between lignin biosynthetic enzymes is thus necessary to confirm that a G lignin channel is indeed necessary for optimal functioning.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/p[8]">The work in this article describes a novel computational approach that shows promise in deciphering the principles of channel assembly in a biosynthetic pathway when relevant information is limited. It also provides a clear direction in which to proceed with more targeted experiments. Beyond the application described here, the proposed strategy might be beneficial in entirely different biological contexts, such as gene regulatory and signaling networks, where the task is to analyze how information flow is controlled by the spatial organization of molecules in the cell.</p>
+</div>
+
+<div id="section4" xpathLocation="/article[1]/body[1]/sec[4]"><a id="s4" name="s4" toc="s4" title="Materials and Methods"></a><h3 xpathLocation="noSelect">Materials and Methods&nbsp;<a href="#top">Top</a></h3>
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[1]/title[1]">Model equations in GMA format</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[1]/p[1]">Since the two metabolic channels of interest are assumed to affect only the relative amounts of G and S lignin, the analysis is restricted to those critical steps within the lignin biosynthetic pathway system that govern the flow of material either toward G or S (<a href="#pcbi-1002769-g002">Figure 2</a>). For each possible design, we first formulate the corresponding generalized mass action (GMA) model <a href="#pcbi.1002769-Savageau1">[32]</a>, <a href="#pcbi.1002769-Voit1">[33]</a> in a symbolic format, where each intermediate is represented by a dependent variable and each enzymatic process by a product of power-law functions. An important reason for this choice of a modeling format is that it is mathematically sound and minimally biased, because it does not require the <em>a priori</em> specification of a biological mechanism <a href="#pcbi.1002769-Voit2">[34]</a>. The model contains either six or seven dependent variables, depending on whether coniferyl aldehyde is explicitly included, and 10 to 16 distinct power-law terms, depending on the topology in a specific design. Also, there are six independent variables, each of them representing the extractable activity of an enzyme. Each power-law term contains two different types of parameters: a non-negative rate constant <em>γ<sub>i</sub></em> that represents the turnover of reaction <em>i</em>, and kinetic orders <em>f<sub>i,j</sub></em>, each of which characterizes the effect of a variable <em>X<sub>j</sub></em> on a reaction <em>i</em>. A kinetic order can take any real value, and the sign of its value has a directly interpretable meaning: a positive value indicates an activating effect, a negative value an inhibiting effect, and zero no effect.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[1]/p[2]">As a typical example, the differential equation for caffeoyl CoA, defined as <em>X</em><sub>1</sub>, has two representations (<em>cf.</em> <a href="#pcbi.1002769.s004">Figure S4B</a> and <a href="#pcbi.1002769-Voit1">[33]</a> for further details):<br><a name="pcbi.1002769.e001" id="pcbi.1002769.e001"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002769.e001&amp;representation=PNG"><span class="note" xpathLocation="/article[1]/body[1]/sec[4]/sec[1]/p[2]/disp-formula[1]/label[1]">(1)</span></span><br>The variables <em>V<sub>i</sub></em> in the first equation represent the reaction rates, or fluxes, in a generic format. In the corresponding GMA model, these fluxes are specifically modeled as products of power-law functions of dependent and independent variables <em>X<sub>i</sub></em><sub>.</sub> Aside from <em>X</em><sub>1</sub>, the fluxes contain two other dependent variables, <em>X</em><sub>2</sub> (caffeyl aldehyde) and <em>X</em><sub>3</sub> (feruloyl CoA), as well as two independent variables, <em>X</em><sub>n+1</sub> (CCR2) and <em>X</em><sub>n+2</sub> (CCoAOMT). In GMA representations, <em>n</em> typically denotes the number of dependent variables, so that <em>n</em>+1 and <em>n</em>+2 refer to the first two independent variables. At the steady state, the derivative on the left-hand side becomes zero, thereby turning the differential equation into a linear equation of fluxes (<em>V<sub>iS</sub></em>; where <em>S</em> denotes the steady state)<br><a name="pcbi.1002769.e002" id="pcbi.1002769.e002"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002769.e002&amp;representation=PNG"><span class="note" xpathLocation="/article[1]/body[1]/sec[4]/sec[1]/p[2]/disp-formula[2]/label[1]">(2)</span></span><br>with the following constraints<br><a name="pcbi.1002769.e003" id="pcbi.1002769.e003"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002769.e003&amp;representation=PNG"><span class="note" xpathLocation="/article[1]/body[1]/sec[4]/sec[1]/p[2]/disp-formula[3]/label[1]">(3)</span></span><br></p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[1]/p[3]">Notably, <em>X</em><sub>3</sub> and <em>X</em><sub>2</sub> are included in the power-low representations of <em>V</em><sub>2</sub> and <em>V</em><sub>3</sub>, respectively, because they potentially modulate the two consuming fluxes of <em>X</em><sub>1</sub>. Applying the rules for kinetic orders described above, we can immediately impose bounds on the values of <em>f</em><sub>2,3</sub> and <em>f</em><sub>3,2</sub> for different regulatory mechanisms (<a href="#pcbi-1002769-g003">Figure 3B</a>). For instance, modeling Mechanism 1 requires the following constraints,<br><a name="pcbi.1002769.e004" id="pcbi.1002769.e004"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002769.e004&amp;representation=PNG"><span class="note" xpathLocation="/article[1]/body[1]/sec[4]/sec[1]/p[3]/disp-formula[1]/label[1]">(4)</span></span><br>because <em>X</em><sub>3</sub> is considered an inhibitor, so that <em>f</em><sub>2,3</sub>&lt;0, while <em>X</em><sub>2</sub> has no influence on the degradation of <em>X</em><sub>1</sub> through reaction 3 in this design, so that <em>f</em><sub>3,2</sub> = 0, which in effect eliminates the factor <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002769.e005&amp;representation=PNG"></span> from the term on the far right. By convention, all independent variables have a kinetic order of 1.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[2]/title[1]">Sampling of steady-state fluxes</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[2]/p[1]">Determination of all parameters in a GMA model, including kinetic orders and rate constants, is required prior to most simulation tasks. While numerous methods have been developed over the years, parameter estimation is seldom straightforward as each pathway and each dataset has its own challenges <a href="#pcbi.1002769-Chou1">[35]</a>. For the lignin pathway in <em>Medicago</em>, very little information is available on exact concentrations of intermediates or fluxes through the pathway; in fact, many metabolites <em>in vivo</em> are below detection level with standard HPLC <a href="#pcbi.1002769-Chen3">[36]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[2]/p[2]">To address this issue of insufficient data, we sample parameter values from relatively wide, biologically realistic ranges. The procedure involves the following steps. First, we sample the steady-state fluxes <em>V<sub>iS</sub></em> from a set <em>P</em> in an <em>m</em>-dimensional vector space (<strong>R</strong><em><sup>m</sup></em>), where <em>m</em> equals the number of reactions. The sampled steady-state fluxes can be thought of as possible representatives of a wild-type <em>Medicago</em> species, while <em>P</em> defines the boundaries within which the system is able to operate. Biologically, these boundaries are given by many linear equality or inequality constraints with physiological meaning, such as the reaction stoichiometry (<em>e.g.</em> <a href="#pcbi.1002769.e002">Eq. (2)</a>), the ratio of S to G lignin in a mature stem internode of wild-type alfalfa, and the degree of reversibility of individual reactions (see <a href="#pcbi.1002769.s007">Text S1</a> for further information). Mathematically, <em>P</em> is a bounded polyhedron (or polytope) and therefore has a concise parametric description<br><a name="pcbi.1002769.e006" id="pcbi.1002769.e006"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002769.e006&amp;representation=PNG"><span class="note" xpathLocation="/article[1]/body[1]/sec[4]/sec[2]/p[2]/disp-formula[1]/label[1]">(5)</span></span><br>where the <em>m</em>-dimensional vectors <em>u<sub>i</sub></em> can be identified using first principles <a href="#pcbi.1002769-Schrijver1">[37]</a>; in a different context, the vectors <em>u<sub>i</sub></em> have been called “extreme pathways” <a href="#pcbi.1002769-Schilling1">[38]</a>.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[3]/title[1]">Steady-state equations in S-system format</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[3]/p[1]">Once a set of steady-state reaction rates is randomly generated, we sample kinetic orders (<em>f<sub>i,j</sub></em>) from their respective ranges (<a href="#pcbi.1002769.s006">Table S2</a>), which are chosen based on the unique role of each kinetic order. Even with this information, the lack of concentration data from a wild-type <em>Medicago</em> species remains an issue that needs to be solved. To this end, we perform two transformations. First, we define a normalization of variables by replacing <em>X<sub>i</sub></em> with <em>Y<sub>i</sub></em>≡<em>X<sub>i</sub></em>/<em>X<sub>iS</sub></em>, where <em>X<sub>iS</sub></em> are the unknown steady-state levels of <em>X<sub>i</sub></em> in wild type. As an example, the differential equation for caffeoyl CoA assumes the form<br><a name="pcbi.1002769.e007" id="pcbi.1002769.e007"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002769.e007&amp;representation=PNG"><span class="note" xpathLocation="/article[1]/body[1]/sec[4]/sec[3]/p[1]/disp-formula[1]/label[1]">(6)</span></span><br>where <em>V<sub>iS</sub></em> are the steady-state reaction rates sampled from <em>P</em>. This representation is well suited for the current analysis because the exact values of <em>X<sub>iS</sub></em> become irrelevant once all the equations are set to zero, that is, at a wild-type or perturbed steady state (<em>cf.</em> <a href="#pcbi.1002769.s004">Figure S4C</a>). Second, after all parameters for a given GMA model instantiation are specified, we derive the corresponding S-system equations with straightforward mathematical manipulations that do not require any additional biological information <a href="#pcbi.1002769-Voit1">[33; Chapter 3]</a>. At the steady state, GMA and S-system models are equivalent, but they offer different advantages for further analyses. In particular, S-system differential equations, despite being intrinsically nonlinear, become linear at the steady state after a logarithmic transformation, thereby facilitating the computation of secondary steady-state features and bypassing the time-consuming numerical integration that is otherwise required for assessing nonlinear models. Given this convenient feature, we are able to obtain, in a very efficient manner, estimates of steady-state fluxes under conditions that mimic the two transgenic alfalfa lines and two <em>M. truncatula</em> mutant lines; we can also easily compute the S/G ratios for which we had experimental data.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[4]/title[1]">Simulation of knock-down experiments</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[4]/p[1]">Down-regulation of specific lignin biosynthetic enzymes is simulated by setting the corresponding normalized independent variables <em>Y<sub>i</sub></em> to values between 0 and 1 that represent the degree of down-regulation, and solving the steady-state equations. In cases where hierarchical regulation might be effective, such as in <em>ccr2</em> knockout mutants, all affected <em>Y<sub>i</sub></em> are given values that mirror the specific changes in activities (<em>cf.</em> <a href="#pcbi.1002769.s004">Figure S4D</a>). The Parallel Computing Toolbox™ in MATLAB (version R2009b, The MathWorks, Natick, MA) was used to divide the simulation job among multiple cores for speedup.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[4]/p[2]">Not all models behaved properly during simulation, and some ill-behaved models were excluded from further analysis. These were defined, arbitrarily, as models that showed a more than 1000-fold increase or decrease in any dependent variable during any simulation. Further, a properly behaved parameter set was deemed valid if the following criteria were met:</p>
+
+
+<ol class="order">
+
+<li xpathLocation="/article[1]/body[1]/sec[4]/sec[4]/list[1]/list-item[1]">Quantitative correctness for simulations of CCoAOMT and COMT down-regulation, which was defined as a mean squared difference between the predicted and observed S/G ratios of less than 0.01 in these two cases.</li>
+
+<li xpathLocation="/article[1]/body[1]/sec[4]/sec[4]/list[1]/list-item[2]">Qualitative correctness for the simulations of <em>ccr1</em> and <em>ccr2</em> knockout mutants. Specifically, the predicted S/G ratio must show a decrease of more than 5% for <em>ccr1</em> (or an increase of more than 5% for <em>ccr2</em>), compared to the wild-type value.</li>
+
+</ol><p xpathLocation="/article[1]/body[1]/sec[4]/sec[4]/p[3]">These criteria for success of a model instantiation were initially determined in an <em>ad hoc</em> fashion: We applied more lenient, qualitative criteria to the predictions of S/G ratios for <em>ccr1</em> and <em>ccr2</em> knockout mutants because the experimental data were only available in <em>Medicago truncatula</em>, but not in our model organism alfalfa (the S/G ratio of every model instantiation was set to the experimentally determined value for the sixth internode of a wild-type alfalfa plant). However, when we relaxed the criteria for screening the predictions of S/G ratios for CCoAOMT and COMT down-regulated lines to allow a percentage error as large as 25%, we obtained the exact same set of pathway designs that are consistent with the data, suggesting that the main conclusions are quite robust to the choice of thresholds.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[5]/title[1]">Expression of alfalfa CCoAOMT in <em>E. coli</em></h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[5]/p[1]">The cloning of the alfalfa CCoAOMT cDNA into the expression vector pET15b was as described previously <a href="#pcbi.1002769-Parvathi1">[15]</a>. <em>E. coli</em> Rosetta strains containing the constructed plasmid were cultured at 37°C until OD<sub>600</sub> reached 0.6–0.7, and protein expression was then induced by adding isopropyl 1-thio β-galactopyranoside (IPTG) at a final concentration of 0.5 mM, followed by 3 h incubation at the same temperature. Cell pellets from 25 ml induced medium were harvested and frozen at −80°C for further use. Induced cell pellets were thawed at room temperature, resuspended in 1.2 ml of extraction-washing buffer (10 mM imidazole, 50 mM Tris-HCl pH 8.0, 500 mM NaCl, 10% glycerol and 10 mM β-mercaptoethanol), and sonicated three times for 20 s. Supernatants were recovered after centrifugation (16,000×<em>g</em>), and incubated at 4°C for 30 min with equilibrated Ni-NTA beads (Qiagen, Germantown, MD) under constant inversion to allow the His-tag protein to bind to the beads. The beads were washed three times with 1 ml of extraction-washing buffer, and the target protein was eluted with 250 µl of elution solution (250 mM imidazole, 50 mM Tris-HCl buffer pH 8.0, 500 mM NaCl, 10% glycerol and 10 mM β-mercaptoethanol). The concentration of the eluted target protein was determined using the BioRad protein assay (BioRad, Hercules, CA) and its purity was verified by SDS-PAGE.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[6]/title[1]">Materials and enzyme activity assays</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[6]/p[1]">Caffeoyl CoA for the enzyme assays, and feruloyl CoA for the calibration curve, were synthesized as described previously <a href="#pcbi.1002769-Stckigt1">[39]</a>. Caffeyl aldehyde was synthesized as described by Chen et al. <a href="#pcbi.1002769-Chen4">[40]</a>. Pure recombinant CCoAOMT enzyme (100 ng) was incubated at 30°C for 20 min with 60 mM sodium phosphate buffer pH 7.5, 200 µM S-adenosyl methionine, 600 µM MgCl<sub>2</sub> and 2 mM dithiothreitol. The substrate (caffeoyl CoA) concentration was 20, 30 or 40 µM and the putative activator (caffeyl aldehyde) concentration was 0, 2, 5 or 10 µM. Since caffeyl aldehyde was in dimethyl sulfoxide solution, the final concentration of dimethyl sulfoxide in the reaction was 4% and the final volume of the reaction was 50 µl. The reactions were stopped by adding 10 µl of 24% w/v trichloroacetic acid. Reaction products were analyzed by reverse-phase HPLC on a C18 column (Spherisorb 5 µ ODS2, Waters, Milford, MA) in a step gradient using 1% phosphoric acid in water as solvent A and acetonitrile as solvent B. Calibration curves were constructed with authentic standard of the product feruloyl CoA. Activity assays using lower concentrations of the substrate caffeoyl CoA (2, 4, 5 and 10 µM) and the putative activator caffeyl aldehyde (0.5, 1, 2 and 4 µM) were performed using a sensitive radioactive assay method as described previously <a href="#pcbi.1002769-Parvathi1">[15]</a>.</p>
+
+</div>
+
+<div id="section5" xpathLocation="/article[1]/body[1]/sec[5]"><a id="s5" name="s5" toc="s5" title="Supporting Information"></a><h3 xpathLocation="noSelect">Supporting Information&nbsp;<a href="#top">Top</a></h3><a name="pcbi.1002769.s001" id="pcbi.1002769.s001"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002769.s001">Figure S1. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[1]/caption[1]/p[1]"><strong>Simulation results for CCR1 and CCR2 down-regulation using only Mechanism 1.</strong> As with <a href="#pcbi-1002769-g003">Figures 3</a> and <a href="#pcbi-1002769-g004">4</a> in the main text, only topological configurations with at least one model showing quantitatively correct predictions for both CCoAOMT and COMT down-regulation are plotted.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[1]/caption[1]/p[2]">(TIF)</p>
+<a name="pcbi.1002769.s002" id="pcbi.1002769.s002"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002769.s002">Figure S2. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[2]/caption[1]/p[1]"><strong>Simulation results for CCR1 and CCR2 down-regulation using only Mechanism 2.</strong> See legend of <a href="#pcbi.1002769.s001">Figure S1</a> for more details.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[2]/caption[1]/p[2]">(TIF)</p>
+<a name="pcbi.1002769.s003" id="pcbi.1002769.s003"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002769.s003">Figure S3. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[3]/caption[1]/p[1]"><strong>Simulation results for CCR1 and CCR2 down-regulation using Mechanisms 1 and 2.</strong> See legend of <a href="#pcbi.1002769.s001">Figure S1</a> for more details.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[3]/caption[1]/p[2]">(TIF)</p>
+<a name="pcbi.1002769.s004" id="pcbi.1002769.s004"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002769.s004">Figure S4. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[4]/caption[1]/p[1]"><strong>Model formulation and nomenclature.</strong> (A) Definition of all dependent and independent variables for a system that implements configuration A in <a href="#pcbi-1002769-g003">Figure 3</a>; other designs are obtained by removing the appropriate fluxes. (B) Model equations in GMA format. (C) The equations for all steady-state solutions to the system of differential equations in (B) can be expressed using normalized variables. (D) Down-regulation of specific enzymes, represented as independent variables, is simulated by setting the corresponding <em>Y<sub>i</sub></em> to values that represent the degree of down-regulation as observed in prior experiments.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[4]/caption[1]/p[2]">(TIF)</p>
+<a name="pcbi.1002769.s005" id="pcbi.1002769.s005"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002769.s005">Table S1. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[5]/caption[1]/p[1]"><strong>Number of valid model instantiations as judged by two different robustness measures (</strong><strong><em>Q</em></strong><strong> and </strong><strong><em>Q</em></strong><strong>′).</strong> Statistics with a non-zero value of <em>Q</em> or <em>Q</em>′ are marked in bold. The first number is from simulation with Mechanism 3 only, whereas the second number is from simulation with both Mechanisms 1 and 3.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[5]/caption[1]/p[2]">(DOCX)</p>
+<a name="pcbi.1002769.s006" id="pcbi.1002769.s006"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002769.s006">Table S2. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[6]/caption[1]/p[1]">
+            <strong>Upper and lower bounds for kinetic orders.</strong>
+          </p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[6]/caption[1]/p[2]">(DOCX)</p>
+<a name="pcbi.1002769.s007" id="pcbi.1002769.s007"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002769.s007">Text S1. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[7]/caption[1]/p[1]"><strong>Details regarding the selection of target tissue and the definition of physicochemical constraints.</strong> A supplementary text for <a href="#pcbi.1002769.s004">Figure S4</a> is also included.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[7]/caption[1]/p[2]">(DOCX)</p>
+</div>
+
+
+
+<div class="contributions"><a id="authcontrib" name="authcontrib" toc="authcontrib" title="Author Contributions"></a><h3 xpathLocation="noSelect">Author Contributions&nbsp;<a href="#top">Top</a></h3><p xpathLocation="noSelect">Conceived and designed the experiments: YL LET RAD EOV. Performed the experiments: YL LET. Analyzed the data: YL EOV. Wrote the paper: YL RAD EOV LET.</p></div><div xpathLocation="noSelect"><a id="references" name="references" toc="references" title="References"></a><h3 xpathLocation="noSelect">References&nbsp;<a href="#top">Top</a></h3><ol class="references" xpathLocation="noSelect"><li xpathLocation="noSelect"><a name="pcbi.1002769-Weng1" id="pcbi.1002769-Weng1"></a>Weng J-K, Chapple C (2010) The origin and evolution of lignin biosynthesis. New Phytol 187: 273–285. <a class="find" href="/article/findArticle.action?citedArticleID=6077147">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Boerjan1" id="pcbi.1002769-Boerjan1"></a>Boerjan W, Ralph J, Baucher M (2003) Lignin biosynthesis. Annu Rev Plant Biol 54: 519–546. <a class="find" href="/article/findArticle.action?citedArticleID=6077149">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Himmel1" id="pcbi.1002769-Himmel1"></a>Himmel ME, Ding S-Y, Johnson DK, Adney WS, Nimlos MR, et al. (2007) Biomass recalcitrance: engineering plants and enzymes for biofuels production. Science 315: 804–807. <a class="find" href="/article/findArticle.action?citedArticleID=6077151">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Ragauskas1" id="pcbi.1002769-Ragauskas1"></a>Ragauskas AJ, Williams CK, Davison BH, Britovsek G, Cairney J, et al. (2006) The path forward for biofuels and biomaterials. Science 311: 484–489. <a class="find" href="/article/findArticle.action?citedArticleID=6077153">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Chen1" id="pcbi.1002769-Chen1"></a>Chen F, Dixon RA (2007) Lignin modification improves fermentable sugar yields for biofuel production. Nat Biotechnol 25: 759–761. <a class="find" href="/article/findArticle.action?citedArticleID=6077155">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Dixon1" id="pcbi.1002769-Dixon1"></a>Dixon RA, Chen F, Guo D, Parvathi K (2001) The biosynthesis of monolignols: a “metabolic grid”, or independent pathways to guaiacyl and syringyl units? Phytochemistry 57: 1069–1084. <a class="find" href="/article/findArticle.action?citedArticleID=6077157">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Zhou1" id="pcbi.1002769-Zhou1"></a>Zhou R, Jackson L, Shadle G, Nakashima J, Temple S, et al. (2010) Distinct cinnamoyl CoA reductases involved in parallel routes to lignin in <em>Medicago truncatula</em>. Proc Natl Acad Sci USA 107: 17803–17808. <a class="find" href="/article/findArticle.action?citedArticleID=6077159">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Weng2" id="pcbi.1002769-Weng2"></a>Weng J-K, Akiyama T, Bonawitz ND, Li X, Ralph J, et al. (2010) Convergent evolution of syringyl lignin biosynthesis via distinct pathways in the lycophyte <em>Selaginella</em> and flowering plants. Plant Cell 22: 1033–1045. <a class="find" href="/article/findArticle.action?citedArticleID=6077161">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Weng3" id="pcbi.1002769-Weng3"></a>Weng J-K, Akiyama T, Ralph J, Chapple C (2011) Independent recruitment of an <em>O</em>-methyltransferase for syringyl lignin biosynthesis in <em>Selaginella moellendorffii</em>. Plant Cell 23: 2708–2724. <a class="find" href="/article/findArticle.action?citedArticleID=6077163">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Weng4" id="pcbi.1002769-Weng4"></a>Weng J-K, Li X, Stout J, Chapple C (2008) Independent origins of syringyl lignin in vascular plants. Proc Natl Acad Sci USA 105: 7887–7892. <a class="find" href="/article/findArticle.action?citedArticleID=6077165">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Chen2" id="pcbi.1002769-Chen2"></a>Chen F, Reddy MSS, Temple S, Jackson L, Shadle G, et al. (2006) Multi-site genetic modulation of monolignol biosynthesis suggests new routes for formation of syringyl lignin and wall-bound ferulic acid in alfalfa (<em>Medicago sativa</em> L.). Plant J 48: 113–124. <a class="find" href="/article/findArticle.action?citedArticleID=6077167">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Lee1" id="pcbi.1002769-Lee1"></a>Lee Y, Chen F, Gallego-Giraldo L, Dixon RA, Voit EO (2011) Integrative analysis of transgenic alfalfa (<em>Medicago sativa</em> L.) suggests new metabolic control mechanisms for monolignol biosynthesis. PLoS Comput Biol 7: e1002047. <a class="find" href="/article/findArticle.action?citedArticleID=6077169">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Zhao1" id="pcbi.1002769-Zhao1"></a>Zhao Q, Dixon RA (2011) Transcriptional networks for lignin biosynthesis: more complex than we thought? Trends Plant Sci 16: 227–233. <a class="find" href="/article/findArticle.action?citedArticleID=6077171">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-terKuile1" id="pcbi.1002769-terKuile1"></a>ter Kuile BH, Westerhoff HV (2001) Transcriptome meets metabolome: hierarchical and metabolic regulation of the glycolytic pathway. FEBS Lett 500: 169–171. <a class="find" href="/article/findArticle.action?citedArticleID=6077173">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Parvathi1" id="pcbi.1002769-Parvathi1"></a>Parvathi K, Chen F, Guo D, Blount JW, Dixon RA (2001) Substrate preferences of <em>O</em>-methyltransferases in alfalfa suggest new pathways for 3-<em>O</em>-methylation of monolignols. Plant J 25: 193–202. <a class="find" href="/article/findArticle.action?citedArticleID=6077175">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Louie1" id="pcbi.1002769-Louie1"></a>Louie GV, Bowman ME, Tu Y, Mouradov A, Spangenberg G, et al. (2010) Structure-function analyses of a caffeic acid <em>O</em>-methyltransferase from perennial ryegrass reveal the molecular basis for substrate preference. Plant Cell 22: 4114–4127. <a class="find" href="/article/findArticle.action?citedArticleID=6077177">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Kirschner1" id="pcbi.1002769-Kirschner1"></a>Kirschner M, Gerhart J (1998) Evolvability. Proc Natl Acad Sci USA 95: 8420–8427. <a class="find" href="/article/findArticle.action?citedArticleID=6077179">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Jrgensen1" id="pcbi.1002769-Jrgensen1"></a>Jørgensen K, Rasmussen AV, Morant M, Nielsen AH, Bjarnholt N, et al. (2005) Metabolon formation and metabolic channeling in the biosynthesis of plant natural products. Curr Opin Plant Biol 8: 280–291. <a class="find" href="/article/findArticle.action?citedArticleID=6077181">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Winkel1" id="pcbi.1002769-Winkel1"></a>Winkel BSJ (2004) Metabolic channeling in plants. Annu Rev Plant Biol 55: 85–107. <a class="find" href="/article/findArticle.action?citedArticleID=6077183">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Graham1" id="pcbi.1002769-Graham1"></a>Graham JWA, Williams TCR, Morgan M, Fernie AR, Ratcliffe RG, et al. (2007) Glycolytic enzymes associate dynamically with mitochondria in response to respiratory demand and support substrate channeling. Plant Cell 19: 3723–3738. <a class="find" href="/article/findArticle.action?citedArticleID=6077185">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Achnine1" id="pcbi.1002769-Achnine1"></a>Achnine L, Blancaflor EB, Rasmussen S, Dixon RA (2004) Colocalization of <sub>L</sub>-phenylalanine ammonia-lyase and cinnamate 4-hydroxylase for metabolic channeling in phenylpropanoid biosynthesis. Plant Cell 16: 3098–3109. <a class="find" href="/article/findArticle.action?citedArticleID=6077187">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Rasmussen1" id="pcbi.1002769-Rasmussen1"></a>Rasmussen S, Dixon RA (1999) Transgene-mediated and elicitor-induced perturbation of metabolic channeling at the entry point into the phenylpropanoid pathway. Plant Cell 11: 1537–1552. <a class="find" href="/article/findArticle.action?citedArticleID=6077189">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Franke1" id="pcbi.1002769-Franke1"></a>Franke R, McMichael CM, Meyer K, Shirley AM, Cusumano JC, et al. (2000) Modified lignin in tobacco and poplar plants over-expressing the <em>Arabidopsis</em> gene encoding ferulate 5-hydroxylase. Plant J 22: 223–234. <a class="find" href="/article/findArticle.action?citedArticleID=6077191">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Meyer1" id="pcbi.1002769-Meyer1"></a>Meyer K, Shirley AM, Cusumano JC, Bell-Lelong DA, Chapple C (1998) Lignin monomer composition is determined by the expression of a cytochrome P450-dependent monooxygenase in <em>Arabidopsis</em>. Proc Natl Acad Sci USA 95: 6619–6623. <a class="find" href="/article/findArticle.action?citedArticleID=6077193">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Reddy1" id="pcbi.1002769-Reddy1"></a>Reddy MSS, Chen F, Shadle G, Jackson L, Aljoe H, et al. (2005) Targeted down-regulation of cytochrome P450 enzymes for forage quality improvement in alfalfa (<em>Medicago sativa</em> L.). Proc Natl Acad Sci USA 102: 16573–16578. <a class="find" href="/article/findArticle.action?citedArticleID=6077195">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Zhao2" id="pcbi.1002769-Zhao2"></a>Zhao Q, Wang H, Yin Y, Xu Y, Chen F, et al. (2010) Syringyl lignin biosynthesis is directly regulated by a secondary cell wall master switch. Proc Natl Acad Sci USA 107: 14496–14501. <a class="find" href="/article/findArticle.action?citedArticleID=6077197">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Menden1" id="pcbi.1002769-Menden1"></a>Menden B, Kohlhoff M, Moerschbacher BM (2007) Wheat cells accumulate a syringyl-rich lignin during the hypersensitive resistance response. Phytochemistry 68: 513–520. <a class="find" href="/article/findArticle.action?citedArticleID=6077199">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Mitsuda1" id="pcbi.1002769-Mitsuda1"></a>Mitsuda N, Iwase A, Yamamoto H, Yoshida M, Seki M, et al. (2007) NAC transcription factors, NST1 and NST3, are key regulators of the formation of secondary walls in woody tissues of <em>Arabidopsis</em>. Plant Cell 19: 270–280. <a class="find" href="/article/findArticle.action?citedArticleID=6077201">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Schuster1" id="pcbi.1002769-Schuster1"></a>Schuster P, Fontana W, Stadler PF, Hofacker IL (1994) From sequences to shapes and back: a case study in RNA secondary structures. Proc R Soc London B 255: 279–284. <a class="find" href="/article/findArticle.action?citedArticleID=6077203">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Babajide1" id="pcbi.1002769-Babajide1"></a>Babajide A, Hofacker IL, Sippl MJ, Stadler PF (1997) Neutral networks in protein space: a computational study based on knowledge-based potentials of mean force. Fold Des 2: 261–269. <a class="find" href="/article/findArticle.action?citedArticleID=6077205">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Ciliberti1" id="pcbi.1002769-Ciliberti1"></a>Ciliberti S, Martin OC, Wagner A (2007) Robustness can evolve gradually in complex regulatory gene networks with varying topology. PLoS Comput Biol 3: e15. <a class="find" href="/article/findArticle.action?citedArticleID=6077207">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Savageau1" id="pcbi.1002769-Savageau1"></a>Savageau MA (1976) Biochemical Systems Analysis: A Study of Function and Design in Molecular Biology. Reading, MA: Addison-Wesley. </li><li xpathLocation="noSelect"><a name="pcbi.1002769-Voit1" id="pcbi.1002769-Voit1"></a>Voit EO (2000) Computational Analysis of Biochemical Systems: A Practical Guide for Biochemists and Molecular Biologists. Cambridge University Press. </li><li xpathLocation="noSelect"><a name="pcbi.1002769-Voit2" id="pcbi.1002769-Voit2"></a>Voit EO (2008) Modelling metabolic networks using power-laws and S-systems. Essays Biochem 45: 29–40. <a class="find" href="/article/findArticle.action?citedArticleID=6077213">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Chou1" id="pcbi.1002769-Chou1"></a>Chou I-C, Voit EO (2009) Recent developments in parameter estimation and structure identification of biochemical and genomic systems. Math Biosci 219: 57–83. <a class="find" href="/article/findArticle.action?citedArticleID=6077215">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Chen3" id="pcbi.1002769-Chen3"></a>Chen F, Duran AL, Blount JW, Sumner LW, Dixon RA (2003) Profiling phenolic metabolites in transgenic alfalfa modified in lignin biosynthesis. Phytochemistry 64: 1013–1021. <a class="find" href="/article/findArticle.action?citedArticleID=6077217">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Schrijver1" id="pcbi.1002769-Schrijver1"></a>Schrijver A (1998) Theory of Linear and Integer Programming. John Wiley &amp; Sons. </li><li xpathLocation="noSelect"><a name="pcbi.1002769-Schilling1" id="pcbi.1002769-Schilling1"></a>Schilling CH, Letscher D, Palsson BØ (2000) Theory for the systemic definition of metabolic pathways and their use in interpreting metabolic function from a pathway-oriented perspective. J Theor Biol 203: 229–248. <a class="find" href="/article/findArticle.action?citedArticleID=6077221">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Stckigt1" id="pcbi.1002769-Stckigt1"></a>Stöckigt J, Zenk MH (1975) Chemical syntheses and properties of hydroxycinnamoyl-coenzyme A derivatives. Z Naturforsch C 30: 352–358. <a class="find" href="/article/findArticle.action?citedArticleID=6077223">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Chen4" id="pcbi.1002769-Chen4"></a>Chen F, Kota P, Blount JW, Dixon RA (2001) Chemical syntheses of caffeoyl and 5-OH coniferyl aldehydes and alcohols and determination of lignin <em>O</em>-methyltransferase activities in dicot and monocot species. Phytochemistry 58: 1035–1042. <a class="find" href="/article/findArticle.action?citedArticleID=6077225">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002769-Marita1" id="pcbi.1002769-Marita1"></a>Marita JM, Ralph J, Hatfield RD, Guo D, Chen F, et al. (2003) Structural and compositional modifications in lignin of transgenic alfalfa down-regulated in caffeic acid 3-<em>O</em>-methyltransferase and caffeoyl coenzyme A 3-<em>O</em>-methyltransferase. Phytochemistry 62: 53–65. <a class="find" href="/article/findArticle.action?citedArticleID=6077227">
+                      Find this article online
+                    </a></li></ol></div>
+
+</div></div>
+<div style="display:none">
+<div dojoType="ambra.widget.RegionalDialog" id="AnnotationDialog" style="padding:0;margin:0;">
+  <div class="dialog annotate">
+    <div class="tipu" id="dTipu"></div>
+    <div class="comment">
+      <h5><span>Post Your Note (For Public Viewing)</span></h5>
+      <div class="posting pane">
+        <form name="createAnnotation" id="createAnnotation" method="post" action="">
+          <input type="hidden" name="target" value="info:doi/10.1371/journal.pcbi.1002769" />
+          <input type="hidden" name="startPath" value="" />
+          <input type="hidden" name="startOffset" value="" />
+          <input type="hidden" name="endPath" value="" />
+          <input type="hidden" name="endOffset" value="" />
+          <input type="hidden" name="commentTitle" id="commentTitle" value="" />
+          <input type="hidden" name="comment" id="commentArea" value="" />
+          <input type="hidden" name="ciStatement" id="statementArea" value="" />
+          <input type="hidden" name="isCompetingInterest" id="isCompetingInterest" value="false" />
+          <input type="hidden" name="noteType" id="noteType" value="" />
+          <fieldset>
+            <legend>Compose Your Note</legend>
+            <span id="submitMsg" class="error" style="display:none;"></span>
+            <table class="layout">
+              <tr>
+                <td>
+                  <label for="cNoteType">This is a </label><select name="cNoteType" id="cNoteType"><option value="note">note</option><option value="correction">correction</option></select>
+                  <span id="cdls" style="visibility:hidden;margin-left:0.3em; white-space:nowrap;"><a href="/static/commentGuidelines.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1?target=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002769#corrections">What are corrections?</a></span>
+                  <label for="cTitle"><span class="none">Enter your note title</span><!-- error message text <em>A title is required for all public notes</em>--></label>
+                  <input type="text" name="cTitle" id="cTitle" value="Enter your note title..." class="title" alt="Enter your note title..." />
+                  <label for="cArea"><span class="none">Enter your note</span><!-- error message text <em>Please enter your note</em>--></label>
+                  <textarea name="cArea" id="cArea" value="Enter your note..." alt="Enter your note...">Enter your note...</textarea>
+                  <input type="hidden" name="isPublic" value="true" />
+                </td>
+                <td>&nbsp;</td>
+                <td class="coi">
+                  <fieldset>
+                    <legend>Declare any competing interests.</legend>
+                    <ul>
+                      <li><label><input id="isCompetingInterestNo" type="radio" checked="checked" name="competingInterest" value="false"  /> No, I don't have any competing interests to declare.</label></li>
+                      <li><label><input id="isCompetingInterestYes" type="radio" name="competingInterest" value="true"  /> Yes, I have competing interests to declare (enter below):</label></li>
+                    </ul>
+                    <textarea name="ciStatementArea" id="ciStatementArea" disabled value="Enter your competing interests..." alt="Enter your competing interests...">Enter your competing interests...</textarea>
+                  </fieldset>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3" class="buttons">
+                  <input type="button" value="Cancel" title="Click to close and cancel" id="btn_cancel"/>
+                  <input type="button" value="Submit" title="Click to post your note publicly" id="btn_post" class="primary"/>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <p>Notes and Corrections can include the following markup tags:</p>
+                  <p><strong>Emphasis:</strong> ''<em>italic</em>''&nbsp;&nbsp;'''<strong>bold</strong>'''&nbsp;&nbsp;'''''<strong><em>bold italic</em></strong>'''''</p>
+                  <p><strong>Other:</strong> ^^<sup>superscript</sup>^^&nbsp;&nbsp;~~<sub>subscript</sub>~~</p>
+                </td>
+              </tr>
+            </table>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <div class="tip" id="dTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialog" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="caTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      Please follow our <a href="/static/commentGuidelines.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1">guidelines for notes and comments</a> and review our <a href="/static/competing.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1">competing interests policy</a>. Comments that do not conform to our guidelines will be promptly removed and the user account disabled. The following must be avoided:
+      <ul>
+        <li>Remarks that could be interpreted as allegations of misconduct</li>
+        <li>Unsupported assertions or statements</li>
+        <li>Inflammatory or insulting language</li>
+      </ul>
+      <form name="contextActionForm" id="contextActionForm" class="clearfix buttons" method="post" action="">
+        <input type="button" name="Continue" value="Continue" id="ContextActionDialogContinueButton" onmouseup="ambra.displayAnnotationContext.startComment(event);" title="Add a note to this text" class="primary"/>
+        <input type="button" name="Cancel" value="Cancel" id="ContextActionDialogCancelButton" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);" title="Close this Window"/>
+      </form>
+    </div>
+    <div class="tip" id="caTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogNotLogged" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canlTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You must be logged in to add a note to an article.
+      You may log in by <a onmousedown="ambra.displayAnnotationContext.disconnect(event);" href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002769">clicking here</a> or <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">cancel this note</a>.
+    </div>
+    <div class="tip" id="canlTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogBadSelection" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canBDTipu"></div>
+    <div class="contextActionContent">
+      <h5 class="annotation icon"><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You cannot annotate this area of the document. <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">Close</a>
+    </div>
+    <div class="tip" id="canBDTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogBadRangeSelection" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canbrTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You cannot create an annotation that spans different sections of the document; please adjust your selection.<br/>
+      <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">Close</a>
+    </div>
+    <div class="tip" id="canbrTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.RegionalDialog" id="CommentDialog" style="padding:0;margin:0;">
+  <div class="dialog preview">
+    <div class="tipu" id="cTipu"></div>
+    <div class="btn close" id="btn_close" title="Click to close"><a title="Click to close">Close</a></div>
+    <div id="cmtContainer" class="comment">
+      <h6 id="viewCmtTitle"></h6>
+      <div class="detail" id="viewCmtDetail"></div>
+      <div class="contentwrap" id="viewComment"></div>
+      <div class="contentwrap" id="viewCIStatement"></div>
+      <div class="detail" id="viewLink">
+        <!--<a href="#" class="commentary icon" title="Click to view full thread and respond">View all responses</a>
+        <a href="#" class="respond tooltip" title="Click to respond to this posting">Respond to this</a>-->
+      </div>
+    </div>
+    <div class="tip" id="cTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.RegionalDialog" id="CommentDialogMultiple" style="padding:0;margin:0;">
+  <div class="dialog multiple preview">
+    <div class="tipu" id="mTipu"></div>
+    <div class="btn close" id="btn_close_multi" title="Click to close"><a title="Click to close">Close</a></div>
+    <ol id="multilist"></ol>
+    <br/>
+    <div id="multidetail"></div>
+    <div class="tip" id="mTip"></div>
+  </div>
+</div>
+
+
+<div dojoType="dijit.Dialog" id="Rating">
+  <div class="dialog annotate">
+    <div class="tipu" id="dTipu"></div>
+    <div class="comment">
+      <h5><span>Rate This Article</span></h5>
+      <div class="instructions">Please follow our <a  href="/static/ratingGuidelines.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1">guidelines for rating</a> and review our <a href="/static/competing.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1">competing interests policy</a>. Comments that do not conform to our guidelines will be promptly removed and the user account disabled. The following must be avoided:
+        <ol>
+          <li>Remarks that could be interpreted as allegations of misconduct</li>
+          <li>Unsupported assertions or statements</li>
+          <li>Inflammatory or insulting language</li>
+        </ol>
+      </div>
+      <div class="posting pane">
+        <form name="ratingForm" id="ratingForm" method="post" action="">
+          <input type="hidden" name="articleURI" value="info:doi/10.1371/journal.pcbi.1002769" />  
+          <input type="hidden" name="commentTitle" id="commentTitle" value="" />
+          <input type="hidden" name="comment" id="commentArea" value="" />
+          <input type="hidden" name="ciStatement" id="statementArea" value="" />
+          <input type="hidden" name="isCompetingInterest" id="isCompetingInterest" value="" />
+          <fieldset>
+            <legend>Compose Your Annotation</legend>
+            <span id="submitRatingMsg" class="error" style="display:none;"></span>
+            <table class="layout">
+              <tr>
+                <td rowspan="2">
+                  <label for="insight">Insight</label>
+                  <ul class="star-rating rating edit" title="Rate insight" id="rateInsight">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Bland" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'insight', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Profound" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="insight" title="insight" value="" />
+                  <label for="reliability">Reliability</label>
+                  <ul class="star-rating rating edit" title="Rate reliability" id="rateReliability">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Tenuous" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'reliability', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Unassailable" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="reliability" title="reliability" value="" />
+                  <label for="style">Style</label>
+                  <ul class="star-rating rating edit" title="Rate style" id="rateStyle">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Crude" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'style', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Elegant" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="style" title="style" value="" />
+                  <label for="cTitle"><span class="none">Enter your comment title</span><!-- error message text <em>A title is required for all public annotations</em>--></label>
+                  <input type="text" name="cTitle" id="cTitle" value="Enter your comment title..." class="title" alt="Enter your comment title..." />
+                  <label for="cArea"><span class="none">Enter your comment</span><!-- error message text <em>Please enter your annotation</em>--></label>
+                  <textarea name="cArea" id="cArea" value="Enter your comment..." alt="Enter your comment...">Enter your comment...</textarea>
+                </td>
+                <td rowspan="2">&nbsp;</td>
+                <td class="coi">
+                  <fieldset>
+                    <legend>Declare any competing interests.</legend>
+                    <ul>
+                      <li><label><input id="isCompetingInterestNo" type="radio" name="competingInterest" value="false"  /> No, I don't have any competing interests to declare.</label></li>
+                      <li><label><input id="isCompetingInterestYes" type="radio" name="competingInterest" value="true"  /> Yes, I have competing interests to declare (enter below):</label></li>
+                    </ul>
+                    <textarea name="ciStatementArea" id="ciStatementArea" disabled value="Enter your competing interests..." title="Enter your competing interests...">Enter your competing interests...</textarea>
+                  </fieldset>
+                </td>
+              </tr>
+              <tr>
+                <td class="buttons">
+                  <input type="button" value="Cancel" title="Click to close and cancel" id="btn_cancel_rating"/>
+                  <input type="button" value="Submit" title="Click to post your annotation publicly" id="btn_post_rating" class="primary"/>
+                </td>
+              </tr>
+              <tr>
+                  <td colspan="3"><p>Ratings can include the following markup tags:</p>
+                  <p><strong>Emphasis:</strong> ''<em>italic</em>''&nbsp;&nbsp;'''<strong>bold</strong>'''&nbsp;&nbsp;'''''<strong><em>bold italic</em></strong>'''''</p>
+                  <p><strong>Other:</strong> ^^<sup>superscript</sup>^^&nbsp;&nbsp;~~<sub>subscript</sub>~~</p></td>
+              </tr>
+            </table>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div dojoType="ambra.widget.LoadingCycle" id="LoadingCycle" class="loadingCycler">
+  <img src="/images/loading.gif" width="58" height="58" title="Loading..." />
+</div>
+<div dojoType="dijit.Dialog" id="LightBox">
+
+    <!-- start main window wrapper-->
+    <div class="figure-window-wrapper">
+
+      <!--start film strip Wrapper-->
+      <div class="figure-window-nav-wrapper">
+        <div id="figure-window-nav"></div>
+      </div><!--end figure-window-nav-wrapper-->
+
+      <!-- start figure container-->
+      <div class="figure-window-container">
+
+        <!-- start/end figure viewer-->
+        <div id="figure-window-viewer">
+          <img id="figure-window-img" class="large"/>
+        </div>
+
+        <!-- start/end figure doi-->
+        <div id="figure-window-doi"></div>
+
+        <!--start figure title-box-->
+        <div id="figure-window-title-box" class="figure-window-title-less">
+          <span id="figure-window-title"></span>
+          <div id="figure-window-more" class="figure-window-more" onclick="return ambra.lightBox.showMoreOrLess();"></div>
+          <div id="figure-window-description"></div>
+        </div><!--end figure title-box-->
+
+        <!--start figure download-->
+        <div class="figure-window-download">
+          <ul>
+            <li class="download icon"><strong>Download:</strong>
+              <a id="figure-window-ppt" title="Click to download PowerPoint slide of this image">PowerPoint
+                slide</a> |
+              <a id="figure-window-large" title="Click to download a larger version of this image">larger image
+                (<span id="figure-window-large-size"></span>)</a> |
+              <a id="figure-window-tiff" title="Click to download a original version of this image">original image
+                (<span id="figure-window-tiff-size"></span>)</a>
+            </li>
+          </ul>
+        </div><!--end figure download-->
+
+        <!--start/end of close, context, next and previous button-->
+        <div class="figure-window-close" onclick="return ambra.lightBox.hide();"></div>
+        <div class="figure-window-context" onclick="return ambra.lightBox.showInContext();"></div>
+        <div id="figure-window-previous" onclick="return ambra.lightBox.showPrevious();"></div>
+        <div id="figure-window-next" onclick="return ambra.lightBox.showNext();"></div>
+
+      </div><!--end figure-window-container-->
+
+    </div><!--end figure-window-wrapper-->
+
+</div><!--end dijit.Dialog-->
+</div>
+</div>
+<!-- end : main contents -->
+
+</div>
+<!-- end : container -->	
+
+<!-- begin : footer -->
+<div id="ftr">
+  <p><span>All site content, except where otherwise noted, is licensed under a <a href="http://creativecommons.org/licenses/by/2.5/" title="Creative Commons Attribution License 2.5" tabindex="200">Creative Commons Attribution License</a>.</span></p>
+  <ul>
+    <li><a href="/static/privacy.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1" title="PLOS Privacy Statement" tabindex="501">Privacy Statement</a></li>
+    <li><a href="/static/terms.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1" title="PLOS Terms of Use" tabindex="502">Terms of Use</a></li>
+    <li><a href="http://www.plos.org/advertise/" title="Advertise With PLOS" tabindex="503">Advertise</a></li>
+    <li><a href="http://www.plos.org/about/media-inquiries/" title="PLOS Embargo Policy" tabindex="504">Media Inquiries</a></li>
+    <li><a href="http://www.plos.org/publish/order-reprints/" title="PLOS in Print" tabindex="505">PLOS in Print</a></li>
+    <li><a href="/static/sitemap.action;jsessionid=AB0054C73D7EEC1CB5DDE465F5D1BAD1" title="Site Map" tabindex="506">Site Map</a></li>
+    <li><a href="http://www.plos.org" title="PLOS.org" tabindex="507">PLOS.org</a></li>
+  </ul>
+  <div class="powered">
+  <ul>
+    <li><a href="/static/releaseNotes.action" title="Ambra | Release Notes">Ambra 2.4.9</a></li>
+    <li>Managed Colocation provided by <a href="http://www.isc.org/" title="Internet Systems Consortium">Internet Systems Consortium</a>.</li>
+  </ul>
+  </div>
+</div>
+<!-- end : footer -->
+<script type="text/javascript">
+  var _namespace="";
+    var loggedIn = false;
+
+  var almHost = "http://alm.plos.org";
+  var solrHost = "http://api.plos.org/search";
+  var pubGetHost = "http://pubget.com/widgetizer/links_hash";
+  var appContext = "";
+
+  // Safari v3.1.1 "console.debug" issue (http://trac.dojotoolkit.org/ticket/6849) workaround
+  if (/3[\.0-9]+ Safari/.test(navigator.appVersion)) {
+    window.console = {
+      origConsole: window.console,
+      log: function(s){ this.origConsole.log(s); },
+      info: function(s){ this.origConsole.info(s); },
+      error: function(s){ this.origConsole.error(s); },
+      warn: function(s){ this.origConsole.warn(s); }
+    };
+  }
+
+  var djConfig = {
+    // don't debug for IE - as dojo's firebug lite module is error prone in IE
+    isDebug: false,
+    parseOnLoad: true
+  };
+
+  var bamGAID = 'UA-338393-1';
+  var bamGAVPV = location.pathname + location.search + location.hash;
+</script>
+<script type="text/javascript" src="/javascript/dojo/dojo/dojo.js?v=pzlwVCPPo+oJC12upPgJrJ5EG_k"></script>
+<script type="text/javascript" src="/javascript/dojo/dojo/ambra.js?v=Y8JM0CVD9YwjC99M_jvbcRTiGhY"></script>
+<script type="text/javascript" src="/javascript/init_global.js?v=fF03pfG3r+Nkj_czZ8ORg8o5sNM"></script>
+<script type="text/javascript" src="/javascript/init_article.js?v=qzBD_a7nKbeMM2xNUtB3vckN+Zc"></script>
+<script type="text/javascript" src="/javascript/init_ratings.js?v=seKykuS0X33CQGS7Lj+8FtBy5Uw"></script>
+<script type="text/javascript" src="/javascript/init_lightBox.js?v=vJRLPy7RRX8Zp31Ogcm3i+TA4f8"></script>
+<script type="text/javascript" src="/javascript/init_article_body.js?v=YgFei2xCi50CahwaPbSsxUxUsmw"></script>
+<script type="text/javascript" src="/javascript/init_article_rhc.js?v=djtbTMOagorKE6ZPrkCwufAfWWI"></script>
+<script type="text/javascript" src="/javascript/alm.js?v=1tH9JZ8uDtXspXssGJDr8O+jBOs"></script>
+<script type="text/javascript" src="/javascript/reporting/articleViewsCumulative.js?v=RQ+gCrcAl0dBeLbmokxgQZTGYYA"></script>
+<script type="text/javascript" src="/javascript/check_twitter.js?v=Hc0sH1W9xIu0qhqxWPD4c1u50K4"></script>
+<script type="text/javascript" src="/javascript/init_googleAnalytics.js?v=yCD4h9PHGI0dsefmuWDlMn7pHog"></script>
+
+</body>
+</html>
+

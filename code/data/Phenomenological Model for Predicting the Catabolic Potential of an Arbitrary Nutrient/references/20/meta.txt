@@ -1,0 +1,6 @@
+TITLE: Connecting extracellular metabolomic measurements to intracellular flux states in yeast.
+AUTHORS: Mo ML, Palsson BO, Herrgård MJ
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

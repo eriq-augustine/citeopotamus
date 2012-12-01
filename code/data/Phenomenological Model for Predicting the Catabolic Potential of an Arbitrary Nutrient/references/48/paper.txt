@@ -1,0 +1,4 @@
+Cartography of complex networks: modules and universal roles.
+Guimerà R, Amaral LA
+Abstract:
+Integrative approaches to the study of complex systems demand that one knows the manner in which the parts comprising the system are connected. The structure of the complex network defining the interactions provides insight into the function and evolution of the components of the system. Unfortunately, the large size and intricacy of these networks implies that such insight is usually difficult to extract. Here, we propose a method that allows one to systematically extract and display information contained in complex networks. Specifically, we demonstrate that one can (i) find modules in complex networks and (ii) classify nodes into universal roles according to their pattern of within- and between-module connections. The method thus yields a 'cartographic representation' of complex networks.

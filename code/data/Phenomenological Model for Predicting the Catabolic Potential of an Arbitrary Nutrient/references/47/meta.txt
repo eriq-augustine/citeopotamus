@@ -1,0 +1,6 @@
+TITLE: Bioinformatic analyses of transmembrane transport: novel software for deducing protein phylogeny, topology, and evolution.
+AUTHORS: Yen MR, Choi J, Saier MH Jr
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

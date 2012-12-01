@@ -1,0 +1,6 @@
+TITLE: Identification of tunnels in proteins, nucleic acids, inorganic materials and molecular ensembles.
+AUTHORS: Damborský J, Petrek M, Banás P, Otyepka M
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The knowledge of the access paths connecting interior of molecular systems with surrounding environment is important for the understanding of structurefunction relationships and engineering of molecules for biotechnological applications. CAVER is a computer program developed for calculations of tunnels, channels or pores in the biomolecules, inorganic materials and molecular ensembles. The algorithm performs a skeleton search based on a reciprocal distance function grid. The algorithm is implemented in the stand-alone version, web version and as plug-in for PyMol. CAVER is available from the website http://loschmidt.chemi.muni.cz/caver.

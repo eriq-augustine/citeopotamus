@@ -1,0 +1,6 @@
+TITLE: Kinesin motor mechanics: binding, stepping, tracking, gating, and limping.
+AUTHORS: Block SM
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

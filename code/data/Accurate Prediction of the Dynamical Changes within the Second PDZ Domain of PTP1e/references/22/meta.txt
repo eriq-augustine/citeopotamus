@@ -1,0 +1,6 @@
+TITLE: Protein sectors: evolutionary units of three-dimensional structure.
+AUTHORS: Halabi N, Rivoire O, Leibler S, Ranganathan R
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Proteins display a hierarchy of structural features at primary, secondary, tertiary, and higher-order levels, an organization that guides our current understanding of their biological properties and evolutionary origins. Here, we reveal a structural organization distinct from this traditional hierarchy by statistical analysis of correlated evolution between amino acids. Applied to the S1A serine proteases, the analysis indicates a decomposition of the protein into three quasi-independent groups of correlated amino acids that we term "protein sectors." Each sector is physically connected in the tertiary structure, has a distinct functional role, and constitutes an independent mode of sequence divergence in the protein family. Functionally relevant sectors are evident in other protein families as well, suggesting that they may be general features of proteins. We propose that sectors represent a structural organization of proteins that reflects their evolutionary histories.

@@ -1,0 +1,6 @@
+TITLE: Alternative cross-priming through CCL17-CCR4-mediated attraction of CTLs toward NKT cell-licensed DCs.
+AUTHORS: Semmling V, Lukacs-Kornek V, Thaiss CA, Quast T, Hochheiser K, Panzer U, Rossjohn J, Perlmutter P, Cao J, Godfrey DI, Savage PB, Knolle PA, Kolanus W, Förster I, Kurts C
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Cross-priming allows dendritic cells (DCs) to induce cytotoxic T cell (CTL) responses to extracellular antigens. DCs require cognate 'licensing' for cross-priming, classically by helper T cells. Here we demonstrate an alternative mechanism for cognate licensing by natural killer T (NKT) cells recognizing microbial or synthetic glycolipid antigens. Such licensing caused cross-priming CD8alpha(+) DCs to produce the chemokine CCL17, which attracted naive CTLs expressing the chemokine receptor CCR4. In contrast, DCs licensed by helper T cells recruited CTLs using CCR5 ligands. Thus, depending on the type of antigen they encounter, DCs can be licensed for cross-priming by NKT cells or helper T cells and use at least two independent chemokine pathways to attract naive CTLs. Because these chemokines acted synergistically, this can potentially be exploited to improve vaccinations.

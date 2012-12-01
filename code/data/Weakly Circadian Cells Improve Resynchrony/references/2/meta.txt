@@ -1,0 +1,6 @@
+TITLE: Transplanted suprachiasmatic nucleus determines circadian period.
+AUTHORS: Ralph MR, Foster RG, Davis FC, Menaker M
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The pacemaker role of the suprachiasmatic nucleus in a mammalian circadian system was tested by neural transplantation by using a mutant strain of hamster that shows a short circadian period. Small neural grafts from the suprachiasmatic region restored circadian rhythms to arrhythmic animals whose own nucleus had been ablated. The restored rhythms always exhibited the period of the donor genotype regardless of the direction of the transplant or genotype of the host. The basic period of the overt circadian rhythm therefore is determined by cells of the suprachiasmatic region.

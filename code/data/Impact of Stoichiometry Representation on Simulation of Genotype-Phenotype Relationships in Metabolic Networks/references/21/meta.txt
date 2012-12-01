@@ -1,0 +1,6 @@
+TITLE: Improving the iMM904 S. cerevisiae metabolic model using essentiality and synthetic lethality data.
+AUTHORS: Zomorrodi AR, Maranas CD
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

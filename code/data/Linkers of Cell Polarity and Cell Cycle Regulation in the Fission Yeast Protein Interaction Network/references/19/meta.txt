@@ -1,0 +1,6 @@
+TITLE: The small GTPase Rho4 is involved in controlling cell morphology and septation in fission yeast.
+AUTHORS: Nakano K, Mutoh T, Arai R, Mabuchi I
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

@@ -1,0 +1,4 @@
+Meta-IDBA: a de Novo assembler for metagenomic data.
+Peng Y, Leung HC, Yiu SM, Chin FY
+Abstract:
+None

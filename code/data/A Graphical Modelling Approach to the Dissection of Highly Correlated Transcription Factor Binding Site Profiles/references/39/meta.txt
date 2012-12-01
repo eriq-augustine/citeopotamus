@@ -1,0 +1,6 @@
+TITLE: High-throughput fluorescence microscopy for systems biology.
+AUTHORS: Pepperkok R, Ellenberg J
+TERMS:
+CATEGORIES:
+ABSTRACT:
+In this post-genomic era, we need to define gene function on a genome-wide scale for model organisms and humans. The fundamental unit of biological processes is the cell. Among the most powerful tools to assay such processes in the physiological context of intact living cells are fluorescence microscopy and related imaging techniques. To enable these techniques to be applied to functional genomics experiments, fluorescence microscopy is making the transition to a quantitative and high-throughput technology.

@@ -1,0 +1,6 @@
+TITLE: Interdependence of receptor activation and ligand binding in HCN2 pacemaker channels.
+AUTHORS: Kusch J, Biskup C, Thon S, Schulz E, Nache V, Zimmer T, Schwede F, Benndorf K
+TERMS:
+CATEGORIES:
+ABSTRACT:
+HCN pacemaker channels are tetramers mediating rhythmicity in neuronal and cardiac cells. The activity of these channels is controlled by both membrane voltage and the ligand cAMP, binding to each of the four channel subunits. The molecular mechanism underlying channel activation and the relationship between the two activation stimuli are still unknown. Using patch-clamp fluorometry and a fluorescent cAMP analog, we show that full ligand-induced activation appears already with only two ligands bound to the tetrameric channel. Kinetic analysis of channel activation and ligand binding suggests direct interaction between the voltage sensor and the cyclic nucleotide-binding domain, bypassing the pore. By exploiting the duality of activation in HCN2 channels by voltage and ligand binding, we quantify the increase of the binding affinity and overall free energy for binding upon channel activation, proving thus the principle of reciprocity between ligand binding and conformational change in a receptor protein.

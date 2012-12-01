@@ -1,0 +1,6 @@
+TITLE: Genomewide screens for Escherichia coli genes affecting growth of T7 bacteriophage.
+AUTHORS: Qimron U, Marintcheva B, Tabor S, Richardson CC
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Use of bacteriophages as a therapy for bacterial infection has been attempted over the last century. Such an endeavor requires the elucidation of basic aspects of the host-virus interactions and the resistance mechanisms of the host. Two recently developed bacterial collections now enable a genomewide search of the genetic interactions between Escherichia coli and bacteriophages. We have screened >85% of the E. coli genes for their ability to inhibit growth of T7 phage and >90% of the host genes for their ability to be used by the virus. In addition to identifying all of the known interactions, several other interactions have been identified. E. coli CMP kinase is essential for T7 growth, whereas overexpression of the E. coli uridine/cytidine kinase inhibits T7 growth. Mutations in any one of nine genes that encode enzymes for the synthesis of the E. coli lipopolysaccharide receptor for T7 adsorption leads to T7 resistance. Selection of T7 phage that can recognize these altered receptors has enabled the construction of phage to which the host is 100-fold less resistant.

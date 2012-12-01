@@ -1,0 +1,1068 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:dc="http://purl.org/dc/terms/"
+      xmlns:doi="http://dx.doi.org/"
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes#"
+      lang="en" xml:lang="en"
+      itemscope itemtype="http://schema.org/Article">
+
+<head>
+   <title>PLOS Computational Biology: Dynamic Control of Selectivity in the Ubiquitination Pathway Revealed by an ASP to GLU Substitution in an Intra-Molecular Salt-Bridge Network</title>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9" />
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+<link rel="home" title="home" href="/home.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501" />
+<link rel="alternate" type="application/rss+xml"
+  title="PLOS Computational Biology: New Articles"
+  href="http://www.ploscompbiol.org/article/feed" />
+
+<link rel="pingback" href="http://www.ploscompbiol.org/pingback" />
+
+
+<!-- global_css.ftl -->
+<link rel="stylesheet" type="text/css" media="screen" href="/css/dojo/dijit/themes/tundra/tundra.css?v=zwugcxLdpBWmb72qqlHgGyeNAGM" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/star_rating.css?v=Mm3HyaUPUahAJAq6xG5W3tdF7Hk" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/rating.css?v=AOT9rozE9sYVjGTdeiyxHf18Ykw" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/screen.css?v=KBNFqBmhD635U0NgiM5tf9dtxRE" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/iepc.css?v=FIjyR83BhSovq_5yNVk1Sih60AI" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/journal.css?v=SiREXztjNSUsOyrlkE9sv028Y+0" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/lightBox.css?v=sDgsUXamFoYAakEshdj0YWrZiiQ" />
+<link rel="stylesheet" type="text/css" media="print" href="/css/print.css?v=0T+LTV7Gd0jtHEhqEvBfSrmHUGg" />
+
+<!--chartbeat --> 
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+
+
+<!--[if IE]><![endif]-->
+<meta name="description" content="PLOS Computational Biology is an open-access" />
+
+<meta name="keywords" content="plos computational biology" />
+
+  <meta name="citation_publisher" content="Public Library of Science" />
+  <meta name="citation_doi" content="10.1371/journal.pcbi.1002754" />
+    <meta name="citation_title" content="Dynamic Control of Selectivity in the Ubiquitination Pathway Revealed by an ASP to GLU Substitution in an Intra-Molecular Salt-Bridge Network"/>
+    <meta itemprop="name" content="Dynamic Control of Selectivity in the Ubiquitination Pathway Revealed by an ASP to GLU Substitution in an Intra-Molecular Salt-Bridge Network"/>
+
+      <meta name="citation_author" content="Sjoerd J. L. van Wijk" />
+          <meta name="citation_author_institution" content="Department of Molecular Cancer Research, Division of Biomedical Genetics and Netherlands Proteomics Center, University Medical Center Utrecht, Utrecht, The Netherlands" />
+      <meta name="citation_author" content="Adrien S. J. Melquiond" />
+          <meta name="citation_author_institution" content="Computational Structural Biology Group, Bijvoet Center for Biomolecular Research, Faculty of Science, Utrecht University, Utrecht, The Netherlands" />
+      <meta name="citation_author" content="Sjoerd J. de Vries" />
+          <meta name="citation_author_institution" content="Computational Structural Biology Group, Bijvoet Center for Biomolecular Research, Faculty of Science, Utrecht University, Utrecht, The Netherlands" />
+      <meta name="citation_author" content="H. Th. Marc Timmers" />
+          <meta name="citation_author_institution" content="Department of Molecular Cancer Research, Division of Biomedical Genetics and Netherlands Proteomics Center, University Medical Center Utrecht, Utrecht, The Netherlands" />
+      <meta name="citation_author" content="Alexandre M. J. J. Bonvin" />
+          <meta name="citation_author_institution" content="Computational Structural Biology Group, Bijvoet Center for Biomolecular Research, Faculty of Science, Utrecht University, Utrecht, The Netherlands" />
+
+    <meta name="citation_date" content="2012/11/1"/>
+
+  <meta name="citation_pdf_url" content="http://dx.plos.org/10.1371/journal.pcbi.1002754.pdf" />
+
+    <meta name="citation_journal_title" content="PLOS Computational Biology" />
+    <meta name="citation_firstpage" content="e1002754"/>
+    <meta name="citation_issue" content="11"/>
+    <meta name="citation_volume" content="8"/>
+    <meta name="citation_issn" content="1553-7358"/>
+
+    <meta name="citation_journal_abbrev" content="PLoS Comput Biol" />
+
+      <meta name="citation_reference" content="citation_title=Evolution of biomolecular networks: lessons from metabolic and protein interactions; citation_volume=10; citation_number=1; citation_pages=791-803; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=RING domain E3 ubiquitin ligases; citation_volume=78; citation_number=2; citation_pages=399-434; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Structural mechanisms underlying posttranslational modification by ubiquitin-like proteins; citation_volume=36; citation_number=3; citation_pages=131-150; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Mechanisms underlying ubiquitination; citation_volume=70; citation_number=4; citation_pages=503-533; citation_date=2001; " />
+      <meta name="citation_reference" content="citation_title=Ubiquitin, infinitely seductive: symposium on the many faces of ubiquitin; citation_volume=10; citation_number=5; citation_pages=558-562; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Dual E1 activation systems for ubiquitin differentially regulate E2 enzyme charging; citation_volume=447; citation_number=6; citation_pages=1135-1138; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=E1-L2 activates both ubiquitin and FAT10; citation_volume=27; citation_number=7; citation_pages=1014-1023; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Building ubiquitin chains: E2 enzymes at work; citation_volume=10; citation_number=8; citation_pages=755-764; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Analysis of the human E2 ubiquitin conjugating enzyme protein interaction network; citation_volume=19; citation_number=9; citation_pages=1905-1911; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=The family of ubiquitin-conjugating enzymes (E2s): deciding between life and death of proteins; citation_volume=24; citation_number=10; citation_pages=981-993; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=E2s: structurally economical and functionally replete; citation_volume=433; citation_number=11; citation_pages=31-42; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Anatomy of the E2 ligase fold: implications for enzymology and evolution of ubiquitin/Ub-like protein conjugation; citation_volume=162; citation_number=12; citation_pages=205-218; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=A comprehensive framework of E2-RING E3 interactions of the human ubiquitin-proteasome system; citation_volume=5; citation_number=13; citation_pages=295; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=The mechanism of linkage-specific ubiquitin chain elongation by a single-subunit E2; citation_volume=144; citation_number=14; citation_pages=769-781; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=An altered-specificity ubiquitin-conjugating enzyme/ubiquitin-protein ligase pair; citation_volume=337; citation_number=15; citation_pages=157-165; citation_date=2004; " />
+      <meta name="citation_reference" content="citation_title=Identification of conjugation specificity determinants unmasks vestigial preference for ubiquitin within the NEDD8 E2; citation_volume=15; citation_number=16; citation_pages=280-287; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=The basis for selective E1-E2 interactions in the ISG15 conjugation system; citation_volume=283; citation_number=17; citation_pages=23895-23902; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=The HADDOCK web server for data-driven biomolecular docking; citation_volume=5; citation_number=18; citation_pages=883-897; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=HADDOCK versus HADDOCK: new features and performance of HADDOCK2.0 on the CAPRI targets; citation_volume=69; citation_number=19; citation_pages=726-733; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Measurement of yeast intracellular pH by image processing and the change it undergoes during growth phase; citation_volume=38; citation_number=20; citation_pages=165-172; citation_date=1995; " />
+      <meta name="citation_reference" content="citation_title=A novel mechanism of tumorigenesis involving pH-dependent destabilization of a mutant p53 tetramer; citation_volume=9; citation_number=21; citation_pages=12-16; citation_date=2002; " />
+      <meta name="citation_reference" content="citation_title=Cooperative regulation of p53 by modulation of ternary complex formation with CBP/p300 and HDM2; citation_volume=106; citation_number=22; citation_pages=6591-6596; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=The tyrosine kinase negative regulator c-Cbl as a RING-type, E2-dependent ubiquitin-protein ligase; citation_volume=286; citation_number=23; citation_pages=309-312; citation_date=1999; " />
+      <meta name="citation_reference" content="citation_title=Structural model of the UbcH5B/CNOT4 complex revealed by combining NMR, mutagenesis, and docking approaches; citation_volume=12; citation_number=24; citation_pages=633-644; citation_date=2004; " />
+      <meta name="citation_reference" content="citation_title=Determinants of functionality in the ubiquitin conjugating enzyme family; citation_volume=12; citation_number=25; citation_pages=1563-1574; citation_date=2004; " />
+      <meta name="citation_reference" content="citation_title=Solution structure of the ubiquitin-conjugating enzyme UbcH5B; citation_volume=344; citation_number=26; citation_pages=513-526; citation_date=2004; " />
+      <meta name="citation_reference" content="citation_title=Genome scale analysis of interaction dynamics reveals organization of biological networks; citation_volume=28; citation_number=27; citation_pages=1873-8; citation_date=2012; " />
+      <meta name="citation_reference" content="citation_title=Version 1.2 of the Crystallography and NMR system; citation_volume=2; citation_number=28; citation_pages=2728-2733; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Validation of the 53A6 GROMOS force field; citation_volume=34; citation_number=29; citation_pages=273-284; citation_date=2005; " />
+      <meta name="citation_reference" content="citation_title=GROMACS: fast, flexible, and free; citation_volume=26; citation_number=30; citation_pages=1701-1718; citation_date=2005; " />
+      <meta name="citation_reference" content="citation_title=Molecular dynamics with coupling to an external bath; citation_volume=81; citation_number=31; citation_pages=3684-3690; citation_date=1984; " />
+      <meta name="citation_reference" content="citation_title=Canonical sampling through velocity rescaling; citation_volume=126; citation_number=32; citation_pages=014101; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=LINCS: A linear constraint solver for molecular simulations; citation_volume=18; citation_number=33; citation_pages=1463-1472; citation_date=1997; " />
+      <meta name="citation_reference" content="citation_title=A generalized reaction field method for molecular dynamics simulations; citation_volume=102; citation_number=34; citation_pages=5451-5459; citation_date=1995; " />
+      <meta name="citation_reference" content="citation_title=Particle mesh Ewald: An N [center-dot] log(N) method for Ewald sums in large systems; citation_volume=98; citation_number=35; citation_pages=10089-10092; citation_date=1993; " />
+      <meta name="citation_reference" content="citation_title=A smooth particle mesh Ewald method; citation_volume=103; citation_number=36; citation_pages=8577-8593; citation_date=1995; " />
+      <meta name="citation_reference" content="citation_title=Electrostatics of nanosystems: application to microtubules and the ribosome; citation_volume=98; citation_number=37; citation_pages=10037-10041; citation_date=2001; " />
+      <meta name="citation_reference" content="citation_number=38; " />
+
+
+
+<!--
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002754">
+   <license rdf:resource="http://creativecommons.org/licenses/by/2.5/" />
+</Work>
+<License rdf:about="http://creativecommons.org/licenses/by/2.5/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+</License>
+<rdf:Description
+     rdf:about="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002754"
+     dc:identifier="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002754"
+     dc:title="PLOS Computational Biology: Dynamic Control of Selectivity in the Ubiquitination Pathway Revealed by an ASP to GLU Substitution in an Intra-Molecular Salt-Bridge Network"
+       trackback:ping="http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002754/trackback;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501"
+     />
+</rdf:RDF>
+
+-->
+</head>
+<body>
+<span property="dc:language" content="en"></span>
+<!-- begin : container -->
+<div id="container">
+  <!-- begin : top banner external ad space -->
+  <div id="topBanner">
+
+
+<!-- begin : left banner slot -->
+<div class="left">
+  <iframe id='affe494b' name='affe494b'
+    src='http://ads.plos.org/www/delivery/afr.php?zoneid=84&amp;cb=6618'
+    frameborder='0' scrolling='no' width='468' height='60'><a
+    href='http://ads.plos.org/www/delivery/ck.php?n=affe494b&amp;cb=4243'
+    target='_top'><img src='http://ads.plos.org/www/delivery/avw.php?zoneid=84&amp;cb=2371&amp;n=affe494b'
+    border='0' alt='' /></a></iframe>
+</div>
+<!-- end : left banner slot -->
+<!-- begin : right banner slot -->
+<div class="right">
+  <iframe id='af654bd5' name='af654bd5'
+    src='http://ads.plos.org/www/delivery/afr.php?zoneid=85&amp;cb=9270'
+    frameborder='0' scrolling='no' width='468' height='60'><a
+    href='http://ads.plos.org/www/delivery/ck.php?n=af654bd5&amp;cb=6895'
+    target='_top'><img src='http://ads.plos.org/www/delivery/avw.php?zoneid=85&amp;cb=4368&amp;n=af654bd5'
+    border='0' alt='' /></a></iframe>
+</div>
+<!-- end : right banner slot -->
+
+  </div>
+  <!-- end : top banner external ad space -->
+
+  <!-- begin : header -->
+  <div id="hdr" class="login">
+
+  <!-- begin : logo -->
+  <div id="logo" title="PLOS Computational Biology"><a href="/home.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501" title="PLOS Computational Biology"><span>PLOS Computational Biology</span></a></div>
+  <!-- end : logo -->
+  <!-- begin : user controls -->
+
+
+
+
+
+  <div id="user">
+    <div>
+      <ul>
+        <li><a href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002754" class="feedback"><strong>Login</strong></a> | </li>
+        <li><a href="https://register.plos.org:443/ambra-registration/register.action">Create Account</a> | </li>
+        <li class="feedback"><a href="/feedbackCreate.action?page=%252Farticle%252FfetchArticle.action%253FarticleURI%253Dinfo%25253Adoi%25252F10.1371%25252Fjournal.pcbi.1002754" title="Send us your feedback">Feedback</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <!-- end : user controls -->
+  <!-- begin search links -->
+  <ul id="links"><li class="browse"><a href="/article/browse.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501?field=date" title="Browse Articles">Browse</a></li><li class="rss"><a href="/static/rssFeeds.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501" title="RSS Feeds">RSS</a></li></ul>
+  <!-- end : search links -->
+  <!-- begin : dashboard -->
+  <div id="db">
+    <form name="searchForm" action="/search/simpleSearch.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501" method="get">
+      <input type="hidden" name="from" value="globalSimpleSearch"/>
+      <input type="hidden" name="filterJournals" value="PLoSCompBiol">
+      <fieldset>
+        <legend>Search</legend>
+        <label for="search">Search</label>
+        <div class="wrap"><input id="search" type="text" name="query" value="Search articles..." onfocus="if(this.value=='Search articles...')value='';" onblur="if(this.value=='')value='Search articles...';" class="searchField" alt="Search articles..."/></div>
+        <input src="/images/search_btn1.gif" onclick="submit();" value="ftsearch" alt="SEARCH" tabindex="3" class="button" type="image" />
+      </fieldset>
+    </form>
+    <form name="gasf" action="/search/advancedSearch.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501" method="get">
+<input type="hidden" name="noSearchFlag" value="true" id="noSearchFlag"/><input type="hidden" name="query" value="" id="query"/>    </form>
+    <a id="advSearch" href="#" onclick="if(document.searchForm.query.value!='Search articles...')document.gasf.query.value=document.searchForm.query.value;document.gasf.submit();return false;">Advanced Search</a>
+  </div>
+  <!-- end : dashboard -->
+  <!-- begin : navigation -->
+  <ul id="nav">
+    <li><a href="/home.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501" tabindex="101">Home</a></li>
+     <!-- This is a temporary action to link to th static toc page -->
+    <li><a href="/static/browse.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501" tabindex="102">Browse Articles</a>
+        <ul>
+          <li><a href="/article/browseIssue.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501?field=issue">Current Issue</a></li> <!-- Assuming dynamic TOC is in place -->
+          <li><a href="/article/browseVolume.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501?field=volume">Journal Archive</a></li> 
+          <li><a href="/article/browse.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501?field=date">By Publication Date</a></li>
+          <li><a href="/article/browse.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501">By Subject</a></li>
+          <li><a href="http://www.ploscollections.org/static/pcbiCollections.action">Collections</a></li>
+        </ul>
+    </li>
+    <li><a href="/static/about.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501" tabindex="103">About</a>
+        <ul>
+          <li><a href="/static/information.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501">Journal Information</a></li>
+          <li><a href="/static/edboard.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501">Editorial Board</a></li>
+          <li><a href="/static/eic.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501">Editors-in-Chief</a></li>
+          <li><a href="/static/almInfo.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501">Article-Level Metrics</a></li>
+          <li><a href="/static/license.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501">Open-Access License</a></li>
+          <li><a href="/static/contact.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501">Contact Us</a></li>
+        </ul>
+      </li>
+    <li><a href="/static/users.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501" tabindex="104">For Readers</a>
+        <ul>
+          <li><a href="/static/commentGuidelines.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501">Guidelines for Notes, Comments, and Corrections</a></li>
+          <li><a href="/static/ratingGuidelines.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501">Guidelines for Rating</a></li>
+          <li><a href="/static/help.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501">Help Using This Site</a></li>
+          <li><a href="/static/downloads.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501">Media Downloads</a></li>
+          <li><a href="/static/sitemap.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501">Site Map</a></li>
+        </ul>
+      </li>
+    <li><a href="/static/authors.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501" tabindex="105">For Authors and Reviewers</a>
+        <ul>
+          <li><a href="/static/policies.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501">Editorial and Publishing Policies</a></li>
+          <li><a href="/static/guidelines.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501">Author Guidelines</a></li>
+          <li><a href="/static/figureGuidelines.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501">Figure and Table Guidelines</a></li>
+          <li><a href="/static/checklist.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501">Submit Your Paper</a></li>
+          <li><a href="/static/reviewerGuidelines.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501">Reviewer Guidelines</a></li>
+	   <li><a href="http://www.plos.org/journals/index.php">Submit to Other PLOS Journals</a></li>
+        </ul>
+      </li>
+      <li class="journalnav"><a href="http://www.plos.org" title="PLOS" tabindex="110" class="drop">PLOS.org</a>
+        <ul>
+          <li><a href="http://www.plos.org/oa/index.html" title="Open Access Statement">Open Access</a></li>
+          <li><a href="http://www.plos.org/support/donate.php" title="Join PLOS: Show Your Support">Join PLOS</a></li>
+          <li><a href="http://blogs.plos.org/" title="PLOS Blogs">PLOS Blogs</a></li>
+	  <li><a href="http://www.zazzle.com/plos?rf=238434112415374154" title="PLOS Store">PLOS Store</a></li>
+          <li><a href="http://currents.plos.org" title="PLOS Currents">PLOS Currents</a></li>
+          <li><a href="http://www.plos.org/connect.html" title="PLOS.org | Stay Connected">Stay Connected</a></li>
+        </ul>
+      </li>
+      <li class="journalnav"><a href="http://hubs.plos.org" tabindex="109">Hubs</a>
+        <ul>
+          <li><a href="http://hubs.plos.org/biodiversity" title="PLOS Hubs: Biodiversity">Biodiversity</a></li>
+          <li><a href="http://clinicaltrials.ploshubs.org" title="PLOS Hub for Clinical Trials">Clinical Trials</a></li>
+        </ul>
+    </li>
+      <li class="journalnav"><a href="http://www.plosjournals.org" tabindex="108">Journals</a>
+        <ul>
+          <li><a href="http://www.plosbiology.org/" title="PLOSBiology.org">PLOS Biology</a></li>
+          <li><a href="http://www.plosmedicine.org/" title="PLOSMedicine.org">PLOS Medicine</a></li>
+          <li><a href="http://www.ploscompbiol.org/" title="PLOSCompBiol.org">PLOS Computational Biology</a></li>
+          <li><a href="http://www.plosgenetics.org/" title="PLOSGenetics.org">PLOS Genetics</a></li>
+          <li><a href="http://www.plospathogens.org/" title="PLOSPathogens.org">PLOS Pathogens</a></li>
+          <li><a href="http://www.plosone.org/" title="PLOSONE.org">PLOS ONE</a></li>
+          <li><a href="http://www.plosntds.org/" title="PLOSNTDs.org">PLOS Neglected Tropical Diseases</a></li>
+        </ul>
+      </li>
+    </ul>
+  <!-- end : navigation -->
+  </div>
+  <!-- end : header --> 
+
+
+
+<!-- begin : main content -->
+<div id="content" class="article" style="visibility:visible;">
+
+<!-- begin : right hand column -->
+
+<div id="rhc" xpathLocation="noDialog">
+
+  <div id="download" class="rhcBox_type1">
+    <div class="wrap">
+      <ul>
+        <li class="download icon"><strong>Download:</strong>
+          <a href="/article/fetchObjectAttachment.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501?uri=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002754&amp;representation=PDF" title="Download article PDF">PDF</a> |
+          <a href="/article/citationList.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002754" title="Download citations">Citation</a> |
+          <a href="/article/fetchObjectAttachment.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501?uri=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002754&amp;representation=XML" title="Download Article XML">XML</a>
+        </li>
+        <li class="print icon"><a href="#" onclick="window.print();return false;" title="Print Article"><strong>Print article</strong></a></li>
+        <li class="reprint icon"><a href="https://www.odysseypress.com/onlinehost/reprint_order.php?type=A&page=0&journal=3&doi=10.1371/journal.pcbi.1002754&volume=&issue=&title=Dynamic Control of Selectivity in the Ubiquitination Pathway Revealed by an ASP to GLU Substitution in an Intra-Molecular Salt-Bridge Network&author_name=Sjoerd%20J.%20L.%20van%20Wijk%2C%20Adrien%20S.%20J.%20Melquiond%2C%20Sjoerd%20J.%20de%20Vries%2C%20H.%20Th.%20Marc%20Timmers%2C%20Alexandre%20M.%20J.%20J.%20Bonvin&start_page=1&end_page=9" title="Odyssey Press">EzReprint</a> New &amp; improved!</li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div id="impact" class="rhcBox_type2">
+    <h6>Metrics <a href="/static/help.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501#articleMetrics" class="replaced" id="info" title="More information"><span>info</span></a></h6>
+
+    <div class="wrap">
+      <img id="rhcDataSpinner" src="/images/loading_small.gif" class="loading" />
+      <div id="totalDataInRHC"></div>
+      <div id="pubDateInRHC"></div>
+      <div id="relatedCitesInRHC"></div>
+    </div>
+
+    <div class="more clearfix"><a href="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002754;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501" title="More information">More</a></div>
+  </div>
+
+  <div id="related" class="rhcBox_type2">
+    <h6>Related Content</h6>
+    <dl class="related">
+      <dt>Related Articles on the Web</dt>
+      <dd><a href="http://scholar.google.com/scholar?hl=en&lr=&q=related:http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002754&btnG=Search">Google Scholar</a></dd>
+      <dd id="pubMedRelatedLIInRHC" style="display:none;"><a id="pubMedRelatedURLInRHC">PubMed</a></dd>
+    </dl>
+    <div class="more clearfix"><a href="/article/related/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002754;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501" title="More information">More</a></div>
+  </div>
+
+  <div id="share" class="rhcBox_type2">
+    <h6>Share this Article <a href="/static/help.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501#socialBookmarkLinks" class="replaced" id="info" title="More information"><span>info</span></a></h6>
+    <ul>
+      <li class="bookmarklets">
+
+        <a href="http://www.reddit.com/submit?url=http://dx.plos.org/10.1371/journal.pcbi.1002754"
+           target="_new"
+           id="reddit">
+          <img src="http://www.reddit.com/static/spreddit4.gif" alt="submit to reddit" border="0"/> </a>
+        <g:plusone size="small" annotation="none" href=http://dx.plos.org/10.1371/journal.pcbi.1002754></g:plusone>
+        <script type="text/javascript">
+          (function () {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+          })();
+        </script>
+        <a href="http://www.stumbleupon.com/submit?url=http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002754" target="_new"> <img border=0 src="http://cdn.stumble-upon.com/images/16x16_su_solid.gif" alt="StumbleUpon" title="Add to StumbleUpon"></a>
+        <script>function fbs_click() {u='http://dx.plos.org/10.1371/journal.pcbi.1002754';t='Dynamic%20Control%20of%20Selectivity%20in%20the%20Ubiquitination%20Pathway%20Revealed%20by%20an%20ASP%20to%20GLU%20Substitution%20in%20an%20Intra-Molecular%20Salt-Bridge%20Network';window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436');return false;}</script><a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002754" onclick="return fbs_click()" target="_blank"><img src="http://static.ak.fbcdn.net/images/share/facebook_share_icon.gif" alt="Facebook" title="Add to Facebook" /></a>       <!-- for mor info, see http://www.facebook.com/share_partners.php -->
+        <script type="text/javascript">
+          function bookmark_in_connotea(u) {
+            a=false; x=window; e=x.encodeURIComponent; d=document;
+            w=open('http://www.connotea.org/addpopup?continue=confirm&uri='+e(u),
+                'add', 'width=600, height=400, scrollbars, resizable');
+            void(x.setTimeout('w.focus()',200));
+          }
+        </script>
+        <a style='cursor: pointer;' onclick='javascript:bookmark_in_connotea("http://dx.plos.org/10.1371/journal.pcbi.1002754");'><img src='/images/icon_connotea_16x16.gif' alt="Connotea" title="Add to Connotea"/></a>
+        <a href="http://www.citeulike.org/posturl?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002754&title=Dynamic%20Control%20of%20Selectivity%20in%20the%20Ubiquitination%20Pathway%20Revealed%20by%20an%20ASP%20to%20GLU%20Substitution%20in%20an%20Intra-Molecular%20Salt-Bridge%20Network" target="_new"><img src='/images/icon_citeulike_16x16.gif' alt="CiteULike" title="Add to CiteULike" /></a>
+        <a href="http://www.mendeley.com/import/?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002754" title="Add to Mendeley" target="_new"><img src="/images/icon_mendeley_16x16.gif" alt="Bibliography"></a>
+        <script type="text/javascript">
+          var twtTitle  = 'Dynamic Control of Selectivity in the Ubiquitination Pathway Revealed by an ASP to GLU Substitution in an Intra-Molecular Salt-Bridge Network';
+          var twtUrl    = 'http://dx.plos.org/10.1371/journal.pcbi.1002754';
+          var twtTag    = '#PLOSCompBio:'
+          var maxLength = 140 - (twtUrl.length + 1);
+          if (twtTitle.length > maxLength) {
+            twtTitle = twtTitle.substr(0, (maxLength - 17))+'...';  //truncates title to include space for twtTag and ellipsis
+          }
+          var twtLink = 'http://twitter.com/intent/tweet?text='+encodeURIComponent(twtTag + ' ' + twtTitle + ' ' + twtUrl);
+          document.write('<a href="'+twtLink+'" target="_blank"><img src="/images/icon_twitter.gif" border="0" alt="Twitter icon" title="Tweet This!" /></a>');
+        </script>
+
+      </li>
+      <li class="email icon"><a href="/article/emailArticle.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002754" title="Email this article">Email this article</a></li>
+    </ul>
+  </div>
+  <div id="articleTwitterStream" style="display:none">
+    <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script>
+      new TWTR.Widget({
+        version: 2,
+        type: 'search',
+        search: encodeURIComponent('10.1371/journal.pcbi.1002754'),
+        interval: 6000,
+        title: '',
+        subject: 'From Twitter',
+        width: 300,
+        height: 300,
+        theme: {
+          shell: {
+            background: '#667893',
+            color: '#ffffff'
+          },
+          tweets: {
+            background: '#ffffff',
+            color: '#444444',
+            links: '#006699'
+          }
+        },
+        features: {
+          scrollbar: true,
+          loop: false,
+          live: true,
+          hashtags: true,
+          timestamp: true,
+          avatars: true,
+          toptweets: true,
+          behavior: 'all'
+        }
+      }).render().start();
+    </script>
+  </div>
+</div>
+<!-- end : right hand column -->
+<form name="articleInfo" id="articleInfo" method="" action="">
+<input type="hidden" name="isAuthor" value="true" />
+<input type="hidden" name="authorIdList" value="" />
+<input type="hidden" name="userIdList" value="" />
+<input type="hidden" name="otherIdList" value="" />
+<input type="hidden" name="annotationId" value="" />
+<input type="hidden" name="isResearchArticle" value="true" />
+</form>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002754.XML" value="80257"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002754.PDF" value="6257039"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002754.g001.TIF" value="3725300"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002754.g001.PNG_I" value="211432"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002754.g001.PNG_S" value="22571"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002754.g001.PNG_M" value="453215"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002754.g001.PNG_L" value="1617358"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002754.g002.TIF" value="3254226"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002754.g002.PNG_I" value="123038"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002754.g002.PNG_S" value="16761"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002754.g002.PNG_M" value="373685"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002754.g002.PNG_L" value="2698314"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002754.g003.TIF" value="1942982"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002754.g003.PNG_I" value="130760"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002754.g003.PNG_S" value="23430"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002754.g003.PNG_M" value="325384"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002754.g003.PNG_L" value="1046190"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002754.e001.TIF" value="4492"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002754.e001.PNG" value="2210"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002754.g004.TIF" value="2369450"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002754.g004.PNG_I" value="99889"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002754.g004.PNG_S" value="15849"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002754.g004.PNG_M" value="306111"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002754.g004.PNG_L" value="1508621"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002754.s001.TIF" value="4107766"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002754.s002.TIF" value="1330885"/>
+<div id="articleContainer">
+
+<span about="http://www.plos.org"  typeof="foaf:Organization" property="foaf:name" style="display:none; visibility:hidden;">PLOS</span>
+<div id="researchArticle" class="content">
+  <span rel="dc:publisher" href="http://www.plos.org"></span>
+  <a id="top" name="top"></a>
+<div id="contentHeader" xpathLocation="noSelect">
+  <p>Open Access</p><p id="articleType">Research Article</p>
+</div>
+
+  <h1 xpathLocation="noSelect" property="dc:title" datatype="" rel="dc:type" href="http://purl.org/dc/dcmitype/Text">Dynamic Control of Selectivity in the Ubiquitination Pathway Revealed by an ASP to GLU Substitution in an Intra-Molecular Salt-Bridge Network</h1>
+  <div property="dc:description" datatype="" style="display:none; visibility:hidden;">Author SummaryDuring their life, proteins undergo various modifications ranging from structural marking or signaling to degradation. One major biochemical process involves ubiquitin, a small and evolutionary conserved protein. This regulatory protein serves as a tag that, when attached to a protein substrate, alters its function, cellular sub-location or commits the labeled protein to destruction in the proteasome. The high specificity of the ubiquitination pathway is achieved through interactions between two large protein families, E2 and E3, that ensure the efficient covalent conjugation of ubiquitin. By comparing two &ldquo;almost identical&rdquo; E2 enzymes, we identified a single minute substitution that, operated by a dynamic network of salt-bridges, functions as a subtle switch that controls interaction selectivity toward E3 proteins. Using a combination of bioinformatics and modeling techniques, complemented by mutagenesis and experimental screening of E2-E3 interactions, we unraveled an equilibrium between an &ldquo;open&rdquo;, binding-competent and a &ldquo;closed&rdquo;, binding-incompetent state. Subtle modifications in this network are sufficient to switch the selectivity profile. These findings should serves as a cautionary tale and raises new challenges for bioinformatics analysis, modeling and experimental engineering of protein-protein interactions. The dynamic nature of the identified regulatory switch suggests that the widely accepted sequence-structure-function paradigm should be extended to sequence-structure-dynamics-function.</div>
+  <span property="dc:date" content="2012-11-01" datatype="xsd:date" rel="dc:identifier" href="http://dx.doi.org/10.1371/journal.pcbi.1002754"></span>
+  <span property="dc:subject" content="Biochemistry"></span>
+  <span property="dc:subject" content="Biophysics"></span>
+  <span property="dc:subject" content="Chemistry"></span>
+  <span property="dc:subject" content="Computational Biology"></span>
+  <span property="dc:subject" content="Computer Science"></span>
+<form action="">
+  <input type="hidden" name="journalDisplayName" id="journalDisplayName" value="PLOS Computational Biology" />
+  <input type="hidden" name="crossRefPageURL" id="crossRefPageURL" value="/article/crossref/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002754;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501" />
+  <input type="hidden" name="twitterPageURL" id="twitterPageURL" value="/article/twitter/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002754;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501" />
+  <input type="hidden" name="metricsTabURL" id="metricsTabURL" value="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002754;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501" />
+  <input type="hidden" name="doi" id="doi" value="info:doi/10.1371/journal.pcbi.1002754" />
+  <input type="hidden" name="articleTitleUnformatted" id="articleTitleUnformatted" value="Dynamic%20Control%20of%20Selectivity%20in%20the%20Ubiquitination%20Pathway%20Revealed%20by%20an%20ASP%20to%20GLU%20Substitution%20in%20an%20Intra-Molecular%20Salt-Bridge%20Network" />
+  <input type="hidden" name="articlePubDate" id="articlePubDate" value="1351753200000" />
+</form>
+<div class="horizontalTabs" xpathLocation="noSelect">
+  <ul id="tabsContainer">
+        <li id="article" class="active"><a href="/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002754;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501" class="tab" title="Article">Article</a></li>
+        <li id="metrics"><a href="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002754;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501" class="tab" title="Metrics">Metrics</a></li>
+        <li id="related"><a href="/article/related/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002754;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501" class="tab" title="Related Content">Related Content</a></li>
+        <li id="comments"><a href="/article/comments/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002754;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501" class="tab" title="Comments">Comments: 0</a></li>
+  </ul>
+</div>
+  <div id="articleMenuBox" xpathLocation="noSelect">
+    <div id="articleMenu">
+      <div class="wrap">
+        <ul>
+          <li class="annotation icon">To <strong>add a note</strong>, highlight some text. <a href="#" onclick="toggleAnnotation(this, 'public'); return false;" title="Click to turn notes on/off">Hide notes</a></li>
+          <li class="discuss icon">
+              <a href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002754">Make a general comment</a>
+          </li>
+        </ul>
+        <div id="sectionNavTopBox" style="display:none;">
+          <p><strong>Jump to</strong></p>
+          <div id="sectionNavTop" class="tools"></div>
+        </div>
+      </div>
+    </div>
+      <div id="lightBox" xpathLocation="noDialog" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002754')">
+      </div>
+  </div>
+
+
+
+
+<p class="authors" xpathLocation="noSelect"><span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Sjoerd J. L. van Wijk</span></span><sup><a href="#aff1">1</a></sup><sup><a href="#equal-contrib">#</a></sup><sup><a href="#fn1">¤a</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Adrien S. J. Melquiond</span></span><sup><a href="#aff2">2</a></sup><sup><a href="#equal-contrib">#</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Sjoerd J. de Vries</span></span><sup><a href="#aff2">2</a></sup><sup><a href="#fn2">¤b</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">H. Th. Marc Timmers</span></span><sup><a href="#aff1">1</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Alexandre M. J. J. Bonvin</span></span><sup><a href="#aff2">2</a></sup><sup><a href="#cor1" class="fnoteref">*</a></sup></p><p class="affiliations" xpathLocation="noSelect"><a name="aff1" id="aff1"></a><strong>1</strong> Department of Molecular Cancer Research, Division of Biomedical Genetics and Netherlands Proteomics Center, University Medical Center Utrecht, Utrecht, The Netherlands, <a name="aff2" id="aff2"></a><strong>2</strong> Computational Structural Biology Group, Bijvoet Center for Biomolecular Research, Faculty of Science, Utrecht University, Utrecht, The Netherlands</p><div class="abstract" xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[1]"><a id="abstract0" name="abstract0" toc="abstract0" title="Abstract"></a><h2 xpathLocation="noSelect">Abstract&nbsp;<a href="#top">Top</a></h2><p xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[1]/p[1]">Ubiquitination relies on a subtle balance between selectivity and promiscuity achieved through specific interactions between ubiquitin-conjugating enzymes (E2s) and ubiquitin ligases (E3s). Here, we report how a single aspartic to glutamic acid substitution acts as a dynamic switch to tip the selectivity balance of human E2s for interaction toward E3 RING-finger domains. By combining molecular dynamic simulations, experimental yeast-two-hybrid screen of E2-E3 (RING) interactions and mutagenesis, we reveal how the dynamics of an internal salt-bridge network at the rim of the E2-E3 interaction surface controls the balance between an “open”, binding competent, and a “closed”, binding incompetent state. The molecular dynamic simulations shed light on the fine mechanism of this molecular switch and allowed us to identify its components, namely an aspartate/glutamate pair, a lysine acting as the central switch and a remote aspartate. Perturbations of single residues in this network, both inside and outside the interaction surface, are sufficient to switch the global E2 interaction selectivity as demonstrated experimentally. Taken together, our results indicate a new mechanism to control E2-E3 interaction selectivity at an atomic level, highlighting how minimal changes in amino acid side-chain affecting the dynamics of intramolecular salt-bridges can be crucial for protein-protein interactions. These findings indicate that the widely accepted sequence-structure-function paradigm should be extended to <em>sequence-structure-dynamics-function</em> relationship and open new possibilities for control and fine-tuning of protein interaction selectivity.</p>
+</div><div class="abstract" xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[2]"><a id="abstract1" name="abstract1" toc="abstract1" title="Author Summary"></a>
+<h2 xpathLocation="noSelect">Author Summary&nbsp;<a href="#top">Top</a></h2>
+<p xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[2]/p[1]">During their life, proteins undergo various modifications ranging from structural marking or signaling to degradation. One major biochemical process involves ubiquitin, a small and evolutionary conserved protein. This regulatory protein serves as a tag that, when attached to a protein substrate, alters its function, cellular sub-location or commits the labeled protein to destruction in the proteasome. The high specificity of the ubiquitination pathway is achieved through interactions between two large protein families, E2 and E3, that ensure the efficient covalent conjugation of ubiquitin. By comparing two “almost identical” E2 enzymes, we identified a single minute substitution that, operated by a dynamic network of salt-bridges, functions as a subtle switch that controls interaction selectivity toward E3 proteins. Using a combination of bioinformatics and modeling techniques, complemented by mutagenesis and experimental screening of E2-E3 interactions, we unraveled an equilibrium between an “open”, binding-competent and a “closed”, binding-incompetent state. Subtle modifications in this network are sufficient to switch the selectivity profile. These findings should serves as a cautionary tale and raises new challenges for bioinformatics analysis, modeling and experimental engineering of protein-protein interactions. The dynamic nature of the identified regulatory switch suggests that the widely accepted sequence-structure-function paradigm should be extended to <em>sequence-structure-dynamics-function</em>.</p>
+</div>
+
+
+<div class="articleinfo" xpathLocation="noSelect"><p><strong>Citation: </strong>van Wijk SJL, Melquiond ASJ, de Vries SJ, Timmers HTM, Bonvin AMJJ (2012) Dynamic Control of Selectivity in the Ubiquitination Pathway Revealed by an ASP to GLU Substitution in an Intra-Molecular Salt-Bridge Network. PLoS Comput Biol 8(11):
+          e1002754.
+            doi:10.1371/journal.pcbi.1002754</p><p><strong>Editor: </strong>Michael Levitt, 
+        Stanford University, United States of America
+      </p><p></p><p><strong>Received:</strong> May 16, 2012; <strong>Accepted:</strong> September 9, 2012; <strong>Published:</strong> November 1, 2012</p><p><strong>Copyright:</strong> © 2012 van Wijk et al. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</p><p><strong>Funding: </strong>This work was supported by the Netherlands Proteomic Center (NPC, <a href="http://www.netherlandsproteomicscentre.nl">www.netherlandsproteomicscentre.nl</a>) and the Netherlands Organization for Scientific Research (NWO, <a href="http://www.nwo.nl">http://www.nwo.nl</a>) (VICI grant #700.56.442 to AMJJB). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript</p><p><strong>Competing interests:</strong> The authors have declared that no competing interests exist.</p><p><a name="cor1"></a>* E-mail: <a href="mailto:A.M.J.J.Bonvin@uu.nl">A.M.J.J.Bonvin@uu.nl</a></p><p><a name="equal-contrib"></a>#
+              These authors contributed equally to this work.
+          </p><p><a name="fn1"></a>¤a Current address: Institute of Biochemistry II and Buchman Institute for Molecular Life Sciences (FMLS), Goethe University School of Medicine, University Hospital, Frankfurt am Main, Germany.</p><p><a name="fn2"></a>¤b Current address: Biomolecular Dynamics, Department of Physics T38, Technical University München, Garching, Germany.</p></div>
+
+
+
+
+
+<div id="section1" xpathLocation="/article[1]/body[1]/sec[1]"><a id="s1" name="s1" toc="s1" title="Introduction"></a><h3 xpathLocation="noSelect">Introduction&nbsp;<a href="#top">Top</a></h3><p xpathLocation="/article[1]/body[1]/sec[1]/p[1]">Biological systems critically rely on selective and specific protein interactions, creating building blocks that cooperatively form the basis of functional complexity <a href="#pcbi.1002754-Yamada1">[1]</a>. In particular, regulatory and signaling pathways, such as conjugation of ubiquitin (Ub) or similar ubiquitin-like modifiers (UBLs), depend on specific recognition of binding partners whilst discriminating against non-specific interactions <a href="#pcbi.1002754-Deshaies1">[2]</a>, <a href="#pcbi.1002754-Dye1">[3]</a>. Ub becomes conjugated to substrates through the action of the E1-E2-E3 enzymatic system. This cascade follows a pyramidal hierarchy wherein two human Ub-activating enzymes (E1s) and over 30 human Ub-conjugating (E2) enzymes and hundreds of E3 Ub protein ligases cooperate to catalyze subsequent substrate modification <a href="#pcbi.1002754-Pickart1">[4]</a>, <a href="#pcbi.1002754-Rape1">[5]</a>. Whereas the Ub-E1 enzymes have different selectivity <a href="#pcbi.1002754-Jin1">[6]</a>, <a href="#pcbi.1002754-Chiu1">[7]</a>, it is mainly the selective associations between E2 and E3 enzymes among thousands of possible interactions that are primarily responsible for effective Ub conjugation <a href="#pcbi.1002754-Deshaies1">[2]</a>, <a href="#pcbi.1002754-Dye1">[3]</a>, <a href="#pcbi.1002754-Ye1">[8]</a>, <a href="#pcbi.1002754-Markson1">[9]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[2]">The molecular basis for this selectivity is provided by surface residues of E2 enzymes and by “cross-braced”, zinc-binding domains of the Really Interesting New Gene (RING) sub-family of E3 ligases <a href="#pcbi.1002754-Deshaies1">[2]</a>. These RING finger domains generally mediate binding with E2s through their highly conserved UBC-fold, although exceptions have been described <a href="#pcbi.1002754-Ye1">[8]</a>, <a href="#pcbi.1002754-vanWijk1">[10]</a>. This fold is a strictly conserved structure surrounding the active site cysteine that covalently accommodates the activated Ub <a href="#pcbi.1002754-Ye1">[8]</a>, <a href="#pcbi.1002754-Wenzel1">[11]</a>, <a href="#pcbi.1002754-Burroughs1">[12]</a>. Regarding the E2 enzymes, the major structural determinants for E3 binding have been identified in residues located in helix 1 (H1), loop 1 (L1) and loop 2 (L2) within the classical E2-E3 interaction interface <a href="#pcbi.1002754-vanWijk1">[10]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[3]">Efficient ubiquitin-conjugation depends on specific interactions between E2 and E3 enzymes. The high degree of sequence and structure conservation in E2s and, to some extent, among the E3 RING-finger domains and their reported E2-E3 interfaces, remains compatible with a highly selective binding for their cognate E2 or E3 partners <a href="#pcbi.1002754-Markson1">[9]</a>, <a href="#pcbi.1002754-vanWijk2">[13]</a>. Conserved sub-families of E2 enzymes, such as those belonging to the UbcH5 branch, have been shown to cooperate with similar sub-sets of E3 ligases <a href="#pcbi.1002754-vanWijk2">[13]</a>. At the other side, structurally more divergent E2s display interactions with more specialized E3 enzymes, such as for example the APC/C-UbcH10 pair <a href="#pcbi.1002754-Wickliffe1">[14]</a>. Furthermore, several studies have indicated that the ability of E2-E3 pairs to mediate biochemical Ub- or UBL-conjugation is directly dependent on the ability of physical E2-E3 interactions <a href="#pcbi.1002754-Winkler1">[15]</a>, <a href="#pcbi.1002754-Huang1">[16]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[4]">Based on this, physical E2-E3 interactions can be regarded as primary determinants for efficient conjugation reactions. We demonstrate here that a subtle and minute change – an aspartic to glutamic acid substitution (one methylene group difference) – is sufficient to completely change the selectivity profile of an E2 enzyme toward E3 RING-finger domains. Using molecular modeling and molecular dynamics simulations, a network of intra-molecular salt-bridges was identified that controls the balance between a binding-competent and a binding-incompetent state. Perturbation of network components located both in and outside the classical interaction surface resulted in a switch in the E3 interaction binding profile. These results suggest a new and delicate mechanism of how protein-protein interaction selectivity is achieved within the promiscuous ubiquitination system.</p>
+</div>
+
+<div id="section2" xpathLocation="/article[1]/body[1]/sec[2]"><a id="s2" name="s2" toc="s2" title="Results"></a><h3 xpathLocation="noSelect">Results&nbsp;<a href="#top">Top</a></h3><p xpathLocation="/article[1]/body[1]/sec[2]/p[1]">In previous studies, global E2-E3 (RING) interactions have been mapped by high-throughput yeast two-hybrid screening (Y2H), revealing that E2 enzymes that show high conservation within their E3 interface region interact with similar cohorts of E3 domains <a href="#pcbi.1002754-Markson1">[9]</a>, <a href="#pcbi.1002754-vanWijk2">[13]</a>. Although these studies primarily detected physical E2-E3 interactions, careful comparison between these physical interactions with literature-curated biochemically-functional ubiquitin-conjugating E2-E3 pairs revealed a good degree of overlap <a href="#pcbi.1002754-vanWijk2">[13]</a>. Surprisingly, in our previous study <a href="#pcbi.1002754-vanWijk2">[13]</a>, two highly homologous E2 enzymes, UbcH6 (UBE2E1) and UbcH8 (UBE2E2) were identified to show remarkable different E3 interaction patterns. The astonishing difference in the E3 (RING) interaction profiles of those two enzymes, despite their high similarity, is supported by biochemical and functional evidences that suggest a minor role for UbcH8 in ubiquitin-conjugation while UbcH6 is reported as a major ubiquitin-conjugating enzyme <a href="#pcbi.1002754-Durfee1">[17]</a>. While UbcH6 was shown to interact with approximately 24 RING-finger domains, UbcH8 only contacts two RING E3s <a href="#pcbi.1002754-vanWijk2">[13]</a>. Both E2 enzymes differ within their classical E3 recognition interface in only three residues (D58/E66 in H1 and T103/S111 and E105/D113 in L1) and in a lesser-conserved N-terminal extension of approximately 60 amino acids to the conserved UBC-fold (<a href="#pcbi-1002754-g001"><strong><em>Figure 1A</em></strong></a>). The observed differences in E3 interaction patterns are therefore in striking contrast with the high levels of sequence identity between these two E2s.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/fig[1]"><a name="pcbi-1002754-g001" id="pcbi-1002754-g001" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002754?imageURI=info:doi/10.1371/journal.pcbi.1002754.g001" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002754', 'info:doi/10.1371/journal.pcbi.1002754.g001');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002754', 'info:doi/10.1371/journal.pcbi.1002754.g001');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002754.g001&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002754?imageURI=info:doi/10.1371/journal.pcbi.1002754.g001" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002754', 'info:doi/10.1371/journal.pcbi.1002754.g001');"><span>Figure 1. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/fig[1]/caption[1]/title[1]">The highly similar UbcH6 and UbcH8 E2 enzymes interact with different RING E3 domains cohorts.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/fig[1]/caption[1]/p[1]"><strong>A.</strong> Sequence alignment of human UbcH6 (UBE2E1) and UbcH8 (UBE2E2). Secondary structures and E3-interface regions (H1, L1 and L2) are indicated. Arrows indicate E2-specific residues; asterisks indicate conserved residues involved in bridging. N-terminal extensions are indicated as shaded. <strong>B.</strong> E3-interaction profiles of <em>wt</em> UbcH6, UbcH8 and UbcH8 D113E (see <a href="#s4">Materials and Methods</a> section for details).</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002754.g001</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002754.g001/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002754.g001/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002754.g001.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002754.g001/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002754.g001.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/p[2]">To understand how these minimal variations in amino acids composition can cause divergent E3 interaction patterns, residues in UbcH8 were substituted with their counterparts from UbcH6 and experimentally tested by yeast two-hybrid screening for interaction against 250 human isolated E3-RING domains. In agreement with our previous study <a href="#pcbi.1002754-vanWijk2">[13]</a>, wild type (WT) UbcH6 binds 24 E3s while UbcH8 weakly interacts with two RING-finger domains. Interestingly, the UbcH8 E66D and UbcH8 D113E mutations allow interactions in a similar rich profile as UbcH6, even though the sequence alterations were minimal and did not induce any major changes in physicochemical side-chain properties (<a href="#pcbi-1002754-g001"><strong><em>Figure 1B</em></strong></a> and <strong><em>Supplemental <a href="#pcbi.1002754.s001">figure S1A</a></em></strong>). In contrast, UbcH8 S111T did not display an interaction profile similar to UbcH6, indicating that the amino acid at this position is less crucial in determining E2-E3 selectivity (<strong><em>Supplemental <a href="#pcbi.1002754.s001">figure S1A</a></em></strong>). Intriguingly, the reverse substitutions, UbcH6 D58E and UbcH6 E105D, did not affect the selectivity profile of UbcH6 (<strong><em>Supplemental <a href="#pcbi.1002754.s001">figure S1B</a></em></strong>). Thus, minimal differences in side-chain characteristics (the presence of a single methylene moiety) can profoundly change the E3 binding profiles of strictly conserved E2 enzymes.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/p[3]">To investigate the underlying molecular mechanisms at the origin of these differences, the structural environment of the differentiating residues in the unbound structures of both E2 enzymes was evaluated in more detail. Structural analysis of the respective PDB files (UbcH6: PDBid 3BZH; UbcH8; PDBid 1Y6L) revealed that the side-chains of H1 D58/E66 are remote from and not pointing toward the E3 interaction interface. Because of this, we decided to concentrate on the L1 D-to-E substitution. Inspection of UbcH6/UbcH8 E105 and D113 revealed that both amino acids are surface-exposed with their side-chains pointing toward the predicted E2-E3 interaction surface.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/p[4]">To dissect potential effects of the D-to-E substitution at the E2-E3 interface, E2 structures were studied in complex with the E3 RING domain. The RING-finger domain of the ubiquitin ligase TOPORS, previously reported to interact with UbcH6 but not with UbcH8, was used. Since at present, there are no experimental structures of UbcH6 or UbcH8 in complex with a RING domain, we used existing E2-E3 structures as templates, combining three-dimensional alignments, protein threading and refinement in explicit solvent using HADDOCK <a href="#pcbi.1002754-deVries1">[18]</a>, <a href="#pcbi.1002754-deVries2">[19]</a>, to generate models of UbcH6-TOPORS and UbcH8-TOPORS that were free of steric clashes or any specific problems within the interface. They both look very similar at the macromolecular level (<strong><em>Supplemental <a href="#pcbi.1002754.s002">figure S2</a></em></strong>). Interestingly, both E2-E3 structures vary only in their intermolecular electrostatic contributions (UbcH6-TOPORS: −249±28 kcal/mol vs. UbcH8-TOPORS: −195±40 kcal/mol). The model of UbcH6-TOPORS reveals that E105 directly interacts with a positively charged patch on TOPORS, forming an intermolecular salt-bridge with K33 that may stabilize the interaction (<strong><em>Supplemental <a href="#pcbi.1002754.s002">figure S2A</a></em></strong>). In contrast, the interface between UbcH8 and TOPORS lacks this intermolecular salt-bridge, since the shorter side-chain of D113 in UbcH8 seems unable to interact with K33 in TOPORS (<strong><em>Supplemental <a href="#pcbi.1002754.s002">figure S2B</a></em></strong>). Further analysis of the intermolecular electroscatic energy component of each amino acid at the interface reveals that the E105/D113 difference is indeed one of the major contributions to the difference in electrostatic energy in the HADDOCK models.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/p[5]">To further study the impact of the D-to-E substitution, extended molecular dynamics (MD) simulations of the free forms UbcH6 and Ubch8 were performed. Cross-RMSD values indicated no significant conformational changes (<a href="#pcbi-1002754-g002"><strong><em>Figure 2A</em></strong></a>). Similarly, electrostatic potential maps of UbcH6 and UbcH8 did not reveal any differences, neither for the original structures nor for snapshots extracted from the MD trajectories (<a href="#pcbi-1002754-g002"><strong><em>Figure 2B</em></strong></a>). These results indicate that the observed changes in E3 interaction patterns upon the D-to-E substitution cannot be explained by simple alterations in electrostatic potentials or major conformational rearrangements of the E2 enzymes. The lack of apparent energetic and/or conformational differences between those E2 enzymes made us look into the internal dynamics within and around their interaction surface. We therefore studied the potential role of neighboring residues on the side-chain conformations of E105/D113. Throughout the molecular dynamics simulations, the distances between surrounding residues and the central E105/D113 were monitored, focusing in particular on a salt-bridge network involving E105/D113 and a number of residues outside the interface. This analysis revealed a subtle equilibrium between two conformations in L1 carrying the E105/D113 residues (<a href="#pcbi-1002754-g003"><strong><em>Figure 3A</em></strong></a>). First, an <em>“open”</em> or <em>binding-competent</em> conformation was observed that enables access of the E105/D113 residue for RING-interaction. Second, a <em>“bridged”</em> or <em>binding-impaired state</em> could be found, in which the side-chain of E105/D113 is hijacked by the adjacent residue K109/K117. As a direct consequence, E105/D113 cannot interact with the RING and points away from the interaction surface. In both UbcH6 and UbcH8, the side-chain of K109/K117, respectively, plays a central role in controlling the equilibrium by forming an intramolecular salt-bridge with E105/D113, respectively. Interestingly, the lysine at this position is highly conserved among other members of the E2 superfamily and has previously been implicated in establishing E2-E3 specificity <a href="#pcbi.1002754-vanWijk1">[10]</a>. K109/K117 plays thus a crucial role in this equilibrium by shuttling between two intra-molecular salt-bridges: one between K109/K117 and E105/D113, resulting in the “bridged” binding-impaired conformation, and the second between K109/K117 and D137/D145, releasing thereby E105/D113 to adopt the “open” binding-competent conformation (<a href="#pcbi-1002754-g003"><strong><em>Figure 3A</em></strong></a>). Apart from K109/K117, residues D137/D145 are also highly conserved among members of the E2 superfamily. Interestingly, residues D137/D145 and K109/K117 are all remote from the interaction surface, emphasizing that non-interface residues can also be involved in controlling E2-E3 interactions.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/fig[2]"><a name="pcbi-1002754-g002" id="pcbi-1002754-g002" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002754?imageURI=info:doi/10.1371/journal.pcbi.1002754.g002" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002754', 'info:doi/10.1371/journal.pcbi.1002754.g002');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002754', 'info:doi/10.1371/journal.pcbi.1002754.g002');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002754.g002&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/fig[2]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002754?imageURI=info:doi/10.1371/journal.pcbi.1002754.g002" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002754', 'info:doi/10.1371/journal.pcbi.1002754.g002');"><span>Figure 2. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/fig[2]/caption[1]/title[1]">Study of electrostatic potentials and conformational stability of UbcH6 and UbcH8 enzymes.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/fig[2]/caption[1]/p[1]"><strong>A</strong>. MD simulation cross profiles of UbcH6 and UbcH8 depicting cross-RMSDs calculated over all E2s Cαs and Cβs in the same trajectory. <strong>B</strong>. Electrostatic potentials mapped onto the solvent accessible surface of UbcH6 and UbcH8. Two views of each protein are shown (low electron density: blue; high electron density: red; neutral: white). The electrostatic potential surfaces were determined using the Adaptive Poisson-Boltzmann Solver package (APBS) <a href="#pcbi.1002754-Baker1">[37]</a> within PyMOL <a href="#pcbi.1002754-Schrdinger1">[38]</a>.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002754.g002</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002754.g002/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002754.g002/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002754.g002.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002754.g002/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002754.g002.TIF"></span> TIFF)
+                  </a></li></ul></div></div><div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/fig[3]"><a name="pcbi-1002754-g003" id="pcbi-1002754-g003" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002754?imageURI=info:doi/10.1371/journal.pcbi.1002754.g003" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002754', 'info:doi/10.1371/journal.pcbi.1002754.g003');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002754', 'info:doi/10.1371/journal.pcbi.1002754.g003');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002754.g003&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/fig[3]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002754?imageURI=info:doi/10.1371/journal.pcbi.1002754.g003" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002754', 'info:doi/10.1371/journal.pcbi.1002754.g003');"><span>Figure 3. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/fig[3]/caption[1]/title[1]">Properties of the E2 intra-molecular salt-bridge network.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/fig[3]/caption[1]/p[1]"><strong>A.</strong> Atomic view of the UbcH6/UbcH8 intra-molecular salt-bridge network that controls E105/D113 positioning and E3 binding. Images were generated with the PyMOL Molecular Graphics System, Version 1.3 <a href="#pcbi.1002754-Schrdinger1">[38]</a>. <strong>B.</strong> Dynamics of the intra-molecular salt-bridge network. Depicted are E2-specific distances between the indicated side-chains during a 20 ns MD trajectory. Curves were smoothened using a 100 ps running average window.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002754.g003</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002754.g003/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002754.g003/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002754.g003.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002754.g003/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002754.g003.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/p[6]">The dynamics of this salt-bridge network was further studied for both E2 enzymes by monitoring the distances between E105-K109 and K109-D137 in UbcH6 and D113-K117 and K117-D145 in UbcH8. We observed a slightly higher population of the binding-impaired conformation (D113-K117 salt-bridge formed) in UbcH8 WT than UbcH6 WT. Furthermore, the exchange toward the open form seems to be more frequent in UbcH6 WT (<a href="#pcbi-1002754-g003"><strong><em>Figure 3B</em></strong></a>). More importantly, this analysis revealed that the distances are anti-correlated: the central K109/K117 is bound either to E105/D113 or to D137/D145 (<a href="#pcbi-1002754-g003"><strong><em>Figure 3B</em></strong></a>). This was confirmed by calculating the normalized correlation coefficient between the distances E105-K109 (respectively D113-K117) and K109-D137 (respectively K117-D145) as <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002754.e001&amp;representation=PNG"></span>. This analysis gives correlation coefficients of −0.82 and −0.89 for UbcH6 and UbcH8, respectively, confirming numerically this anticorrelation of the distances.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/p[7]">The observed differences between the two E2 enzymes are clearly not sufficient to explain the experimental differences in selectivity profile. Still the MD simulations were key in identifying the network components. From these observations, we hypothesized that differences in side-chain length introduced by the D-to-E mutation are able to gently shift the balance of the labile conformational equilibrium between the open (binding-competent) and the bridged (binding-impaired) conformations. Accordingly, the key in controlling E3 interaction profiles between UbcH6 and UbcH8 should reside in the subtle intra-molecular dynamics of residues in L1, which, in turn, are influenced by residues remotely located from the interaction surface that are part of the identified salt-bridge network. If this hypothesis is true, then mutating residues in this network should also have impact on the selectivity profile of these E2s, something that can be experimentally tested.</p>
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/title[1]">Validation of network components</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[1]">The hypothesis of a side-chain equilibrium controlling UbcH8 and UbcH6 E2 interactions with E3 RING-finger domains was tested experimentally by perturbing key residues involved in the intra-molecular salt-bridge network.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[2]">First, the significance of K117 was assessed in UbcH8, since K117 was predicted to play a central role in alternatively contacting D113 and D145, thereby, preventing D113 of interacting with the RING domain. By substituting UbcH8 K117 with a histidine, the E3 interaction pattern of UbcH8 was reverted to that of UbcH6 (<a href="#pcbi-1002754-g004"><strong><em>Figure 4A</em></strong></a>). Histidine was chosen in order to maintain the total charge of the system. Note that, since the intracellular pH of yeast has been found to be around 5.5 in most growth phases, it can be expected that the solvent-exposed histidine side-chains are protonated <a href="#pcbi.1002754-Imai1">[20]</a>. The result of this substitution is that the positively charged K117 side-chain is replaced by the shorter imidazole side-chain of histidine. This conservative mutation, K117H, does no longer allow a favorable salt-bridge formation with D113 due to the more rigid histidine side-chain, leaving the latter free to interact with the RING domain. This indeed yielded an interaction pattern that resembles that of UbcH6. In contrast, UbcH8 K117R preserves the UbcH8 interaction profile because arginine, which resembles lysine in terms of length and charge, is still able to bridge D113, shielding it away from interacting with the E3 (<a href="#pcbi-1002754-g004"><strong><em>Figure 4A</em></strong></a>). These experimentally validated observations confirm the central role of K117 of UbcH8 as a regulator of the orientation of D113 and D145 and thereby as a regulator of RING interactions.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]"><a name="pcbi-1002754-g004" id="pcbi-1002754-g004" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002754?imageURI=info:doi/10.1371/journal.pcbi.1002754.g004" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002754', 'info:doi/10.1371/journal.pcbi.1002754.g004');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002754', 'info:doi/10.1371/journal.pcbi.1002754.g004');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002754.g004&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002754?imageURI=info:doi/10.1371/journal.pcbi.1002754.g004" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002754', 'info:doi/10.1371/journal.pcbi.1002754.g004');"><span>Figure 4. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]/caption[1]/title[1]">Validation of the dynamic salt-bridge network that controls RING E3 interaction selectivity.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]/caption[1]/p[1]"><strong>A.</strong> Perturbation of critical network components displaces E105/D113 and controls E3 binding. Mutagenesis of strictly conserved residues that mediate the bridging status of D113 in UbcH8 were mutated to challenge the MD predictions (see main text and Material and Methods section for details). <strong>B.</strong> Schematic representation of the “open” and “bridged” conformations of the intra-molecular network controlling E3 interactions. Indicated are E2-specific residues as well as the conserved network residues that mediate E3 binding.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002754.g004</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002754.g004/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002754.g004/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002754.g004.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002754.g004/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002754.g004.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[3]">We next investigated the role of D145, the most remote (as seen from the E3 interaction site) component of the network. Interaction screening of an UbcH8 D145K mutant demonstrates that D145K interacts in a similar manner as UbcH8 WT (<a href="#pcbi-1002754-g004"><strong><em>Figure 4A</em></strong></a>). The introduced charge repulsion between D145K and K113 reinforces the bridging between K117 and D113, locking the latter into a “closed” salt-bridged conformation preventing RING-contacts.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[4]">In contrast, the introduction of D145E in UbcH8 alters the interaction profile of UbcH8 WT to that of UbcH6 WT. Here, the longer glutamine side-chain can more effectively contact K117, forming a stable salt-bridge, and consequently freeing D113 for forming contacts with RING. To ascertain that this indeed involves D113, the double mutant UbcH8 D113A/D145E was also characterized, showing the loss of the previously gained E3 interactions (<a href="#pcbi-1002754-g004"><strong><em>Figure 4A</em></strong></a>). These results also indicate that both ASP and GLU at position 113 are binding competent, <em>provided they are not stabilized in their closed conformation by intra-molecular salt-bridge formation</em>, highlighting again the key role of this salt-bridge network.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[5]">Taken together, these results point toward a delicate network of intra-molecular salt-bridges that dynamically control the positioning of a crucial E3-interacting residue (schematically represented in <a href="#pcbi-1002754-g004"><strong><em>Figure 4B</em></strong></a>). Residues located in the classical E2-E3 interface, as well as those that are more distantly located dynamically control the positioning of K117 that acts as a gatekeeper for the negatively charged hot-spot residue capable of mediating E3 interactions. While pH-dependent <a href="#pcbi.1002754-DiGiammarino1">[21]</a> or phosphorylation <a href="#pcbi.1002754-Ferreon1">[22]</a> regulatory mechanisms have been described previously, the subtle equilibrium identified here does not involve any change in net charge, but originates from a minimal difference of a single methylene group along a side-chain.</p>
+
+</div>
+
+<div id="section3" xpathLocation="/article[1]/body[1]/sec[3]"><a id="s3" name="s3" toc="s3" title="Discussion"></a><h3 xpathLocation="noSelect">Discussion&nbsp;<a href="#top">Top</a></h3><p xpathLocation="/article[1]/body[1]/sec[3]/p[1]">Although the catalytic UBC-fold of E2 enzymes is characterized by high levels of sequence and structural similarities, it is adapted to selectively recognize RING-finger domains to allow transfer of Ub to substrates <a href="#pcbi.1002754-Deshaies1">[2]</a>, <a href="#pcbi.1002754-Joazeiro1">[23]</a>. By comparing sequence and structure of two highly similar E2 enzymes with their global RING-finger interaction patterns, in combination with molecular dynamics simulations, we were able to identify an intra-molecular network of salt-bridges that actively control RING interactions. Perturbation of components of this dynamic network in combination with Y2H screening of interactions subsequently confirmed its crucial role in controlling the interaction specificity. Residue K109/K117 was identified to play a crucial role within this network. It binds in an exclusive manner either E105/D113 or D137/D145. This lysine appears to be strictly conserved among E2 enzymes. In UbcH5B, for example, the corresponding lysine residue at this position is the central K63, which has been intimately linked to UbcH5B selectivity within the UbcH5B-CNOT4 RING-interaction <a href="#pcbi.1002754-Winkler1">[15]</a>, <a href="#pcbi.1002754-Dominguez1">[24]</a>. Interestingly, UbcH5B K63E failed to interact with the WT CNOT4 RING-finger domain, but this could be fully restored by incorporating the charge-swapping D48K/E49K substitutions in CNOT4 <a href="#pcbi.1002754-Winkler1">[15]</a>. Although K63 interacts directly with D48/E49, this is not the case for K109/K117, indicating that even among conserved residues there are different ways of involvement in generating selectivity and E2-E3 pairing. Additionally, the most remote component of the identified salt-bridge network, D137/D145 is also conserved in the E2 superfamily, but it is not directly involved in RING interactions. The demonstration in this work that mutations at this position can switch selectivity emphasizes that E2-E3 interaction specificity can be a consequence of a subtle, dynamic interplay between interface and non-interface residues.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/p[2]">In the majority of E2 enzymes, residues involved in establishing E3 interaction specificity are not concentrated in a single hotspot, but dispersed over the N-terminal helix one and two relatively flexible and divergent loop regions (L1 and L2) <a href="#pcbi.1002754-Deshaies1">[2]</a>, <a href="#pcbi.1002754-Wenzel1">[11]</a>. Mutagenesis of these residues can abolish or modulate E2-E3 specificity <a href="#pcbi.1002754-vanWijk1">[10]</a>, <a href="#pcbi.1002754-Wenzel1">[11]</a>, <a href="#pcbi.1002754-Winkler1">[15]</a>. Apart from sequence information, additional structural characteristics are affecting RING selectivity, like the length of H1, the flexibility of L1 and L2 and the triangular distances between these elements <a href="#pcbi.1002754-Burroughs1">[12]</a>, <a href="#pcbi.1002754-Dominguez1">[24]</a>, <a href="#pcbi.1002754-Winn1">[25]</a>. Comparing the sequences of UbcH6 and UbcH8 reveals additional amino acid differences at several key positions in these regions. One of them, D58/E66, lies within H1 and it is not orientated toward the E2-E3 interface. D58/E66 is in close proximity to T144/152 and S146/154, which are solvent exposed and directly interacting with RING domains. Therefore, D58/E66 might affect E3 interactions either indirectly through T144/152 and S146/154 or via a repositioning of helix H1. Indeed, the linker region that connects H1 with the rest of the E2 enzyme is found to be flexible <a href="#pcbi.1002754-Houben1">[26]</a> and D58/E66 might be involved in a hinge-like mechanism that might allow some conformational freedom of H1, which influences the distances between the three triangle points and thereby RING-interactions.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/p[3]">Finally, the N-terminal extension of the tested E2 enzymes, not present in the crystal structures, might also affect their E3 binding preference. This could explain why reverse mutations in UbcH6 that mimic UbcH8 did not restore the E3 interaction profile of UbcH8. The presence of another intermolecular salt-bridge in the UbcH6-TOPORS complex generated by HADDOCK, involving the residues LYS43 (UbcH6) and GLU28 (TOPORS) (data not shown), could explain why UbcH6 E105D did not affect the selectivity profile of UbcH6. This salt-bridge cannot be formed with UbcH8, where LYS43 is replaced by ALA51 in the sequence. Comparing the sequences of UbcH6 and UbcH8 indeed reveals amino acid differences at several key positions in this N-terminal extension known to be primarily involved in the interaction with the E1 ubiquitin-activating enzyme, but also to play a role in E3 interaction selectivity.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/p[4]">We should note that Y2H screening of physical protein-protein interactions between E2 enzymes and E3 RING-finger domains does not directly address biological functionality, e.g. the ability to transfer the activated Ub. However, we previously demonstrated that E2-RING E3 interactions found by LexA-B42 yeast two-hybrid assays are good predictors for enzymatic functionality <a href="#pcbi.1002754-vanWijk2">[13]</a> and therefore believe that the results presented here are also relevant in a functional context. It is unlikely that minor alterations in side-chain characteristics described in this work would affect protein stability <em>in vivo</em> (and our <em>in silico</em> results are supporting this). In addition, a recent systematic analysis of interaction dynamics across different technologies reported that high-throughput yeast two-hybrid is the only available technology for detecting transient interactions on a large scale <a href="#pcbi.1002754-Das1">[27]</a>, which support the recourse to this technique to unravel labile E2-E3 interactions.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/p[5]">Despite their high percentage of identity, it has been reported that UbcH6 plays a major role in ubiquitin-conjugation while UbcH8 has only a minor role in ubiquitination but rather is the key conjugating enzyme of the ISGylation pathway <a href="#pcbi.1002754-Durfee1">[17]</a>. This functional difference is in line with our observations <a href="#pcbi.1002754-vanWijk2">[13]</a> and supports the importance of an E3 selectivity mechanism that must differenciate not only among Ub-E3 ligases but also between Ub and UbL E3 ligases. Finally, this unreported dynamic intra-molecular salt-bridges network constitutes a new fundamental principle to understand the structural and evolutionary determinants of multispecific recognition.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/p[6]">In conclusion, a dynamic equilibrium of conserved residues in two highly homologous E2 enzymes was identified, that mediate RING interactions. Amino acids located both within the classical interaction surface as well as residues that are remote from this surface are actively involved in modulating side-chain conformations and thus availability for binding of crucial residues. The subtle and dynamic nature of the identified regulatory switch suggests new ways how protein interactions can be controlled. Furthermore, the observation that minimal sequence differences between two highly similar proteins can control protein interaction networks serves as a cautionary tale and raises new challenges for bioinformatics analysis and modeling of protein interactions. Finally, these findings indicate that the widely accepted sequence-structure-function paradigm should be extended to <em>sequence-structure-dynamics-function</em> relationship.</p>
+</div>
+
+<div id="section4" xpathLocation="/article[1]/body[1]/sec[4]"><a id="s4" name="s4" toc="s4" title="Materials and Methods"></a><h3 xpathLocation="noSelect">Materials and Methods&nbsp;<a href="#top">Top</a></h3>
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[1]/title[1]">Plasmids and mutagenesis</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[1]/p[1]">High-copy yeast-two hybrid (Y2H) shuttle plasmids expressing human UbcH6 (UBE2E1) and UbcH8(UBE2E2) and RING-finger domains of 250 human RING-type E3 ubiquitin protein ligases as fusions with the <em>E. coli</em> LexA binding domain (BD) or with the B42 acidic activator domain (AD), respectively are described in <a href="#pcbi.1002754-vanWijk2">[13]</a>. All amino acid substitutions were introduced using QuickChange II Site-Directed mutagenesis (Stratagene), according to the manufacturers' instructions. Appropriate mutagenesis was validated using DNA sequencing.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[2]/title[1]">Molecular modeling</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[2]/p[1]">Both wild-type and mutant UbcH6 and UbcH8 were used as starting structures. Wild-type UbcH6 and UbcH8 structures were taken from the Protein Data Bank (PDB) (PDB-ID <em>3bzh</em> and <em>1y6l</em>, respectively). Selective mutations were introduced with CNS (Crystallographic and NMR System) <a href="#pcbi.1002754-Brunger1">[28]</a>, keeping the Ca and the Cb atoms fixed to preserve the side-chain rotamer. Each system was simulated in duplicate for 200 ns using the GROMOS G53a6 force field <a href="#pcbi.1002754-Oostenbrink1">[29]</a> and GROMACS 4.5.5 package <a href="#pcbi.1002754-VanDerSpoel1">[30]</a>. The starting structures were solvated in a dodecahedral box with a minimal 14 Å distance between solute and box, resulting in systems of about 11500 SPC water molecules, 34 Na<sup>+</sup> and 36 Cl<sup>−</sup> ions (±1, depending on the system). Simulations were performed under periodic boundary conditions at 300 K and constant pressure (1 bar), using either Berendsen <a href="#pcbi.1002754-Berendsen1">[31]</a> or v-rescale <a href="#pcbi.1002754-Bussi1">[32]</a> coupling algorithms for temperature control and Berendsen <a href="#pcbi.1002754-Berendsen1">[31]</a> coupling algorithm for pressure control (with coupling constants of 0.1 and 1.0 ps, respectively). Bond lengths were constrained with the Linear Constraint Solver (LINCS) algorithm <a href="#pcbi.1002754-Hess1">[33]</a> and the time step for the integration was 2 fs. Electrostatic interactions were calculated using either the reaction-field method <a href="#pcbi.1002754-Tironi1">[34]</a> with a 14 Å cut-off distance or Particle Mesh Ewald (PME) <a href="#pcbi.1002754-Darden1">[35]</a>, <a href="#pcbi.1002754-Essmann1">[36]</a> with a 10 Å cut-off distance. Non-bonded interactions were updated every 10 fs (with a 10 Å cut-off distance for the short-range neighbor list). MD analysis was performed excluding the first 1 ns of the trajectories. All various simulation settings resulted in similar trajectories and only the results obtained with PME and v-rescale temperature control are discussed here.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[3]/title[1]">Structural alignment and refinement of E2-E3 complexes with HADDOCK</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[3]/p[1]">Structural models of UbcH6 and UbcH8 in complex with the RING-finger domain of TOPORS were generated by structural alignment of single components onto the bound structures of existing E2-E3 complexes (PDB: <em>1fbv</em>, <em>1ur6</em>, <em>3eb6</em>, <em>2c2v</em> and <em>2oxq</em>). The resulting models were subjected to a short refinement in explicit water using HADDOCK <a href="#pcbi.1002754-deVries1">[18]</a>, <a href="#pcbi.1002754-deVries2">[19]</a>.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[4]/title[1]">Electrostatic potentials of E2 enzymes</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[4]/p[1]">Electrostatic potential surfaces were determined using the Adaptive Poisson-Boltzmann Solver package (APBS) <a href="#pcbi.1002754-Baker1">[37]</a> within Pymol (version 1.3) <a href="#pcbi.1002754-Schrdinger1">[38]</a>.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[5]/title[1]">Yeast two-hybrid analysis</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[5]/p[1]">Manipulation of yeast cells and two-hybrid techniques are described in <a href="#pcbi.1002754-vanWijk2">[13]</a>. Briefly, WT and mutant LexA-E2 fusions were co-transformed together with the pSH18-34 LacZ reporter plasmid in EGY48α cells. To evaluate the effects of E2 mutants on human RING-type interactions, 250 sequence-verified B42-RING constructs were arrayed in EGY48a cells. Mating between α and A cells was performed on non-selective Yeast Peptone Dextrose (YPD)-medium (24 hours at 30°C). Diploids were selected for 48 hours on synthetic complete (SC) medium lacking the amino acids histidine, tryptophan and uracil (HWU<sup>−</sup> medium) by manual transfer of yeast spots using a 384-well replicator pinning tool (V &amp; P Scientific, San Diego). Putative interactions were assessed in triplicate by growing diploids on SC HWU<sup>−</sup> medium supplemented with 5-bromo-4-chloro-3-indolyl β-D-galactopyranoside (X-gal) or on SC HWUL<sup>−</sup> (idem as HWU<sup>−</sup> but also lacking leucine), including either galactose or glucose as main carbon source. Quantification of interactions was done after 72 hours as reported earlier <a href="#pcbi.1002754-vanWijk2">[13]</a>.</p>
+
+</div>
+
+<div id="section5" xpathLocation="/article[1]/body[1]/sec[5]"><a id="s5" name="s5" toc="s5" title="Supporting Information"></a><h3 xpathLocation="noSelect">Supporting Information&nbsp;<a href="#top">Top</a></h3><a name="pcbi.1002754.s001" id="pcbi.1002754.s001"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002754.s001">Figure S1. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[1]/caption[1]/p[1]"><strong>Effects of reverse substitutions for UbcH8 and UbcH6 determined on global patterns of E3 interactions.</strong> <strong>A.</strong> E3-interaction profiles of UbcH8 E66D and S111T. <strong>B.</strong> E3-interaction profiles of UbcH6 D58E and E105D.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[1]/caption[1]/p[2]">(TIF)</p>
+<a name="pcbi.1002754.s002" id="pcbi.1002754.s002"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002754.s002">Figure S2. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[2]/caption[1]/p[1]"><strong>Models of UbcH6 and UbcH8 bound to the E3 RING-finger TOPORS domain.</strong> <strong>A.</strong> Cartoon representation of the UbcH6-TOPORS model (UbcH6: cyan; TOPORS: magenta). <strong>B.</strong> Cartoon representation of the UbcH8-TOPORS model (UbcH8: green; TOPORS: magenta). Images were generated using the PyMOL Molecular Graphics System, Version 1.3 <a href="#pcbi.1002754-Schrdinger1">[38]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[2]/caption[1]/p[2]">(TIF)</p>
+</div>
+
+
+
+
+
+<div xpathLocation="noSelect"><a id="ack" name="ack" toc="ack" title="Acknowledgments"></a><h3 xpathLocation="noSelect">Acknowledgments&nbsp;<a href="#top">Top</a></h3>
+<p xpathLocation="/article[1]/back[1]/ack[1]/p[1]">The authors thank Prof. Rolf Boelens (University Utrecht) for helpful discussions.</p>
+</div><div class="contributions"><a id="authcontrib" name="authcontrib" toc="authcontrib" title="Author Contributions"></a><h3 xpathLocation="noSelect">Author Contributions&nbsp;<a href="#top">Top</a></h3><p xpathLocation="noSelect">Conceived and designed the experiments: SJLvW ASJM SJdV HTMT AMJJB. Performed the experiments: SJLvW ASJM. Analyzed the data: SJLvW ASJM SJdV HTMT AMJJB. Contributed reagents/materials/analysis tools: HTMT AMJJB. Wrote the paper: SJLvW ASJM SJdV HTMT AMJJB.</p></div><div xpathLocation="noSelect"><a id="references" name="references" toc="references" title="References"></a><h3 xpathLocation="noSelect">References&nbsp;<a href="#top">Top</a></h3><ol class="references" xpathLocation="noSelect"><li xpathLocation="noSelect"><a name="pcbi.1002754-Yamada1" id="pcbi.1002754-Yamada1"></a>Yamada T, Bork P (2009) Evolution of biomolecular networks: lessons from metabolic and protein interactions. Nat Rev Mol Cell Biol 10: 791–803. <a class="find" href="/article/findArticle.action?citedArticleID=6020729">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-Deshaies1" id="pcbi.1002754-Deshaies1"></a>Deshaies RJ, Joazeiro CA (2009) RING domain E3 ubiquitin ligases. Annu Rev Biochem 78: 399–434. <a class="find" href="/article/findArticle.action?citedArticleID=6020731">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-Dye1" id="pcbi.1002754-Dye1"></a>Dye BT, Schulman BA (2007) Structural mechanisms underlying posttranslational modification by ubiquitin-like proteins. Annu Rev Biophys Biomol Struct 36: 131–150. <a class="find" href="/article/findArticle.action?citedArticleID=6020733">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-Pickart1" id="pcbi.1002754-Pickart1"></a>Pickart CM (2001) Mechanisms underlying ubiquitination. Annu Rev Biochem 70: 503–533. <a class="find" href="/article/findArticle.action?citedArticleID=6020735">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-Rape1" id="pcbi.1002754-Rape1"></a>Rape M (2009) Ubiquitin, infinitely seductive: symposium on the many faces of ubiquitin. EMBO Rep 10: 558–562. <a class="find" href="/article/findArticle.action?citedArticleID=6020737">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-Jin1" id="pcbi.1002754-Jin1"></a>Jin J, Li X, Gygi SP, Harper JW (2007) Dual E1 activation systems for ubiquitin differentially regulate E2 enzyme charging. Nature 447: 1135–1138. <a class="find" href="/article/findArticle.action?citedArticleID=6020739">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-Chiu1" id="pcbi.1002754-Chiu1"></a>Chiu YH, Sun Q, Chen ZJ (2007) E1-L2 activates both ubiquitin and FAT10. Mol Cell 27: 1014–1023. <a class="find" href="/article/findArticle.action?citedArticleID=6020741">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-Ye1" id="pcbi.1002754-Ye1"></a>Ye Y, Rape M (2009) Building ubiquitin chains: E2 enzymes at work. Nat Rev Mol Cell Biol 10: 755–764. <a class="find" href="/article/findArticle.action?citedArticleID=6020743">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-Markson1" id="pcbi.1002754-Markson1"></a>Markson G, Kiel C, Hyde R, Brown S, Charalabous P, et al. (2009) Analysis of the human E2 ubiquitin conjugating enzyme protein interaction network. Genome Res 19: 1905–1911. <a class="find" href="/article/findArticle.action?citedArticleID=6020745">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-vanWijk1" id="pcbi.1002754-vanWijk1"></a>van Wijk SJ, Timmers HT (2010) The family of ubiquitin-conjugating enzymes (E2s): deciding between life and death of proteins. Faseb J 24: 981–993. <a class="find" href="/article/findArticle.action?citedArticleID=6020747">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-Wenzel1" id="pcbi.1002754-Wenzel1"></a>Wenzel DM, Stoll KE, Klevit RE (2011) E2s: structurally economical and functionally replete. Biochem J 433: 31–42. <a class="find" href="/article/findArticle.action?citedArticleID=6020749">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-Burroughs1" id="pcbi.1002754-Burroughs1"></a>Burroughs AM, Jaffee M, Iyer LM, Aravind L (2008) Anatomy of the E2 ligase fold: implications for enzymology and evolution of ubiquitin/Ub-like protein conjugation. J Struct Biol 162: 205–218. <a class="find" href="/article/findArticle.action?citedArticleID=6020751">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-vanWijk2" id="pcbi.1002754-vanWijk2"></a>van Wijk SJ, de Vries SJ, Kemmeren P, Huang A, Boelens R, et al. (2009) A comprehensive framework of E2-RING E3 interactions of the human ubiquitin-proteasome system. Mol Syst Biol 5: 295. <a class="find" href="/article/findArticle.action?citedArticleID=6020753">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-Wickliffe1" id="pcbi.1002754-Wickliffe1"></a>Wickliffe KE, Lorenz S, Wemmer DE, Kuriyan J, Rape M (2011) The mechanism of linkage-specific ubiquitin chain elongation by a single-subunit E2. Cell 144: 769–781. <a class="find" href="/article/findArticle.action?citedArticleID=6020755">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-Winkler1" id="pcbi.1002754-Winkler1"></a>Winkler GS, Albert TK, Dominguez C, Legtenberg YI, Boelens R, et al. (2004) An altered-specificity ubiquitin-conjugating enzyme/ubiquitin-protein ligase pair. J Mol Biol 337: 157–165. <a class="find" href="/article/findArticle.action?citedArticleID=6020757">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-Huang1" id="pcbi.1002754-Huang1"></a>Huang DT, Zhuang M, Ayrault O, Schulman BA (2008) Identification of conjugation specificity determinants unmasks vestigial preference for ubiquitin within the NEDD8 E2. Nat Struct Mol Biol 15: 280–287. <a class="find" href="/article/findArticle.action?citedArticleID=6020759">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-Durfee1" id="pcbi.1002754-Durfee1"></a>Durfee LA, Kelley ML, Huibregtse JM (2008) The basis for selective E1-E2 interactions in the ISG15 conjugation system. J Biol Chem 283: 23895–23902. <a class="find" href="/article/findArticle.action?citedArticleID=6020761">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-deVries1" id="pcbi.1002754-deVries1"></a>de Vries SJ, van Dijk M, Bonvin AM (2010) The HADDOCK web server for data-driven biomolecular docking. Nat Protoc 5: 883–897. <a class="find" href="/article/findArticle.action?citedArticleID=6020763">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-deVries2" id="pcbi.1002754-deVries2"></a>de Vries SJ, van Dijk AD, Krzeminski M, van Dijk M, Thureau A, et al. (2007) HADDOCK versus HADDOCK: new features and performance of HADDOCK2.0 on the CAPRI targets. Proteins 69: 726–733. <a class="find" href="/article/findArticle.action?citedArticleID=6020765">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-Imai1" id="pcbi.1002754-Imai1"></a>Imai T, Ohno T (1995) Measurement of yeast intracellular pH by image processing and the change it undergoes during growth phase. J Biotechnol 38: 165–172. <a class="find" href="/article/findArticle.action?citedArticleID=6020767">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-DiGiammarino1" id="pcbi.1002754-DiGiammarino1"></a>DiGiammarino EL, Lee AS, Cadwell C, Zhang W, Bothner B, et al. (2002) A novel mechanism of tumorigenesis involving pH-dependent destabilization of a mutant p53 tetramer. Nat Struct Biol 9: 12–16. <a class="find" href="/article/findArticle.action?citedArticleID=6020769">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-Ferreon1" id="pcbi.1002754-Ferreon1"></a>Ferreon JC, Lee CW, Arai M, Martinez-Yamout MA, Dyson HJ, et al. (2009) Cooperative regulation of p53 by modulation of ternary complex formation with CBP/p300 and HDM2. Proc Natl Acad Sci U S A 106: 6591–6596. <a class="find" href="/article/findArticle.action?citedArticleID=6020771">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-Joazeiro1" id="pcbi.1002754-Joazeiro1"></a>Joazeiro CA, Wing SS, Huang H, Leverson JD, Hunter T, et al. (1999) The tyrosine kinase negative regulator c-Cbl as a RING-type, E2-dependent ubiquitin-protein ligase. Science 286: 309–312. <a class="find" href="/article/findArticle.action?citedArticleID=6020773">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-Dominguez1" id="pcbi.1002754-Dominguez1"></a>Dominguez C, Bonvin AM, Winkler GS, van Schaik FM, Timmers HT, et al. (2004) Structural model of the UbcH5B/CNOT4 complex revealed by combining NMR, mutagenesis, and docking approaches. Structure 12: 633–644. <a class="find" href="/article/findArticle.action?citedArticleID=6020775">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-Winn1" id="pcbi.1002754-Winn1"></a>Winn PJ, Religa TL, Battey JN, Banerjee A, Wade RC (2004) Determinants of functionality in the ubiquitin conjugating enzyme family. Structure 12: 1563–1574. <a class="find" href="/article/findArticle.action?citedArticleID=6020777">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-Houben1" id="pcbi.1002754-Houben1"></a>Houben K, Dominguez C, van Schaik FM, Timmers HT, Bonvin AM, et al. (2004) Solution structure of the ubiquitin-conjugating enzyme UbcH5B. J Mol Biol 344: 513–526. <a class="find" href="/article/findArticle.action?citedArticleID=6020779">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-Das1" id="pcbi.1002754-Das1"></a>Das J, Mohammed J, Yu H (2012) Genome scale analysis of interaction dynamics reveals organization of biological networks. Bioinformatics 28: 1873–8. <a class="find" href="/article/findArticle.action?citedArticleID=6020781">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-Brunger1" id="pcbi.1002754-Brunger1"></a>Brunger AT (2007) Version 1.2 of the Crystallography and NMR system. Nat Protoc 2: 2728–2733. <a class="find" href="/article/findArticle.action?citedArticleID=6020783">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-Oostenbrink1" id="pcbi.1002754-Oostenbrink1"></a>Oostenbrink C, Soares TA, van der Vegt NF, van Gunsteren WF (2005) Validation of the 53A6 GROMOS force field. Eur Biophys J 34: 273–284. <a class="find" href="/article/findArticle.action?citedArticleID=6020785">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-VanDerSpoel1" id="pcbi.1002754-VanDerSpoel1"></a>Van Der Spoel D, Lindahl E, Hess B, Groenhof G, Mark AE, et al. (2005) GROMACS: fast, flexible, and free. J Comput Chem 26: 1701–1718. <a class="find" href="/article/findArticle.action?citedArticleID=6020787">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-Berendsen1" id="pcbi.1002754-Berendsen1"></a>Berendsen HJ, Postma JPM, Van Gunsteren WF, DiNola A, Haak JR (1984) Molecular dynamics with coupling to an external bath. J Chem Phys 81: 3684–3690. <a class="find" href="/article/findArticle.action?citedArticleID=6020789">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-Bussi1" id="pcbi.1002754-Bussi1"></a>Bussi G, Donadio D, Parrinello M (2007) Canonical sampling through velocity rescaling. J Chem Phys 126: 014101. <a class="find" href="/article/findArticle.action?citedArticleID=6020791">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-Hess1" id="pcbi.1002754-Hess1"></a>Hess B, Bekker H, Berendsen HJ, Fraaije JGEM (1997) LINCS: A linear constraint solver for molecular simulations. J Comput Chem 18: 1463–1472. <a class="find" href="/article/findArticle.action?citedArticleID=6020793">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-Tironi1" id="pcbi.1002754-Tironi1"></a>Tironi IG, Sperb R, Smith PE, van Gunsteren WF (1995) A generalized reaction field method for molecular dynamics simulations. J Chem Phys 102: 5451–5459. <a class="find" href="/article/findArticle.action?citedArticleID=6020795">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-Darden1" id="pcbi.1002754-Darden1"></a>Darden T, York D, Pedersen L (1993) Particle mesh Ewald: An N [center-dot] log(N) method for Ewald sums in large systems. J Chem Phys 98: 10089–10092. <a class="find" href="/article/findArticle.action?citedArticleID=6020797">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-Essmann1" id="pcbi.1002754-Essmann1"></a>Essmann U, Perera L, Berkowitz ML, Darden T, Lee H, et al. (1995) A smooth particle mesh Ewald method. J Chem Phys 103: 8577–8593. <a class="find" href="/article/findArticle.action?citedArticleID=6020799">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-Baker1" id="pcbi.1002754-Baker1"></a>Baker NA, Sept D, Joseph S, Holst MJ, McCammon JA (2001) Electrostatics of nanosystems: application to microtubules and the ribosome. Proc Natl Acad Sci U S A 98: 10037–10041.
+        doi:
+        <a href="http://dx.doi.org/10.1073/pnas.181342398">10.1073/pnas.181342398</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020801">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002754-Schrdinger1" id="pcbi.1002754-Schrdinger1"></a>Schrödinger LLC (2010) The PyMOL Molecular Graphics System, Version 1.3. </li></ol></div>
+
+</div></div>
+<div style="display:none">
+<div dojoType="ambra.widget.RegionalDialog" id="AnnotationDialog" style="padding:0;margin:0;">
+  <div class="dialog annotate">
+    <div class="tipu" id="dTipu"></div>
+    <div class="comment">
+      <h5><span>Post Your Note (For Public Viewing)</span></h5>
+      <div class="posting pane">
+        <form name="createAnnotation" id="createAnnotation" method="post" action="">
+          <input type="hidden" name="target" value="info:doi/10.1371/journal.pcbi.1002754" />
+          <input type="hidden" name="startPath" value="" />
+          <input type="hidden" name="startOffset" value="" />
+          <input type="hidden" name="endPath" value="" />
+          <input type="hidden" name="endOffset" value="" />
+          <input type="hidden" name="commentTitle" id="commentTitle" value="" />
+          <input type="hidden" name="comment" id="commentArea" value="" />
+          <input type="hidden" name="ciStatement" id="statementArea" value="" />
+          <input type="hidden" name="isCompetingInterest" id="isCompetingInterest" value="false" />
+          <input type="hidden" name="noteType" id="noteType" value="" />
+          <fieldset>
+            <legend>Compose Your Note</legend>
+            <span id="submitMsg" class="error" style="display:none;"></span>
+            <table class="layout">
+              <tr>
+                <td>
+                  <label for="cNoteType">This is a </label><select name="cNoteType" id="cNoteType"><option value="note">note</option><option value="correction">correction</option></select>
+                  <span id="cdls" style="visibility:hidden;margin-left:0.3em; white-space:nowrap;"><a href="/static/commentGuidelines.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501?target=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002754#corrections">What are corrections?</a></span>
+                  <label for="cTitle"><span class="none">Enter your note title</span><!-- error message text <em>A title is required for all public notes</em>--></label>
+                  <input type="text" name="cTitle" id="cTitle" value="Enter your note title..." class="title" alt="Enter your note title..." />
+                  <label for="cArea"><span class="none">Enter your note</span><!-- error message text <em>Please enter your note</em>--></label>
+                  <textarea name="cArea" id="cArea" value="Enter your note..." alt="Enter your note...">Enter your note...</textarea>
+                  <input type="hidden" name="isPublic" value="true" />
+                </td>
+                <td>&nbsp;</td>
+                <td class="coi">
+                  <fieldset>
+                    <legend>Declare any competing interests.</legend>
+                    <ul>
+                      <li><label><input id="isCompetingInterestNo" type="radio" checked="checked" name="competingInterest" value="false"  /> No, I don't have any competing interests to declare.</label></li>
+                      <li><label><input id="isCompetingInterestYes" type="radio" name="competingInterest" value="true"  /> Yes, I have competing interests to declare (enter below):</label></li>
+                    </ul>
+                    <textarea name="ciStatementArea" id="ciStatementArea" disabled value="Enter your competing interests..." alt="Enter your competing interests...">Enter your competing interests...</textarea>
+                  </fieldset>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3" class="buttons">
+                  <input type="button" value="Cancel" title="Click to close and cancel" id="btn_cancel"/>
+                  <input type="button" value="Submit" title="Click to post your note publicly" id="btn_post" class="primary"/>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <p>Notes and Corrections can include the following markup tags:</p>
+                  <p><strong>Emphasis:</strong> ''<em>italic</em>''&nbsp;&nbsp;'''<strong>bold</strong>'''&nbsp;&nbsp;'''''<strong><em>bold italic</em></strong>'''''</p>
+                  <p><strong>Other:</strong> ^^<sup>superscript</sup>^^&nbsp;&nbsp;~~<sub>subscript</sub>~~</p>
+                </td>
+              </tr>
+            </table>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <div class="tip" id="dTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialog" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="caTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      Please follow our <a href="/static/commentGuidelines.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501">guidelines for notes and comments</a> and review our <a href="/static/competing.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501">competing interests policy</a>. Comments that do not conform to our guidelines will be promptly removed and the user account disabled. The following must be avoided:
+      <ul>
+        <li>Remarks that could be interpreted as allegations of misconduct</li>
+        <li>Unsupported assertions or statements</li>
+        <li>Inflammatory or insulting language</li>
+      </ul>
+      <form name="contextActionForm" id="contextActionForm" class="clearfix buttons" method="post" action="">
+        <input type="button" name="Continue" value="Continue" id="ContextActionDialogContinueButton" onmouseup="ambra.displayAnnotationContext.startComment(event);" title="Add a note to this text" class="primary"/>
+        <input type="button" name="Cancel" value="Cancel" id="ContextActionDialogCancelButton" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);" title="Close this Window"/>
+      </form>
+    </div>
+    <div class="tip" id="caTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogNotLogged" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canlTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You must be logged in to add a note to an article.
+      You may log in by <a onmousedown="ambra.displayAnnotationContext.disconnect(event);" href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002754">clicking here</a> or <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">cancel this note</a>.
+    </div>
+    <div class="tip" id="canlTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogBadSelection" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canBDTipu"></div>
+    <div class="contextActionContent">
+      <h5 class="annotation icon"><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You cannot annotate this area of the document. <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">Close</a>
+    </div>
+    <div class="tip" id="canBDTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogBadRangeSelection" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canbrTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You cannot create an annotation that spans different sections of the document; please adjust your selection.<br/>
+      <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">Close</a>
+    </div>
+    <div class="tip" id="canbrTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.RegionalDialog" id="CommentDialog" style="padding:0;margin:0;">
+  <div class="dialog preview">
+    <div class="tipu" id="cTipu"></div>
+    <div class="btn close" id="btn_close" title="Click to close"><a title="Click to close">Close</a></div>
+    <div id="cmtContainer" class="comment">
+      <h6 id="viewCmtTitle"></h6>
+      <div class="detail" id="viewCmtDetail"></div>
+      <div class="contentwrap" id="viewComment"></div>
+      <div class="contentwrap" id="viewCIStatement"></div>
+      <div class="detail" id="viewLink">
+        <!--<a href="#" class="commentary icon" title="Click to view full thread and respond">View all responses</a>
+        <a href="#" class="respond tooltip" title="Click to respond to this posting">Respond to this</a>-->
+      </div>
+    </div>
+    <div class="tip" id="cTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.RegionalDialog" id="CommentDialogMultiple" style="padding:0;margin:0;">
+  <div class="dialog multiple preview">
+    <div class="tipu" id="mTipu"></div>
+    <div class="btn close" id="btn_close_multi" title="Click to close"><a title="Click to close">Close</a></div>
+    <ol id="multilist"></ol>
+    <br/>
+    <div id="multidetail"></div>
+    <div class="tip" id="mTip"></div>
+  </div>
+</div>
+
+
+<div dojoType="dijit.Dialog" id="Rating">
+  <div class="dialog annotate">
+    <div class="tipu" id="dTipu"></div>
+    <div class="comment">
+      <h5><span>Rate This Article</span></h5>
+      <div class="instructions">Please follow our <a  href="/static/ratingGuidelines.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501">guidelines for rating</a> and review our <a href="/static/competing.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501">competing interests policy</a>. Comments that do not conform to our guidelines will be promptly removed and the user account disabled. The following must be avoided:
+        <ol>
+          <li>Remarks that could be interpreted as allegations of misconduct</li>
+          <li>Unsupported assertions or statements</li>
+          <li>Inflammatory or insulting language</li>
+        </ol>
+      </div>
+      <div class="posting pane">
+        <form name="ratingForm" id="ratingForm" method="post" action="">
+          <input type="hidden" name="articleURI" value="info:doi/10.1371/journal.pcbi.1002754" />  
+          <input type="hidden" name="commentTitle" id="commentTitle" value="" />
+          <input type="hidden" name="comment" id="commentArea" value="" />
+          <input type="hidden" name="ciStatement" id="statementArea" value="" />
+          <input type="hidden" name="isCompetingInterest" id="isCompetingInterest" value="" />
+          <fieldset>
+            <legend>Compose Your Annotation</legend>
+            <span id="submitRatingMsg" class="error" style="display:none;"></span>
+            <table class="layout">
+              <tr>
+                <td rowspan="2">
+                  <label for="insight">Insight</label>
+                  <ul class="star-rating rating edit" title="Rate insight" id="rateInsight">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Bland" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'insight', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Profound" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="insight" title="insight" value="" />
+                  <label for="reliability">Reliability</label>
+                  <ul class="star-rating rating edit" title="Rate reliability" id="rateReliability">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Tenuous" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'reliability', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Unassailable" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="reliability" title="reliability" value="" />
+                  <label for="style">Style</label>
+                  <ul class="star-rating rating edit" title="Rate style" id="rateStyle">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Crude" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'style', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Elegant" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="style" title="style" value="" />
+                  <label for="cTitle"><span class="none">Enter your comment title</span><!-- error message text <em>A title is required for all public annotations</em>--></label>
+                  <input type="text" name="cTitle" id="cTitle" value="Enter your comment title..." class="title" alt="Enter your comment title..." />
+                  <label for="cArea"><span class="none">Enter your comment</span><!-- error message text <em>Please enter your annotation</em>--></label>
+                  <textarea name="cArea" id="cArea" value="Enter your comment..." alt="Enter your comment...">Enter your comment...</textarea>
+                </td>
+                <td rowspan="2">&nbsp;</td>
+                <td class="coi">
+                  <fieldset>
+                    <legend>Declare any competing interests.</legend>
+                    <ul>
+                      <li><label><input id="isCompetingInterestNo" type="radio" name="competingInterest" value="false"  /> No, I don't have any competing interests to declare.</label></li>
+                      <li><label><input id="isCompetingInterestYes" type="radio" name="competingInterest" value="true"  /> Yes, I have competing interests to declare (enter below):</label></li>
+                    </ul>
+                    <textarea name="ciStatementArea" id="ciStatementArea" disabled value="Enter your competing interests..." title="Enter your competing interests...">Enter your competing interests...</textarea>
+                  </fieldset>
+                </td>
+              </tr>
+              <tr>
+                <td class="buttons">
+                  <input type="button" value="Cancel" title="Click to close and cancel" id="btn_cancel_rating"/>
+                  <input type="button" value="Submit" title="Click to post your annotation publicly" id="btn_post_rating" class="primary"/>
+                </td>
+              </tr>
+              <tr>
+                  <td colspan="3"><p>Ratings can include the following markup tags:</p>
+                  <p><strong>Emphasis:</strong> ''<em>italic</em>''&nbsp;&nbsp;'''<strong>bold</strong>'''&nbsp;&nbsp;'''''<strong><em>bold italic</em></strong>'''''</p>
+                  <p><strong>Other:</strong> ^^<sup>superscript</sup>^^&nbsp;&nbsp;~~<sub>subscript</sub>~~</p></td>
+              </tr>
+            </table>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div dojoType="ambra.widget.LoadingCycle" id="LoadingCycle" class="loadingCycler">
+  <img src="/images/loading.gif" width="58" height="58" title="Loading..." />
+</div>
+<div dojoType="dijit.Dialog" id="LightBox">
+
+    <!-- start main window wrapper-->
+    <div class="figure-window-wrapper">
+
+      <!--start film strip Wrapper-->
+      <div class="figure-window-nav-wrapper">
+        <div id="figure-window-nav"></div>
+      </div><!--end figure-window-nav-wrapper-->
+
+      <!-- start figure container-->
+      <div class="figure-window-container">
+
+        <!-- start/end figure viewer-->
+        <div id="figure-window-viewer">
+          <img id="figure-window-img" class="large"/>
+        </div>
+
+        <!-- start/end figure doi-->
+        <div id="figure-window-doi"></div>
+
+        <!--start figure title-box-->
+        <div id="figure-window-title-box" class="figure-window-title-less">
+          <span id="figure-window-title"></span>
+          <div id="figure-window-more" class="figure-window-more" onclick="return ambra.lightBox.showMoreOrLess();"></div>
+          <div id="figure-window-description"></div>
+        </div><!--end figure title-box-->
+
+        <!--start figure download-->
+        <div class="figure-window-download">
+          <ul>
+            <li class="download icon"><strong>Download:</strong>
+              <a id="figure-window-ppt" title="Click to download PowerPoint slide of this image">PowerPoint
+                slide</a> |
+              <a id="figure-window-large" title="Click to download a larger version of this image">larger image
+                (<span id="figure-window-large-size"></span>)</a> |
+              <a id="figure-window-tiff" title="Click to download a original version of this image">original image
+                (<span id="figure-window-tiff-size"></span>)</a>
+            </li>
+          </ul>
+        </div><!--end figure download-->
+
+        <!--start/end of close, context, next and previous button-->
+        <div class="figure-window-close" onclick="return ambra.lightBox.hide();"></div>
+        <div class="figure-window-context" onclick="return ambra.lightBox.showInContext();"></div>
+        <div id="figure-window-previous" onclick="return ambra.lightBox.showPrevious();"></div>
+        <div id="figure-window-next" onclick="return ambra.lightBox.showNext();"></div>
+
+      </div><!--end figure-window-container-->
+
+    </div><!--end figure-window-wrapper-->
+
+</div><!--end dijit.Dialog-->
+</div>
+</div>
+<!-- end : main contents -->
+
+</div>
+<!-- end : container -->	
+
+<!-- begin : footer -->
+<div id="ftr">
+  <p><span>All site content, except where otherwise noted, is licensed under a <a href="http://creativecommons.org/licenses/by/2.5/" title="Creative Commons Attribution License 2.5" tabindex="200">Creative Commons Attribution License</a>.</span></p>
+  <ul>
+    <li><a href="/static/privacy.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501" title="PLOS Privacy Statement" tabindex="501">Privacy Statement</a></li>
+    <li><a href="/static/terms.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501" title="PLOS Terms of Use" tabindex="502">Terms of Use</a></li>
+    <li><a href="http://www.plos.org/advertise/" title="Advertise With PLOS" tabindex="503">Advertise</a></li>
+    <li><a href="http://www.plos.org/about/media-inquiries/" title="PLOS Embargo Policy" tabindex="504">Media Inquiries</a></li>
+    <li><a href="http://www.plos.org/publish/order-reprints/" title="PLOS in Print" tabindex="505">PLOS in Print</a></li>
+    <li><a href="/static/sitemap.action;jsessionid=8A51CDC26D87E84FFB0F312ADEAA0501" title="Site Map" tabindex="506">Site Map</a></li>
+    <li><a href="http://www.plos.org" title="PLOS.org" tabindex="507">PLOS.org</a></li>
+  </ul>
+  <div class="powered">
+  <ul>
+    <li><a href="/static/releaseNotes.action" title="Ambra | Release Notes">Ambra 2.4.9</a></li>
+    <li>Managed Colocation provided by <a href="http://www.isc.org/" title="Internet Systems Consortium">Internet Systems Consortium</a>.</li>
+  </ul>
+  </div>
+</div>
+<!-- end : footer -->
+<script type="text/javascript">
+  var _namespace="";
+    var loggedIn = false;
+
+  var almHost = "http://alm.plos.org";
+  var solrHost = "http://api.plos.org/search";
+  var pubGetHost = "http://pubget.com/widgetizer/links_hash";
+  var appContext = "";
+
+  // Safari v3.1.1 "console.debug" issue (http://trac.dojotoolkit.org/ticket/6849) workaround
+  if (/3[\.0-9]+ Safari/.test(navigator.appVersion)) {
+    window.console = {
+      origConsole: window.console,
+      log: function(s){ this.origConsole.log(s); },
+      info: function(s){ this.origConsole.info(s); },
+      error: function(s){ this.origConsole.error(s); },
+      warn: function(s){ this.origConsole.warn(s); }
+    };
+  }
+
+  var djConfig = {
+    // don't debug for IE - as dojo's firebug lite module is error prone in IE
+    isDebug: false,
+    parseOnLoad: true
+  };
+
+  var bamGAID = 'UA-338393-1';
+  var bamGAVPV = location.pathname + location.search + location.hash;
+</script>
+<script type="text/javascript" src="/javascript/dojo/dojo/dojo.js?v=pzlwVCPPo+oJC12upPgJrJ5EG_k"></script>
+<script type="text/javascript" src="/javascript/dojo/dojo/ambra.js?v=Y8JM0CVD9YwjC99M_jvbcRTiGhY"></script>
+<script type="text/javascript" src="/javascript/init_global.js?v=fF03pfG3r+Nkj_czZ8ORg8o5sNM"></script>
+<script type="text/javascript" src="/javascript/init_article.js?v=qzBD_a7nKbeMM2xNUtB3vckN+Zc"></script>
+<script type="text/javascript" src="/javascript/init_ratings.js?v=seKykuS0X33CQGS7Lj+8FtBy5Uw"></script>
+<script type="text/javascript" src="/javascript/init_lightBox.js?v=vJRLPy7RRX8Zp31Ogcm3i+TA4f8"></script>
+<script type="text/javascript" src="/javascript/init_article_body.js?v=YgFei2xCi50CahwaPbSsxUxUsmw"></script>
+<script type="text/javascript" src="/javascript/init_article_rhc.js?v=djtbTMOagorKE6ZPrkCwufAfWWI"></script>
+<script type="text/javascript" src="/javascript/alm.js?v=1tH9JZ8uDtXspXssGJDr8O+jBOs"></script>
+<script type="text/javascript" src="/javascript/reporting/articleViewsCumulative.js?v=RQ+gCrcAl0dBeLbmokxgQZTGYYA"></script>
+<script type="text/javascript" src="/javascript/check_twitter.js?v=Hc0sH1W9xIu0qhqxWPD4c1u50K4"></script>
+<script type="text/javascript" src="/javascript/init_googleAnalytics.js?v=yCD4h9PHGI0dsefmuWDlMn7pHog"></script>
+
+</body>
+</html>
+

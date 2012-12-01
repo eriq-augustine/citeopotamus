@@ -1,0 +1,6 @@
+TITLE: Melanopsin-containing retinal ganglion cells: architecture, projections, and intrinsic photosensitivity.
+AUTHORS: Hattar S, Liao HW, Takao M, Berson DM, Yau KW
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The primary circadian pacemaker, in the suprachiasmatic nucleus (SCN) of the mammalian brain, is photoentrained by light signals from the eyes through the retinohypothalamic tract. Retinal rod and cone cells are not required for photoentrainment. Recent evidence suggests that the entraining photoreceptors are retinal ganglion cells (RGCs) that project to the SCN. The visual pigment for this photoreceptor may be melanopsin, an opsin-like protein whose coding messenger RNA is found in a subset of mammalian RGCs. By cloning rat melanopsin and generating specific antibodies, we show that melanopsin is present in cell bodies, dendrites, and proximal axonal segments of a subset of rat RGCs. In mice heterozygous for tau-lacZ targeted to the melanopsin gene locus, beta-galactosidase-positive RGC axons projected to the SCN and other brain nuclei involved in circadian photoentrainment or the pupillary light reflex. Rat RGCs that exhibited intrinsic photosensitivity invariably expressed melanopsin. Hence, melanopsin is most likely the visual pigment of phototransducing RGCs that set the circadian clock and initiate other non-image-forming visual functions.

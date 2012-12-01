@@ -1,0 +1,4 @@
+Clock controls circadian period in isolated suprachiasmatic nucleus neurons.
+Herzog ED, Takahashi JS, Block GD
+Abstract:
+The suprachiasmatic nucleus (SCN) is the master circadian pacemaker in mammals, and one molecular regulator of circadian rhythms is the Clock gene. Here we studied the discharge patterns of SCN neurons isolated from Clock mutant mice. Long-term, multielectrode recordings showed that heterozygous Clock mutant neurons have lengthened periods and that homozygous Clock neurons are arrhythmic, paralleling the effects on locomotor activity in the animal. In addition, cells in dispersals expressed a wider range of periods and phase relationships than cells in explants. These results suggest that the Clock gene is required for circadian rhythmicity in individual SCN cells and that a mechanism within the SCN synchronizes neurons and restricts the range of expressed circadian periods.

@@ -1,0 +1,4 @@
+Stop that cell! Beta-arrestin-dependent chemotaxis: a tale of localized actin assembly and receptor desensitization.
+DeFea KA
+Abstract:
+Beta-arrestins have recently emerged as key regulators of directed cell migration or chemotaxis. Given their traditional role as mediators of receptor desensitization, one theory is that beta-arrestins contribute to cell polarity during chemotaxis by quenching the signal at the trailing edge of the cell. A second theory is that they scaffold signaling molecules involved in cytoskeletal reorganization to promote localized actin assembly events leading to the formation of a leading edge. This review addresses both models. It discusses studies demonstrating the involvement of beta-arrestins in chemotaxis both in vivo and in vitro as well as recent evidence that beta-arrestins directly bind and regulate proteins involved in actin reorganization.

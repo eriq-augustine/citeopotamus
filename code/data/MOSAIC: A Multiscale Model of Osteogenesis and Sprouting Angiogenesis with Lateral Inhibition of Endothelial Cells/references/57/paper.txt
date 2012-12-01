@@ -1,0 +1,4 @@
+Notch signaling: control of cell communication and cell fate.
+Lai EC
+Abstract:
+Notch is a transmembrane receptor that mediates local cell-cell communication and coordinates a signaling cascade present in all animal species studied to date. Notch signaling is used widely to determine cell fates and to regulate pattern formation; its dysfunction results in a tremendous variety of developmental defects and adult pathologies. This primer describes the mechanism of Notch signal transduction and how it is used to control the formation of biological patterns.

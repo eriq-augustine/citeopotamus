@@ -1,0 +1,6 @@
+TITLE: Synchronization of cellular clocks in the suprachiasmatic nucleus.
+AUTHORS: Yamaguchi S, Isejima H, Matsuo T, Okura R, Yagita K, Kobayashi M, Okamura H
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Individual cellular clocks in the suprachiasmatic nucleus (SCN), the circadian center, are integrated into a stable and robust pacemaker with a period length of about 24 hours. We used real-time analysis of gene expression to show synchronized rhythms of clock gene transcription across hundreds of neurons within the mammalian SCN in organotypic slice culture. Differentially phased neuronal clocks are topographically arranged across the SCN. A protein synthesis inhibitor set all cell clocks to the same initial phase and, after withdrawal, intrinsic interactions among cell clocks reestablished the stable program of gene expression across the assemblage. Na+-dependent action potentials contributed to establishing cellular synchrony and maintaining spontaneous oscillation across the SCN.

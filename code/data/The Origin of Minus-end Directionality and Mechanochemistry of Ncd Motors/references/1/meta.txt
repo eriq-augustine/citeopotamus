@@ -1,0 +1,6 @@
+TITLE: Kinesin and dynein superfamily proteins and the mechanism of organelle transport.
+AUTHORS: Hirokawa N
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Cells transport and sort proteins and lipids, after their synthesis, to various destinations at appropriate velocities in membranous organelles and protein complexes. Intracellular transport is thus fundamental to cellular morphogenesis and functioning. Microtubules serve as a rail on which motor proteins, such as kinesin and dynein superfamily proteins, convey their cargoes. This review focuses on the molecular mechanism of organelle transport in cells and describes kinesin and dynein superfamily proteins.

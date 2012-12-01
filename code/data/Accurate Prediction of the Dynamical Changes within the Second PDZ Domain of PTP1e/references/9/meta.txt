@@ -1,0 +1,6 @@
+TITLE: Application of a Theory of Enzyme Specificity to Protein Synthesis.
+AUTHORS: Koshland DE
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

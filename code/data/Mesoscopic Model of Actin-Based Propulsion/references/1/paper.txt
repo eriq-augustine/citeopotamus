@@ -1,0 +1,4 @@
+Cell migration: integrating signals from front to back.
+Ridley AJ, Schwartz MA, Burridge K, Firtel RA, Ginsberg MH, Borisy G, Parsons JT, Horwitz AR
+Abstract:
+Cell migration is a highly integrated multistep process that orchestrates embryonic morphogenesis; contributes to tissue repair and regeneration; and drives disease progression in cancer, mental retardation, atherosclerosis, and arthritis. The migrating cell is highly polarized with complex regulatory pathways that spatially and temporally integrate its component processes. This review describes the mechanisms underlying the major steps of migration and the signaling pathways that regulate them, and outlines recent advances investigating the nature of polarity in migrating cells and the pathways that establish it.

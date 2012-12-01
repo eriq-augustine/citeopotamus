@@ -1,0 +1,6 @@
+TITLE: The internal dynamics of globular proteins.
+AUTHORS: Karplus M, McCammon JA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

@@ -1,0 +1,4 @@
+Precise firing events are conserved across neurons.
+Reinagel P, Reid RC
+Abstract:
+Sensory neurons can respond to dynamic stimuli with temporally precise firing events. In the lateral geniculate nucleus (LGN) of the thalamus, we found previously that when a flickering visual stimulus was repeated, individual cells fired action potentials at the same time in every trial to within 1 msec. We now show that these precise firing events are also reproducible across cells of the same class. Therefore, the mechanisms for producing precise timing must be conserved within a cell class. Our results further suggest that cortical neurons would require only a few generic processing mechanisms to extract the fine temporal information available in their LGN inputs.

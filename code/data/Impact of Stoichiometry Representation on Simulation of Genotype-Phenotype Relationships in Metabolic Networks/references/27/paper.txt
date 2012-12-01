@@ -1,0 +1,4 @@
+Connecting extracellular metabolomic measurements to intracellular flux states in yeast.
+Mo ML, Palsson BO, Herrgård MJ
+Abstract:
+None

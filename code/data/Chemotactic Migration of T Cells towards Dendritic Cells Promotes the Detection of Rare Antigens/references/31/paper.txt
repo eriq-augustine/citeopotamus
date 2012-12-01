@@ -1,0 +1,4 @@
+Visualizing dendritic cell networks in vivo.
+Lindquist RL, Shakhar G, Dudziak D, Wardemann H, Eisenreich T, Dustin ML, Nussenzweig MC
+Abstract:
+In the steady state, dendritic cells (DCs) in the lymph node induce T cell tolerance to self antigens. Innate signals trigger the maturation of tissue DCs, which migrate into lymph nodes and activate T cells. To examine DCs in vivo, we produced transgenic mice whose DCs expressed enhanced yellow fluorescent protein. Two-photon microscopy of lymph nodes in live mice showed that most of the steady-state DCs were enmeshed in an extensive network and remained in place while actively probing adjacent T cells with their processes. Mature DCs were more motile than steady-state DCs and were rapidly dispersed and integrated into the sessile network, facilitating their interaction with migrating T cells.

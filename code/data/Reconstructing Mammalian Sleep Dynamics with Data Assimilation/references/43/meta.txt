@@ -1,0 +1,6 @@
+TITLE: Relation between observability and differential embeddings for nonlinear dynamics.
+AUTHORS: Letellier C, Aguirre LA, Maquet J
+TERMS:
+CATEGORIES:
+ABSTRACT:
+In the analysis of a scalar time series, which lies on an m-dimensional object, a great number of techniques will start by embedding such a time series in a d-dimensional space, with d>m. Therefore there is a coordinate transformation phi(s) from the original phase space to the embedded one. The embedding space depends on the observable s(t). In theory, the main results reached are valid regardless of s(t). In a number of practical situations, however, the choice of the observable does influence our ability to extract dynamical information from the embedded attractor. This may arise in problems in nonlinear dynamics such as model building, control and synchronization. To some degree, ease of success will depend on the choice of the observable simply because it is related to the observability of the dynamics. In this paper the observability matrix for nonlinear systems, which uses Lie derivatives, is revisited. It is shown that such a matrix can be interpreted as the Jacobian matrix of phi(s)--the map between the original phase space and the differential embedding induced by the observable--thus establishing a link between observability and embedding theory.

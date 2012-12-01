@@ -1,0 +1,6 @@
+TITLE: Pain mechanisms: a commentary on concepts and issues.
+AUTHORS: Perl ER
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

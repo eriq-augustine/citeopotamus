@@ -1,0 +1,6 @@
+TITLE: Validation of microarray-based resequencing of 93 worldwide mitochondrial genomes.
+AUTHORS: Hartmann A, Thieme M, Nanduri LK, Stempfl T, Moehle C, Kivisild T, Oefner PJ
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

@@ -1,0 +1,6 @@
+TITLE: The effect of intragenic recombination on the number of alleles in a finite population.
+AUTHORS: Strobeck C, Morgan K
+TERMS:
+CATEGORIES:
+ABSTRACT:
+A two-site infinite allele model is constructed to study the effect of intragenic recombination on the number of neutral alleles and the distribution of their frequencies in a finite population. The results of theory and Monte Carlo simulation of the two-site model demonstrate that intragenic recombination significantly increases the mean and variance of the number of alleles when the rates of mutation and recombination are as large as the reciprocal of the population size. Data from natural populations indicate that this may be a significant process in generating variation and determining its distribution.

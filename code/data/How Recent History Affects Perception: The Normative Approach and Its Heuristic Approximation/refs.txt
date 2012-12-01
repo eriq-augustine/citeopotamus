@@ -1,0 +1,34 @@
+[1]	Green DM, Swets JA (1966) Signal detection theory and psychophysics. Wiley. 455 p. 
+[2]	Macmillan NA, Creelman CD (2005) Detection theory: a user's guide. Cambridge University Press. 
+[3]	Knill DC, Richards W (1996) Perception as Bayesian Inference. In: Knill DC, Richards W, editors. Cambridge University Press. 
+[4]	Körding K (2007) Decision theory: what “should” the nervous system do? Science 318: 606–610. doi: 10.1126/science.1142998. 
+[5]	Berliner JE, Durlach NI, Braida LD (1977) Intensity perception. VII. Further data on roving-level discrimination and the resolution and bias edge effects. J Acoust Soc Am 61: 1577–1585. doi: 10.1121/1.381471. 
+[6]	Preuschhof C, Schubert T, Villringer A, Heekeren HR (2010) Prior Information biases stimulus representations during vibrotactile decision making. J Cognitive Neurosci 22: 875–887. doi: 10.1162/jocn.2009.21260. 
+[7]	Ashourian P, Loewenstein Y (2011) Bayesian inference underlies the contraction bias in delayed comparison tasks. PLoS ONE 6: e19551. doi: 10.1371/journal.pone.0019551. 
+[8]	Bull AR, Cuddy LL (1972) Recognition memory for pitch of fixed and roving stimulus tones. Atten Percept Psychophys 11: 105–109. doi: 10.3758/BF03212696. 
+[9]	Wickelgren WA (1969) Associative strength theory of recognition memory for pitch. J Math Psychol 6: 13–61. doi: 10.1016/0022-2496(69)90028-5. 
+[10]	Körding KP, Wolpert DM (2004) Bayesian integration in sensorimotor learning. Nature 427: 244–247. doi: 10.1038/nature02169. 
+[11]	Norris D (2006) The Bayesian reader: explaining word recognition as an optimal Bayesian decision process. Psychol Rev 113: 327–357. doi: 10.1037/0033-295X.113.2.327. 
+[12]	Wier CC, Jesteadt W, Green DM (1977) Frequency discrimination as a function of frequency and sensation level. J Acoust Soc Am 61: 178–184. doi: 10.1121/1.381251. 
+[13]	Dai H, Micheyl C (2011) Psychometric functions for pure-tone frequency discrimination. J Acoust Soc Am 130: 263–272. doi: 10.1121/1.3598448. 
+[14]	Ahissar M, Lubin Y, Putter-Katz H, Banai K (2006) Dyslexia and the failure to form a perceptual anchor. Nat Neurosci 9: 1558–1564. doi: 10.1038/nn1800. 
+[15]	Nahum M, Daikhin L, Lubin Y, Cohen Y, Ahissar M (2010) From comparison to classification: a cortical tool for boosting perception. J Neurosci 30: 1128–1136. doi: 10.1523/JNEUROSCI.1781-09.2010. 
+[16]	Holland MK, Lockhead GR (1968) Sequential effects in absolute judgments of loudness. Percept Psychophys 3: 409–414. doi: 10.3758/BF03205747. 
+[17]	Jesteadt W, Luce RD, Green DM (1977) Sequential effects in judgments of loudness. J Exp Psychol Hum Percept Perform 3: 92–104. 
+[18]	Purks SR, Callahan DJ, Braida LD, Durlach NI (1980) Intensity perception. X. Effect of preceding stimulus on identification performance. J Acoust Soc Am 67: 634–637. doi: 10.1121/1.383887. 
+[19]	Treisman M, Williams TC (1984) A theory of criterion setting with an application to sequential dependencies. Psychol Rev 91: 68–11. 
+[20]	Baird JC (1997) Sensation and judgment: complementarity theory of psychophysics. Mahwah, N.J.: Lawrence Erlbaum Associates. 
+[21]	Stewart N, Brown GDA (2004) Sequence effects in the categorization of tones varying in frequency. J Exp Psychol Learn 30: 416–430. doi: 10.1037/0278-7393.30.2.416. 
+[22]	Ulanovsky N, Las L, Farkas D, Nelken I (2004) Multiple time scales of adaptation in auditory cortex neurons. J Neurosci 24: 10440–10453. doi: 10.1523/JNEUROSCI.1905-04.2004. 
+[23]	Agus TR, Thorpe SJ, Pressnitzer D (2010) Rapid Formation of Robust Auditory Memories: Insights from Noise. Neuron 66: 610–618. doi: 10.1016/j.neuron.2010.04.014. 
+[24]	Chalk M, Seitz AR, Seriès P (2010) Rapidly learned stimulus expectations alter perception of motion. J Vis 10: 1–18. doi: 10.1167/10.8.2. 
+[25]	Chopin A, Mamassian P (2012) Predictive properties of visual adaptation. Curr Biol 22: 622–626. doi: 10.1016/j.cub.2012.02.021. 
+[26]	Neiman T, Loewenstein Y (2011) Reinforcement learning in professional basketball players. Nat Commun 2: 569. doi: 10.1038/ncomms1580. 
+[27]	Summerfield C, Behrens TE, Koechlin E (2011) Perceptual Classification in a Rapidly Changing Environment. Neuron 71: 725–736. doi: 10.1016/j.neuron.2011.06.022. 
+[28]	Trommershäuser J, Gepshtein S, Maloney LT, Landy MS, Banks MS (2005) Optimal compensation for changes in task-relevant movement variability. J Neurosci 25: 7169–7178. doi: 10.1523/JNEUROSCI.1906-05.2005. 
+[29]	Berliner JE, Durlach NI (1973) Intensity perception. IV. Resolution in roving-level discrimination. J Acoust Soc Am 53: 1270–1287. doi: 10.1121/1.1913465. 
+[30]	Hanks TD, Mazurek ME, Kiani R, Hopp E, Shadlen MN (2011) Elapsed decision time affects the weighting of prior probability in a perceptual decision task. J Neurosci 31: 6339–6352. doi: 10.1523/JNEUROSCI.5613-10.2011. 
+[31]	Jun JK, Miller P, Hernández A, Zainos A, Lemus L, et al. (2010) Heterogenous population coding of a short-term memory and decision task. J Neurosci 30: 916–929. doi: 10.1523/JNEUROSCI.2062-09.2010. 
+[32]	Bernacchia A, Seo H, Lee D, Wang X-J (2011) A reservoir of time constants for memory traces in cortical neurons. Nat Neurosci 14: 366–372. doi: 10.1038/nn.2752. 
+[33]	Tversky A, Kahneman D (1974) Judgment under Uncertainty: Heuristics and Biases. Science 185: 1124–1131. 
+[34]	Levitt H (1971) Transformed up-down methods in psychoacoustics. J Acoust Soc Am 49: 467–477. doi: 10.1121/1.1912375. 

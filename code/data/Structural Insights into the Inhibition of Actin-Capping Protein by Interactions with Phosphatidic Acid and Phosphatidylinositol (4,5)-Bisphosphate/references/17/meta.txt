@@ -1,0 +1,6 @@
+TITLE: An electrostatic/hydrogen bond switch as the basis for the specific interaction of phosphatidic acid with proteins.
+AUTHORS: Kooijman EE, Tieleman DP, Testerink C, Munnik T, Rijkers DT, Burger KN, de Kruijff B
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Phosphatidic acid (PA) is a minor but important phospholipid that, through specific interactions with proteins, plays a central role in several key cellular processes. The simple yet unique structure of PA, carrying just a phosphomonoester head group, suggests an important role for interactions with the positively charged essential residues in these proteins. We analyzed by solid-state magic angle spinning 31P NMR and molecular dynamics simulations the interaction of low concentrations of PA in model membranes with positively charged side chains of membrane-interacting peptides. Surprisingly, lysine and arginine residues increase the charge of PA, predominantly by forming hydrogen bonds with the phosphate of PA, thereby stabilizing the protein-lipid interaction. Our results demonstrate that this electrostatic/hydrogen bond switch turns the phosphate of PA into an effective and preferred docking site for lysine and arginine residues. In combination with the special packing properties of PA, PA may well be nature's preferred membrane lipid for interfacial insertion of positively charged membrane protein domains.

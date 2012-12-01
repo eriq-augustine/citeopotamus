@@ -1,0 +1,6 @@
+TITLE: From molecular to modular cell biology.
+AUTHORS: Hartwell LH, Hopfield JJ, Leibler S, Murray AW
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Cellular functions, such as signal transmission, are carried out by 'modules' made up of many species of interacting molecules. Understanding how modules work has depended on combining phenomenological analysis with molecular studies. General principles that govern the structure and behaviour of modules may be discovered with help from synthetic sciences such as engineering and computer science, from stronger interactions between experiment and theory in cell biology, and from an appreciation of evolutionary constraints.

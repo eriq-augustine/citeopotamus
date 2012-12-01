@@ -1,0 +1,6 @@
+TITLE: Genetic control of the cell division cycle in the fission yeast Schizosaccharomyces pombe.
+AUTHORS: Nurse P, Thuriaux P, Nasmyth K
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Twenty seven recessive temperature sensitive mutants have been isolated in Schizosaccharomyces pombe which are unable to complete the cell division cycle at the restrictive temperature. These mutants define 14 unlinked genes which are involved in DNA synthesis, nuclear division and cell plate formation. The products from most of these genes complete their function just before the cell cycle event in which they are involved. Physiological characterisation of the mutants has shown that DNA synthesis and nuclear division form a cycle of mutually dependent events which can operate in the absence of cell plate formation. Cell plate formation itself is usually dependent upon the completion of nuclear division.

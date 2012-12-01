@@ -1,0 +1,4 @@
+Synchrony-dependent propagation of firing rate in iteratively constructed networks in vitro.
+Reyes AD
+Abstract:
+The precise role of synchronous neuronal firing in signal encoding remains unclear. To examine what kinds of signals can be carried by synchrony, I reproduced a multilayer feedforward network of neurons in an in vitro slice preparation of rat cortex using an iterative procedure. When constant and time-varying frequency signals were delivered to the network, the firing of neurons in successive layers became progressively more synchronous. Notably, synchrony in the in vitro network developed even with uncorrelated input, persisted under a wide range of physiological conditions and was crucial for the stable propagation of rate signals. The firing rate was represented by a classical rate code in the initial layers, but switched to a synchrony-based code in the deeper layers.

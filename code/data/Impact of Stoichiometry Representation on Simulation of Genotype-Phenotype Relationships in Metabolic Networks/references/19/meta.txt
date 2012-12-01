@@ -1,0 +1,6 @@
+TITLE: Multidimensional optimality of microbial metabolism.
+AUTHORS: Schuetz R, Zamboni N, Zampieri M, Heinemann M, Sauer U
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Although the network topology of metabolism is well known, understanding the principles that govern the distribution of fluxes through metabolism lags behind. Experimentally, these fluxes can be measured by (13)C-flux analysis, and there has been a long-standing interest in understanding this functional network operation from an evolutionary perspective. On the basis of (13)C-determined fluxes from nine bacteria and multi-objective optimization theory, we show that metabolism operates close to the Pareto-optimal surface of a three-dimensional space defined by competing objectives. Consistent with flux data from evolved Escherichia coli, we propose that flux states evolve under the trade-off between two principles: optimality under one given condition and minimal adjustment between conditions. These principles form the forces by which evolution shapes metabolic fluxes in microorganisms' environmental context.

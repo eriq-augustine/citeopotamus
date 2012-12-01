@@ -1,0 +1,4 @@
+Quantifying information transfer by protein domains: analysis of the Fyn SH2 domain structure.
+Lenaerts T, Ferkinghoff-Borg J, Stricher F, Serrano L, Schymkowitz JW, Rousseau F
+Abstract:
+None

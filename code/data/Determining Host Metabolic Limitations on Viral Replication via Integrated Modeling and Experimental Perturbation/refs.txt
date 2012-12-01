@@ -1,0 +1,36 @@
+[1]	Maynard N, Birch E, Sanghvi J, Chen L, Gutschow M, et al. (2010) A forward-genetic screen and dynamic analysis of lambda phage host-dependencies reveals an extensive interaction network and a new anti-viral strategy. PLoS Genet 6: e1001017. doi: 10.1371/journal.pgen.1001017. 
+[2]	Qimron U, Marintcheva B, Tabor S, Richardson C (2006) Genomewide screens for Escherichia coli genes affecting growth of T7 bacteriophage. Proc Natl Acad Sci U S A 103: 19039. doi: 10.1073/pnas.0609428103. 
+[3]	Brass AL, Dykxhoorn DM, Benita Y, Yan N, Engelman A, et al. (2008) Identification of Host Proteins Required for HIV Infection Through a Functional Genomic Screen. Science 319: 921–926. doi: 10.1126/science.1152725. 
+[4]	König R, Zhou Y, Elleder D, Diamond TL, Bonamy GMC, et al. (2008) Global analysis of hostpathogen interactions that regulate early-stage HIV-1 replication. Cell 135: 49–60. 
+[5]	Zhou H, Xu M, Huang Q, Gates AT, Zhang XD, et al. (2008) Genome-Scale RNAi Screen for Host Factors Required for HIV Replication. Cell Host Microbe 4: 495–504. doi: 10.1016/j.chom.2008.10.004. 
+[6]	Brass AL, Huang IC, Benita Y, John SP, Krishnan MN, et al. (2009) The IFITM proteins mediate cellular resistance to inuenza A H1N1 virus, West Nile virus, and dengue virus. Cell 139: 1243–1254. 
+[7]	Karlas A, Machuy N, Shin Y, Pleissner KP, Artarini A, et al. (2010) Genome-wide RNAi screen identifies human host factors crucial for inuenza virus replication. Nature 463: 818–822. 
+[8]	König R, Stertz S, Zhou Y, Inoue A, Hoffmann HH, et al. (2010) Human host factors required for inuenza virus replication. Nature 463: 813–817. 
+[9]	Bragg JG, Chisholm SW (2008) Modeling the Fitness Consequences of a Cyanophage-Encoded Photosynthesis Gene. PLoS ONE 3: e3550. doi: 10.1371/journal.pone.0003550. 
+[10]	Clokie MRJ, Shan J, Bailey S, Jia Y, Krisch HM, et al. (2006) Transcription of a ‘photosynthetic’ T4-type phage during infection of a marine cyanobacterium. Environ Microbiol 8: 827–835. doi: 10.1111/j.1462-2920.2005.00969.x. 
+[11]	Maynard ND, Gutschow MV, Birch EW, Covert MW (2010) The virus as metabolic engineer. Biotechnol J 5: 686–694. doi: 10.1002/biot.201000080. 
+[12]	Maynard ND, Macklin DN, Kirkegaard K, Covert MW (2012) Competing pathways control host resistance to virus via tRNA modification and programmed ribosomal frameshifting. Mol Syst Biol 8: 1–13. doi: 10.1038/msb.2011.101. 
+[13]	Bogosian G (2006) Control of bacteriophage in commercial microbiology and fermentation facilities. In: Calendar R, Abedon S, editors. The Bacteriophages. Oxford University Press. 
+[14]	Hagens S, Loessner M (2010) Bacteriophage for biocontrol of foodborne pathogens: calculations and considerations. Curr Pharm Biotechnol 11: 58–68. doi: 10.2174/138920110790725429. 
+[15]	Endy D, Kong D, Yin J (1997) Intracellular kinetics of a growing virus: a genetically structured simulation for bacteriophage T7. Biotechnol Bioeng 55: 375–389. doi: 10.1002/(SICI)1097-0290(19970720)55:2<375::AID-BIT15>3.0.CO;2-G. 
+[16]	Endy D, You L, Yin J, Molineux I (2000) Computation, prediction, and experimental tests of fitness for bacteriophage T7 mutants with permuted genomes. Proc Natl Acad Sci U S A 97: 5375. doi: 10.1073/pnas.090101397. 
+[17]	Endy D (1997) Development and application of a genetically-structured simulation for bacteriophage T7 [PhD dissertation]. Hanover (New Hampshire): Thayer School of Engineering, Dartmouth College. 190p. 
+[18]	Varma A, Boesch BW, Palsson BO (1993) Stoichiometric interpretation of Escherichia coli glucose catabolism under various oxygenation rates. Appl Environ Microbiol 59: 2465–2473. 
+[19]	Reed JL, Vo TD, Schilling CH, Palsson BO (2003) An expanded genome-scale model of Escherichia coli K-12 (iJR904 GSM/GPR). Genome Biol 4: R54. 
+[20]	Feist AM, Henry CS, Reed JL, Krummenacker M, Joyce AR, et al. (2007) A genome-scale metabolic reconstruction for Escherichia coli K-12 MG1655 that accounts for 1260 ORFs and thermodynamic information. Mol Syst Biol 3: 121. doi: 10.1038/msb4100155. 
+[21]	Orth JD, Conrad TM, Na J, Lerman JA, Nam H, et al. (2011) A comprehensive genome-scale reconstruction of Escherichia coli metabolism–2011. Mol Syst Biol 7: 535. doi: 10.1038/msb.2011.65. 
+[22]	Covert MW, Palsson BØ (2002) Transcriptional regulation in constraints-based metabolic models of Escherichia coli. J Biol Chem 277: 28058–28064. doi: 10.1074/jbc.M201691200. 
+[23]	Raman K, Chandra N (2009) Flux balance analysis of biological systems: applications and challenges. Brief Bioinform 10: 435–449. doi: 10.1093/bib/bbp011. 
+[24]	Orth JD, Thiele I, Palsson BO (2010) What is ux balance analysis? Nat Biotechnol 28: 245–248. 
+[25]	Jain R, Srivastava R (2009) Metabolic investigation of host/pathogen interaction using MS2-infected Escherichia coli. BMC Syst Biol 3: 121. doi: 10.1186/1752-0509-3-121. 
+[26]	You L, Suthers P, Yin J (2002) Effects of Escherichia coli physiology on growth of phage T7 in vivo and in silico. J Bacteriol 184: 1888. doi: 10.1128/JB.184.7.1888-1894.2002. 
+[27]	Covert MW, Xiao N, Chen TJ, Karr JR (2008) Integrating metabolic, transcriptional regulatory and signal transduction models in Escherichia coli. Bioinformatics 24: 2044–2050. doi: 10.1093/bioinformatics/btn352. 
+[28]	Kutter E, Sulakvelidze A (2005) Bacteriophages. Biology and Applications. CRC. 
+[29]	Bremer H, Dennis PP (1996) Modulation of chemical composition and other parameters of the cell by growth rate. In: Escherichia coli and Salmonella: cellular and molecular biology, volume 2. pp. 1553–1569. 
+[30]	Hadas H, Einav M, Fishov I (1997) Bacteriophage T4 development depends on the physiology of its host Escherichia coli. Microbiology 143: 179–185. doi: 10.1099/00221287-143-1-179. 
+[31]	Studier F (1969) The genetics and physiology of bacteriophage T7. Virology 39: 562–574. doi: 10.1016/0042-6822(69)90104-4. 
+[32]	Hopper JE, Ko G, Young ET (1975) Comparative analysis of the in vivo and in vitro expression of bacteriophage T7 messenger RNAs during infection of Escherichia coli. J Mol Biol 94: 539–554. doi: 10.1016/0022-2836(75)90320-4. 
+[33]	Covert MW, Knight EM, Reed JL, Herrgard MJ, Palsson BO (2004) Integrating high-throughput and computational data elucidates bacterial networks. Nature 429: 92–96. doi: 10.1038/nature02456. 
+[34]	Lee SJ, Richardson CC (2010) Molecular Basis for Recognition of Nucleoside Triphosphate by Gene 4 Helicase of Bacteriophage T7. J Biol Chem 285: 31462–31471. doi: 10.1074/jbc.M110.156067. 
+[35]	Yamada Y, Whitaker PA, Nakada D (1974) Early to late switch in bacteriophage T7 development: functional decay of T7 early messenger RNA. J Mol Biol 89: 293–303. doi: 10.1016/0022-2836(74)90520-8. 
+[36]	Studier FW, Dunn JJ (1983) Organization and expression of bacteriophage T7 DNA. Cold Spring Harb Symp Quant Biol 47 Pt 2: 999–1007. doi: 10.1101/SQB.1983.047.01.114. 

@@ -1,0 +1,4 @@
+The retinal ganglion cell mosaic defines orientation columns in striate cortex.
+Soodak RE
+Abstract:
+A computer simulation was used to demonstrate that the tangential organization of orientation columns is a natural consequence of the orderly projection of the mosaic of retinal ganglion cells onto the visual cortex. Parameters of the simulation were taken from published anatomical and electrophysiological data, and the resulting columnar organization of the simulated visual cortex shows many similarities with observations from animals. The model is able to account for a variety of experimental observations, including the presence of orientation columns in visually inexperienced animals.

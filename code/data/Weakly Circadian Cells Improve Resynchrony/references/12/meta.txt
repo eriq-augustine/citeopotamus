@@ -1,0 +1,6 @@
+TITLE: Characterization of orderly spatiotemporal patterns of clock gene activation in mammalian suprachiasmatic nucleus.
+AUTHORS: Foley NC, Tong TY, Foley D, Lesauter J, Welsh DK, Silver R
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

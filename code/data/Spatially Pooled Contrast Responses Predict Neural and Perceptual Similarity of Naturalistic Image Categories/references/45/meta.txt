@@ -1,0 +1,6 @@
+TITLE: The VideoToolbox software for visual psychophysics: transforming numbers into movies.
+AUTHORS: Pelli DG
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The VideoToolbox is a free collection of two hundred C subroutines for Macintosh computers that calibrates and controls the computer-display interface to create accurately specified visual stimuli. High-level platform-independent languages like MATLAB are best for creating the numbers that describe the desired images. Low-level, computer-specific VideoToolbox routines control the hardware that transforms those numbers into a movie. Transcending the particular computer and language, we discuss the nature of the computer-display interface, and how to calibrate and control it.

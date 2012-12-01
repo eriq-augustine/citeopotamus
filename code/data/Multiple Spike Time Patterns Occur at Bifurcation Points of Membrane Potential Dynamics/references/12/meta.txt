@@ -1,0 +1,6 @@
+TITLE: Efficient discrimination of temporal patterns by motion-sensitive neurons in primate visual cortex.
+AUTHORS: Buracas GT, Zador AM, DeWeese MR, Albright TD
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Although motion-sensitive neurons in macaque middle temporal (MT) area are conventionally characterized using stimuli whose velocity remains constant for 1-3 s, many ecologically relevant stimuli change on a shorter time scale (30-300 ms). We compared neuronal responses to conventional (constant-velocity) and time-varying stimuli in alert primates. The responses to both stimulus ensembles were well described as rate-modulated Poisson processes but with very high precision (approximately 3 ms) modulation functions underlying the time-varying responses. Information-theoretic analysis revealed that the responses encoded only approximately 1 bit/s about constant-velocity stimuli but up to 29 bits/s about the time-varying stimuli. Analysis of local field potentials revealed that part of the residual response variability arose from "noise" sources extrinsic to the neuron. Our results demonstrate that extrastriate neurons in alert primates can encode the fine temporal structure of visual stimuli.

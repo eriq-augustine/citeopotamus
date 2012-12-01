@@ -1,0 +1,6 @@
+TITLE: Flux-sum analysis: a metabolite-centric approach for understanding the metabolic network.
+AUTHORS: Chung BK, Lee DY
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

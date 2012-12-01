@@ -1,0 +1,4 @@
+Topological and energetic factors: what determines the structural details of the transition state ensemble and "en-route" intermediates for protein folding? An investigation for small globular proteins.
+Clementi C, Nymeyer H, Onuchic JN
+Abstract:
+None

@@ -1,0 +1,6 @@
+TITLE: Link between allosteric signal transduction and functional dynamics in a multisubunit enzyme: S-adenosylhomocysteine hydrolase.
+AUTHORS: Lee Y, Jeong LS, Choi S, Hyeon C
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

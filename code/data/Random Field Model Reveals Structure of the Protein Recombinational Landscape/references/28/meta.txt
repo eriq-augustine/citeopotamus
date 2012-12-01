@@ -1,0 +1,6 @@
+TITLE: Library analysis of SCHEMA-guided protein recombination.
+AUTHORS: Meyer MM, Silberg JJ, Voigt CA, Endelman JB, Mayo SL, Wang ZG, Arnold FH
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The computational algorithm SCHEMA was developed to estimate the disruption caused when amino acid residues that interact in the three-dimensional structure of a protein are inherited from different parents upon recombination. To evaluate how well SCHEMA predicts disruption, we have shuffled the distantly-related beta-lactamases PSE-4 and TEM-1 at 13 sites to create a library of 2(14) (16,384) chimeras and examined which ones retain lactamase function. Sequencing the genes from ampicillin-selected clones revealed that the percentage of functional clones decreased exponentially with increasing calculated disruption (E = the number of residue-residue contacts that are broken upon recombination). We also found that chimeras with low E have a higher probability of maintaining lactamase function than chimeras with the same effective level of mutation but chosen at random from the library. Thus, the simple distance metric used by SCHEMA to identify interactions and compute E allows one to predict which chimera sequences are most likely to retain their function. This approach can be used to evaluate crossover sites for recombination and to create highly mosaic, folded chimeras.

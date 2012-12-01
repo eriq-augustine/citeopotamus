@@ -1,0 +1,6 @@
+TITLE: How subunits cooperate in cAMP-induced activation of homotetrameric HCN2 channels.
+AUTHORS: Kusch J, Thon S, Schulz E, Biskup C, Nache V, Zimmer T, Seifert R, Schwede F, Benndorf K
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Hyperpolarization-activated cyclic nucleotide-modulated (HCN) channels are tetrameric membrane proteins that generate electrical rhythmicity in specialized neurons and cardiomyocytes. The channels are primarily activated by voltage but are receptors as well, binding the intracellular ligand cyclic AMP. The molecular mechanism of channel activation is still unknown. Here we analyze the complex activation mechanism of homotetrameric HCN2 channels by confocal patch-clamp fluorometry and kinetically quantify all ligand binding steps and closed-open isomerizations of the intermediate states. For the binding affinity of the second, third and fourth ligand, our results suggest pronounced cooperativity in the sequence positive, negative and positive, respectively. This complex interaction of the subunits leads to a preferential stabilization of states with zero, two or four ligands and suggests a dimeric organization of the activation process: within the dimers the cooperativity is positive, whereas it is negative between the dimers.

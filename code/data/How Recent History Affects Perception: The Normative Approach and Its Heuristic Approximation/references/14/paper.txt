@@ -1,0 +1,4 @@
+Sequential effects in judgments of loudness.
+Jesteadt W, Luce RD, Green DM
+Abstract:
+A multiple regression analysis of sequential effects in magnitude estimation and absolute identification is presented as an alternative to the approach used by Lockhead and his students. The new analysis indicates that sequential effects do not extend over more than one trial. This is in agreement with the response ratio hypothesis. A more detailed multiple regression analysis of these sequential effects indicates that the magnitude of the correlation between successive responses is heavily dependent on the decibel difference between successive signals. This is not in agreement with the response ratio hypothesis, and the hypothesis is reformulated to take account of this finding. This modification of the model is tested by comparing distributions of normalized responses to theoretical distributions suggested by the model and to a possible alternative distribution.

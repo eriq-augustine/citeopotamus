@@ -1,0 +1,4 @@
+Cutting edge: cognate CD4 help promotes recruitment of antigen-specific CD8 T cells around dendritic cells.
+Beuneu H, Garcia Z, Bousso P
+Abstract:
+The cellular orchestration underlying help provided by CD4 T lymphocytes to CD8 T cell responses is not fully understood. We documented that the formation of three-cell clusters occurred as soon as day 1 and relied on long-lasting CD4 and CD8 T cell interactions with dendritic cells (DCs). The influence of CD4 help on CD8 T cell differentiation could be observed as early as the second round of cell division. Importantly, our results identify a new facet to the phenomenon of CD4 help in which DCs, upon cognate interactions with CD4 T cells, increase their ability to attract/retain Ag-specific CD8 T cells. Our results support a model in which CD4 help operates rapidly, in part by favoring CD8 T cells recruitment around those DCs that are the most competent for priming.

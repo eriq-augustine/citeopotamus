@@ -1,0 +1,6 @@
+TITLE: Contributions of theoretical modeling to the understanding of neural map development.
+AUTHORS: Goodhill GJ
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Theoretical/computational models have played an important role in developing our understanding of the fundamental mechanisms involved in neural map formation. I review models based on both chemospecific and activity-dependent matching of inputs to targets, with a particular focus on map development in the optic tectum and primary visual cortex.

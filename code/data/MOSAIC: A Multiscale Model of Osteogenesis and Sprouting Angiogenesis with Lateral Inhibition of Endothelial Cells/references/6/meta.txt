@@ -1,0 +1,6 @@
+TITLE: Module-based multiscale simulation of angiogenesis in skeletal muscle.
+AUTHORS: Liu G, Qutub AA, Vempati P, Mac Gabhann F, Popel AS
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

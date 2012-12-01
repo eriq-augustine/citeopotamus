@@ -1,0 +1,4 @@
+Single channel recordings of K+ currents in squid axons.
+Conti F, Neher E
+Abstract:
+Ionic currents from individual K+ channels in squid axon membrane have been recorded. At hyperpolarizing membrane voltages, unit events occur as widely spaced rectangular pulses with short interruptions. The frequency of occurrence of the units increases strongly when the membrane is depolarized.

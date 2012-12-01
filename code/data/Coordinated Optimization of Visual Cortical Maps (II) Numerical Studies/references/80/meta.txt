@@ -1,0 +1,6 @@
+TITLE: Development of neuronal selectivity in primary visual cortex of cat.
+AUTHORS: Frégnac Y, Imbert M
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

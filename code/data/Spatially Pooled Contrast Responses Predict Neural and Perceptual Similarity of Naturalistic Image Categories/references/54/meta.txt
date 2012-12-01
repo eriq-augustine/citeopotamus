@@ -1,0 +1,6 @@
+TITLE: Time course and robustness of ERP object and face differences.
+AUTHORS: Rousselet GA, Husk JS, Bennett PJ, Sekuler AB
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Conflicting results have been reported about the earliest "true" ERP differences related to face processing, with the bulk of the literature focusing on the signal in the first 200 ms after stimulus onset. Part of the discrepancy might be explained by uncontrolled low-level differences between images used to assess the timing of face processing. In the present experiment, we used a set of faces, houses, and noise textures with identical amplitude spectra to equate energy in each spatial frequency band. The timing of face processing was evaluated using face-house and face-noise contrasts, as well as upright-inverted stimulus contrasts. ERP differences were evaluated systematically at all electrodes, across subjects, and in each subject individually, using trimmed means and bootstrap tests. Different strategies were employed to assess the robustness of ERP differential activities in individual subjects and group comparisons. We report results showing that the most conspicuous and reliable effects were systematically observed in the N170 latency range, starting at about 130-150 ms after stimulus onset.

@@ -1,0 +1,4 @@
+Mapping SNPs to protein sequence and structure data.
+Cavallo A, Martin AC
+Abstract:
+None

@@ -1,0 +1,6 @@
+TITLE: Intraspecific gene genealogies: trees grafting into networks.
+AUTHORS: Posada D, Crandall KA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Intraspecific gene evolution cannot always be represented by a bifurcating tree. Rather, population genealogies are often multifurcated, descendant genes coexist with persistent ancestors and recombination events produce reticulate relationships. Whereas traditional phylogenetic methods assume bifurcating trees, several networking approaches have recently been developed to estimate intraspecific genealogies that take into account these population-level phenomena.

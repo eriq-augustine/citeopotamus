@@ -1,0 +1,6 @@
+TITLE: How confident can we be that orthologs are similar, but paralogs differ?
+AUTHORS: Studer RA, Robinson-Rechavi M
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Homologous genes are classified into orthologs and paralogs, depending on whether they arose by speciation or duplication. It is widely assumed that orthologs share similar functions, whereas paralogs are expected to diverge more from each other. But does this assumption hold up on further examination? We present evidence that orthologs and paralogs are not so different in either their evolutionary rates or their mechanisms of divergence. We emphasize the importance of appropriately designed studies to test models of gene evolution between orthologs and between paralogs. Thus, functional change between orthologs might be as common as between paralogs, and future studies should be designed to test the impact of duplication against this alternative model.

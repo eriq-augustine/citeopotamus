@@ -1,0 +1,6 @@
+TITLE: Wave-making by whirligig beetles (gyrinidae).
+AUTHORS: Tucker VA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Swimming whirligig beetles (Dineutes carolinus) either make no waves at all or make conspicuous circular or vee-shaped patterns of capillary waves. The beetle's swimming speed can be determined from these wave patterns (or lack of them). Capillary waves precede the beetle for several body lengths, and their reflections may help the beetle avoid solid objects by echolocation. The gravity waves produced by a beetle are always longer than the beetle's hull length. Hence the waves do not interact with the hull to impose an upper limit on speed as they do with conventional ships. Although the beetles swim at high speeds, they apparently do not hydroplane.

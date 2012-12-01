@@ -1,0 +1,6 @@
+TITLE: Exploring coumarin egress channels in human cytochrome P450 2A6 by random acceleration and steered molecular dynamics simulations.
+AUTHORS: Li W, Shen J, Liu G, Tang Y, Hoshino T
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

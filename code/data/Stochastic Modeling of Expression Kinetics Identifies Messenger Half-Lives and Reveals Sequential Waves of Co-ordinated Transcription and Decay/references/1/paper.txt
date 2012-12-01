@@ -1,0 +1,4 @@
+The highways and byways of mRNA decay.
+Garneau NL, Wilusz J, Wilusz CJ
+Abstract:
+When considering the control of gene expression, the focus has traditionally been on transcriptional regulation. Recently, however, the large contribution made by mRNA decay has become difficult to ignore. Large-scale analyses indicate that as many as half of all changes in the amounts of mRNA in some responses can be attributed to altered rates of decay. In this article, we discuss some of the mechanisms that are used by the cell to mediate and regulate this intriguing process.

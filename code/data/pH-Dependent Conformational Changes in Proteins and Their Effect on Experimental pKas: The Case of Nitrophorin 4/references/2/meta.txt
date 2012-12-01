@@ -1,0 +1,6 @@
+TITLE: Improving the analysis of NMR spectra tracking pH-induced conformational changes: removing artefacts of the electric field on the NMR chemical shift.
+AUTHORS: Kukić P, Farrell D, Søndergaard CR, Bjarnadottir U, Bradley J, Pollastri G, Nielsen JE
+TERMS:
+CATEGORIES:
+ABSTRACT:
+pH-induced chemical shift perturbations (CSPs) can be used to study pH-dependent conformational transitions in proteins. Recently, an elegant principal component analysis (PCA) algorithm was developed and used to study the pH-dependent structural transitions in bovine beta-lactoglobulin (betaLG) by analyzing its NMR pH-titration spectra. Here, we augment this analysis method by filtering out changes in the NMR chemical shift that stem from effects that are electrostatic in nature. Specifically, we examine how many CSPs can be explained by purely electrostatic effects arising from titrational events in betaLG. The results show that around 20% of the amide nuclei CSPs in betaLG originate exclusively from "through-space" electric field effects. A PCA of NMR data where electric field artefacts have been removed gives a different picture of the pH-dependent structural transitions in betaLG. The method implemented here is well suited to be applied on a whole range of proteins, which experience at least one pH-dependent conformational change. Proteins 2010. (c) 2009 Wiley-Liss, Inc.

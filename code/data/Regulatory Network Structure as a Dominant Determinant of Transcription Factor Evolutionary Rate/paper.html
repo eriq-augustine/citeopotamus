@@ -1,0 +1,1276 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:dc="http://purl.org/dc/terms/"
+      xmlns:doi="http://dx.doi.org/"
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes#"
+      lang="en" xml:lang="en"
+      itemscope itemtype="http://schema.org/Article">
+
+<head>
+   <title>PLOS Computational Biology: Regulatory Network Structure as a Dominant Determinant of Transcription Factor Evolutionary Rate</title>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9" />
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+<link rel="home" title="home" href="/home.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" />
+<link rel="alternate" type="application/rss+xml"
+  title="PLOS Computational Biology: New Articles"
+  href="http://www.ploscompbiol.org/article/feed" />
+
+<link rel="pingback" href="http://www.ploscompbiol.org/pingback" />
+
+
+<!-- global_css.ftl -->
+<link rel="stylesheet" type="text/css" media="screen" href="/css/dojo/dijit/themes/tundra/tundra.css?v=zwugcxLdpBWmb72qqlHgGyeNAGM" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/star_rating.css?v=Mm3HyaUPUahAJAq6xG5W3tdF7Hk" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/rating.css?v=AOT9rozE9sYVjGTdeiyxHf18Ykw" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/screen.css?v=KBNFqBmhD635U0NgiM5tf9dtxRE" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/iepc.css?v=FIjyR83BhSovq_5yNVk1Sih60AI" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/journal.css?v=SiREXztjNSUsOyrlkE9sv028Y+0" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/lightBox.css?v=sDgsUXamFoYAakEshdj0YWrZiiQ" />
+<link rel="stylesheet" type="text/css" media="print" href="/css/print.css?v=0T+LTV7Gd0jtHEhqEvBfSrmHUGg" />
+
+<!--chartbeat --> 
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+
+
+<!--[if IE]><![endif]-->
+<meta name="description" content="PLOS Computational Biology is an open-access" />
+
+<meta name="keywords" content="plos computational biology" />
+
+  <meta name="citation_publisher" content="Public Library of Science" />
+  <meta name="citation_doi" content="10.1371/journal.pcbi.1002734" />
+    <meta name="citation_title" content="Regulatory Network Structure as a Dominant Determinant of Transcription Factor Evolutionary Rate"/>
+    <meta itemprop="name" content="Regulatory Network Structure as a Dominant Determinant of Transcription Factor Evolutionary Rate"/>
+
+      <meta name="citation_author" content="Jasmin Coulombe-Huntington" />
+          <meta name="citation_author_institution" content="Bioinformatics Program, Boston University, Boston, Massachusetts, United States of America" />
+      <meta name="citation_author" content="Yu Xia" />
+          <meta name="citation_author_institution" content="Bioinformatics Program, Boston University, Boston, Massachusetts, United States of America" />
+          <meta name="citation_author_institution" content="Department of Chemistry, Boston University, Boston, Massachusetts, United States of America" />
+          <meta name="citation_author_institution" content="Department of Biomedical Engineering, Boston University, Boston, Massachusetts, United States of America" />
+
+    <meta name="citation_date" content="2012/10/18"/>
+
+  <meta name="citation_pdf_url" content="http://dx.plos.org/10.1371/journal.pcbi.1002734.pdf" />
+
+    <meta name="citation_journal_title" content="PLOS Computational Biology" />
+    <meta name="citation_firstpage" content="e1002734"/>
+    <meta name="citation_issue" content="10"/>
+    <meta name="citation_volume" content="8"/>
+    <meta name="citation_issn" content="1553-7358"/>
+
+    <meta name="citation_journal_abbrev" content="PLoS Comput Biol" />
+
+      <meta name="citation_reference" content="citation_title=A yeast hybrid provides insight into the evolution of gene expression regulation; citation_volume=324; citation_number=1; citation_pages=659-662; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Co-evolution of transcription factors and their targets depends on mode of regulation; citation_volume=7; citation_number=2; citation_pages=R62; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=Hox protein mutation and macroevolution of the insect body plan; citation_volume=415; citation_number=3; citation_pages=914-917; citation_date=2002; " />
+      <meta name="citation_reference" content="citation_title=Evolution of a transcriptional repression domain in an insect Hox protein; citation_volume=415; citation_number=4; citation_pages=910-913; citation_date=2002; " />
+      <meta name="citation_reference" content="citation_title=Inferring nonneutral evolution from human-chimp-mouse orthologous gene trios; citation_volume=302; citation_number=5; citation_pages=1960-1963; citation_date=2003; " />
+      <meta name="citation_reference" content="citation_title=Expression profiling in primates reveals a rapid evolution of human transcription factors; citation_volume=440; citation_number=6; citation_pages=242-245; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=Evolutionary rate in the protein interaction network; citation_volume=296; citation_number=7; citation_pages=750-752; citation_date=2002; " />
+      <meta name="citation_reference" content="citation_title=Relating three-dimensional structures to protein networks provides evolutionary insights; citation_volume=314; citation_number=8; citation_pages=1938-1941; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=Evolutionary rates and centrality in the yeast gene regulatory network; citation_volume=10; citation_number=9; citation_pages=R35; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Protein evolution in yeast transcription factor subnetworks; citation_volume=38; citation_number=10; citation_pages=5959-5969; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Just-in-time transcription program in metabolic pathways; citation_volume=36; citation_number=11; citation_pages=486-491; citation_date=2004; " />
+      <meta name="citation_reference" content="citation_title=Principles of transcriptional control in the metabolic network of Saccharomyces cerevisiae; citation_volume=22; citation_number=12; citation_pages=86-92; citation_date=2004; " />
+      <meta name="citation_reference" content="citation_title=Relating three-dimensional structures to protein networks provides evolutionary insights; citation_volume=314; citation_number=13; citation_pages=1938-1941; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=Gene ontology: tool for the unification of biology. The Gene Ontology Consortium; citation_volume=25; citation_number=14; citation_pages=25-29; citation_date=2000; " />
+      <meta name="citation_reference" content="citation_title=The YEASTRACT database: a tool for the analysis of transcription regulatory associations in Saccharomyces cerevisiae; citation_volume=34; citation_number=15; citation_pages=D446-D451; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=Genome-wide analysis in vivo of translation with nucleotide resolution using ribosome profiling; citation_volume=324; citation_number=16; citation_pages=218-223; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=The codon Adaptation Index–a measure of directional synonymous codon usage bias, and its potential applications; citation_volume=15; citation_number=17; citation_pages=1281-1295; citation_date=1987; " />
+      <meta name="citation_reference" content="citation_title=The MetaCyc Database of metabolic pathways and enzymes and the BioCyc collection of Pathway/Genome Databases; citation_volume=36; citation_number=18; citation_pages=D623-D631; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Inferring condition-specific modulation of transcription factor activity in yeast through regulon-based analysis of genomewide expression; citation_volume=3; citation_number=19; citation_pages=e3112; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Factor analysis for gene regulatory networks and transcription factor activity profiles; citation_volume=8; citation_number=20; citation_pages=61; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Expression divergence measured by transcriptome sequencing of four yeast species; citation_volume=12; citation_number=21; citation_pages=635; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Genetic reconstruction of a functional transcriptional regulatory network; citation_volume=39; citation_number=22; citation_pages=683-687; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=The effects of network neighbours on protein evolution; citation_volume=6; citation_number=23; citation_pages=e18288; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Gene connectivity, function, and sequence conservation: predictions from modular yeast co-expression networks; citation_volume=7; citation_number=24; citation_pages=40; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=The genetic landscape of a cell; citation_volume=327; citation_number=25; citation_pages=425-431; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Influence of metabolic network structure and function on enzyme evolution; citation_volume=7; citation_number=26; citation_pages=R39; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=Integrated assessment of genomic correlates of protein evolutionary rate; citation_volume=5; citation_number=27; citation_pages=e1000413; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=A single determinant dominates the rate of yeast protein evolution; citation_volume=23; citation_number=28; citation_pages=327-337; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=Why highly expressed proteins evolve slowly; citation_volume=102; citation_number=29; citation_pages=14338-14343; citation_date=2005; " />
+      <meta name="citation_reference" content="citation_title=Transcriptional regulatory networks in Saccharomyces cerevisiae; citation_volume=298; citation_number=30; citation_pages=799-804; citation_date=2002; " />
+      <meta name="citation_reference" content="citation_title=Complex transcriptional circuitry at the G1/S transition in Saccharomyces cerevisiae; citation_volume=16; citation_number=31; citation_pages=3017-3033; citation_date=2002; " />
+      <meta name="citation_reference" content="citation_title=Divergence of transcription factor binding sites across related yeast species; citation_volume=317; citation_number=32; citation_pages=815-819; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Target hub proteins serve as master regulators of development in yeast; citation_volume=20; citation_number=33; citation_pages=435-448; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=Transcriptional regulatory code of a eukaryotic genome; citation_volume=431; citation_number=34; citation_pages=99-104; citation_date=2004; " />
+      <meta name="citation_reference" content="citation_title=A systems approach to mapping DNA damage response pathways; citation_volume=312; citation_number=35; citation_pages=1054-1059; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=Expanded protein information at SGD: new pages and proteome browser; citation_volume=35; citation_number=36; citation_pages=D468-D471; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Automatic genome-wide reconstruction of phylogenetic gene trees; citation_volume=23; citation_number=37; citation_pages=i549-58; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Estimating synonymous and nonsynonymous substitution rates under realistic evolutionary models; citation_volume=17; citation_number=38; citation_pages=32-43; citation_date=2000; " />
+      <meta name="citation_reference" content="citation_title=PAML 4: phylogenetic analysis by maximum likelihood; citation_volume=24; citation_number=39; citation_pages=1586-1591; citation_date=2007; " />
+
+
+
+<!--
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002734">
+   <license rdf:resource="http://creativecommons.org/licenses/by/2.5/" />
+</Work>
+<License rdf:about="http://creativecommons.org/licenses/by/2.5/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+</License>
+<rdf:Description
+     rdf:about="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002734"
+     dc:identifier="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002734"
+     dc:title="PLOS Computational Biology: Regulatory Network Structure as a Dominant Determinant of Transcription Factor Evolutionary Rate"
+       trackback:ping="http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002734/trackback;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D"
+     />
+</rdf:RDF>
+
+-->
+</head>
+<body>
+<span property="dc:language" content="en"></span>
+<!-- begin : container -->
+<div id="container">
+  <!-- begin : top banner external ad space -->
+  <div id="topBanner">
+
+
+<!-- begin : left banner slot -->
+<div class="left">
+  <iframe id='affe494b' name='affe494b'
+    src='http://ads.plos.org/www/delivery/afr.php?zoneid=84&amp;cb=9200'
+    frameborder='0' scrolling='no' width='468' height='60'><a
+    href='http://ads.plos.org/www/delivery/ck.php?n=affe494b&amp;cb=3639'
+    target='_top'><img src='http://ads.plos.org/www/delivery/avw.php?zoneid=84&amp;cb=9738&amp;n=affe494b'
+    border='0' alt='' /></a></iframe>
+</div>
+<!-- end : left banner slot -->
+<!-- begin : right banner slot -->
+<div class="right">
+  <iframe id='af654bd5' name='af654bd5'
+    src='http://ads.plos.org/www/delivery/afr.php?zoneid=85&amp;cb=7631'
+    frameborder='0' scrolling='no' width='468' height='60'><a
+    href='http://ads.plos.org/www/delivery/ck.php?n=af654bd5&amp;cb=6513'
+    target='_top'><img src='http://ads.plos.org/www/delivery/avw.php?zoneid=85&amp;cb=6834&amp;n=af654bd5'
+    border='0' alt='' /></a></iframe>
+</div>
+<!-- end : right banner slot -->
+
+  </div>
+  <!-- end : top banner external ad space -->
+
+  <!-- begin : header -->
+  <div id="hdr" class="login">
+
+  <!-- begin : logo -->
+  <div id="logo" title="PLOS Computational Biology"><a href="/home.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" title="PLOS Computational Biology"><span>PLOS Computational Biology</span></a></div>
+  <!-- end : logo -->
+  <!-- begin : user controls -->
+
+
+
+
+
+  <div id="user">
+    <div>
+      <ul>
+        <li><a href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002734" class="feedback"><strong>Login</strong></a> | </li>
+        <li><a href="https://register.plos.org:443/ambra-registration/register.action">Create Account</a> | </li>
+        <li class="feedback"><a href="/feedbackCreate.action?page=%252Farticle%252FfetchArticle.action%253FarticleURI%253Dinfo%25253Adoi%25252F10.1371%25252Fjournal.pcbi.1002734" title="Send us your feedback">Feedback</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <!-- end : user controls -->
+  <!-- begin search links -->
+  <ul id="links"><li class="browse"><a href="/article/browse.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?field=date" title="Browse Articles">Browse</a></li><li class="rss"><a href="/static/rssFeeds.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" title="RSS Feeds">RSS</a></li></ul>
+  <!-- end : search links -->
+  <!-- begin : dashboard -->
+  <div id="db">
+    <form name="searchForm" action="/search/simpleSearch.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" method="get">
+      <input type="hidden" name="from" value="globalSimpleSearch"/>
+      <input type="hidden" name="filterJournals" value="PLoSCompBiol">
+      <fieldset>
+        <legend>Search</legend>
+        <label for="search">Search</label>
+        <div class="wrap"><input id="search" type="text" name="query" value="Search articles..." onfocus="if(this.value=='Search articles...')value='';" onblur="if(this.value=='')value='Search articles...';" class="searchField" alt="Search articles..."/></div>
+        <input src="/images/search_btn1.gif" onclick="submit();" value="ftsearch" alt="SEARCH" tabindex="3" class="button" type="image" />
+      </fieldset>
+    </form>
+    <form name="gasf" action="/search/advancedSearch.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" method="get">
+<input type="hidden" name="noSearchFlag" value="true" id="noSearchFlag"/><input type="hidden" name="query" value="" id="query"/>    </form>
+    <a id="advSearch" href="#" onclick="if(document.searchForm.query.value!='Search articles...')document.gasf.query.value=document.searchForm.query.value;document.gasf.submit();return false;">Advanced Search</a>
+  </div>
+  <!-- end : dashboard -->
+  <!-- begin : navigation -->
+  <ul id="nav">
+    <li><a href="/home.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" tabindex="101">Home</a></li>
+     <!-- This is a temporary action to link to th static toc page -->
+    <li><a href="/static/browse.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" tabindex="102">Browse Articles</a>
+        <ul>
+          <li><a href="/article/browseIssue.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?field=issue">Current Issue</a></li> <!-- Assuming dynamic TOC is in place -->
+          <li><a href="/article/browseVolume.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?field=volume">Journal Archive</a></li> 
+          <li><a href="/article/browse.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?field=date">By Publication Date</a></li>
+          <li><a href="/article/browse.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">By Subject</a></li>
+          <li><a href="http://www.ploscollections.org/static/pcbiCollections.action">Collections</a></li>
+        </ul>
+    </li>
+    <li><a href="/static/about.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" tabindex="103">About</a>
+        <ul>
+          <li><a href="/static/information.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Journal Information</a></li>
+          <li><a href="/static/edboard.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Editorial Board</a></li>
+          <li><a href="/static/eic.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Editors-in-Chief</a></li>
+          <li><a href="/static/almInfo.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Article-Level Metrics</a></li>
+          <li><a href="/static/license.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Open-Access License</a></li>
+          <li><a href="/static/contact.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Contact Us</a></li>
+        </ul>
+      </li>
+    <li><a href="/static/users.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" tabindex="104">For Readers</a>
+        <ul>
+          <li><a href="/static/commentGuidelines.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Guidelines for Notes, Comments, and Corrections</a></li>
+          <li><a href="/static/ratingGuidelines.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Guidelines for Rating</a></li>
+          <li><a href="/static/help.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Help Using This Site</a></li>
+          <li><a href="/static/downloads.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Media Downloads</a></li>
+          <li><a href="/static/sitemap.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Site Map</a></li>
+        </ul>
+      </li>
+    <li><a href="/static/authors.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" tabindex="105">For Authors and Reviewers</a>
+        <ul>
+          <li><a href="/static/policies.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Editorial and Publishing Policies</a></li>
+          <li><a href="/static/guidelines.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Author Guidelines</a></li>
+          <li><a href="/static/figureGuidelines.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Figure and Table Guidelines</a></li>
+          <li><a href="/static/checklist.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Submit Your Paper</a></li>
+          <li><a href="/static/reviewerGuidelines.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Reviewer Guidelines</a></li>
+	   <li><a href="http://www.plos.org/journals/index.php">Submit to Other PLOS Journals</a></li>
+        </ul>
+      </li>
+      <li class="journalnav"><a href="http://www.plos.org" title="PLOS" tabindex="110" class="drop">PLOS.org</a>
+        <ul>
+          <li><a href="http://www.plos.org/oa/index.html" title="Open Access Statement">Open Access</a></li>
+          <li><a href="http://www.plos.org/support/donate.php" title="Join PLOS: Show Your Support">Join PLOS</a></li>
+          <li><a href="http://blogs.plos.org/" title="PLOS Blogs">PLOS Blogs</a></li>
+	  <li><a href="http://www.zazzle.com/plos?rf=238434112415374154" title="PLOS Store">PLOS Store</a></li>
+          <li><a href="http://currents.plos.org" title="PLOS Currents">PLOS Currents</a></li>
+          <li><a href="http://www.plos.org/connect.html" title="PLOS.org | Stay Connected">Stay Connected</a></li>
+        </ul>
+      </li>
+      <li class="journalnav"><a href="http://hubs.plos.org" tabindex="109">Hubs</a>
+        <ul>
+          <li><a href="http://hubs.plos.org/biodiversity" title="PLOS Hubs: Biodiversity">Biodiversity</a></li>
+          <li><a href="http://clinicaltrials.ploshubs.org" title="PLOS Hub for Clinical Trials">Clinical Trials</a></li>
+        </ul>
+    </li>
+      <li class="journalnav"><a href="http://www.plosjournals.org" tabindex="108">Journals</a>
+        <ul>
+          <li><a href="http://www.plosbiology.org/" title="PLOSBiology.org">PLOS Biology</a></li>
+          <li><a href="http://www.plosmedicine.org/" title="PLOSMedicine.org">PLOS Medicine</a></li>
+          <li><a href="http://www.ploscompbiol.org/" title="PLOSCompBiol.org">PLOS Computational Biology</a></li>
+          <li><a href="http://www.plosgenetics.org/" title="PLOSGenetics.org">PLOS Genetics</a></li>
+          <li><a href="http://www.plospathogens.org/" title="PLOSPathogens.org">PLOS Pathogens</a></li>
+          <li><a href="http://www.plosone.org/" title="PLOSONE.org">PLOS ONE</a></li>
+          <li><a href="http://www.plosntds.org/" title="PLOSNTDs.org">PLOS Neglected Tropical Diseases</a></li>
+        </ul>
+      </li>
+    </ul>
+  <!-- end : navigation -->
+  </div>
+  <!-- end : header --> 
+
+
+
+<!-- begin : main content -->
+<div id="content" class="article" style="visibility:visible;">
+
+<!-- begin : right hand column -->
+
+<div id="rhc" xpathLocation="noDialog">
+
+  <div id="download" class="rhcBox_type1">
+    <div class="wrap">
+      <ul>
+        <li class="download icon"><strong>Download:</strong>
+          <a href="/article/fetchObjectAttachment.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?uri=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002734&amp;representation=PDF" title="Download article PDF">PDF</a> |
+          <a href="/article/citationList.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002734" title="Download citations">Citation</a> |
+          <a href="/article/fetchObjectAttachment.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?uri=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002734&amp;representation=XML" title="Download Article XML">XML</a>
+        </li>
+        <li class="print icon"><a href="#" onclick="window.print();return false;" title="Print Article"><strong>Print article</strong></a></li>
+        <li class="reprint icon"><a href="https://www.odysseypress.com/onlinehost/reprint_order.php?type=A&page=0&journal=3&doi=10.1371/journal.pcbi.1002734&volume=&issue=&title=Regulatory Network Structure as a Dominant Determinant of Transcription Factor Evolutionary Rate&author_name=Jasmin%20Coulombe-Huntington%2C%20Yu%20Xia&start_page=1&end_page=11" title="Odyssey Press">EzReprint</a> New &amp; improved!</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="issues" class="rhcBox_type2">
+    <p><strong>Published in the</strong>
+    <a href="http://www.ploscompbiol.org/article/browseIssue.action?issue=info%3Adoi%2F10.1371%2Fissue.pcbi.v08.i10" title="Browse the Open-Access Issue">October 2012 Issue of <em>PLOS Computational Biology</em></a></p>
+  </div>
+
+  <div id="impact" class="rhcBox_type2">
+    <h6>Metrics <a href="/static/help.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D#articleMetrics" class="replaced" id="info" title="More information"><span>info</span></a></h6>
+
+    <div class="wrap">
+      <img id="rhcDataSpinner" src="/images/loading_small.gif" class="loading" />
+      <div id="totalDataInRHC"></div>
+      <div id="pubDateInRHC"></div>
+      <div id="relatedCitesInRHC"></div>
+    </div>
+
+    <div class="more clearfix"><a href="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002734;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" title="More information">More</a></div>
+  </div>
+
+  <div id="related" class="rhcBox_type2">
+    <h6>Related Content</h6>
+    <dl class="related">
+      <dt>Related Articles on the Web</dt>
+      <dd><a href="http://scholar.google.com/scholar?hl=en&lr=&q=related:http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002734&btnG=Search">Google Scholar</a></dd>
+      <dd id="pubMedRelatedLIInRHC" style="display:none;"><a id="pubMedRelatedURLInRHC">PubMed</a></dd>
+    </dl>
+    <div class="more clearfix"><a href="/article/related/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002734;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" title="More information">More</a></div>
+  </div>
+
+  <div id="share" class="rhcBox_type2">
+    <h6>Share this Article <a href="/static/help.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D#socialBookmarkLinks" class="replaced" id="info" title="More information"><span>info</span></a></h6>
+    <ul>
+      <li class="bookmarklets">
+
+        <a href="http://www.reddit.com/submit?url=http://dx.plos.org/10.1371/journal.pcbi.1002734"
+           target="_new"
+           id="reddit">
+          <img src="http://www.reddit.com/static/spreddit4.gif" alt="submit to reddit" border="0"/> </a>
+        <g:plusone size="small" annotation="none" href=http://dx.plos.org/10.1371/journal.pcbi.1002734></g:plusone>
+        <script type="text/javascript">
+          (function () {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+          })();
+        </script>
+        <a href="http://www.stumbleupon.com/submit?url=http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002734" target="_new"> <img border=0 src="http://cdn.stumble-upon.com/images/16x16_su_solid.gif" alt="StumbleUpon" title="Add to StumbleUpon"></a>
+        <script>function fbs_click() {u='http://dx.plos.org/10.1371/journal.pcbi.1002734';t='Regulatory%20Network%20Structure%20as%20a%20Dominant%20Determinant%20of%20Transcription%20Factor%20Evolutionary%20Rate';window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436');return false;}</script><a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002734" onclick="return fbs_click()" target="_blank"><img src="http://static.ak.fbcdn.net/images/share/facebook_share_icon.gif" alt="Facebook" title="Add to Facebook" /></a>       <!-- for mor info, see http://www.facebook.com/share_partners.php -->
+        <script type="text/javascript">
+          function bookmark_in_connotea(u) {
+            a=false; x=window; e=x.encodeURIComponent; d=document;
+            w=open('http://www.connotea.org/addpopup?continue=confirm&uri='+e(u),
+                'add', 'width=600, height=400, scrollbars, resizable');
+            void(x.setTimeout('w.focus()',200));
+          }
+        </script>
+        <a style='cursor: pointer;' onclick='javascript:bookmark_in_connotea("http://dx.plos.org/10.1371/journal.pcbi.1002734");'><img src='/images/icon_connotea_16x16.gif' alt="Connotea" title="Add to Connotea"/></a>
+        <a href="http://www.citeulike.org/posturl?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002734&title=Regulatory%20Network%20Structure%20as%20a%20Dominant%20Determinant%20of%20Transcription%20Factor%20Evolutionary%20Rate" target="_new"><img src='/images/icon_citeulike_16x16.gif' alt="CiteULike" title="Add to CiteULike" /></a>
+        <a href="http://www.mendeley.com/import/?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002734" title="Add to Mendeley" target="_new"><img src="/images/icon_mendeley_16x16.gif" alt="Bibliography"></a>
+        <script type="text/javascript">
+          var twtTitle  = 'Regulatory Network Structure as a Dominant Determinant of Transcription Factor Evolutionary Rate';
+          var twtUrl    = 'http://dx.plos.org/10.1371/journal.pcbi.1002734';
+          var twtTag    = '#PLOSCompBio:'
+          var maxLength = 140 - (twtUrl.length + 1);
+          if (twtTitle.length > maxLength) {
+            twtTitle = twtTitle.substr(0, (maxLength - 17))+'...';  //truncates title to include space for twtTag and ellipsis
+          }
+          var twtLink = 'http://twitter.com/intent/tweet?text='+encodeURIComponent(twtTag + ' ' + twtTitle + ' ' + twtUrl);
+          document.write('<a href="'+twtLink+'" target="_blank"><img src="/images/icon_twitter.gif" border="0" alt="Twitter icon" title="Tweet This!" /></a>');
+        </script>
+
+      </li>
+      <li class="email icon"><a href="/article/emailArticle.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002734" title="Email this article">Email this article</a></li>
+    </ul>
+  </div>
+  <div id="articleTwitterStream" style="display:none">
+    <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script>
+      new TWTR.Widget({
+        version: 2,
+        type: 'search',
+        search: encodeURIComponent('10.1371/journal.pcbi.1002734'),
+        interval: 6000,
+        title: '',
+        subject: 'From Twitter',
+        width: 300,
+        height: 300,
+        theme: {
+          shell: {
+            background: '#667893',
+            color: '#ffffff'
+          },
+          tweets: {
+            background: '#ffffff',
+            color: '#444444',
+            links: '#006699'
+          }
+        },
+        features: {
+          scrollbar: true,
+          loop: false,
+          live: true,
+          hashtags: true,
+          timestamp: true,
+          avatars: true,
+          toptweets: true,
+          behavior: 'all'
+        }
+      }).render().start();
+    </script>
+  </div>
+</div>
+<!-- end : right hand column -->
+<form name="articleInfo" id="articleInfo" method="" action="">
+<input type="hidden" name="isAuthor" value="true" />
+<input type="hidden" name="authorIdList" value="" />
+<input type="hidden" name="userIdList" value="" />
+<input type="hidden" name="otherIdList" value="" />
+<input type="hidden" name="annotationId" value="" />
+<input type="hidden" name="isResearchArticle" value="true" />
+</form>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.XML" value="113034"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.PDF" value="588916"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.g001.TIF" value="531844"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.g001.PNG_I" value="51517"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.g001.PNG_S" value="18056"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.g001.PNG_M" value="91801"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.g001.PNG_L" value="86615"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.g002.TIF" value="165134"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.g002.PNG_I" value="45695"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.g002.PNG_S" value="16659"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.g002.PNG_M" value="67453"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.g002.PNG_L" value="35406"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.g003.TIF" value="445126"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.g003.PNG_I" value="43610"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.g003.PNG_S" value="15591"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.g003.PNG_M" value="87652"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.g003.PNG_L" value="70090"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.t001.TIF" value="380530"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.t001.PNG_I" value="16302"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.t001.PNG_S" value="2826"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.t001.PNG_M" value="39383"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.t001.PNG_L" value="89549"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.g004.TIF" value="115306"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.g004.PNG_I" value="31677"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.g004.PNG_S" value="13980"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.g004.PNG_M" value="60771"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.g004.PNG_L" value="27160"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.g005.TIF" value="331538"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.g005.PNG_I" value="34940"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.g005.PNG_S" value="13407"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.g005.PNG_M" value="65450"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.g005.PNG_L" value="61291"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.t002.TIF" value="151088"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.t002.PNG_I" value="6800"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.t002.PNG_S" value="1970"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.t002.PNG_M" value="14497"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.t002.PNG_L" value="29669"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.s001.PDF" value="3342511"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.s002.PDF" value="49224"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.s003.PDF" value="20856"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.s004.PDF" value="67050"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.s005.DOC" value="30720"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.s006.DOC" value="30720"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.s007.DOC" value="30720"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.s008.DOC" value="62976"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.s009.DOC" value="39936"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002734.s010.DOC" value="54272"/>
+<div id="articleContainer">
+
+<span about="http://www.plos.org"  typeof="foaf:Organization" property="foaf:name" style="display:none; visibility:hidden;">PLOS</span>
+<div id="researchArticle" class="content">
+  <span rel="dc:publisher" href="http://www.plos.org"></span>
+  <a id="top" name="top"></a>
+<div id="contentHeader" xpathLocation="noSelect">
+  <p>Open Access</p><p id="articleType">Research Article</p>
+</div>
+
+  <h1 xpathLocation="noSelect" property="dc:title" datatype="" rel="dc:type" href="http://purl.org/dc/dcmitype/Text">Regulatory Network Structure as a Dominant Determinant of Transcription Factor Evolutionary Rate</h1>
+  <div property="dc:description" datatype="" style="display:none; visibility:hidden;">Author SummaryTranscription factors (TFs) are proteins which regulate the expression of genes by interacting with DNA. Mutations in TF protein sequences can affect the expression levels of regulated genes throughout evolution. In this study, we look into the factors which cause the different TFs in baker's yeast to be more or less tolerant of mutations during recent evolution. This tolerance is measured as the evolutionary rate, defined for each protein as the relative rate of protein-changing DNA mutations over other mutations (Ka/Ks). We found that the typical determinants of protein evolutionary rate, such as expression level and network interactions have a very different influence on TF evolutionary rate. We found that TF evolutionary rate is most highly correlated to the evolutionary properties of the genes which they regulate and specifically genes which they activate. We also show that TF evolutionary rate predicts actual evolutionary expression differences of regulated genes and we discuss some of the features unique to TFs which likely contribute to their different evolutionary trends, such as the types of protein-protein interactions prevalent in the TF subnetwork or TFs' potential role in adaptive evolution.</div>
+  <span property="dc:date" content="2012-10-18" datatype="xsd:date" rel="dc:identifier" href="http://dx.doi.org/10.1371/journal.pcbi.1002734"></span>
+  <span property="dc:subject" content="Computational Biology"></span>
+  <span property="dc:subject" content="Evolutionary Biology"></span>
+<form action="">
+  <input type="hidden" name="journalDisplayName" id="journalDisplayName" value="PLOS Computational Biology" />
+  <input type="hidden" name="crossRefPageURL" id="crossRefPageURL" value="/article/crossref/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002734;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" />
+  <input type="hidden" name="twitterPageURL" id="twitterPageURL" value="/article/twitter/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002734;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" />
+  <input type="hidden" name="metricsTabURL" id="metricsTabURL" value="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002734;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" />
+  <input type="hidden" name="doi" id="doi" value="info:doi/10.1371/journal.pcbi.1002734" />
+  <input type="hidden" name="articleTitleUnformatted" id="articleTitleUnformatted" value="Regulatory%20Network%20Structure%20as%20a%20Dominant%20Determinant%20of%20Transcription%20Factor%20Evolutionary%20Rate" />
+  <input type="hidden" name="articlePubDate" id="articlePubDate" value="1350543600000" />
+</form>
+<div class="horizontalTabs" xpathLocation="noSelect">
+  <ul id="tabsContainer">
+        <li id="article" class="active"><a href="/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002734;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" class="tab" title="Article">Article</a></li>
+        <li id="metrics"><a href="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002734;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" class="tab" title="Metrics">Metrics</a></li>
+        <li id="related"><a href="/article/related/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002734;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" class="tab" title="Related Content">Related Content</a></li>
+        <li id="comments"><a href="/article/comments/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002734;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" class="tab" title="Comments">Comments: 0</a></li>
+  </ul>
+</div>
+  <div id="articleMenuBox" xpathLocation="noSelect">
+    <div id="articleMenu">
+      <div class="wrap">
+        <ul>
+          <li class="annotation icon">To <strong>add a note</strong>, highlight some text. <a href="#" onclick="toggleAnnotation(this, 'public'); return false;" title="Click to turn notes on/off">Hide notes</a></li>
+          <li class="discuss icon">
+              <a href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002734">Make a general comment</a>
+          </li>
+        </ul>
+        <div id="sectionNavTopBox" style="display:none;">
+          <p><strong>Jump to</strong></p>
+          <div id="sectionNavTop" class="tools"></div>
+        </div>
+      </div>
+    </div>
+      <div id="lightBox" xpathLocation="noDialog" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002734')">
+      </div>
+  </div>
+
+
+
+
+<p class="authors" xpathLocation="noSelect"><span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Jasmin Coulombe-Huntington</span></span><sup><a href="#aff1">1</a></sup><sup><a href="#cor1" class="fnoteref">*</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Yu Xia</span></span><sup><a href="#aff1">1</a></sup><sup>,</sup><sup><a href="#aff2">2</a></sup><sup>,</sup><sup><a href="#aff3">3</a></sup><sup><a href="#cor1" class="fnoteref">*</a></sup></p><p class="affiliations" xpathLocation="noSelect"><a name="aff1" id="aff1"></a><strong>1</strong> Bioinformatics Program, Boston University, Boston, Massachusetts, United States of America, <a name="aff2" id="aff2"></a><strong>2</strong> Department of Chemistry, Boston University, Boston, Massachusetts, United States of America, <a name="aff3" id="aff3"></a><strong>3</strong> Department of Biomedical Engineering, Boston University, Boston, Massachusetts, United States of America</p><div class="abstract" xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[1]"><a id="abstract0" name="abstract0" toc="abstract0" title="Abstract"></a><h2 xpathLocation="noSelect">Abstract&nbsp;<a href="#top">Top</a></h2><p xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[1]/p[1]">The evolution of transcriptional regulatory networks has thus far mostly been studied at the level of <em>cis</em>-regulatory elements. To gain a complete understanding of regulatory network evolution we must also study the evolutionary role of <em>trans</em>-factors, such as transcription factors (TFs). Here, we systematically assess genomic and network-level determinants of TF evolutionary rate in yeast, and how they compare to those of generic proteins, while carefully controlling for differences of the TF protein set, such as expression level. We found significantly distinct trends relating TF evolutionary rate to mRNA expression level, codon adaptation index, the evolutionary rate of physical interaction partners, and, confirming previous reports, to protein-protein interaction degree and regulatory in-degree. We discovered that for TFs, the dominant determinants of evolutionary rate lie in the structure of the regulatory network, such as the median evolutionary rate of target genes and the fraction of species-specific target genes. Decomposing the regulatory network by edge sign, we found that this modular evolution of TFs and their targets is limited to activating regulatory relationships. We show that fast evolving TFs tend to regulate other TFs and niche-specific processes and that their targets show larger evolutionary expression changes than targets of other TFs. We also show that the positive trend relating TF regulatory in-degree and evolutionary rate is likely related to the species-specificity of the transcriptional regulation modules. Finally, we discuss likely causes for TFs' different evolutionary relationship to the physical interaction network, such as the prevalence of transient interactions in the TF subnetwork. This work suggests that positive and negative regulatory networks follow very different evolutionary rules, and that transcription factor evolution is best understood at a network- or systems-level.</p>
+</div><div class="abstract" xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[2]"><a id="abstract1" name="abstract1" toc="abstract1" title="Author Summary"></a>
+<h2 xpathLocation="noSelect">Author Summary&nbsp;<a href="#top">Top</a></h2>
+<p xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[2]/p[1]">Transcription factors (TFs) are proteins which regulate the expression of genes by interacting with DNA. Mutations in TF protein sequences can affect the expression levels of regulated genes throughout evolution. In this study, we look into the factors which cause the different TFs in baker's yeast to be more or less tolerant of mutations during recent evolution. This tolerance is measured as the evolutionary rate, defined for each protein as the relative rate of protein-changing DNA mutations over other mutations (K<sub>a</sub>/K<sub>s</sub>). We found that the typical determinants of protein evolutionary rate, such as expression level and network interactions have a very different influence on TF evolutionary rate. We found that TF evolutionary rate is most highly correlated to the evolutionary properties of the genes which they regulate and specifically genes which they activate. We also show that TF evolutionary rate predicts actual evolutionary expression differences of regulated genes and we discuss some of the features unique to TFs which likely contribute to their different evolutionary trends, such as the types of protein-protein interactions prevalent in the TF subnetwork or TFs' potential role in adaptive evolution.</p>
+</div>
+
+
+<div class="articleinfo" xpathLocation="noSelect"><p><strong>Citation: </strong>Coulombe-Huntington J, Xia Y (2012) Regulatory Network Structure as a Dominant Determinant of Transcription Factor Evolutionary Rate. PLoS Comput Biol 8(10):
+          e1002734.
+            doi:10.1371/journal.pcbi.1002734</p><p><strong>Editor: </strong>Christos A. Ouzounis, 
+        The Centre for Research and Technology, Hellas, Greece
+      </p><p></p><p><strong>Received:</strong> May 1, 2012; <strong>Accepted:</strong> August 21, 2012; <strong>Published:</strong> October 18, 2012</p><p><strong>Copyright:</strong> ©  Coulombe-Huntington, Xia. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</p><p><strong>Funding: </strong>This work was supported by the National Science Foundation under Grant No. CCF-1219007 (to YX), and an NSERC fellowship (to JCH). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p><p><strong>Competing interests:</strong> The authors have declared that no competing interests exist.</p><p><a name="cor1"></a>* E-mail: <a href="mailto:jasmin@bu.edu">jasmin@bu.edu</a> (JCH); <a href="mailto:yuxia@bu.edu">yuxia@bu.edu</a> (YX)</p></div>
+
+
+
+
+
+<div id="section1" xpathLocation="/article[1]/body[1]/sec[1]"><a id="s1" name="s1" toc="s1" title="Introduction"></a><h3 xpathLocation="noSelect">Introduction&nbsp;<a href="#top">Top</a></h3><p xpathLocation="/article[1]/body[1]/sec[1]/p[1]">The study of regulatory network evolution has so far mostly concentrated on <em>cis</em>-regulatory variation, such as the loss or gain of transcription factor (TF) binding sites in the promoter region of a gene. But <em>trans</em>-level variations are known to account for a significant amount of the expression variation between yeast strains <a href="#pcbi.1002734-Tirosh1">[1]</a>. TFs are central to decision making in cells, with roles ranging from environmental adaptation in unicellular organisms to controlling cellular differentiation and endocrine response in higher eukaryotes. TFs' unique role might have been exploited by evolution to modulate the activity of entire pathways or re-wiring of the cellular network. An example of pathway activity modulation is the shutdown of the flagellar pathway in non-motile bacterial species through the deletion of the TF activating the pathway <a href="#pcbi.1002734-Hershberg1">[2]</a>. An example of network rewiring through TF protein evolution is how a mutation in Ubx, a Hox protein, led to the loss of a subset of its targets, and is believed to have allowed the transition to a hexapod body plan <a href="#pcbi.1002734-Ronshaugen1">[3]</a>, <a href="#pcbi.1002734-Galant1">[4]</a>. Attesting to the usefulness of <em>trans</em>-level variation in evolutionary adaptation is the observation that TFs underwent significantly more positive selection along the human and chimp lineages than other genes <a href="#pcbi.1002734-Clark1">[5]</a> and significantly more TFs had differential expression between the two species <a href="#pcbi.1002734-Clark1">[5]</a>, <a href="#pcbi.1002734-Gilad1">[6]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[2]">The systematic mapping of molecular interactions between pairs of proteins and between proteins and DNA has unveiled a world of complexity not captured by a simple biological parts list. A useful approach to better understand protein functions and relations is to look at these networks through the lens of evolution. Evolutionary rate, typically defined as the ratio of non-synonymous to synonymous substitution rates (K<sub>a</sub>/K<sub>s</sub>), represents the level of tolerance to mutations of proteins across evolution and can reveal additional information about these networks. For example a strong trend was discovered relating protein-protein interaction (PPI) degree to evolutionary rate <a href="#pcbi.1002734-Fraser1">[7]</a>, <a href="#pcbi.1002734-Kim1">[8]</a>, which suggests that physical interactions lead to evolutionary constraints on the protein sequence. Such genome-wide trends however ignore the underlying diversity of the many subnetworks which constitute the global network. Since genes have very distinct functions in the cell and often act together as functional modules, we might expect that the global trends not always hold for all subnetworks. Recent work by Jovelin <em>et al.</em> and by Wang <em>et al.</em> showed that the TF subnetwork evolved distinctly from the global network between closely related yeast species <a href="#pcbi.1002734-Jovelin1">[9]</a>, <a href="#pcbi.1002734-Wang1">[10]</a>. More specifically, it was found that the number of physical interactors or transcriptional regulators correlates much more positively with evolutionary rate than is expected from the genome-wide trend. These previous studies established that subnetworks can display trends which differ significantly from those of the global network and specifically highlighted TFs as a uniquely evolving gene set.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[3]">However, no study to date has looked at how TF evolution may be influenced by other factors that are known to be important in the evolution of generic proteins, such as expression level or the evolutionary rate of network neighbors. In an effort to better understand the unique evolutionary properties of TFs, we conducted a systematic comparison of key determinants of protein evolutionary rate between TFs and generic proteins. The recent increase in the number of fully sequenced species allows us to study short term evolution, before the regulatory network has had much time to rewire. We looked at the coding sequence evolution between <em>S. cerevisiae</em> and its closest sequenced relative, <em>S. paradoxus</em>. For <em>S. cerevisiae</em>, an extensively studied model species, we have access to genome-wide protein-protein and protein-DNA interaction networks, as well as mRNA expression datasets.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[4]">Transcriptional networks display extensive evidence of modularity at the functional level. For example, it is well known that metabolic enzymes participating in a common pathway are often regulated by a common TF <a href="#pcbi.1002734-Zaslaver1">[11]</a>, <a href="#pcbi.1002734-Ihmels1">[12]</a>. In multicellular organisms, TFs are used to regulate tissue-specific gene expression and execute specific developmental or stimulus response programs. This functional modularity may be detectable at the evolutionary level. To test this hypothesis, we examined how TF evolutionary rate relates to the regulatory network structure, in particular how the evolutionary properties of target genes influence TF evolution. The average evolutionary properties of proteins regulated by a common TF could serve as a proxy for the amount of selective constraint acting on a transcriptional module. Since the role of a TF is defined through its transcriptional target genes and the way it regulates them, the selective constraint on a TF is expected to be proportional to the selective constraint on the transcriptional module it regulates. This network-centric function of TFs could be at the source of their distinct evolutionary trends. Since the transcriptional network is made up of a combination of activating and repressive regulatory relationships, which could have fundamentally different effects on the evolution of TFs and other genes, we also explored the effects of regulatory sign on TF-target evolutionary relationships.</p>
+</div>
+
+<div id="section2" xpathLocation="/article[1]/body[1]/sec[2]"><a id="s2" name="s2" toc="s2" title="Results"></a><h3 xpathLocation="noSelect">Results&nbsp;<a href="#top">Top</a></h3>
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/title[1]">The Effect of PPI Network Degree on TF Evolution</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[1]">Protein-protein interactions (PPIs), by imposing additional functions on the structure and interface residues of interacting proteins, often lead to increased selective constraints on these proteins <a href="#pcbi.1002734-Kim2">[13]</a>. This largely explains the empirical observation that proteins with more binding partners tend to evolve at a slower rate <a href="#pcbi.1002734-Fraser1">[7]</a>. The slope of the correlation between network degree and protein evolutionary rate can be interpreted approximately as the average evolutionary pressure on proteins contributed by one network edge, or interaction interface. This effect has been shown to be different within the TF subnetwork than within the global network <a href="#pcbi.1002734-Wang1">[10]</a>. Here, we re-examined the statistical significance of the previous result using an improved method, described in detail in the <a href="#s4">Methods</a> section, which avoids specific biases by controlling for the different average degree and evolutionary rate of TFs as compared to generic proteins. We used the ratio of the non-synonymous substitution rate (K<sub>a</sub>) over the synonymous substitution rate (K<sub>s</sub>), or K<sub>a</sub>/K<sub>s</sub>, between <em>S. cerevisiae</em> and its closest known cousin <em>S. paradoxus</em>, as a measure of protein evolutionary rate. As a normalization step, we transformed evolutionary rate and PPI degree into genome-wide ranks for all yeast protein-coding genes. We then calculated the slope for the 174 TFs (list taken from <a href="#pcbi.1002734-Wang1">[10]</a>) and compared it to a distribution of slopes obtained from random protein samples with the same average degree and evolutionary rate as TFs to within 1% root-mean-square deviation (RMSD). <a href="#pcbi.1002734.s001">Figure S1</a> shows how genome-wide ranks are preserved when calculating the slope for the TF subset to allow the relative incline to be compared between TFs and generic proteins. We found that the average effect of PPIs on TF K<sub>a</sub>/K<sub>s</sub> was significantly less pronounced than expected from the sampling procedure, with a p-value of 0.0085. Replacing the evolutionary rate with codon adaptation index (CAI), which allows us to control for the effect of expression, results in a p-value of 0.26, suggesting that expression differences are not driving the different evolutionary rate trend. Repeating the comparison using edges reported in two or more independent experiments, which we term confirmed edges (CE), returns a p-value of 0.0026, confirming that TF evolution is differentially affected by PPI degree as compared to generic proteins. The fact that the number of interaction partners does not influence TF evolutionary rate as strongly as it does for other proteins is potentially explained by the TF subnetwork's enrichment in transient interactions reusing the same binding interfaces, and depletion of stable complex formations requiring a different binding interface for each partner. Supporting this hypothesis, we used a chi-square test and the Gene Ontology (GO) <a href="#pcbi.1002734-Ashburner1">[14]</a> term “protein kinase activity” and showed that, compared to other proteins, a significantly greater fraction of TF PPIs involve kinases (2.1-fold enrichment; <em>p</em> = 1.87×10<sup>−61</sup>), which are known to bind transiently. Another contributing factor could be the fact that TFs, which are often bound to DNA, tend to interact with proteins which are themselves bound to DNA. The greater proximity induced by this tethering reduces the entropy of the unbound state, allowing the protein-protein interaction to be mediated by a relatively weaker binding affinity and thereby relaxing the level of selective constraint imposed by these PPI interfaces. As support for this hypothesis, we showed that a significantly greater fraction of TF PPIs are with DNA binding proteins (2.2-fold enrichment; <em>p</em> = 9.0×10<sup>−218</sup>), using a chi-square test and the GO term “DNA binding”.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/title[1]">The Effect of Regulatory In-Degree on TF Evolution</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/p[1]">Similarly to PPI degree, but with a much weaker correlation, generic proteins with more regulators (higher in-degree) tend to evolve slower. In contrast, the effect of regulatory in-degree on TFs has been shown to be opposite, with each additional regulator contributing on average towards faster evolution of the TF <a href="#pcbi.1002734-Wang1">[10]</a>. Using our new method and a regulatory network based on a collection of ChIP-chip studies <a href="#pcbi.1002734-Teixeira1">[15]</a>, we confirmed the earlier finding that the slope relating TFs' regulatory in-degree and evolutionary rate is significantly more positive than expected by chance (<em>p</em> = 0.0093, CAI <em>p</em> = 0.042, CE <em>p</em> = 0.0041). The opposing trends relating in-degree and K<sub>a</sub>/K<sub>s</sub> for all proteins and TFs are shown in <a href="#pcbi-1002734-g001">Figure 1A</a> and <a href="#pcbi-1002734-g001">Figure 1B</a>, respectively. To understand why high in-degree TFs tend to evolve at a faster rate, we decided to look at the genes they regulate. Although the median evolutionary rate of target genes is not significantly associated to the in-degree of regulators, we found that TFs' in-degree significantly correlates with the fraction of target genes which are missing an ortholog in the comparison species (ρ = 0.20 <em>p</em> = 0.016; CE ρ = 0.21 <em>p</em> = 0.041), <em>S. paradoxus</em>. These results suggest that the regulatory in-degree of TFs is tied to the species specificity of the transcriptional modules they regulate. High in-degree TFs may be more likely to undergo reduced negative selection than low in-degree TFs because the impairment of their regulatory functions is less likely to disrupt core processes. At the same time, high in-degree TFs may be more likely to undergo enhanced positive selection because they tend to regulate more species-specific functions.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[1]"><a name="pcbi-1002734-g001" id="pcbi-1002734-g001" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002734?imageURI=info:doi/10.1371/journal.pcbi.1002734.g001" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002734', 'info:doi/10.1371/journal.pcbi.1002734.g001');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002734', 'info:doi/10.1371/journal.pcbi.1002734.g001');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002734.g001&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002734?imageURI=info:doi/10.1371/journal.pcbi.1002734.g001" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002734', 'info:doi/10.1371/journal.pcbi.1002734.g001');"><span>Figure 1. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[1]/caption[1]/title[1]">Distinct evolutionary trends of TFs.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[1]/caption[1]/p[1]">Unlike average proteins, TF K<sub>a</sub>/K<sub>s</sub> correlates positively with regulatory in-degree and very poorly with CAI and the evolutionary rate of PPI network neighbors. K<sub>a</sub>/K<sub>s</sub> is displayed as a function of regulatory in-degree (A–B), CAI (C–D) and median K<sub>a</sub>/K<sub>s</sub> of interacting proteins (E–F) for all proteins (A,C,E) and TFs (B,D,F). Numbers above the bars represent the number of TFs/proteins in the bin.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002734.g001</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002734.g001/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002734.g001/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002734.g001.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002734.g001/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002734.g001.TIF"></span> TIFF)
+                  </a></li></ul></div></div>
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/title[1]">The Effects of Expression Level, CAI and PPI Network Neighbors on TF Evolution</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[1]">Since the trends relating TF evolutionary rate to network degree are significantly distinct from the genome-wide average, we decided to probe whether TF evolutionary rate is differentially affected by other well-known correlates, such as mRNA expression level or the evolutionary rate of protein interaction partners. Using our method, we compared the slope of TFs relating K<sub>a</sub>/K<sub>s</sub> and mRNA expression level from RNA-seq in rich media <a href="#pcbi.1002734-Ingolia1">[16]</a> to the slopes produced from random protein sets of the same size, matched for average expression level and evolutionary rate (see <a href="#s4">Methods</a>). The results show that the trend relating TF K<sub>a</sub>/K<sub>s</sub> to expression level is too flat to be due to chance (<em>p</em> = 0.0025), even accounting for TFs' lower average expression level. TF K<sub>a</sub>/K<sub>s</sub> is also much less correlated than expected to CAI (<em>p</em>≤0.0001), a commonly-used surrogate for expression level. This suggests that expression level imposes weaker selective constraints on TFs than on other genes. A similar lack of correlation is also apparent between TF K<sub>a</sub>/K<sub>s</sub> and the median K<sub>a</sub>/K<sub>s</sub> of protein-protein interaction (PPI) partners. TF K<sub>a</sub>/K<sub>s</sub> is too weakly correlated to that of its PPI network neighbors to be the result of chance (<em>p</em>≤0.0001). This difference is probably related to the greater fraction of TFs involved in transient interactions and thus less likely to co-evolve with their interaction partners. These results demonstrate yet again that TFs are subject to a unique set of evolutionary pressures. <a href="#pcbi-1002734-g001">Figure 1</a> shows some of the most striking differences in TF evolutionary rate correlations. In addition to other explanations, it is possible that TF evolutionary rate shows weaker correlation to many features because of the dominant influence of other determinants on TF evolution, such as their role in the regulatory network.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/title[1]">The Effect of Target Gene Evolutionary Rate on TF Evolution</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/p[1]">To understand the evolutionary behavior of TFs, it is imperative that we study the evolution of their target genes. The function of TFs is inherently expressed through the regulation of their target genes and this network-centric role of TFs might be what distinguishes their evolution from that of other proteins. Using the ChIP-chip based regulatory network and Spearman's rank correlation coefficient (ρ), we asked whether median target evolutionary rate was predictive of TF evolutionary rate. As shown in <a href="#pcbi-1002734-g002">Figure 2A</a>, we discovered that the evolutionary rate of TFs significantly follows the median rate of its target genes (ρ = 0.25, <em>p</em> = 0.0033), suggesting that TFs and their target genes constitute co-evolving modules. <a href="#pcbi.1002734.s002">Figure S2A</a> shows that the correlation holds using K<sub>a</sub>/K<sub>s</sub> values obtained from comparing <em>S. cerevisiae</em> to its next closest sequenced cousin, <em>S. mikatae</em> (ρ = 0.23, <em>p</em> = 0.0059). We also confirmed the significance of this effect using the network of confirmed edges (ρ = 0.23, <em>p</em> = 0.020) and using an alternative regulatory network based entirely on literature curation of small-scale experimental studies <a href="#pcbi.1002734-Teixeira1">[15]</a> (ρ = 0.26, <em>p</em> = 0.0018), henceforth referred to as the literature curated network. As shown in <a href="#pcbi.1002734.s003">Figure S3</a>, K<sub>a</sub>/K<sub>s</sub> itself cannot be used to predict regulatory interactions in general, but it does provide some predictive power in the TF subnetwork (predicting TFs that regulate TFs). Furthermore, we show that targets of the same TF in the network of confirmed edges tend to have closer than expected evolutionary rates (<em>p</em> = 0.011) and mRNA expression levels (<em>p</em> = 1.13×10<sup>−4</sup>), using the Wilcoxon rank-sum test (see <a href="#s4">Methods</a> for details) than targets of different TFs. Although the co-evolution of co-regulated genes is easily explained by their similar expression levels, the co-evolution of TFs and their target genes indicates that TF evolution is directly influenced by their position and role in the regulatory network.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/fig[1]"><a name="pcbi-1002734-g002" id="pcbi-1002734-g002" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002734?imageURI=info:doi/10.1371/journal.pcbi.1002734.g002" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002734', 'info:doi/10.1371/journal.pcbi.1002734.g002');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002734', 'info:doi/10.1371/journal.pcbi.1002734.g002');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002734.g002&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002734?imageURI=info:doi/10.1371/journal.pcbi.1002734.g002" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002734', 'info:doi/10.1371/journal.pcbi.1002734.g002');"><span>Figure 2. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/fig[1]/caption[1]/title[1]">TFs and their targets co-evolve as modules.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/fig[1]/caption[1]/p[1]">Each data point is based on a TF with 3 or more targets. (A) TF K<sub>a</sub>/K<sub>s</sub> as a function of the median K<sub>a</sub>/K<sub>s</sub> of target genes. (B) TF K<sub>a</sub>/K<sub>s</sub> as a function of the fraction of target genes missing an ortholog in <em>S. paradoxus</em> (lost in <em>S. paradoxus</em> or gained in <em>S. cerevisiae</em>). Numbers above the bars represent the number of TFs in the bin.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002734.g002</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002734.g002/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002734.g002/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002734.g002.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002734.g002/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002734.g002.TIF"></span> TIFF)
+                  </a></li></ul></div></div>
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[5]/title[1]">The Effect of Target Gene Loss or Gain on TF Evolution</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[5]/p[1]">Evolutionary rate is not the only evolutionary measure of protein importance. We also looked at the fraction of target genes missing an ortholog in the closest yeast species, <em>S. paradoxus</em>, indicating the gene was either lost in <em>S. paradoxus</em> or gained in <em>S. cerevisiae</em>. We discovered that the fraction of target genes missing in <em>S. paradoxus</em> is correlated to TF evolutionary rate (ρ = 0.22, <em>p</em> = 0.0091; <a href="#pcbi-1002734-g002">Figure 2B</a>). The correlation was confirmed using <em>S. mikatae</em> as the comparison species (ρ = 0.23, <em>p</em> = 0.0081), as displayed in <a href="#pcbi.1002734.s002">Figure S2B</a>. The result also holds using the network of confirmed edges (ρ = 0.24, <em>p</em> = 0.021) and the alternative literature curated network (ρ = 0.24, <em>p</em> = 0.0042). These results suggest that the evolutionary rate of TFs is tied to the species specificity of the transcriptional modules they regulate. TFs regulating species-specific modules tend to evolve faster, as a result of either relaxed negative selection or enhanced positive selection.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/title[1]">The Relative Contribution of TF Evolutionary Rate Correlates</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/p[1]">In addition to separately assessing the genomic and network correlates of TF evolutionary rate, it is important to compare their relative contributions to identify the most dominant determinants of TF evolutionary rate, and whether they differ from those of generic proteins. <a href="#pcbi-1002734-g003">Figure 3</a> shows the Spearman's rank correlation coefficients (ρ) relating different genomic and network properties to K<sub>a</sub>/K<sub>s</sub> for TFs and for all proteins. This figure clearly shows how features like expression, CAI, which is tightly coupled to expression <a href="#pcbi.1002734-Sharp1">[17]</a>, and PPI degree dominate the evolutionary rate determinant landscape of average proteins. In contrast, median target K<sub>a</sub>/K<sub>s</sub> dominates the TF landscape, with other regulatory network properties playing an important role, such as in-degree, median regulator K<sub>a</sub>/K<sub>s</sub> and the fraction of target genes missing in <em>S. paradoxus</em>. This shows that the regulatory network structure is the most important factor determining TF evolutionary rate, suggesting that the function and evolution of TFs is primarily defined at the network level. The dominance of this so far overlooked relationship between TF and target evolution could also potentially explain the eccentricity of other TF evolutionary trends. The observation that TFs have significantly different evolutionary rate determinants was confirmed individually for each variable earlier in the Results section, using sampling of random proteins and rigorous statistical tests as described in the <a href="#s4">Methods</a> section.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/fig[1]"><a name="pcbi-1002734-g003" id="pcbi-1002734-g003" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002734?imageURI=info:doi/10.1371/journal.pcbi.1002734.g003" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002734', 'info:doi/10.1371/journal.pcbi.1002734.g003');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002734', 'info:doi/10.1371/journal.pcbi.1002734.g003');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002734.g003&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002734?imageURI=info:doi/10.1371/journal.pcbi.1002734.g003" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002734', 'info:doi/10.1371/journal.pcbi.1002734.g003');"><span>Figure 3. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/fig[1]/caption[1]/title[1]">Comparison of different genomic and network features influencing TF and protein evolutionary rate.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/fig[1]/caption[1]/p[1]">For each determinant, absolute Spearman's rank correlation coefficient (ρ) for TFs is displayed on the left and for all proteins, on the right, with the color of the box representing the direction of the trend. The * indicates the most dominant correlation for each protein set. While CAI is the dominant correlate with K<sub>a</sub>/K<sub>s</sub> for generic proteins, target gene K<sub>a</sub>/K<sub>s</sub> is the strongest correlate for TF K<sub>a</sub>/K<sub>s</sub>.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002734.g003</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002734.g003/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002734.g003/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002734.g003.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002734.g003/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002734.g003.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/p[2]">In contrast to random samples, other functionally defined subsets of proteins may also possess a different landscape of evolutionary rate determinants. As case examples, <a href="#pcbi.1002734.s004">Figure S4</a> shows the same evolutionary rate determinant correlation coefficients for the 240 proteins in the GO term “signal transduction” and for 540 metabolic enzymes taken from the YeastCyc database <a href="#pcbi.1002734-Caspi1">[18]</a>. We see that these functionally defined categories have similar overall evolutionary rate determinant profiles to that of generic proteins in <a href="#pcbi-1002734-g003">Figure 3</a>, with abundance and PPI degree dominating the landscape, suggesting that TFs are unique in this regard among functionally defined protein subsets. The only notable exception is the lack of correlation between signal transduction protein K<sub>a</sub>/K<sub>s</sub> and its median interactor K<sub>a</sub>/K<sub>s</sub>, which is consistent with our theory that this effect in TFs may be related to the transience of many interactions in the subnetwork.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[7]/title[1]">Controlling for Potential Relationships between Other TF and Target Properties</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[7]/p[1]">Since target K<sub>a</sub>/K<sub>s</sub> is apparently the strongest determinant of TF evolutionary rate, it is important to look for potential relationships between key TF and target properties, such as mRNA expression level and PPI degree, to rule out potential confounding effects. <a href="#pcbi.1002734.s005">Table S1</a> shows the Spearman's rank correlation coefficients relating different TF and target properties. We have repeated each one of these correlations using the network of confirmed edges and using the literature curated network <a href="#pcbi.1002734-Teixeira1">[15]</a>, the results of which are shown in <a href="#pcbi.1002734.s006">Tables S2</a> and <a href="#pcbi.1002734.s003">S3</a>, respectively. This analysis reveals that median target K<sub>a</sub>/K<sub>s</sub> remains the strongest predictor of TF K<sub>a</sub>/K<sub>s</sub> over other important target properties.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[7]/p[2]">Since TFs are often regulated post-translationally, target gene expression has been used in studies to estimate the level of TF activity <a href="#pcbi.1002734-Boorsma1">[19]</a>, <a href="#pcbi.1002734-Pournara1">[20]</a>. Although consistently negative, the correlation between target expression and TF K<sub>a</sub>/K<sub>s</sub> was only found to be significant using the literature curated network. This result suggests that TF activity as estimated from target gene expression cannot be the only driving force behind the modularity of TF-target evolution. Further studies are needed to investigate the role of TF activity in determining TF evolutionary rate.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[8]/title[1]">TF Evolution and Target Gene Function</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[8]/p[1]">Having found that TF evolutionary rate is related to the evolutionary rate and species-specificity of target genes, we may expect a similar relation between TF evolutionary rate and target gene function. We looked for enrichments of large GO terms (involving 50 or more target genes) in the targets of the 25% fastest evolving TFs with targets, as compared to targets of other TFs using Fisher's exact test. <a href="#pcbi-1002734-t001">Table 1</a> shows the enrichments with a p-value below 0.05. Most GO terms that were significantly enriched in targets of fast evolving TFs are indicative of niche-specific functions, such as transporter activity, oxidation-reduction processes, and localization to the extracellular region, plasma membrane or cell periphery, as well as categories likely to show niche-specific expression, like carbohydrate metabolism. Most interestingly, we found that fast evolving TFs were also more likely to regulate other TFs, suggesting that the hierarchical structure of the regulatory network may be exploited by adaptive evolution. <a href="#pcbi.1002734.s008">Table S4</a> shows the enrichments found in targets of the other, slower evolving, TFs for comparison. It features terms representing more central and environment-independent functions, such as ribosomal or RNA processing functions and intracellular, organellar or nuclear localization. These results suggest that TF evolution potentially serves as a mechanism for species-specific environmental adaptation through its effect on the expression of multi-gene modules.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[8]/table-wrap[1]"><a name="pcbi-1002734-t001" id="pcbi-1002734-t001" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002734?imageURI=info:doi/10.1371/journal.pcbi.1002734.t001" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002734', 'info:doi/10.1371/journal.pcbi.1002734.t001');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002734', 'info:doi/10.1371/journal.pcbi.1002734.t001');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002734.t001&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[8]/table-wrap[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002734?imageURI=info:doi/10.1371/journal.pcbi.1002734.t001" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002734', 'info:doi/10.1371/journal.pcbi.1002734.t001');"><span>Table 1. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[8]/table-wrap[1]/caption[1]/title[1]">Go terms significantly enriched in targets of 25% fastest evolving TFs as compared to targets of other TFs.</span></strong></p><span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002734.t001</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002734.t001/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002734.t001/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002734.t001.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002734.t001/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002734.t001.TIF"></span> TIFF)
+                  </a></li></ul></div></div>
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[9]/title[1]">TF Evolution and the Evolution of Target Gene Expression</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[9]/p[1]">The role of <em>trans</em>-regulatory gene evolution on gene expression is inherently more difficult to study than <em>cis</em>-regulatory evolution since the former requires knowledge of the regulatory network structure. To confirm that the evolutionary rate of TFs is related to measurable <em>trans</em>-regulatory changes in the gene expression of target genes, we used previously published RNA-seq data from both <em>S. cerevisiae</em> and <em>S. paradoxus</em> <a href="#pcbi.1002734-Busby1">[21]</a>. Using the network of confirmed ChIP-chip edges, we found that targets of the top 25% fastest evolving TFs had, on average, larger expression differences between the two species than targets of other TFs, as shown in <a href="#pcbi-1002734-g004">Figure 4</a> (t-test <em>p</em> = 0.00013, see <a href="#s4">Methods</a> for details). This result confirms that TF evolutionary rate can serve to predict real <em>trans</em>-regulatory expression changes of gene modules, which could in turn lead to important phenotypic effects.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[9]/fig[1]"><a name="pcbi-1002734-g004" id="pcbi-1002734-g004" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002734?imageURI=info:doi/10.1371/journal.pcbi.1002734.g004" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002734', 'info:doi/10.1371/journal.pcbi.1002734.g004');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002734', 'info:doi/10.1371/journal.pcbi.1002734.g004');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002734.g004&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[9]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002734?imageURI=info:doi/10.1371/journal.pcbi.1002734.g004" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002734', 'info:doi/10.1371/journal.pcbi.1002734.g004');"><span>Figure 4. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[9]/fig[1]/caption[1]/title[1]">Targets of fast evolving TFs have larger expression changes through evolution.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[9]/fig[1]/caption[1]/p[1]">The targets of the 25% fastest evolving TFs, on the right, have on average larger absolute fold changes in expression between <em>S. cerevisiae</em> and <em>S. paradoxus</em> than targets of other TFs, on the left, as determined by RNA-seq. Numbers above the bars represent the number of TFs in the bin.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002734.g004</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002734.g004/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002734.g004/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002734.g004.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002734.g004/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002734.g004.TIF"></span> TIFF)
+                  </a></li></ul></div></div>
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[10]/title[1]">The Effect of Regulatory Sign on TF-Target Co-evolution</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[10]/p[1]">Regulatory networks are composed of two inherently distinct edge types, activating (or positive) edges and repressive (or negative) edges, which could potentially play divergent roles on the evolutionary modularity of the network. We used previously published TF knock-out microarray data <a href="#pcbi.1002734-Hu1">[22]</a> to infer the sign of ChIP-chip based regulatory network edges. Using the microarray fold-changes (see <a href="#s4">Methods</a> for details), we were able to infer the mode of regulation for 4,010 of the ChIP-chip regulatory edges, 2,628 activating and 1,382 repressive. By overlaying these two datasets, we decomposed the network into positive and negative regulatory subnetworks and studied how the mode of regulation affects TF-target evolutionary relationships. For TFs with 5 or more targets of the same regulatory sign, we found that median K<sub>a</sub>/K<sub>s</sub> of activated targets significantly follows TF K<sub>a</sub>/K<sub>s</sub> (ρ = 0.26, <em>p</em> = 0.0036), while median K<sub>a</sub>/K<sub>s</sub> of repressed targets shows no significant correlation (ρ = 0.068, <em>p</em> = 0.46). We also found that TF K<sub>a</sub>/K<sub>s</sub> predicts the fraction of activated targets which are missing in the comparison species <em>S. paradoxus</em> (ρ = 0.29, <em>p</em> = 0.0038) but not for repressed targets (ρ = −0.079, <em>p</em> = 0.52). <a href="#pcbi-1002734-t002">Table 2</a> shows the correlation coefficients and associated p-values for activating and repressive networks, where transcriptional edges are inferred either from ChIP-chip or from literature curation of small-scale experimental studies <a href="#pcbi.1002734-Teixeira1">[15]</a>. As shown in <a href="#pcbi-1002734-t002">Table 2</a>, both the significance of the activating edge relations and the lack of a significant trend for repressive edge relations were confirmed using the literature curated network. <a href="#pcbi-1002734-g005">Figure 5</a> shows how activated and repressed target evolutionary properties have a different effect on TF K<sub>a</sub>/K<sub>s</sub>. These results demonstrate that TFs evolve in synchrony with the targets they activate but not the targets they repress.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[10]/fig[1]"><a name="pcbi-1002734-g005" id="pcbi-1002734-g005" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002734?imageURI=info:doi/10.1371/journal.pcbi.1002734.g005" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002734', 'info:doi/10.1371/journal.pcbi.1002734.g005');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002734', 'info:doi/10.1371/journal.pcbi.1002734.g005');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002734.g005&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[10]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002734?imageURI=info:doi/10.1371/journal.pcbi.1002734.g005" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002734', 'info:doi/10.1371/journal.pcbi.1002734.g005');"><span>Figure 5. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[10]/fig[1]/caption[1]/title[1]">TFs co-evolve with activated targets, but not with repressed targets.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[10]/fig[1]/caption[1]/p[1]">Edge signs are inferred from TF knock-out expression data. Each data point is based on a TF with 5 or more targets regulated in the same direction. (A) Median K<sub>a</sub>/K<sub>s</sub> of activated target genes as a function of TF K<sub>a</sub>/K<sub>s</sub>. (B) Median K<sub>a</sub>/K<sub>s</sub> of repressed target genes as a function of TF K<sub>a</sub>/K<sub>s</sub>. (C) Fraction of activated targets missing an ortholog in <em>S. paradoxus</em> as a function of TF K<sub>a</sub>/K<sub>s</sub>. (D) Fraction of repressed targets missing an ortholog in <em>S. paradoxus</em> as a function of TF K<sub>a</sub>/K<sub>s</sub>. Numbers above the bars represent the number of TFs in the bin.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002734.g005</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002734.g005/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002734.g005/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002734.g005.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002734.g005/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002734.g005.TIF"></span> TIFF)
+                  </a></li></ul></div></div><div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[10]/table-wrap[1]"><a name="pcbi-1002734-t002" id="pcbi-1002734-t002" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002734?imageURI=info:doi/10.1371/journal.pcbi.1002734.t002" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002734', 'info:doi/10.1371/journal.pcbi.1002734.t002');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002734', 'info:doi/10.1371/journal.pcbi.1002734.t002');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002734.t002&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[10]/table-wrap[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002734?imageURI=info:doi/10.1371/journal.pcbi.1002734.t002" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002734', 'info:doi/10.1371/journal.pcbi.1002734.t002');"><span>Table 2. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[10]/table-wrap[1]/caption[1]/title[1]">Correlations between TF K<sub>a</sub>/K<sub>s</sub> and evolutionary properties of activated or repressed target genes.</span></strong></p><span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002734.t002</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002734.t002/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002734.t002/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002734.t002.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002734.t002/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002734.t002.TIF"></span> TIFF)
+                  </a></li></ul></div></div>
+</div>
+
+<div id="section3" xpathLocation="/article[1]/body[1]/sec[3]"><a id="s3" name="s3" toc="s3" title="Discussion"></a><h3 xpathLocation="noSelect">Discussion&nbsp;<a href="#top">Top</a></h3><p xpathLocation="/article[1]/body[1]/sec[3]/p[1]">Protein sequence evolutionary rate provides a unique viewpoint into both the importance and the functional relationships between genes and proteins. In this study, we have demonstrated how the function of TFs in the regulatory network is more important in understanding TF evolution than any other property measured. Demonstrating how TF sequence evolution plays an important role in the evolution of gene expression, we have shown that targets of fast evolving TFs are more likely to see their expression change through evolution. We found that TF evolutionary rate is determined by very different rules than that of generic proteins, possessing a unique correlation to expression level, CAI, median evolutionary rate of PPI network neighbors and, as previously reported, to PPI degree and regulatory in-degree. This evidence demonstrates how TFs are subject to their own set of evolutionary pressures.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/p[2]">We have also demonstrated that TF evolutionary rate is strongly related to the evolutionary properties of their target genes, such as evolutionary rate and species-specificity. Remarkably, this network-level influence on TF evolutionary rate trumps even that of gene expression. The fact that TFs and their targets tend to evolve as modules is consistent with similar findings in other types of biological networks. It has previously been reported that neighbors in many types of biological networks tend to evolve at similar rates <a href="#pcbi.1002734-Wang2">[23]</a>, including PPI networks <a href="#pcbi.1002734-Fraser1">[7]</a>, co-expression networks <a href="#pcbi.1002734-Carlson1">[24]</a>, genetic interaction networks <a href="#pcbi.1002734-Costanzo1">[25]</a> and metabolic networks <a href="#pcbi.1002734-Vitkup1">[26]</a>. What we have demonstrated here is that neighbor genes also tend to evolve at similar rates in the transcriptional network (TFs and their targets) and co-regulation network (genes regulated by a common TF). It is important to note, since TFs have low expression and are often regulated post-translationally, that the regulatory network is the one network among these (including the co-regulation network) for which the co-evolution of protein sequences is the least likely to be explained by similar expression levels.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/p[3]">The lack of correlation with CAI and expression level is especially surprising since it has been thoroughly established that protein abundance is by far the strongest predictor of protein evolutionary rate <a href="#pcbi.1002734-Fraser1">[7]</a>, <a href="#pcbi.1002734-Xia1">[27]</a>, <a href="#pcbi.1002734-Drummond1">[28]</a>. This is believed to relate to the increased pressure for proper folding and translational accuracy in highly expressed proteins <a href="#pcbi.1002734-Drummond2">[29]</a>. Since TFs' distinct trend is not explained by their lower average expression level, the difference is likely related to TFs' cellular role. Their expression levels may be subject to more variation across species, as shown across the human-chimp lineage <a href="#pcbi.1002734-Gilad1">[6]</a>. TFs could also be subject to other dominant evolutionary constraints, such as their network-level role.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/p[4]">Looking for unique features of TFs which could explain their distinct evolutionary trends, we found evidence suggesting TFs may play a special role in adaptive evolution. We have shown that targets of fast evolving TFs are more likely to show differential expression between the two yeast species and that targets of these same TFs are also more likely to be involved in environment-specific functions. TFs are themselves more likely to be regulated by fast evolving TFs, suggesting the possibility that adaptive evolution has taken advantage of the hierarchical structure of the regulatory network to achieve desirable phenotypic changes more efficiently.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/p[5]">Another strikingly unique feature of TF evolution is the positive trend relating TF evolutionary rate to regulatory in-degree, while other proteins show a negative trend. Here, we found that this positive trend appears to be a module-level trend, with TF in-degree affecting not only the TFs evolutionary rate but also the species-specificity of genes regulated by those TFs. The fact that TFs were more likely to be regulated by fast evolving TFs than other genes could also help explain this trend, especially considering that TF evolutionary rate is much more sensitive to the evolutionary rates of their regulators than is the case for other proteins, as shown in <a href="#pcbi-1002734-g003">Figure 3</a>. To gain further insights into the relation between TF in-degree and target function, we calculated the enrichment of GO term memberships comparing targets of high in-degree TFs (≥10 regulators) to targets of low in-degree TFs (≤2 regulators) using Fisher's exact test, considering GO terms with 50 or more targets. As shown in <a href="#pcbi.1002734.s009">Table S5</a>, the GO terms that were significantly enriched for targets of high in-degree TFs are very similar to those of fast evolving TFs, centering around peripheral or niche-specific functions, such as plasma transmembrane transport, while GO terms enriched in targets of low in-degree TFs, shown in <a href="#pcbi.1002734.s010">Table S6</a>, represent more central and environment-independent functions, such as translation and primary metabolism. These results suggest that TFs regulating niche-specific genes tend to have higher in-degree in part to allow for the integration of environmental signals.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/p[6]">When we decomposed the regulatory network into positive and negative regulatory subnetworks, we found that only positive regulatory relationships predict co-evolution of TFs and their targets. A study by Hershberg <em>et al.</em> supports that there are distinct evolutionary pressures on activator and repressor TFs in relation to their role in the transcriptional network. They discovered by comparing different strains of bacteria that activators are more likely than repressors to be lost before all their targets are lost <a href="#pcbi.1002734-Hershberg1">[2]</a>. They suggested that the loss of activator TFs was an “efficient means of shutting down unused pathways”. This draws a picture where activator TFs can be used by evolution as on/off switches affecting the activity of multi-gene modules, thereby avoiding the need to silence each gene through individual mutations. The loss of repressors however tends to be avoided regardless of the usefulness of the genes they regulate. Losing a repressor would likely lead to the untimely expression of genes, which will incur an energetic cost and potentially disrupt homeostasis. Similarly to the loss of a TF, mutations in the protein sequence of a TF are likely to impair the function of that TF. In the case of an activator, this would lead to reduced expression of regulated genes. We therefore expect the more conserved genes modules to be regulated by more conserved TFs, and vice-versa. In the case of a repressor, mutations in its protein sequence would likely lead to the over-expression of target genes, which due to resource expenditure and/or dosage sensitivity can be damaging to the cell independently of the evolutionary importance of target genes. This would explain why the evolutionary rate of repressors is largely independent of the evolutionary properties of target genes. Our results are consistent with Hershberg <em>et al.</em>'s earlier findings, but suggest that the loss of activator TFs is an extreme example within the wider spectrum of activator TF protein evolution, which can likely be involved in more subtle and varied modulations of pathway activities than a simple on/off switch. This new perspective on the evolution of <em>trans</em>-regulatory gene expression control confirms that positive and negative regulatory subnetworks are subject to very different evolutionary pressures at the regulatory network-level.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/p[7]">This work details the uniqueness of TF evolutionary rate determinants and is the first to establish the modularity of TF-target protein evolution. This new awareness sheds much needed light on the eukaryotic evolution of <em>trans</em>-level control of gene expression through TF protein evolution and may help us better understand how subtle differences at the protein level can lead to pathway level variation between species. We also demonstrated that there are fundamental evolutionary differences between positive and negative regulatory subnetworks. Identifying consistent themes in the ways regulatory networks achieve favorable adaptations can reveal design principles underlying the system's dynamics and evolutionary adaptability. On a wider note, this work has established that for a subset of proteins, systems-level properties can leave evolutionary traces of comparable effect size to physical features such as expression level and PPI degree.</p>
+</div>
+
+<div id="section4" xpathLocation="/article[1]/body[1]/sec[4]"><a id="s4" name="s4" toc="s4" title="Methods"></a><h3 xpathLocation="noSelect">Methods&nbsp;<a href="#top">Top</a></h3>
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[1]/title[1]">Data Collection</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[1]/p[1]">We used the yeast ChIP-chip data available from the YEASTRACT database (<a href="http://yeastract.com">http://yeastract.com</a>) <a href="#pcbi.1002734-Teixeira1">[15]</a> compiled from multiple studies <a href="#pcbi.1002734-Lee1">[30]</a>–<a href="#pcbi.1002734-Workman1">[35]</a>. The literature-curated transcriptional network dataset, which is based on small-scale experimental studies, was also retrieved from the YEASTRACT database <a href="#pcbi.1002734-Teixeira1">[15]</a>. We downloaded physical interaction data from the <em>Saccharomyces</em> Genome Database (SGD) <a href="#pcbi.1002734-Nash1">[36]</a>, which compiled PPIs from different high-throughput and small-scale studies. Orthology between <em>S. cerevisiae</em> and <em>S. paradoxus</em> were taken from the Orthogroups database (<a href="http://www.broadinstitute.org/regev/orthogroups/">http://www.broadinstitute.org/regev/orth​ogroups/</a>) <a href="#pcbi.1002734-Wapinski1">[37]</a>. K<sub>a</sub>/K<sub>s</sub> values were calculated according to the Yang-Neilsen method <a href="#pcbi.1002734-Yang1">[38]</a> using PAML <a href="#pcbi.1002734-Yang2">[39]</a>. Genes missing an ortholog were assigned a K<sub>a</sub>/K<sub>s</sub> value higher than the fastest evolving genes with an ortholog. Codon adaptation index (CAI) values were taken from Wang <em>et al.</em> <a href="#pcbi.1002734-Wang1">[10]</a>. TF knock-out microarray expression data <a href="#pcbi.1002734-Hu1">[22]</a> (accession #: GSE4654) and RNA-seq expression data <a href="#pcbi.1002734-Ingolia1">[16]</a>, <a href="#pcbi.1002734-Busby1">[21]</a> (accessions: GSE13750 and GSE32679) were retrieved from the Gene Expression Omnibus database (<a href="http://www.ncbi.nlm.nih.gov/geo/">http://www.ncbi.nlm.nih.gov/geo/</a>).</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[2]/title[1]">Calculating and Comparing Slopes</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[2]/p[1]">To allow for the comparison of slopes between TFs and all proteins, without succumbing to the pitfalls associated with the use of highly non-normal distributions, we developed a new normalization procedure. We simply assign ranks to all proteins in the original, genome-wide, distribution. Then we use these ranks to calculate slopes on the different protein sets, rather than re-ranking within the subsets as would Spearman's rank correlation. The problem with re-ranking within the subsets is that the slopes will be normalized to equal the correlation coefficient, which represents the goodness of fit rather than the relative slope. This modified procedure allows us to compare the degree of the slope between the TF subset to the global protein set.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[3]/title[1]">Assigning P-values to Subnetwork Slopes</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[3]/p[1]">We calculated a p-value for the unexpectedness of the TF slope as compared to the slope for generic proteins, using a sampling procedure similar to the approach used in <a href="#pcbi.1002734-Wang1">[10]</a>. We produced a distribution of 10,000 slopes by performing regressions on randomly selected equally sized samples of proteins whose average K<sub>a</sub>/K<sub>s</sub> and degree (or the relevant pair of variables) in rank space are within 1% root-mean-square deviation (RMSD) of the TF subset. P-value is calculated as the fraction of slopes generated from random samples whose incline is more extreme than or equal to that of the slope associated with the TF subset. It is essential to control for average rate and degree because having a different distribution in either dimension can systematically bias the slope. As compared to the method applied in <a href="#pcbi.1002734-Wang1">[10]</a>, our new method differs in that we used directly comparable slopes obtained from the genome-wide rank space instead of the correlation coefficient, and in that we controlled for the different average evolutionary rate (and other relevant variables) of TFs as compared to generic proteins. This improved method allows us to draw conclusions in more confidence, having excluded additional potential confounding factors.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[4]/title[1]">Histograms and Error Bars</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[4]/p[1]">For each histogram, we plotted the median value for each bin, which is more robust to outliers than the average, and used bootstrapping with a 100 re-samplings to estimate the standard error of the median. Using the median rather than the mean also produces results which are insensitive to the choice of K<sub>a</sub>/K<sub>s</sub> assigned to genes which lack an ortholog in the reference species <em>S. paradoxus</em>.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[5]/title[1]">Controls</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[5]/p[1]">As a control for the K<sub>a</sub>/K<sub>s</sub> to PPI degree and in-degree trend comparisons, we repeated the calculations, replacing the evolutionary rate of each protein with its codon adaptation index (CAI), which is considered a good proxy for the average expression level <a href="#pcbi.1002734-Sharp1">[17]</a>. This way, we can confirm or discard the hypothesis that a surprising slope relating evolutionary rate and degree is explained by a different trend relating the strong correlate, expression, to degree. This approach was used previously in <a href="#pcbi.1002734-Wang1">[10]</a>. To ensure that false positive interactions are not a problem, we also repeated these correlations using only network edges which are supported by two or more independent ChIP-chip experiments, which we termed confirmed edges (CE).</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[6]/title[1]">Measuring the Relationship between TF and Target Properties</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[6]/p[1]">For every TF with 3 or more targets, based on ChIP-chip edges, we measured the median K<sub>a</sub>/K<sub>s</sub>, the fraction of targets missing a <em>S. paradoxus</em> ortholog as well as the fraction of highly conserved, highly interactive and highly expressed targets (top 20%) and used Spearman's rank correlation to establish the significance of the correlations. We repeated the analysis using literature derived edges and using only confirmed ChIP-chip edges (CE). We used TFs with 2 or more targets for the analysis with confirmed edges, since the resulting network is sparser and edges more reliable. In the case of the fraction of targets missing an ortholog, we still required at least 3 targets because this feature affects a small fraction of genes (~10%). We considered robust the correlations which were found to be significant (<em>p</em>&lt;0.05) in all three networks. For activating and repressive networks, we used TFs with 5 or more targets regulated in the same direction to ensure the correlations are robust to the potential uncertainties in the sign of regulatory edges.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[7]/title[1]">Calculating the Spread of K<sub>a</sub>/K<sub>s</sub> and Expression of Co-regulated Genes</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[7]/p[1]">For each TF with 3 or more targets possessing an ortholog in <em>S. paradoxus</em>, we calculated the median K<sub>a</sub>/K<sub>s</sub> and mRNA log read count difference between all pairs of targets and compared the result to the expected difference using the Wilcoxon rank-sum test. The expected median difference was estimated from the average of 100 equally-sized randomized sets of “target” genes, where each gene was chosen with a probability proportional to its in-degree.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[8]/title[1]">Comparing the Expression-Level Differences of Genes between Two Yeast Species</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[8]/p[1]">We used previously published RNA-seq data from both <em>S. cerevisiae</em> and <em>S. paradoxus</em> <a href="#pcbi.1002734-Busby1">[21]</a> to measure the extent of gene expression change through evolution. We first normalized expression levels by dividing the number of reads mapping to each gene by the number of millions of reads in the sample (reads-per-million), fixing the lowest possible gene expression at 1 read-per-million. This procedure controls for differences in sequencing depth, allowing the levels for each gene to be comparable across the two species. We then measured the log<sub>2</sub> fold expression change between the two species for each gene, using the orthology assignments provided by the expression study. Using logged values makes the fold change distribution closer to a normal distribution. We then used an unpaired t-test to determine the significance of the difference between absolute log<sub>2</sub> fold changes of targets of fast evolving TFs (top 25%) and targets of slow evolving TFs (bottom 75%).</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[9]/title[1]">Assigning Signs to Regulatory Edges</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[9]/p[1]">To assign a positive or negative sign to regulatory edges, we used previously published TF knock-out microarray data <a href="#pcbi.1002734-Hu1">[22]</a> which includes 135 TFs with ChIP-chip data. For ChIP-chip derived edges which corresponded to an X score <a href="#pcbi.1002734-Hu1">[22]</a>, a confidence-weighted log ratio, of absolute value greater than 1, we inferred the sign of the edge based on the target gene expression change. The same approach was used for literature-based edges.</p>
+
+</div>
+
+<div id="section5" xpathLocation="/article[1]/body[1]/sec[5]"><a id="s5" name="s5" toc="s5" title="Supporting Information"></a><h3 xpathLocation="noSelect">Supporting Information&nbsp;<a href="#top">Top</a></h3><a name="pcbi.1002734.s001" id="pcbi.1002734.s001"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002734.s001">Figure S1. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[1]/caption[1]/p[1]"><strong>Scatter plots for distinct evolutionary trends of TFs compared to generic proteins.</strong> Shown are rank-rank plots and trend lines for all proteins (in blue) and TFs (in purple), where K<sub>a</sub>/K<sub>s</sub> is displayed as a function of regulatory in-degree (A), PPI degree (B), median K<sub>a</sub>/K<sub>s</sub> of interacting proteins (C), and CAI (D).</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[1]/caption[1]/p[2]">(PDF)</p>
+<a name="pcbi.1002734.s002" id="pcbi.1002734.s002"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002734.s002">Figure S2. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[2]/caption[1]/p[1]"><strong>TF-target co-evolution between </strong><strong><em>S. cerevisiae</em></strong><strong> and </strong><strong><em>S. mikatae</em></strong><strong>.</strong> (A) Median K<sub>a</sub>/K<sub>s</sub> of target genes as a function of TF K<sub>a</sub>/K<sub>s</sub>. (B) Fraction of targets missing an ortholog in <em>S. mikatae</em> (lost in <em>S. mikatae</em> or gained in <em>S. cerevisiae</em>) as a function of TF K<sub>a</sub>/K<sub>s</sub>. Numbers above the bars represent the number of TFs in the bin.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[2]/caption[1]/p[2]">(PDF)</p>
+<a name="pcbi.1002734.s003" id="pcbi.1002734.s003"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002734.s003">Figure S3. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[3]/caption[1]/p[1]"><strong>K<sub>a</sub>/K<sub>s</sub> as predictor for transcriptional regulation.</strong> Shown are the Receiver Operating Characteristic (ROC) curves over the entire ChIP-chip network (A) and the TF subnetwork (B) of regulatory interaction prediction based on linear regression between TF K<sub>a</sub>/K<sub>s</sub> and median target K<sub>a</sub>/K<sub>s</sub>. In each case, TFs were randomly split into a training set, on which regression was performed, and a test set, on which true positive and false positive rates were assessed. The figure shows that K<sub>a</sub>/K<sub>s</sub> does not predict regulatory edges in the global network, but it does provide some predictive power when limited to the TF subnetwork (TFs regulating TFs).</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[3]/caption[1]/p[2]">(PDF)</p>
+<a name="pcbi.1002734.s004" id="pcbi.1002734.s004"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002734.s004">Figure S4. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[4]/caption[1]/p[1]"><strong>Comparison of different genomic and network features influencing evolutionary rate of metabolic enzymes and signal transduction proteins.</strong> For each determinant, absolute Spearman's rank correlation coefficient (ρ) is displayed, with the color of the box representing the direction of the trend. (A) Evolutionary rate determinants of 540 metabolic enzymes taken from YeastCyc. (B) Evolutionary rate determinants of the 240 proteins in the GO term “signal transduction”. This figure shows that functionally defined protein sets other than TFs have evolutionary rate determinant profiles similar to that of generic proteins.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[4]/caption[1]/p[2]">(PDF)</p>
+<a name="pcbi.1002734.s005" id="pcbi.1002734.s005"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002734.s005">Table S1. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[5]/caption[1]/p[1]">
+            <strong>Spearman correlation coefficients relating TF and target properties in the ChIP-chip network.</strong>
+          </p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[5]/caption[1]/p[2]">(DOC)</p>
+<a name="pcbi.1002734.s006" id="pcbi.1002734.s006"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002734.s006">Table S2. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[6]/caption[1]/p[1]">
+            <strong>Spearman correlation coefficients relating TF and target properties in the network of confirmed edges.</strong>
+          </p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[6]/caption[1]/p[2]">(DOC)</p>
+<a name="pcbi.1002734.s007" id="pcbi.1002734.s007"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002734.s007">Table S3. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[7]/caption[1]/p[1]">
+            <strong>Spearman correlation coefficients relating TF and target properties in the network of literature curated edges.</strong>
+          </p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[7]/caption[1]/p[2]">(DOC)</p>
+<a name="pcbi.1002734.s008" id="pcbi.1002734.s008"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002734.s008">Table S4. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[8]/caption[1]/p[1]">
+            <strong>Go terms significantly enriched in targets of 75% slowest evolving TFs as compared to the targets of 25% fastest evolving.</strong>
+          </p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[8]/caption[1]/p[2]">(DOC)</p>
+<a name="pcbi.1002734.s009" id="pcbi.1002734.s009"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002734.s009">Table S5. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[9]/caption[1]/p[1]">
+            <strong>GO terms significantly enriched in target genes of TFs with 10 or more regulators as compared to targets of TFs with 2 or less regulators.</strong>
+          </p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[9]/caption[1]/p[2]">(DOC)</p>
+<a name="pcbi.1002734.s010" id="pcbi.1002734.s010"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002734.s010">Table S6. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[10]/caption[1]/p[1]">
+            <strong>GO terms significantly enriched in target genes of TFs with 2 or less regulators as compared to targets of TFs with 10 or more regulators.</strong>
+          </p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[10]/caption[1]/p[2]">(DOC)</p>
+</div>
+
+
+
+
+
+<div xpathLocation="noSelect"><a id="ack" name="ack" toc="ack" title="Acknowledgments"></a><h3 xpathLocation="noSelect">Acknowledgments&nbsp;<a href="#top">Top</a></h3>
+<p xpathLocation="/article[1]/back[1]/ack[1]/p[1]">We thank Eric Franzosa for providing the yeast codon-level alignments.</p>
+</div><div class="contributions"><a id="authcontrib" name="authcontrib" toc="authcontrib" title="Author Contributions"></a><h3 xpathLocation="noSelect">Author Contributions&nbsp;<a href="#top">Top</a></h3><p xpathLocation="noSelect">Conceived and designed the experiments: JCH YX. Performed the experiments: JCH. Analyzed the data: JCH. Wrote the paper: JCH YX.</p></div><div xpathLocation="noSelect"><a id="references" name="references" toc="references" title="References"></a><h3 xpathLocation="noSelect">References&nbsp;<a href="#top">Top</a></h3><ol class="references" xpathLocation="noSelect"><li xpathLocation="noSelect"><a name="pcbi.1002734-Tirosh1" id="pcbi.1002734-Tirosh1"></a>Tirosh I, Reikhav S, Levy AA, Barkai N (2009) A yeast hybrid provides insight into the evolution of gene expression regulation. Science 324: 659–662.
+        doi:
+        <a href="http://dx.doi.org/10.1126/science.1169766">10.1126/science.1169766</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928731">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Hershberg1" id="pcbi.1002734-Hershberg1"></a>Hershberg R, Margalit H (2006) Co-evolution of transcription factors and their targets depends on mode of regulation. Genome Biol 7: R62. <a class="find" href="/article/findArticle.action?citedArticleID=5928733">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Ronshaugen1" id="pcbi.1002734-Ronshaugen1"></a>Ronshaugen M, McGinnis N, McGinnis W (2002) Hox protein mutation and macroevolution of the insect body plan. Nature 415: 914–917.
+        doi:
+        <a href="http://dx.doi.org/10.1038/nature716">10.1038/nature716</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928735">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Galant1" id="pcbi.1002734-Galant1"></a>Galant R, Carroll SB (2002) Evolution of a transcriptional repression domain in an insect Hox protein. Nature 415: 910–913.
+        doi:
+        <a href="http://dx.doi.org/10.1038/nature717">10.1038/nature717</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928737">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Clark1" id="pcbi.1002734-Clark1"></a>Clark AG, Glanowski S, Nielsen R, Thomas PD, Kejariwal A, et al. (2003) Inferring nonneutral evolution from human-chimp-mouse orthologous gene trios. Science 302: 1960–1963.
+        doi:
+        <a href="http://dx.doi.org/10.1126/science.1088821">10.1126/science.1088821</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928739">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Gilad1" id="pcbi.1002734-Gilad1"></a>Gilad Y, Oshlack A, Smyth GK, Speed TP, White KP (2006) Expression profiling in primates reveals a rapid evolution of human transcription factors. Nature 440: 242–245.
+        doi:
+        <a href="http://dx.doi.org/10.1038/nature04559">10.1038/nature04559</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928741">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Fraser1" id="pcbi.1002734-Fraser1"></a>Fraser HB, Hirsh AE, Steinmetz LM, Scharfe C, Feldman MW (2002) Evolutionary rate in the protein interaction network. Science 296: 750–752.
+        doi:
+        <a href="http://dx.doi.org/10.1126/science.1068696">10.1126/science.1068696</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928743">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Kim1" id="pcbi.1002734-Kim1"></a>Kim PM, Lu LJ, Xia Y, Gerstein MB (2006) Relating three-dimensional structures to protein networks provides evolutionary insights. Science 314: 1938–1941.
+        doi:
+        <a href="http://dx.doi.org/10.1126/science.1136174">10.1126/science.1136174</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928745">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Jovelin1" id="pcbi.1002734-Jovelin1"></a>Jovelin R, Phillips PC (2009) Evolutionary rates and centrality in the yeast gene regulatory network. Genome Biol 10: R35.
+        doi:
+        <a href="http://dx.doi.org/10.1186/gb-2009-10-4-r35">10.1186/gb-2009-10-4-r35</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928747">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Wang1" id="pcbi.1002734-Wang1"></a>Wang Y, Franzosa EA, Zhang XS, Xia Y (2010) Protein evolution in yeast transcription factor subnetworks. Nucleic Acids Res 38: 5959–5969.
+        doi:
+        <a href="http://dx.doi.org/10.1093/nar/gkq353">10.1093/nar/gkq353</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928749">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Zaslaver1" id="pcbi.1002734-Zaslaver1"></a>Zaslaver A, Mayo AE, Rosenberg R, Bashkin P, Sberro H, et al. (2004) Just-in-time transcription program in metabolic pathways. Nat Genet 36: 486–491.
+        doi:
+        <a href="http://dx.doi.org/10.1038/ng1348">10.1038/ng1348</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928751">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Ihmels1" id="pcbi.1002734-Ihmels1"></a>Ihmels J, Levy R, Barkai N (2004) Principles of transcriptional control in the metabolic network of Saccharomyces cerevisiae. Nat Biotechnol 22: 86–92.
+        doi:
+        <a href="http://dx.doi.org/10.1038/nbt918">10.1038/nbt918</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928753">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Kim2" id="pcbi.1002734-Kim2"></a>Kim PM, Lu LJ, Xia Y, Gerstein MB (2006) Relating three-dimensional structures to protein networks provides evolutionary insights. Science 314: 1938–1941.
+        doi:
+        <a href="http://dx.doi.org/10.1126/science.1136174">10.1126/science.1136174</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928755">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Ashburner1" id="pcbi.1002734-Ashburner1"></a>Ashburner M, Ball CA, Blake JA, Botstein D, Butler H, et al. (2000) Gene ontology: tool for the unification of biology. The Gene Ontology Consortium. Nat Genet 25: 25–29. <a class="find" href="/article/findArticle.action?citedArticleID=5928757">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Teixeira1" id="pcbi.1002734-Teixeira1"></a>Teixeira MC, Monteiro P, Jain P, Tenreiro S, Fernandes AR, et al. (2006) The YEASTRACT database: a tool for the analysis of transcription regulatory associations in Saccharomyces cerevisiae. Nucleic Acids Res 34: D446–D451.
+        doi:
+        <a href="http://dx.doi.org/10.1093/nar/gkj013">10.1093/nar/gkj013</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928759">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Ingolia1" id="pcbi.1002734-Ingolia1"></a>Ingolia NT, Ghaemmaghami S, Newman JR, Weissman JS (2009) Genome-wide analysis in vivo of translation with nucleotide resolution using ribosome profiling. Science 324: 218–223.
+        doi:
+        <a href="http://dx.doi.org/10.1126/science.1168978">10.1126/science.1168978</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928761">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Sharp1" id="pcbi.1002734-Sharp1"></a>Sharp PM, Li WH (1987) The codon Adaptation Index–a measure of directional synonymous codon usage bias, and its potential applications. Nucleic Acids Res 15: 1281–1295.
+        doi:
+        <a href="http://dx.doi.org/10.1093/nar/15.3.1281">10.1093/nar/15.3.1281</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928763">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Caspi1" id="pcbi.1002734-Caspi1"></a>Caspi R, Foerster H, Fulcher CA, Kaipa P, Krummenacker M, et al. (2008) The MetaCyc Database of metabolic pathways and enzymes and the BioCyc collection of Pathway/Genome Databases. Nucleic Acids Res 36: D623–D631. <a class="find" href="/article/findArticle.action?citedArticleID=5928765">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Boorsma1" id="pcbi.1002734-Boorsma1"></a>Boorsma A, Lu X-J, Zakrzewska A, Klis FM, Bussemaker HJ (2008) Inferring condition-specific modulation of transcription factor activity in yeast through regulon-based analysis of genomewide expression. PloS One 3: e3112.
+        doi:
+        <a href="http://dx.doi.org/10.1371/journal.pone.0003112">10.1371/journal.pone.0003112</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928767">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Pournara1" id="pcbi.1002734-Pournara1"></a>Pournara I, Wernisch L (2007) Factor analysis for gene regulatory networks and transcription factor activity profiles. BMC Bioinformatics 8: 61.
+        doi:
+        <a href="http://dx.doi.org/10.1186/1471-2105-8-61">10.1186/1471-2105-8-61</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928769">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Busby1" id="pcbi.1002734-Busby1"></a>Busby MA, Gray JM, Costa AM, Stewart C, Stromberg MP, et al. (2011) Expression divergence measured by transcriptome sequencing of four yeast species. BMC Genomics 12: 635.
+        doi:
+        <a href="http://dx.doi.org/10.1186/1471-2164-12-635">10.1186/1471-2164-12-635</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928771">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Hu1" id="pcbi.1002734-Hu1"></a>Hu Z, Killion PJ, Iyer VR (2007) Genetic reconstruction of a functional transcriptional regulatory network. Nat Genet 39: 683–687.
+        doi:
+        <a href="http://dx.doi.org/10.1038/ng2012">10.1038/ng2012</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928773">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Wang2" id="pcbi.1002734-Wang2"></a>Wang GZ, Lercher MJ (2011) The effects of network neighbours on protein evolution. PLoS One 6: e18288.
+        doi:
+        <a href="http://dx.doi.org/10.1371/journal.pone.0018288">10.1371/journal.pone.0018288</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928775">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Carlson1" id="pcbi.1002734-Carlson1"></a>Carlson MR, Zhang B, Fang Z, Mischel PS, Horvath S, et al. (2006) Gene connectivity, function, and sequence conservation: predictions from modular yeast co-expression networks. BMC Genomics 7: 40. <a class="find" href="/article/findArticle.action?citedArticleID=5928777">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Costanzo1" id="pcbi.1002734-Costanzo1"></a>Costanzo M, Baryshnikova A, Bellay J, Kim Y, Spear ED, et al. (2010) The genetic landscape of a cell. Science 327: 425–431.
+        doi:
+        <a href="http://dx.doi.org/10.1126/science.1180823">10.1126/science.1180823</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928779">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Vitkup1" id="pcbi.1002734-Vitkup1"></a>Vitkup D, Kharchenko P, Wagner A (2006) Influence of metabolic network structure and function on enzyme evolution. Genome Biol 7: R39. <a class="find" href="/article/findArticle.action?citedArticleID=5928781">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Xia1" id="pcbi.1002734-Xia1"></a>Xia Y, Franzosa EA, Gerstein MB (2009) Integrated assessment of genomic correlates of protein evolutionary rate. PLoS Comput Biol 5: e1000413.
+        doi:
+        <a href="http://dx.doi.org/10.1371/journal.pcbi.1000413">10.1371/journal.pcbi.1000413</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928783">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Drummond1" id="pcbi.1002734-Drummond1"></a>Drummond DA, Raval A, Wilke CO (2006) A single determinant dominates the rate of yeast protein evolution. Mol Biol Evol 23: 327–337.
+        doi:
+        <a href="http://dx.doi.org/10.1093/molbev/msj038">10.1093/molbev/msj038</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928785">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Drummond2" id="pcbi.1002734-Drummond2"></a>Drummond DA, Bloom JD, Adami C, Wilke CO, Arnold FH (2005) Why highly expressed proteins evolve slowly. Proc Natl Acad Sci U S A 102: 14338–14343.
+        doi:
+        <a href="http://dx.doi.org/10.1073/pnas.0504070102">10.1073/pnas.0504070102</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928787">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Lee1" id="pcbi.1002734-Lee1"></a>Lee TI, Rinaldi NJ, Robert F, Odom DT, Bar-Joseph Z, et al. (2002) Transcriptional regulatory networks in Saccharomyces cerevisiae. Science 298: 799–804.
+        doi:
+        <a href="http://dx.doi.org/10.1126/science.1075090">10.1126/science.1075090</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928789">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Horak1" id="pcbi.1002734-Horak1"></a>Horak CE, Luscombe NM, Qian J, Bertone P, Piccirrillo S, et al. (2002) Complex transcriptional circuitry at the G1/S transition in Saccharomyces cerevisiae. Genes Dev 16: 3017–3033.
+        doi:
+        <a href="http://dx.doi.org/10.1101/gad.1039602">10.1101/gad.1039602</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928791">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Borneman1" id="pcbi.1002734-Borneman1"></a>Borneman AR, Gianoulis TA, Zhang ZD, Yu H, Rozowsky J, et al. (2007) Divergence of transcription factor binding sites across related yeast species. Science 317: 815–819.
+        doi:
+        <a href="http://dx.doi.org/10.1126/science.1140748">10.1126/science.1140748</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928793">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Borneman2" id="pcbi.1002734-Borneman2"></a>Borneman AR, Leigh-Bell JA, Yu H, Bertone P, Gerstein M, et al. (2006) Target hub proteins serve as master regulators of development in yeast. Genes Dev 20: 435–448.
+        doi:
+        <a href="http://dx.doi.org/10.1101/gad.1389306">10.1101/gad.1389306</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928795">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Harbison1" id="pcbi.1002734-Harbison1"></a>Harbison CT, Gordon DB, Lee TI, Rinaldi NJ, Macisaac KD, et al. (2004) Transcriptional regulatory code of a eukaryotic genome. Nature 431: 99–104.
+        doi:
+        <a href="http://dx.doi.org/10.1038/nature02800">10.1038/nature02800</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928797">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Workman1" id="pcbi.1002734-Workman1"></a>Workman CT, Mak HC, McCuine S, Tagne JB, Agarwal M, et al. (2006) A systems approach to mapping DNA damage response pathways. Science 312: 1054–1059.
+        doi:
+        <a href="http://dx.doi.org/10.1126/science.1122088">10.1126/science.1122088</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928799">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Nash1" id="pcbi.1002734-Nash1"></a>Nash R, Weng S, Hitz B, Balakrishnan R, Christie KR, et al. (2007) Expanded protein information at SGD: new pages and proteome browser. Nucleic Acids Res 35: D468–D471.
+        doi:
+        <a href="http://dx.doi.org/10.1093/nar/gkl931">10.1093/nar/gkl931</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928801">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Wapinski1" id="pcbi.1002734-Wapinski1"></a>Wapinski I, Pfeffer A, Friedman N, Regev A (2007) Automatic genome-wide reconstruction of phylogenetic gene trees. Bioinformatics 23: i549–58.
+        doi:
+        <a href="http://dx.doi.org/10.1093/bioinformatics/btm193">10.1093/bioinformatics/btm193</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928803">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Yang1" id="pcbi.1002734-Yang1"></a>Yang Z, Nielsen R (2000) Estimating synonymous and nonsynonymous substitution rates under realistic evolutionary models. Mol Biol Evol 17: 32–43.
+        doi:
+        <a href="http://dx.doi.org/10.1093/oxfordjournals.molbev.a026236">10.1093/oxfordjournals.molbev.a026236</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928805">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002734-Yang2" id="pcbi.1002734-Yang2"></a>Yang Z (2007) PAML 4: phylogenetic analysis by maximum likelihood. Mol Biol Evol 24: 1586–1591.
+        doi:
+        <a href="http://dx.doi.org/10.1093/molbev/msm088">10.1093/molbev/msm088</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928807">
+                      Find this article online
+                    </a></li></ol></div>
+
+</div></div>
+<div style="display:none">
+<div dojoType="ambra.widget.RegionalDialog" id="AnnotationDialog" style="padding:0;margin:0;">
+  <div class="dialog annotate">
+    <div class="tipu" id="dTipu"></div>
+    <div class="comment">
+      <h5><span>Post Your Note (For Public Viewing)</span></h5>
+      <div class="posting pane">
+        <form name="createAnnotation" id="createAnnotation" method="post" action="">
+          <input type="hidden" name="target" value="info:doi/10.1371/journal.pcbi.1002734" />
+          <input type="hidden" name="startPath" value="" />
+          <input type="hidden" name="startOffset" value="" />
+          <input type="hidden" name="endPath" value="" />
+          <input type="hidden" name="endOffset" value="" />
+          <input type="hidden" name="commentTitle" id="commentTitle" value="" />
+          <input type="hidden" name="comment" id="commentArea" value="" />
+          <input type="hidden" name="ciStatement" id="statementArea" value="" />
+          <input type="hidden" name="isCompetingInterest" id="isCompetingInterest" value="false" />
+          <input type="hidden" name="noteType" id="noteType" value="" />
+          <fieldset>
+            <legend>Compose Your Note</legend>
+            <span id="submitMsg" class="error" style="display:none;"></span>
+            <table class="layout">
+              <tr>
+                <td>
+                  <label for="cNoteType">This is a </label><select name="cNoteType" id="cNoteType"><option value="note">note</option><option value="correction">correction</option></select>
+                  <span id="cdls" style="visibility:hidden;margin-left:0.3em; white-space:nowrap;"><a href="/static/commentGuidelines.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?target=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002734#corrections">What are corrections?</a></span>
+                  <label for="cTitle"><span class="none">Enter your note title</span><!-- error message text <em>A title is required for all public notes</em>--></label>
+                  <input type="text" name="cTitle" id="cTitle" value="Enter your note title..." class="title" alt="Enter your note title..." />
+                  <label for="cArea"><span class="none">Enter your note</span><!-- error message text <em>Please enter your note</em>--></label>
+                  <textarea name="cArea" id="cArea" value="Enter your note..." alt="Enter your note...">Enter your note...</textarea>
+                  <input type="hidden" name="isPublic" value="true" />
+                </td>
+                <td>&nbsp;</td>
+                <td class="coi">
+                  <fieldset>
+                    <legend>Declare any competing interests.</legend>
+                    <ul>
+                      <li><label><input id="isCompetingInterestNo" type="radio" checked="checked" name="competingInterest" value="false"  /> No, I don't have any competing interests to declare.</label></li>
+                      <li><label><input id="isCompetingInterestYes" type="radio" name="competingInterest" value="true"  /> Yes, I have competing interests to declare (enter below):</label></li>
+                    </ul>
+                    <textarea name="ciStatementArea" id="ciStatementArea" disabled value="Enter your competing interests..." alt="Enter your competing interests...">Enter your competing interests...</textarea>
+                  </fieldset>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3" class="buttons">
+                  <input type="button" value="Cancel" title="Click to close and cancel" id="btn_cancel"/>
+                  <input type="button" value="Submit" title="Click to post your note publicly" id="btn_post" class="primary"/>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <p>Notes and Corrections can include the following markup tags:</p>
+                  <p><strong>Emphasis:</strong> ''<em>italic</em>''&nbsp;&nbsp;'''<strong>bold</strong>'''&nbsp;&nbsp;'''''<strong><em>bold italic</em></strong>'''''</p>
+                  <p><strong>Other:</strong> ^^<sup>superscript</sup>^^&nbsp;&nbsp;~~<sub>subscript</sub>~~</p>
+                </td>
+              </tr>
+            </table>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <div class="tip" id="dTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialog" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="caTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      Please follow our <a href="/static/commentGuidelines.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">guidelines for notes and comments</a> and review our <a href="/static/competing.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">competing interests policy</a>. Comments that do not conform to our guidelines will be promptly removed and the user account disabled. The following must be avoided:
+      <ul>
+        <li>Remarks that could be interpreted as allegations of misconduct</li>
+        <li>Unsupported assertions or statements</li>
+        <li>Inflammatory or insulting language</li>
+      </ul>
+      <form name="contextActionForm" id="contextActionForm" class="clearfix buttons" method="post" action="">
+        <input type="button" name="Continue" value="Continue" id="ContextActionDialogContinueButton" onmouseup="ambra.displayAnnotationContext.startComment(event);" title="Add a note to this text" class="primary"/>
+        <input type="button" name="Cancel" value="Cancel" id="ContextActionDialogCancelButton" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);" title="Close this Window"/>
+      </form>
+    </div>
+    <div class="tip" id="caTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogNotLogged" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canlTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You must be logged in to add a note to an article.
+      You may log in by <a onmousedown="ambra.displayAnnotationContext.disconnect(event);" href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002734">clicking here</a> or <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">cancel this note</a>.
+    </div>
+    <div class="tip" id="canlTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogBadSelection" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canBDTipu"></div>
+    <div class="contextActionContent">
+      <h5 class="annotation icon"><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You cannot annotate this area of the document. <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">Close</a>
+    </div>
+    <div class="tip" id="canBDTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogBadRangeSelection" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canbrTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You cannot create an annotation that spans different sections of the document; please adjust your selection.<br/>
+      <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">Close</a>
+    </div>
+    <div class="tip" id="canbrTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.RegionalDialog" id="CommentDialog" style="padding:0;margin:0;">
+  <div class="dialog preview">
+    <div class="tipu" id="cTipu"></div>
+    <div class="btn close" id="btn_close" title="Click to close"><a title="Click to close">Close</a></div>
+    <div id="cmtContainer" class="comment">
+      <h6 id="viewCmtTitle"></h6>
+      <div class="detail" id="viewCmtDetail"></div>
+      <div class="contentwrap" id="viewComment"></div>
+      <div class="contentwrap" id="viewCIStatement"></div>
+      <div class="detail" id="viewLink">
+        <!--<a href="#" class="commentary icon" title="Click to view full thread and respond">View all responses</a>
+        <a href="#" class="respond tooltip" title="Click to respond to this posting">Respond to this</a>-->
+      </div>
+    </div>
+    <div class="tip" id="cTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.RegionalDialog" id="CommentDialogMultiple" style="padding:0;margin:0;">
+  <div class="dialog multiple preview">
+    <div class="tipu" id="mTipu"></div>
+    <div class="btn close" id="btn_close_multi" title="Click to close"><a title="Click to close">Close</a></div>
+    <ol id="multilist"></ol>
+    <br/>
+    <div id="multidetail"></div>
+    <div class="tip" id="mTip"></div>
+  </div>
+</div>
+
+
+<div dojoType="dijit.Dialog" id="Rating">
+  <div class="dialog annotate">
+    <div class="tipu" id="dTipu"></div>
+    <div class="comment">
+      <h5><span>Rate This Article</span></h5>
+      <div class="instructions">Please follow our <a  href="/static/ratingGuidelines.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">guidelines for rating</a> and review our <a href="/static/competing.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">competing interests policy</a>. Comments that do not conform to our guidelines will be promptly removed and the user account disabled. The following must be avoided:
+        <ol>
+          <li>Remarks that could be interpreted as allegations of misconduct</li>
+          <li>Unsupported assertions or statements</li>
+          <li>Inflammatory or insulting language</li>
+        </ol>
+      </div>
+      <div class="posting pane">
+        <form name="ratingForm" id="ratingForm" method="post" action="">
+          <input type="hidden" name="articleURI" value="info:doi/10.1371/journal.pcbi.1002734" />  
+          <input type="hidden" name="commentTitle" id="commentTitle" value="" />
+          <input type="hidden" name="comment" id="commentArea" value="" />
+          <input type="hidden" name="ciStatement" id="statementArea" value="" />
+          <input type="hidden" name="isCompetingInterest" id="isCompetingInterest" value="" />
+          <fieldset>
+            <legend>Compose Your Annotation</legend>
+            <span id="submitRatingMsg" class="error" style="display:none;"></span>
+            <table class="layout">
+              <tr>
+                <td rowspan="2">
+                  <label for="insight">Insight</label>
+                  <ul class="star-rating rating edit" title="Rate insight" id="rateInsight">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Bland" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'insight', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Profound" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="insight" title="insight" value="" />
+                  <label for="reliability">Reliability</label>
+                  <ul class="star-rating rating edit" title="Rate reliability" id="rateReliability">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Tenuous" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'reliability', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Unassailable" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="reliability" title="reliability" value="" />
+                  <label for="style">Style</label>
+                  <ul class="star-rating rating edit" title="Rate style" id="rateStyle">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Crude" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'style', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Elegant" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="style" title="style" value="" />
+                  <label for="cTitle"><span class="none">Enter your comment title</span><!-- error message text <em>A title is required for all public annotations</em>--></label>
+                  <input type="text" name="cTitle" id="cTitle" value="Enter your comment title..." class="title" alt="Enter your comment title..." />
+                  <label for="cArea"><span class="none">Enter your comment</span><!-- error message text <em>Please enter your annotation</em>--></label>
+                  <textarea name="cArea" id="cArea" value="Enter your comment..." alt="Enter your comment...">Enter your comment...</textarea>
+                </td>
+                <td rowspan="2">&nbsp;</td>
+                <td class="coi">
+                  <fieldset>
+                    <legend>Declare any competing interests.</legend>
+                    <ul>
+                      <li><label><input id="isCompetingInterestNo" type="radio" name="competingInterest" value="false"  /> No, I don't have any competing interests to declare.</label></li>
+                      <li><label><input id="isCompetingInterestYes" type="radio" name="competingInterest" value="true"  /> Yes, I have competing interests to declare (enter below):</label></li>
+                    </ul>
+                    <textarea name="ciStatementArea" id="ciStatementArea" disabled value="Enter your competing interests..." title="Enter your competing interests...">Enter your competing interests...</textarea>
+                  </fieldset>
+                </td>
+              </tr>
+              <tr>
+                <td class="buttons">
+                  <input type="button" value="Cancel" title="Click to close and cancel" id="btn_cancel_rating"/>
+                  <input type="button" value="Submit" title="Click to post your annotation publicly" id="btn_post_rating" class="primary"/>
+                </td>
+              </tr>
+              <tr>
+                  <td colspan="3"><p>Ratings can include the following markup tags:</p>
+                  <p><strong>Emphasis:</strong> ''<em>italic</em>''&nbsp;&nbsp;'''<strong>bold</strong>'''&nbsp;&nbsp;'''''<strong><em>bold italic</em></strong>'''''</p>
+                  <p><strong>Other:</strong> ^^<sup>superscript</sup>^^&nbsp;&nbsp;~~<sub>subscript</sub>~~</p></td>
+              </tr>
+            </table>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div dojoType="ambra.widget.LoadingCycle" id="LoadingCycle" class="loadingCycler">
+  <img src="/images/loading.gif" width="58" height="58" title="Loading..." />
+</div>
+<div dojoType="dijit.Dialog" id="LightBox">
+
+    <!-- start main window wrapper-->
+    <div class="figure-window-wrapper">
+
+      <!--start film strip Wrapper-->
+      <div class="figure-window-nav-wrapper">
+        <div id="figure-window-nav"></div>
+      </div><!--end figure-window-nav-wrapper-->
+
+      <!-- start figure container-->
+      <div class="figure-window-container">
+
+        <!-- start/end figure viewer-->
+        <div id="figure-window-viewer">
+          <img id="figure-window-img" class="large"/>
+        </div>
+
+        <!-- start/end figure doi-->
+        <div id="figure-window-doi"></div>
+
+        <!--start figure title-box-->
+        <div id="figure-window-title-box" class="figure-window-title-less">
+          <span id="figure-window-title"></span>
+          <div id="figure-window-more" class="figure-window-more" onclick="return ambra.lightBox.showMoreOrLess();"></div>
+          <div id="figure-window-description"></div>
+        </div><!--end figure title-box-->
+
+        <!--start figure download-->
+        <div class="figure-window-download">
+          <ul>
+            <li class="download icon"><strong>Download:</strong>
+              <a id="figure-window-ppt" title="Click to download PowerPoint slide of this image">PowerPoint
+                slide</a> |
+              <a id="figure-window-large" title="Click to download a larger version of this image">larger image
+                (<span id="figure-window-large-size"></span>)</a> |
+              <a id="figure-window-tiff" title="Click to download a original version of this image">original image
+                (<span id="figure-window-tiff-size"></span>)</a>
+            </li>
+          </ul>
+        </div><!--end figure download-->
+
+        <!--start/end of close, context, next and previous button-->
+        <div class="figure-window-close" onclick="return ambra.lightBox.hide();"></div>
+        <div class="figure-window-context" onclick="return ambra.lightBox.showInContext();"></div>
+        <div id="figure-window-previous" onclick="return ambra.lightBox.showPrevious();"></div>
+        <div id="figure-window-next" onclick="return ambra.lightBox.showNext();"></div>
+
+      </div><!--end figure-window-container-->
+
+    </div><!--end figure-window-wrapper-->
+
+</div><!--end dijit.Dialog-->
+</div>
+</div>
+<!-- end : main contents -->
+
+</div>
+<!-- end : container -->	
+
+<!-- begin : footer -->
+<div id="ftr">
+  <p><span>All site content, except where otherwise noted, is licensed under a <a href="http://creativecommons.org/licenses/by/2.5/" title="Creative Commons Attribution License 2.5" tabindex="200">Creative Commons Attribution License</a>.</span></p>
+  <ul>
+    <li><a href="/static/privacy.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" title="PLOS Privacy Statement" tabindex="501">Privacy Statement</a></li>
+    <li><a href="/static/terms.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" title="PLOS Terms of Use" tabindex="502">Terms of Use</a></li>
+    <li><a href="http://www.plos.org/advertise/" title="Advertise With PLOS" tabindex="503">Advertise</a></li>
+    <li><a href="http://www.plos.org/about/media-inquiries/" title="PLOS Embargo Policy" tabindex="504">Media Inquiries</a></li>
+    <li><a href="http://www.plos.org/publish/order-reprints/" title="PLOS in Print" tabindex="505">PLOS in Print</a></li>
+    <li><a href="/static/sitemap.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" title="Site Map" tabindex="506">Site Map</a></li>
+    <li><a href="http://www.plos.org" title="PLOS.org" tabindex="507">PLOS.org</a></li>
+  </ul>
+  <div class="powered">
+  <ul>
+    <li><a href="/static/releaseNotes.action" title="Ambra | Release Notes">Ambra 2.4.9</a></li>
+    <li>Managed Colocation provided by <a href="http://www.isc.org/" title="Internet Systems Consortium">Internet Systems Consortium</a>.</li>
+  </ul>
+  </div>
+</div>
+<!-- end : footer -->
+<script type="text/javascript">
+  var _namespace="";
+    var loggedIn = false;
+
+  var almHost = "http://alm.plos.org";
+  var solrHost = "http://api.plos.org/search";
+  var pubGetHost = "http://pubget.com/widgetizer/links_hash";
+  var appContext = "";
+
+  // Safari v3.1.1 "console.debug" issue (http://trac.dojotoolkit.org/ticket/6849) workaround
+  if (/3[\.0-9]+ Safari/.test(navigator.appVersion)) {
+    window.console = {
+      origConsole: window.console,
+      log: function(s){ this.origConsole.log(s); },
+      info: function(s){ this.origConsole.info(s); },
+      error: function(s){ this.origConsole.error(s); },
+      warn: function(s){ this.origConsole.warn(s); }
+    };
+  }
+
+  var djConfig = {
+    // don't debug for IE - as dojo's firebug lite module is error prone in IE
+    isDebug: false,
+    parseOnLoad: true
+  };
+
+  var bamGAID = 'UA-338393-1';
+  var bamGAVPV = location.pathname + location.search + location.hash;
+</script>
+<script type="text/javascript" src="/javascript/dojo/dojo/dojo.js?v=pzlwVCPPo+oJC12upPgJrJ5EG_k"></script>
+<script type="text/javascript" src="/javascript/dojo/dojo/ambra.js?v=Y8JM0CVD9YwjC99M_jvbcRTiGhY"></script>
+<script type="text/javascript" src="/javascript/init_global.js?v=fF03pfG3r+Nkj_czZ8ORg8o5sNM"></script>
+<script type="text/javascript" src="/javascript/init_article.js?v=qzBD_a7nKbeMM2xNUtB3vckN+Zc"></script>
+<script type="text/javascript" src="/javascript/init_ratings.js?v=seKykuS0X33CQGS7Lj+8FtBy5Uw"></script>
+<script type="text/javascript" src="/javascript/init_lightBox.js?v=vJRLPy7RRX8Zp31Ogcm3i+TA4f8"></script>
+<script type="text/javascript" src="/javascript/init_article_body.js?v=YgFei2xCi50CahwaPbSsxUxUsmw"></script>
+<script type="text/javascript" src="/javascript/init_article_rhc.js?v=djtbTMOagorKE6ZPrkCwufAfWWI"></script>
+<script type="text/javascript" src="/javascript/alm.js?v=1tH9JZ8uDtXspXssGJDr8O+jBOs"></script>
+<script type="text/javascript" src="/javascript/reporting/articleViewsCumulative.js?v=RQ+gCrcAl0dBeLbmokxgQZTGYYA"></script>
+<script type="text/javascript" src="/javascript/check_twitter.js?v=Hc0sH1W9xIu0qhqxWPD4c1u50K4"></script>
+<script type="text/javascript" src="/javascript/init_googleAnalytics.js?v=yCD4h9PHGI0dsefmuWDlMn7pHog"></script>
+
+</body>
+</html>
+

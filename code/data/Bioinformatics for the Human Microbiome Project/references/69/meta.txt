@@ -1,0 +1,6 @@
+TITLE: An invitation to the marriage of metagenomics and metabolomics.
+AUTHORS: Turnbaugh PJ, Gordon JI
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Metagenomics seeks to characterize the composition of microbial communities, their operations, and their dynamically coevolving relationships with the habitats they occupy without having to culture community members. Uniting metagenomics with analyses of the products of microbial community metabolism (metabolomics) will shed light on how microbial communities function in a variety of environments, including the human body.

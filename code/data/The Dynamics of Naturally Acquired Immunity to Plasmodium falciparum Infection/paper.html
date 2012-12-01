@@ -1,0 +1,1196 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:dc="http://purl.org/dc/terms/"
+      xmlns:doi="http://dx.doi.org/"
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes#"
+      lang="en" xml:lang="en"
+      itemscope itemtype="http://schema.org/Article">
+
+<head>
+   <title>PLOS Computational Biology: The Dynamics of Naturally Acquired Immunity to Plasmodium falciparum Infection</title>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9" />
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+<link rel="home" title="home" href="/home.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" />
+<link rel="alternate" type="application/rss+xml"
+  title="PLOS Computational Biology: New Articles"
+  href="http://www.ploscompbiol.org/article/feed" />
+
+<link rel="pingback" href="http://www.ploscompbiol.org/pingback" />
+
+
+<!-- global_css.ftl -->
+<link rel="stylesheet" type="text/css" media="screen" href="/css/dojo/dijit/themes/tundra/tundra.css?v=zwugcxLdpBWmb72qqlHgGyeNAGM" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/star_rating.css?v=Mm3HyaUPUahAJAq6xG5W3tdF7Hk" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/rating.css?v=AOT9rozE9sYVjGTdeiyxHf18Ykw" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/screen.css?v=KBNFqBmhD635U0NgiM5tf9dtxRE" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/iepc.css?v=FIjyR83BhSovq_5yNVk1Sih60AI" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/journal.css?v=SiREXztjNSUsOyrlkE9sv028Y+0" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/lightBox.css?v=sDgsUXamFoYAakEshdj0YWrZiiQ" />
+<link rel="stylesheet" type="text/css" media="print" href="/css/print.css?v=0T+LTV7Gd0jtHEhqEvBfSrmHUGg" />
+
+<!--chartbeat --> 
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+
+
+<!--[if IE]><![endif]-->
+<meta name="description" content="PLOS Computational Biology is an open-access" />
+
+<meta name="keywords" content="plos computational biology" />
+
+  <meta name="citation_publisher" content="Public Library of Science" />
+  <meta name="citation_doi" content="10.1371/journal.pcbi.1002729" />
+    <meta name="citation_title" content="The Dynamics of Naturally Acquired Immunity to Plasmodium falciparum Infection"/>
+    <meta itemprop="name" content="The Dynamics of Naturally Acquired Immunity to Plasmodium falciparum Infection"/>
+
+      <meta name="citation_author" content="Mykola Pinkevych" />
+          <meta name="citation_author_institution" content="Centre for Vascular Research, University of New South Wales, Sydney, New South Wales, Australia" />
+      <meta name="citation_author" content="Janka Petravic" />
+          <meta name="citation_author_institution" content="Centre for Vascular Research, University of New South Wales, Sydney, New South Wales, Australia" />
+      <meta name="citation_author" content="Kiprotich Chelimo" />
+          <meta name="citation_author_institution" content="Kenya Medical Research Institute, Kisumu, Kenya" />
+      <meta name="citation_author" content="James W. Kazura" />
+          <meta name="citation_author_institution" content="Case Western Reserve University, Cleveland, Ohio, United States of America" />
+      <meta name="citation_author" content="Ann M. Moormann" />
+          <meta name="citation_author_institution" content="University of Massachusetts Medical School, Worcester, Massachusetts, United States of America" />
+      <meta name="citation_author" content="Miles P. Davenport" />
+          <meta name="citation_author_institution" content="Centre for Vascular Research, University of New South Wales, Sydney, New South Wales, Australia" />
+
+    <meta name="citation_date" content="2012/10/18"/>
+
+  <meta name="citation_pdf_url" content="http://dx.plos.org/10.1371/journal.pcbi.1002729.pdf" />
+
+    <meta name="citation_journal_title" content="PLOS Computational Biology" />
+    <meta name="citation_firstpage" content="e1002729"/>
+    <meta name="citation_issue" content="10"/>
+    <meta name="citation_volume" content="8"/>
+    <meta name="citation_issn" content="1553-7358"/>
+
+    <meta name="citation_journal_abbrev" content="PLoS Comput Biol" />
+
+      <meta name="citation_reference" content="citation_title=Malaria: progress, perils, and prospects for eradication; citation_volume=118; citation_number=1; citation_pages=1266-1276; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=How might infant and paediatric immune responses influence malaria vaccine efficacy?; citation_volume=31; citation_number=2; citation_pages=547-559; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Antibody-Mediated Growth Inhibition of Plasmodium falciparum: Relationship to Age and Protection from Parasitemia in Kenyan Children and Adults; citation_volume=3; citation_number=3; citation_pages=e3557; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Evaluation of antibody response to Plasmodium falciparum in children according to exposure of Anopheles gambiae s.l or Anopheles funestus vectors; citation_volume=6; citation_number=4; citation_pages=117; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Profiling the Antibody Immune Response against Blood Stage Malaria Vaccine Candidates; citation_volume=53; citation_number=5; citation_pages=1244-1253; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Immunoglobulin G Isotype Responses to Erythrocyte Surface-Expressed Variant Antigens of Plasmodium falciparum Predict Protection from Malaria in African Children; citation_volume=73; citation_number=6; citation_pages=2281-2287; citation_date=2005; " />
+      <meta name="citation_reference" content="citation_title=Target Antigen, Age, and Duration of Antigen Exposure Independently Regulate Immunoglobulin G Subclass Switching in Malaria; citation_volume=74; citation_number=7; citation_pages=257-264; citation_date=2005; " />
+      <meta name="citation_reference" content="citation_title=Acquisition of Growth-Inhibitory Antibodies against Blood-Stage Plasmodium falciparum; citation_volume=3; citation_number=8; citation_pages=e3571; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Long-term clinical protection from falciparum malaria is strongly associated with IgG3 antibodies to merozoite surface protein 3; citation_volume=4; citation_number=9; citation_pages=e320; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Evidence that invasion-inhibitory antibodies specific for the 19-kDa fragment of merozoite surface protein-1 (MSP-1(19)) can play a protective role against blood-stage Plasmodium falciparum infection in individuals in a malaria endemic area of Africa; citation_volume=173; citation_number=10; citation_pages=666-672; citation_date=2004; " />
+      <meta name="citation_reference" content="citation_title=Current perspectives on the mechanism of action of artemisinins; citation_volume=36; citation_number=11; citation_pages=1427-1441; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=Population dynamics of untreated Plasmodium falciparum malaria within the adult human host during the expansion phase of the infection; citation_volume=124; citation_number=12; citation_pages=247-63; citation_date=2002; " />
+      <meta name="citation_reference" content="citation_title=Calculation of liver-to-blood inocula, parasite growth rates, and preerythrocytic vaccine efficacy, from serial quantitative polymerase chain reaction studies of volunteers challenged with malaria sporozoites; citation_volume=191; citation_number=13; citation_pages=619-626; citation_date=2005; " />
+      <meta name="citation_reference" content="citation_title=Kinetics of Mosquito-Injected Plasmodium Sporozoites in Mice: Fewer Sporozoites Are Injected into Sporozoite-Immunized Mice; citation_volume=5; citation_number=14; citation_pages=e1000399; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Host-mediated regulation of superinfection in malaria; citation_volume=17; citation_number=15; citation_pages=732-737; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Quantitation of Plasmodium-Falciparum Sporozoites Transmitted Invitro by Experimentally Infected Anopheles-Gambiae and Anopheles-Stephensi; citation_volume=44; citation_number=16; citation_pages=564-570; citation_date=1991; " />
+      <meta name="citation_reference" content="citation_title=Sporozoite Transmission by Anopheles-Freeborni and Anopheles-Gambiae Experimentally Infected with Plasmodium-Falciparum; citation_volume=8; citation_number=17; citation_pages=404-408; citation_date=1992; " />
+      <meta name="citation_reference" content="citation_title=Evidence for Over-Dispersion in the Distribution of Clinical Malaria Episodes in Children; citation_volume=3; citation_number=18; citation_pages=e2196; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=How might infant and paediatric immune responses influence malaria vaccine efficacy?; citation_volume=31; citation_number=19; citation_pages=547-559; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Relationship between the entomologic inoculation rate and the force of infection for Plasmodium falciparum malaria; citation_volume=75; citation_number=20; citation_pages=11-18; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=Transient cross-reactive immune responses can orchestrate antigenic variation in malaria; citation_volume=429; citation_number=21; citation_pages=555-558; citation_date=2004; " />
+      <meta name="citation_reference" content="citation_title=A mathematical model for a new mechanism of phenotypic variation in malaria; citation_volume=131; citation_number=22; citation_pages=151-159; citation_date=2005; " />
+      <meta name="citation_reference" content="citation_title=Replication slippage and the dynamics of the immune response in malaria: a formal model for immunity; citation_volume=131; citation_number=23; citation_pages=727; citation_date=2005; " />
+      <meta name="citation_reference" content="citation_title=Modeling the Development of Acquired Clinical Immunity to Plasmodium falciparum Malaria; citation_volume=72; citation_number=24; citation_pages=6538-6545; citation_date=2004; " />
+      <meta name="citation_reference" content="citation_title=A retrospective examination of the patterns of recrudescence in patients infected with Plasmodium falciparum; citation_volume=61; citation_number=25; citation_pages=44-48; citation_date=1999; " />
+      <meta name="citation_reference" content="citation_title=A retrospective examination of reinfection of humans with Plasmodium vivax; citation_volume=70; citation_number=26; citation_pages=642-644; citation_date=2004; " />
+      <meta name="citation_reference" content="citation_title=Relationship between the entomologic inoculation rate and the force of infection for Plasmodium falciparum malaria; citation_volume=75; citation_number=27; citation_pages=11-18; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=An epidemiologic model of the incidence of acute illness in Plasmodium falciparum malaria; citation_volume=75; citation_number=28; citation_pages=56-62; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=Plasmodium-Falciparum Incidence Relative to Entomologic Inoculation Rates at a Site Proposed for Testing Malaria Vaccines in Western Kenya; citation_volume=50; citation_number=29; citation_pages=529-536; citation_date=1994; " />
+      <meta name="citation_reference" content="citation_title=Rapid reappearance of Plasmodium falciparum after drug treatment among Senegalese adults exposed to moderate seasonal transmission; citation_volume=65; citation_number=30; citation_pages=167-170; citation_date=2001; " />
+      <meta name="citation_reference" content="citation_title=Impact of transmission intensity and age on Plasmodium falciparum density and associated fever: implications for malaria vaccine trial design; citation_volume=172; citation_number=31; citation_pages=1047-1054; citation_date=1995; " />
+      <meta name="citation_reference" content="citation_title=Effect of Plasmodium falciparum parasitemia density on hemoglobin concentrations among full-term, normal birth weight children in western Kenya, IV. The Asembo Bay Cohort Project; citation_volume=62; citation_number=32; citation_pages=504-512; citation_date=2000; " />
+      <meta name="citation_reference" content="citation_title=Low multiplication rates of African Plasmodium falciparum isolates and lack of association of multiplication rate and red blood cell selectivity with malaria virulence; citation_volume=74; citation_number=33; citation_pages=554-563; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=Substantially reduced pre-patent parasite multiplication rates are associated with naturally acquired immunity to Plasmodium falciparum; citation_volume=203; citation_number=34; citation_pages=1337-1340; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Long-lived antibody and B Cell memory responses to the human malaria parasites, Plasmodium falciparum and Plasmodium vivax; citation_volume=6; citation_number=35; citation_pages=e1000770; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Method to test inhibitory antibodies in human sera to wild populations of Plasmodium falciparum; citation_volume=263; citation_number=36; citation_pages=132-134; citation_date=1976; " />
+      <meta name="citation_reference" content="citation_title=Exposing malaria in-host diversity and estimating population diversity by capture-recapture using massively parallel pyrosequencing; citation_volume=107; citation_number=37; citation_pages=20138-20143; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Host factors affecting the delay of reappearance of Plasmodium falciparum after radical treatment among a semi-immune population exposed to intense perennial transmission; citation_volume=62; citation_number=38; citation_pages=266-270; citation_date=2000; " />
+
+
+
+<!--
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002729">
+   <license rdf:resource="http://creativecommons.org/licenses/by/2.5/" />
+</Work>
+<License rdf:about="http://creativecommons.org/licenses/by/2.5/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+</License>
+<rdf:Description
+     rdf:about="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002729"
+     dc:identifier="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002729"
+     dc:title="PLOS Computational Biology: The Dynamics of Naturally Acquired Immunity to Plasmodium falciparum Infection"
+       trackback:ping="http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002729/trackback;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D"
+     />
+</rdf:RDF>
+
+-->
+</head>
+<body>
+<span property="dc:language" content="en"></span>
+<!-- begin : container -->
+<div id="container">
+  <!-- begin : top banner external ad space -->
+  <div id="topBanner">
+
+
+<!-- begin : left banner slot -->
+<div class="left">
+  <iframe id='affe494b' name='affe494b'
+    src='http://ads.plos.org/www/delivery/afr.php?zoneid=84&amp;cb=9838'
+    frameborder='0' scrolling='no' width='468' height='60'><a
+    href='http://ads.plos.org/www/delivery/ck.php?n=affe494b&amp;cb=1444'
+    target='_top'><img src='http://ads.plos.org/www/delivery/avw.php?zoneid=84&amp;cb=1812&amp;n=affe494b'
+    border='0' alt='' /></a></iframe>
+</div>
+<!-- end : left banner slot -->
+<!-- begin : right banner slot -->
+<div class="right">
+  <iframe id='af654bd5' name='af654bd5'
+    src='http://ads.plos.org/www/delivery/afr.php?zoneid=85&amp;cb=6547'
+    frameborder='0' scrolling='no' width='468' height='60'><a
+    href='http://ads.plos.org/www/delivery/ck.php?n=af654bd5&amp;cb=2280'
+    target='_top'><img src='http://ads.plos.org/www/delivery/avw.php?zoneid=85&amp;cb=518&amp;n=af654bd5'
+    border='0' alt='' /></a></iframe>
+</div>
+<!-- end : right banner slot -->
+
+  </div>
+  <!-- end : top banner external ad space -->
+
+  <!-- begin : header -->
+  <div id="hdr" class="login">
+
+  <!-- begin : logo -->
+  <div id="logo" title="PLOS Computational Biology"><a href="/home.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" title="PLOS Computational Biology"><span>PLOS Computational Biology</span></a></div>
+  <!-- end : logo -->
+  <!-- begin : user controls -->
+
+
+
+
+
+  <div id="user">
+    <div>
+      <ul>
+        <li><a href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002729" class="feedback"><strong>Login</strong></a> | </li>
+        <li><a href="https://register.plos.org:443/ambra-registration/register.action">Create Account</a> | </li>
+        <li class="feedback"><a href="/feedbackCreate.action?page=%252Farticle%252FfetchArticle.action%253FarticleURI%253Dinfo%25253Adoi%25252F10.1371%25252Fjournal.pcbi.1002729" title="Send us your feedback">Feedback</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <!-- end : user controls -->
+  <!-- begin search links -->
+  <ul id="links"><li class="browse"><a href="/article/browse.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?field=date" title="Browse Articles">Browse</a></li><li class="rss"><a href="/static/rssFeeds.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" title="RSS Feeds">RSS</a></li></ul>
+  <!-- end : search links -->
+  <!-- begin : dashboard -->
+  <div id="db">
+    <form name="searchForm" action="/search/simpleSearch.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" method="get">
+      <input type="hidden" name="from" value="globalSimpleSearch"/>
+      <input type="hidden" name="filterJournals" value="PLoSCompBiol">
+      <fieldset>
+        <legend>Search</legend>
+        <label for="search">Search</label>
+        <div class="wrap"><input id="search" type="text" name="query" value="Search articles..." onfocus="if(this.value=='Search articles...')value='';" onblur="if(this.value=='')value='Search articles...';" class="searchField" alt="Search articles..."/></div>
+        <input src="/images/search_btn1.gif" onclick="submit();" value="ftsearch" alt="SEARCH" tabindex="3" class="button" type="image" />
+      </fieldset>
+    </form>
+    <form name="gasf" action="/search/advancedSearch.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" method="get">
+<input type="hidden" name="noSearchFlag" value="true" id="noSearchFlag"/><input type="hidden" name="query" value="" id="query"/>    </form>
+    <a id="advSearch" href="#" onclick="if(document.searchForm.query.value!='Search articles...')document.gasf.query.value=document.searchForm.query.value;document.gasf.submit();return false;">Advanced Search</a>
+  </div>
+  <!-- end : dashboard -->
+  <!-- begin : navigation -->
+  <ul id="nav">
+    <li><a href="/home.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" tabindex="101">Home</a></li>
+     <!-- This is a temporary action to link to th static toc page -->
+    <li><a href="/static/browse.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" tabindex="102">Browse Articles</a>
+        <ul>
+          <li><a href="/article/browseIssue.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?field=issue">Current Issue</a></li> <!-- Assuming dynamic TOC is in place -->
+          <li><a href="/article/browseVolume.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?field=volume">Journal Archive</a></li> 
+          <li><a href="/article/browse.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?field=date">By Publication Date</a></li>
+          <li><a href="/article/browse.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">By Subject</a></li>
+          <li><a href="http://www.ploscollections.org/static/pcbiCollections.action">Collections</a></li>
+        </ul>
+    </li>
+    <li><a href="/static/about.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" tabindex="103">About</a>
+        <ul>
+          <li><a href="/static/information.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Journal Information</a></li>
+          <li><a href="/static/edboard.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Editorial Board</a></li>
+          <li><a href="/static/eic.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Editors-in-Chief</a></li>
+          <li><a href="/static/almInfo.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Article-Level Metrics</a></li>
+          <li><a href="/static/license.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Open-Access License</a></li>
+          <li><a href="/static/contact.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Contact Us</a></li>
+        </ul>
+      </li>
+    <li><a href="/static/users.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" tabindex="104">For Readers</a>
+        <ul>
+          <li><a href="/static/commentGuidelines.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Guidelines for Notes, Comments, and Corrections</a></li>
+          <li><a href="/static/ratingGuidelines.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Guidelines for Rating</a></li>
+          <li><a href="/static/help.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Help Using This Site</a></li>
+          <li><a href="/static/downloads.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Media Downloads</a></li>
+          <li><a href="/static/sitemap.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Site Map</a></li>
+        </ul>
+      </li>
+    <li><a href="/static/authors.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" tabindex="105">For Authors and Reviewers</a>
+        <ul>
+          <li><a href="/static/policies.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Editorial and Publishing Policies</a></li>
+          <li><a href="/static/guidelines.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Author Guidelines</a></li>
+          <li><a href="/static/figureGuidelines.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Figure and Table Guidelines</a></li>
+          <li><a href="/static/checklist.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Submit Your Paper</a></li>
+          <li><a href="/static/reviewerGuidelines.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Reviewer Guidelines</a></li>
+	   <li><a href="http://www.plos.org/journals/index.php">Submit to Other PLOS Journals</a></li>
+        </ul>
+      </li>
+      <li class="journalnav"><a href="http://www.plos.org" title="PLOS" tabindex="110" class="drop">PLOS.org</a>
+        <ul>
+          <li><a href="http://www.plos.org/oa/index.html" title="Open Access Statement">Open Access</a></li>
+          <li><a href="http://www.plos.org/support/donate.php" title="Join PLOS: Show Your Support">Join PLOS</a></li>
+          <li><a href="http://blogs.plos.org/" title="PLOS Blogs">PLOS Blogs</a></li>
+	  <li><a href="http://www.zazzle.com/plos?rf=238434112415374154" title="PLOS Store">PLOS Store</a></li>
+          <li><a href="http://currents.plos.org" title="PLOS Currents">PLOS Currents</a></li>
+          <li><a href="http://www.plos.org/connect.html" title="PLOS.org | Stay Connected">Stay Connected</a></li>
+        </ul>
+      </li>
+      <li class="journalnav"><a href="http://hubs.plos.org" tabindex="109">Hubs</a>
+        <ul>
+          <li><a href="http://hubs.plos.org/biodiversity" title="PLOS Hubs: Biodiversity">Biodiversity</a></li>
+          <li><a href="http://clinicaltrials.ploshubs.org" title="PLOS Hub for Clinical Trials">Clinical Trials</a></li>
+        </ul>
+    </li>
+      <li class="journalnav"><a href="http://www.plosjournals.org" tabindex="108">Journals</a>
+        <ul>
+          <li><a href="http://www.plosbiology.org/" title="PLOSBiology.org">PLOS Biology</a></li>
+          <li><a href="http://www.plosmedicine.org/" title="PLOSMedicine.org">PLOS Medicine</a></li>
+          <li><a href="http://www.ploscompbiol.org/" title="PLOSCompBiol.org">PLOS Computational Biology</a></li>
+          <li><a href="http://www.plosgenetics.org/" title="PLOSGenetics.org">PLOS Genetics</a></li>
+          <li><a href="http://www.plospathogens.org/" title="PLOSPathogens.org">PLOS Pathogens</a></li>
+          <li><a href="http://www.plosone.org/" title="PLOSONE.org">PLOS ONE</a></li>
+          <li><a href="http://www.plosntds.org/" title="PLOSNTDs.org">PLOS Neglected Tropical Diseases</a></li>
+        </ul>
+      </li>
+    </ul>
+  <!-- end : navigation -->
+  </div>
+  <!-- end : header --> 
+
+
+
+<!-- begin : main content -->
+<div id="content" class="article" style="visibility:visible;">
+
+<!-- begin : right hand column -->
+
+<div id="rhc" xpathLocation="noDialog">
+
+  <div id="download" class="rhcBox_type1">
+    <div class="wrap">
+      <ul>
+        <li class="download icon"><strong>Download:</strong>
+          <a href="/article/fetchObjectAttachment.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?uri=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002729&amp;representation=PDF" title="Download article PDF">PDF</a> |
+          <a href="/article/citationList.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002729" title="Download citations">Citation</a> |
+          <a href="/article/fetchObjectAttachment.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?uri=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002729&amp;representation=XML" title="Download Article XML">XML</a>
+        </li>
+        <li class="print icon"><a href="#" onclick="window.print();return false;" title="Print Article"><strong>Print article</strong></a></li>
+        <li class="reprint icon"><a href="https://www.odysseypress.com/onlinehost/reprint_order.php?type=A&page=0&journal=3&doi=10.1371/journal.pcbi.1002729&volume=&issue=&title=The Dynamics of Naturally Acquired Immunity to Plasmodium falciparum Infection&author_name=Mykola%20Pinkevych%2C%20Janka%20Petravic%2C%20Kiprotich%20Chelimo%2C%20James%20W.%20Kazura%2C%20Ann%20M.%20Moormann%2C%20Miles%20P.%20Davenport&start_page=1&end_page=9" title="Odyssey Press">EzReprint</a> New &amp; improved!</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="issues" class="rhcBox_type2">
+    <p><strong>Published in the</strong>
+    <a href="http://www.ploscompbiol.org/article/browseIssue.action?issue=info%3Adoi%2F10.1371%2Fissue.pcbi.v08.i10" title="Browse the Open-Access Issue">October 2012 Issue of <em>PLOS Computational Biology</em></a></p>
+  </div>
+
+  <div id="impact" class="rhcBox_type2">
+    <h6>Metrics <a href="/static/help.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D#articleMetrics" class="replaced" id="info" title="More information"><span>info</span></a></h6>
+
+    <div class="wrap">
+      <img id="rhcDataSpinner" src="/images/loading_small.gif" class="loading" />
+      <div id="totalDataInRHC"></div>
+      <div id="pubDateInRHC"></div>
+      <div id="relatedCitesInRHC"></div>
+    </div>
+
+    <div class="more clearfix"><a href="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002729;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" title="More information">More</a></div>
+  </div>
+
+  <div id="related" class="rhcBox_type2">
+    <h6>Related Content</h6>
+    <dl class="related">
+      <dt>Related Articles on the Web</dt>
+      <dd><a href="http://scholar.google.com/scholar?hl=en&lr=&q=related:http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002729&btnG=Search">Google Scholar</a></dd>
+      <dd id="pubMedRelatedLIInRHC" style="display:none;"><a id="pubMedRelatedURLInRHC">PubMed</a></dd>
+    </dl>
+    <div class="more clearfix"><a href="/article/related/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002729;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" title="More information">More</a></div>
+  </div>
+
+  <div id="share" class="rhcBox_type2">
+    <h6>Share this Article <a href="/static/help.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D#socialBookmarkLinks" class="replaced" id="info" title="More information"><span>info</span></a></h6>
+    <ul>
+      <li class="bookmarklets">
+
+        <a href="http://www.reddit.com/submit?url=http://dx.plos.org/10.1371/journal.pcbi.1002729"
+           target="_new"
+           id="reddit">
+          <img src="http://www.reddit.com/static/spreddit4.gif" alt="submit to reddit" border="0"/> </a>
+        <g:plusone size="small" annotation="none" href=http://dx.plos.org/10.1371/journal.pcbi.1002729></g:plusone>
+        <script type="text/javascript">
+          (function () {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+          })();
+        </script>
+        <a href="http://www.stumbleupon.com/submit?url=http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002729" target="_new"> <img border=0 src="http://cdn.stumble-upon.com/images/16x16_su_solid.gif" alt="StumbleUpon" title="Add to StumbleUpon"></a>
+        <script>function fbs_click() {u='http://dx.plos.org/10.1371/journal.pcbi.1002729';t='The%20Dynamics%20of%20Naturally%20Acquired%20Immunity%20to%20%3Citalic%3EPlasmodium%20falciparum%3C%2Fitalic%3E%20Infection';window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436');return false;}</script><a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002729" onclick="return fbs_click()" target="_blank"><img src="http://static.ak.fbcdn.net/images/share/facebook_share_icon.gif" alt="Facebook" title="Add to Facebook" /></a>       <!-- for mor info, see http://www.facebook.com/share_partners.php -->
+        <script type="text/javascript">
+          function bookmark_in_connotea(u) {
+            a=false; x=window; e=x.encodeURIComponent; d=document;
+            w=open('http://www.connotea.org/addpopup?continue=confirm&uri='+e(u),
+                'add', 'width=600, height=400, scrollbars, resizable');
+            void(x.setTimeout('w.focus()',200));
+          }
+        </script>
+        <a style='cursor: pointer;' onclick='javascript:bookmark_in_connotea("http://dx.plos.org/10.1371/journal.pcbi.1002729");'><img src='/images/icon_connotea_16x16.gif' alt="Connotea" title="Add to Connotea"/></a>
+        <a href="http://www.citeulike.org/posturl?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002729&title=The%20Dynamics%20of%20Naturally%20Acquired%20Immunity%20to%20%3Citalic%3EPlasmodium%20falciparum%3C%2Fitalic%3E%20Infection" target="_new"><img src='/images/icon_citeulike_16x16.gif' alt="CiteULike" title="Add to CiteULike" /></a>
+        <a href="http://www.mendeley.com/import/?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002729" title="Add to Mendeley" target="_new"><img src="/images/icon_mendeley_16x16.gif" alt="Bibliography"></a>
+        <script type="text/javascript">
+          var twtTitle  = 'The Dynamics of Naturally Acquired Immunity to <italic>Plasmodium falciparum</italic> Infection';
+          var twtUrl    = 'http://dx.plos.org/10.1371/journal.pcbi.1002729';
+          var twtTag    = '#PLOSCompBio:'
+          var maxLength = 140 - (twtUrl.length + 1);
+          if (twtTitle.length > maxLength) {
+            twtTitle = twtTitle.substr(0, (maxLength - 17))+'...';  //truncates title to include space for twtTag and ellipsis
+          }
+          var twtLink = 'http://twitter.com/intent/tweet?text='+encodeURIComponent(twtTag + ' ' + twtTitle + ' ' + twtUrl);
+          document.write('<a href="'+twtLink+'" target="_blank"><img src="/images/icon_twitter.gif" border="0" alt="Twitter icon" title="Tweet This!" /></a>');
+        </script>
+
+      </li>
+      <li class="email icon"><a href="/article/emailArticle.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002729" title="Email this article">Email this article</a></li>
+    </ul>
+  </div>
+  <div id="articleTwitterStream" style="display:none">
+    <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script>
+      new TWTR.Widget({
+        version: 2,
+        type: 'search',
+        search: encodeURIComponent('10.1371/journal.pcbi.1002729'),
+        interval: 6000,
+        title: '',
+        subject: 'From Twitter',
+        width: 300,
+        height: 300,
+        theme: {
+          shell: {
+            background: '#667893',
+            color: '#ffffff'
+          },
+          tweets: {
+            background: '#ffffff',
+            color: '#444444',
+            links: '#006699'
+          }
+        },
+        features: {
+          scrollbar: true,
+          loop: false,
+          live: true,
+          hashtags: true,
+          timestamp: true,
+          avatars: true,
+          toptweets: true,
+          behavior: 'all'
+        }
+      }).render().start();
+    </script>
+  </div>
+</div>
+<!-- end : right hand column -->
+<form name="articleInfo" id="articleInfo" method="" action="">
+<input type="hidden" name="isAuthor" value="true" />
+<input type="hidden" name="authorIdList" value="" />
+<input type="hidden" name="userIdList" value="" />
+<input type="hidden" name="otherIdList" value="" />
+<input type="hidden" name="annotationId" value="" />
+<input type="hidden" name="isResearchArticle" value="true" />
+</form>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.XML" value="89564"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.PDF" value="1404573"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.g001.TIF" value="307110"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.g001.PNG_I" value="32484"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.g001.PNG_S" value="9576"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.g001.PNG_M" value="66072"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.g001.PNG_L" value="102596"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.e001.TIF" value="2068"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.e001.PNG" value="1241"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.e002.TIF" value="10722"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.e002.PNG" value="4928"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.g002.TIF" value="219798"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.g002.PNG_I" value="47900"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.g002.PNG_S" value="13777"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.g002.PNG_M" value="95238"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.g002.PNG_L" value="81547"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.e003.TIF" value="11600"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.e003.PNG" value="5014"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.e004.TIF" value="9650"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.e004.PNG" value="4542"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.g003.TIF" value="344538"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.g003.PNG_I" value="35646"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.g003.PNG_S" value="9825"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.g003.PNG_M" value="75281"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.g003.PNG_L" value="116873"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.e005.TIF" value="18242"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.e005.PNG" value="8069"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.e006.TIF" value="1244"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.e006.PNG" value="828"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.g004.TIF" value="595396"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.g004.PNG_I" value="62160"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.g004.PNG_S" value="12536"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.g004.PNG_M" value="153114"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.g004.PNG_L" value="242482"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.g005.TIF" value="596100"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.g005.PNG_I" value="58772"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.g005.PNG_S" value="12807"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.g005.PNG_M" value="140964"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.g005.PNG_L" value="313482"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.g006.TIF" value="256648"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.g006.PNG_I" value="45027"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.g006.PNG_S" value="13573"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.g006.PNG_M" value="105039"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.g006.PNG_L" value="73977"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.s001.PDF" value="46385"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.s002.PDF" value="72897"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.s003.PDF" value="92430"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002729.s004.PDF" value="204547"/>
+<div id="articleContainer">
+
+<span about="http://www.plos.org"  typeof="foaf:Organization" property="foaf:name" style="display:none; visibility:hidden;">PLOS</span>
+<div id="researchArticle" class="content">
+  <span rel="dc:publisher" href="http://www.plos.org"></span>
+  <a id="top" name="top"></a>
+<div id="contentHeader" xpathLocation="noSelect">
+  <p>Open Access</p><p id="articleType">Research Article</p>
+</div>
+
+  <h1 xpathLocation="noSelect" property="dc:title" datatype="" rel="dc:type" href="http://purl.org/dc/dcmitype/Text">The Dynamics of Naturally Acquired Immunity to <i>Plasmodium falciparum</i> Infection</h1>
+  <div property="dc:description" datatype="" style="display:none; visibility:hidden;">Author SummaryHuman malaria infections resulting in serious complications and death occur predominantly in young children, and resistance is gradually acquired with repeated exposure. Malaria parasites have two major stages within the human host during its life cycle: an initial liver stage, and the subsequent blood stage, where parasites replicate in and destroy red blood cells. The mechanisms of acquired resistance to severe malaria may involve immunity to both the liver and blood stage parasites. However the relative contribution of each type of immunity is not yet understood. To gain novel insight, we have analysed data from a malaria exposed cohort from western Kenya. We used mathematical modeling to understand what form of immunity is consistent with the observed rates of reinfection in adults and children seen in the field study data. We found that the reinfection pattern can be completely explained by blood stage immunity. Moreover, the blood stage immunity must consist of rapidly-induced strain-specific immunity that clears individual infections, and general immunity that accumulates slowly and decreases the average parasite growth rate with age. Understanding the dynamics of naturally acquired immunity and infection provides important insights for effective vaccine development.</div>
+  <span property="dc:date" content="2012-10-18" datatype="xsd:date" rel="dc:identifier" href="http://dx.doi.org/10.1371/journal.pcbi.1002729"></span>
+  <span property="dc:subject" content="Computational Biology"></span>
+<form action="">
+  <input type="hidden" name="journalDisplayName" id="journalDisplayName" value="PLOS Computational Biology" />
+  <input type="hidden" name="crossRefPageURL" id="crossRefPageURL" value="/article/crossref/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002729;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" />
+  <input type="hidden" name="twitterPageURL" id="twitterPageURL" value="/article/twitter/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002729;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" />
+  <input type="hidden" name="metricsTabURL" id="metricsTabURL" value="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002729;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" />
+  <input type="hidden" name="doi" id="doi" value="info:doi/10.1371/journal.pcbi.1002729" />
+  <input type="hidden" name="articleTitleUnformatted" id="articleTitleUnformatted" value="The%20Dynamics%20of%20Naturally%20Acquired%20Immunity%20to%20Plasmodium%20falciparum%20Infection" />
+  <input type="hidden" name="articlePubDate" id="articlePubDate" value="1350543600000" />
+</form>
+<div class="horizontalTabs" xpathLocation="noSelect">
+  <ul id="tabsContainer">
+        <li id="article" class="active"><a href="/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002729;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" class="tab" title="Article">Article</a></li>
+        <li id="metrics"><a href="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002729;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" class="tab" title="Metrics">Metrics</a></li>
+        <li id="related"><a href="/article/related/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002729;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" class="tab" title="Related Content">Related Content</a></li>
+        <li id="comments"><a href="/article/comments/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002729;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" class="tab" title="Comments">Comments: 0</a></li>
+  </ul>
+</div>
+  <div id="articleMenuBox" xpathLocation="noSelect">
+    <div id="articleMenu">
+      <div class="wrap">
+        <ul>
+          <li class="annotation icon">To <strong>add a note</strong>, highlight some text. <a href="#" onclick="toggleAnnotation(this, 'public'); return false;" title="Click to turn notes on/off">Hide notes</a></li>
+          <li class="discuss icon">
+              <a href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002729">Make a general comment</a>
+          </li>
+        </ul>
+        <div id="sectionNavTopBox" style="display:none;">
+          <p><strong>Jump to</strong></p>
+          <div id="sectionNavTop" class="tools"></div>
+        </div>
+      </div>
+    </div>
+      <div id="lightBox" xpathLocation="noDialog" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002729')">
+      </div>
+  </div>
+
+
+
+
+<p class="authors" xpathLocation="noSelect"><span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Mykola Pinkevych</span></span><sup><a href="#aff1">1</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Janka Petravic</span></span><sup><a href="#aff1">1</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Kiprotich Chelimo</span></span><sup><a href="#aff2">2</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">James W. Kazura</span></span><sup><a href="#aff3">3</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Ann M. Moormann</span></span><sup><a href="#aff4">4</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Miles P. Davenport</span></span><sup><a href="#aff1">1</a></sup><sup><a href="#cor1" class="fnoteref">*</a></sup></p><p class="affiliations" xpathLocation="noSelect"><a name="aff1" id="aff1"></a><strong>1</strong> Centre for Vascular Research, University of New South Wales, Sydney, New South Wales, Australia, <a name="aff2" id="aff2"></a><strong>2</strong> Kenya Medical Research Institute, Kisumu, Kenya, <a name="aff3" id="aff3"></a><strong>3</strong> Case Western Reserve University, Cleveland, Ohio, United States of America, <a name="aff4" id="aff4"></a><strong>4</strong> University of Massachusetts Medical School, Worcester, Massachusetts, United States of America</p><div class="abstract" xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[1]"><a id="abstract0" name="abstract0" toc="abstract0" title="Abstract"></a><h2 xpathLocation="noSelect">Abstract&nbsp;<a href="#top">Top</a></h2><p xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[1]/p[1]">Severe malaria occurs predominantly in young children and immunity to clinical disease is associated with cumulative exposure in holoendemic settings. The relative contribution of immunity against various stages of the parasite life cycle that results in controlling infection and limiting disease is not well understood. Here we analyse the dynamics of Plasmodium falciparum malaria infection after treatment in a cohort of 197 healthy study participants of different ages in order to model naturally acquired immunity. We find that both delayed time-to-infection and reductions in asymptomatic parasitaemias in older age groups can be explained by immunity that reduces the growth of blood stage as opposed to liver stage parasites. We found that this mechanism would require at least two components – a rapidly acting strain-specific component, as well as a slowly acquired cross-reactive or general immunity to all strains. Analysis and modelling of malaria infection dynamics and naturally acquired immunity with age provides important insights into what mechanisms of immune control may be harnessed by malaria vaccine strategists.</p>
+</div><div class="abstract" xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[2]"><a id="abstract1" name="abstract1" toc="abstract1" title="Author Summary"></a>
+<h2 xpathLocation="noSelect">Author Summary&nbsp;<a href="#top">Top</a></h2>
+<p xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[2]/p[1]">Human malaria infections resulting in serious complications and death occur predominantly in young children, and resistance is gradually acquired with repeated exposure. Malaria parasites have two major stages within the human host during its life cycle: an initial liver stage, and the subsequent blood stage, where parasites replicate in and destroy red blood cells. The mechanisms of acquired resistance to severe malaria may involve immunity to both the liver and blood stage parasites. However the relative contribution of each type of immunity is not yet understood. To gain novel insight, we have analysed data from a malaria exposed cohort from western Kenya. We used mathematical modeling to understand what form of immunity is consistent with the observed rates of reinfection in adults and children seen in the field study data. We found that the reinfection pattern can be completely explained by blood stage immunity. Moreover, the blood stage immunity must consist of rapidly-induced strain-specific immunity that clears individual infections, and general immunity that accumulates slowly and decreases the average parasite growth rate with age. Understanding the dynamics of naturally acquired immunity and infection provides important insights for effective vaccine development.</p>
+</div>
+
+
+<div class="articleinfo" xpathLocation="noSelect"><p><strong>Citation: </strong>Pinkevych M, Petravic J, Chelimo K, Kazura JW, Moormann AM, et al.  (2012) The Dynamics of Naturally Acquired Immunity to <em>Plasmodium falciparum</em> Infection. PLoS Comput Biol 8(10):
+          e1002729.
+            doi:10.1371/journal.pcbi.1002729</p><p><strong>Editor: </strong>Rob J. De Boer, 
+        Utrecht University, Netherlands
+      </p><p></p><p><strong>Received:</strong> December 7, 2011; <strong>Accepted:</strong> August 21, 2012; <strong>Published:</strong> October 18, 2012</p><p><strong>Copyright:</strong> ©  Pinkevych et al. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</p><p><strong>Funding: </strong>This work is supported by the National Health and Medical Research Council (NHMRC, Australia), the Australian Research Council, and National Institutes of Health (NIH, USA), National Institute of Allergy and Infectious Diseases, R01 AI043906 (JK and AMM), and Fogarty International Center (FIC) 1D43TW006576 (KC). MPD is an NHMRC Senior Research Fellow. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p><p><strong>Competing interests:</strong> The authors have declared that no competing interests exist.</p><p><a name="cor1"></a>* E-mail: <a href="mailto:Ann.moormann@umassmed.edu">Ann.moormann@umassmed.edu</a></p></div>
+
+
+
+
+
+<div id="section1" xpathLocation="/article[1]/body[1]/sec[1]"><a id="s1" name="s1" toc="s1" title="Introduction"></a><h3 xpathLocation="noSelect">Introduction&nbsp;<a href="#top">Top</a></h3><p xpathLocation="/article[1]/body[1]/sec[1]/p[1]"><em>Plasmodium falciparum</em> (Pf) malaria in holoendemic areas is characterized by high level parasitaemia and symptomatic infections in early childhood, followed by the development of semi-protective immunity that allows the persistence of low level asymptomatic infections and appears to reduce the likelihood of becoming infected if bitten by an infective mosquito. The mechanisms mediating anti-infection and anti-disease immunity are complex but are thought to include innate and adaptive immune responses that limit both the liver and blood stage of the parasite life cycle in the human host <a href="#pcbi.1002729-Greenwood1">[1]</a>, <a href="#pcbi.1002729-Moormann1">[2]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[2]">One approach to understanding acquired immunity to Pf-malaria has been to study correlates of protection by measuring point-prevalence levels of immunity and prospectively assessing the infection status and clinical disease. A number of studies have elaborated upon this approach by first treating patients with anti-malarial drugs to eliminate blood-stage malaria infection, and then observing the time to natural (re)-infection in an endemic setting <a href="#pcbi.1002729-Dent1">[3]</a>. By measuring immune parameters at baseline, and observing their association with time-to-infection, it may be possible to identify the immune responses most important for protection from malaria. A significant difficulty with these studies is that most immune responses to malaria increase with age and after cumulative exposure to malaria antigens, and so it is often unclear whether measured responses actually mediate protection or are merely a historical marker of past exposure <a href="#pcbi.1002729-Sarr1">[4]</a>, <a href="#pcbi.1002729-Gray1">[5]</a>. Both antibody specificity and isotype may play a role in protection <a href="#pcbi.1002729-Yone1">[6]</a>, <a href="#pcbi.1002729-Tongren1">[7]</a> and indeed the specific assay used to measure immune function can lead to contradictory or inconsistent conclusions. For example, antibodies that are reactive in an ELISA assay tend to increase with age, but are often not correlated with protection when corrected for age <a href="#pcbi.1002729-Sutherland1">[8]</a>. Antibodies detected using a functional assay that measures inhibition of parasite growth show an increase with age, and an association with protection from clinical disease, but not from infection <a href="#pcbi.1002729-Roussilhon1">[9]</a>. Surprisingly, growth inhibitory antibodies (that can restrict parasite growth <em>in vitro</em>) are associated with a delay in time-to-infection for individuals within a given age group, but the level of inhibition decreases with age <a href="#pcbi.1002729-Dent1">[3]</a>, <a href="#pcbi.1002729-John1">[10]</a>. Independent of these experimental studies, modeling of malaria infection has also attempted to understand the possible cross-reactivity and molecular targets of malaria immunity, using a heuristic approach based on a qualitative assessment of the data</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[3]">An alternative approach to understanding anti-malarial immunity is to study the dynamics of infection and then predict how these dynamics would be influenced by acquired immunity. That is, by comparing the infection dynamics observed in susceptible (children) in contrast to resistant (adult) populations, we can use a reverse-engineering approach to understand the differences observed in infection and growth, and predict what immune mechanisms are compatible with such an outcome. Here we use such a modeling approach to understand the effects of naturally acquired immunity on the dynamics of <em>P. falciparum</em> malaria infection in a cohort of 197 people from a holoendemic region of western Kenya.</p>
+</div>
+
+<div id="section2" xpathLocation="/article[1]/body[1]/sec[2]"><a id="s2" name="s2" toc="s2" title="Materials and Methods"></a><h3 xpathLocation="noSelect">Materials and Methods&nbsp;<a href="#top">Top</a></h3>
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/title[1]">A treatment time-to-infection cohort study</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[1]">The details of cohort study have been described elsewhere <a href="#pcbi.1002729-Dent1">[3]</a>. Briefly, upon entry into the study (day 0) study participants (n = 201) were treated with Coartem®, which is expected to eradicate blood stage infection but is not effective against liver stage parasites <a href="#pcbi.1002729-Golenser1">[11]</a>. Therefore, if a study participant was parasitaemic at week two post-treatment, this was considered an emerging liver stage infection and they were eliminated from further study. After treatment, blood smears were monitored weekly for 11 weeks by examination of thick and thin blood smears using light microscopy for the presence of <em>Pf</em>-malaria parasites. In addition, if weekly samples were not collected after week two post-treatment, then the study participant was eliminated; thus leaving 197 remaining for analysis. The cohort was divided into four age groups based on the immuno-epidemiology of malaria; C1 (children 1–4 years old (y.o.) were the least likely to have developed anti-malarial immunity and thus most susceptible to rapid infection; C2 (5–9 y.o.) have begun to develop partially protective immunity though may have limited strain-specific immunity; C3 (10–14 y.o.) have developed anti-malarial immunity that should begin to contain a broader repertoire of strain-specific immunity due to cumulative exposure; and A (adults&gt;15 y.o.) who have developed anti-malarial immunity that decreases the rate of infection, parasite growth and provides coverage across many strains. <a href="#pcbi-1002729-g001">Fig. 1A</a> shows the infection curves for each age group over the 11 weeks of the study.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]"><a name="pcbi-1002729-g001" id="pcbi-1002729-g001" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002729?imageURI=info:doi/10.1371/journal.pcbi.1002729.g001" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002729', 'info:doi/10.1371/journal.pcbi.1002729.g001');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002729', 'info:doi/10.1371/journal.pcbi.1002729.g001');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002729.g001&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002729?imageURI=info:doi/10.1371/journal.pcbi.1002729.g001" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002729', 'info:doi/10.1371/journal.pcbi.1002729.g001');"><span>Figure 1. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]/caption[1]/title[1]">The dynamics of reinfection.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]/caption[1]/p[1]">Panel A. The rates of reinfection in the clinical cohort are shown for each age group over time. The proportion uninfected is shown as a ‘survival curve’ for each age group. Patients were censored if they had missing values or were treated prior to reinfection. Blue triangle and blue line - C1, green diamond and green line - C2, orange square and orange line - C3, red circle and red line - A. Panel B. Schematic illustration of parasite growth in blood. Infection commences with an infected bite, followed by a liver stage of one week. Once the blood stage commences, rapid parasite growth (high PMR) will lead to early detection on infection. Factors that slow parasite growth in the blood will delay the time until detection. Panel C. Exponential fit to field study data for group C1.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002729.g001</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002729.g001/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002729.g001/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002729.g001.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002729.g001/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002729.g001.TIF"></span> TIFF)
+                  </a></li></ul></div></div>
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/title[1]">The dynamics of infection</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/p[1]">The early stages of infection involve an infected bite, infection of a liver cell, and maturation of the liver stage parasite over 6–7 days <a href="#pcbi.1002729-Simpson1">[12]</a>. After this, the infected liver cells rupture, releasing approximately 20,000 merozoites <a href="#pcbi.1002729-Bejon1">[13]</a>. These merozoites then initiate the blood stage infection, and successive rounds of blood stage replication follow, each lasting approximately 2 days. These earliest events during human liver and early blood stage infection are not measured in our cohort, and we first detect parasites when their density in blood reaches our detection threshold (~40 parasites/µl). Both the rate of initiation of blood stage infection as well as the rate of growth of blood stage immunity will affect the time to first detection of infection (<a href="#pcbi-1002729-g001">Fig. 1B</a>). Liver stage immunity acts to block some infected bites from reaching the blood stage, and thus the initiation of the blood stage infection will occur with a frequency less than or equal to the real infected biting rate, and occur approximately seven days after the infected bite. Once blood stage infection is initiated, parasites grow at a rate determined by how many merozoites successfully invade new RBCs, and grow to maturity over the two-day life-cycle. We might consider this the ‘parasite multiplication rate’ (PMR), which reflects the fold increase in parasitaemia over the two day life cycle of an infected RBC. Thus, the concentration (<em>C</em>) of parasites during their growth in the blood stage can be described by formula<br><a name="pcbi.1002729.e001" id="pcbi.1002729.e001"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002729.e001&amp;representation=PNG"></span><br>where <em>A</em> is the initial concentration of parasitized RBC in blood produced by the liver stage (estimated elsewhere <a href="#pcbi.1002729-Bejon1">[13]</a>), <em>r</em> is the PMR and <em>t</em> is the time in days passed after initiation of blood stage. Incorporating the rate of initiation of blood stage infection (<em>k</em>), we expect the proportion of uninfected individuals remaining at a given time (<em>S</em>(<em>t</em>)) to follow the equation:<br><a name="pcbi.1002729.e002" id="pcbi.1002729.e002"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002729.e002&amp;representation=PNG"><span class="note" xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/p[1]/disp-formula[2]/label[1]">(1)</span></span><br>where <em>T</em> is the detection threshold and <em>τ</em> is the first possible moment of blood stage infection after treatment.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/p[2]">In our cohort, the youngest children are the most-susceptible to infection (have the least immunity), and thus we use this group as a baseline from which to observe the effects of age-acquired immunity in the older cohorts. The infection curve of the youngest children seems to conform well with the simple dynamics described in <a href="#pcbi.1002729.e002">equation (1)</a> (<a href="#pcbi-1002729-g001">Fig. 1.C</a>). Thus, assuming that the earliest initiation of the blood stage (<em>τ</em>) is day 7 (due to the pharmacodynamics of lumafantrine), we found the rate of initiation of blood stage infection (<em>k</em>) at 0.066/day, with 95% confidence interval (CI) of (0.056, 0.076), and PMR (<em>r</em>) of 5.9, CI (3.145, 8.671) for the youngest age group. Using this fit to the infection of the youngest children, we then attempt to find what mechanisms of immunity can alter this infection curve to produce the curves observed in older age groups.</p>
+
+</div>
+
+<div id="section3" xpathLocation="/article[1]/body[1]/sec[3]"><a id="s3" name="s3" toc="s3" title="Results"></a><h3 xpathLocation="noSelect">Results&nbsp;<a href="#top">Top</a></h3>
+<h4 xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/title[1]">Modelling the effects of liver stage immunity</h4>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/p[1]">Previous work suggests that immunity may act anywhere in the pre-erythrocytic stage to block sporozoite invasion <a href="#pcbi.1002729-Kebaier1">[14]</a> or kill infected liver cells. Wherever it acts, the primary results of pre-erythrocytic immunity will be to (i) reduce the proportion of infected bites that lead to blood stage infection (reduce <em>k</em>), and/or (ii) to reduce the number of infected liver cells that successfully mature to release merozoites and initiate the blood stage (reduce <em>A</em>).</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/p[2]">From a modeling perspective, anything that reduces the initiation of successful blood stage infection has the same effect – it simply decreases the slope of our reinfection curve (which remains in exponential form). <a href="#pcbi-1002729-g002">Fig. 2.A</a>. illustrates the predicted effects of decreasing the rate of initiation of blood stage infection and shows the best fits of a model that incorporates this change to the cohort data. The fits are essentially a family of curves commencing at the same time, and decreasing at different rates. The best fit parameters and goodness of fit statistics are in the [<a href="#pcbi.1002729.s004">Text S4</a>], (model 1). This is quite different from the observed infection rates in two respects: (a) it does not capture the greater delay until infection is observed in older children and adults, and (b) it does not capture the convex part of the adults' and older children's infection curve.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/fig[1]"><a name="pcbi-1002729-g002" id="pcbi-1002729-g002" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002729?imageURI=info:doi/10.1371/journal.pcbi.1002729.g002" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002729', 'info:doi/10.1371/journal.pcbi.1002729.g002');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002729', 'info:doi/10.1371/journal.pcbi.1002729.g002');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002729.g002&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002729?imageURI=info:doi/10.1371/journal.pcbi.1002729.g002" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002729', 'info:doi/10.1371/journal.pcbi.1002729.g002');"><span>Figure 2. </span></a> <span xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/fig[1]/caption[1]/title[1]">The impact of immunity on reinfection curves.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/fig[1]/caption[1]/p[1]">The effects of liver stage immunity blocking a proportion of infected bites (A), or blood stage immunity decreasing the growth of parasites (decreased PMR) (B) is shown. Liver stage immunity alone decreases the rate of new infections, producing a family of exponential curves. Slower growth produces a family of curves shifted due to an increasing delay in detection. The same biting rate is used for all age groups. Blue triangle and blue line- C1, green diamond and green line - C2, orange square and orange line - C3, red circle and red line - A.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002729.g002</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002729.g002/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002729.g002/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002729.g002.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002729.g002/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002729.g002.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/p[3]">One may think that greater delay in detection of blood stage infection in adults may be explained by other factors such as increased blood volume in adults, or a decrease in the number of infected liver cells surviving to maturity in adults (due to the effects of cytotoxic T cell immunity killing <a href="#pcbi.1002729-Bejon1">[13]</a> or growth inhibition <a href="#pcbi.1002729-Portugal1">[15]</a>). However, this is not adequate to explain the observed delay. The number of infected liver cells is rarely higher then 10–14, <a href="#pcbi.1002729-Bejon1">[13]</a>, <a href="#pcbi.1002729-Beier1">[16]</a>, <a href="#pcbi.1002729-Beier2">[17]</a>, and the blood volume differs by only a factor of approximately 5, thus even combined they could explain at best a delay of 4.7 days (using the PMR of the youngest age group 5.9). It is clear that, in addition to underestimating the delay, pre-erythrocytic immunity alone fails to account for the change in shape of the curve associated with age and cumulative exposure.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/title[1]">The effects of blood stage immunity</h4>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/p[1]">Once the blood stage of infection is successfully initiated, immunity may act on either the growth of the parasite within the infected RBC or directly on the released merozoites to reduce the rate of successful subsequent invasion events. Immunity acting at these stages will have the effect of reducing the parasite multiplication rate, and reduced PMR will lead to a greater delay until infection is detected. However, reducing the PMR alone affects the infection curves simply by shifting the curves to the right. That is, if the rate of successful initiation of the liver stage is unaffected, the effect is only to change the time until parasite density grows above the threshold but not to affect the infection rate.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/p[2]">We attempted to fit our model assuming only the PMR changed with age (<a href="#pcbi-1002729-g002">Fig. 2.B</a>). The best fit parameters and goodness of fit statistics are in the [<a href="#pcbi.1002729.s004">Text S4</a>], (model 3).. It is once again clear that although growth-inhibiting immunity can account for the delay in infection, it fails to capture the shape of the infection curve. Even combining the effects of liver and blood stage immunity fails to capture the observed infection curves. For example, in the adult infection curves, no combination of liver and blood stage immunity can account for the delayed, slowly starting shoulder of the infection curve, followed by an early period of high infection, followed by a further slowing in infection rate (<a href="#pcbi-1002729-g001">Fig. 1</a>).</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/title[1]">The effects of blood-stage immunity with a distribution in parasite growth rates</h4>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/p[1]">The simple models above consider the effects of a fixed growth rate within a given age group. However, the growth rate of parasites is likely to vary between individuals as a result of a combination of parasite strain and host factors such as intrinsic immune maturation <a href="#pcbi.1002729-Mwangi1">[18]</a>, <a href="#pcbi.1002729-Moormann2">[19]</a>. Therefore, rather than consider all infections in an age group having the same growth rate [PMR = 6, for example], we investigated the effects of variation in the parasite growth rate around the population mean within each group. For simplicity we have assumed a normal distribution in PMR, and the same standard deviation (as a proportion of the mean) for each age group. We note that it is not essential that all groups have the same coefficient of variation, however fitting the same parameter to all reduces the number of parameters fitted by three (See [<a href="#pcbi.1002729.s001">Text S1</a>] for a complete description of the mathematical model).</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/p[2]">Using a simple assumption that all age groups have the same biting rate and the same type of positive normal distribution of growth rates (with the standard deviation the same proportion of the mean PMR) we then fitted a theoretical infection function (2) to the observed infection proportion, allowing only the mean PMR to vary between age groups (note that a higher biting rate in adults has been suggested by some <a href="#pcbi.1002729-Smith1">[20]</a> and can also be accommodated in the model).<br><a name="pcbi.1002729.e003" id="pcbi.1002729.e003"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002729.e003&amp;representation=PNG"><span class="note" xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/p[2]/disp-formula[1]/label[1]">(2)</span></span><br><em>g</em> (.) is the probability density function of the delay to detection,<br><a name="pcbi.1002729.e004" id="pcbi.1002729.e004"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002729.e004&amp;representation=PNG"><span class="note" xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/p[2]/disp-formula[2]/label[1]">(3)</span></span><br><em>f<sub>N</sub></em><sub>(<em>μ,pμ</em>)</sub> (<em>x</em>) is the probability density function of a normal distribution with parameters <em>μ</em> and <em>pμ</em>, and <em>μ</em> is the mean PMR in a given age group. Constant <em>p</em> is a positive number same for all age groups. <em>F<sub>E(k)</sub></em>(<em>x</em>) is the cumulative density function of an exponential distribution with parameter <em>k</em> – the average number of bites per day, which is also the same for all age groups.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/p[3]">The derivation of the theoretical infection function that incorporates distribution in the time to infective bites and PMR within the host for different age groups is shown in [<a href="#pcbi.1002729.s001">Text S1</a>]. The best fit parameters and goodness of fit statistics are in the [<a href="#pcbi.1002729.s004">Text S4</a>], (model 4).</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/p[4]">Remarkably, allowing only the average PMR to vary between age groups captures the main features of the natural infection profiles. We see both the increasing delay with age, as well as the early rapid increase in infection rates followed by an apparent slowing down of the rate of infection (<a href="#pcbi-1002729-g003">Fig. 3A</a>). With this model of a distribution in PMRs, we can now understand the unusual shape of the adult infection curve: The early slow shoulder of the curve represents the small fraction of infections that grow rapidly, and are detected early (the right hand side of the distribution in <a href="#pcbi-1002729-g003">Fig. 3B</a>). The rapid phase of infection is around the mean of the PMR curve, and the apparent slowing represents the very slowly growing infections, which are not detected during the 11 weeks of analysis. Because of the distribution of growth rates, there is a proportion of infections where the PMR &lt;1 (shaded in <a href="#pcbi-1002729-g003">Fig. 3B</a>), implying the number of parasites decreases at each round of infection (each currently infected RBC infects less than one RBC in next round). In children, with mean PMR of ≈3.8, only a small proportion of infections have PMR &lt;1. However, for the adults, with mean PMR ≈1.35, a large proportion of bites (≈24%) have PMR &lt;1, which is why we see an apparent slowing of the infection rate later in the study. We note that by contrast simply allowing a distribution of the level of liver stage immunity alone does not improve the fit of the liver stage model (see [<a href="#pcbi.1002729.s003">Text S3</a>] for a detailed description of the model ).</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/fig[1]"><a name="pcbi-1002729-g003" id="pcbi-1002729-g003" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002729?imageURI=info:doi/10.1371/journal.pcbi.1002729.g003" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002729', 'info:doi/10.1371/journal.pcbi.1002729.g003');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002729', 'info:doi/10.1371/journal.pcbi.1002729.g003');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002729.g003&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002729?imageURI=info:doi/10.1371/journal.pcbi.1002729.g003" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002729', 'info:doi/10.1371/journal.pcbi.1002729.g003');"><span>Figure 3. </span></a> <span xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/fig[1]/caption[1]/title[1]">A distribution in growth rates explains differences in reinfection curves.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/fig[1]/caption[1]/p[1]">Panel A. Optimal fit of a model allowing variation only in mean parasite multiplication rate (PMR) between groups. Panel B. The mean PMR for each group and the distributions. The shaded area at left indicates where PMR &lt;1, and the parasite population does not grow, Panel C. Given the distribution in PMR, we can also calculate the distribution of delay as a distribution of a function of a random variable. Blue triangle and blue line- C1, green diamond and green line - C2, orange square and orange line - C3, red circle and red line - A.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002729.g003</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002729.g003/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002729.g003/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002729.g003.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002729.g003/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002729.g003.TIF"></span> TIFF)
+                  </a></li></ul></div></div>
+
+<h4 xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/title[1]">Modelling naturally acquired immunity</h4>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/p[1]">Our analysis suggests that a model that can fit the data well is one that assumes a distribution in PMRs within each age group, and a decrease in mean PMRs with age. A key question that follows is – could such a distribution with age arise from a known mechanism of immunity? Similarly, we have considered above only the relationship between PMR and time to detection of infection. However, decreased PMR would also decrease the observed levels of parasitaemia with age. Is the change in PMR required to produce the reinfection curves consistent with the change in parasitaemia levels with age? To answer this, we developed a stochastic model of within-host immunity and parasite growth to explore the effects of naturally acquired immunity. We focused on the impact of immunity affecting parasite growth, and further allowed that such immunity might either be strain-specific, or ‘general’ (affecting all strains equally). In this context, a strain-specific immunity may be defined by expression of variable proteins such as var genes or immunologic targets proteins such as merozoite or sporozoite surface antigens) that can vary across strains. General immunity is a response (be it immune or physiological – such as hyper-splenism) that acts equally on all strains. A number of previous models of malaria immunity have considered the effects of partially cross-reactive immune responses <a href="#pcbi.1002729-Recker1">[21]</a>, <a href="#pcbi.1002729-Recker2">[22]</a>, <a href="#pcbi.1002729-Dodin1">[23]</a>, <a href="#pcbi.1002729-Gatton1">[24]</a>. However, we effectively model only the extremes of ‘completely strain-specific’ or ‘completely cross reactive’ responses for simplicity.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/p[2]">In our model, strain-specific immunity arises as the result of the infection with a certain strain and neutralises the parasites of this strain only. General immunity arises as the result of infection with any strain and it can neutralise parasites of any strain. The acquisition rate of both types of immunity is proportional to concentration of parasites in the blood. Without infection, the existing level of immunity decays at some constant rate. Thus the model has four parameters of immunity: for both strain-specific immunity and general immunity we have a rate of increase in immunity per unit parasite (denoted by <em>α</em> and <em>γ</em> respectively), and a rate of loss of immunity in the absence of parasite denoted (denoted by <em>β</em> and <em>δ</em> respectively). We also require three parasite parameters: the mean number of bites per day <em>k</em> (biting rate), the baseline multiplication rate <em>r</em> of the parasites, and the number of different strains <em>n</em>. The basic equations of parasite – immunity dynamics of the model are:<br><a name="pcbi.1002729.e005" id="pcbi.1002729.e005"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002729.e005&amp;representation=PNG"><span class="note" xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/p[2]/disp-formula[1]/label[1]">(4)</span></span><br>Here <em>P<sub>i</sub></em> is the concentration of parasites of the strain <em>i</em>, <em>S<sub>i</sub></em> is the strength of the <em>i</em> <sup>th</sup> strain specific immunity, <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002729.e006&amp;representation=PNG"></span>. <em>G</em> is the strength of the general immunity. The function <em>h(.)</em> is either one (if the concentration of parasites&lt;threshold) or zero (if the concentration of parasites≥threshold), and allows for the elimination of parasites and the decay of immunity when the level of parasites drops below a threshold <em>Z</em> (in this case 0.005 parasites/microlitre ).</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/p[3]">A detailed description of the mathematical model is in the [<a href="#pcbi.1002729.s002">Text S2</a>].</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/p[4]">Using this model we can simulate the ‘life history’ of an individual in a malaria endemic area. In the model, we start with the assumption that all individuals are identical and lack immunity at birth (<em>t</em> = 0), and are then exposed to bites from different strains arriving at random times, with a random order of strains (choosing from our 50 notional strains), to which they then develop immunity (ignoring the transient contribution of maternally-derived immunity). Thus, the timing of bites and which strain is inoculated is stochastic, but between bites the dynamics of parasites and immunity is deterministic (as in <a href="#pcbi.1002729.e003">equation 2</a>).</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/p[5]"><a href="#pcbi-1002729-g004">Fig. 4</a> shows the dynamics of parasite infection and acquisition of strain specific and general immunity by an individual, starting from birth to one year [left panel] and five to six years [right panel]. The top panels show the dynamics of parasite infection, as different parasite strains (indicated by different colours) initiate blood stage infection, grow, and then induce strain-specific immunity, leading to their clearance. Given the long half-life of strain-specific immunity and the absence of within-host parasite antigen variation in our model, each new parasitemia peak represents infection with a new strain. In addition to inducing strain-specific immunity (bottom panels, coloured), these infections also induce general immunity (solid black line), which accumulates over time. By simulating the life history of a small population of individuals (n = 50), we can then apply the concept of ‘treatment-time-to-infection’ trials to the simulated individuals. That is, by removing all blood stage parasites of individuals in different age groups and observing the time until parasite levels reach our detection threshold, we can simulate (re)-infection (<a href="#pcbi-1002729-g005">Fig. 5</a> and <a href="#pcbi-1002729-g006">6</a>). <a href="#pcbi-1002729-g005">Fig. 5</a> shows the dynamics of parasitaemia during (re)-infection from the field study data (top) and the simulation (bottom), for four subjects from each of the different age groups. Remarkably, the simulation captures a number of the factors observed in our observational study; firstly, the natural infection curves show increasing delay with age and an increasing proportion of individuals remaining uninfected. Secondly, the observed reduction in parasite levels in blood with age is also captured in the model, indicating that the decreased PMR required to produce the reinfection curves is consistent with the decreased PMR required to produce the observed reduction in parasitaemia with age. (as higher immunity means parasites are controlled at a lower parasitaemia) (<a href="#pcbi-1002729-g005">Fig. 5</a>). <a href="#pcbi-1002729-g006">Fig. 6A</a> shows the infection curves for the whole simulated population, and <a href="#pcbi-1002729-g006">Fig. 6B</a> compares the mean parasitaemia for the field study data and simulation for different ages. Importantly, the major factor that can account for both delayed infection and lower parasitaemia in adults is simply a reduced average growth rate of parasites with age and naturally acquired immunity.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/fig[1]"><a name="pcbi-1002729-g004" id="pcbi-1002729-g004" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002729?imageURI=info:doi/10.1371/journal.pcbi.1002729.g004" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002729', 'info:doi/10.1371/journal.pcbi.1002729.g004');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002729', 'info:doi/10.1371/journal.pcbi.1002729.g004');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002729.g004&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002729?imageURI=info:doi/10.1371/journal.pcbi.1002729.g004" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002729', 'info:doi/10.1371/journal.pcbi.1002729.g004');"><span>Figure 4. </span></a> <span xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/fig[1]/caption[1]/title[1]">Evolution of immunity over time.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/fig[1]/caption[1]/p[1]">Panel A. The results of a stochastic simulation of acquired immunity are shown for one <em>in silico</em> individual. Bites (coloured triangles) occur randomly with a fixed biting rate, and different strains (coloured, and numbered below) initiate infection. Each infection induces and is cleared by strain-specific immunity (Panel B), which then wanes over time. General immunity (solid black line) accumulates slowly over time. The accumulation of immunity in the first year (left panels) and aged 5–6 years (right panels) is shown.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002729.g004</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002729.g004/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002729.g004/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002729.g004.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002729.g004/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002729.g004.TIF"></span> TIFF)
+                  </a></li></ul></div></div><div class="figure" xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/fig[2]"><a name="pcbi-1002729-g005" id="pcbi-1002729-g005" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002729?imageURI=info:doi/10.1371/journal.pcbi.1002729.g005" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002729', 'info:doi/10.1371/journal.pcbi.1002729.g005');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002729', 'info:doi/10.1371/journal.pcbi.1002729.g005');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002729.g005&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/fig[2]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002729?imageURI=info:doi/10.1371/journal.pcbi.1002729.g005" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002729', 'info:doi/10.1371/journal.pcbi.1002729.g005');"><span>Figure 5. </span></a> <span xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/fig[2]/caption[1]/title[1]">Modeling the dynamics of reinfection.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/fig[2]/caption[1]/p[1]">The parasitaemia during reinfection in four individuals from the field study (top row) and in four individuals in the simulation (bottom row) are shown. Each individual is shown as a different colour.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002729.g005</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002729.g005/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002729.g005/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002729.g005.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002729.g005/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002729.g005.TIF"></span> TIFF)
+                  </a></li></ul></div></div><div class="figure" xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/fig[3]"><a name="pcbi-1002729-g006" id="pcbi-1002729-g006" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002729?imageURI=info:doi/10.1371/journal.pcbi.1002729.g006" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002729', 'info:doi/10.1371/journal.pcbi.1002729.g006');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002729', 'info:doi/10.1371/journal.pcbi.1002729.g006');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002729.g006&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/fig[3]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002729?imageURI=info:doi/10.1371/journal.pcbi.1002729.g006" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002729', 'info:doi/10.1371/journal.pcbi.1002729.g006');"><span>Figure 6. </span></a> <span xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/fig[3]/caption[1]/title[1]">Reinfection and parasitaemia with blood stage immunity.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/fig[3]/caption[1]/p[1]">The dynamics of reinfection (A) and the mean parasitaemia (B) are shown for the stochastic simulation of acquired blood stage immunity. Panel A. Mean (calculated every 7 days) of 5 simulations of the reinfection curves of individuals with general and strain specific immunity with parameters listed in Table S2.1. in [<a href="#pcbi.1002729.s002">Text S2</a>]. Blue triangle and blue line- 0–4 y.o., green diamond and green line - 5–9 y.o., orange square and orange line - 10–14 y.o., red circle and red line - 15–30 y.o. Panel B. Average concentration of parasites in blood in the field study data (left 4 bars) and in the simulated reinfection data presented in the panel A.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002729.g006</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002729.g006/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002729.g006/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002729.g006.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002729.g006/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002729.g006.TIF"></span> TIFF)
+                  </a></li></ul></div></div>
+</div>
+
+<div id="section4" xpathLocation="/article[1]/body[1]/sec[4]"><a id="s4" name="s4" toc="s4" title="Discussion"></a><h3 xpathLocation="noSelect">Discussion&nbsp;<a href="#top">Top</a></h3>
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[1]/title[1]">Understanding the dynamics of immunity to malaria</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[1]/p[1]">A number of modelling studies have previously been applied to understanding the dynamics of malaria infection and the impact of immunity. Some of these studies have focused upon the dynamics of experimental infection of neurosyphilis patients in the USA during the early 20<sup>th</sup> century with both <em>P. falciparum</em> <a href="#pcbi.1002729-Collins1">[25]</a> and <em>P. vivax</em> <a href="#pcbi.1002729-Collins2">[26]</a>. Such infections with <em>P. falciparum</em> often show a dynamic of repeated recrudescence, in the absence of reinfection. Modelling both infection rates and infection dynamics has also been applied to more recent data on infection in naturally exposed individuals <a href="#pcbi.1002729-Smith2">[27]</a>, <a href="#pcbi.1002729-Smith3">[28]</a>. The recent discovery of the molecular mechanisms of antigenic variation in <em>P.falciparum</em> has also driven studies modelling the dynamics of immune interaction with an antigenically variable pathogen <a href="#pcbi.1002729-Recker1">[21]</a>, <a href="#pcbi.1002729-Recker2">[22]</a>, <a href="#pcbi.1002729-Dodin1">[23]</a>, <a href="#pcbi.1002729-Gatton1">[24]</a>. In our study, we utilise field data on malaria infection dynamics after a short treatment course in a holoendemic region of Kenya. The estimated P. falciparum infection rates are extremely high, especially amongst young children, but consistent with the high entomological infection rates measured in this area <a href="#pcbi.1002729-Beier3">[29]</a>and with the blood-stage infection rates previously observed by others in similar studies <a href="#pcbi.1002729-Sokhna1">[30]</a>, <a href="#pcbi.1002729-Beadle1">[31]</a>. The prior treatment of patients gives an ideal opportunity to study malaria incidence in the absence of recrudesence from prior infection. However, there is a potential problem equating the measured time to reinfection in treated, asymptomatic individuals with incidence rates of new blood-stage infection in individuals living in highly endemic areas, and then using these findings to make general statements about acquired immunity to malaria. However, given that children in this area are treated on average twice a year <a href="#pcbi.1002729-McElroy1">[32]</a>, this is likely as natural an infection dynamic as can be readily studied.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[1]/p[2]">Fitting of a simple model of infection dynamics to the field data on <em>P. falciparum</em> infection demonstrates that the observed rates of infection with age are consistent with a form of immunity that reduces the PMR of the parasite in blood. This mechanism of blood-stage immunity reducing PMRs is consistent not only with the dynamics of infection after treatment in different age groups, but also with the observed reduction in peak parasitaemia with older age groups (<a href="#pcbi-1002729-g006">Fig. 6</a>). Although clinical malaria was not studied in this model, one might imagine a reduction in parasite replication with age may also play some role in both the observed reduction in episodes of severe malaria as well as an apparent shift from acute to chronic infections with age. The fact that the model fits well without invoking a need for liver-stage immunity does not exclude a role for liver stage immunity, but suggests it is not a major force shaping the observed infection dynamics. By contrast, liver-stage immunity alone would be expected to have relatively little impact on either the delay or peak parasitaemia. The estimated PMR in this study and their change with age are very consistent with published studies of parasite growth in unexposed adults in the UK (estimated to have a high PMR of approx 8–14/cycle <a href="#pcbi.1002729-Simpson1">[12]</a>, <a href="#pcbi.1002729-Bejon1">[13]</a>), compared with the reported very low PMRs in malaria endemic areas (1.6–3/cycle) <a href="#pcbi.1002729-Deans1">[33]</a>, <a href="#pcbi.1002729-Douglas1">[34]</a>.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[2]/title[1]">Insights into specific and general immunity</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[2]/p[1]">Although the initial model was developed on the basis of a number of heuristic assumptions, the model provides some useful insights into the possible mechanisms of blood-stage immunity induced from natural malaria infections. Firstly, ‘parasite clearing’ immunity must be highly strain-specific: That is, we often see one parasite peak being cleared immediately before another peak arises (<a href="#pcbi-1002729-g005">Fig. 5</a>, C1, top). Given the time taken for clearance and growth, this means that we must have one parasite being cleared while another grows. Thus the immune response mediating clearance of individual parasite peaks must have the characteristics of being both highly strain-specific, and rapidly induced. Although this strain-specific response must be rapidly induced, the duration of strain-specific immunity may be varied in the model, depending on the number of strains used and the biting rate. That is, if there are only a small number of immunologically distinct strains of parasite, then the duration of immunity needs to be short – to allow reinfection. However, if there are a large number of immunologically distinct strains, the half-life of strain-specific immunity could be considerably longer and still consistent with the data. Thus we are not able to speculate on the relative duration of strain-specific versus general immunity, as has been discussed elsewhere <a href="#pcbi.1002729-Recker1">[21]</a>, <a href="#pcbi.1002729-Recker2">[22]</a>, <a href="#pcbi.1002729-Dodin1">[23]</a>, <a href="#pcbi.1002729-Gatton1">[24]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[2]/p[2]">The long timescale over which age-related immunity is acquired suggests that whatever factor mediates this must have a long half-life (since the time taken for the immunity level to reach its maximum is related to the half-life of immunity). If specific immunity were the only mechanism, then it would need to be long-lived, and the age-associated acquisition of immunity would simply be the progress from having immunity to a few strains, to having immunity to most strains. However, the intermediate phenotype here (having immunity to a proportion of strains) is incompatible with the age and parasitaemia data. That is, if we had immunity to 50% of strains, and no immunity to the other 50%, this would mean that 50% of bites would be blocked (changing the reinfection curve as in <a href="#pcbi-1002729-g002">Fig. 2A</a>) and that parasitaemia of the remaining strains would be ‘normal’. This is clearly not consistent with the data, suggesting that although strain-specific immunity is required to explain the clearance of individual parasite peaks, it is not sufficient to explain age-associated changes in reinfection and parasitaemia.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[2]/p[3]">The alternative to a strain-specific immune response to individual infection episodes is a general anti-parasite response that decreases the growth of all strains. In contrast to specific immunity, general immunity takes many years to acquire and accumulates after repeated infections. Thus, each infection should both induce only a small rise in general immunity, and it must be long-lived. It is also clear that general immunity alone cannot produce the observed infection dynamics, as this could not simultaneously drive one parasite strain down while the other grows. In broad terms, we might consider that an increase in general immunity with time drives down the mean PMR of an age group. The distribution in growth rates within an age group arises due to strain-specific immunity, with individual strains (in different individuals) having different growth rates due to the variable levels of strain-specific immunity, which wanes over time after infection with that strain.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[3]/title[1]">Mechanisms of immunity</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[3]/p[1]">Clinical studies of immune correlates of protection from malaria are often complicated and difficult to reconcile (reviewed in <a href="#pcbi.1002729-Sutherland1">[8]</a>). Overall, antibody levels have been found to generally increase with age and exposure, when measured by the ability to bind parasite antigens in ELISA. It has generally been difficult to demonstrate a clear correlation with protection from parasitaemia, as this is so strongly confounded by age. These antibody levels are also long-lived, appearing to persist with a half-life up to 5–10 years <a href="#pcbi.1002729-Wipasa1">[35]</a>. However, it is difficult to differentiate between binding antibodies exerting a direct protective effect, or merely acting as biomarkers of past infections.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[3]/p[2]">Our model does not address the particular mechanisms or specificity of immunity. However, one prediction of the model is that each patent infection is cleared by a highly strain-specific response, as it is common that the clearance of one strain occurs while infection with another strain is still growing. This is consistent with early studies suggesting that growth-inhibitory antibodies may be highly strain-specific when tested in clinical isolates <a href="#pcbi.1002729-Wilson1">[36]</a>. Interestingly, some growth-inhibitory antibodies appear as a correlate of protection within an age group, but paradoxically decrease with age <a href="#pcbi.1002729-Dent1">[3]</a>, <a href="#pcbi.1002729-John1">[10]</a>. It is interesting to note that strain-specific immunity also paradoxically decreases with age in our model, due to the increase in general immunity.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[3]/p[3]">We note some difficulties with defining the term ‘strain’ in malaria, as recent deep sequencing studies have suggested a wide range of genotypes <a href="#pcbi.1002729-Juliano1">[37]</a>. Moreover, even once the genetic structure of malaria strains is resolved, the immunological specificity and cross-reactivity of responses may be highly complex. We do not use the term ‘cross-reactive immunity’ when describing a factor that limits the growth of all strains, but instead prefer the term ‘general immunity’. The concept of cross reactivity may tend to imply specific antibodies that cross-react between different strains. However, we do not wish to exclude other factors such as an enlarged spleen may tend to decrease the PMR of all strains, and may also play a role in protection.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[3]/p[4]">The majority of cases of severe malaria occur amongst young children in endemic areas, and age and persistent exposure provide some level of immunity to both clinical symptoms, as well as measured parasitaemia <a href="#pcbi.1002729-Sokhna2">[38]</a>. Although this age-associated acquisition of immunity is known, clinical studies of immune responses to malaria often struggle to identify the mechanisms of protection <a href="#pcbi.1002729-Sokhna2">[38]</a>. We have employed an alternative strategy in an attempt to deconstruct the mechanisms of naturally acquired immunity based on the dynamics of infection in otherwise healthy asymptomatic individuals. We find that simple pre-erythrocytic immunity acting alone is inconsistent with the data, as is a highly strain-specific form of blood-stage immunity, as both would have the overall effect of merely decreasing the number of successful infections. Instead, the observed dynamics of infection and parasitaemia levels in a cohort of individuals from a holoendemic area of western Kenya are consistent with the reduction in parasite multiplication rate with age, leading to both a delay in the time until infection is detected, as well as reduce the peak parasitaemia. In terms of the clinical outcomes observed, our study suggests that the reduced rate of clinical malaria and reduced rate of apparent infection (measured at a particular threshold of parasitaemia detection) may both be driven by a reduction in parasite growth rate, independent of any real change in infection rate. Further studies are required to deconvolute immunity that inhibits parasite growth distinct from its ability to infect hepatocytes and erythrocytes.</p>
+
+</div>
+
+<div id="section5" xpathLocation="/article[1]/body[1]/sec[5]"><a id="s5" name="s5" toc="s5" title="Supporting Information"></a><h3 xpathLocation="noSelect">Supporting Information&nbsp;<a href="#top">Top</a></h3><a name="pcbi.1002729.s001" id="pcbi.1002729.s001"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002729.s001">Text S1. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[1]/caption[1]/p[1]">
+            <strong>Deterministic modelling of the effects of PMR.</strong>
+          </p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[1]/caption[1]/p[2]">(PDF)</p>
+<a name="pcbi.1002729.s002" id="pcbi.1002729.s002"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002729.s002">Text S2. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[2]/caption[1]/p[1]">
+            <strong>Stochastic modelling of blood stage acquired immunity.</strong>
+          </p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[2]/caption[1]/p[2]">(PDF)</p>
+<a name="pcbi.1002729.s003" id="pcbi.1002729.s003"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002729.s003">Text S3. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[3]/caption[1]/p[1]">
+            <strong>Liver stage immunity model (with the distribution of the strength of liver stage immunity).</strong>
+          </p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[3]/caption[1]/p[2]">(PDF)</p>
+<a name="pcbi.1002729.s004" id="pcbi.1002729.s004"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002729.s004">Text S4. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[4]/caption[1]/p[1]">
+            <strong>The best fit parameters and goodness of fit statistics for different models.</strong>
+          </p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[4]/caption[1]/p[2]">(PDF)</p>
+</div>
+
+
+
+
+
+<div xpathLocation="noSelect"><a id="ack" name="ack" toc="ack" title="Acknowledgments"></a><h3 xpathLocation="noSelect">Acknowledgments&nbsp;<a href="#top">Top</a></h3>
+<p xpathLocation="/article[1]/back[1]/ack[1]/p[1]">The authors wish to thank Deborah Cromer for careful reading and helpful comments on the manuscript. This study is published with permission from the Director, Kenya Medial Research Institute.</p>
+</div><div class="contributions"><a id="authcontrib" name="authcontrib" toc="authcontrib" title="Author Contributions"></a><h3 xpathLocation="noSelect">Author Contributions&nbsp;<a href="#top">Top</a></h3><p xpathLocation="noSelect">Conceived and designed the experiments: MPD MP AMM KC JWK. Performed the experiments: MPD MP AMM KC JWK. Analyzed the data: MP MPD JP. Wrote the paper: MP MPD JP AMM.</p></div><div xpathLocation="noSelect"><a id="references" name="references" toc="references" title="References"></a><h3 xpathLocation="noSelect">References&nbsp;<a href="#top">Top</a></h3><ol class="references" xpathLocation="noSelect"><li xpathLocation="noSelect"><a name="pcbi.1002729-Greenwood1" id="pcbi.1002729-Greenwood1"></a>Greenwood BM, Fidock DA, Kyle DE, Kappe SHI, Alonso PL, et al. (2008) Malaria: progress, perils, and prospects for eradication. J Clin Inves 118: 1266–1276.
+        doi:
+        <a href="http://dx.doi.org/10.1172/JCI33996">10.1172/JCI33996</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928267">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Moormann1" id="pcbi.1002729-Moormann1"></a>Moormann AM (2009) How might infant and paediatric immune responses influence malaria vaccine efficacy? Parasite Immunol 31: 547–559.
+        doi:
+        <a href="http://dx.doi.org/10.1111/j.1365-3024.2009.01137.x">10.1111/j.1365-3024.2009.01137.x</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928269">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Dent1" id="pcbi.1002729-Dent1"></a>Dent AE, Bergmann-Leitner ES, Wilson DW, Tisch DJ, Kimmel R, et al. (2008) Antibody-Mediated Growth Inhibition of Plasmodium falciparum: Relationship to Age and Protection from Parasitemia in Kenyan Children and Adults. PLoS ONE 3: e3557.
+        doi:
+        <a href="http://dx.doi.org/10.1371/journal.pone.0003557">10.1371/journal.pone.0003557</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928271">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Sarr1" id="pcbi.1002729-Sarr1"></a>Sarr J, Remoue F, Samb B, Dia I, Guindo S, et al. (2007) Evaluation of antibody response to Plasmodium falciparum in children according to exposure of Anopheles gambiae s.l or Anopheles funestus vectors. Malar J 6: 117.
+        doi:
+        <a href="http://dx.doi.org/10.1186/1475-2875-6-117">10.1186/1475-2875-6-117</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928273">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Gray1" id="pcbi.1002729-Gray1"></a>Gray JC, Corran PH, Mangia E, Gaunt MW, Li Q, et al. (2007) Profiling the Antibody Immune Response against Blood Stage Malaria Vaccine Candidates. Clin Chem 53: 1244–1253.
+        doi:
+        <a href="http://dx.doi.org/10.1373/clinchem.2006.081695">10.1373/clinchem.2006.081695</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928275">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Yone1" id="pcbi.1002729-Yone1"></a>Yone CLRP, Kremsner PG, Luty AJF (2005) Immunoglobulin G Isotype Responses to Erythrocyte Surface-Expressed Variant Antigens of Plasmodium falciparum Predict Protection from Malaria in African Children. Infect Immun 73: 2281–2287.
+        doi:
+        <a href="http://dx.doi.org/10.1128/IAI.73.4.2281-2287.2005">10.1128/IAI.73.4.2281-2287.2005</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928277">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Tongren1" id="pcbi.1002729-Tongren1"></a>Tongren JE, Drakeley CJ, McDonald SLR, Reyburn HG, Manjurano A, et al. (2005) Target Antigen, Age, and Duration of Antigen Exposure Independently Regulate Immunoglobulin G Subclass Switching in Malaria. Infect Immun 74: 257–264.
+        doi:
+        <a href="http://dx.doi.org/10.1128/IAI.74.1.257-264.2006">10.1128/IAI.74.1.257-264.2006</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928279">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Sutherland1" id="pcbi.1002729-Sutherland1"></a>Sutherland CJ, McCallum FJ, Persson KEM, Mugyenyi CK, Fowkes FJI, et al. (2008) Acquisition of Growth-Inhibitory Antibodies against Blood-Stage Plasmodium falciparum. PLoS ONE 3: e3571. <a class="find" href="/article/findArticle.action?citedArticleID=5928281">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Roussilhon1" id="pcbi.1002729-Roussilhon1"></a>Roussilhon C, Oeuvray C, Muller-Graf C, Tall A, Rogier C, et al. (2007) Long-term clinical protection from falciparum malaria is strongly associated with IgG3 antibodies to merozoite surface protein 3. Plos Med 4: e320.
+        doi:
+        <a href="http://dx.doi.org/10.1371/journal.pmed.0040320">10.1371/journal.pmed.0040320</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928283">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-John1" id="pcbi.1002729-John1"></a>John CC, O'Donnell RA, Sumba PO, Moormann AM, de Koning-Ward TF, et al. (2004) Evidence that invasion-inhibitory antibodies specific for the 19-kDa fragment of merozoite surface protein-1 (MSP-1(19)) can play a protective role against blood-stage Plasmodium falciparum infection in individuals in a malaria endemic area of Africa. J Immunol 173: 666–672. <a class="find" href="/article/findArticle.action?citedArticleID=5928285">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Golenser1" id="pcbi.1002729-Golenser1"></a>Golenser J, Waknine JH, Krugliak M, Hunt NH, Grau GE (2006) Current perspectives on the mechanism of action of artemisinins. Int J Parasitol 36: 1427–1441.
+        doi:
+        <a href="http://dx.doi.org/10.1016/j.ijpara.2006.07.011">10.1016/j.ijpara.2006.07.011</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928287">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Simpson1" id="pcbi.1002729-Simpson1"></a>Simpson JA, Aarons L, Collins WE, Jeffery GM, White NJ (2002) Population dynamics of untreated Plasmodium falciparum malaria within the adult human host during the expansion phase of the infection. Parasitology 124: 247–63.
+        doi:
+        <a href="http://dx.doi.org/10.1017/S0031182001001202">10.1017/S0031182001001202</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928289">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Bejon1" id="pcbi.1002729-Bejon1"></a>Bejon P, Andrews L, Andersen RF, Dunachie S, Webster D, et al. (2005) Calculation of liver-to-blood inocula, parasite growth rates, and preerythrocytic vaccine efficacy, from serial quantitative polymerase chain reaction studies of volunteers challenged with malaria sporozoites. J Infect Dis 191: 619–626.
+        doi:
+        <a href="http://dx.doi.org/10.1086/427243">10.1086/427243</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928291">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Kebaier1" id="pcbi.1002729-Kebaier1"></a>Kebaier C, Voza T, Vanderberg J, Mota MM (2009) Kinetics of Mosquito-Injected Plasmodium Sporozoites in Mice: Fewer Sporozoites Are Injected into Sporozoite-Immunized Mice. PLoS Pathog 5: e1000399.
+        doi:
+        <a href="http://dx.doi.org/10.1371/journal.ppat.1000399">10.1371/journal.ppat.1000399</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928293">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Portugal1" id="pcbi.1002729-Portugal1"></a>Portugal S, Carret C, Recker M, Armitage AE, Gonçalves LA, et al. (2011) Host-mediated regulation of superinfection in malaria. Nat Med 17: 732–737.
+        doi:
+        <a href="http://dx.doi.org/10.1038/nm.2368">10.1038/nm.2368</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928295">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Beier1" id="pcbi.1002729-Beier1"></a>Beier JC, Davis JR, Vaughan JA, Noden BH, Beier MS (1991) Quantitation of Plasmodium-Falciparum Sporozoites Transmitted Invitro by Experimentally Infected Anopheles-Gambiae and Anopheles-Stephensi. Am J Trop Med Hyg 44: 564–570. <a class="find" href="/article/findArticle.action?citedArticleID=5928297">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Beier2" id="pcbi.1002729-Beier2"></a>Beier JC, Beier MS, Vaughan JA, Pumpuni CB, Davis JR, et al. (1992) Sporozoite Transmission by Anopheles-Freeborni and Anopheles-Gambiae Experimentally Infected with Plasmodium-Falciparum. J Am Mosquito Contr 8: 404–408. <a class="find" href="/article/findArticle.action?citedArticleID=5928299">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Mwangi1" id="pcbi.1002729-Mwangi1"></a>Mwangi TW, Fegan G, Williams TN, Kinyanjui SM, Snow RW, et al. (2008) Evidence for Over-Dispersion in the Distribution of Clinical Malaria Episodes in Children. PLoS ONE 3: e2196.
+        doi:
+        <a href="http://dx.doi.org/10.1371/journal.pone.0002196">10.1371/journal.pone.0002196</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928301">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Moormann2" id="pcbi.1002729-Moormann2"></a>Moormann AM (2009) How might infant and paediatric immune responses influence malaria vaccine efficacy? Parasite Immunol 31: 547–559.
+        doi:
+        <a href="http://dx.doi.org/10.1111/j.1365-3024.2009.01137.x">10.1111/j.1365-3024.2009.01137.x</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928303">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Smith1" id="pcbi.1002729-Smith1"></a>Smith T, Maire N, Dietz K, Killeen GF, Vounatsou P, et al. (2006) Relationship between the entomologic inoculation rate and the force of infection for Plasmodium falciparum malaria. Am J Trop Med Hyg 75: 11–18. <a class="find" href="/article/findArticle.action?citedArticleID=5928305">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Recker1" id="pcbi.1002729-Recker1"></a>Recker M, Nee S, Bull PC, Kinyanjui S, Marsh K, et al. (2004) Transient cross-reactive immune responses can orchestrate antigenic variation in malaria. Nature 429: 555–558.
+        doi:
+        <a href="http://dx.doi.org/10.1038/nature02486">10.1038/nature02486</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928307">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Recker2" id="pcbi.1002729-Recker2"></a>Recker M, Al-Bader R, Gupta S (2005) A mathematical model for a new mechanism of phenotypic variation in malaria. Parasitology 131: 151–159.
+        doi:
+        <a href="http://dx.doi.org/10.1017/S0031182005007481">10.1017/S0031182005007481</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928309">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Dodin1" id="pcbi.1002729-Dodin1"></a>Dodin G, Levoir P (2005) Replication slippage and the dynamics of the immune response in malaria: a formal model for immunity. Parasitology 131: 727.
+        doi:
+        <a href="http://dx.doi.org/10.1017/S0031182005008462">10.1017/S0031182005008462</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928311">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Gatton1" id="pcbi.1002729-Gatton1"></a>Gatton ML, Cheng Q (2004) Modeling the Development of Acquired Clinical Immunity to Plasmodium falciparum Malaria. Infect Immun 72: 6538–6545.
+        doi:
+        <a href="http://dx.doi.org/10.1128/IAI.72.11.6538-6545.2004">10.1128/IAI.72.11.6538-6545.2004</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928313">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Collins1" id="pcbi.1002729-Collins1"></a>Collins WE, Jeffery GM (1999) A retrospective examination of the patterns of recrudescence in patients infected with Plasmodium falciparum. Am J Trop Med Hyg 61: 44–48. <a class="find" href="/article/findArticle.action?citedArticleID=5928315">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Collins2" id="pcbi.1002729-Collins2"></a>Collins WE, Jeffery GM, Roberts JM (2004) A retrospective examination of reinfection of humans with Plasmodium vivax. Am J Trop Med Hyg 70: 642–644. <a class="find" href="/article/findArticle.action?citedArticleID=5928317">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Smith2" id="pcbi.1002729-Smith2"></a>Smith T, Maire N, Dietz K, Killeen GF, Vounatsou P, et al. (2006) Relationship between the entomologic inoculation rate and the force of infection for Plasmodium falciparum malaria. Am J Trop Med Hyg 75: 11–18. <a class="find" href="/article/findArticle.action?citedArticleID=5928319">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Smith3" id="pcbi.1002729-Smith3"></a>Smith T, Ross A, Maire N, Rogier C, Trape J-F, et al. (2006) An epidemiologic model of the incidence of acute illness in Plasmodium falciparum malaria. Am J Trop Med Hyg 75: 56–62. <a class="find" href="/article/findArticle.action?citedArticleID=5928321">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Beier3" id="pcbi.1002729-Beier3"></a>Beier JC, Oster CN, Onyango FK, Bales JD, Sherwood JA, et al. (1994) Plasmodium-Falciparum Incidence Relative to Entomologic Inoculation Rates at a Site Proposed for Testing Malaria Vaccines in Western Kenya. Am J Trop Med Hyg 50: 529–536. <a class="find" href="/article/findArticle.action?citedArticleID=5928323">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Sokhna1" id="pcbi.1002729-Sokhna1"></a>Sokhna CS, FBK F, Spiegel A, Dieng H, Trape JF (2001) Rapid reappearance of Plasmodium falciparum after drug treatment among Senegalese adults exposed to moderate seasonal transmission. Am J Trop Med Hyg 65: 167–170. <a class="find" href="/article/findArticle.action?citedArticleID=5928325">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Beadle1" id="pcbi.1002729-Beadle1"></a>Beadle C, McElroy PD, Oster CN, Beier JC, Oloo AJ, et al. (1995) Impact of transmission intensity and age on Plasmodium falciparum density and associated fever: implications for malaria vaccine trial design. J Infect Dis 172: 1047–1054.
+        doi:
+        <a href="http://dx.doi.org/10.1093/infdis/172.4.1047">10.1093/infdis/172.4.1047</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928327">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-McElroy1" id="pcbi.1002729-McElroy1"></a>McElroy PD, ter Kuile FO, Lal AA, Bloland PB, Hawley WA, et al. (2000) Effect of Plasmodium falciparum parasitemia density on hemoglobin concentrations among full-term, normal birth weight children in western Kenya, IV. The Asembo Bay Cohort Project. Am J Trop Med Hyg 62: 504–512. <a class="find" href="/article/findArticle.action?citedArticleID=5928329">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Deans1" id="pcbi.1002729-Deans1"></a>Deans AM, Lyke KE, Thera MA, Plowe CV, Kone A, et al. (2006) Low multiplication rates of African Plasmodium falciparum isolates and lack of association of multiplication rate and red blood cell selectivity with malaria virulence. Am J Trop Med Hyg 74: 554–563. <a class="find" href="/article/findArticle.action?citedArticleID=5928331">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Douglas1" id="pcbi.1002729-Douglas1"></a>Douglas AD, Andrews L, Draper SJ, Bojang K, Milligan P, et al. (2011) Substantially reduced pre-patent parasite multiplication rates are associated with naturally acquired immunity to Plasmodium falciparum. J Infect Dis 203: 1337–1340.
+        doi:
+        <a href="http://dx.doi.org/10.1093/infdis/jir033">10.1093/infdis/jir033</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928333">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Wipasa1" id="pcbi.1002729-Wipasa1"></a>Wipasa J, Suphavilai C, Okell LC, Cook J, Corran PH, et al. (2010) Long-lived antibody and B Cell memory responses to the human malaria parasites, Plasmodium falciparum and Plasmodium vivax. PLoS Pathog 6: e1000770.
+        doi:
+        <a href="http://dx.doi.org/10.1371/journal.ppat.1000770">10.1371/journal.ppat.1000770</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928335">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Wilson1" id="pcbi.1002729-Wilson1"></a>Wilson RJ, Phillips RS (1976) Method to test inhibitory antibodies in human sera to wild populations of Plasmodium falciparum. Nature 263: 132–134.
+        doi:
+        <a href="http://dx.doi.org/10.1038/263132a0">10.1038/263132a0</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928337">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Juliano1" id="pcbi.1002729-Juliano1"></a>Juliano JJ, Porter K, Mwapasa V, Sem R, Rogers WO, et al. (2010) Exposing malaria in-host diversity and estimating population diversity by capture-recapture using massively parallel pyrosequencing. Proc Natl Acad Sci U S A 107: 20138–20143.
+        doi:
+        <a href="http://dx.doi.org/10.1073/pnas.1007068107">10.1073/pnas.1007068107</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5928339">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002729-Sokhna2" id="pcbi.1002729-Sokhna2"></a>Sokhna CS, Rogier C, Dieye A, Trape JF (2000) Host factors affecting the delay of reappearance of Plasmodium falciparum after radical treatment among a semi-immune population exposed to intense perennial transmission. Am J Trop Med Hyg 62: 266–270. <a class="find" href="/article/findArticle.action?citedArticleID=5928341">
+                      Find this article online
+                    </a></li></ol></div>
+
+</div></div>
+<div style="display:none">
+<div dojoType="ambra.widget.RegionalDialog" id="AnnotationDialog" style="padding:0;margin:0;">
+  <div class="dialog annotate">
+    <div class="tipu" id="dTipu"></div>
+    <div class="comment">
+      <h5><span>Post Your Note (For Public Viewing)</span></h5>
+      <div class="posting pane">
+        <form name="createAnnotation" id="createAnnotation" method="post" action="">
+          <input type="hidden" name="target" value="info:doi/10.1371/journal.pcbi.1002729" />
+          <input type="hidden" name="startPath" value="" />
+          <input type="hidden" name="startOffset" value="" />
+          <input type="hidden" name="endPath" value="" />
+          <input type="hidden" name="endOffset" value="" />
+          <input type="hidden" name="commentTitle" id="commentTitle" value="" />
+          <input type="hidden" name="comment" id="commentArea" value="" />
+          <input type="hidden" name="ciStatement" id="statementArea" value="" />
+          <input type="hidden" name="isCompetingInterest" id="isCompetingInterest" value="false" />
+          <input type="hidden" name="noteType" id="noteType" value="" />
+          <fieldset>
+            <legend>Compose Your Note</legend>
+            <span id="submitMsg" class="error" style="display:none;"></span>
+            <table class="layout">
+              <tr>
+                <td>
+                  <label for="cNoteType">This is a </label><select name="cNoteType" id="cNoteType"><option value="note">note</option><option value="correction">correction</option></select>
+                  <span id="cdls" style="visibility:hidden;margin-left:0.3em; white-space:nowrap;"><a href="/static/commentGuidelines.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?target=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002729#corrections">What are corrections?</a></span>
+                  <label for="cTitle"><span class="none">Enter your note title</span><!-- error message text <em>A title is required for all public notes</em>--></label>
+                  <input type="text" name="cTitle" id="cTitle" value="Enter your note title..." class="title" alt="Enter your note title..." />
+                  <label for="cArea"><span class="none">Enter your note</span><!-- error message text <em>Please enter your note</em>--></label>
+                  <textarea name="cArea" id="cArea" value="Enter your note..." alt="Enter your note...">Enter your note...</textarea>
+                  <input type="hidden" name="isPublic" value="true" />
+                </td>
+                <td>&nbsp;</td>
+                <td class="coi">
+                  <fieldset>
+                    <legend>Declare any competing interests.</legend>
+                    <ul>
+                      <li><label><input id="isCompetingInterestNo" type="radio" checked="checked" name="competingInterest" value="false"  /> No, I don't have any competing interests to declare.</label></li>
+                      <li><label><input id="isCompetingInterestYes" type="radio" name="competingInterest" value="true"  /> Yes, I have competing interests to declare (enter below):</label></li>
+                    </ul>
+                    <textarea name="ciStatementArea" id="ciStatementArea" disabled value="Enter your competing interests..." alt="Enter your competing interests...">Enter your competing interests...</textarea>
+                  </fieldset>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3" class="buttons">
+                  <input type="button" value="Cancel" title="Click to close and cancel" id="btn_cancel"/>
+                  <input type="button" value="Submit" title="Click to post your note publicly" id="btn_post" class="primary"/>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <p>Notes and Corrections can include the following markup tags:</p>
+                  <p><strong>Emphasis:</strong> ''<em>italic</em>''&nbsp;&nbsp;'''<strong>bold</strong>'''&nbsp;&nbsp;'''''<strong><em>bold italic</em></strong>'''''</p>
+                  <p><strong>Other:</strong> ^^<sup>superscript</sup>^^&nbsp;&nbsp;~~<sub>subscript</sub>~~</p>
+                </td>
+              </tr>
+            </table>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <div class="tip" id="dTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialog" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="caTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      Please follow our <a href="/static/commentGuidelines.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">guidelines for notes and comments</a> and review our <a href="/static/competing.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">competing interests policy</a>. Comments that do not conform to our guidelines will be promptly removed and the user account disabled. The following must be avoided:
+      <ul>
+        <li>Remarks that could be interpreted as allegations of misconduct</li>
+        <li>Unsupported assertions or statements</li>
+        <li>Inflammatory or insulting language</li>
+      </ul>
+      <form name="contextActionForm" id="contextActionForm" class="clearfix buttons" method="post" action="">
+        <input type="button" name="Continue" value="Continue" id="ContextActionDialogContinueButton" onmouseup="ambra.displayAnnotationContext.startComment(event);" title="Add a note to this text" class="primary"/>
+        <input type="button" name="Cancel" value="Cancel" id="ContextActionDialogCancelButton" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);" title="Close this Window"/>
+      </form>
+    </div>
+    <div class="tip" id="caTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogNotLogged" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canlTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You must be logged in to add a note to an article.
+      You may log in by <a onmousedown="ambra.displayAnnotationContext.disconnect(event);" href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002729">clicking here</a> or <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">cancel this note</a>.
+    </div>
+    <div class="tip" id="canlTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogBadSelection" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canBDTipu"></div>
+    <div class="contextActionContent">
+      <h5 class="annotation icon"><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You cannot annotate this area of the document. <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">Close</a>
+    </div>
+    <div class="tip" id="canBDTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogBadRangeSelection" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canbrTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You cannot create an annotation that spans different sections of the document; please adjust your selection.<br/>
+      <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">Close</a>
+    </div>
+    <div class="tip" id="canbrTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.RegionalDialog" id="CommentDialog" style="padding:0;margin:0;">
+  <div class="dialog preview">
+    <div class="tipu" id="cTipu"></div>
+    <div class="btn close" id="btn_close" title="Click to close"><a title="Click to close">Close</a></div>
+    <div id="cmtContainer" class="comment">
+      <h6 id="viewCmtTitle"></h6>
+      <div class="detail" id="viewCmtDetail"></div>
+      <div class="contentwrap" id="viewComment"></div>
+      <div class="contentwrap" id="viewCIStatement"></div>
+      <div class="detail" id="viewLink">
+        <!--<a href="#" class="commentary icon" title="Click to view full thread and respond">View all responses</a>
+        <a href="#" class="respond tooltip" title="Click to respond to this posting">Respond to this</a>-->
+      </div>
+    </div>
+    <div class="tip" id="cTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.RegionalDialog" id="CommentDialogMultiple" style="padding:0;margin:0;">
+  <div class="dialog multiple preview">
+    <div class="tipu" id="mTipu"></div>
+    <div class="btn close" id="btn_close_multi" title="Click to close"><a title="Click to close">Close</a></div>
+    <ol id="multilist"></ol>
+    <br/>
+    <div id="multidetail"></div>
+    <div class="tip" id="mTip"></div>
+  </div>
+</div>
+
+
+<div dojoType="dijit.Dialog" id="Rating">
+  <div class="dialog annotate">
+    <div class="tipu" id="dTipu"></div>
+    <div class="comment">
+      <h5><span>Rate This Article</span></h5>
+      <div class="instructions">Please follow our <a  href="/static/ratingGuidelines.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">guidelines for rating</a> and review our <a href="/static/competing.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">competing interests policy</a>. Comments that do not conform to our guidelines will be promptly removed and the user account disabled. The following must be avoided:
+        <ol>
+          <li>Remarks that could be interpreted as allegations of misconduct</li>
+          <li>Unsupported assertions or statements</li>
+          <li>Inflammatory or insulting language</li>
+        </ol>
+      </div>
+      <div class="posting pane">
+        <form name="ratingForm" id="ratingForm" method="post" action="">
+          <input type="hidden" name="articleURI" value="info:doi/10.1371/journal.pcbi.1002729" />  
+          <input type="hidden" name="commentTitle" id="commentTitle" value="" />
+          <input type="hidden" name="comment" id="commentArea" value="" />
+          <input type="hidden" name="ciStatement" id="statementArea" value="" />
+          <input type="hidden" name="isCompetingInterest" id="isCompetingInterest" value="" />
+          <fieldset>
+            <legend>Compose Your Annotation</legend>
+            <span id="submitRatingMsg" class="error" style="display:none;"></span>
+            <table class="layout">
+              <tr>
+                <td rowspan="2">
+                  <label for="insight">Insight</label>
+                  <ul class="star-rating rating edit" title="Rate insight" id="rateInsight">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Bland" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'insight', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Profound" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="insight" title="insight" value="" />
+                  <label for="reliability">Reliability</label>
+                  <ul class="star-rating rating edit" title="Rate reliability" id="rateReliability">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Tenuous" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'reliability', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Unassailable" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="reliability" title="reliability" value="" />
+                  <label for="style">Style</label>
+                  <ul class="star-rating rating edit" title="Rate style" id="rateStyle">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Crude" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'style', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Elegant" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="style" title="style" value="" />
+                  <label for="cTitle"><span class="none">Enter your comment title</span><!-- error message text <em>A title is required for all public annotations</em>--></label>
+                  <input type="text" name="cTitle" id="cTitle" value="Enter your comment title..." class="title" alt="Enter your comment title..." />
+                  <label for="cArea"><span class="none">Enter your comment</span><!-- error message text <em>Please enter your annotation</em>--></label>
+                  <textarea name="cArea" id="cArea" value="Enter your comment..." alt="Enter your comment...">Enter your comment...</textarea>
+                </td>
+                <td rowspan="2">&nbsp;</td>
+                <td class="coi">
+                  <fieldset>
+                    <legend>Declare any competing interests.</legend>
+                    <ul>
+                      <li><label><input id="isCompetingInterestNo" type="radio" name="competingInterest" value="false"  /> No, I don't have any competing interests to declare.</label></li>
+                      <li><label><input id="isCompetingInterestYes" type="radio" name="competingInterest" value="true"  /> Yes, I have competing interests to declare (enter below):</label></li>
+                    </ul>
+                    <textarea name="ciStatementArea" id="ciStatementArea" disabled value="Enter your competing interests..." title="Enter your competing interests...">Enter your competing interests...</textarea>
+                  </fieldset>
+                </td>
+              </tr>
+              <tr>
+                <td class="buttons">
+                  <input type="button" value="Cancel" title="Click to close and cancel" id="btn_cancel_rating"/>
+                  <input type="button" value="Submit" title="Click to post your annotation publicly" id="btn_post_rating" class="primary"/>
+                </td>
+              </tr>
+              <tr>
+                  <td colspan="3"><p>Ratings can include the following markup tags:</p>
+                  <p><strong>Emphasis:</strong> ''<em>italic</em>''&nbsp;&nbsp;'''<strong>bold</strong>'''&nbsp;&nbsp;'''''<strong><em>bold italic</em></strong>'''''</p>
+                  <p><strong>Other:</strong> ^^<sup>superscript</sup>^^&nbsp;&nbsp;~~<sub>subscript</sub>~~</p></td>
+              </tr>
+            </table>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div dojoType="ambra.widget.LoadingCycle" id="LoadingCycle" class="loadingCycler">
+  <img src="/images/loading.gif" width="58" height="58" title="Loading..." />
+</div>
+<div dojoType="dijit.Dialog" id="LightBox">
+
+    <!-- start main window wrapper-->
+    <div class="figure-window-wrapper">
+
+      <!--start film strip Wrapper-->
+      <div class="figure-window-nav-wrapper">
+        <div id="figure-window-nav"></div>
+      </div><!--end figure-window-nav-wrapper-->
+
+      <!-- start figure container-->
+      <div class="figure-window-container">
+
+        <!-- start/end figure viewer-->
+        <div id="figure-window-viewer">
+          <img id="figure-window-img" class="large"/>
+        </div>
+
+        <!-- start/end figure doi-->
+        <div id="figure-window-doi"></div>
+
+        <!--start figure title-box-->
+        <div id="figure-window-title-box" class="figure-window-title-less">
+          <span id="figure-window-title"></span>
+          <div id="figure-window-more" class="figure-window-more" onclick="return ambra.lightBox.showMoreOrLess();"></div>
+          <div id="figure-window-description"></div>
+        </div><!--end figure title-box-->
+
+        <!--start figure download-->
+        <div class="figure-window-download">
+          <ul>
+            <li class="download icon"><strong>Download:</strong>
+              <a id="figure-window-ppt" title="Click to download PowerPoint slide of this image">PowerPoint
+                slide</a> |
+              <a id="figure-window-large" title="Click to download a larger version of this image">larger image
+                (<span id="figure-window-large-size"></span>)</a> |
+              <a id="figure-window-tiff" title="Click to download a original version of this image">original image
+                (<span id="figure-window-tiff-size"></span>)</a>
+            </li>
+          </ul>
+        </div><!--end figure download-->
+
+        <!--start/end of close, context, next and previous button-->
+        <div class="figure-window-close" onclick="return ambra.lightBox.hide();"></div>
+        <div class="figure-window-context" onclick="return ambra.lightBox.showInContext();"></div>
+        <div id="figure-window-previous" onclick="return ambra.lightBox.showPrevious();"></div>
+        <div id="figure-window-next" onclick="return ambra.lightBox.showNext();"></div>
+
+      </div><!--end figure-window-container-->
+
+    </div><!--end figure-window-wrapper-->
+
+</div><!--end dijit.Dialog-->
+</div>
+</div>
+<!-- end : main contents -->
+
+</div>
+<!-- end : container -->	
+
+<!-- begin : footer -->
+<div id="ftr">
+  <p><span>All site content, except where otherwise noted, is licensed under a <a href="http://creativecommons.org/licenses/by/2.5/" title="Creative Commons Attribution License 2.5" tabindex="200">Creative Commons Attribution License</a>.</span></p>
+  <ul>
+    <li><a href="/static/privacy.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" title="PLOS Privacy Statement" tabindex="501">Privacy Statement</a></li>
+    <li><a href="/static/terms.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" title="PLOS Terms of Use" tabindex="502">Terms of Use</a></li>
+    <li><a href="http://www.plos.org/advertise/" title="Advertise With PLOS" tabindex="503">Advertise</a></li>
+    <li><a href="http://www.plos.org/about/media-inquiries/" title="PLOS Embargo Policy" tabindex="504">Media Inquiries</a></li>
+    <li><a href="http://www.plos.org/publish/order-reprints/" title="PLOS in Print" tabindex="505">PLOS in Print</a></li>
+    <li><a href="/static/sitemap.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" title="Site Map" tabindex="506">Site Map</a></li>
+    <li><a href="http://www.plos.org" title="PLOS.org" tabindex="507">PLOS.org</a></li>
+  </ul>
+  <div class="powered">
+  <ul>
+    <li><a href="/static/releaseNotes.action" title="Ambra | Release Notes">Ambra 2.4.9</a></li>
+    <li>Managed Colocation provided by <a href="http://www.isc.org/" title="Internet Systems Consortium">Internet Systems Consortium</a>.</li>
+  </ul>
+  </div>
+</div>
+<!-- end : footer -->
+<script type="text/javascript">
+  var _namespace="";
+    var loggedIn = false;
+
+  var almHost = "http://alm.plos.org";
+  var solrHost = "http://api.plos.org/search";
+  var pubGetHost = "http://pubget.com/widgetizer/links_hash";
+  var appContext = "";
+
+  // Safari v3.1.1 "console.debug" issue (http://trac.dojotoolkit.org/ticket/6849) workaround
+  if (/3[\.0-9]+ Safari/.test(navigator.appVersion)) {
+    window.console = {
+      origConsole: window.console,
+      log: function(s){ this.origConsole.log(s); },
+      info: function(s){ this.origConsole.info(s); },
+      error: function(s){ this.origConsole.error(s); },
+      warn: function(s){ this.origConsole.warn(s); }
+    };
+  }
+
+  var djConfig = {
+    // don't debug for IE - as dojo's firebug lite module is error prone in IE
+    isDebug: false,
+    parseOnLoad: true
+  };
+
+  var bamGAID = 'UA-338393-1';
+  var bamGAVPV = location.pathname + location.search + location.hash;
+</script>
+<script type="text/javascript" src="/javascript/dojo/dojo/dojo.js?v=pzlwVCPPo+oJC12upPgJrJ5EG_k"></script>
+<script type="text/javascript" src="/javascript/dojo/dojo/ambra.js?v=Y8JM0CVD9YwjC99M_jvbcRTiGhY"></script>
+<script type="text/javascript" src="/javascript/init_global.js?v=fF03pfG3r+Nkj_czZ8ORg8o5sNM"></script>
+<script type="text/javascript" src="/javascript/init_article.js?v=qzBD_a7nKbeMM2xNUtB3vckN+Zc"></script>
+<script type="text/javascript" src="/javascript/init_ratings.js?v=seKykuS0X33CQGS7Lj+8FtBy5Uw"></script>
+<script type="text/javascript" src="/javascript/init_lightBox.js?v=vJRLPy7RRX8Zp31Ogcm3i+TA4f8"></script>
+<script type="text/javascript" src="/javascript/init_article_body.js?v=YgFei2xCi50CahwaPbSsxUxUsmw"></script>
+<script type="text/javascript" src="/javascript/init_article_rhc.js?v=djtbTMOagorKE6ZPrkCwufAfWWI"></script>
+<script type="text/javascript" src="/javascript/alm.js?v=1tH9JZ8uDtXspXssGJDr8O+jBOs"></script>
+<script type="text/javascript" src="/javascript/reporting/articleViewsCumulative.js?v=RQ+gCrcAl0dBeLbmokxgQZTGYYA"></script>
+<script type="text/javascript" src="/javascript/check_twitter.js?v=Hc0sH1W9xIu0qhqxWPD4c1u50K4"></script>
+<script type="text/javascript" src="/javascript/init_googleAnalytics.js?v=yCD4h9PHGI0dsefmuWDlMn7pHog"></script>
+
+</body>
+</html>
+

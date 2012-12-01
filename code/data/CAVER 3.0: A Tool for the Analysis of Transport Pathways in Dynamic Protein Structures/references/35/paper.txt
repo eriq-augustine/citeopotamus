@@ -1,0 +1,4 @@
+HOLE: a program for the analysis of the pore dimensions of ion channel structural models.
+Smart OS, Neduvelil JG, Wang X, Wallace BA, Sansom MS
+Abstract:
+A method (HOLE) that allows the analysis of the dimensions of the pore running through a structural model of an ion channel is presented. The algorithm uses a Monte Carlo simulated annealing procedure to find the best route for a sphere with variable radius to squeeze through the channel. Results can be displayed in a graphical fashion or visualized with most common molecular graphical packages. Advances include a method to analyze the anisotropy within a pore. The method can also be used to predict the conductance of channels using a simple empirically corrected ohmic model. As an example the program is applied to the cholera toxin B-subunit pentamer. The compatibility of the crystal structure and conductance data is established.

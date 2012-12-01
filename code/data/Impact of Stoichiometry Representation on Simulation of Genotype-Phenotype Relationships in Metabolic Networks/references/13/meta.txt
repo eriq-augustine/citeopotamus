@@ -1,0 +1,6 @@
+TITLE: Improved vanillin production in baker's yeast through in silico design.
+AUTHORS: Brochado AR, Matos C, Møller BL, Hansen J, Mortensen UH, Patil KR
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

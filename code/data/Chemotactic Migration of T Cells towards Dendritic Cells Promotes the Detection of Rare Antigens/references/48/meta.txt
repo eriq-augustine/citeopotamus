@@ -1,0 +1,6 @@
+TITLE: Modeling lymphocyte homing and encounters in lymph nodes.
+AUTHORS: Baldazzi V, Paci P, Bernaschi M, Castiglione F
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

@@ -1,0 +1,1385 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:dc="http://purl.org/dc/terms/"
+      xmlns:doi="http://dx.doi.org/"
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes#"
+      lang="en" xml:lang="en"
+      itemscope itemtype="http://schema.org/Article">
+
+<head>
+   <title>PLOS Computational Biology: Comparative Analysis of RNA Families Reveals Distinct Repertoires for Each Domain of Life</title>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9" />
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+<link rel="home" title="home" href="/home.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8" />
+<link rel="alternate" type="application/rss+xml"
+  title="PLOS Computational Biology: New Articles"
+  href="http://www.ploscompbiol.org/article/feed" />
+
+<link rel="pingback" href="http://www.ploscompbiol.org/pingback" />
+
+
+<!-- global_css.ftl -->
+<link rel="stylesheet" type="text/css" media="screen" href="/css/dojo/dijit/themes/tundra/tundra.css?v=zwugcxLdpBWmb72qqlHgGyeNAGM" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/star_rating.css?v=Mm3HyaUPUahAJAq6xG5W3tdF7Hk" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/rating.css?v=AOT9rozE9sYVjGTdeiyxHf18Ykw" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/screen.css?v=KBNFqBmhD635U0NgiM5tf9dtxRE" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/iepc.css?v=FIjyR83BhSovq_5yNVk1Sih60AI" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/journal.css?v=SiREXztjNSUsOyrlkE9sv028Y+0" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/lightBox.css?v=sDgsUXamFoYAakEshdj0YWrZiiQ" />
+<link rel="stylesheet" type="text/css" media="print" href="/css/print.css?v=0T+LTV7Gd0jtHEhqEvBfSrmHUGg" />
+
+<!--chartbeat --> 
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+
+
+<!--[if IE]><![endif]-->
+<meta name="description" content="PLOS Computational Biology is an open-access" />
+
+<meta name="keywords" content="plos computational biology" />
+
+  <meta name="citation_publisher" content="Public Library of Science" />
+  <meta name="citation_doi" content="10.1371/journal.pcbi.1002752" />
+    <meta name="citation_title" content="Comparative Analysis of RNA Families Reveals Distinct Repertoires for Each Domain of Life"/>
+    <meta itemprop="name" content="Comparative Analysis of RNA Families Reveals Distinct Repertoires for Each Domain of Life"/>
+
+      <meta name="citation_author" content="Marc P. Hoeppner" />
+          <meta name="citation_author_institution" content="Science for Life Laboratory, Department of Medical Biochemistry and Microbiology, Uppsala University, Uppsala, Sweden" />
+      <meta name="citation_author" content="Paul P. Gardner" />
+          <meta name="citation_author_institution" content="Biomolecular Interaction Centre & School of Biological Sciences, University of Canterbury, Christchurch, New Zealand" />
+      <meta name="citation_author" content="Anthony M. Poole" />
+          <meta name="citation_author_institution" content="Biomolecular Interaction Centre & School of Biological Sciences, University of Canterbury, Christchurch, New Zealand" />
+
+    <meta name="citation_date" content="2012/11/1"/>
+
+  <meta name="citation_pdf_url" content="http://dx.plos.org/10.1371/journal.pcbi.1002752.pdf" />
+
+    <meta name="citation_journal_title" content="PLOS Computational Biology" />
+    <meta name="citation_firstpage" content="e1002752"/>
+    <meta name="citation_issue" content="11"/>
+    <meta name="citation_volume" content="8"/>
+    <meta name="citation_issn" content="1553-7358"/>
+
+    <meta name="citation_journal_abbrev" content="PLoS Comput Biol" />
+
+      <meta name="citation_reference" content="citation_title=The role of the nucleic acid in the reconstitution of active Tobacco Mosaic Virus; citation_volume=78; citation_number=1; citation_pages=882-883; citation_date=1956; " />
+      <meta name="citation_reference" content="citation_title=Infectivity of ribonucleic acid from Tobacco Mosaic Virus; citation_volume=177; citation_number=2; citation_pages=702-703; citation_date=1956; " />
+      <meta name="citation_reference" content="citation_title=Potato spindle tuber “virus”. IV. A replicating, low molecular weight RNA; citation_volume=45; citation_number=3; citation_pages=411-428; citation_date=1971; " />
+      <meta name="citation_reference" content="citation_title=Self-splicing RNA: autoexcision and autocyclization of the ribosomal RNA intervening sequence of Tetrahymena; citation_volume=31; citation_number=4; citation_pages=147-157; citation_date=1982; " />
+      <meta name="citation_reference" content="citation_title=The RNA moiety of ribonuclease P is the catalytic subunit of the enzyme; citation_volume=35; citation_number=5; citation_pages=849-857; citation_date=1983; " />
+      <meta name="citation_reference" content="citation_title=Evolution of the genetic apparatus; citation_volume=38; citation_number=6; citation_pages=381-393; citation_date=1968; " />
+      <meta name="citation_reference" content="citation_title=The origin of the genetic code; citation_volume=38; citation_number=7; citation_pages=367-379; citation_date=1968; " />
+      <meta name="citation_reference" content="citation_title=The RNA world; citation_volume=319; citation_number=8; citation_pages=618; citation_date=1986; " />
+      <meta name="citation_reference" content="citation_title=Forty years of in vitro evolution; citation_volume=46; citation_number=9; citation_pages=6420-6436; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Ribozyme catalysis of metabolism in the RNA world; citation_volume=4; citation_number=10; citation_pages=633-655; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Riboswitches and the RNA World; citation_number=11; citation_pages=10.1101/cshperspect.a003566; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Crawling out of the RNA world; citation_volume=136; citation_number=12; citation_pages=599-602; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Non-coding RNA genes and the modern RNA world; citation_volume=2; citation_number=13; citation_pages=919-929; citation_date=2001; " />
+      <meta name="citation_reference" content="citation_title=The modern RNP world of eukaryotes; citation_volume=100; citation_number=14; citation_pages=597-604; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=The eukaryotic genome as an RNA machine; citation_volume=319; citation_number=15; citation_pages=1787-1789; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Modern metabolism as a palimpsest of the RNA world; citation_volume=86; citation_number=16; citation_pages=7054-7058; citation_date=1989; " />
+      <meta name="citation_reference" content="citation_title=Relics from the RNA world; citation_volume=46; citation_number=17; citation_pages=18-36; citation_date=1998; " />
+      <meta name="citation_reference" content="citation_title=Primordial Genetics: Phenotype of the Ribocyte; citation_volume=36; citation_number=18; citation_pages=125-151; citation_date=2002; " />
+      <meta name="citation_reference" content="citation_title=Exploring genomic dark matter: a critical assessment of the performance of homology search methods on noncoding RNA; citation_volume=17; citation_number=19; citation_pages=117-125; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=The evolution of controlled multitasked gene networks: the role of introns and other noncoding RNAs in the development of complex organisms; citation_volume=18; citation_number=20; citation_pages=1611-1630; citation_date=2001; " />
+      <meta name="citation_reference" content="citation_title=The genetic core of the universal ancestor; citation_volume=13; citation_number=21; citation_pages=407-412; citation_date=2003; " />
+      <meta name="citation_reference" content="citation_title=Evolution of the protein repertoire; citation_volume=300; citation_number=22; citation_pages=1701-1703; citation_date=2003; " />
+      <meta name="citation_reference" content="citation_title=Reductive evolution of architectural repertoires in proteomes and the birth of the tripartite world; citation_volume=17; citation_number=23; citation_pages=1572-1585; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Origins of genes: “big bang” or continuous creation?; citation_volume=89; citation_number=24; citation_pages=9489-9493; citation_date=1992; " />
+      <meta name="citation_reference" content="citation_title=Evolution of protein structural classes and protein sequence families; citation_volume=103; citation_number=25; citation_pages=14056-14061; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=The nature of the last universal common ancestor; citation_volume=9; citation_number=26; citation_pages=672-677; citation_date=1999; " />
+      <meta name="citation_reference" content="citation_title=An Overview of the Introns-First Theory; citation_volume=69; citation_number=27; citation_pages=527-40; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Comparative genomics of eukaryotic small nucleolar RNAs reveals deep evolutionary ancestry amidst ongoing intragenomic mobility; citation_volume=12; citation_number=28; citation_pages=183; citation_date=2012; " />
+      <meta name="citation_reference" content="citation_title=Evolution of genes and organisms: the tree/web of life in light of horizontal gene transfer; citation_volume=1178; citation_number=29; citation_pages=137-145; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Search for a ‘Tree of Life’ in the thicket of the phylogenetic forest; citation_volume=8; citation_number=30; citation_pages=59; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Prokaryotic evolution and the tree of life are two different things; citation_volume=4; citation_number=31; citation_pages=34; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=The path from the RNA world; citation_volume=46; citation_number=32; citation_pages=1-17; citation_date=1998; " />
+      <meta name="citation_reference" content="citation_title=The RNA dreamtime: modern cells feature proteins that might have supported a prebiotic polypeptide world but nothing indicates that RNA world ever was; citation_volume=32; citation_number=33; citation_pages=866-871; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Rfam: Wikipedia, clans and the “decimal” release; citation_volume=39; citation_number=34; citation_pages=D141-145; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Infernal 1.0: inference of RNA alignments; citation_volume=25; citation_number=35; citation_pages=1335-1337; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=On the evolution of cells; citation_volume=99; citation_number=36; citation_pages=8742-8747; citation_date=2002; " />
+      <meta name="citation_reference" content="citation_title=The comparative RNA web (CRW) site: an online database of comparative sequence and structure information for ribosomal, intron, and other RNAs; citation_volume=3; citation_number=37; citation_pages=2; citation_date=2002; " />
+      <meta name="citation_reference" content="citation_title=SILVA: a comprehensive online resource for quality checked and aligned ribosomal RNA sequence data compatible with ARB; citation_volume=35; citation_number=38; citation_pages=7188-7196; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Vitamin B1 biosynthesis in plants requires the essential iron sulfur cluster protein, THIC; citation_volume=104; citation_number=39; citation_pages=19637-19642; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=AtTHIC, a gene involved in thiamine biosynthesis in Arabidopsis thaliana; citation_volume=18; citation_number=40; citation_pages=566-576; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Metabolite-binding RNA domains are present in the genes of eukaryotes; citation_volume=9; citation_number=41; citation_pages=644-647; citation_date=2003; " />
+      <meta name="citation_reference" content="citation_title=Differential usage of two in-frame translational start codons regulates subcellular localization of Arabidopsis thaliana THI1; citation_volume=116; citation_number=42; citation_pages=285-291; citation_date=2003; " />
+      <meta name="citation_reference" content="citation_title=CRISPR/Cas and Cmr modules, mobility and evolution of adaptive immune systems; citation_volume=162; citation_number=43; citation_pages=27-38; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=A guild of 45 CRISPR-associated (Cas) protein families and multiple CRISPR/Cas subtypes exist in prokaryotic genomes; citation_volume=1; citation_number=44; citation_pages=e60; citation_date=2005; " />
+      <meta name="citation_reference" content="citation_title=A genome phylogeny for mitochondria among alpha-proteobacteria and a predominantly eubacterial ancestry of yeast nuclear genes; citation_volume=21; citation_number=45; citation_pages=1643-1660; citation_date=2004; " />
+      <meta name="citation_reference" content="citation_title=Evolutionary analysis of Arabidopsis, cyanobacterial, and chloroplast genomes reveals plastid phylogeny and thousands of cyanobacterial genes in the nucleus; citation_volume=99; citation_number=46; citation_pages=12246-12251; citation_date=2002; " />
+      <meta name="citation_reference" content="citation_title=Identification of 86 candidates for small non-messenger RNAs from the archaeon Archaeoglobus fulgidus; citation_volume=99; citation_number=47; citation_pages=7536-7541; citation_date=2002; " />
+      <meta name="citation_reference" content="citation_title=Combined in silico and experimental identification of the Pyrococcus abyssi H/ACA sRNAs and their target sites in ribosomal RNAs; citation_volume=36; citation_number=48; citation_pages=2459-2475; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=SnoPatrol: how many snoRNA genes are there?; citation_volume=9; citation_number=49; citation_pages=4; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Archaeal homologs of eukaryotic methylation guide small nucleolar RNAs: lessons from the Pyrococcus genomes; citation_volume=297; citation_number=50; citation_pages=895-906; citation_date=2000; " />
+      <meta name="citation_reference" content="citation_title=Homologs of small nucleolar RNAs in Archaea; citation_volume=288; citation_number=51; citation_pages=517-522; citation_date=2000; " />
+      <meta name="citation_reference" content="citation_title=Computational screen for spliceosomal RNA genes aids in defining the phylogenetic distribution of major and minor spliceosomal components; citation_volume=36; citation_number=52; citation_pages=3001-3010; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=An early evolutionary origin for the minor spliceosome; citation_volume=443; citation_number=53; citation_pages=863-866; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=Complex spliceosomal organization ancestral to extant eukaryotes; citation_volume=22; citation_number=54; citation_pages=1053-1066; citation_date=2005; " />
+      <meta name="citation_reference" content="citation_title=Origins and evolution of eukaryotic RNA interference; citation_volume=23; citation_number=55; citation_pages=578-587; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=A phylogeny-driven genomic encyclopaedia of Bacteria and Archaea; citation_volume=462; citation_number=56; citation_pages=1056-1060; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Comparative genomics and evolution of proteins involved in RNA metabolism; citation_volume=30; citation_number=57; citation_pages=1427-1464; citation_date=2002; " />
+      <meta name="citation_reference" content="citation_title=The archaebacterial origin of eukaryotes; citation_volume=105; citation_number=58; citation_pages=20356-20361; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=The origin of eukaryotes and their relationship with the Archaea: are we at a phylogenomic impasse?; citation_volume=8; citation_number=59; citation_pages=743-752; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Petabyte-scale innovations at the European Nucleotide Archive; citation_volume=37; citation_number=60; citation_pages=D19-25; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Mesophilic Crenarchaeota: proposal for a third archaeal phylum, the Thaumarchaeota; citation_volume=6; citation_number=61; citation_pages=245-252; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=The new higher level classification of eukaryotes with emphasis on the taxonomy of protists; citation_volume=52; citation_number=62; citation_pages=399-451; citation_date=2005; " />
+      <meta name="citation_reference" content="citation_title=CLANS: a Java application for visualizing protein families based on pairwise similarity; citation_volume=20; citation_number=63; citation_pages=3702-3704; citation_date=2004; " />
+      <meta name="citation_reference" content="citation_title=An efficient algorithm for large-scale detection of protein families; citation_volume=30; citation_number=64; citation_pages=1575-1584; citation_date=2002; " />
+      <meta name="citation_reference" content="citation_title=MSAProbs: multiple sequence alignment based on pair hidden Markov models and partition function posterior probabilities; citation_volume=26; citation_number=65; citation_pages=1958-1964; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Selection of conserved blocks from multiple alignments for their use in phylogenetic analysis; citation_volume=17; citation_number=66; citation_pages=540-552; citation_date=2000; " />
+      <meta name="citation_reference" content="citation_title=ProtTest: selection of best-fit models of protein evolution; citation_volume=21; citation_number=67; citation_pages=2104-2105; citation_date=2005; " />
+      <meta name="citation_reference" content="citation_title=A simple, fast, and accurate algorithm to estimate large phylogenies by maximum likelihood; citation_volume=52; citation_number=68; citation_pages=696-704; citation_date=2003; " />
+      <meta name="citation_reference" content="citation_title=RAxML-VI-HPC: maximum likelihood-based phylogenetic analyses with thousands of taxa and mixed models; citation_volume=22; citation_number=69; citation_pages=2688-2690; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=BIONJ: an improved version of the NJ algorithm based on a simple model of sequence data; citation_volume=14; citation_number=70; citation_pages=685-695; citation_date=1997; " />
+      <meta name="citation_reference" content="citation_title=Dendroscope: An interactive viewer for large phylogenetic trees; citation_volume=8; citation_number=71; citation_pages=460; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=The enigma of ribonuclease P evolution; citation_volume=19; citation_number=72; citation_pages=561-569; citation_date=2003; " />
+      <meta name="citation_reference" content="citation_title=Molecular Evolution of Aminoacyl tRNA Synthetase Proteins in the Early History of Life; citation_volume=41; citation_number=73; citation_pages=621-32; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Sequence homologies between eukaryotic 5.8S rRNA and the 5′ end of prokaryotic 23S rRNa: evidences for a common evolutionary origin; citation_volume=9; citation_number=74; citation_pages=2913-2932; citation_date=1981; " />
+      <meta name="citation_reference" content="citation_title=The function and synthesis of ribosomes; citation_volume=2; citation_number=75; citation_pages=514-520; citation_date=2001; " />
+
+
+
+<!--
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002752">
+   <license rdf:resource="http://creativecommons.org/licenses/by/2.5/" />
+</Work>
+<License rdf:about="http://creativecommons.org/licenses/by/2.5/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+</License>
+<rdf:Description
+     rdf:about="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002752"
+     dc:identifier="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002752"
+     dc:title="PLOS Computational Biology: Comparative Analysis of RNA Families Reveals Distinct Repertoires for Each Domain of Life"
+       trackback:ping="http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002752/trackback;jsessionid=FDFB9D19754D21ECCB18B721604D97C8"
+     />
+</rdf:RDF>
+
+-->
+</head>
+<body>
+<span property="dc:language" content="en"></span>
+<!-- begin : container -->
+<div id="container">
+  <!-- begin : top banner external ad space -->
+  <div id="topBanner">
+
+
+<!-- begin : left banner slot -->
+<div class="left">
+  <iframe id='affe494b' name='affe494b'
+    src='http://ads.plos.org/www/delivery/afr.php?zoneid=84&amp;cb=612'
+    frameborder='0' scrolling='no' width='468' height='60'><a
+    href='http://ads.plos.org/www/delivery/ck.php?n=affe494b&amp;cb=1241'
+    target='_top'><img src='http://ads.plos.org/www/delivery/avw.php?zoneid=84&amp;cb=8488&amp;n=affe494b'
+    border='0' alt='' /></a></iframe>
+</div>
+<!-- end : left banner slot -->
+<!-- begin : right banner slot -->
+<div class="right">
+  <iframe id='af654bd5' name='af654bd5'
+    src='http://ads.plos.org/www/delivery/afr.php?zoneid=85&amp;cb=6030'
+    frameborder='0' scrolling='no' width='468' height='60'><a
+    href='http://ads.plos.org/www/delivery/ck.php?n=af654bd5&amp;cb=7808'
+    target='_top'><img src='http://ads.plos.org/www/delivery/avw.php?zoneid=85&amp;cb=7664&amp;n=af654bd5'
+    border='0' alt='' /></a></iframe>
+</div>
+<!-- end : right banner slot -->
+
+  </div>
+  <!-- end : top banner external ad space -->
+
+  <!-- begin : header -->
+  <div id="hdr" class="login">
+
+  <!-- begin : logo -->
+  <div id="logo" title="PLOS Computational Biology"><a href="/home.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8" title="PLOS Computational Biology"><span>PLOS Computational Biology</span></a></div>
+  <!-- end : logo -->
+  <!-- begin : user controls -->
+
+
+
+
+
+  <div id="user">
+    <div>
+      <ul>
+        <li><a href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002752" class="feedback"><strong>Login</strong></a> | </li>
+        <li><a href="https://register.plos.org:443/ambra-registration/register.action">Create Account</a> | </li>
+        <li class="feedback"><a href="/feedbackCreate.action?page=%252Farticle%252FfetchArticle.action%253FarticleURI%253Dinfo%25253Adoi%25252F10.1371%25252Fjournal.pcbi.1002752" title="Send us your feedback">Feedback</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <!-- end : user controls -->
+  <!-- begin search links -->
+  <ul id="links"><li class="browse"><a href="/article/browse.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8?field=date" title="Browse Articles">Browse</a></li><li class="rss"><a href="/static/rssFeeds.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8" title="RSS Feeds">RSS</a></li></ul>
+  <!-- end : search links -->
+  <!-- begin : dashboard -->
+  <div id="db">
+    <form name="searchForm" action="/search/simpleSearch.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8" method="get">
+      <input type="hidden" name="from" value="globalSimpleSearch"/>
+      <input type="hidden" name="filterJournals" value="PLoSCompBiol">
+      <fieldset>
+        <legend>Search</legend>
+        <label for="search">Search</label>
+        <div class="wrap"><input id="search" type="text" name="query" value="Search articles..." onfocus="if(this.value=='Search articles...')value='';" onblur="if(this.value=='')value='Search articles...';" class="searchField" alt="Search articles..."/></div>
+        <input src="/images/search_btn1.gif" onclick="submit();" value="ftsearch" alt="SEARCH" tabindex="3" class="button" type="image" />
+      </fieldset>
+    </form>
+    <form name="gasf" action="/search/advancedSearch.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8" method="get">
+<input type="hidden" name="noSearchFlag" value="true" id="noSearchFlag"/><input type="hidden" name="query" value="" id="query"/>    </form>
+    <a id="advSearch" href="#" onclick="if(document.searchForm.query.value!='Search articles...')document.gasf.query.value=document.searchForm.query.value;document.gasf.submit();return false;">Advanced Search</a>
+  </div>
+  <!-- end : dashboard -->
+  <!-- begin : navigation -->
+  <ul id="nav">
+    <li><a href="/home.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8" tabindex="101">Home</a></li>
+     <!-- This is a temporary action to link to th static toc page -->
+    <li><a href="/static/browse.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8" tabindex="102">Browse Articles</a>
+        <ul>
+          <li><a href="/article/browseIssue.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8?field=issue">Current Issue</a></li> <!-- Assuming dynamic TOC is in place -->
+          <li><a href="/article/browseVolume.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8?field=volume">Journal Archive</a></li> 
+          <li><a href="/article/browse.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8?field=date">By Publication Date</a></li>
+          <li><a href="/article/browse.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8">By Subject</a></li>
+          <li><a href="http://www.ploscollections.org/static/pcbiCollections.action">Collections</a></li>
+        </ul>
+    </li>
+    <li><a href="/static/about.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8" tabindex="103">About</a>
+        <ul>
+          <li><a href="/static/information.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8">Journal Information</a></li>
+          <li><a href="/static/edboard.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8">Editorial Board</a></li>
+          <li><a href="/static/eic.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8">Editors-in-Chief</a></li>
+          <li><a href="/static/almInfo.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8">Article-Level Metrics</a></li>
+          <li><a href="/static/license.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8">Open-Access License</a></li>
+          <li><a href="/static/contact.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8">Contact Us</a></li>
+        </ul>
+      </li>
+    <li><a href="/static/users.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8" tabindex="104">For Readers</a>
+        <ul>
+          <li><a href="/static/commentGuidelines.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8">Guidelines for Notes, Comments, and Corrections</a></li>
+          <li><a href="/static/ratingGuidelines.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8">Guidelines for Rating</a></li>
+          <li><a href="/static/help.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8">Help Using This Site</a></li>
+          <li><a href="/static/downloads.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8">Media Downloads</a></li>
+          <li><a href="/static/sitemap.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8">Site Map</a></li>
+        </ul>
+      </li>
+    <li><a href="/static/authors.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8" tabindex="105">For Authors and Reviewers</a>
+        <ul>
+          <li><a href="/static/policies.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8">Editorial and Publishing Policies</a></li>
+          <li><a href="/static/guidelines.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8">Author Guidelines</a></li>
+          <li><a href="/static/figureGuidelines.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8">Figure and Table Guidelines</a></li>
+          <li><a href="/static/checklist.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8">Submit Your Paper</a></li>
+          <li><a href="/static/reviewerGuidelines.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8">Reviewer Guidelines</a></li>
+	   <li><a href="http://www.plos.org/journals/index.php">Submit to Other PLOS Journals</a></li>
+        </ul>
+      </li>
+      <li class="journalnav"><a href="http://www.plos.org" title="PLOS" tabindex="110" class="drop">PLOS.org</a>
+        <ul>
+          <li><a href="http://www.plos.org/oa/index.html" title="Open Access Statement">Open Access</a></li>
+          <li><a href="http://www.plos.org/support/donate.php" title="Join PLOS: Show Your Support">Join PLOS</a></li>
+          <li><a href="http://blogs.plos.org/" title="PLOS Blogs">PLOS Blogs</a></li>
+	  <li><a href="http://www.zazzle.com/plos?rf=238434112415374154" title="PLOS Store">PLOS Store</a></li>
+          <li><a href="http://currents.plos.org" title="PLOS Currents">PLOS Currents</a></li>
+          <li><a href="http://www.plos.org/connect.html" title="PLOS.org | Stay Connected">Stay Connected</a></li>
+        </ul>
+      </li>
+      <li class="journalnav"><a href="http://hubs.plos.org" tabindex="109">Hubs</a>
+        <ul>
+          <li><a href="http://hubs.plos.org/biodiversity" title="PLOS Hubs: Biodiversity">Biodiversity</a></li>
+          <li><a href="http://clinicaltrials.ploshubs.org" title="PLOS Hub for Clinical Trials">Clinical Trials</a></li>
+        </ul>
+    </li>
+      <li class="journalnav"><a href="http://www.plosjournals.org" tabindex="108">Journals</a>
+        <ul>
+          <li><a href="http://www.plosbiology.org/" title="PLOSBiology.org">PLOS Biology</a></li>
+          <li><a href="http://www.plosmedicine.org/" title="PLOSMedicine.org">PLOS Medicine</a></li>
+          <li><a href="http://www.ploscompbiol.org/" title="PLOSCompBiol.org">PLOS Computational Biology</a></li>
+          <li><a href="http://www.plosgenetics.org/" title="PLOSGenetics.org">PLOS Genetics</a></li>
+          <li><a href="http://www.plospathogens.org/" title="PLOSPathogens.org">PLOS Pathogens</a></li>
+          <li><a href="http://www.plosone.org/" title="PLOSONE.org">PLOS ONE</a></li>
+          <li><a href="http://www.plosntds.org/" title="PLOSNTDs.org">PLOS Neglected Tropical Diseases</a></li>
+        </ul>
+      </li>
+    </ul>
+  <!-- end : navigation -->
+  </div>
+  <!-- end : header --> 
+
+
+
+<!-- begin : main content -->
+<div id="content" class="article" style="visibility:visible;">
+
+<!-- begin : right hand column -->
+
+<div id="rhc" xpathLocation="noDialog">
+
+  <div id="download" class="rhcBox_type1">
+    <div class="wrap">
+      <ul>
+        <li class="download icon"><strong>Download:</strong>
+          <a href="/article/fetchObjectAttachment.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8?uri=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002752&amp;representation=PDF" title="Download article PDF">PDF</a> |
+          <a href="/article/citationList.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002752" title="Download citations">Citation</a> |
+          <a href="/article/fetchObjectAttachment.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8?uri=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002752&amp;representation=XML" title="Download Article XML">XML</a>
+        </li>
+        <li class="print icon"><a href="#" onclick="window.print();return false;" title="Print Article"><strong>Print article</strong></a></li>
+        <li class="reprint icon"><a href="https://www.odysseypress.com/onlinehost/reprint_order.php?type=A&page=0&journal=3&doi=10.1371/journal.pcbi.1002752&volume=&issue=&title=Comparative Analysis of RNA Families Reveals Distinct Repertoires for Each Domain of Life&author_name=Marc%20P.%20Hoeppner%2C%20Paul%20P.%20Gardner%2C%20Anthony%20M.%20Poole&start_page=1&end_page=8" title="Odyssey Press">EzReprint</a> New &amp; improved!</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="issues" class="rhcBox_type2">
+    <p><strong>Published in the</strong>
+    <a href="http://www.ploscompbiol.org/article/browseIssue.action?issue=info%3Adoi%2F10.1371%2Fissue.pcbi.v08.i11" title="Browse the Open-Access Issue">November 2012 Issue of <em>PLOS Computational Biology</em></a></p>
+  </div>
+
+  <div id="impact" class="rhcBox_type2">
+    <h6>Metrics <a href="/static/help.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8#articleMetrics" class="replaced" id="info" title="More information"><span>info</span></a></h6>
+
+    <div class="wrap">
+      <img id="rhcDataSpinner" src="/images/loading_small.gif" class="loading" />
+      <div id="totalDataInRHC"></div>
+      <div id="pubDateInRHC"></div>
+      <div id="relatedCitesInRHC"></div>
+    </div>
+
+    <div class="more clearfix"><a href="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002752;jsessionid=FDFB9D19754D21ECCB18B721604D97C8" title="More information">More</a></div>
+  </div>
+
+  <div id="related" class="rhcBox_type2">
+    <h6>Related Content</h6>
+    <dl class="related">
+      <dt>Related Articles on the Web</dt>
+      <dd><a href="http://scholar.google.com/scholar?hl=en&lr=&q=related:http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002752&btnG=Search">Google Scholar</a></dd>
+      <dd id="pubMedRelatedLIInRHC" style="display:none;"><a id="pubMedRelatedURLInRHC">PubMed</a></dd>
+    </dl>
+    <div class="more clearfix"><a href="/article/related/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002752;jsessionid=FDFB9D19754D21ECCB18B721604D97C8" title="More information">More</a></div>
+  </div>
+
+  <div id="share" class="rhcBox_type2">
+    <h6>Share this Article <a href="/static/help.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8#socialBookmarkLinks" class="replaced" id="info" title="More information"><span>info</span></a></h6>
+    <ul>
+      <li class="bookmarklets">
+
+        <a href="http://www.reddit.com/submit?url=http://dx.plos.org/10.1371/journal.pcbi.1002752"
+           target="_new"
+           id="reddit">
+          <img src="http://www.reddit.com/static/spreddit4.gif" alt="submit to reddit" border="0"/> </a>
+        <g:plusone size="small" annotation="none" href=http://dx.plos.org/10.1371/journal.pcbi.1002752></g:plusone>
+        <script type="text/javascript">
+          (function () {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+          })();
+        </script>
+        <a href="http://www.stumbleupon.com/submit?url=http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002752" target="_new"> <img border=0 src="http://cdn.stumble-upon.com/images/16x16_su_solid.gif" alt="StumbleUpon" title="Add to StumbleUpon"></a>
+        <script>function fbs_click() {u='http://dx.plos.org/10.1371/journal.pcbi.1002752';t='Comparative%20Analysis%20of%20RNA%20Families%20Reveals%20Distinct%20Repertoires%20for%20Each%20Domain%20of%20Life';window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436');return false;}</script><a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002752" onclick="return fbs_click()" target="_blank"><img src="http://static.ak.fbcdn.net/images/share/facebook_share_icon.gif" alt="Facebook" title="Add to Facebook" /></a>       <!-- for mor info, see http://www.facebook.com/share_partners.php -->
+        <script type="text/javascript">
+          function bookmark_in_connotea(u) {
+            a=false; x=window; e=x.encodeURIComponent; d=document;
+            w=open('http://www.connotea.org/addpopup?continue=confirm&uri='+e(u),
+                'add', 'width=600, height=400, scrollbars, resizable');
+            void(x.setTimeout('w.focus()',200));
+          }
+        </script>
+        <a style='cursor: pointer;' onclick='javascript:bookmark_in_connotea("http://dx.plos.org/10.1371/journal.pcbi.1002752");'><img src='/images/icon_connotea_16x16.gif' alt="Connotea" title="Add to Connotea"/></a>
+        <a href="http://www.citeulike.org/posturl?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002752&title=Comparative%20Analysis%20of%20RNA%20Families%20Reveals%20Distinct%20Repertoires%20for%20Each%20Domain%20of%20Life" target="_new"><img src='/images/icon_citeulike_16x16.gif' alt="CiteULike" title="Add to CiteULike" /></a>
+        <a href="http://www.mendeley.com/import/?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002752" title="Add to Mendeley" target="_new"><img src="/images/icon_mendeley_16x16.gif" alt="Bibliography"></a>
+        <script type="text/javascript">
+          var twtTitle  = 'Comparative Analysis of RNA Families Reveals Distinct Repertoires for Each Domain of Life';
+          var twtUrl    = 'http://dx.plos.org/10.1371/journal.pcbi.1002752';
+          var twtTag    = '#PLOSCompBio:'
+          var maxLength = 140 - (twtUrl.length + 1);
+          if (twtTitle.length > maxLength) {
+            twtTitle = twtTitle.substr(0, (maxLength - 17))+'...';  //truncates title to include space for twtTag and ellipsis
+          }
+          var twtLink = 'http://twitter.com/intent/tweet?text='+encodeURIComponent(twtTag + ' ' + twtTitle + ' ' + twtUrl);
+          document.write('<a href="'+twtLink+'" target="_blank"><img src="/images/icon_twitter.gif" border="0" alt="Twitter icon" title="Tweet This!" /></a>');
+        </script>
+
+      </li>
+      <li class="email icon"><a href="/article/emailArticle.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002752" title="Email this article">Email this article</a></li>
+    </ul>
+  </div>
+  <div id="articleTwitterStream" style="display:none">
+    <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script>
+      new TWTR.Widget({
+        version: 2,
+        type: 'search',
+        search: encodeURIComponent('10.1371/journal.pcbi.1002752'),
+        interval: 6000,
+        title: '',
+        subject: 'From Twitter',
+        width: 300,
+        height: 300,
+        theme: {
+          shell: {
+            background: '#667893',
+            color: '#ffffff'
+          },
+          tweets: {
+            background: '#ffffff',
+            color: '#444444',
+            links: '#006699'
+          }
+        },
+        features: {
+          scrollbar: true,
+          loop: false,
+          live: true,
+          hashtags: true,
+          timestamp: true,
+          avatars: true,
+          toptweets: true,
+          behavior: 'all'
+        }
+      }).render().start();
+    </script>
+  </div>
+</div>
+<!-- end : right hand column -->
+<form name="articleInfo" id="articleInfo" method="" action="">
+<input type="hidden" name="isAuthor" value="true" />
+<input type="hidden" name="authorIdList" value="" />
+<input type="hidden" name="userIdList" value="" />
+<input type="hidden" name="otherIdList" value="" />
+<input type="hidden" name="annotationId" value="" />
+<input type="hidden" name="isResearchArticle" value="true" />
+</form>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002752.XML" value="105073"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002752.PDF" value="499723"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002752.g001.TIF" value="805736"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002752.g001.PNG_I" value="40515"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002752.g001.PNG_S" value="13222"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002752.g001.PNG_M" value="86263"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002752.g001.PNG_L" value="661480"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002752.g002.TIF" value="1524878"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002752.g002.PNG_I" value="32988"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002752.g002.PNG_S" value="10226"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002752.g002.PNG_M" value="81765"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002752.g002.PNG_L" value="452352"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002752.g003.TIF" value="3151192"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002752.g003.PNG_I" value="47891"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002752.g003.PNG_S" value="13359"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002752.g003.PNG_M" value="113311"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002752.g003.PNG_L" value="2350761"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002752.g004.TIF" value="1200954"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002752.g004.PNG_I" value="37477"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002752.g004.PNG_S" value="12961"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002752.g004.PNG_M" value="67035"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002752.g004.PNG_L" value="575573"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002752.s001.XLS" value="521728"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002752.s002.XLS" value="179712"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002752.s003.XLS" value="75264"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002752.s004.XLS" value="25088"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002752.s005.TIF" value="1587338"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002752.s006.TIF" value="2322542"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002752.s007.TIF" value="306707"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002752.s008.DOC" value="318464"/>
+<div id="articleContainer">
+
+<span about="http://www.plos.org"  typeof="foaf:Organization" property="foaf:name" style="display:none; visibility:hidden;">PLOS</span>
+<div id="researchArticle" class="content">
+  <span rel="dc:publisher" href="http://www.plos.org"></span>
+  <a id="top" name="top"></a>
+<div id="contentHeader" xpathLocation="noSelect">
+  <p>Open Access</p><p id="articleType">Research Article</p>
+</div>
+
+  <h1 xpathLocation="noSelect" property="dc:title" datatype="" rel="dc:type" href="http://purl.org/dc/dcmitype/Text">Comparative Analysis of RNA Families Reveals Distinct Repertoires for Each Domain of Life</h1>
+  <div property="dc:description" datatype="" style="display:none; visibility:hidden;">Author SummaryIn cells, DNA carries recipes for making proteins, and proteins perform chemical reactions, including replication of DNA. This interdependency raises questions for early evolution, since one molecule seemingly cannot exist without the other. A resolution to this problem is the RNA world, where RNA is postulated to have been both genetic material and primary catalyst. While artificially selected catalytic RNAs strengthen the chemical plausibility of an RNA world, a biological prediction is that some RNAs should date back to this period. In this study, we ask to what degree RNAs in extant organisms trace back to the common ancestor of cellular life. Using the Rfam RNA families database, we systematically screened genomes spanning the three domains of life (Archaea, Bacteria, Eukarya) for RNA genes, and examined how far back in evolution known RNA families can be traced. We find that 99% of RNA families are restricted to a single domain. Limited conservation within domains implies ongoing emergence of RNA functions during evolution. Of the remaining 1%, half show evidence of horizontal transfer (movement of genes between organisms), and half show an evolutionary history consistent with an RNA world. The oldest RNAs are primarily associated with protein synthesis and export.</div>
+  <span property="dc:date" content="2012-11-01" datatype="xsd:date" rel="dc:identifier" href="http://dx.doi.org/10.1371/journal.pcbi.1002752"></span>
+  <span property="dc:subject" content="Computational Biology"></span>
+  <span property="dc:subject" content="Evolutionary Biology"></span>
+<form action="">
+  <input type="hidden" name="journalDisplayName" id="journalDisplayName" value="PLOS Computational Biology" />
+  <input type="hidden" name="crossRefPageURL" id="crossRefPageURL" value="/article/crossref/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002752;jsessionid=FDFB9D19754D21ECCB18B721604D97C8" />
+  <input type="hidden" name="twitterPageURL" id="twitterPageURL" value="/article/twitter/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002752;jsessionid=FDFB9D19754D21ECCB18B721604D97C8" />
+  <input type="hidden" name="metricsTabURL" id="metricsTabURL" value="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002752;jsessionid=FDFB9D19754D21ECCB18B721604D97C8" />
+  <input type="hidden" name="doi" id="doi" value="info:doi/10.1371/journal.pcbi.1002752" />
+  <input type="hidden" name="articleTitleUnformatted" id="articleTitleUnformatted" value="Comparative%20Analysis%20of%20RNA%20Families%20Reveals%20Distinct%20Repertoires%20for%20Each%20Domain%20of%20Life" />
+  <input type="hidden" name="articlePubDate" id="articlePubDate" value="1351753200000" />
+</form>
+<div class="horizontalTabs" xpathLocation="noSelect">
+  <ul id="tabsContainer">
+        <li id="article" class="active"><a href="/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002752;jsessionid=FDFB9D19754D21ECCB18B721604D97C8" class="tab" title="Article">Article</a></li>
+        <li id="metrics"><a href="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002752;jsessionid=FDFB9D19754D21ECCB18B721604D97C8" class="tab" title="Metrics">Metrics</a></li>
+        <li id="related"><a href="/article/related/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002752;jsessionid=FDFB9D19754D21ECCB18B721604D97C8" class="tab" title="Related Content">Related Content</a></li>
+        <li id="comments"><a href="/article/comments/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002752;jsessionid=FDFB9D19754D21ECCB18B721604D97C8" class="tab" title="Comments">Comments: 0</a></li>
+  </ul>
+</div>
+  <div id="articleMenuBox" xpathLocation="noSelect">
+    <div id="articleMenu">
+      <div class="wrap">
+        <ul>
+          <li class="annotation icon">To <strong>add a note</strong>, highlight some text. <a href="#" onclick="toggleAnnotation(this, 'public'); return false;" title="Click to turn notes on/off">Hide notes</a></li>
+          <li class="discuss icon">
+              <a href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002752">Make a general comment</a>
+          </li>
+        </ul>
+        <div id="sectionNavTopBox" style="display:none;">
+          <p><strong>Jump to</strong></p>
+          <div id="sectionNavTop" class="tools"></div>
+        </div>
+      </div>
+    </div>
+      <div id="lightBox" xpathLocation="noDialog" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002752')">
+      </div>
+  </div>
+
+
+
+
+<p class="authors" xpathLocation="noSelect"><span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Marc P. Hoeppner</span></span><sup><a href="#aff1">1</a></sup><sup><a href="#cor1" class="fnoteref">*</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Paul P. Gardner</span></span><sup><a href="#aff2">2</a></sup><sup><a href="#cor1" class="fnoteref">*</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Anthony M. Poole</span></span><sup><a href="#aff2">2</a></sup><sup><a href="#cor1" class="fnoteref">*</a></sup></p><p class="affiliations" xpathLocation="noSelect"><a name="aff1" id="aff1"></a><strong>1</strong> Science for Life Laboratory, Department of Medical Biochemistry and Microbiology, Uppsala University, Uppsala, Sweden, <a name="aff2" id="aff2"></a><strong>2</strong> Biomolecular Interaction Centre &amp; School of Biological Sciences, University of Canterbury, Christchurch, New Zealand</p><div class="abstract" xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[1]"><a id="abstract0" name="abstract0" toc="abstract0" title="Abstract"></a><h2 xpathLocation="noSelect">Abstract&nbsp;<a href="#top">Top</a></h2><p xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[1]/p[1]">The RNA world hypothesis, that RNA genomes and catalysts preceded DNA genomes and genetically-encoded protein catalysts, has been central to models for the early evolution of life on Earth. A key part of such models is continuity between the earliest stages in the evolution of life and the RNA repertoires of extant lineages. Some assessments seem consistent with a diverse RNA world, yet direct continuity between modern RNAs and an RNA world has not been demonstrated for the majority of RNA families, and, anecdotally, many RNA functions appear restricted in their distribution. Despite much discussion of the possible antiquity of RNA families, no systematic analyses of RNA family distribution have been performed. To chart the broad evolutionary history of known RNA families, we performed comparative genomic analysis of over 3 million RNA annotations spanning 1446 families from the Rfam 10 database. We report that 99% of known RNA families are restricted to a single domain of life, revealing discrete repertoires for each domain. For the 1% of RNA families/clans present in more than one domain, over half show evidence of horizontal gene transfer (HGT), and the rest show a vertical trace, indicating the presence of a complex protein synthesis machinery in the Last Universal Common Ancestor (LUCA) and consistent with the evolutionary history of the most ancient protein-coding genes. However, with limited interdomain transfer and few RNA families exhibiting demonstrable antiquity as predicted under RNA world continuity, our results indicate that the majority of modern cellular RNA repertoires have primarily evolved in a domain-specific manner.</p>
+</div><div class="abstract" xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[2]"><a id="abstract1" name="abstract1" toc="abstract1" title="Author Summary"></a>
+<h2 xpathLocation="noSelect">Author Summary&nbsp;<a href="#top">Top</a></h2>
+<p xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[2]/p[1]">In cells, DNA carries recipes for making proteins, and proteins perform chemical reactions, including replication of DNA. This interdependency raises questions for early evolution, since one molecule seemingly cannot exist without the other. A resolution to this problem is the RNA world, where RNA is postulated to have been both genetic material and primary catalyst. While artificially selected catalytic RNAs strengthen the chemical plausibility of an RNA world, a biological prediction is that some RNAs should date back to this period. In this study, we ask to what degree RNAs in extant organisms trace back to the common ancestor of cellular life. Using the Rfam RNA families database, we systematically screened genomes spanning the three domains of life (Archaea, Bacteria, Eukarya) for RNA genes, and examined how far back in evolution known RNA families can be traced. We find that 99% of RNA families are restricted to a single domain. Limited conservation within domains implies ongoing emergence of RNA functions during evolution. Of the remaining 1%, half show evidence of horizontal transfer (movement of genes between organisms), and half show an evolutionary history consistent with an RNA world. The oldest RNAs are primarily associated with protein synthesis and export.</p>
+</div>
+
+
+<div class="articleinfo" xpathLocation="noSelect"><p><strong>Citation: </strong>Hoeppner MP, Gardner PP, Poole AM (2012) Comparative Analysis of RNA Families Reveals Distinct Repertoires for Each Domain of Life. PLoS Comput Biol 8(11):
+          e1002752.
+            doi:10.1371/journal.pcbi.1002752</p><p><strong>Editor: </strong>Claus O. Wilke, 
+        University of Texas at Austin, United States of America
+      </p><p></p><p><strong>Received:</strong> March 12, 2012; <strong>Accepted:</strong> September 7, 2012; <strong>Published:</strong> November 1, 2012</p><p><strong>Copyright:</strong> © 2012 Hoeppner et al. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</p><p><strong>Funding: </strong>AMP received a Royal Swedish Academy of Sciences Research Fellowship supported by a grant from the Knut and Alice Wallenberg Foundation (<a href="http://www.kva.se">www.kva.se</a>) and a Royal Society of New Zealand Marsden Fund grant (09-UOC-013). MPH was supported by the Astrobiology Graduate School at Stockholm University PhD scholarship (astrobiology.physto.se/). PPG was supported by the Wellcome Trust (WT077044/Z/05/Z). AMP &amp; PPG were both also supported by Rutherford Discovery Fellowships, administered by the Royal Society of New Zealand (<a href="http://www.royalsociety.org.nz">www.royalsociety.org.nz</a>). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p><p><strong>Competing interests:</strong> The authors have declared that no competing interests exist.</p><p><a name="cor1"></a>* E-mail: <a href="mailto:mphoeppner@gmail.com">mphoeppner@gmail.com</a> (MPH); <a href="mailto:paul.gardner@canterbury.ac.nz">paul.gardner@canterbury.ac.nz</a> (PPG); <a href="mailto:anthony.poole@canterbury.ac.nz">anthony.poole@canterbury.ac.nz</a> (AMP)</p></div>
+
+
+
+
+
+<div id="section1" xpathLocation="/article[1]/body[1]/sec[1]"><a id="s1" name="s1" toc="s1" title="Introduction"></a><h3 xpathLocation="noSelect">Introduction&nbsp;<a href="#top">Top</a></h3><p xpathLocation="/article[1]/body[1]/sec[1]/p[1]">Following demonstration that RNA can act as genetic material <a href="#pcbi.1002752-FraenkelConrat1">[1]</a>–<a href="#pcbi.1002752-Diener1">[3]</a> and biological catalyst <a href="#pcbi.1002752-Kruger1">[4]</a>, <a href="#pcbi.1002752-GuerrierTakada1">[5]</a>, the study of the origin and early evolution of life on Earth has been heavily focused on the potential for an RNA world. The RNA world hypothesis is that RNA was both genetic material and main biological catalyst, prior to the advent of DNA and templated protein synthesis <a href="#pcbi.1002752-Orgel1">[6]</a>–<a href="#pcbi.1002752-Gilbert1">[8]</a>. The chemical plausibility of an RNA world has been intensively investigated through the application of in vitro methodologies that enable selection and subsequent characterization of novel RNA functionalities <a href="#pcbi.1002752-Joyce1">[9]</a>, <a href="#pcbi.1002752-Chen1">[10]</a>. Equally, the discovery of naturally-occurring functional RNAs in biological systems has expanded our understanding of the ways in which extant organisms utilize this macromolecule in a wide range of contexts, including catalysis, regulation, and as sequence-based guides <a href="#pcbi.1002752-Breaker1">[11]</a>–<a href="#pcbi.1002752-Amaral1">[15]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[2]">A central tenet of RNA world theory as an account of the early evolution of life on Earth is the Principle of Continuity <a href="#pcbi.1002752-Orgel1">[6]</a>, namely, that modern systems are the product of gradual evolution from earlier states. Consequently, it is possible that some RNA families could be direct descendants of molecules that first evolved in the RNA world <a href="#pcbi.1002752-Benner1">[16]</a>, <a href="#pcbi.1002752-Jeffares1">[17]</a>. The broad functionality of RNA both in terms of catalysis and biological function hints at a possibly complex RNA world <a href="#pcbi.1002752-Cech1">[12]</a>, <a href="#pcbi.1002752-Jeffares1">[17]</a>, <a href="#pcbi.1002752-Yarus1">[18]</a>, but assessing the antiquity of individual RNA families has been hampered by limited comparative data, and difficulties in annotating RNAs in genomes <a href="#pcbi.1002752-Freyhult1">[19]</a>. At the same time, it seems likely that many RNA families significantly postdate the RNA world, having evolved de novo much later in the evolution of life <a href="#pcbi.1002752-Eddy1">[13]</a>, <a href="#pcbi.1002752-Mattick1">[20]</a>. Indeed, for protein-coding genes, both very deep evolutionary histories <a href="#pcbi.1002752-Harris1">[21]</a>–<a href="#pcbi.1002752-Wang1">[23]</a> and more recent origins <a href="#pcbi.1002752-Keese1">[24]</a>, <a href="#pcbi.1002752-Choi1">[25]</a> have been established.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[3]">Assigning relic status to individual RNAs is not without significant complication. First, placing RNAs with non-universal distributions into the common ancestor of archaea, bacteria and eukaryotes requires lineage or domain-specific losses to be invoked <a href="#pcbi.1002752-Penny1">[26]</a>. While loss is plausible, it is difficult to verify at the level of cellular domains, since recent origin versus lineage-specific loss following a more ancient origin cannot be readily distinguished, and other data must be considered <a href="#pcbi.1002752-Penny2">[27]</a>, <a href="#pcbi.1002752-Hoeppner1">[28]</a>. Another process that may obfuscate the history of early RNA-based life is the propensity for genes to undergo horizontal transmission, from a donor to a recipient. For protein-coding genes, there is now overwhelming evidence that horizontal gene transfer is a significant evolutionary force, particularly for microbes <a href="#pcbi.1002752-Olendzenski1">[29]</a>, <a href="#pcbi.1002752-Puigbo1">[30]</a>. Consequently, gene-based phylogenies do not always provide an accurate means of gauging the evolutionary history of species, and, extrapolating across the tree of life and several billion years of evolutionary history, it is plausible that no gene will have remained untouched by horizontal gene transfer <a href="#pcbi.1002752-Bapteste1">[31]</a>. Consequently, historical signal consistent with RNA world continuity may have been erased through subsequent gene transfer events. Conversely, effective spread by horizontal transmission could lead to RNAs appearing artificially ancient. Finally, many RNAs may be more recent evolutionary innovations, and may not be RNA world relics <a href="#pcbi.1002752-Eddy1">[13]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[4]">These concerns notwithstanding, it remains commonplace for novel RNAs or RNA families to be discussed in regard to their potential relevance to the RNA world. Indeed, there are countless qualitative surveys derived from review of the experimental literature (see for example <a href="#pcbi.1002752-Breaker1">[11]</a>, <a href="#pcbi.1002752-Cech1">[12]</a>, <a href="#pcbi.1002752-Collins1">[14]</a>, <a href="#pcbi.1002752-Jeffares1">[17]</a>, <a href="#pcbi.1002752-Yarus1">[18]</a>, <a href="#pcbi.1002752-Poole1">[32]</a>), which often extrapolate deep evolutionary origins from limited comparative data. Problematically, this approach has led to the RNA world model being populated with RNAs whose distributions are patchy, and antiquity has often been inferred on speculative grounds, following detailed experimental characterisation of RNAs from a handful of model organisms. Against this backdrop, it is perhaps of little surprise that more vociferous critics have dubbed this endeavour the ‘RNA dreamtime’ <a href="#pcbi.1002752-Kurland1">[33]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[5]">While detailed studies have been performed for single RNA families (Table S1 in <a href="#pcbi.1002752.s008">Text S1</a>), no published data present a systematic analysis covering all RNA families, despite this now being routine for protein-coding genes. For RNA genes, an equivalent analysis is long overdue but has not been possible because, until recently, comparative data were not of sufficiently high quality.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[6]">We therefore sought to systematically address whether the phylogenetic distribution of extant RNAs fits with direct descent from an RNA world, as predicted under the Continuity hypothesis, or whether the distribution of extant RNAs better reflects more recent (post-LUCA) origins. In addition, we sought to examine whether horizontal transfer between cellular domains (and viruses) is detectable for RNA families. We report an analysis of over 3 million RNAs spanning 1446 families in the Rfam database <a href="#pcbi.1002752-Gardner1">[34]</a>, revealing that the overwhelming majority of families (99%) are restricted to a single domain of life. By contrast, fewer than 1% show evidence of either a deeper evolutionary origin, or of interdomain transfers. We conclude that, while, on these proportions, the RNA world ‘palimpsest’ is only a fraction of the RNA repertoires of modern genomes, the most ancient RNA families nevertheless belie evidence of an advanced protein synthesis apparatus. Strikingly, we report that interdomain horizontal gene transfers are also minimal for RNA genes, in marked contrast to the significant levels detected for protein-coding genes. Our analyses thus serve to move the current state-of-the-art from erudite literature review to systematic analysis of the distribution and antiquity of large numbers of RNA families.</p>
+</div>
+
+<div id="section2" xpathLocation="/article[1]/body[1]/sec[2]"><a id="s2" name="s2" toc="s2" title="Results/Discussion"></a><h3 xpathLocation="noSelect">Results/Discussion&nbsp;<a href="#top">Top</a></h3>
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/title[1]">99% of RNA families are restricted to a single domain of life</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[1]">We first asked whether a systematic analysis of RNA families expands our knowledge of ancient RNAs beyond those identified by traditional experimental work. To examine the degree to which extant RNAs can be traced to earlier evolutionary periods, we performed comparative analyses of annotated RNAs based on data from all three domains of life as well as viruses. To this end, we used the Rfam (RNA families) database <a href="#pcbi.1002752-Gardner1">[34]</a>, which groups RNAs into families, and families into clans, based on manually-curated alignments, consensus secondary structures, covariance models <a href="#pcbi.1002752-Nawrocki1">[35]</a> and functional annotations. RNAs within families and clans can therefore be claimed to share a common ancestry <a href="#pcbi.1002752-Gardner1">[34]</a>. All analyses presented here are based on Rfam 10.0, which consists of over 3 million annotations grouped into 1446 families and 99 clans <a href="#pcbi.1002752-Gardner1">[34]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[2]">To generate a high-quality dataset, we first established the distribution of all individual RNA sequence entries in Rfam by reference to the NCBI taxonomy database, and manually vetted and removed probable false positive annotations. From the resulting dataset, we generated an initial survey of families and clans across bacterial, archaeal, eukaryotic and viral genomes (<a href="#pcbi-1002752-g001"><strong>Figure 1</strong></a>). Two patterns are immediately clear. First, each domain carries a large number of entries absent from the other domains, with limited overlap observed between domains, or with viruses. Second, only seven Rfam families are present across all three domains. That we observe distinct domain-level RNA repertoires appears consistent with the view that the three domains of life are genetically distinct <a href="#pcbi.1002752-Woese1">[36]</a>. However, families present in more than one domain (or shared with viruses) may be the result of either vertical evolution from a common ancestor or horizontal transfer of genes between domains <a href="#pcbi.1002752-Puigbo1">[30]</a>, <a href="#pcbi.1002752-Woese1">[36]</a>.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]"><a name="pcbi-1002752-g001" id="pcbi-1002752-g001" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002752?imageURI=info:doi/10.1371/journal.pcbi.1002752.g001" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002752', 'info:doi/10.1371/journal.pcbi.1002752.g001');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002752', 'info:doi/10.1371/journal.pcbi.1002752.g001');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002752.g001&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002752?imageURI=info:doi/10.1371/journal.pcbi.1002752.g001" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002752', 'info:doi/10.1371/journal.pcbi.1002752.g001');"><span>Figure 1. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]/caption[1]/title[1]">Venn diagram of RNA family distribution.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]/caption[1]/p[1]">Taxonomic information attached to EMBL-derived Rfam annotations reveals that the majority (99%) of RNA families are domain-specific, with only seven RNA families universally conserved (across the three domains of life plus viruses; Table S1 in <a href="#pcbi.1002752.s008">Text S1</a>). Numbers within dashed circles indicate viral RNA families.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002752.g001</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002752.g001/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002752.g001/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002752.g001.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002752.g001/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002752.g001.TIF"></span> TIFF)
+                  </a></li></ul></div></div>
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/title[1]">Interdomain RNA families show a mix of vertical and horizontal inheritance</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/p[1]">We next sought to establish whether the distribution the 12 interdomain Rfam families/clans (<a href="#pcbi-1002752-g001"><strong>Figure 1</strong></a>) could be attributed either to vertical inheritance or horizontal gene transfer. Previous studies and data on distribution allow a predominantly vertical pattern of inheritance to be attributed to only five families (small subunit (SSU) and 5S rRNAs, tRNA, RNase P RNA, signal recognition particle RNA (SRP RNA) with four showing evidence of HGT (group I &amp; II introns, organellar large subunit (LSU) rRNA, IsrR RNA) (Table S1 in <a href="#pcbi.1002752.s008">Text S1</a>). Ribosomal RNAs are not fully represented in Rfam, being amply covered by other databases (e.g. <a href="#pcbi.1002752-Cannone1">[37]</a>, <a href="#pcbi.1002752-Pruesse1">[38]</a>), but their deep evolutionary history has been readily traced (Table S1 in <a href="#pcbi.1002752.s008">Text S1</a>). Combined, these data confirm a minimal reconstruction of the RNA repertoire of LUCA consistent with that observed for protein-coding genes <a href="#pcbi.1002752-Harris1">[21]</a>, with the demonstrably oldest RNAs and the majority of such proteins being involved in translation and protein export (<a href="#pcbi-1002752-g002"><strong>Figure 2</strong></a>). Consequently, while the number of RNA families traceable to LUCA is an order of magnitude lower than for proteins, the spread of functionalities is nevertheless very similar in extent.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[1]"><a name="pcbi-1002752-g002" id="pcbi-1002752-g002" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002752?imageURI=info:doi/10.1371/journal.pcbi.1002752.g002" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002752', 'info:doi/10.1371/journal.pcbi.1002752.g002');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002752', 'info:doi/10.1371/journal.pcbi.1002752.g002');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002752.g002&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002752?imageURI=info:doi/10.1371/journal.pcbi.1002752.g002" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002752', 'info:doi/10.1371/journal.pcbi.1002752.g002');"><span>Figure 2. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[1]/caption[1]/title[1]">RNA-based processes traceable to the Last Universal Common Ancestor.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[1]/caption[1]/p[1]">Universal Rfam families that show evidence of vertical inheritance (Table S1 in <a href="#pcbi.1002752.s008">Text S1</a>) are all associated with the processes of translation (rRNAs, tRNAs, RNase P) and protein export (SRP RNA). A previous study examining the antiquity of protein coding genes <a href="#pcbi.1002752-Harris1">[21]</a> identified only 37 universally distributed proteins which show evidence of vertical inheritance. The majority of these vertically inherited proteins are associated with translation and protein export; numbers of such proteins associated with each of the depicted processes is given in grey (original data are from Harris <a href="#pcbi.1002752-Harris1">[21]</a>). The proteins associated with RNase P are not universally conserved, with archaeal and eukaryotic RNase P proteins being unrelated to their bacterial counterparts <a href="#pcbi.1002752-Hartmann1">[72]</a>. While tRNA synthetases are universal, they have undergone ancient horizontal gene transfer events <a href="#pcbi.1002752-Fournier1">[73]</a>, which complicates establishing the timing of their origin.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002752.g002</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002752.g002/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002752.g002/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002752.g002.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002752.g002/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002752.g002.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/p[2]">A vertical trace is suspected but not demonstrated for the universally distributed TPP riboswitch (Table S1 in <a href="#pcbi.1002752.s008">Text S1</a>, <a href="#pcbi-1002752-g003"><strong>Figure 3</strong></a>), which modulates gene expression in response to thiamine pyrophosphate (TPP). The analysis of patterns of inheritance for RNAs is complicated by their short lengths and generally low levels of sequence conservation. As riboswitches regulate cognate mRNA in cis, vertical transmission may be tested by generating phylogenies from the protein products, on the assumption that the riboswitch and ORF have coevolved. We therefore generated a phylogeny for THIC, the only TPP-regulated gene product present in all three domains. The phylogeny shows eukaryote sequences grouping with proteobacteria (<strong><a href="#pcbi.1002752.s005">Figure S1</a></strong>), consistent with horizontal transmission of TPP-riboswitch regulated ThiC to the eukaryote lineage from a bacterial donor. Several independent observations are consistent with horizontal transmission: <em>Arabidopsis</em> THIC is nuclear-encoded, but targets to the chloroplast <a href="#pcbi.1002752-Raschke1">[39]</a>, plant ThiC can complement an <em>E. coli</em> ThiC mutant <a href="#pcbi.1002752-Kong1">[40]</a>, and eukaryotic TPP riboswitches show limited distribution <a href="#pcbi.1002752-Sudarsan1">[41]</a> (Rfam 10.0). Moreover, THI1, which also carries a TPP riboswitch in its mRNA leader, is also targeted to chloroplasts and mitochondria <a href="#pcbi.1002752-Chabregas1">[42]</a>. While an early origin for TPP riboswitches <a href="#pcbi.1002752-Breaker1">[11]</a> remains plausible, this is difficult to reconcile with our THIC phylogeny, since bacterial and archaeal sequences are not monophyletic under any rooting (<strong><a href="#pcbi.1002752.s005">Figure S1</a></strong>).</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[2]"><a name="pcbi-1002752-g003" id="pcbi-1002752-g003" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002752?imageURI=info:doi/10.1371/journal.pcbi.1002752.g003" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002752', 'info:doi/10.1371/journal.pcbi.1002752.g003');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002752', 'info:doi/10.1371/journal.pcbi.1002752.g003');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002752.g003&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[2]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002752?imageURI=info:doi/10.1371/journal.pcbi.1002752.g003" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002752', 'info:doi/10.1371/journal.pcbi.1002752.g003');"><span>Figure 3. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[2]/caption[1]/title[1]">Reconstruction of broadly distributed RNA repertoires for each domain, plus interdomain RNA families.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[2]/caption[1]/p[1]">Colored bars at far right indicate normalized taxonomic abundance of each Rfam for major taxonomic groupings within each domain. Horizontal traces (see text, Table S1 in <a href="#pcbi.1002752.s008">Text S1</a>) for interdomain families, are depicted as follows: general transfer patterns are given by dashed arrows; proposed HGT patterns for individual families are depicted by number (inset). For Rfam families present in more than one domain (far left and inset), bars indicate normalized taxonomic abundance by domain (color scheme at bottom left). Asterisks indicate additional broadly-distributed bacterial candidates identified using GEBA tree topology <a href="#pcbi.1002752-Wu1">[56]</a> (see text). Note that the Rfam rRNA families in Rfam 10.0 are based on conserved subsequences, and are not as comprehensive as other resources (see main text) and are included here for consistency. The universally-distributed rRNAs are the small subunit (16/18S) rRNA, large subunit (23/28S) rRNA and 5S rRNA (see Table S1 in <a href="#pcbi.1002752.s008">Text S1</a>). The 5.8S rRNA of eukaryotes is known to be homologous to the 5′ end of bacterial and archaeal 23S rRNA <a href="#pcbi.1002752-Jacq1">[74]</a>, <a href="#pcbi.1002752-Lafontaine1">[75]</a>, so its inclusion as a eukaryote-specific family in Rfam is in this respect artefactual.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002752.g003</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002752.g003/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002752.g003/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002752.g003.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002752.g003/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002752.g003.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/p[3]">Also noteworthy is the CRISPR/Cas system, which combats viral and plasmid infection in both bacteria and archaea. Horizontal transmission has been suggested for this system, but interdomain transfer is thought to be limited <a href="#pcbi.1002752-Shah1">[43]</a>. Examination of CRISPR crRNA family distribution reveals that 54 of 65 Rfam crRNA families are restricted to a single domain (Table S2 in <a href="#pcbi.1002752.s008">Text S1</a>). The remaining 11 families fall into two clans (CRISPR-1, CRISPR-2), which include crRNAs in both bacterial and archaeal genomes. However, only one Rfam family from each of these two clans contains annotations deriving from both domains. While short sequence length of crRNAs precludes phylogenetic analyses, the distribution we report (Table S2 in <a href="#pcbi.1002752.s008">Text S1</a>) is compatible with sporadic interdomain transfer, consistent with a phylogenomic analysis of Cas genes/clusters which reported low levels of horizontal transmission <a href="#pcbi.1002752-Haft1">[44]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/p[4]">The low number of observed interdomain RNA families suggests that, in contrast to protein-coding gene repertoires, RNA repertoires are surprisingly refractory to interdomain transfers. While we do see evidence of organellar contributions, these are few in number, in marked contrast to the high numbers observed for protein-coding genes <a href="#pcbi.1002752-Esser1">[45]</a>, <a href="#pcbi.1002752-Martin1">[46]</a>.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/title[1]">Only a minority of domain-specific RNA families are broadly-distributed</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[1]">We next sought to establish the distribution of RNA families within each domain, since our initial analysis (<a href="#pcbi-1002752-g001"><strong>Figure 1</strong></a>) does not consider within-domain taxonomic distribution of Rfam families. A broad distribution may indicate an early origin of a given family, but information on distribution alone cannot distinguish between horizontal and vertical modes of transmission. As short length and limited sequence conservation preclude robust phylogenies for the vast majority of RNA families, distribution cannot be used to directly infer the RNA repertoire of the last common ancestor (LCA) of each domain. Nevertheless, such information may indicate whether the RNA repertoires of the three domains are functionally distinct. We therefore collated families present in at least 50% of major within-domain taxonomic divisions (<a href="#pcbi-1002752-g003"><strong>Figure 3</strong></a>, <strong><a href="#pcbi.1002752.s002">Dataset S2</a></strong>). Surprisingly, the number of broadly distributed families/clans within each domain is small (Archaea 13/69 = 18.8%, Bacteria 15/223 = 6.7%, Eukaryotes 20/826 = 2.4%), though among eukaryotes there are a high number of clans, which may encompass multiple RNA families with a shared evolutionary history. Two patterns emerge from this analysis (<a href="#pcbi-1002752-g003"><strong>Figure 3</strong></a>). First, eukaryote and archaeal repertoires are dominated by small nucleolar RNAs (snoRNAs). Second, the most broadly distributed bacterial RNAs are regulatory.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[2]">Closer investigation of the snoRNA repertoires across archaea and eukaryotes reveals that C/D family RNAs are broadly distributed; H/ACA family RNAs, while widespread among eukaryotes, are only known from Euryarchaeota <a href="#pcbi.1002752-Tang1">[47]</a>, <a href="#pcbi.1002752-Muller1">[48]</a>, and Archaeal H/ACA RNAs are not currently included in Rfam <a href="#pcbi.1002752-Gardner1">[34]</a>. Strikingly, of the &gt;500 snoRNA families included in this study, none are shared across archaea and eukaryotes. While a deep origin of snoRNPs is supported by surveys of protein and RNA components <a href="#pcbi.1002752-Gardner2">[49]</a>, this is not reflected by existence of conserved RNA families <a href="#pcbi.1002752-Hoeppner1">[28]</a>, for which only scant evidence exists <a href="#pcbi.1002752-Gaspin1">[50]</a>, <a href="#pcbi.1002752-Omer1">[51]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[3]">In eukaryotes, a strong domain-specific evolutionary trace is attributable to snRNAs (<a href="#pcbi-1002752-g003"><strong>Figure 3</strong></a>, Table S3 in <a href="#pcbi.1002752.s008">Text S1</a>), consistent with other studies indicating both the major and minor spliceosome were features of the Last Eukaryotic Common Ancestor (LECA) <a href="#pcbi.1002752-DavilaLopez1">[52]</a>–<a href="#pcbi.1002752-Collins2">[54]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[4]">A different picture emerges for miRNAs however. The broad distribution of miRNAs is consistent with the suggestion that RNAi pathways trace to the LECA <a href="#pcbi.1002752-Shabalina1">[55]</a>, with 26/452 miRNA families present in more than one eukaryotic supergroup (<strong><a href="#pcbi.1002752.s003">Dataset S3</a></strong>). However, closer inspection reveals most are singleton false positives or artefactual family groupings. Our dataset therefore does not allow the placement of any individual miRNA families in LECA.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[5]">A broad qualitative difference between bacteria compared to archaea and eukaryotes is the preponderance of conserved regulatory elements, primarily riboswitches (<a href="#pcbi-1002752-g003"><strong>Figure 3</strong></a>). However, this observation is based on only that small fraction of Rfam families present in ≥50% of taxonomic divisions. To further assess whether there are qualitative differences between the functional RNA repertoires across the three domains and viruses, we took advantage of the organization of Rfam into different functionalities. As is evident from <a href="#pcbi-1002752-g004"><strong>Figure 4</strong></a>, common functionalities across all three domains are sparse. Riboswitches and ribozymes indicate the ubiquity of small metabolite-based regulation and catalytic function, but of the numerous families included in this analysis, only RNase P RNA is directly traceable to the LUCA (<a href="#pcbi-1002752-g002"><strong>Figures 2</strong></a><strong> &amp; </strong><a href="#pcbi-1002752-g003"><strong>3</strong></a>). Functionalities shared between archaea and eukaryotes to the exclusion of bacteria are restricted to snoRNA-dependent RNA modification, and CRISPRs are the only prokaryote-specific functionality. Interestingly, a number of RNA functionalities present in bacteria lack archaeal or eukaryotic representatives (cis-regulatory leaders, thermoregulators, sRNAs), and Rfam contains no archaeal-specific functionalities (<a href="#pcbi-1002752-g004"><strong>Figure 4</strong></a><strong>, <a href="#pcbi.1002752.s004">Dataset S4</a></strong>), possibly attributable to the smaller number of experimental screens for novel RNAs across members of this domain.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[1]"><a name="pcbi-1002752-g004" id="pcbi-1002752-g004" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002752?imageURI=info:doi/10.1371/journal.pcbi.1002752.g004" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002752', 'info:doi/10.1371/journal.pcbi.1002752.g004');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002752', 'info:doi/10.1371/journal.pcbi.1002752.g004');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002752.g004&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002752?imageURI=info:doi/10.1371/journal.pcbi.1002752.g004" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002752', 'info:doi/10.1371/journal.pcbi.1002752.g004');"><span>Figure 4. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[1]/caption[1]/title[1]">Rfam-based functional classification of RNA families.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[1]/caption[1]/p[1]">The tree depicts classification of the higher level data structures within Rfam, and is not a phylogeny. Numbers of sequences and families in Rfam 10 that fall into each functional classification are shown as bar charts. Domain-level taxonomic distribution for each functional category is shown by black (present) and white (absent) boxes, right. The grey box indicates that H/ACA family RNAs are known from archaea <a href="#pcbi.1002752-Tang1">[47]</a>, <a href="#pcbi.1002752-Muller1">[48]</a>, but are not in Rfam 10.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002752.g004</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002752.g004/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002752.g004/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002752.g004.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002752.g004/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002752.g004.TIF"></span> TIFF)
+                  </a></li></ul></div></div>
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/title[1]">Biases in taxonomic sampling</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/p[1]">In comparing the RNA repertoires of the three domains, a key question is whether the underlying Rfam data cover a reasonable spread of species within each domain, or whether data from a few species or phyla dominate. This is important in that the low number of broadly distributed families/clans we observe within each domain could be the result of an underlying sampling bias. A priori we may expect a significant bias, given current genomic coverage of microbial biodiversity. For instance, a recent survey of snoRNAs indicates there is broad, though nevertheless patchy coverage across major eukaryotic and archaeal groups <a href="#pcbi.1002752-Gardner2">[49]</a>. We therefore examined the underlying taxonomic distribution of all domain-specific Rfams. For all three domains, entries are heavily skewed, with a majority of Rfam annotations deriving from a narrow phylogenetic diversity (<strong><a href="#pcbi.1002752.s006">Figure S2</a></strong>).</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/p[2]">For protein-coding genes, discovery of novel proteins has been significantly enhanced by sequencing of genomes chosen for maximal phylogenetic diversity <a href="#pcbi.1002752-Wu1">[56]</a>. While de novo computational discovery of novel ncRNAs is non-trivial by comparison, we were nevertheless interested in establishing whether the additional phylogenetic coverage provided by the Genomic Encyclopedia of Bacteria and Archaea (GEBA) <a href="#pcbi.1002752-Wu1">[56]</a> impacted the number of broadly distributed Rfam families. Under the assumption of vertical inheritance, we therefore treated RNAs as characters on the GEBA phylogeny. Our analysis yielded four additional bacterial candidates (marked with asterisks in <a href="#pcbi-1002752-g003"><strong>Figure 3</strong></a>), though again we caution that broad distribution may be generated through HGT, so these candidates cannot be placed in the bacterial ancestor. Nevertheless, this modest improvement suggests GEBA <a href="#pcbi.1002752-Wu1">[56]</a>, and targeted experimental screens informed by phylogeny <a href="#pcbi.1002752-Gardner2">[49]</a> will provide a valuable framework, both for improving knowledge of RNA family distribution and in focusing experimental screens for novel RNA families.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/p[3]">How should we interpret these data? The limited distribution of domain-specific RNAs is likely to be biased by sampling, a problem that affects all genomic data, and is even more acute for detailed experimental data. On available data, we find that only a minority of domain-specific RNAs exhibit a broad distribution. A broad distribution could result from vertical inheritance, but it could also be the result of horizontal gene transfer. Taxonomic biases might underestimate the number of RNAs vertically traceable to the ancestor of a domain, whereas horizontal gene transfer might be expected to expand the distribution of some RNAs. Assuming that current sampling has gaps, but is not completely uninformative <a href="#pcbi.1002752-Gardner2">[49]</a>, available data suggest that a high proportion of RNAs are likely to be evolutionarily young, and will not trace to the LCA of the domain in which they reside.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[5]/title[1]">Concluding remarks</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[5]/p[1]">We have examined the evolution and diversity of RNAs across the entire tree of life, an important complement to previous comparative studies on RNA metabolism <a href="#pcbi.1002752-Breaker1">[11]</a>, <a href="#pcbi.1002752-Jeffares1">[17]</a> and RNA-associated protein families <a href="#pcbi.1002752-Anantharaman1">[57]</a>. Large-scale analyses of the RNA repertoire are only now becoming possible through improved methodologies for RNA identification and greater integration between RNA discovery and online databases.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[5]/p[2]">It is commonplace for novel RNAs or RNA families to be discussed in regard to their potential relevance to the RNA world, yet RNAs with limited distribution are difficult to reconcile with a very ancient evolutionary origin unless massive losses are invoked. Excepting the possibility of losses (which cannot be readily tested since the evidence for antiquity has been erased), our study shows that direct evidence for the RNA continuity hypothesis remains scant; there is undoubtedly an RNA ‘palimpsest’ <a href="#pcbi.1002752-Benner1">[16]</a>, but it is not possible to expand this through systematic comparative analyses.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[5]/p[3]">Conversely, we find clear evidence of distinct domain-level repertoires, but limited evidence of inter-domain transfers, consistent with a recent analysis indicating a detectable vertical trace amidst ongoing HGT <a href="#pcbi.1002752-Puigbo1">[30]</a>. The paucity of shared eukaryotic and archaeal RNA regulatory processes (<a href="#pcbi-1002752-g004"><strong>Figure 4</strong></a>) and the marginal bacterial contribution to the eukaryote RNA repertoire, support the view that eukaryotic mechanisms of RNA regulation are a domain-specific invention <a href="#pcbi.1002752-Amaral1">[15]</a>, and extend this view to the other two domains. While we see qualitative similarities between archaea and eukaryotes (<a href="#pcbi-1002752-g003"><strong>Figures 3</strong></a><strong> &amp; </strong><a href="#pcbi-1002752-g004"><strong>4</strong></a>), in agreement with studies indicating a phylogenetic affinity between these two domains <a href="#pcbi.1002752-Cox1">[58]</a>, these are currently restricted to snoRNAs. The clear differences in RNA functional repertoires between eukaryotes, archaea and bacteria (<a href="#pcbi-1002752-g004"><strong>Figure 4</strong></a>) strengthen the case for recognizing the <em>biological</em> distinctness of the three domains <a href="#pcbi.1002752-Woese1">[36]</a>, independent of uncertainty surrounding their specific phylogenetic relationships <a href="#pcbi.1002752-Gribaldo1">[59]</a>.</p>
+
+</div>
+
+<div id="section3" xpathLocation="/article[1]/body[1]/sec[3]"><a id="s3" name="s3" toc="s3" title="Materials and Methods"></a><h3 xpathLocation="noSelect">Materials and Methods&nbsp;<a href="#top">Top</a></h3>
+<h4 xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/title[1]">Rfam dataset</h4>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/p[1]">Annotated noncoding RNA data used in this study was derived from data curated in Release 10.0 of the Rfam database <a href="#pcbi.1002752-Gardner1">[34]</a> (<a href="http://rfam.sanger.ac.uk/">http://rfam.sanger.ac.uk/</a>). The distribution of Rfam families (<strong><a href="#pcbi.1002752.s001">Dataset S1</a></strong>) was established in two steps. First, for a given family, all annotations across the EMBL database <a href="#pcbi.1002752-Cochrane1">[60]</a> (<a href="http://www.ebi.ac.uk/embl/">http://www.ebi.ac.uk/embl/</a>) were binned into domains using the taxonomic information attached to each sequence. We then inspected annotations from families whose distribution spanned more than one domain to identify possible false annotations. For all Rfam families with annotations spanning two or more domains (including viruses) we first confirmed the taxonomic affiliation of each sequence through reciprocal blasts against the GenBank database and removed any cases where sequences were clearly misannotated (e.g. bacterial sequencing vectors in eukaryote genome projects). Next, we inspected the quality of each annotation with reference to Rfam seed alignments. Any sequences with a bitscore within +10 bits of the individual bitscore cutoffs for curated seed alignments, and where sequence similarity was deemed insufficient to reliably establish homology, were discarded.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/title[1]">Higher-level taxonomic assignments</h4>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/p[1]">In assigning Rfam entries to specific taxonomic groups of bacteria and archaea (<a href="#pcbi-1002752-g003"><strong>Figure 3</strong></a><strong>, <a href="#pcbi.1002752.s001">Dataset S1</a></strong>), we used the top-level classifications within each domain in the NCBI Taxonomy Database. At the time the analyses were performed, the proposed archaeal phylum Thaumarchaeota <a href="#pcbi.1002752-BrochierArmanet1">[61]</a> was not recognised in the database, and available sequences were classified as Crenarchaeota. While members of the Thaumarchaeota are present in our data, none carry annotated snoRNAs, so not explicitly recognizing putative Thaumarchaeotes as a phylum does not impact the results summarized in <a href="#pcbi-1002752-g002">figure 2</a>. For Eukaryote RNA sequences, data was grouped according to the classification scheme proposed by Adl and colleagues <a href="#pcbi.1002752-Adl1">[62]</a>.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/title[1]">Phylogenetic analyses</h4>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/p[1]">All sequences annotated as THIC in Genbank were retrieved (8 Feb 2011). The resulting list of 4508 sequences were examined for sequence similarity by generating a blast network using the blastall program from the BLAST package (version 2.2.18), with an E-value cutoff of 0.1. The network of blast results was visualized with CLANS <a href="#pcbi.1002752-Frickey1">[63]</a>, using default settings. The output was then clustered using MCL <a href="#pcbi.1002752-Enright1">[64]</a>, with granularity set at 4. Representative sequences spanning all domains were retrieved from all MCL clusters with &gt;10 members. Sequences were aligned using MSA-Probs <a href="#pcbi.1002752-Liu1">[65]</a>. Partial sequences and extremely divergent sequences where annotation appeared questionable were removed. Conserved regions were selected for use in phylogenetic analysis via the G-blocks server <a href="#pcbi.1002752-Castresana1">[66]</a> (<a href="http://molevol.cmima.csic.es/castresana/Gblocks_server.html">http://molevol.cmima.csic.es/castresana/​Gblocks_server.html</a>), with the settings ‘Allow smaller final blocks’ and ‘Allow gap positions within the final blocks’ selected. ProtTest <a href="#pcbi.1002752-Abascal1">[67]</a> was used to identify the best-fit model of protein evolution for our alignment. Phylogenetic analysis was performed using PhyML 3.0 <a href="#pcbi.1002752-Guindon1">[68]</a> with parameters and model (WAG+I+G) as selected using ProtTest. Bootstrapping was performed on two Mac Pro machines with Intel Xeon Quad core processors, running 12 parallel threads. Parallelization yielded a total of 108 bootstrap replicates (a consequence of running 12 threads in parallel, resulting in bootstrap replicates that were a multiple of 12); all bootstrap values in <a href="#pcbi.1002752.s005">figure S1</a> are therefore out of a total of 108 not 100. Additional trees were generated using RAxML <a href="#pcbi.1002752-Stamatakis1">[69]</a> and BioNJ <a href="#pcbi.1002752-Gascuel1">[70]</a> to assess robustness of the topology. Tree figures were generated in Dendroscope <a href="#pcbi.1002752-Huson1">[71]</a>.</p>
+
+</div>
+
+<div id="section4" xpathLocation="/article[1]/body[1]/sec[4]"><a id="s4" name="s4" toc="s4" title="Supporting Information"></a><h3 xpathLocation="noSelect">Supporting Information&nbsp;<a href="#top">Top</a></h3><a name="pcbi.1002752.s001" id="pcbi.1002752.s001"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002752.s001">Dataset S1. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[1]/caption[1]/p[1]">
+            <strong>Distribution of Rfam families across domains and major phylogenetic groups.</strong>
+          </p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[1]/caption[1]/p[2]">(XLS)</p>
+<a name="pcbi.1002752.s002" id="pcbi.1002752.s002"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002752.s002">Dataset S2. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[2]/caption[1]/p[1]">
+            <strong>Distribution of archaeal, eukaryote and bacterial Rfams.</strong>
+          </p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[2]/caption[1]/p[2]">(XLS)</p>
+<a name="pcbi.1002752.s003" id="pcbi.1002752.s003"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002752.s003">Dataset S3. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[3]/caption[1]/p[1]">
+            <strong>Distribution of eukaryotic miRNAs in Rfam.</strong>
+          </p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[3]/caption[1]/p[2]">(XLS)</p>
+<a name="pcbi.1002752.s004" id="pcbi.1002752.s004"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002752.s004">Dataset S4. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[4]/caption[1]/p[1]">
+            <strong>Numbers and taxonomic sources of annotations associated with RNA functional groups.</strong>
+          </p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[4]/caption[1]/p[2]">(XLS)</p>
+<a name="pcbi.1002752.s005" id="pcbi.1002752.s005"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002752.s005">Figure S1. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[5]/caption[1]/p[1]"><strong>Unrooted PhyML phylogeny of TPP-regulated gene product THIC.</strong> (A) Tree in landscape format so labels are legible. The phylogeny shows good support for a close affinity between Plant and green algal (green) and a clan of proteobacterial homologs (red), to the exclusion of archaeal sequences (dark blue), consistent with possible HGT from bacteria to eukaryotes. Monophyletic groups are not recovered for either archaea or bacteria, suggestive of horizontal transmission events. All tips are labeled with the following information: MCL_cluster|Domain|gi_number|species_nam​e.Bootstrap values are out of 108 (<a href="#s3">Materials and Methods</a>). (B) Same tree in unrooted form; coloring is identical to key in (A).</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[5]/caption[1]/p[2]">(TIF)</p>
+<a name="pcbi.1002752.s006" id="pcbi.1002752.s006"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002752.s006">Figure S2. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[6]/caption[1]/p[1]"><strong>Analysis of taxonomic distribution of Rfam entries within the EMBL nucleotide database.</strong> Data for each of the three domains (A) Eukarya (B) Archaea (C) Bacteria are binned by indicated major taxonomic groupings (see <a href="#s3">Materials and Methods</a>). The x-axis corresponds to individual Rfam entries. The majority of families are restricted to well-studied groups, revealing a strong bias in the underlying data, as previously seen for snoRNA families <a href="#pcbi.1002752-Gardner2">[49]</a> and more generally for genome projects <a href="#pcbi.1002752-Wu1">[56]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[6]/caption[1]/p[2]">(TIF)</p>
+<a name="pcbi.1002752.s007" id="pcbi.1002752.s007"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002752.s007">Figure S3. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[7]/caption[1]/p[1]"><strong>Discovery curves for Rfam.</strong> These curves plot the oldest reliable electronic date (EMBL entry or publication) associated with a particular Rfam family. Domain distribution (1-domain, 2-domain or 3-domain) is based on current distributions. To generate discovery curves for all RNA families in Rfam 10.0 (which includes families built before January 2010), we extracted the oldest dates from the literature references contained in the corresponding Stockholm file and from the EMBL accessions – the oldest date of the two is plotted.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[7]/caption[1]/p[2]">(TIF)</p>
+<a name="pcbi.1002752.s008" id="pcbi.1002752.s008"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002752.s008">Text S1. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[8]/caption[1]/p[1]">
+            <strong>PDF with supporting text and references, and supplementary tables S1–S4.</strong>
+          </p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[8]/caption[1]/p[2]">(DOC)</p>
+</div>
+
+
+
+
+
+<div xpathLocation="noSelect"><a id="ack" name="ack" toc="ack" title="Acknowledgments"></a><h3 xpathLocation="noSelect">Acknowledgments&nbsp;<a href="#top">Top</a></h3>
+<p xpathLocation="/article[1]/back[1]/ack[1]/p[1]">We thank D. Jeffares and J. Tylianakis for valuable comments on the manuscript.</p>
+</div><div class="contributions"><a id="authcontrib" name="authcontrib" toc="authcontrib" title="Author Contributions"></a><h3 xpathLocation="noSelect">Author Contributions&nbsp;<a href="#top">Top</a></h3><p xpathLocation="noSelect">Conceived and designed the experiments: AMP MPH. Performed the experiments: MPH. Analyzed the data: MPH PPG AMP. Wrote the paper: AMP MPH.</p></div><div xpathLocation="noSelect"><a id="references" name="references" toc="references" title="References"></a><h3 xpathLocation="noSelect">References&nbsp;<a href="#top">Top</a></h3><ol class="references" xpathLocation="noSelect"><li xpathLocation="noSelect"><a name="pcbi.1002752-FraenkelConrat1" id="pcbi.1002752-FraenkelConrat1"></a>Fraenkel-Conrat H (1956) The role of the nucleic acid in the reconstitution of active Tobacco Mosaic Virus. Journal of the American Chemical Society 78: 882–883. <a class="find" href="/article/findArticle.action?citedArticleID=6020495">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Gierer1" id="pcbi.1002752-Gierer1"></a>Gierer A, Schramm G (1956) Infectivity of ribonucleic acid from Tobacco Mosaic Virus. Nature 177: 702–703.
+        doi:
+        <a href="http://dx.doi.org/10.1038/177702a0">10.1038/177702a0</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020497">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Diener1" id="pcbi.1002752-Diener1"></a>Diener TO (1971) Potato spindle tuber “virus”. IV. A replicating, low molecular weight RNA. Virology 45: 411–428. <a class="find" href="/article/findArticle.action?citedArticleID=6020499">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Kruger1" id="pcbi.1002752-Kruger1"></a>Kruger K, Grabowski PJ, Zaug AJ, Sands J, Gottschling DE, et al. (1982) Self-splicing RNA: autoexcision and autocyclization of the ribosomal RNA intervening sequence of Tetrahymena. Cell 31: 147–157.
+        doi:
+        <a href="http://dx.doi.org/10.1016/0092-8674(82)90414-7">10.1016/0092-8674(82)90414-7</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020501">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-GuerrierTakada1" id="pcbi.1002752-GuerrierTakada1"></a>Guerrier-Takada C, Gardiner K, Marsh T, Pace N, Altman S (1983) The RNA moiety of ribonuclease P is the catalytic subunit of the enzyme. Cell 35: 849–857.
+        doi:
+        <a href="http://dx.doi.org/10.1016/0092-8674(83)90117-4">10.1016/0092-8674(83)90117-4</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020503">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Orgel1" id="pcbi.1002752-Orgel1"></a>Orgel LE (1968) Evolution of the genetic apparatus. J Mol Biol 38: 381–393. <a class="find" href="/article/findArticle.action?citedArticleID=6020505">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Crick1" id="pcbi.1002752-Crick1"></a>Crick FH (1968) The origin of the genetic code. J Mol Biol 38: 367–379. <a class="find" href="/article/findArticle.action?citedArticleID=6020507">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Gilbert1" id="pcbi.1002752-Gilbert1"></a>Gilbert W (1986) The RNA world. Nature 319: 618.
+        doi:
+        <a href="http://dx.doi.org/10.1038/319618a0">10.1038/319618a0</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020509">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Joyce1" id="pcbi.1002752-Joyce1"></a>Joyce GF (2007) Forty years of in vitro evolution. Angewandte Chemie (International ed 46: 6420–6436. <a class="find" href="/article/findArticle.action?citedArticleID=6020511">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Chen1" id="pcbi.1002752-Chen1"></a>Chen X, Li N, Ellington AD (2007) Ribozyme catalysis of metabolism in the RNA world. Chem Biodivers 4: 633–655. <a class="find" href="/article/findArticle.action?citedArticleID=6020513">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Breaker1" id="pcbi.1002752-Breaker1"></a>Breaker RR (2010) Riboswitches and the RNA World. Cold Spring Harb Perspect Biol 10.1101/cshperspect.a003566.
+        doi:
+        <a href="http://dx.doi.org/10.1101/cshperspect.a003566">10.1101/cshperspect.a003566</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020515">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Cech1" id="pcbi.1002752-Cech1"></a>Cech TR (2009) Crawling out of the RNA world. Cell 136: 599–602.
+        doi:
+        <a href="http://dx.doi.org/10.1016/j.cell.2009.02.002">10.1016/j.cell.2009.02.002</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020517">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Eddy1" id="pcbi.1002752-Eddy1"></a>Eddy SR (2001) Non-coding RNA genes and the modern RNA world. Nat Rev Genet 2: 919–929.
+        doi:
+        <a href="http://dx.doi.org/10.1038/35103511">10.1038/35103511</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020519">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Collins1" id="pcbi.1002752-Collins1"></a>Collins LJ, Kurland CG, Biggs P, Penny D (2009) The modern RNP world of eukaryotes. J Hered 100: 597–604.
+        doi:
+        <a href="http://dx.doi.org/10.1093/jhered/esp064">10.1093/jhered/esp064</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020521">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Amaral1" id="pcbi.1002752-Amaral1"></a>Amaral PP, Dinger ME, Mercer TR, Mattick JS (2008) The eukaryotic genome as an RNA machine. Science 319: 1787–1789.
+        doi:
+        <a href="http://dx.doi.org/10.1126/science.1155472">10.1126/science.1155472</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020523">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Benner1" id="pcbi.1002752-Benner1"></a>Benner SA, Ellington AD, Tauer A (1989) Modern metabolism as a palimpsest of the RNA world. Proc Natl Acad Sci U S A 86: 7054–7058.
+        doi:
+        <a href="http://dx.doi.org/10.1073/pnas.86.18.7054">10.1073/pnas.86.18.7054</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020525">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Jeffares1" id="pcbi.1002752-Jeffares1"></a>Jeffares DC, Poole AM, Penny D (1998) Relics from the RNA world. J Mol Evol 46: 18–36.
+        doi:
+        <a href="http://dx.doi.org/10.1007/PL00006280">10.1007/PL00006280</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020527">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Yarus1" id="pcbi.1002752-Yarus1"></a>Yarus M (2002) Primordial Genetics: Phenotype of the Ribocyte. Annu Rev Genet 36: 125–151. <a class="find" href="/article/findArticle.action?citedArticleID=6020529">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Freyhult1" id="pcbi.1002752-Freyhult1"></a>Freyhult EK, Bollback JP, Gardner PP (2007) Exploring genomic dark matter: a critical assessment of the performance of homology search methods on noncoding RNA. Genome Res 17: 117–125.
+        doi:
+        <a href="http://dx.doi.org/10.1101/gr.5890907">10.1101/gr.5890907</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020531">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Mattick1" id="pcbi.1002752-Mattick1"></a>Mattick JS, Gagen MJ (2001) The evolution of controlled multitasked gene networks: the role of introns and other noncoding RNAs in the development of complex organisms. Mol Biol Evol 18: 1611–1630.
+        doi:
+        <a href="http://dx.doi.org/10.1093/oxfordjournals.molbev.a003951">10.1093/oxfordjournals.molbev.a003951</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020533">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Harris1" id="pcbi.1002752-Harris1"></a>Harris JK, Kelley ST, Spiegelman GB, Pace NR (2003) The genetic core of the universal ancestor. Genome Res 13: 407–412.
+        doi:
+        <a href="http://dx.doi.org/10.1101/gr.652803">10.1101/gr.652803</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020535">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Chothia1" id="pcbi.1002752-Chothia1"></a>Chothia C, Gough J, Vogel C, Teichmann SA (2003) Evolution of the protein repertoire. Science (New York, NY) 300: 1701–1703.
+        doi:
+        <a href="http://dx.doi.org/10.1126/science.1085371">10.1126/science.1085371</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020537">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Wang1" id="pcbi.1002752-Wang1"></a>Wang M, Yafremava LS, Caetano-Anolles D, Mittenthal JE, Caetano-Anolles G (2007) Reductive evolution of architectural repertoires in proteomes and the birth of the tripartite world. Genome Res 17: 1572–1585.
+        doi:
+        <a href="http://dx.doi.org/10.1101/gr.6454307">10.1101/gr.6454307</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020539">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Keese1" id="pcbi.1002752-Keese1"></a>Keese PK, Gibbs A (1992) Origins of genes: “big bang” or continuous creation? Proc Natl Acad Sci U S A 89: 9489–9493.
+        doi:
+        <a href="http://dx.doi.org/10.1073/pnas.89.20.9489">10.1073/pnas.89.20.9489</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020541">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Choi1" id="pcbi.1002752-Choi1"></a>Choi IG, Kim SH (2006) Evolution of protein structural classes and protein sequence families. Proc Natl Acad Sci U S A 103: 14056–14061.
+        doi:
+        <a href="http://dx.doi.org/10.1073/pnas.0606239103">10.1073/pnas.0606239103</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020543">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Penny1" id="pcbi.1002752-Penny1"></a>Penny D, Poole A (1999) The nature of the last universal common ancestor. Curr Opin Genet Dev 9: 672–677.
+        doi:
+        <a href="http://dx.doi.org/10.1016/S0959-437X(99)00020-9">10.1016/S0959-437X(99)00020-9</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020545">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Penny2" id="pcbi.1002752-Penny2"></a>Penny D, Hoeppner MP, Poole AM, Jeffares DC (2009) An Overview of the Introns-First Theory. J Mol Evol 69: 527–40.
+        doi:
+        <a href="http://dx.doi.org/10.1007/s00239-009-9279-5">10.1007/s00239-009-9279-5</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020547">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Hoeppner1" id="pcbi.1002752-Hoeppner1"></a>Hoeppner MP, Poole AM (2012) Comparative genomics of eukaryotic small nucleolar RNAs reveals deep evolutionary ancestry amidst ongoing intragenomic mobility. BMC Evol Biol 12: 183.
+        doi:
+        <a href="http://dx.doi.org/10.1186/1471-2148-12-183">10.1186/1471-2148-12-183</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020549">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Olendzenski1" id="pcbi.1002752-Olendzenski1"></a>Olendzenski L, Gogarten JP (2009) Evolution of genes and organisms: the tree/web of life in light of horizontal gene transfer. Ann N Y Acad Sci 1178: 137–145. <a class="find" href="/article/findArticle.action?citedArticleID=6020551">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Puigbo1" id="pcbi.1002752-Puigbo1"></a>Puigbo P, Wolf YI, Koonin EV (2009) Search for a ‘Tree of Life’ in the thicket of the phylogenetic forest. J Biol 8: 59.
+        doi:
+        <a href="http://dx.doi.org/10.1186/jbiol159">10.1186/jbiol159</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020553">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Bapteste1" id="pcbi.1002752-Bapteste1"></a>Bapteste E, O'Malley MA, Beiko RG, Ereshefsky M, Gogarten JP, et al. (2009) Prokaryotic evolution and the tree of life are two different things. Biol Direct 4: 34.
+        doi:
+        <a href="http://dx.doi.org/10.1186/1745-6150-4-34">10.1186/1745-6150-4-34</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020555">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Poole1" id="pcbi.1002752-Poole1"></a>Poole AM, Jeffares DC, Penny D (1998) The path from the RNA world. J Mol Evol 46: 1–17.
+        doi:
+        <a href="http://dx.doi.org/10.1007/PL00006275">10.1007/PL00006275</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020557">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Kurland1" id="pcbi.1002752-Kurland1"></a>Kurland CG (2010) The RNA dreamtime: modern cells feature proteins that might have supported a prebiotic polypeptide world but nothing indicates that RNA world ever was. BioEssays 32: 866–871. <a class="find" href="/article/findArticle.action?citedArticleID=6020559">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Gardner1" id="pcbi.1002752-Gardner1"></a>Gardner PP, Daub J, Tate J, Moore BL, Osuch IH, et al. (2011) Rfam: Wikipedia, clans and the “decimal” release. Nucleic Acids Res 39: D141–145.
+        doi:
+        <a href="http://dx.doi.org/10.1093/nar/gkq1129">10.1093/nar/gkq1129</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020561">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Nawrocki1" id="pcbi.1002752-Nawrocki1"></a>Nawrocki EP, Kolbe DL, Eddy SR (2009) Infernal 1.0: inference of RNA alignments. Bioinformatics 25: 1335–1337. <a class="find" href="/article/findArticle.action?citedArticleID=6020563">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Woese1" id="pcbi.1002752-Woese1"></a>Woese CR (2002) On the evolution of cells. Proc Natl Acad Sci U S A 99: 8742–8747.
+        doi:
+        <a href="http://dx.doi.org/10.1073/pnas.132266999">10.1073/pnas.132266999</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020565">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Cannone1" id="pcbi.1002752-Cannone1"></a>Cannone JJ, Subramanian S, Schnare MN, Collett JR, D'Souza LM, et al. (2002) The comparative RNA web (CRW) site: an online database of comparative sequence and structure information for ribosomal, intron, and other RNAs. BMC Bioinformatics 3: 2. <a class="find" href="/article/findArticle.action?citedArticleID=6020567">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Pruesse1" id="pcbi.1002752-Pruesse1"></a>Pruesse E, Quast C, Knittel K, Fuchs BM, Ludwig W, et al. (2007) SILVA: a comprehensive online resource for quality checked and aligned ribosomal RNA sequence data compatible with ARB. Nucleic Acids Res 35: 7188–7196.
+        doi:
+        <a href="http://dx.doi.org/10.1093/nar/gkm864">10.1093/nar/gkm864</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020569">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Raschke1" id="pcbi.1002752-Raschke1"></a>Raschke M, Burkle L, Muller N, Nunes-Nesi A, Fernie AR, et al. (2007) Vitamin B1 biosynthesis in plants requires the essential iron sulfur cluster protein, THIC. Proc Natl Acad Sci USA 104: 19637–19642.
+        doi:
+        <a href="http://dx.doi.org/10.1073/pnas.0709597104">10.1073/pnas.0709597104</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020571">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Kong1" id="pcbi.1002752-Kong1"></a>Kong D, Zhu Y, Wu H, Cheng X, Liang H, et al. (2008) AtTHIC, a gene involved in thiamine biosynthesis in Arabidopsis thaliana. Cell Res 18: 566–576.
+        doi:
+        <a href="http://dx.doi.org/10.1038/cr.2008.35">10.1038/cr.2008.35</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020573">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Sudarsan1" id="pcbi.1002752-Sudarsan1"></a>Sudarsan N, Barrick JE, Breaker RR (2003) Metabolite-binding RNA domains are present in the genes of eukaryotes. RNA 9: 644–647.
+        doi:
+        <a href="http://dx.doi.org/10.1261/rna.5090103">10.1261/rna.5090103</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020575">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Chabregas1" id="pcbi.1002752-Chabregas1"></a>Chabregas SM, Luche DD, Van Sluys MA, Menck CF, Silva-Filho MC (2003) Differential usage of two in-frame translational start codons regulates subcellular localization of Arabidopsis thaliana THI1. J Cell Sci 116: 285–291.
+        doi:
+        <a href="http://dx.doi.org/10.1242/jcs.00228">10.1242/jcs.00228</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020577">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Shah1" id="pcbi.1002752-Shah1"></a>Shah SA, Garrett RA (2011) CRISPR/Cas and Cmr modules, mobility and evolution of adaptive immune systems. Res Micro 162: 27–38.
+        doi:
+        <a href="http://dx.doi.org/10.1016/j.resmic.2010.09.001">10.1016/j.resmic.2010.09.001</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020579">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Haft1" id="pcbi.1002752-Haft1"></a>Haft DH, Selengut J, Mongodin EF, Nelson KE (2005) A guild of 45 CRISPR-associated (Cas) protein families and multiple CRISPR/Cas subtypes exist in prokaryotic genomes. PLoS Comput Biol 1: e60.
+        doi:
+        <a href="http://dx.doi.org/10.1371/journal.pcbi.0010060">10.1371/journal.pcbi.0010060</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020581">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Esser1" id="pcbi.1002752-Esser1"></a>Esser C, Ahmadinejad N, Wiegand C, Rotte C, Sebastiani F, et al. (2004) A genome phylogeny for mitochondria among alpha-proteobacteria and a predominantly eubacterial ancestry of yeast nuclear genes. Mol Biol Evol 21: 1643–1660. <a class="find" href="/article/findArticle.action?citedArticleID=6020583">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Martin1" id="pcbi.1002752-Martin1"></a>Martin W, Rujan T, Richly E, Hansen A, Cornelsen S, et al. (2002) Evolutionary analysis of Arabidopsis, cyanobacterial, and chloroplast genomes reveals plastid phylogeny and thousands of cyanobacterial genes in the nucleus. Proc Natl Acad Sci U S A 99: 12246–12251.
+        doi:
+        <a href="http://dx.doi.org/10.1073/pnas.182432999">10.1073/pnas.182432999</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020585">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Tang1" id="pcbi.1002752-Tang1"></a>Tang TH, Bachellerie JP, Rozhdestvensky T, Bortolin ML, Huber H, et al. (2002) Identification of 86 candidates for small non-messenger RNAs from the archaeon Archaeoglobus fulgidus. Proc Natl Acad Sci U S A 99: 7536–7541. <a class="find" href="/article/findArticle.action?citedArticleID=6020587">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Muller1" id="pcbi.1002752-Muller1"></a>Muller S, Leclerc F, Behm-Ansmant I, Fourmann JB, Charpentier B, et al. (2008) Combined in silico and experimental identification of the Pyrococcus abyssi H/ACA sRNAs and their target sites in ribosomal RNAs. Nucleic Acids Res 36: 2459–2475.
+        doi:
+        <a href="http://dx.doi.org/10.1093/nar/gkn077">10.1093/nar/gkn077</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020589">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Gardner2" id="pcbi.1002752-Gardner2"></a>Gardner PP, Bateman A, Poole AM (2010) SnoPatrol: how many snoRNA genes are there? J Biol 9: 4.
+        doi:
+        <a href="http://dx.doi.org/10.1186/jbiol211">10.1186/jbiol211</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020591">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Gaspin1" id="pcbi.1002752-Gaspin1"></a>Gaspin C, Cavaille J, Erauso G, Bachellerie JP (2000) Archaeal homologs of eukaryotic methylation guide small nucleolar RNAs: lessons from the Pyrococcus genomes. J Mol Biol 297: 895–906.
+        doi:
+        <a href="http://dx.doi.org/10.1006/jmbi.2000.3593">10.1006/jmbi.2000.3593</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020593">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Omer1" id="pcbi.1002752-Omer1"></a>Omer AD, Lowe TM, Russell AG, Ebhardt H, Eddy SR, et al. (2000) Homologs of small nucleolar RNAs in Archaea. Science 288: 517–522.
+        doi:
+        <a href="http://dx.doi.org/10.1126/science.288.5465.517">10.1126/science.288.5465.517</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020595">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-DavilaLopez1" id="pcbi.1002752-DavilaLopez1"></a>Davila Lopez M, Rosenblad MA, Samuelsson T (2008) Computational screen for spliceosomal RNA genes aids in defining the phylogenetic distribution of major and minor spliceosomal components. Nucleic Acids Res 36: 3001–3010. <a class="find" href="/article/findArticle.action?citedArticleID=6020597">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Russell1" id="pcbi.1002752-Russell1"></a>Russell AG, Charette JM, Spencer DF, Gray MW (2006) An early evolutionary origin for the minor spliceosome. Nature 443: 863–866.
+        doi:
+        <a href="http://dx.doi.org/10.1038/nature05228">10.1038/nature05228</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020599">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Collins2" id="pcbi.1002752-Collins2"></a>Collins L, Penny D (2005) Complex spliceosomal organization ancestral to extant eukaryotes. Mol Biol Evol 22: 1053–1066.
+        doi:
+        <a href="http://dx.doi.org/10.1093/molbev/msi091">10.1093/molbev/msi091</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020601">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Shabalina1" id="pcbi.1002752-Shabalina1"></a>Shabalina SA, Koonin EV (2008) Origins and evolution of eukaryotic RNA interference. Trends Ecol Evol 23: 578–587.
+        doi:
+        <a href="http://dx.doi.org/10.1016/j.tree.2008.06.005">10.1016/j.tree.2008.06.005</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020603">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Wu1" id="pcbi.1002752-Wu1"></a>Wu D, Hugenholtz P, Mavromatis K, Pukall R, Dalin E, et al. (2009) A phylogeny-driven genomic encyclopaedia of Bacteria and Archaea. Nature 462: 1056–1060.
+        doi:
+        <a href="http://dx.doi.org/10.1038/nature08656">10.1038/nature08656</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020605">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Anantharaman1" id="pcbi.1002752-Anantharaman1"></a>Anantharaman V, Koonin EV, Aravind L (2002) Comparative genomics and evolution of proteins involved in RNA metabolism. Nucleic Acids Res 30: 1427–1464.
+        doi:
+        <a href="http://dx.doi.org/10.1093/nar/30.7.1427">10.1093/nar/30.7.1427</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020607">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Cox1" id="pcbi.1002752-Cox1"></a>Cox CJ, Foster PG, Hirt RP, Harris SR, Embley TM (2008) The archaebacterial origin of eukaryotes. Proc Natl Acad Sci U S A 105: 20356–20361.
+        doi:
+        <a href="http://dx.doi.org/10.1073/pnas.0810647105">10.1073/pnas.0810647105</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020609">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Gribaldo1" id="pcbi.1002752-Gribaldo1"></a>Gribaldo S, Poole AM, Daubin V, Forterre P, Brochier-Armanet C (2010) The origin of eukaryotes and their relationship with the Archaea: are we at a phylogenomic impasse? Nat Rev Micro 8: 743–752.
+        doi:
+        <a href="http://dx.doi.org/10.1038/nrmicro2426">10.1038/nrmicro2426</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020611">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Cochrane1" id="pcbi.1002752-Cochrane1"></a>Cochrane G, Akhtar R, Bonfield J, Bower L, Demiralp F, et al. (2009) Petabyte-scale innovations at the European Nucleotide Archive. Nucleic Acids Res 37: D19–25.
+        doi:
+        <a href="http://dx.doi.org/10.1093/nar/gkn765">10.1093/nar/gkn765</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020613">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-BrochierArmanet1" id="pcbi.1002752-BrochierArmanet1"></a>Brochier-Armanet C, Boussau B, Gribaldo S, Forterre P (2008) Mesophilic Crenarchaeota: proposal for a third archaeal phylum, the Thaumarchaeota. Nat Rev Microbiol 6: 245–252.
+        doi:
+        <a href="http://dx.doi.org/10.1038/nrmicro1852">10.1038/nrmicro1852</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020615">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Adl1" id="pcbi.1002752-Adl1"></a>Adl SM, Simpson AG, Farmer MA, Andersen RA, Anderson OR, et al. (2005) The new higher level classification of eukaryotes with emphasis on the taxonomy of protists. J Eukaryot Microbiol 52: 399–451.
+        doi:
+        <a href="http://dx.doi.org/10.1111/j.1550-7408.2005.00053.x">10.1111/j.1550-7408.2005.00053.x</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020617">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Frickey1" id="pcbi.1002752-Frickey1"></a>Frickey T, Lupas A (2004) CLANS: a Java application for visualizing protein families based on pairwise similarity. Bioinformatics 20: 3702–3704.
+        doi:
+        <a href="http://dx.doi.org/10.1093/bioinformatics/bth444">10.1093/bioinformatics/bth444</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020619">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Enright1" id="pcbi.1002752-Enright1"></a>Enright AJ, Van Dongen S, Ouzounis CA (2002) An efficient algorithm for large-scale detection of protein families. Nucleic Acids Res 30: 1575–1584.
+        doi:
+        <a href="http://dx.doi.org/10.1093/nar/30.7.1575">10.1093/nar/30.7.1575</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020621">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Liu1" id="pcbi.1002752-Liu1"></a>Liu Y, Schmidt B, Maskell DL (2010) MSAProbs: multiple sequence alignment based on pair hidden Markov models and partition function posterior probabilities. Bioinformatics 26: 1958–1964.
+        doi:
+        <a href="http://dx.doi.org/10.1093/bioinformatics/btq338">10.1093/bioinformatics/btq338</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020623">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Castresana1" id="pcbi.1002752-Castresana1"></a>Castresana J (2000) Selection of conserved blocks from multiple alignments for their use in phylogenetic analysis. Mol Biol Evol 17: 540–552.
+        doi:
+        <a href="http://dx.doi.org/10.1093/oxfordjournals.molbev.a026334">10.1093/oxfordjournals.molbev.a026334</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020625">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Abascal1" id="pcbi.1002752-Abascal1"></a>Abascal F, Zardoya R, Posada D (2005) ProtTest: selection of best-fit models of protein evolution. Bioinformatics 21: 2104–2105.
+        doi:
+        <a href="http://dx.doi.org/10.1093/bioinformatics/bti263">10.1093/bioinformatics/bti263</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020627">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Guindon1" id="pcbi.1002752-Guindon1"></a>Guindon S, Gascuel O (2003) A simple, fast, and accurate algorithm to estimate large phylogenies by maximum likelihood. Syst Biol 52: 696–704.
+        doi:
+        <a href="http://dx.doi.org/10.1080/10635150390235520">10.1080/10635150390235520</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020629">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Stamatakis1" id="pcbi.1002752-Stamatakis1"></a>Stamatakis A (2006) RAxML-VI-HPC: maximum likelihood-based phylogenetic analyses with thousands of taxa and mixed models. Bioinformatics 22: 2688–2690.
+        doi:
+        <a href="http://dx.doi.org/10.1093/bioinformatics/btl446">10.1093/bioinformatics/btl446</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020631">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Gascuel1" id="pcbi.1002752-Gascuel1"></a>Gascuel O (1997) BIONJ: an improved version of the NJ algorithm based on a simple model of sequence data. Mol Biol Evol 14: 685–695.
+        doi:
+        <a href="http://dx.doi.org/10.1093/oxfordjournals.molbev.a025808">10.1093/oxfordjournals.molbev.a025808</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020633">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Huson1" id="pcbi.1002752-Huson1"></a>Huson DH, Richter DC, Rausch C, Dezulian T, Franz M, et al. (2007) Dendroscope: An interactive viewer for large phylogenetic trees. BMC Bioinformatics 8: 460.
+        doi:
+        <a href="http://dx.doi.org/10.1186/1471-2105-8-460">10.1186/1471-2105-8-460</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020635">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Hartmann1" id="pcbi.1002752-Hartmann1"></a>Hartmann E, Hartmann RK (2003) The enigma of ribonuclease P evolution. Trends Genet 19: 561–569.
+        doi:
+        <a href="http://dx.doi.org/10.1016/j.tig.2003.08.007">10.1016/j.tig.2003.08.007</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020637">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Fournier1" id="pcbi.1002752-Fournier1"></a>Fournier GP, Andam CP, Alm EJ, Gogarten JP (2011) Molecular Evolution of Aminoacyl tRNA Synthetase Proteins in the Early History of Life. Orig Life Evol Biosph 41: 621–32.
+        doi:
+        <a href="http://dx.doi.org/10.1007/s11084-011-9261-2">10.1007/s11084-011-9261-2</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020639">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Jacq1" id="pcbi.1002752-Jacq1"></a>Jacq B (1981) Sequence homologies between eukaryotic 5.8S rRNA and the 5′ end of prokaryotic 23S rRNa: evidences for a common evolutionary origin. Nucleic Acids Res 9: 2913–2932.
+        doi:
+        <a href="http://dx.doi.org/10.1093/nar/9.12.2913">10.1093/nar/9.12.2913</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020641">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002752-Lafontaine1" id="pcbi.1002752-Lafontaine1"></a>Lafontaine DL, Tollervey D (2001) The function and synthesis of ribosomes. Nat Rev Mol Cell Biol 2: 514–520.
+        doi:
+        <a href="http://dx.doi.org/10.1038/35080045">10.1038/35080045</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=6020643">
+                      Find this article online
+                    </a></li></ol></div>
+
+</div></div>
+<div style="display:none">
+<div dojoType="ambra.widget.RegionalDialog" id="AnnotationDialog" style="padding:0;margin:0;">
+  <div class="dialog annotate">
+    <div class="tipu" id="dTipu"></div>
+    <div class="comment">
+      <h5><span>Post Your Note (For Public Viewing)</span></h5>
+      <div class="posting pane">
+        <form name="createAnnotation" id="createAnnotation" method="post" action="">
+          <input type="hidden" name="target" value="info:doi/10.1371/journal.pcbi.1002752" />
+          <input type="hidden" name="startPath" value="" />
+          <input type="hidden" name="startOffset" value="" />
+          <input type="hidden" name="endPath" value="" />
+          <input type="hidden" name="endOffset" value="" />
+          <input type="hidden" name="commentTitle" id="commentTitle" value="" />
+          <input type="hidden" name="comment" id="commentArea" value="" />
+          <input type="hidden" name="ciStatement" id="statementArea" value="" />
+          <input type="hidden" name="isCompetingInterest" id="isCompetingInterest" value="false" />
+          <input type="hidden" name="noteType" id="noteType" value="" />
+          <fieldset>
+            <legend>Compose Your Note</legend>
+            <span id="submitMsg" class="error" style="display:none;"></span>
+            <table class="layout">
+              <tr>
+                <td>
+                  <label for="cNoteType">This is a </label><select name="cNoteType" id="cNoteType"><option value="note">note</option><option value="correction">correction</option></select>
+                  <span id="cdls" style="visibility:hidden;margin-left:0.3em; white-space:nowrap;"><a href="/static/commentGuidelines.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8?target=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002752#corrections">What are corrections?</a></span>
+                  <label for="cTitle"><span class="none">Enter your note title</span><!-- error message text <em>A title is required for all public notes</em>--></label>
+                  <input type="text" name="cTitle" id="cTitle" value="Enter your note title..." class="title" alt="Enter your note title..." />
+                  <label for="cArea"><span class="none">Enter your note</span><!-- error message text <em>Please enter your note</em>--></label>
+                  <textarea name="cArea" id="cArea" value="Enter your note..." alt="Enter your note...">Enter your note...</textarea>
+                  <input type="hidden" name="isPublic" value="true" />
+                </td>
+                <td>&nbsp;</td>
+                <td class="coi">
+                  <fieldset>
+                    <legend>Declare any competing interests.</legend>
+                    <ul>
+                      <li><label><input id="isCompetingInterestNo" type="radio" checked="checked" name="competingInterest" value="false"  /> No, I don't have any competing interests to declare.</label></li>
+                      <li><label><input id="isCompetingInterestYes" type="radio" name="competingInterest" value="true"  /> Yes, I have competing interests to declare (enter below):</label></li>
+                    </ul>
+                    <textarea name="ciStatementArea" id="ciStatementArea" disabled value="Enter your competing interests..." alt="Enter your competing interests...">Enter your competing interests...</textarea>
+                  </fieldset>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3" class="buttons">
+                  <input type="button" value="Cancel" title="Click to close and cancel" id="btn_cancel"/>
+                  <input type="button" value="Submit" title="Click to post your note publicly" id="btn_post" class="primary"/>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <p>Notes and Corrections can include the following markup tags:</p>
+                  <p><strong>Emphasis:</strong> ''<em>italic</em>''&nbsp;&nbsp;'''<strong>bold</strong>'''&nbsp;&nbsp;'''''<strong><em>bold italic</em></strong>'''''</p>
+                  <p><strong>Other:</strong> ^^<sup>superscript</sup>^^&nbsp;&nbsp;~~<sub>subscript</sub>~~</p>
+                </td>
+              </tr>
+            </table>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <div class="tip" id="dTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialog" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="caTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      Please follow our <a href="/static/commentGuidelines.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8">guidelines for notes and comments</a> and review our <a href="/static/competing.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8">competing interests policy</a>. Comments that do not conform to our guidelines will be promptly removed and the user account disabled. The following must be avoided:
+      <ul>
+        <li>Remarks that could be interpreted as allegations of misconduct</li>
+        <li>Unsupported assertions or statements</li>
+        <li>Inflammatory or insulting language</li>
+      </ul>
+      <form name="contextActionForm" id="contextActionForm" class="clearfix buttons" method="post" action="">
+        <input type="button" name="Continue" value="Continue" id="ContextActionDialogContinueButton" onmouseup="ambra.displayAnnotationContext.startComment(event);" title="Add a note to this text" class="primary"/>
+        <input type="button" name="Cancel" value="Cancel" id="ContextActionDialogCancelButton" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);" title="Close this Window"/>
+      </form>
+    </div>
+    <div class="tip" id="caTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogNotLogged" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canlTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You must be logged in to add a note to an article.
+      You may log in by <a onmousedown="ambra.displayAnnotationContext.disconnect(event);" href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002752">clicking here</a> or <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">cancel this note</a>.
+    </div>
+    <div class="tip" id="canlTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogBadSelection" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canBDTipu"></div>
+    <div class="contextActionContent">
+      <h5 class="annotation icon"><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You cannot annotate this area of the document. <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">Close</a>
+    </div>
+    <div class="tip" id="canBDTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogBadRangeSelection" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canbrTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You cannot create an annotation that spans different sections of the document; please adjust your selection.<br/>
+      <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">Close</a>
+    </div>
+    <div class="tip" id="canbrTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.RegionalDialog" id="CommentDialog" style="padding:0;margin:0;">
+  <div class="dialog preview">
+    <div class="tipu" id="cTipu"></div>
+    <div class="btn close" id="btn_close" title="Click to close"><a title="Click to close">Close</a></div>
+    <div id="cmtContainer" class="comment">
+      <h6 id="viewCmtTitle"></h6>
+      <div class="detail" id="viewCmtDetail"></div>
+      <div class="contentwrap" id="viewComment"></div>
+      <div class="contentwrap" id="viewCIStatement"></div>
+      <div class="detail" id="viewLink">
+        <!--<a href="#" class="commentary icon" title="Click to view full thread and respond">View all responses</a>
+        <a href="#" class="respond tooltip" title="Click to respond to this posting">Respond to this</a>-->
+      </div>
+    </div>
+    <div class="tip" id="cTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.RegionalDialog" id="CommentDialogMultiple" style="padding:0;margin:0;">
+  <div class="dialog multiple preview">
+    <div class="tipu" id="mTipu"></div>
+    <div class="btn close" id="btn_close_multi" title="Click to close"><a title="Click to close">Close</a></div>
+    <ol id="multilist"></ol>
+    <br/>
+    <div id="multidetail"></div>
+    <div class="tip" id="mTip"></div>
+  </div>
+</div>
+
+
+<div dojoType="dijit.Dialog" id="Rating">
+  <div class="dialog annotate">
+    <div class="tipu" id="dTipu"></div>
+    <div class="comment">
+      <h5><span>Rate This Article</span></h5>
+      <div class="instructions">Please follow our <a  href="/static/ratingGuidelines.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8">guidelines for rating</a> and review our <a href="/static/competing.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8">competing interests policy</a>. Comments that do not conform to our guidelines will be promptly removed and the user account disabled. The following must be avoided:
+        <ol>
+          <li>Remarks that could be interpreted as allegations of misconduct</li>
+          <li>Unsupported assertions or statements</li>
+          <li>Inflammatory or insulting language</li>
+        </ol>
+      </div>
+      <div class="posting pane">
+        <form name="ratingForm" id="ratingForm" method="post" action="">
+          <input type="hidden" name="articleURI" value="info:doi/10.1371/journal.pcbi.1002752" />  
+          <input type="hidden" name="commentTitle" id="commentTitle" value="" />
+          <input type="hidden" name="comment" id="commentArea" value="" />
+          <input type="hidden" name="ciStatement" id="statementArea" value="" />
+          <input type="hidden" name="isCompetingInterest" id="isCompetingInterest" value="" />
+          <fieldset>
+            <legend>Compose Your Annotation</legend>
+            <span id="submitRatingMsg" class="error" style="display:none;"></span>
+            <table class="layout">
+              <tr>
+                <td rowspan="2">
+                  <label for="insight">Insight</label>
+                  <ul class="star-rating rating edit" title="Rate insight" id="rateInsight">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Bland" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'insight', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Profound" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="insight" title="insight" value="" />
+                  <label for="reliability">Reliability</label>
+                  <ul class="star-rating rating edit" title="Rate reliability" id="rateReliability">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Tenuous" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'reliability', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Unassailable" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="reliability" title="reliability" value="" />
+                  <label for="style">Style</label>
+                  <ul class="star-rating rating edit" title="Rate style" id="rateStyle">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Crude" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'style', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Elegant" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="style" title="style" value="" />
+                  <label for="cTitle"><span class="none">Enter your comment title</span><!-- error message text <em>A title is required for all public annotations</em>--></label>
+                  <input type="text" name="cTitle" id="cTitle" value="Enter your comment title..." class="title" alt="Enter your comment title..." />
+                  <label for="cArea"><span class="none">Enter your comment</span><!-- error message text <em>Please enter your annotation</em>--></label>
+                  <textarea name="cArea" id="cArea" value="Enter your comment..." alt="Enter your comment...">Enter your comment...</textarea>
+                </td>
+                <td rowspan="2">&nbsp;</td>
+                <td class="coi">
+                  <fieldset>
+                    <legend>Declare any competing interests.</legend>
+                    <ul>
+                      <li><label><input id="isCompetingInterestNo" type="radio" name="competingInterest" value="false"  /> No, I don't have any competing interests to declare.</label></li>
+                      <li><label><input id="isCompetingInterestYes" type="radio" name="competingInterest" value="true"  /> Yes, I have competing interests to declare (enter below):</label></li>
+                    </ul>
+                    <textarea name="ciStatementArea" id="ciStatementArea" disabled value="Enter your competing interests..." title="Enter your competing interests...">Enter your competing interests...</textarea>
+                  </fieldset>
+                </td>
+              </tr>
+              <tr>
+                <td class="buttons">
+                  <input type="button" value="Cancel" title="Click to close and cancel" id="btn_cancel_rating"/>
+                  <input type="button" value="Submit" title="Click to post your annotation publicly" id="btn_post_rating" class="primary"/>
+                </td>
+              </tr>
+              <tr>
+                  <td colspan="3"><p>Ratings can include the following markup tags:</p>
+                  <p><strong>Emphasis:</strong> ''<em>italic</em>''&nbsp;&nbsp;'''<strong>bold</strong>'''&nbsp;&nbsp;'''''<strong><em>bold italic</em></strong>'''''</p>
+                  <p><strong>Other:</strong> ^^<sup>superscript</sup>^^&nbsp;&nbsp;~~<sub>subscript</sub>~~</p></td>
+              </tr>
+            </table>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div dojoType="ambra.widget.LoadingCycle" id="LoadingCycle" class="loadingCycler">
+  <img src="/images/loading.gif" width="58" height="58" title="Loading..." />
+</div>
+<div dojoType="dijit.Dialog" id="LightBox">
+
+    <!-- start main window wrapper-->
+    <div class="figure-window-wrapper">
+
+      <!--start film strip Wrapper-->
+      <div class="figure-window-nav-wrapper">
+        <div id="figure-window-nav"></div>
+      </div><!--end figure-window-nav-wrapper-->
+
+      <!-- start figure container-->
+      <div class="figure-window-container">
+
+        <!-- start/end figure viewer-->
+        <div id="figure-window-viewer">
+          <img id="figure-window-img" class="large"/>
+        </div>
+
+        <!-- start/end figure doi-->
+        <div id="figure-window-doi"></div>
+
+        <!--start figure title-box-->
+        <div id="figure-window-title-box" class="figure-window-title-less">
+          <span id="figure-window-title"></span>
+          <div id="figure-window-more" class="figure-window-more" onclick="return ambra.lightBox.showMoreOrLess();"></div>
+          <div id="figure-window-description"></div>
+        </div><!--end figure title-box-->
+
+        <!--start figure download-->
+        <div class="figure-window-download">
+          <ul>
+            <li class="download icon"><strong>Download:</strong>
+              <a id="figure-window-ppt" title="Click to download PowerPoint slide of this image">PowerPoint
+                slide</a> |
+              <a id="figure-window-large" title="Click to download a larger version of this image">larger image
+                (<span id="figure-window-large-size"></span>)</a> |
+              <a id="figure-window-tiff" title="Click to download a original version of this image">original image
+                (<span id="figure-window-tiff-size"></span>)</a>
+            </li>
+          </ul>
+        </div><!--end figure download-->
+
+        <!--start/end of close, context, next and previous button-->
+        <div class="figure-window-close" onclick="return ambra.lightBox.hide();"></div>
+        <div class="figure-window-context" onclick="return ambra.lightBox.showInContext();"></div>
+        <div id="figure-window-previous" onclick="return ambra.lightBox.showPrevious();"></div>
+        <div id="figure-window-next" onclick="return ambra.lightBox.showNext();"></div>
+
+      </div><!--end figure-window-container-->
+
+    </div><!--end figure-window-wrapper-->
+
+</div><!--end dijit.Dialog-->
+</div>
+</div>
+<!-- end : main contents -->
+
+</div>
+<!-- end : container -->	
+
+<!-- begin : footer -->
+<div id="ftr">
+  <p><span>All site content, except where otherwise noted, is licensed under a <a href="http://creativecommons.org/licenses/by/2.5/" title="Creative Commons Attribution License 2.5" tabindex="200">Creative Commons Attribution License</a>.</span></p>
+  <ul>
+    <li><a href="/static/privacy.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8" title="PLOS Privacy Statement" tabindex="501">Privacy Statement</a></li>
+    <li><a href="/static/terms.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8" title="PLOS Terms of Use" tabindex="502">Terms of Use</a></li>
+    <li><a href="http://www.plos.org/advertise/" title="Advertise With PLOS" tabindex="503">Advertise</a></li>
+    <li><a href="http://www.plos.org/about/media-inquiries/" title="PLOS Embargo Policy" tabindex="504">Media Inquiries</a></li>
+    <li><a href="http://www.plos.org/publish/order-reprints/" title="PLOS in Print" tabindex="505">PLOS in Print</a></li>
+    <li><a href="/static/sitemap.action;jsessionid=FDFB9D19754D21ECCB18B721604D97C8" title="Site Map" tabindex="506">Site Map</a></li>
+    <li><a href="http://www.plos.org" title="PLOS.org" tabindex="507">PLOS.org</a></li>
+  </ul>
+  <div class="powered">
+  <ul>
+    <li><a href="/static/releaseNotes.action" title="Ambra | Release Notes">Ambra 2.4.9</a></li>
+    <li>Managed Colocation provided by <a href="http://www.isc.org/" title="Internet Systems Consortium">Internet Systems Consortium</a>.</li>
+  </ul>
+  </div>
+</div>
+<!-- end : footer -->
+<script type="text/javascript">
+  var _namespace="";
+    var loggedIn = false;
+
+  var almHost = "http://alm.plos.org";
+  var solrHost = "http://api.plos.org/search";
+  var pubGetHost = "http://pubget.com/widgetizer/links_hash";
+  var appContext = "";
+
+  // Safari v3.1.1 "console.debug" issue (http://trac.dojotoolkit.org/ticket/6849) workaround
+  if (/3[\.0-9]+ Safari/.test(navigator.appVersion)) {
+    window.console = {
+      origConsole: window.console,
+      log: function(s){ this.origConsole.log(s); },
+      info: function(s){ this.origConsole.info(s); },
+      error: function(s){ this.origConsole.error(s); },
+      warn: function(s){ this.origConsole.warn(s); }
+    };
+  }
+
+  var djConfig = {
+    // don't debug for IE - as dojo's firebug lite module is error prone in IE
+    isDebug: false,
+    parseOnLoad: true
+  };
+
+  var bamGAID = 'UA-338393-1';
+  var bamGAVPV = location.pathname + location.search + location.hash;
+</script>
+<script type="text/javascript" src="/javascript/dojo/dojo/dojo.js?v=pzlwVCPPo+oJC12upPgJrJ5EG_k"></script>
+<script type="text/javascript" src="/javascript/dojo/dojo/ambra.js?v=Y8JM0CVD9YwjC99M_jvbcRTiGhY"></script>
+<script type="text/javascript" src="/javascript/init_global.js?v=fF03pfG3r+Nkj_czZ8ORg8o5sNM"></script>
+<script type="text/javascript" src="/javascript/init_article.js?v=qzBD_a7nKbeMM2xNUtB3vckN+Zc"></script>
+<script type="text/javascript" src="/javascript/init_ratings.js?v=seKykuS0X33CQGS7Lj+8FtBy5Uw"></script>
+<script type="text/javascript" src="/javascript/init_lightBox.js?v=vJRLPy7RRX8Zp31Ogcm3i+TA4f8"></script>
+<script type="text/javascript" src="/javascript/init_article_body.js?v=YgFei2xCi50CahwaPbSsxUxUsmw"></script>
+<script type="text/javascript" src="/javascript/init_article_rhc.js?v=djtbTMOagorKE6ZPrkCwufAfWWI"></script>
+<script type="text/javascript" src="/javascript/alm.js?v=1tH9JZ8uDtXspXssGJDr8O+jBOs"></script>
+<script type="text/javascript" src="/javascript/reporting/articleViewsCumulative.js?v=RQ+gCrcAl0dBeLbmokxgQZTGYYA"></script>
+<script type="text/javascript" src="/javascript/check_twitter.js?v=Hc0sH1W9xIu0qhqxWPD4c1u50K4"></script>
+<script type="text/javascript" src="/javascript/init_googleAnalytics.js?v=yCD4h9PHGI0dsefmuWDlMn7pHog"></script>
+
+</body>
+</html>
+

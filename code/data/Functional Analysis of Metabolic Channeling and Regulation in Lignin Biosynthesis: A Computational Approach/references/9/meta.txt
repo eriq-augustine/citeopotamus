@@ -1,0 +1,6 @@
+TITLE: Independent origins of syringyl lignin in vascular plants.
+AUTHORS: Weng JK, Li X, Stout J, Chapple C
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Lycophytes arose in the early Silurian ( approximately 400 Mya) and represent a major lineage of vascular plants that has evolved in parallel with the ferns, gymnosperms, and angiosperms. A hallmark of vascular plants is the presence of the phenolic lignin heteropolymer in xylem and other sclerified cell types. Although syringyl lignin is often considered to be restricted in angiosperms, it has been detected in lycophytes as well. Here we report the characterization of a cytochrome P450-dependent monooxygenase from the lycophyte Selaginella moellendorffii. Gene expression data, cross-species complementation experiments, and in vitro enzyme assays indicate that this P450 is a ferulic acid/coniferaldehyde/coniferyl alcohol 5-hydroxylase (F5H), and is capable of diverting guaiacyl-substituted intermediates into syringyl lignin biosynthesis. Phylogenetic analysis indicates that the Selaginella F5H represents a new family of plant P450s and suggests that it has evolved independently of angiosperm F5Hs.

@@ -1,0 +1,6 @@
+TITLE: Manufacturing molecules through metabolic engineering.
+AUTHORS: Keasling JD
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Metabolic engineering has the potential to produce from simple, readily available, inexpensive starting materials a large number of chemicals that are currently derived from nonrenewable resources or limited natural resources. Microbial production of natural products has been achieved by transferring product-specific enzymes or entire metabolic pathways from rare or genetically intractable organisms to those that can be readily engineered, and production of unnatural specialty chemicals, bulk chemicals, and fuels has been enabled by combining enzymes or pathways from different hosts into a single microorganism and by engineering enzymes to have new function. Whereas existing production routes use well-known, safe, industrial microorganisms, future production schemes may include designer cells that are tailor-made for the desired chemical and production process. In any future, metabolic engineering will soon rival and potentially eclipse synthetic organic chemistry.

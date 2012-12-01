@@ -1,0 +1,4 @@
+Reconstruction of biochemical networks in microorganisms.
+Feist AM, Herrgård MJ, Thiele I, Reed JL, Palsson BØ
+Abstract:
+Systems analysis of metabolic and growth functions in microbial organisms is rapidly developing and maturing. Such studies are enabled by reconstruction, at the genomic scale, of the biochemical reaction networks that underlie cellular processes. The network reconstruction process is organism specific and is based on an annotated genome sequence, high-throughput network-wide data sets and bibliomic data on the detailed properties of individual network components. Here we describe the process that is currently used to achieve comprehensive network reconstructions and discuss how these reconstructions are curated and validated. This review should aid the growing number of researchers who are carrying out reconstructions for particular target organisms.

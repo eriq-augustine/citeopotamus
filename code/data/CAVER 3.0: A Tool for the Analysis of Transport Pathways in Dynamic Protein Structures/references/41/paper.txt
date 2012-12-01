@@ -1,0 +1,4 @@
+HOLLOW: generating accurate representations of channel and interior surfaces in molecular structures.
+Ho BK, Gruswitz F
+Abstract:
+None

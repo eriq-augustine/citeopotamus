@@ -1,0 +1,6 @@
+TITLE: Bayesian phylogenetic analysis supports monophyly of ambulacraria and of cyclostomes.
+AUTHORS: Furlong RF, Holland PW
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Vertebrates are part of the phylum Chordata, itself part of a three-phylum group known as the deuterostomes. Despite extensive phylogenetic analysis of the deuterostome animals, several unresolved relationships remain. These include the relationship between the three deuterostome phyla (chordates, echinoderms and hemichordates), and the monophyletic or paraphyletic origin of the cyclostomes (hagfish and lampreys). Using robust Bayesian statistical analysis of 18S ribosomal DNA, mitochondrial genes and nuclear protein-coding DNA, we find strong support for a hemichordate-echinoderm clade, and for monophyly of the cyclostomes.

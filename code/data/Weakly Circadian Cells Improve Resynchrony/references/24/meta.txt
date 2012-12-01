@@ -1,0 +1,6 @@
+TITLE: A multicellular model for differential regulation of circadian signals in the core and shell regions of the suprachiasmatic nucleus.
+AUTHORS: Vasalou C, Henson MA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

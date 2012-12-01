@@ -1,0 +1,6 @@
+TITLE: Kinesin walks hand-over-hand.
+AUTHORS: Yildiz A, Tomishige M, Vale RD, Selvin PR
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Kinesin is a processive motor that takes 8.3-nm center-of-mass steps along microtubules for each adenosine triphosphate hydrolyzed. Whether kinesin moves by a "hand-over-hand" or an "inchworm" model has been controversial. We have labeled a single head of the kinesin dimer with a Cy3 fluorophore and localized the position of the dye to within 2 nm before and after a step. We observed that single kinesin heads take steps of 17.3 +/- 3.3 nm. A kinetic analysis of the dwell times between steps shows that the 17-nm steps alternate with 0-nm steps. These results strongly support a hand-over-hand mechanism, and not an inchworm mechanism. In addition, our results suggest that kinesin is bound by both heads to the microtubule while it waits for adenosine triphosphate in between steps.

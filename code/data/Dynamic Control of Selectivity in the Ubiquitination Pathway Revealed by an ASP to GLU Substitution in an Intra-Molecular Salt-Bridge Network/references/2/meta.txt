@@ -1,0 +1,6 @@
+TITLE: RING domain E3 ubiquitin ligases.
+AUTHORS: Deshaies RJ, Joazeiro CA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+E3 ligases confer specificity to ubiquitination by recognizing target substrates and mediating transfer of ubiquitin from an E2 ubiquitin-conjugating enzyme to substrate. The activity of most E3s is specified by a RING domain, which binds to an E2 approximately ubiquitin thioester and activates discharge of its ubiquitin cargo. E2-E3 complexes can either monoubiquitinate a substrate lysine or synthesize polyubiquitin chains assembled via different lysine residues of ubiquitin. These modifications can have diverse effects on the substrate, ranging from proteasome-dependent proteolysis to modulation of protein function, structure, assembly, and/or localization. Not surprisingly, RING E3-mediated ubiquitination can be regulated in a number of ways. RING-based E3s are specified by over 600 human genes, surpassing the 518 protein kinase genes. Accordingly, RING E3s have been linked to the control of many cellular processes and to multiple human diseases. Despite their critical importance, our knowledge of the physiological partners, biological functions, substrates, and mechanism of action for most RING E3s remains at a rudimentary stage.

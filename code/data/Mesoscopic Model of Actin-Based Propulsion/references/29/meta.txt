@@ -1,0 +1,6 @@
+TITLE: Force generation of curved actin gels characterized by combined AFM-epifluorescence measurements.
+AUTHORS: Schmidt S, Helfer E, Carlier MF, Fery A
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

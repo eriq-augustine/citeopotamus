@@ -1,0 +1,6 @@
+TITLE: Individual neurons dissociated from rat suprachiasmatic nucleus express independently phased circadian firing rhythms.
+AUTHORS: Welsh DK, Logothetis DE, Meister M, Reppert SM
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Within the mammalian hypothalamus, the suprachiasmatic nucleus (SCN) contains a circadian clock for timing of diverse neuronal, endocrine, and behavioral rhythms. By culturing cells from neonatal rat SCN on fixed microelectrode arrays, we have been able to record spontaneous action potentials from individual SCN neurons for days or weeks, revealing prominent circadian rhythms in firing rate. Despite abundant functional synapses, circadian rhythms expressed by neurons in the same culture are not synchronized. After reversible blockade of neuronal firing lasting 2.5 days, circadian firing rhythms re-emerge with unaltered phases. These data suggest that the SCN contains a large population of autonomous, single-cell circadian oscillators, and that synapses formed in vitro are neither necessary for operation of these oscillators nor sufficient for synchronizing them.

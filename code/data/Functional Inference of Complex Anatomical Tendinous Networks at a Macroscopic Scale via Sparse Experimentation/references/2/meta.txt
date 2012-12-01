@@ -1,0 +1,6 @@
+TITLE: Exploring complex networks.
+AUTHORS: Strogatz SH
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The study of networks pervades all of science, from neurobiology to statistical physics. The most basic issues are structural: how does one characterize the wiring diagram of a food web or the Internet or the metabolic network of the bacterium Escherichia coli? Are there any unifying principles underlying their topology? From the perspective of nonlinear dynamics, we would also like to understand how an enormous network of interacting dynamical systems-be they neurons, power stations or lasers-will behave collectively, given their individual dynamics and coupling architecture. Researchers are only now beginning to unravel the structure and dynamics of complex networks.

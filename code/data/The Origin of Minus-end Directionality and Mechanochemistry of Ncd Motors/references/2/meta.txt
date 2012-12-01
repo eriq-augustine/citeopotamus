@@ -1,0 +1,6 @@
+TITLE: The way things move: looking under the hood of molecular motor proteins.
+AUTHORS: Vale RD, Milligan RA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The microtubule-based kinesin motors and actin-based myosin motors generate motions associated with intracellular trafficking, cell division, and muscle contraction. Early studies suggested that these molecular motors work by very different mechanisms. Recently, however, it has become clear that kinesin and myosin share a common core structure and convert energy from adenosine triphosphate into protein motion using a similar conformational change strategy. Many different types of mechanical amplifiers have evolved that operate in conjunction with the conserved core. This modular design has given rise to a remarkable diversity of kinesin and myosin motors whose motile properties are optimized for performing distinct biological functions.

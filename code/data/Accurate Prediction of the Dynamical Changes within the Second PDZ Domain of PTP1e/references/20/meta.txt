@@ -1,0 +1,6 @@
+TITLE: Signaling pathways of PDZ2 domain: a molecular dynamics interaction correlation analysis.
+AUTHORS: Kong Y, Karplus M
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

@@ -1,0 +1,6 @@
+TITLE: The amino-acid mutational spectrum of human genetic disease.
+AUTHORS: Vitkup D, Sander C, Church GM
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

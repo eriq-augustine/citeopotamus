@@ -1,0 +1,4 @@
+Agent-based modeling of multicell morphogenic processes during development.
+Thorne BC, Bailey AM, DeSimone DW, Peirce SM
+Abstract:
+None

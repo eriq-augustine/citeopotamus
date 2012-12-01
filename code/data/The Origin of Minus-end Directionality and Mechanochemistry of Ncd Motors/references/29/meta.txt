@@ -1,0 +1,6 @@
+TITLE: Rotation of the stalk/neck and one head in a new crystal structure of the kinesin motor protein, Ncd.
+AUTHORS: Yun M, Bronner CE, Park CG, Cha SS, Park HW, Endow SA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Molecular motors undergo conformational changes to produce force and move along cytoskeletal filaments. Structural changes have been detected in kinesin motors; however, further changes are expected because previous crystal structures are in the same or closely related conformations. We report here a 2.5 A crystal structure of the minus-end kinesin, Ncd, with the coiled-coil stalk/neck and one head rotated by approximately 75 degrees relative to the other head. The two heads are asymmetrically positioned with respect to the stalk and show asymmetry of nucleotide state: one head is fully occupied, but the other is unstably bound to ADP. Unlike previous structures, our new atomic model can be fit into cryoelectron microscopy density maps of the motor attached to microtubules, where it appears to resemble a one-head-bound motor with the stalk rotated towards the minus end. Interactions between neck and motor core residues, observed in the head that moves with the stalk, are disrupted in the other head, permitting rotation of the stalk/neck. The rotation could represent a force-producing stroke that directs the motor to the minus end.

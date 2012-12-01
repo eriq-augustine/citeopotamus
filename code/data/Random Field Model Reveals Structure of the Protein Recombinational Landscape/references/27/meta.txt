@@ -1,0 +1,6 @@
+TITLE: Why are proteins marginally stable?
+AUTHORS: Taverna DM, Goldstein RA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

@@ -1,0 +1,4 @@
+Structural basis of the Tanford transition of bovine beta-lactoglobulin.
+Qin BY, Bewley MC, Creamer LK, Baker HM, Baker EN, Jameson GB
+Abstract:
+The structures of the trigonal crystal form of bovine beta-lactoglobulin variant A at pH 6.2, 7.1, and 8.2 have been determined by X-ray diffraction methods at a resolution of 2.56, 2. 24, and 2.49 A, respectively. The corresponding values for R (Rfree) are 0.192 (0.240), 0.234 (0.279), and 0.232 (0.277). The C and N termini as well as two disulfide bonds are clearly defined in these models. The glutamate side chain of residue 89 is buried at pH 6.2 and becomes exposed at pH 7.1 and 8.2. This conformational change, involving the loop 85-90, provides a structural basis for a variety of pH-dependent chemical, physical, and spectroscopic phenomena, collectively known as the Tanford transition.

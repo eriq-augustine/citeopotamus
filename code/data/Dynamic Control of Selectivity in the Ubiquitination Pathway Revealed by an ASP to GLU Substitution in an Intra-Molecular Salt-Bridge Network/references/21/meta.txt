@@ -1,0 +1,6 @@
+TITLE: A novel mechanism of tumorigenesis involving pH-dependent destabilization of a mutant p53 tetramer.
+AUTHORS: DiGiammarino EL, Lee AS, Cadwell C, Zhang W, Bothner B, Ribeiro RC, Zambetti G, Kriwacki RW
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The p53 tumor suppressor requires tetramerization to function as an initiator of cell cycle arrest and/or apoptosis. Children in southern Brazil that exhibit an elevated incidence of adrenocortical carcinoma (ACC) harbor an Arg 337 to His mutation within the tetramerization domain of p53 (p53-R337H; 35 of 36 patients). The mutant tetramerization domain (p53tet-R337H) adopts a native-like fold but is less stable than the wild type domain (p53tet-wt). Furthermore, the stability of p53tet-R337H is highly sensitive to pH in the physiological range; this sensitivity correlates with the protonation state of the mutated His 337. These results demonstrate a pH-sensitive molecular defect of p53 (R337H), suggesting that pH-dependent p53 dysfunction is the molecular basis for these cases of ACC in Brazilian children.

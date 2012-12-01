@@ -1,0 +1,6 @@
+TITLE: Familial mitochondrial encephalomyopathy (MERRF): genetic, pathophysiological, and biochemical characterization of a mitochondrial DNA disease.
+AUTHORS: Wallace DC, Zheng XX, Lott MT, Shoffner JM, Hodge JA, Kelley RI, Epstein CM, Hopkins LC
+TERMS:
+CATEGORIES:
+ABSTRACT:
+A large MERRF pedigree permitted the direct testing of the predictions for a mitochondrial DNA (mtDNA) mutation. A mtDNA mutation was demonstrated by proving maternal inheritance and by identifying specific deficiencies in muscle energetics and mitochondrial respiratory complexes I and IV. mtDNA heteroplasmy (a mixture of mutant and wild-type mtDNAs) was demonstrated by showing variation in the mitochondrial energetic capacity between family members. The phenotypic consequences of differential tissue-specific reliance on mitochondrial ATP was shown by correlating individual respiratory deficiency with the nature and severity of patients' clinical manifestations. The observed spectrum of clinical manifestations resulting from this heteroplasmic mtDNA mutation implies that mtDNA disease may be much more prevalent than previously anticipated.

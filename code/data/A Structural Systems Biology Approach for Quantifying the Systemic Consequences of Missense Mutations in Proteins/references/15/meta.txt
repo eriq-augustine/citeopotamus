@@ -1,0 +1,6 @@
+TITLE: Systems-level dissection of the cell-cycle oscillator: bypassing positive feedback produces damped oscillations.
+AUTHORS: Pomerening JR, Kim SY, Ferrell JE Jr
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The cell-cycle oscillator includes an essential negative-feedback loop: Cdc2 activates the anaphase-promoting complex (APC), which leads to cyclin destruction and Cdc2 inactivation. Under some circumstances, a negative-feedback loop is sufficient to generate sustained oscillations. However, the Cdc2/APC system also includes positive-feedback loops, whose functional importance we now assess. We show that short-circuiting positive feedback makes the oscillations in Cdc2 activity faster, less temporally abrupt, and damped. This compromises the activation of cyclin destruction and interferes with mitotic exit and DNA replication. This work demonstrates a systems-level role for positive-feedback loops in the embryonic cell cycle and provides an example of how oscillations can emerge out of combinations of subcircuits whose individual behaviors are not oscillatory. This work also underscores the fundamental similarity of cell-cycle oscillations in embryos to repetitive action potentials in pacemaker neurons, with both systems relying on a combination of negative and positive-feedback loops.

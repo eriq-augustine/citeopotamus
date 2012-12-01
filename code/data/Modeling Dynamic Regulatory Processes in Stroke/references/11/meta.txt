@@ -1,0 +1,6 @@
+TITLE: The Inferelator: an algorithm for learning parsimonious regulatory networks from systems-biology data sets de novo.
+AUTHORS: Bonneau R, Reiss DJ, Shannon P, Facciotti M, Hood L, Baliga NS, Thorsson V
+TERMS:
+CATEGORIES:
+ABSTRACT:
+We present a method (the Inferelator) for deriving genome-wide transcriptional regulatory interactions, and apply the method to predict a large portion of the regulatory network of the archaeon Halobacterium NRC-1. The Inferelator uses regression and variable selection to identify transcriptional influences on genes based on the integration of genome annotation and expression data. The learned network successfully predicted Halobacterium's global expression under novel perturbations with predictive power similar to that seen over training data. Several specific regulatory predictions were experimentally tested and verified.

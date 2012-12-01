@@ -1,0 +1,6 @@
+TITLE: WGCNA: an R package for weighted correlation network analysis.
+AUTHORS: Langfelder P, Horvath S
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

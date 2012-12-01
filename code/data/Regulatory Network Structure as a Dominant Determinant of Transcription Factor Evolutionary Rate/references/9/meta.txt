@@ -1,0 +1,6 @@
+TITLE: Evolutionary rates and centrality in the yeast gene regulatory network.
+AUTHORS: Jovelin R, Phillips PC
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

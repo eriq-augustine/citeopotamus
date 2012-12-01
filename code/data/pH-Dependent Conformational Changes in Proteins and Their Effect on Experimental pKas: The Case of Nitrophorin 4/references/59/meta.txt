@@ -1,0 +1,6 @@
+TITLE: Remeasuring HEWL pK(a) values by NMR spectroscopy: methods, analysis, accuracy, and implications for theoretical pK(a) calculations.
+AUTHORS: Webb H, Tynan-Connolly BM, Lee GM, Farrell D, O'Meara F, Søndergaard CR, Teilum K, Hewage C, McIntosh LP, Nielsen JE
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

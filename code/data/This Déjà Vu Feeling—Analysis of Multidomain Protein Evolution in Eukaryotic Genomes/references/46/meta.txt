@@ -1,0 +1,6 @@
+TITLE: CHOP proteins into structural domain-like fragments.
+AUTHORS: Liu J, Rost B
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

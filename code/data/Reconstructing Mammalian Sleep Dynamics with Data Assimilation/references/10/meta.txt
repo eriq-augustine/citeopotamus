@@ -1,0 +1,6 @@
+TITLE: Hybrid grammar-based approach to nonlinear dynamical system identification from biological time series.
+AUTHORS: McKinney BA, Crowe JE Jr, Voss HU, Crooke PS, Barney N, Moore JH
+TERMS:
+CATEGORIES:
+ABSTRACT:
+We introduce a grammar-based hybrid approach to reverse engineering nonlinear ordinary differential equation models from observed time series. This hybrid approach combines a genetic algorithm to search the space of model architectures with a Kalman filter to estimate the model parameters. Domain-specific knowledge is used in a context-free grammar to restrict the search space for the functional form of the target model. We find that the hybrid approach outperforms a pure evolutionary algorithm method, and we observe features in the evolution of the dynamical models that correspond with the emergence of favorable model components. We apply the hybrid method to both artificially generated time series and experimentally observed protein levels from subjects who received the smallpox vaccine. From the observed data, we infer a cytokine protein interaction network for an individual's response to the smallpox vaccine.

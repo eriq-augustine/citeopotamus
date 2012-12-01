@@ -1,0 +1,6 @@
+TITLE: Dissecting the kinematics of the kinesin step.
+AUTHORS: Zhang Z, Thirumalai D
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

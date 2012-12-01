@@ -1,0 +1,41 @@
+[1]	Perl ER (2011) Pain mechanisms: a commentary on concepts and issues. Prog Neurobiol 94: 20. doi: 10.1016/j.pneurobio.2011.03.001. 
+[2]	Finger S (2001) Origins of Neuroscience: A history of explorations into brain function. London: Oxford University Press. 
+[3]	Wittgenstein L (1953) Philosophical investigations. Oxford: Blackwell Publishing (English Translation 2001). 
+[4]	Dennett DC (1978) Why you can't make a computer that feels pain. Synthese 38: 415. doi: 10.1007/BF00486638. 
+[5]	Merskey H, Bogduk N (1994) Classification of chronic pain. 2nd edition. Seattle: International Association for the Study of Pain. 
+[6]	Weber EH (1978) The sense of touch. London: Academic Press. 
+[7]	Stevens SS (1957) On the psychophysical law. Psychol Rev 64: 153. doi: 10.1037/h0046162. 
+[8]	Price DD (1988), Psychological and neural mechanisms of pain. New York: Raven Press. 
+[9]	Hansson P, Haanpaa M (2007) Diagnostic work-up of neuropathic pain: computing, using questionnaires or examining the patient? Eur J Pain 11: 367. doi: 10.1016/j.ejpain.2006.12.005. 
+[10]	Cruccu G, et al. (2004) EFNS guidelines on neuropathic pain assessment. Eur J Neurol 11: 153. doi: 10.1111/j.1468-1331.2004.00791.x. 
+[11]	Hardy JD, Stolwijk AJ, Hoffman D, Kenshalo DR (1968) Pain following step increase in skin temperature. The skin senses. pp. 444–456. Springfield: Thomas. 
+[12]	Ahlquist ML, Edwall LG, Franzen OG, Haegerstam GA (1984) Perception of pulpal pain as a function of intradental nerve activity. Pain 19: 353–366. doi: 10.1016/0304-3959(84)90081-2. 
+[13]	Vierck CJ, Cooper BY, Franzen D, Ritz LA, Greenspan JD (1983) Behavioral analysis of CNS pathways and transmitter systems involved in conduction and inhibition of pain sensations and reactions in primates. In: Progress in Psychobiology. New York: Academic Press. 
+[14]	Baliki MN, Geha PY, Apkarian AV (2009) Parsing pain perception between nociceptive representation and magnitude estimation. J Neurophysiol 101: 875–887. doi: 10.1152/jn.91100.2008. 
+[15]	Handwerker H, Schoedel A, Zimmermann K, Forster C (2005) How do pain ratings change the brain activation by painful stimuli measured with fMRI? Society for Neuroscience Abstracts 
+[16]	Yelle MD, Rogers JM, Coghill RC (2008) Offset analgesia: a temporal contrast mechanism for nociceptive information. Pain 134: 174–186. doi: 10.1016/j.pain.2007.04.014. 
+[17]	Davis KD, Pope GE, Crawley AP, Mikulis DJ (2002) Neural correlates of prickle sensation: a percept-related fMRI study. Nat Neurosci 5: 1121–1122. doi: 10.1038/nn955. 
+[18]	Davis KD, Pope GE, Crawley AP, Mikulis DJ (2004) Perceptual illusion of “paradoxical heat” engages the insular cortex. J Neurophysiol 92: 1248–1251. doi: 10.1152/jn.00084.2004. 
+[19]	Yelle MD, Oshiro Y, Kraft RA, Coghill RC (2009) Temporal filtering of nociceptive information by dynamic activation of endogenous pain modulatory systems. J Neurosci 29: 10264–10271. doi: 10.1523/JNEUROSCI.4648-08.2009. 
+[20]	Amris K, Waehren EE, Jespersen A, Bliddal H, Danneskiold-Samsoe B (2011) Observation-based assessment of functional ability in patients with chronic widespread pain: A cross-sectional study. Pain 152: 2470–2476. doi: 10.1016/j.pain.2011.05.027. 
+[21]	Morley S (2008) Psychology of pain. Br J Anaesth 101: 25–31. doi: 10.1093/bja/aen123. 
+[22]	Mitchell TM, et al. (2008) Predicting human brain activity associated with the meanings of nouns. Science 320: 1191–1195. doi: 10.1126/science.1152876. 
+[23]	Kay KN, Naselaris T, Prenger RJ, Gallant JL (2008) Identifying natural images from human brain activity. Nature 452: 352–355. doi: 10.1038/nature06713. 
+[24]	Wager TD, Atlas LY, Leotti LA, Rilling JK (2011) Predicting individual differences in placebo analgesia: Contributions of brain activity during anticipation and pain experience. J Neurosci 31: 439–452. doi: 10.1523/JNEUROSCI.3420-10.2011. 
+[25]	Brown JE, Chatterjee N, Younger J, Mackey S (2011) Towards a physiology-based measure of pain: patterns of human brain activity distinguish painful from non-painful thermal stimulation. PLoS ONE 6: e24124. doi: 10.1371/journal.pone.0024124. 
+[26]	Carroll MK, Cecchi GA, Rish I, Garg R, Rao AR (2009) Prediction and interpretation of distributed neural activity with sparse models. Neuroimage 44: 112–122. doi: 10.1016/j.neuroimage.2008.08.020. 
+[27]	Rish I, Cecchi GA, Baliki MN, Apkarian AV (2010) Sparse regression models of pain perception. Lect N Comp Sci 6334: 212–223. 
+[28]	Hashmi JA, Davis KD (2008) Effect of static and dynamic heat pain stimulus profiles on the temporal dynamics and interdependence of pain qualities, intensity, and affect. J Neurophysiol 100: 1706–1715. doi: 10.1152/jn.90500.2008. 
+[29]	Basbaum AI, Bautista DM, Scherrer G, Julius D (2009) Cellular and molecular mechanisms of pain. Cell 139: 267–284. doi: 10.1016/j.cell.2009.09.028. 
+[30]	Derbyshire SWG, Osborn J (2008) Enhancement of offset analgesia during sequential testing. Eur J Pain 12: 980–989. doi: 10.1016/j.ejpain.2008.01.008. 
+[31]	Burnham KP, Anderson DR (2002) Model selection and multimodel inference: A practical information-theoretic approach. New York: Springer-Verlag. 
+[32]	Zou H, Hastie T (2005) Regularization and variable selection via the Elastic Net. J Royal Stat Soc B 67: 301–320. 
+[33]	Tibshirani R (1996) Regression shrinkage and selection via the lasso. J Royal Stat Soc B 58: 267–288. doi: 10.1111/j.1467-9868.2011.00771.x. 
+[34]	Hoerl A, Kennard R (1988) Ridge regression. Encyclopedia of Statistical Sciences 8: 129–136. 
+[35]	Fu W (1998) Penalized regression: the bridge versus the lasso. J Comput Graph Statist 7: 397–416. 
+[36]	Phillips JR, Johnson KO, Hsiao SS (1988) Spatial pattern representation and transformation in monkey somatosensory cortex. Proc Natl Acad Sci U S A 85: 1317–1321. doi: 10.1073/pnas.85.4.1317. 
+[37]	Romo R, Salinas E (2001) Touch and go: decision-making mechanisms in somatosensation,. Annu Rev Neurosci 24: 107–137. 
+[38]	Gabernet L, Jadhav SP, Feldman DF, Carandini M, Scanziani M (2005) Somatosensory integration controlled by dynamic thalamocortical feed-forward inhibition. Neuron 48: 315–327. doi: 10.1016/j.neuron.2005.09.022. 
+[39]	Dan Y, Atick JJ, Reid RC (1996) Efficient coding of natural scenes in the lateral geniculate nucleus: experimental test of a computational theory. J Neurosci 16: 3351–3362. 
+[40]	Miron D, Duncan GH, Bushnell MC (1989) Effects of attention on the intensity and unpleasantness of thermal pain. Pain 39: 345–352. doi: 10.1016/0304-3959(89)90048-1. 
+[41]	Bantick SJ, Wise RG, Ploghaus A, Clare S, Smith SM, Tracey I (2002) Imaging how attention modulates pain in humans using functional MRI. Brain 125: 310–319. doi: 10.1093/brain/awf022. 

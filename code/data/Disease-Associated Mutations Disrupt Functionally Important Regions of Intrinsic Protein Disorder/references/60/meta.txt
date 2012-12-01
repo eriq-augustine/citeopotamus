@@ -1,0 +1,6 @@
+TITLE: Heterozygous germline mutations in the p53 homolog p63 are the cause of EEC syndrome.
+AUTHORS: Celli J, Duijf P, Hamel BC, Bamshad M, Kramer B, Smits AP, Newbury-Ecob R, Hennekam RC, Van Buggenhout G, van Haeringen A, Woods CG, van Essen AJ, de Waal R, Vriend G, Haber DA, Yang A, McKeon F, Brunner HG, van Bokhoven H
+TERMS:
+CATEGORIES:
+ABSTRACT:
+EEC syndrome is an autosomal dominant disorder characterized by ectrodactyly, ectodermal dysplasia, and facial clefts. We have mapped the genetic defect in several EEC syndrome families to a region of chromosome 3q27 previously implicated in the EEC-like disorder, limb mammary syndrome (LMS). Analysis of the p63 gene, a homolog of p53 located in the critical LMS/EEC interval, revealed heterozygous mutations in nine unrelated EEC families. Eight mutations result in amino acid substitutions that are predicted to abolish the DNA binding capacity of p63. The ninth is a frameshift mutation that affects the p63alpha, but not p63beta and p63gamma isotypes. Transactivation studies with these mutant p63 isotypes provide a molecular explanation for the dominant character of p63 mutations in EEC syndrome.

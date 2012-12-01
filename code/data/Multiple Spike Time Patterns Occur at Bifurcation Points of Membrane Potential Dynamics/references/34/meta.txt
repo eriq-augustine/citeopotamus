@@ -1,0 +1,6 @@
+TITLE: Predicting every spike: a model for the responses of visual neurons.
+AUTHORS: Keat J, Reinagel P, Reid RC, Meister M
+TERMS:
+CATEGORIES:
+ABSTRACT:
+In the early visual system, neuronal responses can be extremely precise. Under a wide range of stimuli, cells in the retina and thalamus fire spikes very reproducibly, often with millisecond precision on subsequent stimulus repeats. Here we develop a mathematical description of the firing process that, given the recent visual input, accurately predicts the timing of individual spikes. The formalism is successful in matching the spike trains from retinal ganglion cells in salamander, rabbit, and cat, as well as from lateral geniculate nucleus neurons in cat. It adapts to many different response types, from very precise to highly variable. The accuracy of the model allows a compact description of how these neurons encode the visual stimulus.

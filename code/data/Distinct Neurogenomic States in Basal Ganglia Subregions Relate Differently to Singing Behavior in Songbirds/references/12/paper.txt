@@ -1,0 +1,4 @@
+Strategies for aggregating gene expression data: the collapseRows R function.
+Miller JA, Cai C, Langfelder P, Geschwind DH, Kurian SM, Salomon DR, Horvath S
+Abstract:
+None

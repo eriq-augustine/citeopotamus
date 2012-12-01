@@ -1,0 +1,4 @@
+Chemical syntheses and properties of hydroxycinnamoyl-coenzyme A derivatives.
+Stöckigt J, Zenk MH
+Abstract:
+Acyl-CoA derivatives of several hydroxylated cinnamic acids have been synthesized in 30 to 50% yield via a. acyl phenyl thiol esters, b. acyl N-hydroxysuccinimide esters, and c. glucocinnamoyl derivatives. Properties of the intermediates have been determined. The cinnamyol-CoA thiol esters were characterized by their chromatographic behaviour and UV spectra. The molar extinction coefficients of these important intermediates in plant phenylpropane metabolism have been unequivocally determined. Recently published values 13 for the molar extinction coefficients of these derivatives are incorrect; the methodological reason for this error has been established.

@@ -1,0 +1,4 @@
+Driving the cell cycle with a minimal CDK control network.
+Coudreuse D, Nurse P
+Abstract:
+Control of eukaryotic cell proliferation involves an extended regulatory network, the complexity of which has made it difficult to understand the basic principles of the cell cycle. To investigate the core engine of the mitotic cycle we have generated a minimal control network in fission yeast that efficiently sustains cellular reproduction. Here we demonstrate that orderly progression through the major events of the cell cycle can be driven by oscillation of an engineered monomolecular cyclin-dependent protein kinase (CDK) module lacking much of the canonical regulation. We show further that the CDK oscillator acts as the primary organizer of the cell cycle, imposing timing and directionality to a system of two CDK activity thresholds that define independent cell cycle phases. We propose that this simple core architecture forms the basic control of the eukaryotic cell cycle.

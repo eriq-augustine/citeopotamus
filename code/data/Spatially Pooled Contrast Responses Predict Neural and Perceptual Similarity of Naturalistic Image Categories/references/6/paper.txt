@@ -1,0 +1,4 @@
+The time course of visual processing: from early perception to decision-making.
+VanRullen R, Thorpe SJ
+Abstract:
+Experiments investigating the mechanisms involved in visual processing often fail to separate low-level encoding mechanisms from higher-level behaviorally relevant ones. Using an alternating dual-task event-related potential (ERP) experimental paradigm (animals or vehicles categorization) where targets of one task are intermixed among distractors of the other, we show that visual categorization of a natural scene involves different mechanisms with different time courses: a perceptual, task-independent mechanism, followed by a task-related, category-independent process. Although average ERP responses reflect the visual category of the stimulus shortly after visual processing has begun (e.g. 75-80 msec), this difference is not correlated with the subject's behavior until 150 msec poststimulus.

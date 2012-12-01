@@ -51,3 +51,65 @@ Supporting Information
 Video S1. 
 The motion along the one of the two low frequency principal component of Ncd is shown in this video.
 (MPG)
+REFERENCES
+[1]	Hirokawa N (1998) Kinesin and Dynein superfamily proteins and the mechanism of organelle transport. Science 279: 519–526. doi: 10.1126/science.279.5350.519. 
+[2]	Vale RD, Milligan RA (2000) The way things move: looking under the hood of molecular motor proteins. Science 288: 88–95. doi: 10.1126/science.288.5463.88. 
+[3]	Howard J, Hyman AA (2003) Dynamics and mechanics of the microtubule plus end. Nature 422: 753–758. doi: 10.1038/nature01600. 
+[4]	Kull FJ, Sablin EP, Lau R, Fletterick RJ, Vale RD (1996) Crystal structure of the kinesin motor domain reveals a structural similarity to myosin. Nature 380: 550–555. 
+[5]	Sablin EP, Kull FJ, Cooke R, Vale RD, Fletterick RJ (1996) Crystal structure of the motor domain of the kinesin-related motor ncd. Nature 380: 555–559. doi: 10.1038/380555a0. 
+[6]	Vale RD, Reese TS, Sheetz MP (1985) Identification of a novel force-generating protein, kinesin, involved in microtubule-based motility. Cell 42: 39–50. doi: 10.1016/S0092-8674(85)80099-4. 
+[7]	Visscher K, Schnitzer MJ, Block SM (1999) Single kinesin molecules studied with a molecular force clamp. Nature 400: 184–189. 
+[8]	Sawin KE, LeGuellec K, Phillippe M, Mitchison TJ (1992) Mitotic spindle organization by a plus-end-directed microtubule motor. Nature 359: 540–543. doi: 10.1038/359540a0. 
+[9]	Nislow C, Lombillo VA, Kuriyama R, McIntosh JR (1992) A plus-end-directed motor enzyme that moves antiparallel microtubules in vitro localizes to the interzone of mitotic spindles. Nature 359: 543–547. 
+[10]	Helenius J, Brouhard G, Kalaidzidis Y, Diez S, Howard J (2006) The depolymerizing kinesin MCAK uses lattice diffusion to rapidly target microtubule ends. Nature 441: 115–119. doi: 10.1038/nature04736. 
+[11]	McDonald HB, Stewart JR, Goldstein LS (1990) The kinesin-like ncd protein of Drosophila is a minus end-directed microtubule motor. Cell 21: 1159–1165. 
+[12]	Block SM (2007) Kinesin motor mechanics: binding, stepping, tracking, gating, and limping. Biophys J 92: 2986–2995. doi: 10.1529/biophysj.106.100677. 
+[13]	Vale RD, Funatsu T, Pierce DW, Romberg L, Harada Y, et al. (1996) Direct observation of single kinesin molecules moving along microtubules. Nature 380: 451–453. doi: 10.1038/380451a0. 
+[14]	Asbury CL, Fehr AN, Block SM (2003) Kinesin moves by an asymmetric hand-over-hand mechanism. Science 302: 2130–2134. doi: 10.1126/science.1092985. 
+[15]	Yildiz A, Tomishige M, Vale RD, Selvin PR (2004) Kinesin walks hand-over-hand. Science 303: 676–678. doi: 10.1126/science.1093753. 
+[16]	Hancock WO, Howard J (1999) Kinesin's processivity results from mechanical and chemical coordination between the ATP hydrolysis cycles of the two motor domains. Proc Natl Acad Sci USA 96: 13147–13152. doi: 10.1073/pnas.96.23.13147. 
+[17]	Rice SA, Lin AW, Safer D, Hart CL, Naber N, et al. (1999) A structural change in the kinesin motor protein that drives motility. Nature 402: 778–784. 
+[18]	Uemura S, Ishiwata S (2003) Loading direction regulates the affinity of ADP for kinesin. Nature Struct Biol 10: 308–311. doi: 10.1038/nsb911. 
+[19]	Hyeon C, Onuchic JN (2007) Internal strain regulates the nucleotide binding site of the kinesin leading head. Proc Natl Acad Sci USA 104: 2175–2180. doi: 10.1073/pnas.0610939104. 
+[20]	Hyeon C, Onuchic JN (2007) Mechanical control of the directional stepping dynamics of the kinesin motor. Proc Natl Acad Sci USA 104: 17382–17387. doi: 10.1073/pnas.0708828104. 
+[21]	Yildiz A, Tomishige M, Gennerich A, Vale RD (2008) Intramolecular Strain Coordinates Kinesin Stepping Behavior along Microtubules. Cell 134: 1030–1041. doi: 10.1016/j.cell.2008.07.018. 
+[22]	Clancy BE, Behnke-Parks WM, Andreasson JO, Rosenfeld SS, Block SM (2011) A universal pathway for kinesin stepping. Nat Struct Mol Biol 18: 1020–1027. doi: 10.1038/nsmb.2104. 
+[23]	Hyeon C, Onuchic JN (2011) A structural perspective on the dynamics of Kinesin motors. Biophys J 101: 2749–2759. doi: 10.1016/j.bpj.2011.10.037. 
+[24]	Zhang Z, Thirumalai D (2012) Dissecting the kinematics of the kinesin step. Structure 20: 628–640. doi: 10.1016/j.str.2012.02.013. 
+[25]	Sablin EP, Case RB, Dai SC, Hart CL, Ruby A, et al. (1998) Direction determination in the minus-end-directed kinesin motor ncd. Nature 395: 813–816. 
+[26]	deCastro MJ, Fondecave RM, Clarke LA, Schmidt CF, Stewart RJ (2000) Working strokes by single molecules of the kinesin-related microtubule motor ncd. Nat Cell Biol 2: 724–729. 
+[27]	Wendt TG, Volkmann N, Skiniotis G, Goldie KN, Muller J, et al. (2002) Microscopic evidence for a minus-end-directed power stroke in the kinesin motor ncd. EMBO J 21: 5969–5978. doi: 10.1093/emboj/cdf622. 
+[28]	Foster KA, Mackey AT, Gilbert SP (2001) A nechanistic model for ncd directionality. J Biol Chem 276: 19259–19266. 
+[29]	Yun M, Bronner CE, Park C-G, Cha S-S, Park H-W, et al. (2003) Rotation of the stalk/neck and one head in a new crystal structure of the kinesin motor protein, Ncd. EMBO J 22: 5382–5389. doi: 10.1093/emboj/cdg531. 
+[30]	Suzuki Y, Tanokura M, Shimizu T (1998) Evidence for existence of multiple conformations of kinesin and ncd motor domains in solution revealed by 31P-NMR of the tightly bound ADP. Eur J Biochem 257: 466–471. 
+[31]	Case RB, Pierce DW, Hom-Booher N, Hart CL, Vale RD (1997) The Directional preference of kinesin motors is specified by an element outside of the motor catalytic domain. Cell 90: 959–966. doi: 10.1016/S0092-8674(00)80360-8. 
+[32]	Endow SA, Waligora KW (1998) Determinants of Kinesin motor polarity. Science 281: 1200–1202. doi: 10.1126/science.281.5380.1200. 
+[33]	Henningsen U, Schliwa M (1997) Reversal in the direction of movement of a molecular motor. Nature 389: 93–96. 
+[34]	Koga N, Takada S (2006) Folding-based molecular simulations reveal mechanisms of the rotary motor F1–ATPase. Proc Natl Acad Sci USA 103: 5367–5372. 
+[35]	Hyeon C, Lorimer GH, Thirumalai D (2006) Dynamics of allosteric transitions in GroEL. Proc Natl Acad Sci USA 103: 18939–18944. doi: 10.1073/pnas.0608759103. 
+[36]	Takano M, Terada T, Sasai M (2010) Unidirectional Brownian motion observed in an in silico single molecule experiment of an actomyosin motor. Proc Natl Acad Sci USA 107: 7769–7774. 
+[37]	Chen J, Darst S, Thirumalai D (2010) Promoter melting triggered by bacterial RNA polymerase occurs in three steps. Proc Natl Acad Sci USA 2: 12523–12528. doi: 10.1073/pnas.1003533107. 
+[38]	Whitford PC, Geggler P, Altman RB, Blanchard SC, Onuchic JN, et al. (2010) Accommodation of aminoacyl-tRNA into the ribosome involves reversible excursions along multiple pathways. RNA 16: 1196–1204. doi: 10.1261/rna.2035410. 
+[39]	Kravats A, Jayashinghe M, Stan G (2011) Unfolding and translocation pathway of substrate protein controlled by structure in repetitive allosteric cycles of the ClpY ATPase. Proc Natl Acad Sci USA 108: 2234–2239. doi: 10.1073/pnas.1014278108. 
+[40]	Hyeon C, Thirumalai D (2011) Capturing the essence of folding and functions of biomolecules using coarse-grained models. Nature Commun 2: 487. doi: 10.1038/ncomms1481. 
+[41]	Lakkaraju SK, Hwang W (2011) Hysteresis-based mechanism for the directed motility of the Ncd motor. Biophys J 101: 1105–1113. doi: 10.1016/j.bpj.2011.07.017. 
+[42]	Hyeon C, Jennings PA, Adams JA, Onuchic JN (2009) Ligand-induced global transitions in the catalytic domain of protein kinase A. Proc Natl Acad Sci USA 106: 3023–3028. doi: 10.1073/pnas.0813266106. 
+[43]	Lee Y, Jeong LS, Choi S, Hyeon C (2011) Link between allosteric signal transduction and functional dynamics in a multisubunit enzyme: S-adenosylhomocysteine hydrolase. J Am Chem Soc 133: 19807–19815. 
+[44]	Miyashita O, Onuchic JN, Wolynes PG (2003) Nonlinear elasticity, proteinquakes, and the energy landscapes of functional transitions in proteins. Proc Natl Acad Sci USA 100: 12570–12775. doi: 10.1073/pnas.2135471100. 
+[45]	Miyashita O, Wolynes PG, Onuchic JN (2005) Simple energy landscape model for the kinetics of functional transitions in proteins. J Phys Chem B 109: 1959–1969. doi: 10.1021/jp046736q. 
+[46]	Whitford PC, Onuchic JN, Wolynes PG (2008) Energy landscape along an enzymatic reaction trajectory: hinges or cracks? HFSP J 2: 61–64. doi: 10.2976/1.2894846. 
+[47]	Clementi C, Nymeyer H, Onuchic JN (2000) Topological and energetic factors: what determines the structural details of the transition state ensemble and “en-route” intermediates for protein folding? an investigation for small globular proteins. J Mol Biol 298: 937–953. doi: 10.1006/jmbi.2000.3693. 
+[48]	Ichiye T, Karplus M (1991) Collective motions in proteins: A covariance analysis of atomic fluctuations in molecular dynamics and normal mode simulations. Proteins: Struct Funct Gen 11: 205–217. doi: 10.1002/prot.340110305. 
+[49]	Sindelar CV, Downing KH (2010) An atomic-level mechanism for activation of the kinesin molecular motors. Proc Natl Acad Sci USA 107: 4111–4116. doi: 10.1073/pnas.0911208107. 
+[50]	Lupas A, Van Dyke M, Stock J (1991) Predicting coiled coils from protein sequences. Science 252: 1162–1164. doi: 10.1126/science.252.5009.1162. 
+[51]	Endow SA, Fletterick RJ (1998) Reversing a ‘backwards’ motor. Bio Essays 20: 108–112. doi: 10.1002/(SICI)1521-1878(199802)20:2<108::AID-BIES2>3.0.CO;2-P. 
+[52]	Foster KA, Correia JJ, Gilbert SP (1998) Equilibrium binding studies of non-claret disjunctional protein (Ncd) reveal cooperative interactions between the motor domains. J Biol Chem 273: 35307–35318. 
+[53]	Cross RA, Crevel I, Carter NJ, Alonso MC, Hirose K, et al. (2000) The conformational cycle of kinesin. Phil Trans Royal Soc London B 355: 459–464. 
+[54]	Crevel IM, Lockhart A, Cross RA (1996) Weak and strong states of Kinesin and ncd. J Mol Biol 257: 66–76. 
+[55]	Pechantikova E, Taylor EW (1997) Kinetic mechanism of monomeric non-claret disjunctional protein (Ncd) ATPase. J Biol Chem 272: 30735–30740. 
+[56]	Noel JK, Whitford PC, Sanbonmatsu KY, Onuchic JN (2010) SMOG@ctbp: simplified deployment of structure-based models in GROMACS. Nuc Acids Res 38: W657–661. 
+[57]	Le H, deRosier D, Nicholson W, Nogales E, Downing K (2002) Microtubule Structure at 8 Å Resolution. Structure 10: 1317–1328. 
+[58]	Honeycutt JD, Thirumalai D (1992) The nature of folded states of globular proteins. Bioplymers 32: 695–709. 
+[59]	Walker RA (1995) ncd and kinesin motor domains interact with both alpha- and beta-tubulin. Proc Natl Acad Sci USA 92: 5960–5964. 
+[60]	Song A, Endow SA (1996) Binding sites on microtubules of Kinesin motors of the same or opposite polarity. Biochemistry 35: 11203–11209. 
+[61]	Lockhart A, Crevel M-TC, Cross RA (1995) Kinesin and ncd bind through a single head to microtubules and compete for a shared MT binding site. J Mol Biol 249: 763–771. 

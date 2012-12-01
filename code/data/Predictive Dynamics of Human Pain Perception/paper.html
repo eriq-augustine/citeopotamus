@@ -1,0 +1,1359 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:dc="http://purl.org/dc/terms/"
+      xmlns:doi="http://dx.doi.org/"
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes#"
+      lang="en" xml:lang="en"
+      itemscope itemtype="http://schema.org/Article">
+
+<head>
+   <title>PLOS Computational Biology: Predictive Dynamics of Human Pain Perception</title>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9" />
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+<link rel="home" title="home" href="/home.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" />
+<link rel="alternate" type="application/rss+xml"
+  title="PLOS Computational Biology: New Articles"
+  href="http://www.ploscompbiol.org/article/feed" />
+
+<link rel="pingback" href="http://www.ploscompbiol.org/pingback" />
+
+
+<!-- global_css.ftl -->
+<link rel="stylesheet" type="text/css" media="screen" href="/css/dojo/dijit/themes/tundra/tundra.css?v=zwugcxLdpBWmb72qqlHgGyeNAGM" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/star_rating.css?v=Mm3HyaUPUahAJAq6xG5W3tdF7Hk" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/rating.css?v=AOT9rozE9sYVjGTdeiyxHf18Ykw" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/screen.css?v=KBNFqBmhD635U0NgiM5tf9dtxRE" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/iepc.css?v=FIjyR83BhSovq_5yNVk1Sih60AI" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/journal.css?v=SiREXztjNSUsOyrlkE9sv028Y+0" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/lightBox.css?v=sDgsUXamFoYAakEshdj0YWrZiiQ" />
+<link rel="stylesheet" type="text/css" media="print" href="/css/print.css?v=0T+LTV7Gd0jtHEhqEvBfSrmHUGg" />
+
+<!--chartbeat --> 
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+
+
+<!--[if IE]><![endif]-->
+<meta name="description" content="PLOS Computational Biology is an open-access" />
+
+<meta name="keywords" content="plos computational biology" />
+
+  <meta name="citation_publisher" content="Public Library of Science" />
+  <meta name="citation_doi" content="10.1371/journal.pcbi.1002719" />
+    <meta name="citation_title" content="Predictive Dynamics of Human Pain Perception"/>
+    <meta itemprop="name" content="Predictive Dynamics of Human Pain Perception"/>
+
+      <meta name="citation_author" content="Guillermo A. Cecchi" />
+          <meta name="citation_author_institution" content="Computational Biology Center, T.J. Watson IBM Research Laboratory, Yorktown Heights, New York, United States of America" />
+      <meta name="citation_author" content="Lejian Huang" />
+          <meta name="citation_author_institution" content="Department of Physiology, Feinberg School of Medicine, Northwestern University, Chicago, Illinois, United States of America" />
+      <meta name="citation_author" content="Javeria Ali Hashmi" />
+          <meta name="citation_author_institution" content="Department of Physiology, Feinberg School of Medicine, Northwestern University, Chicago, Illinois, United States of America" />
+      <meta name="citation_author" content="Marwan Baliki" />
+          <meta name="citation_author_institution" content="Department of Physiology, Feinberg School of Medicine, Northwestern University, Chicago, Illinois, United States of America" />
+      <meta name="citation_author" content="María V. Centeno" />
+          <meta name="citation_author_institution" content="Department of Physiology, Feinberg School of Medicine, Northwestern University, Chicago, Illinois, United States of America" />
+      <meta name="citation_author" content="Irina Rish" />
+          <meta name="citation_author_institution" content="Computational Biology Center, T.J. Watson IBM Research Laboratory, Yorktown Heights, New York, United States of America" />
+      <meta name="citation_author" content="A. Vania Apkarian" />
+          <meta name="citation_author_institution" content="Department of Physiology, Feinberg School of Medicine, Northwestern University, Chicago, Illinois, United States of America" />
+
+    <meta name="citation_date" content="2012/10/25"/>
+
+  <meta name="citation_pdf_url" content="http://dx.plos.org/10.1371/journal.pcbi.1002719.pdf" />
+
+    <meta name="citation_journal_title" content="PLOS Computational Biology" />
+    <meta name="citation_firstpage" content="e1002719"/>
+    <meta name="citation_issue" content="10"/>
+    <meta name="citation_volume" content="8"/>
+    <meta name="citation_issn" content="1553-7358"/>
+
+    <meta name="citation_journal_abbrev" content="PLoS Comput Biol" />
+
+      <meta name="citation_reference" content="citation_title=Pain mechanisms: a commentary on concepts and issues; citation_volume=94; citation_number=1; citation_pages=20; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_number=2; " />
+      <meta name="citation_reference" content="citation_number=3; " />
+      <meta name="citation_reference" content="citation_title=Why you can't make a computer that feels pain; citation_volume=38; citation_number=4; citation_pages=415; citation_date=1978; " />
+      <meta name="citation_reference" content="citation_number=5; " />
+      <meta name="citation_reference" content="citation_number=6; " />
+      <meta name="citation_reference" content="citation_title=On the psychophysical law; citation_volume=64; citation_number=7; citation_pages=153; citation_date=1957; " />
+      <meta name="citation_reference" content="citation_number=8; " />
+      <meta name="citation_reference" content="citation_title=Diagnostic work-up of neuropathic pain: computing, using questionnaires or examining the patient?; citation_volume=11; citation_number=9; citation_pages=367; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=EFNS guidelines on neuropathic pain assessment; citation_volume=11; citation_number=10; citation_pages=153; citation_date=2004; " />
+      <meta name="citation_reference" content="citation_number=11; " />
+      <meta name="citation_reference" content="citation_title=Perception of pulpal pain as a function of intradental nerve activity; citation_volume=19; citation_number=12; citation_pages=353-366; citation_date=1984; " />
+      <meta name="citation_reference" content="citation_number=13; " />
+      <meta name="citation_reference" content="citation_title=Parsing pain perception between nociceptive representation and magnitude estimation; citation_volume=101; citation_number=14; citation_pages=875-887; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=How do pain ratings change the brain activation by painful stimuli measured with fMRI?; citation_number=15; citation_date=2005; " />
+      <meta name="citation_reference" content="citation_title=Offset analgesia: a temporal contrast mechanism for nociceptive information; citation_volume=134; citation_number=16; citation_pages=174-186; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Neural correlates of prickle sensation: a percept-related fMRI study; citation_volume=5; citation_number=17; citation_pages=1121-1122; citation_date=2002; " />
+      <meta name="citation_reference" content="citation_title=Perceptual illusion of “paradoxical heat” engages the insular cortex; citation_volume=92; citation_number=18; citation_pages=1248-1251; citation_date=2004; " />
+      <meta name="citation_reference" content="citation_title=Temporal filtering of nociceptive information by dynamic activation of endogenous pain modulatory systems; citation_volume=29; citation_number=19; citation_pages=10264-10271; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Observation-based assessment of functional ability in patients with chronic widespread pain: A cross-sectional study; citation_volume=152; citation_number=20; citation_pages=2470-2476; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Psychology of pain; citation_volume=101; citation_number=21; citation_pages=25-31; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Predicting human brain activity associated with the meanings of nouns; citation_volume=320; citation_number=22; citation_pages=1191-1195; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Identifying natural images from human brain activity; citation_volume=452; citation_number=23; citation_pages=352-355; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Predicting individual differences in placebo analgesia: Contributions of brain activity during anticipation and pain experience; citation_volume=31; citation_number=24; citation_pages=439-452; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Towards a physiology-based measure of pain: patterns of human brain activity distinguish painful from non-painful thermal stimulation; citation_volume=6; citation_number=25; citation_pages=e24124; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Prediction and interpretation of distributed neural activity with sparse models; citation_volume=44; citation_number=26; citation_pages=112-122; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Sparse regression models of pain perception; citation_volume=6334; citation_number=27; citation_pages=212-223; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Effect of static and dynamic heat pain stimulus profiles on the temporal dynamics and interdependence of pain qualities, intensity, and affect; citation_volume=100; citation_number=28; citation_pages=1706-1715; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Cellular and molecular mechanisms of pain; citation_volume=139; citation_number=29; citation_pages=267-284; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Enhancement of offset analgesia during sequential testing; citation_volume=12; citation_number=30; citation_pages=980-989; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_number=31; " />
+      <meta name="citation_reference" content="citation_title=Regularization and variable selection via the Elastic Net; citation_volume=67; citation_number=32; citation_pages=301-320; citation_date=2005; " />
+      <meta name="citation_reference" content="citation_title=Regression shrinkage and selection via the lasso; citation_volume=58; citation_number=33; citation_pages=267-288; citation_date=1996; " />
+      <meta name="citation_reference" content="citation_title=Ridge regression; citation_volume=8; citation_number=34; citation_pages=129-136; citation_date=1988; " />
+      <meta name="citation_reference" content="citation_title=Penalized regression: the bridge versus the lasso; citation_volume=7; citation_number=35; citation_pages=397-416; citation_date=1998; " />
+      <meta name="citation_reference" content="citation_title=Spatial pattern representation and transformation in monkey somatosensory cortex; citation_volume=85; citation_number=36; citation_pages=1317-1321; citation_date=1988; " />
+      <meta name="citation_reference" content="citation_title=Touch and go: decision-making mechanisms in somatosensation,; citation_volume=24; citation_number=37; citation_pages=107-137; citation_date=2001; " />
+      <meta name="citation_reference" content="citation_title=Somatosensory integration controlled by dynamic thalamocortical feed-forward inhibition; citation_volume=48; citation_number=38; citation_pages=315-327; citation_date=2005; " />
+      <meta name="citation_reference" content="citation_title=Efficient coding of natural scenes in the lateral geniculate nucleus: experimental test of a computational theory; citation_volume=16; citation_number=39; citation_pages=3351-3362; citation_date=1996; " />
+      <meta name="citation_reference" content="citation_title=Effects of attention on the intensity and unpleasantness of thermal pain; citation_volume=39; citation_number=40; citation_pages=345-352; citation_date=1989; " />
+      <meta name="citation_reference" content="citation_title=Imaging how attention modulates pain in humans using functional MRI; citation_volume=125; citation_number=41; citation_pages=310-319; citation_date=2002; " />
+
+
+
+<!--
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002719">
+   <license rdf:resource="http://creativecommons.org/licenses/by/2.5/" />
+</Work>
+<License rdf:about="http://creativecommons.org/licenses/by/2.5/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+</License>
+<rdf:Description
+     rdf:about="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002719"
+     dc:identifier="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002719"
+     dc:title="PLOS Computational Biology: Predictive Dynamics of Human Pain Perception"
+       trackback:ping="http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002719/trackback;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D"
+     />
+</rdf:RDF>
+
+-->
+</head>
+<body>
+<span property="dc:language" content="en"></span>
+<!-- begin : container -->
+<div id="container">
+  <!-- begin : top banner external ad space -->
+  <div id="topBanner">
+
+
+<!-- begin : left banner slot -->
+<div class="left">
+  <iframe id='affe494b' name='affe494b'
+    src='http://ads.plos.org/www/delivery/afr.php?zoneid=84&amp;cb=9294'
+    frameborder='0' scrolling='no' width='468' height='60'><a
+    href='http://ads.plos.org/www/delivery/ck.php?n=affe494b&amp;cb=105'
+    target='_top'><img src='http://ads.plos.org/www/delivery/avw.php?zoneid=84&amp;cb=3329&amp;n=affe494b'
+    border='0' alt='' /></a></iframe>
+</div>
+<!-- end : left banner slot -->
+<!-- begin : right banner slot -->
+<div class="right">
+  <iframe id='af654bd5' name='af654bd5'
+    src='http://ads.plos.org/www/delivery/afr.php?zoneid=85&amp;cb=6907'
+    frameborder='0' scrolling='no' width='468' height='60'><a
+    href='http://ads.plos.org/www/delivery/ck.php?n=af654bd5&amp;cb=9650'
+    target='_top'><img src='http://ads.plos.org/www/delivery/avw.php?zoneid=85&amp;cb=7025&amp;n=af654bd5'
+    border='0' alt='' /></a></iframe>
+</div>
+<!-- end : right banner slot -->
+
+  </div>
+  <!-- end : top banner external ad space -->
+
+  <!-- begin : header -->
+  <div id="hdr" class="login">
+
+  <!-- begin : logo -->
+  <div id="logo" title="PLOS Computational Biology"><a href="/home.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" title="PLOS Computational Biology"><span>PLOS Computational Biology</span></a></div>
+  <!-- end : logo -->
+  <!-- begin : user controls -->
+
+
+
+
+
+  <div id="user">
+    <div>
+      <ul>
+        <li><a href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002719" class="feedback"><strong>Login</strong></a> | </li>
+        <li><a href="https://register.plos.org:443/ambra-registration/register.action">Create Account</a> | </li>
+        <li class="feedback"><a href="/feedbackCreate.action?page=%252Farticle%252FfetchArticle.action%253FarticleURI%253Dinfo%25253Adoi%25252F10.1371%25252Fjournal.pcbi.1002719" title="Send us your feedback">Feedback</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <!-- end : user controls -->
+  <!-- begin search links -->
+  <ul id="links"><li class="browse"><a href="/article/browse.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?field=date" title="Browse Articles">Browse</a></li><li class="rss"><a href="/static/rssFeeds.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" title="RSS Feeds">RSS</a></li></ul>
+  <!-- end : search links -->
+  <!-- begin : dashboard -->
+  <div id="db">
+    <form name="searchForm" action="/search/simpleSearch.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" method="get">
+      <input type="hidden" name="from" value="globalSimpleSearch"/>
+      <input type="hidden" name="filterJournals" value="PLoSCompBiol">
+      <fieldset>
+        <legend>Search</legend>
+        <label for="search">Search</label>
+        <div class="wrap"><input id="search" type="text" name="query" value="Search articles..." onfocus="if(this.value=='Search articles...')value='';" onblur="if(this.value=='')value='Search articles...';" class="searchField" alt="Search articles..."/></div>
+        <input src="/images/search_btn1.gif" onclick="submit();" value="ftsearch" alt="SEARCH" tabindex="3" class="button" type="image" />
+      </fieldset>
+    </form>
+    <form name="gasf" action="/search/advancedSearch.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" method="get">
+<input type="hidden" name="noSearchFlag" value="true" id="noSearchFlag"/><input type="hidden" name="query" value="" id="query"/>    </form>
+    <a id="advSearch" href="#" onclick="if(document.searchForm.query.value!='Search articles...')document.gasf.query.value=document.searchForm.query.value;document.gasf.submit();return false;">Advanced Search</a>
+  </div>
+  <!-- end : dashboard -->
+  <!-- begin : navigation -->
+  <ul id="nav">
+    <li><a href="/home.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" tabindex="101">Home</a></li>
+     <!-- This is a temporary action to link to th static toc page -->
+    <li><a href="/static/browse.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" tabindex="102">Browse Articles</a>
+        <ul>
+          <li><a href="/article/browseIssue.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?field=issue">Current Issue</a></li> <!-- Assuming dynamic TOC is in place -->
+          <li><a href="/article/browseVolume.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?field=volume">Journal Archive</a></li> 
+          <li><a href="/article/browse.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?field=date">By Publication Date</a></li>
+          <li><a href="/article/browse.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">By Subject</a></li>
+          <li><a href="http://www.ploscollections.org/static/pcbiCollections.action">Collections</a></li>
+        </ul>
+    </li>
+    <li><a href="/static/about.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" tabindex="103">About</a>
+        <ul>
+          <li><a href="/static/information.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Journal Information</a></li>
+          <li><a href="/static/edboard.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Editorial Board</a></li>
+          <li><a href="/static/eic.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Editors-in-Chief</a></li>
+          <li><a href="/static/almInfo.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Article-Level Metrics</a></li>
+          <li><a href="/static/license.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Open-Access License</a></li>
+          <li><a href="/static/contact.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Contact Us</a></li>
+        </ul>
+      </li>
+    <li><a href="/static/users.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" tabindex="104">For Readers</a>
+        <ul>
+          <li><a href="/static/commentGuidelines.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Guidelines for Notes, Comments, and Corrections</a></li>
+          <li><a href="/static/ratingGuidelines.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Guidelines for Rating</a></li>
+          <li><a href="/static/help.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Help Using This Site</a></li>
+          <li><a href="/static/downloads.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Media Downloads</a></li>
+          <li><a href="/static/sitemap.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Site Map</a></li>
+        </ul>
+      </li>
+    <li><a href="/static/authors.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" tabindex="105">For Authors and Reviewers</a>
+        <ul>
+          <li><a href="/static/policies.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Editorial and Publishing Policies</a></li>
+          <li><a href="/static/guidelines.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Author Guidelines</a></li>
+          <li><a href="/static/figureGuidelines.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Figure and Table Guidelines</a></li>
+          <li><a href="/static/checklist.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Submit Your Paper</a></li>
+          <li><a href="/static/reviewerGuidelines.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">Reviewer Guidelines</a></li>
+	   <li><a href="http://www.plos.org/journals/index.php">Submit to Other PLOS Journals</a></li>
+        </ul>
+      </li>
+      <li class="journalnav"><a href="http://www.plos.org" title="PLOS" tabindex="110" class="drop">PLOS.org</a>
+        <ul>
+          <li><a href="http://www.plos.org/oa/index.html" title="Open Access Statement">Open Access</a></li>
+          <li><a href="http://www.plos.org/support/donate.php" title="Join PLOS: Show Your Support">Join PLOS</a></li>
+          <li><a href="http://blogs.plos.org/" title="PLOS Blogs">PLOS Blogs</a></li>
+	  <li><a href="http://www.zazzle.com/plos?rf=238434112415374154" title="PLOS Store">PLOS Store</a></li>
+          <li><a href="http://currents.plos.org" title="PLOS Currents">PLOS Currents</a></li>
+          <li><a href="http://www.plos.org/connect.html" title="PLOS.org | Stay Connected">Stay Connected</a></li>
+        </ul>
+      </li>
+      <li class="journalnav"><a href="http://hubs.plos.org" tabindex="109">Hubs</a>
+        <ul>
+          <li><a href="http://hubs.plos.org/biodiversity" title="PLOS Hubs: Biodiversity">Biodiversity</a></li>
+          <li><a href="http://clinicaltrials.ploshubs.org" title="PLOS Hub for Clinical Trials">Clinical Trials</a></li>
+        </ul>
+    </li>
+      <li class="journalnav"><a href="http://www.plosjournals.org" tabindex="108">Journals</a>
+        <ul>
+          <li><a href="http://www.plosbiology.org/" title="PLOSBiology.org">PLOS Biology</a></li>
+          <li><a href="http://www.plosmedicine.org/" title="PLOSMedicine.org">PLOS Medicine</a></li>
+          <li><a href="http://www.ploscompbiol.org/" title="PLOSCompBiol.org">PLOS Computational Biology</a></li>
+          <li><a href="http://www.plosgenetics.org/" title="PLOSGenetics.org">PLOS Genetics</a></li>
+          <li><a href="http://www.plospathogens.org/" title="PLOSPathogens.org">PLOS Pathogens</a></li>
+          <li><a href="http://www.plosone.org/" title="PLOSONE.org">PLOS ONE</a></li>
+          <li><a href="http://www.plosntds.org/" title="PLOSNTDs.org">PLOS Neglected Tropical Diseases</a></li>
+        </ul>
+      </li>
+    </ul>
+  <!-- end : navigation -->
+  </div>
+  <!-- end : header --> 
+
+
+
+<!-- begin : main content -->
+<div id="content" class="article" style="visibility:visible;">
+
+<!-- begin : right hand column -->
+
+<div id="rhc" xpathLocation="noDialog">
+
+  <div id="download" class="rhcBox_type1">
+    <div class="wrap">
+      <ul>
+        <li class="download icon"><strong>Download:</strong>
+          <a href="/article/fetchObjectAttachment.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?uri=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002719&amp;representation=PDF" title="Download article PDF">PDF</a> |
+          <a href="/article/citationList.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002719" title="Download citations">Citation</a> |
+          <a href="/article/fetchObjectAttachment.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?uri=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002719&amp;representation=XML" title="Download Article XML">XML</a>
+        </li>
+        <li class="print icon"><a href="#" onclick="window.print();return false;" title="Print Article"><strong>Print article</strong></a></li>
+        <li class="reprint icon"><a href="https://www.odysseypress.com/onlinehost/reprint_order.php?type=A&page=0&journal=3&doi=10.1371/journal.pcbi.1002719&volume=&issue=&title=Predictive Dynamics of Human Pain Perception&author_name=Guillermo%20A.%20Cecchi%2C%20Lejian%20Huang%2C%20Javeria%20Ali%20Hashmi%2C%20Marwan%20Baliki%2C%20Mar%C3%ADa%20V.%20Centeno%2C%20Irina%20Rish%2C%20A.%20Vania%20Apkarian&start_page=1&end_page=12" title="Odyssey Press">EzReprint</a> New &amp; improved!</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="issues" class="rhcBox_type2">
+    <p><strong>Published in the</strong>
+    <a href="http://www.ploscompbiol.org/article/browseIssue.action?issue=info%3Adoi%2F10.1371%2Fissue.pcbi.v08.i10" title="Browse the Open-Access Issue">October 2012 Issue of <em>PLOS Computational Biology</em></a></p>
+  </div>
+
+  <div id="impact" class="rhcBox_type2">
+    <h6>Metrics <a href="/static/help.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D#articleMetrics" class="replaced" id="info" title="More information"><span>info</span></a></h6>
+
+    <div class="wrap">
+      <img id="rhcDataSpinner" src="/images/loading_small.gif" class="loading" />
+      <div id="totalDataInRHC"></div>
+      <div id="pubDateInRHC"></div>
+      <div id="relatedCitesInRHC"></div>
+    </div>
+
+    <div class="more clearfix"><a href="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002719;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" title="More information">More</a></div>
+  </div>
+
+  <div id="related" class="rhcBox_type2">
+    <h6>Related Content</h6>
+    <dl class="related">
+      <dt>Related Articles on the Web</dt>
+      <dd><a href="http://scholar.google.com/scholar?hl=en&lr=&q=related:http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002719&btnG=Search">Google Scholar</a></dd>
+      <dd id="pubMedRelatedLIInRHC" style="display:none;"><a id="pubMedRelatedURLInRHC">PubMed</a></dd>
+    </dl>
+    <div class="more clearfix"><a href="/article/related/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002719;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" title="More information">More</a></div>
+  </div>
+
+  <div id="share" class="rhcBox_type2">
+    <h6>Share this Article <a href="/static/help.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D#socialBookmarkLinks" class="replaced" id="info" title="More information"><span>info</span></a></h6>
+    <ul>
+      <li class="bookmarklets">
+
+        <a href="http://www.reddit.com/submit?url=http://dx.plos.org/10.1371/journal.pcbi.1002719"
+           target="_new"
+           id="reddit">
+          <img src="http://www.reddit.com/static/spreddit4.gif" alt="submit to reddit" border="0"/> </a>
+        <g:plusone size="small" annotation="none" href=http://dx.plos.org/10.1371/journal.pcbi.1002719></g:plusone>
+        <script type="text/javascript">
+          (function () {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+          })();
+        </script>
+        <a href="http://www.stumbleupon.com/submit?url=http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002719" target="_new"> <img border=0 src="http://cdn.stumble-upon.com/images/16x16_su_solid.gif" alt="StumbleUpon" title="Add to StumbleUpon"></a>
+        <script>function fbs_click() {u='http://dx.plos.org/10.1371/journal.pcbi.1002719';t='Predictive%20Dynamics%20of%20Human%20Pain%20Perception';window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436');return false;}</script><a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002719" onclick="return fbs_click()" target="_blank"><img src="http://static.ak.fbcdn.net/images/share/facebook_share_icon.gif" alt="Facebook" title="Add to Facebook" /></a>       <!-- for mor info, see http://www.facebook.com/share_partners.php -->
+        <script type="text/javascript">
+          function bookmark_in_connotea(u) {
+            a=false; x=window; e=x.encodeURIComponent; d=document;
+            w=open('http://www.connotea.org/addpopup?continue=confirm&uri='+e(u),
+                'add', 'width=600, height=400, scrollbars, resizable');
+            void(x.setTimeout('w.focus()',200));
+          }
+        </script>
+        <a style='cursor: pointer;' onclick='javascript:bookmark_in_connotea("http://dx.plos.org/10.1371/journal.pcbi.1002719");'><img src='/images/icon_connotea_16x16.gif' alt="Connotea" title="Add to Connotea"/></a>
+        <a href="http://www.citeulike.org/posturl?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002719&title=Predictive%20Dynamics%20of%20Human%20Pain%20Perception" target="_new"><img src='/images/icon_citeulike_16x16.gif' alt="CiteULike" title="Add to CiteULike" /></a>
+        <a href="http://www.mendeley.com/import/?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002719" title="Add to Mendeley" target="_new"><img src="/images/icon_mendeley_16x16.gif" alt="Bibliography"></a>
+        <script type="text/javascript">
+          var twtTitle  = 'Predictive Dynamics of Human Pain Perception';
+          var twtUrl    = 'http://dx.plos.org/10.1371/journal.pcbi.1002719';
+          var twtTag    = '#PLOSCompBio:'
+          var maxLength = 140 - (twtUrl.length + 1);
+          if (twtTitle.length > maxLength) {
+            twtTitle = twtTitle.substr(0, (maxLength - 17))+'...';  //truncates title to include space for twtTag and ellipsis
+          }
+          var twtLink = 'http://twitter.com/intent/tweet?text='+encodeURIComponent(twtTag + ' ' + twtTitle + ' ' + twtUrl);
+          document.write('<a href="'+twtLink+'" target="_blank"><img src="/images/icon_twitter.gif" border="0" alt="Twitter icon" title="Tweet This!" /></a>');
+        </script>
+
+      </li>
+      <li class="email icon"><a href="/article/emailArticle.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002719" title="Email this article">Email this article</a></li>
+    </ul>
+  </div>
+  <div id="articleTwitterStream" style="display:none">
+    <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script>
+      new TWTR.Widget({
+        version: 2,
+        type: 'search',
+        search: encodeURIComponent('10.1371/journal.pcbi.1002719'),
+        interval: 6000,
+        title: '',
+        subject: 'From Twitter',
+        width: 300,
+        height: 300,
+        theme: {
+          shell: {
+            background: '#667893',
+            color: '#ffffff'
+          },
+          tweets: {
+            background: '#ffffff',
+            color: '#444444',
+            links: '#006699'
+          }
+        },
+        features: {
+          scrollbar: true,
+          loop: false,
+          live: true,
+          hashtags: true,
+          timestamp: true,
+          avatars: true,
+          toptweets: true,
+          behavior: 'all'
+        }
+      }).render().start();
+    </script>
+  </div>
+</div>
+<!-- end : right hand column -->
+<form name="articleInfo" id="articleInfo" method="" action="">
+<input type="hidden" name="isAuthor" value="true" />
+<input type="hidden" name="authorIdList" value="" />
+<input type="hidden" name="userIdList" value="" />
+<input type="hidden" name="otherIdList" value="" />
+<input type="hidden" name="annotationId" value="" />
+<input type="hidden" name="isResearchArticle" value="true" />
+</form>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.XML" value="120939"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.PDF" value="824119"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e001.TIF" value="6658"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e001.PNG" value="3433"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e002.TIF" value="1090"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e002.PNG" value="773"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e003.TIF" value="462"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e003.PNG" value="470"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e004.TIF" value="1114"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e004.PNG" value="778"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e005.TIF" value="4028"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e005.PNG" value="2142"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e006.TIF" value="2212"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e006.PNG" value="1320"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e007.TIF" value="2284"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e007.PNG" value="1382"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e008.TIF" value="1642"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e008.PNG" value="1019"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e009.TIF" value="2706"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e009.PNG" value="1603"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e010.TIF" value="1960"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e010.PNG" value="1160"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e011.TIF" value="6200"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e011.PNG" value="3283"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e012.TIF" value="768"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e012.PNG" value="619"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e013.TIF" value="1234"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e013.PNG" value="810"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e014.TIF" value="660"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e014.PNG" value="576"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e015.TIF" value="1034"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e015.PNG" value="732"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e016.TIF" value="538"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e016.PNG" value="505"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e017.TIF" value="558"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e017.PNG" value="517"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.g001.TIF" value="1168656"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.g001.PNG_I" value="40647"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.g001.PNG_S" value="13700"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.g001.PNG_M" value="77450"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.g001.PNG_L" value="446772"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e018.TIF" value="1202"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e018.PNG" value="835"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e019.TIF" value="1790"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e019.PNG" value="1083"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e020.TIF" value="1116"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e020.PNG" value="764"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e021.TIF" value="1034"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e021.PNG" value="732"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e022.TIF" value="968"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e022.PNG" value="698"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e023.TIF" value="3926"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e023.PNG" value="2193"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e024.TIF" value="536"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e024.PNG" value="505"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e025.TIF" value="606"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e025.PNG" value="546"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e026.TIF" value="938"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e026.PNG" value="699"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.g002.TIF" value="792560"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.g002.PNG_I" value="61932"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.g002.PNG_S" value="16962"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.g002.PNG_M" value="94423"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.g002.PNG_L" value="308724"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e027.TIF" value="1870"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e027.PNG" value="1120"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e028.TIF" value="1684"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e028.PNG" value="1022"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e029.TIF" value="2076"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e029.PNG" value="1210"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e030.TIF" value="1354"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e030.PNG" value="887"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.g003.TIF" value="942004"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.g003.PNG_I" value="51454"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.g003.PNG_S" value="14342"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.g003.PNG_M" value="76459"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.g003.PNG_L" value="479046"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e031.TIF" value="1590"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e031.PNG" value="985"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e032.TIF" value="660"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e032.PNG" value="576"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e033.TIF" value="538"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e033.PNG" value="505"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e034.TIF" value="538"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e034.PNG" value="505"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e035.TIF" value="558"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e035.PNG" value="517"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e036.TIF" value="536"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e036.PNG" value="505"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e037.TIF" value="568"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e037.PNG" value="523"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e038.TIF" value="564"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e038.PNG" value="516"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e039.TIF" value="972"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e039.PNG" value="724"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e040.TIF" value="574"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e040.PNG" value="530"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e041.TIF" value="4706"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e041.PNG" value="2411"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e042.TIF" value="8144"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e042.PNG" value="4145"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e043.TIF" value="558"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e043.PNG" value="519"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e044.TIF" value="538"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e044.PNG" value="505"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e045.TIF" value="768"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e045.PNG" value="619"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e046.TIF" value="536"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e046.PNG" value="505"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e047.TIF" value="558"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e047.PNG" value="519"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e048.TIF" value="558"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e048.PNG" value="519"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e049.TIF" value="538"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e049.PNG" value="505"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e050.TIF" value="768"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e050.PNG" value="619"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e051.TIF" value="7692"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e051.PNG" value="3821"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e052.TIF" value="1116"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e052.PNG" value="764"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e053.TIF" value="1482"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e053.PNG" value="928"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e054.TIF" value="3896"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e054.PNG" value="2153"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e055.TIF" value="1412"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e055.PNG" value="944"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e056.TIF" value="1610"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e056.PNG" value="1017"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e057.TIF" value="5304"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e057.PNG" value="2722"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e058.TIF" value="606"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e058.PNG" value="549"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e059.TIF" value="1038"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e059.PNG" value="738"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e060.TIF" value="606"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e060.PNG" value="549"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e061.TIF" value="4068"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e061.PNG" value="2139"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e062.TIF" value="904"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e062.PNG" value="684"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e063.TIF" value="1372"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e063.PNG" value="899"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.t001.TIF" value="216168"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.t001.PNG_I" value="7545"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.t001.PNG_S" value="2066"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.t001.PNG_M" value="16630"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.t001.PNG_L" value="39355"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e064.TIF" value="3608"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e064.PNG" value="1973"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e065.TIF" value="3802"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e065.PNG" value="2026"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e066.TIF" value="5988"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e066.PNG" value="2840"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.s001.TIFF" value="2440696"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e067.TIF" value="1324"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e067.PNG" value="887"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e068.TIF" value="1936"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e068.PNG" value="1153"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.s002.TIFF" value="523326"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.s003.TIFF" value="272546"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.s004.TIFF" value="537762"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.s005.TIFF" value="163534"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e069.TIF" value="928"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e069.PNG" value="690"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e070.TIF" value="1034"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e070.PNG" value="732"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.s006.TIFF" value="1993118"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.s007.TIFF" value="316636"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.s008.TIFF" value="458468"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.s009.TIFF" value="380782"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.s010.TIFF" value="393234"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.s011.TIFF" value="160966"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.s012.TIFF" value="175942"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e071.TIF" value="972"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e071.PNG" value="724"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e072.TIF" value="898"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e072.PNG" value="686"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e073.TIF" value="1152"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e073.PNG" value="794"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.s013.TIFF" value="512036"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e074.TIF" value="972"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.e074.PNG" value="724"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.s014.RTF" value="1050141"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002719.s015.DOCX" value="114908"/>
+<div id="articleContainer">
+
+<span about="http://www.plos.org"  typeof="foaf:Organization" property="foaf:name" style="display:none; visibility:hidden;">PLOS</span>
+<div id="researchArticle" class="content">
+  <span rel="dc:publisher" href="http://www.plos.org"></span>
+  <a id="top" name="top"></a>
+<div id="contentHeader" xpathLocation="noSelect">
+  <p>Open Access</p><p id="articleType">Research Article</p>
+</div>
+
+  <h1 xpathLocation="noSelect" property="dc:title" datatype="" rel="dc:type" href="http://purl.org/dc/dcmitype/Text">Predictive Dynamics of Human Pain Perception</h1>
+  <div property="dc:description" datatype="" style="display:none; visibility:hidden;">Author SummaryWe propose a model of thermal pain perception that accounts for its dynamical behavior, and can be used to predict subjective responses to thermal stimulation on individual subjects with high accuracy, close to 90% averaged over subjects (over 65% for the null hypothesis). The model is based on behavioral considerations that include the need to signal current or approaching tissue damage, and the need to discount past danger. Moreover, we show that in a &lsquo;mind reading&rsquo; setting, the combined use of sparse regression to infer pain perception from functional MRI recordings (fMRI), and from the model applied to the stimulus temperature also inferred from fMRI, leads to equally significant predictive accuracy, close to 75% averaged over subjects. Our results demonstrate that a subjective percept such as pain displays a highly deterministic behavior.</div>
+  <span property="dc:date" content="2012-10-25" datatype="xsd:date" rel="dc:identifier" href="http://dx.doi.org/10.1371/journal.pcbi.1002719"></span>
+  <span property="dc:subject" content="Computational Biology"></span>
+  <span property="dc:subject" content="Neuroscience"></span>
+<form action="">
+  <input type="hidden" name="journalDisplayName" id="journalDisplayName" value="PLOS Computational Biology" />
+  <input type="hidden" name="crossRefPageURL" id="crossRefPageURL" value="/article/crossref/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002719;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" />
+  <input type="hidden" name="twitterPageURL" id="twitterPageURL" value="/article/twitter/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002719;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" />
+  <input type="hidden" name="metricsTabURL" id="metricsTabURL" value="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002719;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" />
+  <input type="hidden" name="doi" id="doi" value="info:doi/10.1371/journal.pcbi.1002719" />
+  <input type="hidden" name="articleTitleUnformatted" id="articleTitleUnformatted" value="Predictive%20Dynamics%20of%20Human%20Pain%20Perception" />
+  <input type="hidden" name="articlePubDate" id="articlePubDate" value="1351148400000" />
+</form>
+<div class="horizontalTabs" xpathLocation="noSelect">
+  <ul id="tabsContainer">
+        <li id="article" class="active"><a href="/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002719;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" class="tab" title="Article">Article</a></li>
+        <li id="metrics"><a href="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002719;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" class="tab" title="Metrics">Metrics</a></li>
+        <li id="related"><a href="/article/related/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002719;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" class="tab" title="Related Content">Related Content</a></li>
+        <li id="comments"><a href="/article/comments/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002719;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" class="tab" title="Comments">Comments: 0</a></li>
+  </ul>
+</div>
+  <div id="articleMenuBox" xpathLocation="noSelect">
+    <div id="articleMenu">
+      <div class="wrap">
+        <ul>
+          <li class="annotation icon">To <strong>add a note</strong>, highlight some text. <a href="#" onclick="toggleAnnotation(this, 'public'); return false;" title="Click to turn notes on/off">Hide notes</a></li>
+          <li class="discuss icon">
+              <a href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002719">Make a general comment</a>
+          </li>
+        </ul>
+        <div id="sectionNavTopBox" style="display:none;">
+          <p><strong>Jump to</strong></p>
+          <div id="sectionNavTop" class="tools"></div>
+        </div>
+      </div>
+    </div>
+      <div id="lightBox" xpathLocation="noDialog" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002719')">
+      </div>
+  </div>
+
+
+
+
+<p class="authors" xpathLocation="noSelect"><span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Guillermo A. Cecchi</span></span><sup><a href="#aff1">1</a></sup><sup><a href="#cor1" class="fnoteref">*</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Lejian Huang</span></span><sup><a href="#aff2">2</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Javeria Ali Hashmi</span></span><sup><a href="#aff2">2</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Marwan Baliki</span></span><sup><a href="#aff2">2</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">María V. Centeno</span></span><sup><a href="#aff2">2</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Irina Rish</span></span><sup><a href="#aff1">1</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">A. Vania Apkarian</span></span><sup><a href="#aff2">2</a></sup><sup><a href="#cor1" class="fnoteref">*</a></sup></p><p class="affiliations" xpathLocation="noSelect"><a name="aff1" id="aff1"></a><strong>1</strong> Computational Biology Center, T.J. Watson IBM Research Laboratory, Yorktown Heights, New York, United States of America, <a name="aff2" id="aff2"></a><strong>2</strong> Department of Physiology, Feinberg School of Medicine, Northwestern University, Chicago, Illinois, United States of America</p><div class="abstract" xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[1]"><a id="abstract0" name="abstract0" toc="abstract0" title="Abstract"></a><h2 xpathLocation="noSelect">Abstract&nbsp;<a href="#top">Top</a></h2><p xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[1]/p[1]">While the static magnitude of thermal pain perception has been shown to follow a power-law function of the temperature, its dynamical features have been largely overlooked. Due to the slow temporal experience of pain, multiple studies now show that the time evolution of its magnitude can be captured with continuous online ratings. Here we use such ratings to model quantitatively the temporal dynamics of thermal pain perception. We show that a differential equation captures the details of the temporal evolution in pain ratings in individual subjects for different stimulus pattern complexities, and also demonstrates strong predictive power to infer pain ratings, including readouts based only on brain functional images.</p>
+</div><div class="abstract" xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[2]"><a id="abstract1" name="abstract1" toc="abstract1" title="Author Summary"></a>
+<h2 xpathLocation="noSelect">Author Summary&nbsp;<a href="#top">Top</a></h2>
+<p xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[2]/p[1]">We propose a model of thermal pain perception that accounts for its dynamical behavior, and can be used to predict subjective responses to thermal stimulation on individual subjects with high accuracy, close to 90% averaged over subjects (over 65% for the null hypothesis). The model is based on behavioral considerations that include the need to signal current or approaching tissue damage, and the need to discount past danger. Moreover, we show that in a ‘mind reading’ setting, the combined use of sparse regression to infer pain perception from functional MRI recordings (fMRI), and from the model applied to the stimulus temperature also inferred from fMRI, leads to equally significant predictive accuracy, close to 75% averaged over subjects. Our results demonstrate that a subjective percept such as pain displays a highly deterministic behavior.</p>
+</div>
+
+
+<div class="articleinfo" xpathLocation="noSelect"><p><strong>Citation: </strong>Cecchi GA, Huang L, Hashmi JA, Baliki M, Centeno MV, et al.  (2012) Predictive Dynamics of Human Pain Perception. PLoS Comput Biol 8(10):
+          e1002719.
+            doi:10.1371/journal.pcbi.1002719</p><p><strong>Editor: </strong>Abigail Morrison, 
+        Research Center Jülich, Germany
+      </p><p></p><p><strong>Received:</strong> March 1, 2012; <strong>Accepted:</strong> August 15, 2012; <strong>Published:</strong> October 25, 2012</p><p><strong>Copyright:</strong> © 2012 Cecchi et al. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</p><p><strong>Funding: </strong>This study was funded in part by NINDS NS35115 (AVA). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p><p><strong>Competing interests:</strong> The authors have declared that no competing interests exist.</p><p><a name="cor1"></a>* E-mail: <a href="mailto:gcecchi@us.ibm.com">gcecchi@us.ibm.com</a> (GAC); <a href="mailto:a-apkarian@northwestern.edu">a-apkarian@northwestern.edu</a> (AVA)</p></div>
+
+
+
+
+
+<div id="section1" xpathLocation="/article[1]/body[1]/sec[1]"><a id="s1" name="s1" toc="s1" title="Introduction"></a><h3 xpathLocation="noSelect">Introduction&nbsp;<a href="#top">Top</a></h3><p xpathLocation="/article[1]/body[1]/sec[1]/p[1]">Any scientific or philosophical examination of human perception invariably must take into consideration the long-lasting notion of the subjectivity of pain. Plato, Aristotle, Galen, and Darwin excluded pain from other sensory modalities and instead classified it with emotions. Avicenna (or Ibn Sina), the 11<sup>th</sup> century Arab-Persian philosopher-physician, is credited to be the first to suggest pain as a specific skin sense; this idea was later reformulated by Descartes, who conceptualized pain signaling from the skin to the brain <a href="#pcbi.1002719-Perl1">[1]</a>, <a href="#pcbi.1002719-Finger1">[2]</a>. The notion of subjectivity and thus incommunicability of personal pain was seminal in Wittgenstein's abandonment of logic and shifting the emphasis of 20th century philosophical inquiry towards the study of language, in order to understand how such a private experience can be communicated at all <a href="#pcbi.1002719-Wittgenstein1">[3]</a>. More recently, D. Dennett has argued, based on modern neuro-scientific understanding that due to its subjective nature, and in contrast to visual perception, pain cannot be captured in computational models <a href="#pcbi.1002719-Dennett1">[4]</a>. Indeed, the official definition of pain as accepted by the International Association for the Study of Pain states that pain is “an unpleasant sensory and emotional experience”, and expands to assert that, “pain is always subjective” <a href="#pcbi.1002719-Merskey1">[5]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[2]">In contrast, psychophysics from its inception in the 19th century has attempted to demonstrate that at least parts of human experience/perception can be captured quantitatively and described with simple models. Beginning with the work of E.H. Weber and culminating with S.S. Stevens's law of magnitude perception, statistical properties of pain have been quantified and modeled using simple equations <a href="#pcbi.1002719-Weber1">[6]</a>–<a href="#pcbi.1002719-Price1">[8]</a>. Currently, statistics of pain are most commonly quantified with questionnaire-based tools, and these remain the main instruments with which efficacy of pain therapies are studied in clinical trials, for example <a href="#pcbi.1002719-Hansson1">[9]</a>, <a href="#pcbi.1002719-Cruccu1">[10]</a>. Temporal profiles of pain perception, however, have been seldom studied <a href="#pcbi.1002719-Hardy1">[11]</a>–<a href="#pcbi.1002719-Vierck1">[13]</a>. Yet, with the advent of human brain imaging technology the need for tracking pain perception in time prompted a number of groups to study pain perception as a time-evolving phenomenon <a href="#pcbi.1002719-Baliki1">[14]</a>–<a href="#pcbi.1002719-Davis1">[17]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[3]">A result that has surprised the pain research community is the presence of strong temporal non-linearities in the relationship between the stimulus pattern and the corresponding ratings, including illusory perception of heat and warmth <a href="#pcbi.1002719-Yelle1">[16]</a> which do not appear to fit any cogent framework and yet can be linked to brain activity <a href="#pcbi.1002719-Davis2">[18]</a>, <a href="#pcbi.1002719-Yelle2">[19]</a>. With this as a starting point, we treat here time evolution of acute thermal pain perception as a dynamical system described by differential equations, the properties of which provide a general summary of the transformation of thermal heat parameters to pain perception space. Surprisingly, simple and interpretable first- and second-order differential equations with very few parameters accurately model time variability of pain perception in humans elicited by thermal stimulation patterns of varying complexity. The equations can be used to infer with high accuracy the response of individuals in modeling conditions that include access to the stimulus temperature and in ‘mind reading’ setups, i.e. when pain perception is solely inferred from functional images of the brain aided by the derived equations.</p>
+</div>
+
+<div id="section2" xpathLocation="/article[1]/body[1]/sec[2]"><a id="s2" name="s2" toc="s2" title="Results"></a><h3 xpathLocation="noSelect">Results&nbsp;<a href="#top">Top</a></h3>
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/title[1]">Psychophysics Modeling</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[1]">Given that perception of pain is a slow event and can be rated continuously, online continuous ratings of thermal pain can be readily generated <a href="#pcbi.1002719-Baliki1">[14]</a>–<a href="#pcbi.1002719-Davis1">[17]</a>. When the stimulus intensity on the skin is monitored together with the resultant ratings of pain, one can view this as a system identification problem where the input and output are continuous time varying variables.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[2]">We reason that behavioral and evolutionary constraints require thermal pain to display three basic features. First and foremost, it must signal the threat of tissue damage: this is obviously determined by the current value of the skin temperature. The signal magnitude must monotonically increase with the temperature, although not necessarily linearly (as in fact, tissue damage is not linear with temperature). Following standard psychophysical practice, we consider the perceived magnitude of pain to be a positive quantity, i.e. we exclude the possibility of negative pain. Secondly, this magnitude must anticipate the possibility of damage, sounding the alarm of an imminent threat given the recent history of temperature values, independently of the current temperature. This information can be partially captured by the rate of change of the skin temperature. Finally, given its powerful hold on behavior, the intensity of pain perception must quickly decay once the threat of damage disappears, so as not to interfere with ongoing mental states <a href="#pcbi.1002719-Amris1">[20]</a>, <a href="#pcbi.1002719-Morley1">[21]</a>. Following these basic principles, we model pain perception as a dynamical system using a second-order differential equation:<br><a name="pcbi.1002719.e001" id="pcbi.1002719.e001"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e001&amp;representation=PNG"><span class="note" xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[2]/disp-formula[1]/label[1]">(1)</span></span><br>Here <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e002&amp;representation=PNG"></span> is the instantaneous perception of pain at time <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e003&amp;representation=PNG"></span>, <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e004&amp;representation=PNG"></span> is the temperature, <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e005&amp;representation=PNG"></span> is the pain acceleration, <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e006&amp;representation=PNG"></span> and <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e007&amp;representation=PNG"></span> are, respectively, the pain's and temperature's rates of change. We explicitly constrain the dynamics to maintain the non-negativity of perception, <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e008&amp;representation=PNG"></span>, by imposing the boundary condition <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e009&amp;representation=PNG"></span>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[3]">The quantities <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e010&amp;representation=PNG"></span> are subject-specific constants. The first term in the right-hand-side represents the temperature-dependent “force”, whose functional form we model, for the sake of parsimony, with a step function (<a href="#pcbi-1002719-g001"><strong>Figure 1</strong></a> inset): <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e011&amp;representation=PNG"></span>, that is, the acceleration of the perception of pain takes effect only after the threshold <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e012&amp;representation=PNG"></span> is exceeded. The second term is the decay of pain or “forgetting”, which helps perception return to its minimal value upon the removal of the injury threat presented by <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e013&amp;representation=PNG"></span>, and also dampens the oscillations that naturally arise in a second-order dynamical system. The constant <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e014&amp;representation=PNG"></span> has units of 1/time, and therefore <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e015&amp;representation=PNG"></span> can be considered the time scale of the forgetting process. The third and last term is less intuitive, but equally meaningful from a functional perspective. It can be thought of as a dynamic restoring force, similar to the elastic term in the equation that describes a mechanical oscillator. When the derivative of the temperature is small enough, the term is negative and has the effect of limiting the pain level upon the continuing presence of a supra-threshold stimulus, as well as eliminating any sub-threshold pain fluctuations. When the temperature changes quickly, however, the effect of this term is more interesting. In the event of a temperature increase, the term becomes a driving force that helps accelerate the perception of pain, to build up an alerting signal that anticipates the upcoming threat of the temperature reaching and surpassing the injury threshold. Similarly, when the temperature drops fast, the term becomes a restoring force, pushing pain perception faster than the decay term and the passive restoring force would allow. Notice that this creates an asymmetry in the rise and fall time-constants, even when the rate of temperature change is the same in absolute terms: if the temperature drops when the pain perception is high, the restoration is much faster than the rise, for a similar rate of change of the temperature. The constant <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e016&amp;representation=PNG"></span> determines the intensity of the restoring/driving force, while <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e017&amp;representation=PNG"></span> can be considered as a threshold above which fast changes in temperature become alarming.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]"><a name="pcbi-1002719-g001" id="pcbi-1002719-g001" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002719?imageURI=info:doi/10.1371/journal.pcbi.1002719.g001" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002719', 'info:doi/10.1371/journal.pcbi.1002719.g001');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002719', 'info:doi/10.1371/journal.pcbi.1002719.g001');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.g001&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002719?imageURI=info:doi/10.1371/journal.pcbi.1002719.g001" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002719', 'info:doi/10.1371/journal.pcbi.1002719.g001');"><span>Figure 1. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]/caption[1]/title[1]">Reported perceptual pain level (blue), input temperature (dashed) and model (red).</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]/caption[1]/p[1]">The experimental result is from <a href="#pcbi.1002719-Yelle1">[16]</a> (their fig. 7). The vertical axis represents the subjective perceptual level (or applied temperature, dotted line), and the horizontal axis the time in seconds. The arrows point to the most evident effects of the three different components that drive pain perception: acceleration when the temperature exceeds the threshold (first arrow, left), dampening of oscillations (second arrow), and temperature change-dependent acceleration and restoring (third and fourth arrows). The small inset depicts the functional dependence of the forcing term with the temperature, which we chose to model as a ramp function. Time is in seconds.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002719.g001</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002719.g001/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002719.g001/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002719.g001.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002719.g001/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002719.g001.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[4]">The different effects of the three terms are illustrated in <a href="#pcbi-1002719-g001"><strong>Figure 1</strong></a>, which depicts the evolution of pain perception averaged across subjects (blue trace) upon the presentation of an evolving temperature stimulus (dashed trace) (figure 7, from <a href="#pcbi.1002719-Yelle1">[16]</a>; corresponding to our complex stimulus) and the best-fit inferred model (red trace). The temperature forcing term provides the basic effect of quickly increasing the magnitude of pain perception (first arrow on the left). An equilibrium intensity is reached by the combined limiting effects of the restoring force and the decay term (second arrow). The active form of restoring force (i.e. when <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e018&amp;representation=PNG"></span>) is most evident in the effect of the small kinks in temperature (third and fourth arrows).</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[5]">In order to understand to what extent the complexity of the second-order dynamical system of <a href="#pcbi.1002719.e001">Eq. 1</a> is warranted and the fit to the psychophysical pain ratings significant, we considered two null hypotheses and a model simplification to contrast our results. In the first place, we reasoned that the simplest approach for the nervous system to report thermal pain is by a direct correlation with the temperature, i.e. <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e019&amp;representation=PNG"></span>. This null hypothesis is, in fact, too simple: the linear proportionality implies that temperatures a few degrees below the skin injury threshold will be reported only with proportionally weaker intensity than those a few degrees above the threshold. Alternatively, we considered a model in which perception is linearly proportional to the temperature, but only once it has exceeded a subject-dependent threshold. For obvious reasons, we termed these two null hypotheses as the linear and threshold-linear models, respectively; in the latter case, the temperature threshold is estimated by optimizing the correlation between model and data. The linear null hypothesis has several disadvantages; most glaring among them is the fact that it reports sub-threshold temperatures, which do not necessarily pose a threat of injury, almost as intensely as those that do pose a threat. Similarly, the threshold-linear model is impervious to events that fall below threshold but may signal an imminent threat, such as a sudden increase in temperature. To further probe the significance of our model, therefore, we considered a simpler first-order system derived from <a href="#pcbi.1002719.e001">Eq. 1</a>, assuming that the following conditions are satisfied: (a) the decay constant is sufficiently large, <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e020&amp;representation=PNG"></span> (i.e. the time scale <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e021&amp;representation=PNG"></span> is short), and (b) the effect of the rate of change of the temperature is not significant, <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e022&amp;representation=PNG"></span>. Simple algebra leads then to the following first-order differential equation:<br><a name="pcbi.1002719.e023" id="pcbi.1002719.e023"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e023&amp;representation=PNG"><span class="note" xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[5]/disp-formula[1]/label[1]">(2)</span></span><br>Where <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e024&amp;representation=PNG"></span> and <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e025&amp;representation=PNG"></span> are subject-specific constants. The functional form of this equation is similar to that of a leaky capacitor, with the forcing affecting now the rate of change of perception (as opposed to the acceleration), and a restoring force that determines a unique time-constant <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e026&amp;representation=PNG"></span> for both rising and falling of perception.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[6]">To test the relative merits of these models we performed psychophysical experiments, and contrasted model predictions. We designed two stimulation types: a simple stimulus in which the temperature ranges between a sub-threshold value and a supra-threshold value that is maintained constant during blocks <a href="#pcbi.1002719-Baliki1">[14]</a>, and a complex stimulus in which the blocks of supra-threshold temperature are interspersed with shorter blocks of higher temperature values <a href="#pcbi.1002719-Yelle1">[16]</a> (see <a href="#s3">Methods</a> for details). <a href="#pcbi-1002719-g002"><strong>Figure 2A–F</strong></a> depicts an example of fitting a single subject's rating of a simple and a complex stimulus. Simple (panel E) and complex stimuli (panel F) are modeled using the first-order (panels A and B, respectively) and second-order models (panels C and D). Observe that while for the simple stimulus the two models appear to fit similarly well, the complex stimulus highlights the ability of the second-order model to capture the subtleties of the rating. Similar results were seen in all subjects studied (<strong><a href="#pcbi.1002719.s001">Figure S1</a></strong>).</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[2]"><a name="pcbi-1002719-g002" id="pcbi-1002719-g002" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002719?imageURI=info:doi/10.1371/journal.pcbi.1002719.g002" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002719', 'info:doi/10.1371/journal.pcbi.1002719.g002');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002719', 'info:doi/10.1371/journal.pcbi.1002719.g002');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.g002&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[2]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002719?imageURI=info:doi/10.1371/journal.pcbi.1002719.g002" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002719', 'info:doi/10.1371/journal.pcbi.1002719.g002');"><span>Figure 2. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[2]/caption[1]/title[1]">Examples of reported and modeled perception in a single subject, and adequacy of models across subjects.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[2]/caption[1]/p[1]"><strong>A–F</strong>: A single subject's pain rating (black) and fitted models (red), for a simple stimulus (E) using first (A) and second order (C) models, and for a complex stimulus (F) fitted by first (B) and second order (D) models. <strong>G–H</strong>: Performance comparisons between models. G: Comparing second order model to linear models, for simple (circle) and complex (triangle) stimuli. The linear model (red) corresponds to the null hypothesis that perception follows temperature, while the threshold model (blue) assumes perception follows temperature above a threshold with the temperature threshold optimized for each subject. H: Comparing first and second order models. Second order model outperforms linear and first order models; circles (triangles) correspond to simple (complex) stimuli. Correlation fit, r (zero lag Pearson correlation), measures accuracy of models to pain perception ratings. Each symbol/category is outcome for an individual subject. Dashed lines are the identity. <strong>I–J</strong>: Akaike Information Criterion analysis for the fits shown in panels G–H. The vertical axis corresponds to the gain in fit accuracy of the second order model over the null hypotheses (I) and the first order model (J), when a penalty for increased number of parameters is discounted. The color/shape is the same as for panels G–H; the horizontal axis corresponds to different subjects.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002719.g002</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002719.g002/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002719.g002/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002719.g002.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002719.g002/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002719.g002.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[7]">The results of fitting the second-order model to the perceptual data for all participants are summarized in <a href="#pcbi-1002719-g002"><strong>Figure 2G</strong></a>, showing the fit correlation for the second-order model contrasted with the null hypotheses. The increase of model performance over the null hypotheses is quite significant, reaching in some cases nearly 0.4, while the mean model correlation is above 0.9 (Wilcoxon matched-pairs signed-ranks test, Wp, <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e027&amp;representation=PNG"></span>). Similarly, the comparison with the first-order model (<a href="#pcbi-1002719-g002"><strong>Figure 2H</strong></a>) shows that in all but two cases the second-order model is a better fit to the actual pain ratings (Wp, <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e028&amp;representation=PNG"></span>). This increase in accuracy, however, may be explained by the model's larger number of parameters (5) compared with those for the simpler first-order model (3), and the two null hypotheses (1 for linear-threshold, none for linear). To account for this, we computed the difference in the Akaike Information Criterion (AIC) between the model and the null hypotheses. AIC regularizes the goodness of fit with a penalty for the number of free parameters in the model; <a href="#pcbi-1002719-g002"><strong>Figures 2I–J</strong></a> show the gain in AIC for the model over the null hypotheses, and the first-order model, respectively, suggesting that overfitting can be ruled out (see <a href="#s3">Methods</a>). To further assess our approach, we also compared the correlation between the derivatives of the rating and of the model (<strong><a href="#pcbi.1002719.s002">Figure S2</a></strong>), and again we observe that the second-order model outperforms the null hypotheses models (Wp, <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e029&amp;representation=PNG"></span>) but not the first-order model (Wp, <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e030&amp;representation=PNG"></span>).</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[8]">We also considered the robustness and generalization capability of the modeling approach with respect to other sources of variability in the perceptual response. For that, we resorted to the concept of predictive modeling, a statistical learning approach that has gained increased acceptance in neuroscientific data analysis <a href="#pcbi.1002719-Mitchell1">[22]</a>: the parameters of a model are learned using training data, and then the goodness-of-fit evaluated on previously unutilized test data, as a means to estimate the model's generalization ability. We therefore computed the model parameters for each subject in the first run of the experiment, and estimated the response for the second, independent run using the same parameters. The results show that test and train correlations are still very similar (<strong><a href="#pcbi.1002719.s006">Figures S6</a>, <a href="#pcbi.1002719.s007">S7A</a></strong>). To understand the population effect of the stimulation paradigm and the modeling, we also fitted an average model of all the subjects, and then tested generalization efficacy of this model (<strong><a href="#pcbi.1002719.s007">Figure S7B</a></strong>). While the simple stimulus condition is not significantly affected, the complex stimulus shows a large decrement in the generalization ability of the model, indicating that responses to higher temporal structure are dependent on individual sensitivity parameters. A more rigorous test of generalization, however, involves predicting one class of stimuli in one run (i.e. complex in run 2) with parameters fitted to the other class and the other run (i.e. simple in run 1). Prediction of complex stimuli with parameters fitted to simple stimuli yields a group average of <em>r</em> = 0.68, over <em>r</em> = 0.93 for the estimate. Prediction of simple for parameters fitted to complex yields <em>r</em> = 0.84, very similar to the average of <em>r</em> = 0.89 for the estimate (see <strong><a href="#pcbi.1002719.s007">Figure S7D–E</a></strong>). The higher efficacy of the latter setup is consistent with the idea that the more complex stimuli can reveal the full dynamical structure of the responses, and therefore be more robust to generalization.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/title[1]">Psychophysics and Physiology</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/p[1]">One of the practical applications of predictive modeling in neuroscience is its use in “mind reading” setups, i.e. the possibility of obtaining precise information about perceptual and cognitive states, such as words or images presented to subjects in the fMRI scanner, by applying a predictive model to fMRI data <a href="#pcbi.1002719-Mitchell1">[22]</a>. The ability to predict and reconstruct with high accuracy external stimuli under certain conditions has proved to have enormous implications for basic research and brain-machine applications <a href="#pcbi.1002719-Kay1">[23]</a>–<a href="#pcbi.1002719-Brown1">[25]</a>; however, predictive modeling of clinically relevant measures has shown to be more elusive. To further demonstrate the relevance of our findings, we analyzed the impact of including the analytic model in a predictive setup, as follows: (<strong>a</strong>) we trained a predictive linear model with regularizing constraints, the Elastic Net <a href="#pcbi.1002719-Carroll1">[26]</a>, <a href="#pcbi.1002719-Rish1">[27]</a>, to infer pain ratings from full-brain fMRI traces, utilizing TR volumes (i.e. the brain images acquired at each time point) concurrent with the ratings as independent samples (hereby labeled EN model); (<strong>b</strong>) we trained a model as in (a), but using up to 7 TR volumes previous to the time the ratings are reported, and using as predictors only voxels that have a time-lagged correlation with the target variable above a threshold (0.2 in this case) (EN w/lags model); (<strong>c</strong>) we trained a model as in (a) and combined it linearly with the analytic second order model, <a href="#pcbi.1002719.e001">Eq. 1</a>, trained on the same data using both temperature and pain ratings (Combined model). Specifically, the model is trained to infer the pain ratings from fMRI traces, independently infer the temperature from fMRI traces, obtain a second estimate of the pain ratings through the application of the dynamical model to the inferred temperature, and then combine both predictions into one. Finally, (<strong>d</strong>) we trained an unconstrained, linear ordinary least-squares model (OLS), with the same conditions as in (a) (<a href="#pcbi-1002719-g003"><strong>Figure 3A</strong></a>).</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[1]"><a name="pcbi-1002719-g003" id="pcbi-1002719-g003" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002719?imageURI=info:doi/10.1371/journal.pcbi.1002719.g003" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002719', 'info:doi/10.1371/journal.pcbi.1002719.g003');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002719', 'info:doi/10.1371/journal.pcbi.1002719.g003');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.g003&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002719?imageURI=info:doi/10.1371/journal.pcbi.1002719.g003" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002719', 'info:doi/10.1371/journal.pcbi.1002719.g003');"><span>Figure 3. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[1]/caption[1]/title[1]">Scheme and performance for predictive modeling of pain ratings from brain activity.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[1]/caption[1]/p[1]"><strong>A.</strong> Depicts the learning phase, where the relationships between BOLD signal and temperature, BOLD signal and perception, and temperature and perception are learned on the training data. <strong>B.</strong> Corresponds to the prediction phase, where for three approaches (OLS, EN and EN w/lags) the learned model is used to infer the pain rating from the BOLD signal (red pathway), whereas for the Combined model the first inference is combined with the inference of temperature from BOLD, and perception from temperature using the second order model (magenta pathway). <strong>C</strong>: Predictive accuracy on test data of models inferring pain perception ratings from brain activity. The horizontal axis represents fit correlation between predicted and actual ratings for the three inference models that do not include the analytic dynamical model (OLS, EN and EN w/lags). The vertical axis is the predictive accuracy for the Combined model. Note the marked increase in prediction accuracy for the combined model. Each symbol/category is outcome for an individual subject. Dashed line is identity. <strong>D</strong>. Average gain in test correlation of the combined model over the three alternative predictive models.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002719.g003</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002719.g003/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002719.g003/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002719.g003.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002719.g003/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002719.g003.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/p[2]">With this setup, we then computed the predictive accuracy of the combined model to infer the pain ratings on unseen test data, using only the fMRI traces, and compared it with the predictions of the EN model, the EN w/lags model (to compensate for the intrinsic use of the recent history in the analytic model), and the OLS model (<a href="#pcbi-1002719-g003"><strong>Figure 3B</strong></a>). The results are shown in <a href="#pcbi-1002719-g003"><strong>Figure 3C–D</strong></a>, which displays for each subject the predictive accuracy of the EN, EN w/lags and OLS models in comparison to the Combined model. The Combined model shows a significant improvement in predictive accuracy over the other three models, including EN w/lags, which includes delayed information and helps it to predict better than EN. In all cases, the increase in accuracy is statistically significant (Wp, <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e031&amp;representation=PNG"></span>). These results demonstrate that our dynamical model can be successfully combined with physiological measurements in order to obtain further insights into the mechanisms of pain perception, and eventually used as a scaffold for experimental manipulations. Moreover, given the high accuracy of the predictions, we conclude that “mind reading” of subjective pain perception is practically attainable.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/title[1]">Model Consistency</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[1]">Besides the model's predictive efficacy, it is important to understand how consistent it is with respect to the known phenomenology. In particular, the distribution of threshold temperatures over the population (<strong><a href="#pcbi.1002719.s001">Figures S1</a>, <a href="#pcbi.1002719.s004">S4</a>, <a href="#pcbi.1002719.s005">S5</a></strong>) closely matches classic values determined by rigorous psychophysical methods <a href="#pcbi.1002719-Hashmi1">[28]</a>. The other easily interpretable parameter of the model, the decay time-constant, also shows a reasonable distribution of values, as well as a good match between the second-order and the simplified first-order models (<strong><a href="#pcbi.1002719.s001">Figures S1</a>, <a href="#pcbi.1002719.s004">S4</a>, <a href="#pcbi.1002719.s005">S5</a></strong>).</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[2]">In order to assess the significance of each of the terms contributing to the description of the perceptual dynamics in <a href="#pcbi.1002719.e001">Eq. 1</a> and <a href="#pcbi.1002719.e023">Eq. 2</a>, we computed all pair-wise correlations between the corresponding fitted parameters in the second-order model. High correlation between two terms may indicate a redundancy in model, or perhaps an even worse inadequacy of the model to capture the essential features of the dynamics. Of all pairs (<a href="#pcbi.1002719.s014">Table S1</a>), only two reach statistical significance: between <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e032&amp;representation=PNG"></span> and <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e033&amp;representation=PNG"></span>(<em>r</em> = 0.56, <em>p</em> = 0.01), and between <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e034&amp;representation=PNG"></span>and <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e035&amp;representation=PNG"></span> (<em>r</em> = −0.53, <em>p</em> = 0.017). It is instructive to contrast these values with the result of performing a similar computation with the fitted parameters for the first-order model; in this case, the correlation between <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e036&amp;representation=PNG"></span> and <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e037&amp;representation=PNG"></span> is significant (<em>r</em> = 0.72, <em>p</em> = 0.0003). A parsimonious interpretation of these results is that the simplification of the dynamics introduces correlations between terms that do not properly describe it. Given that the second-order model performs better, we conclude that the more complex model is also a better representation of the dynamics. Moreover, while the two correlations are significant, their actual value (<em>r</em><span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e038&amp;representation=PNG"></span>0.5) implies that their contributions are not redundant.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[3]">We tested more radical variants of the modeling approach, in order to test its goodness-of-fit in a “functional space”. In particular, <a href="#pcbi.1002719.e023">Eq. 2</a> was expanded to incorporate two time-constants, slow and fast systems corresponding to the physiology of slow (unmyelinated) and fast conducting (myelinated) nociceptive afferents <a href="#pcbi.1002719-Basbaum1">[29]</a>; we determined that such models do not substantially improve prediction of pain ratings (<strong><a href="#pcbi.1002719.s009">Figure S9</a></strong>). In fact, the apparent presence of two time-constants in the perceptual dynamics is accounted for, in <a href="#pcbi.1002719.e001">Eq. 1</a>, by the <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e039&amp;representation=PNG"></span> term, which models the decay of perception after the temperature drops below threshold as faster than the rising time-constant (because <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e040&amp;representation=PNG"></span> is higher in the former than in the latter, see <a href="#pcbi-1002719-g001"><strong>Figure 1</strong></a>).</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[4]">A large psychophysical body of literature shows that static ratings of thermal pain, similarly to other sensory modalities, follow S.S. Stevens's power-law for perceived magnitudes <a href="#pcbi.1002719-Price1">[8]</a>, suggesting that the dependence of dynamics of pain perception on temperature might be better modeled by a power function. As this law describes the stationary or steady-state response to pain, as opposed to its dynamical behavior, we cannot directly compare it against our model. However, we considered that it would be possible to extend the model to encompass power-law stationary responses. Given that this requires an additional parameter (the exponent), it is more reasonable to consider an extension of <a href="#pcbi.1002719.e023">Eq. 2</a>, in which the term driven by the difference between the current temperature and the threshold is modified by an exponent, leading to:<br><a name="pcbi.1002719.e041" id="pcbi.1002719.e041"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e041&amp;representation=PNG"><span class="note" xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[4]/disp-formula[1]/label[1]">(3)</span></span><br>where<span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e042&amp;representation=PNG"></span> and <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e043&amp;representation=PNG"></span> is an additional parameter. Performance of this new model was contrasted to <a href="#pcbi.1002719.e023">Eq. 2</a>, yielding results that are comparable but slightly poorer, even though the model has one more parameter. To summarize, the mean correlation over simple and complex stimuli was 0.90 and 0.87, compared to 0.92 and 0.88 for <a href="#pcbi.1002719.e023">Eq. 2</a>. We also observe that as long as <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e044&amp;representation=PNG"></span> and <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e045&amp;representation=PNG"></span> are fitted for individual ratings, proportionality constant <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e046&amp;representation=PNG"></span> and the power parameter <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e047&amp;representation=PNG"></span> compensate for each other (range for <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e048&amp;representation=PNG"></span> was 2.97 to −0.28, mean = 1.0 and SEM = 0.3), and <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e049&amp;representation=PNG"></span> and <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e050&amp;representation=PNG"></span> converge to the same optimal values as found for <a href="#pcbi.1002719.e023">Eq. 2</a> (performance measure between <a href="#pcbi.1002719.e023">Eq. 2</a> and <a href="#pcbi.1002719.e041">Eq. 3</a> using either <em>r</em> or <em>SSE</em> shows a correlation of 0.99, <em>p</em> = 0).</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[5]">Our model can capture, in a single framework, perceptual behaviors that are usually considered as disparate. Given that the perception of pain can be parceled into separate dimensions and as recent evidence suggests that the temporal dynamics of these modalities may have unique properties that depend on stimulus intensity <a href="#pcbi.1002719-Hashmi1">[28]</a>, we examined the properties of our models for the percept of burning. When subjects were instructed to report the magnitude of burning pain <a href="#pcbi.1002719-Hashmi1">[28]</a>, we observed similar rating profiles and model fitting to the perceived magnitude of pain, indicating that the modeling approach may be equally applicable to sub-modalities of pain.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[6]">Similarly, our model encompasses the different behaviors associated with offset analgesia (OA). While OA is usually defined by the de-sensitization to the same noxious temperature following exposure to a more noxious one <a href="#pcbi.1002719-Yelle1">[16]</a> (a feature essentially captured by our model, cfr. <a href="#pcbi-1002719-g001"><strong>Figure 1</strong></a>), other more subtle features have been reported in the literature under the OA characterization, of which we will consider the main two. The first one is the observation that temperature fall rates in the range of 0.1 to 0.5°C/sec are barely detected with continuous ratings of pain <a href="#pcbi.1002719-Yelle1">[16]</a>. We tested whether our second order model will also show less sensitivity to stimulus offset rates, in comparison to the first order model, where perception fall rates should better reflect stimulus fall rates. <strong><a href="#pcbi.1002719.s010">Figure S10</a></strong> shows that in fact these predictions are correct (the model closely captures pain ratings as described in figures 3 and 4 in <a href="#pcbi.1002719-Yelle1">[16]</a>). A second observation regarding OA is that pain perception magnitude for increasing intensities shows different patterns when the stimulus has an additional one degree perturbation (offset stimulus) in contrast to when the stimulus is kept at a constant level or returns to baseline <a href="#pcbi.1002719-Derbyshire1">[30]</a>. Again our second order model captures these features better than the first order (<strong><a href="#pcbi.1002719.s011">Figure S11</a></strong>), and in fact our model replicates figures 2–5 in <a href="#pcbi.1002719-Derbyshire1">[30]</a>.</p>
+
+</div>
+
+<div id="section3" xpathLocation="/article[1]/body[1]/sec[3]"><a id="s3" name="s3" toc="s3" title="Methods"></a><h3 xpathLocation="noSelect">Methods&nbsp;<a href="#top">Top</a></h3>
+<h4 xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/title[1]">Psychophysics</h4>
+<h5 xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/sec[1]/title[1]">Participants.</h5><p xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/sec[1]/p[1]">Twelve healthy subjects participated in this part of the study: 6 women and 6 men (Age: 26±0.3 years; mean ± S.D.). All subjects were right-handed, and all gave informed consent to procedures approved by Northwestern University IRB committee.</p>
+
+<h5 xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/sec[2]/title[1]">Thermal stimuli and psychophysical ratings.</h5><p xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/sec[2]/p[1]">Stimuli were delivered to the dorsal aspect of the right arm with a thermal stimulator (3×3 cm Peltier) (Medoc TSA-2001; Israel). Two types of stimulus series, simple and complex, were applied in a randomized order at different skin locations. The simple stimulus started at baseline 35°C, with peak temperatures 45°C, 47°C and 49°C, nine stimuli ranging in duration from 10 to 40 s. Durations, intensities, and inter-stimulus intervals were pseudo-randomized. The complex stimuli consisted of three stimulus pulses adapted from <a href="#pcbi.1002719-Yelle1">[16]</a>: from baseline 35°C sustained for 30 sec the initial peak was 47°C, after 5 sec the skin temperature further increased by 1°C sustained for 5 sec, then returned to 47°C for 20 sec. After a 50 sec baseline adaptation, the second stimulus pulse was applied at 47°C for 35 sec. This was followed by 60 sec baseline adaptation and third pulse consisting of a 47°C, 5 sec stimulus followed by a 48°C, 5 sec stimulus. Stimulus rise and fall rates were about 8°C/s (<strong>see</strong> <a href="#pcbi-1002719-g002"><strong>Figure 2</strong></a>, and <strong><a href="#pcbi.1002719.s001">Figure S1</a></strong>).</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/sec[2]/p[2]">Subjects continuously rated the perceived pain intensity for simple and complex stimuli using a finger-span device. The anchors were “no pain” at the lower limit of 0 and “most intense pain imaginable” at 100. The finger span device was comprised of a potentiometer the voltage of which was digitized and connected to a computer providing visual feedback. Participants underwent an initial training phase prior to data collection. Every subject performed pain intensity rating for simple and complex stimuli twice in a randomized order. These subjects were also asked to rate only the intensity of dull burning sensation evoked by the simple or complex stimulus in two additional runs, presented in a randomised order and interspersed between the pain intensity rating runs.</p>
+
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/title[1]">Model Simulation and Parameter Estimation</h4>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/p[1]">Model simulation was implemented with standard integration algorithms in Matlab. To obtain the simplified <a href="#pcbi.1002719.e023">Eq. 2</a> from <a href="#pcbi.1002719.e001">Eq. 1</a>, we write<br><a name="pcbi.1002719.e051" id="pcbi.1002719.e051"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e051&amp;representation=PNG"></span><br>Assuming a large decay constant (equiv. a short time scale to ‘forget’), <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e052&amp;representation=PNG"></span> and that the effect of fast changes in the temperature profile is negligible, <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e053&amp;representation=PNG"></span>, we can drop the l.h.s. term to write<br><a name="pcbi.1002719.e054" id="pcbi.1002719.e054"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e054&amp;representation=PNG"></span><br>Where <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e055&amp;representation=PNG"></span> and <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e056&amp;representation=PNG"></span>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/p[2]">Parameter estimates for first order and second order equations were calculated in Matlab using minimization of the least squares error between simulation and experimental data, and a random search technique over the parameter space. For each stimulus rating condition, three parameters were calculated for first order fitting and five parameters for second order fitting. Adequacy of fitting was measured by zero-lag Pearson correlation between model output and pain ratings.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/p[3]">Overfitting of the model was investigated using the Akaike Information Criterion (AIC), which penalizes the measure of goodness of fit with a term proportional to the number of free parameters <a href="#pcbi.1002719-Burnham1">[31]</a>. When the residual squared error sum (<em>SS</em>) is known, the criterion can be written as<br><a name="pcbi.1002719.e057" id="pcbi.1002719.e057"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e057&amp;representation=PNG"></span><br>where <em>n</em> is the number of samples, and <em>k</em> the number of parameters. <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e058&amp;representation=PNG"></span> is a constant that depends on the particular dataset used, but not on the model, and therefore can be ignored when making comparisons of <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e059&amp;representation=PNG"></span> between models for the same data. As even when <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e060&amp;representation=PNG"></span> is discounted, this measure still depends on the total number of samples, for presentation's sake we computed a normalized version, which we call here the Akaike gain for the model (<em>m</em>) with respect to the contrasting null hypotheses and first-order model (<em>c</em>), as<br><a name="pcbi.1002719.e061" id="pcbi.1002719.e061"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e061&amp;representation=PNG"></span><br>A positive value for <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e062&amp;representation=PNG"></span> indicates that the gain in accuracy of the model cannot be explained by the increase in number of parameters. For the first null hypothesis, i.e. perception proportional to temperature, the number of parameters is zero. The second null hypothesis, perception proportional to temperature over a threshold, has one free parameter that we estimate similarly to the analytic models.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/p[4]">The Pearson correlation between the parameters for the second-order and first-order models was computed using all fitted parameters across subjects and stimuli (<strong><a href="#pcbi.1002719.s014">Table S1</a></strong>).</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/title[1]">fMRI</h4>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/p[1]">The functional MRI data are the same used in an earlier study <a href="#pcbi.1002719-Baliki1">[14]</a>. Here the thermal stimulus and related ratings of pain are used to compare results of full-brain machine learning with elastic net for predicting pain perception with and without incorporation of our quantitative model for pain perception, <a href="#pcbi.1002719.e001">Eq. 1</a>.</p>
+<h5 xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/sec[1]/title[1]">Participants.</h5><p xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/sec[1]/p[1]">Fourteen healthy subjects participated in the study: 7 women and 7 men (Age: 35.21±11.48 years; mean ± S.D.). All subjects were right-handed, and all gave informed consent to procedures approved by Northwestern University IRB committee.</p>
+
+<h5 xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/sec[2]/title[1]">Pain rating task.</h5><p xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/sec[2]/p[1]">Subjects were scanned while rating their pain in response to thermal stimuli applied to their back (pain rating task) using a finger-span device. Participants underwent an initial training phase prior to scanning. The finger span device was comprised of a potentiometer the voltage of which was digitized and time-stamped in reference to fMRI image acquisition and connected to a computer providing visual feedback. A purpose built, fMRI compatible thermal stimulator delivered painful thermal stimuli, simple sequence in the psychophysics study, was applied to the lower back at midline twice, resulting in separate fMRI data sets.</p>
+
+<h5 xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/sec[3]/title[1]">fMRI data acquisition and preprocessing.</h5><p xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/sec[3]/p[1]">Functional MR data was acquired with a 3T Siemens Trio whole-body scanner with echo-planar imaging capability using the standard radio-frequency head coil. Multi-slice T2*-weighted echo-planar images were obtained: repetition time TR = 2.5 sec, echo time TE = 30 msec, flip angle = 90°, slice thickness = 3 mm, in-plane resolution = <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e063&amp;representation=PNG"></span>. The 36 slices covered the whole brain from the cerebellum to the vertex. A T1-weighted anatomical MRI image was also acquired for each subject using the following parameters: TR = 2.1 s, TE = 4.38 ms, flip angle = 8°, FOV = 220 mm, slice thickness = 1 mm, in-plane resolution = 0.86×0.86 mm<sup>2</sup> and number of sagittal slices = 160.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/sec[3]/p[2]">Image pre-processing prior to using fMRI in predicting pain perception based on changes in BOLD signal was performed on each subject's data using FMRIB Expert Analysis Tool (FEAT, <a href="http://www.fmrib.ox.ac.uk/fsl">www.fmrib.ox.ac.uk/fsl</a>). The pre-processing of time-series of fMRI volumes encompassed: skull extraction using BET; slice time correction; motion correction; spatial smoothing using a Gaussian kernel of full-width-half-maximum 5 mm; non-linear high-pass temporal filtering (120 seconds) and subtraction of the mean of each voxel time-course from that time-course. Six time series obtained from rigid head motion corrections were used as covariates of no interest, to remove residual variance due to head motion.</p>
+
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/title[1]">Machine Learning with Elastic Net (EN) to Predict Pain Perception from fMRI Activity</h4>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/p[1]">Herein, we learn a predictive model individually for each subject. We treat voxels as predictor variables, TRs as independent samples (following <a href="#pcbi.1002719-Carroll1">[26]</a>, <a href="#pcbi.1002719-Rish1">[27]</a>), and pain ratings as target variables, respectively. While the independence assumption among subsequent TRs does not hold in practice, and is used mainly for simplicity sake, it allows us to reach good predictive accuracy. We learn the model parameters using the first half of the experiment as training data, and then apply the model to the second half of the experiments, treated here as test data.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/p[2]">Sparse predictive models were learned using a sparse regression method called the Elastic Net <a href="#pcbi.1002719-Zou1">[32]</a>, which enhances the basic LASSO regression <a href="#pcbi.1002719-Tibshirani1">[33]</a> by combining &lt;$&gt;\raster(80%)="rg1"&lt;$&gt;<em>1</em>-norm (sparsity-enforcing) constraint with the &lt;$&gt;\raster(80%)="rg1"&lt;$&gt;2-norm (“grouping”) constraint. The rationale behind this extension is to overcome a known limitation of the LASSO: given groups of correlated variables (e.g., spatial clusters of voxels), LASSO may pick an arbitrary one from the group, as long as the resulting model predicts well; however, if the goal is neuro-scientific interpretation of the sparse model as a set of voxels relevant to the task, it is important to include (or exclude) voxels as groups (clusters) of highly-correlated variables, rather than single representatives of a group. This is achieved, to some extent, by controlling the grouping parameter mentioned above, that tends to enforce similar coefficients among highly correlated voxels (e.g., spatial neighbors). The Elastic Net and other models used in this paper are formally described below, and summarized in <a href="#pcbi-1002719-t001"><strong>Table 1</strong></a>.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/table-wrap[1]"><a name="pcbi-1002719-t001" id="pcbi-1002719-t001" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002719?imageURI=info:doi/10.1371/journal.pcbi.1002719.t001" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002719', 'info:doi/10.1371/journal.pcbi.1002719.t001');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002719', 'info:doi/10.1371/journal.pcbi.1002719.t001');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.t001&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/table-wrap[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002719?imageURI=info:doi/10.1371/journal.pcbi.1002719.t001" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002719', 'info:doi/10.1371/journal.pcbi.1002719.t001');"><span>Table 1. </span></a> <span xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/table-wrap[1]/caption[1]/title[1]">Models summary.</span></strong></p><span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002719.t001</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002719.t001/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002719.t001/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002719.t001.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002719.t001/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002719.t001.TIF"></span> TIFF)
+                  </a></li></ul></div></div><h5 xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/sec[1]/title[1]">Ordinary Least Squares (OLS) model.</h5><p xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/sec[1]/p[1]">Let <em>X<sub>1</sub>,…,X<sub>n</sub></em> be a set of N predictor variables (predictors), such as voxel's intensities, or BOLD signals, and let <em>Y</em> be the response variable, such as a pain perception rating. Let <strong><em>X</em></strong> = (<strong><em>x</em></strong><em><sub>1</sub></em>|…|<strong><em>x</em></strong><em><sub>n</sub></em>) denote the <em>m</em>×<em>n</em> data matrix, where each <strong>x</strong> is an <em>m</em>-dimensional vector consisting of the values for predictor <em>X<sub>i</sub></em> for <em>m</em> data samples, while the <em>m</em>-dimensional vector <strong><em>y</em></strong> denotes the corresponding values for the response variable <em>Y</em>. We consider the problem of estimating the coefficients <em>β<sub>i</sub></em> in the following linear regression model:<br><a name="pcbi.1002719.e064" id="pcbi.1002719.e064"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e064&amp;representation=PNG"><span class="note" xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/sec[1]/p[1]/disp-formula[1]/label[1]">(4)</span></span><br>where <strong><em>y</em></strong>* is an approximation of <strong><em>y</em></strong>. As a baseline, we use the Ordinary Least Squares (OLS) regression approach which finds a set of <em>β<sub>i</sub></em> that minimize the sum-squared approximation error:<br><a name="pcbi.1002719.e065" id="pcbi.1002719.e065"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e065&amp;representation=PNG"><span class="note" xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/sec[1]/p[1]/disp-formula[2]/label[1]">(5)</span></span><br>Where ∥<strong>.</strong>∥<em><sub>2</sub></em> represents the &lt;$&gt;\raster(80%)="rg1"&lt;$&gt;<em>2</em>-norm. When <strong>X</strong> has the full column-rank (which also implies that the number of samples <em>m</em> is larger than the number of variables <em>n</em>), OLS finds the closed-form unique solution <strong><em>β*</em></strong> = inv (<strong><em>X<sup>T</sup> X</em></strong>) <strong><em>X<sup>T</sup> y</em></strong>, where inv() denotes the matrix inverse, and <strong><em>X<sup>T</sup></em></strong> denotes the matrix transpose, respectively. However, when <em>n&gt;m</em>, as it is often the case in fMRI data with thousands of predictors (voxels) and only a few hundreds of samples (TRs), there is no unique solution to the OLS problem, and additional constraints are required to “regularize” the problem. Moreover, predictive accuracy of OLS solutions can be low due to over-fitting in high-dimensional, but small-sample problems. Finally, OLS does not perform any automatic variable selection (i.e., all coefficients tend to be nonzero), so that it is hard to identify which predictors (e.g., voxels) are most relevant to the response variable.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/sec[1]/p[2]">In the past decades, various regularization approaches have been proposed in order to improve OLS models to handle properly large-<em>n</em>, small-<em>m</em> datasets, and to avoid the over-fitting (e.g., ridge regression <a href="#pcbi.1002719-Hoerl1">[34]</a>, bridge regression <a href="#pcbi.1002719-Fu1">[35]</a>, LASSO regression <a href="#pcbi.1002719-Tibshirani1">[33]</a>, and so on. Specifically, recently proposed sparse regularization methods such as LASSO <a href="#pcbi.1002719-Tibshirani1">[33]</a> and Elastic Net <a href="#pcbi.1002719-Zou1">[32]</a> address both of the OLS shortcomings, since variable selection is embedded into their model-fitting process. Sparse regularization methods include the &lt;$&gt;\raster(80%)="rg1"&lt;$&gt;1-norm penalty on the coefficients, which is known to produce sparse solutions, i.e. solutions with many zeros, thus eliminating predictors that are not essential.</p>
+
+<h5 xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/sec[2]/title[1]">Elastic net model.</h5><p xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/sec[2]/p[1]">In this paper, we use the Elastic Net (EN) regression approach. This algorithm finds an optimal solution to the least-squares (OLS) problem, augmented with additional regularization terms that include the sparsity-enforcing &lt;$&gt;\raster(80%)="rg1"&lt;$&gt;1-norm constraint on the regression coefficients that “shrinks” some coefficients to zero, and a “grouping” &lt;$&gt;\raster(80%)="rg1"&lt;$&gt;2-norm constraint that enforces similar coefficients on predictors that are highly correlated with each other, thus allowing selection of relevant groups of voxels, which &lt;$&gt;\raster(80%)="rg1"&lt;$&gt;1-norm constraint alone is not providing. This can improve the interpretability of the model, for example, including a group of similarly relevant voxels, rather than one representative voxel from the group. Formally, EN regression optimizes the following function<br><a name="pcbi.1002719.e066" id="pcbi.1002719.e066"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e066&amp;representation=PNG"><span class="note" xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/sec[2]/p[1]/disp-formula[1]/label[1]">(6)</span></span><br>where ∥<strong>.</strong>∥<em><sub>1</sub></em> and ∥<strong>.</strong>∥<em><sub>2</sub><sup>2</sup></em> represent the &lt;$&gt;\raster(80%)="rg1"&lt;$&gt;<em>1</em>-norm and (squared) &lt;$&gt;\raster(80%)="rg1"&lt;$&gt;<em>2</em>-norm, respectively.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/sec[2]/p[2]">In order to solve the EN problem, we use the LARS-EN algorithm of <a href="#pcbi.1002719-Zou1">[32]</a>. It takes as an input the grouping parameter <em>λ<sub>2</sub></em> and the sparsity parameter that explicitly specifies the desired number of selected predictors; this number corresponds to a unique value of <em>λ<sub>1</sub></em> in <a href="#pcbi.1002719.e041">Eq. 3</a>. Thus, herein we will slightly abuse the notation, and following <a href="#pcbi.1002719-Carroll1">[26]</a> denote the sparsity parameter as <em>λ<sub>1</sub></em> while always interpreting it as the number of selected predictors.</p>
+
+<h5 xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/sec[3]/title[1]">EN w/lags model.</h5><p xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/sec[3]/p[1]">When predicting a stimulus or behavior from fMRI data, it is typical to use as the predictors the voxels intensities at the current TR, and treat TRs as independent and identically distributed (i.i.d.) samples <a href="#pcbi.1002719-Carroll1">[26]</a>. While this assumption can lead to over-estimates of accuracy under auto-correlated noise, temporal information from the past TRs may sometimes improve the predictive model, as we demonstrate, for example, in <a href="#pcbi.1002719-Rish1">[27]</a>. We considered as a set of predictors all voxels from the past 7 TRs, and the current TR. However, due to very high dimensionality of this set, we selected only a subset of those voxels that were correlated with the response variable above the given threshold (herein, we used 0.2). (Note that time-lagged voxel's time series were shifted forward by the appropriate lag in order to properly align it with the response time series).</p>
+
+<h5 xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/sec[4]/title[1]">Combined model.</h5><p xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/sec[4]/p[1]">The combined model was constructed as follows. First, we used the training fMRI data and the actual temperature recording for the corresponding TRs in order to learn an Elastic Net regression model for predicting the temperature stimulus from fMRI. Next, given the training data for temperature and pain perception, we learned the parameters of the analytical model, second-order differential equation, <a href="#pcbi.1002719.e001">Eq. 1</a>. We then combine the prediction of the EN fMRI-to-temperature-to-pain and the EN fMRI-to-pain models, learning the parameters of the combined model similarly on the train data.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/sec[4]/p[2]">More explicitly, in the testing phase we assume that the temperature is not actually known (i.e., is a “hidden variable”), and apply the learned EN regression model to the test fMRI data in order to predict the temperature stimulus. We then apply the analytical model (<a href="#pcbi.1002719.e001">Eq. 1</a>) to predict the pain perception given the predicted temperature, and combine this prediction with the direct EN regression model for pain in order to obtain the final prediction.</p>
+
+<h5 xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/sec[5]/title[1]">Training and testing.</h5><p xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/sec[5]/p[1]">The data from the pain-stimulus rating session were split into the training and test subsets: the data associated with the first 120 TRs were used for training the models, while the remaining 120 TRs were used for testing the predictive accuracy. The accuracy of the model was measured by the Pearson's correlation coefficient between the response variable (pain rating) and its prediction by the model.</p>
+
+
+</div>
+
+<div id="section4" xpathLocation="/article[1]/body[1]/sec[4]"><a id="s4" name="s4" toc="s4" title="Discussion"></a><h3 xpathLocation="noSelect">Discussion&nbsp;<a href="#top">Top</a></h3>
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[1]/title[1]">Model Efficacy</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[1]/p[1]">The results show that acute thermal pain perception applied to healthy skin follows simple quantitative deterministic patterns. The dynamic model is derived from a behaviorally relevant interpretation of pain perception as a warning signal that quickly reports immediate threat of injury (temperature above threshold), and approaching danger (rapid temperature increases), and can also as easily discount the threat once it goes away or it is expected to do so (temperature decreases). The model, using few parameters, can reproduce with high accuracy the dynamical transformation from stimulus to perception. Moreover, the model also has high predictive accuracy, and accounts for subjects' variability with simple and interpretable mechanisms.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[1]/p[2]">The model provides a summary of a relatively complex behavior, whose physiological correlates and mechanisms can be directly investigated through pharmacological manipulation and the design of targeted stimulus conditions. Temporal processing is ubiquitous in sensory systems, including the somatosensory pathway <a href="#pcbi.1002719-Phillips1">[36]</a>, <a href="#pcbi.1002719-Romo1">[37]</a>. However, it is only in a few cases that spatio-temporal transformations can be functionally interpreted, beyond generic sharpening for enhanced localization <a href="#pcbi.1002719-Gabernet1">[38]</a>, or information compression <a href="#pcbi.1002719-Dan1">[39]</a>. We do not consider, however, that the perceptual dynamics captured by our model can be reduced to peripheral processing. In fact, as previously reported <a href="#pcbi.1002719-Baliki1">[14]</a>, the BOLD response to a task similar to the one used in this report reveals a rich temporal structure across several cortical and sub-cortical areas compatible with the time scale of the perceptual ratings, such that the dynamics of pain perception may result from the emergent interaction of extensive networks. Moreover, given its ultimately non-linear nature, the model further predicts dynamical features of pain perception that may have unexpected behavioral relevance (see <strong><a href="#pcbi.1002719.s015">Text S1</a></strong>).</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[1]/p[3]">The utilization of our analytic model within the “mind reading” setup highlights its predictive efficacy, and provides an additional validation step. A further reason for using the combined model, besides simply inferring pain from fMRI, is to go beyond the limitation of simple linear inference models such as Elastic Net, while keeping the non-linear model simple, tractable and interpretable. Given the nature of brain processes, we expect the true relationship between the high-dimensional fMRI signal and pain ratings to be a complex non-linear one. However, fitting an ad hoc non-linear model (e.g., a neural network) to such high-dimensional data to predict pain rating directly could be computationally much more challenging than fitting a linear one. On the other hand, given an accurate analytical model linking temperature to pain, we may exploit it advantages in our combined nonlinear method, first obtaining an estimate of the temperature from fMRI data via simple and computationally efficient linear regression, and then using nonlinear model predicting pain from temperature. Though the combined predictive model involves inferring temperature as a hidden variable, it outperforms the direct EN model because it captures (at least the temperature-to-pain part of) the non-linear relationship between fMRI and pain perception. To some extent, we can consider the analytic model as a principled constraint in the temporal domain, similar to the spatial regularization imposed by EN.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[2]/title[1]">Caveats, Limitations and Outlook</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[2]/p[1]">Our model can only provide a limited description of the full complexity of pain perception. In particular, the model accurately captures the perceptual dynamics in the time scale of seconds to minutes, most relevant for the functional interpretation of thermal pain as an “alarm signal”. Processes whose dynamics develop over longer time scales, such as habituation, sensitization, post-tissue injury, or following acute or chronic pain conditions <a href="#pcbi.1002719-Price1">[8]</a>, <a href="#pcbi.1002719-Hardy1">[11]</a> are beyond the model's descriptive capabilities. For instance, repeated testing of offset analgesia over multiple days in <a href="#pcbi.1002719-Yelle1">[16]</a> results in sensitization changes, which however do not alter the quality of the responses. Nevertheless, our model can provide an analytic framework even in the context of these long-term adaptive processes, as it will be possible to study the effect of adaptation on the different parameters that control the short-term perceptual dynamics, for instance threshold and decay time-constant. Another class of perceptual behaviors that our model does not consider, unrelated to differences in time scale, are those derived from interactions between pain and cognitive and attention processes, which can significantly modulate the perception to objectively similar noxious stimuli <a href="#pcbi.1002719-Miron1">[40]</a>–<a href="#pcbi.1002719-Bantick1">[41]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[2]/p[2]">Despite its limitations, the model provides a powerful tool with which peripheral and central mechanisms can be studied. As the model describes subjective reports of magnitude of pain, it may also generalize to magnitude perception across other sensory modalities. Moreover, as we have tentatively shown with the combined model of fMRI-based prediction, it should be possible to identify physiological processes associated with the proposed components of the perceptual dynamics, and so reduce the gap between phenomenology and theory.</p>
+
+</div>
+
+<div id="section5" xpathLocation="/article[1]/body[1]/sec[5]"><a id="s5" name="s5" toc="s5" title="Supporting Information"></a><h3 xpathLocation="noSelect">Supporting Information&nbsp;<a href="#top">Top</a></h3><a name="pcbi.1002719.s001" id="pcbi.1002719.s001"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002719.s001">Figure S1. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[1]/caption[1]/p[1]"><strong>Individual subjects and group averaged pain ratings and corresponding models.</strong> Pain rating are shown in blue for simple (first two columns) and complex stimulus (3<sup>rd</sup> and 4<sup>th</sup> columns), fitted (red) with first (columns 1 and 3) and second order models (columns 2 and 4), corresponding parameters (first-order model: <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e067&amp;representation=PNG"></span>; second-order model: <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e068&amp;representation=PNG"></span>) and fit correlations (<em>r</em>) are also presented. Stimulus temperature profiles are shown on top in green. <strong>A.</strong> Each row is a single subject. <strong>B.</strong> Group-averaged pain perception and calculated models. Note that group-averaged pain ratings for simple stimuli show better fit correlations than the individual subject models for the simple stimulus, and first-order and second-order models are essentially equivalent and show 97% similarity to the group-averaged pain rating. This is not the case for the second order model, due to its non-linear properties.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[1]/caption[1]/p[2]">(TIFF)</p>
+<a name="pcbi.1002719.s002" id="pcbi.1002719.s002"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002719.s002">Figure S2. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[2]/caption[1]/p[1]"><strong>A time expansion of part of </strong><a href="#pcbi-1002719-g002"><strong>fig. 2</strong></a><strong> for the simple stimulus.</strong> Stimulus and pain ratings are shown in balck, and first (top panel) and second (middle panel) order models are in red. The first order model consistently over estimates pain relief time profile, while the second order model captures this more accurately (compare corresponding arrows between top and bottom panels). Note that model performance measures do not capture such details as variability of rating within and across subjects dominates such measures.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[2]/caption[1]/p[2]">(TIFF)</p>
+<a name="pcbi.1002719.s003" id="pcbi.1002719.s003"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002719.s003">Figure S3. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[3]/caption[1]/p[1]"><strong>Comparison between models and null hypotheses for fit correlations between the time derivative of the actual and modeled perception traces.</strong> Panel A. comparison between the linear models and the 2nd order model, for simple and complex stimuli (circles and triangles, respectively). The linear model corresponds to the null hypothesis that perception follows temperature, while the threshold model assumes perception follows temperature above a threshold; the temperature threshold is optimized for each subject. But for a few cases (7 of 48), the second order model outperforms the linear and threshold models. Panel B. Same as Panel A, but the horizontal axis corresponds to the time derivative of the first order model. The first order model outperforms the second order model in 6 of 24 cases (this difference is statistically not significant, Wp, <em>p</em>&gt;0.1). Data points correspond to values for each subject, and the dashed line to the identity.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[3]/caption[1]/p[2]">(TIFF)</p>
+<a name="pcbi.1002719.s004" id="pcbi.1002719.s004"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002719.s004">Figure S4. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[4]/caption[1]/p[1]"><strong>Histograms of distributions of parameter values for all subjects and for simple and complex stimuli.</strong> Panel A: distribution of the 3 parameters for the first order model. Panel B: distribution of the 5 parameters for the second order model.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[4]/caption[1]/p[2]">(TIFF)</p>
+<a name="pcbi.1002719.s005" id="pcbi.1002719.s005"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002719.s005">Figure S5. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[5]/caption[1]/p[1]"><strong>Calculated threshold to pain and time constant are similar for first and second order models.</strong> Left panel is the correlation of temperature threshold parameter (in degrees centigrade) between first and second order models, for simple and complex stimuli. Right panel is the time constant comparison between the two models (<span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e069&amp;representation=PNG"></span> for the first order model, and <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e070&amp;representation=PNG"></span> for the second order model) for the simple stimulus.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[5]/caption[1]/p[2]">(TIFF)</p>
+<a name="pcbi.1002719.s006" id="pcbi.1002719.s006"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002719.s006">Figure S6. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[6]/caption[1]/p[1]"><strong>Individual subjects perception and predicted perception based on parameters estimated from a previous pain rating.</strong> Each row is an individual subject. Parameters estimated from pain rating run 1 are used to model perception for run 2 in each subject. Fit correlations are shown for each prediction. Column 1 is for simple stimulus using estimation from first order model (estimations are shown in <a href="#pcbi.1002719.s002">Fig. S2</a>, column 1); column 2 is the same data using estimations from second order model (column 2 in <a href="#pcbi.1002719.s002">Fig. S2</a>). Columns 3 and 4 are similar for the complex stimulus. Simple and complex stimuli are very well predicted for each subject by first and second order models.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[6]/caption[1]/p[2]">(TIFF)</p>
+<a name="pcbi.1002719.s007" id="pcbi.1002719.s007"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002719.s007">Figure S7. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[7]/caption[1]/p[1]"><strong>Estimation and prediction relationship for individual subjects and group averages.</strong> Panel A. The horizontal axis shows the fit correlation between pain perception and the best second order model for each subject (training, run 1, parameters estimated from this run); the vertical axis is the correlation between actual perception and predicted perception for a second independent pain rating (run 2), with the parameters learned from run 1 (test correlation). Open and full circles correspond to simple and complex stimuli conditions, respectively. As expected, test correlations, i.e. predictions, tend to be less accurate than training correlations. Panel B. Same as Panel A, but for parameters learned for the average response to the first run. In this case, predictions for complex stimuli are less accurate, as they reveal more clearly individual differences between the subjects. Panel C. Prediction of first order model for simple stimuli in run 2, based on estimates of complex stimuli on run1. Panel D. Prediction of second order model for complex stimuli in run 2, based on estimates for simple stimuli in run 1.Panel E. Prediction of second order model for simple stimuli in run 2, based on estimates for complex stimuli in run 1.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[7]/caption[1]/p[2]">(TIFF)</p>
+<a name="pcbi.1002719.s008" id="pcbi.1002719.s008"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002719.s008">Figure S8. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[8]/caption[1]/p[1]"><strong>Rating intensity of burning pain or intensity of pain result in comparable models.</strong> Panel A. Group average perception (<em>n</em> = 12 subjects) and predicted perception with corresponding estimated parameters for rating intensity of burning. Panel B. Group average for rating intensity of perceived pain (same as <strong><a href="#pcbi.1002719.s001">Figure S1B</a></strong>). Parameters and fit correlations are similar for both sets of instructions.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[8]/caption[1]/p[2]">(TIFF)</p>
+<a name="pcbi.1002719.s009" id="pcbi.1002719.s009"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002719.s009">Figure S9. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[9]/caption[1]/p[1]"><strong>Comparison between the two-time-constant model and the second order model, for simple and complex stimuli.</strong> Fit correlations were tested for equality, Wp, <em>p</em>&gt;0.1, implying no difference between the two models.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[9]/caption[1]/p[2]">(TIFF)</p>
+<a name="pcbi.1002719.s010" id="pcbi.1002719.s010"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002719.s010">Figure S10. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[10]/caption[1]/p[1]"><strong>Prediction of offset analgesia I.</strong> We use group-averaged parameters (<a href="#pcbi.1002719.s001">Figure S1</a>) for the two models and apply the stimuli reported in <a href="#pcbi-1002719-g003">figure 3</a> of Yelle et al. Panel A: patterns of temperature stimulation with different fall rates, from 0.5 to 5°C/sec. The 5 different patterns are color-coded. Panel B: result of simulating the first order model with group-averaged parameters and the stimulation patterns shown in Panel A. Panel C: same as Panel B, for the second order model.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[10]/caption[1]/p[2]">(TIFF)</p>
+<a name="pcbi.1002719.s011" id="pcbi.1002719.s011"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002719.s011">Figure S11. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[11]/caption[1]/p[1]"><strong>Prediction of offset analgesia II.</strong> Same as <a href="#pcbi.1002719.s010">Figure S10</a>, for stimuli reported in <a href="#pcbi-1002719-g001">figure 1</a> of Derbyshire and Osborn. Panels A, D and G: temperature stimulation patterns. The colors indicate the plateau temperature reached. Panels B, E and H: result of simulating the first order model with the group-average parameters, for the corresponding stimulation patterns in the left column panels. Panels C, F and I: same as the center column panels, for the second order model.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[11]/caption[1]/p[2]">(TIFF)</p>
+<a name="pcbi.1002719.s012" id="pcbi.1002719.s012"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002719.s012">Figure S12. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[12]/caption[1]/p[1]"><strong>Interpretation of the model I.</strong> Panel A: a perception signal delayed with respect to the temperature may integrate the error to zero, while the <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e071&amp;representation=PNG"></span>term is positive; conversely, an advanced perception signal will integrate the same term to a negative value. Panel B: the delayed signal implies a clockwise trajectory in the <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e072&amp;representation=PNG"></span> plane, leading to a positive integral for <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e073&amp;representation=PNG"></span>; the converse is true for an advanced signal.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[12]/caption[1]/p[2]">(TIFF)</p>
+<a name="pcbi.1002719.s013" id="pcbi.1002719.s013"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002719.s013">Figure S13. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[13]/caption[1]/p[1]"><strong>Interpretation of the model II.</strong> Panel A: Integration of the full <a href="#pcbi.1002719.e001">Eq. 1</a> model (red trace), and a model without the <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002719.e074&amp;representation=PNG"></span>term (blue trace), for a temperature that consists of a mean above threshold and an oscillation on top of it (green trace). Panel B: Fourier analysis of the traces around the main frequency. The line traces correspond to the logarithm of the power, while the circles are the phases for each frequency.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[13]/caption[1]/p[2]">(TIFF)</p>
+<a name="pcbi.1002719.s014" id="pcbi.1002719.s014"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002719.s014">Table S1. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[14]/caption[1]/p[1]"><strong>Correlation between fitted parameters for the second- and first-order models.</strong> Statistically significant correlations are indicated in bold-face.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[14]/caption[1]/p[2]">(RTF)</p>
+<a name="pcbi.1002719.s015" id="pcbi.1002719.s015"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002719.s015">Text S1. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[15]/caption[1]/p[1]"><strong>Description of additional data, including fits to individual perception traces, and further comparisons between the proposed models.</strong> An interpretation of the second order model in terms of signal processing is also included.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[15]/caption[1]/p[2]">(DOCX)</p>
+</div>
+
+
+
+<div class="contributions"><a id="authcontrib" name="authcontrib" toc="authcontrib" title="Author Contributions"></a><h3 xpathLocation="noSelect">Author Contributions&nbsp;<a href="#top">Top</a></h3><p xpathLocation="noSelect">Conceived and designed the experiments: AVA MB GAC. Performed the experiments: MB JAH MVC. Analyzed the data: LH MB GAC IR. Contributed reagents/materials/analysis tools: AVA GAC IR. Wrote the paper: AVA GAC.</p></div><div xpathLocation="noSelect"><a id="references" name="references" toc="references" title="References"></a><h3 xpathLocation="noSelect">References&nbsp;<a href="#top">Top</a></h3><ol class="references" xpathLocation="noSelect"><li xpathLocation="noSelect"><a name="pcbi.1002719-Perl1" id="pcbi.1002719-Perl1"></a>Perl ER (2011) Pain mechanisms: a commentary on concepts and issues. Prog Neurobiol 94: 20.
+        doi:
+        <a href="http://dx.doi.org/10.1016/j.pneurobio.2011.03.001">10.1016/j.pneurobio.2011.03.001</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5973663">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002719-Finger1" id="pcbi.1002719-Finger1"></a>Finger S (2001) Origins of Neuroscience: A history of explorations into brain function. London: Oxford University Press. </li><li xpathLocation="noSelect"><a name="pcbi.1002719-Wittgenstein1" id="pcbi.1002719-Wittgenstein1"></a>Wittgenstein L (1953) Philosophical investigations. Oxford: Blackwell Publishing (English Translation 2001). </li><li xpathLocation="noSelect"><a name="pcbi.1002719-Dennett1" id="pcbi.1002719-Dennett1"></a>Dennett DC (1978) Why you can't make a computer that feels pain. Synthese 38: 415.
+        doi:
+        <a href="http://dx.doi.org/10.1007/BF00486638">10.1007/BF00486638</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5973669">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002719-Merskey1" id="pcbi.1002719-Merskey1"></a>Merskey H, Bogduk N (1994) Classification of chronic pain. 2nd edition. Seattle: International Association for the Study of Pain. </li><li xpathLocation="noSelect"><a name="pcbi.1002719-Weber1" id="pcbi.1002719-Weber1"></a>Weber EH (1978) The sense of touch. London: Academic Press. </li><li xpathLocation="noSelect"><a name="pcbi.1002719-Stevens1" id="pcbi.1002719-Stevens1"></a>Stevens SS (1957) On the psychophysical law. Psychol Rev 64: 153.
+        doi:
+        <a href="http://dx.doi.org/10.1037/h0046162">10.1037/h0046162</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5973675">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002719-Price1" id="pcbi.1002719-Price1"></a>Price DD (1988), Psychological and neural mechanisms of pain. New York: Raven Press. </li><li xpathLocation="noSelect"><a name="pcbi.1002719-Hansson1" id="pcbi.1002719-Hansson1"></a>Hansson P, Haanpaa M (2007) Diagnostic work-up of neuropathic pain: computing, using questionnaires or examining the patient? Eur J Pain 11: 367.
+        doi:
+        <a href="http://dx.doi.org/10.1016/j.ejpain.2006.12.005">10.1016/j.ejpain.2006.12.005</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5973679">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002719-Cruccu1" id="pcbi.1002719-Cruccu1"></a>Cruccu G, et al. (2004) EFNS guidelines on neuropathic pain assessment. Eur J Neurol 11: 153.
+        doi:
+        <a href="http://dx.doi.org/10.1111/j.1468-1331.2004.00791.x">10.1111/j.1468-1331.2004.00791.x</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5973681">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002719-Hardy1" id="pcbi.1002719-Hardy1"></a>Hardy JD, Stolwijk AJ, Hoffman D, Kenshalo DR (1968) Pain following step increase in skin temperature. The skin senses. pp. 444–456. Springfield: Thomas. </li><li xpathLocation="noSelect"><a name="pcbi.1002719-Ahlquist1" id="pcbi.1002719-Ahlquist1"></a>Ahlquist ML, Edwall LG, Franzen OG, Haegerstam GA (1984) Perception of pulpal pain as a function of intradental nerve activity. Pain 19: 353–366.
+        doi:
+        <a href="http://dx.doi.org/10.1016/0304-3959(84)90081-2">10.1016/0304-3959(84)90081-2</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5973685">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002719-Vierck1" id="pcbi.1002719-Vierck1"></a>Vierck CJ, Cooper BY, Franzen D, Ritz LA, Greenspan JD (1983) Behavioral analysis of CNS pathways and transmitter systems involved in conduction and inhibition of pain sensations and reactions in primates. In: Progress in Psychobiology. New York: Academic Press. </li><li xpathLocation="noSelect"><a name="pcbi.1002719-Baliki1" id="pcbi.1002719-Baliki1"></a>Baliki MN, Geha PY, Apkarian AV (2009) Parsing pain perception between nociceptive representation and magnitude estimation. J Neurophysiol 101: 875–887.
+        doi:
+        <a href="http://dx.doi.org/10.1152/jn.91100.2008">10.1152/jn.91100.2008</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5973689">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002719-Handwerker1" id="pcbi.1002719-Handwerker1"></a>Handwerker H, Schoedel A, Zimmermann K, Forster C (2005) How do pain ratings change the brain activation by painful stimuli measured with fMRI? Society for Neuroscience Abstracts <a class="find" href="/article/findArticle.action?citedArticleID=5973691">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002719-Yelle1" id="pcbi.1002719-Yelle1"></a>Yelle MD, Rogers JM, Coghill RC (2008) Offset analgesia: a temporal contrast mechanism for nociceptive information. Pain 134: 174–186.
+        doi:
+        <a href="http://dx.doi.org/10.1016/j.pain.2007.04.014">10.1016/j.pain.2007.04.014</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5973693">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002719-Davis1" id="pcbi.1002719-Davis1"></a>Davis KD, Pope GE, Crawley AP, Mikulis DJ (2002) Neural correlates of prickle sensation: a percept-related fMRI study. Nat Neurosci 5: 1121–1122.
+        doi:
+        <a href="http://dx.doi.org/10.1038/nn955">10.1038/nn955</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5973695">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002719-Davis2" id="pcbi.1002719-Davis2"></a>Davis KD, Pope GE, Crawley AP, Mikulis DJ (2004) Perceptual illusion of “paradoxical heat” engages the insular cortex. J Neurophysiol 92: 1248–1251.
+        doi:
+        <a href="http://dx.doi.org/10.1152/jn.00084.2004">10.1152/jn.00084.2004</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5973697">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002719-Yelle2" id="pcbi.1002719-Yelle2"></a>Yelle MD, Oshiro Y, Kraft RA, Coghill RC (2009) Temporal filtering of nociceptive information by dynamic activation of endogenous pain modulatory systems. J Neurosci 29: 10264–10271.
+        doi:
+        <a href="http://dx.doi.org/10.1523/JNEUROSCI.4648-08.2009">10.1523/JNEUROSCI.4648-08.2009</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5973699">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002719-Amris1" id="pcbi.1002719-Amris1"></a>Amris K, Waehren EE, Jespersen A, Bliddal H, Danneskiold-Samsoe B (2011) Observation-based assessment of functional ability in patients with chronic widespread pain: A cross-sectional study. Pain 152: 2470–2476.
+        doi:
+        <a href="http://dx.doi.org/10.1016/j.pain.2011.05.027">10.1016/j.pain.2011.05.027</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5973701">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002719-Morley1" id="pcbi.1002719-Morley1"></a>Morley S (2008) Psychology of pain. Br J Anaesth 101: 25–31.
+        doi:
+        <a href="http://dx.doi.org/10.1093/bja/aen123">10.1093/bja/aen123</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5973703">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002719-Mitchell1" id="pcbi.1002719-Mitchell1"></a>Mitchell TM, et al. (2008) Predicting human brain activity associated with the meanings of nouns. Science 320: 1191–1195.
+        doi:
+        <a href="http://dx.doi.org/10.1126/science.1152876">10.1126/science.1152876</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5973705">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002719-Kay1" id="pcbi.1002719-Kay1"></a>Kay KN, Naselaris T, Prenger RJ, Gallant JL (2008) Identifying natural images from human brain activity. Nature 452: 352–355.
+        doi:
+        <a href="http://dx.doi.org/10.1038/nature06713">10.1038/nature06713</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5973707">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002719-Wager1" id="pcbi.1002719-Wager1"></a>Wager TD, Atlas LY, Leotti LA, Rilling JK (2011) Predicting individual differences in placebo analgesia: Contributions of brain activity during anticipation and pain experience. J Neurosci 31: 439–452.
+        doi:
+        <a href="http://dx.doi.org/10.1523/JNEUROSCI.3420-10.2011">10.1523/JNEUROSCI.3420-10.2011</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5973709">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002719-Brown1" id="pcbi.1002719-Brown1"></a>Brown JE, Chatterjee N, Younger J, Mackey S (2011) Towards a physiology-based measure of pain: patterns of human brain activity distinguish painful from non-painful thermal stimulation. PLoS ONE 6: e24124.
+        doi:
+        <a href="http://dx.doi.org/10.1371/journal.pone.0024124">10.1371/journal.pone.0024124</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5973711">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002719-Carroll1" id="pcbi.1002719-Carroll1"></a>Carroll MK, Cecchi GA, Rish I, Garg R, Rao AR (2009) Prediction and interpretation of distributed neural activity with sparse models. Neuroimage 44: 112–122.
+        doi:
+        <a href="http://dx.doi.org/10.1016/j.neuroimage.2008.08.020">10.1016/j.neuroimage.2008.08.020</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5973713">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002719-Rish1" id="pcbi.1002719-Rish1"></a>Rish I, Cecchi GA, Baliki MN, Apkarian AV (2010) Sparse regression models of pain perception. Lect N Comp Sci 6334: 212–223. <a class="find" href="/article/findArticle.action?citedArticleID=5973715">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002719-Hashmi1" id="pcbi.1002719-Hashmi1"></a>Hashmi JA, Davis KD (2008) Effect of static and dynamic heat pain stimulus profiles on the temporal dynamics and interdependence of pain qualities, intensity, and affect. J Neurophysiol 100: 1706–1715.
+        doi:
+        <a href="http://dx.doi.org/10.1152/jn.90500.2008">10.1152/jn.90500.2008</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5973717">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002719-Basbaum1" id="pcbi.1002719-Basbaum1"></a>Basbaum AI, Bautista DM, Scherrer G, Julius D (2009) Cellular and molecular mechanisms of pain. Cell 139: 267–284.
+        doi:
+        <a href="http://dx.doi.org/10.1016/j.cell.2009.09.028">10.1016/j.cell.2009.09.028</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5973719">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002719-Derbyshire1" id="pcbi.1002719-Derbyshire1"></a>Derbyshire SWG, Osborn J (2008) Enhancement of offset analgesia during sequential testing. Eur J Pain 12: 980–989.
+        doi:
+        <a href="http://dx.doi.org/10.1016/j.ejpain.2008.01.008">10.1016/j.ejpain.2008.01.008</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5973721">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002719-Burnham1" id="pcbi.1002719-Burnham1"></a>Burnham KP, Anderson DR (2002) Model selection and multimodel inference: A practical information-theoretic approach. New York: Springer-Verlag. </li><li xpathLocation="noSelect"><a name="pcbi.1002719-Zou1" id="pcbi.1002719-Zou1"></a>Zou H, Hastie T (2005) Regularization and variable selection via the Elastic Net. J Royal Stat Soc B 67: 301–320. <a class="find" href="/article/findArticle.action?citedArticleID=5973725">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002719-Tibshirani1" id="pcbi.1002719-Tibshirani1"></a>Tibshirani R (1996) Regression shrinkage and selection via the lasso. J Royal Stat Soc B 58: 267–288.
+        doi:
+        <a href="http://dx.doi.org/10.1111/j.1467-9868.2011.00771.x">10.1111/j.1467-9868.2011.00771.x</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5973727">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002719-Hoerl1" id="pcbi.1002719-Hoerl1"></a>Hoerl A, Kennard R (1988) Ridge regression. Encyclopedia of Statistical Sciences 8: 129–136. <a class="find" href="/article/findArticle.action?citedArticleID=5973729">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002719-Fu1" id="pcbi.1002719-Fu1"></a>Fu W (1998) Penalized regression: the bridge versus the lasso. J Comput Graph Statist 7: 397–416. <a class="find" href="/article/findArticle.action?citedArticleID=5973731">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002719-Phillips1" id="pcbi.1002719-Phillips1"></a>Phillips JR, Johnson KO, Hsiao SS (1988) Spatial pattern representation and transformation in monkey somatosensory cortex. Proc Natl Acad Sci U S A 85: 1317–1321.
+        doi:
+        <a href="http://dx.doi.org/10.1073/pnas.85.4.1317">10.1073/pnas.85.4.1317</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5973733">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002719-Romo1" id="pcbi.1002719-Romo1"></a>Romo R, Salinas E (2001) Touch and go: decision-making mechanisms in somatosensation,. Annu Rev Neurosci 24: 107–137. <a class="find" href="/article/findArticle.action?citedArticleID=5973735">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002719-Gabernet1" id="pcbi.1002719-Gabernet1"></a>Gabernet L, Jadhav SP, Feldman DF, Carandini M, Scanziani M (2005) Somatosensory integration controlled by dynamic thalamocortical feed-forward inhibition. Neuron 48: 315–327.
+        doi:
+        <a href="http://dx.doi.org/10.1016/j.neuron.2005.09.022">10.1016/j.neuron.2005.09.022</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5973737">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002719-Dan1" id="pcbi.1002719-Dan1"></a>Dan Y, Atick JJ, Reid RC (1996) Efficient coding of natural scenes in the lateral geniculate nucleus: experimental test of a computational theory. J Neurosci 16: 3351–3362. <a class="find" href="/article/findArticle.action?citedArticleID=5973739">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002719-Miron1" id="pcbi.1002719-Miron1"></a>Miron D, Duncan GH, Bushnell MC (1989) Effects of attention on the intensity and unpleasantness of thermal pain. Pain 39: 345–352.
+        doi:
+        <a href="http://dx.doi.org/10.1016/0304-3959(89)90048-1">10.1016/0304-3959(89)90048-1</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5973741">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002719-Bantick1" id="pcbi.1002719-Bantick1"></a>Bantick SJ, Wise RG, Ploghaus A, Clare S, Smith SM, Tracey I (2002) Imaging how attention modulates pain in humans using functional MRI. Brain 125: 310–319.
+        doi:
+        <a href="http://dx.doi.org/10.1093/brain/awf022">10.1093/brain/awf022</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5973743">
+                      Find this article online
+                    </a></li></ol></div>
+
+</div></div>
+<div style="display:none">
+<div dojoType="ambra.widget.RegionalDialog" id="AnnotationDialog" style="padding:0;margin:0;">
+  <div class="dialog annotate">
+    <div class="tipu" id="dTipu"></div>
+    <div class="comment">
+      <h5><span>Post Your Note (For Public Viewing)</span></h5>
+      <div class="posting pane">
+        <form name="createAnnotation" id="createAnnotation" method="post" action="">
+          <input type="hidden" name="target" value="info:doi/10.1371/journal.pcbi.1002719" />
+          <input type="hidden" name="startPath" value="" />
+          <input type="hidden" name="startOffset" value="" />
+          <input type="hidden" name="endPath" value="" />
+          <input type="hidden" name="endOffset" value="" />
+          <input type="hidden" name="commentTitle" id="commentTitle" value="" />
+          <input type="hidden" name="comment" id="commentArea" value="" />
+          <input type="hidden" name="ciStatement" id="statementArea" value="" />
+          <input type="hidden" name="isCompetingInterest" id="isCompetingInterest" value="false" />
+          <input type="hidden" name="noteType" id="noteType" value="" />
+          <fieldset>
+            <legend>Compose Your Note</legend>
+            <span id="submitMsg" class="error" style="display:none;"></span>
+            <table class="layout">
+              <tr>
+                <td>
+                  <label for="cNoteType">This is a </label><select name="cNoteType" id="cNoteType"><option value="note">note</option><option value="correction">correction</option></select>
+                  <span id="cdls" style="visibility:hidden;margin-left:0.3em; white-space:nowrap;"><a href="/static/commentGuidelines.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D?target=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002719#corrections">What are corrections?</a></span>
+                  <label for="cTitle"><span class="none">Enter your note title</span><!-- error message text <em>A title is required for all public notes</em>--></label>
+                  <input type="text" name="cTitle" id="cTitle" value="Enter your note title..." class="title" alt="Enter your note title..." />
+                  <label for="cArea"><span class="none">Enter your note</span><!-- error message text <em>Please enter your note</em>--></label>
+                  <textarea name="cArea" id="cArea" value="Enter your note..." alt="Enter your note...">Enter your note...</textarea>
+                  <input type="hidden" name="isPublic" value="true" />
+                </td>
+                <td>&nbsp;</td>
+                <td class="coi">
+                  <fieldset>
+                    <legend>Declare any competing interests.</legend>
+                    <ul>
+                      <li><label><input id="isCompetingInterestNo" type="radio" checked="checked" name="competingInterest" value="false"  /> No, I don't have any competing interests to declare.</label></li>
+                      <li><label><input id="isCompetingInterestYes" type="radio" name="competingInterest" value="true"  /> Yes, I have competing interests to declare (enter below):</label></li>
+                    </ul>
+                    <textarea name="ciStatementArea" id="ciStatementArea" disabled value="Enter your competing interests..." alt="Enter your competing interests...">Enter your competing interests...</textarea>
+                  </fieldset>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3" class="buttons">
+                  <input type="button" value="Cancel" title="Click to close and cancel" id="btn_cancel"/>
+                  <input type="button" value="Submit" title="Click to post your note publicly" id="btn_post" class="primary"/>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <p>Notes and Corrections can include the following markup tags:</p>
+                  <p><strong>Emphasis:</strong> ''<em>italic</em>''&nbsp;&nbsp;'''<strong>bold</strong>'''&nbsp;&nbsp;'''''<strong><em>bold italic</em></strong>'''''</p>
+                  <p><strong>Other:</strong> ^^<sup>superscript</sup>^^&nbsp;&nbsp;~~<sub>subscript</sub>~~</p>
+                </td>
+              </tr>
+            </table>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <div class="tip" id="dTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialog" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="caTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      Please follow our <a href="/static/commentGuidelines.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">guidelines for notes and comments</a> and review our <a href="/static/competing.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">competing interests policy</a>. Comments that do not conform to our guidelines will be promptly removed and the user account disabled. The following must be avoided:
+      <ul>
+        <li>Remarks that could be interpreted as allegations of misconduct</li>
+        <li>Unsupported assertions or statements</li>
+        <li>Inflammatory or insulting language</li>
+      </ul>
+      <form name="contextActionForm" id="contextActionForm" class="clearfix buttons" method="post" action="">
+        <input type="button" name="Continue" value="Continue" id="ContextActionDialogContinueButton" onmouseup="ambra.displayAnnotationContext.startComment(event);" title="Add a note to this text" class="primary"/>
+        <input type="button" name="Cancel" value="Cancel" id="ContextActionDialogCancelButton" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);" title="Close this Window"/>
+      </form>
+    </div>
+    <div class="tip" id="caTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogNotLogged" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canlTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You must be logged in to add a note to an article.
+      You may log in by <a onmousedown="ambra.displayAnnotationContext.disconnect(event);" href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002719">clicking here</a> or <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">cancel this note</a>.
+    </div>
+    <div class="tip" id="canlTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogBadSelection" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canBDTipu"></div>
+    <div class="contextActionContent">
+      <h5 class="annotation icon"><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You cannot annotate this area of the document. <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">Close</a>
+    </div>
+    <div class="tip" id="canBDTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogBadRangeSelection" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canbrTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You cannot create an annotation that spans different sections of the document; please adjust your selection.<br/>
+      <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">Close</a>
+    </div>
+    <div class="tip" id="canbrTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.RegionalDialog" id="CommentDialog" style="padding:0;margin:0;">
+  <div class="dialog preview">
+    <div class="tipu" id="cTipu"></div>
+    <div class="btn close" id="btn_close" title="Click to close"><a title="Click to close">Close</a></div>
+    <div id="cmtContainer" class="comment">
+      <h6 id="viewCmtTitle"></h6>
+      <div class="detail" id="viewCmtDetail"></div>
+      <div class="contentwrap" id="viewComment"></div>
+      <div class="contentwrap" id="viewCIStatement"></div>
+      <div class="detail" id="viewLink">
+        <!--<a href="#" class="commentary icon" title="Click to view full thread and respond">View all responses</a>
+        <a href="#" class="respond tooltip" title="Click to respond to this posting">Respond to this</a>-->
+      </div>
+    </div>
+    <div class="tip" id="cTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.RegionalDialog" id="CommentDialogMultiple" style="padding:0;margin:0;">
+  <div class="dialog multiple preview">
+    <div class="tipu" id="mTipu"></div>
+    <div class="btn close" id="btn_close_multi" title="Click to close"><a title="Click to close">Close</a></div>
+    <ol id="multilist"></ol>
+    <br/>
+    <div id="multidetail"></div>
+    <div class="tip" id="mTip"></div>
+  </div>
+</div>
+
+
+<div dojoType="dijit.Dialog" id="Rating">
+  <div class="dialog annotate">
+    <div class="tipu" id="dTipu"></div>
+    <div class="comment">
+      <h5><span>Rate This Article</span></h5>
+      <div class="instructions">Please follow our <a  href="/static/ratingGuidelines.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">guidelines for rating</a> and review our <a href="/static/competing.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D">competing interests policy</a>. Comments that do not conform to our guidelines will be promptly removed and the user account disabled. The following must be avoided:
+        <ol>
+          <li>Remarks that could be interpreted as allegations of misconduct</li>
+          <li>Unsupported assertions or statements</li>
+          <li>Inflammatory or insulting language</li>
+        </ol>
+      </div>
+      <div class="posting pane">
+        <form name="ratingForm" id="ratingForm" method="post" action="">
+          <input type="hidden" name="articleURI" value="info:doi/10.1371/journal.pcbi.1002719" />  
+          <input type="hidden" name="commentTitle" id="commentTitle" value="" />
+          <input type="hidden" name="comment" id="commentArea" value="" />
+          <input type="hidden" name="ciStatement" id="statementArea" value="" />
+          <input type="hidden" name="isCompetingInterest" id="isCompetingInterest" value="" />
+          <fieldset>
+            <legend>Compose Your Annotation</legend>
+            <span id="submitRatingMsg" class="error" style="display:none;"></span>
+            <table class="layout">
+              <tr>
+                <td rowspan="2">
+                  <label for="insight">Insight</label>
+                  <ul class="star-rating rating edit" title="Rate insight" id="rateInsight">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Bland" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'insight', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Profound" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="insight" title="insight" value="" />
+                  <label for="reliability">Reliability</label>
+                  <ul class="star-rating rating edit" title="Rate reliability" id="rateReliability">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Tenuous" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'reliability', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Unassailable" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="reliability" title="reliability" value="" />
+                  <label for="style">Style</label>
+                  <ul class="star-rating rating edit" title="Rate style" id="rateStyle">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Crude" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'style', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Elegant" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="style" title="style" value="" />
+                  <label for="cTitle"><span class="none">Enter your comment title</span><!-- error message text <em>A title is required for all public annotations</em>--></label>
+                  <input type="text" name="cTitle" id="cTitle" value="Enter your comment title..." class="title" alt="Enter your comment title..." />
+                  <label for="cArea"><span class="none">Enter your comment</span><!-- error message text <em>Please enter your annotation</em>--></label>
+                  <textarea name="cArea" id="cArea" value="Enter your comment..." alt="Enter your comment...">Enter your comment...</textarea>
+                </td>
+                <td rowspan="2">&nbsp;</td>
+                <td class="coi">
+                  <fieldset>
+                    <legend>Declare any competing interests.</legend>
+                    <ul>
+                      <li><label><input id="isCompetingInterestNo" type="radio" name="competingInterest" value="false"  /> No, I don't have any competing interests to declare.</label></li>
+                      <li><label><input id="isCompetingInterestYes" type="radio" name="competingInterest" value="true"  /> Yes, I have competing interests to declare (enter below):</label></li>
+                    </ul>
+                    <textarea name="ciStatementArea" id="ciStatementArea" disabled value="Enter your competing interests..." title="Enter your competing interests...">Enter your competing interests...</textarea>
+                  </fieldset>
+                </td>
+              </tr>
+              <tr>
+                <td class="buttons">
+                  <input type="button" value="Cancel" title="Click to close and cancel" id="btn_cancel_rating"/>
+                  <input type="button" value="Submit" title="Click to post your annotation publicly" id="btn_post_rating" class="primary"/>
+                </td>
+              </tr>
+              <tr>
+                  <td colspan="3"><p>Ratings can include the following markup tags:</p>
+                  <p><strong>Emphasis:</strong> ''<em>italic</em>''&nbsp;&nbsp;'''<strong>bold</strong>'''&nbsp;&nbsp;'''''<strong><em>bold italic</em></strong>'''''</p>
+                  <p><strong>Other:</strong> ^^<sup>superscript</sup>^^&nbsp;&nbsp;~~<sub>subscript</sub>~~</p></td>
+              </tr>
+            </table>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div dojoType="ambra.widget.LoadingCycle" id="LoadingCycle" class="loadingCycler">
+  <img src="/images/loading.gif" width="58" height="58" title="Loading..." />
+</div>
+<div dojoType="dijit.Dialog" id="LightBox">
+
+    <!-- start main window wrapper-->
+    <div class="figure-window-wrapper">
+
+      <!--start film strip Wrapper-->
+      <div class="figure-window-nav-wrapper">
+        <div id="figure-window-nav"></div>
+      </div><!--end figure-window-nav-wrapper-->
+
+      <!-- start figure container-->
+      <div class="figure-window-container">
+
+        <!-- start/end figure viewer-->
+        <div id="figure-window-viewer">
+          <img id="figure-window-img" class="large"/>
+        </div>
+
+        <!-- start/end figure doi-->
+        <div id="figure-window-doi"></div>
+
+        <!--start figure title-box-->
+        <div id="figure-window-title-box" class="figure-window-title-less">
+          <span id="figure-window-title"></span>
+          <div id="figure-window-more" class="figure-window-more" onclick="return ambra.lightBox.showMoreOrLess();"></div>
+          <div id="figure-window-description"></div>
+        </div><!--end figure title-box-->
+
+        <!--start figure download-->
+        <div class="figure-window-download">
+          <ul>
+            <li class="download icon"><strong>Download:</strong>
+              <a id="figure-window-ppt" title="Click to download PowerPoint slide of this image">PowerPoint
+                slide</a> |
+              <a id="figure-window-large" title="Click to download a larger version of this image">larger image
+                (<span id="figure-window-large-size"></span>)</a> |
+              <a id="figure-window-tiff" title="Click to download a original version of this image">original image
+                (<span id="figure-window-tiff-size"></span>)</a>
+            </li>
+          </ul>
+        </div><!--end figure download-->
+
+        <!--start/end of close, context, next and previous button-->
+        <div class="figure-window-close" onclick="return ambra.lightBox.hide();"></div>
+        <div class="figure-window-context" onclick="return ambra.lightBox.showInContext();"></div>
+        <div id="figure-window-previous" onclick="return ambra.lightBox.showPrevious();"></div>
+        <div id="figure-window-next" onclick="return ambra.lightBox.showNext();"></div>
+
+      </div><!--end figure-window-container-->
+
+    </div><!--end figure-window-wrapper-->
+
+</div><!--end dijit.Dialog-->
+</div>
+</div>
+<!-- end : main contents -->
+
+</div>
+<!-- end : container -->	
+
+<!-- begin : footer -->
+<div id="ftr">
+  <p><span>All site content, except where otherwise noted, is licensed under a <a href="http://creativecommons.org/licenses/by/2.5/" title="Creative Commons Attribution License 2.5" tabindex="200">Creative Commons Attribution License</a>.</span></p>
+  <ul>
+    <li><a href="/static/privacy.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" title="PLOS Privacy Statement" tabindex="501">Privacy Statement</a></li>
+    <li><a href="/static/terms.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" title="PLOS Terms of Use" tabindex="502">Terms of Use</a></li>
+    <li><a href="http://www.plos.org/advertise/" title="Advertise With PLOS" tabindex="503">Advertise</a></li>
+    <li><a href="http://www.plos.org/about/media-inquiries/" title="PLOS Embargo Policy" tabindex="504">Media Inquiries</a></li>
+    <li><a href="http://www.plos.org/publish/order-reprints/" title="PLOS in Print" tabindex="505">PLOS in Print</a></li>
+    <li><a href="/static/sitemap.action;jsessionid=AC0CB9BE1D3A1CEEC3F1D6C17E71AC6D" title="Site Map" tabindex="506">Site Map</a></li>
+    <li><a href="http://www.plos.org" title="PLOS.org" tabindex="507">PLOS.org</a></li>
+  </ul>
+  <div class="powered">
+  <ul>
+    <li><a href="/static/releaseNotes.action" title="Ambra | Release Notes">Ambra 2.4.9</a></li>
+    <li>Managed Colocation provided by <a href="http://www.isc.org/" title="Internet Systems Consortium">Internet Systems Consortium</a>.</li>
+  </ul>
+  </div>
+</div>
+<!-- end : footer -->
+<script type="text/javascript">
+  var _namespace="";
+    var loggedIn = false;
+
+  var almHost = "http://alm.plos.org";
+  var solrHost = "http://api.plos.org/search";
+  var pubGetHost = "http://pubget.com/widgetizer/links_hash";
+  var appContext = "";
+
+  // Safari v3.1.1 "console.debug" issue (http://trac.dojotoolkit.org/ticket/6849) workaround
+  if (/3[\.0-9]+ Safari/.test(navigator.appVersion)) {
+    window.console = {
+      origConsole: window.console,
+      log: function(s){ this.origConsole.log(s); },
+      info: function(s){ this.origConsole.info(s); },
+      error: function(s){ this.origConsole.error(s); },
+      warn: function(s){ this.origConsole.warn(s); }
+    };
+  }
+
+  var djConfig = {
+    // don't debug for IE - as dojo's firebug lite module is error prone in IE
+    isDebug: false,
+    parseOnLoad: true
+  };
+
+  var bamGAID = 'UA-338393-1';
+  var bamGAVPV = location.pathname + location.search + location.hash;
+</script>
+<script type="text/javascript" src="/javascript/dojo/dojo/dojo.js?v=pzlwVCPPo+oJC12upPgJrJ5EG_k"></script>
+<script type="text/javascript" src="/javascript/dojo/dojo/ambra.js?v=Y8JM0CVD9YwjC99M_jvbcRTiGhY"></script>
+<script type="text/javascript" src="/javascript/init_global.js?v=fF03pfG3r+Nkj_czZ8ORg8o5sNM"></script>
+<script type="text/javascript" src="/javascript/init_article.js?v=qzBD_a7nKbeMM2xNUtB3vckN+Zc"></script>
+<script type="text/javascript" src="/javascript/init_ratings.js?v=seKykuS0X33CQGS7Lj+8FtBy5Uw"></script>
+<script type="text/javascript" src="/javascript/init_lightBox.js?v=vJRLPy7RRX8Zp31Ogcm3i+TA4f8"></script>
+<script type="text/javascript" src="/javascript/init_article_body.js?v=YgFei2xCi50CahwaPbSsxUxUsmw"></script>
+<script type="text/javascript" src="/javascript/init_article_rhc.js?v=djtbTMOagorKE6ZPrkCwufAfWWI"></script>
+<script type="text/javascript" src="/javascript/alm.js?v=1tH9JZ8uDtXspXssGJDr8O+jBOs"></script>
+<script type="text/javascript" src="/javascript/reporting/articleViewsCumulative.js?v=RQ+gCrcAl0dBeLbmokxgQZTGYYA"></script>
+<script type="text/javascript" src="/javascript/check_twitter.js?v=Hc0sH1W9xIu0qhqxWPD4c1u50K4"></script>
+<script type="text/javascript" src="/javascript/init_googleAnalytics.js?v=yCD4h9PHGI0dsefmuWDlMn7pHog"></script>
+
+</body>
+</html>
+

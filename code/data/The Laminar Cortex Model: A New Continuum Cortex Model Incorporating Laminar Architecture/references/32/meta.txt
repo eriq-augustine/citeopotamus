@@ -1,0 +1,6 @@
+TITLE: The clinicopathologic spectrum of focal cortical dysplasias: a consensus classification proposed by an ad hoc Task Force of the ILAE Diagnostic Methods Commission.
+AUTHORS: Blümcke I, Thom M, Aronica E, Armstrong DD, Vinters HV, Palmini A, Jacques TS, Avanzini G, Barkovich AJ, Battaglia G, Becker A, Cepeda C, Cendes F, Colombo N, Crino P, Cross JH, Delalande O, Dubeau F, Duncan J, Guerrini R, Kahane P, Mathern G, Najm I, Ozkara C, Raybaud C, Represa A, Roper SN, Salamon N, Schulze-Bonhage A, Tassi L, Vezzani A, Spreafico R
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

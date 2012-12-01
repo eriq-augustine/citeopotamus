@@ -1,0 +1,4 @@
+Membrane recognition by phospholipid-binding domains.
+Lemmon MA
+Abstract:
+Many different globular domains bind to the surfaces of cellular membranes, or to specific phospholipid components in these membranes, and this binding is often tightly regulated. Examples include pleckstrin homology and C2 domains, which are among the largest domain families in the human proteome. Crystal structures, binding studies and analyses of subcellular localization have provided much insight into how members of this diverse group of domains bind to membranes, what features they recognize and how binding is controlled. A full appreciation of these processes is crucial for understanding how protein localization and membrane topography and trafficking are regulated in cells.

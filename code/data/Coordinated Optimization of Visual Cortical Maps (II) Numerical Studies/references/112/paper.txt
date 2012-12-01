@@ -1,0 +1,4 @@
+Intracortical origin of visual maps.
+Ernst UA, Pawelzik KR, Sahar-Pikielny C, Tsodyks MV
+Abstract:
+Previous experiments indicate that the shape of maps of preferred orientation in the primary visual cortex does not depend on visual experience. We propose a network model that demonstrates that the orientation and direction selectivity of individual units and the structure of the corresponding angle maps could emerge from local recurrent connections. Our model reproduces the structure of preferred orientation and direction maps, and explains the origin of their interrelationship. The model also provides an explanation for the correlation between position shifts of receptive fields and changes of preferred orientations of single neurons across the surface of the cortex.

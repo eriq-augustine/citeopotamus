@@ -1,0 +1,6 @@
+TITLE: A rapid one-step method for the isolation of bacteroids from root nodules of soybean plants, utilizing self-generating Percoll gradients.
+AUTHORS: Reibach PH, Mask PL, Streeter JG
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Bacteroids were isolated from the nodules of soybean plants by means of self-generating Percoll density gradients. The entire procedure can be performed in less than 1 h using an ordinary refrigerated centrifuge and angle head rotor. All of the markers for cytosol and bacteroid fractions behaved in accord with other reports in the literature. Asparaginase, beta-hydroxybutyrate dehydrogenase, and alanine dehydrogenase were all localized in the bacteroid fraction. Invertase, phosphoenolpyruvate carboxylase, and leghaemoglobin were all found in the cytosol fraction. Very little (less than 7%) cross contamination between the fractions was observed. The isolated bacteroids were viable, and based on electron micrographs, were free from contaminating plant material. Since the entire procedure is performed isosmotically, very little damage to the bacteroids is likely to occur. No organic compounds, except Percoll, were added to the isolating media, thus aiding in the analysis of bacteroid and cytosol metabolites.

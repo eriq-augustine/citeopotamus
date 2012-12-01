@@ -1,0 +1,6 @@
+TITLE: Effects of intra-gene fitness interactions on the benefit of sexual recombination.
+AUTHORS: Watson RA, Weinreich DM, Wakeley J
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Whereas spontaneous point mutation operates on nucleotides individually, sexual recombination manipulates the set of nucleotides within an allele as an essentially particulate unit. In principle, these two different scales of variation enable selection to follow fitness gradients in two different spaces: in nucleotide sequence space and allele sequence space respectively. Epistasis for fitness at these two scales, between nucleotides and between genes, may be qualitatively different and may significantly influence the advantage of mutation-based and recombination-based evolutionary trajectories respectively. We examine scenarios where the genetic sequence within a gene strongly influences the fitness effect of a mutation in that gene, whereas epistatic interactions between sites in different genes are weak or absent. We find that, in cases where beneficial alleles of a gene differ from one another at several nucleotide sites, sexual populations can exhibit enormous benefit compared with asexual populations: not only discovering fit genotypes faster than asexual populations, but also discovering high-fitness genotypes that are effectively not evolvable in asexual populations.

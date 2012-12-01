@@ -1,0 +1,4 @@
+HADDOCK versus HADDOCK: new features and performance of HADDOCK2.0 on the CAPRI targets.
+de Vries SJ, van Dijk AD, Krzeminski M, van Dijk M, Thureau A, Hsu V, Wassenaar T, Bonvin AM
+Abstract:
+None

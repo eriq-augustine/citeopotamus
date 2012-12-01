@@ -1,0 +1,6 @@
+TITLE: Predicting free energy changes using structural ensembles.
+AUTHORS: Benedix A, Becker CM, de Groot BL, Caflisch A, Böckmann RA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

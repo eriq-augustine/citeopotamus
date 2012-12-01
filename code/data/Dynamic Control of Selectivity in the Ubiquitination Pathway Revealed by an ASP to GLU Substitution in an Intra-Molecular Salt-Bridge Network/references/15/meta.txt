@@ -1,0 +1,6 @@
+TITLE: An altered-specificity ubiquitin-conjugating enzyme/ubiquitin-protein ligase pair.
+AUTHORS: Winkler GS, Albert TK, Dominguez C, Legtenberg YI, Boelens R, Timmers HT
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The human CCR4-NOT complex is a global regulator of RNA polymerase II transcription. Recently, we showed that the RING domain CNOT4 subunit contains intrinsic ubiquitin-protein ligase (E3) activity. Here we show that binding of the CNOT4 RING finger to the ubiquitin-conjugating enzyme (E2) UbcH5B is highly selective. To understand the basis for this interaction, we identified several basic residues of UbcH5B important for binding to CNOT4 by mutational analysis. Subsequently, we tested pairs of UbcH5B and CNOT4 mutants for restoration of interaction. Concomitant charge-alteration of E49 of CNOT4 and K63 of UbcH5B restored binding and re-created a functional enzyme pair, indicative of an electrostatic interaction between these residues. The corresponding amino acids in the yeast orthologues can also be used to create a similarly designed E2-E3 enzyme pair. These are the first examples of altered-specificity E2-E3 enzyme pairs and give further insight into how E2-E3 specificity is obtained.

@@ -1,0 +1,6 @@
+TITLE: Determinants of functionality in the ubiquitin conjugating enzyme family.
+AUTHORS: Winn PJ, Religa TL, Battey JN, Banerjee A, Wade RC
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The E2 enzymes are key enzymes in the ubiquitin and ubiquitin-like protein ligation pathways. To understand the functionality of the different E2 enzymes, we analyzed 190 protein sequences and 211 structures and electrostatic potentials. Key findings include: The ScUbc1 orthologs are defined by a C-terminal UBA domain. An N-terminal sequence motif that is highly conserved in all E2s except for Cdc34 orthologs is important for the stabilization of the L7 loop and is likely to be involved in E1 binding. ScUbc11p has a different electrostatic potential from E2-Cp and other proteins with which it has high sequence similarity but different functionality. All the E2s known to ubiquitinate histones have a negative potential. The members of the NCUBE family have a positive electrostatic potential, although its form is different from that of the SUMO conjugating E2s. The specificities of only the ScUbc4/Ubc5 and ScUbc1p orthologs are reflected in their L4 and L7 loops.

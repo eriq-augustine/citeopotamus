@@ -1,0 +1,6 @@
+TITLE: Local structural disorder imparts plasticity on linear motifs.
+AUTHORS: Fuxreiter M, Tompa P, Simon I
+TERMS:
+CATEGORIES:
+ABSTRACT:
+MOTIVATION: The dynamic nature of protein interaction networks requires fast and transient molecular switches. The underlying recognition motifs (linear motifs, LMs) are usually short and evolutionarily variable segments, which in several cases, such as phosphorylation sites or SH3-binding regions, fall into locally disordered regions. We probed the generality of this phenomenon by predicting the intrinsic disorder of all LM-containing proteins enlisted in the Eukaryotic Linear Motif (ELM) database. RESULTS: We demonstrated that LMs in average are embedded in locally unstructured regions, while their amino acid composition and charge/hydropathy properties exhibit a mixture characteristic of folded and disordered proteins. Overall, LMs are constructed by grafting a few specificity-determining residues favoring structural order on a highly flexible carrier region. These results establish a connection between LMs and molecular recognition elements of intrinsically unstructured proteins (IUPs), which realize a non-conventional mode of partner binding mostly in regulatory functions.

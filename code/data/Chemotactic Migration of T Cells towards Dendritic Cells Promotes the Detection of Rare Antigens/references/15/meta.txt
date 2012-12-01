@@ -1,0 +1,6 @@
+TITLE: A stochastic view of lymphocyte motility and trafficking within the lymph node.
+AUTHORS: Wei SH, Parker I, Miller MJ, Cahalan MD
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Two-photon microscopy is providing literal insight into the cellular dynamics of lymphoid organs and, guided by analysis of three-dimensional images, into mechanisms that underlie cell migration and antigen recognition in vivo. This review describes lymphocyte motility and antigen recognition in the native tissue environment and compares these results with a much more extensive literature on lymphocyte motility, signaling, and chemotaxis in vitro. We discuss the in vitro literature on dynamic aspects of lymphocyte motility, chemotaxis, and the response to antigen and present the view that random migration of lymphocytes may drive a stochastic mechanism of antigen recognition in lymphoid organs, rather than being guided by chemotaxis.

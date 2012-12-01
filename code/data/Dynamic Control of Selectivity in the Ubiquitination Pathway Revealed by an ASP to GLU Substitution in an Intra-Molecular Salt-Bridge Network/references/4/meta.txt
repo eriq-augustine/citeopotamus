@@ -1,0 +1,6 @@
+TITLE: Mechanisms underlying ubiquitination.
+AUTHORS: Pickart CM
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The conjugation of ubiquitin to other cellular proteins regulates a broad range of eukaryotic cell functions. The high efficiency and exquisite selectivity of ubiquitination reactions reflect the properties of enzymes known as ubiquitin-protein ligases or E3s. An E3 recognizes its substrates based on the presence of a specific ubiquitination signal, and catalyzes the formation of an isopeptide bond between a substrate (or ubiquitin) lysine residue and the C terminus of ubiquitin. Although a great deal is known about the molecular basis of E3 specificity, much less is known about molecular mechanisms of catalysis by E3s. Recent findings reveal that all known E3s utilize one of just two catalytic domains--a HECT domain or a RING finger--and crystal structures have provided the first detailed views of an active site of each type. The new findings shed light on many aspects of E3 structure, function, and mechanism, but also emphasize that key features of E3 catalysis remain to be elucidated.

@@ -1,0 +1,6 @@
+TITLE: Modeling the fitness consequences of a cyanophage-encoded photosynthesis gene.
+AUTHORS: Bragg JG, Chisholm SW
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

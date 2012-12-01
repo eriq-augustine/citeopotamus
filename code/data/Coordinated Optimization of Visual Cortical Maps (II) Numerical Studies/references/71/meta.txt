@@ -1,0 +1,6 @@
+TITLE: Postnatal growth and column spacing in cat primary visual cortex.
+AUTHORS: Rathjen S, Schmidt KE, Löwel S
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The primary visual cortex (area 17) of cats continues to grow substantially during early postnatal development. To assess the implications of this growth for the organization of visual cortical maps, we analysed both postnatal growth of area 17 and the spacing of ocular dominance columns in the same animals using 2-deoxyglucose autoradiography to label cortical activation patterns. Quantitative analyses of area size and column spacing were performed on flat-mount sections of the cortical hemispheres. Our analysis of the surface area revealed an average increase of the size of area 17 between the third and tenth postnatal weeks by about 51%. About 75% of this increase occurred during the third and sixth postnatal weeks (size increase of 37%). However, the distance between adjacent columns did not exhibit a similar increase but rather remained constant during the same postnatal period. Since cortical growth is not accompanied by an increased spacing of ocular dominance columns, new functional modules must somehow be added during the first postnatal weeks to occupy the enlarging cortical sheet. Possible mechanisms underlying the formation of new modules are discussed.

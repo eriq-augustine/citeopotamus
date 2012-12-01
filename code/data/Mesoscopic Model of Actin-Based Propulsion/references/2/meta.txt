@@ -1,0 +1,6 @@
+TITLE: Cell migration as a five-step cycle.
+AUTHORS: Sheetz MP, Felsenfeld D, Galbraith CG, Choquet D
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The migration of cells over substrata is a fundamental and critical function that requires the co-ordination of several cellular processes which operate in a cycle. At the level of the light microscope, the cycle can be divided into five steps: (1) extension of the leading edge; (2) adhesion to matrix contacts; (3) contraction of the cytoplasm; (4) release from contact sites; and (5) recycling of membrane receptors from the rear to the front of the cell. Each step is dependent upon one or more cyclical biochemical processes. The development of many in vitro and subcellular assays for the fundamental biochemical processes involved has increased our understanding of each cycle dramatically in the last several years to include a definition of many of the protein and enzymic components, the role of the position of extracellular-matrix receptors on the cell, and the contribution of physical force. The next generation of questions are directed at resolving the roles of the many individual proteins in each step of the cell migration process. In this chapter we will examine each of the migration steps and discuss the biochemical mechanisms that may underlie them.

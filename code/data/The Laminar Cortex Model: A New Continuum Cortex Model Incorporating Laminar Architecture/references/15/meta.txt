@@ -1,0 +1,6 @@
+TITLE: Simulated electrocortical activity at microscopic, mesoscopic, and global scales.
+AUTHORS: Wright JJ, Rennie CJ, Lees GJ, Robinson PA, Bourke PD, Chapman CL, Gordon E, Rowe DL
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Simulation of electrocortical activity requires (a) determination of the most crucial features to be modelled, (b) specification of state equations with parameters that can be determined against independent measurements, and (c) explanation of electrical events in the brain at several scales. We report our attempts to address these problems, and show that mutually consistent explanations, and simulation of experimental data can be achieved for cortical gamma activity, synchronous oscillation, and the main features of the EEG power spectrum including the cerebral rhythms and evoked potentials. These simulations include consideration of dendritic and synaptic dynamics, AMPA, NMDA, and GABA receptors, and intracortical and cortical/subcortical interactions. We speculate on the way in which Hebbian learning and intrinsic reinforcement processes might complement the brain dynamics thus explained, to produce elementary cognitive operations.

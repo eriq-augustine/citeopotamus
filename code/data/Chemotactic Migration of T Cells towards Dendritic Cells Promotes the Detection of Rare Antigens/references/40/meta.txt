@@ -1,0 +1,6 @@
+TITLE: Chemokines: multiple levels of leukocyte migration control.
+AUTHORS: Moser B, Wolf M, Walz A, Loetscher P
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The surge in interest in chemokines is explained by the recognition that numerous aspects of immunity are intimately related to leukocyte traffic. Chemokines are leukocyte attractants but also contribute to immune processes that do not directly involve leukocyte migration. Recent progress is most evident in the areas of lymphocyte development, immune response initiation and immune pathology. Important observations have also been reported on chemokine-receptor interactions, signal transduction and cellular responses. New insights into the role of chemokines in leukocyte attraction and relocation will be discussed, with emphasis on the distinct levels of leukocyte migration control that ultimately determine the performance of our immune defense system.

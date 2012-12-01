@@ -1,0 +1,6 @@
+TITLE: Coincidence of ipsilateral ocular dominance peaks with orientation pinwheel centers in cat visual cortex.
+AUTHORS: Matsuda Y, Ohki K, Saito T, Ajima A, Kim DS
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Geometrical relationships among multiple cortical maps, such as those between ocular dominance and orientation maps, are a prominent feature of the brain's functional architecture. It is also well known that there is a strong bias of cortical responses toward the contralateral eye during early postnatal development. We wondered therefore whether and how such an imbalance of cortical responsiveness in a developing animal might influence the mutual geometrical relationships between orientation and ocular dominance maps in adult animals. The results of our study indicate the existence of a strong tendency for the peaks of the ipsilateral eye domains to coincide with the location of point singularities (pinwheel centers) in orientation maps. No such relationship was found for the peaks of contralateral eye domains. Computational studies reproduced similar asymmetry in the coincidence under the contralateral eye bias of inputs. Our study raised the idea that the pinwheel centers play an important role for retaining the weaker ipsilateral eye inputs during normal development.

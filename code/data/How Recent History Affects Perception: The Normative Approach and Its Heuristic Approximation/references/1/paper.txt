@@ -1,0 +1,4 @@
+Decision theory: what "should" the nervous system do?
+Körding K
+Abstract:
+The purpose of our nervous system is to allow us to successfully interact with our environment. This normative idea is formalized by decision theory that defines which choices would be most beneficial. We live in an uncertain world, and each decision may have many possible outcomes; choosing the best decision is thus complicated. Bayesian decision theory formalizes these problems in the presence of uncertainty and often provides compact models that predict observed behavior. With its elegant formalization of the problems faced by the nervous system, it promises to become a major inspiration for studies in neuroscience.

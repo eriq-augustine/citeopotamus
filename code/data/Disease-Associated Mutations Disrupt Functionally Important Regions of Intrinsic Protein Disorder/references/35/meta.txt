@@ -1,0 +1,6 @@
+TITLE: Predicting Protein Disorder for N-, C-, and Internal Regions.
+AUTHORS: Li X, Romero P, Rani M, Dunker AK, Obradovic Z
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Logistic regression (LR), discriminant analysis (DA), and neural networks (NN) were used to predict ordered and disordered regions in proteins. Training data were from a set of non-redundant X-ray crystal structures, with the data being partitioned into N-terminal, C-terminal and internal (I) regions. The DA and LR methods gave almost identical 5-cross validation accuracies that averaged to the following values: 75.9 +/- 3.1% (N-regions), 70.7 +/- 1.5% (I-regions), and 74.6 +/- 4.4% (C-regions). NN predictions gave slightly higher scores: 78.8 +/- 1.2% (N-regions), 72.5 +/- 1.2% (I-regions), and 75.3 +/- 3.3% (C-regions). Predictions improved with length of the disordered regions. Averaged over the three methods, values ranged from 52% to 78% for length = 9-14 to >/= 21, respectively, for I-regions, from 72% to 81% for length = 5 to 12-15, respectively, for N-regions, and from 70% to 80% for length = 5 to 12-15, respectively, for C-regions. These data support the hypothesis that disorder is encoded by the amino acid sequence.

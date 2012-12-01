@@ -1,0 +1,6 @@
+TITLE: Analysing immune cell migration.
+AUTHORS: Beltman JB, Marée AF, de Boer RJ
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The visualization of the dynamic behaviour of and interactions between immune cells using time-lapse video microscopy has an important role in modern immunology. To draw robust conclusions, quantification of such cell migration is required. However, imaging experiments are associated with various artefacts that can affect the estimated positions of the immune cells under analysis, which form the basis of any subsequent analysis. Here, we describe potential artefacts that could affect the interpretation of data sets on immune cell migration. We propose how these errors can be recognized and corrected, and suggest ways to prevent the data analysis itself leading to biased results.

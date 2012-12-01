@@ -1,0 +1,6 @@
+TITLE: Muscle and tendon: properties, models, scaling, and application to biomechanics and motor control.
+AUTHORS: Zajac FE
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Skeletal muscles transform neural control signals into forces that act upon the body segments to effect a coordinated motor task. This transformation is complex, not only because the properties of muscles are complex, but because the tendon affects the transmission of muscle force to the skeleton. This review focuses on how to synthesize basic properties of muscle and tendon to construct models applicable to studies of coordination. After a review of the properties of muscle and tendon, their integrated ability to generate force statically and dynamically is studied by formulating a generic model of the "musculotendon actuator", which has only one parameter, the ratio of tendon length at rest to muscle fiber length at rest. To illustrate the utility of the model, it is analyzed to show how this one parameter specifies whether excitation-contraction or musculotendon contraction is the rate-limiting process of force generation, whether elastic energy is stored in tendon or muscle, and whether hip- and knee-extensor actuators function as springs or dashpots during walking.

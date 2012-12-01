@@ -1,0 +1,6 @@
+TITLE: Neuronal oscillations in cortical networks.
+AUTHORS: Buzsáki G, Draguhn A
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Clocks tick, bridges and skyscrapers vibrate, neuronal networks oscillate. Are neuronal oscillations an inevitable by-product, similar to bridge vibrations, or an essential part of the brain's design? Mammalian cortical neurons form behavior-dependent oscillating networks of various sizes, which span five orders of magnitude in frequency. These oscillations are phylogenetically preserved, suggesting that they are functionally relevant. Recent findings indicate that network oscillations bias input selection, temporally link neurons into assemblies, and facilitate synaptic plasticity, mechanisms that cooperatively support temporal representation and long-term consolidation of information.

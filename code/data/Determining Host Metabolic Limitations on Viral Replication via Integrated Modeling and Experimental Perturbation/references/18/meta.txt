@@ -1,0 +1,6 @@
+TITLE: A comprehensive genome-scale reconstruction of Escherichia coli metabolism--2011.
+AUTHORS: Orth JD, Conrad TM, Na J, Lerman JA, Nam H, Feist AM, Palsson BØ
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The initial genome-scale reconstruction of the metabolic network of Escherichia coli K-12 MG1655 was assembled in 2000. It has been updated and periodically released since then based on new and curated genomic and biochemical knowledge. An update has now been built, named iJO1366, which accounts for 1366 genes, 2251 metabolic reactions, and 1136 unique metabolites. iJO1366 was (1) updated in part using a new experimental screen of 1075 gene knockout strains, illuminating cases where alternative pathways and isozymes are yet to be discovered, (2) compared with its predecessor and to experimental data sets to confirm that it continues to make accurate phenotypic predictions of growth on different substrates and for gene knockout strains, and (3) mapped to the genomes of all available sequenced E. coli strains, including pathogens, leading to the identification of hundreds of unannotated genes in these organisms. Like its predecessors, the iJO1366 reconstruction is expected to be widely deployed for studying the systems biology of E. coli and for metabolic engineering applications.

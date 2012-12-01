@@ -1,0 +1,6 @@
+TITLE: Capturing the essence of folding and functions of biomolecules using coarse-grained models.
+AUTHORS: Hyeon C, Thirumalai D
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The distances over which biological molecules and their complexes can function range from a few nanometres, in the case of folded structures, to millimetres, for example, during chromosome organization. Describing phenomena that cover such diverse length, and also time, scales requires models that capture the underlying physics for the particular length scale of interest. Theoretical ideas, in particular, concepts from polymer physics, have guided the development of coarse-grained models to study folding of DNA, RNA and proteins. More recently, such models and their variants have been applied to the functions of biological nanomachines. Simulations using coarse-grained models are now poised to address a wide range of problems in biology.

@@ -1,0 +1,6 @@
+TITLE: Systematic genetic analysis of muscle morphogenesis and function in Drosophila.
+AUTHORS: Schnorrer F, Schönbauer C, Langer CC, Dietzl G, Novatchkova M, Schernhuber K, Fellner M, Azaryan A, Radolf M, Stark A, Keleman K, Dickson BJ
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Systematic genetic approaches have provided deep insight into the molecular and cellular mechanisms that operate in simple unicellular organisms. For multicellular organisms, however, the pleiotropy of gene function has largely restricted such approaches to the study of early embryogenesis. With the availability of genome-wide transgenic RNA interference (RNAi) libraries in Drosophila, it is now possible to perform a systematic genetic dissection of any cell or tissue type at any stage of the lifespan. Here we apply these methods to define the genetic basis for formation and function of the Drosophila muscle. We identify a role in muscle for 2,785 genes, many of which we assign to specific functions in the organization of muscles, myofibrils or sarcomeres. Many of these genes are phylogenetically conserved, including genes implicated in mammalian sarcomere organization and human muscle diseases.

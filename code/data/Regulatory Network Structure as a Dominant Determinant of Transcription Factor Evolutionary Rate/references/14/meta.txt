@@ -1,0 +1,6 @@
+TITLE: Gene ontology: tool for the unification of biology. The Gene Ontology Consortium.
+AUTHORS: Ashburner M, Ball CA, Blake JA, Botstein D, Butler H, Cherry JM, Davis AP, Dolinski K, Dwight SS, Eppig JT, Harris MA, Hill DP, Issel-Tarver L, Kasarskis A, Lewis S, Matese JC, Richardson JE, Ringwald M, Rubin GM, Sherlock G
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

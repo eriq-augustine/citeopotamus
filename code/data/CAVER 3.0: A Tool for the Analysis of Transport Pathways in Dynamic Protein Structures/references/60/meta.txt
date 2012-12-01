@@ -1,0 +1,6 @@
+TITLE: HaloTag: a novel protein labeling technology for cell imaging and protein analysis.
+AUTHORS: Los GV, Encell LP, McDougall MG, Hartzell DD, Karassina N, Zimprich C, Wood MG, Learish R, Ohana RF, Urh M, Simpson D, Mendez J, Zimmerman K, Otto P, Vidugiris G, Zhu J, Darzins A, Klaubert DH, Bulleit RF, Wood KV
+TERMS:
+CATEGORIES:
+ABSTRACT:
+We have designed a modular protein tagging system that allows different functionalities to be linked onto a single genetic fusion, either in solution, in living cells, or in chemically fixed cells. The protein tag (HaloTag) is a modified haloalkane dehalogenase designed to covalently bind to synthetic ligands (HaloTag ligands). The synthetic ligands comprise a chloroalkane linker attached to a variety of useful molecules, such as fluorescent dyes, affinity handles, or solid surfaces. Covalent bond formation between the protein tag and the chloroalkane linker is highly specific, occurs rapidly under physiological conditions, and is essentially irreversible. We demonstrate the utility of this system for cellular imaging and protein immobilization by analyzing multiple molecular processes associated with NF-kappaB-mediated cellular physiology, including imaging of subcellular protein translocation and capture of protein--protein and protein--DNA complexes.

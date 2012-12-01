@@ -1,0 +1,4 @@
+Hysteresis-based mechanism for the directed motility of the Ncd motor.
+Lakkaraju SK, Hwang W
+Abstract:
+None

@@ -1,0 +1,4 @@
+Establishment of a scaffold for orientation maps in primary visual cortex of higher mammals.
+Grabska-Barwinska A, von der Malsburg C
+Abstract:
+In higher mammals, environmentally driven patterns of neural activity do not play a role in the establishment of orientation specificity and maps. It has been proposed that specific long-range interactions provide the scaffold for developing orientation maps. Our model aims at explaining how such a scaffold could develop in the first place. Broad spontaneous activity waves and locally evoked spatially periodic response pattern are used. The model is discussed in relation to biological evidence, and experiments to test the model are proposed. We show that reliable orientation specificity cannot be a result of haphazard cortical wiring, as has been proposed.

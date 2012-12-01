@@ -1,0 +1,6 @@
+TITLE: Molecular microcircuitry underlies functional specification in a basal ganglia circuit dedicated to vocal learning.
+AUTHORS: Hilliard AT, Miller JE, Fraley ER, Horvath S, White SA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

@@ -1,0 +1,6 @@
+TITLE: Resolving the paradox of sex and recombination.
+AUTHORS: Otto SP, Lenormand T
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Sexual reproduction and recombination are ubiquitous. However, a large body of theoretical work has shown that these processes should only evolve under a restricted set of conditions. New studies indicate that this discrepancy might result from the fact that previous models have ignored important complexities that face natural populations, such as genetic drift and the spatial structure of populations.
