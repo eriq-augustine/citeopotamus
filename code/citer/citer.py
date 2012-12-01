@@ -1,8 +1,13 @@
 import method
 import parser
+import sys
 
 def main():
-   paper = parser.parseFullDataset('data/dynamo')
+   #paper = parser.parseFullDataset('data/dynamo')
+   paperName = 'data/Comparative Analysis of RNA Families Reveals Distinct Repertoires for Each Domain of Life'
+   if len(sys.argv) > 1:
+      paperName = sys.argv[1]
+   paper = parser.parseFullDataset(paperName)
    print paper
 
    debugRun(paper)
@@ -17,6 +22,11 @@ def debugRun(paper):
    for i in range(0, len(paper.citations)):
       cite = paper.citations[i]
       correctReference = paper.citationKey[i]
+
+      # Skip citations that do not have a reference.
+      if not paper.references.has_key(correctReference):
+         print "Warning: There is no citation information found for citation #{}, skipping".format(correctReference)
+         next
 
       print '---------'
       print cite.paragraphContext.raw
