@@ -4,7 +4,7 @@ import sys
 
 def main():
    #paper = parser.parseFullDataset('data/dynamo')
-   paperName = 'data/Comparative Analysis of RNA Families Reveals Distinct Repertoires for Each Domain of Life'
+   paperName = '../data/A Bayesian Inference Framework to Reconstruct Transmission Trees Using Epidemiological and Genetic Data'
    if len(sys.argv) > 1:
       paperName = sys.argv[1]
    paper = parser.parseFullDataset(paperName)
@@ -14,10 +14,14 @@ def main():
 
 def debugRun(paper):
    methods = []
-   methods.append(method.ProperNounMethod(paper))
-   methods.append(method.AbstractMethod(paper))
+   methods.append(method.TitleAuthorMethod(paper))
+   methods.append(method.SentenceContextAbstractBigramsMethod(paper))
+   methods.append(method.SentenceContextAbstractWordsMethod(paper))
+   methods.append(method.ParagraphContextAbstractBigramsMethod(paper))
+   methods.append(method.ParagraphContextAbstractWordsMethod(paper))
 
    hits = 0
+   misses = 0
 
    for i in range(0, len(paper.citations)):
       cite = paper.citations[i]
@@ -43,11 +47,15 @@ def debugRun(paper):
             reportedValue = True
             if guess == correctReference:
                hits += 1
+            else:
+               misses += 1
+
       print res
       print "Actual Reference: {0}".format(correctReference)
       print '---------'
 
-   print "{0} / {1} ({2})".format(hits, len(paper.citations), hits / float(len(paper.citations)))
+   print "HITS: {0} / {1} ({2})".format(hits, len(paper.citations), hits / float(len(paper.citations)))
+   print "Misses: {0}".format(misses)
 
 if __name__ == "__main__":
    main()

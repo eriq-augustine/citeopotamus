@@ -1,5 +1,7 @@
 import re
 
+import util
+
 class Paper:
    # |parseStructire| is assumed to be a dict generated from parser::parseFullDataset().
    def __init__(self, parseStructure, root = True):
@@ -28,6 +30,20 @@ class Paper:
          self.noNumbersText = parseStructure['root']['noNumbersText']
          self.citationKey = parseStructure['root']['citationKey']
          self.citations = parseStructure['root']['citations']
+
+         # Do pre-processing on the citations.
+         for citation in self.citations:
+            # proper nouns
+            citation.sentenceProperNouns = util.removeStopwords(util.getCapitalWords(citation.sentenceContext.noCitations))
+            citation.paragraphProperNouns = util.removeStopwords(util.getCapitalWords(citation.paragraphContext.noCitations))
+
+            # bigrams
+            citation.sentenceBigrams = util.getNonStopNgrams(citation.sentenceContext.noCitations, 2)
+            citation.paragraphBigrams = util.getNonStopNgrams(citation.paragraphContext.noCitations, 2)
+
+            # Add important unigrams to the proper nouns
+            citation.sentenceProperNouns.update(util.importantUnigrams(citation.sentenceBigrams))
+            citation.paragraphProperNouns.update(util.importantUnigrams(citation.paragraphBigrams))
 
          # This is a dict to accomodate missing references, and index by 1.
          self.references = {}

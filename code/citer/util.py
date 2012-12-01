@@ -12,6 +12,24 @@ STEMMER = StupidStemmer()
 # Note: It convention for this code base to represent a unigram (and therefore
 # n-grams) as all capital.
 
+# Given some bigrams, find the unigrams that occur >= 25% of the time.
+def importantUnigrams(bigrams):
+   unigrams = set()
+
+   counts = {}
+   for bigram in bigrams:
+      for word in bigram.split('-'):
+         word = STEMMER.stem(word)
+         if not counts.has_key(word):
+            counts[word] = 1
+         else:
+            counts[word] += 1
+   for (word, count) in counts.items():
+      if float(count) / len(bigrams) >= 0.25:
+         unigrams.add(word)
+
+   return unigrams
+
 # Given a dict of sets, return a new dict of matching sets where each item
 # is unique to that set.
 # n is the number of sets that a word is allowed to belong in.
@@ -51,8 +69,9 @@ def uniqueSets(sets, n = 1):
 
 # TODO(eriq): Watch the first capital.
 # This really aims to get proper nouns.
+# Numbers count!
 def getCapitalWords(text):
-   words = re.findall('(?<![a-z])[A-Z]\w+', text)
+   words = re.findall('(?<![a-z])(?:(?:[A-Z]\w+)|\d+)', text)
    return set([word.upper() for word in words])
 
 # This will split the text into a list (NOT SET) of unigrams.

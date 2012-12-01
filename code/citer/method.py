@@ -9,13 +9,64 @@ import util
 # WARNING: A Method may maintain state data about the citations it has done.
 #  This is very important in the cases that there are multiple cites in a single context (sentence, paragraph, etc).
 #  Therefore, you should only use a method instance on one citation cycle (itteration through the paper).
-class Method:
+class Method(object):
    # Return None if you can't make a guess.
-   def guess(cite, paper):
+   def guess(self, cite, paper):
       return None
 
-class ProperNounMethod(Method):
+class ContextMethod(Method):
+   def __init__(self):
+      # There will be no more than one citation per reference per context (probably).
+      self.contextHistory = {}
+
+   # Get the context that the current Method uses from the reference.
+   # This is assumed to be a map of {refKey: [ context grams ]}.
+   def getReferenceContext(self, paper):
+      print "WARNING: Base getReferenceContext() called."
+      return None
+
+   # Get the context that the current Method uses from the cite.
+   def getCiteContext(self, cite):
+      print "WARNING: Base getCiteContext() called."
+      return None
+
+   # Split the context
+   def getCiteContextGrams(self, cite):
+      print "WARNING: Base getCiteContext() called."
+      return None
+
+   def guess(self, cite, paper):
+      context = self.getCiteContext(cite)
+      grams = self.getCiteContextGrams(cite)
+
+      # Get the citation history for this context
+      if not self.contextHistory.has_key(context):
+         self.contextHistory[context] = set()
+      history = self.contextHistory[context]
+
+      maxIntersection = 0
+      bestRef = None
+
+      #TEST
+      print grams
+
+      for (referenceKey, abstractGrams) in self.getReferenceContext(paper).items():
+         if not referenceKey in history:
+            intersection = len(abstractGrams & grams)
+            if intersection > maxIntersection:
+               maxIntersection = intersection
+               bestRef = referenceKey
+
+      if bestRef:
+         history.add(bestRef)
+         return int(bestRef)
+
+      return None
+
+class TitleAuthorMethod(ContextMethod):
    def __init__(self, paper):
+      super(TitleAuthorMethod, self).__init__()
+
       # Pre-build a list of all proper nouns in the references' title and authors.
       self.properNouns = {}
 
@@ -24,10 +75,7 @@ class ProperNounMethod(Method):
          # Make sure to avoid initials.
          authorNouns = re.findall('\w{2,}', ' '.join(reference.authors))
          self.properNouns[key] = set([authorNoun.upper() for authorNoun in authorNouns])
-
          self.properNouns[key] |= util.removeTitleStopwords(util.getCapitalWords(reference.title))
-
-         #self.properNouns[key] |= util.getCapitalWords(reference.abstract)
 
       self.properNouns = util.uniqueSets(self.properNouns)
 
@@ -35,39 +83,39 @@ class ProperNounMethod(Method):
       for (ref, nouns) in self.properNouns.items():
          print "{0} -- {1}".format(ref, nouns)
 
-      # There will be no more than one citation per reference per context (probably).
-      self.contextHistory = {}
+   def getReferenceContext(self, paper):
+      return self.properNouns
+      
+   def getCiteContext(self, cite):
+      return cite.sentenceContext.noCitations
 
-   def guess(self, cite, paper):
-      words = util.getCapitalWords(cite.sentenceContext.noCitations)
+   def getCiteContextGrams(self, cite):
+      #return cite.sentenceProperNouns
+      return util.getCapitalWords(cite.sentenceContext.noCitations)
 
-      # Get the citation history for this context
-      if not self.contextHistory.has_key(cite.sentenceContext.noCitations):
-         self.contextHistory[cite.sentenceContext.noCitations] = set()
-      history = self.contextHistory[cite.sentenceContext.noCitations]
+class BaseAbstractMethod(ContextMethod):
+   abstractWords = None
+   abstractBigrams = None
 
-      for (referenceKey, nouns) in self.properNouns.items():
-         if not referenceKey in history and len(nouns & words) > 0:
-            history.add(referenceKey)
-            return int(referenceKey)
-
-      return None
-
-class AbstractMethod(Method):
    def __init__(self, paper):
-      self.abstractWords = {}
-      self.abstractBigrams = {}
+      super(BaseAbstractMethod, self).__init__()
+
+      if BaseAbstractMethod.abstractWords:
+         return
+
+      BaseAbstractMethod.abstractWords = {}
+      BaseAbstractMethod.abstractBigrams = {}
 
       for (key, reference) in paper.references.items():
-         self.abstractWords[key] = util.getCapitalWords(reference.abstract)
-         #self.abstractWords[key] = util.removeStopwords(set(util.wordSplit(reference.abstract)))
-         self.abstractBigrams[key] = util.getNonStopNgrams(reference.abstract, 2)
+         BaseAbstractMethod.abstractWords[key] = util.getCapitalWords(reference.abstract)
+         #BaseAbstractMethod.abstractWords[key] = util.removeStopwords(set(util.wordSplit(reference.abstract)))
+         BaseAbstractMethod.abstractBigrams[key] = util.getNonStopNgrams(reference.abstract, 2)
 
-      self.abstractWords = util.uniqueSets(self.abstractWords)
-      self.abstractBigrams = util.uniqueSets(self.abstractBigrams)
+      BaseAbstractMethod.abstractWords = util.uniqueSets(BaseAbstractMethod.abstractWords)
+      BaseAbstractMethod.abstractBigrams = util.uniqueSets(BaseAbstractMethod.abstractBigrams)
 
       # If a word appears in >= 25% of bigrams, then put it in the unigrams.
-      for (referenceKey, bigrams) in self.abstractBigrams.items():
+      for (referenceKey, bigrams) in BaseAbstractMethod.abstractBigrams.items():
          counts = {}
          for bigram in bigrams:
             for word in bigram.split('-'):
@@ -78,66 +126,61 @@ class AbstractMethod(Method):
                   counts[word] += 1
          for (word, count) in counts.items():
             if float(count) / len(bigrams) >= 0.25:
-               self.abstractWords[referenceKey].add(word)
+               BaseAbstractMethod.abstractWords[referenceKey].add(word)
 
       #TEST
       print "ABSTRACT:"
-      for (ref, nouns) in self.abstractWords.items():
-         print "{0}\n\tWords -- {1}\n\tBigrams -- {2}".format(ref, nouns, self.abstractBigrams[ref])
+      for (ref, nouns) in BaseAbstractMethod.abstractWords.items():
+         print "{0}\n\tWords -- {1}\n\tBigrams -- {2}".format(ref, nouns, BaseAbstractMethod.abstractBigrams[ref])
 
-      # There will be no more than one citation per reference per context (probably).
-      self.contextHistory = {}
+class SentenceContextAbstractWordsMethod(BaseAbstractMethod):
+   def __init__(self, paper):
+      super(SentenceContextAbstractWordsMethod, self).__init__(paper)
 
-   def guess(self, cite, paper):
-      words = util.removeStopwords(util.getCapitalWords(cite.paragraphContext.noCitations))
-      bigrams = util.getNonStopNgrams(cite.paragraphContext.noCitations, 2)
+   def getReferenceContext(self, paper):
+      return BaseAbstractMethod.abstractWords
+      
+   def getCiteContext(self, cite):
+      return cite.sentenceContext.noCitations
 
-      # Get the citation history for this context
-      if not self.contextHistory.has_key(cite.paragraphContext.noCitations):
-         self.contextHistory[cite.paragraphContext.noCitations] = set()
-      history = self.contextHistory[cite.paragraphContext.noCitations]
+   def getCiteContextGrams(self, cite):
+      return cite.sentenceProperNouns
 
-      maxIntersection = 0
-      bestRef = None
+class SentenceContextAbstractBigramsMethod(BaseAbstractMethod):
+   def __init__(self, paper):
+      super(SentenceContextAbstractBigramsMethod, self).__init__(paper)
 
-      # If a word appears in >= 25% of bigrams, then put it in the unigrams.
-      counts = {}
-      for bigram in bigrams:
-         for word in bigram.split('-'):
-            word = util.STEMMER.stem(word)
-            if not counts.has_key(word):
-               counts[word] = 1
-            else:
-               counts[word] += 1
-      for (word, count) in counts.items():
-         if float(count) / len(bigrams) >= 0.25:
-            words.add(word)
+   def getReferenceContext(self, paper):
+      return BaseAbstractMethod.abstractBigrams
+      
+   def getCiteContext(self, cite):
+      return cite.sentenceContext.noCitations
 
-      #TEST
-      print bigrams
-      print words
+   def getCiteContextGrams(self, cite):
+      return cite.sentenceBigrams
 
-      # Check the bigrams first.
-      for (referenceKey, abstractBigrams) in self.abstractBigrams.items():
-         if not referenceKey in history:
-            intersection = len(abstractBigrams & bigrams)
-            if intersection > maxIntersection:
-               maxIntersection = intersection
-               bestRef = referenceKey
+class ParagraphContextAbstractWordsMethod(BaseAbstractMethod):
+   def __init__(self, paper):
+      super(ParagraphContextAbstractWordsMethod, self).__init__(paper)
 
-      if bestRef:
-         history.add(bestRef)
-         return int(bestRef)
+   def getReferenceContext(self, paper):
+      return BaseAbstractMethod.abstractWords
+      
+   def getCiteContext(self, cite):
+      return cite.paragraphContext.noCitations
 
-      for (referenceKey, nouns) in self.abstractWords.items():
-         if not referenceKey in history:
-            intersection = len(nouns & words)
-            if intersection > maxIntersection:
-               maxIntersection = intersection
-               bestRef = referenceKey
+   def getCiteContextGrams(self, cite):
+      return cite.paragraphProperNouns
 
-      if bestRef:
-         history.add(bestRef)
-         return int(bestRef)
+class ParagraphContextAbstractBigramsMethod(BaseAbstractMethod):
+   def __init__(self, paper):
+      super(ParagraphContextAbstractBigramsMethod, self).__init__(paper)
 
-      return None
+   def getReferenceContext(self, paper):
+      return BaseAbstractMethod.abstractBigrams
+      
+   def getCiteContext(self, cite):
+      return cite.paragraphContext.noCitations
+
+   def getCiteContextGrams(self, cite):
+      return cite.paragraphBigrams
