@@ -1,24 +1,69 @@
+import sys
+import operator
+
+from constants import DEBUG
+
 import method
 import parser
-import sys
+
+AVAILABLE_METHODS = [
+                     method.PreContextTitleAuthorMethod,
+                     method.SentenceTitleAuthorMethod,
+                     method.SentenceContextAbstractBigramsMethod,
+                     method.ParagraphContextAbstractBigramsMethod,
+                     method.SentenceContextAbstractWordsMethod,
+                     method.ParagraphContextAbstractWordsMethod,
+                    ]
 
 def main():
    #paper = parser.parseFullDataset('data/dynamo')
    paperName = '../data/A Bayesian Inference Framework to Reconstruct Transmission Trees Using Epidemiological and Genetic Data'
-   if len(sys.argv) > 1:
-      paperName = sys.argv[1]
+   #if len(sys.argv) > 1:
+   #   paperName = sys.argv[1]
    paper = parser.parseFullDataset(paperName)
    print paper
 
-   debugRun(paper)
+   # Ordering mode
+   if '-o' in sys.argv:
+      orderingRun(paper)
+   else:
+      debugRun(paper)
+
+# This one runs all the mothods in isolation and then tries to give a suggested ordering.
+# Highest precision first.
+def orderingRun(paper):
+   methods = [ method(paper) for method in AVAILABLE_METHODS ]
+   res = {}
+
+   for methodObj in methods:
+      hits = 0
+      misses = 0
+
+      for i in range(0, len(paper.citations)):
+         cite = paper.citations[i]
+         correctReference = paper.citationKey[i]
+
+         # Skip citations that do not have a reference.
+         if not paper.references.has_key(correctReference):
+            next
+
+         guess = methodObj.guess(cite, paper)
+         if guess == correctReference:
+            hits += 1
+         elif guess:
+            misses += 1
+
+      print "{} -- Misses: {}".format(methodObj.__class__.__name__, misses)
+      res[methodObj.__class__.__name__] = misses
+
+   print ''
+   res = sorted(res.iteritems(), key=operator.itemgetter(1))
+   for (methodName, misses) in res:
+      print methodName
+
 
 def debugRun(paper):
-   methods = []
-   methods.append(method.TitleAuthorMethod(paper))
-   methods.append(method.SentenceContextAbstractBigramsMethod(paper))
-   methods.append(method.SentenceContextAbstractWordsMethod(paper))
-   methods.append(method.ParagraphContextAbstractBigramsMethod(paper))
-   methods.append(method.ParagraphContextAbstractWordsMethod(paper))
+   methods = [ method(paper) for method in AVAILABLE_METHODS ]
 
    hits = 0
    misses = 0

@@ -1,6 +1,7 @@
 import re
 
 import util
+import parser
 
 class Paper:
    # |parseStructire| is assumed to be a dict generated from parser::parseFullDataset().
@@ -82,3 +83,17 @@ class Citation:
                                      markedSentence, citesPerSentence)
       self.paragraphContext = Context(paragraph, noCitesParagraph, noNumbersParagraph,
                                      markedParagraph, citesPerParagraph)
+
+      # Figure out the pre context
+      self.preContext = ''
+      # Check for a para surround first.
+      match = re.search('\(([^\)]*{}[^\(]*)\)'.format(re.escape(parser.MARKED_CITATION_MARKER)), markedSentence)
+      if match:
+         self.preContext = match.group(1).replace(parser.MARKED_CITATION_MARKER, ' ').strip()
+      else:
+         match = re.search('([^\[\]\.,;:!"\-]+){}'.format(re.escape(parser.MARKED_CITATION_MARKER)), markedSentence)
+
+         if match:
+            self.preContext = match.group(1).strip()
+
+      self.preContextUnigrams = util.getNonStopNgrams(self.preContext, 1)
