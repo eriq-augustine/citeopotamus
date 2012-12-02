@@ -9,6 +9,8 @@ import urllib2
 
 import lxml.html
 
+from collections import deque
+
 STRIP_NEWLINES = (lambda x: re.sub('\n', ' ', x.strip()))
 STRIP_HTML_TAGS = (lambda x: re.sub(r'<.*?>', '', x.strip()))
 SEARCH = (lambda x,y: re.search(x, y).group(1).strip())
@@ -17,23 +19,23 @@ def write_status(status_msg):
    sys.stdout.write('\r%s' % status_msg)
    sys.stdout.flush()
 
-def throttle_sleep():
+def throttle_sleep(sleep_time):
    write_status("going to sleep for a bit...")
-   time.sleep(3)
+   time.sleep(sleep_time)
    write_status("time to get back to work!")
 
 class plos_connection(object):
    def __init__(self):
       self.base_url = ('http://www.ploscompbiol.org')
       self.seed_url = ('/article/browse.action?field=on&pageSize=10&' +
-                       'startPage=2&selectedSubjects=Computational+Biology')
+                       'startPage=7&selectedSubjects=Computational+Biology')
 
    '''
       Send HTTP GET to the url 'page_url'. Returns the response to the HTTP
       GET.
    '''
-   def get_page(self, page_url):
-      throttle_sleep()
+   def get_page(self, page_url, sleep_time=2):
+      throttle_sleep(sleep_time)
 
       attempts = 0
       while (attempts < 5):
@@ -42,8 +44,11 @@ class plos_connection(object):
             return page_content
          except Exception as err:
             attempts += 1
-            sys.stderr.write('%s' % err)
-            sys.stderr.flush()
+
+            err_file = open('error.log', 'a')
+            err_file.write(('Error. Could not retrieve url "%s".\n%s\n') %
+                           (page_url, err))
+            err_file.close()
 
       return None
 
@@ -103,14 +108,28 @@ class plos_html_scraper(object):
 
       return article_text
 
+   def extract_references(self):
+      references = self.html_doc.cssselect('.references li')
+
+      ref_list = []
+      for reference in references:
+         ref_list.append(re.sub(r'\s+', ' ',
+                                re.sub(r'\n|Find this article online', '',
+                                       reference.text_content())))
+
+      return ref_list
+
    def extract_reference_links(self):
       references = self.html_doc.cssselect('.references li')
 
       ref_list = []
       for reference in references:
          link_list = reference.cssselect('.find')
+
          if (len(link_list) > 0):
             ref_list.append(link_list[0].attrib['href'])
+         else:
+            ref_list.append(None)
 
       return ref_list
 
@@ -160,8 +179,8 @@ def debug_scrape_plos(plos_page):
 
    return (None, None)
 
-def scrape_plos_page(plos_conn, plos_url):
-   plos_page = plos_conn.get_page(plos_conn.base_url + plos_url)
+def scrape_plos_page(plos_conn, plos_search_url):
+   plos_page = plos_conn.get_page(plos_conn.base_url + plos_search_url)
 
    if (plos_page is not None):
       html_scraper = plos_html_scraper(plos_page)
@@ -198,7 +217,22 @@ def generate_text(article_data, doc_parser):
    for paragraph in doc_parser.extract_text():
       text_output += '%s\n' % paragraph
 
+   text_output += 'REFERENCES\n'
+   ref_ndx = 0
+   for reference in doc_parser.extract_references():
+      ref_ndx += 1
+      text_output += '[%s]\t%s\n' % (ref_ndx, reference)
+
    return text_output
+
+def generate_references(doc_parser):
+   (ref_text, ref_ndx) = ('REFERENCES\n', 0)
+
+   for reference in doc_parser.extract_references():
+      ref_ndx += 1
+      ref_text += '[%s]\t%s\n' % (ref_ndx, reference)
+
+   return ref_text
 
 def generate_ref_meta(ref_dict):
    meta_output = u''
@@ -208,6 +242,7 @@ def generate_ref_meta(ref_dict):
 
    if ('authors' in ref_dict):
       meta_output += 'AUTHORS: %s\n' % ref_dict['authors']
+
    meta_output += 'TERMS:\n'
    meta_output += 'CATEGORIES:\n'
 
@@ -230,90 +265,158 @@ def generate_ref_text(ref_dict):
 
    return text_output
 
-def fetch_plos_references(plos_conn, doc_parser):
-   ref_meta_list = []
-
+def fetch_plos_references(plos_conn, ref_dir, doc_parser, ref_ndx=0):
    for reference_link in doc_parser.extract_reference_links():
-      ref_search_page = plos_conn.get_page(plos_conn.base_url + reference_link)
+      ref_ndx += 1
+      if (reference_link is None): continue
 
+      # get the search page for the reference
+      ref_search_page = plos_conn.get_page(plos_conn.base_url + reference_link)
+      if (ref_search_page is None): continue
+
+      # parse the search page for the pubmed link
       ref_page_parser = plos_html_scraper(ref_search_page)
       pubmed_page = ref_page_parser.get_pubmed_link()
 
+      # grab the pubmed page for the reference and parse it for the abstract and
+      # other meta information
       pubmed_html = plos_conn.get_page(pubmed_page)
-      pubmed_doc = pubmed_html_scraper(pubmed_html)
+      if (pubmed_html is None): continue
 
-      # append a dictionary to the list.
+      ref_dir = os.path.join(ref_dir, '%s' % ref_ndx)
+      if (not os.path.exists(ref_dir)):
+         os.makedirs(ref_dir)
+
       # each pubmed doc meta dictionary consists of 3 keys:
       # title, authors, abstract
-      ref_meta_list.append(pubmed_doc.get_meta())
+      pubmed_meta = pubmed_html_scraper(pubmed_html).get_meta()
+      if (pubmed_meta is None): continue
 
-   return ref_meta_list
+      if ('DEBUG' in os.environ):
+         err_file = open('error.log', 'a')
+         err_file.write(('Currently parsing reference "%s"\n') %
+                         pubmed_meta['title'].encode('utf-8'))
+         err_file.close()
 
-if (__name__ == '__main__'):
-   root_dir = './data'
+      # create and populate meta data for the reference
+      ref_meta_file = open(os.path.join(ref_dir, 'meta.txt'), 'w+')
+      ref_meta_file.write(generate_ref_meta(pubmed_meta).encode('utf-8'))
+      ref_meta_file.close()
+
+      # create and populate text for the reference
+      text_file = open(os.path.join(ref_dir, 'paper.txt'), 'w+')
+      text_file.write(generate_ref_text(pubmed_meta).encode('utf-8'))
+      text_file.close()
+
+   return
+
+def write_article_files(article_dir, article, doc_parser):
+      # create and populate meta data for the paper
+      meta_file = open(os.path.join(article_dir, 'meta.txt'), 'w+')
+      meta_file.write(generate_meta(article, doc_parser).encode('utf-8'))
+      meta_file.close()
+
+      # create and populate text for the paper
+      text_file = open(os.path.join(article_dir, 'paper.txt'), 'w+')
+      text_file.write(generate_text(article, doc_parser).encode('utf-8'))
+      text_file.close()
+
+      # a file containing just the references
+      ref_file = open(os.path.join(article_dir, 'refs.txt'), 'w+')
+      ref_file.write(generate_references(doc_parser).encode('utf-8'))
+      ref_file.close()
+
+def get_search_page_ndx(plos_search_url):
+   return SEARCH(r'startPage=(\d+)', plos_search_url)
+
+def renew_content(root_dir='./data'):
+   for article in os.listdir(root_dir):
+      article_file = open(os.path.join(root_dir, article, 'paper.html'))
+      html_content = article_file.read()
+      article_file.close()
+
+      parser = plos_html_scraper(html_content)
+
+      article_dir = os.path.join(root_dir, article)
+      write_article_files(article_dir, article, parser)
+
+      ref_dir = os.path.join(article_dir, 'references')
+      fetch_plos_references(plos_conn, ref_dir, parser)
+
+def fetch_online_content(root_dir='./data'):
    (visited, articles) = (None, None)
 
-   if ('DEBUG' in os.environ):
-      test_page_file = open('plos_test.html', 'r')
-      test_page = test_page_file.read()
-      test_page_file.close()
+   if (not os.path.exists(root_dir)):
+      os.makedirs(root_dir)
 
-      (test_queue, test_articles) = debug_scrape_plos(test_page)
+   visited_pages = dict()
+   (plos_conn, page_queue) = (plos_connection(), deque())
 
-      test_article_file = open('plos_article_test.html', 'r')
-      test_data = test_article_file.read()
-      test_article_file.close()
+   page_queue.append(plos_conn.seed_url)
+   visited_pages[get_search_page_ndx(plos_conn.seed_url)] = True
 
-      test_article = plos_html_scraper(test_data)
+   while (len(page_queue) > 0):
+      search_page_url = page_queue.popleft()
+      (new_search_pages, articles) = scrape_plos_page(plos_conn, search_page_url)
 
-      print generate_text(test_articles[0], test_article).encode('utf-8')
+      # record the search page number (i.e. 5 if startPage=5 is in the URL) to
+      # avoid re-scraping the same search pages
+      for new_search_page_url in new_search_pages:
+         search_page_ndx = get_search_page_ndx(new_search_page_url)
+
+         if (search_page_ndx not in visited_pages):
+            page_queue.append(new_search_page_url)
+            visited_pages[search_page_ndx] = True
+
+            # log the search page that has been visited
+            if ('DEBUG' in os.environ):
+               err_file = open('error.log', 'a')
+               err_file.write(('visited page [%s]\n') % search_page_ndx)
+               err_file.close()
+
+      # log what article is currently being parsed and scraped
+      if ('DEBUG' in os.environ):
+         err_file = open('error.log', 'a')
+         err_file.write(('Currently parsing search page "%s"\n') % search_page_url)
+         err_file.write(('[%s] search pages left in the queue,' +
+                         '[%s] search pages visited\n') % (len(page_queue), len(visited_pages)))
+         err_file.close()
+
+      if (articles is not None):
+         for article in articles:
+            html_content = plos_conn.get_page(plos_conn.base_url + article['url'])
+            if (html_content is None): continue
+
+            article_dir = os.path.join(root_dir, article['title'])
+            # make directory to hold information for the current paper/article
+            if (not os.path.exists(article_dir)):
+               os.makedirs(article_dir)
+
+            # record what pages are successfully pulled from the interwebs
+            if ('DEBUG' in os.environ):
+               err_file = open('error.log', 'a')
+               err_file.write(('Currently parsing article page "%s"\n') % article['url'])
+               err_file.close()
+
+            parser = plos_html_scraper(html_content)
+            write_article_files(article_dir, article, parser)
+
+            # a file containing the html of each article page so that it's
+            # easier to renew local pages, this only has to be done for online
+            # pages
+            html_file = open(os.path.join(article_dir, 'paper.html'), 'w+')
+            html_file.write(html_content)
+            html_file.close()
+
+            # make directories to hold information for each reference of current
+            # paper/article
+            ref_dir = os.path.join(root_dir, article['title'], 'references')
+            if (not os.path.exists(ref_dir)):
+               fetch_plos_references(plos_conn, ref_dir, parser)
+
+if (__name__ == '__main__'):
+   if ('RENEW_LOCAL' in os.environ):
+      renew_content()
 
    else:
-      if (not os.path.exists(root_dir)):
-         os.makedirs(root_dir)
-
-      plos_conn = plos_connection()
-      (page_queue, articles) = scrape_plos_page(plos_conn, plos_conn.seed_url)
-
-      for article in articles:
-         html_content = plos_conn.get_page(plos_conn.base_url + article['url'])
-         parser = plos_html_scraper(html_content)
-
-         # make directory to hold information for the current paper/article
-         article_dir = os.path.join(root_dir, article['title'])
-         if (not os.path.exists(article_dir)):
-            os.makedirs(article_dir)
-
-         # create and populate meta data for the paper
-         meta_file = open(os.path.join(article_dir, 'meta.txt'), 'w+')
-         meta_file.write(generate_meta(article, parser).encode('utf-8'))
-         meta_file.close()
-
-         # create and populate text for the paper
-         text_file = open(os.path.join(article_dir, 'paper.txt'), 'w+')
-         text_file.write(generate_text(article, parser).encode('utf-8'))
-         text_file.close()
-
-         # make directories to hold information for each reference of current
-         # paper/article
-         ref_ndx = 0
-         for ref_meta in fetch_plos_references(plos_conn, parser):
-            ref_ndx += 1
-
-            if (ref_meta is None): continue
-
-            ref_dir = os.path.join(root_dir, article['title'],
-                                   'references', '%s' % ref_ndx)
-
-            if (not os.path.exists(ref_dir)):
-               os.makedirs(ref_dir)
-
-               # create and populate meta data for the reference
-               ref_meta_file = open(os.path.join(ref_dir, 'meta.txt'), 'w+')
-               ref_meta_file.write(generate_ref_meta(ref_meta).encode('utf-8'))
-               ref_meta_file.close()
-
-               # create and populate text for the reference
-               text_file = open(os.path.join(ref_dir, 'paper.txt'), 'w+')
-               text_file.write(generate_ref_text(ref_meta).encode('utf-8'))
-               text_file.close()
+      fetch_online_content()
