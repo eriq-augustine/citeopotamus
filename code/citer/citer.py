@@ -25,8 +25,8 @@ def main():
    #paper = parser.parseFullDataset('data/dynamo')
    #paperName = '../data/A Bayesian Inference Framework to Reconstruct Transmission Trees Using Epidemiological and Genetic Data'
    paperName = '../data/A Graphical Modelling Approach to the Dissection of Highly Correlated Transcription Factor Binding Site Profiles'
-   #if len(sys.argv) > 1:
-   #   paperName = sys.argv[1]
+   if '-p' in sys.argv:
+      paperName = sys.argv[sys.argv.index('-p') + 1]
    paper = parser.parseFullDataset(paperName)
    print paper
 
