@@ -1,0 +1,4 @@
+A bioinformatics classifier and database for heme-copper oxygen reductases.
+Sousa FL, Alves RJ, Pereira-Leal JB, Teixeira M, Pereira MM
+Abstract:
+None

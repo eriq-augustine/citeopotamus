@@ -1,0 +1,6 @@
+TITLE: A Bayesian MCMC approach to study transmission of influenza: application to household longitudinal data.
+AUTHORS: Cauchemez S, Carrat F, Viboud C, Valleron AJ, Boëlle PY
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

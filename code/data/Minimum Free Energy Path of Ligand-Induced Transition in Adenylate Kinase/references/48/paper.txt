@@ -1,0 +1,4 @@
+Development and testing of a general amber force field.
+Wang J, Wolf RM, Caldwell JW, Kollman PA, Case DA
+Abstract:
+None

@@ -1,0 +1,6 @@
+TITLE: Free energy of conformational transition paths in biomolecules: the string method and its application to myosin VI.
+AUTHORS: Ovchinnikov V, Karplus M, Vanden-Eijnden E
+TERMS:
+CATEGORIES:
+ABSTRACT:
+A set of techniques developed under the umbrella of the string method is used in combination with all-atom molecular dynamics simulations to analyze the conformation change between the prepowerstroke (PPS) and rigor (R) structures of the converter domain of myosin VI. The challenges specific to the application of these techniques to such a large and complex biomolecule are addressed in detail. These challenges include (i) identifying a proper set of collective variables to apply the string method, (ii) finding a suitable initial string, (iii) obtaining converged profiles of the free energy along the transition path, (iv) validating and interpreting the free energy profiles, and (v) computing the mean first passage time of the transition. A detailed description of the PPS↔R transition in the converter domain of myosin VI is obtained, including the transition path, the free energy along the path, and the rates of interconversion. The methodology developed here is expected to be useful more generally in studies of conformational transitions in complex biomolecules.

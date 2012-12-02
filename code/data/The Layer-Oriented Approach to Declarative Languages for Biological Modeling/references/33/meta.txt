@@ -1,0 +1,6 @@
+TITLE: Stochastic P systems and the simulation of biochemical processes with dynamic compartments.
+AUTHORS: Spicher A, Michel O, Cieslak M, Giavitto JL, Prusinkiewicz P
+TERMS:
+CATEGORIES:
+ABSTRACT:
+We introduce a sequential rewriting strategy for P systems based on Gillespie's stochastic simulation algorithm, and show that the resulting formalism of stochastic P systems makes it possible to simulate biochemical processes in dynamically changing, nested compartments. Stochastic P systems have been implemented using the spatially explicit programming language MGS. Implementation examples include models of the Lotka-Volterra auto-catalytic system, and the life cycle of the Semliki Forest virus.

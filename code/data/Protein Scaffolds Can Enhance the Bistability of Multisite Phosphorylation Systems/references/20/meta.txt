@@ -1,0 +1,6 @@
+TITLE: Product-form stationary distributions for deficiency zero chemical reaction networks.
+AUTHORS: Anderson DF, Craciun G, Kurtz TG
+TERMS:
+CATEGORIES:
+ABSTRACT:
+We consider stochastically modeled chemical reaction systems with mass-action kinetics and prove that a product-form stationary distribution exists for each closed, irreducible subset of the state space if an analogous deterministically modeled system with mass-action kinetics admits a complex balanced equilibrium. Feinberg's deficiency zero theorem then implies that such a distribution exists so long as the corresponding chemical network is weakly reversible and has a deficiency of zero. The main parameter of the stationary distribution for the stochastically modeled system is a complex balanced equilibrium value for the corresponding deterministically modeled system. We also generalize our main result to some non-mass-action kinetics.

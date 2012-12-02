@@ -1,0 +1,6 @@
+TITLE: Autoregulation of polypyrimidine tract binding protein by alternative splicing leading to nonsense-mediated decay.
+AUTHORS: Wollerton MC, Gooding C, Wagner EJ, Garcia-Blanco MA, Smith CW
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Polypyrimdine tract binding protein (PTB) is a regulator of alternative splicing, mRNA 3' end formation, mRNA stability and localization, and IRES-mediated translation. Transient overexpression of PTB can influence alternative splicing, sometimes resulting in nonphysiological splicing patterns. Here, we show that alternative skipping of PTB exon 11 leads to an mRNA that is removed by NMD and that this pathway consumes at least 20% of the PTB mRNA in HeLa cells. We also show that exon 11 skipping is itself promoted by PTB in a negative feedback loop. This autoregulation may serve both to prevent disruptively high levels of PTB expression and to restore nuclear levels when PTB is mobilized to the cytoplasm. Our findings suggest that alternative splicing can act not only to generate protein isoform diversity but also to quantitatively control gene expression and complement recent bioinformatic analyses, indicating a high prevalence of human alternative splicing leading to NMD.

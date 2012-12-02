@@ -1,0 +1,4 @@
+Inflammatory responses in influenza A virus infection.
+Julkunen I, Melén K, Nyqvist M, Pirhonen J, Sareneva T, Matikainen S
+Abstract:
+Influenza A virus causes respiratory tract infections, which are occasionally complicated by secondary bacterial infections. Influenza A virus replicates in epithelial cells and leukocytes resulting in the production of chemokines and cytokines, which favor the extravasation of blood mononuclear cells and the development of antiviral and Th1-type immune response. Influenza A virus-infected respiratory epithelial cells produce limited amounts of chemokines (RANTES, MCP-1, IL-8) and IFN-alpha/beta, whereas monocytes/macrophages readily produce chemokines such as RANTES, MIP-1alpha, MCP-1, MCP-3, IP-10 and cytokines TNF-alpha, IL-1beta, IL-6, IL-18 and IFN-alpha/beta. The role of influenza A virus-induced inflammatory response in relation to otitis media is being discussed.

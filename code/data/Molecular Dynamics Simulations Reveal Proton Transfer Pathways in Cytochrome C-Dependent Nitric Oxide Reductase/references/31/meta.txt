@@ -1,0 +1,6 @@
+TITLE: Exploring transmembrane diffusion pathways with molecular dynamics.
+AUTHORS: Wang Y, Shaikh SA, Tajkhorshid E
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Transmembrane exchange of materials is a fundamental process in biology. Molecular dynamics provides a powerful method to investigate in great detail various aspects of the phenomenon, particularly the permeation of small uncharged molecules, which continues to pose a challenge to experimental studies. We will discuss some of the recent simulation studies investigating the role of lipid-mediated and protein-mediated mechanisms in permeation of water and gas molecules across the membrane.

@@ -1,0 +1,6 @@
+TITLE: The RICORDO approach to semantic interoperability for biomedical data and models: strategy, standards and solutions.
+AUTHORS: de Bono B, Hoehndorf R, Wimalaratne S, Gkoutos G, Grenon P
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

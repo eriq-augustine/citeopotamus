@@ -1,0 +1,6 @@
+TITLE: Bayesian infinite mixture model based clustering of gene expression profiles.
+AUTHORS: Medvedovic M, Sivaganesan S
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

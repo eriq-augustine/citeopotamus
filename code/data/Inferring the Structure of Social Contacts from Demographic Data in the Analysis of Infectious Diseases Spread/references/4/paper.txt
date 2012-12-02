@@ -1,0 +1,4 @@
+Pros and cons of estimating the reproduction number from early epidemic growth rate of influenza A (H1N1) 2009.
+Nishiura H, Chowell G, Safan M, Castillo-Chavez C
+Abstract:
+None

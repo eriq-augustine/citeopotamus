@@ -1,0 +1,6 @@
+TITLE: Generalized linear mixed models: a practical guide for ecology and evolution.
+AUTHORS: Bolker BM, Brooks ME, Clark CJ, Geange SW, Poulsen JR, Stevens MH, White JS
+TERMS:
+CATEGORIES:
+ABSTRACT:
+How should ecologists and evolutionary biologists analyze nonnormal data that involve random effects? Nonnormal data such as counts or proportions often defy classical statistical procedures. Generalized linear mixed models (GLMMs) provide a more flexible approach for analyzing nonnormal data when random effects are present. The explosion of research on GLMMs in the last decade has generated considerable uncertainty for practitioners in ecology and evolution. Despite the availability of accurate techniques for estimating GLMM parameters in simple cases, complex GLMMs are challenging to fit and statistical inference such as hypothesis testing remains difficult. We review the use (and misuse) of GLMMs in ecology and evolution, discuss estimation and inference and summarize 'best-practice' data analysis procedures for scientists facing this challenge.

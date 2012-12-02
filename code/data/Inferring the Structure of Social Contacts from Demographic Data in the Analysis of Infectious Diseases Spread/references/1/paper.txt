@@ -1,0 +1,4 @@
+Contact network structure explains the changing epidemiology of pertussis.
+Rohani P, Zhong X, King AA
+Abstract:
+The epidemiology of whooping cough (pertussis) remains enigmatic. A leading cause of infant mortality globally, its resurgence in several developed nations--despite the availability and use of vaccines for many decades--has caused alarm. We combined data from a singular natural experiment and a detailed contact network study to show that age-specific contact patterns alone can explain shifts in prevalence and age-stratified incidence in the vaccine era. The practical implications of our results are notable: Ignoring age-structured contacts is likely to result in misinterpretation of epidemiological data and potentially costly policy missteps.

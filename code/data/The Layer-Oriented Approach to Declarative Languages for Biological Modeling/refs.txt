@@ -1,0 +1,49 @@
+REFERENCES
+[1]	Cannon R, Gewaltig MO, Gleeson P, Bhalla U, Cornelis H, et al. (2007) Interoperability of neuro-science modeling software: Current status and future directions. Neuroinformatics 5: 127–138. 
+[2]	De Schutter E (2008) Why are computational neuroscience and systems biology so separate? PLoS Comput Biol 4: e1000078. doi: 10.1371/journal.pcbi.1000078. 
+[3]	Bower J, Beeman D (1998) The Book of GENESIS: Exploring Realistic Neural Models with the GEneral NEural SImulation System. New York: Springer-Verlag. 
+[4]	Carnevale N, Hines M (2006) The NEURON Book. UK: Cambridge University Press. 
+[5]	Hodgkin A, Huxley A (1952) A quantitative description of membrane current and its application to conduction and excitation in nerve. J Physiol 117: 500–544. 
+[6]	Gleeson P, Crook S, Cannon R, Hines M, Billings G, et al. (2010) NeuroML: A language for describing data driven models of neurons and networks with a high degree of biological detail. PLoS Comput Biol 6: e1000815. doi: 10.1371/journal.pcbi.1000815. 
+[7]	Goddard N, Hucka M, Howell F, Cornelis H, Shankar K, et al. (2001) Towards NeuroML: Model description methods for collaborative modeling in neuroscience. Philos Trans R Soc Lond B Biol Sci 356: 1209–1228. doi: 10.1098/rstb.2001.0910. 
+[8]	Hucka M, Bergmann F, Hoops S, Keating S, Sahle S, et al. (2010) Sys- tems biology markup language (SBML) Level 3 Version 1 Core. Available: http://sbml.org/Documents/Specifications​/SBML_Level_3. Accessed 7 April 2012. 
+[9]	Hucka M, Finney A, Bornstein B, Keating S, Shapiro B, et al. (2004) Evolving a lingua franca and associated software infrastructure for computational systems biology: the systems biology markup language (SBML) project. Syst Biol 1: 41–53. doi: 10.1049/sb:20045008. 
+[10]	Cuellar A, Nielsen P, Bullivant D, Hunter P (2003) CellML 1.1 for the definition and exchange of biological models. Proceedings of the 5th IFAC Symposium on Modelling and Control in Biomedical Systems. pp. 451–456. 
+[11]	Cuellar A, Nielsen P, Hallstead M, Bullivant D, Nickerson D (2002) CellML specification version 1.1. Available: http://www.cellml.org/specifications/cel​lml_1.1. Accessed 7 April 2012. 
+[12]	Raikov I, De Schutter E (2012) The promise and shortcomings of XML as an interchange format for computational models of biology. Neuroinformatics 10: 1–3. doi: 10.1007/s12021-011-9136-8. 
+[13]	Koehn D, Novere N (2008) SED-ML – An XML Format for the Implementation of the MIASE Guidelines. In: Heiner M, Uhrmacher A, editors. Computational Methods in Systems Biology. Springer. pp. 176–190. 
+[14]	Bergmann F (2010) A simple nested simulation for SED-ML. Nature Precedings. Available: http://precedings.nature.com/documents/4​257/version/2. Accessed 7 April 2012. 
+[15]	De Schutter E (2009) The International Neuroinformatics Coordinating Facility: evaluating the first years. Neuroinformatics 7: 161–163. 
+[16]	Gennari J, Neal M, Galdzicki M, Cook D (2011) Multiple ontologies in action: Composite annotations for biosimulation models. J Biomed Inform 44: 146–154. doi: 10.1016/j.jbi.2010.06.007. 
+[17]	Kiselyov O (2004) XML in Scheme, version 3.0. Available: http://okmij.org/ftp/Scheme/SXML.html. Accessed 7 April 2012. 
+[18]	Goodman D (2010) Code generation: a strategy for neural network simulators. Neuroinformatics 8: 183–196. doi: 10.1007/s12021-010-9082-x. 
+[19]	Wimalaratne S, Halstead M, Lloyd C, Cooling M, Crampin E, et al. (2009) Facilitating modularity and reuse: guidelines for structuring CellML 1.1 models by isolating common biophysical concepts. Exp Physiol 94: 472–485. doi: 10.1113/expphysiol.2008.045161. 
+[20]	Khaliq Z, Gouwens N, Raman I (2003) The contribution of resurgent sodium current to high- frequency firing in Purkinje neurons: An experimental and modeling study. J Neurosci 23: 4899–4912. 
+[21]	Clay J (2009) Determining K+ channel activation curves from K+ channel currents often requires the Goldman-Hodgkin-Katz equation. Front Cell Neurosci 3: 20. doi: 10.3389/neuro.03.020.2009. 
+[22]	De Schutter E, Smolen P (1998) Calcium dynamics in large neuronal models. In: Koch C, Segev I, editors. Methods in neuronal modeling: From ions to networks. 2nd edition. MIT Press. pp. 211–250. 
+[23]	Traub R (1982) Simulation of intrinsic bursting in CA3 hippocampal neurons. Neuroscience 7: 1233–1242. doi: 10.1016/0306-4522(82)91130-7. 
+[24]	Burgun A, Bodenreider O (2008) Accessing and integrating data and knowledge for biomedical research. Yearb Med Inform 2008: 91–101. 
+[25]	Brunel N (2010) Modeling point neurons: From Hodgkin-Huxley to integrate-and-fire. In: De Schutter E, editor. Computational Modeling Methods for Neuroscientists. MIT Press. pp. 161–186. 
+[26]	Migliore M, Hoffman D, Magee J, Johnston D (1999) Role of an A-type K+ conductance in the back- propagation of action potentials in the dendrites of hippocampal pyramidal neurons. J Comput Neurosci 7: 5–15. 
+[27]	Scott D, Strachey C (1971) Toward a mathematical semantics for computer languages. Proceedings of the Symposium on Computers and Automata. pp. 19–46. volume XXI. 
+[28]	Schmidt D (2000) Induction, domains, calculi: Strachey's contributions to programming-language engineering. Higher-Order and Symbolic Computation 13: 89–101. 
+[29]	Rall W, Agmon-Snir H (1998) Cable theory for dendritic neurons. In: Koch C, Segev I, editors. Methods in neuronal modeling: From ions to networks. 2nd edition. MIT Press. pp. 27–92. 
+[30]	Jagannathan S (1994) Metalevel building blocks for modular systems. ACM Trans Program Lang Syst 16: 456–492. doi: 10.1145/177492.177578. 
+[31]	Gillespie D (2007) Stochastic simulation of chemical kinetics. Annu Rev Phys Chem 58: 35–55. doi: 10.1146/annurev.physchem.58.032806.104637. 
+[32]	Gillespie D (2001) Approximate accelerated stochastic simulation of chemically reacting systems. Annu Rev Phys Chem 115: 1716–1733. doi: 10.1063/1.1378322. 
+[33]	Spicher A, Michel O, Giavitto J, Prusinkiewicz P (2008) Stochastic p systems and the simulation of biochemical processes with dynamic compartments. Biosystems 91: 458–473. doi: 10.1016/j.biosystems.2006.12.009. 
+[34]	Paulson L (1996) Reasoning about functional programs. ML for the working programmer. 2nd edition. Cambridge University Press. pp. 213–256. 
+[35]	Hanus M (2007) Multi-paradigm declarative languages. Proceedings of the 23rd International Conference on Logic Programming (ICLP). Springer-Verlag. pp. 45–75. 
+[36]	Lloyd J (1994) Practical advantages of declarative programming. Proceedings of the 1994 Joint Conference on Declarative Programming, GULP-PRODE'94. pp. 18–30. 
+[37]	Cannon R, O'Donnell C, Nolan M (2010) Stochastic ion channel gating in dendritic neurons: Morphology dependence and probabilistic synaptic activation of dendritic spikes. PLoS Comput Biol 6: e1000886. doi: 10.1371/journal.pcbi.1000886. 
+[38]	Ermentrout B (2002) Simulating, Analyzing, and Animating Dynamical Systems: A Guide to XPPAUT for Researchers and Students. SIAM. 
+[39]	Hucka M, Finney A, Hoops S, Keating S, Novere N (2008) Systems biology markup language (SBML) Level 2 Version 4: Structures and facilities for model definitions. Available: http://sbml.org/Documents/Specifications​/SBML_Level_2/Version_4. Accessed 7 April 2012. 
+[40]	Asai Y, Suzuki Y, Kido Y, Oka H, Heien E (2008) Specifications of insilicoML 1.0: A multilevel biophysical model description language. J Physiol Sci 58: 447–458. doi: 10.2170/physiolsci.RP013308. 
+[41]	Philippi S, Koehler J (2006) Addressing the problems with life-science databases for traditional uses and systems biology. Nat Rev Genet 7: 482–488. doi: 10.1038/nrg1872. 
+[42]	Davison A, Bruederle D, Eppler J, Kremkow J, Muller E, et al. (2008) PyNN: a common interface for neuronal network simulators. Front Neuroinform 2: 11. doi: 10.3389/neuro.11.011.2008. 
+[43]	Cardone F, Hindley J (2009) Lambda-calculus and combinators in the 20th century. In: Woods J, Gabbay D, editors. Handbook of the History of Logic: Volume 5 – Logic From Russell to Church. North Holland: Elsevier. pp. 723–817. 
+[44]	Milner R, Tofte M, Harper R, MacQueen D (1997) The Definition of Standard ML, Revised Edition. MIT Press. 130 p. 
+[45]	Gunter C (1992) Semantics of programming languages: structures and techniques. MIT Press. 
+[46]	Spinellis D (2001) Notable design patterns for domain specific languages. J Syst Softw 56: 9199. doi: 10.1016/S0164-1212(00)00089-3. 
+[47]	Backus J, Bauer F, Green J, Katz C, McCarthy J, et al. (1997) Revised report on the algorithmic language ALGOL 60. In: O'Hearn P, editor. ALGOL-like Languages, Volume 1. Boston: Birkhauser. pp. 19–49. 
+[48]	Shivers O (1996) A universal scripting framework or Lambda: the ultimate “little language”. Concurrency and Parallelism: Programming, Networking and Security. Springer-Verlag. pp. 254–265. 

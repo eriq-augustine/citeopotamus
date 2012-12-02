@@ -1,0 +1,6 @@
+TITLE: Global parameter search reveals design principles of the mammalian circadian clock.
+AUTHORS: Locke JC, Westermark PO, Kramer A, Herzel H
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

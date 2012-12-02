@@ -1,0 +1,6 @@
+TITLE: Structural mechanism of the bromodomain of the coactivator CBP in p53 transcriptional activation.
+AUTHORS: Mujtaba S, He Y, Zeng L, Yan S, Plotnikova O, Sachchidanand, Sanchez R, Zeleznik-Le NJ, Ronai Z, Zhou MM
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Lysine acetylation of the tumor suppressor protein p53 in response to a wide variety of cellular stress signals is required for its activation as a transcription factor that regulates cell cycle arrest, senescence, or apoptosis. Here, we report that the conserved bromo-domain of the transcriptional coactivator CBP (CREB binding protein) binds specifically to p53 at the C-terminal acetylated lysine 382. This bromodomain/acetyl-lysine binding is responsible for p53 acetylation-dependent coactivator recruitment after DNA damage, a step essential for p53-induced transcriptional activation of the cyclin-dependent kinase inhibitor p21 in G1 cell cycle arrest. We further present the three-dimensional nuclear magnetic resonance structure of the CBP bromodomain in complex with a lysine 382-acetylated p53 peptide. Using structural and biochemical analyses, we define the molecular determinants for the specificity of this molecular recognition.

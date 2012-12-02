@@ -1,0 +1,6 @@
+TITLE: Integration of gene expression data into genome-scale metabolic models.
+AUTHORS: Akesson M, Förster J, Nielsen J
+TERMS:
+CATEGORIES:
+ABSTRACT:
+A framework for integration of transcriptome data into stoichiometric metabolic models to obtain improved flux predictions is presented. The key idea is to exploit the regulatory information in the expression data to give additional constraints on the metabolic fluxes in the model. Measurements of gene expression from chemostat and batch cultures of Saccharomyces cerevisiae were combined with a recently developed genome-scale model, and the computed metabolic flux distributions were compared to experimental values from carbon labeling experiments and metabolic network analysis. The integration of expression data resulted in improved predictions of metabolic behavior in batch cultures, enabling quantitative predictions of exchange fluxes as well as qualitative estimations of changes in intracellular fluxes. A critical discussion of correlation between gene expression and metabolic fluxes is given.

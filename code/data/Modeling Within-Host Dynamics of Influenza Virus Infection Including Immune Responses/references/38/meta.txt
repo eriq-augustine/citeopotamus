@@ -1,0 +1,6 @@
+TITLE: Mathematical modeling of primary hepatitis C infection: noncytolytic clearance and early blockage of virion production.
+AUTHORS: Dahari H, Major M, Zhang X, Mihalik K, Rice CM, Perelson AS, Feinstone SM, Neumann AU
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

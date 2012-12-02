@@ -1,0 +1,6 @@
+TITLE: A mechanistic principle for proton pumping by cytochrome c oxidase.
+AUTHORS: Faxén K, Gilderson G, Adelroth P, Brzezinski P
+TERMS:
+CATEGORIES:
+ABSTRACT:
+In aerobic organisms, cellular respiration involves electron transfer to oxygen through a series of membrane-bound protein complexes. The process maintains a transmembrane electrochemical proton gradient that is used, for example, in the synthesis of ATP. In mitochondria and many bacteria, the last enzyme complex in the electron transfer chain is cytochrome c oxidase (CytcO), which catalyses the four-electron reduction of O2 to H2O using electrons delivered by a water-soluble donor, cytochrome c. The electron transfer through CytcO, accompanied by proton uptake to form H2O drives the physical movement (pumping) of four protons across the membrane per reduced O2. So far, the molecular mechanism of such proton pumping driven by electron transfer has not been determined in any biological system. Here we show that proton pumping in CytcO is mechanistically coupled to proton transfer to O2 at the catalytic site, rather than to internal electron transfer. This scenario suggests a principle by which redox-driven proton pumps might operate and puts considerable constraints on possible molecular mechanisms by which CytcO translocates protons.

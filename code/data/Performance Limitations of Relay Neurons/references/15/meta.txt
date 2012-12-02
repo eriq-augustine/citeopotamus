@@ -1,0 +1,6 @@
+TITLE: High frequency stimulation of the subthalamic nucleus eliminates pathological thalamic rhythmicity in a computational model.
+AUTHORS: Rubin JE, Terman D
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

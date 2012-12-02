@@ -1,0 +1,4 @@
+A model of overall regulation of body fluids.
+Ikeda N, Marumo F, Shirataka M, Sato T
+Abstract:
+None

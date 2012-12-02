@@ -1,0 +1,6 @@
+TITLE: Ciprofloxacin, a quinolone carboxylic acid compound active against aerobic and anaerobic bacteria.
+AUTHORS: Chin NX, Neu HC
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The in vitro activity of ciprofloxacin, a quinolone-carboxylic acid derivative, was compared with those of norfloxacin, cefotaxime, cephalexin, ceftazidime, moxalactam, amoxicillin, and methicillin and other agents, as appropriate. The MICs of ciprofloxacin for 90% of members of the family Enterobacteriaceae and for Pseudomonas aeruginosa, Neisseria spp., and Bacteroides fragilis were between 0.005 and 0.8 micrograms/ml, whereas streptococci and staphylococci were all inhibited by less than or equal to 6.3 micrograms/ml. Ciprofloxacin was 4- to 32-fold more active than norfloxacin and inhibited gentamicin-, ameikacin-, cefotaxime-, and moxalactam-resistant members of the family Enterobacteriaceae and P. aeruginosa and methicillin-resistant Staphylococcus aureus. The activity of ciprofloxacin was not affected by serum but decreased in the presence of acid urine. The frequency of resistance to ciprofloxacin was between 10(-7) and 10(-9).

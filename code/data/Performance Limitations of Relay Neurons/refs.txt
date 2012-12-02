@@ -1,0 +1,69 @@
+REFERENCES
+[1]	Lagier S, Carleton A, Lledo PM (2004) Interplay between local gabaergic interneurons and relay neurons generates γ oscillations in the rat olfactory bulb. J Neurosci 24: 4382–4392. 
+[2]	Hirsch JC, Fourment A, Marc ME (1983) Sleep-related variations of membrane potential in the lateral geniculate body relay neurons of the cat. Brain Res 259: 308–312. 
+[3]	Seki K, Perlmutter SI, Fetz EE (2003) Sensory input to primate spinal cord is presynaptically inhibited during voluntary movement. Nat Neurosci 6: 1309–1316. 
+[4]	Guillery RW, Sherman SM (2002) Thalamic relay functions and their role in corticocortical com-munication: Generalizations from the visual system. Neuron 33: 163–176. 
+[5]	Sherman SM, Guillery RW (1998) On the actions that one nerve can have on another: Distinguish-ing “drivers” from “modulators”. Proc Natl Acad Sci U S A 95: 7121–26. 
+[6]	Sherman SM (2007) The thalamus is more than just a relay. Curr Opin Neurobiol 17: 417–422. 
+[7]	O'Connor DH, Fukui MM, Pinsk MA, Kastner S (2002) Attention modulates responses in the human lateral geniculate nucleus. Nat Neurosci 5: 1203–1209. 
+[8]	Hughes SW, Lorincz M, Cope DW, Blethyn KL, Kekesi KA, et al. (2004) Synchronized oscil-lations at α and θ frequencies in the lateral geniculate nucleus. Neuron 42: 253–68. 
+[9]	Bekisz M, Wrobel A (1999) Coupling of beta and gamma activity in corticothalamic system of cats attending to visual stimuli. Neuro Report 10: 3589–94. 
+[10]	Logothetis NK (2002) The neural basis of blood oxygen level dependent functional magnetic resonance imaging signal. Philos Trans R Soc Lond B Biol Sci 357: 1003–37. 
+[11]	Sommer MA (2003) The role of the thalamus in motor control. Curr Opin Neurobiol 13: 663–670. 
+[12]	Pirini M, Rocchi L, Sensi M, Chiari L (2009) A computational modelling appraoch to investigate different targets in deep brain stimulation for parkinson's disease. J Comput Neurosci 26: 91–107. 
+[13]	Chakravarthy VSBR, Joseph D (2010) What do the basal ganglia do? a modeling perspective. Biol Cybern 103: 237–53. 
+[14]	Nambu A (2008) Seven problems on the basal ganglia. Curr Opin Neurobiol 18: 595–604. 
+[15]	Rubin JE, Terman D (2004) High frequency stimulation of the subthalamic nucleus eliminates pathological thalamic rhythmicity in a computational model. J Comput Neurosci 16: 211–35. 
+[16]	Guo Y, Rubin JE, McIntyre CC, Vitek JL, Terman D (2008) Thalamocortical relay fidelity varies in deep brain stmulation protocols in data-driven computational models. J Neurophysiol 99: 1477–1492. 
+[17]	Saxena S (2011) Neuronal activity of the globus pallidus internus: Correlates related to cued movements, parkinson's disease, and deep brain stimulation [master's thesis]. Baltimore (MD): Department of Biomedical Engineering, Johns Hopkins University http://sarmalabicmjhuedu/sites/default/f​iles/Shreya_Saxena_Masters_Thesispdf. 
+[18]	Masson GL, Masson SRLD, Bal T (2002) Feedback inhibition controls spike transfer in hybrid thalamic circuits. Nature 417: 854–858. 
+[19]	Wolfart J, Debay D, Masson GL, Destexhe A, Bal T (2005) Synaptic background activity controls spike transfer from thalamus to cortex. Nat Neurosci 8: 1760–1767. 
+[20]	Rubin J, Josic K (2007) The firing of an excitable neuron in the presence of stochastic trains of strong synaptic inputs. Neural Comput 19: 1251–1294. 
+[21]	Lorincz ML, Kekesi KA, Juhasz G, Crunelli V, Hughes SW (2009) Temporal framing of thalamic relay-mode firing by phasic inhibition during the alpha rhythm. Neuron 63: 683–96. 
+[22]	Agarwal R, Sarma SV (2012) The effects of dbs patterns on basal ganglia activity and thalamic relay. J Comput Neurosci 33: 151–167. 
+[23]	Hayriye Cagnan, Meijer Hil GE, Gils Stephan A van, Martin Krupa, Tjitske Heida, et al. (2009) Frequency-selectivity of a thalamocortical relay neuron during parkinsons disease and deep brain stimulation: a computational study. Eur J Neurosci 30: 13061317. 
+[24]	Huguenard JR, Prince DA (1992) A novel t-type current underlies prolonged calcium-dependent burst firing in gabaergic neurons of rat thalamic reticular nucleus. J Neurophysiol 12: 3804–3817. 
+[25]	Huguenard JR, McCormick DA (1992) Simulation of the currents involved in rhythmic oscillations in thalamic relay neurons. J Neurophysiol 68: 1372–1383. 
+[26]	Destexhe A, Neubig M, Ulrich D, Huguenard J (1998) Dendritic low threshold calcium currents in thalamic relay cells. J Neurosci 18: 3574–3588. 
+[27]	Manor Y, Rinzel J, Segav I, Yarom Y (1997) Low amplitude oscillations in inferior olive: A model based on electrical coupling of neurons with heterogeneous channel densities. J Neurophysiol 77: 2736–52. 
+[28]	Dirac Paul (1958) Principles of quantum mechanics. 4th edition. Oxford at the Clarendon Press. 
+[29]	Parajuli LK, Fukazawa Y, Watanabe M, Shigemoto R (2010) Subcellular distribution of a1g subunit of t-type calcium channel in the mouse dorsal lateral geniculate nucleus. J Comp Neurol 518: 4362–74. 
+[30]	Smith Y, Bevan MD, Shink E, Bolam JP (1998) Microcircuitry of direct and indirect pathways of the basal ganglia. Neuroscience 86: 353–387. 
+[31]	Platkiewicz J, Brette R (2010) A threshold equation for action potential initiation. PloS Comput Biol 6: 1000850. 
+[32]	Lodish H, Berk A, Zipursky SL (2000) Molecular Cell Biology. 4th edition. W. H. Freeman. 
+[33]	FitzHugh R (1955) Mathematical models of threshold phenomena in the nerve membrane. Bull Math Biol 17: 257–278. 
+[34]	Gallistel CR, Rolls E, Greene D (1969) Neuron function inferred from behavioral and electrophys-iological estimates of refractory period. Science 166: 1028–30. 
+[35]	Greenstied Charles M, Snell JLaurie (2003) Introduction to Probability. American Mathematical Society. 
+[36]	Wolfgang Arendt, Batty Charles JK, Matthias Hieber, Frank Neubrander (2002) Vector-Valued Laplace Transforms and Cauchy Problems. Birkhuser Basel 
+[37]	Strang G (2005) Introduction to Linear Algebra. Wellesley-Cambridge Press. 
+[38]	Hodgkin AL, Huxley AF (1952) A quantitative description of membrane current and its application to conduction and excitation in a nerve. J Physiol 177: 165–181. 
+[39]	Sohal V, Huguenard J (2002) Reciprocal inhibition controls the oscillatory state in thalamic net-works. Neurocomp 44: 653–659. 
+[40]	Sohal V, Huntsman M, Huguenard J (2000) Reciprocal inhibitory connections regulate the spa-tiotemporal properties of intrathalamic oscillations. J Neurosci 20: 1735–1745. 
+[41]	Weyand TG, Boudreaux M, Guido W (2001) Burst and tonic response modes in thalamic neurons during sleep and wakefulness. J Neurophysiol 85: 1107–1118. 
+[42]	Sherman SM, Guillery RW (2002) The role of the thalamus in the ow of information to the cortex. Phil Trans R Soc Lond B 357: 1695–1708. 
+[43]	Koch C (1999) Biophysics of Computation. New York: Oxford University Press. 
+[44]	Berne Robert M, Levy Matthew N (2000) Principles of Physiology. Mosby 
+[45]	Albin RL, Young AB, Penney JB (1989) The functional anatomy of basal ganglia disorders. Trends Neurosci 12: 366–375. 
+[46]	Alexander GE, DeLong MR, Strick PL (1986) Parallel organization of functionally segregated circuits linking basal ganglia and cortex. Ann Rev Neurosci 9: 357–381. 
+[47]	Obeso J, Rodriguez M, DeLong M (1997) Basal ganglia pathophysiology: A critical review. Adv Neurol 74: 3–18. 
+[48]	DeLong MR (1990) Primate models of movement disorders of basal ganglia origin. Trends Neurosci 13: 281–285. 
+[49]	Hashimoto T, Elder C M, Okun M S, Patrick S K, Vitek J L (2003) Stimulation of the subthalamic nucleus changes the firing pattern of pallidal neurons. J Neurosci 23: 1916–1923. 
+[50]	Davie CA (2008) A review of parkinson's disease. Br MEd Bull 86: 109–27. 
+[51]	Montgomery EB, Gale John T (2008) Mechanisms of action of deep brain stimulation. Neurosci Biobehav Rev 32: 388407. 
+[52]	Sarma SV, Eden UT, Cheng ML, Williams Z, Hu R, et al. (2010) Using point process models to compare neural spiking activity in the sub-thalamic nucleus of parkinsons patients and a healthy primate. IEEE Trans Biomed Eng 57: 1297–305. 
+[53]	Kleiner-Fisman G, Herzog J, Fisman DN, Tamma F, Lyons KE, et al. (2006) Subthalamic nucleus deep brain stimulation : summary and meta-analysis of outcomes. Mov Disord 14: S290–304. 
+[54]	Galvan A, Wichmann T (2008) Pathophysiology of parkinsonism. Clin Neurophysiol 119: 1459–1474. 
+[55]	Raz A, Vaadia E, Bergman H (2000) Firing patterns and correlations of spontaneous discharge of pallidal neurons in the normal and tremulous 1-methyl-4-phenyl-1,2,3,6 tetrahydropyridine vervet model of parkinsonism. J Neurosci 20: 8559–71. 
+[56]	Brown P (2003) Oscillatory nature of human basal ganglia activity: relationship to the pathophys-iology of parkinson's disease. Mov Disord 18: 357–363. 
+[57]	Dorval AD, Panjwani N, Qi RY, Grill WM (2009) Deep brain stimulation that abolishes parkinso-nian activity in basal ganglia improves thalamic relay fidelity in a computational circuit. Conf Proc IEEE Eng Med Biol Soc 2009: 4230–3. 
+[58]	Anheim M, Fraix V, Chabards S, Krack P, Benabid AL, et al. (2007) Lifetime of itrel ii pulse generators for subthalamic nucleus stimulation in parkinson's disease. Mov Disord 22: 2436–2439. 
+[59]	Aybek S, Vingerhoets FJG (2000) Does deep brain stimulation of the subthalamic nucleus in parkinson's disease affect cognition. Lancet Neurol 5: 578–588. 
+[60]	Narayana S, Jacks A, Robin DA, Poizner H, Zhang W, et al. (2009) A noninvasive imaging approach to understanding speech changes following deep brain stimulation in parkinsons disease. Am J Speech Lang Pathol 18: 146–161. 
+[61]	Tommasi G, Lanotte M, Albert U, Zibetti M, Castelli L, et al. (2008) Transient acute depressive state induced by subthalamic region stimulation. J Neurol Sci 273: 135–138. 
+[62]	reyes EP (2003) Molecular physiology of low-voltage-activated t-type calcium channels. Physiol rev 83: 117–161. 
+[63]	Saxena S, Gale JT, Eskandar EN, Sarma SV (2011) Modulations in the oscillatory activity of the globus pallidus internus neurons during a behavioral task - a point process analysis. Conf Proc IEEE Eng Med Biol Sci 2011: 4179–82. 
+[64]	Kastner S, Schneider KA, Wunderlich K (2006) Chapter 8 beyond a relay nucleus: neuroimaging views on the human lgn. Prog Brain Res 155 Part B: 125–143. 
+[65]	Erwin E, Baker FH, Busen WF, Malpeli JG (1999) Relationship between laminar topology and retinotopy in the rhesus lateral geniculate nucleus: results from a functional atlas. J Comp Neurol 407: 92–102. 
+[66]	Gross R E (1992) Psychology: the science of mind and behaviour. London: Hodder and Stoughton. 
+[67]	Zhan X, Cox C, Rinzel J, Sherman S (1999) Current clamp and modeling studies of lowthreshold calcium spikes in cells of the cats lateral geniculate nucleus. J Neurophysiol 81: 2360–2373. 
+[68]	Reinagel P, Godwin D, Sherman M, Koch C (1999) Encoding of visual information by lgn bursts. J Neurophysiol 81: 2558–69. 

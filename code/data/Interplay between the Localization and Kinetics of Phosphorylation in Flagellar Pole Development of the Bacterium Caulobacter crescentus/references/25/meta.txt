@@ -1,0 +1,6 @@
+TITLE: Identification of a localization factor for the polar positioning of bacterial structural and regulatory proteins.
+AUTHORS: Viollier PH, Sternheim N, Shapiro L
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Polar pili biogenesis in Caulobacter involves the asymmetric localization of the CpaE and CpaC components of the pili-specific secretion apparatus to one pole of the predivisional cell followed by the biosynthesis of the pili filaments in the daughter swarmer cell. The histidine kinase signaling protein, PleC, that controls the temporal accumulation of the PilA pilin subunit is asymmetrically localized to the pole at which pili are assembled. Here we identify a protein, PodJ, that provides the positional information for the polar localization of both PleC and CpaE. The PodJ protein was found to exist in two forms, a truncated 90-kDa and a full-length 110-kDa form, each controlling a different aspect of polar development and each localizing to the cell poles at a specific time in the cell cycle. When active PleC is delocalized in a DeltapodJ mutant, the accumulation of PilA, the downstream target of PleC signaling, is impaired, providing evidence that the polar localization of this histidine kinase stimulates the response signaled by a two-component system.

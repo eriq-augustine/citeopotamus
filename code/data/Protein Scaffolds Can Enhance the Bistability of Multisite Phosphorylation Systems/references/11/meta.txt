@@ -1,0 +1,6 @@
+TITLE: Positive feedback in cellular control systems.
+AUTHORS: Mitrophanov AY, Groisman EA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Feedback loops have been identified in a variety of regulatory systems and organisms. While feedback loops of the same type (negative or positive) tend to have properties in common, they can play distinctively diverse roles in different regulatory systems, where they can affect virulence in a pathogenic bacterium, maturation patterns of vertebrate oocytes and transitions through cell cycle phases in eukaryotic cells. This review focuses on the properties and functions of positive feedback in biological systems, including bistability, hysteresis and activation surges.

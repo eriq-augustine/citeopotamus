@@ -1,0 +1,6 @@
+TITLE: A theoretical framework for specificity in cell signaling.
+AUTHORS: Komarova NL, Zou X, Nie Q, Bardwell L
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Different cellular signal transduction pathways are often interconnected, so that the potential for undesirable crosstalk between pathways exists. Nevertheless, signaling networks have evolved that maintain specificity from signal to cellular response. Here, we develop a framework for the analysis of networks containing two or more interconnected signaling pathways. We define two properties, specificity and fidelity, that all pathways in a network must possess in order to avoid paradoxical situations where one pathway activates another pathway's output, or responds to another pathway's input, more than its own. In unembellished networks that share components, it is impossible for all pathways to have both mutual specificity and mutual fidelity. However, inclusion of either of two related insulating mechanisms--compartmentalization or the action of a scaffold protein--allows both properties to be achieved, provided deactivation rates are fast compared to exchange rates.

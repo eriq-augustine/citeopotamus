@@ -1,0 +1,6 @@
+TITLE: A statistical method for the detection of variants from next-generation resequencing of DNA pools.
+AUTHORS: Bansal V
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

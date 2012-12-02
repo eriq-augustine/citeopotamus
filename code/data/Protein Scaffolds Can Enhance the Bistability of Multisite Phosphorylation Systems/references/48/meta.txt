@@ -1,0 +1,6 @@
+TITLE: Resistance to signal activation governs design features of the MAP kinase signaling module.
+AUTHORS: Chapman S, Asthagiri AR
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

@@ -1,0 +1,4 @@
+A census of human transcription factors: function, expression and evolution.
+Vaquerizas JM, Kummerfeld SK, Teichmann SA, Luscombe NM
+Abstract:
+Transcription factors are key cellular components that control gene expression: their activities determine how cells function and respond to the environment. Currently, there is great interest in research into human transcriptional regulation. However, surprisingly little is known about these regulators themselves. For example, how many transcription factors does the human genome contain? How are they expressed in different tissues? Are they evolutionarily conserved? Here, we present an analysis of 1,391 manually curated sequence-specific DNA-binding transcription factors, their functions, genomic organization and evolutionary conservation. Much remains to be explored, but this study provides a solid foundation for future investigations to elucidate regulatory mechanisms underlying diverse mammalian biological processes.

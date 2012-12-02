@@ -1,0 +1,6 @@
+TITLE: An amplified sensitivity arising from covalent modification in biological systems.
+AUTHORS: Goldbeter A, Koshland DE Jr
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The transient and steady-state behavior of a reversible covalent modification system is examined. When the modifying enzymes operate outside the region of first-order kinetics, small percentage changes in the concentration of the effector controlling either of the modifying enzymes can give much larger percentage changes in the amount of modified protein. This amplification of the response to a stimulus can provide additional sensitivity in biological control, equivalent to that of allosteric proteins with high Hill coefficients.

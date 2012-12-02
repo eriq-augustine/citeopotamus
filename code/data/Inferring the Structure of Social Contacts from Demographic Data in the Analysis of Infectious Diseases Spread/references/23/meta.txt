@@ -1,0 +1,6 @@
+TITLE: An individual-based model of hepatitis A transmission.
+AUTHORS: Ajelli M, Merler S
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Viral hepatitis A, as other endemic diseases, represents a public health priority worldwide. To study long-time scale human pathogens through individual-based simulations, the development of a dynamic network of contacts is required. In this work, we introduce an individual-based model accounting for the birth and death of the individuals, the generation of new households, and the educational career of the individuals, in order to investigate viral hepatitis A dynamics in the most affected Italian areas. Intervention options such as targeted vaccination, social distancing measures (e.g., closure of day care centers and kindergartens) and improvements in standards of living and hygiene are evaluated. Results show that a very low vaccination coverage is sufficient to control hepatitis A in Italy, while its elimination is not possible since new cases are continuously imported from high endemicity areas outside the country. Finally, the considered social distancing measures can be counterproductive since the fraction of recovered individuals does not decline while the age at infection increases, thus augmenting the probability of developing acute symptoms.

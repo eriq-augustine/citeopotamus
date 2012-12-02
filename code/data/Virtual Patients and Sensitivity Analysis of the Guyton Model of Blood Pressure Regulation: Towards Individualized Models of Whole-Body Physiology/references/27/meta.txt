@@ -1,0 +1,6 @@
+TITLE: Graphical simulation environments for modelling and simulation of integrative physiology.
+AUTHORS: Mangourova V, Ringwood J, Van Vliet B
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

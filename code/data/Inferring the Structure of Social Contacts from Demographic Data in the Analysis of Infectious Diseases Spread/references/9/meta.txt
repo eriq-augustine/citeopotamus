@@ -1,0 +1,6 @@
+TITLE: Social contacts and mixing patterns relevant to the spread of infectious diseases.
+AUTHORS: Mossong J, Hens N, Jit M, Beutels P, Auranen K, Mikolajczyk R, Massari M, Salmaso S, Tomba GS, Wallinga J, Heijne J, Sadkowska-Todys M, Rosinska M, Edmunds WJ
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

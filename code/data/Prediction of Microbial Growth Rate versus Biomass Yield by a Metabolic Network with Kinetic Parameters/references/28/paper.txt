@@ -1,0 +1,4 @@
+OptORF: Optimal metabolic and regulatory perturbations for metabolic engineering of microbial strains.
+Kim J, Reed JL
+Abstract:
+None

@@ -1,0 +1,6 @@
+TITLE: Structure of the negative regulatory domain of p53 bound to S100B(betabeta).
+AUTHORS: Rustandi RR, Baldisseri DM, Weber DJ
+TERMS:
+CATEGORIES:
+ABSTRACT:
+A Ca2+ dependent conformational change in dimeric S100B(betabeta) is required for it to bind p53 and inhibit phosphorylation of this tumor suppressor in its C-terminal negative regulatory domain. A peptide derived from this region of p53 (residues 367-388) was found to have no regular structure in its native form by NMR spectroscopy, but becomes helical when bound to Ca2+ loaded S100B(betabeta). The three-dimensional structure of this complex reveals several favorable hydrophobic and electrostatic interactions between S100B(betabeta) and the p53 peptide in the binding pocket, where S100B(betabeta) sterically blocks sites of phosphorylation and acetylation on p53 that are important for transcription activation.

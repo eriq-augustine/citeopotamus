@@ -1,0 +1,4 @@
+Sleep-related variations of membrane potential in the lateral geniculate body relay neurons of the cat.
+Hirsch JC, Fourment A, Marc ME
+Abstract:
+Membrane potential of lateral geniculate body relay neurons was monitored in chronic cats during the sleep-waking cycle. Neurons were tonically depolarized throughout paradoxical (P) sleep and the maximal level of polarization occurred during slow (S) sleep (mean difference of membrane potential between S and P sleep: + 10.2 +/- 1.3 mV, n = 6, range: 8-12 mV). Some features of the spontaneous activity of S and P sleep are briefly discussed in relation to the level of membrane potential. In particular it is suggested that the phasic depolarizations underlying the bursts of action potentials during S sleep, and which are reproduced retinal cell axons impinging upon the hyperpolarized membrane.

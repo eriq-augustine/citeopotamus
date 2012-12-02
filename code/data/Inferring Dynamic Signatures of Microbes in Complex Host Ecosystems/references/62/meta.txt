@@ -1,0 +1,6 @@
+TITLE: Metagenomic sequencing of an in vitro-simulated microbial community.
+AUTHORS: Morgan JL, Darling AE, Eisen JA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

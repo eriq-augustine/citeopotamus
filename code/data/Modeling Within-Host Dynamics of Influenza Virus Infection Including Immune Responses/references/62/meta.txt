@@ -1,0 +1,6 @@
+TITLE: Innate antiviral responses by means of TLR7-mediated recognition of single-stranded RNA.
+AUTHORS: Diebold SS, Kaisho T, Hemmi H, Akira S, Reis e Sousa C
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Interferons (IFNs) are critical for protection from viral infection, but the pathways linking virus recognition to IFN induction remain poorly understood. Plasmacytoid dendritic cells produce vast amounts of IFN-alpha in response to the wild-type influenza virus. Here, we show that this requires endosomal recognition of influenza genomic RNA and signaling by means of Toll-like receptor 7 (TLR7) and MyD88. Single-stranded RNA (ssRNA) molecules of nonviral origin also induce TLR7-dependent production of inflammatory cytokines. These results identify ssRNA as a ligand for TLR7 and suggest that cells of the innate immune system sense endosomal ssRNA to detect infection by RNA viruses.

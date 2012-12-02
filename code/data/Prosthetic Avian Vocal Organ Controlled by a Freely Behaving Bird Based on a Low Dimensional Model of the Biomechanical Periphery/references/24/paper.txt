@@ -1,0 +1,4 @@
+Model for vocalization by a bird with distensible vocal cavity and open beak.
+Fletcher NH, Riede T, Suthers RA
+Abstract:
+Some birds make use of a distensible oral cavity to produce nearly pure-tone song. Songbirds such as the Northern cardinal (Cardinalis cardinalis) have a muscularly distended oropharyngeal-esophageal cavity between the top of the trachea and the open beak. The present paper analyzes the acoustics of this vocal system. It is shown that the resonance of the oropharyngeal-esophageal cavity, vented through the beak, introduces a dominant peak in the radiation efficiency, the frequency of which can be adjusted by varying the volume of the cavity, the beak gape, and perhaps the position of the tongue in the mouth. To produce nearly pure-tone song, the bird adjusts the frequency of this peak to coincide with the fundamental of the syringeal oscillation. The present paper provides the acoustical analysis underlying this behavior.

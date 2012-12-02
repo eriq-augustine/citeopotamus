@@ -1,0 +1,6 @@
+TITLE: Multiple ontologies in action: composite annotations for biosimulation models.
+AUTHORS: Gennari JH, Neal ML, Galdzicki M, Cook DL
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

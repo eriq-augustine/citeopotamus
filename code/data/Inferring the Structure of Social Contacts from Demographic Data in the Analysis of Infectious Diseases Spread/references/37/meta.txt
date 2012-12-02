@@ -1,0 +1,6 @@
+TITLE: Modeling the worldwide spread of pandemic influenza: baseline case and containment interventions.
+AUTHORS: Colizza V, Barrat A, Barthelemy M, Valleron AJ, Vespignani A
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

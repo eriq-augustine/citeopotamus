@@ -1,0 +1,6 @@
+TITLE: Cytochrome c oxidase: 25 years of the elusive proton pump.
+AUTHORS: Wikström M
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Since its discovery [Nature 266 (1977) 271], the function of cytochrome c oxidase (and other haem-copper oxidases) as a redox-driven proton pump has been subject of both intense research and controversy, and is one of the key unsolved issues of bioenergetics and of biochemistry more generally. Despite the fact that the mechanism of proton translocation is not yet fully understood on the molecular level, many important details and principles have been learned. In the hope of accelerating progress, some of these will be reviewed here, together with a brief presentation of a novel proton pump mechanism, and of the emergence of a molecular basis for control of its efficiency.

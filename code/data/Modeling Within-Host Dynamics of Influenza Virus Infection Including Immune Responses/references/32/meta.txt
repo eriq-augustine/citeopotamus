@@ -1,0 +1,6 @@
+TITLE: Antiviral response in pandemic influenza viruses.
+AUTHORS: García-Sastre A
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The outcome of viral infections depends on a complex set of interactions between the viruses and their hosts. Particularly, viral infection triggers specific signaling programs within the infected cells that results in substantial changes in host gene expression. While some of these changes might be beneficial for viral replication, others represent the induction of a host antiviral response. In this respect, viruses have evolved genes that counteract this initial innate antiviral response. These viral-host interactions shape the subsequent phases of the disease and influence the adaptive immune response. In influenza viruses, the nonstructural protein 1 inhibits the interferon-mediated antiviral response. The regulatory activities of this viral protein play a major role in the pathogenicity of influenza virus and appear partially responsible for the ability of influenza viruses to infect multiple animal species, which likely contributes to the generation of new pandemic viruses in humans.

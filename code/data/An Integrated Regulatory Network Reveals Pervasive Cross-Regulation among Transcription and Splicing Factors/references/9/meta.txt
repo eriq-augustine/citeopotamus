@@ -1,0 +1,6 @@
+TITLE: Alternative splicing of transcription factors' genes: beyond the increase of proteome diversity.
+AUTHORS: Talavera D, Orozco M, de la Cruz X
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Functional modification of transcription regulators may lead to developmental changes and phenotypical differences between species. In this work, we study the influence of alternative splicing on transcription factors in human and mouse. Our results show that the impact of alternative splicing on transcription factors is similar in both species, meaning that the ways to increase variability should also be similar. However, when looking at the expression patterns of transcription factors, we observe that they tend to diverge regardless of the role of alternative splicing. Finally, we hypothesise that transcription regulation of alternatively spliced transcription factors could play an important role in the phenotypical differences between species, without discarding other phenomena or functional families.

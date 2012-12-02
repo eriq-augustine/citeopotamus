@@ -1,0 +1,60 @@
+REFERENCES
+[1]	Dunker A, Silman I, Uversky V, Sussman J (2008) Function and structure of inherently disordered proteins. Curr Opin Struc Biol 18: 756–764. 
+[2]	Iakoucheva LM, Brown CJ, Lawson JD, Obradović Z, Dunker AK (2002) Intrinsic disorder in cell-signaling and cancer-associated proteins. J Mol Biol 323: 573–584. 
+[3]	Dunker AK, Garner E, Guilliot S, Romero P, Albrecht K, et al. (1998) Protein disorder and the evolution of molecular recognition: theory, predictions and observations. Pac Symp Biocomput 1998: 473–484. 
+[4]	Shoemaker BA, Portman JJ, Wolynes PG (2000) Speeding molecular recognition by using the folding funnel: the y-casting mechanism. Proc Natl Acad Sci US A 97: 8868–8873. 
+[5]	Gunasekaran K, Tsai CJ, Kumar S, Zanuy D, Nussinov R (2003) Extended disordered proteins: targeting function with less scaffold. Trends Biochem Sci 28: 81–85. 
+[6]	Hilser VJ, Thompson EB (2007) Intrinsic disorder as a mechanism to optimize allosteric coupling in proteins. Proc Natl Acad Sci U S A 104: 8311–8315. 
+[7]	Kriwacki RW, Hengst L, Tennant L, Reed SI, Wright PE (1996) Structural studies of p21Waf1/Cip1/Sdi1 in the free and Cdk2-bound state: conformational disorder mediates binding diversity. Proc Natl Acad Sci U S A 93: 11504–11509. 
+[8]	Ekman D, Light S, Björklund ÅK, Elofsson A (2006) What properties characterize the hub proteins of the protein-protein interaction network of Saccharomyces cerevisiae? Genome Biol 7: R45. 
+[9]	Haynes C, Oldfield CJ, Ji F, Klitgord N, Cusick ME, et al. (2006) Intrinsic disorder is a common feature of hub proteins from four eukaryotic interactomes. PLoS Comput Biol 2: e100. 
+[10]	Bálint È, Vousden KH (2001) Activation and activities of the p53 tumour suppressor protein. Brit J Cancer 85: 1813–1823. 
+[11]	Avalos JL, Celic I, Muhammad S, Cosgrove MS, Boeke JD, et al. (2002) Structure of a Sir 2 enzyme bound to an acetylated p53 peptide. Mol Cell 10: 523–535. 
+[12]	Lowe ED, Tews I, Cheng KY, Brown NR, Gul S, et al. (2002) Specificity determinants of recruitment peptides bound to phospho-CDK2/cyclin A. Biochemistry 41: 15625–15634. 
+[13]	Mujtaba S, He Y, Zeng L, Yan S, Plotnikova O, et al. (2004) Structural mechanism of the bromodomain of the coactivator CBP in p53 transcriptional activation. Mol Cell 13: 251–263. 
+[14]	Oldfield CJ, Meng J, Yang JY, Yang MQ, Uversky VN, et al. (2008) Flexible nets: disorder and induced fit in the associations of p53 and 14-3-3 with their partners. BMC Genomics 9 Suppl 1: S1. 
+[15]	Dempsey B, Shaw G (2011) Identification of calcium-dependent and calcium-enhanced binding between S100B and the dopamine D2 receptor. Biochemistry 50: 9056–9065. 
+[16]	Rustandi RR, Baldisseri DM, Weber DJ (2000) Structure of the negative regulatory domain of p53 bound to S100B(β β). Nature Struct Biol 7: 570–574. 
+[17]	Barber KR, McClintock KA, Jamieson GA, Dimlich RVW, Shaw GS (1999) Specificity and Zn2+ enhancement of the S100B binding epitope TRTK-12. J Biol Chem 274: 1502–1508. 
+[18]	McClintock K, Shaw G (2003) A novel target conformation is revealed by the solution structure of the Ca2+–S100B–TRTK-12 complex. J Biol Chem 278: 6251–6257. 
+[19]	Inman K, Yang R, Rustandi R, Miller K, Baldisseri D, et al. (2002) Solution NMR structure of S100B bound to the high-affinity target peptide TRTK-12. J Mol Biol 324: 1003–1014. 
+[20]	Charpentier T, Thompson L, Liriano M, Varney KM, Wilder P, et al. (2010) The effects of CapZ peptide (TRTK-12) binding to S100B-Ca2+ as examined by NMR and X-ray crystallography. J Mol Biol 396: 1227–1243. 
+[21]	Chen J (2009) Intrinsically disordered p53 extreme C-terminus binds to S100B(β β) through “fly-casting”. J Am Chem Soc 131: 2088–2089. 
+[22]	Allen W, Capelluto D, Finkelstein C, Bevan D (2010) Modeling the relationship between the p53 C-terminal domain and its binding partners using molecular dynamics. J Phys Chem 114: 13201–13213. 
+[23]	Pirolli D, Alinovi CC, Capoluongo E, Satta MA, Concolino P, et al. (2011) Insight into a novel p53 single point mutation (G389E) by Molecular Dynamics simulations. Int J Mol Sci 12: 128–140. 
+[24]	Huang Y, Liu Z (2011) Anchoring Intrinsically Disordered Proteins to Multiple Targets: Lessons from N-Terminus of the p53 Protein. Int J Mol Sci 12: 1410–1430. 
+[25]	Irbäck A, Samuelsson B, Sjunnesson F, Wallin S (2003) Thermodynamics of alpha- and betastructure formation in proteins. Biophys J 85: 1466–1473. 
+[26]	Irbäck A, Mohanty S (2006) PROFASI: A Monte Carlo simulation package for protein folding and aggregation. J Comput Chem 27: 1548–1555. 
+[27]	Irbäck A, Mitternacht S, Mohanty S (2009) An effective all-atom potential for proteins. PMC Biophys 2: 2. 
+[28]	Staneva I, Wallin S (2009) All-atom Monte Carlo approach to protein-peptide binding. J Mol Biol 393: 1118–1128. 
+[29]	Staneva I, Wallin S (2011) Binding free energy landscape of domain-peptide interactions. PLoS Comput Biol 7: e1002131. 
+[30]	Petsalaki E, Stark A, García-Urdiales E, Russell RB (2009) Accurate prediction of peptide binding sites on protein surfaces. PLoS Comput Biol 5: e1000335. 
+[31]	Raveh B, London N, Zimmerman L, Schueler-Furman O (2011) Rosetta FlexPepDock ab-initio: simultaneous folding, docking and refinement of peptides onto their receptors. PLoS ONE 6: e18934. 
+[32]	Dagliyan O, Proctor EA, D'Auria KM, Ding F, Dokholyan NV (2011) Structural and dynamic determinants of protein-peptide recognition. Structure 19: 1837–1845. 
+[33]	Schreiber G (2002) Kinetic studies of protein-protein interactions. Curr Opin Struct Biol 12: 41–47. 
+[34]	Wright PE, Dyson HJ (2009) Linking folding and binding. Curr Opin Struct Biol 19: 31–38. 
+[35]	Sugase K, Dyson HJ, Wright PE (2007) Mechanism of coupled folding and binding of an intrinsically disordered protein. Nature 447: 1021–1025. 
+[36]	Ahmad M, Gu W, Helms V (2008) Mechanism of fast peptide recognition by SH3 domains. Angew Chem Int Ed Engl 47: 7626–7630. 
+[37]	Huang Y, Liu Z (2009) Kinetic Advantage of Intrinsically Disordered Proteins in Coupled FoldingBinding Process: A Critical Assessment of the “Fly-Casting” Mechanism. J Mol Biol 393: 1143–1159. 
+[38]	Huang Y, Liu Z (2010) Nonnative interactions in coupled folding and binding processes of intrinsically disordered proteins. PLoS ONE 5: e15375. 
+[39]	Rustandi RR, Drohat AC, Baldisseri DM, Wilder PT, Weber DJ (1998) The Ca2+-dependent interaction of S100(β β) with a peptide derived from p53. Biochemistry 37: 1951–1960. 
+[40]	Burgi R, Pitera J, van Gunsteren WF (2001) Assessing the effect of conformational averaging on the measured values of observables. J Biomol NMR 19: 305–320. 
+[41]	Zagrovic B, van Gunsteren WF (2006) Comparing atomistic simulation data with the NMR experiment: how much can NOEs actually tell us? Proteins 63: 210–218. 
+[42]	Arendt Y, Bhaumik A, Del Conte R, Luchinat C, Mori M, et al. (2007) Fragment docking to S100 proteins reveals a wide diversity of weak interaction sites. Chem Med Chem 2: 1648–1654. 
+[43]	Pawson T, Nash P (2003) Assembly of cell regulatory systems through protein interaction domains. Science 300: 445–452. 
+[44]	Lee HJ, Zheng JJ (2010) PDZ domains and their binding partners: structure, specificity, and modification. Cell Commun Signal 8: 8. 
+[45]	Bhattacharya S, Large E, Heizmann CW, Hemmings B, Chazin WJ (2003) Structure of the Ca2+/S100B/NDR kinase peptide complex: insights into S100 target specificity and activation of the kinase. Biochemistry 42: 14416–14426. 
+[46]	Berendsen H, van der Spoel D, Drunen R (1995) GROMACS: a message-passing parallel molecular dynamics implementation. Comp Phys Comm 91: 43–56. 
+[47]	Hess B, Kutzner C, van der Spoel D, Lindahl E (2008) GROMACS 4: algorithms for highly efficient, load-balanced, and scalable molecular simulations. J Chem Theory Comput 4: 435–447. 
+[48]	Kaminski G, Friesner R, Tirado-Rives J, Jorgensen W (2001) Evaluation and reparametrization of the OPLS-AA force field for proteins via comparison with accurate quantum chemical calculations on peptides. J Phys Chem B 105: 6474–6487. 
+[49]	Berendsen H, Grigera J, Straatsma T (1987) The missing term in effective pair potentials. J Phys Chem 91: 6269–6271. 
+[50]	Darden T, York D, Pedersen L (1993) Particle mesh Ewald: an N⋅log(N) method for Ewald sums in large systems. J Chem Phys 98: 10089–10092. 
+[51]	Hess B, Bekker H, Berendsen H, Fraaije J (1997) LINCS: a linear constraint solver for molecular simulations. J Comput Chem 18: 1463–1472. 
+[52]	Bussi G, Donadio D, Parrinello M (2007) Canonical sampling through velocity rescaling. J Chem Phys 126: 014101. 
+[53]	Parrinello M, Rahman A (1981) Polymorphic transitions in single crystals: a new molecular dynamics method. J Appl Phys 52: 7182–7190. 
+[54]	Lyubartsev A, Martsinovski A, Shevkunov S, Vorontsov-Velyaminov P (1992) New approach to Monte Carlo calculation of the free energy: Method of expanded ensembles. J Chem Phys 96: 1776–1783. 
+[55]	Marinari E, Parisi G (1992) Simulated tempering: a new Monte Carlo scheme. Europhys Lett 19: 451–458. 
+[56]	Frishman D, Argos P (1995) Knowledge-based protein secondary structure assignment. Proteins 23: 566–579. 
+[57]	de Hoon MJ, Imoto S, Nolan J, Miyano S (2004) Open source clustering software. Bioinformatics 20: 1453–1454. 
+[58]	Miller RG (1974) The jackknife – a review. Biometrika 61: 1–15. 
+[59]	Delano WL (2011) The PyMOL Molecular Graphics System, Version 1.4.1. Schrödinger, LLC. 

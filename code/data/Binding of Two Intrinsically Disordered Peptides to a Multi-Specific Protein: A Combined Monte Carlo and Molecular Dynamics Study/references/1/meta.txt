@@ -1,0 +1,6 @@
+TITLE: Function and structure of inherently disordered proteins.
+AUTHORS: Dunker AK, Silman I, Uversky VN, Sussman JL
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The application of bioinformatics methodologies to proteins inherently lacking 3D structure has brought increased attention to these macromolecules. Here topics concerning these proteins are discussed, including their prediction from amino acid sequence, their enrichment in eukaryotes compared to prokaryotes, their more rapid evolution compared to structured proteins, their organization into specific groups, their structural preferences, their half-lives in cells, their contributions to signaling diversity (via high contents of multiple-partner binding sites, post-translational modifications, and alternative splicing), their distinct functional repertoire compared to that of structured proteins, and their involvement in diseases.

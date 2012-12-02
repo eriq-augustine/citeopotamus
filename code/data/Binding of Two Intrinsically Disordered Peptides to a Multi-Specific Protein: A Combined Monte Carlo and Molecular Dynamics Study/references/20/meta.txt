@@ -1,0 +1,6 @@
+TITLE: The effects of CapZ peptide (TRTK-12) binding to S100B-Ca2+ as examined by NMR and X-ray crystallography.
+AUTHORS: Charpentier TH, Thompson LE, Liriano MA, Varney KM, Wilder PT, Pozharski E, Toth EA, Weber DJ
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

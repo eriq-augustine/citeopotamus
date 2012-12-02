@@ -1,0 +1,6 @@
+TITLE: Comparison of the antibacterial activities of the quinolones Bay 12-8039, gatifloxacin (AM 1155), trovafloxacin, clinafloxacin, levofloxacin and ciprofloxacin.
+AUTHORS: Bauernfeind A
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The in-vitro activities of the quinolones Bay 12-8039, gatifloxacin (AM 1155), trovafloxacin, clinafloxacin, levofloxacin and ciprofloxacin were compared. Gram-positive cocci were most susceptible to Bay 12-8039, clinafloxacin and trovafloxacin; Enterobacteriaceae and fastidious organisms were most susceptible to clinafloxacin [corrected]; Pseudomonas spp. were most susceptible to clinafloxacin and ciprofloxacin; anaerobes, Helicobacter pylori and Campylobacter jejuni were most susceptible to gatifloxacin, clinafloxacin and trovafloxacin. Against gram-positive cocci, the only agents that were more active than ciprofloxacin were those carrying an azabicyclo (trovafloxacin, Bay 12-8039), 3-amino-pyrrolidinyl (clinafloxacin) or 3-methyl-piperazinyl (gatifloxacin) moiety at position C7.

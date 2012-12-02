@@ -1,0 +1,6 @@
+TITLE: Molecular basis for membrane phospholipid diversity: why are there so many lipids?
+AUTHORS: Dowhan W
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Phospholipids play multiple roles in cells by establishing the permeability barrier for cells and cell organelles, by providing the matrix for the assembly and function of a wide variety of catalytic processes, by acting as donors in the synthesis of macromolecules, and by actively influencing the functional properties of membrane-associated processes. The function, at the molecular level, of phosphatidylethanolamine, phosphatidylglycerol, and cardiolipin in specific cellular processes is reviewed, with a focus on the results of combined molecular genetic and biochemical studies in Escherichia coli. These results are compared with primarily biochemical data supporting similar functions for these phospholipids in eukaryotic organisms. The wide range of processes in which specific involvement of phospholipids has been documented explains the need for diversity in phospholipid structure and why there are so many membrane lipids.

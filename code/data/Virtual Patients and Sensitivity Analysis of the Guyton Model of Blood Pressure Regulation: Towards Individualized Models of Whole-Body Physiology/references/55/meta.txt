@@ -1,0 +1,6 @@
+TITLE: Kidneys and fluids in pressure regulation. Small volume but large pressure changes.
+AUTHORS: Guyton AC
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The human body has multiple blood pressure control mechanisms, each of which serves a special and usually different role in pressure regulation. The nervous pressure controllers usually react within seconds and prevent major rapid changes in pressure when acute extraneous forces act on the circulatory system. Then, within minutes to hours, several intermediately acting pressure controllers become activated. Among the more important of these are the renin-angiotensin-vasoconstriction system and the shift of fluid volume between the blood and interstitial fluids. Finally, after several hours to days, the kidneys readjust body fluid volumes, especially the extracellular fluid and blood volumes, to bring the pressure to a very precise level. This final adjustment usually requires little change in body fluid volume for two reasons. First, the other pressure controllers often have already made most of the needed pressure adjustments. Second, the increase in fluid volume required to cause a major increase in blood pressure is usually surprisingly small; this is true because the whole body blood flow autoregulation mechanism causes a secondary increase in total peripheral resistance.

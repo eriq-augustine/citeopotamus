@@ -1,0 +1,6 @@
+TITLE: A point-charge force field for molecular mechanics simulations of proteins based on condensed-phase quantum mechanical calculations.
+AUTHORS: Duan Y, Wu C, Chowdhury S, Lee MC, Xiong G, Zhang W, Yang R, Cieplak P, Luo R, Lee T, Caldwell J, Wang J, Kollman P
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

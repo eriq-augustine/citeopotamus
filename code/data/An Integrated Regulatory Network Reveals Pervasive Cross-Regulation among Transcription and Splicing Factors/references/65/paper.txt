@@ -1,0 +1,4 @@
+Non-redundant functions of the protein isoforms arising from alternative splicing of the VEGF-A pre-mRNA.
+Giacca M
+Abstract:
+The different protein isoforms generated from the vascular endothelial growth factor-A (VEGF-A) gene, an essential regulator of blood vessel formation, differ in biochemical property and functional activity. Despite the relevance of VEGF-A for both normal and pathologic angiogenesis, our understanding of the molecular mechanisms governing alternative splicing of its pre-mRNA is still in its infancy.

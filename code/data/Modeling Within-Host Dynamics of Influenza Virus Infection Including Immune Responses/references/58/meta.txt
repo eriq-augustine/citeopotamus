@@ -1,0 +1,6 @@
+TITLE: Role of interleukin-12 in primary influenza virus infection.
+AUTHORS: Monteiro JM, Harvey C, Trinchieri G
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The effect of endogenous interleukin-12 (IL-12) on the influenza virus immune response in BALB/c mice was evaluated. Following primary influenza virus infection, IL-12 mRNA and protein are detected in the lung, with live virus being required for cytokine induction. Endogenous IL-12 contributes to early NK cell-dependent gamma interferon (IFN-gamma) production (days 3 and 5) but not late T-cell-dependent IFN-gamma secretion (day 7). IL-12 contributes to the inhibition of early virus replication but is not required for virus clearance. IL-12 also modestly contributes to the activation of cytotoxic T lymphocytes. Thus, in this model of experimental influenza virus infection, endogenous IL-12 contributes primarily to the early development and activation of the innate immune response.

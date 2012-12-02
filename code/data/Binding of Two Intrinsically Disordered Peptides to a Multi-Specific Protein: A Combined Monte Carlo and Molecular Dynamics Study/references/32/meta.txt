@@ -1,0 +1,6 @@
+TITLE: Structural and dynamic determinants of protein-peptide recognition.
+AUTHORS: Dagliyan O, Proctor EA, D'Auria KM, Ding F, Dokholyan NV
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

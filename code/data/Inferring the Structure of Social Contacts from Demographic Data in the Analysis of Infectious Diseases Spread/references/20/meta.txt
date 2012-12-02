@@ -1,0 +1,6 @@
+TITLE: Demographic variability, vaccination, and the spatiotemporal dynamics of rotavirus epidemics.
+AUTHORS: Pitzer VE, Viboud C, Simonsen L, Steiner C, Panozzo CA, Alonso WJ, Miller MA, Glass RI, Glasser JW, Parashar UD, Grenfell BT
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Historically, annual rotavirus activity in the United States has started in the southwest in late fall and ended in the northeast 3 months later; this trend has diminished in recent years. Traveling waves of infection or local environmental drivers cannot account for these patterns. A transmission model calibrated against epidemiological data shows that spatiotemporal variation in birth rate can explain the timing of rotavirus epidemics. The recent large-scale introduction of rotavirus vaccination provides a natural experiment to further test the impact of susceptible recruitment on disease dynamics. The model predicts a pattern of reduced and lagged epidemics postvaccination, closely matching the observed dynamics. Armed with this validated model, we explore the relative importance of direct and indirect protection, a key issue in determining the worldwide benefits of vaccination.

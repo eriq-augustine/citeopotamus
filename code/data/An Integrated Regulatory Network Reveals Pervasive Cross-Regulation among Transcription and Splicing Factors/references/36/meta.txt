@@ -1,0 +1,6 @@
+TITLE: An RNA code for the FOX2 splicing regulator revealed by mapping RNA-protein interactions in stem cells.
+AUTHORS: Yeo GW, Coufal NG, Liang TY, Peng GE, Fu XD, Gage FH
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The elucidation of a code for regulated splicing has been a long-standing goal in understanding the control of post-transcriptional gene expression events that are crucial for cell survival, differentiation and development. We decoded functional RNA elements in vivo by constructing an RNA map for the cell type-specific splicing regulator FOX2 (also known as RBM9) via cross-linking immunoprecipitation coupled with high-throughput sequencing (CLIP-seq) in human embryonic stem cells. The map identified a large cohort of specific FOX2 targets, many of which are themselves splicing regulators, and comparison between the FOX2 binding profile and validated splicing events revealed a general rule for FOX2-regulated exon inclusion or skipping in a position-dependent manner. These findings suggest that FOX2 functions as a critical regulator of a splicing network, and we further show that FOX2 is important for the survival of human embryonic stem cells.

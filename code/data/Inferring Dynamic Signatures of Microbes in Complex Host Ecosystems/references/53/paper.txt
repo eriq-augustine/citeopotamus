@@ -1,0 +1,4 @@
+Human intestinal bacteria as reservoirs for antibiotic resistance genes.
+Salyers AA, Gupta A, Wang Y
+Abstract:
+Human intestinal bacteria have many roles in human health, most of which are beneficial or neutral for the host. In this review, we explore a more sinister side of intestinal bacteria; their role as traffickers in antibiotic resistance genes. Evidence is accumulating to support the hypothesis that intestinal bacteria not only exchange resistance genes among themselves but might also interact with bacteria that are passing through the colon, causing these bacteria to acquire and transmit antibiotic resistance genes.

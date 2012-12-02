@@ -1,0 +1,1271 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:dc="http://purl.org/dc/terms/"
+      xmlns:doi="http://dx.doi.org/"
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes#"
+      lang="en" xml:lang="en"
+      itemscope itemtype="http://schema.org/Article">
+
+<head>
+   <title>PLOS Computational Biology: Molecular Dynamics Simulations Reveal Proton Transfer Pathways in Cytochrome C-Dependent Nitric Oxide Reductase</title>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9" />
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+<link rel="home" title="home" href="/home.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C" />
+<link rel="alternate" type="application/rss+xml"
+  title="PLOS Computational Biology: New Articles"
+  href="http://www.ploscompbiol.org/article/feed" />
+
+<link rel="pingback" href="http://www.ploscompbiol.org/pingback" />
+
+
+<!-- global_css.ftl -->
+<link rel="stylesheet" type="text/css" media="screen" href="/css/dojo/dijit/themes/tundra/tundra.css?v=zwugcxLdpBWmb72qqlHgGyeNAGM" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/star_rating.css?v=Mm3HyaUPUahAJAq6xG5W3tdF7Hk" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/rating.css?v=AOT9rozE9sYVjGTdeiyxHf18Ykw" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/screen.css?v=KBNFqBmhD635U0NgiM5tf9dtxRE" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/iepc.css?v=FIjyR83BhSovq_5yNVk1Sih60AI" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/journal.css?v=SiREXztjNSUsOyrlkE9sv028Y+0" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/lightBox.css?v=sDgsUXamFoYAakEshdj0YWrZiiQ" />
+<link rel="stylesheet" type="text/css" media="print" href="/css/print.css?v=0T+LTV7Gd0jtHEhqEvBfSrmHUGg" />
+
+<!--chartbeat --> 
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+
+
+<!--[if IE]><![endif]-->
+<meta name="description" content="PLOS Computational Biology is an open-access" />
+
+<meta name="keywords" content="plos computational biology" />
+
+  <meta name="citation_publisher" content="Public Library of Science" />
+  <meta name="citation_doi" content="10.1371/journal.pcbi.1002674" />
+    <meta name="citation_title" content="Molecular Dynamics Simulations Reveal Proton Transfer Pathways in Cytochrome C-Dependent Nitric Oxide Reductase"/>
+    <meta itemprop="name" content="Molecular Dynamics Simulations Reveal Proton Transfer Pathways in Cytochrome C-Dependent Nitric Oxide Reductase"/>
+
+      <meta name="citation_author" content="Andrei V. Pisliakov" />
+          <meta name="citation_author_institution" content="Theoretical Molecular Science Laboratory, RIKEN Advanced Science Institute, Wako-shi, Saitama, Japan" />
+      <meta name="citation_author" content="Tomoya Hino" />
+          <meta name="citation_author_institution" content="RIKEN SPring-8 Center, Sayo, Hyogo, Japan" />
+      <meta name="citation_author" content="Yoshitsugu Shiro" />
+          <meta name="citation_author_institution" content="RIKEN SPring-8 Center, Sayo, Hyogo, Japan" />
+      <meta name="citation_author" content="Yuji Sugita" />
+          <meta name="citation_author_institution" content="Theoretical Molecular Science Laboratory, RIKEN Advanced Science Institute, Wako-shi, Saitama, Japan" />
+          <meta name="citation_author_institution" content="Computational Biophysics Research Team, RIKEN Advanced Institute for Computational Science, Chuo-ku, Kobe, Japan" />
+          <meta name="citation_author_institution" content="Laboratory for Biomolecular Function Simulation, RIKEN Quantitative Biology Center, Chuo-ku, Kobe, Japan" />
+
+    <meta name="citation_date" content="2012/8/30"/>
+
+  <meta name="citation_pdf_url" content="http://dx.plos.org/10.1371/journal.pcbi.1002674.pdf" />
+
+    <meta name="citation_journal_title" content="PLOS Computational Biology" />
+    <meta name="citation_firstpage" content="e1002674"/>
+    <meta name="citation_issue" content="8"/>
+    <meta name="citation_volume" content="8"/>
+    <meta name="citation_issn" content="1553-7358"/>
+
+    <meta name="citation_journal_abbrev" content="PLoS Comput Biol" />
+
+      <meta name="citation_reference" content="citation_title=Nitrous oxide: No laughing matter; citation_volume=326; citation_number=1; citation_pages=56-57; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=From NO to OO: Nitric oxide and dioxygen in bacterial respiration; citation_volume=30; citation_number=2; citation_pages=15-24; citation_date=1998; " />
+      <meta name="citation_reference" content="citation_title=A novel scenario for the evolution of haem-copper oxygen reductases; citation_volume=1505; citation_number=3; citation_pages=185-208; citation_date=2001; " />
+      <meta name="citation_reference" content="citation_title=Nitric oxide reductases of prokaryotes with emphasis on the respiratory, heme-copper oxidase type; citation_volume=99; citation_number=4; citation_pages=194-215; citation_date=2005; " />
+      <meta name="citation_reference" content="citation_title=Diversity of the heme–copper superfamily in archaea: Insights from genomics and structural modeling; citation_volume=45; citation_number=5; citation_pages=1-31; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Vectorial proton transfer coupled to reduction of O(2) and NO by a heme-copper oxidase; citation_volume=105; citation_number=6; citation_pages=20257-20262; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Was nitric oxide the first deep electron sink?; citation_volume=34; citation_number=7; citation_pages=9-15; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Evolution of the haem copper oxidases superfamily: A rooting tale; citation_volume=34; citation_number=8; citation_pages=375-381; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=A bioinformatics classifier and database for heme-copper oxygen reductases; citation_volume=6; citation_number=9; citation_pages=e19117; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Structure at 2.8-angstrom resolution of cytochrome-c-oxidase from Paracoccus denitrificans; citation_volume=376; citation_number=10; citation_pages=660-669; citation_date=1995; " />
+      <meta name="citation_reference" content="citation_title=The whole structure of the 13-subunit oxidized cytochrome c oxidase at 2.8 angstrom; citation_volume=272; citation_number=11; citation_pages=1136-1144; citation_date=1996; " />
+      <meta name="citation_reference" content="citation_title=Cytochrome c oxidase: 25 years of the elusive proton pump; citation_volume=1655; citation_number=12; citation_pages=241-247; citation_date=2004; " />
+      <meta name="citation_reference" content="citation_title=Cytochrome c oxidase: Exciting progress and remaining mysteries; citation_volume=40; citation_number=13; citation_pages=521-531; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Proton-pumping mechanism of cytochrome c oxidase; citation_volume=40; citation_number=14; citation_pages=205-223; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Structural basis of biological N2O generation by bacterial nitric oxide reductase Science; citation_volume=330; citation_number=15; citation_pages=1670-1669; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=The structure of cbb(3) cytochrome oxidase provides insights into proton pumping; citation_volume=329; citation_number=16; citation_pages=327-330; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=The cytochrome cbb3 from Pseudomonas stutzeri displays nitric oxide reductase activity; citation_volume=268; citation_number=17; citation_pages=6486-6491; citation_date=2001; " />
+      <meta name="citation_reference" content="citation_title=Entrance of the proton pathway in cbb(3)-type heme-copper oxidases; citation_volume=108; citation_number=18; citation_pages=17661-17666; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Nitric oxide-dependent proton translocation in various denitrifiers; citation_volume=163; citation_number=19; citation_pages=837-840; citation_date=1985; " />
+      <meta name="citation_reference" content="citation_title=Proton and electron pathways in the bacterial nitric oxide reductase; citation_volume=41; citation_number=20; citation_pages=2331-2340; citation_date=2002; " />
+      <meta name="citation_reference" content="citation_title=A pathway for protons in nitric oxide reductase from Paracoccus denitrificans; citation_volume=1767; citation_number=21; citation_pages=362-373; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Molecular mechanisms for proton transport in membranes; citation_volume=75; citation_number=22; citation_pages=298-302; citation_date=1978; " />
+      <meta name="citation_reference" content="citation_title=Simulating proton translocations in proteins: Probing proton transfer pathways in the Rhodobacter sphaeroides reaction center; citation_volume=36; citation_number=23; citation_pages=484-500; citation_date=1999; " />
+      <meta name="citation_reference" content="citation_title=Gating of proton and water transfer in the respiratory enzyme cytochrome c oxidase; citation_volume=102; citation_number=24; citation_pages=10478-10481; citation_date=2005; " />
+      <meta name="citation_reference" content="citation_title=Proton solvation and transport in aqueous and biomolecular systems: Insights from computer simulations; citation_volume=111; citation_number=25; citation_pages=17; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Insight into the mechanism of the Influenza A proton channel from a structure in a lipid bilayer; citation_volume=330; citation_number=26; citation_pages=509-512; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=An aqueous H+ permeation pathway in the voltage-gated proton channel Hv1; citation_volume=17; citation_number=27; citation_pages=869-875; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Proton transfer via a transient linear water-molecule chain in a membrane protein; citation_volume=108; citation_number=28; citation_pages=11435-11439; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Structure and mechanism of proton transport through the transmembrane tetrameric M2 protein bundle of the Influenza A virus; citation_volume=107; citation_number=29; citation_pages=15075-15080; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Molecular dynamics simulations of membrane channels and transporters; citation_volume=19; citation_number=30; citation_pages=128-137; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Exploring transmembrane diffusion pathways with molecular dynamics; citation_volume=25; citation_number=31; citation_pages=142-154; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Principles of conduction and hydrophobic gating in K(+) channels; citation_volume=107; citation_number=32; citation_pages=5833-5838; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Molecular simulation approaches to membrane proteins; citation_volume=19; citation_number=33; citation_pages=1562-1572; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Exploring atomic resolution physiology on a femtosecond to millisecond timescale using molecular dynamics simulations; citation_volume=135; citation_number=34; citation_pages=555-562; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Computational electrophysiology: The molecular dynamics of ion channel permeation and selectivity in atomistic detail; citation_volume=101; citation_number=35; citation_pages=809-817; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Oxygen and proton pathways in cytochrome c oxidase; citation_volume=30; citation_number=36; citation_pages=100-107; citation_date=1998; " />
+      <meta name="citation_reference" content="citation_title=Water-gated mechanism of proton translocation by cytochrome c oxidase; citation_volume=1604; citation_number=37; citation_pages=61-65; citation_date=2003; " />
+      <meta name="citation_reference" content="citation_title=Computer simulation of water in cytochrome c oxidase; citation_volume=1557; citation_number=38; citation_pages=99-107; citation_date=2003; " />
+      <meta name="citation_reference" content="citation_title=Dynamic water networks in cytochrome c oxidase from Paracoccus denitrificans investigated by molecular dynamics simulations; citation_volume=86; citation_number=39; citation_pages=1873-1889; citation_date=2004; " />
+      <meta name="citation_reference" content="citation_title=A molecular dynamics study of water chain formation in the proton-conducting K channel of cytochrome c oxidase; citation_volume=1706; citation_number=40; citation_pages=134-146; citation_date=2005; " />
+      <meta name="citation_reference" content="citation_title=Molecular dynamics simulation of water in cytochrome c oxidase reveals two water exit pathways and the mechanism of transport; citation_volume=1787; citation_number=41; citation_pages=1140-1150; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Intricate role of water in proton transport through cytochrome c oxidase; citation_volume=132; citation_number=42; citation_pages=16225-16239; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Molecular basis for membrane phospholipid diversity:Why are there so many lipids?; citation_volume=66; citation_number=43; citation_pages=199-232; citation_date=1997; " />
+      <meta name="citation_reference" content="citation_title=Scalable molecular dynamics with NAMD; citation_volume=26; citation_number=44; citation_pages=1781-1802; citation_date=2005; " />
+      <meta name="citation_reference" content="citation_title=All-atom empirical potential for molecular modeling and dynamics studies of proteins; citation_volume=102; citation_number=45; citation_pages=3586-3616; citation_date=1998; " />
+      <meta name="citation_reference" content="citation_title=Extending the treatment of backbone energetics in protein force fields: Limitations of gas-phase quantum mechanics in reproducing protein conformational distributions in molecular dynamics simulations; citation_volume=25; citation_number=46; citation_pages=1400-1415; citation_date=2004; " />
+      <meta name="citation_reference" content="citation_title=Analysis of lipid surface area in protein-membrane systems combining Voronoi tessellation and Monte Carlo integration methods; citation_volume=33; citation_number=47; citation_pages=286-293; citation_date=2012; " />
+      <meta name="citation_reference" content="citation_title=Hydration forces between phospholipid-bilayers; citation_volume=988; citation_number=48; citation_pages=351-376; citation_date=1989; " />
+      <meta name="citation_reference" content="citation_title=Dynamics of water molecules in the bacteriorhodopsin trimer in explicit lipid/water environment; citation_volume=86; citation_number=49; citation_pages=705-717; citation_date=2004; " />
+      <meta name="citation_reference" content="citation_title=Directional proton transfer in membrane proteins achieved through protonated protein-bound water molecules: A proton diode; citation_volume=49; citation_number=50; citation_pages=6889-6893; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Energetics and dynamics of proton transfer reactions along short water wires; citation_volume=13; citation_number=51; citation_pages=13207-13215; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Two conserved glutamates in the bacterial nitric oxide reductase are essential for activity but not assembly of the enzyme; citation_volume=183; citation_number=52; citation_pages=189-199; citation_date=2001; " />
+      <meta name="citation_reference" content="citation_title=A new assay for nitric oxide reductase reveals two conserved glutamate residues form the entrance to a proton-conducting channel in the bacterial enzyme; citation_volume=401; citation_number=53; citation_pages=111-119; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Defining the proton entry point in the bacterial respiratory nitric-oxide reductase; citation_volume=283; citation_number=54; citation_pages=3839-3845; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Theoretical and computational analysis of the membrane potential generated by cytochrome c oxidase upon single electron injection into the enzyme; citation_volume=1777; citation_number=55; citation_pages=1129-1139; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Electrostatic basis for the unidirectionality of the primary proton transfer in cytochrome c oxidase; citation_volume=105; citation_number=56; citation_pages=7726; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=The identity of the transient proton loading site of the proton-pumping mechanism of cytochrome c oxidase; citation_volume=1807; citation_number=57; citation_pages=80-84; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Storage of an excess proton in the hydrogen-bonded network of the D-pathway of cytochrome c oxidase: Identification of a protonated water cluster; citation_volume=129; citation_number=58; citation_pages=2910-2913; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Functional waters in intraprotein proton transfer monitored by ftir difference spectroscopy; citation_volume=439; citation_number=59; citation_pages=109-112; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=Structures and spectral signatures of protonated water networks in bacteriorhodopsin; citation_volume=104; citation_number=60; citation_pages=6980-6985; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=High resolution structure of the ba3 cytochrome c oxidase from Thermus thermophilus in a lipidic environment; citation_volume=6; citation_number=61; citation_pages=e22348; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Combined dft and electrostatics study of the proton pumping mechanism in cytochrome c oxidase; citation_volume=1757; citation_number=62; citation_pages=1035-1046; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=Exploring the terminal region of the proton pathway in the bacterial nitric oxide reductase; citation_volume=103; citation_number=63; citation_pages=845-850; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Crystal structure of quinol-dependent nitric oxide reductase from Geobacillus stearothermophilus; citation_volume=19; citation_number=64; citation_pages=238-245; citation_date=2012; " />
+      <meta name="citation_reference" content="citation_title=A mechanistic principle for proton pumping by cytochrome c oxidase; citation_volume=437; citation_number=65; citation_pages=286-289; citation_date=2005; " />
+      <meta name="citation_reference" content="citation_title=Kinetic gating of the proton pump in cytochrome c oxidase; citation_volume=106; citation_number=66; citation_pages=13707-13712; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=The barrier for proton transport in aquaporins as a challenge for electrostatic models: The role of protein relaxation in mutational calculations; citation_volume=64; citation_number=67; citation_pages=829-844; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=Insights into the mechanism of proton transport in cytochrome c oxidase; citation_volume=134; citation_number=68; citation_pages=1147-1152; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Proton storage site in bacteriorhodopsin: New insights from quantum mechanics/molecular mechanics simulations of microscopic pKa and infrared spectra; citation_volume=133; citation_number=69; citation_pages=14981-14997; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Water molecules and hydrogen-bonded networks in bacteriorhodopsin: Molecular dynamics simulations of the ground state and the M-intermediate; citation_volume=88; citation_number=70; citation_pages=3252-3261; citation_date=2005; " />
+      <meta name="citation_reference" content="citation_title=Steered molecular dynamics simulation of the Rieske subunit motion in the cytochrome bc1 complex; citation_volume=77; citation_number=71; citation_pages=1753-1768; citation_date=1999; " />
+      <meta name="citation_reference" content="citation_title=Water wires in atomistic models of the Hv1 proton channel; citation_volume=1818; citation_number=72; citation_pages=286-293; citation_date=2012; " />
+      <meta name="citation_reference" content="citation_title=Relationship between Ca2+-affinity and shielding of bulk water in the Ca2+-pump from molecular dynamics simulations; citation_volume=107; citation_number=73; citation_pages=21465-21469; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Tracing cytoplasmic Ca2+ ion and water access points in the Ca2+-ATPase; citation_volume=102; citation_number=74; citation_pages=268-277; citation_date=2012; " />
+      <meta name="citation_reference" content="citation_number=75; " />
+
+
+
+<!--
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002674">
+   <license rdf:resource="http://creativecommons.org/licenses/by/2.5/" />
+</Work>
+<License rdf:about="http://creativecommons.org/licenses/by/2.5/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+</License>
+<rdf:Description
+     rdf:about="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002674"
+     dc:identifier="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002674"
+     dc:title="PLOS Computational Biology: Molecular Dynamics Simulations Reveal Proton Transfer Pathways in Cytochrome C-Dependent Nitric Oxide Reductase"
+       trackback:ping="http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002674/trackback;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C"
+     />
+</rdf:RDF>
+
+-->
+</head>
+<body>
+<span property="dc:language" content="en"></span>
+<!-- begin : container -->
+<div id="container">
+  <!-- begin : top banner external ad space -->
+  <div id="topBanner">
+
+
+<!-- begin : left banner slot -->
+<div class="left">
+  <iframe id='affe494b' name='affe494b'
+    src='http://ads.plos.org/www/delivery/afr.php?zoneid=84&amp;cb=4452'
+    frameborder='0' scrolling='no' width='468' height='60'><a
+    href='http://ads.plos.org/www/delivery/ck.php?n=affe494b&amp;cb=1687'
+    target='_top'><img src='http://ads.plos.org/www/delivery/avw.php?zoneid=84&amp;cb=2433&amp;n=affe494b'
+    border='0' alt='' /></a></iframe>
+</div>
+<!-- end : left banner slot -->
+<!-- begin : right banner slot -->
+<div class="right">
+  <iframe id='af654bd5' name='af654bd5'
+    src='http://ads.plos.org/www/delivery/afr.php?zoneid=85&amp;cb=8872'
+    frameborder='0' scrolling='no' width='468' height='60'><a
+    href='http://ads.plos.org/www/delivery/ck.php?n=af654bd5&amp;cb=8470'
+    target='_top'><img src='http://ads.plos.org/www/delivery/avw.php?zoneid=85&amp;cb=9927&amp;n=af654bd5'
+    border='0' alt='' /></a></iframe>
+</div>
+<!-- end : right banner slot -->
+
+  </div>
+  <!-- end : top banner external ad space -->
+
+  <!-- begin : header -->
+  <div id="hdr" class="login">
+
+  <!-- begin : logo -->
+  <div id="logo" title="PLOS Computational Biology"><a href="/home.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C" title="PLOS Computational Biology"><span>PLOS Computational Biology</span></a></div>
+  <!-- end : logo -->
+  <!-- begin : user controls -->
+
+
+
+
+
+  <div id="user">
+    <div>
+      <ul>
+        <li><a href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002674" class="feedback"><strong>Login</strong></a> | </li>
+        <li><a href="https://register.plos.org:443/ambra-registration/register.action">Create Account</a> | </li>
+        <li class="feedback"><a href="/feedbackCreate.action?page=%252Farticle%252FfetchArticle.action%253FarticleURI%253Dinfo%25253Adoi%25252F10.1371%25252Fjournal.pcbi.1002674" title="Send us your feedback">Feedback</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <!-- end : user controls -->
+  <!-- begin search links -->
+  <ul id="links"><li class="browse"><a href="/article/browse.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C?field=date" title="Browse Articles">Browse</a></li><li class="rss"><a href="/static/rssFeeds.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C" title="RSS Feeds">RSS</a></li></ul>
+  <!-- end : search links -->
+  <!-- begin : dashboard -->
+  <div id="db">
+    <form name="searchForm" action="/search/simpleSearch.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C" method="get">
+      <input type="hidden" name="from" value="globalSimpleSearch"/>
+      <input type="hidden" name="filterJournals" value="PLoSCompBiol">
+      <fieldset>
+        <legend>Search</legend>
+        <label for="search">Search</label>
+        <div class="wrap"><input id="search" type="text" name="query" value="Search articles..." onfocus="if(this.value=='Search articles...')value='';" onblur="if(this.value=='')value='Search articles...';" class="searchField" alt="Search articles..."/></div>
+        <input src="/images/search_btn1.gif" onclick="submit();" value="ftsearch" alt="SEARCH" tabindex="3" class="button" type="image" />
+      </fieldset>
+    </form>
+    <form name="gasf" action="/search/advancedSearch.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C" method="get">
+<input type="hidden" name="noSearchFlag" value="true" id="noSearchFlag"/><input type="hidden" name="query" value="" id="query"/>    </form>
+    <a id="advSearch" href="#" onclick="if(document.searchForm.query.value!='Search articles...')document.gasf.query.value=document.searchForm.query.value;document.gasf.submit();return false;">Advanced Search</a>
+  </div>
+  <!-- end : dashboard -->
+  <!-- begin : navigation -->
+  <ul id="nav">
+    <li><a href="/home.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C" tabindex="101">Home</a></li>
+     <!-- This is a temporary action to link to th static toc page -->
+    <li><a href="/static/browse.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C" tabindex="102">Browse Articles</a>
+        <ul>
+          <li><a href="/article/browseIssue.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C?field=issue">Current Issue</a></li> <!-- Assuming dynamic TOC is in place -->
+          <li><a href="/article/browseVolume.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C?field=volume">Journal Archive</a></li> 
+          <li><a href="/article/browse.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C?field=date">By Publication Date</a></li>
+          <li><a href="/article/browse.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C">By Subject</a></li>
+          <li><a href="http://www.ploscollections.org/static/pcbiCollections.action">Collections</a></li>
+        </ul>
+    </li>
+    <li><a href="/static/about.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C" tabindex="103">About</a>
+        <ul>
+          <li><a href="/static/information.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C">Journal Information</a></li>
+          <li><a href="/static/edboard.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C">Editorial Board</a></li>
+          <li><a href="/static/eic.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C">Editors-in-Chief</a></li>
+          <li><a href="/static/almInfo.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C">Article-Level Metrics</a></li>
+          <li><a href="/static/license.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C">Open-Access License</a></li>
+          <li><a href="/static/contact.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C">Contact Us</a></li>
+        </ul>
+      </li>
+    <li><a href="/static/users.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C" tabindex="104">For Readers</a>
+        <ul>
+          <li><a href="/static/commentGuidelines.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C">Guidelines for Notes, Comments, and Corrections</a></li>
+          <li><a href="/static/ratingGuidelines.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C">Guidelines for Rating</a></li>
+          <li><a href="/static/help.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C">Help Using This Site</a></li>
+          <li><a href="/static/downloads.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C">Media Downloads</a></li>
+          <li><a href="/static/sitemap.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C">Site Map</a></li>
+        </ul>
+      </li>
+    <li><a href="/static/authors.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C" tabindex="105">For Authors and Reviewers</a>
+        <ul>
+          <li><a href="/static/policies.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C">Editorial and Publishing Policies</a></li>
+          <li><a href="/static/guidelines.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C">Author Guidelines</a></li>
+          <li><a href="/static/figureGuidelines.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C">Figure and Table Guidelines</a></li>
+          <li><a href="/static/checklist.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C">Submit Your Paper</a></li>
+          <li><a href="/static/reviewerGuidelines.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C">Reviewer Guidelines</a></li>
+	   <li><a href="http://www.plos.org/journals/index.php">Submit to Other PLOS Journals</a></li>
+        </ul>
+      </li>
+      <li class="journalnav"><a href="http://www.plos.org" title="PLOS" tabindex="110" class="drop">PLOS.org</a>
+        <ul>
+          <li><a href="http://www.plos.org/oa/index.html" title="Open Access Statement">Open Access</a></li>
+          <li><a href="http://www.plos.org/support/donate.php" title="Join PLOS: Show Your Support">Join PLOS</a></li>
+          <li><a href="http://blogs.plos.org/" title="PLOS Blogs">PLOS Blogs</a></li>
+	  <li><a href="http://www.zazzle.com/plos?rf=238434112415374154" title="PLOS Store">PLOS Store</a></li>
+          <li><a href="http://currents.plos.org" title="PLOS Currents">PLOS Currents</a></li>
+          <li><a href="http://www.plos.org/connect.html" title="PLOS.org | Stay Connected">Stay Connected</a></li>
+        </ul>
+      </li>
+      <li class="journalnav"><a href="http://hubs.plos.org" tabindex="109">Hubs</a>
+        <ul>
+          <li><a href="http://hubs.plos.org/biodiversity" title="PLOS Hubs: Biodiversity">Biodiversity</a></li>
+          <li><a href="http://clinicaltrials.ploshubs.org" title="PLOS Hub for Clinical Trials">Clinical Trials</a></li>
+        </ul>
+    </li>
+      <li class="journalnav"><a href="http://www.plosjournals.org" tabindex="108">Journals</a>
+        <ul>
+          <li><a href="http://www.plosbiology.org/" title="PLOSBiology.org">PLOS Biology</a></li>
+          <li><a href="http://www.plosmedicine.org/" title="PLOSMedicine.org">PLOS Medicine</a></li>
+          <li><a href="http://www.ploscompbiol.org/" title="PLOSCompBiol.org">PLOS Computational Biology</a></li>
+          <li><a href="http://www.plosgenetics.org/" title="PLOSGenetics.org">PLOS Genetics</a></li>
+          <li><a href="http://www.plospathogens.org/" title="PLOSPathogens.org">PLOS Pathogens</a></li>
+          <li><a href="http://www.plosone.org/" title="PLOSONE.org">PLOS ONE</a></li>
+          <li><a href="http://www.plosntds.org/" title="PLOSNTDs.org">PLOS Neglected Tropical Diseases</a></li>
+        </ul>
+      </li>
+    </ul>
+  <!-- end : navigation -->
+  </div>
+  <!-- end : header --> 
+
+
+
+<!-- begin : main content -->
+<div id="content" class="article" style="visibility:visible;">
+
+<!-- begin : right hand column -->
+
+<div id="rhc" xpathLocation="noDialog">
+
+  <div id="download" class="rhcBox_type1">
+    <div class="wrap">
+      <ul>
+        <li class="download icon"><strong>Download:</strong>
+          <a href="/article/fetchObjectAttachment.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C?uri=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002674&amp;representation=PDF" title="Download article PDF">PDF</a> |
+          <a href="/article/citationList.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002674" title="Download citations">Citation</a> |
+          <a href="/article/fetchObjectAttachment.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C?uri=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002674&amp;representation=XML" title="Download Article XML">XML</a>
+        </li>
+        <li class="print icon"><a href="#" onclick="window.print();return false;" title="Print Article"><strong>Print article</strong></a></li>
+        <li class="reprint icon"><a href="https://www.odysseypress.com/onlinehost/reprint_order.php?type=A&page=0&journal=3&doi=10.1371/journal.pcbi.1002674&volume=&issue=&title=Molecular Dynamics Simulations Reveal Proton Transfer Pathways in Cytochrome C-Dependent Nitric Oxide Reductase&author_name=Andrei%20V.%20Pisliakov%2C%20Tomoya%20Hino%2C%20Yoshitsugu%20Shiro%2C%20Yuji%20Sugita&start_page=1&end_page=13" title="Odyssey Press">EzReprint</a> New &amp; improved!</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="issues" class="rhcBox_type2">
+    <p><strong>Published in the</strong>
+    <a href="http://www.ploscompbiol.org/article/browseIssue.action?issue=info%3Adoi%2F10.1371%2Fissue.pcbi.v08.i08" title="Browse the Open-Access Issue">August 2012 Issue of <em>PLOS Computational Biology</em></a></p>
+  </div>
+
+  <div id="impact" class="rhcBox_type2">
+    <h6>Metrics <a href="/static/help.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C#articleMetrics" class="replaced" id="info" title="More information"><span>info</span></a></h6>
+
+    <div class="wrap">
+      <img id="rhcDataSpinner" src="/images/loading_small.gif" class="loading" />
+      <div id="totalDataInRHC"></div>
+      <div id="pubDateInRHC"></div>
+      <div id="relatedCitesInRHC"></div>
+    </div>
+
+    <div class="more clearfix"><a href="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002674;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C" title="More information">More</a></div>
+  </div>
+
+  <div id="related" class="rhcBox_type2">
+    <h6>Related Content</h6>
+    <dl class="related">
+      <dt>Related Articles on the Web</dt>
+      <dd><a href="http://scholar.google.com/scholar?hl=en&lr=&q=related:http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002674&btnG=Search">Google Scholar</a></dd>
+      <dd id="pubMedRelatedLIInRHC" style="display:none;"><a id="pubMedRelatedURLInRHC">PubMed</a></dd>
+    </dl>
+    <div class="more clearfix"><a href="/article/related/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002674;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C" title="More information">More</a></div>
+  </div>
+
+  <div id="share" class="rhcBox_type2">
+    <h6>Share this Article <a href="/static/help.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C#socialBookmarkLinks" class="replaced" id="info" title="More information"><span>info</span></a></h6>
+    <ul>
+      <li class="bookmarklets">
+
+        <a href="http://www.reddit.com/submit?url=http://dx.plos.org/10.1371/journal.pcbi.1002674"
+           target="_new"
+           id="reddit">
+          <img src="http://www.reddit.com/static/spreddit4.gif" alt="submit to reddit" border="0"/> </a>
+        <g:plusone size="small" annotation="none" href=http://dx.plos.org/10.1371/journal.pcbi.1002674></g:plusone>
+        <script type="text/javascript">
+          (function () {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+          })();
+        </script>
+        <a href="http://www.stumbleupon.com/submit?url=http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002674" target="_new"> <img border=0 src="http://cdn.stumble-upon.com/images/16x16_su_solid.gif" alt="StumbleUpon" title="Add to StumbleUpon"></a>
+        <script>function fbs_click() {u='http://dx.plos.org/10.1371/journal.pcbi.1002674';t='Molecular%20Dynamics%20Simulations%20Reveal%20Proton%20Transfer%20Pathways%20in%20Cytochrome%20C-Dependent%20Nitric%20Oxide%20Reductase';window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436');return false;}</script><a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002674" onclick="return fbs_click()" target="_blank"><img src="http://static.ak.fbcdn.net/images/share/facebook_share_icon.gif" alt="Facebook" title="Add to Facebook" /></a>       <!-- for mor info, see http://www.facebook.com/share_partners.php -->
+        <script type="text/javascript">
+          function bookmark_in_connotea(u) {
+            a=false; x=window; e=x.encodeURIComponent; d=document;
+            w=open('http://www.connotea.org/addpopup?continue=confirm&uri='+e(u),
+                'add', 'width=600, height=400, scrollbars, resizable');
+            void(x.setTimeout('w.focus()',200));
+          }
+        </script>
+        <a style='cursor: pointer;' onclick='javascript:bookmark_in_connotea("http://dx.plos.org/10.1371/journal.pcbi.1002674");'><img src='/images/icon_connotea_16x16.gif' alt="Connotea" title="Add to Connotea"/></a>
+        <a href="http://www.citeulike.org/posturl?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002674&title=Molecular%20Dynamics%20Simulations%20Reveal%20Proton%20Transfer%20Pathways%20in%20Cytochrome%20C-Dependent%20Nitric%20Oxide%20Reductase" target="_new"><img src='/images/icon_citeulike_16x16.gif' alt="CiteULike" title="Add to CiteULike" /></a>
+        <a href="http://www.mendeley.com/import/?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002674" title="Add to Mendeley" target="_new"><img src="/images/icon_mendeley_16x16.gif" alt="Bibliography"></a>
+        <script type="text/javascript">
+          var twtTitle  = 'Molecular Dynamics Simulations Reveal Proton Transfer Pathways in Cytochrome C-Dependent Nitric Oxide Reductase';
+          var twtUrl    = 'http://dx.plos.org/10.1371/journal.pcbi.1002674';
+          var twtTag    = '#PLOSCompBio:'
+          var maxLength = 140 - (twtUrl.length + 1);
+          if (twtTitle.length > maxLength) {
+            twtTitle = twtTitle.substr(0, (maxLength - 17))+'...';  //truncates title to include space for twtTag and ellipsis
+          }
+          var twtLink = 'http://twitter.com/intent/tweet?text='+encodeURIComponent(twtTag + ' ' + twtTitle + ' ' + twtUrl);
+          document.write('<a href="'+twtLink+'" target="_blank"><img src="/images/icon_twitter.gif" border="0" alt="Twitter icon" title="Tweet This!" /></a>');
+        </script>
+
+      </li>
+      <li class="email icon"><a href="/article/emailArticle.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002674" title="Email this article">Email this article</a></li>
+    </ul>
+  </div>
+  <div id="articleTwitterStream" style="display:none">
+    <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script>
+      new TWTR.Widget({
+        version: 2,
+        type: 'search',
+        search: encodeURIComponent('10.1371/journal.pcbi.1002674'),
+        interval: 6000,
+        title: '',
+        subject: 'From Twitter',
+        width: 300,
+        height: 300,
+        theme: {
+          shell: {
+            background: '#667893',
+            color: '#ffffff'
+          },
+          tweets: {
+            background: '#ffffff',
+            color: '#444444',
+            links: '#006699'
+          }
+        },
+        features: {
+          scrollbar: true,
+          loop: false,
+          live: true,
+          hashtags: true,
+          timestamp: true,
+          avatars: true,
+          toptweets: true,
+          behavior: 'all'
+        }
+      }).render().start();
+    </script>
+  </div>
+</div>
+<!-- end : right hand column -->
+<form name="articleInfo" id="articleInfo" method="" action="">
+<input type="hidden" name="isAuthor" value="true" />
+<input type="hidden" name="authorIdList" value="" />
+<input type="hidden" name="userIdList" value="" />
+<input type="hidden" name="otherIdList" value="" />
+<input type="hidden" name="annotationId" value="" />
+<input type="hidden" name="isResearchArticle" value="true" />
+</form>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.XML" value="133281"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.PDF" value="2556884"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g001.TIF" value="2886030"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g001.PNG_I" value="105731"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g001.PNG_S" value="19707"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g001.PNG_M" value="283160"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g001.PNG_L" value="2131727"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g002.TIF" value="3006496"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g002.PNG_I" value="108107"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g002.PNG_S" value="22402"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g002.PNG_M" value="278984"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g002.PNG_L" value="2082730"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g003.TIF" value="2540870"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g003.PNG_I" value="92733"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g003.PNG_S" value="19200"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g003.PNG_M" value="237500"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g003.PNG_L" value="1794194"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g004.TIF" value="4409206"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g004.PNG_I" value="160436"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g004.PNG_S" value="28676"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g004.PNG_M" value="373625"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g004.PNG_L" value="3121230"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g005.TIF" value="1668862"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g005.PNG_I" value="76190"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g005.PNG_S" value="18385"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g005.PNG_M" value="174433"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g005.PNG_L" value="952905"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g006.TIF" value="1487090"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g006.PNG_I" value="97209"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g006.PNG_S" value="20700"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g006.PNG_M" value="241897"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g006.PNG_L" value="1042349"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g007.TIF" value="2032054"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g007.PNG_I" value="144177"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g007.PNG_S" value="25946"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g007.PNG_M" value="355727"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g007.PNG_L" value="1458434"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g008.TIF" value="1668754"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g008.PNG_I" value="214659"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g008.PNG_S" value="33734"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g008.PNG_M" value="469415"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.g008.PNG_L" value="1217861"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.s001.TIF" value="918188"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.s002.TIF" value="3536632"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.s003.TIF" value="1543446"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.s004.TIF" value="2271334"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.s005.TIF" value="2039426"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.s006.TIF" value="1022594"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.s007.TIF" value="973760"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.s008.TIF" value="436088"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.s009.TIF" value="556468"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.s010.TIF" value="1817378"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.s011.TIF" value="901128"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.s012.DOCX" value="39954"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.s013.DOCX" value="59976"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.s014.AVI" value="9368224"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002674.s015.AVI" value="9261190"/>
+<div id="articleContainer">
+
+<span about="http://www.plos.org"  typeof="foaf:Organization" property="foaf:name" style="display:none; visibility:hidden;">PLOS</span>
+<div id="researchArticle" class="content">
+  <span rel="dc:publisher" href="http://www.plos.org"></span>
+  <a id="top" name="top"></a>
+<div id="contentHeader" xpathLocation="noSelect">
+  <p>Open Access</p><p id="articleType">Research Article</p>
+</div>
+
+  <h1 xpathLocation="noSelect" property="dc:title" datatype="" rel="dc:type" href="http://purl.org/dc/dcmitype/Text">Molecular Dynamics Simulations Reveal Proton Transfer Pathways in Cytochrome C-Dependent Nitric Oxide Reductase</h1>
+  <div property="dc:description" datatype="" style="display:none; visibility:hidden;">Author SummaryDenitrification is an anaerobic process performed by several bacteria as an alternative to aerobic respiration. A key intermediate step is catalyzed by the nitric oxide reductase (NOR) enzyme, which is situated in the cytoplasmic membrane. Proton delivery to the catalytic site inside NOR is an important part of its functioning. In this work we use molecular dynamics simulations to describe water distribution and to identify proton transfer pathways in cNOR. Our results reveal two channels from the periplasmic side of the membrane and none from the cytoplasmic side, indicating that cNOR is not a proton pump. It is our hope that these results will provide a basis for further experimental and computational studies aimed to understand details of the NOR mechanism. Furthermore, this work sheds light on the molecular evolution of respiratory enzymes.</div>
+  <span property="dc:date" content="2012-08-30" datatype="xsd:date" rel="dc:identifier" href="http://dx.doi.org/10.1371/journal.pcbi.1002674"></span>
+  <span property="dc:subject" content="Biochemistry"></span>
+  <span property="dc:subject" content="Biophysics"></span>
+  <span property="dc:subject" content="Chemistry"></span>
+  <span property="dc:subject" content="Computational Biology"></span>
+<form action="">
+  <input type="hidden" name="journalDisplayName" id="journalDisplayName" value="PLOS Computational Biology" />
+  <input type="hidden" name="crossRefPageURL" id="crossRefPageURL" value="/article/crossref/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002674;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C" />
+  <input type="hidden" name="twitterPageURL" id="twitterPageURL" value="/article/twitter/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002674;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C" />
+  <input type="hidden" name="metricsTabURL" id="metricsTabURL" value="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002674;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C" />
+  <input type="hidden" name="doi" id="doi" value="info:doi/10.1371/journal.pcbi.1002674" />
+  <input type="hidden" name="articleTitleUnformatted" id="articleTitleUnformatted" value="Molecular%20Dynamics%20Simulations%20Reveal%20Proton%20Transfer%20Pathways%20in%20Cytochrome%20C-Dependent%20Nitric%20Oxide%20Reductase" />
+  <input type="hidden" name="articlePubDate" id="articlePubDate" value="1346310000000" />
+</form>
+<div class="horizontalTabs" xpathLocation="noSelect">
+  <ul id="tabsContainer">
+        <li id="article" class="active"><a href="/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002674;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C" class="tab" title="Article">Article</a></li>
+        <li id="metrics"><a href="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002674;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C" class="tab" title="Metrics">Metrics</a></li>
+        <li id="related"><a href="/article/related/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002674;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C" class="tab" title="Related Content">Related Content</a></li>
+        <li id="comments"><a href="/article/comments/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002674;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C" class="tab" title="Comments">Comments: 0</a></li>
+  </ul>
+</div>
+  <div id="articleMenuBox" xpathLocation="noSelect">
+    <div id="articleMenu">
+      <div class="wrap">
+        <ul>
+          <li class="annotation icon">To <strong>add a note</strong>, highlight some text. <a href="#" onclick="toggleAnnotation(this, 'public'); return false;" title="Click to turn notes on/off">Hide notes</a></li>
+          <li class="discuss icon">
+              <a href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002674">Make a general comment</a>
+          </li>
+        </ul>
+        <div id="sectionNavTopBox" style="display:none;">
+          <p><strong>Jump to</strong></p>
+          <div id="sectionNavTop" class="tools"></div>
+        </div>
+      </div>
+    </div>
+      <div id="lightBox" xpathLocation="noDialog" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002674')">
+      </div>
+  </div>
+
+
+
+
+<p class="authors" xpathLocation="noSelect"><span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Andrei V. Pisliakov</span></span><sup><a href="#aff1">1</a></sup><sup><a href="#cor1" class="fnoteref">*</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Tomoya Hino</span></span><sup><a href="#aff2">2</a></sup><sup><a href="#fn1">¤</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Yoshitsugu Shiro</span></span><sup><a href="#aff2">2</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Yuji Sugita</span></span><sup><a href="#aff1">1</a></sup><sup>,</sup><sup><a href="#aff3">3</a></sup><sup>,</sup><sup><a href="#aff4">4</a></sup></p><p class="affiliations" xpathLocation="noSelect"><a name="aff1" id="aff1"></a><strong>1</strong> Theoretical Molecular Science Laboratory, RIKEN Advanced Science Institute, Wako-shi, Saitama, Japan, <a name="aff2" id="aff2"></a><strong>2</strong> RIKEN SPring-8 Center, Sayo, Hyogo, Japan, <a name="aff3" id="aff3"></a><strong>3</strong> Computational Biophysics Research Team, RIKEN Advanced Institute for Computational Science, Chuo-ku, Kobe, Japan, <a name="aff4" id="aff4"></a><strong>4</strong> Laboratory for Biomolecular Function Simulation, RIKEN Quantitative Biology Center, Chuo-ku, Kobe, Japan</p><div class="abstract" xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[1]"><a id="abstract0" name="abstract0" toc="abstract0" title="Abstract"></a><h2 xpathLocation="noSelect">Abstract&nbsp;<a href="#top">Top</a></h2><p xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[1]/p[1]">Nitric oxide reductases (NORs) are membrane proteins that catalyze the reduction of nitric oxide (NO) to nitrous oxide (N<sub>2</sub>O), which is a critical step of the nitrate respiration process in denitrifying bacteria. Using the recently determined first crystal structure of the cytochrome <em>c</em>-dependent NOR (cNOR) [Hino T, Matsumoto Y, Nagano S, Sugimoto H, Fukumori Y, et al. (2010) Structural basis of biological N2O generation by bacterial nitric oxide reductase. Science 330: 1666–70.], we performed extensive all-atom molecular dynamics (MD) simulations of cNOR within an explicit membrane/solvent environment to fully characterize water distribution and dynamics as well as hydrogen-bonded networks inside the protein, yielding the atomic details of functionally important proton channels. Simulations reveal two possible proton transfer pathways leading from the periplasm to the active site, while no pathways from the cytoplasmic side were found, consistently with the experimental observations that cNOR is not a proton pump. One of the pathways, which was newly identified in the MD simulation, is blocked in the crystal structure and requires small structural rearrangements to allow for water channel formation. That pathway is equivalent to the functional periplasmic cavity postulated in <em>cbb</em><sub>3</sub> oxidase, which illustrates that the two enzymes share some elements of the proton transfer mechanisms and confirms a close evolutionary relation between NORs and C-type oxidases. Several mechanisms of the critical proton transfer steps near the catalytic center are proposed.</p>
+</div><div class="abstract" xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[2]"><a id="abstract1" name="abstract1" toc="abstract1" title="Author Summary"></a>
+<h2 xpathLocation="noSelect">Author Summary&nbsp;<a href="#top">Top</a></h2>
+<p xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[2]/p[1]">Denitrification is an anaerobic process performed by several bacteria as an alternative to aerobic respiration. A key intermediate step is catalyzed by the nitric oxide reductase (NOR) enzyme, which is situated in the cytoplasmic membrane. Proton delivery to the catalytic site inside NOR is an important part of its functioning. In this work we use molecular dynamics simulations to describe water distribution and to identify proton transfer pathways in cNOR. Our results reveal two channels from the periplasmic side of the membrane and none from the cytoplasmic side, indicating that cNOR is not a proton pump. It is our hope that these results will provide a basis for further experimental and computational studies aimed to understand details of the NOR mechanism. Furthermore, this work sheds light on the molecular evolution of respiratory enzymes.</p>
+</div>
+
+
+<div class="articleinfo" xpathLocation="noSelect"><p><strong>Citation: </strong>Pisliakov AV, Hino T, Shiro Y, Sugita Y (2012) Molecular Dynamics Simulations Reveal Proton Transfer Pathways in Cytochrome C-Dependent Nitric Oxide Reductase. PLoS Comput Biol 8(8):
+          e1002674.
+            doi:10.1371/journal.pcbi.1002674</p><p><strong>Editor: </strong>Marco Punta, 
+        Wellcome Trust Sanger Institute, United Kingdom
+      </p><p></p><p><strong>Received:</strong> May 18, 2012; <strong>Accepted:</strong> July 22, 2012; <strong>Published:</strong> August 30, 2012</p><p><strong>Copyright:</strong> ©  Pisliakov et al. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</p><p><strong>Funding: </strong>A. Pisliakov acknowledges financial support by RIKEN through FPR fellowship and by Ministry of Education, Culture, Sports, Science and Technology (MEXT) through Grant-in-Aid (B) (No. 22770163). Y. Sugita was funded by MEXT through grants ‘Transient Macromolecular Complexes’ (No. 22121521) and ‘HPCI Strategic Program Computational Life Science and Application in Drug Discovery and Medical Development’. Computer time was provided by RICC (RIKEN Integrated Cluster of Clusters). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p><p><strong>Competing interests:</strong> The authors have declared that no competing interests exist.</p><p><a name="cor1"></a>* E-mail: <a href="mailto:apisliakov@riken.jp">apisliakov@riken.jp</a></p><p><a name="fn1"></a>¤Current address: Department of Chemistry and Biotechnology, Graduate School of Engineering, Tottori University, Tottori, Japan.</p></div>
+
+
+
+
+
+<div id="section1" xpathLocation="/article[1]/body[1]/sec[1]"><a id="s1" name="s1" toc="s1" title="Introduction"></a><h3 xpathLocation="noSelect">Introduction&nbsp;<a href="#top">Top</a></h3><p xpathLocation="/article[1]/body[1]/sec[1]/p[1]">Bacterial denitrification is one of the examples of anaerobic respiration in which nitrate (NO<sub>3</sub><sup>−</sup>) is stepwisely reduced to dinitrogen (N<sub>2</sub>) <a href="#pcbi.1002674-Wuebbles1">[1]</a>–<a href="#pcbi.1002674-Pereira1">[3]</a>. During denitrification, the key intermediate step of the reduction of nitric oxide (NO) to nitrous oxide (N<sub>2</sub>O) is catalyzed by a membrane-bound enzyme nitric oxide reductase (NOR) according to the following scheme: 2NO+2e<sup>−</sup>+2H<sup>+</sup>→N<sub>2</sub>O+H<sub>2</sub>O. Bacterial NORs perform fundamental chemistry and are the largest source of N<sub>2</sub>O, a greenhouse gas and an ozone-depleting substance, released into the atmosphere <a href="#pcbi.1002674-Wuebbles1">[1]</a>. This enzyme also has an important role in the evolution of the respiratory system. NOR belongs to the superfamily of O<sub>2</sub>-reducing heme-copper oxidases (HCOs) and is believed to be evolutionary linked to a proton pump cytochrome <em>c</em> oxidase (CcO). Both enzymes may have evolved from a common ancestor <a href="#pcbi.1002674-Hendriks1">[2]</a>. The ancestral oxidase was probably involved in NO reduction, but later switched to oxygen reduction and additionally acquired the ability of proton pumping, although this issue is still open to debate <a href="#pcbi.1002674-Pereira1">[3]</a>–<a href="#pcbi.1002674-Sousa1">[9]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[2]">After the structure of CcO was solved more than a decade ago <a href="#pcbi.1002674-Iwata1">[10]</a>, <a href="#pcbi.1002674-Tsukihara1">[11]</a>, that system became the focus of numerous experimental studies, which produced a number of X-ray structures from different organisms and a wealth of mutational, biochemical and spectroscopic data, as well as theoretical and simulation ones (for recent reviews, see refs. <a href="#pcbi.1002674-Wikstrm1">[12]</a>–<a href="#pcbi.1002674-Yoshikawa1">[14]</a>). In contrast, the information about NORs was limited, but the first structure of cytochrome <em>c</em>-dependent NOR (cNOR) from <em>Ps. aeruginosa</em> has been recently determined by Shiro and co-workers <a href="#pcbi.1002674-Hino1">[15]</a>, and that provides a basis for studies aimed at describing the mechanism of NO reduction at the atomic level. cNOR consists of two subunits, NorB and NorC, and contains four redox active metal centers, namely hemes <em>b</em>, <em>b</em><sub>3</sub> and <em>c</em> and a non-heme iron (Fe<sub>B</sub>). The latter and the iron of heme <em>b</em><sub>3</sub> form the binuclear (BN) center, a site of the NO reduction. The crystal structure revealed that Fe<sub>B</sub> has three His and one Glu ligands and that a tightly bound Ca<sup>2+</sup> ion is bridging hemes <em>b</em> and <em>b</em><sub>3</sub>. Although the function of Ca<sup>2+</sup> is not yet fully clear, it is interesting to note that it has the same binding position as in a recently determined structure of the microaerobic respiratory enzyme <em>cbb</em><sub>3</sub> oxidase <a href="#pcbi.1002674-Buschmann1">[16]</a>, which is a C-type HCO able to reduce NO to N<sub>2</sub>O in low-oxygen conditions <a href="#pcbi.1002674-Forte1">[17]</a>, <a href="#pcbi.1002674-Lee1">[18]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[3]">For the NO reduction reaction protons have to be delivered to the BN center, which is buried inside membrane. Previous experiments with the whole-cell <a href="#pcbi.1002674-Shapleigh1">[19]</a> and liposome-reconstituted <a href="#pcbi.1002674-Hendriks2">[20]</a>, <a href="#pcbi.1002674-Reimann1">[21]</a> cNORs demonstrated that protons utilized in the catalytic reaction are taken up (on a ms timescale) from the periplasmic side (i.e. the same side as electrons), which suggests that the NO reduction reaction is non-electrogenic and therefore cNOR is not a proton pump. In order to explain the functioning of cNOR, it is necessary to understand the detailed mechanism of the proton delivery to the BN center. Since proton transfer (PT) can occur efficiently only when the donor and acceptor groups are immediately close to each other, the long-distance proton translocations in proteins (e.g. proton pumping across the membrane or proton delivery from the bulk to the buried active site) require specialized proton-conducting pathways, which involve protein ionizable groups and intermediate water molecules as proton-binding sites (see e.g. refs. <a href="#pcbi.1002674-Nagle1">[22]</a>–<a href="#pcbi.1002674-Freier1">[28]</a>).</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[4]">Analysis of the cNOR crystal structure yielded two independent H-bonded networks, designated as Channels 1 and 2, which are formed by the resolved water molecules and the charged/polar residues <a href="#pcbi.1002674-Hino1">[15]</a>. These channels were proposed as potential PT pathways. However, since X-ray crystallography provides only static snapshots of the protein structure, which are averaged over many unit cells, in general such structures even at high resolution show only a few water molecules (at the most stable positions) inside the protein but miss many dynamic ones. The proposed proton pathways did not provide a continuous connection from the surface to the active site (i.e. protonic “gaps” were present), and in particular the pathways near the catalytic center, where no water molecules were resolved, remained elusive. As we mentioned, in such situations the connectivity is expected to come from the intervening water molecules. Thus, water in cNOR could play a very important role in the enzyme function and has to be fully characterized.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[5]">Molecular dynamics (MD) simulations of membrane proteins within an explicit membrane/solvent environment (for some recent works and reviews see refs. <a href="#pcbi.1002674-Freier1">[28]</a>–<a href="#pcbi.1002674-Kutzner1">[35]</a>) can provide important information about the water dynamics, such as a “real” level of hydration and specific water positions inside the protein, and are most valuable in the cases when the water/PT channels are not yet described at the atomic level. For example, MD simulations have been recently used to explore the water dynamics in different regions in CcO and greatly contributed to the understanding of the details of PT channels in that enzyme <a href="#pcbi.1002674-Hofacker1">[36]</a>–<a href="#pcbi.1002674-Lee2">[42]</a>. We note that a study with an explicit membrane/solvent by Olkhova <em>et al.</em> <a href="#pcbi.1002674-Olkhova1">[39]</a> suggested a large number of water molecules within the PT channels in CcO, in contrast to simulations which utilized different kinds of reduced models or truncated systems.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[6]">In this work we performed MD simulations of cNOR. We focused on the water dynamics, with the aim to identify the water channels and H-bonded networks that could serve as pathways for the proton delivery to the active site. The obtained information will be important for further elucidation of the mechanisms of the proton translocation and NO reduction in cNOR.</p>
+</div>
+
+<div id="section2" xpathLocation="/article[1]/body[1]/sec[2]"><a id="s2" name="s2" toc="s2" title="Methods"></a><h3 xpathLocation="noSelect">Methods&nbsp;<a href="#top">Top</a></h3><p xpathLocation="/article[1]/body[1]/sec[2]/p[1]">We performed an all-atom MD simulation of cNOR in the explicit lipid/water environment (<a href="#pcbi-1002674-g001">Figure 1a</a>). The details of the system setup and simulation and analysis protocols are provided in the <a href="#pcbi.1002674.s013">Text S1</a>. Briefly, the initial system was prepared from a 2.7 Å resolution crystal structure of the cNOR from <em>Ps. aeruginosa</em> (PDB ID 3O0R) <a href="#pcbi.1002674-Hino1">[15]</a>. A simulation system is shown on <a href="#pcbi-1002674-g001">Figure 1a</a>: cNOR was embedded into the pre-equilibrated POPE (palmitoyl-oleoyl-phosphatidylethanolami​ne)lipid bilayer membrane and a solvent box of water molecules. The total size of the simulation system was ~110,000 atoms. The main purpose of introducing the lipid bilayer in MD simulation is to model cNOR <em>in situ</em>, i.e. in the environment as close to its natural as possible. POPE is the major lipid component of bacterial membranes <a href="#pcbi.1002674-Dowhan1">[43]</a>. Explicit membrane provides additional stability to the protein in MD simulations and allows a correct description of the protein-solvent and protein-lipids interactions.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/fig[1]"><a name="pcbi-1002674-g001" id="pcbi-1002674-g001" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002674?imageURI=info:doi/10.1371/journal.pcbi.1002674.g001" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002674', 'info:doi/10.1371/journal.pcbi.1002674.g001');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002674', 'info:doi/10.1371/journal.pcbi.1002674.g001');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002674.g001&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002674?imageURI=info:doi/10.1371/journal.pcbi.1002674.g001" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002674', 'info:doi/10.1371/journal.pcbi.1002674.g001');"><span>Figure 1. </span></a></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/fig[1]/caption[1]/p[1]">(<strong>A</strong>) A setup of a molecular dynamics simulation. A simulation system is composed of <em>Ps. aeruginosa</em> cNOR (PDB ID: 3O0R) <a href="#pcbi.1002674-Hino1">[15]</a> embedded in a POPE lipid bilayer membrane and a water solvent box. NorB and NorC subunits are colored in yellow and orange. The heme <em>b</em>, <em>b</em><sub>3</sub> (red) and <em>c</em> (magenta) groups are shown as sticks and Fe<sub>B</sub> (orange) and Ca<sup>2+</sup> (magenta) ions as spheres. Lipid molecules are shown in a sphere representation and water as a transparent light-blue surface. (For clarity of the figure, only some lipid molecules and a part of the water box are shown.) The blue and green surfaces show the positions of two potential proton pathways from the periplasmic side of the membrane, Channels 1 and 3, which are discussed in this work. (<strong>B</strong>) Arrangement of the cNOR membrane-spanning helices and positions of Channels 1 and 3 as viewed from the periplasm. Transmembrane helices of the NorB subunit are indicated with Roman numerals (I–XII) and a helix of the NorC subunit as α1. (The secondary structure assignment is taken from the crystal structure <a href="#pcbi.1002674-Hino1">[15]</a>.) Molecular graphics were produced using PyMOL <a href="#pcbi.1002674-Schrdinger1">[75]</a>.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002674.g001</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002674.g001/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002674.g001/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002674.g001.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002674.g001/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002674.g001.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/p[2]">MD simulations were carried out in NAMD <a href="#pcbi.1002674-Phillips1">[44]</a> with the CHARMM force field <a href="#pcbi.1002674-MacKerell1">[45]</a>, <a href="#pcbi.1002674-Mackerell1">[46]</a>. After minimization and equilibration parts, production runs were performed at a constant temperature, pressure, and surface area (NPAT ensemble) for 300 ns, providing reasonable conformational sampling of the protein. Stability of the simulated protein-membrane complex was assessed from the analysis of several parameters along the MD trajectory (<a href="#pcbi.1002674.s001">Figure S1</a>). The root-mean-square deviation (RMSD) of the helical C<sub>α</sub> atoms is below 2 Å while RMSD of C<sub>α</sub> atoms in a transmembrane (TM) region is ~1.2 Å. The RMS fluctuations (RMSFs) calculated for each residue also illustrate that the TM region is very stable while the outer and inner domains exhibit, as expected, larger motions. Finally, the area/lipid, which was calculated using the Voronoi analysis tool <a href="#pcbi.1002674-Mori1">[47]</a>, remains close to the experimental value for the POPE lipids <a href="#pcbi.1002674-Rand1">[48]</a>, also indicating a stable simulation of the protein-membrane complex.</p>
+</div>
+
+<div id="section3" xpathLocation="/article[1]/body[1]/sec[3]"><a id="s3" name="s3" toc="s3" title="Results/Discussion"></a><h3 xpathLocation="noSelect">Results/Discussion&nbsp;<a href="#top">Top</a></h3>
+<h4 xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/title[1]">Periplasmic Channel 1</h4>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/p[1]">One of the proposed PT pathways (Channel 1 in Figure 3 in ref. <a href="#pcbi.1002674-Hino1">[15]</a>) goes through a large hydrophilic region, which is located on the periplasmic side of the enzyme at the interface of a TM region (NorB subunit) and an outer soluble domain (NorC subunit) (<a href="#pcbi-1002674-g001">Figure 1</a>). Four residues, namely Glu135, Asp198, Lys53<sub>c</sub>, and Glu57<sub>c</sub>, were designated as Channel 1 <a href="#pcbi.1002674-Hino1">[15]</a>. [Subscript “c” indicates residues of the NorC subunit, while residues of the NorB subunit are numbered without additional subscripts.] In MD simulations we observed that Channel 1 indeed connects the protein surface to propionates of heme <em>b</em><sub>3</sub> (the distance ~16 Å) via a number of ionizable residues and water molecules and supports formation of the H-bonded networks (see below). Our analysis provides important additional details about Channel 1 (<a href="#pcbi-1002674-g002">Figure 2a</a>). MD results indicate that the following three residues participate in the HB networks in that region: Arg134, Lys199, and Glu70<sub>c</sub>, and therefore they have to be included in Channel 1. All seven ionizable residues are highly conserved in cNORs. Together, they line up a large hydrophilic channel, and their sidechains assist in the formation of the H-bonded water chains.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/fig[1]"><a name="pcbi-1002674-g002" id="pcbi-1002674-g002" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002674?imageURI=info:doi/10.1371/journal.pcbi.1002674.g002" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002674', 'info:doi/10.1371/journal.pcbi.1002674.g002');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002674', 'info:doi/10.1371/journal.pcbi.1002674.g002');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002674.g002&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002674?imageURI=info:doi/10.1371/journal.pcbi.1002674.g002" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002674', 'info:doi/10.1371/journal.pcbi.1002674.g002');"><span>Figure 2. </span></a> <span xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/fig[1]/caption[1]/title[1]">Channel 1, the proposed proton pathway.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/fig[1]/caption[1]/p[1]">(<strong>A</strong>) A representative MD snapshot (at ~100 ns) of the Channel 1 region. The pathway starts near Lys53<sub>c</sub>, Glu57<sub>c</sub> and Asp198 (the entrance from the bulk is indicated by a blue line) and leads to a water cluster near the heme <em>b</em><sub>3</sub> propionates via a number of conserved charged residues and water molecules (see details in the text). Hemes <em>b</em> (dark-red) and <em>b</em><sub>3</sub> (pink) and the charged residues lining the channel (colored by atom types, with carbons in yellow) are shown as sticks, Fe<sub>B</sub> (orange) and Ca<sup>2+</sup> (green) ions as spheres, and water molecules present in or near the channel are shown in ball-and-stick representation (red/white). Important helices are labeled (green). The dashed lines indicate the hydrogen bonds within the forming continuous H-bonded networks, which connect the periplasmic surface with the propionates of heme <em>b</em><sub>3</sub>. In the MD simulation the Channel 1 interior region is very well hydrated, as illustrated by the water density averaged over 300 ns (a transparent light-blue isosurface shown at 25% occupancy). Figure reveals two branches of the water channel at both sides of Glu70<sub>c</sub>. (<strong>B</strong>) Water density in Channel 1 shown as a 2D contour map (a projection on the XY-plane was obtained by summing the water density in the Channel 1 region over the vertical Z-axis). Different colors correspond to water residence values, ranging from red (high water residence) to blue (low water residence). Positions of the Channel 1 residues and crystallographic waters in the cNOR X-ray structure are shown for reference as white sticks and purple spheres, respectively. Two branches of the potential proton pathway (indicated by the dashed black lines) go through high-occupancy water sites, which in general superimpose well with the positions of crystallographic waters. (<strong>C</strong>) Number of water molecules in the Channel 1 region in the MD simulation; black line represents a running average over 30 data points. Water molecules within 4.5 Å of the channel residues were selected.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002674.g002</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002674.g002/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002674.g002/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002674.g002.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002674.g002/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002674.g002.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/p[2]">Channel 1 has a connection to the bulk solvent between two helices, TM VI of NorB (with Asp198 and Lys199) and α2 of NorC (with Lys53<sub>c</sub> and Glu57<sub>c</sub>). The entrance site formed by the amino acids Glu57<sub>c</sub>, Lys53<sub>c</sub>, and Arg134 (<a href="#pcbi-1002674-g002">Figures 2a</a> and <a href="#pcbi.1002674.s002">S2</a>) remains rigid due to three stable salt bridges: Glu57<sub>c</sub>-Lys53<sub>c</sub>, Arg134-Asp198, and Lys53<sub>c</sub>-Asp198 (<a href="#pcbi.1002674.s002">Figure S3</a>). These residues partially block water influx. However, water molecules still occasionally cross through that site, and thus can serve as intermediate proton sites (<a href="#pcbi.1002674.s004">Figure S4</a>). Also, the dynamic HB networks involving sidechains of Glu57<sub>c</sub> and Asp198 and waters at both sides of the entrance, i.e. in the bulk and inside the Channel 1 cavity, are observed at any time of MD trajectory. Therefore it is possible that one of these residues could be directly involved in PT by picking up protons from the bulk and releasing them to the water chain inside Channel 1. The mutagenesis experiments with <em>P. denitrificans</em> cNOR [Pia Ädelroth, unpublished data] showed the importance of Asp185 (equivalent to Asp198 in <em>Ps. aeuginosa</em> cNOR) for the enzymatic activity and proton uptake, and provide partial support to this proposal.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/p[3]">From the entrance region the proton pathway proceeds further through the dynamic water chains. Water channels in cNOR have “irregular” shape and lack simple symmetry (like, e.g. straight TM channels in aquaporins or ion channels). Therefore to perform meaningful statistical analysis in each region we selected water molecules within a reasonable distance cutoff (typically 4.5 Å) near the sidechains of the pathway's residues. We verified that with such definition water molecules “inside the pathway” were not skipped. Our calculations show that Channel 1 is very well hydrated: in MD simulation ~20 water molecules are observed in this hydrophilic region (<a href="#pcbi-1002674-g002">Figure 2c</a>), which is higher than ~12 molecules resolved in the X-ray structure. This result can be explained by the presence of mobile water molecules, which were not resolved in X-ray crystallography.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/p[4]">To provide some quantitative representation, we have calculated volume occupied by water molecules during simulation (“water density”, see e.g. refs. <a href="#pcbi.1002674-Kandt1">[49]</a>, <a href="#pcbi.1002674-Wolf1">[50]</a>) in different regions of cNOR. <a href="#pcbi-1002674-g002">Figure 2</a> illustrates water spatial distribution in Channel 1 as obtained from MD simulation, showing both a 3D water volume map (<a href="#pcbi-1002674-g002">Figure 2a</a>, isosurface at 25% occupancy) and a 2D contour plot (<a href="#pcbi-1002674-g002">Figure 2b</a>, an XY-plane projection of the water density; see figure caption for details). A few observations can be made from these figures. (i) Water density representation shows the extent of the hydrophilic regions and confirms a stable connection from the bulk to the active site heme. (ii) Water molecules form an extensive water cluster between propionates of heme <em>b</em><sub>3</sub> (PropA and PropD). [Please note that compared to the previously reported cytochrome c oxidase structures the active site heme in cNOR, i.e. heme <em>b3</em>, is flipped and the order of the propionate groups A and D is different.] (iii) After the entrance region, the channel goes into a water-filled cavity. An important finding is that further the pathway splits into two branches: one path leads via a water chain (5–6 water molecules) directly to PropA, while another – via Glu70<sub>c</sub> and a short chain (2–3 water molecules) at the other side of that residue – to PropD. The terminal region of both paths is the water cluster near heme <em>b<sub>3</sub></em> propionates. The existence of two branches in Channel 1 could be observed in the MD simulation, but was not evident from the static X-ray structure. This feature provides a possibility of PT over different pathways and probably adds to the robustness of the proton uptake via Channel 1. (iv) When water density is plotted at a higher occupancy level, one obtains positions of the water sites that are occupied almost permanently during the simulation. One example is a crystallographic water molecule, Wat65, which remains bound near Ca<sup>2+</sup> for the entire MD trajectory. Such “permanent” water sites in general superimpose well with the positions of waters resolved in the X-ray structure (indicated by purple spheres on <a href="#pcbi-1002674-g002">Figure 2b</a>).</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/p[5]"><a href="#pcbi-1002674-g002">Figure 2a</a> also presents a typical configuration of the H-bonded networks forming in Channel 1, while Video S1 and multiple MD snapshots on <a href="#pcbi.1002674.s005">Figure S5</a> illustrate their time-dependent dynamics. The average lifetime of a hydrogen bond (HB) in the water chains is in the ps range due to rotating and/or moving water molecules. It can be seen that water molecules in Channel 1 have high mobility and exchange rates and, as a result, the forming H-bonded networks are constantly “fluctuating” (similar to the H-bonded networks in CcO <a href="#pcbi.1002674-Olkhova1">[39]</a>, <a href="#pcbi.1002674-Cukier1">[40]</a>). Continuous HB paths between the bulk and heme <em>b<sub>3</sub></em> propionates do form, and their consistency is limited by the intervening water chains, namely a chain from Asp198 to Glu135 (probability ~25–35%) and a chain from Asp198 to Glu70<sub>c</sub> (probability &gt;60%). But it is important that such connections are forming at all times, and thus can assist efficient proton translocation <a href="#pcbi.1002674-Kaila1">[51]</a>. Participation of the Channel 1 residues in the H-bonded networks can be assessed quantitatively by calculating the number of surrounding water molecules and formed HBs (<a href="#pcbi.1002674.s012">Table S1</a>). In particular, these results, in addition to visual analysis, suggest that Glu70<sub>c</sub> could play an important role in the proton uptake process. It is desirable to verify its involvement in the PT pathway by site-directed mutagenesis experiments.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/title[1]">Periplasmic Channel 2</h4>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/p[1]">From the inspection of the X-ray structure, Hino <em>et al.</em> identified another cavity, which contains many crystallographic waters, and proposed it as a second possible proton-conducting pathway (Channel 2 in Figure 3 in ref. <a href="#pcbi.1002674-Hino1">[15]</a>). In MD simulation we observed a large hydrophilic region formed by the residues Arg416, Thr66<sub>c</sub>, Glu77<sub>c</sub>, Gln411, and Gln415, with an exit to the bulk beyond the latter (<a href="#pcbi-1002674-g003">Figure 3a</a>). On average, there are 10 to 12 water molecules in the cavity. However, we found that water molecules from this cavity cannot pass to the water cluster near heme <em>b<sub>3</sub></em>, and further to the active site. Two loops, and more specifically two glycine residues Gly340 and Gly69<sub>c</sub>, are in close contact en route to heme <em>b<sub>3</sub></em> and, together with a ring of Tyr73<sub>c</sub>, disrupt a possible water chain. A close steric contact between two loops remains for the entire length of the MD trajectory, as evidenced by the Gly-Gly distance (<a href="#pcbi-1002674-g003">Figure 3c</a>), which stays around 3.5–4 Å (i.e. similar to the distance in the crystal structure). Water densities (<a href="#pcbi-1002674-g003">Figures 3a and b</a>) clearly show a wide gap with no substantial density between the upper hydrophilic cavity and the water cluster. We do not completely rule out a possibility that mobile water molecules can occasionally cross the gap region; however, no such crossings or continuous HB networks were observed in 300 ns. Moreover, the proton translocation through the region with no polar/charged residues or water molecules would encounter high activation barriers. Thus, our results do not support the previously proposed Channel 2 as an alternative pathway for proton delivery to the active site. The exact functional role of this hydrophilic cavity in cNOR is not clear.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/fig[1]"><a name="pcbi-1002674-g003" id="pcbi-1002674-g003" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002674?imageURI=info:doi/10.1371/journal.pcbi.1002674.g003" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002674', 'info:doi/10.1371/journal.pcbi.1002674.g003');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002674', 'info:doi/10.1371/journal.pcbi.1002674.g003');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002674.g003&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002674?imageURI=info:doi/10.1371/journal.pcbi.1002674.g003" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002674', 'info:doi/10.1371/journal.pcbi.1002674.g003');"><span>Figure 3. </span></a> <span xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/fig[1]/caption[1]/title[1]">The MD simulation does not support the previously suggested Channel 2 as a possible proton uptake pathway.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/fig[1]/caption[1]/p[1]">(<strong>A</strong>) A representative MD snapshot (at ~170 ns) and the calculated water density (the color coding is as in <a href="#pcbi-1002674-g002">Figure 2a</a>) show that water molecules in the upper hydrophilic region are separated from the water cluster near heme <em>b</em><sub>3</sub> by two loops (see details in the text). (<strong>B</strong>) Water density shown as a 2D contour plot (a projection on the YZ-plane; the color coding is as in <a href="#pcbi-1002674-g002">Figure 2b</a>) and as a density profile along Z-coordinate. (<strong>C</strong>) Gly340-Gly69<sub>c</sub> distance time series from the MD simulation.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002674.g003</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002674.g003/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002674.g003/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002674.g003.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002674.g003/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002674.g003.TIF"></span> TIFF)
+                  </a></li></ul></div></div>
+
+<h4 xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/title[1]">Periplasmic Channel 3</h4>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/p[1]">A careful analysis of MD trajectories revealed another plausible proton pathway, which we designated as the (periplasmic) Channel 3 (see <a href="#pcbi-1002674-g001">Figures 1</a> and <a href="#pcbi-1002674-g004">4</a>). This pathway involves the residues Glu135, Glu138, Arg57, Asn54, and Asn60<sub>c</sub>. The first three are highly conserved in all NORs and oxidases, while Asn54 is conserved in cNORs. In the X-ray structure, three water molecules are resolved in a cavity formed by these residues. During the initial part of the MD simulation this region has no connection to the periplasmic surface (<a href="#pcbi-1002674-g004">Figures 4a, b</a>). The calculated water density clearly shows that the cavity is completely separated from the bulk solvent and that two asparagine residues, Asn54 and Asn60<sub>c</sub>, effectively work as a gate, blocking water access from the outside.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/fig[1]"><a name="pcbi-1002674-g004" id="pcbi-1002674-g004" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002674?imageURI=info:doi/10.1371/journal.pcbi.1002674.g004" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002674', 'info:doi/10.1371/journal.pcbi.1002674.g004');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002674', 'info:doi/10.1371/journal.pcbi.1002674.g004');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002674.g004&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002674?imageURI=info:doi/10.1371/journal.pcbi.1002674.g004" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002674', 'info:doi/10.1371/journal.pcbi.1002674.g004');"><span>Figure 4. </span></a> <span xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/fig[1]/caption[1]/title[1]">New plausible proton pathway, Channel 3, revealed by the MD simulations.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/fig[1]/caption[1]/p[1]">(<strong>A</strong>) A representative configuration (MD snapshot at ~25 ns) of the Channel 3 region when the Asn54-Asn60<sub>c</sub> gate is closed and the internal hydrophilic cavity between Asn60<sub>c</sub>, Glu138 and Arg57 has no connection to the outside bulk. (The color coding is as in <a href="#pcbi-1002674-g002">Figure 2a</a>; the water density was averaged over the first 165 ns.) (<strong>B</strong>) Water density in the Channel 3 region averaged over the first 165 ns, shown as a 2D contour map (a projection on the XY-plane; the color coding is as in Figure 2b.) (<strong>C</strong>) A representative configuration (MD snapshot at ~200 ns) when the gating residues, Asn54 and Asn60<sub>c</sub>, move away from each other. The water density, which was averaged over the interval 165–225 ns, when the gate is open, shows a newly formed water channel. The dynamic H-bonded water chains connect the bulk to the two important residues, Glu138 and Glu135, and can facilitate PT toward the active site. The new suggested pathway is spatially separated from Channel 1, part of which is shown for reference as a light-gray surface to the left of heme <em>b</em><sub>3</sub>. (<strong>D</strong>) Same as in B, but the water density was averaged over 165–225 ns. When the Asn-Asn gate is open, the continuous water distribution from the bulk up to Glu135/Ca<sup>2+</sup> site and Glu138 is observed. The possible water-mediated PT pathway is indicated by the dashed black lines, with the path via Glu138 to the water sites near the BN center being more plausible (see <a href="#pcbi-1002674-g007">Figure 7</a> and discussion therein).</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002674.g004</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002674.g004/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002674.g004/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002674.g004.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002674.g004/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002674.g004.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/p[2]">However, after ~165 ns in the MD simulation the Asn54-Asn60<sub>c</sub> gate opens and a new water channel is formed (<a href="#pcbi-1002674-g004">Figures 4c, d</a>). A continuous water density then extends up to two important residues, Glu135 and Glu138, and the H-bonded networks involving mobile water molecules and amino acid sidechains readily form. The number of waters in the hydrophilic region, and in particular around the sidechain of Glu138, significantly increases with the gate opening and remains high even after the gate closes back (<a href="#pcbi-1002674-g005">Figure 5c</a>). <a href="#pcbi-1002674-g005">Figure 5</a> also shows minimal distances between the Asn54-Asn60<sub>c</sub> and Glu138-Asn60<sub>c</sub> pairs in the MD simulation, along with the representative snapshots of the gate region. Clearly, the gate is closed when two Asn are H-bonded. Sidechains of Glu138 and Asn60<sub>c</sub> exhibit large-amplitude rotations (<a href="#pcbi.1002674.s006">Figure S6</a>), in particular Glu138 can take several conformations, and the initial event leading to the gate opening seems to be a rotation of Glu138 to the “up” position after ~135 ns and the formation of a HB to Asn60<sub>c</sub>. Soon after that a strong HB between two Asn is broken. As a result, a helix TM II (with Asn54 on a top) slightly tilts away, and that opens water access to the internal cavity.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/fig[2]"><a name="pcbi-1002674-g005" id="pcbi-1002674-g005" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002674?imageURI=info:doi/10.1371/journal.pcbi.1002674.g005" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002674', 'info:doi/10.1371/journal.pcbi.1002674.g005');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002674', 'info:doi/10.1371/journal.pcbi.1002674.g005');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002674.g005&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/fig[2]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002674?imageURI=info:doi/10.1371/journal.pcbi.1002674.g005" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002674', 'info:doi/10.1371/journal.pcbi.1002674.g005');"><span>Figure 5. </span></a> <span xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/fig[2]/caption[1]/title[1]">Gating of Channel 3.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/fig[2]/caption[1]/p[1]">(<strong>A–C</strong>) The time series of the minimal distances between Asn54-Asn60<sub>c</sub> and Glu138-Asn60<sub>c</sub> residues and the number of water molecules near sidechains of Glu138 and Asn54 in the MD simulation. The vertical red dashed lines indicate the interval when the Asn-Asn gate is open and the water channel is formed. Glu138 remains well hydrated even after the gate closing. (<strong>D–E</strong>) Close-up views of the gate region for the closed and open cases. (<strong>F</strong>) An overlay of the closed (green) and open (orange) structures of the Channel 3 gate region. The conformational changes associated with the gate opening involve rotation of the sidechains of Asn54, Asn60<sub>c</sub> and Glu138 and tilting of the helix TM II.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002674.g005</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002674.g005/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002674.g005/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002674.g005.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002674.g005/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002674.g005.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/p[3]">An overlay of the open and closed configurations (<a href="#pcbi-1002674-g005">Figure 5f</a>) shows that the required structural changes are rather small: two Asn move away only by a few Å, but that is enough to break a HB between them and to open access to the internal cavity for water molecules from the outside. The gate is open for ~60 ns, after which the HB between Asn60<sub>c</sub> and Asn54 is re-formed; the HB between Glu138 and Asn60<sub>c</sub> breaks prior to that. The explicit gate opening/closing process and formation of the dynamic water chains in Channel 3 are illustrated by Video S2. We would like to emphasize that similar events were also observed in the extended simulation as well as in independent runs (<a href="#pcbi.1002674.s007">Figure S7</a>), indicating that such events can occur in cNOR on a 100-ns timescale, which is much shorter than the experimentally measured rate of the proton uptake (~25 ms) <a href="#pcbi.1002674-Hendriks2">[20]</a>, <a href="#pcbi.1002674-Reimann1">[21]</a>. This suggests that such structural reorganizations due to protein fluctuations are feasible during catalysis in cNOR and that Channel 3, in principle, can provide a pathway for a water-mediated proton uptake. We propose to examine the role of Asn54 and Asn60<sub>c</sub> in the Channel 3 gating by the mutagenesis experiments.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/p[4]">A newly found channel is consistent with previous experimental data. Two key residues, Glu135 and Glu138 (Glu122 and Glu125 in <em>P. denitrificans</em> cNOR), were shown by site-directed mutagenesis to be essential for the enzymatic activity and were proposed to be a part of the proton input pathway <a href="#pcbi.1002674-Butland1">[52]</a>–<a href="#pcbi.1002674-Flock1">[54]</a>, though their exact positions predicted with the homology-based model (namely, on a protein outer surface) <a href="#pcbi.1002674-Reimann1">[21]</a> turned out to be incorrect. With the cNOR structure available now, it is known that Glu135 is a ligand to Ca<sup>2+</sup>. That explains why its substitution with Asp still showed a level of activity close to the wild type (i.e. Ca<sup>2+</sup> coordination was kept) while a substitution with Ala or Gln resulted in a loss of activity (most likely caused by a Ca<sup>2+</sup> dissociation). The structural function of Glu135 also makes its direct participation in PT problematic: it is unlikely that Glu135 can get protonated or that the protons coming from the periplasm can be transferred through a densely packed region occupied by the Ca<sup>2+</sup> ion and its ligands.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/p[5]">The substitution of Glu138 with Ala and Asp resulted in a loss of activity, while a mutation to Gln showed some, though significantly reduced activity <a href="#pcbi.1002674-Thorndycroft1">[53]</a>, <a href="#pcbi.1002674-Flock1">[54]</a>. These results could indicate that the length of the sidechain is more important than retaining a negative carboxylic group at that position. The observation fits into the above suggested mechanism of the Channel 3 opening and “activation” of the proton pathway, which includes a Glu138 sidechain rotation to the “up” position to form a HB to Asn60<sub>c</sub>, thus helping to break a HB between two Asn.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/p[6]">In contrast to Glu135, Glu138 can actively participate in the PT process. A Glu122Asp mutation in <em>P. denitrificans</em> caused a significant pK<sub>a</sub> shift of a presumed nearby proton donor group <a href="#pcbi.1002674-Flock1">[54]</a>, and Glu138 seems to be the best candidate for that role. The proton pathway beyond Glu138 is also offered by our MD results. After the gate opening, Glu138 is well hydrated, with typically 5 to 8 water molecules near its sidechain (<a href="#pcbi-1002674-g004">Figures 4c,d</a> and <a href="#pcbi-1002674-g005">5c</a>). We observed the H-bonded water chains leading from this site toward the water molecules bound near BN, thus avoiding the Ca<sup>2+</sup> site (see the corresponding discussion below).</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/p[7]">A key finding is that the suggested novel channel in cNOR is equivalent to the putative PT pathway (the “periplasmic cavity”) in a recently determined structure of <em>cbb<sub>3</sub></em> oxidase <a href="#pcbi.1002674-Buschmann1">[16]</a>: a comparison of two regions shows that their positions are identical (<a href="#pcbi-1002674-g006">Figure 6</a>). Moreover, the important residues which form this hydrophilic cavity, namely Glu135, Glu138 and Arg57 in cNOR and Glu122, Glu125, Arg57 in <em>cbb</em><sub>3</sub>, are conserved. The periplasmic cavity in <em>cbb</em><sub>3</sub> oxidase was suggested to be an exit pathway of the pumped protons <em>or</em> a pathway for proton uptake from periplasm when the enzyme is involved in NO reduction <a href="#pcbi.1002674-Buschmann1">[16]</a>. The fact that for NO reduction <em>cbb<sub>3</sub></em> uses protons from the periplasmic side of the membrane has been recently confirmed by the experimental work of Lee <em>et al.</em> <a href="#pcbi.1002674-Lee1">[18]</a>. We note that such cavity is not found in other structurally known HCOs and that <em>aa</em><sub>3</sub> oxidases (A-type HCOs) are incapable of NO reduction, while <em>ba</em><sub>3</sub> oxidases (B-type HCOs) can reduce NO but much slower than <em>cbb</em><sub>3</sub> <a href="#pcbi.1002674-Pereira1">[3]</a>, <a href="#pcbi.1002674-Hemp1">[5]</a>, <a href="#pcbi.1002674-Sousa1">[9]</a>. The presence of a plausible PT pathway in the equivalent region in <em>cbb</em><sub>3</sub> oxidase is an additional argument for the functional importance of Channel 3 in cNOR. The finding that two enzymes likely have common elements of the PT mechanism, along with other common structural factors, such as the identical position of Ca<sup>2+</sup>, fits nicely into the phylogenetic pictures that draw C-type HCOs as the closest evolutionary relatives of NORs.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/fig[3]"><a name="pcbi-1002674-g006" id="pcbi-1002674-g006" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002674?imageURI=info:doi/10.1371/journal.pcbi.1002674.g006" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002674', 'info:doi/10.1371/journal.pcbi.1002674.g006');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002674', 'info:doi/10.1371/journal.pcbi.1002674.g006');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002674.g006&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/fig[3]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002674?imageURI=info:doi/10.1371/journal.pcbi.1002674.g006" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002674', 'info:doi/10.1371/journal.pcbi.1002674.g006');"><span>Figure 6. </span></a> <span xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/fig[3]/caption[1]/title[1]">Comparison of the Channel 3 region in cNOR (A) and the periplasmic cavity in <em>cbb</em><sub>3</sub> oxidase (B).</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/fig[3]/caption[1]/p[1]">Crystal structures of cNOR from <em>Ps. aeruginosa</em> and <em>cbb</em><sub>3</sub> oxidase from <em>Ps. stutzeri</em> (PDB ID: 3MK7) <a href="#pcbi.1002674-Pisliakov1">[56]</a> were aligned on hemes <em>b</em> and <em>b</em><sub>3</sub>. The transparent blue surfaces indicate the positions of hydrophilic cavities. The central residues, which form the hydrophilic cavity (namely Glu135, Glu138, Arg57 in cNOR and Glu122, Glu125, Arg57 in <em>cbb</em><sub>3</sub> oxidase), are identical and highly conserved in the HCO superfamily. A calcium ion is located in a similar position between hemes.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002674.g006</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002674.g006/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002674.g006/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002674.g006.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002674.g006/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002674.g006.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/p[8]">We have also analyzed the region equivalent to Channel 1 in the <em>cbb</em><sub>3</sub> structure <a href="#pcbi.1002674-Buschmann1">[16]</a>. It seems that the corresponding region cannot provide a pathway for proton translocation in <em>cbb</em><sub>3</sub> because: (i) some of the charged residues present in Channel 1 in cNOR, namely Lys199, Lys53<sub>c</sub>, Glu57<sub>c</sub>, and Glu70<sub>c</sub>, are either missing or located far away in <em>cbb</em><sub>3</sub>, (ii) a coil with several hydrophobic residues is located in the central part of that region and splits it into two parts; the water distribution is disconnected too [to be published], (iii) a second Ca<sup>2+</sup> site is located at the position equivalent to the entrance to Channel 1 in cNOR and most likely blocks proton transfer.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/title[1]">PT pathways near the active site</h4>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/p[1]">We have shown that Channel 1 and Channel 3 can connect the periplasmic surface to the region near heme <em>b</em><sub>3</sub>. Its propionates together with a nearby water cluster and Glu138 are the likely intermediate proton acceptor groups. (It is less likely that PropA can get protonated since it serves as a ligand to Ca<sup>2+</sup>.) It is worth mentioning that in CcO one of the active site heme propionates is thought to be the likely proton loading site for the pumped protons <a href="#pcbi.1002674-Sugitani2">[55]</a>–<a href="#pcbi.1002674-Kaila2">[57]</a>. The idea about the functional importance of protonated water clusters inside proteins is also not new. For example, in CcO a protonated water cluster was suggested as a proton storage site in the D-channel <a href="#pcbi.1002674-Xu1">[58]</a>, while in bacteriorhodopsin a protonated water cluster is a presumed proton release group <a href="#pcbi.1002674-Garczarek1">[59]</a>, <a href="#pcbi.1002674-Mathias1">[60]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/p[2]">An important question is how protons are delivered to the catalytic center when they are needed for the NO reduction, i.e. what are the structural elements critical for the final PT steps? The distance (&gt;8 Å) is still long for direct PT, but no water molecules were resolved in the vicinity of the BN center. So the further proton path was not clear from the X-ray structure, and intermediate water molecules are expected to play important role. In a working enzyme, water will be produced at the active site as a byproduct of the catalytic NO reduction. In contrast to the crystal structure, the MD simulation reveals the presence of water molecules near the BN center (<a href="#pcbi.1002674.s008">Figure S8</a>) and describes their distribution (<a href="#pcbi-1002674-g007">Figure 7</a>). The exchange rate of waters is much lower compared to the channels discussed above. Water molecules are found persistently at several positions and keep these positions for 20–50 ns or longer (<a href="#pcbi.1002674.s009">Figure S9</a>); such water molecules might serve as intermediate proton sites. <a href="#pcbi-1002674-g007">Figure 7</a> depicts a representative configuration of water molecules in that region, along with the calculated water density (see also <a href="#pcbi.1002674.s010">Figure S10</a>). It can be seen that one permanent water site is located between two irons of the BN center (i.e. where NO ligands will bind during the enzymatic cycle), another corresponds to the water molecule bound between Fe<sub>B</sub> and Glu280, and two more water sites are located between Fe<sub>B</sub> and PropA. It is interesting that in a recent high-resolution structure of <em>Th. thermophilus ba</em><sub>3</sub> oxidase <a href="#pcbi.1002674-Tiefenbrunn1">[61]</a> two water molecules were resolved at the identical positions.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/fig[1]"><a name="pcbi-1002674-g007" id="pcbi-1002674-g007" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002674?imageURI=info:doi/10.1371/journal.pcbi.1002674.g007" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002674', 'info:doi/10.1371/journal.pcbi.1002674.g007');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002674', 'info:doi/10.1371/journal.pcbi.1002674.g007');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002674.g007&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002674?imageURI=info:doi/10.1371/journal.pcbi.1002674.g007" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002674', 'info:doi/10.1371/journal.pcbi.1002674.g007');"><span>Figure 7. </span></a> <span xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/fig[1]/caption[1]/title[1]">Possible PT pathways near the active site.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/fig[1]/caption[1]/p[1]">A representative configuration (MD snapshot at ~240 ns) of the water molecules and transiently forming H-bonded water chains in the region around the BN center. The important residues are shown. (The color coding is as in <a href="#pcbi-1002674-g002">Figure 2a</a>; the water density in the region, including the terminal parts of Channels 1 and 3, was averaged over 300 ns.) Possible paths for the final PT steps to the BN center are indicated by blue lines and marked with numbers 1 to 4 (see discussion in the text).</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002674.g007</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002674.g007/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002674.g007/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002674.g007.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002674.g007/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002674.g007.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/p[3]">Analysis of the water dynamics and distribution offers several possible paths for the final PT steps to the BN center (<a href="#pcbi-1002674-g007">Figure 7</a>):</p>
+
+
+<ol class="order">
+
+<li xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/list[1]/list-item[1]"><em>from the water cluster to the water sites near BN</em>. The waters in these two regions come as close as ~4–5 Å, and a single mobile water molecule can provide a protonic connection.</li>
+
+<li xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/list[1]/list-item[2]"><em>from the water cluster or PropD to BN via His259</em>. His259 is a top ligand of Fe<sub>B</sub> and most of the time is H-bonded to the water molecule from the cluster (this HB exists in 63% of simulated time). Several theoretical studies of CcO suggested that equivalent histidine, which is a top ligand of the Cu<sub>B</sub>, plays the role of the pump element <a href="#pcbi.1002674-Quenneville1">[62]</a>.</li>
+
+<li xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/list[1]/list-item[3]"><em>from Glu138 to the water sites near BN</em>. Bridging water molecules were occasionally observed in the intermediate hydrophobic region (with Val206 and Phe136) between Glu138 and the BN center, illustrating a possible PT pathway directly from Channel 3.</li>
+
+<li xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/list[1]/list-item[4]"><em>from PropD via Thr330 and Ser277</em>. This path along the sidechains of Thr330, Ser277, and Glu280 was originally proposed as a possible connection to the BN center in the X-ray structure <a href="#pcbi.1002674-Hino1">[15]</a>. It would be consistent with the experimental data which showed that conserved Glu280 and Glu211 are critical for both enzymatic activity and proton uptake and were suggested to directly participate in PT <a href="#pcbi.1002674-Reimann1">[21]</a>, <a href="#pcbi.1002674-Butland1">[52]</a>, <a href="#pcbi.1002674-Flock2">[63]</a>. Thr330 and Ser277 are not protonatable residues and thus water molecules which could serve as proton sites are needed for PT along this path. Although water molecules are always present near PropD and there are no obstacles on the way to Thr330, they do not penetrate along this path, indicating that the cavity is very hydrophobic (<a href="#pcbi-1002674-g007">Figures 7</a> and <a href="#pcbi.1002674.s009">S9</a>). During a 300 ns simulation a water molecule was found in the cavity only once for a very short time (<a href="#pcbi.1002674.s011">Figure S11</a>). Thus, from MD simulation it seems less likely that this path is used for the proton delivery to BN. Concerning the functional importance of Glu211 and Glu280, from the available cNOR structure it might be implied that Glu211Ala mutation probably destroys the coordination of Fe<sub>B</sub>, while Glu280 strongly affects processes at the BN center through electrostatics.</li>
+
+</ol>
+
+<h4 xpathLocation="/article[1]/body[1]/sec[3]/sec[5]/title[1]">No water channels from cytoplasm</h4>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[5]/p[1]">High-resolution crystal structures of CcO and subsequent mutational studies identified a number of critical residues in the proton pathways from the cytoplasm to the active site (K and D channels). However, in cNOR most of these residues are replaced by hydrophobic residues. The crystal structure of cNOR neither provides an obvious water channel from the cytoplasmic side of the membrane nor a H-bonded network in the regions that correspond to the K and D proton channels in CcO (see <a href="#pcbi-1002674-g004">Figure 4</a> in ref. <a href="#pcbi.1002674-Hino1">[15]</a>). Similarly, our MD simulation shows no water in those regions (<a href="#pcbi-1002674-g008">Figure 8</a>), with the exception of a hydrophilic cavity below the active site with three glutamates, Glu211, Glu280, and Glu215. Thus, in cNOR there is no proton pathway from the cytoplasmic side. This is consistent with the experimental observations that cNOR is not electrogenic and has no proton-pumping activity, and that the electrons and protons for the catalytic reaction are supplied from the periplasmic side. The position of the above-mentioned small hydrophilic region overlaps with the terminal part of the K-pathway in cytochrome oxidases. That could indicate a beginning of the K-channel formation in the evolutionary steps leading to the appearance of proton pathways from the cytoplasm and eventually to the proton pumping in other HCOs. A very recent structural characterization of a single-subunit quinol-dependent NOR (qNOR) from <em>G. stearothermophilus</em> <a href="#pcbi.1002674-Matsumoto1">[64]</a> surprisingly revealed the existence of the water channel from the cytoplasmic side at the position equivalent to the canonical K-pathway and absence of the periplasmic pathways found in cNOR. It will be interesting to test by calculations if a similar cytoplasmic channel can be formed in cNOR as the result of selective mutations.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[3]/sec[5]/fig[1]"><a name="pcbi-1002674-g008" id="pcbi-1002674-g008" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002674?imageURI=info:doi/10.1371/journal.pcbi.1002674.g008" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002674', 'info:doi/10.1371/journal.pcbi.1002674.g008');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002674', 'info:doi/10.1371/journal.pcbi.1002674.g008');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002674.g008&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[3]/sec[5]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002674?imageURI=info:doi/10.1371/journal.pcbi.1002674.g008" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002674', 'info:doi/10.1371/journal.pcbi.1002674.g008');"><span>Figure 8. </span></a> <span xpathLocation="/article[1]/body[1]/sec[3]/sec[5]/fig[1]/caption[1]/title[1]">No water channels from the cytoplasm are found in cNOR.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[3]/sec[5]/fig[1]/caption[1]/p[1]">The region similar to the K- and D-pathways in oxidases is shown (MD snapshot at ~100 ns). In cNOR, residues in this region are mostly hydrophobic. The interior region remains minimally hydrated (as shown by the water density averaged over 300 ns), except for a small charged region below the active site with Glu211, Glu280, and Glu215.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002674.g008</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002674.g008/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002674.g008/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002674.g008.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002674.g008/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002674.g008.TIF"></span> TIFF)
+                  </a></li></ul></div></div>
+
+<h4 xpathLocation="/article[1]/body[1]/sec[3]/sec[6]/title[1]">Concluding remarks</h4>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[6]/p[1]">We have performed a 300 ns MD simulation of cNOR, based on its first crystal structure, and fully characterized water inside the protein. Our simulations have revealed two potential PT pathways from the periplasmic side, Channels 1 and 3. Both pathways are supported by the continuous distribution of water molecules and formation of the dynamic H-bonded networks within the channels, as well as by the highly conserved nature of the participating residues and previous experiments, which had shown functional importance of some of these residues. Since cNOR is not involved in a vectorial proton translocation (pumping against the gradient), a robust gating mechanism, as those suggested in CcO <a href="#pcbi.1002674-Pisliakov1">[56]</a>, <a href="#pcbi.1002674-Kaila2">[57]</a>, <a href="#pcbi.1002674-Quenneville1">[62]</a>, <a href="#pcbi.1002674-Faxen1">[65]</a>, <a href="#pcbi.1002674-Kim1">[66]</a>, is not required, and chemical protons have to arrive at the active site in one way or another. So, in principle, both pathways may be used. From our MD results we cannot unambiguously establish what the exact role of each channel is or how they are synchronized. In our opinion, Channel 1 is probably the main pathway for the proton uptake since both static and dynamic structures clearly show extensive H-bonded networks and water chains, and the path toward the catalytic site seems to be more straightforward. Meanwhile, Channel 3 is revealed only by the dynamic simulations (and the water channel is formed only for a part of the simulation), some protein structural rearrangements are required there to allow for channel formation, and the path from Glu138 to the active site goes through an intermediate hydrophobic region.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[6]/p[2]">A further discussion about the details of the proton uptake mechanism in cNOR should be based on additional experimental evidences and explicit PT calculations. We would like to emphasize that MD simulations provide important information about the dynamics of water molecules and H-bonded networks and, as a result, about <em>locations of potential proton pathways</em>. However, classical MD simulations alone cannot describe explicit proton translocation, which is an intrinsically quantum mechanical process. The <em>energetics of PT</em> along different pathways has to be addressed by mixed QM/MM methods <a href="#pcbi.1002674-Swanson1">[25]</a>, <a href="#pcbi.1002674-Pisliakov1">[56]</a>, <a href="#pcbi.1002674-Kato1">[67]</a>–<a href="#pcbi.1002674-Goyal1">[69]</a>, and this will tell whether each pathway is feasible. The key issues in such calculations are the energies of charge formation at different sites along the translocation path and activation barriers of individual PT steps.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[6]/p[3]">In our calculations we observed a fairly high number of mobile water molecules (which could not be resolved in the X-ray structure) in the cNOR hydrophilic cavities. Similar results were previously reported in analogous MD studies (with explicit membrane/solvent, at ambient temperatures) of systems like proton pumps cytochrome c oxidase <a href="#pcbi.1002674-Olkhova1">[39]</a>, bacteriorhodopsin <a href="#pcbi.1002674-Freier1">[28]</a>, <a href="#pcbi.1002674-Grudinin1">[70]</a>, bc1 <a href="#pcbi.1002674-Izrailev1">[71]</a>, voltage-gated proton channel Hv1 <a href="#pcbi.1002674-Ramsey1">[27]</a>, <a href="#pcbi.1002674-Wood1">[72]</a> and calcium pump <a href="#pcbi.1002674-Sugita1">[73]</a>, <a href="#pcbi.1002674-Musgaard1">[74]</a>, whose function relies on the water-assisted proton translocation. Therefore such simulations, although they are computationally expensive, can be used for the detailed characterization of water inside membrane proteins and for the identification of potential proton pathways, which in many cases are critical for protein function.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[6]/p[4]">Finally, several common structural features, namely the position of the Ca<sup>2+</sup> binding site and similarity of Channel 3 in cNOR and the periplasmic cavity in <em>cbb</em><sub>3</sub> oxidase, indicate the evolutionary relationship between the two enzymes. The likely loss of Channel 1 in <em>cbb</em><sub>3</sub> oxidase might be the key step during the molecular evolution leading to the establishment of the PT pathway from the cytoplasm, while a less effective Channel 3 was probably kept as a proton exit pathway for proton pumping. Our results have implications on the development of PT pathways in HCOs and the evolution of respiratory enzymes in general – a topic which remains a subject of intense debate.</p>
+
+</div>
+
+<div id="section4" xpathLocation="/article[1]/body[1]/sec[4]"><a id="s4" name="s4" toc="s4" title="Supporting Information"></a><h3 xpathLocation="noSelect">Supporting Information&nbsp;<a href="#top">Top</a></h3><a name="pcbi.1002674.s001" id="pcbi.1002674.s001"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002674.s001">Figure S1. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[1]/caption[1]/p[1]">Analysis of the MD trajectories. (<strong>A</strong>) The root-mean-square deviations (RMSD) of C<sub>α</sub> atoms and (<strong>B</strong>) the root-mean-square fluctuations (RMSF) calculated for each residue with respect to the crystal structure. (<strong>C</strong>) Area/lipid, which was calculated using the Voronoi analysis tool, remains close to the experimental value for the POPE lipids (~56 Å<sup>2</sup>) indicating a stable simulation of the protein-membrane complex.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[1]/caption[1]/p[2]">(TIF)</p>
+<a name="pcbi.1002674.s002" id="pcbi.1002674.s002"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002674.s002">Figure S2. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[2]/caption[1]/p[1]">(<strong>A</strong>) Entrance to Channel 1 (as viewed from the outside bulk). The protein is shown as a grey surface, water molecules as blue spheres, and lipid molecules as green sticks. A close-up view of the channel entrance is shown at the right side. The entrance site is formed by the amino acids Glu57<sub>c</sub>, Lys53<sub>c</sub>, Arg134, and Asp198. The Asp198 residue was assumed to be on the protein surface, but in the MD simulation it stays buried deeper inside the cavity. The entrance region remains rigid due to three stable salt bridges: Glu57<sub>c</sub>-Lys53<sub>c</sub>, Arg134-Asp198, and Lys53<sub>c</sub>-Asp198 (see <a href="#pcbi.1002674.s003">Figure S3</a>). A sidechain of a nearby Asn191, which is located in the bulk, exhibits large-amplitude rotations and mediates solvent molecules from the bulk into the channel cavity. (<strong>B</strong>) Solvent-accessible surface area (SASA) calculated for the residues of the Channel 1 entrance region. Average SASA values (from 31 frames, i.e. each 10 ns) are shown in brackets in the legend box.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[2]/caption[1]/p[2]">(TIF)</p>
+<a name="pcbi.1002674.s003" id="pcbi.1002674.s003"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002674.s003">Figure S3. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[3]/caption[1]/p[1]">Four stable salt bridges formed in Channel 1 in the course of the MD simulation. Top to bottom: time series of the distances between charged groups of Asp198-Arg134, Asp198-Lys53<sub>c</sub>, Glu57<sub>c</sub>-Lys53<sub>c</sub>, and Lys199-Glu70<sub>c</sub>. Black lines represent running averages over 30 data points.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[3]/caption[1]/p[2]">(TIF)</p>
+<a name="pcbi.1002674.s004" id="pcbi.1002674.s004"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002674.s004">Figure S4. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[4]/caption[1]/p[1]">Water molecules crossings through the entrance site of Channel 1. (<strong>A</strong>) Positions of five selected water molecules, which were observed crossing the Lys53<sub>c</sub>/Glu57<sub>c</sub>/Asp198 site during MD simulation, are shown as purple dots. (<strong>B</strong>) MD snapshot (after ~20 ns) with a water molecule between the residues of the Channel 1 entrance site.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[4]/caption[1]/p[2]">(TIF)</p>
+<a name="pcbi.1002674.s005" id="pcbi.1002674.s005"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002674.s005">Figure S5. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[5]/caption[1]/p[1]">Representative configurations of the hydrogen-bonded networks in Channel 1. From left to right, then top to bottom: MD snapshots at 20, 53, 76, 108, 177, and 277 ns. The residues and color coding are the same as in <a href="#pcbi-1002674-g002">Figure 2a</a> in the main text. Due to dynamic properties of water molecules in Channel 1, the forming H-bonded networks are constantly “fluctuating”.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[5]/caption[1]/p[2]">(TIF)</p>
+<a name="pcbi.1002674.s006" id="pcbi.1002674.s006"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002674.s006">Figure S6. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[6]/caption[1]/p[1]">Time-series of the dihedral angles of the sidechains of (<strong>A</strong>) Glu138 (dihedral angle CA-CB-CG-CD) and (<strong>B</strong>) Asn60<sub>c</sub> (dihedral angle CA-CB-CG-ND) in the MD simulation. Both sidechains show rotational flexibility: Glu138 takes three different conformations during the simulation, while the sidechain of Asn60<sub>c</sub> is highly fluctuating, especially when the gate is open.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[6]/caption[1]/p[2]">(TIF)</p>
+<a name="pcbi.1002674.s007" id="pcbi.1002674.s007"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002674.s007">Figure S7. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[7]/caption[1]/p[1]">The Asn54-Asn60<sub>c</sub> gate opening/closing events were also observed in the extended simulation (<strong>A</strong>) as well as in a short independent run (with different initial conditions) (<strong>B</strong>), indicating that such structural rearrangements can occur in cNOR on a 100-ns timescale.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[7]/caption[1]/p[2]">(TIF)</p>
+<a name="pcbi.1002674.s008" id="pcbi.1002674.s008"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002674.s008">Figure S8. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[8]/caption[1]/p[1]">Time series of the number of water molecules found near the active site (within 7 Å of both irons of the BN center). In contrast to the crystal structure, the MD simulation reveals the presence of water molecules near the BN center.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[8]/caption[1]/p[2]">(TIF)</p>
+<a name="pcbi.1002674.s009" id="pcbi.1002674.s009"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002674.s009">Figure S9. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[9]/caption[1]/p[1]">Time series of the distances to Fe<sub>B</sub> of several selected water molecules (each colored line represents one water molecule). Water molecules near the BN center keep their positions at the “permanent” water sites much longer than mobile waters in Channel 1.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[9]/caption[1]/p[2]">(TIF)</p>
+<a name="pcbi.1002674.s010" id="pcbi.1002674.s010"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002674.s010">Figure S10. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[10]/caption[1]/p[1]">Water density in the region near the active site (including the terminal parts of Channels 1 and 3), shown as a 2D contour map. The water density was averaged over 300 ns. Positions of the important residues and two hemes (shown as sticks) and crystallographic waters (purple spheres) in the cNOR X-ray structure are superimposed on the contour map for reference. Possible pathways for the final PT steps to the BN center are indicated by the dashed black lines and marked with numbers 1 to 4 (see discussion in section <em>PT pathways near the active site</em> in the main text).</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[10]/caption[1]/p[2]">(TIF)</p>
+<a name="pcbi.1002674.s011" id="pcbi.1002674.s011"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002674.s011">Figure S11. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[11]/caption[1]/p[1]">A single snapshot (at ~260 ns) when a water molecule was found in the hydrophobic cavity between PropD and Thr330.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[11]/caption[1]/p[2]">(TIF)</p>
+<a name="pcbi.1002674.s012" id="pcbi.1002674.s012"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002674.s012">Table S1. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[12]/caption[1]/p[1]">Involvement of the Channel 1 residues in the formation of the H-bonded networks.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[12]/caption[1]/p[2]">(DOCX)</p>
+<a name="pcbi.1002674.s013" id="pcbi.1002674.s013"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002674.s013">Text S1. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[13]/caption[1]/p[1]">Details of the MD system setup, simulation and analysis protocols.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[13]/caption[1]/p[2]">(DOCX)</p>
+<a name="pcbi.1002674.s014" id="pcbi.1002674.s014"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002674.s014">Video S1. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[14]/caption[1]/p[1]">Hydrogen-bonded networks in Channel 1. Movie illustrates the dynamics in Channel 1 along a 300 ns MD trajectory. In particular it shows a regular formation of the dynamic hydrogen-bonded water chains. The residues and color coding are the same as in <a href="#pcbi-1002674-g002">Figure 2a</a>. Only water molecules present in or near Channel 1 are shown. Several snapshots of this movie are presented in <a href="#pcbi.1002674.s004">Figure S4</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[14]/caption[1]/p[2]">(AVI)</p>
+<a name="pcbi.1002674.s015" id="pcbi.1002674.s015"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002674.s015">Video S2. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[15]/caption[1]/p[1]">Gating of Channel 3. Movie (a 120–260 ns part of the MD trajectory) illustrates the opening/closing of the Asn54-Asn60<sub>c</sub> gate and formation of a new water channel. The residues and color coding are the same as in <a href="#pcbi-1002674-g004">Figure 4a</a> in the main text. Only water molecules present in or near Channel 3 are shown.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[15]/caption[1]/p[2]">(AVI)</p>
+</div>
+
+
+
+
+
+<div xpathLocation="noSelect"><a id="ack" name="ack" toc="ack" title="Acknowledgments"></a><h3 xpathLocation="noSelect">Acknowledgments&nbsp;<a href="#top">Top</a></h3>
+<p xpathLocation="/article[1]/back[1]/ack[1]/p[1]">We thank Takaharu Mori for helpful technical comments and for sharing the equilibrated lipid bilayer structure and the Voronoi analysis tool. We are grateful to Takehiko Tosha, Shingo Nagano, and Hiroshi Sugimoto for many helpful discussions.</p>
+</div><div class="contributions"><a id="authcontrib" name="authcontrib" toc="authcontrib" title="Author Contributions"></a><h3 xpathLocation="noSelect">Author Contributions&nbsp;<a href="#top">Top</a></h3><p xpathLocation="noSelect">Conceived and designed the experiments: A. Pisliakov, Y. Sugita. Performed the experiments: A. Pisliakov. Analyzed the data: A. Pisliakov. Contributed reagents/materials/analysis tools: A. Pisliakov, T. Hino, Y. Shiro, Y. Sugita. Wrote the paper: A. Pisliakov, Y. Sugita.</p></div><div xpathLocation="noSelect"><a id="references" name="references" toc="references" title="References"></a><h3 xpathLocation="noSelect">References&nbsp;<a href="#top">Top</a></h3><ol class="references" xpathLocation="noSelect"><li xpathLocation="noSelect"><a name="pcbi.1002674-Wuebbles1" id="pcbi.1002674-Wuebbles1"></a>Wuebbles DJ (2009) Nitrous oxide: No laughing matter. Science 326: 56–57. <a class="find" href="/article/findArticle.action?citedArticleID=5532051">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Hendriks1" id="pcbi.1002674-Hendriks1"></a>Hendriks J, Gohlke U, Saraste M (1998) From NO to OO: Nitric oxide and dioxygen in bacterial respiration. J Bioenerg Biomembr 30: 15–24. <a class="find" href="/article/findArticle.action?citedArticleID=5532053">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Pereira1" id="pcbi.1002674-Pereira1"></a>Pereira MM, Santana M, Teixeira M (2001) A novel scenario for the evolution of haem-copper oxygen reductases. Biochim Biophys Acta 1505: 185–208. <a class="find" href="/article/findArticle.action?citedArticleID=5532055">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Zumft1" id="pcbi.1002674-Zumft1"></a>Zumft WG (2005) Nitric oxide reductases of prokaryotes with emphasis on the respiratory, heme-copper oxidase type. J Inorg Biochem 99: 194–215. <a class="find" href="/article/findArticle.action?citedArticleID=5532057">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Hemp1" id="pcbi.1002674-Hemp1"></a>Hemp J, Gennis R (2008) Diversity of the heme–copper superfamily in archaea: Insights from genomics and structural modeling. Bioenergetics 45: 1–31. <a class="find" href="/article/findArticle.action?citedArticleID=5532059">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Huang1" id="pcbi.1002674-Huang1"></a>Huang Y, Reimann J, Lepp H, Drici N, Ädelroth P (2008) Vectorial proton transfer coupled to reduction of O(2) and NO by a heme-copper oxidase. Proc Natl Acad Sci USA 105: 20257–20262. <a class="find" href="/article/findArticle.action?citedArticleID=5532061">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Ducluzeau1" id="pcbi.1002674-Ducluzeau1"></a>Ducluzeau AL, van Lis R, Duval S, Schoepp-Cothenet B, Russell MJ, et al. (2009) Was nitric oxide the first deep electron sink? Trends Biochem Sci 34: 9–15. <a class="find" href="/article/findArticle.action?citedArticleID=5532063">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Gribaldo1" id="pcbi.1002674-Gribaldo1"></a>Gribaldo S, Talla E, Brochier-Armanet C (2009) Evolution of the haem copper oxidases superfamily: A rooting tale. Trends Biochem Sci 34: 375–381. <a class="find" href="/article/findArticle.action?citedArticleID=5532065">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Sousa1" id="pcbi.1002674-Sousa1"></a>Sousa FL, Alves RJ, Pereira-Leal JB, Teixeira M, Pereira MM (2011) A bioinformatics classifier and database for heme-copper oxygen reductases. PLoS One 6: e19117. <a class="find" href="/article/findArticle.action?citedArticleID=5532067">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Iwata1" id="pcbi.1002674-Iwata1"></a>Iwata S, Ostermeier C, Ludwig B, Michel H (1995) Structure at 2.8-angstrom resolution of cytochrome-c-oxidase from Paracoccus denitrificans. Nature 376: 660–669. <a class="find" href="/article/findArticle.action?citedArticleID=5532069">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Tsukihara1" id="pcbi.1002674-Tsukihara1"></a>Tsukihara T, Aoyama H, Yamashita E, Tomizaki T, Yamaguchi H, et al. (1996) The whole structure of the 13-subunit oxidized cytochrome c oxidase at 2.8 angstrom. Science 272: 1136–1144. <a class="find" href="/article/findArticle.action?citedArticleID=5532071">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Wikstrm1" id="pcbi.1002674-Wikstrm1"></a>Wikström M (2004) Cytochrome c oxidase: 25 years of the elusive proton pump. Biochim Biophys Acta 1655: 241–247. <a class="find" href="/article/findArticle.action?citedArticleID=5532073">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Brzezinski1" id="pcbi.1002674-Brzezinski1"></a>Brzezinski P, Gennis RB (2008) Cytochrome c oxidase: Exciting progress and remaining mysteries. J Bioenerg Biomembr 40: 521–531. <a class="find" href="/article/findArticle.action?citedArticleID=5532075">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Yoshikawa1" id="pcbi.1002674-Yoshikawa1"></a>Yoshikawa S, Muramoto K, Shinzawa-Itoh K (2011) Proton-pumping mechanism of cytochrome c oxidase. Annu Rev Bioph 40: 205–223. <a class="find" href="/article/findArticle.action?citedArticleID=5532077">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Hino1" id="pcbi.1002674-Hino1"></a>Hino T, Matsumoto Y, Nagano S, Sugimoto H, Fukumori Y, et al. (2010) Structural basis of biological N2O generation by bacterial nitric oxide reductase Science. 330: 1670–1669. <a class="find" href="/article/findArticle.action?citedArticleID=5532079">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Buschmann1" id="pcbi.1002674-Buschmann1"></a>Buschmann S, Warkentin E, Xie H, Langer JD, Ermler U, et al. (2010) The structure of cbb(3) cytochrome oxidase provides insights into proton pumping. Science 329: 327–330. <a class="find" href="/article/findArticle.action?citedArticleID=5532081">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Forte1" id="pcbi.1002674-Forte1"></a>Forte E, Urbani A, Saraste M, Sarti P, Brunori M, et al. (2001) The cytochrome cbb3 from Pseudomonas stutzeri displays nitric oxide reductase activity. Eur J Biochem 268: 6486–6491. <a class="find" href="/article/findArticle.action?citedArticleID=5532083">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Lee1" id="pcbi.1002674-Lee1"></a>Lee HJ, Gennis RB, Ädelroth P (2011) Entrance of the proton pathway in cbb(3)-type heme-copper oxidases. Proc Natl Acad Sci U S A 108: 17661–17666. <a class="find" href="/article/findArticle.action?citedArticleID=5532085">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Shapleigh1" id="pcbi.1002674-Shapleigh1"></a>Shapleigh JP, Payne WJ (1985) Nitric oxide-dependent proton translocation in various denitrifiers. J Bacteriol 163: 837–840. <a class="find" href="/article/findArticle.action?citedArticleID=5532087">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Hendriks2" id="pcbi.1002674-Hendriks2"></a>Hendriks JHM, Jasaitis A, Saraste M, Verkhovsky MI (2002) Proton and electron pathways in the bacterial nitric oxide reductase. Biochemistry 41: 2331–2340. <a class="find" href="/article/findArticle.action?citedArticleID=5532089">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Reimann1" id="pcbi.1002674-Reimann1"></a>Reimann J, Flock U, Lepp H, Honigmann A, Adelroth P (2007) A pathway for protons in nitric oxide reductase from Paracoccus denitrificans. Biochim Biophys Acta 1767: 362–373. <a class="find" href="/article/findArticle.action?citedArticleID=5532091">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Nagle1" id="pcbi.1002674-Nagle1"></a>Nagle JF, Morowitz HJ (1978) Molecular mechanisms for proton transport in membranes. Proc Natl Acad Sci U S A 75: 298–302. <a class="find" href="/article/findArticle.action?citedArticleID=5532093">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Sham1" id="pcbi.1002674-Sham1"></a>Sham YY, Muegge I, Warshel A (1999) Simulating proton translocations in proteins: Probing proton transfer pathways in the Rhodobacter sphaeroides reaction center. Proteins 36: 484–500. <a class="find" href="/article/findArticle.action?citedArticleID=5532095">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Wikstrm2" id="pcbi.1002674-Wikstrm2"></a>Wikström M, Ribacka C, Molin M, Laakkonen L, Verkhovsky M, et al. (2005) Gating of proton and water transfer in the respiratory enzyme cytochrome c oxidase. Proc Natl Acad Sci U S A 102: 10478–10481. <a class="find" href="/article/findArticle.action?citedArticleID=5532097">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Swanson1" id="pcbi.1002674-Swanson1"></a>Swanson JMJ, Maupin CM, Chen H, Petersen MK, Xu J, et al. (2007) Proton solvation and transport in aqueous and biomolecular systems: Insights from computer simulations. J Phys Chem B 111: 17. <a class="find" href="/article/findArticle.action?citedArticleID=5532099">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Sharma1" id="pcbi.1002674-Sharma1"></a>Sharma M, Yi M, Dong H, Qin H, Peterson E, et al. (2010) Insight into the mechanism of the Influenza A proton channel from a structure in a lipid bilayer. Science 330: 509–512. <a class="find" href="/article/findArticle.action?citedArticleID=5532101">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Ramsey1" id="pcbi.1002674-Ramsey1"></a>Ramsey IS, Mokrab Y, Carvacho I, Sands ZA, Sansom MSP, et al. (2010) An aqueous H+ permeation pathway in the voltage-gated proton channel Hv1. Nat Struct Mol Biol 17: 869–875. <a class="find" href="/article/findArticle.action?citedArticleID=5532103">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Freier1" id="pcbi.1002674-Freier1"></a>Freier E, Wolf S, Gerwert K (2011) Proton transfer via a transient linear water-molecule chain in a membrane protein. Proc Natl Acad Sci U S A 108: 11435–11439. <a class="find" href="/article/findArticle.action?citedArticleID=5532105">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Acharya1" id="pcbi.1002674-Acharya1"></a>Acharya R, Carnevale V, Fiorin G, Levine BG, Polishchuk AL, et al. (2010) Structure and mechanism of proton transport through the transmembrane tetrameric M2 protein bundle of the Influenza A virus. Proc Natl Acad Sci U S A 107: 15075–15080. <a class="find" href="/article/findArticle.action?citedArticleID=5532107">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-KhaliliAraghi1" id="pcbi.1002674-KhaliliAraghi1"></a>Khalili-Araghi F, Gumbart J, Wen PC, Sotomayor M, Tajkhorshid E, et al. (2009) Molecular dynamics simulations of membrane channels and transporters. Curr Opin Struct Biol 19: 128–137. <a class="find" href="/article/findArticle.action?citedArticleID=5532109">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Wang1" id="pcbi.1002674-Wang1"></a>Wang Y, Shaikh SA, Tajkhorshid E (2010) Exploring transmembrane diffusion pathways with molecular dynamics. Physiology 25: 142–154. <a class="find" href="/article/findArticle.action?citedArticleID=5532111">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Jensen1" id="pcbi.1002674-Jensen1"></a>Jensen MØ, Borhani DW, Lindorff-Larsen K, Maragakis P, Jogini V, et al. (2010) Principles of conduction and hydrophobic gating in K(+) channels. Proc Natl Acad Sci U S A 107: 5833–5838. <a class="find" href="/article/findArticle.action?citedArticleID=5532113">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Stansfeld1" id="pcbi.1002674-Stansfeld1"></a>Stansfeld PJ, Sansom MSP (2011) Molecular simulation approaches to membrane proteins. Structure 19: 1562–1572. <a class="find" href="/article/findArticle.action?citedArticleID=5532115">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Dror1" id="pcbi.1002674-Dror1"></a>Dror RO, Jensen MO, Borhani DW, Shaw DE (2010) Exploring atomic resolution physiology on a femtosecond to millisecond timescale using molecular dynamics simulations. J Gen Physiol 135: 555–562. <a class="find" href="/article/findArticle.action?citedArticleID=5532117">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Kutzner1" id="pcbi.1002674-Kutzner1"></a>Kutzner C, Grubmüller H, de Groot Bert L, Zachariae U (2011) Computational electrophysiology: The molecular dynamics of ion channel permeation and selectivity in atomistic detail. Biophys J 101: 809–817. <a class="find" href="/article/findArticle.action?citedArticleID=5532119">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Hofacker1" id="pcbi.1002674-Hofacker1"></a>Hofacker I, Schulten K (1998) Oxygen and proton pathways in cytochrome c oxidase. Proteins 30: 100–107. <a class="find" href="/article/findArticle.action?citedArticleID=5532121">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Wikstrm3" id="pcbi.1002674-Wikstrm3"></a>Wikström M, Verkhovsky MI, Hummer G (2003) Water-gated mechanism of proton translocation by cytochrome c oxidase. Biochim Biophys Acta 1604: 61–65. <a class="find" href="/article/findArticle.action?citedArticleID=5532123">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Zheng1" id="pcbi.1002674-Zheng1"></a>Zheng XH, Medvedev DM, Swanson J, Stuchebrukhov AA (2003) Computer simulation of water in cytochrome c oxidase. Biochim Biophys Acta 1557: 99–107. <a class="find" href="/article/findArticle.action?citedArticleID=5532125">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Olkhova1" id="pcbi.1002674-Olkhova1"></a>Olkhova E, Hutter MC, Lill MA, Helms V, Michel H (2004) Dynamic water networks in cytochrome c oxidase from Paracoccus denitrificans investigated by molecular dynamics simulations. Biophys J 86: 1873–1889. <a class="find" href="/article/findArticle.action?citedArticleID=5532127">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Cukier1" id="pcbi.1002674-Cukier1"></a>Cukier RI (2005) A molecular dynamics study of water chain formation in the proton-conducting K channel of cytochrome c oxidase. Biochim Biophys Acta 1706: 134–146. <a class="find" href="/article/findArticle.action?citedArticleID=5532129">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Sugitani1" id="pcbi.1002674-Sugitani1"></a>Sugitani R, Stuchebrukhov AA (2009) Molecular dynamics simulation of water in cytochrome c oxidase reveals two water exit pathways and the mechanism of transport. Biochim Biophys Acta 1787: 1140–1150. <a class="find" href="/article/findArticle.action?citedArticleID=5532131">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Lee2" id="pcbi.1002674-Lee2"></a>Lee HJ, Svahn E, Swanson JMJ, Lepp H, Voth GA, et al. (2010) Intricate role of water in proton transport through cytochrome c oxidase. J Am Chem Soc 132: 16225–16239. <a class="find" href="/article/findArticle.action?citedArticleID=5532133">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Dowhan1" id="pcbi.1002674-Dowhan1"></a>Dowhan W (1997) Molecular basis for membrane phospholipid diversity:Why are there so many lipids? Annu Rev Biochem 66: 199–232. <a class="find" href="/article/findArticle.action?citedArticleID=5532135">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Phillips1" id="pcbi.1002674-Phillips1"></a>Phillips JC, Braun R, Wang W, Gumbart J, Tajkhorshid E, et al. (2005) Scalable molecular dynamics with NAMD. J Comput Chem 26: 1781–1802. <a class="find" href="/article/findArticle.action?citedArticleID=5532137">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-MacKerell1" id="pcbi.1002674-MacKerell1"></a>MacKerell AD, Bashford D, Bellott M, Dunbrack RL, Evanseck JD, et al. (1998) All-atom empirical potential for molecular modeling and dynamics studies of proteins. J Phys Chem B 102: 3586–3616. <a class="find" href="/article/findArticle.action?citedArticleID=5532139">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Mackerell1" id="pcbi.1002674-Mackerell1"></a>Mackerell AD, Feig M, Brooks CL (2004) Extending the treatment of backbone energetics in protein force fields: Limitations of gas-phase quantum mechanics in reproducing protein conformational distributions in molecular dynamics simulations. J Comput Chem 25: 1400–1415. <a class="find" href="/article/findArticle.action?citedArticleID=5532141">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Mori1" id="pcbi.1002674-Mori1"></a>Mori T, Ogushi F, Sugita Y (2012) Analysis of lipid surface area in protein-membrane systems combining Voronoi tessellation and Monte Carlo integration methods. J Comput Chem 33: 286–293. <a class="find" href="/article/findArticle.action?citedArticleID=5532143">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Rand1" id="pcbi.1002674-Rand1"></a>Rand RP, Parsegian VA (1989) Hydration forces between phospholipid-bilayers. Biochim Biophys Acta 988: 351–376. <a class="find" href="/article/findArticle.action?citedArticleID=5532145">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Kandt1" id="pcbi.1002674-Kandt1"></a>Kandt C, Schlitter J, Gerwert K (2004) Dynamics of water molecules in the bacteriorhodopsin trimer in explicit lipid/water environment. Biophys J 86: 705–717. <a class="find" href="/article/findArticle.action?citedArticleID=5532147">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Wolf1" id="pcbi.1002674-Wolf1"></a>Wolf S, Freier E, Potschies M, Hofmann E, Gerwert K (2010) Directional proton transfer in membrane proteins achieved through protonated protein-bound water molecules: A proton diode. Angew Chem Int Ed Engl 49: 6889–6893. <a class="find" href="/article/findArticle.action?citedArticleID=5532149">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Kaila1" id="pcbi.1002674-Kaila1"></a>Kaila VRI, Hummer G (2011) Energetics and dynamics of proton transfer reactions along short water wires. Phys Chem Chem Phys 13: 13207–13215. <a class="find" href="/article/findArticle.action?citedArticleID=5532151">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Butland1" id="pcbi.1002674-Butland1"></a>Butland G, Spiro S, Watmough NJ, Richardson DJ (2001) Two conserved glutamates in the bacterial nitric oxide reductase are essential for activity but not assembly of the enzyme. J Bacteriol 183: 189–199. <a class="find" href="/article/findArticle.action?citedArticleID=5532153">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Thorndycroft1" id="pcbi.1002674-Thorndycroft1"></a>Thorndycroft FH, Butland G, Richardson DJ, Watmough NJ (2007) A new assay for nitric oxide reductase reveals two conserved glutamate residues form the entrance to a proton-conducting channel in the bacterial enzyme. Biochem J 401: 111–119. <a class="find" href="/article/findArticle.action?citedArticleID=5532155">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Flock1" id="pcbi.1002674-Flock1"></a>Flock U, Thorndycroft FH, Matorin AD, Richardson DJ, Watmough NJ, et al. (2008) Defining the proton entry point in the bacterial respiratory nitric-oxide reductase. J Biol Chem 283: 3839–3845. <a class="find" href="/article/findArticle.action?citedArticleID=5532157">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Sugitani2" id="pcbi.1002674-Sugitani2"></a>Sugitani R, Medvedev ES, Stuchebrukhov AA (2008) Theoretical and computational analysis of the membrane potential generated by cytochrome c oxidase upon single electron injection into the enzyme. Biochim Biophys Acta 1777: 1129–1139. <a class="find" href="/article/findArticle.action?citedArticleID=5532159">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Pisliakov1" id="pcbi.1002674-Pisliakov1"></a>Pisliakov AV, Sharma PK, Chu ZT, Haranczyk M, Warshel A (2008) Electrostatic basis for the unidirectionality of the primary proton transfer in cytochrome c oxidase. Proc Natl Acad Sci U S A 105: 7726. <a class="find" href="/article/findArticle.action?citedArticleID=5532161">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Kaila2" id="pcbi.1002674-Kaila2"></a>Kaila VRI, Sharma V, Wikström M (2011) The identity of the transient proton loading site of the proton-pumping mechanism of cytochrome c oxidase. Biochim Biophys Acta 1807: 80–84. <a class="find" href="/article/findArticle.action?citedArticleID=5532163">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Xu1" id="pcbi.1002674-Xu1"></a>Xu J, Sharpe MA, Qin L, Ferguson-Miller S, Voth GA (2007) Storage of an excess proton in the hydrogen-bonded network of the D-pathway of cytochrome c oxidase: Identification of a protonated water cluster. J Am Chem Soc 129: 2910–2913. <a class="find" href="/article/findArticle.action?citedArticleID=5532165">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Garczarek1" id="pcbi.1002674-Garczarek1"></a>Garczarek F, Gerwert K (2006) Functional waters in intraprotein proton transfer monitored by ftir difference spectroscopy. Nature 439: 109–112. <a class="find" href="/article/findArticle.action?citedArticleID=5532167">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Mathias1" id="pcbi.1002674-Mathias1"></a>Mathias G, Marx D (2007) Structures and spectral signatures of protonated water networks in bacteriorhodopsin. Proc Natl Acad Sci U S A 104: 6980–6985. <a class="find" href="/article/findArticle.action?citedArticleID=5532169">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Tiefenbrunn1" id="pcbi.1002674-Tiefenbrunn1"></a>Tiefenbrunn T, Liu W, Chen Y, Katritch V, Stout CD, et al. (2011) High resolution structure of the ba3 cytochrome c oxidase from Thermus thermophilus in a lipidic environment. PLoS One 6: e22348. <a class="find" href="/article/findArticle.action?citedArticleID=5532171">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Quenneville1" id="pcbi.1002674-Quenneville1"></a>Quenneville J, Popovic DM, Stuchebrukhov AA (2006) Combined dft and electrostatics study of the proton pumping mechanism in cytochrome c oxidase. Biochim Biophys Acta 1757: 1035–1046. <a class="find" href="/article/findArticle.action?citedArticleID=5532173">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Flock2" id="pcbi.1002674-Flock2"></a>Flock U, Lachmann P, Reimann J, Watmough NJ, Ädelroth P (2009) Exploring the terminal region of the proton pathway in the bacterial nitric oxide reductase. J Inorg Biochem 103: 845–850. <a class="find" href="/article/findArticle.action?citedArticleID=5532175">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Matsumoto1" id="pcbi.1002674-Matsumoto1"></a>Matsumoto Y, Tosha T, Pisliakov AV, Hino T, Sugimoto H, et al. (2012) Crystal structure of quinol-dependent nitric oxide reductase from Geobacillus stearothermophilus. Nat Struct Mol Biol 19: 238–245. <a class="find" href="/article/findArticle.action?citedArticleID=5532177">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Faxen1" id="pcbi.1002674-Faxen1"></a>Faxen K, Gilderson G, Ädelroth P, Brzezinski P (2005) A mechanistic principle for proton pumping by cytochrome c oxidase. Nature 437: 286–289. <a class="find" href="/article/findArticle.action?citedArticleID=5532179">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Kim1" id="pcbi.1002674-Kim1"></a>Kim YC, Wikström M, Hummer G (2009) Kinetic gating of the proton pump in cytochrome c oxidase. Proc Natl Acad Sci U S A 106: 13707–13712. <a class="find" href="/article/findArticle.action?citedArticleID=5532181">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Kato1" id="pcbi.1002674-Kato1"></a>Kato M, Pisliakov AV, Warshel A (2006) The barrier for proton transport in aquaporins as a challenge for electrostatic models: The role of protein relaxation in mutational calculations. Proteins 64: 829–844. <a class="find" href="/article/findArticle.action?citedArticleID=5532183">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Yamashita1" id="pcbi.1002674-Yamashita1"></a>Yamashita T, Voth GA (2011) Insights into the mechanism of proton transport in cytochrome c oxidase. J Am Chem Soc 134: 1147–1152. <a class="find" href="/article/findArticle.action?citedArticleID=5532185">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Goyal1" id="pcbi.1002674-Goyal1"></a>Goyal P, Ghosh N, Phatak P, Clemens M, Gaus M, et al. (2011) Proton storage site in bacteriorhodopsin: New insights from quantum mechanics/molecular mechanics simulations of microscopic pKa and infrared spectra. J Am Chem Soc 133: 14981–14997. <a class="find" href="/article/findArticle.action?citedArticleID=5532187">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Grudinin1" id="pcbi.1002674-Grudinin1"></a>Grudinin S, Büldt G, Gordeliy V, Baumgaertner A (2005) Water molecules and hydrogen-bonded networks in bacteriorhodopsin: Molecular dynamics simulations of the ground state and the M-intermediate. Biophys J 88: 3252–3261. <a class="find" href="/article/findArticle.action?citedArticleID=5532189">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Izrailev1" id="pcbi.1002674-Izrailev1"></a>Izrailev S, Crofts AR, Berry EA, Schulten K (1999) Steered molecular dynamics simulation of the Rieske subunit motion in the cytochrome bc1 complex. Biophys J 77: 1753–1768. <a class="find" href="/article/findArticle.action?citedArticleID=5532191">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Wood1" id="pcbi.1002674-Wood1"></a>Wood ML, Schow EV, Freites JA, White SH, Tombola F, et al. (2012) Water wires in atomistic models of the Hv1 proton channel. Biochim Biophys Acta 1818: 286–293. <a class="find" href="/article/findArticle.action?citedArticleID=5532193">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Sugita1" id="pcbi.1002674-Sugita1"></a>Sugita Y, Ikeguchi M, Toyoshima C (2010) Relationship between Ca2+-affinity and shielding of bulk water in the Ca2+-pump from molecular dynamics simulations. Proc Natl Acad Sci U S A 107: 21465–21469. <a class="find" href="/article/findArticle.action?citedArticleID=5532195">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Musgaard1" id="pcbi.1002674-Musgaard1"></a>Musgaard M, Thøgersen L, Schiøtt B, Tajkhorshid E (2012) Tracing cytoplasmic Ca2+ ion and water access points in the Ca2+-ATPase. Biophys J 102: 268–277. <a class="find" href="/article/findArticle.action?citedArticleID=5532197">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002674-Schrdinger1" id="pcbi.1002674-Schrdinger1"></a>Schrödinger LLC (2010) The PyMOL Molecular Graphics System, version 1.4. Schrödinger, LLC. </li></ol></div>
+
+</div></div>
+<div style="display:none">
+<div dojoType="ambra.widget.RegionalDialog" id="AnnotationDialog" style="padding:0;margin:0;">
+  <div class="dialog annotate">
+    <div class="tipu" id="dTipu"></div>
+    <div class="comment">
+      <h5><span>Post Your Note (For Public Viewing)</span></h5>
+      <div class="posting pane">
+        <form name="createAnnotation" id="createAnnotation" method="post" action="">
+          <input type="hidden" name="target" value="info:doi/10.1371/journal.pcbi.1002674" />
+          <input type="hidden" name="startPath" value="" />
+          <input type="hidden" name="startOffset" value="" />
+          <input type="hidden" name="endPath" value="" />
+          <input type="hidden" name="endOffset" value="" />
+          <input type="hidden" name="commentTitle" id="commentTitle" value="" />
+          <input type="hidden" name="comment" id="commentArea" value="" />
+          <input type="hidden" name="ciStatement" id="statementArea" value="" />
+          <input type="hidden" name="isCompetingInterest" id="isCompetingInterest" value="false" />
+          <input type="hidden" name="noteType" id="noteType" value="" />
+          <fieldset>
+            <legend>Compose Your Note</legend>
+            <span id="submitMsg" class="error" style="display:none;"></span>
+            <table class="layout">
+              <tr>
+                <td>
+                  <label for="cNoteType">This is a </label><select name="cNoteType" id="cNoteType"><option value="note">note</option><option value="correction">correction</option></select>
+                  <span id="cdls" style="visibility:hidden;margin-left:0.3em; white-space:nowrap;"><a href="/static/commentGuidelines.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C?target=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002674#corrections">What are corrections?</a></span>
+                  <label for="cTitle"><span class="none">Enter your note title</span><!-- error message text <em>A title is required for all public notes</em>--></label>
+                  <input type="text" name="cTitle" id="cTitle" value="Enter your note title..." class="title" alt="Enter your note title..." />
+                  <label for="cArea"><span class="none">Enter your note</span><!-- error message text <em>Please enter your note</em>--></label>
+                  <textarea name="cArea" id="cArea" value="Enter your note..." alt="Enter your note...">Enter your note...</textarea>
+                  <input type="hidden" name="isPublic" value="true" />
+                </td>
+                <td>&nbsp;</td>
+                <td class="coi">
+                  <fieldset>
+                    <legend>Declare any competing interests.</legend>
+                    <ul>
+                      <li><label><input id="isCompetingInterestNo" type="radio" checked="checked" name="competingInterest" value="false"  /> No, I don't have any competing interests to declare.</label></li>
+                      <li><label><input id="isCompetingInterestYes" type="radio" name="competingInterest" value="true"  /> Yes, I have competing interests to declare (enter below):</label></li>
+                    </ul>
+                    <textarea name="ciStatementArea" id="ciStatementArea" disabled value="Enter your competing interests..." alt="Enter your competing interests...">Enter your competing interests...</textarea>
+                  </fieldset>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3" class="buttons">
+                  <input type="button" value="Cancel" title="Click to close and cancel" id="btn_cancel"/>
+                  <input type="button" value="Submit" title="Click to post your note publicly" id="btn_post" class="primary"/>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <p>Notes and Corrections can include the following markup tags:</p>
+                  <p><strong>Emphasis:</strong> ''<em>italic</em>''&nbsp;&nbsp;'''<strong>bold</strong>'''&nbsp;&nbsp;'''''<strong><em>bold italic</em></strong>'''''</p>
+                  <p><strong>Other:</strong> ^^<sup>superscript</sup>^^&nbsp;&nbsp;~~<sub>subscript</sub>~~</p>
+                </td>
+              </tr>
+            </table>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <div class="tip" id="dTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialog" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="caTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      Please follow our <a href="/static/commentGuidelines.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C">guidelines for notes and comments</a> and review our <a href="/static/competing.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C">competing interests policy</a>. Comments that do not conform to our guidelines will be promptly removed and the user account disabled. The following must be avoided:
+      <ul>
+        <li>Remarks that could be interpreted as allegations of misconduct</li>
+        <li>Unsupported assertions or statements</li>
+        <li>Inflammatory or insulting language</li>
+      </ul>
+      <form name="contextActionForm" id="contextActionForm" class="clearfix buttons" method="post" action="">
+        <input type="button" name="Continue" value="Continue" id="ContextActionDialogContinueButton" onmouseup="ambra.displayAnnotationContext.startComment(event);" title="Add a note to this text" class="primary"/>
+        <input type="button" name="Cancel" value="Cancel" id="ContextActionDialogCancelButton" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);" title="Close this Window"/>
+      </form>
+    </div>
+    <div class="tip" id="caTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogNotLogged" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canlTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You must be logged in to add a note to an article.
+      You may log in by <a onmousedown="ambra.displayAnnotationContext.disconnect(event);" href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002674">clicking here</a> or <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">cancel this note</a>.
+    </div>
+    <div class="tip" id="canlTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogBadSelection" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canBDTipu"></div>
+    <div class="contextActionContent">
+      <h5 class="annotation icon"><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You cannot annotate this area of the document. <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">Close</a>
+    </div>
+    <div class="tip" id="canBDTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogBadRangeSelection" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canbrTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You cannot create an annotation that spans different sections of the document; please adjust your selection.<br/>
+      <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">Close</a>
+    </div>
+    <div class="tip" id="canbrTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.RegionalDialog" id="CommentDialog" style="padding:0;margin:0;">
+  <div class="dialog preview">
+    <div class="tipu" id="cTipu"></div>
+    <div class="btn close" id="btn_close" title="Click to close"><a title="Click to close">Close</a></div>
+    <div id="cmtContainer" class="comment">
+      <h6 id="viewCmtTitle"></h6>
+      <div class="detail" id="viewCmtDetail"></div>
+      <div class="contentwrap" id="viewComment"></div>
+      <div class="contentwrap" id="viewCIStatement"></div>
+      <div class="detail" id="viewLink">
+        <!--<a href="#" class="commentary icon" title="Click to view full thread and respond">View all responses</a>
+        <a href="#" class="respond tooltip" title="Click to respond to this posting">Respond to this</a>-->
+      </div>
+    </div>
+    <div class="tip" id="cTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.RegionalDialog" id="CommentDialogMultiple" style="padding:0;margin:0;">
+  <div class="dialog multiple preview">
+    <div class="tipu" id="mTipu"></div>
+    <div class="btn close" id="btn_close_multi" title="Click to close"><a title="Click to close">Close</a></div>
+    <ol id="multilist"></ol>
+    <br/>
+    <div id="multidetail"></div>
+    <div class="tip" id="mTip"></div>
+  </div>
+</div>
+
+
+<div dojoType="dijit.Dialog" id="Rating">
+  <div class="dialog annotate">
+    <div class="tipu" id="dTipu"></div>
+    <div class="comment">
+      <h5><span>Rate This Article</span></h5>
+      <div class="instructions">Please follow our <a  href="/static/ratingGuidelines.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C">guidelines for rating</a> and review our <a href="/static/competing.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C">competing interests policy</a>. Comments that do not conform to our guidelines will be promptly removed and the user account disabled. The following must be avoided:
+        <ol>
+          <li>Remarks that could be interpreted as allegations of misconduct</li>
+          <li>Unsupported assertions or statements</li>
+          <li>Inflammatory or insulting language</li>
+        </ol>
+      </div>
+      <div class="posting pane">
+        <form name="ratingForm" id="ratingForm" method="post" action="">
+          <input type="hidden" name="articleURI" value="info:doi/10.1371/journal.pcbi.1002674" />  
+          <input type="hidden" name="commentTitle" id="commentTitle" value="" />
+          <input type="hidden" name="comment" id="commentArea" value="" />
+          <input type="hidden" name="ciStatement" id="statementArea" value="" />
+          <input type="hidden" name="isCompetingInterest" id="isCompetingInterest" value="" />
+          <fieldset>
+            <legend>Compose Your Annotation</legend>
+            <span id="submitRatingMsg" class="error" style="display:none;"></span>
+            <table class="layout">
+              <tr>
+                <td rowspan="2">
+                  <label for="insight">Insight</label>
+                  <ul class="star-rating rating edit" title="Rate insight" id="rateInsight">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Bland" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'insight', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Profound" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="insight" title="insight" value="" />
+                  <label for="reliability">Reliability</label>
+                  <ul class="star-rating rating edit" title="Rate reliability" id="rateReliability">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Tenuous" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'reliability', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Unassailable" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="reliability" title="reliability" value="" />
+                  <label for="style">Style</label>
+                  <ul class="star-rating rating edit" title="Rate style" id="rateStyle">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Crude" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'style', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Elegant" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="style" title="style" value="" />
+                  <label for="cTitle"><span class="none">Enter your comment title</span><!-- error message text <em>A title is required for all public annotations</em>--></label>
+                  <input type="text" name="cTitle" id="cTitle" value="Enter your comment title..." class="title" alt="Enter your comment title..." />
+                  <label for="cArea"><span class="none">Enter your comment</span><!-- error message text <em>Please enter your annotation</em>--></label>
+                  <textarea name="cArea" id="cArea" value="Enter your comment..." alt="Enter your comment...">Enter your comment...</textarea>
+                </td>
+                <td rowspan="2">&nbsp;</td>
+                <td class="coi">
+                  <fieldset>
+                    <legend>Declare any competing interests.</legend>
+                    <ul>
+                      <li><label><input id="isCompetingInterestNo" type="radio" name="competingInterest" value="false"  /> No, I don't have any competing interests to declare.</label></li>
+                      <li><label><input id="isCompetingInterestYes" type="radio" name="competingInterest" value="true"  /> Yes, I have competing interests to declare (enter below):</label></li>
+                    </ul>
+                    <textarea name="ciStatementArea" id="ciStatementArea" disabled value="Enter your competing interests..." title="Enter your competing interests...">Enter your competing interests...</textarea>
+                  </fieldset>
+                </td>
+              </tr>
+              <tr>
+                <td class="buttons">
+                  <input type="button" value="Cancel" title="Click to close and cancel" id="btn_cancel_rating"/>
+                  <input type="button" value="Submit" title="Click to post your annotation publicly" id="btn_post_rating" class="primary"/>
+                </td>
+              </tr>
+              <tr>
+                  <td colspan="3"><p>Ratings can include the following markup tags:</p>
+                  <p><strong>Emphasis:</strong> ''<em>italic</em>''&nbsp;&nbsp;'''<strong>bold</strong>'''&nbsp;&nbsp;'''''<strong><em>bold italic</em></strong>'''''</p>
+                  <p><strong>Other:</strong> ^^<sup>superscript</sup>^^&nbsp;&nbsp;~~<sub>subscript</sub>~~</p></td>
+              </tr>
+            </table>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div dojoType="ambra.widget.LoadingCycle" id="LoadingCycle" class="loadingCycler">
+  <img src="/images/loading.gif" width="58" height="58" title="Loading..." />
+</div>
+<div dojoType="dijit.Dialog" id="LightBox">
+
+    <!-- start main window wrapper-->
+    <div class="figure-window-wrapper">
+
+      <!--start film strip Wrapper-->
+      <div class="figure-window-nav-wrapper">
+        <div id="figure-window-nav"></div>
+      </div><!--end figure-window-nav-wrapper-->
+
+      <!-- start figure container-->
+      <div class="figure-window-container">
+
+        <!-- start/end figure viewer-->
+        <div id="figure-window-viewer">
+          <img id="figure-window-img" class="large"/>
+        </div>
+
+        <!-- start/end figure doi-->
+        <div id="figure-window-doi"></div>
+
+        <!--start figure title-box-->
+        <div id="figure-window-title-box" class="figure-window-title-less">
+          <span id="figure-window-title"></span>
+          <div id="figure-window-more" class="figure-window-more" onclick="return ambra.lightBox.showMoreOrLess();"></div>
+          <div id="figure-window-description"></div>
+        </div><!--end figure title-box-->
+
+        <!--start figure download-->
+        <div class="figure-window-download">
+          <ul>
+            <li class="download icon"><strong>Download:</strong>
+              <a id="figure-window-ppt" title="Click to download PowerPoint slide of this image">PowerPoint
+                slide</a> |
+              <a id="figure-window-large" title="Click to download a larger version of this image">larger image
+                (<span id="figure-window-large-size"></span>)</a> |
+              <a id="figure-window-tiff" title="Click to download a original version of this image">original image
+                (<span id="figure-window-tiff-size"></span>)</a>
+            </li>
+          </ul>
+        </div><!--end figure download-->
+
+        <!--start/end of close, context, next and previous button-->
+        <div class="figure-window-close" onclick="return ambra.lightBox.hide();"></div>
+        <div class="figure-window-context" onclick="return ambra.lightBox.showInContext();"></div>
+        <div id="figure-window-previous" onclick="return ambra.lightBox.showPrevious();"></div>
+        <div id="figure-window-next" onclick="return ambra.lightBox.showNext();"></div>
+
+      </div><!--end figure-window-container-->
+
+    </div><!--end figure-window-wrapper-->
+
+</div><!--end dijit.Dialog-->
+</div>
+</div>
+<!-- end : main contents -->
+
+</div>
+<!-- end : container -->	
+
+<!-- begin : footer -->
+<div id="ftr">
+  <p><span>All site content, except where otherwise noted, is licensed under a <a href="http://creativecommons.org/licenses/by/2.5/" title="Creative Commons Attribution License 2.5" tabindex="200">Creative Commons Attribution License</a>.</span></p>
+  <ul>
+    <li><a href="/static/privacy.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C" title="PLOS Privacy Statement" tabindex="501">Privacy Statement</a></li>
+    <li><a href="/static/terms.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C" title="PLOS Terms of Use" tabindex="502">Terms of Use</a></li>
+    <li><a href="http://www.plos.org/advertise/" title="Advertise With PLOS" tabindex="503">Advertise</a></li>
+    <li><a href="http://www.plos.org/about/media-inquiries/" title="PLOS Embargo Policy" tabindex="504">Media Inquiries</a></li>
+    <li><a href="http://www.plos.org/publish/order-reprints/" title="PLOS in Print" tabindex="505">PLOS in Print</a></li>
+    <li><a href="/static/sitemap.action;jsessionid=C3A15FB8E10246BCDF69AD0FD98F7E5C" title="Site Map" tabindex="506">Site Map</a></li>
+    <li><a href="http://www.plos.org" title="PLOS.org" tabindex="507">PLOS.org</a></li>
+  </ul>
+  <div class="powered">
+  <ul>
+    <li><a href="/static/releaseNotes.action" title="Ambra | Release Notes">Ambra 2.4.9</a></li>
+    <li>Managed Colocation provided by <a href="http://www.isc.org/" title="Internet Systems Consortium">Internet Systems Consortium</a>.</li>
+  </ul>
+  </div>
+</div>
+<!-- end : footer -->
+<script type="text/javascript">
+  var _namespace="";
+    var loggedIn = false;
+
+  var almHost = "http://alm.plos.org";
+  var solrHost = "http://api.plos.org/search";
+  var pubGetHost = "http://pubget.com/widgetizer/links_hash";
+  var appContext = "";
+
+  // Safari v3.1.1 "console.debug" issue (http://trac.dojotoolkit.org/ticket/6849) workaround
+  if (/3[\.0-9]+ Safari/.test(navigator.appVersion)) {
+    window.console = {
+      origConsole: window.console,
+      log: function(s){ this.origConsole.log(s); },
+      info: function(s){ this.origConsole.info(s); },
+      error: function(s){ this.origConsole.error(s); },
+      warn: function(s){ this.origConsole.warn(s); }
+    };
+  }
+
+  var djConfig = {
+    // don't debug for IE - as dojo's firebug lite module is error prone in IE
+    isDebug: false,
+    parseOnLoad: true
+  };
+
+  var bamGAID = 'UA-338393-1';
+  var bamGAVPV = location.pathname + location.search + location.hash;
+</script>
+<script type="text/javascript" src="/javascript/dojo/dojo/dojo.js?v=pzlwVCPPo+oJC12upPgJrJ5EG_k"></script>
+<script type="text/javascript" src="/javascript/dojo/dojo/ambra.js?v=Y8JM0CVD9YwjC99M_jvbcRTiGhY"></script>
+<script type="text/javascript" src="/javascript/init_global.js?v=fF03pfG3r+Nkj_czZ8ORg8o5sNM"></script>
+<script type="text/javascript" src="/javascript/init_article.js?v=qzBD_a7nKbeMM2xNUtB3vckN+Zc"></script>
+<script type="text/javascript" src="/javascript/init_ratings.js?v=seKykuS0X33CQGS7Lj+8FtBy5Uw"></script>
+<script type="text/javascript" src="/javascript/init_lightBox.js?v=vJRLPy7RRX8Zp31Ogcm3i+TA4f8"></script>
+<script type="text/javascript" src="/javascript/init_article_body.js?v=YgFei2xCi50CahwaPbSsxUxUsmw"></script>
+<script type="text/javascript" src="/javascript/init_article_rhc.js?v=djtbTMOagorKE6ZPrkCwufAfWWI"></script>
+<script type="text/javascript" src="/javascript/alm.js?v=1tH9JZ8uDtXspXssGJDr8O+jBOs"></script>
+<script type="text/javascript" src="/javascript/reporting/articleViewsCumulative.js?v=RQ+gCrcAl0dBeLbmokxgQZTGYYA"></script>
+<script type="text/javascript" src="/javascript/check_twitter.js?v=Hc0sH1W9xIu0qhqxWPD4c1u50K4"></script>
+<script type="text/javascript" src="/javascript/init_googleAnalytics.js?v=yCD4h9PHGI0dsefmuWDlMn7pHog"></script>
+
+</body>
+</html>
+

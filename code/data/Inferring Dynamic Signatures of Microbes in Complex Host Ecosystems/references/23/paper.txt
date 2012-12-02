@@ -1,0 +1,4 @@
+Bayesian infinite mixture model based clustering of gene expression profiles.
+Medvedovic M, Sivaganesan S
+Abstract:
+None

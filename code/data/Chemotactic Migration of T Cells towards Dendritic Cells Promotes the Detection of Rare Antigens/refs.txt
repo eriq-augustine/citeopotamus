@@ -1,53 +1,53 @@
 REFERENCES
-[1]	Blattman JN, Antia R, Sourdive DJD, Wang X, Kaech SM, et al. (2002) Estimating the precursor frequency of naive antigen-specific CD8+ T cells. J Exp Med 195: 657–664. 
-[2]	Germain RN, Castellino F, Chieppa M, Egen JG, Huang AYC, et al. (2005) An extended vision for dynamic high-resolution intravital immune imaging. Semin Immunol 17: 431–441. 
-[3]	Kastenmller W, Gerner MY, Germain RN (2010) The in situ dynamics of dendritic cell interactions. Eur J Immunol 40: 2103–2106. 
-[4]	Miller MJ, Wei SH, Parker I, Cahalan MD (2002) Two-photon imaging of lymphocyte motility and antigen response in intact lymph node. Science 296: 1869–1873. 
+[1]	Blattman JN, Antia R, Sourdive DJD, Wang X, Kaech SM, et al. (2002) Estimating the precursor frequency of naive antigen-specific CD8+ T cells. J Exp Med 195: 657–664. doi: 10.1084/jem.20001021. 
+[2]	Germain RN, Castellino F, Chieppa M, Egen JG, Huang AYC, et al. (2005) An extended vision for dynamic high-resolution intravital immune imaging. Semin Immunol 17: 431–441. doi: 10.1016/j.smim.2005.09.003. 
+[3]	Kastenmller W, Gerner MY, Germain RN (2010) The in situ dynamics of dendritic cell interactions. Eur J Immunol 40: 2103–2106. doi: 10.1002/eji.201040482. 
+[4]	Miller MJ, Wei SH, Parker I, Cahalan MD (2002) Two-photon imaging of lymphocyte motility and antigen response in intact lymph node. Science 296: 1869–1873. doi: 10.1126/science.1070051. 
 [5]	Bousso P, Robey E (2003) Dynamics of CD8+ T cell priming by dendritic cells in intact lymph nodes. Nat Immunol 4: 579–585. 
-[6]	Miller MJ, Wei SH, Cahalan MD, Parker I (2003) Autonomous T cell trafficking examined in vivo with intravital two-photon microscopy. Proc Natl Acad Sci USA 100: 2604–2609. 
+[6]	Miller MJ, Wei SH, Cahalan MD, Parker I (2003) Autonomous T cell trafficking examined in vivo with intravital two-photon microscopy. Proc Natl Acad Sci USA 100: 2604–2609. doi: 10.1073/pnas.2628040100. 
 [7]	Mempel TR, Henrickson SE, Andrian UHV (2004) T-cell priming by dendritic cells in lymph nodes occurs in three distinct phases. Nature 427: 154–159. 
 [8]	Miller MJ, Safrina O, Parker I, Cahalan MD (2004) Imaging the single cell dynamics of CD4+ T cell activation by dendritic cells in lymph nodes. J Exp Med 200: 847–856. 
-[9]	Beltman JB, Henrickson SE, Von Andrian UH, De Boer RJ, Marée AFM (2009) Towards estimating the true duration of dendritic cell interactions with T cells. J Immunol Methods 347: 54–69. 
-[10]	Smith CM, Wilson NS, Waithman J, Villadangos JA, Carbone FR, et al. (2004) Cognate CD4+ T cell licensing of dendritic cells in CD8+ T cell immunity. Nat Immunol 5: 1143–1148. 
+[9]	Beltman JB, Henrickson SE, Von Andrian UH, De Boer RJ, Marée AFM (2009) Towards estimating the true duration of dendritic cell interactions with T cells. J Immunol Methods 347: 54–69. doi: 10.1016/j.jim.2009.05.013. 
+[10]	Smith CM, Wilson NS, Waithman J, Villadangos JA, Carbone FR, et al. (2004) Cognate CD4+ T cell licensing of dendritic cells in CD8+ T cell immunity. Nat Immunol 5: 1143–1148. doi: 10.1038/ni1129. 
 [11]	Hugues S, Scholer A, Boissonnas A, Nussbaum A, Combadiere C, et al. (2007) Dynamic imaging of chemokine-dependent CD8+ T cell help for CD8+ T cell responses. Nat Immunol 8: 921–930. 
 [12]	Semmling V, Lukacs-Kornek V, Thaiss CA, Quast T, Hochheiser K, et al. (2010) Alternative crosspriming through CCL17-CCR4-mediated attraction of CTLs toward NKT cell-licensed DCs. Nat Immunol 11: 313–320. 
 [13]	Beuneu H, Garcia Z, Bousso P (2006) Cutting edge: Cognate CD4 help promotes recruitment of antigen-specific CD8+ T cells around dendritic cells. J Immunol 177: 1406–1410. 
 [14]	Castellino F, Germain RN (2006) Cooperation between CD4+ and CD8+ T cells: when, where, and how. Annu Rev Immunol 24: 519–40. 
-[15]	Wei SH, Parker I, Miller MJ, Cahalan MD (2003) A stochastic view of lymphocyte motility and trafficking within the lymph node. Immunol Rev 195: 136–159. 
-[16]	Riggs T, Walts A, Perry N, Bickle L, Lynch JN, et al. (2008) A comparison of random vs. chemotaxis-driven contacts of T cells with dendritic cells during repertoire scanning. J Theor Biol 250: 732–751. 
-[17]	Bogle G, Dunbar PR (2010) T cell responses in lymph nodes. Wiley Interdiscip Rev Syst Biol Med 2: 107–116. 
+[15]	Wei SH, Parker I, Miller MJ, Cahalan MD (2003) A stochastic view of lymphocyte motility and trafficking within the lymph node. Immunol Rev 195: 136–159. doi: 10.1034/j.1600-065X.2003.00076.x. 
+[16]	Riggs T, Walts A, Perry N, Bickle L, Lynch JN, et al. (2008) A comparison of random vs. chemotaxis-driven contacts of T cells with dendritic cells during repertoire scanning. J Theor Biol 250: 732–751. doi: 10.1016/j.jtbi.2007.10.015. 
+[17]	Bogle G, Dunbar PR (2010) T cell responses in lymph nodes. Wiley Interdiscip Rev Syst Biol Med 2: 107–116. doi: 10.1002/wsbm.47. 
 [18]	Marée AFM, Hogeweg P (2001) How amoeboids self-organize into a fruiting body: multicellular coordination in Dictyostelium discoideum. Proc Natl Acad Sci USA 98: 3879–3883. 
-[19]	Graner F, Glazier JA (1992) Simulation of biological cell sorting using a two-dimensional extended Potts model. Phys Rev Lett 69: 2013–2016. 
+[19]	Graner F, Glazier JA (1992) Simulation of biological cell sorting using a two-dimensional extended Potts model. Phys Rev Lett 69: 2013–2016. doi: 10.1103/PhysRevLett.69.2013. 
 [20]	Glazier JA, Graner F (1993) Simulation of the differential adhesion driven rearrangement of biologicalcells. Phys Rev E 47: 2128–2154. 
 [21]	Marée AFM, Grieneisen VA, Hogeweg P (2007) The Cellular Potts Model and biophysical properties of cells, tissues and morphogenesis. In: Anderson ARA, Chaplain MAJ, Rejniak KA, editors. Single-Cell-Based Models in Biology and Medicine. Basel: Birkhäuser Verlag. pp. 107–136. 
 [22]	Käfer J, Hayashi T, Marée AFM, Carthew RW, Graner F (2007) Cell adhesion and cortex contractility determine cell patterning in the Drosophila retina. Proc Natl Acad Sci USA 104: 18549–18554. 
-[23]	Marmottant P, Mgharbel A, Käfer J, Audren B, Rieu JP, et al. (2009) The role of fluctuations and stress on the effective viscosity of cell aggregates. Proc Natl Acad Sci USA 106: 17271–17275. 
+[23]	Marmottant P, Mgharbel A, Käfer J, Audren B, Rieu JP, et al. (2009) The role of fluctuations and stress on the effective viscosity of cell aggregates. Proc Natl Acad Sci USA 106: 17271–17275. doi: 10.1073/pnas.0902085106. 
 [24]	Marée AFM, Jilkine A, Dawes A, Grieneisen VA, Edelstein-Keshet L (2006) Polarization andmovement of keratocytes: a multiscale modelling approach. Bull Math Biol 68: 1169–1211. 
-[25]	Marée AFM, Grieneisen VA, Edelstein-Keshet L (2012) How cells integrate complex stimuli: the effect of feedback from phosphoinositides and cell shape on cell polarization and motility. PLoS Comput Biol 8: e1002402. 
+[25]	Marée AFM, Grieneisen VA, Edelstein-Keshet L (2012) How cells integrate complex stimuli: the effect of feedback from phosphoinositides and cell shape on cell polarization and motility. PLoS Comput Biol 8: e1002402. doi: 10.1371/journal.pcbi.1002402. 
 [26]	Beltman JB, Marée AFM, Lynch JN, Miller MJ, De Boer RJ (2007) Lymph node topology dictates T cell migration behaviour. J Exp Med 204: 771–780. 
-[27]	Beltman JB, Marée AFM, De Boer RJ (2007) Spatial modelling of brief and long interactions between T cells and dendritic cells. Immunol Cell Biol 85: 306–314. 
-[28]	Savill NJ, Hogeweg P (1997) Modelling morphogenesis: From single cells to crawling slugs. J Theor Biol 184: 229–235. 
-[29]	Käfer J, Hogeweg P, Marée AFM (2006) Moving forward moving backward: directional sorting of chemotactic cells due to size and adhesion differences. PLoS Comput Biol 2: e56. 
-[30]	Merks RMH, Perryn ED, Shirinifard A, Glazier JA (2008) Contact-inhibited chemotaxis in de novo and sprouting blood-vessel growth. PLoS Comput Biol 4: e1000163. 
-[31]	Mionnet C, Sanos SL, Mondor I, Jorquera A, Laugier JP, et al. (2011) High endothelial venules as traffic control points maintaining lymphocyte population homeostasis in lymph nodes. Blood 118: 6115–6122. 
-[32]	Lindquist RL, Shakhar G, Dudziak D, Wardemann H, Eisenreich T, et al. (2004) Visualizing dendritic cell networks in vivo. Nat Immunol 5: 1243–50. 
-[33]	Allan RS, Waithman J, Bedoui S, Jones CM, Villadangos JA, et al. (2006) Migratory dendritic cells transfer antigen to a lymph node-resident dendritic cell population for efficient ctl priming. Immunity 25: 153–162. 
-[34]	Hugues S, Fetler L, Bonifaz L, Helft J, Amblard F, et al. (2004) Distinct T cell dynamics in lymph nodes during the induction of tolerance and immunity. Nat Immunol 5: 1235–1242. 
-[35]	Beltman JB, Marée AF, de Boer RJ (2009) Analysing immune cell migration. Nat Rev Immunol 9: 789–98. 
+[27]	Beltman JB, Marée AFM, De Boer RJ (2007) Spatial modelling of brief and long interactions between T cells and dendritic cells. Immunol Cell Biol 85: 306–314. doi: 10.1038/sj.icb.7100054. 
+[28]	Savill NJ, Hogeweg P (1997) Modelling morphogenesis: From single cells to crawling slugs. J Theor Biol 184: 229–235. doi: 10.1006/jtbi.1996.0237. 
+[29]	Käfer J, Hogeweg P, Marée AFM (2006) Moving forward moving backward: directional sorting of chemotactic cells due to size and adhesion differences. PLoS Comput Biol 2: e56. doi: 10.1371/journal.pcbi.0020056. 
+[30]	Merks RMH, Perryn ED, Shirinifard A, Glazier JA (2008) Contact-inhibited chemotaxis in de novo and sprouting blood-vessel growth. PLoS Comput Biol 4: e1000163. doi: 10.1371/journal.pcbi.1000163. 
+[31]	Mionnet C, Sanos SL, Mondor I, Jorquera A, Laugier JP, et al. (2011) High endothelial venules as traffic control points maintaining lymphocyte population homeostasis in lymph nodes. Blood 118: 6115–6122. doi: 10.1182/blood-2011-07-367409. 
+[32]	Lindquist RL, Shakhar G, Dudziak D, Wardemann H, Eisenreich T, et al. (2004) Visualizing dendritic cell networks in vivo. Nat Immunol 5: 1243–50. doi: 10.1038/ni1139. 
+[33]	Allan RS, Waithman J, Bedoui S, Jones CM, Villadangos JA, et al. (2006) Migratory dendritic cells transfer antigen to a lymph node-resident dendritic cell population for efficient ctl priming. Immunity 25: 153–162. doi: 10.1016/j.immuni.2006.04.017. 
+[34]	Hugues S, Fetler L, Bonifaz L, Helft J, Amblard F, et al. (2004) Distinct T cell dynamics in lymph nodes during the induction of tolerance and immunity. Nat Immunol 5: 1235–1242. doi: 10.1038/ni1134. 
+[35]	Beltman JB, Marée AF, de Boer RJ (2009) Analysing immune cell migration. Nat Rev Immunol 9: 789–98. doi: 10.1038/nri2638. 
 [36]	Castellino F, Huang AY, Altan-Bonnet G, Stoll S, Scheinecker C, et al. (2006) Chemokines enhance immunity by guiding naive CD8+ T cells to sites of CD4+ T cell-dendritic cell interaction. Nature 440: 890–895. 
 [37]	Reischuk R, Textor J (2011) Stochastic search with locally clustered targets: Learning from T cells. Lect Notes Comput Sc 6825: 146–159. 
-[38]	Beltman JB, Allen CD, Cyster JG, de Boer RJ (2011) B cells within germinal centers migrate preferentially from dark to light zone. Proc Natl Acad Sci USA 108: 8755–8760. 
-[39]	Schwickert TA, Lindquist RL, Shakhar G, Livshits G, Skokos D, et al. (2007) In vivo imaging of germinal centres reveals a dynamic open structure. Nature 446: 83–7. 
-[40]	Textor J, Peixoto A, Henrickson S, Sinn M, von Andrian UH (2011) Defining the quantitative limits of intravital two-photon lymphocyte tracking. Proc Natl Acad Sci USA 108: 12401–12406. 
-[41]	Helbing D, Buzna L, Johansson A, Werner T (2005) Self-organized pedestrian crowd dynamics: Experiments, simulations, and design solutions. Transport Sci 39: 1–24. 
-[42]	Moser B, Wolf M, Walz A, Loetscher P (2004) Chemokines: multiple levels of leukocyte migration control. Trends Immunol 25: 75–84. 
+[38]	Beltman JB, Allen CD, Cyster JG, de Boer RJ (2011) B cells within germinal centers migrate preferentially from dark to light zone. Proc Natl Acad Sci USA 108: 8755–8760. doi: 10.1073/pnas.1101554108. 
+[39]	Schwickert TA, Lindquist RL, Shakhar G, Livshits G, Skokos D, et al. (2007) In vivo imaging of germinal centres reveals a dynamic open structure. Nature 446: 83–7. doi: 10.1038/nature05573. 
+[40]	Textor J, Peixoto A, Henrickson S, Sinn M, von Andrian UH (2011) Defining the quantitative limits of intravital two-photon lymphocyte tracking. Proc Natl Acad Sci USA 108: 12401–12406. doi: 10.1073/pnas.1102288108. 
+[41]	Helbing D, Buzna L, Johansson A, Werner T (2005) Self-organized pedestrian crowd dynamics: Experiments, simulations, and design solutions. Transport Sci 39: 1–24. doi: 10.1287/trsc.1040.0108. 
+[42]	Moser B, Wolf M, Walz A, Loetscher P (2004) Chemokines: multiple levels of leukocyte migration control. Trends Immunol 25: 75–84. doi: 10.1016/j.it.2003.12.005. 
 [43]	DeFea KA (2007) Stop that cell! beta-arrestin-dependent chemotaxis: A tale of localized actin assembly and receptor desensitization. Annu Rev Physiol 69: 535–560. 
-[44]	Huang J, Zarnitsyna VI, Liu B, Edwards LJ, Jiang N, et al. (2010) The kinetics of two-dimensional TCR and pMHC interactions determine T-cell responsiveness. Nature 464: 932–936. 
-[45]	Molon B, Gri G, Bettella M, Gomez-Mouton C, Lanzavecchia A, et al. (2005) T cell costimulation by chemokine receptors. Nat Immunol 6: 465–471. 
-[46]	Grakoui A, Bromley SK, Sumen C, Davis MM, Shaw AS, et al. (1999) The immunological synapse: A molecular machine controlling T cell activation. Science 285: 221–227. 
-[47]	Bogle G, Dunbar PR (2008) Simulating T-cell motility in the lymph node paracortex with a packed lattice geometry. Immunol Cell Biol 86: 676–687. 
+[44]	Huang J, Zarnitsyna VI, Liu B, Edwards LJ, Jiang N, et al. (2010) The kinetics of two-dimensional TCR and pMHC interactions determine T-cell responsiveness. Nature 464: 932–936. doi: 10.1038/nature08944. 
+[45]	Molon B, Gri G, Bettella M, Gomez-Mouton C, Lanzavecchia A, et al. (2005) T cell costimulation by chemokine receptors. Nat Immunol 6: 465–471. doi: 10.1038/ni1191. 
+[46]	Grakoui A, Bromley SK, Sumen C, Davis MM, Shaw AS, et al. (1999) The immunological synapse: A molecular machine controlling T cell activation. Science 285: 221–227. doi: 10.1126/science.285.5425.221. 
+[47]	Bogle G, Dunbar PR (2008) Simulating T-cell motility in the lymph node paracortex with a packed lattice geometry. Immunol Cell Biol 86: 676–687. doi: 10.1038/icb.2008.60. 
 [48]	Figge MT, Garin A, Gunzer M, Kosco-Vilbois M, Toellner KM, et al. (2008) Deriving a germinal center lymphocyte migration model from two-photon data. J Exp Med 205: 3019–3029. 
-[49]	Graw F, Regoes RR (2009) Investigating CTL mediated killing with a 3D cellular automaton. PLoS Comput Biol 5: e1000466. 
-[50]	Baldazzi V, Paci P, Bernaschi M, Castiglione F (2009) Modeling lymphocyte homing and encounters in lymph nodes. BMC Bioinformatics 10: 387. 
-[51]	Bajénoff M, Egen JG, Qi H, Huang AY, Castellino F, et al. (2007) Highways, byways and breadcrumbs: directing lymphocyte traffic in the lymph node. Trends Immunol 28: 346–52. 
+[49]	Graw F, Regoes RR (2009) Investigating CTL mediated killing with a 3D cellular automaton. PLoS Comput Biol 5: e1000466. doi: 10.1371/journal.pcbi.1000466. 
+[50]	Baldazzi V, Paci P, Bernaschi M, Castiglione F (2009) Modeling lymphocyte homing and encounters in lymph nodes. BMC Bioinformatics 10: 387. doi: 10.1186/1471-2105-10-387. 
+[51]	Bajénoff M, Egen JG, Qi H, Huang AY, Castellino F, et al. (2007) Highways, byways and breadcrumbs: directing lymphocyte traffic in the lymph node. Trends Immunol 28: 346–52. doi: 10.1016/j.it.2007.06.005. 
 [52]	Fürth R (1920) Die Brownsche Bewegung bei Berücksichtigung einer Persistenz der Bewegungsrichtung mit Anwendungen auf die Bewegung lebender Infusorien. Z Physik 2: 244–256. 

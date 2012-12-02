@@ -1,0 +1,6 @@
+TITLE: Comparing atomistic simulation data with the NMR experiment: how much can NOEs actually tell us?
+AUTHORS: Zagrovic B, van Gunsteren WF
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

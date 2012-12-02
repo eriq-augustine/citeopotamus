@@ -1,0 +1,6 @@
+TITLE: Extending the treatment of backbone energetics in protein force fields: limitations of gas-phase quantum mechanics in reproducing protein conformational distributions in molecular dynamics simulations.
+AUTHORS: Mackerell AD Jr, Feig M, Brooks CL 3rd
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

@@ -1,0 +1,4 @@
+Analysis of lipid surface area in protein-membrane systems combining Voronoi tessellation and Monte Carlo integration methods.
+Mori T, Ogushi F, Sugita Y
+Abstract:
+None

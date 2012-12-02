@@ -1,0 +1,4 @@
+Target RNA motif and target mRNAs of the Quaking STAR protein.
+Galarneau A, Richard S
+Abstract:
+Quaking viable (Qk(v)) mice have developmental defects that result in their characteristic tremor. The quaking (Qk) locus expresses alternatively spliced RNA-binding proteins belonging to the STAR family. To characterize the RNA binding specificity of the QKI proteins, we selected for RNA species that bound QKI from random pools of RNAs and defined the QKI response element (QRE) as a bipartite consensus sequence NACUAAY-N(1-20)-UAAY. A bioinformatic analysis using the QRE identified the three known RNA targets of QKI and 1,430 new putative mRNA targets, of which 23 were validated in vivo. A large proportion of the mRNAs are implicated in development and cell differentiation, as predicted from the phenotype of the Qk(v) mice. In addition, 24% are implicated in cell growth and/or maintenance, suggesting a role for QKI in cancer.

@@ -1,0 +1,6 @@
+TITLE: The GLEaMviz computational tool, a publicly available software to explore realistic epidemic spreading scenarios at the global scale.
+AUTHORS: Van den Broeck W, Gioannini C, Gonçalves B, Quaggiotto M, Colizza V, Vespignani A
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

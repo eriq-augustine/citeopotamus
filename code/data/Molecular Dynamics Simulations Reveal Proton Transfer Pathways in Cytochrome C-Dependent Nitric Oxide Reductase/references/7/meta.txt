@@ -1,0 +1,6 @@
+TITLE: Was nitric oxide the first deep electron sink?
+AUTHORS: Ducluzeau AL, van Lis R, Duval S, Schoepp-Cothenet B, Russell MJ, Nitschke W
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Evolutionary histories of enzymes involved in chemiosmotic energy conversion indicate that a strongly oxidizing substrate was available to the last universal common ancestor before the divergence of Bacteria and Archaea. According to palaeogeochemical evidence, O(2) was not present beyond trace amounts on the early Earth. Based on recent phylogenetic, enzymatic and geochemical results, we propose that, in the earliest Archaean, nitric oxide (NO) and its derivatives nitrate and nitrite served as strongly oxidizing substrates driving the evolution of a bioenergetic pathway related to modern dissimilatory denitrification. Aerobic respiration emerged later from within this ancestral pathway via adaptation of the enzyme NO reductase to its new substrate, dioxygen.

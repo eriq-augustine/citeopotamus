@@ -1,0 +1,6 @@
+TITLE: Type 1 interferons and the virus-host relationship: a lesson in détente .
+AUTHORS: García-Sastre A, Biron CA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The interface between an infectious agent and its host represents the ultimate battleground for survival: The microbe must secure a niche for replication, whereas the host must limit the pathogen's advance. Among the host's arsenal of antimicrobial factors, the type 1 interferons (IFNs) induce potent defense mechanisms against viruses and are key in the host-virus standoff. Viruses have evolved multiple tricks to avoid the immediate antiviral effects of IFNs and, in turn, hosts have adapted use of this innate cytokine system to galvanize multiple additional layers of immune defense. The plasticity that exists in these interactions provides us with a lesson in détente.

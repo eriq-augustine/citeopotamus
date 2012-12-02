@@ -1,0 +1,6 @@
+TITLE: Multiple high-throughput analyses monitor the response of E. coli to perturbations.
+AUTHORS: Ishii N, Nakahigashi K, Baba T, Robert M, Soga T, Kanai A, Hirasawa T, Naba M, Hirai K, Hoque A, Ho PY, Kakazu Y, Sugawara K, Igarashi S, Harada S, Masuda T, Sugiyama N, Togashi T, Hasegawa M, Takai Y, Yugi K, Arakawa K, Iwata N, Toya Y, Nakayama Y, Nishioka T, Shimizu K, Mori H, Tomita M
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Analysis of cellular components at multiple levels of biological information can provide valuable functional insights. We performed multiple high-throughput measurements to study the response of Escherichia coli cells to genetic and environmental perturbations. Analysis of metabolic enzyme gene disruptants revealed unexpectedly small changes in messenger RNA and proteins for most disruptants. Overall, metabolite levels were also stable, reflecting the rerouting of fluxes in the metabolic network. In contrast, E. coli actively regulated enzyme levels to maintain a stable metabolic state in response to changes in growth rate. E. coli thus seems to use complementary strategies that result in a metabolic network robust against perturbations.

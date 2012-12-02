@@ -1,0 +1,4 @@
+The IUPS human Physiome Project.
+Hunter P, Robbins P, Noble D
+Abstract:
+The Physiome Project of the International Union of Physiological Sciences (IUPS) is attempting to provide a comprehensive framework for modelling the human body using computational methods which can incorporate the biochemistry, biophysics and anatomy of cells, tissues and organs. A major goal of the project is to use computational modelling to analyse integrative biological function in terms of underlying structure and molecular mechanisms. To support that goal the project is establishing web-accessible physiological databases dealing with model-related data, including bibliographic information, at the cell, tissue, organ and organ system levels. Here we discuss the background and goals of the project, the problems of modelling across multiple spatial and temporal scales, and the development of model ontologies and markup languages at all levels of biological function.

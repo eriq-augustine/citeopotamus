@@ -1,0 +1,4 @@
+Cytochrome c oxidase: exciting progress and remaining mysteries.
+Brzezinski P, Gennis RB
+Abstract:
+Cytochrome c oxidase generates a proton motive force by two separate mechanisms. The first mechanism is similar to that postulated by Peter Mitchell, and is based on electrons and protons used to generate water coming from opposite sides of the membrane. The second mechanism was not initially anticipated, but is now firmly established as a proton pump. A brief review of the current state of our understanding of the proton pump of cytochrome oxidase is presented. We have come a long way since the initial observation of the pump by Mårten Wikström in 1977, but a number of essential questions remain to be answered.

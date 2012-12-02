@@ -1,0 +1,6 @@
+TITLE: Modeling socio-demography to capture tuberculosis transmission dynamics in a low burden setting.
+AUTHORS: Guzzetta G, Ajelli M, Yang Z, Merler S, Furlanello C, Kirschner D
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

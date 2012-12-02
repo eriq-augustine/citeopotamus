@@ -1,0 +1,6 @@
+TITLE: The thalamus is more than just a relay.
+AUTHORS: Sherman SM
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The lateral geniculate nucleus and pulvinar are examples of two different types of relay: the former is a first order relay, transmitting information from a subcortical source (retina), while the latter is mostly a higher order relay, transmitting information from layer 5 of one cortical area to another cortical area. First and higher order thalamic relays can also be recognized for much of the rest of thalamus, and most of thalamus seems to be comprised of higher order relays. Higher order relays seem especially important to general corticocortical communication, and this challenges and extends the conventional view that such communication is based on direct corticocortical connections.

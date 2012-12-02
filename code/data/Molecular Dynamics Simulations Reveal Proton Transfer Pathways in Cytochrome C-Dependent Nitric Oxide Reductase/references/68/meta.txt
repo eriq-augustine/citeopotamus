@@ -1,0 +1,6 @@
+TITLE: Insights into the mechanism of proton transport in cytochrome c oxidase.
+AUTHORS: Yamashita T, Voth GA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

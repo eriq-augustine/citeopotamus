@@ -1,0 +1,4 @@
+Influenza A virus infection kinetics: quantitative data and models.
+Smith AM, Perelson AS
+Abstract:
+None

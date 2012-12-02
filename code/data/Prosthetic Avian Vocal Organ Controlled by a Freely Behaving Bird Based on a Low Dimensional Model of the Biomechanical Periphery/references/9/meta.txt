@@ -1,0 +1,6 @@
+TITLE: Acoustic signatures of sound source-tract coupling.
+AUTHORS: Arneodo EM, Perl YS, Mindlin GB
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

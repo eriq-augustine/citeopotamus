@@ -83,57 +83,57 @@ Text S2.
 Reduced model details. We define the reduced model and demonstrate that it accurately captures the behavior of the mechanistic model used in the main text.
 (PDF)
 REFERENCES
-[1]	Dunlap JC (1999) Molecular bases for circadian clocks. Cell 96: 271–290. 
-[2]	Ralph MR, Foster RG, Davis FC, Menaker M (1990) Transplanted suprachiasmatic nucleus determines circadian period. Science 247: 975–978. 
-[3]	Welsh DK, Logothetis DE, Meister M, Reppert SM (1995) Individual neurons dissociated from rat suprachiasmatic nucleus express independently phased circadian firing rhythms. Neuron 14: 697–706. 
-[4]	Liu C, Weaver DR, Strogatz SH, Reppert SM (1997) Cellular construction of a circadian clock: period determination in the suprachiasmatic nuclei. Cell 91: 855–860. 
+[1]	Dunlap JC (1999) Molecular bases for circadian clocks. Cell 96: 271–290. doi: 10.1016/S0092-8674(00)80566-8. 
+[2]	Ralph MR, Foster RG, Davis FC, Menaker M (1990) Transplanted suprachiasmatic nucleus determines circadian period. Science 247: 975–978. doi: 10.1126/science.2305266. 
+[3]	Welsh DK, Logothetis DE, Meister M, Reppert SM (1995) Individual neurons dissociated from rat suprachiasmatic nucleus express independently phased circadian firing rhythms. Neuron 14: 697–706. doi: 10.1016/0896-6273(95)90214-7. 
+[4]	Liu C, Weaver DR, Strogatz SH, Reppert SM (1997) Cellular construction of a circadian clock: period determination in the suprachiasmatic nuclei. Cell 91: 855–860. doi: 10.1016/S0092-8674(00)80473-0. 
 [5]	Herzog ED, Takahashi JS, Block GD (1998) Clock controls circadian period in isolated suprachiasmatic nucleus neurons. Nat Neurosci 1: 708–713. 
-[6]	Yamaguchi S, Isejima H, Matsuo T, Okura R, Yagita K, et al. (2003) Synchronization of cellular clocks in the suprachiasmatic nucleus. Science 302: 1408–1412. 
-[7]	Reppert SM, Weaver DR (2002) Coordination of circadian timing in mammals. Nature 418: 935–941. 
+[6]	Yamaguchi S, Isejima H, Matsuo T, Okura R, Yagita K, et al. (2003) Synchronization of cellular clocks in the suprachiasmatic nucleus. Science 302: 1408–1412. doi: 10.1126/science.1089287. 
+[7]	Reppert SM, Weaver DR (2002) Coordination of circadian timing in mammals. Nature 418: 935–941. doi: 10.1038/nature00965. 
 [8]	Zhang L, Jones CR, Ptacek LJ, Fu YH (2011) The genetics of the human circadian clock. Adv Genet 74: 231–247. 
-[9]	Yamada Y, Forger D (2010) Multiscale complexity in the mammalian circadian clock. Curr Opin Genet Dev 20: 626–633. 
-[10]	Webb AB, Angelo N, Huettner JE, Herzog ED (2009) Intrinsic, nondeterministic circadian rhythm generation in identified mammalian neurons. Proc Natl Acad Sci U S A 106: 16493–16498. 
-[11]	Ko CH, Yamada YR, Welsh DK, Buhr ED, Liu AC, et al. (2010) Emergence of noise-induced oscillations in the central circadian pacemaker. PLoS Biol 8: e1000513. 
-[12]	Evans JA, Leise TL, Castanon-Cervantes O, Davidson AJ (2011) Intrinsic regulation of spatiotemporal organization within the suprachiasmatic nucleus. PLoS One 6: e15869. 
-[13]	Foley NC, Tong TY, Foley D, Lesauter J, Welsh DK, et al. (2011) Characterization of orderly spatiotemporal patterns of clock gene activation in mammalian suprachiasmatic nucleus. Eur J Neurosci 33: 1851–1865. 
-[14]	Yan L, Okamura H (2002) Gradients in the circadian expression of Per1 and Per2 genes in the rat suprachiasmatic nucleus. Eur J Neurosci 15: 1153–1162. 
+[9]	Yamada Y, Forger D (2010) Multiscale complexity in the mammalian circadian clock. Curr Opin Genet Dev 20: 626–633. doi: 10.1016/j.gde.2010.09.006. 
+[10]	Webb AB, Angelo N, Huettner JE, Herzog ED (2009) Intrinsic, nondeterministic circadian rhythm generation in identified mammalian neurons. Proc Natl Acad Sci U S A 106: 16493–16498. doi: 10.1073/pnas.0902768106. 
+[11]	Ko CH, Yamada YR, Welsh DK, Buhr ED, Liu AC, et al. (2010) Emergence of noise-induced oscillations in the central circadian pacemaker. PLoS Biol 8: e1000513. doi: 10.1371/journal.pbio.1000513. 
+[12]	Evans JA, Leise TL, Castanon-Cervantes O, Davidson AJ (2011) Intrinsic regulation of spatiotemporal organization within the suprachiasmatic nucleus. PLoS One 6: e15869. doi: 10.1371/journal.pone.0015869. 
+[13]	Foley NC, Tong TY, Foley D, Lesauter J, Welsh DK, et al. (2011) Characterization of orderly spatiotemporal patterns of clock gene activation in mammalian suprachiasmatic nucleus. Eur J Neurosci 33: 1851–1865. doi: 10.1111/j.1460-9568.2011.07682.x. 
+[14]	Yan L, Okamura H (2002) Gradients in the circadian expression of Per1 and Per2 genes in the rat suprachiasmatic nucleus. Eur J Neurosci 15: 1153–1162. doi: 10.1046/j.1460-9568.2002.01955.x. 
 [15]	Quintero JE, Kuhlman SJ, McMahon DG (2003) The biological clock nucleus: a multiphasic oscillator network regulated by light. J Neurosci 23: 8070–8076. 
-[16]	Maywood ES, Chesham JE, O'Brien JA, Hastings MH (2011) A diversity of paracrine signals sustains molecular circadian cycling in suprachiasmatic nucleus circuits. Proc Natl Acad Sci U S A 108: 14306–11. 
-[17]	Davidson AJ, Castanon-Cervantes O, Leise TL, Molyneux PC, Harrington ME (2008) Visualizing jet lag in the mouse suprachiasmatic nucleus and peripheral circadian timing system. Eur J Neurosci 29: 171–80. 
-[18]	Leloup JC, Goldbeter A (2003) Toward a detailed computational model for the mammalian circadian clock. Proc Natl Acad Sci U S A 100: 7051–7056. 
-[19]	Forger DB, Peskin CS (2004) Stochastic simulation of the mammalian circadian clock. Proc Natl Acad Sci U S A 102: 321–324. 
-[20]	Leloup JC, Goldbeter A (2004) Modeling the mammalian circadian clock: Sensitivity analysis and multiplicity of oscillatory mechanisms. J Theor Biol 230: 541–562. 
-[21]	To TL, Henson MA, Herzog ED, Doyle FJ (2007) A Molecular Model for Intercellular Synchronization in the Mammalian Circadian Clock. Biophys J 92: 3792–3803. 
-[22]	Vasalou C, Herzog ED, Henson MA (2009) Small-World Network Models of Intercellular Coupling Predict Enhanced Synchronization in the Suprachiasmatic Nucleus. J Biol Rhythms 24: 243–254. 
-[23]	Gonze D, Bernard S, Waltermann C, Kramer A, Herzel H (2005) Spontaneous synchronization of coupled circadian oscillators. Biophys J 89: 120–129. 
+[16]	Maywood ES, Chesham JE, O'Brien JA, Hastings MH (2011) A diversity of paracrine signals sustains molecular circadian cycling in suprachiasmatic nucleus circuits. Proc Natl Acad Sci U S A 108: 14306–11. doi: 10.1073/pnas.1101767108. 
+[17]	Davidson AJ, Castanon-Cervantes O, Leise TL, Molyneux PC, Harrington ME (2008) Visualizing jet lag in the mouse suprachiasmatic nucleus and peripheral circadian timing system. Eur J Neurosci 29: 171–80. doi: 10.1111/j.1460-9568.2008.06534.x. 
+[18]	Leloup JC, Goldbeter A (2003) Toward a detailed computational model for the mammalian circadian clock. Proc Natl Acad Sci U S A 100: 7051–7056. doi: 10.1073/pnas.1132112100. 
+[19]	Forger DB, Peskin CS (2004) Stochastic simulation of the mammalian circadian clock. Proc Natl Acad Sci U S A 102: 321–324. doi: 10.1073/pnas.0408465102. 
+[20]	Leloup JC, Goldbeter A (2004) Modeling the mammalian circadian clock: Sensitivity analysis and multiplicity of oscillatory mechanisms. J Theor Biol 230: 541–562. doi: 10.1016/j.jtbi.2004.04.040. 
+[21]	To TL, Henson MA, Herzog ED, Doyle FJ (2007) A Molecular Model for Intercellular Synchronization in the Mammalian Circadian Clock. Biophys J 92: 3792–3803. doi: 10.1529/biophysj.106.094086. 
+[22]	Vasalou C, Herzog ED, Henson MA (2009) Small-World Network Models of Intercellular Coupling Predict Enhanced Synchronization in the Suprachiasmatic Nucleus. J Biol Rhythms 24: 243–254. doi: 10.1177/0748730409333220. 
+[23]	Gonze D, Bernard S, Waltermann C, Kramer A, Herzel H (2005) Spontaneous synchronization of coupled circadian oscillators. Biophys J 89: 120–129. doi: 10.1529/biophysj.104.058388. 
 [24]	Bernard S, Gonze D, Cajavec B, Herzel H, Kramer A (2007) Synchronization-Induced Rhythmicity of Circadian Oscillators in the Suprachiasmatic Nucleus. PLoS Comput Biol 3: e68. 
-[25]	Vasalou C, Henson MA (2011) A multicellular model for differential regulation of circadian signals in the core and shell regions of the suprachiasmatic nucleus. J Theor Biol 288: 44–56. 
-[26]	Hafner M, Koeppl H, Gonze D (2012) Effect of network architecture on synchronization and entrainment properties of the circadian oscillations in the suprachiasmatic nucleus. PLoS Comput Biol 8: e1002419. 
-[27]	Schroder S, Herzog ED, Kiss IZ (2012) Transcription-based oscillator model for light-induced splitting as antiphase circadian gene expression in the suprachiasmatic nuclei. J Biol Rhythms 27: 79–90. 
-[28]	Westermark PO, Welsh DK, Okamura H, Herzel H (2009) Quantification of circadian rhythms in single cells. PLoS Comput Biol 5: e1000580. 
-[29]	Granada AE, Herzel H (2009) How to achieve fast entrainment? The timescale to synchronization. PLoS One 4: e7057. 
-[30]	Leise TL, Wang CW, Gitis PJ, Welsh DK (2012) Persistent cell-autonomous circadian oscillations in fibroblasts revealed by six-week single-cell imaging of PER2:: LUC bioluminescence. PLoS One 7: e33334. 
-[31]	Taylor SR, Gunawan R, Petzold LR, Doyle FJ (2008) Sensitivity Measures for Oscillating Systems: Application to Mammalian Circadian Gene Network. IEEE Trans Automat Contr 53: 177–188. 
-[32]	Taylor SR, Webb AB, Smith KS, Petzold LR, Doyle FJ (2010) Velocity response curves support the role of continuous entrainment in circadian clocks. J Biol Rhythms 25: 138–149. 
-[33]	Abraham U, Granada AE, Westermark PO, Heine M, Kramer A, et al. (2010) Coupling governs entrainment range of circadian clocks. Mol Syst Biol 6: 438. 
-[34]	Buhr ED, Yoo SH, Takahashi JS (2010) Temperature as a universal resetting cue for mammalian circadian oscillators. Science 330: 379–385. 
-[35]	Yoo SH, Yamazaki S, Lowrey PL, Shimomura K, Ko CH, et al. (2004) Period2:: luciferase real-time reporting of circadian dynamics reveals persistent circadian oscillations in mouse peripheral tissues. Proc Natl Acad Sci U S A 101: 5339–5346. 
-[36]	Taylor AL, Hickey TJ, Prinz AA, Marder E (2006) Structure and visualization of high-dimensional conductance spaces. J Neurophysiol 96: 891–905. 
-[37]	Aton SJ, Colwell CS, Harmar AJ, Waschek J, Herzog ED (2005) Vasoactive intestinal polypeptide mediates circadian rhythmicity and synchrony in mammalian clock neurons. Nat Neurosci 8: 476–483. 
-[38]	Inagaki N, Honma S, Ono D, Tanahashi Y, Honma KI (2007) Separate oscillating cell groups in mouse suprachiasmatic nucleus couple photoperiodically to the onset and end of daily activity. Proc Natl Acad Sci U S A 104: 7664–7669. 
-[39]	Schaap J, Albus H, Tjebbe VH, Eilers PH, Detari L, et al. (2003) Heterogeneity of rhythmic suprachiasmatic nucleus neurons: Implications for circadian waveform and photoperiodic encoding. Proc Natl Acad Sci USA 100: 15994–15999. 
-[40]	Yan L, Karatsoreos I, Lesauter J, Welsh DK, Kay S, et al. (2007) Exploring spatiotemporal organization of SCN circuits. Cold Spring Harb Symp Quant Biol 72: 527–541. 
-[41]	Liu AC, Welsh DK, Ko CH, Tran HG, Zhang EE, et al. (2007) Intercellular Coupling Confers Robustness against Mutations in the SCN Circadian Clock Network. Cell 129: 605–616. 
-[42]	Loh DH, Dragich JM, Kudo T, Schroeder AM, Nakamura TJ, et al. (2011) Effects of vasoactive intestinal peptide genotype on circadian gene expression in the suprachiasmatic nucleus and peripheral organs. J Biol Rhythms 26: 200–209. 
-[43]	Virshup DM, Eide EJ, Forger DB, Gallego M, Harnish EV (2007) Reversible Protein Phosphorylation Regulates Circadian Rhythms. Cold Spring Harb Symp Quant Biol 72: 413–420. 
-[44]	Locke JC, Westermark PO, Kramer A, Herzel H (2008) Global parameter search reveals design principles of the mammalian circadian clock. BMC Syst Biol 2: 22. 
-[45]	Antle MC, Foley DK, Foley NC, Silver R (2003) Gates and oscillators: a network model of the brain clock. J Biol Rhythms 18: 339–350. 
-[46]	Antle MC, Foley NC, Foley DK, Silver R (2007) Gates and Oscillators II: Zeitgebers and the Network Model of the Brain Clock. J Biol Rhythms 22: 14–25. 
+[25]	Vasalou C, Henson MA (2011) A multicellular model for differential regulation of circadian signals in the core and shell regions of the suprachiasmatic nucleus. J Theor Biol 288: 44–56. doi: 10.1016/j.jtbi.2011.08.010. 
+[26]	Hafner M, Koeppl H, Gonze D (2012) Effect of network architecture on synchronization and entrainment properties of the circadian oscillations in the suprachiasmatic nucleus. PLoS Comput Biol 8: e1002419. doi: 10.1371/journal.pcbi.1002419. 
+[27]	Schroder S, Herzog ED, Kiss IZ (2012) Transcription-based oscillator model for light-induced splitting as antiphase circadian gene expression in the suprachiasmatic nuclei. J Biol Rhythms 27: 79–90. doi: 10.1177/0748730411429659. 
+[28]	Westermark PO, Welsh DK, Okamura H, Herzel H (2009) Quantification of circadian rhythms in single cells. PLoS Comput Biol 5: e1000580. doi: 10.1371/journal.pcbi.1000580. 
+[29]	Granada AE, Herzel H (2009) How to achieve fast entrainment? The timescale to synchronization. PLoS One 4: e7057. doi: 10.1371/journal.pone.0007057. 
+[30]	Leise TL, Wang CW, Gitis PJ, Welsh DK (2012) Persistent cell-autonomous circadian oscillations in fibroblasts revealed by six-week single-cell imaging of PER2:: LUC bioluminescence. PLoS One 7: e33334. doi: 10.1371/journal.pone.0033334. 
+[31]	Taylor SR, Gunawan R, Petzold LR, Doyle FJ (2008) Sensitivity Measures for Oscillating Systems: Application to Mammalian Circadian Gene Network. IEEE Trans Automat Contr 53: 177–188. doi: 10.1109/TAC.2007.911364. 
+[32]	Taylor SR, Webb AB, Smith KS, Petzold LR, Doyle FJ (2010) Velocity response curves support the role of continuous entrainment in circadian clocks. J Biol Rhythms 25: 138–149. doi: 10.1177/0748730409360949. 
+[33]	Abraham U, Granada AE, Westermark PO, Heine M, Kramer A, et al. (2010) Coupling governs entrainment range of circadian clocks. Mol Syst Biol 6: 438. doi: 10.1038/msb.2010.92. 
+[34]	Buhr ED, Yoo SH, Takahashi JS (2010) Temperature as a universal resetting cue for mammalian circadian oscillators. Science 330: 379–385. doi: 10.1126/science.1195262. 
+[35]	Yoo SH, Yamazaki S, Lowrey PL, Shimomura K, Ko CH, et al. (2004) Period2:: luciferase real-time reporting of circadian dynamics reveals persistent circadian oscillations in mouse peripheral tissues. Proc Natl Acad Sci U S A 101: 5339–5346. doi: 10.1073/pnas.0308709101. 
+[36]	Taylor AL, Hickey TJ, Prinz AA, Marder E (2006) Structure and visualization of high-dimensional conductance spaces. J Neurophysiol 96: 891–905. doi: 10.1152/jn.00367.2006. 
+[37]	Aton SJ, Colwell CS, Harmar AJ, Waschek J, Herzog ED (2005) Vasoactive intestinal polypeptide mediates circadian rhythmicity and synchrony in mammalian clock neurons. Nat Neurosci 8: 476–483. doi: 10.1038/nn1419. 
+[38]	Inagaki N, Honma S, Ono D, Tanahashi Y, Honma KI (2007) Separate oscillating cell groups in mouse suprachiasmatic nucleus couple photoperiodically to the onset and end of daily activity. Proc Natl Acad Sci U S A 104: 7664–7669. doi: 10.1073/pnas.0607713104. 
+[39]	Schaap J, Albus H, Tjebbe VH, Eilers PH, Detari L, et al. (2003) Heterogeneity of rhythmic suprachiasmatic nucleus neurons: Implications for circadian waveform and photoperiodic encoding. Proc Natl Acad Sci USA 100: 15994–15999. doi: 10.1073/pnas.2436298100. 
+[40]	Yan L, Karatsoreos I, Lesauter J, Welsh DK, Kay S, et al. (2007) Exploring spatiotemporal organization of SCN circuits. Cold Spring Harb Symp Quant Biol 72: 527–541. doi: 10.1101/sqb.2007.72.037. 
+[41]	Liu AC, Welsh DK, Ko CH, Tran HG, Zhang EE, et al. (2007) Intercellular Coupling Confers Robustness against Mutations in the SCN Circadian Clock Network. Cell 129: 605–616. doi: 10.1016/j.cell.2007.02.047. 
+[42]	Loh DH, Dragich JM, Kudo T, Schroeder AM, Nakamura TJ, et al. (2011) Effects of vasoactive intestinal peptide genotype on circadian gene expression in the suprachiasmatic nucleus and peripheral organs. J Biol Rhythms 26: 200–209. doi: 10.1177/0748730411401740. 
+[43]	Virshup DM, Eide EJ, Forger DB, Gallego M, Harnish EV (2007) Reversible Protein Phosphorylation Regulates Circadian Rhythms. Cold Spring Harb Symp Quant Biol 72: 413–420. doi: 10.1101/sqb.2007.72.048. 
+[44]	Locke JC, Westermark PO, Kramer A, Herzel H (2008) Global parameter search reveals design principles of the mammalian circadian clock. BMC Syst Biol 2: 22. doi: 10.1186/1752-0509-2-22. 
+[45]	Antle MC, Foley DK, Foley NC, Silver R (2003) Gates and oscillators: a network model of the brain clock. J Biol Rhythms 18: 339–350. doi: 10.1177/0748730403253840. 
+[46]	Antle MC, Foley NC, Foley DK, Silver R (2007) Gates and Oscillators II: Zeitgebers and the Network Model of the Brain Clock. J Biol Rhythms 22: 14–25. doi: 10.1177/0748730406296319. 
 [47]	Saxena MT, Aton SJ, Hildebolt C, Prior JL, Abraham U, et al. (2007) Bioluminescence imaging of period1 gene expression in utero. Mol Imaging 6: 68–72. 
 [48]	Sumova A, Sladek M, Polidarova L, Novakova M, Houdek P (2012) Circadian system from conception till adulthood. Prog Brain Res 199: 83–103. 
-[49]	Caba M, Gonzalez-Mariscal G (2009) The rabbit pup, a natural model of nursing-anticipatory activity. Eur J Neurosci 30: 1697–1706. 
-[50]	Sokolove PG, Bushell WN (1978) The chi square periodogram: its utility for analysis of circadian rhythms. J Theor Biol 72: 131–160. 
-[51]	Plautz JD, Straume M, Stanewsky R, Jamison CF, Brandes C, et al. (1997) Quantitative analysis of Drosophila period gene transcription in living animals. J Biol Rhythms 12: 204–217. 
-[52]	Harang RE, Bonnet G, Petzold LR (2012) WAVOS: a MATLAB toolkit for wavelet analysis and visualization of oscillatory systems. BMC research notes 5: 163. 
-[53]	Strogatz SH (2000) From Kuramoto to Crawford: exploring the onset of synchronization in populations of coupled oscillators. Physica D 143: 1–20. 
-[54]	Meeker K, Harang R, Webb AB, Welsh DK, Doyle III FJ, et al. (2011) Wavelet measurement suggests cause of period instability in mammalian circadian neurons. J Biol Rhythms 26: 353–362. 
+[49]	Caba M, Gonzalez-Mariscal G (2009) The rabbit pup, a natural model of nursing-anticipatory activity. Eur J Neurosci 30: 1697–1706. doi: 10.1111/j.1460-9568.2009.06964.x. 
+[50]	Sokolove PG, Bushell WN (1978) The chi square periodogram: its utility for analysis of circadian rhythms. J Theor Biol 72: 131–160. doi: 10.1016/0022-5193(78)90022-X. 
+[51]	Plautz JD, Straume M, Stanewsky R, Jamison CF, Brandes C, et al. (1997) Quantitative analysis of Drosophila period gene transcription in living animals. J Biol Rhythms 12: 204–217. doi: 10.1177/074873049701200302. 
+[52]	Harang RE, Bonnet G, Petzold LR (2012) WAVOS: a MATLAB toolkit for wavelet analysis and visualization of oscillatory systems. BMC research notes 5: 163. doi: 10.1186/1756-0500-5-163. 
+[53]	Strogatz SH (2000) From Kuramoto to Crawford: exploring the onset of synchronization in populations of coupled oscillators. Physica D 143: 1–20. doi: 10.1016/S0167-2789(00)00094-4. 
+[54]	Meeker K, Harang R, Webb AB, Welsh DK, Doyle III FJ, et al. (2011) Wavelet measurement suggests cause of period instability in mammalian circadian neurons. J Biol Rhythms 26: 353–362. doi: 10.1177/0748730411409863. 

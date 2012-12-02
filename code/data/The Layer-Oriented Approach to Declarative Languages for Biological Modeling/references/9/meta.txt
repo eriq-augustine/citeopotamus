@@ -1,0 +1,6 @@
+TITLE: Evolving a lingua franca and associated software infrastructure for computational systems biology: the Systems Biology Markup Language (SBML) project.
+AUTHORS: Hucka M, Finney A, Bornstein BJ, Keating SM, Shapiro BE, Matthews J, Kovitz BL, Schilstra MJ, Funahashi A, Doyle JC, Kitano H
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Biologists are increasingly recognising that computational modelling is crucial for making sense of the vast quantities of complex experimental data that are now being collected. The systems biology field needs agreed-upon information standards if models are to be shared, evaluated and developed cooperatively. Over the last four years, our team has been developing the Systems Biology Markup Language (SBML) in collaboration with an international community of modellers and software developers. SBML has become a de facto standard format for representing formal, quantitative and qualitative models at the level of biochemical reactions and regulatory networks. In this article, we summarise the current and upcoming versions of SBML and our efforts at developing software infrastructure for supporting and broadening its use. We also provide a brief overview of the many SBML-compatible software tools available today.

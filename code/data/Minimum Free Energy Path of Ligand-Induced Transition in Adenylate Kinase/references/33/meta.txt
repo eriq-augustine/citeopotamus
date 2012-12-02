@@ -1,0 +1,6 @@
+TITLE: Transition path sampling: throwing ropes over rough mountain passes, in the dark.
+AUTHORS: Bolhuis PG, Chandler D, Dellago C, Geissler PL
+TERMS:
+CATEGORIES:
+ABSTRACT:
+This article reviews the concepts and methods of transition path sampling. These methods allow computational studies of rare events without requiring prior knowledge of mechanisms, reaction coordinates, and transition states. Based upon a statistical mechanics of trajectory space, they provide a perspective with which time dependent phenomena, even for systems driven far from equilibrium, can be examined with the same types of importance sampling tools that in the past have been applied so successfully to static equilibrium properties.

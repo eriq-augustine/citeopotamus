@@ -1,0 +1,67 @@
+REFERENCES
+[1]	Shendure J, Porreca GJ, Church GM, Gardner AF, Hendrickson CL, et al. (2011) Overview of DNA sequencing strategies. Curr Protoc Mol Biol Chapter 7: Unit 7.1. 
+[2]	Hamady M, Knight R (2009) Microbial community profiling for human microbiome projects: Tools, techniques, and challenges. Genome Res 19: 1141–1152. 
+[3]	Caporaso JG, Lauber CL, Costello EK, Berg-Lyons D, Gonzalez A, et al. (2011) Moving pictures of the human microbiome. Genome Biol 12: R50. 
+[4]	Lane DJ (1991) 16S/23S rRNA sequencing. In: Nucleic acid techniques in bacterial systematics. Stackebrandt E, Goodfellow M, editors. New York: John Wiley and Sons Ltd. 115–147. 
+[5]	Arumugam M, Raes J, Pelletier E, Le Paslier D, Yamada T, et al. (2011) Enterotypes of the human gut microbiome. Nature 473: 174–180. 
+[6]	Koenig JE, Spor A, Scalfone N, Fricker AD, Stombaugh J, et al. (2011) Succession of microbial consortia in the developing infant gut microbiome. Proc Natl Acad Sci U S A 108: 4578–4585. 
+[7]	Qin J, Li R, Raes J, Arumugam M, Burgdorf KS, et al. (2010) A human gut microbial gene catalogue established by metagenomic sequencing. Nature 464: 59–65. 
+[8]	Turnbaugh PJ, Hamady M, Yatsunenko T, Cantarel BL, Duncan A, et al. (2009) A core gut microbiome in obese and lean twins. Nature 457: 480–484. 
+[9]	Manichanh C, Rigottier-Gois L, Bonnaud E, Gloux K, Pelletier E, et al. (2006) Reduced diversity of faecalmicrobiota in Crohn's disease revealed by a metagenomic approach. Gut 55: 205–211. 
+[10]	Lee YK, Menezes JS, Umesaki Y, Mazmanian SK (2010) Proinflammatory T-cell responses to gut microbiotapromote experimental autoimmune encephalomyelitis. Proc Natl Acad Sci U S A 108: 4615–4622. 
+[11]	Ravel J, Gajer P, Abdo Z, Schneider GM, Koenig SSK, et al. (2010) Vaginal microbiome of reproductive-age women. Proc Natl Acad Sci U S A 108: 4680–4687. 
+[12]	Dethlefsen L, Relman D (2010) Incomplete recovery and individualized responses of the human distal gut microbiota to repeated antibiotic perturbation. Proc Natl Acad Sci U S A 108: 4554–4561. 
+[13]	Dethlefsen L, Huse S, Sogin ML, Relman DA (2008) The Pervasive Effects of an Antibiotic on the Human Gut Microbiota, as Revealed by Deep 16S rRNA Sequencing. PLoS Genet 6: e280. 
+[14]	Weaver W, Shannon C (1963) The Mathematical Theory of Communication. Illinois: University of Illinois Press. 144. 
+[15]	Hamady M, Lozupone C, Knight R (2010) Fast UniFrac: facilitating high-throughput phylogenetic analyses of microbial communities including analysis of pyrosequencing and PhyloChip data. ISME J 4: 17–27. 
+[16]	Bray J, Curtis J (1957) An ordination of upland forest communities of southern Wisconsin. Ecol Monogr 27: 325–349. 
+[17]	Magurran A (2004) Measuring Biological Diversity. New Jersey: Wiley-Blackwell. 256. 
+[18]	Bar-Joseph Z, Gerber G, Jaakkola TS, Gifford DK, Simon I (2003) Continuous Representations of Time Series Gene Expression Data. J Comput Biol 3–4: 341–356. 
+[19]	Bar-Joseph Z, Gerber G, Simon I, Gifford DK, Jaakkola TS (2003) Comparing the continuous representation of time-series expression profiles to identify differentially expressed genes. Proc Natl Acad Sci U S A 100: 10146–10151. 
+[20]	Ma P, Zhong W, Feng Y, Liu JS (2008) Bayesian functional data clustering for temporal microarray data. Int J Plant Genomics 2008: 231897. 
+[21]	Ma P, Castillo-Davis C, Zhong W, JS (2006) A data-driven clustering method for time course gene expression data. Nucleic Acids Res 34: 1261–1269. 
+[22]	Gerber GK, Dowell RD, Jaakkola TS, Gifford DK (2007) Automated discovery of functional generality of human gene expression programs. PLoS Comput Biol 3: e148. 
+[23]	Medvedovic M, Sivaganesan S (2002) Bayesian infinite mixture model based clustering of gene expression profiles. Bioinformatics 18: 1194–1206. 
+[24]	Singh R, Palmer N, Gifford D, Berger B, Bar-Joseph Z (2005) Active learning for sampling in time-series experiments with application to gene expression analysis. In: ICML '05 Proceedings of the 22nd international conference on Machine learning. De Raedt L, Wrobels S, editors. New York: ACM. 832–839. 
+[25]	Hilbe J (2011) Negative Binomial Regression. 2nd ed. Cambridge: Cambridge University Press. 576. 
+[26]	O'Hara R, Kotze D (2010) Do not log-transform count data. Methods Ecol Evol 1: 118–122. 
+[27]	Bolker BM, Brooks ME, Clark CJ, Geange SW, Poulsen JR, et al. (2009) Generalized linear mixed models: a practical guide for ecology and evolution. Trends Ecol Evol (Amst.) 24: 127–135. 
+[28]	Anders S, Huber W (2010) Differential expression analysis for sequence count data. Genome Biol 11: R106. 
+[29]	Robinson MD, McCarthy DJ, Smyth GK (2010) edgeR: a Bioconductor package for differential expression analysis of digital gene expression data. Bioinformatics 26: 139–140. 
+[30]	Di Y, Schafer DW, Cumbie JS, Chang JH (2011) The NBP Negative Binomial Model for Assessing Differential Gene Expression from RNA-Seq. Stat Appl Genet Mol Biol 10: 24. 
+[31]	Holmes I, Harris K, Quince C (2012) Dirichlet Multinomial Mixtures: Generative Models for Microbial Metagenomics. PLoS ONE 7: e30126. 
+[32]	Croswell A, Amir E, Teggatz P, Barman M, Salzman NH (2009) Prolonged impact of antibiotics on intestinal microbial ecology and susceptibility to enteric Salmonella infection. Infect Immun 77: 2741–2753. 
+[33]	Russell SL, Gold MJ, Hartmann M, Willing BP, Thorson L, et al. (2012) Early life antibiotic-driven changes in microbiota enhance susceptibility to allergic asthma. EMBO Rep. 1–8. 
+[34]	Lange NE, Celedón JC, Forno E, Ly NP, Onderdonk A, et al. (2011) Maternal intestinal flora and wheeze in early childhood. Clin Exp Allergy 42: 901–908. 
+[35]	Cani P, Bibiloni R, Knauf C, Waget A, Neyrinck A, et al. (2008) Changes in Gut Microbiota Control Metabolic Endotoxemia-Induced Inflammation in High-Fat Diet-Induced Obesity and Diabetes in Mice. Diabetes 57: 1470–1481. 
+[36]	Chin N, Neu H (1984) Ciprofloxacin, a quinolone carboxylic acid compound active against aerobic and anaerobic bacteria. Antimicrob Agents Chemother 25: 319–326. 
+[37]	Goldstein E, Citron D (1992) Comparative activity of ciprofloxacin, ofloxacin, sparfloxacin, temafloxacin, CI-960, CI-990, and WIN 57273 against anaerobic bacteria. Antimicrob Agents Chemother 36: 1158–1162. 
+[38]	Baurenfeind A (1997) Comparison of the antibacterial activities of the quinolones BAY 12-8039, gatifloxacin (AM 1155), trovafloxacin, clinafloxacin, levofloxacin and ciprofloxacin. Antimicrob Agents Chemother 40: 639–651. 
+[39]	Lewin C, Morrissey I, Smith J (1991) The mode of action of quinolones: The paradox in activity of low and high concentrations and activity in the anaerobic environment. Eur J ClinMicrobiol Infect Dis 10: 240–248. 
+[40]	Ricci V, Piddock L (2003) Accumulation of garenoxacin by Bacteroidesfragilis compared with that of five fluoroquinolones. J Antimicrob Chemother 52: 605–609. 
+[41]	Pruesse E, Quast C, Knittel K, Fuchs BM, Ludwig W, et al. (2007) SILVA: a comprehensive online resource for quality checked and aligned ribosomal RNA sequence data compatible with ARB. Nucleic Acids Res 35: 7188–7196. 
+[42]	Edgar RC (2010) Search and clustering orders of magnitude faster than BLAST. Bioinformatics 26: 2460–2461. 
+[43]	Rasmussen C (2000) The Infinite Gaussian Mixture Model. In: Advances in Neural Information Processing Systems 13. Leen TK, Dietterich G, Tresp V, editors. Cambridge: The MIT Press. 554–560. 
+[44]	Gelman A, Carlin J, Stern H, Rubin D (2004) Bayesian Data Analysis. Florida: Chapman & Hall/CRC. 696. 
+[45]	Benjamini Y, Hochberg Y (1995) Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing. J R Stat Soc Series B Stat Methodol 57: 289–300. 
+[46]	Chaloner K, Verdinelli I (1995) Bayesian Experimental Design: A Review. Stat Sci 3: 273–304. 
+[47]	Sebastiani P, Wynn HP (1997) Bayesian Experimental Design and Shannon Information . In: Proceedings of the Section on Bayesian Statistical Science Vol. 44. Alexandria: American Statistical Association 176–181. 
+[48]	Lindley D (1956) On a measure of the information provided by an experiment. Ann Math Statist 27: 986–1005. 
+[49]	Atkinson A, Chaloner K, Herzberg A, Juritz J (1993) Optimum experimental designs for properties of a compartmental model. Biometrics 49: 325–337. 
+[50]	Ror HAD, Teinberg DMS (2008) Sequential Experimental Designs for Generalized Linear Models. J Am Stat Assoc 103: 288–298. 
+[51]	Wexler HM (2007) Bacteroides: the good, the bad, and the nitty-gritty. Clin Microbiol Rev 20: 593–621. 
+[52]	Rasmussen B, Bush K, Tally F (1993) Antimicrobial resistance in Bacteroides. Clin Infect Dis 16 Suppl 4: S390–S400. 
+[53]	Salyers A, Gupta A, Wang Y (2004) Human intestinal bacteria as reservoirs for antibiotic resistance genes. Trends Microbiol 12: 412–416. 
+[54]	Löfmark S, Jernberg C, Jansson JK, Edlund C (2006) Clindamycin-induced enrichment and long-term persistence of resistant Bacteroides spp. and resistance genes. J Antimicrob Chemother 58: 1160–1167. 
+[55]	Rey FE, Faith JJ, Bain J, Muehlbauer MJ, Stevens RD, et al. (2010) Dissecting the in vivo metabolic potential of two human gut acetogens. J Biol Chem 285: 22082–22090. 
+[56]	Louis P, Flint HJ (2009) Diversity, metabolism and microbial ecology of butyrate-producing bacteria from the human large intestine. FEMS Microbiol Lett 294: 1–8. 
+[57]	Duncan S, Barcenilla A, Stewart C, Pryde S, Flint H (2002) Acetate utilization and butyryl coenzyme A (CoA): acetate-CoA transferase in butyrate-producing bacteria from the human large intestine. Appl Environ Microbiol 68: 5186–5190. 
+[58]	Donohoe DR, Garge N, Zhang X, Sun W, O'Connell TM, et al. (2011) The microbiome and butyrate regulate energy metabolism and autophagy in the mammalian colon. Cell Metab 13: 517–526. 
+[59]	Abell GCJ, Cooke CM, Bennett CN, Conlon MA, McOrist AL (2008) Phylotypes related to Ruminococcusbromii are abundant in the large bowel of humans and increase in response to a diet high in resistant starch. FEMS Microbiol Ecol 66: 505–515. 
+[60]	Nava GM, Stappenbeck TS (2011) Diversity of the autochthonous colonic microbiota. Gut Microbes 2: 99–104. 
+[61]	Kelly C, LaMont J (2008) Clostridium difficile — More Difficult Than Ever. N Engl J Med 359: 1932–1940. 
+[62]	Morgan JL, Darling AE, Eisen JA (2010) Metagenomic sequencing of an in vitro-simulated microbial community. PloS One 5: e10209. 
+[63]	Sommer MOA, Dantas G, Church GM (2009) Functional characterization of the antibiotic resistance reservoir in the human microflora. Science 325: 1128–1131. 
+[64]	Park T, Casella G (2008) The Bayesian Lasso. J Am Stat Assoc 103: 681–686. 
+[65]	Fox E, Sudderth E, Jordan M, Willsky A (2011) Bayesian Nonparametric Inference of Switching Dynamic Linear Models. IEEE Trans Signal Process 59: 1569–1585. 
+[66]	Uhlenbeck G, Ornstein L (1930) On the theory of Brownian Motion. Phys Rev 36: 823–841. 

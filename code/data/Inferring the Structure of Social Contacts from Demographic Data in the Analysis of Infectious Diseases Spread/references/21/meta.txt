@@ -1,0 +1,6 @@
+TITLE: Seasonal transmission potential and activity peaks of the new influenza A(H1N1): a Monte Carlo likelihood analysis based on human mobility.
+AUTHORS: Balcan D, Hu H, Goncalves B, Bajardi P, Poletto C, Ramasco JJ, Paolotti D, Perra N, Tizzoni M, Van den Broeck W, Colizza V, Vespignani A
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

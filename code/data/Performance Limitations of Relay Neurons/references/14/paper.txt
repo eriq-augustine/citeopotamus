@@ -1,0 +1,4 @@
+Seven problems on the basal ganglia.
+Nambu A
+Abstract:
+Our knowledge on the functions of the basal ganglia has increased enormously during the last two decades. However, we still do not completely understand the primary function of the basal ganglia. In this article, I review fundamental problems on the basal ganglia that have emerged from recent findings, and propose their solutions in the following seven topics: first, organization of the cortico-basal ganglia loop, second, limitations of the 'direct and indirect pathways model', third, feedforward inhibition in the striatum, fourth, contribution of the basal ganglia to cortical activity through the thalamus, fifth, focused selection of movements and learning, sixth, firing rate model versus firing pattern model for the pathophysiology of movement disorders, and lastly mechanisms of stereotaxic surgery.

@@ -1,0 +1,6 @@
+TITLE: Clique percolation in random networks.
+AUTHORS: Derényi I, Palla G, Vicsek T
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The notion of k-clique percolation in random graphs is introduced, where k is the size of the complete subgraphs whose large scale organizations are analytically and numerically investigated. For the Erdos-Rényi graph of N vertices we obtain that the percolation transition of k-cliques takes place when the probability of two vertices being connected by an edge reaches the threshold p(c) (k) = [(k - 1)N](-1/(k - 1)). At the transition point the scaling of the giant component with N is highly nontrivial and depends on k. We discuss why clique percolation is a novel and efficient approach to the identification of overlapping communities in large real networks.

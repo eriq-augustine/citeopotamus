@@ -1,0 +1,6 @@
+TITLE: Directional proton transfer in membrane proteins achieved through protonated protein-bound water molecules: a proton diode.
+AUTHORS: Wolf S, Freier E, Potschies M, Hofmann E, Gerwert K
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

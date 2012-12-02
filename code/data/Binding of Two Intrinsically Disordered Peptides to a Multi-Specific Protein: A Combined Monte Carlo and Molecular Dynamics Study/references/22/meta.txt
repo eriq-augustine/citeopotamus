@@ -1,0 +1,6 @@
+TITLE: Modeling the relationship between the p53 C-terminal domain and its binding partners using molecular dynamics.
+AUTHORS: Allen WJ, Capelluto DG, Finkielstein CV, Bevan DR
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Fifty percent of all cancer cases result from mutations of the TP53 gene, which encodes the tumor suppressor p53, and it is hypothesized that the p53-mediated checkpoint pathway is compromised in most of the remaining cases. The p53 C-terminal domain (CTD) is an important site of p53 regulation but by nature is difficult to study, as it is intrinsically disordered. In this study, we performed molecular dynamics simulations on the p53 CTD and five known regulatory binding partners. We identified distinct trends in fluctuation within and around the p53 CTD binding site on each partner demonstrating a behavior that facilitates association. Further, we present evidence that the size of the hydrophobic pocket in each p53 CTD binding site governs the secondary structure of the p53 CTD when in the bound state. This information will be useful for predicting new binding partners for the p53 CTD, identifying interacting regions within other known partners, and discovering inhibitors that provide additional points of control over p53 activity.

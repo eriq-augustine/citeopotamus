@@ -1,0 +1,6 @@
+TITLE: Thermodynamics of alpha- and beta-structure formation in proteins.
+AUTHORS: Irbäck A, Samuelsson B, Sjunnesson F, Wallin S
+TERMS:
+CATEGORIES:
+ABSTRACT:
+An atomic protein model with a minimalistic potential is developed and then tested on an alpha-helix and a beta-hairpin, using exactly the same parameters for both peptides. We find that melting curves for these sequences to a good approximation can be described by a simple two-state model, with parameters that are in reasonable quantitative agreement with experimental data. Despite the apparent two-state character of the melting curves, the energy distributions are found to lack a clear bimodal shape, which is discussed in some detail. We also perform a Monte Carlo-based kinetic study and find, in accord with experimental data, that the alpha-helix forms faster than the beta-hairpin.

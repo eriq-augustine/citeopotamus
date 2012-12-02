@@ -1,0 +1,6 @@
+TITLE: INDANA: a meta-analysis on individual patient data in hypertension. Protocol and preliminary results.
+AUTHORS: Gueyffier F, Boutitie F, Boissel JP, Coope J, Cutler J, Ekbom T, Fagard R, Friedman L, Perry HM, Pocock S
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The overall effect of antihypertensive drug treatment has been well documented. The proportion of patients who benefit varies according to their baseline cardiovascular risk, and is small for the majority of people treated. Some investigators propose limiting the treatment target population to patients at high cardiovascular risk, but several assumptions must be made to justify this procedure. The INDANA project is a meta-analysis based on individual patient data, and thus offers the opportunity to check the validity of these assumptions. Its main objective is to identify responders (and non-responders) in the drug treatment of hypertension. The rationale and methods for such an approach are presented here, with the solution for some technical problems. The conclusion of the data collection has shown that the project is feasible. The results of the main analysis should be available in 1996, and should contribute to the selection of responders and to the individualization of the treatment of hypertension.

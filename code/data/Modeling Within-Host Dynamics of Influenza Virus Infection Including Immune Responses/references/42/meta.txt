@@ -1,0 +1,6 @@
+TITLE: Much ado about next to nothing: incorporating nondetects in science.
+AUTHORS: Helsel D
+TERMS:
+CATEGORIES:
+ABSTRACT:
+A great many papers and one textbook have been published on the topic of how to incorporate 'nondetects', low-level values reported only as below a detection limit, into statistical analyses. This is of interest not only in occupational hygiene but also in environmental sciences and astronomy, among other fields. Here, the literature is reviewed from the earliest known publication on the topic >40 years ago and recommendations contrasted. I have tried to pull some unifying conclusions out of the mix, ending with four suggestions I believe all can agree on. See if you agree with me.

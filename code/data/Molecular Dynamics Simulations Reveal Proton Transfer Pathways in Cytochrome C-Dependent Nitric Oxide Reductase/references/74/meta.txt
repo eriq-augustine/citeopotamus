@@ -1,0 +1,6 @@
+TITLE: Tracing cytoplasmic Ca(2+) ion and water access points in the Ca(2+)-ATPase.
+AUTHORS: Musgaard M, Thøgersen L, Schiøtt B, Tajkhorshid E
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

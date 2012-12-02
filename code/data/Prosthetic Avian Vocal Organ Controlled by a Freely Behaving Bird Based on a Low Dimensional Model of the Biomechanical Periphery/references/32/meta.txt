@@ -1,0 +1,6 @@
+TITLE: Auditory feedback in learning and maintenance of vocal behaviour.
+AUTHORS: Brainard MS, Doupe AJ
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Songbirds are one of the best-studied examples of vocal learners. Learning of both human speech and birdsong depends on hearing. Once learned, adult song in many species remains unchanging, suggesting a reduced influence of sensory experience. Recent studies have revealed, however, that adult song is not always stable, extending our understanding of the mechanisms involved in song maintenance, and their similarity to those active during song learning. Here we review some of the processes that contribute to song learning and production, with an emphasis on the role of auditory feedback. We then consider some of the possible neural substrates involved in these processes, particularly basal ganglia circuitry. Although a thorough treatment of human speech is beyond the scope of this article, we point out similarities between speech and song learning, and ways in which studies of these disparate behaviours complement each other in developing an understanding of general principles that contribute to learning and maintenance of vocal behaviour.

@@ -1,0 +1,4 @@
+Molecular mechanisms for proton transport in membranes.
+Nagle JF, Morowitz HJ
+Abstract:
+Likely mechanisms for proton transport through biomembranes are explored. The fundamental structural element is assumed to be continuous chains of hydrogen bonds formed from the protein side groups, and a molecular example is presented. From studies in ice, such chains are predicted to have low impedance and can function as proton wires. In addition, conformational changes in the protein may be linked to the proton conduction. If this possibility is allowed, a simple proton pump can be described that can be reversed into a molecular motor driven by an electrochemical potential across the membrane.

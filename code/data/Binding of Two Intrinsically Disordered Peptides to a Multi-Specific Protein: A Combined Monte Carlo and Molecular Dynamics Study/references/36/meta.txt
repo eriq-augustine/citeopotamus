@@ -1,0 +1,6 @@
+TITLE: Mechanism of fast peptide recognition by SH3 domains.
+AUTHORS: Ahmad M, Gu W, Helms V
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

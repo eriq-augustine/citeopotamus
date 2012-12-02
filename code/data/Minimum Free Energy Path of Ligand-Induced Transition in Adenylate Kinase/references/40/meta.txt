@@ -1,0 +1,6 @@
+TITLE: Towards a mechanism of AMP-substrate inhibition in adenylate kinase from Escherichia coli.
+AUTHORS: Sinev MA, Sineva EV, Ittah V, Haas E
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Crystallographic studies on adenylate kinase (AK) suggest that binding of ATP causes the LID domain of the enzyme to close over the ATP molecule (Schlauderer et al. (1996) J. Mol. Biol. 256, 223-227). The method of time-resolved fluorescence resonance energy transfer was applied to study the proposed structural change in AK from Escherichia coli. Two active derivatives of the (C77S, A73C, V142C)-AK mutant containing the excitation energy donor attached to one of the two cysteine residues and the acceptor attached to the other cysteine were prepared to monitor displacements of the LID domain in response to substrate binding. Binding of either ATP or AMP was accompanied by an approximately 9 A decrease in the interprobe distances suggesting LID domain closure. Closure of the LID domain in response to AMP binding may be a possible reason for the strong AMP-substrate inhibition known for E. coli AK.

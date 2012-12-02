@@ -1,0 +1,6 @@
+TITLE: Global quantification of mammalian gene expression control.
+AUTHORS: Schwanhäusser B, Busse D, Li N, Dittmar G, Schuchhardt J, Wolf J, Chen W, Selbach M
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Gene expression is a multistep process that involves the transcription, translation and turnover of messenger RNAs and proteins. Although it is one of the most fundamental processes of life, the entire cascade has never been quantified on a genome-wide scale. Here we simultaneously measured absolute mRNA and protein abundance and turnover by parallel metabolic pulse labelling for more than 5,000 genes in mammalian cells. Whereas mRNA and protein levels correlated better than previously thought, corresponding half-lives showed no correlation. Using a quantitative model we have obtained the first genome-scale prediction of synthesis rates of mRNAs and proteins. We find that the cellular abundance of proteins is predominantly controlled at the level of translation. Genes with similar combinations of mRNA and protein stability shared functional properties, indicating that half-lives evolved under energetic and dynamic constraints. Quantitative information about all stages of gene expression provides a rich resource and helps to provide a greater understanding of the underlying design principles.

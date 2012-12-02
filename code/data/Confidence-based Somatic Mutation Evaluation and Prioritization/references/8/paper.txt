@@ -1,0 +1,4 @@
+SAMStat: monitoring biases in next generation sequencing data.
+Lassmann T, Hayashizaki Y, Daub CO
+Abstract:
+None

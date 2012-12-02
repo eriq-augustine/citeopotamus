@@ -1,0 +1,95 @@
+REFERENCES
+[1]	Hunter P (2004) The IUPS Physiome Project: a framework for computational physiology. Prog Biophys Mol Biol 85: 551–569. doi: 10.1016/j.pbiomolbio.2004.02.006. 
+[2]	Hunter P, Robbins P, Noble D (2002) The IUPS human physiome project. Pugers Arch 445: 1–9. doi: 10.1007/s00424-002-0890-1. 
+[3]	Hunter P, Coveney PV, de Bono B, Diaz V, Fenner J, et al. (2010) A vision and strategy for the virtual physiological human in 2010 and beyond. Phil Trans R Soc A 368: 2595–2614. doi: 10.1098/rsta.2010.0048. 
+[4]	Kohl P, Noble D (2009) Systems biology and the virtual physiological human. Mol Syst Biol 5: 292. doi: 10.1038/msb.2009.51. 
+[5]	Feytmans E, Noble D, Peitsch MC (2005) Genome size and numbers of biological functions. In: Priami C, editor. Transactions on Computational Systems Biology I. pp. 133–133. Springer Berlin/Heidelberg. 
+[6]	Kohl P, Crampin EJ, Quinn TA, Noble D (2010) Systems Biology: An Approach. Clin Pharmacol Ther 88: 25–33. doi: 10.1038/clpt.2010.92. 
+[7]	Crampin EJ, Halstead M, Hunter P, Nielsen P, Noble D, et al. (2004) Computational physiology and the physiome project. Exp Physiol 89: 1–26. doi: 10.1113/expphysiol.2003.026740. 
+[8]	Martens H, Veingstad SR, Plahte E, Martens M, Bertrand D, et al. (2009) The genotypephenotype relationship in multicellular pattern-generating models–the neglected role of pattern descriptors. BMC Syst Biol 3: 87. 
+[9]	Houle D, Govindaraju DR, Omholt S (2010) Phenomics: the next challenge. Nat Rev Genet 11: 855–866. doi: 10.1038/nrg2897. 
+[10]	Gjuvsland AB, Vik JO, Woolliams JA, Omholt SW (2011) Order-preserving principles underlying genotype-phenotype maps ensure high additive proportions of genetic variance. J Evol Biol 24: 2269–2279. doi: 10.1111/j.1420-9101.2011.02358.x. 
+[11]	Hawkins RD, Hon GC, Ren B (2010) Next-generation genomics: an integrative approach. Nat Rev Genet 11: 476–486. doi: 10.1038/nrg2795. 
+[12]	Ikeda N, Marumo F, Shirataka M, Sato T (1979) A model of overall regulation of body uids. Ann Biomed Eng 7: 135–166. 
+[13]	Thomas SR, Abdulhay E, Baconnier P, Fontecave J, Françoise JP, et al. (2007) SAPHIR – a multi-scale, multi-resolution modeling environment targeting blood pressure regulation and uid homeostasis. Conf Proc IEEE Eng Med Biol Soc 2007: 6649–6652. 
+[14]	Thomas SR, Baconnier P, Fontecave J, Françoise JP, Guillaud F, et al. (2008) SAPHIR: a physiome core model of body uid homeostasis and blood pressure regulation. Phil Trans R Soc A 366: 3175–3197. 
+[15]	Hester RL, Iliescu R, Summers R, Coleman TG (2011) Systems Biology and Integrative Physiological Modeling. J Physiol 589: 1053–1060. doi: 10.1113/jphysiol.2010.201558. 
+[16]	Hester R, Summers R, Iliescu R, Coleman T (2010) HumMod: An integrative model of integrative biomedicine. 
+[17]	Simanonok KE, Srinivasan RS, Myrick EE, Blomkalns AL, Charles JB (1994) A comprehensive Guyton model analysis of physiologic responses to preadapting the blood volume as a countermeasure to uid shifts. J Clin Pharmacol 34: 440–453. 
+[18]	Kofránek J, Rusz J, Matoušek S (2007) Guytons diagram brought to life - from graphic chart to simulation model for teaching physiology. Technical Computing Prague. 
+[19]	Abram SR, Hodnett BL, Summers RL, Coleman TG, Hester RL (2007) Quantitative Circulatory Physiology: an integrative mathematical model of human physiology for medical education. Adv Physiol Educ 31: 202–210. doi: 10.1152/advan.00114.2006. 
+[20]	Bongartz LG, Cramer MJ, Doevendans PA, Joles JA, Braam B (2005) The severe cardiorenal syndrome: ‘Guyton revisited’. Eur Heart J 26: 11–17. doi: 10.1093/eurheartj/ehi020. 
+[21]	Werner J, Böhringer D, Hexamer M (2002) Simulation and prediction of cardiotherapeutical phenomena from a pulsatile model coupled to the Guyton circulatory model. IEEE Trans Biomed Eng 49: 430–439. doi: 10.1109/10.995681. 
+[22]	White RJ, Leonard JI, Srinivasan RS, Charles JB (1991) Mathematical modeling of acute and chronic cardiovascular changes during Extended Duration Orbiter (EDO) flights. Acta Astronaut 23: 41–51. doi: 10.1016/0094-5765(91)90098-P. 
+[23]	Guyton AC, Coleman TG, Granger HJ (1972) Circulation: overall regulation. Annu Rev Physiol 34: 13–46. doi: 10.1146/annurev.ph.34.030172.000305. 
+[24]	Montani JP, Vliet BNV (2009) Understanding the contribution of Guyton's large circulatory model to long-term control of arterial pressure. Exp Physiol 94: 382–388. doi: 10.1113/expphysiol.2008.043299. 
+[25]	Karaaslan F, Denizhan Y, Kayserilioglu A, Gulcur HO (2005) Long-term mathematical model involving renal sympathetic nerve activity, arterial pressure, and sodium excretion. Ann Biomed Eng 33: 1607–1630. doi: 10.1007/s10439-005-5976-4. 
+[26]	Malpas S (2009) Editorial comment: Montani versus osborn exchange of views. Exp Physiol 94: 381–382. doi: 10.1113/expphysiol.2008.043273. 
+[27]	Mangourova V, Ringwood J, Vliet BV (2011) Graphical simulation environments for modelling and simulation of integrative physiology. Comput Methods Programs Biomed 102: 295–304. doi: 10.1016/j.cmpb.2010.05.001. 
+[28]	Osborn JW, Averina VA, Fink GD (2009) Commentary on ‘Understanding the contribution of guyton's large circulatory model to long-term control of arterial pressure’. Exp Physiol 94: 388–389. doi: 10.1113/expphysiol.2008.046516. 
+[29]	Osborn JW, Averina VA, Fink GD (2009) Current computational models do not reveal the importance of the nervous system in long-term control of arterial pressure. Exp Physiol 94: 389–396. doi: 10.1113/expphysiol.2008.043281. 
+[30]	Montani JP, Vliet BNV (2009) Commentary on ‘Current computational models do not reveal the importance of the nervous system in long-term control of arterial pressure’. Exp Physiol 94: 396–397. doi: 10.1113/expphysiol.2008.046524. 
+[31]	Hernández AI, Rolle VL, Defontaine A, Carrault G (2009) A multiformalism and multiresolution modelling environment: application to the cardiovascular system and its regulation. Philos Transact A Math Phys Eng Sci 367: 4923–4940. doi: 10.1098/rsta.2009.0163. 
+[32]	Hernández AI, Rolle VL, Ojeda D, Baconnier P, Fontecave-Jallon J, et al. (2011) Integration of detailed modules in a core model of body uid homeostasis and blood pressure regulation. Prog Biophys Mol Biol 107: 169–182. 
+[33]	Rolle VL, Ojeda D, Madeleine R, Carrault G, Hernández AI (2010) Coupling the Guyton model to pulsatile ventricles using a multiresolution modelling environment. Computing in Cardiology 37: 325–328. 
+[34]	Guillaud F, Hannaert P (2010) A computational model of the circulating renin-angiotensin system and blood pressure regulation. Acta Biotheor 58: 143–170. doi: 10.1007/s10441-010-9098-5. 
+[35]	de Bono B, Hoehndorf R, Wimalaratne S, Gkoutos G, Grenon P (2011) The RICORDO approach to semantic interoperability for biomedical data and models: strategy, standards and solutions. BMC Res Notes 4: 313. doi: 10.1186/1756-0500-4-313. 
+[36]	Morris MD (1991) Factorial sampling plans for preliminary computational experiments. Technometrics 22: 161–174. doi: 10.2307/1269043. 
+[37]	Van Vliet BN, Montani JP (2005) Circulation and uid volume control. In: Walz W, editor. Integrative Physiology in the Proteomics and Post-Genomics Age. Humana Press. pp. 43–66. 
+[38]	Rajasingh H, Gjuvsland AB, Våge DI, Omholt SW (2008) When parameters in dynamic models become phenotypes: a case study on esh pigmentation in the chinook salmon (oncorhynchus tshawytscha). Genetics 179: 1113–1118. 
+[39]	Vik JO, Gjuvsland AB, Li L, Tøndel K, Niederer S, et al. (2011) Genotype-phenotype map characteristics of an in silico heart cell. Front Physiol 2: 106. doi: 10.3389/fphys.2011.00106. 
+[40]	Zenker S, Rubin J, Clermont G (2007) From inverse problems in mathematical physiology to quantitative differential diagnoses. PLoS Comput Biol 3: e204. 
+[41]	United States Department of Health and Human Services, National Institutes of Health, National Cancer Institute (2010) Common Terminology Criteria for Adverse Events (CTCAE) v4.03. URL http://ctep.cancer.gov/reporting/ctc.htm​l. Accessed July 28, 2011. 
+[42]	Domanski M, Norman J, Wolz M, Mitchell G, Pfeffer M (2001) Cardiovascular risk assessment using pulse pressure in the first national health and nutrition examination survey (NHANES I). Hypertension 38: 793–797. doi: 10.1161/hy1001.092966. 
+[43]	Nelder JA, Wedderburn RWM (1972) Generalized linear models. J R Stat Soc Ser A Stat Soc 135: 370–384. 
+[44]	Cox C (1984) Generalized linear models-the missing link. J Roy Stat Soc Ser C Appl Stat 33: 18–24. doi: 10.2307/2347658. 
+[45]	Guyton AC (1990) The surprising kidney-uid mechanism for pressure control–its infinite gain! Hypertension 16: 725–730. 
+[46]	Guyton AC (1990) Long-term arterial pressure control: an analysis from animal experiments and computer and graphic models. Am J Physiol 259: R865–R877. 
+[47]	Liang CC (1971) The inuence of hepatic portal circulation on urine ow. J Physiol 214: 571–581. 
+[48]	Steele JE, Brand PH, Metting PJ, Britton SL (1993) Dynamic, short-term coupling between changes in arterial pressure and urine ow. Am J Physiol 265: F717–F722. 
+[49]	Nafz B, Ehmke H, Wagner CD, Kirchheim HR, Persson PB (1998) Blood pressure variability and urine ow in the conscious dog. Am J Physiol 274: F680–F686. 
+[50]	Guyton AC (1980) Circulatory Physiology III: Arterial Pressure and Hypertension. Saunders. 
+[51]	Gilmore JP (1964) Contribution of baroreceptors to the control of renal function. Circ Res 14: 301–317. doi: 10.1161/01.RES.14.4.301. 
+[52]	DiBona GF, Kopp UC (1997) Neural control of renal function. Physiol Rev 77: 75–197. doi: 10.1097/00005344-198500078-00003. 
+[53]	Guyton AC, Coleman TG, Cowley AW Jr, Manning RD Jr, Norman RA Jr, et al. (1974) A systems analysis approach to understanding long-range arterial blood pressure control and hypertension. Circ Res 35: 159–176. doi: 10.1161/01.RES.35.2.159. 
+[54]	Guyton AC (1987) Renal function curve–a key to understanding the pathogenesis of hypertension. Hypertension 10: 1–6. doi: 10.1161/01.HYP.10.1.1. 
+[55]	Guyton AC (1992) Kidneys and uids in pressure regulation. Small volume but large pressure changes. Hypertension 19: I2–8. 
+[56]	Navar LG (2010) Counterpoint: Activation of the intrarenal renin-angiotensin system is the dominant contributor to systemic hypertension. J Appl Physiol 109: 1998–2000. doi: 10.1152/japplphysiol.00182.2010a. 
+[57]	Knepper MA, Saidel GM, Hascall VC, Dwyer T (2003) Concentration of solutes in the renal inner medulla: interstitial hyaluronan as a mechano-osmotic transducer. Am J Physiol Renal Physiol 284: F433–F446. 
+[58]	Göransson V, Johnsson C, Nylander O, Hansell P (2002) Renomedullary and intestinal hyaluronan content during body water excess: a study in rats and gerbils. J Physiol 542: 315–322. doi: 10.1113/jphysiol.2001.014894. 
+[59]	Hansell P, Göransson V, Odlind C, Gerdin B, Hällgren R (2000) Hyaluronan content in the kidney in different states of body hydration. Kidney Int 58: 2061–2068. 
+[60]	Dwyer TM, Schmidt-Nielsen B (2003) The renal pelvis: machinery that concentrates urine in the papilla. News Physiol Sci 18: 1–6. 
+[61]	Cevese A, Guyton AC (1976) Isohemic blood volume expansion in normal and areexive dogs. Am J Physiol 231: 104–111. 
+[62]	Spearman C (2010) The proof and measurement of association between two things. Int J Epidemiol 39: 1137–1150. 
+[63]	Crowley SD, Gurley SB, Herrera MJ, Ruiz P, Grifiths R, et al. (2006) Angiotensin II causes hypertension and cardiac hypertrophy through its receptors in the kidney. Proc Natl Acad Sci U S A 103: 17985–17990. doi: 10.1073/pnas.0605545103. 
+[64]	Kobori H, Nangaku M, Navar LG, Nishiyama A (2007) The intrarenal renin-angiotensin system: From physiology to the pathobiology of hypertension and kidney disease. Pharmacol Rev 59: 251–287. doi: 10.1124/pr.59.3.3. 
+[65]	Lohmeier TE, Cowley AW, Trippodo NC, Hall JE, Guyton AC (1977) Effects of endogenous angiotensin II on renal sodium excretion and renal hemodynamics. Am J Physiol 233: F388–F395. 
+[66]	Guyton AC, Coleman TG, Young DB, Lohmeier TE, DeClue JW (1980) Salt balance and long-term blood pressure control. Annu Rev Med 31: 15–27. doi: 10.1146/annurev.me.31.020180.000311. 
+[67]	Hall JE (1986) Control of sodium excretion by angiotensin II: intrarenal mechanisms and blood pressure regulation. Am J Physiol 250: R960–R972. 
+[68]	Laursen JB, Rajagopalan S, Galis Z, Tarpey M, Freeman BA, et al. (1997) Role of superoxide in angiotensin II–induced but not catecholamine-induced hypertension. Circulation 95: 588–593. doi: 10.1161/01.CIR.95.3.588. 
+[69]	Romero JC, Reckelhoff JF (1999) State-of-the-art lecture. Role of angiotensin and oxidative stress in essential hypertension. Hypertension 34: 943–949. 
+[70]	Grossman E (2008) Does increased oxidative stress cause hypertension? Diabetes Care 31: Suppl 2S185–S189. doi: 10.2337/dc08-s246. 
+[71]	Touyz RM (2005) Molecular and cellular mechanisms in vascular injury in hypertension: role of angiotensin II. Curr Opin Nephrol Hypertens 14: 125–131. doi: 10.1097/00041552-200503000-00007. 
+[72]	Ruiz-Ortega M, Esteban V, Rupérez M, Sánchez-López E, Rodríguez-Vita J, et al. (2006) Renal and vascular hypertension-induced inammation: role of angiotensin II. Curr Opin Nephrol Hypertens 15: 159–166. 
+[73]	Rushton S, Ormerod SJ, Kerby G (2004) New paradigms for modelling species distributions? J Appl Ecol 41: 193–200. doi: 10.1111/j.0021-8901.2004.00903.x. 
+[74]	Uttamsingh RJ, Leaning MS, Bushman JA, Carson ER, Finkelstein L (1985) Mathematical model of the human renal system. Med Biol Eng Comput 23: 525–535. doi: 10.1007/BF02455306. 
+[75]	Dean RFA, McCance RA (1949) The renal responses of infants and adults to the administration of hypertonic solutions of sodium chloride and urea. J Physiol 109: 81–97. 
+[76]	Relman AS, Schwartz WB (1952) The effect of DOCA on electrolyte balance in normal man and its relation to sodium chloride intake. Yale J Biol Med 24: 540–558. 
+[77]	Marchant I, Nony P, Cucherat M, Boissel JP, Thomas SR, et al. (2011) The global risk approach should be better applied in French hypertensive patients: a comparison between simulation and observation studies. PLoS One 6: e17508. doi: 10.1371/journal.pone.0017508. 
+[78]	Boissel JP, Kahoul R, Amsallem E, Gueyffer F, Haugh M, et al. (2011) Towards personalized medicine: exploring the consequences of the effect model-based approach. Per Med 8: 581–586. doi: 10.2217/pme.11.54. 
+[79]	Boissel JP, Gueyffer F, Cucherat M, Bricca G (2005) Pharmacogenetics and responders to a therapy: Theoretical background and practical problems. Clin Chem Lab Med 41: 564–572. doi: 10.1515/CCLM.2003.086. 
+[80]	Sciarrone MT, Stella P, Barlassina C, Manunta P, Lanzani C, et al. (2003) ACE and alpha-adducin polymorphism as markers of individual response to diuretic therapy. Hypertension 41: 398–403. doi: 10.1161/01.HYP.0000057010.27011.2C. 
+[81]	Psaty BM, Smith NL, Heckbert SR, Vos HL, Lemaitre RN, et al. (2002) Diuretic therapy, the alpha-adducin gene variant, and the risk of myocardial infarction or stroke in persons with treated hypertension. JAMA 287: 1680–1689. doi: 10.1001/jama.287.13.1680. 
+[82]	Vormfelde SV, Burckhardt G, Zirk A, Wojnowski L, Brockmoller J (2003) Pharmacogenomics of diuretic drugs: data on rare monogenic disorders and on polymorphisms and requirements for further research. Pharmacogenomics 4: 701–734. doi: 10.1517/phgs.4.6.701.22817. 
+[83]	Manunta P, Burnier M, D'Amico M, Buzzi L, Maillard M, et al. (1999) Adducin polymorphism affects renal proximal tubule reabsorption in hypertension. Hypertension 33: 694–697. doi: 10.1161/01.HYP.33.2.694. 
+[84]	Manunta P, Cusi D, Barlassina C, Righetti M, Lanzani C, et al. (1998) Alpha-adducin polymorphisms and renal sodium handling in essential hypertensive patients. Kidney Int 53: 1471–1478. doi: 10.1046/j.1523-1755.1998.00931.x. 
+[85]	Iwai N, Tamaki S, Nakamura Y, Kinoshita M (1997) Polymorphism of alpha-adducin and hypertension. Lancet 350: 369. 
+[86]	Cwynar M, Staessen JA, Tichá M, Nawrot T, Citterio L, et al. (2005) Epistatic interaction between alpha- and gamma-adducin inuences peripheral and central pulse pressures in white europeans. J Hypertens 23: 961–969. 
+[87]	Cusi D, Barlassina C, Azzani T, Casari G, Citterio L, et al. (1997) Polymorphisms of alpha-adducin and salt sensitivity in patients with essential hypertension. Lancet 349: 1353–1357. 
+[88]	Sugimoto K, Hozawa A, Katsuya T, Matsubara M, Ohkubo T, et al. (2002) alpha-Adducin Gly460Trp polymorphism is associated with low renin hypertension in younger subjects in the Ohasama study. J Hypertens 20: 1779–1784. doi: 10.1097/00004872-200209000-00022. 
+[89]	Buyzere MD (2009) Selective genetic advantages for users of thiazide diuretics. Is there a case for the 460Trp variant of alpha-adducin? J Hypertens 27: 24–27. 
+[90]	Gueyffer F, Boutitie F, Boissel JP, Coope J, Cutler J, et al. (1995) INDANA: a meta-analysis on individual patient data in hypertension. protocol and preliminary results. Therapie 50: 353–362. 
+[91]	Mir O, Coriat R, Cabanes L, Ropert S, Billemont B, et al. (2011) An observational study of bevacizumab-induced hypertension as a clinical biomarker of antitumor activity. Oncologist 16: 1325–1332. doi: 10.1634/theoncologist.2010-0002. 
+[92]	Lassau N, Chami L, Chebil M, Benatsou B, Bidault S, et al. (2011) Dynamic Contrast-enhanced Ultrasonography (DCE-US) and anti-angiogenic treatments. Discov Med 11: 18–24. 
+[93]	Baldes EJ, Smirk FH (1934) The effect of water drinking, mineral starvation and salt administration on the total osmotic pressure of the blood in man, chiey in relation to the problems of water absorption and water diuresis. J Physiol 82: 62–74. 
+[94]	Davis JO, Howell DS (1953) Comparative effect of ACTH, cortisone and DCA on renal function, electrolyte excretion and water exchange in normal dogs. Endocrinology 52: 245–255. doi: 10.1210/endo-52-3-245. 

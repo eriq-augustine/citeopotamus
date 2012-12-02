@@ -1,0 +1,37 @@
+REFERENCES
+[1]	Zeigler P, Marler P (2004) Neuroscience of birdsong. Cambridge, Massachusetts: Cambridge University press. 
+[2]	Mindlin G, Laje R (2005) The Physics of Birdsong. Springer. 
+[3]	Doupe AJ, Kuhl PK (1999) Birdsong and human speech: Common themes and mechanisms. Annu Rev Neurosci 22: 567–631. doi: 10.1146/annurev.neuro.22.1.567. 
+[4]	Gardner T, Cecchi G, Magnasco M, Laje R, Mindlin GB (2001) Simple motor gestures for birdsongs. Phys Rev Lett 87: 208101. doi: 10.1103/PhysRevLett.87.208101. 
+[5]	Sitt JD, Amador A, Goller F, Mindlin GB (2008) Dynamical origin of spectrally rich vocalizations in birdsong. Phys Rev E Stat Nonlin Soft Matter Phys 78: 011905. doi: 10.1103/PhysRevE.78.011905. 
+[6]	Zollinger SA, Suthers RA (2004) Motor mechanisms of a vocal mimic: implications for birdsong production. Proc Biol Sci 271: 483–491. doi: 10.1098/rspb.2003.2598. 
+[7]	Zollinger SA, Riede T, Suthers RA (2008) Two-voice complexity from a single side of the syrinx in northern mockingbird Mimus polyglottos vocalizations. J Exp Biol 211: 1978–1991. doi: 10.1242/jeb.014092. 
+[8]	Arneodo EM, Mindlin GB (2009) Source-tract coupling in birdsong production. Phys Rev E 79: 061921. doi: 10.1103/PhysRevE.79.061921. 
+[9]	Arneodo EM, Perl YS, Mindlin GB (2011) Acoustic signatures of sound source-tract coupling. Phys Rev E 83: 041920. doi: 10.1103/PhysRevE.83.041920. 
+[10]	Ishizaka K, Flanagan J (1973) Synthesis of voiced sounds from a two-mass model of the vocal cords. Dowden Hutchinson and Ross. 
+[11]	Laje R, Gardner TJ, Mindlin GB (2002) Neuromuscular control of vocalizations in birdsong: A model. Phys Rev E 65: 051921. doi: 10.1103/PhysRevE.65.051921. 
+[12]	Titze IR (1988) The physics of small-amplitude oscillation of the vocal folds. J Acoust Soc Am 83: 1536–1552. doi: 10.1121/1.395910. 
+[13]	Sitt JD, Arneodo EM, Goller F, Mindlin GB (2010) Physiologically driven avian vocal synthesizer. Phys Rev E 81: 031927. doi: 10.1103/PhysRevE.81.031927. 
+[14]	Perl YS, Arneodo EM, Amador A, Goller F, Mindlin GB (2011) Reconstruction of physiological instructions from zebra finch song. Phys Rev E 84: 051909. doi: 10.1103/PhysRevE.84.051909. 
+[15]	Schwartz A, Cui X, Weber D, Moran D (2006) Brain-controlled interfaces: movement restoration with neural prosthetics. Neuron 52: 205–220. doi: 10.1016/j.neuron.2006.09.019. 
+[16]	Cichocki A, Washizawa Y, Rutkowski T, Bakardjian H, Phan AH, et al. (2008) Noninvasive bcis: Multiway signal-processing array decompositions. Computer 41: 34–42. doi: 10.1109/MC.2008.431. 
+[17]	Carmena J, Lebedev M, Crist R, O'Doherty J, Santucci D, et al. (2003) Learning to control a brain–machine interface for reaching and grasping by primates. PLoS biol 1: e42. doi: 10.1371/journal.pbio.0000042. 
+[18]	Parra L, Spence C (2000) Convolutive blind separation of non-stationary sources. IEEE T Speech Audi P 8: 320–327. doi: 10.1109/89.841214. 
+[19]	Larsen ON, Goller F (1999) Role of syringeal vibrations in bird vocalizations. Proc Biol Sci 266: 1609. doi: 10.1098/rspb.1999.0822. 
+[20]	Goller F, Larsen ON (1997) A new mechanism of sound generation in songbirds. Proc Natl Acad Sci U S A 94: 14787–14791. doi: 10.1073/pnas.94.26.14787. 
+[21]	Nowicki S (1987) Vocal tract resonances in oscine bird sound production: evidence from birdsongs in a helium atmosphere. Nature 325: 53–5. doi: 10.1038/325053a0. 
+[22]	Riede T, Suthers RA, Fletcher NH, Blevins WE (2006) Songbirds tune their vocal tract to the fundamental frequency of their song. Proc Natl Acad Sci U S A 103: 5543–5548. doi: 10.1073/pnas.0601262103. 
+[23]	Assaneo MF, Trevisan MA (2010) Computational model for vocal tract dynamics in a suboscine bird. Phys Rev E 82: 031906. doi: 10.1103/PhysRevE.82.031906. 
+[24]	Fletcher NH, Riede T, Suthers RA (2006) Model for vocalization by a bird with distensible vocal cavity and open beak. J Acoust Soc Am 119: 1005–1011. doi: 10.1121/1.2159434. 
+[25]	Fee MS, Shraiman B, Pesaran B, Mitra PP (1998) The role of nonlinear dynamics of the syrinx in the vocalizations of a songbird. Nature 395: 67–71. 
+[26]	Titze I (2000) Principles of voice production. National Center for Voice and Speech. 
+[27]	Coppens A, Frey A, Kinsler L, Sanders J (1982) Fundamentals of acoustics. 
+[28]	Amador A, Mindlin GB (2008) Beyond harmonic sounds in a simple model for birdsong production. Chaos 18: 043123. doi: 10.1063/1.3041023. 
+[29]	GOLLER F, COOPER BG (2004) Peripheral motor dynamics of song production in the zebra finch. Ann N Y Acad Sci 1016: 130–152. doi: 10.1196/annals.1298.009. 
+[30]	Strogatz SH (2000) Nonlinear dynamics and chaos. Cambridge, Massachusetts: Perseus Publishing. 
+[31]	Guckenheimer J, Holmes P (1983) Nonlinear Oscilations, Dynamical Systems, and Bifurcations of Vector Fields. New York Berlin Heidelberg Tokyo: Springer-Verlag. 
+[32]	Brainard MS, Doupe AJ (2000) Auditory feedback in learning and maintenance of vocal behaviour. Nat Rev Neurosci 1: 31–40. 
+[33]	Cooper BG, Goller F (2004) Partial muting leads to age-dependent modi_cation of motor patterns underlying crystallized zebra finch song. J Neurobiol 61: 317–332. 
+[34]	Sakata J, Brainard M (2006) Real-time contributions of auditory feedback to avian vocal motor control. J Neurosci 26: 9619–9628. doi: 10.1523/JNEUROSCI.2027-06.2006. 
+[35]	Darmanjian S, Cieslewski G, Morrison S, Dang B, Gugel K, et al. (2006) A recon-figurable neural signal processor (nsp) for brain machine interfaces. pp. 2502–2505. 
+[36]	Chapin J, Moxon K, Markowitz R, Nicolelis M, et al. (1999) Real-time control of a robot arm using simultaneously recorded neurons in the motor cortex. Nat Neurosci 2: 664–670. 

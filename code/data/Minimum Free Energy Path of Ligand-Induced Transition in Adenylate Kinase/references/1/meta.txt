@@ -1,0 +1,6 @@
+TITLE: The energy landscapes and motions of proteins.
+AUTHORS: Frauenfelder H, Sligar SG, Wolynes PG
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Recent experiments, advances in theory, and analogies to other complex systems such as glasses and spin glasses yield insight into protein dynamics. The basis of the understanding is the observation that the energy landscape is complex: Proteins can assume a large number of nearly isoenergetic conformations (conformational substates). The concepts that emerge from studies of the conformational substates and the motions between them permit a quantitative discussion of one simple reaction, the binding of small ligands such as carbon monoxide to myoglobin.

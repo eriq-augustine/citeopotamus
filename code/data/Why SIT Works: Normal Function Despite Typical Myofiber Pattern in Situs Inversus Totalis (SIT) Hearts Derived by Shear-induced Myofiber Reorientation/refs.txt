@@ -1,0 +1,36 @@
+REFERENCES
+[1]	Greenbaum R, Ho S, Gibson D, Becker A, Anderson R (1981) Left ventricular fibre architecture in man. Br Heart J 45: 248–263. doi: 10.1136/hrt.45.3.248. 
+[2]	Grimm A, Katele K, Lin H (1976) Fiber bundle direction in the mammalian heart. an extension of the ‘nested shells’ model. Basic Res Cardiol 71: 381–388. 
+[3]	Nielsen PM, LeGrice IJ, Smaill BH, Hunter PJ (1991) Mathematical model of geometry and fibrous structure of the heart. Am J Physiol - Heart Circ Physiol 260: H1365–H1378. 
+[4]	Streeter DD Jr, Spotnitz HM, Platel DJ, Ross J Jr, Sonnenblick EH (1969) Fiber orientation in the canine left ventricle during diastole and systole. Circ Res 24: 339–347. doi: 10.1161/01.RES.24.3.339. 
+[5]	Geerts-Ossevoort L, Bovendeerd P, Nicolay K, Arts T (2002) Characterization of the normal cardiac myofiber field in goat measured with mr-diffusion tensor imaging. Am J Physiol - Heart Circ Physiol 283: H139–H145. 
+[6]	Delhaas T, Kroon W, Decaluwe W, Rubbens M, Bovendeerd P, et al. (2008) Structure and torsion of the normal and situs inversus totalis cardiac left ventricle; Part I: experimental data in humans. Am J Physiol - Heart Circ Physiol 295: H197–H201. 
+[7]	Ubbink SWJ, Bovendeerd PHM, Delhaas T, Arts T, Van de Vosse FN (2006) Towards model-based analysis of cardiac mr tagging data: Relation between left ventricular shear strain and myofiber orientation. Med Imag Anal 10: 623–641. doi: 10.1016/j.media.2006.04.001. 
+[8]	Bovendeerd P, Arts T, Huyghe J, van Campen D, Reneman R (1992) Dependency of local left ventricular wall mechanics on myocardial myofiber orientation: a model study. J Biomech 25: 1129–1135. 
+[9]	Bovendeerd PHM, Kroon W, Delhaas T (2009) Determinants of left ventricular shear strain. Am J Physiol - Heart Circ Physiol 297: H1058–H1068. doi: 10.1152/ajpheart.01334.2008. 
+[10]	MacGowan GA, Shapiro EP, Azhari H, Siu CO, Hees PS, et al. (1997) Noninvasive measurement of shortening in the fiber and cross-fiber directions in the normal human left ventricle and in idiopathic dilated cardiomyopathy. Circulation 96: 535–541. doi: 10.1161/01.CIR.96.2.535. 
+[11]	Rijcken JM, Bovendeerd PHM, Schoofs AJG, Van Campen DH, Arts T (1999) Optimization of cardiac fiber orientation for homogeneous fiber strain during ejection. Ann Biomed Eng 27: 289–297. doi: 10.1114/1.147. 
+[12]	Kroon W, Delhaas T, Arts T, Bovendeerd P (2009) Computational analysis of the myocardial structure: Adaptation of myofiber orientations through deformation in three dimensions. Med Imag Anal 13: 346–353. 
+[13]	Asami I, Koizumi K (1989) The vortex cordis is never reversely directed, even in situs inversus and l-loop anomaly. Kaibogaku Zasshi 64: 36–45. 
+[14]	Delhaas T, Kroon W, Bovendeerd P, Arts T (2008) Left ventricular apical torsion and architecture are not inverted in situs inversus totalis. Prog Biophys Mol Biol 97: 513–519. doi: 10.1016/j.pbiomolbio.2008.02.004. 
+[15]	Matsumura H, Aizawa Y, Kumaki K (1990) Myocardial architecture in situs inversus vicerum totalis. In: Clark E, Takao A, editors. Developmental cardiology: morphogenesis and function. Mount Kisco: Futura Pub Co. pp. 605–624. 
+[16]	Kroon W, Delhaas T, Bovendeerd P, Arts T (2008) Structure and torsion in the normal and situs inversus totalis cardiac left ventricle; part ii: Modeling cardiac adaptation to mechanical load. Am J Physiol - Heart Circ Physiol 295: H202–H210. 
+[17]	Pluijmert M, Kroon W, Delhaas T, Bovendeerd P (2012) Adaptive reorientation of cardiac myofibers: the long-term effect of initial and boundary conditions. Mech Res Commun 42: 60–67. doi: 10.1016/j.mechrescom.2011.11.011. 
+[18]	Frank LH, Yu Q, Francis R, Tian X, Samtani R, et al. (2010) Ventricular rotation is independent of cardiac looping: A study with situs inversus totalis using speckle-tracking echocardiography. J Am Soc Echocardiogr 23: 315–323. doi: 10.1016/j.echo.2009.11.024. 
+[19]	LeGrice IJ, Takayama Y, Covell JW (1995) Transverse shear along myocardial cleavage planes provides a mechanism for normal systolic wall thickening. Circ Res 77: 182–193. doi: 10.1161/01.RES.77.1.182. 
+[20]	Omens JH, Usyk TP, Li Z, McCulloch AD (2002) Muscle lim protein deficiency leads to alterations in passive ventricular mechanics. Am J Physiol Heart Circ Physiol 282: H680–H687. 
+[21]	Dokos S, Smaill BH, Young AA, LeGrice IJ (2002) Shear properties of passive ventricular myocardium. Am J Physiol 283: H2650–H2659. 
+[22]	Schmid H, O'Callaghan P, Nash MP, Lin W, LeGrice IJ, et al. (2008) Myocardial material parameter estimation: a non-homogeneous finite element study from simple shear tests. Biomech Model Mechanobiol 7: 161–173. 
+[23]	Arts T, Costa KD, Covell JW, McCulloch AD (2001) Relating myocardial laminar architecture to shear strain and muscle fiber orientation. Am J Physiol Heart Circ Physiol 280: H2222–H2229. 
+[24]	Rodriguez EK, Omens JH, Waldman LK, McCulloch AD (1993) Effect of residual stress on transmural sarcomere length distributions in rat left ventricle. Am J Physiol - Heart Circ Physiol 264: H1048–H1056. 
+[25]	Kroon W, Delhaas T, Bovendeerd P, Arts T (2009) Adaptive reorientation of cardiac myofibers: Comparison of left ventricular shear in model and experiment. In: Ayache N, Delingette H, Sermesant M, editors. Functional Imaging and Modeling of the Heart. Springer. pp. 58–67. 
+[26]	Kerckhoffs R, Bovendeerd P, Kotte J, Prinzen F, Smits K, et al. (2003) Homogeneity of cardiac contraction despite physiological asynchrony of depolarization: a model study. Ann of Biom Engineering 31: 536–547. doi: 10.1114/1.1566447. 
+[27]	Streeter DD, Hanna WT (1973) Engineering mechanics for successive states in canine left ventricular myocardium. Circ Res 33: 639–664. 
+[28]	Nikoli S, Yellin EL, Tamura K, Vetter H, Tamura T, et al. (1988) Passive properties of canine left ventricle: diastolic stiffness and restoring forces. Circ Res 62: 1210–1222. 
+[29]	Bovendeerd P, Arts T, Delhaas T, Huyghe J, Van Campen D, et al. (1996) Regional wall mechanics in the ischemic left ventricle: numerical modeling and dog experiments. Am J Physiol 270: H398–H410. 
+[30]	Geerts L, Kerckhoffs R, Bovendeerd P, Arts T (2003) Towards patient specific models of cardiac mechanics: A sensitivity study. In: Magnin IE, Montagnat J, Clarysse P, Nenonen J, Katila T, editors. Functional Imaging and Modeling of the Heart. Springer. pp. 1006–1007. 
+[31]	Gilbert S, Benson A, Li P, Van Holden A (2007) Regional localisation of left ventricular sheet structure: integration with current models of cardiac fibre, sheet and band structure. Eur J Cardiothorac Surg 32: 231–249. doi: 10.1016/j.ejcts.2007.03.032. 
+[32]	Yin FC, Strumpf RK, Chew PH, Zeger SL (1987) Quantification of the mechanical properties of noncontracting canine myocardium under simultaneous biaxial loading. J Biomech 20: 577–589. doi: 10.1016/0021-9290(87)90279-X. 
+[33]	Arts T, Veenstra PC, Reneman RS (1982) Epicardial deformation and left ventricular wall mechanisms during ejection in the dog. Am J Physiol 243: H379–H390. 
+[34]	ter Keurs HE, Bucx JJ, de Tombe PP, Backx P, Iwazumi T (1988) The effects of sarcomere length and ca++ on force and velocity of shortening in cardiac muscle. Adv Exp Med Biol 226: 581–593. 
+[35]	Janssen PM, Hunter WC (1995) Force, not sarcomere length, correlates with prolongation of isosarcometric contraction. Am J Physiol 269: H676–H685. 

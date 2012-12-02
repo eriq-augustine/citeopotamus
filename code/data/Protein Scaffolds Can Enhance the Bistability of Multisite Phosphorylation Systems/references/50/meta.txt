@@ -1,0 +1,6 @@
+TITLE: Signal transduction: turning a switch into a rheostat.
+AUTHORS: Bardwell L
+TERMS:
+CATEGORIES:
+ABSTRACT:
+MAP kinase cascades are inherently switch-like, but, during yeast mating, MAPK signaling is graded. A new study suggests that the Ste5 scaffold protein is responsible for making this switch less switch-like.

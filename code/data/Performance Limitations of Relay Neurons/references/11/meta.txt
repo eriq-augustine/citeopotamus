@@ -1,0 +1,6 @@
+TITLE: The role of the thalamus in motor control.
+AUTHORS: Sommer MA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Two characteristics of the thalamus--its apparently simple relay function and its daunting multinuclear structure--have been customarily viewed as good reasons to study something else. Yet, now that many other brain regions have been explored and neurophysiologists are turning to questions of how larger circuits operate, these two characteristics are starting to seem more attractive. First, the relay nature of thalamic neurons means that recording from them, like tapping into a wire, can reveal the signals carried by specific circuits. Second, the concentration of like relay neurons into nuclei means that inactivating or stimulating them can efficiently test the functions of the circuits. Recent studies implementing these principles have revealed pathways through the thalamus that contribute to generating movements and to monitoring one's own actions (corollary discharge).

@@ -1,0 +1,4 @@
+An extensive network of coupling among gene expression machines.
+Maniatis T, Reed R
+Abstract:
+Gene expression in eukaryotes requires several multi-component cellular machines. Each machine carries out a separate step in the gene expression pathway, which includes transcription, several pre-messenger RNA processing steps and the export of mature mRNA to the cytoplasm. Recent studies lead to the view that, in contrast to a simple linear assembly line, a complex and extensively coupled network has evolved to coordinate the activities of the gene expression machines. The extensive coupling is consistent with a model in which the machines are tethered to each other to form 'gene expression factories' that maximize the efficiency and specificity of each step in gene expression.

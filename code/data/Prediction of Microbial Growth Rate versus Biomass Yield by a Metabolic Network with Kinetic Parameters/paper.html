@@ -1,0 +1,1256 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:dc="http://purl.org/dc/terms/"
+      xmlns:doi="http://dx.doi.org/"
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes#"
+      lang="en" xml:lang="en"
+      itemscope itemtype="http://schema.org/Article">
+
+<head>
+   <title>PLOS Computational Biology: Prediction of Microbial Growth Rate versus Biomass Yield by a Metabolic Network with Kinetic Parameters</title>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9" />
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+<link rel="home" title="home" href="/home.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2" />
+<link rel="alternate" type="application/rss+xml"
+  title="PLOS Computational Biology: New Articles"
+  href="http://www.ploscompbiol.org/article/feed" />
+
+<link rel="pingback" href="http://www.ploscompbiol.org/pingback" />
+
+
+<!-- global_css.ftl -->
+<link rel="stylesheet" type="text/css" media="screen" href="/css/dojo/dijit/themes/tundra/tundra.css?v=zwugcxLdpBWmb72qqlHgGyeNAGM" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/star_rating.css?v=Mm3HyaUPUahAJAq6xG5W3tdF7Hk" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/rating.css?v=AOT9rozE9sYVjGTdeiyxHf18Ykw" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/screen.css?v=KBNFqBmhD635U0NgiM5tf9dtxRE" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/iepc.css?v=FIjyR83BhSovq_5yNVk1Sih60AI" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/journal.css?v=SiREXztjNSUsOyrlkE9sv028Y+0" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/lightBox.css?v=sDgsUXamFoYAakEshdj0YWrZiiQ" />
+<link rel="stylesheet" type="text/css" media="print" href="/css/print.css?v=0T+LTV7Gd0jtHEhqEvBfSrmHUGg" />
+
+<!--chartbeat --> 
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+
+
+<!--[if IE]><![endif]-->
+<meta name="description" content="PLOS Computational Biology is an open-access" />
+
+<meta name="keywords" content="plos computational biology" />
+
+  <meta name="citation_publisher" content="Public Library of Science" />
+  <meta name="citation_doi" content="10.1371/journal.pcbi.1002575" />
+    <meta name="citation_title" content="Prediction of Microbial Growth Rate versus Biomass Yield by a Metabolic Network with Kinetic Parameters"/>
+    <meta itemprop="name" content="Prediction of Microbial Growth Rate versus Biomass Yield by a Metabolic Network with Kinetic Parameters"/>
+
+      <meta name="citation_author" content="Roi Adadi" />
+          <meta name="citation_author_institution" content="Department of Computer Science, Technion, Haifa, Israel" />
+      <meta name="citation_author" content="Benjamin Volkmer" />
+          <meta name="citation_author_institution" content="Institute of Molecular Systems Biology, ETH Zurich, Zurich, Switzerland" />
+      <meta name="citation_author" content="Ron Milo" />
+          <meta name="citation_author_institution" content="Departments of Plant Sciences, Weizmann Institute of Science, Rehovot, Israel" />
+      <meta name="citation_author" content="Matthias Heinemann" />
+          <meta name="citation_author_institution" content="Institute of Molecular Systems Biology, ETH Zurich, Zurich, Switzerland" />
+          <meta name="citation_author_institution" content="Molecular Systems Biology, Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, AG Groningen, The Netherlands" />
+      <meta name="citation_author" content="Tomer Shlomi" />
+          <meta name="citation_author_institution" content="Department of Computer Science, Technion, Haifa, Israel" />
+
+    <meta name="citation_date" content="2012/7/5"/>
+
+  <meta name="citation_pdf_url" content="http://dx.plos.org/10.1371/journal.pcbi.1002575.pdf" />
+
+    <meta name="citation_journal_title" content="PLOS Computational Biology" />
+    <meta name="citation_firstpage" content="e1002575"/>
+    <meta name="citation_issue" content="7"/>
+    <meta name="citation_volume" content="8"/>
+    <meta name="citation_issn" content="1553-7358"/>
+
+    <meta name="citation_journal_abbrev" content="PLoS Comput Biol" />
+
+      <meta name="citation_reference" content="citation_title=Bioinformatics - From Genomes to Therapies 2. Getting at the Inner Workings: Molecular Interactions; citation_number=1; citation_date=2007; citation_publisher=Wiley-VCH; " />
+      <meta name="citation_reference" content="citation_title=Genome-scale microbial in silico models: the constraints-based approach.; citation_author=ND Price; citation_author=JA Papin; citation_author=CH Schilling; citation_author=BO Palsson; citation_journal_title=Trends Biotechnol; citation_volume=21; citation_number=2; citation_pages=162-169; citation_date=2003; " />
+      <meta name="citation_reference" content="citation_title=Metabolic network structure determines key aspects of functionality and regulation.; citation_author=J Stelling; citation_author=S Klamt; citation_author=K Bettenbrock; citation_author=S Schuster; citation_author=ED Gilles; citation_journal_title=Nature; citation_volume=420; citation_number=3; citation_pages=190-193; citation_date=2002; " />
+      <meta name="citation_reference" content="citation_title=Analysis of optimality in natural and perturbed metabolic networks.; citation_author=D Segre; citation_author=D Vitkup; citation_author=GM Church; citation_journal_title=Proc Natl Acad Sci U S A; citation_volume=99; citation_number=4; citation_pages=15112-15117; citation_date=2002; " />
+      <meta name="citation_reference" content="citation_title=Overflow metabolism in Escherichia coli during steady-state growth: transcriptional regulation and effect of the redox ratio.; citation_author=GN Vemuri; citation_author=E Altman; citation_author=DP Sangurdekar; citation_author=AB Khodursky; citation_author=MA Eiteman; citation_journal_title=Appl Environ Microb; citation_volume=72; citation_number=5; citation_pages=3653-3661; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=Shifts in growth strategies reflect tradeoffs in cellular economics.; citation_author=D Molenaar; citation_author=R van Berlo; citation_author=D de Ridder; citation_author=B Teusink; citation_journal_title=Mol Syst Biol; citation_volume=5; citation_number=6; citation_pages=323; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Metabolic trade-offs and the maintenance of the fittest and the flattest.; citation_author=RE Beardmore; citation_author=I Gudelj; citation_author=DA Lipson; citation_author=LD Hurst; citation_journal_title=Nature; citation_volume=472; citation_number=7; citation_pages=342-346; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Intracellular crowding defines the mode and sequence of substrate uptake by Escherichia coli and constrains its metabolic activity.; citation_author=QK Beg; citation_author=A Vazquez; citation_author=J Ernst; citation_author=MA de Menezes; citation_author=Z Bar-Joseph; citation_journal_title=Proc Natl Acad Sci U S A; citation_volume=104; citation_number=8; citation_pages=12663-12668; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Impact of the solvent capacity constraint on E. coli metabolism.; citation_author=A Vazquez; citation_author=QK Beg; citation_author=MA deMenezes; citation_author=J Ernst; citation_author=Z Bar-Joseph; citation_journal_title=BMC Syst Biol; citation_volume=2; citation_number=9; citation_pages=7; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Genome-scale metabolic modeling elucidates the role of proliferative adaptation in causing the warburg effect.; citation_author=T Shlomi; citation_author=T Benyamini; citation_author=E Gottlieb; citation_author=R Sharan; citation_author=E Ruppin; citation_journal_title=PLoS Comput Biol; citation_volume=7; citation_number=10; citation_pages=e1002018; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Economics of membrane occupancy and respiro-fermentation.; citation_author=K Zhuang; citation_author=GN Vemuri; citation_author=R Mahadevan; citation_journal_title=Mol Syst Biol; citation_volume=7; citation_number=11; citation_pages=500; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Cell design in bacteria as a convex optimization problem.; citation_author=A Goelzer; citation_author=V Fromion; citation_author=G Scorletti; citation_journal_title=Automatica; citation_volume=47; citation_number=12; citation_pages=1210-1218; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Integrating quantitative proteomics and metabolomics with a genome-scale metabolic network model.; citation_author=K Yizhak; citation_author=T Benyamini; citation_author=W Liebermeister; citation_author=E Ruppin; citation_author=T Shlomi; citation_journal_title=Bioinformatics; citation_volume=26; citation_number=13; citation_pages=i255-260; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Interpreting expression data with metabolic flux models: predicting Mycobacterium tuberculosis mycolic acid production.; citation_author=C Colijn; citation_author=A Brandes; citation_author=J Zucker; citation_author=DS Lun; citation_author=B Weiner; citation_journal_title=PLoS Comput Biol; citation_volume=5; citation_number=14; citation_pages=e1000489; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Review of the BRENDA Database.; citation_author=P Pharkya; citation_author=EV Nikolaev; citation_author=CD Maranas; citation_journal_title=Metab Eng; citation_volume=5; citation_number=15; citation_pages=71-73; citation_date=2003; " />
+      <meta name="citation_reference" content="citation_title=SABIO-RK: Integration and curation of reaction kinetics data.; citation_author=U Wittig; citation_author=M Golebiewski; citation_author=R Kania; citation_author=O Krebs; citation_author=S Mir; citation_journal_title=Lect N Bioinformat; citation_volume=4075; citation_number=16; citation_pages=94-103; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=Multiple high-throughput analyses monitor the response of E. coli to perturbations.; citation_author=N Ishii; citation_author=K Nakahigashi; citation_author=T Baba; citation_author=M Robert; citation_author=T Soga; citation_journal_title=Science; citation_volume=316; citation_number=17; citation_pages=593-597; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Systematic evaluation of objective functions for predicting intracellular fluxes in Escherichia coli.; citation_author=R Schuetz; citation_author=L Kuepfer; citation_author=U Sauer; citation_journal_title=Mol Syst Biol; citation_volume=3; citation_number=18; citation_pages=119; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=A genome-scale metabolic reconstruction for Escherichia coli K-12 MG1655 that accounts for 1260 ORFs and thermodynamic information.; citation_author=AM Feist; citation_author=CS Henry; citation_author=JL Reed; citation_author=M Krummenacker; citation_author=AR Joyce; citation_journal_title=Mol Syst Biol; citation_volume=3; citation_number=19; citation_pages=121; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Regulatory on/off minimization of metabolic flux changes after genetic perturbations.; citation_author=T Shlomi; citation_author=O Berkman; citation_author=E Ruppin; citation_journal_title=Proc Natl Acad Sci U S A; citation_volume=102; citation_number=20; citation_pages=7695-7700; citation_date=2005; " />
+      <meta name="citation_reference" content="citation_title=The effects of alternate optimal solutions in constraint-based genome-scale metabolic models.; citation_author=R Mahadevan; citation_author=CH Schilling; citation_journal_title=Metab Eng; citation_volume=5; citation_number=21; citation_pages=264-276; citation_date=2003; " />
+      <meta name="citation_reference" content="citation_title=The moderately efficient enzyme: evolutionary and physicochemical trends shaping enzyme parameters.; citation_author=A Bar-Even; citation_author=E Noor; citation_author=Y Savir; citation_author=W Liebermeister; citation_author=D Davidi; citation_journal_title=Biochemistry; citation_volume=50; citation_number=22; citation_pages=4402-4410; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=KEGG for representation and analysis of molecular networks involving diseases and drugs.; citation_author=M Kanehisa; citation_author=S Goto; citation_author=M Furumichi; citation_author=M Tanabe; citation_author=M Hirakawa; citation_journal_title=Nucleic Acids Res; citation_volume=38; citation_number=23; citation_pages=D355-360; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Integration of gene expression data into genome-scale metabolic models.; citation_author=M Akesson; citation_author=J Forster; citation_author=J Nielsen; citation_journal_title=Metab Eng; citation_volume=6; citation_number=24; citation_pages=285-293; citation_date=2004; " />
+      <meta name="citation_reference" content="citation_title=Context-specific metabolic networks are consistent with experiments.; citation_author=SA Becker; citation_author=BO Palsson; citation_journal_title=PLoS Comput Biol; citation_volume=4; citation_number=25; citation_pages=e1000082; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=RpoS regulation of gene expression during exponential growth of Escherichia coli K12.; citation_author=T Dong; citation_author=MG Kirchhof; citation_author=HE Schellhorn; citation_journal_title=Mol Genet Genomics; citation_volume=279; citation_number=26; citation_pages=267-277; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Inferring lifestyle from gene expression patterns.; citation_author=A Wagner; citation_journal_title=Mol Biol Evol; citation_volume=17; citation_number=27; citation_pages=1985-1987; citation_date=2000; " />
+      <meta name="citation_reference" content="citation_title=OptORF: Optimal metabolic and regulatory perturbations for metabolic engineering of microbial strains.; citation_author=J Kim; citation_author=JL Reed; citation_journal_title=BMC Syst Biol; citation_volume=4; citation_number=28; citation_pages=53; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=A genome-scale computational study of the interplay between transcriptional regulation and metabolism.; citation_author=T Shlomi; citation_author=Y Eisenberg; citation_author=R Sharan; citation_author=E Ruppin; citation_journal_title=Mol Syst Biol; citation_volume=3; citation_number=29; citation_pages=101; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Modulation of chemical composition and other parameters of the cell by growth rate.; citation_author=H Bremer; citation_author=PP Dennis; citation_number=30; citation_pages= pp 1553-1569; citation_date=1996; citation_publisher=American Society for Microbiology; " />
+      <meta name="citation_reference" content="citation_title=A hidden square-root boundary between growth rate and biomass yield.; citation_author=WW Wong; citation_author=LM Tran; citation_author=JC Liao; citation_journal_title=Biotechnol Bioeng; citation_volume=102; citation_number=31; citation_pages=73-80; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Global gene expression analysis of glucose overflow metabolism in Escherichia coli and reduction of aerobic acetate formation.; citation_author=A Veit; citation_author=T Polen; citation_author=VF Wendisch; citation_journal_title=Appl Microbiol Biotechnol; citation_volume=74; citation_number=32; citation_pages=406-421; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Role of transcriptional regulation in controlling fluxes in central carbon metabolism of Saccharomyces cerevisiae. A chemostat culture study.; citation_author=P Daran-Lapujade; citation_author=ML Jansen; citation_author=JM Daran; citation_author=W van Gulik; citation_author=JH de Winde; citation_journal_title=J Biol Chem; citation_volume=279; citation_number=33; citation_pages=9125-9138; citation_date=2004; " />
+      <meta name="citation_reference" content="citation_title=Omic data from evolved E. coli are consistent with computed optimal growth from genome-scale models.; citation_author=NE Lewis; citation_author=KK Hixson; citation_author=TM Conrad; citation_author=JA Lerman; citation_author=P Charusanti; citation_journal_title=Mol Syst Biol; citation_volume=6; citation_number=34; citation_pages=390; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Bacterial growth laws and their applications.; citation_author=M Scott; citation_author=T Hwa; citation_journal_title=Curr Opin Biotechnol; citation_volume=22; citation_number=35; citation_pages=559-565; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Absolute metabolite concentrations and implied enzyme active site occupancy in Escherichia coli.; citation_author=BD Bennett; citation_author=EH Kimball; citation_author=M Gao; citation_author=R Osterhout; citation_author=SJ Van Dien; citation_journal_title=Nat Chem Biol; citation_volume=5; citation_number=36; citation_pages=593-599; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Thermodynamics-based metabolic flux analysis.; citation_author=CS Henry; citation_author=LJ Broadbelt; citation_author=V Hatzimanikatis; citation_journal_title=Biophys J; citation_volume=92; citation_number=37; citation_pages=1792-1805; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Optknock: a bilevel programming framework for identifying gene knockout strategies for microbial strain optimization.; citation_author=AP Burgard; citation_author=P Pharkya; citation_author=CD Maranas; citation_journal_title=Biotechnol Bioeng; citation_volume=84; citation_number=38; citation_pages=647-657; citation_date=2003; " />
+      <meta name="citation_reference" content="citation_title=OptStrain: a computational framework for redesign of microbial production systems.; citation_author=P Pharkya; citation_author=AP Burgard; citation_author=CD Maranas; citation_journal_title=Genome Res; citation_volume=14; citation_number=39; citation_pages=2367-2376; citation_date=2004; " />
+      <meta name="citation_reference" content="citation_title=Predicting metabolic engineering knockout strategies for chemical production: accounting for competing pathways.; citation_author=N Tepper; citation_author=T Shlomi; citation_journal_title=Bioinformatics; citation_volume=26; citation_number=40; citation_pages=536-543; citation_date=2010; " />
+
+
+
+<!--
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002575">
+   <license rdf:resource="http://creativecommons.org/licenses/by/2.5/" />
+</Work>
+<License rdf:about="http://creativecommons.org/licenses/by/2.5/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+</License>
+<rdf:Description
+     rdf:about="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002575"
+     dc:identifier="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002575"
+     dc:title="PLOS Computational Biology: Prediction of Microbial Growth Rate versus Biomass Yield by a Metabolic Network with Kinetic Parameters"
+       trackback:ping="http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002575/trackback;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2"
+     />
+</rdf:RDF>
+
+-->
+</head>
+<body>
+<span property="dc:language" content="en"></span>
+<!-- begin : container -->
+<div id="container">
+  <!-- begin : top banner external ad space -->
+  <div id="topBanner">
+
+
+<!-- begin : left banner slot -->
+<div class="left">
+  <iframe id='affe494b' name='affe494b'
+    src='http://ads.plos.org/www/delivery/afr.php?zoneid=84&amp;cb=9550'
+    frameborder='0' scrolling='no' width='468' height='60'><a
+    href='http://ads.plos.org/www/delivery/ck.php?n=affe494b&amp;cb=4842'
+    target='_top'><img src='http://ads.plos.org/www/delivery/avw.php?zoneid=84&amp;cb=9888&amp;n=affe494b'
+    border='0' alt='' /></a></iframe>
+</div>
+<!-- end : left banner slot -->
+<!-- begin : right banner slot -->
+<div class="right">
+  <iframe id='af654bd5' name='af654bd5'
+    src='http://ads.plos.org/www/delivery/afr.php?zoneid=85&amp;cb=2251'
+    frameborder='0' scrolling='no' width='468' height='60'><a
+    href='http://ads.plos.org/www/delivery/ck.php?n=af654bd5&amp;cb=8197'
+    target='_top'><img src='http://ads.plos.org/www/delivery/avw.php?zoneid=85&amp;cb=2199&amp;n=af654bd5'
+    border='0' alt='' /></a></iframe>
+</div>
+<!-- end : right banner slot -->
+
+  </div>
+  <!-- end : top banner external ad space -->
+
+  <!-- begin : header -->
+  <div id="hdr" class="login">
+
+  <!-- begin : logo -->
+  <div id="logo" title="PLOS Computational Biology"><a href="/home.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2" title="PLOS Computational Biology"><span>PLOS Computational Biology</span></a></div>
+  <!-- end : logo -->
+  <!-- begin : user controls -->
+
+
+
+
+
+  <div id="user">
+    <div>
+      <ul>
+        <li><a href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002575" class="feedback"><strong>Login</strong></a> | </li>
+        <li><a href="https://register.plos.org:443/ambra-registration/register.action">Create Account</a> | </li>
+        <li class="feedback"><a href="/feedbackCreate.action?page=%252Farticle%252FfetchArticle.action%253FarticleURI%253Dinfo%25253Adoi%25252F10.1371%25252Fjournal.pcbi.1002575" title="Send us your feedback">Feedback</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <!-- end : user controls -->
+  <!-- begin search links -->
+  <ul id="links"><li class="browse"><a href="/article/browse.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2?field=date" title="Browse Articles">Browse</a></li><li class="rss"><a href="/static/rssFeeds.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2" title="RSS Feeds">RSS</a></li></ul>
+  <!-- end : search links -->
+  <!-- begin : dashboard -->
+  <div id="db">
+    <form name="searchForm" action="/search/simpleSearch.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2" method="get">
+      <input type="hidden" name="from" value="globalSimpleSearch"/>
+      <input type="hidden" name="filterJournals" value="PLoSCompBiol">
+      <fieldset>
+        <legend>Search</legend>
+        <label for="search">Search</label>
+        <div class="wrap"><input id="search" type="text" name="query" value="Search articles..." onfocus="if(this.value=='Search articles...')value='';" onblur="if(this.value=='')value='Search articles...';" class="searchField" alt="Search articles..."/></div>
+        <input src="/images/search_btn1.gif" onclick="submit();" value="ftsearch" alt="SEARCH" tabindex="3" class="button" type="image" />
+      </fieldset>
+    </form>
+    <form name="gasf" action="/search/advancedSearch.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2" method="get">
+<input type="hidden" name="noSearchFlag" value="true" id="noSearchFlag"/><input type="hidden" name="query" value="" id="query"/>    </form>
+    <a id="advSearch" href="#" onclick="if(document.searchForm.query.value!='Search articles...')document.gasf.query.value=document.searchForm.query.value;document.gasf.submit();return false;">Advanced Search</a>
+  </div>
+  <!-- end : dashboard -->
+  <!-- begin : navigation -->
+  <ul id="nav">
+    <li><a href="/home.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2" tabindex="101">Home</a></li>
+     <!-- This is a temporary action to link to th static toc page -->
+    <li><a href="/static/browse.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2" tabindex="102">Browse Articles</a>
+        <ul>
+          <li><a href="/article/browseIssue.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2?field=issue">Current Issue</a></li> <!-- Assuming dynamic TOC is in place -->
+          <li><a href="/article/browseVolume.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2?field=volume">Journal Archive</a></li> 
+          <li><a href="/article/browse.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2?field=date">By Publication Date</a></li>
+          <li><a href="/article/browse.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2">By Subject</a></li>
+          <li><a href="http://www.ploscollections.org/static/pcbiCollections.action">Collections</a></li>
+        </ul>
+    </li>
+    <li><a href="/static/about.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2" tabindex="103">About</a>
+        <ul>
+          <li><a href="/static/information.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2">Journal Information</a></li>
+          <li><a href="/static/edboard.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2">Editorial Board</a></li>
+          <li><a href="/static/eic.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2">Editors-in-Chief</a></li>
+          <li><a href="/static/almInfo.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2">Article-Level Metrics</a></li>
+          <li><a href="/static/license.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2">Open-Access License</a></li>
+          <li><a href="/static/contact.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2">Contact Us</a></li>
+        </ul>
+      </li>
+    <li><a href="/static/users.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2" tabindex="104">For Readers</a>
+        <ul>
+          <li><a href="/static/commentGuidelines.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2">Guidelines for Notes, Comments, and Corrections</a></li>
+          <li><a href="/static/ratingGuidelines.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2">Guidelines for Rating</a></li>
+          <li><a href="/static/help.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2">Help Using This Site</a></li>
+          <li><a href="/static/downloads.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2">Media Downloads</a></li>
+          <li><a href="/static/sitemap.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2">Site Map</a></li>
+        </ul>
+      </li>
+    <li><a href="/static/authors.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2" tabindex="105">For Authors and Reviewers</a>
+        <ul>
+          <li><a href="/static/policies.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2">Editorial and Publishing Policies</a></li>
+          <li><a href="/static/guidelines.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2">Author Guidelines</a></li>
+          <li><a href="/static/figureGuidelines.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2">Figure and Table Guidelines</a></li>
+          <li><a href="/static/checklist.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2">Submit Your Paper</a></li>
+          <li><a href="/static/reviewerGuidelines.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2">Reviewer Guidelines</a></li>
+	   <li><a href="http://www.plos.org/journals/index.php">Submit to Other PLOS Journals</a></li>
+        </ul>
+      </li>
+      <li class="journalnav"><a href="http://www.plos.org" title="PLOS" tabindex="110" class="drop">PLOS.org</a>
+        <ul>
+          <li><a href="http://www.plos.org/oa/index.html" title="Open Access Statement">Open Access</a></li>
+          <li><a href="http://www.plos.org/support/donate.php" title="Join PLOS: Show Your Support">Join PLOS</a></li>
+          <li><a href="http://blogs.plos.org/" title="PLOS Blogs">PLOS Blogs</a></li>
+	  <li><a href="http://www.zazzle.com/plos?rf=238434112415374154" title="PLOS Store">PLOS Store</a></li>
+          <li><a href="http://currents.plos.org" title="PLOS Currents">PLOS Currents</a></li>
+          <li><a href="http://www.plos.org/connect.html" title="PLOS.org | Stay Connected">Stay Connected</a></li>
+        </ul>
+      </li>
+      <li class="journalnav"><a href="http://hubs.plos.org" tabindex="109">Hubs</a>
+        <ul>
+          <li><a href="http://hubs.plos.org/biodiversity" title="PLOS Hubs: Biodiversity">Biodiversity</a></li>
+          <li><a href="http://clinicaltrials.ploshubs.org" title="PLOS Hub for Clinical Trials">Clinical Trials</a></li>
+        </ul>
+    </li>
+      <li class="journalnav"><a href="http://www.plosjournals.org" tabindex="108">Journals</a>
+        <ul>
+          <li><a href="http://www.plosbiology.org/" title="PLOSBiology.org">PLOS Biology</a></li>
+          <li><a href="http://www.plosmedicine.org/" title="PLOSMedicine.org">PLOS Medicine</a></li>
+          <li><a href="http://www.ploscompbiol.org/" title="PLOSCompBiol.org">PLOS Computational Biology</a></li>
+          <li><a href="http://www.plosgenetics.org/" title="PLOSGenetics.org">PLOS Genetics</a></li>
+          <li><a href="http://www.plospathogens.org/" title="PLOSPathogens.org">PLOS Pathogens</a></li>
+          <li><a href="http://www.plosone.org/" title="PLOSONE.org">PLOS ONE</a></li>
+          <li><a href="http://www.plosntds.org/" title="PLOSNTDs.org">PLOS Neglected Tropical Diseases</a></li>
+        </ul>
+      </li>
+    </ul>
+  <!-- end : navigation -->
+  </div>
+  <!-- end : header --> 
+
+
+
+<!-- begin : main content -->
+<div id="content" class="article" style="visibility:visible;">
+
+<!-- begin : right hand column -->
+
+<div id="rhc" xpathLocation="noDialog">
+
+  <div id="download" class="rhcBox_type1">
+    <div class="wrap">
+      <ul>
+        <li class="download icon"><strong>Download:</strong>
+          <a href="/article/fetchObjectAttachment.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2?uri=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002575&amp;representation=PDF" title="Download article PDF">PDF</a> |
+          <a href="/article/citationList.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002575" title="Download citations">Citation</a> |
+          <a href="/article/fetchObjectAttachment.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2?uri=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002575&amp;representation=XML" title="Download Article XML">XML</a>
+        </li>
+        <li class="print icon"><a href="#" onclick="window.print();return false;" title="Print Article"><strong>Print article</strong></a></li>
+        <li class="reprint icon"><a href="https://www.odysseypress.com/onlinehost/reprint_order.php?type=A&page=0&journal=3&doi=10.1371/journal.pcbi.1002575&volume=&issue=&title=Prediction of Microbial Growth Rate versus Biomass Yield by a Metabolic Network with Kinetic Parameters&author_name=Roi%20Adadi%2C%20Benjamin%20Volkmer%2C%20Ron%20Milo%2C%20Matthias%20Heinemann%2C%20Tomer%20Shlomi&start_page=1&end_page=9" title="Odyssey Press">EzReprint</a> New &amp; improved!</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="issues" class="rhcBox_type2">
+    <p><strong>Published in the</strong>
+    <a href="http://www.ploscompbiol.org/article/browseIssue.action?issue=info%3Adoi%2F10.1371%2Fissue.pcbi.v08.i07" title="Browse the Open-Access Issue">July 2012 Issue of <em>PLOS Computational Biology</em></a></p>
+  </div>
+
+  <div id="impact" class="rhcBox_type2">
+    <h6>Metrics <a href="/static/help.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2#articleMetrics" class="replaced" id="info" title="More information"><span>info</span></a></h6>
+
+    <div class="wrap">
+      <img id="rhcDataSpinner" src="/images/loading_small.gif" class="loading" />
+      <div id="totalDataInRHC"></div>
+      <div id="pubDateInRHC"></div>
+      <div id="relatedCitesInRHC"></div>
+    </div>
+
+    <div class="more clearfix"><a href="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002575;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2" title="More information">More</a></div>
+  </div>
+
+  <div id="related" class="rhcBox_type2">
+    <h6>Related Content</h6>
+    <dl class="related">
+      <dt>Related Articles on the Web</dt>
+      <dd><a href="http://scholar.google.com/scholar?hl=en&lr=&q=related:http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002575&btnG=Search">Google Scholar</a></dd>
+      <dd id="pubMedRelatedLIInRHC" style="display:none;"><a id="pubMedRelatedURLInRHC">PubMed</a></dd>
+    </dl>
+    <div class="more clearfix"><a href="/article/related/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002575;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2" title="More information">More</a></div>
+  </div>
+
+  <div id="share" class="rhcBox_type2">
+    <h6>Share this Article <a href="/static/help.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2#socialBookmarkLinks" class="replaced" id="info" title="More information"><span>info</span></a></h6>
+    <ul>
+      <li class="bookmarklets">
+
+        <a href="http://www.reddit.com/submit?url=http://dx.plos.org/10.1371/journal.pcbi.1002575"
+           target="_new"
+           id="reddit">
+          <img src="http://www.reddit.com/static/spreddit4.gif" alt="submit to reddit" border="0"/> </a>
+        <g:plusone size="small" annotation="none" href=http://dx.plos.org/10.1371/journal.pcbi.1002575></g:plusone>
+        <script type="text/javascript">
+          (function () {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+          })();
+        </script>
+        <a href="http://www.stumbleupon.com/submit?url=http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002575" target="_new"> <img border=0 src="http://cdn.stumble-upon.com/images/16x16_su_solid.gif" alt="StumbleUpon" title="Add to StumbleUpon"></a>
+        <script>function fbs_click() {u='http://dx.plos.org/10.1371/journal.pcbi.1002575';t='Prediction%20of%20Microbial%20Growth%20Rate%20versus%20Biomass%20Yield%20by%20a%20Metabolic%20Network%20with%20Kinetic%20Parameters';window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436');return false;}</script><a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002575" onclick="return fbs_click()" target="_blank"><img src="http://static.ak.fbcdn.net/images/share/facebook_share_icon.gif" alt="Facebook" title="Add to Facebook" /></a>       <!-- for mor info, see http://www.facebook.com/share_partners.php -->
+        <script type="text/javascript">
+          function bookmark_in_connotea(u) {
+            a=false; x=window; e=x.encodeURIComponent; d=document;
+            w=open('http://www.connotea.org/addpopup?continue=confirm&uri='+e(u),
+                'add', 'width=600, height=400, scrollbars, resizable');
+            void(x.setTimeout('w.focus()',200));
+          }
+        </script>
+        <a style='cursor: pointer;' onclick='javascript:bookmark_in_connotea("http://dx.plos.org/10.1371/journal.pcbi.1002575");'><img src='/images/icon_connotea_16x16.gif' alt="Connotea" title="Add to Connotea"/></a>
+        <a href="http://www.citeulike.org/posturl?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002575&title=Prediction%20of%20Microbial%20Growth%20Rate%20versus%20Biomass%20Yield%20by%20a%20Metabolic%20Network%20with%20Kinetic%20Parameters" target="_new"><img src='/images/icon_citeulike_16x16.gif' alt="CiteULike" title="Add to CiteULike" /></a>
+        <a href="http://www.mendeley.com/import/?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002575" title="Add to Mendeley" target="_new"><img src="/images/icon_mendeley_16x16.gif" alt="Bibliography"></a>
+        <script type="text/javascript">
+          var twtTitle  = 'Prediction of Microbial Growth Rate versus Biomass Yield by a Metabolic Network with Kinetic Parameters';
+          var twtUrl    = 'http://dx.plos.org/10.1371/journal.pcbi.1002575';
+          var twtTag    = '#PLOSCompBio:'
+          var maxLength = 140 - (twtUrl.length + 1);
+          if (twtTitle.length > maxLength) {
+            twtTitle = twtTitle.substr(0, (maxLength - 17))+'...';  //truncates title to include space for twtTag and ellipsis
+          }
+          var twtLink = 'http://twitter.com/intent/tweet?text='+encodeURIComponent(twtTag + ' ' + twtTitle + ' ' + twtUrl);
+          document.write('<a href="'+twtLink+'" target="_blank"><img src="/images/icon_twitter.gif" border="0" alt="Twitter icon" title="Tweet This!" /></a>');
+        </script>
+
+      </li>
+      <li class="email icon"><a href="/article/emailArticle.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002575" title="Email this article">Email this article</a></li>
+    </ul>
+  </div>
+  <div id="articleTwitterStream" style="display:none">
+    <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script>
+      new TWTR.Widget({
+        version: 2,
+        type: 'search',
+        search: encodeURIComponent('10.1371/journal.pcbi.1002575'),
+        interval: 6000,
+        title: '',
+        subject: 'From Twitter',
+        width: 300,
+        height: 300,
+        theme: {
+          shell: {
+            background: '#667893',
+            color: '#ffffff'
+          },
+          tweets: {
+            background: '#ffffff',
+            color: '#444444',
+            links: '#006699'
+          }
+        },
+        features: {
+          scrollbar: true,
+          loop: false,
+          live: true,
+          hashtags: true,
+          timestamp: true,
+          avatars: true,
+          toptweets: true,
+          behavior: 'all'
+        }
+      }).render().start();
+    </script>
+  </div>
+</div>
+<!-- end : right hand column -->
+<form name="articleInfo" id="articleInfo" method="" action="">
+<input type="hidden" name="isAuthor" value="true" />
+<input type="hidden" name="authorIdList" value="" />
+<input type="hidden" name="userIdList" value="" />
+<input type="hidden" name="otherIdList" value="" />
+<input type="hidden" name="annotationId" value="" />
+<input type="hidden" name="isResearchArticle" value="true" />
+</form>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.XML" value="98295"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.PDF" value="422510"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.g001.TIF" value="509392"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.g001.PNG_I" value="29907"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.g001.PNG_S" value="10018"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.g001.PNG_M" value="54220"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.g001.PNG_L" value="202177"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.g002.TIF" value="256244"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.g002.PNG_I" value="22875"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.g002.PNG_S" value="8925"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.g002.PNG_M" value="40927"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.g002.PNG_L" value="103422"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.g003.TIF" value="247440"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.g003.PNG_I" value="24273"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.g003.PNG_S" value="10304"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.g003.PNG_M" value="42973"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.g003.PNG_L" value="91564"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.g004.TIF" value="1064278"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.g004.PNG_I" value="56110"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.g004.PNG_S" value="13471"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.g004.PNG_M" value="93001"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.g004.PNG_L" value="500096"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.g005.TIF" value="422436"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.g005.PNG_I" value="25736"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.g005.PNG_S" value="9282"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.g005.PNG_M" value="47533"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.g005.PNG_L" value="192947"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.e001.TIF" value="1078"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.e001.PNG" value="715"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.e002.TIF" value="1776"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.e002.PNG" value="1052"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.e003.TIF" value="2098"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.e003.PNG" value="1219"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.e004.TIF" value="2848"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.e004.PNG" value="1625"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.e005.TIF" value="3216"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.e005.PNG" value="1809"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.e006.TIF" value="5458"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.e006.PNG" value="2599"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.e007.TIF" value="1418"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.e007.PNG" value="920"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.e008.TIF" value="3384"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.e008.PNG" value="1813"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.s001.TIF" value="205380"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.s002.TIF" value="1449333"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.s003.TIF" value="421467"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.s004.XLSX" value="12190"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.s005.XLSX" value="10345"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.s006.XLSX" value="11099"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.s007.XLSX" value="9444"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.s008.XLSX" value="9511"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.s009.XLSX" value="9455"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.s010.XLSX" value="49050"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002575.s011.DOC" value="44544"/>
+<div id="articleContainer">
+
+<span about="http://www.plos.org"  typeof="foaf:Organization" property="foaf:name" style="display:none; visibility:hidden;">PLOS</span>
+<div id="researchArticle" class="content">
+  <span rel="dc:publisher" href="http://www.plos.org"></span>
+  <a id="top" name="top"></a>
+<div id="contentHeader" xpathLocation="noSelect">
+  <p>Open Access</p><p id="articleType">Research Article</p>
+</div>
+
+  <h1 xpathLocation="noSelect" property="dc:title" datatype="" rel="dc:type" href="http://purl.org/dc/dcmitype/Text">Prediction of Microbial Growth Rate versus Biomass Yield by a Metabolic Network with Kinetic Parameters</h1>
+  <div property="dc:description" datatype="" style="display:none; visibility:hidden;">Author SummaryWhile current genome-scale metabolic modeling approaches enable us to successfully predict a variety of metabolic phenotypes, identifying the factors that determine microbial growth rate and the prediction of growth rates under various conditions is still an open challenge. Here we present a metabolic network-based approach, MetabOlic Modeling with ENzyme kineTics (MOMENT), which predicts growth rates by integrating standard stoichiometric modeling with prior data on enzyme turnover rates and enzyme molecular weights, considering a physiological bound on total enzymes' concentration. The method is based on a finding that enzymes catalyzing high flux reactions tend to be more efficient in terms of having higher turnover numbers. MOMENT predicts growth rates of E. coli across a set of 24 different media that are significantly correlated with experimental measurements, while existing state-of-the art stoichiometric modeling approaches fail to do so. These results suggest that a bound on cellular enzyme concentrations is a key factor that determines microbial growth rate.</div>
+  <span property="dc:date" content="2012-07-05" datatype="xsd:date" rel="dc:identifier" href="http://dx.doi.org/10.1371/journal.pcbi.1002575"></span>
+  <span property="dc:subject" content="Biochemistry"></span>
+  <span property="dc:subject" content="Computational Biology"></span>
+<form action="">
+  <input type="hidden" name="journalDisplayName" id="journalDisplayName" value="PLOS Computational Biology" />
+  <input type="hidden" name="crossRefPageURL" id="crossRefPageURL" value="/article/crossref/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002575;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2" />
+  <input type="hidden" name="twitterPageURL" id="twitterPageURL" value="/article/twitter/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002575;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2" />
+  <input type="hidden" name="metricsTabURL" id="metricsTabURL" value="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002575;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2" />
+  <input type="hidden" name="doi" id="doi" value="info:doi/10.1371/journal.pcbi.1002575" />
+  <input type="hidden" name="articleTitleUnformatted" id="articleTitleUnformatted" value="Prediction%20of%20Microbial%20Growth%20Rate%20versus%20Biomass%20Yield%20by%20a%20Metabolic%20Network%20with%20Kinetic%20Parameters" />
+  <input type="hidden" name="articlePubDate" id="articlePubDate" value="1341471600000" />
+</form>
+<div class="horizontalTabs" xpathLocation="noSelect">
+  <ul id="tabsContainer">
+        <li id="article" class="active"><a href="/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002575;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2" class="tab" title="Article">Article</a></li>
+        <li id="metrics"><a href="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002575;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2" class="tab" title="Metrics">Metrics</a></li>
+        <li id="related"><a href="/article/related/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002575;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2" class="tab" title="Related Content">Related Content</a></li>
+        <li id="comments"><a href="/article/comments/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002575;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2" class="tab" title="Comments">Comments: 0</a></li>
+  </ul>
+</div>
+  <div id="articleMenuBox" xpathLocation="noSelect">
+    <div id="articleMenu">
+      <div class="wrap">
+        <ul>
+          <li class="annotation icon">To <strong>add a note</strong>, highlight some text. <a href="#" onclick="toggleAnnotation(this, 'public'); return false;" title="Click to turn notes on/off">Hide notes</a></li>
+          <li class="discuss icon">
+              <a href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002575">Make a general comment</a>
+          </li>
+        </ul>
+        <div id="sectionNavTopBox" style="display:none;">
+          <p><strong>Jump to</strong></p>
+          <div id="sectionNavTop" class="tools"></div>
+        </div>
+      </div>
+    </div>
+      <div id="lightBox" xpathLocation="noDialog" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002575')">
+      </div>
+  </div>
+
+
+
+
+<p class="authors" xpathLocation="noSelect"><span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Roi Adadi</span></span><sup><a href="#aff1">1</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Benjamin Volkmer</span></span><sup><a href="#aff2">2</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Ron Milo</span></span><sup><a href="#aff3">3</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Matthias Heinemann</span></span><sup><a href="#aff2">2</a></sup><sup>,</sup><sup><a href="#aff4">4</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Tomer Shlomi</span></span><sup><a href="#aff1">1</a></sup><sup><a href="#cor1" class="fnoteref">*</a></sup></p><p class="affiliations" xpathLocation="noSelect"><a name="aff1" id="aff1"></a><strong>1</strong> Department of Computer Science, Technion, Haifa, Israel, <a name="aff2" id="aff2"></a><strong>2</strong> Institute of Molecular Systems Biology, ETH Zurich, Zurich, Switzerland, <a name="aff3" id="aff3"></a><strong>3</strong> Departments of Plant Sciences, Weizmann Institute of Science, Rehovot, Israel, <a name="aff4" id="aff4"></a><strong>4</strong> Molecular Systems Biology, Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, AG Groningen, The Netherlands</p><div class="abstract" xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[1]"><a id="abstract0" name="abstract0" toc="abstract0" title="Abstract"></a><h2 xpathLocation="noSelect">Abstract&nbsp;<a href="#top">Top</a></h2><p xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[1]/p[1]">Identifying the factors that determine microbial growth rate under various environmental and genetic conditions is a major challenge of systems biology. While current genome-scale metabolic modeling approaches enable us to successfully predict a variety of metabolic phenotypes, including maximal biomass yield, the prediction of actual growth rate is a long standing goal. This gap stems from strictly relying on data regarding reaction stoichiometry and directionality, without accounting for enzyme kinetic considerations. Here we present a novel metabolic network-based approach, MetabOlic Modeling with ENzyme kineTics (MOMENT), which predicts metabolic flux rate and growth rate by utilizing prior data on enzyme turnover rates and enzyme molecular weights, without requiring measurements of nutrient uptake rates. The method is based on an identified design principle of metabolism in which enzymes catalyzing high flux reactions across different media tend to be more efficient in terms of having higher turnover numbers. Extending upon previous attempts to utilize kinetic data in genome-scale metabolic modeling, our approach takes into account the requirement for specific enzyme concentrations for catalyzing predicted metabolic flux rates, considering isozymes, protein complexes, and multi-functional enzymes. MOMENT is shown to significantly improve the prediction accuracy of various metabolic phenotypes in <em>E. coli</em>, including intracellular flux rates and changes in gene expression levels under different growth rates. Most importantly, MOMENT is shown to predict growth rates of <em>E. coli</em> under a diverse set of media that are correlated with experimental measurements, markedly improving upon existing state-of-the art stoichiometric modeling approaches. These results support the view that a physiological bound on cellular enzyme concentrations is a key factor that determines microbial growth rate.</p>
+</div><div class="abstract" xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[2]"><a id="abstract1" name="abstract1" toc="abstract1" title="Author Summary"></a>
+<h2 xpathLocation="noSelect">Author Summary&nbsp;<a href="#top">Top</a></h2>
+<p xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[2]/p[1]">While current genome-scale metabolic modeling approaches enable us to successfully predict a variety of metabolic phenotypes, identifying the factors that determine microbial growth rate and the prediction of growth rates under various conditions is still an open challenge. Here we present a metabolic network-based approach, MetabOlic Modeling with ENzyme kineTics (MOMENT), which predicts growth rates by integrating standard stoichiometric modeling with prior data on enzyme turnover rates and enzyme molecular weights, considering a physiological bound on total enzymes' concentration. The method is based on a finding that enzymes catalyzing high flux reactions tend to be more efficient in terms of having higher turnover numbers. MOMENT predicts growth rates of <em>E. coli</em> across a set of 24 different media that are significantly correlated with experimental measurements, while existing state-of-the art stoichiometric modeling approaches fail to do so. These results suggest that a bound on cellular enzyme concentrations is a key factor that determines microbial growth rate.</p>
+</div>
+
+
+<div class="articleinfo" xpathLocation="noSelect"><p><strong>Citation: </strong>Adadi R, Volkmer B, Milo R, Heinemann M, Shlomi T (2012) Prediction of Microbial Growth Rate versus Biomass Yield by a Metabolic Network with Kinetic Parameters. PLoS Comput Biol 8(7):
+          e1002575.
+            doi:10.1371/journal.pcbi.1002575</p><p><strong>Editor: </strong>Nathan D. Price, Institute for Systems Biology, United States of America</p><p></p><p><strong>Received:</strong> June 8, 2011; <strong>Accepted:</strong> May 8, 2012; <strong>Published:</strong> July 5, 2012</p><p><strong>Copyright:</strong> © 2012 Adadi et al. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</p><p><strong>Funding: </strong>Tomer Shlomi is supported by grants from the Israel Science Foundation and the Ministry of Science and Technologies. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p><p><strong>Competing interests:</strong> The authors have declared that no competing interests exist.</p><p><a name="cor1"></a>* E-mail: <a href="mailto:tomersh@cs.technion.ac.il">tomersh@cs.technion.ac.il</a></p></div>
+
+
+
+
+
+<div id="section1" xpathLocation="/article[1]/body[1]/sec[1]"><a id="s1" name="s1" toc="s1" title="Introduction"></a><h3 xpathLocation="noSelect">Introduction&nbsp;<a href="#top">Top</a></h3><p xpathLocation="/article[1]/body[1]/sec[1]/p[1]">Traditional metabolic modeling techniques involve the reconstruction of kinetic models based on detailed knowledge on enzyme kinetic parameters for all enzymes in a certain system <a href="#pcbi.1002575-1">[1]</a>. These models are limited to small-scale systems due to lack of sufficient data on kinetic constants and the highly complex nature of these models. An alternative approach called Constraint-Based Modeling (CBM) predicts certain steady-state cellular metabolic phenotypes in microorganisms on a genome-scale by relying solely on simple physical-chemical constraints, without requiring enzyme kinetic data <a href="#pcbi.1002575-Price1">[2]</a>, <a href="#pcbi.1002575-Stelling1">[3]</a>, <a href="#pcbi.1002575-Segre1">[4]</a>. This approach identifies steady-state flux rates (in units of mmol/(g[DW]*h) through a metabolic network, satisfying stoichiometric mass-balance as well as reaction directionality constraints, such that nutrients taken up with a certain measured rate (in units of mmol/g[DW]*h) are transformed into biomass. The metabolic network includes a biomass production reaction that consumes essential biomass metabolites, with its stoichiometric coefficients representing the molar quantities required for generating a unit mass of cells (in units of mmol/g[DW]). This reaction's flux activity represents the growth rate (in units of 1/h). CBM is now commonly used for metabolic engineering in microorganisms, predicting the effect of gene knockouts on organism viability <a href="#pcbi.1002575-Price1">[2]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[2]">Flux Balance Analysis (FBA) is a commonly used CBM approach that enables to predict biomass production yield (in units of gram biomass/gram nutrient) based solely on reactions' stoichiometry and directionality (i.e. without measurements of nutrient uptake rates). Given information only on reactions' stoichiometry and directionality, the prediction of biomass yield works by searching for a feasible flux distribution with maximal flux through the biomass production reaction, considering an arbitrary upper bound on the uptake rate of the carbon nutrient. The maximal biomass production rate predicted by FBA reflects optimal yield metabolism and is equal to the assumed uptake rate multiplied by maximal biomass yield. The prediction of actual growth rate by FBA is theoretically possible when experimental measurement of nutrient uptake rates is available and is used to constrain the uptake flux in the model (or alternatively, by multiplying FBA-predicted biomass yield with the measured uptake rates). However, experimental studies have shown that microorganisms exhibit non optimal-yield metabolism under various conditions, for example, in the case of over-flow metabolism where excess nutrient uptake is metabolized inefficiently <a href="#pcbi.1002575-Vemuri1">[5]</a>, <a href="#pcbi.1002575-Molenaar1">[6]</a>. In fact, growth rate was found to be inversely correlated with biomass yield in some microorganisms under different growth environments (see Section 4 in Supp. Material of <a href="#pcbi.1002575-Beardmore1">[7]</a>). Hence, growth rate prediction obtained by FBA (reflecting optimal yield metabolism) are likely to be unrealistically high in many cases. Predicting the correct growth rate even when nutrient uptake rates are known is a challenging task. A more ambitious conceptual challenge is the prediction of growth rate without measurements of nutrient uptake rates under a variety of environmental and genetic conditions.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[3]">FBA with Molecular Crowding (FBAwMC) is a recently developed extension of FBA which was shown to enable the prediction of growth rates of <em>E.coli</em> across a small set of growth media (without given measurements of nutrients uptake rates), as well as under conditions of over-flow metabolism <a href="#pcbi.1002575-Beg1">[8]</a>, <a href="#pcbi.1002575-Vazquez1">[9]</a>. This was achieved by accounting for the enzyme concentrations required for catalyzed metabolic flux (utilizing data on enzyme kinetic constants), considering a physiological upper bound on the total cellular volume used by metabolic enzymes. Other recent modeling approaches aim to predict cellular metabolism by integrating molecular crowding constraint with kinetic parameters: (i) A recent study has utilized a variant FBAwMC to predict inefficient metabolism in cancer cells, in accordance with the Warburg effect <a href="#pcbi.1002575-Shlomi1">[10]</a>. (ii) A method by Zhuang et al <a href="#pcbi.1002575-Zhuang1">[11]</a> accounts for a constraint relating to the competition for membrane space between nutrient transporters and respiratory chain proteins was shown to improve metabolic prediction, without requiring explicit data on nutrient uptake rates. (iii) Goelzer et al <a href="#pcbi.1002575-Goelzer1">[12]</a> models cellular metabolism by accounting for both solvent capacity constraints and translation apparatus. Another method recently shown to utilize enzyme turnover numbers to improve metabolic flux prediction is Integrative Omics Metabolic Analysis (IOMA), requiring further quantitative proteomic and metabolomics data as input <a href="#pcbi.1002575-Yizhak1">[13]</a>. Another method that aims to predict cellular metabolism without requiring nutrient uptake rates is E-flux <a href="#pcbi.1002575-Colijn1">[14]</a>, which relies on high-throughput gene expression data (shown to predict growth rates in a qualitative manner). Still, none of these approaches were shown to successfully predict in a quantitative manner the growth rate of microbes across conditions, without utilizing a-priori data on nutrient uptake rates.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[4]">In this paper, we present a method, MetabOlic Modeling with ENzyme kineTics (MOMENT), for predicting metabolic fluxes and growth rates by accounting for the maximal cellular capacity for metabolic enzymes without the requirement of experimentally determined uptake rates. Extending upon FBAwMC, MOMENT accurately quantifies the enzyme concentrations required for catalyzing each metabolic reaction based on known kinetic constants, accounting for isozymes, protein complexes and multi-functional enzymes. MOMENT is shown to predict growth rates for <em>E.coli</em> under a diverse set of growth media that are significantly correlated with experimental measuements, without requiring measured nutrient uptake rates, significantly outperforming the prediction accuracy of FBAwMC. Furthermore, MOMENT is shown to markedly improve the prediction performance of various metabolic phenotypes, including metabolic fluxes and expression level of metabolic genes. We begin our analysis by exploring the relation between enzyme kinetic parameters and measured metabolic flux, showing a design principle in which enzymes catalyzing high flux reactions across different media tend to be more efficient in terms of having higher turnover numbers (hence requiring lower concentration to achieve a certain flux rate). This suggests that a a physiological constraint on total cellular enzyme concentration, which underlies MOMENT, significantly affects cellular metabolism and the evolution of enzyme kinetic parameters.</p>
+</div>
+
+<div id="section2" xpathLocation="/article[1]/body[1]/sec[2]"><a id="s2" name="s2" toc="s2" title="Results"></a><h3 xpathLocation="noSelect">Results&nbsp;<a href="#top">Top</a></h3>
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/title[1]">The evolution of enzyme kinetic parameters optimizes metabolic flux</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[1]">An enzyme turnover number is defined as the maximal number of molecules of substrate that the enzyme can convert to product per catalytic site per unit of time. We extracted enzyme turnover numbers for 251 reactions from BRENDA <a href="#pcbi.1002575-Pharkya1">[15]</a> and SABIO-RK <a href="#pcbi.1002575-Wittig1">[16]</a> databases. To infer genome-scale metabolic flux rates, we utilized several dozen metabolic fluxes under various growth rates in glucose minimal media (obtained from Ishii et al. <a href="#pcbi.1002575-Ishii1">[17]</a> and Schuetz et al. <a href="#pcbi.1002575-Schuetz1">[18]</a>), and integrated them with a genome-scale metabolic network model of <em>E.coli</em> <a href="#pcbi.1002575-Feist1">[19]</a> to infer the most likely rates through the entire network. Specifically, this was done based on standard quadratic programming optimization by minimizing the Euclidian distance between the predicted and the measured fluxes to fit the predicted fluxes to measured ones <a href="#pcbi.1002575-Shlomi2">[20]</a>. Notably, this analysis does not make usage of kinetic data as input. As an alternative approach for inferring global flux distributions, we employed Flux Balance Analysis, followed by Flux Variability Analysis <a href="#pcbi.1002575-Mahadevan1">[21]</a>, to identify metabolic reactions whose flux can be uniquely determined based on stoichiometric mass-balance constraints and maximal biomass yield assumption (obtaining overall similar results in the analysis described below for the flux distributions obtained by the two approaches; <a href="#pcbi.1002575.s004">Table S1</a>; <a href="#pcbi.1002575.s001">Figure S1</a>).</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[2]">When comparing the enzyme kinetic parameters in <em>E. coli</em> and measured flux rates, we found that enzymes catalyzing high flux reactions have high turnover number, with statistically significant Pearson correlations of 0.45 (<em>p</em>-value = 7.8e-5) and 0.46 (<em>p</em>-value = 3.6e-5) between turnover rates and fluxes under conditions of low and high growth rates, respectively (<a href="#pcbi-1002575-g001">Figure 1</a>; considering base 10 log of both fluxes and turnover numbers). These correlations suggest that higher selection pressure for enzymatic efficiency (i.e. higher turnover rates) acts on enzymes carrying high flux reactions. Notably, our results extend upon a recent finding that central metabolic enzymes have higher turnover rates than secondary metabolic enzymes <a href="#pcbi.1002575-BarEven1">[22]</a>, by considering actual flux rates instead of relying on rough categorization of enzymes to primary and secondary metabolism.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]"><a name="pcbi-1002575-g001" id="pcbi-1002575-g001" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002575?imageURI=info:doi/10.1371/journal.pcbi.1002575.g001" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002575', 'info:doi/10.1371/journal.pcbi.1002575.g001');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002575', 'info:doi/10.1371/journal.pcbi.1002575.g001');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002575.g001&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002575?imageURI=info:doi/10.1371/journal.pcbi.1002575.g001" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002575', 'info:doi/10.1371/journal.pcbi.1002575.g001');"><span>Figure 1. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]/caption[1]/title[1]">Enzyme turnover numbers and enzyme molecular weights are significantly correlated with metabolic flux rates.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]/caption[1]/p[1]">(A) Correlations of enzyme turnover numbers, enzyme molecular weights, gene expression levels, and combinations of the latter via a linear regression model with measured metabolic flux rates. Measured flux rates in <em>E.coli</em> under glucose minimal media in low and high growth rates were taken from Ishii et al. <a href="#pcbi.1002575-Ishii1">[17]</a>, and Schuetz et al. data <a href="#pcbi.1002575-Schuetz1">[18]</a>, respectively. Each bar represents a correlation between flux rates and a single or multiple data sources (marked by ‘+’ signs). (B) Enzyme turnover numbers correlate with measured metabolic flux rates in <em>E. coli</em> (both in log<sub>10</sub> scale). Linear regression line in red.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002575.g001</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002575.g001/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002575.g001/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002575.g001.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002575.g001/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002575.g001.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[3]">Enzyme molecular weights were computed based on genomic sequences, extracted from KEGG <a href="#pcbi.1002575-Kanehisa1">[23]</a>. A statistically significant Pearson correlation of 0.22 (<em>p</em>-value = 3.2e-5) was also found between metabolic flux rates and enzyme molecular weights, indicating higher flux rates for enzymes with high molecular weights (<a href="#pcbi-1002575-g001">Figure 1A</a>). Interestingly, a simple linear regression model that aims to explain metabolic flux rates based on both enzyme turnover numbers and molecular weights provided a Pearson correlation of 0.55 (<em>p</em>-value = 8.1e-7) with metabolic flux rates, suggesting that each parameter contributes independently to explaining flux rates (<a href="#pcbi-1002575-g001">Figure 1A</a>).</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[4]">While enzyme kinetic parameters are scarcely used in genome-scale metabolic modeling approaches, gene expression data is commonly utilized as the basis for metabolic flux prediction <a href="#pcbi.1002575-Akesson1">[24]</a>, <a href="#pcbi.1002575-Becker1">[25]</a>. However, computing the correlation between the above described flux rates and gene expression <a href="#pcbi.1002575-Dong1">[26]</a> measured also under glucose minimal media, resulted in Pearson correlations of only 0.26 and 0.265 under low and high growth rates, respectively. The latter correlations are markedly lower than those obtained between flux rates and enzyme turnover numbers. This is a remarkable result considering that both the gene expression and metabolic fluxes were measured under the very same growth media, while the kinetic parameters are constant characteristics of the enzymes across different growth conditions. Adding the gene expression data to the above described regression model provided an insignificant contribution to metabolic flux predictions (<a href="#pcbi-1002575-g001">Figure 1A</a>). Futher utilizing proteomic data for 67 enzyme-coding genes in <em>E. coli</em> measured under the same growth media <a href="#pcbi.1002575-Dong1">[26]</a>, we did not find a significant correlation between protein concentrations and the metabolic flux rates. These findings further highlight the importance of utilizing enzyme kinetic data as a prime data source for metabolic flux prediction.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[5]">Having shown that enzyme turnover numbers are significantly correlated with measured flux rates under glucose minimal media, we set to examine the correlation between enzyme turnover numbers and flux rates under a diverse set of growth media. Towards this end, we applied FBA to predict likely flux distributions under a set of media (listed in the <a href="#s4">Methods</a>), setting the growth rate to experimental measurements and optimizing for maximal yield. We find that the average Pearson correlation between the enzyme turnover numbers and the predicted fluxes across these media is 0.46 (<a href="#pcbi-1002575-g002">Figure 2A</a>). Next, we computed the correlation between the mean flux rate per enzyme across the growth media and enzyme turnover numbers, finding a Pearson correlation of 0.52, which is higher than the correlations obtained under any single medium. This result suggests that enzyme turnover rates may potentially evolve to support efficient metabolism across multiple media. To explore whether metabolism is better tuned for a specific growth medium, we compared the correlation between predicted fluxes and enzyme turnover numbers achieved for aerobic versus anaerobic conditions (<a href="#pcbi-1002575-g002">Figure 2B</a>). We found that the correlation between predicted fluxes and enzyme turnover numbers is significantly higher in aerobic conditions (paired Wilcoxon test <em>p</em>-value = 3e-15), suggesting a potentially stronger selection pressure for efficient metabolism under aerobic conditions. These results suggest that data on enzyme kinetics and metabolic flux may provide valuable insight into organisms' natural environment, in line with previous attempts to do so via other molecular data sources such as codon usage and gene expression <a href="#pcbi.1002575-Wagner1">[27]</a>.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[2]"><a name="pcbi-1002575-g002" id="pcbi-1002575-g002" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002575?imageURI=info:doi/10.1371/journal.pcbi.1002575.g002" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002575', 'info:doi/10.1371/journal.pcbi.1002575.g002');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002575', 'info:doi/10.1371/journal.pcbi.1002575.g002');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002575.g002&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[2]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002575?imageURI=info:doi/10.1371/journal.pcbi.1002575.g002" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002575', 'info:doi/10.1371/journal.pcbi.1002575.g002');"><span>Figure 2. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[2]/caption[1]/title[1]">Enzyme turnover rates show higher correlation with average flux across media and with flux under aerobic conditions.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[2]/caption[1]/p[1]">(A) Histogram of Pearson correlations between enzyme turnover numbers and predicted flux rates under different single carbon and energy source media (in blue). The Pearson correlation between enzyme turnover numbers and the averaged flux distribution across conditions (in green) is shown to be markedly higher than those obtained under the different media. (B) Pearson correlations between enzyme turnover numbers and predicted fluxes under a set of single carbon and energy source media under either aerobic versus anaerobic conditions. As shown, under most growth conditions, the correlation between enzyme turnover numbers and fluxes is higher when fluxes are predicted under aerobic conditions.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002575.g002</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002575.g002/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002575.g002/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002575.g002.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002575.g002/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002575.g002.TIF"></span> TIFF)
+                  </a></li></ul></div></div>
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/title[1]">Utilizing enzyme kinetic parameters within genome-scale metabolic modeling</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/p[1]">The fact that enzyme turnover numbers and the molecular weights of enzymes are significantly correlated with metabolic flux rates suggests that the utilization of the latter data sources within metabolic modeling approaches may provide improved prediction accuracy of metabolic phenotypes (as also shown in <a href="#pcbi.1002575-Vazquez1">[9]</a>, <a href="#pcbi.1002575-Shlomi1">[10]</a>, <a href="#pcbi.1002575-Zhuang1">[11]</a>, <a href="#pcbi.1002575-Goelzer1">[12]</a>). Towards this end, we developed a method called MetabOlic Modeling with ENzyme kineTics (MOMENT), which utilizes the kinetic parameters under the limitation of the total enzymatic pool available. Given a growth condition of interest, MOMENT predicts a flux distribution that satisfies stoichiometric mass-balance and reaction directionality constraints, such that the total mass of enzymes required to catalyze the predicted flux is bounded by the total enzymatic mass, considering a similar constraint to that used by FBAwMC and by <a href="#pcbi.1002575-Goelzer1">[12]</a>, <a href="#pcbi.1002575-Mahadevan1">[21]</a> (<a href="#s4">Methods</a>). Enzyme turnover numbers are used to compute an upper bound on enzyme concentrations required to catalyze the corresponding flux rates, and enzyme molecular weights to transform concentrations to units of mass. However, unlike FBAwMC, MOMENT jointly searches for a feasible flux distribution and for the corresponding enzyme concentrations required, considering isozymes, enzymatic complexes, and multi-functional enzymes. This is achieved by making usage of detailed gene-to-reaction mapping that is commonly represented in CBM models via Boolean equations (<a href="#s4">Methods</a>). For isozymes, the gene-to-reaction mapping denotes that the expression of one of several genes is required to catalyze a certain reaction, while for enzyme complexes, that the expression of several genes is jointly required. Notably, the entire set of gene-to-reaction mapping is formulated as part of the linear programming in a recursive manner, without requiring a more complex optimization such as mixed-integer linear programming that is commonly used to model this mapping <a href="#pcbi.1002575-Kim1">[28]</a>, <a href="#pcbi.1002575-Shlomi3">[29]</a>. For reactions in <em>E. coli</em> for which no enzyme turnover numbers were extracted from the above described databases, mean turnover numbers from other species were considered, yielding a total set of turnover numbers for 513 enzymes. Reactions for which no turnover number was available in any species were assigned with the median turnover number across all reactions in <em>E.coli</em>, as in <a href="#pcbi.1002575-Shlomi1">[10]</a>. Using only enzyme turnover numbers measured for <em>E.coli</em> provided lower prediction accuracy for MOMENT as well as for the other computational approaches, still showing a marked advantage in prediction accuracy to MOMENT (<a href="#pcbi.1002575.s005">Table S2</a>). An implementation of MOMENT is available via <a href="http://www.cs.technion.ac.il/~tomersh/tools/">http://www.cs.technion.ac.il/~tomersh/to​ols/</a>.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/title[1]">Predicting <em>E. coli's</em> growth rate across growth media</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[1]">To evaluate MOMENT's ability to predict microbial growth rates, we experimentally measured <em>E. coli's</em> growth rates on 24 single carbon and energy source media (<a href="#s4">Methods</a>, <a href="#pcbi.1002575.s006">Table S3</a>) and compared the predicted and measured rates. The predictions were obtained by applying MOMENT on the genome-scale metabolic network model of <em>E. coli</em> iAF1260 <a href="#pcbi.1002575-Feist1">[19]</a>. We found that growth rate predictions obtained by MOMENT were significantly correlated with the measured ones, with a Pearson correlation of 0.468 (<em>p-</em>value = 0.02; <a href="#pcbi-1002575-g003">Figure 3</a> and <a href="#pcbi-1002575-g004">4</a>), and a Spearman correlation of 0.473 (p-value = 0.0196). Notably, varying the threshold on the total enzyme mass linearly scales the predicted growth rates (and hence, by definition, does not change the above correlations between predicted and measured growth rates; <a href="#pcbi.1002575.s011">Text S1</a>).</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[1]"><a name="pcbi-1002575-g003" id="pcbi-1002575-g003" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002575?imageURI=info:doi/10.1371/journal.pcbi.1002575.g003" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002575', 'info:doi/10.1371/journal.pcbi.1002575.g003');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002575', 'info:doi/10.1371/journal.pcbi.1002575.g003');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002575.g003&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002575?imageURI=info:doi/10.1371/journal.pcbi.1002575.g003" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002575', 'info:doi/10.1371/journal.pcbi.1002575.g003');"><span>Figure 3. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[1]/caption[1]/title[1]">Growth rate prediction accuracy by MOMENT versus other approaches.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[1]/caption[1]/p[1]">The prediction of <em>E.coli</em> growth rate under 24 different minimal media based on MOMENT, FBAwMC, and MOMENT with random enzyme turnover rates (with the error bar representing standard deviation over 1000 randomly shuffled turnover numbers). As shown, only MOMENT (with the true turnover rates) achieves a statistically significant Pearson correlation between predicted and measured growth rates (<em>p</em>-values are shown on top of each bar).</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002575.g003</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002575.g003/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002575.g003/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002575.g003.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002575.g003/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002575.g003.TIF"></span> TIFF)
+                  </a></li></ul></div></div><div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[2]"><a name="pcbi-1002575-g004" id="pcbi-1002575-g004" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002575?imageURI=info:doi/10.1371/journal.pcbi.1002575.g004" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002575', 'info:doi/10.1371/journal.pcbi.1002575.g004');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002575', 'info:doi/10.1371/journal.pcbi.1002575.g004');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002575.g004&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[2]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002575?imageURI=info:doi/10.1371/journal.pcbi.1002575.g004" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002575', 'info:doi/10.1371/journal.pcbi.1002575.g004');"><span>Figure 4. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[2]/caption[1]/title[1]">The prediction of growth rates by MOMENT.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[2]/caption[1]/p[1]">MOMENT predicted growth rates achieving a Pearson correlation of 0.47 (p-value = 0.02) with the measured growth rates.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002575.g004</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002575.g004/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002575.g004/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002575.g004.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002575.g004/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002575.g004.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[2]">Protein mass was previously shown to account for 56%(g enzymes/g<sub>DW</sub>) of cellular mass (based on experimental measurements <a href="#pcbi.1002575-Bremer1">[30]</a>). Assuming that the entire protein mass is allocated to metabolic enzymes, we initially predicted a mean growth rate of 1.02 (1/h) across growth media, which is markedly higher than the mean measured growth rate of 0.47 (1/h). Searching for a threshold on the total enzymatic mass that minimizes the deviation between measured and predicted growth rates (in terms of square differences) resulted in a threshold of 27% (g enzymes/g<sub>DW</sub>) (suggesting that only 48% of protein mass is taken by metabolic enzymes). Hence, practically, in order to scale the predicted growth rates to the correct range, prior knowledge on the total mass of metabolic enzymes should be used. In this case, the identified fraction of proteins mass devoted to metabolic enzymes in <em>E. coli</em> is further supported by analyzing gene expression data <a href="#pcbi.1002575-Dong1">[26]</a>, which show that the sum of expression level of enzyme-coding genes is 35% of the total sum of expression level of all genes.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[3]">While the growth rate predictions obtained by MOMENT are significantly correlated with the measured ones, the standard deviation of the predicted rates (across the different media) is markedly lower than that of the measured growth rates (0.054 for predicted rates versus 0.14 for measured rates). A potential explanation for the differences between the standard deviations in the observed and predicted growth rates could be that the fraction of protein mass devoted to metabolic enzymes increases under high growth rates. Notably, checking this hypothesis would require high-throughput protein concentration data measured under various growth rates, though this kind of data is currently unavailable. Overall, utilizing additional experimental data on the total enzyme concentration in a specific growth condition of interest is expected to further improve MOMENT's predictive performance.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[4]">To evaluate the importance of the utilized enzyme turnover numbers, we repeated MOMENT's growth rate predictions with randomly shuffled turnover numbers, which were found to provide significantly lower prediction accuracy (<a href="#pcbi-1002575-g003">Figure 3</a>; <em>p</em>-value = 0.026, representing the fraction of random samplings, which have led to a higher correlation with the measured growth rates than that achieved with the known turnover numbers).</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[5]">To benchmark our new method, we tested the prediction performance of the previously developed FBAwMC. Here, FBAwMC was provided with the very same enzyme turnover rates given to MOMENT, while performing a sampling procedure for missing parameters as described in Beg et al did not improve the predicted performance (data not shown). We found that the growth rate prediction achieved by FBAwMC are not significantly correlated with the measured ones (<a href="#pcbi-1002575-g003">Figure 3</a>; <a href="#pcbi.1002575.s002">Figure S2</a>; <em>p</em>-value = 0.17), although a significant correlation between measured and predicted growth rates was reported for a smaller set of 10 media by Beg et al. <a href="#pcbi.1002575-Beg1">[8]</a>. Notably, the scope of the 24 media considered here is significantly wider as it includes also nucleotides and amino-acids which were not considered in the set of 10 media studied by Beg et al. When focusing on the growth rate measurements for the limited set of 10 media made by Beg et al, both FBAwMC and MOMENT achieve significant Pearson correlations, though insignificant Spearman correlations (see <a href="#pcbi.1002575.s007">Table S4</a>). A previous study by Wong et al. <a href="#pcbi.1002575-Wong1">[31]</a> suggests that growth rate is proportional to the square root of growth yield. We find that MOMENT's predictions satisfy this relation, with a significant correlation (Pearson R = 0.3953, p-value = 0.05; Spearman R = 0.5046, p-value = 0.01) between the predicted growth rate and the square root of the predicted biomass yield.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/title[1]">Predicting metabolic flux, gene and enzyme expression levels</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/p[1]">To evaluate the performance of MOMENT in predicting intracellular fluxes, we compared experimental flux measurements for 28 reactions in <em>E.coli</em> measured under exponential growth phase by Schuetz et al. <a href="#pcbi.1002575-Schuetz1">[18]</a> with the predicted fluxes. We found that flux predictions obtained by MOMENT achieve a Pearson correlation of 0.76 with the measured fluxes, significantly outperforming FBAwMC and FBA, which achieve correlations of 0.64 and 0.51, respectively. As a further control, we tested a variant of FBA, which maximizes ATP yield per sum of flux square, previously shown by Schuetz et al. to improve flux prediction accuracy <a href="#pcbi.1002575-Schuetz1">[18]</a>. We found that predictions obtained by the latter approach achieve a Pearson correlation of 0.68 with the measured fluxes, which is still markedly lower than MOMENT's prediction accuracy (<a href="#pcbi-1002575-g005">Figure 5A</a>; <a href="#pcbi.1002575.s003">Figure S3A</a>; <a href="#pcbi.1002575.s008">Table S5</a>). Also here, the utilization of the randomly sampled enzyme turnover numbers led to worse predictions (<a href="#pcbi-1002575-g005">Figure 5A</a>; <a href="#pcbi.1002575.s008">Table S5</a>).</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/fig[1]"><a name="pcbi-1002575-g005" id="pcbi-1002575-g005" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002575?imageURI=info:doi/10.1371/journal.pcbi.1002575.g005" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002575', 'info:doi/10.1371/journal.pcbi.1002575.g005');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002575', 'info:doi/10.1371/journal.pcbi.1002575.g005');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002575.g005&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002575?imageURI=info:doi/10.1371/journal.pcbi.1002575.g005" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002575', 'info:doi/10.1371/journal.pcbi.1002575.g005');"><span>Figure 5. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/fig[1]/caption[1]/title[1]">Metabolic flux and gene expression level predictions via MOMENT versus other approaches.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/fig[1]/caption[1]/p[1]">(A) The prediction of flux rates in <em>E.coli</em> under glucose minimal media based on MOMENT in comparison to FBAwMC, FBA, and MOMENT with random enzyme turnover rates (error bar representing standard deviation over randomly shuffled turnover numbers). (B) The prediction of differential gene expression levels in <em>E.coli</em> under glucose minimal media, between low and high growth rate conditions (with the high growth rate condition involving overflow metabolism). <em>p</em> values are shown above each bar.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002575.g005</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002575.g005/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002575.g005/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002575.g005.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002575.g005/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002575.g005.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/p[2]">To further evaluate the predictive performance of MOMENT, we extracted data from <a href="#pcbi.1002575-Veit1">[32]</a> on gene expression changes in <em>E.coli</em> under glucose minimal media, between low and high growth rate conditions, the latter involving over-flow metabolism, and compared it to predicted changes in enzyme concentrations. Applying MOMENT to predict changes in protein concentrations between these low and high growth rate conditions, we predicted 28 enzymes with a significant change in concentration (deviating from the expected increase in enzyme levels due to the fold change increase in growth rate). We found that changes in these enzyme concentrations predicted by MOMENT between the low and high growth rates achieve a Pearson correlation of 0.84 (<em>p</em>-value = 2.4e-8) with the measured changes in gene expression (<a href="#pcbi-1002575-g005">Figure 5B</a>; <a href="#pcbi.1002575.s003">Figure S3B</a>; <a href="#pcbi.1002575.s009">Table S6</a>), even though gene and protein expression levels tend to be only moderately correlated <a href="#pcbi.1002575-DaranLapujade1">[33]</a>. Also here, the performance of FBAwMC is significantly lower in this case (<a href="#pcbi-1002575-g005">Figure 5B</a>; <a href="#pcbi.1002575.s009">Table S6</a>), with a Pearson correlation of 0.34 (<em>p</em>-value = 2.9e-3).</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/p[3]">Notably, naïve FBA was not evaluated here as it cannot be applied to predict differential metabolism across different growth rates. As a further benchmark, we applied a recently developed method called Parsimonious enzyme usage FBA (pFBA), to classify genes in <em>E. coli</em> according to whether they are used in the optimal growth solutions (as this classification was previously shown to correlate with changes in gene expression following laboratory-evolved <em>E.coli</em> straints that increased their growth rates) <a href="#pcbi.1002575-Lewis1">[34]</a>. We found only a weak correlation between this gene classification and the changes in gene expresion between the low and high growth rates conditions <a href="#pcbi.1002575-Veit1">[32]</a> (Pearson R = 0.092, p-value = 0.02; Spearman R = 0.074, <em>p</em>-value = 0.06).</p>
+
+</div>
+
+<div id="section3" xpathLocation="/article[1]/body[1]/sec[3]"><a id="s3" name="s3" toc="s3" title="Discussion"></a><h3 xpathLocation="noSelect">Discussion&nbsp;<a href="#top">Top</a></h3><p xpathLocation="/article[1]/body[1]/sec[3]/p[1]">Computational prediction of microbial growth rates represents a major challenge. Here, we present a novel computational approach, MOMENT, that addresses this challenge by integrating genome-scale metabolic modeling with enzyme kinetic parameters. MOMENT is shown to predict growth rates for <em>E. coli</em> under various growth media that are significantly correlatred with experimental measurements, and to improve the prediction accuracy of several metabolic phenotypes including intracellular fluxes, and gene expression of enzyme-coding genes. The method is based on an identified design principle of metabolism, in which enzymes catalyzing high flux reactions across different media tend to have higher turnover numbers.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/p[2]">While MOMENT enables genome-scale prediction of metabolic phenotypes it is bound to make simplifying assumptions that in some cases may lead to false predictions: (i) MOMENT requires as input information on the fraction of total protein concentrations that is devoted to metabolic enzymes. Since this information is difficult to obtain for each modeled condition, here we assumed that this fraction remains constant across a variety of growth media, which is expected to bias the predictions. (ii) MOMENT does not take into account several important factors that affect growth rate such as the cost of protein synthesis by ribosomes and local substrate turnover numbers, etc <a href="#pcbi.1002575-Scott1">[35]</a>. (iii) MOMENT requires data on enzyme kinetic constants, which is still unavailable for hundreds of enzymes in <em>E. coli</em>. Specifically, kinetic data on various membrane transporters is missing from both BRENDA <a href="#pcbi.1002575-Pharkya1">[15]</a> and SABIO-RK <a href="#pcbi.1002575-Wittig1">[16]</a>, which may lead to false prediction regarding the cost of activating specific transporters and regarding the effect of knocking out transporters. (iv) MOMENT does not predict metabolite concentrations and hence does not take into account thermodynamic considerations (regarding flux directionality) or enzyme saturation considerations in computing required enzyme levels (implicitly assuming that the majority of enzymes in <em>E. coli</em> are fully saturated, following <a href="#pcbi.1002575-Bennett1">[36]</a>). Future studies may extend MOMENT to also predict metabolite concentrations, satisfying the 2<sup>nd</sup> law of thermodynamics as done in <a href="#pcbi.1002575-Henry1">[37]</a>, while considering enzyme saturation effects via known enzyme binding affinity constants (Km).</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/p[3]">From an applicative standpoint, the improved metabolic modeling performance achieved by MOMENT is expected to significantly contribute to metabolic engineering applications and specifically to optimal strain design. Specifically, the additional constraints employed by MOMENT on the requirement for specific enzyme concentrations for catalyzing predicted metabolic flux rates, can be integrated and potentially improve the accuracy of computational metabolic engineering methods such as OptKnock, RobustKnock, OptStrain, etc <a href="#pcbi.1002575-Burgard1">[38]</a>, <a href="#pcbi.1002575-Pharkya2">[39]</a>, <a href="#pcbi.1002575-Tepper1">[40]</a>. MOMENT's ability to correctly predict microbial growth rates supports the underlying assumption that a physiological bound on cellular enzyme mass is a key factor that determines growth rate.</p>
+</div>
+
+<div id="section4" xpathLocation="/article[1]/body[1]/sec[4]"><a id="s4" name="s4" toc="s4" title="Methods"></a><h3 xpathLocation="noSelect">Methods&nbsp;<a href="#top">Top</a></h3>
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[1]/title[1]">Growth rate determination</h4>
+<h5 xpathLocation="/article[1]/body[1]/sec[4]/sec[1]/sec[1]/title[1]">Strains and medium.</h5><p xpathLocation="/article[1]/body[1]/sec[4]/sec[1]/sec[1]/p[1]">The wild-type Escherichia coli K-12 strain BW25113 was used for all experiments. Cells were cultivated in M9-minimal medium with different carbon source added. The carbon sources were added so that the amount of reducible carbon equaled the amount present in a concentration of 2 g/L glucose. M9 minimal medium was prepared in the following way: To 700 mL of autoclaved, purified water, 200 mL of 5× base salt solution (211 mM Na<sub>2</sub>HPO<sub>4</sub>, 110 mM KH<sub>2</sub>PO<sub>4</sub>, 42.8 mM NaCl, 56.7 mM (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>, autoclaved), 10 mL of trace elements (0.63 mM ZnSO<sub>4</sub>, 0.7 mM CuCl<sub>2</sub>, 0.71 mM MnSO<sub>4</sub>, 0.76 mM CoCl<sub>2</sub>, autoclaved), 1 mL 0.1 M CaCl<sub>2</sub> solution (autoclaved), 1 mL 1 M MgSO<sub>4</sub> solution (autoclaved), 2 mL of 500× thiamine solution (1.4 mM, filter sterilized) and 0.6 mL 0.1 M FeCl<sub>3</sub> solution (filter sterilized) were added. The resulting solution was filled up to 1 liter with water. Carbon source were added to the medium from stock solutions adjusted to pH 7. All media were filtrated prior to use (Steritop-GP 500 mL, Millipore). All chemicals used were obtained from Sigma-Aldrich if not indicated otherwise.</p>
+
+<h5 xpathLocation="/article[1]/body[1]/sec[4]/sec[1]/sec[2]/title[1]">Cultivation.</h5><p xpathLocation="/article[1]/body[1]/sec[4]/sec[1]/sec[2]/p[1]">The growth rates were determined using an automated cultivation device (Tecan Infinite 200 Pro plate reader). Cells were grown to a steady state in the respective growth medium in shake flasks, then washed twice in minimal medium. 4 µL of the washed cells were inoculated into a well on a 96-well plate (black, Greiner) with 196 µL of medium. The plate was covered with a transparent plastic cover and sealed with parafilm. Cultivation was done at the maximal linear shaking speed (160 min-1, 1 mm displacement) and the following settings for optical density (OD) measurement (Interval time 5 min, shaking 4:42, reading (no shaking) 18 s; number of flashes 1; wavelength 600 nm, bandwidth 9 nm). The cells were grown to stationary phase or for at least 50 hours to ensure observation of steady state growth. The measured OD-values were corrected for the non-linearity of the device using an empirical function derived from samples with known OD-values (measured by spectrometry) from 10 to 0.001.</p>
+
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[2]/title[1]">Extraction of enzyme kinetic parameters</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[2]/p[1]">Enzyme turnover rates were extracted from BRENDA <a href="#pcbi.1002575-Pharkya1">[15]</a> and SABIO-RK <a href="#pcbi.1002575-Wittig1">[16]</a>. based on Enzyme Commission (EC) numbers and reactant names in the <em>E.coli</em> metabolic model by Feist et al. <a href="#pcbi.1002575-Feist1">[19]</a> (<a href="#pcbi.1002575.s010">Table S7</a>). Measured turnover rates for mutated enzymes were filtered out. When multiple turnover numbers were available for a certain enzyme, the median value was chosen.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[3]/title[1]">MetabOlic Modeling with ENzyme kineTics (MOMENT)</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[3]/p[1]">Similar to FBA, MOMENT searches for a feasible flux distribution vector <em>v</em> (mmol/g<sub>DW</sub>/h) with maximal growth rate (i.e. flux through the biomass production reaction), satisfying mass-balance and reaction directionality constraints based on the following linear constraints:</p>
+
+
+<ol class="roman-lower">
+
+<li xpathLocation="/article[1]/body[1]/sec[4]/sec[3]/list[1]/list-item[1]"><span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002575.e001&amp;representation=PNG"></span>,</li>
+
+<li xpathLocation="/article[1]/body[1]/sec[4]/sec[3]/list[1]/list-item[2]"><span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002575.e002&amp;representation=PNG"></span>,</li>
+
+</ol><p xpathLocation="/article[1]/body[1]/sec[4]/sec[3]/p[2]">Where <em>S</em> denotes a stiochiometric matrix <em>S</em> (<em>NxM</em>) composed of <em>N</em> metabolites and <em>M</em> reactions (<em>S<sub>ij</sub></em> corresponds to the stoichiometric coefficient of metabolite <em>i</em> in reaction <em>j</em>) and <em>v<sub>lb</sub></em> and <em>v<sub>ub</sub></em> represent known lower and upper bounds, respectively, on flux rates. Here, <em>v<sub>lb</sub></em> is set to either −inf for reversible reactions or 0 for irreversible reactions, and <em>v<sub>ub</sub></em> is set to +inf for all reactions. In addition to searching for a flux distribution, MOMENT searches for a vector of enzyme concentrations, denoted <em>g</em> (mmol/g<sub>DW</sub>), such that each flux rate in <em>v</em> has a sufficiently high enzyme concentration to catalyze it. To associate flux rates with enzyme concentrations, we utilize the Boolean gene-to-reaction mapping that is included in the <em>E.coli</em> model of Feist et al. <a href="#pcbi.1002575-Feist1">[19]</a>, as follows:</p>
+
+
+<ol class="order">
+
+<li xpathLocation="/article[1]/body[1]/sec[4]/sec[3]/list[2]/list-item[1]">For a reaction <em>j</em> catalyzed by single enzyme <em>i</em>, we use the equation:<br><a name="" id=""></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002575.e003&amp;representation=PNG"></span><br></li>
+
+<li xpathLocation="/article[1]/body[1]/sec[4]/sec[3]/list[2]/list-item[2]">For a reaction <em>j</em> catalyzed by two isozymes <em>a</em> OR <em>b</em>, we use the equation:<br><a name="" id=""></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002575.e004&amp;representation=PNG"></span><br></li>
+
+<li xpathLocation="/article[1]/body[1]/sec[4]/sec[3]/list[2]/list-item[3]">For a reaction <em>j</em> catalyzed by an enzyme complex consisting of gene products <em>a</em> AND <em>b</em>, we use the equation:<br><a name="" id=""></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002575.e005&amp;representation=PNG"></span><br></li>
+
+</ol><p xpathLocation="/article[1]/body[1]/sec[4]/sec[3]/p[3]">This can be formulated in a linear equation by defining an auxiliary variable <em>g<sub>a&amp;b</sub></em> that is constrained to be smaller than both <em>g<sub>a</sub></em> and <em>g<sub>b</sub></em>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[3]/p[4]">To account for more complex gene-to-reaction mappings, where multiple alternative enzyme complexes can catalyze a certain reaction, we applied the above rules recursively by adding auxiliary variables for AND and OR operators. For enzymes whose turnover number is unknown, we use the me median turnover number across all reactions in <em>E. coli</em> (see <a href="#s2">Results</a>).</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[3]/p[5]">The enzymes solvent capacity constraint is formulated as;<br><a name="" id=""></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002575.e006&amp;representation=PNG"></span><br>where, <em>MW<sub>i</sub></em> denotes the molecular weight of protein coded by gene <em>i</em>, and <em>C</em> denotes the total weight of proteins, which was assumed to be 56% out of the <em>E. coli</em> dry weight mass <a href="#pcbi.1002575-Bremer1">[30]</a>. Notably, the latter constraint resembles the molecular crowding constraint employed by <a href="#pcbi.1002575-Vazquez1">[9]</a>, <a href="#pcbi.1002575-Goelzer1">[12]</a>, <a href="#pcbi.1002575-Mahadevan1">[21]</a>, though here, the gene-to-reactions mapping is taken into account.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[4]/sec[4]/title[1]">Maximum ATP per sum of flux square</h4>
+<p xpathLocation="/article[1]/body[1]/sec[4]/sec[4]/p[1]">To maximize ATP yield per sum of flux square, <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002575.e007&amp;representation=PNG"></span>, as performed by Schuetz et al. <a href="#pcbi.1002575-Schuetz1">[18]</a>, requies non-convex optimization.To overcome that, we utilized the same approach suggested by Schuetz at el. <a href="#pcbi.1002575-Schuetz1">[18]</a>, and solved a series of quadratic programming optimization problems of the form:<br><a name="" id=""></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002575.e008&amp;representation=PNG"></span><br>where <em>ε</em> represents a trade-off between ATP maximization and minimization of flux norm. Specifically, we iterate over 10000 values of ε between 0.5 to 1.5 to identify the optimal flux distribution that maximizes ATP yield per flux unit.</p>
+
+</div>
+
+<div id="section5" xpathLocation="/article[1]/body[1]/sec[5]"><a id="s5" name="s5" toc="s5" title="Supporting Information"></a><h3 xpathLocation="noSelect">Supporting Information&nbsp;<a href="#top">Top</a></h3><a name="pcbi.1002575.s001" id="pcbi.1002575.s001"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002575.s001">Figure S1. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[1]/caption[1]/p[1]">(A) Histogram of Pearson correlations between enzyme turnover numbers and predicted flux rates, uniquely determined by Flux Variability Analysis (FVA), under different single carbon and energy source media in blue (average Pearson correlation is 0.49; <em>p</em>-value = 0.002). The Pearson correlation between enzyme turnover numbers and the averaged flux distribution across conditions in green (Pearson correlation of 0.55; <em>p</em>-value = 0.0001) is shown to be higher than those obtained under the different media. (B) Pearson correlations between enzyme turnover numbers and predicted fluxes whose flux rate is uniquely determined by FVA, under a set of single carbon and energy source media under either aerobic versus anaerobic conditions. As shown, under most growth conditions, the correlation between enzyme turnover numbers and fluxes is higher when fluxes are predicted under aerobic conditions(paired Wilcoxon test <em>p</em>-value = 2.3e-14).</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[1]/caption[1]/p[2]">(TIF)</p>
+<a name="pcbi.1002575.s002" id="pcbi.1002575.s002"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002575.s002">Figure S2. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[2]/caption[1]/p[1]">The prediction of growth rates by FBAwMC. FBAwMC predicted growth rates achieving a Pearson correlation of 0.29(p-value = 0.17) with the measured growth rates.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[2]/caption[1]/p[2]">(TIF)</p>
+<a name="pcbi.1002575.s003" id="pcbi.1002575.s003"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002575.s003">Figure S3. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[3]/caption[1]/p[1]">Metabolic flux and gene expression level predictions via MOMENT. (A) The prediction of flux rates in <em>E.coli</em> under glucose minimal media based on MOMENT. Linear regression line in red. (B) MOMENT prediction of differential gene expression levels in <em>E.coli</em> under glucose minimal media, between low and high growth rate conditions (with the high growth rate condition involving overflow metabolism). Linear regression line in red.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[3]/caption[1]/p[2]">(TIF)</p>
+<a name="pcbi.1002575.s004" id="pcbi.1002575.s004"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002575.s004">Table S1. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[4]/caption[1]/p[1]">Correlations of enzyme turnover numbers, enzyme molecular weights, gene expression levels, and combinations of the latter via a linear regression model with metabolic flux rates.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[4]/caption[1]/p[2]">(XLSX)</p>
+<a name="pcbi.1002575.s005" id="pcbi.1002575.s005"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002575.s005">Table S2. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[5]/caption[1]/p[1]">The contribution of kinetics parameters to the prediction of metabolic flux in <em>E. coli</em> under glucose minimal media and differential gene expression.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[5]/caption[1]/p[2]">(XLSX)</p>
+<a name="pcbi.1002575.s006" id="pcbi.1002575.s006"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002575.s006">Table S3. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[6]/caption[1]/p[1]">Measured and predicted growth rates.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[6]/caption[1]/p[2]">(XLSX)</p>
+<a name="pcbi.1002575.s007" id="pcbi.1002575.s007"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002575.s007">Table S4. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[7]/caption[1]/p[1]">The prediction accuracy of growth rate predictions made by MOMENT versus FBAwMC.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[7]/caption[1]/p[2]">(XLSX)</p>
+<a name="pcbi.1002575.s008" id="pcbi.1002575.s008"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002575.s008">Table S5. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[8]/caption[1]/p[1]">Metabolic flux predictions in <em>E. coli</em> under glucose minimal media.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[8]/caption[1]/p[2]">(XLSX)</p>
+<a name="pcbi.1002575.s009" id="pcbi.1002575.s009"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002575.s009">Table S6. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[9]/caption[1]/p[1]">Prediction of differential gene expression levels in <em>E. coli</em> under glucose minimal media.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[9]/caption[1]/p[2]">(XLSX)</p>
+<a name="pcbi.1002575.s010" id="pcbi.1002575.s010"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002575.s010">Table S7. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[10]/caption[1]/p[1]">Turnover numbers.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[10]/caption[1]/p[2]">(XLSX)</p>
+<a name="pcbi.1002575.s011" id="pcbi.1002575.s011"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002575.s011">Text S1. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[11]/caption[1]/p[1]">FVA formulation for MOMENT and the relation between growth rate and the total enzyame mass.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[11]/caption[1]/p[2]">(DOC)</p>
+</div>
+
+
+
+
+
+<div xpathLocation="noSelect"><a id="ack" name="ack" toc="ack" title="Acknowledgments"></a><h3 xpathLocation="noSelect">Acknowledgments&nbsp;<a href="#top">Top</a></h3>
+<p xpathLocation="/article[1]/back[1]/ack[1]/p[1]">We are grateful to Naama Brenner for highly valuable discussions and comments on the manuscript.</p>
+</div><div class="contributions"><a id="authcontrib" name="authcontrib" toc="authcontrib" title="Author Contributions"></a><h3 xpathLocation="noSelect">Author Contributions&nbsp;<a href="#top">Top</a></h3><p xpathLocation="noSelect">Wrote the paper: RA TS. Conceived and designed the computational analysis: RA RM TS. Performed the computational analysis: RA. Performed the in-vivo experiments: BV MH.</p></div><div xpathLocation="noSelect"><a id="references" name="references" toc="references" title="References"></a><h3 xpathLocation="noSelect">References&nbsp;<a href="#top">Top</a></h3><ol class="references" xpathLocation="noSelect"><li xpathLocation="noSelect"><a name="pcbi.1002575-1" id="pcbi.1002575-1"></a> Lengauer T, editor.  (2007) Bioinformatics - From Genomes to Therapies 2. Getting at the Inner Workings: Molecular Interactions. Weinheim, Germany: Wiley-VCH. 520 p.  </li><li xpathLocation="noSelect"><a name="pcbi.1002575-Price1" id="pcbi.1002575-Price1"></a>Price ND, Papin JA, Schilling CH, Palsson BO (2003) Genome-scale microbial in silico models: the constraints-based approach. Trends Biotechnol  21: 162–169. 
+        doi:
+        <a href="http://dx.doi.org/10.1016/S0167-7799(03)00030-1">10.1016/S0167-7799(03)00030-1</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094631">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Stelling1" id="pcbi.1002575-Stelling1"></a>Stelling J, Klamt S, Bettenbrock K, Schuster S, Gilles ED (2002) Metabolic network structure determines key aspects of functionality and regulation. Nature  420: 190–193. 
+        doi:
+        <a href="http://dx.doi.org/10.1038/nature01166">10.1038/nature01166</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094633">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Segre1" id="pcbi.1002575-Segre1"></a>Segre D, Vitkup D, Church GM (2002) Analysis of optimality in natural and perturbed metabolic networks. Proc Natl Acad Sci U S A  99: 15112–15117. 
+        doi:
+        <a href="http://dx.doi.org/10.1073/pnas.232349399">10.1073/pnas.232349399</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094635">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Vemuri1" id="pcbi.1002575-Vemuri1"></a>Vemuri GN, Altman E, Sangurdekar DP, Khodursky AB, Eiteman MA (2006) Overflow metabolism in Escherichia coli during steady-state growth: transcriptional regulation and effect of the redox ratio. Appl Environ Microb  72: 3653–3661. 
+        doi:
+        <a href="http://dx.doi.org/10.1128/AEM.72.5.3653-3661.2006">10.1128/AEM.72.5.3653-3661.2006</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094637">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Molenaar1" id="pcbi.1002575-Molenaar1"></a>Molenaar D, van Berlo R, de Ridder D, Teusink B (2009) Shifts in growth strategies reflect tradeoffs in cellular economics. Mol Syst Biol  5: 323. 
+        doi:
+        <a href="http://dx.doi.org/10.1038/msb.2009.82">10.1038/msb.2009.82</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094639">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Beardmore1" id="pcbi.1002575-Beardmore1"></a>Beardmore RE, Gudelj I, Lipson DA, Hurst LD (2011) Metabolic trade-offs and the maintenance of the fittest and the flattest. Nature  472: 342–346. 
+        doi:
+        <a href="http://dx.doi.org/10.1038/nature09905">10.1038/nature09905</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094641">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Beg1" id="pcbi.1002575-Beg1"></a>Beg QK, Vazquez A, Ernst J, de Menezes MA, Bar-Joseph Z, et al.  (2007) Intracellular crowding defines the mode and sequence of substrate uptake by Escherichia coli and constrains its metabolic activity. Proc Natl Acad Sci U S A  104: 12663–12668. 
+        doi:
+        <a href="http://dx.doi.org/10.1073/pnas.0609845104">10.1073/pnas.0609845104</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094643">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Vazquez1" id="pcbi.1002575-Vazquez1"></a>Vazquez A, Beg QK, deMenezes MA, Ernst J, Bar-Joseph Z, et al.  (2008) Impact of the solvent capacity constraint on E. coli metabolism. BMC Syst Biol  2: 7. 
+        doi:
+        <a href="http://dx.doi.org/10.1186/1752-0509-2-7">10.1186/1752-0509-2-7</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094645">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Shlomi1" id="pcbi.1002575-Shlomi1"></a>Shlomi T, Benyamini T, Gottlieb E, Sharan R, Ruppin E (2011) Genome-scale metabolic modeling elucidates the role of proliferative adaptation in causing the warburg effect. PLoS Comput Biol  7: e1002018. 
+        doi:
+        <a href="http://dx.doi.org/10.1371/journal.pcbi.1002018">10.1371/journal.pcbi.1002018</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094647">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Zhuang1" id="pcbi.1002575-Zhuang1"></a>Zhuang K, Vemuri GN, Mahadevan R (2011) Economics of membrane occupancy and respiro-fermentation. Mol Syst Biol  7: 500. 
+        doi:
+        <a href="http://dx.doi.org/10.1038/msb.2011.34">10.1038/msb.2011.34</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094649">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Goelzer1" id="pcbi.1002575-Goelzer1"></a>Goelzer A, Fromion V, Scorletti G (2011) Cell design in bacteria as a convex optimization problem. Automatica  47: 1210–1218.  <a class="find" href="/article/findArticle.action?citedArticleID=5094651">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Yizhak1" id="pcbi.1002575-Yizhak1"></a>Yizhak K, Benyamini T, Liebermeister W, Ruppin E, Shlomi T (2010) Integrating quantitative proteomics and metabolomics with a genome-scale metabolic network model. Bioinformatics  26: i255–260. 
+        doi:
+        <a href="http://dx.doi.org/10.1093/bioinformatics/btq183">10.1093/bioinformatics/btq183</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094653">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Colijn1" id="pcbi.1002575-Colijn1"></a>Colijn C, Brandes A, Zucker J, Lun DS, Weiner B, et al.  (2009) Interpreting expression data with metabolic flux models: predicting Mycobacterium tuberculosis mycolic acid production. PLoS Comput Biol  5: e1000489. 
+        doi:
+        <a href="http://dx.doi.org/10.1371/journal.pcbi.1000489">10.1371/journal.pcbi.1000489</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094655">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Pharkya1" id="pcbi.1002575-Pharkya1"></a>Pharkya P, Nikolaev EV, Maranas CD (2003) Review of the BRENDA Database. Metab Eng  5: 71–73. 
+        doi:
+        <a href="http://dx.doi.org/10.1016/S1096-7176(03)00008-9">10.1016/S1096-7176(03)00008-9</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094657">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Wittig1" id="pcbi.1002575-Wittig1"></a>Wittig U, Golebiewski M, Kania R, Krebs O, Mir S, et al.  (2006) SABIO-RK: Integration and curation of reaction kinetics data. Lect N Bioinformat  4075: 94–103.  <a class="find" href="/article/findArticle.action?citedArticleID=5094659">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Ishii1" id="pcbi.1002575-Ishii1"></a>Ishii N, Nakahigashi K, Baba T, Robert M, Soga T, et al.  (2007) Multiple high-throughput analyses monitor the response of E. coli to perturbations. Science  316: 593–597. 
+        doi:
+        <a href="http://dx.doi.org/10.1126/science.1132067">10.1126/science.1132067</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094661">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Schuetz1" id="pcbi.1002575-Schuetz1"></a>Schuetz R, Kuepfer L, Sauer U (2007) Systematic evaluation of objective functions for predicting intracellular fluxes in Escherichia coli. Mol Syst Biol  3: 119. 
+        doi:
+        <a href="http://dx.doi.org/10.1038/msb4100162">10.1038/msb4100162</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094663">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Feist1" id="pcbi.1002575-Feist1"></a>Feist AM, Henry CS, Reed JL, Krummenacker M, Joyce AR, et al.  (2007) A genome-scale metabolic reconstruction for Escherichia coli K-12 MG1655 that accounts for 1260 ORFs and thermodynamic information. Mol Syst Biol  3: 121. 
+        doi:
+        <a href="http://dx.doi.org/10.1038/msb4100155">10.1038/msb4100155</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094665">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Shlomi2" id="pcbi.1002575-Shlomi2"></a>Shlomi T, Berkman O, Ruppin E (2005) Regulatory on/off minimization of metabolic flux changes after genetic perturbations. Proc Natl Acad Sci U S A  102: 7695–7700. 
+        doi:
+        <a href="http://dx.doi.org/10.1073/pnas.0406346102">10.1073/pnas.0406346102</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094667">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Mahadevan1" id="pcbi.1002575-Mahadevan1"></a>Mahadevan R, Schilling CH (2003) The effects of alternate optimal solutions in constraint-based genome-scale metabolic models. Metab Eng  5: 264–276. 
+        doi:
+        <a href="http://dx.doi.org/10.1016/j.ymben.2003.09.002">10.1016/j.ymben.2003.09.002</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094669">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-BarEven1" id="pcbi.1002575-BarEven1"></a>Bar-Even A, Noor E, Savir Y, Liebermeister W, Davidi D, et al.  (2011) The moderately efficient enzyme: evolutionary and physicochemical trends shaping enzyme parameters. Biochemistry  50: 4402–4410. 
+        doi:
+        <a href="http://dx.doi.org/10.1021/bi2002289">10.1021/bi2002289</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094671">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Kanehisa1" id="pcbi.1002575-Kanehisa1"></a>Kanehisa M, Goto S, Furumichi M, Tanabe M, Hirakawa M (2010) KEGG for representation and analysis of molecular networks involving diseases and drugs. Nucleic Acids Res  38: D355–360. 
+        doi:
+        <a href="http://dx.doi.org/10.1093/nar/gkp896">10.1093/nar/gkp896</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094673">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Akesson1" id="pcbi.1002575-Akesson1"></a>Akesson M, Forster J, Nielsen J (2004) Integration of gene expression data into genome-scale metabolic models. Metab Eng  6: 285–293. 
+        doi:
+        <a href="http://dx.doi.org/10.1016/j.ymben.2003.12.002">10.1016/j.ymben.2003.12.002</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094675">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Becker1" id="pcbi.1002575-Becker1"></a>Becker SA, Palsson BO (2008) Context-specific metabolic networks are consistent with experiments. PLoS Comput Biol  4: e1000082. 
+        doi:
+        <a href="http://dx.doi.org/10.1371/journal.pcbi.1000082">10.1371/journal.pcbi.1000082</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094677">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Dong1" id="pcbi.1002575-Dong1"></a>Dong T, Kirchhof MG, Schellhorn HE (2008) RpoS regulation of gene expression during exponential growth of Escherichia coli K12. Mol Genet Genomics  279: 267–277. 
+        doi:
+        <a href="http://dx.doi.org/10.1007/s00438-007-0311-4">10.1007/s00438-007-0311-4</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094679">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Wagner1" id="pcbi.1002575-Wagner1"></a>Wagner A (2000) Inferring lifestyle from gene expression patterns. Mol Biol Evol  17: 1985–1987. 
+        doi:
+        <a href="http://dx.doi.org/10.1093/oxfordjournals.molbev.a026299">10.1093/oxfordjournals.molbev.a026299</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094681">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Kim1" id="pcbi.1002575-Kim1"></a>Kim J, Reed JL (2010) OptORF: Optimal metabolic and regulatory perturbations for metabolic engineering of microbial strains. BMC Syst Biol  4: 53. 
+        doi:
+        <a href="http://dx.doi.org/10.1186/1752-0509-4-53">10.1186/1752-0509-4-53</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094683">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Shlomi3" id="pcbi.1002575-Shlomi3"></a>Shlomi T, Eisenberg Y, Sharan R, Ruppin E (2007) A genome-scale computational study of the interplay between transcriptional regulation and metabolism. Mol Syst Biol  3: 101. 
+        doi:
+        <a href="http://dx.doi.org/10.1038/msb4100141">10.1038/msb4100141</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094685">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Bremer1" id="pcbi.1002575-Bremer1"></a>Bremer H, Dennis PP (1996)  Modulation of chemical composition and other parameters of the cell by growth rate. In: Neidhardt RCI FC, Ingraham JL, Lin ECC, Low KB, Magasanik B, Reznikoff WS, Riley M, Schaechter M, Umbarger HE, editors. Washington, DC: American Society for Microbiology. pp.  pp 1553–1569.  </li><li xpathLocation="noSelect"><a name="pcbi.1002575-Wong1" id="pcbi.1002575-Wong1"></a>Wong WW, Tran LM, Liao JC (2009) A hidden square-root boundary between growth rate and biomass yield. Biotechnol Bioeng  102: 73–80. 
+        doi:
+        <a href="http://dx.doi.org/10.1002/bit.22046">10.1002/bit.22046</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094689">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Veit1" id="pcbi.1002575-Veit1"></a>Veit A, Polen T, Wendisch VF (2007) Global gene expression analysis of glucose overflow metabolism in Escherichia coli and reduction of aerobic acetate formation. Appl Microbiol Biotechnol  74: 406–421. 
+        doi:
+        <a href="http://dx.doi.org/10.1007/s00253-006-0680-3">10.1007/s00253-006-0680-3</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094691">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-DaranLapujade1" id="pcbi.1002575-DaranLapujade1"></a>Daran-Lapujade P, Jansen ML, Daran JM, van Gulik W, de Winde JH, et al.  (2004) Role of transcriptional regulation in controlling fluxes in central carbon metabolism of Saccharomyces cerevisiae. A chemostat culture study. J Biol Chem  279: 9125–9138. 
+        doi:
+        <a href="http://dx.doi.org/10.1074/jbc.M309578200">10.1074/jbc.M309578200</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094693">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Lewis1" id="pcbi.1002575-Lewis1"></a>Lewis NE, Hixson KK, Conrad TM, Lerman JA, Charusanti P, et al.  (2010) Omic data from evolved E. coli are consistent with computed optimal growth from genome-scale models. Mol Syst Biol  6: 390. 
+        doi:
+        <a href="http://dx.doi.org/10.1038/msb.2010.47">10.1038/msb.2010.47</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094695">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Scott1" id="pcbi.1002575-Scott1"></a>Scott M, Hwa T (2011) Bacterial growth laws and their applications. Curr Opin Biotechnol  22: 559–565. 
+        doi:
+        <a href="http://dx.doi.org/10.1016/j.copbio.2011.04.014">10.1016/j.copbio.2011.04.014</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094697">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Bennett1" id="pcbi.1002575-Bennett1"></a>Bennett BD, Kimball EH, Gao M, Osterhout R, Van Dien SJ, et al.  (2009) Absolute metabolite concentrations and implied enzyme active site occupancy in Escherichia coli. Nat Chem Biol  5: 593–599. 
+        doi:
+        <a href="http://dx.doi.org/10.1038/nchembio.186">10.1038/nchembio.186</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094699">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Henry1" id="pcbi.1002575-Henry1"></a>Henry CS, Broadbelt LJ, Hatzimanikatis V (2007) Thermodynamics-based metabolic flux analysis. Biophys J  92: 1792–1805. 
+        doi:
+        <a href="http://dx.doi.org/10.1529/biophysj.106.093138">10.1529/biophysj.106.093138</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094701">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Burgard1" id="pcbi.1002575-Burgard1"></a>Burgard AP, Pharkya P, Maranas CD (2003) Optknock: a bilevel programming framework for identifying gene knockout strategies for microbial strain optimization. Biotechnol Bioeng  84: 647–657. 
+        doi:
+        <a href="http://dx.doi.org/10.1002/bit.10803">10.1002/bit.10803</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094703">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Pharkya2" id="pcbi.1002575-Pharkya2"></a>Pharkya P, Burgard AP, Maranas CD (2004) OptStrain: a computational framework for redesign of microbial production systems. Genome Res  14: 2367–2376. 
+        doi:
+        <a href="http://dx.doi.org/10.1101/gr.2872004">10.1101/gr.2872004</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094705">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002575-Tepper1" id="pcbi.1002575-Tepper1"></a>Tepper N, Shlomi T (2010) Predicting metabolic engineering knockout strategies for chemical production: accounting for competing pathways. Bioinformatics  26: 536–543. 
+        doi:
+        <a href="http://dx.doi.org/10.1093/bioinformatics/btp704">10.1093/bioinformatics/btp704</a>.
+       <a class="find" href="/article/findArticle.action?citedArticleID=5094707">
+                      Find this article online
+                    </a></li></ol></div>
+
+</div></div>
+<div style="display:none">
+<div dojoType="ambra.widget.RegionalDialog" id="AnnotationDialog" style="padding:0;margin:0;">
+  <div class="dialog annotate">
+    <div class="tipu" id="dTipu"></div>
+    <div class="comment">
+      <h5><span>Post Your Note (For Public Viewing)</span></h5>
+      <div class="posting pane">
+        <form name="createAnnotation" id="createAnnotation" method="post" action="">
+          <input type="hidden" name="target" value="info:doi/10.1371/journal.pcbi.1002575" />
+          <input type="hidden" name="startPath" value="" />
+          <input type="hidden" name="startOffset" value="" />
+          <input type="hidden" name="endPath" value="" />
+          <input type="hidden" name="endOffset" value="" />
+          <input type="hidden" name="commentTitle" id="commentTitle" value="" />
+          <input type="hidden" name="comment" id="commentArea" value="" />
+          <input type="hidden" name="ciStatement" id="statementArea" value="" />
+          <input type="hidden" name="isCompetingInterest" id="isCompetingInterest" value="false" />
+          <input type="hidden" name="noteType" id="noteType" value="" />
+          <fieldset>
+            <legend>Compose Your Note</legend>
+            <span id="submitMsg" class="error" style="display:none;"></span>
+            <table class="layout">
+              <tr>
+                <td>
+                  <label for="cNoteType">This is a </label><select name="cNoteType" id="cNoteType"><option value="note">note</option><option value="correction">correction</option></select>
+                  <span id="cdls" style="visibility:hidden;margin-left:0.3em; white-space:nowrap;"><a href="/static/commentGuidelines.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2?target=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002575#corrections">What are corrections?</a></span>
+                  <label for="cTitle"><span class="none">Enter your note title</span><!-- error message text <em>A title is required for all public notes</em>--></label>
+                  <input type="text" name="cTitle" id="cTitle" value="Enter your note title..." class="title" alt="Enter your note title..." />
+                  <label for="cArea"><span class="none">Enter your note</span><!-- error message text <em>Please enter your note</em>--></label>
+                  <textarea name="cArea" id="cArea" value="Enter your note..." alt="Enter your note...">Enter your note...</textarea>
+                  <input type="hidden" name="isPublic" value="true" />
+                </td>
+                <td>&nbsp;</td>
+                <td class="coi">
+                  <fieldset>
+                    <legend>Declare any competing interests.</legend>
+                    <ul>
+                      <li><label><input id="isCompetingInterestNo" type="radio" checked="checked" name="competingInterest" value="false"  /> No, I don't have any competing interests to declare.</label></li>
+                      <li><label><input id="isCompetingInterestYes" type="radio" name="competingInterest" value="true"  /> Yes, I have competing interests to declare (enter below):</label></li>
+                    </ul>
+                    <textarea name="ciStatementArea" id="ciStatementArea" disabled value="Enter your competing interests..." alt="Enter your competing interests...">Enter your competing interests...</textarea>
+                  </fieldset>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3" class="buttons">
+                  <input type="button" value="Cancel" title="Click to close and cancel" id="btn_cancel"/>
+                  <input type="button" value="Submit" title="Click to post your note publicly" id="btn_post" class="primary"/>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <p>Notes and Corrections can include the following markup tags:</p>
+                  <p><strong>Emphasis:</strong> ''<em>italic</em>''&nbsp;&nbsp;'''<strong>bold</strong>'''&nbsp;&nbsp;'''''<strong><em>bold italic</em></strong>'''''</p>
+                  <p><strong>Other:</strong> ^^<sup>superscript</sup>^^&nbsp;&nbsp;~~<sub>subscript</sub>~~</p>
+                </td>
+              </tr>
+            </table>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <div class="tip" id="dTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialog" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="caTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      Please follow our <a href="/static/commentGuidelines.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2">guidelines for notes and comments</a> and review our <a href="/static/competing.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2">competing interests policy</a>. Comments that do not conform to our guidelines will be promptly removed and the user account disabled. The following must be avoided:
+      <ul>
+        <li>Remarks that could be interpreted as allegations of misconduct</li>
+        <li>Unsupported assertions or statements</li>
+        <li>Inflammatory or insulting language</li>
+      </ul>
+      <form name="contextActionForm" id="contextActionForm" class="clearfix buttons" method="post" action="">
+        <input type="button" name="Continue" value="Continue" id="ContextActionDialogContinueButton" onmouseup="ambra.displayAnnotationContext.startComment(event);" title="Add a note to this text" class="primary"/>
+        <input type="button" name="Cancel" value="Cancel" id="ContextActionDialogCancelButton" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);" title="Close this Window"/>
+      </form>
+    </div>
+    <div class="tip" id="caTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogNotLogged" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canlTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You must be logged in to add a note to an article.
+      You may log in by <a onmousedown="ambra.displayAnnotationContext.disconnect(event);" href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002575">clicking here</a> or <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">cancel this note</a>.
+    </div>
+    <div class="tip" id="canlTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogBadSelection" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canBDTipu"></div>
+    <div class="contextActionContent">
+      <h5 class="annotation icon"><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You cannot annotate this area of the document. <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">Close</a>
+    </div>
+    <div class="tip" id="canBDTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogBadRangeSelection" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canbrTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You cannot create an annotation that spans different sections of the document; please adjust your selection.<br/>
+      <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">Close</a>
+    </div>
+    <div class="tip" id="canbrTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.RegionalDialog" id="CommentDialog" style="padding:0;margin:0;">
+  <div class="dialog preview">
+    <div class="tipu" id="cTipu"></div>
+    <div class="btn close" id="btn_close" title="Click to close"><a title="Click to close">Close</a></div>
+    <div id="cmtContainer" class="comment">
+      <h6 id="viewCmtTitle"></h6>
+      <div class="detail" id="viewCmtDetail"></div>
+      <div class="contentwrap" id="viewComment"></div>
+      <div class="contentwrap" id="viewCIStatement"></div>
+      <div class="detail" id="viewLink">
+        <!--<a href="#" class="commentary icon" title="Click to view full thread and respond">View all responses</a>
+        <a href="#" class="respond tooltip" title="Click to respond to this posting">Respond to this</a>-->
+      </div>
+    </div>
+    <div class="tip" id="cTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.RegionalDialog" id="CommentDialogMultiple" style="padding:0;margin:0;">
+  <div class="dialog multiple preview">
+    <div class="tipu" id="mTipu"></div>
+    <div class="btn close" id="btn_close_multi" title="Click to close"><a title="Click to close">Close</a></div>
+    <ol id="multilist"></ol>
+    <br/>
+    <div id="multidetail"></div>
+    <div class="tip" id="mTip"></div>
+  </div>
+</div>
+
+
+<div dojoType="dijit.Dialog" id="Rating">
+  <div class="dialog annotate">
+    <div class="tipu" id="dTipu"></div>
+    <div class="comment">
+      <h5><span>Rate This Article</span></h5>
+      <div class="instructions">Please follow our <a  href="/static/ratingGuidelines.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2">guidelines for rating</a> and review our <a href="/static/competing.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2">competing interests policy</a>. Comments that do not conform to our guidelines will be promptly removed and the user account disabled. The following must be avoided:
+        <ol>
+          <li>Remarks that could be interpreted as allegations of misconduct</li>
+          <li>Unsupported assertions or statements</li>
+          <li>Inflammatory or insulting language</li>
+        </ol>
+      </div>
+      <div class="posting pane">
+        <form name="ratingForm" id="ratingForm" method="post" action="">
+          <input type="hidden" name="articleURI" value="info:doi/10.1371/journal.pcbi.1002575" />  
+          <input type="hidden" name="commentTitle" id="commentTitle" value="" />
+          <input type="hidden" name="comment" id="commentArea" value="" />
+          <input type="hidden" name="ciStatement" id="statementArea" value="" />
+          <input type="hidden" name="isCompetingInterest" id="isCompetingInterest" value="" />
+          <fieldset>
+            <legend>Compose Your Annotation</legend>
+            <span id="submitRatingMsg" class="error" style="display:none;"></span>
+            <table class="layout">
+              <tr>
+                <td rowspan="2">
+                  <label for="insight">Insight</label>
+                  <ul class="star-rating rating edit" title="Rate insight" id="rateInsight">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Bland" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'insight', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Profound" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="insight" title="insight" value="" />
+                  <label for="reliability">Reliability</label>
+                  <ul class="star-rating rating edit" title="Rate reliability" id="rateReliability">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Tenuous" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'reliability', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Unassailable" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="reliability" title="reliability" value="" />
+                  <label for="style">Style</label>
+                  <ul class="star-rating rating edit" title="Rate style" id="rateStyle">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Crude" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'style', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Elegant" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="style" title="style" value="" />
+                  <label for="cTitle"><span class="none">Enter your comment title</span><!-- error message text <em>A title is required for all public annotations</em>--></label>
+                  <input type="text" name="cTitle" id="cTitle" value="Enter your comment title..." class="title" alt="Enter your comment title..." />
+                  <label for="cArea"><span class="none">Enter your comment</span><!-- error message text <em>Please enter your annotation</em>--></label>
+                  <textarea name="cArea" id="cArea" value="Enter your comment..." alt="Enter your comment...">Enter your comment...</textarea>
+                </td>
+                <td rowspan="2">&nbsp;</td>
+                <td class="coi">
+                  <fieldset>
+                    <legend>Declare any competing interests.</legend>
+                    <ul>
+                      <li><label><input id="isCompetingInterestNo" type="radio" name="competingInterest" value="false"  /> No, I don't have any competing interests to declare.</label></li>
+                      <li><label><input id="isCompetingInterestYes" type="radio" name="competingInterest" value="true"  /> Yes, I have competing interests to declare (enter below):</label></li>
+                    </ul>
+                    <textarea name="ciStatementArea" id="ciStatementArea" disabled value="Enter your competing interests..." title="Enter your competing interests...">Enter your competing interests...</textarea>
+                  </fieldset>
+                </td>
+              </tr>
+              <tr>
+                <td class="buttons">
+                  <input type="button" value="Cancel" title="Click to close and cancel" id="btn_cancel_rating"/>
+                  <input type="button" value="Submit" title="Click to post your annotation publicly" id="btn_post_rating" class="primary"/>
+                </td>
+              </tr>
+              <tr>
+                  <td colspan="3"><p>Ratings can include the following markup tags:</p>
+                  <p><strong>Emphasis:</strong> ''<em>italic</em>''&nbsp;&nbsp;'''<strong>bold</strong>'''&nbsp;&nbsp;'''''<strong><em>bold italic</em></strong>'''''</p>
+                  <p><strong>Other:</strong> ^^<sup>superscript</sup>^^&nbsp;&nbsp;~~<sub>subscript</sub>~~</p></td>
+              </tr>
+            </table>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div dojoType="ambra.widget.LoadingCycle" id="LoadingCycle" class="loadingCycler">
+  <img src="/images/loading.gif" width="58" height="58" title="Loading..." />
+</div>
+<div dojoType="dijit.Dialog" id="LightBox">
+
+    <!-- start main window wrapper-->
+    <div class="figure-window-wrapper">
+
+      <!--start film strip Wrapper-->
+      <div class="figure-window-nav-wrapper">
+        <div id="figure-window-nav"></div>
+      </div><!--end figure-window-nav-wrapper-->
+
+      <!-- start figure container-->
+      <div class="figure-window-container">
+
+        <!-- start/end figure viewer-->
+        <div id="figure-window-viewer">
+          <img id="figure-window-img" class="large"/>
+        </div>
+
+        <!-- start/end figure doi-->
+        <div id="figure-window-doi"></div>
+
+        <!--start figure title-box-->
+        <div id="figure-window-title-box" class="figure-window-title-less">
+          <span id="figure-window-title"></span>
+          <div id="figure-window-more" class="figure-window-more" onclick="return ambra.lightBox.showMoreOrLess();"></div>
+          <div id="figure-window-description"></div>
+        </div><!--end figure title-box-->
+
+        <!--start figure download-->
+        <div class="figure-window-download">
+          <ul>
+            <li class="download icon"><strong>Download:</strong>
+              <a id="figure-window-ppt" title="Click to download PowerPoint slide of this image">PowerPoint
+                slide</a> |
+              <a id="figure-window-large" title="Click to download a larger version of this image">larger image
+                (<span id="figure-window-large-size"></span>)</a> |
+              <a id="figure-window-tiff" title="Click to download a original version of this image">original image
+                (<span id="figure-window-tiff-size"></span>)</a>
+            </li>
+          </ul>
+        </div><!--end figure download-->
+
+        <!--start/end of close, context, next and previous button-->
+        <div class="figure-window-close" onclick="return ambra.lightBox.hide();"></div>
+        <div class="figure-window-context" onclick="return ambra.lightBox.showInContext();"></div>
+        <div id="figure-window-previous" onclick="return ambra.lightBox.showPrevious();"></div>
+        <div id="figure-window-next" onclick="return ambra.lightBox.showNext();"></div>
+
+      </div><!--end figure-window-container-->
+
+    </div><!--end figure-window-wrapper-->
+
+</div><!--end dijit.Dialog-->
+</div>
+</div>
+<!-- end : main contents -->
+
+</div>
+<!-- end : container -->	
+
+<!-- begin : footer -->
+<div id="ftr">
+  <p><span>All site content, except where otherwise noted, is licensed under a <a href="http://creativecommons.org/licenses/by/2.5/" title="Creative Commons Attribution License 2.5" tabindex="200">Creative Commons Attribution License</a>.</span></p>
+  <ul>
+    <li><a href="/static/privacy.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2" title="PLOS Privacy Statement" tabindex="501">Privacy Statement</a></li>
+    <li><a href="/static/terms.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2" title="PLOS Terms of Use" tabindex="502">Terms of Use</a></li>
+    <li><a href="http://www.plos.org/advertise/" title="Advertise With PLOS" tabindex="503">Advertise</a></li>
+    <li><a href="http://www.plos.org/about/media-inquiries/" title="PLOS Embargo Policy" tabindex="504">Media Inquiries</a></li>
+    <li><a href="http://www.plos.org/publish/order-reprints/" title="PLOS in Print" tabindex="505">PLOS in Print</a></li>
+    <li><a href="/static/sitemap.action;jsessionid=AD57CC355BC5A5B552E5E023432E4FD2" title="Site Map" tabindex="506">Site Map</a></li>
+    <li><a href="http://www.plos.org" title="PLOS.org" tabindex="507">PLOS.org</a></li>
+  </ul>
+  <div class="powered">
+  <ul>
+    <li><a href="/static/releaseNotes.action" title="Ambra | Release Notes">Ambra 2.4.9</a></li>
+    <li>Managed Colocation provided by <a href="http://www.isc.org/" title="Internet Systems Consortium">Internet Systems Consortium</a>.</li>
+  </ul>
+  </div>
+</div>
+<!-- end : footer -->
+<script type="text/javascript">
+  var _namespace="";
+    var loggedIn = false;
+
+  var almHost = "http://alm.plos.org";
+  var solrHost = "http://api.plos.org/search";
+  var pubGetHost = "http://pubget.com/widgetizer/links_hash";
+  var appContext = "";
+
+  // Safari v3.1.1 "console.debug" issue (http://trac.dojotoolkit.org/ticket/6849) workaround
+  if (/3[\.0-9]+ Safari/.test(navigator.appVersion)) {
+    window.console = {
+      origConsole: window.console,
+      log: function(s){ this.origConsole.log(s); },
+      info: function(s){ this.origConsole.info(s); },
+      error: function(s){ this.origConsole.error(s); },
+      warn: function(s){ this.origConsole.warn(s); }
+    };
+  }
+
+  var djConfig = {
+    // don't debug for IE - as dojo's firebug lite module is error prone in IE
+    isDebug: false,
+    parseOnLoad: true
+  };
+
+  var bamGAID = 'UA-338393-1';
+  var bamGAVPV = location.pathname + location.search + location.hash;
+</script>
+<script type="text/javascript" src="/javascript/dojo/dojo/dojo.js?v=pzlwVCPPo+oJC12upPgJrJ5EG_k"></script>
+<script type="text/javascript" src="/javascript/dojo/dojo/ambra.js?v=Y8JM0CVD9YwjC99M_jvbcRTiGhY"></script>
+<script type="text/javascript" src="/javascript/init_global.js?v=fF03pfG3r+Nkj_czZ8ORg8o5sNM"></script>
+<script type="text/javascript" src="/javascript/init_article.js?v=qzBD_a7nKbeMM2xNUtB3vckN+Zc"></script>
+<script type="text/javascript" src="/javascript/init_ratings.js?v=seKykuS0X33CQGS7Lj+8FtBy5Uw"></script>
+<script type="text/javascript" src="/javascript/init_lightBox.js?v=vJRLPy7RRX8Zp31Ogcm3i+TA4f8"></script>
+<script type="text/javascript" src="/javascript/init_article_body.js?v=YgFei2xCi50CahwaPbSsxUxUsmw"></script>
+<script type="text/javascript" src="/javascript/init_article_rhc.js?v=djtbTMOagorKE6ZPrkCwufAfWWI"></script>
+<script type="text/javascript" src="/javascript/alm.js?v=1tH9JZ8uDtXspXssGJDr8O+jBOs"></script>
+<script type="text/javascript" src="/javascript/reporting/articleViewsCumulative.js?v=RQ+gCrcAl0dBeLbmokxgQZTGYYA"></script>
+<script type="text/javascript" src="/javascript/check_twitter.js?v=Hc0sH1W9xIu0qhqxWPD4c1u50K4"></script>
+<script type="text/javascript" src="/javascript/init_googleAnalytics.js?v=yCD4h9PHGI0dsefmuWDlMn7pHog"></script>
+
+</body>
+</html>
+

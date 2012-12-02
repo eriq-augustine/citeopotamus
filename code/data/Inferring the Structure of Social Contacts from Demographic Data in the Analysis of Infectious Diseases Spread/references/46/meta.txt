@@ -1,0 +1,6 @@
+TITLE: Modelling the proportion of influenza infections within households during pandemic and non-pandemic years.
+AUTHORS: Kwok KO, Leung GM, Riley S
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

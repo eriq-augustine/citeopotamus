@@ -1,0 +1,6 @@
+TITLE: Improved base calling for the Illumina Genome Analyzer using machine learning strategies.
+AUTHORS: Kircher M, Stenzel U, Kelso J
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The Illumina Genome Analyzer generates millions of short sequencing reads. We present Ibis (Improved base identification system), an accurate, fast and easy-to-use base caller that significantly reduces the error rate and increases the output of usable reads. Ibis is faster and more robust with respect to chemistry and technology than other publicly available packages. Ibis is freely available under the GPL from http://bioinf.eva.mpg.de/Ibis/.

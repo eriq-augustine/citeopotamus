@@ -1,0 +1,4 @@
+Neuromuscular control of vocalizations in birdsong: a model.
+Laje R, Gardner TJ, Mindlin GB
+Abstract:
+We present a dynamical model of the processes involved in birdsong production, relating qualitatively its parameters with biological ones. In this way, we intend to unify the activity patterns of the muscles controlling the vocal organ with the resulting vocalization. With relatively simple paths in the parameter space of our model, we reproduce experimental recordings of the Chingolo sparrow (Zonotrichia capensis).

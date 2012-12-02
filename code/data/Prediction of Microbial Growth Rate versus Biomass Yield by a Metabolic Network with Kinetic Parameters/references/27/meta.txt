@@ -1,0 +1,6 @@
+TITLE: Inferring lifestyle from gene expression patterns.
+AUTHORS: Wagner A
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

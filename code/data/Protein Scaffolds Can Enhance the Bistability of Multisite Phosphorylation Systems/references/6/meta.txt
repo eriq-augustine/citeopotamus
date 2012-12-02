@@ -1,0 +1,6 @@
+TITLE: PHOSIDA (phosphorylation site database): management, structural and evolutionary investigation, and prediction of phosphosites.
+AUTHORS: Gnad F, Ren S, Cox J, Olsen JV, Macek B, Oroshi M, Mann M
+TERMS:
+CATEGORIES:
+ABSTRACT:
+PHOSIDA http://www.phosida.com, a phosphorylation site database, integrates thousands of high-confidence in vivo phosphosites identified by mass spectrometry-based proteomics in various species. For each phosphosite, PHOSIDA lists matching kinase motifs, predicted secondary structures, conservation patterns, and its dynamic regulation upon stimulus. Using support vector machines, PHOSIDA also predicts phosphosites.

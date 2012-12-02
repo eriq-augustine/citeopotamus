@@ -1,5 +1,5 @@
-TITLE: WAVOS: a MATLAB toolkit for wavelet analysis and visualization of oscillatory systems.
-AUTHORS: Harang R, Bonnet G, Petzold LR
+TITLE: The chi square periodogram: its utility for analysis of circadian rhythms.
+AUTHORS: Sokolove PG, Bushell WN
 TERMS:
 CATEGORIES:
 ABSTRACT:

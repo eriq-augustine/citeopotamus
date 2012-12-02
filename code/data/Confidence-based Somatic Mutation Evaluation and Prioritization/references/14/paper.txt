@@ -1,0 +1,4 @@
+A statistical method for the detection of variants from next-generation resequencing of DNA pools.
+Bansal V
+Abstract:
+None

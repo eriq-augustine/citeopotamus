@@ -1,0 +1,6 @@
+TITLE: Speeding molecular recognition by using the folding funnel: the fly-casting mechanism.
+AUTHORS: Shoemaker BA, Portman JJ, Wolynes PG
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Protein folding and binding are kindred processes. Many proteins in the cell are unfolded, so folding and function are coupled. This paper investigates how binding kinetics is influenced by the folding of a protein. We find that a relatively unstructured protein molecule can have a greater capture radius for a specific binding site than the folded state with its restricted conformational freedom. In this scenario of binding, the unfolded state binds weakly at a relatively large distance followed by folding as the protein approaches the binding site: the "fly-casting mechanism." We illustrate this scenario with the hypothetical kinetics of binding a single repressor molecule to a DNA site and find that the binding rate can be significantly enhanced over the rate of binding of a fully folded protein.

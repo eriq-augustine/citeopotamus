@@ -1,0 +1,6 @@
+TITLE: Vocal tract resonances in oscine bird sound production: evidence from birdsongs in a helium atmosphere.
+AUTHORS: Nowicki S
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The complexity and dependence on learning of many bird sounds have suggested parallels between birdsong and human speech, but the mechanisms by which each is produced have been supposed to differ markedly. In human speech, resonances of the vocal tract are thought to modulate in complex ways the sound produced by vibration of the vocal folds. The current theory of birdsong production holds that all variation in sound quality arises from the primary sound-producing organ, the syrinx, and that resonances of the vocal tract play no part. Here I present evidence, obtained from acoustic analyses of birdsongs recorded in a helium atmosphere, which contradicts this hypothesis. Not only does the songbird's vocal tract act as an acoustic filter, but its filter characteristics are actively coordinated with the output of the syrinx. Songbird and human phonation are thus more analogous than previously thought, in that both require coordination of an array of diverse motor systems.

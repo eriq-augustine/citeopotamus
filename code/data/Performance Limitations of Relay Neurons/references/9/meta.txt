@@ -1,0 +1,6 @@
+TITLE: Coupling of beta and gamma activity in corticothalamic system of cats attending to visual stimuli.
+AUTHORS: Bekisz M, Wróbel A
+TERMS:
+CATEGORIES:
+ABSTRACT:
+We have previously shown that local field potentials (LFPs) recorded in the lateral geniculate nucleus (LGN) and primary visual cortex (VCx) of the cat contain significantly more beta frequency activity when the animal attends to visual than to auditory stimuli. In the present study we utilised data from the same experiments to calculate the cross-correlation between envelopes of filtered beta (16-24Hz) and gamma (30-45Hz) oscillatory signals recorded at the same sites. Correlation values obtained from visual trials were significantly higher than those calculated for the auditory task. This observation was typical in those LGN and VCx recording sites which corresponded to the central representation of the visual field. The cross-correlation function peaked within a 20 ms time window from the centre of the cross-correlogram. These findings support the hypothesis that beta activity provides an excitatory background for the appearance of oscillations in the gamma band.

@@ -1,0 +1,4 @@
+Graphical simulation environments for modelling and simulation of integrative physiology.
+Mangourova V, Ringwood J, Van Vliet B
+Abstract:
+None

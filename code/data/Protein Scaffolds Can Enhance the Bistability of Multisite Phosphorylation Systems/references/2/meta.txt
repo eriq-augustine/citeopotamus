@@ -1,0 +1,6 @@
+TITLE: The effects of phosphorylation on the structure and function of proteins.
+AUTHORS: Johnson LN, Barford D
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

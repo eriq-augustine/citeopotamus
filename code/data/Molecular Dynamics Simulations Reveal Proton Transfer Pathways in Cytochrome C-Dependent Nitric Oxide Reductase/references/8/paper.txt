@@ -1,0 +1,4 @@
+Evolution of the haem copper oxidases superfamily: a rooting tale.
+Gribaldo S, Talla E, Brochier-Armanet C
+Abstract:
+Understanding the origin and evolution of haem copper dioxygen reductases (HCO O(2)Red), the terminal enzymes of aerobic respiratory chains, is fundamental to clarify the emergence of this important cellular process. Phylogenetic analyses of HCO O(2)Red have led to contradictory results, suggesting, in turn, that they predate oxygenic photosynthesis and already reduced oxygen as their function; they predate oxygenic photosynthesis, but did not reduce oxygen; they postdate oxygenic photosynthesis. Here, we present a discussion of current data on the distribution and phylogeny of HCO O(2)Red, which leads to a novel and clearer picture of the origin and evolution of these key enzymes as well as their function.

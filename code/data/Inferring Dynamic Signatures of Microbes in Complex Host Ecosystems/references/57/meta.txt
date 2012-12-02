@@ -1,0 +1,6 @@
+TITLE: Acetate utilization and butyryl coenzyme A (CoA):acetate-CoA transferase in butyrate-producing bacteria from the human large intestine.
+AUTHORS: Duncan SH, Barcenilla A, Stewart CS, Pryde SE, Flint HJ
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Seven strains of Roseburia sp., Faecalibacterium prausnitzii, and Coprococcus sp. from the human gut that produce high levels of butyric acid in vitro were studied with respect to key butyrate pathway enzymes and fermentation patterns. Strains of Roseburia sp. and F. prausnitzii possessed butyryl coenzyme A (CoA):acetate-CoA transferase and acetate kinase activities, but butyrate kinase activity was not detectable either in growing or in stationary-phase cultures. Although unable to use acetate as a sole source of energy, these strains showed net utilization of acetate during growth on glucose. In contrast, Coprococcus sp. strain L2-50 is a net producer of acetate and possessed detectable butyrate kinase, acetate kinase, and butyryl-CoA:acetate-CoA transferase activities. These results demonstrate that different functionally distinct groups of butyrate-producing bacteria are present in the human large intestine.

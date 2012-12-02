@@ -1,0 +1,6 @@
+TITLE: Spatial regulation of Fus3 MAP kinase activity through a reaction-diffusion mechanism in yeast pheromone signalling.
+AUTHORS: Maeder CI, Hink MA, Kinkhabwala A, Mayr R, Bastiaens PI, Knop M
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Signal transduction through mitogen-activated protein kinase (MAPK) cascades is thought to occur through the assembly of macromolecular complexes. We quantified the abundance of complexes in the cytoplasm among the MAPKs Ste11, Ste7, Fus3 and the scaffold protein Ste5 in yeast pheromone signalling using fluorescence cross-correlation spectroscopy (FCCS). Significant complex concentrations were observed that remained unchanged on pheromone stimulation, demonstrating that global changes in complex abundances do not contribute to the transmission of signal through the cytoplasm. On the other hand, investigation of the distribution of active Fus3 (Fus3(PP)) across the cytoplasm using fluorescence lifetime imaging microscopy (FLIM) revealed a gradient of Fus3(PP) activity emanating from the tip of the mating projection. Spatial partitioning of Fus3 activating kinases to this site and deactivating phosphatases in the cytoplasm maintain this Fus3(PP)-activity distribution. Propagation of signalling from the shmoo is, therefore, spatially constrained by a gradient-generating reaction-diffusion mechanism.

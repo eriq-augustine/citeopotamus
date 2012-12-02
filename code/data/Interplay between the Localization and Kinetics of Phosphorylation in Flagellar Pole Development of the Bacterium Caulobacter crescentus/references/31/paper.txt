@@ -1,0 +1,4 @@
+High-throughput, subpixel precision analysis of bacterial morphogenesis and intracellular spatio-temporal dynamics.
+Sliusarenko O, Heinritz J, Emonet T, Jacobs-Wagner C
+Abstract:
+None

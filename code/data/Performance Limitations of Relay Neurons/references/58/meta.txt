@@ -1,0 +1,6 @@
+TITLE: Lifetime of Itrel II pulse generators for subthalamic nucleus stimulation in Parkinson's disease.
+AUTHORS: Anheim M, Fraix V, Chabardès S, Krack P, Benabid AL, Pollak P
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

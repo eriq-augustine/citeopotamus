@@ -1,0 +1,6 @@
+TITLE: SAPHIR - a multi-scale, multi-resolution modeling environment targeting blood pressure regulation and fluid homeostasis.
+AUTHORS: Thomas S, Abdulhay E, Baconnier P, Fontecave J, Francoise JP, Guillaud F, Hannaert P, Hernandez A, Le Rolle V, Maziere P, Tahi F, Zehraoui F
+TERMS:
+CATEGORIES:
+ABSTRACT:
+We present progress on a comprehensive, modular, interactive modeling environment centered on overall regulation of blood pressure and body fluid homeostasis. We call the project SAPHIR, for "a Systems Approach for PHysiological Integration of Renal, cardiac, and respiratory functions". The project uses state-of-the-art multi-scale simulation methods. The basic core model will give succinct input-output (reduced-dimension) descriptions of all relevant organ systems and regulatory processes, and it will be modular, multi-resolution, and extensible, in the sense that detailed submodules of any process(es) can be "plugged-in" to the basic model in order to explore, eg. system-level implications of local perturbations. The goal is to keep the basic core model compact enough to insure fast execution time (in view of eventual use in the clinic) and yet to allow elaborate detailed modules of target tissues or organs in order to focus on the problem area while maintaining the system-level regulatory compensations.

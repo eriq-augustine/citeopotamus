@@ -1,0 +1,6 @@
+TITLE: Household transmission of 2009 pandemic influenza A (H1N1) virus in the United States.
+AUTHORS: Cauchemez S, Donnelly CA, Reed C, Ghani AC, Fraser C, Kent CK, Finelli L, Ferguson NM
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

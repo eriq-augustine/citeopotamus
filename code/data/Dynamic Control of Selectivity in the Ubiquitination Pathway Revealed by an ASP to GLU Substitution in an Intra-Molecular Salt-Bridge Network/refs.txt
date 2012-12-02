@@ -1,0 +1,39 @@
+REFERENCES
+[1]	Yamada T, Bork P (2009) Evolution of biomolecular networks: lessons from metabolic and protein interactions. Nat Rev Mol Cell Biol 10: 791–803. doi: 10.1038/nrm2787. 
+[2]	Deshaies RJ, Joazeiro CA (2009) RING domain E3 ubiquitin ligases. Annu Rev Biochem 78: 399–434. doi: 10.1146/annurev.biochem.78.101807.093809. 
+[3]	Dye BT, Schulman BA (2007) Structural mechanisms underlying posttranslational modification by ubiquitin-like proteins. Annu Rev Biophys Biomol Struct 36: 131–150. doi: 10.1146/annurev.biophys.36.040306.132820. 
+[4]	Pickart CM (2001) Mechanisms underlying ubiquitination. Annu Rev Biochem 70: 503–533. 
+[5]	Rape M (2009) Ubiquitin, infinitely seductive: symposium on the many faces of ubiquitin. EMBO Rep 10: 558–562. doi: 10.1038/embor.2009.104. 
+[6]	Jin J, Li X, Gygi SP, Harper JW (2007) Dual E1 activation systems for ubiquitin differentially regulate E2 enzyme charging. Nature 447: 1135–1138. doi: 10.1038/nature05902. 
+[7]	Chiu YH, Sun Q, Chen ZJ (2007) E1-L2 activates both ubiquitin and FAT10. Mol Cell 27: 1014–1023. doi: 10.1016/j.molcel.2007.08.020. 
+[8]	Ye Y, Rape M (2009) Building ubiquitin chains: E2 enzymes at work. Nat Rev Mol Cell Biol 10: 755–764. doi: 10.1038/nrm2780. 
+[9]	Markson G, Kiel C, Hyde R, Brown S, Charalabous P, et al. (2009) Analysis of the human E2 ubiquitin conjugating enzyme protein interaction network. Genome Res 19: 1905–1911. doi: 10.1101/gr.093963.109. 
+[10]	van Wijk SJ, Timmers HT (2010) The family of ubiquitin-conjugating enzymes (E2s): deciding between life and death of proteins. Faseb J 24: 981–993. doi: 10.1096/fj.09-136259. 
+[11]	Wenzel DM, Stoll KE, Klevit RE (2011) E2s: structurally economical and functionally replete. Biochem J 433: 31–42. doi: 10.1042/BJ20100985. 
+[12]	Burroughs AM, Jaffee M, Iyer LM, Aravind L (2008) Anatomy of the E2 ligase fold: implications for enzymology and evolution of ubiquitin/Ub-like protein conjugation. J Struct Biol 162: 205–218. doi: 10.1016/j.jsb.2007.12.006. 
+[13]	van Wijk SJ, de Vries SJ, Kemmeren P, Huang A, Boelens R, et al. (2009) A comprehensive framework of E2-RING E3 interactions of the human ubiquitin-proteasome system. Mol Syst Biol 5: 295. 
+[14]	Wickliffe KE, Lorenz S, Wemmer DE, Kuriyan J, Rape M (2011) The mechanism of linkage-specific ubiquitin chain elongation by a single-subunit E2. Cell 144: 769–781. doi: 10.1016/j.cell.2011.01.035. 
+[15]	Winkler GS, Albert TK, Dominguez C, Legtenberg YI, Boelens R, et al. (2004) An altered-specificity ubiquitin-conjugating enzyme/ubiquitin-protein ligase pair. J Mol Biol 337: 157–165. doi: 10.1016/j.jmb.2004.01.031. 
+[16]	Huang DT, Zhuang M, Ayrault O, Schulman BA (2008) Identification of conjugation specificity determinants unmasks vestigial preference for ubiquitin within the NEDD8 E2. Nat Struct Mol Biol 15: 280–287. doi: 10.1038/nsmb.1387. 
+[17]	Durfee LA, Kelley ML, Huibregtse JM (2008) The basis for selective E1-E2 interactions in the ISG15 conjugation system. J Biol Chem 283: 23895–23902. doi: 10.1074/jbc.M804069200. 
+[18]	de Vries SJ, van Dijk M, Bonvin AM (2010) The HADDOCK web server for data-driven biomolecular docking. Nat Protoc 5: 883–897. doi: 10.1038/nprot.2010.32. 
+[19]	de Vries SJ, van Dijk AD, Krzeminski M, van Dijk M, Thureau A, et al. (2007) HADDOCK versus HADDOCK: new features and performance of HADDOCK2.0 on the CAPRI targets. Proteins 69: 726–733. doi: 10.1002/prot.21723. 
+[20]	Imai T, Ohno T (1995) Measurement of yeast intracellular pH by image processing and the change it undergoes during growth phase. J Biotechnol 38: 165–172. doi: 10.1016/0168-1656(94)00130-5. 
+[21]	DiGiammarino EL, Lee AS, Cadwell C, Zhang W, Bothner B, et al. (2002) A novel mechanism of tumorigenesis involving pH-dependent destabilization of a mutant p53 tetramer. Nat Struct Biol 9: 12–16. doi: 10.1038/nsb730. 
+[22]	Ferreon JC, Lee CW, Arai M, Martinez-Yamout MA, Dyson HJ, et al. (2009) Cooperative regulation of p53 by modulation of ternary complex formation with CBP/p300 and HDM2. Proc Natl Acad Sci U S A 106: 6591–6596. doi: 10.1073/pnas.0811023106. 
+[23]	Joazeiro CA, Wing SS, Huang H, Leverson JD, Hunter T, et al. (1999) The tyrosine kinase negative regulator c-Cbl as a RING-type, E2-dependent ubiquitin-protein ligase. Science 286: 309–312. doi: 10.1126/science.286.5438.309. 
+[24]	Dominguez C, Bonvin AM, Winkler GS, van Schaik FM, Timmers HT, et al. (2004) Structural model of the UbcH5B/CNOT4 complex revealed by combining NMR, mutagenesis, and docking approaches. Structure 12: 633–644. doi: 10.1016/j.str.2004.03.004. 
+[25]	Winn PJ, Religa TL, Battey JN, Banerjee A, Wade RC (2004) Determinants of functionality in the ubiquitin conjugating enzyme family. Structure 12: 1563–1574. doi: 10.1016/j.str.2004.06.017. 
+[26]	Houben K, Dominguez C, van Schaik FM, Timmers HT, Bonvin AM, et al. (2004) Solution structure of the ubiquitin-conjugating enzyme UbcH5B. J Mol Biol 344: 513–526. doi: 10.1016/j.jmb.2004.09.054. 
+[27]	Das J, Mohammed J, Yu H (2012) Genome scale analysis of interaction dynamics reveals organization of biological networks. Bioinformatics 28: 1873–8. doi: 10.1093/bioinformatics/bts283. 
+[28]	Brunger AT (2007) Version 1.2 of the Crystallography and NMR system. Nat Protoc 2: 2728–2733. doi: 10.1038/nprot.2007.406. 
+[29]	Oostenbrink C, Soares TA, van der Vegt NF, van Gunsteren WF (2005) Validation of the 53A6 GROMOS force field. Eur Biophys J 34: 273–284. doi: 10.1007/s00249-004-0448-6. 
+[30]	Van Der Spoel D, Lindahl E, Hess B, Groenhof G, Mark AE, et al. (2005) GROMACS: fast, flexible, and free. J Comput Chem 26: 1701–1718. doi: 10.1002/jcc.20291. 
+[31]	Berendsen HJ, Postma JPM, Van Gunsteren WF, DiNola A, Haak JR (1984) Molecular dynamics with coupling to an external bath. J Chem Phys 81: 3684–3690. doi: 10.1063/1.448118. 
+[32]	Bussi G, Donadio D, Parrinello M (2007) Canonical sampling through velocity rescaling. J Chem Phys 126: 014101. doi: 10.1063/1.2408420. 
+[33]	Hess B, Bekker H, Berendsen HJ, Fraaije JGEM (1997) LINCS: A linear constraint solver for molecular simulations. J Comput Chem 18: 1463–1472. 
+[34]	Tironi IG, Sperb R, Smith PE, van Gunsteren WF (1995) A generalized reaction field method for molecular dynamics simulations. J Chem Phys 102: 5451–5459. doi: 10.1063/1.469273. 
+[35]	Darden T, York D, Pedersen L (1993) Particle mesh Ewald: An N [center-dot] log(N) method for Ewald sums in large systems. J Chem Phys 98: 10089–10092. 
+[36]	Essmann U, Perera L, Berkowitz ML, Darden T, Lee H, et al. (1995) A smooth particle mesh Ewald method. J Chem Phys 103: 8577–8593. doi: 10.1063/1.470117. 
+[37]	Baker NA, Sept D, Joseph S, Holst MJ, McCammon JA (2001) Electrostatics of nanosystems: application to microtubules and the ribosome. Proc Natl Acad Sci U S A 98: 10037–10041. doi: 10.1073/pnas.181342398. 
+[38]	Schrödinger LLC (2010) The PyMOL Molecular Graphics System, Version 1.3. 

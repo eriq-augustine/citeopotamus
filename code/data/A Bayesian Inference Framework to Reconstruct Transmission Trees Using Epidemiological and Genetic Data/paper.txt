@@ -156,29 +156,29 @@ Text S1.
 (PDF)
 REFERENCES
 [1]	Ferguson NM, Donnelly CA, Anderson RM (2001) Transmission intensity and impact of control policies on the foot and mouth epidemic in great britain. Nature 413: 542–548. 
-[2]	Keeling MJ, Woolhouse MEJ, May RM, Davies G, Grenfell BT (2003) Modelling vaccination strategies against foot-and-mouth disease. Nature 421: 136–142. 
+[2]	Keeling MJ, Woolhouse MEJ, May RM, Davies G, Grenfell BT (2003) Modelling vaccination strategies against foot-and-mouth disease. Nature 421: 136–142. doi: 10.1038/nature01343. 
 [3]	Cauchemez S, Ferguson NM (2011) Methods to infer transmission risk factors in complex outbreak data. J R Soc Interface 9: 456–469. doi: 10.1098/rsif.2011.0379. 
-[4]	Haydon DT, Chase-Topping M, Shaw DJ, Matthews L, Friar JK, et al. (2003) The construction and analysis of epidemic trees with reference to the 2001 uk foot–and–mouth outbreak. Proc R Soc B 270: 121–127. 
-[5]	Metzker ML (2010) Sequencing technologies - the next generation. Nat Rev Genet 11: 31–46. 
+[4]	Haydon DT, Chase-Topping M, Shaw DJ, Matthews L, Friar JK, et al. (2003) The construction and analysis of epidemic trees with reference to the 2001 uk foot–and–mouth outbreak. Proc R Soc B 270: 121–127. doi: 10.1098/rspb.2002.2191. 
+[5]	Metzker ML (2010) Sequencing technologies - the next generation. Nat Rev Genet 11: 31–46. doi: 10.1038/nrg2626. 
 [6]	Ster IC, Singh BK, Ferguson NM (2009) Epidemiological inference for partially observed epidemics: The example of the 2001 foot and mouth epidemic in great britain. Epidemics 1: 21–34. 
-[7]	Grenfell BT, Pybus OG, Gog JR, Wood JLN, Daly JM, et al. (2004) Unifying the epidemiological and evolutionary dynamics of pathogens. Science 303: 327–332. 
+[7]	Grenfell BT, Pybus OG, Gog JR, Wood JLN, Daly JM, et al. (2004) Unifying the epidemiological and evolutionary dynamics of pathogens. Science 303: 327–332. doi: 10.1126/science.1090727. 
 [8]	Russell CA, Jones TC, Barr IG, Cox NJ, Garten RJ, et al. (2008) The global circulation of seasonal inuenza a (h3n2) viruses. Science 320: 340–346. 
 [9]	Rambaut A, Pybus OG, Nelson MI, Viboud C, Taubenberger JK, et al. (2008) The genomic and epidemiological dynamics of human inuenza a virus. Nature 453: 615–619. 
-[10]	Lemey P, Rambaut A, Drummond AJ, Suchard MA (2009) Bayesian phylogeography finds its roots. PLoS Comput Biol 5: e1000520. 
-[11]	Shapiro B, Ho SYW, Drummond AJ, Suchard MA, Pybus OG, et al. (2011) A bayesian phylogenetic method to estimate unknown sequence ages. Mol Biol Evol 28: 879–887. 
+[10]	Lemey P, Rambaut A, Drummond AJ, Suchard MA (2009) Bayesian phylogeography finds its roots. PLoS Comput Biol 5: e1000520. doi: 10.1371/journal.pcbi.1000520. 
+[11]	Shapiro B, Ho SYW, Drummond AJ, Suchard MA, Pybus OG, et al. (2011) A bayesian phylogenetic method to estimate unknown sequence ages. Mol Biol Evol 28: 879–887. doi: 10.1093/molbev/msq262. 
 [12]	Jombart T, Eggo RM, Dodd PJ, Balloux F (2011) Reconstructing disease outbreaks from genetic data: a graph approach. Heredity 106: 383–390. doi: 10.1038/hdy.2010.78. 
-[13]	Cottam EM, Thébaud G, Wadsworth J, Gloster J, Mansley L, et al. (2008) Integrating genetic and epidemiological data to determine transmission pathways of foot-and-mouth disease virus. Proc R Soc B 275: 887–895. 
-[14]	Ypma RJF, Bataille AMA, Stegeman A, Koch G, Wallinga J, et al. (2011) Unravelling transmission trees of infectious diseases by combining genetic and epidemiological data. Proc R Soc B 279: 444–450. 
-[15]	Cottam EM, Wadsworth J, Shaw AE, Rowlands RJ, Goatley L, et al. (2008) Transmission pathways of foot-and-mouth disease virus in the united kingdom in 2007. PLoS Pathog 4: e1000050. 
-[16]	Clement M, Posada D, Crandall KA (2000) Tcs: a computer program to estimate gene genealogies. Mol Ecol 9: 1657–1659. 
-[17]	Keeling MJ, Woolhouse MEJ, Shaw DJ, Matthews L, Chase-Topping M, et al. (2001) Dynamics of the 2001 uk foot and mouth epidemic: Stochastic dispersal in a heterogeneous landscape. Science 294: 813–817. 
-[18]	Gibbens JC, Wilesmith JW (2002) Temporal and geographical distribution of cases of foot-and-mouth disease during the early weeks of the 2001 epidemic in great britain. Vet Rec 151: 1307–1320. 
-[19]	Charleston B, Bankowski BM, Gubbins S, Chase-Topping ME, Schley D, et al. (2011) Relationship between clinical signs and transmission of an infectious disease and the implications for control. Science 332: 726–729. 
-[20]	Wright CF, Morelli MJ, Thébaud G, Knowles NJ, Herzyk P, et al. (March 1, 2011) Beyond the consensus: Dissecting within-host viral population diversity of foot-and-mouth disease virus by using next-generation genome sequencing. J Virol 85: 2266–2275. 
-[21]	Cottam EM, Haydon DT, Paton DJ, Gloster J, Wilesmith JW, et al. (2006) Molecular epidemiology of the foot-and-mouth disease virus outbreak in the united kingdom in 2001. J Virol 80: 11274–11282. 
-[22]	Posada D, Crandall KA (2001) Intraspecific gene genealogies: trees grafting into networks. Trends Ecol Evol 16: 37–45. 
+[13]	Cottam EM, Thébaud G, Wadsworth J, Gloster J, Mansley L, et al. (2008) Integrating genetic and epidemiological data to determine transmission pathways of foot-and-mouth disease virus. Proc R Soc B 275: 887–895. doi: 10.1098/rspb.2007.1442. 
+[14]	Ypma RJF, Bataille AMA, Stegeman A, Koch G, Wallinga J, et al. (2011) Unravelling transmission trees of infectious diseases by combining genetic and epidemiological data. Proc R Soc B 279: 444–450. doi: 10.1098/rspb.2011.0913. 
+[15]	Cottam EM, Wadsworth J, Shaw AE, Rowlands RJ, Goatley L, et al. (2008) Transmission pathways of foot-and-mouth disease virus in the united kingdom in 2007. PLoS Pathog 4: e1000050. doi: 10.1371/journal.ppat.1000050. 
+[16]	Clement M, Posada D, Crandall KA (2000) Tcs: a computer program to estimate gene genealogies. Mol Ecol 9: 1657–1659. doi: 10.1046/j.1365-294x.2000.01020.x. 
+[17]	Keeling MJ, Woolhouse MEJ, Shaw DJ, Matthews L, Chase-Topping M, et al. (2001) Dynamics of the 2001 uk foot and mouth epidemic: Stochastic dispersal in a heterogeneous landscape. Science 294: 813–817. doi: 10.1126/science.1065973. 
+[18]	Gibbens JC, Wilesmith JW (2002) Temporal and geographical distribution of cases of foot-and-mouth disease during the early weeks of the 2001 epidemic in great britain. Vet Rec 151: 1307–1320. doi: 10.1136/vr.151.14.407. 
+[19]	Charleston B, Bankowski BM, Gubbins S, Chase-Topping ME, Schley D, et al. (2011) Relationship between clinical signs and transmission of an infectious disease and the implications for control. Science 332: 726–729. doi: 10.1126/science.1199884. 
+[20]	Wright CF, Morelli MJ, Thébaud G, Knowles NJ, Herzyk P, et al. (March 1, 2011) Beyond the consensus: Dissecting within-host viral population diversity of foot-and-mouth disease virus by using next-generation genome sequencing. J Virol 85: 2266–2275. doi: 10.1128/JVI.01396-10. 
+[21]	Cottam EM, Haydon DT, Paton DJ, Gloster J, Wilesmith JW, et al. (2006) Molecular epidemiology of the foot-and-mouth disease virus outbreak in the united kingdom in 2001. J Virol 80: 11274–11282. doi: 10.1128/JVI.01236-06. 
+[22]	Posada D, Crandall KA (2001) Intraspecific gene genealogies: trees grafting into networks. Trends Ecol Evol 16: 37–45. doi: 10.1016/S0169-5347(00)02026-7. 
 [23]	Wilkinson DJ (2006) Parallel Bayesian computation. In: Handbook of parallel computing and statistics. Volume 184. Chapter 16. Kontoghiorghes EJ, editor. Boca Raton (Florida): CRC Press. 
-[24]	Andrieu C, Doucet A, Holenstein R (2010) Particle markov chain monte carlo methods. Journal of the Royal Statistical Society: Series B (Statistical Methodology) 72: 269–342. 
-[25]	Austerlitz F, Dick CW, Dutech C, Klein EK, Oddou-Muratorio S, et al. (2004) Using genetic markers to estimate the pollen dispersal curve. Mol Ecol 13: 937–954. 
-[26]	Tufto J, Engen S, Hindar K (1997) Stochastic dispersal processes in plant populations. Theor Popul Biol 52: 16–26. 
+[24]	Andrieu C, Doucet A, Holenstein R (2010) Particle markov chain monte carlo methods. Journal of the Royal Statistical Society: Series B (Statistical Methodology) 72: 269–342. doi: 10.1111/j.1467-9868.2009.00736.x. 
+[25]	Austerlitz F, Dick CW, Dutech C, Klein EK, Oddou-Muratorio S, et al. (2004) Using genetic markers to estimate the pollen dispersal curve. Mol Ecol 13: 937–954. doi: 10.1111/j.1365-294X.2004.02100.x. 
+[26]	Tufto J, Engen S, Hindar K (1997) Stochastic dispersal processes in plant populations. Theor Popul Biol 52: 16–26. doi: 10.1006/tpbi.1997.1306. 
 [27]	R Development Core Team (2008) R: A Language and Environment for Statistical Computing. R Foundation for Statistical Computing, Vienna, Austria. 

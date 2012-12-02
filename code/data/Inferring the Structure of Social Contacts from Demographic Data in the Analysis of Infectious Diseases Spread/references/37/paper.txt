@@ -1,0 +1,4 @@
+Modeling the worldwide spread of pandemic influenza: baseline case and containment interventions.
+Colizza V, Barrat A, Barthelemy M, Valleron AJ, Vespignani A
+Abstract:
+None

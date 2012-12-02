@@ -1,0 +1,6 @@
+TITLE: Determining k channel activation curves from k channel currents often requires the goldman-hodgkin-katz equation.
+AUTHORS: Clay JR
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Potassium ion current in nerve membrane, I(K), has traditionally been described by I(K) = g(K)(V - E(K)), where g(K) is the K ion conductance, V is membrane potential and E(K) is the K(+) Nernst potential. This description has been unchallenged by most investigators in neuroscience since its introduction almost 60 years ago. The problem with the I(K) approximately (V - E(K)) proportionality is that it is inconsistent with the unequal distribution of K ions in the intra- and extracellular bathing media. Under physiological conditions the intracellular K(+) concentration is significantly higher than the extracellular concentration. Consequently, the slope conductance at potentials positive to E(K) cannot be the same as that for potentials negative to E(K), as the linear proportionality between I(K) and (V - E(K)) requires. Instead I(K) has a non-linear dependence on (V - E(K)) which is well described by the Goldman-Hodgkin-Katz equation. The implications of this result for K(+) channel gating and membrane excitability are reviewed in this report.

@@ -1,0 +1,4 @@
+A computational approach for genome-wide mapping of splicing factor binding sites.
+Akerman M, David-Eden H, Pinter RY, Mandel-Gutfreund Y
+Abstract:
+Alternative splicing is regulated by splicing factors that serve as positive or negative effectors, interacting with regulatory elements along exons and introns. Here we present a novel computational method for genome-wide mapping of splicing factor binding sites that considers both the genomic environment and the evolutionary conservation of the regulatory elements. The method was applied to study the regulation of different alternative splicing events, uncovering an interesting network of interactions among splicing factors.

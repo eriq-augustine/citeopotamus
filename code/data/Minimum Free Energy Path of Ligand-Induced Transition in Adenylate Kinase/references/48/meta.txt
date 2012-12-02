@@ -1,0 +1,6 @@
+TITLE: Development and testing of a general amber force field.
+AUTHORS: Wang J, Wolf RM, Caldwell JW, Kollman PA, Case DA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

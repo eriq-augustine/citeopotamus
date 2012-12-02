@@ -1,0 +1,6 @@
+TITLE: Muscle LIM protein deficiency leads to alterations in passive ventricular mechanics.
+AUTHORS: Omens JH, Usyk TP, Li Z, McCulloch AD
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Accumulating evidence indicates that cytoskeletal defects may be an important pathway for dilated cardiomyopathy and eventual heart failure. Targeted disruption of muscle LIM protein (MLP) has previously been shown to result in dilated cardiomyopathy with many of the clinical signs of heart failure, although the effects of MLP disruption on passive ventricular mechanics and myocyte architecture are not known. We used the MLP knockout model to examine changes in passive ventricular mechanics and laminar myofiber sheet architecture. Pressure-volume and pressure-strain relations were altered in MLP knockout mice, in general suggesting a less compliant tissue in the dilated hearts. Transmural laminar myocyte structure was also altered in this mouse model, especially near the epicardium. A mathematical model of the heart showed a likely increase in passive tissue stiffness in the MLP-deficient (-/-) heart. These results suggest that the disruption of the cytoskeletal protein MLP results in less compliant passive tissue and concomitant structural alterations in the three-dimensional myocyte architecture that may in part explain the ventricular dysfunction in the dilated heart.

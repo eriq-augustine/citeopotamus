@@ -1,0 +1,4 @@
+Simple motor gestures for birdsongs.
+Gardner T, Cecchi G, Magnasco M, Laje R, Mindlin GB
+Abstract:
+We present a model of sound production in a songbird's vocal organ and find that much of the complexity of the song of the canary (Serinus canaria) can be produced from simple time variations in forcing functions. The starts, stops, and pauses between syllables, as well as variation in pitch and timbre are inherent in the mechanics and can often be expressed through smooth and simple variations in the frequency and relative phase of two driving parameters

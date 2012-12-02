@@ -1,0 +1,76 @@
+REFERENCES
+[1]	Wuebbles DJ (2009) Nitrous oxide: No laughing matter. Science 326: 56–57. 
+[2]	Hendriks J, Gohlke U, Saraste M (1998) From NO to OO: Nitric oxide and dioxygen in bacterial respiration. J Bioenerg Biomembr 30: 15–24. 
+[3]	Pereira MM, Santana M, Teixeira M (2001) A novel scenario for the evolution of haem-copper oxygen reductases. Biochim Biophys Acta 1505: 185–208. 
+[4]	Zumft WG (2005) Nitric oxide reductases of prokaryotes with emphasis on the respiratory, heme-copper oxidase type. J Inorg Biochem 99: 194–215. 
+[5]	Hemp J, Gennis R (2008) Diversity of the heme–copper superfamily in archaea: Insights from genomics and structural modeling. Bioenergetics 45: 1–31. 
+[6]	Huang Y, Reimann J, Lepp H, Drici N, Ädelroth P (2008) Vectorial proton transfer coupled to reduction of O(2) and NO by a heme-copper oxidase. Proc Natl Acad Sci USA 105: 20257–20262. 
+[7]	Ducluzeau AL, van Lis R, Duval S, Schoepp-Cothenet B, Russell MJ, et al. (2009) Was nitric oxide the first deep electron sink? Trends Biochem Sci 34: 9–15. 
+[8]	Gribaldo S, Talla E, Brochier-Armanet C (2009) Evolution of the haem copper oxidases superfamily: A rooting tale. Trends Biochem Sci 34: 375–381. 
+[9]	Sousa FL, Alves RJ, Pereira-Leal JB, Teixeira M, Pereira MM (2011) A bioinformatics classifier and database for heme-copper oxygen reductases. PLoS One 6: e19117. 
+[10]	Iwata S, Ostermeier C, Ludwig B, Michel H (1995) Structure at 2.8-angstrom resolution of cytochrome-c-oxidase from Paracoccus denitrificans. Nature 376: 660–669. 
+[11]	Tsukihara T, Aoyama H, Yamashita E, Tomizaki T, Yamaguchi H, et al. (1996) The whole structure of the 13-subunit oxidized cytochrome c oxidase at 2.8 angstrom. Science 272: 1136–1144. 
+[12]	Wikström M (2004) Cytochrome c oxidase: 25 years of the elusive proton pump. Biochim Biophys Acta 1655: 241–247. 
+[13]	Brzezinski P, Gennis RB (2008) Cytochrome c oxidase: Exciting progress and remaining mysteries. J Bioenerg Biomembr 40: 521–531. 
+[14]	Yoshikawa S, Muramoto K, Shinzawa-Itoh K (2011) Proton-pumping mechanism of cytochrome c oxidase. Annu Rev Bioph 40: 205–223. 
+[15]	Hino T, Matsumoto Y, Nagano S, Sugimoto H, Fukumori Y, et al. (2010) Structural basis of biological N2O generation by bacterial nitric oxide reductase Science. 330: 1670–1669. 
+[16]	Buschmann S, Warkentin E, Xie H, Langer JD, Ermler U, et al. (2010) The structure of cbb(3) cytochrome oxidase provides insights into proton pumping. Science 329: 327–330. 
+[17]	Forte E, Urbani A, Saraste M, Sarti P, Brunori M, et al. (2001) The cytochrome cbb3 from Pseudomonas stutzeri displays nitric oxide reductase activity. Eur J Biochem 268: 6486–6491. 
+[18]	Lee HJ, Gennis RB, Ädelroth P (2011) Entrance of the proton pathway in cbb(3)-type heme-copper oxidases. Proc Natl Acad Sci U S A 108: 17661–17666. 
+[19]	Shapleigh JP, Payne WJ (1985) Nitric oxide-dependent proton translocation in various denitrifiers. J Bacteriol 163: 837–840. 
+[20]	Hendriks JHM, Jasaitis A, Saraste M, Verkhovsky MI (2002) Proton and electron pathways in the bacterial nitric oxide reductase. Biochemistry 41: 2331–2340. 
+[21]	Reimann J, Flock U, Lepp H, Honigmann A, Adelroth P (2007) A pathway for protons in nitric oxide reductase from Paracoccus denitrificans. Biochim Biophys Acta 1767: 362–373. 
+[22]	Nagle JF, Morowitz HJ (1978) Molecular mechanisms for proton transport in membranes. Proc Natl Acad Sci U S A 75: 298–302. 
+[23]	Sham YY, Muegge I, Warshel A (1999) Simulating proton translocations in proteins: Probing proton transfer pathways in the Rhodobacter sphaeroides reaction center. Proteins 36: 484–500. 
+[24]	Wikström M, Ribacka C, Molin M, Laakkonen L, Verkhovsky M, et al. (2005) Gating of proton and water transfer in the respiratory enzyme cytochrome c oxidase. Proc Natl Acad Sci U S A 102: 10478–10481. 
+[25]	Swanson JMJ, Maupin CM, Chen H, Petersen MK, Xu J, et al. (2007) Proton solvation and transport in aqueous and biomolecular systems: Insights from computer simulations. J Phys Chem B 111: 17. 
+[26]	Sharma M, Yi M, Dong H, Qin H, Peterson E, et al. (2010) Insight into the mechanism of the Influenza A proton channel from a structure in a lipid bilayer. Science 330: 509–512. 
+[27]	Ramsey IS, Mokrab Y, Carvacho I, Sands ZA, Sansom MSP, et al. (2010) An aqueous H+ permeation pathway in the voltage-gated proton channel Hv1. Nat Struct Mol Biol 17: 869–875. 
+[28]	Freier E, Wolf S, Gerwert K (2011) Proton transfer via a transient linear water-molecule chain in a membrane protein. Proc Natl Acad Sci U S A 108: 11435–11439. 
+[29]	Acharya R, Carnevale V, Fiorin G, Levine BG, Polishchuk AL, et al. (2010) Structure and mechanism of proton transport through the transmembrane tetrameric M2 protein bundle of the Influenza A virus. Proc Natl Acad Sci U S A 107: 15075–15080. 
+[30]	Khalili-Araghi F, Gumbart J, Wen PC, Sotomayor M, Tajkhorshid E, et al. (2009) Molecular dynamics simulations of membrane channels and transporters. Curr Opin Struct Biol 19: 128–137. 
+[31]	Wang Y, Shaikh SA, Tajkhorshid E (2010) Exploring transmembrane diffusion pathways with molecular dynamics. Physiology 25: 142–154. 
+[32]	Jensen MØ, Borhani DW, Lindorff-Larsen K, Maragakis P, Jogini V, et al. (2010) Principles of conduction and hydrophobic gating in K(+) channels. Proc Natl Acad Sci U S A 107: 5833–5838. 
+[33]	Stansfeld PJ, Sansom MSP (2011) Molecular simulation approaches to membrane proteins. Structure 19: 1562–1572. 
+[34]	Dror RO, Jensen MO, Borhani DW, Shaw DE (2010) Exploring atomic resolution physiology on a femtosecond to millisecond timescale using molecular dynamics simulations. J Gen Physiol 135: 555–562. 
+[35]	Kutzner C, Grubmüller H, de Groot Bert L, Zachariae U (2011) Computational electrophysiology: The molecular dynamics of ion channel permeation and selectivity in atomistic detail. Biophys J 101: 809–817. 
+[36]	Hofacker I, Schulten K (1998) Oxygen and proton pathways in cytochrome c oxidase. Proteins 30: 100–107. 
+[37]	Wikström M, Verkhovsky MI, Hummer G (2003) Water-gated mechanism of proton translocation by cytochrome c oxidase. Biochim Biophys Acta 1604: 61–65. 
+[38]	Zheng XH, Medvedev DM, Swanson J, Stuchebrukhov AA (2003) Computer simulation of water in cytochrome c oxidase. Biochim Biophys Acta 1557: 99–107. 
+[39]	Olkhova E, Hutter MC, Lill MA, Helms V, Michel H (2004) Dynamic water networks in cytochrome c oxidase from Paracoccus denitrificans investigated by molecular dynamics simulations. Biophys J 86: 1873–1889. 
+[40]	Cukier RI (2005) A molecular dynamics study of water chain formation in the proton-conducting K channel of cytochrome c oxidase. Biochim Biophys Acta 1706: 134–146. 
+[41]	Sugitani R, Stuchebrukhov AA (2009) Molecular dynamics simulation of water in cytochrome c oxidase reveals two water exit pathways and the mechanism of transport. Biochim Biophys Acta 1787: 1140–1150. 
+[42]	Lee HJ, Svahn E, Swanson JMJ, Lepp H, Voth GA, et al. (2010) Intricate role of water in proton transport through cytochrome c oxidase. J Am Chem Soc 132: 16225–16239. 
+[43]	Dowhan W (1997) Molecular basis for membrane phospholipid diversity:Why are there so many lipids? Annu Rev Biochem 66: 199–232. 
+[44]	Phillips JC, Braun R, Wang W, Gumbart J, Tajkhorshid E, et al. (2005) Scalable molecular dynamics with NAMD. J Comput Chem 26: 1781–1802. 
+[45]	MacKerell AD, Bashford D, Bellott M, Dunbrack RL, Evanseck JD, et al. (1998) All-atom empirical potential for molecular modeling and dynamics studies of proteins. J Phys Chem B 102: 3586–3616. 
+[46]	Mackerell AD, Feig M, Brooks CL (2004) Extending the treatment of backbone energetics in protein force fields: Limitations of gas-phase quantum mechanics in reproducing protein conformational distributions in molecular dynamics simulations. J Comput Chem 25: 1400–1415. 
+[47]	Mori T, Ogushi F, Sugita Y (2012) Analysis of lipid surface area in protein-membrane systems combining Voronoi tessellation and Monte Carlo integration methods. J Comput Chem 33: 286–293. 
+[48]	Rand RP, Parsegian VA (1989) Hydration forces between phospholipid-bilayers. Biochim Biophys Acta 988: 351–376. 
+[49]	Kandt C, Schlitter J, Gerwert K (2004) Dynamics of water molecules in the bacteriorhodopsin trimer in explicit lipid/water environment. Biophys J 86: 705–717. 
+[50]	Wolf S, Freier E, Potschies M, Hofmann E, Gerwert K (2010) Directional proton transfer in membrane proteins achieved through protonated protein-bound water molecules: A proton diode. Angew Chem Int Ed Engl 49: 6889–6893. 
+[51]	Kaila VRI, Hummer G (2011) Energetics and dynamics of proton transfer reactions along short water wires. Phys Chem Chem Phys 13: 13207–13215. 
+[52]	Butland G, Spiro S, Watmough NJ, Richardson DJ (2001) Two conserved glutamates in the bacterial nitric oxide reductase are essential for activity but not assembly of the enzyme. J Bacteriol 183: 189–199. 
+[53]	Thorndycroft FH, Butland G, Richardson DJ, Watmough NJ (2007) A new assay for nitric oxide reductase reveals two conserved glutamate residues form the entrance to a proton-conducting channel in the bacterial enzyme. Biochem J 401: 111–119. 
+[54]	Flock U, Thorndycroft FH, Matorin AD, Richardson DJ, Watmough NJ, et al. (2008) Defining the proton entry point in the bacterial respiratory nitric-oxide reductase. J Biol Chem 283: 3839–3845. 
+[55]	Sugitani R, Medvedev ES, Stuchebrukhov AA (2008) Theoretical and computational analysis of the membrane potential generated by cytochrome c oxidase upon single electron injection into the enzyme. Biochim Biophys Acta 1777: 1129–1139. 
+[56]	Pisliakov AV, Sharma PK, Chu ZT, Haranczyk M, Warshel A (2008) Electrostatic basis for the unidirectionality of the primary proton transfer in cytochrome c oxidase. Proc Natl Acad Sci U S A 105: 7726. 
+[57]	Kaila VRI, Sharma V, Wikström M (2011) The identity of the transient proton loading site of the proton-pumping mechanism of cytochrome c oxidase. Biochim Biophys Acta 1807: 80–84. 
+[58]	Xu J, Sharpe MA, Qin L, Ferguson-Miller S, Voth GA (2007) Storage of an excess proton in the hydrogen-bonded network of the D-pathway of cytochrome c oxidase: Identification of a protonated water cluster. J Am Chem Soc 129: 2910–2913. 
+[59]	Garczarek F, Gerwert K (2006) Functional waters in intraprotein proton transfer monitored by ftir difference spectroscopy. Nature 439: 109–112. 
+[60]	Mathias G, Marx D (2007) Structures and spectral signatures of protonated water networks in bacteriorhodopsin. Proc Natl Acad Sci U S A 104: 6980–6985. 
+[61]	Tiefenbrunn T, Liu W, Chen Y, Katritch V, Stout CD, et al. (2011) High resolution structure of the ba3 cytochrome c oxidase from Thermus thermophilus in a lipidic environment. PLoS One 6: e22348. 
+[62]	Quenneville J, Popovic DM, Stuchebrukhov AA (2006) Combined dft and electrostatics study of the proton pumping mechanism in cytochrome c oxidase. Biochim Biophys Acta 1757: 1035–1046. 
+[63]	Flock U, Lachmann P, Reimann J, Watmough NJ, Ädelroth P (2009) Exploring the terminal region of the proton pathway in the bacterial nitric oxide reductase. J Inorg Biochem 103: 845–850. 
+[64]	Matsumoto Y, Tosha T, Pisliakov AV, Hino T, Sugimoto H, et al. (2012) Crystal structure of quinol-dependent nitric oxide reductase from Geobacillus stearothermophilus. Nat Struct Mol Biol 19: 238–245. 
+[65]	Faxen K, Gilderson G, Ädelroth P, Brzezinski P (2005) A mechanistic principle for proton pumping by cytochrome c oxidase. Nature 437: 286–289. 
+[66]	Kim YC, Wikström M, Hummer G (2009) Kinetic gating of the proton pump in cytochrome c oxidase. Proc Natl Acad Sci U S A 106: 13707–13712. 
+[67]	Kato M, Pisliakov AV, Warshel A (2006) The barrier for proton transport in aquaporins as a challenge for electrostatic models: The role of protein relaxation in mutational calculations. Proteins 64: 829–844. 
+[68]	Yamashita T, Voth GA (2011) Insights into the mechanism of proton transport in cytochrome c oxidase. J Am Chem Soc 134: 1147–1152. 
+[69]	Goyal P, Ghosh N, Phatak P, Clemens M, Gaus M, et al. (2011) Proton storage site in bacteriorhodopsin: New insights from quantum mechanics/molecular mechanics simulations of microscopic pKa and infrared spectra. J Am Chem Soc 133: 14981–14997. 
+[70]	Grudinin S, Büldt G, Gordeliy V, Baumgaertner A (2005) Water molecules and hydrogen-bonded networks in bacteriorhodopsin: Molecular dynamics simulations of the ground state and the M-intermediate. Biophys J 88: 3252–3261. 
+[71]	Izrailev S, Crofts AR, Berry EA, Schulten K (1999) Steered molecular dynamics simulation of the Rieske subunit motion in the cytochrome bc1 complex. Biophys J 77: 1753–1768. 
+[72]	Wood ML, Schow EV, Freites JA, White SH, Tombola F, et al. (2012) Water wires in atomistic models of the Hv1 proton channel. Biochim Biophys Acta 1818: 286–293. 
+[73]	Sugita Y, Ikeguchi M, Toyoshima C (2010) Relationship between Ca2+-affinity and shielding of bulk water in the Ca2+-pump from molecular dynamics simulations. Proc Natl Acad Sci U S A 107: 21465–21469. 
+[74]	Musgaard M, Thøgersen L, Schiøtt B, Tajkhorshid E (2012) Tracing cytoplasmic Ca2+ ion and water access points in the Ca2+-ATPase. Biophys J 102: 268–277. 
+[75]	Schrödinger LLC (2010) The PyMOL Molecular Graphics System, version 1.4. Schrödinger, LLC. 

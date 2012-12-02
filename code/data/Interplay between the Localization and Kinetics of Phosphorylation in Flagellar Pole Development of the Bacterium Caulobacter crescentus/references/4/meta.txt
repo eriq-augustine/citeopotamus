@@ -1,0 +1,6 @@
+TITLE: Cell signaling in space and time: where proteins come together and when they're apart.
+AUTHORS: Scott JD, Pawson T
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Signal transduction can be defined as the coordinated relay of messages derived from extracellular cues to intracellular effectors. More simply put, information received on the cell surface is processed across the plasma membrane and transmitted to intracellular targets. This requires that the activators, effectors, enzymes, and substrates that respond to cellular signals come together when they need to.

@@ -1,0 +1,6 @@
+TITLE: An alternative splicing switch regulates embryonic stem cell pluripotency and reprogramming.
+AUTHORS: Gabut M, Samavarchi-Tehrani P, Wang X, Slobodeniuc V, O'Hanlon D, Sung HK, Alvarez M, Talukder S, Pan Q, Mazzoni EO, Nedelec S, Wichterle H, Woltjen K, Hughes TR, Zandstra PW, Nagy A, Wrana JL, Blencowe BJ
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

@@ -1,0 +1,4 @@
+PDZ domains and their binding partners: structure, specificity, and modification.
+Lee HJ, Zheng JJ
+Abstract:
+ PDZ domains are abundant protein interaction modules that often recognize short amino acid motifs at the C-termini of target proteins. They regulate multiple biological processes such as transport, ion channel signaling, and other signal transduction systems. This review discusses the structural characterization of PDZ domains and the use of recently emerging technologies such as proteomic arrays and peptide libraries to study the binding properties of PDZ-mediated interactions. Regulatory mechanisms responsible for PDZ-mediated interactions, such as phosphorylation in the PDZ ligands or PDZ domains, are also discussed. A better understanding of PDZ protein-protein interaction networks and regulatory mechanisms will improve our knowledge of many cellular and biological processes.

@@ -1,0 +1,6 @@
+TITLE: Early life antibiotic-driven changes in microbiota enhance susceptibility to allergic asthma.
+AUTHORS: Russell SL, Gold MJ, Hartmann M, Willing BP, Thorson L, Wlodarska M, Gill N, Blanchet MR, Mohn WW, McNagny KM, Finlay BB
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Allergic asthma rates have increased steadily in developed countries, arguing for an environmental aetiology. To assess the influence of gut microbiota on experimental murine allergic asthma, we treated neonatal mice with clinical doses of two widely used antibiotics--streptomycin and vancomycin--and evaluated resulting shifts in resident flora and subsequent susceptibility to allergic asthma. Streptomycin treatment had little effect on the microbiota and on disease, whereas vancomycin reduced microbial diversity, shifted the composition of the bacterial population and enhanced disease severity. Neither antibiotic had a significant effect when administered to adult mice. Consistent with the 'hygiene hypothesis', our data support a neonatal, microbiota-driven, specific increase in susceptibility to experimental murine allergic asthma.

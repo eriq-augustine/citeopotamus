@@ -1,0 +1,6 @@
+TITLE: Integration of detailed modules in a core model of body fluid homeostasis and blood pressure regulation.
+AUTHORS: Hernández AI, Le Rolle V, Ojeda D, Baconnier P, Fontecave-Jallon J, Guillaud F, Grosse T, Moss RG, Hannaert P, Thomas SR
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

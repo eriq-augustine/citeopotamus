@@ -1,0 +1,6 @@
+TITLE: OptORF: Optimal metabolic and regulatory perturbations for metabolic engineering of microbial strains.
+AUTHORS: Kim J, Reed JL
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

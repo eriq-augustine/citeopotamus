@@ -1,0 +1,4 @@
+Impact of the solvent capacity constraint on E. coli metabolism.
+Vazquez A, Beg QK, Demenezes MA, Ernst J, Bar-Joseph Z, Barabási AL, Boros LG, Oltvai ZN
+Abstract:
+None

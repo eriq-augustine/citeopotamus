@@ -1,0 +1,4 @@
+Structure at 2.8 A resolution of cytochrome c oxidase from Paracoccus denitrificans.
+Iwata S, Ostermeier C, Ludwig B, Michel H
+Abstract:
+The crystal structure at 2.8 A resolution of the four protein subunits containing cytochrome c oxidase from the soil bacterium Paracoccus denitrificans, complexed with antibody Fv fragment, is described. Subunit I contains 12 membrane-spanning, primarily helical segments and binds haem a and the haem a3-copper B binuclear centre where molecular oxygen is reduced to water. Two proton transfer pathways, one for protons consumed in water formation and one for 'proton pumping', could be identified. Mechanisms for proton pumping are discussed.

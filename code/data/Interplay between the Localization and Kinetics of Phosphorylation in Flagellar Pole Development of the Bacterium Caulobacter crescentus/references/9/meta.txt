@@ -1,0 +1,6 @@
+TITLE: Cell cycle-dependent polar localization of an essential bacterial histidine kinase that controls DNA replication and cell division.
+AUTHORS: Jacobs C, Domian IJ, Maddock JR, Shapiro L
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The master CtrA response regulator functions in Caulobacter to repress replication initiation in different phases of the cell cycle. Here, we identify an essential histidine kinase, CckA, that is responsible for CtrA activation by phosphorylation. Although CckA is present throughout the cell cycle, it moves to a cell pole in S phase, and upon cell division it disperses. Removal of the membrane-spanning region of CckA results in loss of polar localization and cell death. We propose that polar CckA functions to activate CtrA just after the initiation of DNA replication, thereby preventing premature reinitiations of chromosome replication. Thus, dynamic changes in cellular location of critical signal proteins provide a novel mechanism for the control of the prokaryote cell cycle.

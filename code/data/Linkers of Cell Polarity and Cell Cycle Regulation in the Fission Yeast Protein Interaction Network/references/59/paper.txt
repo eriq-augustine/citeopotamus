@@ -1,0 +1,4 @@
+tea1 and the microtubular cytoskeleton are important for generating global spatial order within the fission yeast cell.
+Mata J, Nurse P
+Abstract:
+Fission yeast cells identify and maintain growing regions exactly opposed at the ends of a cylindrical cell. tea1 mutants disrupt this organization, producing bent and T-shaped cells. We have cloned tea1 and shown that tea1 is located at the cell poles. Microtubules are continuously required to transfer tea1 to the cell ends, and tea1 is located at the ends of microtubules growing toward the cell poles. We suggest that tea1 acts as an end marker, directing the growth machinery to the cell poles. tea1 is down-regulated in cells treated with pheromone that grow toward a mating partner and no longer maintain their ends exactly opposed. tea1 may also influence microtubular organization, affecting the maintenance of a single central axis.

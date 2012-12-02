@@ -1,0 +1,4 @@
+Knowledge-based protein secondary structure assignment.
+Frishman D, Argos P
+Abstract:
+We have developed an automatic algorithm STRIDE for protein secondary structure assignment from atomic coordinates based on the combined use of hydrogen bond energy and statistically derived backbone torsional angle information. Parameters of the pattern recognition procedure were optimized using designations provided by the crystallographers as a standard-of-truth. Comparison to the currently most widely used technique DSSP by Kabsch and Sander (Biopolymers 22:2577-2637, 1983) shows that STRIDE and DSSP assign secondary structural states in 58 and 31% of 226 protein chains in our data sample, respectively, in greater agreement with the specific residue-by-residue definitions provided by the discoverers of the structures while in 11% of the chains, the assignments are the same. STRIDE delineates every 11th helix and every 32nd strand more in accord with published assignments.

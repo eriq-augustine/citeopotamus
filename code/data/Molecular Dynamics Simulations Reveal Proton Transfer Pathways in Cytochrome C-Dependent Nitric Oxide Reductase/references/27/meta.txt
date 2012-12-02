@@ -1,0 +1,6 @@
+TITLE: An aqueous H+ permeation pathway in the voltage-gated proton channel Hv1.
+AUTHORS: Ramsey IS, Mokrab Y, Carvacho I, Sands ZA, Sansom MS, Clapham DE
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Hv1 voltage-gated proton channels mediate rapid and selective transmembrane H(+) flux and are gated by both voltage and pH gradients. Selective H(+) transfer in membrane proteins is commonly achieved by Grotthuss proton 'hopping' in chains of ionizable amino acid side chains and intraprotein water molecules. To identify whether ionizable residues are required for proton permeation in Hv1, we neutralized candidate residues and measured expressed voltage-gated H(+) currents. Unexpectedly, charge neutralization was insufficient to abrogate either the Hv1 conductance or coupling of pH gradient and voltage-dependent activation. Molecular dynamics simulations revealed water molecules in the central crevice of Hv1 model structures but not in homologous voltage-sensor domain (VSD) structures. Our results indicate that Hv1 most likely forms an internal water wire for selective proton transfer and that interactions between water molecules and S4 arginines may underlie coupling between voltage- and pH-gradient sensing.

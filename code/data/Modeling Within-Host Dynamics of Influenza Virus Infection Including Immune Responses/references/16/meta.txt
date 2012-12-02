@@ -1,0 +1,6 @@
+TITLE: Pro-inflammatory and antiviral cytokine expression in vaccinated and unvaccinated horses exposed to equine influenza virus.
+AUTHORS: Quinlivan M, Nelly M, Prendergast M, Breathnach C, Horohov D, Arkins S, Chiang YW, Chu HJ, Ng T, Cullinane A
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Most studies of the cytokine response to influenza virus infection have been carried out in human, porcine and murine models, however the data available on equine cytokines is limited. An experimental challenge study was undertaken in unvaccinated naïve horses and horses vaccinated with a commercial inactivated influenza vaccine. The humoral antibody response to vaccination and virus challenge was measured by single radial haemolysis (SRH) assay and clinical signs of influenza and viral shedding were monitored post-challenge. Levels of three equine pro-inflammatory cytokines interleukin (IL)-1beta, IL-6 and tumor necrosis factor (TNF)-alpha and the antiviral cytokine interferon (IFN)-alpha were examined by quantitative RT-PCR of mRNA. Vaccination provided significant clinical and virological protection and resulted in a significant reduction of IFN-alpha and IL-6 expression on day 2 post-challenge. The patterns of cytokine expression observed in control animals suffering from influenza after challenge are comparable to those reported in studies of other species.

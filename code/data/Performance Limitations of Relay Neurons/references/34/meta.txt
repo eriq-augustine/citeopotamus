@@ -1,0 +1,6 @@
+TITLE: Neuron function inferred from behavioral and electrophysiological extimates of refractory period.
+AUTHORS: Gallistel CR, Rolls E, Greene D
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The refrcactory period of neurons mediating an electrically elicited behavior (self-stimulation) was estimated by varying the intrapair pulse separation in a stimulating train made up of pulse pairs and measuring the intensity of the elicited behavior. Two neuronal systems with different refractory periods were indicated. Single-unit recording in acute preparations stimulated through self-stimulation electrodes revealed primarily two classes of units. Each class gave refractory period estimates characteristic of one of the behaviorally indicated systems. The experiments illustrate a technique for establishing functional relations between single units in the brain and gross behavior.

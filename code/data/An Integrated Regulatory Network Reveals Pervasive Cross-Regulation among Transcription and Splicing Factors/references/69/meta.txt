@@ -1,0 +1,6 @@
+TITLE: Eye development under the control of SRp55/B52-mediated alternative splicing of eyeless.
+AUTHORS: Fic W, Juge F, Soret J, Tazi J
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The genetic programs specifying eye development are highly conserved during evolution and involve the vertebrate Pax-6 gene and its Drosophila melanogaster homolog eyeless (ey). Here we report that the SR protein B52/SRp55 controls a novel developmentally regulated splicing event of eyeless that is crucial for eye growth and specification in Drosophila. B52/SRp55 generates two isoforms of eyeless differing by an alternative exon encoding a 60-amino-acid insert at the beginning of the paired domain. The long isoform has impaired ability to trigger formation of ectopic eyes and to bind efficiently Eyeless target DNA sequences in vitro. When over-produced in the eye imaginal disc, this isoform induces a small eye phenotype, whereas the isoform lacking the alternative exon triggers eye over-growth and strong disorganization. Our results suggest that B52/SRp55 splicing activity is used during normal eye development to control eye organogenesis and size through regulation of eyeless alternative splicing.

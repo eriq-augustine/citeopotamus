@@ -1,0 +1,4 @@
+Atomistic view of the conformational activation of Src kinase using the string method with swarms-of-trajectories.
+Gan W, Yang S, Roux B
+Abstract:
+The inactive-to-active conformational transition of the catalytic domain of human c-Src tyrosine kinase is characterized using the string method with swarms-of-trajectories with all-atom explicit solvent molecular dynamics simulations. The activation process occurs in two main steps in which the activation loop (A-loop) opens first, followed by the rotation of the alphaC helix. The computed potential of mean force energy along the activation pathway displays a local minimum, which allows the identification of an intermediate state. These results show that the string method with swarms-of-trajectories is an effective technique to characterize complex and slow conformational transitions in large biomolecular systems.

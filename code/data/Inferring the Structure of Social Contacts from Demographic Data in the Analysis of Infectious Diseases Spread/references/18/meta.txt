@@ -1,0 +1,6 @@
+TITLE: Predictability and epidemic pathways in global outbreaks of infectious diseases: the SARS case study.
+AUTHORS: Colizza V, Barrat A, Barthélemy M, Vespignani A
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

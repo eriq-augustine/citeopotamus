@@ -1,0 +1,6 @@
+TITLE: The asymmetric spatial distribution of bacterial signal transduction proteins coordinates cell cycle events.
+AUTHORS: Lam H, Matroule JY, Jacobs-Wagner C
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The polar localization of signaling proteins that are essential for Caulobacter cell cycle control is temporally regulated. Here we provide evidence that phosphorylation of the essential response regulator, DivK, is required for both its function and its cell cycle-regulated localization. The asymmetric location of the DivJ and PleC histidine kinases and their antagonistic activities on the cellular concentration of phosphorylated DivK provide positional and temporal information for the ordered sequence of DivK localization during the cell cycle. DivJ activity on DivK affects its correct localization, which, in turn, is required for PleC function. Since DivJ and PleC regulate different cell cycle events, the interconnected function of these two histidine kinases through localization of a common response regulator provides a mechanism for coordinating cell cycle progression. Study of a DivK homolog in the morphologically symmetric bacterium Sinorhizobium meliloti suggests that this type of cell cycle mechanism is widespread in prokaryotes.

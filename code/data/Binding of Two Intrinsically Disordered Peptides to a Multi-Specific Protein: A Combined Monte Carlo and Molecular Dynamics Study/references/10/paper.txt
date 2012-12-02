@@ -1,0 +1,4 @@
+Activation and activities of the p53 tumour suppressor protein.
+Bálint E E, Vousden KH
+Abstract:
+The p53 tumour suppressor protein inhibits malignant progression by mediating cell cycle arrest, apoptosis or repair following cellular stress. One of the major regulators of p53 function is the MDM2 protein, and multiple forms of cellular stress activate p53 by inhibiting the MDM2-mediated degradation of p53. Mutations in p53, or disruption of the pathways that allow activation of p53, seem to be a general feature of all cancers. Here we review recent advances in our understanding of the pathways that regulate p53 and the pathways that are induced by p53, as well as their implications for cancer therapy.

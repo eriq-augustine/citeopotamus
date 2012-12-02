@@ -1,0 +1,6 @@
+TITLE: DAVID: Database for Annotation, Visualization, and Integrated Discovery.
+AUTHORS: Dennis G Jr, Sherman BT, Hosack DA, Yang J, Gao W, Lane HC, Lempicki RA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

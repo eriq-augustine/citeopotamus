@@ -1,0 +1,4 @@
+Mathematical model of the human renal system.
+Uttamsingh RJ, Leaning MS, Bushman JA, Carson ER, Finkelstein L
+Abstract:
+None

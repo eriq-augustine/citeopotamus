@@ -1,0 +1,6 @@
+TITLE: Order-preserving principles underlying genotype-phenotype maps ensure high additive proportions of genetic variance.
+AUTHORS: Gjuvsland AB, Vik JO, Woolliams JA, Omholt SW
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

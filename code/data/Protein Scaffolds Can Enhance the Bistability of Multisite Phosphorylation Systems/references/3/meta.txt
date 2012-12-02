@@ -1,0 +1,6 @@
+TITLE: Multisite phosphorylation provides sophisticated regulation of transcription factors.
+AUTHORS: Holmberg CI, Tran SE, Eriksson JE, Sistonen L
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Reversible phosphorylation is a prevalent mechanism by which the activity of eukaryotic transcription factors is regulated rapidly in response to changes in the cellular environment. Accumulated evidence has expanded the concept of phosphorylation to a process that provides dynamic and precise tuning of the transactivating potential of a factor, rather than being a static on/off switch. In the case of transcription factors such as heat shock factor 1 (HSF1), p53 and nuclear factor of activated T cells (NFAT), multisite phosphorylation enables several effects to operate within a single factor, thereby functioning as a key to signal integration. Studies on these transcription factors illustrate recent progress in solving the dynamic nature of transcriptional regulation by multisite phosphorylation.

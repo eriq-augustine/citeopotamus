@@ -1,0 +1,6 @@
+TITLE: Quantification of rare allelic variants from pooled genomic DNA.
+AUTHORS: Druley TE, Vallania FL, Wegner DJ, Varley KE, Knowles OL, Bonds JA, Robison SW, Doniger SW, Hamvas A, Cole FS, Fay JC, Mitra RD
+TERMS:
+CATEGORIES:
+ABSTRACT:
+We report a targeted, cost-effective method to quantify rare single-nucleotide polymorphisms from pooled human genomic DNA using second-generation sequencing. We pooled DNA from 1,111 individuals and targeted four genes to identify rare germline variants. Our base-calling algorithm, SNPSeeker, derived from large deviation theory, detected single-nucleotide polymorphisms present at frequencies below the raw error rate of the sequencing platform.

@@ -1,0 +1,6 @@
+TITLE: Optknock: a bilevel programming framework for identifying gene knockout strategies for microbial strain optimization.
+AUTHORS: Burgard AP, Pharkya P, Maranas CD
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

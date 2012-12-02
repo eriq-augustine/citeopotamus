@@ -1,0 +1,6 @@
+TITLE: Bayesian functional data clustering for temporal microarray data.
+AUTHORS: Ma P, Zhong W, Feng Y, Liu JS
+TERMS:
+CATEGORIES:
+ABSTRACT:
+We propose a Bayesian procedure to cluster temporal gene expression microarray profiles, based on a mixed-effect smoothing-spline model, and design a Gibbs sampler to sample from the desired posterior distribution. Our method can determine the cluster number automatically based on the Bayesian information criterion, and handle missing data easily. When applied to a microarray dataset on the budding yeast, our clustering algorithm provides biologically meaningful gene clusters according to a functional enrichment analysis.

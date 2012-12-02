@@ -1,0 +1,6 @@
+TITLE: Signaling switches and bistability arising from multisite phosphorylation in protein kinase cascades.
+AUTHORS: Markevich NI, Hoek JB, Kholodenko BN
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

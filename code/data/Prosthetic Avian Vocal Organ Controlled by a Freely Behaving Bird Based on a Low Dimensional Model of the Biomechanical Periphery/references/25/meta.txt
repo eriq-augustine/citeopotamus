@@ -1,0 +1,6 @@
+TITLE: The role of nonlinear dynamics of the syrinx in the vocalizations of a songbird.
+AUTHORS: Fee MS, Shraiman B, Pesaran B, Mitra PP
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Birdsong is characterized by the modulation of sound properties over a wide image of timescales. Understanding the mechanisms by which the brain organizes this complex temporal behaviour is a central motivation in the study of the song control and learning system. Here we present evidence that, in addition to central neural control, a further level of temporal organization is provided by nonlinear oscillatory dynamics that are intrinsic to the avian vocal organ. A detailed temporal and spectral examination of song of the zebra finch (Taeniopygia guttata) reveals a class of rapid song modulations that are consistent with transitions in the dynamical state of the syrinx. Furthermore, in vitro experiments show that the syrinx can produce a sequence of oscillatory states that are both spectrally and temporally complex in response to the slow variation of respiratory or syringeal parameters. As a consequence, simple variations in a small number of neural signals can result in a complex acoustic sequence.

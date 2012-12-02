@@ -1,0 +1,6 @@
+TITLE: Modeling the spatial spread of infectious diseases: the GLobal Epidemic and Mobility computational model.
+AUTHORS: Balcan D, Gonçalves B, Hu H, Ramasco JJ, Colizza V, Vespignani A
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Here we present the Global Epidemic and Mobility (GLEaM) model that integrates sociodemographic and population mobility data in a spatially structured stochastic disease approach to simulate the spread of epidemics at the worldwide scale. We discuss the flexible structure of the model that is open to the inclusion of different disease structures and local intervention policies. This makes GLEaM suitable for the computational modeling and anticipation of the spatio-temporal patterns of global epidemic spreading, the understanding of historical epidemics, the assessment of the role of human mobility in shaping global epidemics, and the analysis of mitigation and containment scenarios.

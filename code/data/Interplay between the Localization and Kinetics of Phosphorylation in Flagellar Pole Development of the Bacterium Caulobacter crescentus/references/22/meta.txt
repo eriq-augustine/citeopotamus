@@ -1,0 +1,6 @@
+TITLE: Setting the pace: mechanisms tying Caulobacter cell-cycle progression to macroscopic cellular events.
+AUTHORS: McGrath PT, Viollier P, McAdams HH
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The bacterium Caulobacter crescentus divides asymmetrically, producing daughter cells with differing polar structures, different cell fates and asymmetric regulation of the initiation of chromosome replication. Complex intracellular signaling is required to keep the organelle developmental processes at the cell poles synchronized with other cell cycle events. Two recently characterized switch mechanisms controlling cell cycle progress are triggered by relatively large-scale developmental events in the cell: the progress of the DNA replication fork and the physical compartmentalization of the cell that occurs well before division. These mechanisms invoke rapid, precisely timed and even spatially differentiated regulatory responses at important points in the cell cycle.

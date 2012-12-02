@@ -1,0 +1,6 @@
+TITLE: An accurate two-phase approximate solution to an acute viral infection model.
+AUTHORS: Smith AM, Adler FR, Perelson AS
+TERMS:
+CATEGORIES:
+ABSTRACT:
+During an acute viral infection, virus levels rise, reach a peak and then decline. Data and numerical solutions suggest the growth and decay phases are linear on a log scale. While viral dynamic models are typically nonlinear with analytical solutions difficult to obtain, the exponential nature of the solutions suggests approximations can be found. We derive a two-phase approximate solution to the target cell limited influenza model and illustrate its accuracy using data and previously established parameter values of six patients infected with influenza A. For one patient, the fall in virus concentration from its peak was not consistent with our predictions during the decay phase and an alternate approximation is derived. We find expressions for the rate and length of initial viral growth in terms of model parameters, the extent each parameter is involved in viral peaks, and the single parameter responsible for virus decay. We discuss applications of this analysis in antiviral treatments and in investigating host and virus heterogeneities.

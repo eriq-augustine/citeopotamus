@@ -1,0 +1,4 @@
+Gene expression: the close coupling of transcription and splicing.
+Rosonina E, Blencowe BJ
+Abstract:
+Increasing evidence indicates that the transcriptional machinery can influence the efficiency of splicing as well as splice-site selection. Surprisingly, it has now been demonstrated that splicing components influence the efficiency of transcription. This mutual stimulation has important implications for the regulation of gene expression.

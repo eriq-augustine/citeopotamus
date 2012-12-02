@@ -1,0 +1,4 @@
+The cytochrome cbb3 from Pseudomonas stutzeri displays nitric oxide reductase activity.
+Forte E, Urbani A, Saraste M, Sarti P, Brunori M, Giuffrè A
+Abstract:
+The cytochrome cbb3 is an isoenzyme in the family of cytochrome c oxidases. This protein purified from Pseudomonas stutzeri displays a cyanide-sensitive nitric oxide reductase activity (Vmax=100+/-9 mol NO x mol cbb3(-1) x min(-1) and Km=12+/-2.5 microm), which is lost upon denaturation. This enzyme is only partially reduced by ascorbate, and readily re-oxidized by NO under anaerobic conditions at a rate consistent with the turnover number for NO consumption. As shown by transient spectroscopy experiments and singular value decomposition (SVD) analysis, these results suggest that the cbb3-type cytochromes, sharing structural features with bacterial nitric oxide reductases, are the enzymes retaining the highest NO reductase activity within the heme-copper oxidase superfamily.

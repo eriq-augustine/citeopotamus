@@ -1,0 +1,6 @@
+TITLE: Solvent coarse-graining and the string method applied to the hydrophobic collapse of a hydrated chain.
+AUTHORS: Miller TF 3rd, Vanden-Eijnden E, Chandler D
+TERMS:
+CATEGORIES:
+ABSTRACT:
+With computer simulations of >100,000 atoms, the mechanism for the hydrophobic collapse of an idealized hydrated chain was obtained by tiling space with (0.2 nm)(3) cubes and projecting the atomistic water molecule positions onto this grid. With the coarse-grained field thus defined, the string method in collective variables was used to compute a minimum free-energy pathway (MFEP) for the collapsing chain. These calculations provide a proof of principle for a coarse-grained description of water solvent. Furthermore, the calculated MFEP characterizes the mechanism for the collapse of the hydrated chain by providing a path of maximum likelihood for dynamical trajectories. The reliability of the calculated MFEP was confirmed with the use of conventional molecular dynamics trajectories. Analysis of the MFEP provides atomistic confirmation for the mechanism of hydrophobic collapse proposed by ten Wolde and Chandler. In particular, we show that length-scale-dependent hydrophobic dewetting is the rate-limiting step in the hydrophobic collapse of the considered chain.

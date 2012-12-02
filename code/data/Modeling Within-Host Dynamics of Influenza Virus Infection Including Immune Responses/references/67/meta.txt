@@ -1,0 +1,6 @@
+TITLE: The pathology of influenza virus infections.
+AUTHORS: Taubenberger JK, Morens DM
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Influenza viruses are significant human respiratory pathogens that cause both seasonal, endemic infections and periodic, unpredictable pandemics. The worst pandemic on record, in 1918, killed approximately 50 million people worldwide. Human infections caused by H5N1 highly pathogenic avian influenza viruses have raised concern about the emergence of another pandemic. The histopathology of fatal influenza virus pneumonias as documented over the past 120 years is reviewed here. Strikingly, the spectrum of pathologic changes described in the 1918 influenza pandemic is not significantly different from the histopathology observed in other less lethal pandemics or even in deaths occurring during seasonal influenza outbreaks.

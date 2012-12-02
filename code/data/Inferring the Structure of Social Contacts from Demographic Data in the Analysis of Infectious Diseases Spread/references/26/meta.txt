@@ -1,0 +1,6 @@
+TITLE: Comparing large-scale computational approaches to epidemic modeling: agent-based versus structured metapopulation models.
+AUTHORS: Ajelli M, Gonçalves B, Balcan D, Colizza V, Hu H, Ramasco JJ, Merler S, Vespignani A
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

@@ -1,0 +1,4 @@
+Beyond harmonic sounds in a simple model for birdsong production.
+Amador A, Mindlin GB
+Abstract:
+In this work we present an analysis of the dynamics displayed by a simple bidimensional model of labial oscillations during birdsong production. We show that the same model capable of generating tonal sounds can present, for a wide range of parameters, solutions which are spectrally rich. The role of physiologically sensible parameters is discussed in each oscillatory regime, allowing us to interpret previously reported data.

@@ -1,0 +1,6 @@
+TITLE: Thalamic relay functions and their role in corticocortical communication: generalizations from the visual system.
+AUTHORS: Guillery RW, Sherman SM
+TERMS:
+CATEGORIES:
+ABSTRACT:
+All neocortical areas receive thalamic inputs. Some thalamocortical pathways relay information from ascending pathways (first order thalamic relays) and others relay information from other cortical areas (higher order thalamic relays), thus serving a role in corticocortical communication. Most, possibly all, afferents reaching thalamus, ascending and cortical, are branches of axons that innervate lower (motor) centers, so that thalamocortical pathways can be viewed generally as monitors of ongoing motor instructions. In terms of numbers, the thalamic relay is dominated by synapses that modulate the relay functions. One of the roles of these modulatory pathways is to change the transfer of information through the thalamus, in accord with current attentional demands. Other roles remain to be explored. These modulatory functions can be expected to act on corticocortical communication in addition to their action on ascending pathways.

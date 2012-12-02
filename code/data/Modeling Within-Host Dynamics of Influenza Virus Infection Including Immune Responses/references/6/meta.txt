@@ -1,0 +1,6 @@
+TITLE: Lethal influenza infection in the absence of the natural killer cell receptor gene Ncr1.
+AUTHORS: Gazit R, Gruda R, Elboim M, Arnon TI, Katz G, Achdout H, Hanna J, Qimron U, Landau G, Greenbaum E, Zakay-Rones Z, Porgador A, Mandelboim O
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The elimination of viruses and tumors by natural killer cells is mediated by specific natural killer cell receptors. To study the in vivo function of a principal activating natural killer cell receptor, NCR1 (NKp46 in humans), we replaced the gene encoding this receptor (Ncr1) with a green fluorescent protein reporter cassette. There was enhanced spread of certain tumors in 129/Sv but not C57BL/6 Ncr1(gfp/gfp) mice, and influenza virus infection was lethal in both 129/Sv and C57BL/6 Ncr1(gfp/gfp) mice. We noted accumulation of natural killer cells at the site of influenza infection by tracking the green fluorescent protein. Our results demonstrate a critical function for Ncr1 in the in vivo eradication of influenza virus.

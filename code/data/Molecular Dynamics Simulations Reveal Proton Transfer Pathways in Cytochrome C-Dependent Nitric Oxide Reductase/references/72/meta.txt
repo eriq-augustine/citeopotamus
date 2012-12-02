@@ -1,0 +1,6 @@
+TITLE: Water wires in atomistic models of the Hv1 proton channel.
+AUTHORS: Wood ML, Schow EV, Freites JA, White SH, Tombola F, Tobias DJ
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

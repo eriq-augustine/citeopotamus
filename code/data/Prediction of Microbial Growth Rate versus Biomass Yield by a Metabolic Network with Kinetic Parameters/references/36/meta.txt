@@ -1,0 +1,6 @@
+TITLE: Absolute metabolite concentrations and implied enzyme active site occupancy in Escherichia coli.
+AUTHORS: Bennett BD, Kimball EH, Gao M, Osterhout R, Van Dien SJ, Rabinowitz JD
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Absolute metabolite concentrations are critical to a quantitative understanding of cellular metabolism, as concentrations impact both the free energies and rates of metabolic reactions. Here we use LC-MS/MS to quantify more than 100 metabolite concentrations in aerobic, exponentially growing Escherichia coli with glucose, glycerol or acetate as the carbon source. The total observed intracellular metabolite pool was approximately 300 mM. A small number of metabolites dominate the metabolome on a molar basis, with glutamate being the most abundant. Metabolite concentration exceeds K(m) for most substrate-enzyme pairs. An exception is lower glycolysis, where concentrations of intermediates are near the K(m) of their consuming enzymes and all reactions are near equilibrium. This may facilitate efficient flux reversibility given thermodynamic and osmotic constraints. The data and analyses presented here highlight the ability to identify organizing metabolic principles from systems-level absolute metabolite concentration data.

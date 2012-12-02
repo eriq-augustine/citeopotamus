@@ -1,0 +1,6 @@
+TITLE: Proton solvation and transport in aqueous and biomolecular systems: insights from computer simulations.
+AUTHORS: Swanson JM, Maupin CM, Chen H, Petersen MK, Xu J, Wu Y, Voth GA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The excess proton in aqueous media plays a pivotal role in many fundamental chemical (e.g., acid-base chemistry) and biological (e.g., bioenergetics and enzyme catalysis) processes. Understanding the hydrated proton is, therefore, crucial for chemistry, biology, and materials sciences. Although well studied for over 200 years, excess proton solvation and transport remains to this day mysterious, surprising, and perhaps even misunderstood. In this feature article, various efforts to address this problem through computer modeling and simulation will be described. Applications of computer simulations to a number of important and interesting systems will be presented, highlighting the roles of charge delocalization and Grotthuss shuttling, a phenomenon unique in many ways to the excess proton in water.

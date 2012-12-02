@@ -1,0 +1,6 @@
+TITLE: Physiologically driven avian vocal synthesizer.
+AUTHORS: Sitt JD, Arneodo EM, Goller F, Mindlin GB
+TERMS:
+CATEGORIES:
+ABSTRACT:
+In this work, we build an electronic syrinx, i.e., a programmable electronic device capable of integrating biomechanical model equations for the avian vocal organ in order to synthesize song. This vocal prosthesis is controlled by the bird's neural instructions to respiratory and the syringeal motor systems, thus opening great potential for studying motor control and its modification by sensory feedback mechanisms. Furthermore, a well-functioning subject-controlled vocal prosthesis can lay the foundation for similar devices in humans and thus provide directly health-related data and procedures.

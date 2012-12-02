@@ -1,0 +1,6 @@
+TITLE: Transient acute depressive state induced by subthalamic region stimulation.
+AUTHORS: Tommasi G, Lanotte M, Albert U, Zibetti M, Castelli L, Maina G, Lopiano L
+TERMS:
+CATEGORIES:
+ABSTRACT:
+We report the case of a psychiatrically healthy Parkinson's disease patient who presented acute transient depressive states related to high frequency stimulation (HFS) of the subthalamic nucleus (STN) and its neighbouring anatomical structures, i.e. the substantia nigra, zona incerta and Forel's fields. This case confirms that the subthalamic region plays a critical role in modulating human behaviour, providing especially sensitive to depressive states elicited by HFS in conditions of increased vulnerability. Worthy of note is the finding that these mood changes presented subsequent adaptation with time, probably as a result of both the disappearance of the microtraumatic effect of the implantation procedure and the plastic changes induced by HFS.

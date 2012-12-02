@@ -1,0 +1,4 @@
+Multiway array decomposition analysis of EEGs in Alzheimer's disease.
+Latchoumane CF, Vialatte FB, Solé-Casals J, Maurice M, Wimalaratna SR, Hudson N, Jeong J, Cichocki A
+Abstract:
+None

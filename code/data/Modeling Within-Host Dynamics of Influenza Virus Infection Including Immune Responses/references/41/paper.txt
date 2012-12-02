@@ -1,0 +1,4 @@
+Estimation of dynamical model parameters taking into account undetectable marker values.
+Thiébaut R, Guedj J, Jacqmin-Gadda H, Chêne G, Trimoulet P, Neau D, Commenges D
+Abstract:
+None

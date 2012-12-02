@@ -1,0 +1,6 @@
+TITLE: Exploring functional relationships between components of the gene expression machinery.
+AUTHORS: Burckin T, Nagel R, Mandel-Gutfreund Y, Shiue L, Clark TA, Chong JL, Chang TH, Squazzo S, Hartzog G, Ares M Jr
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Eukaryotic gene expression requires the coordinated activity of many macromolecular machines including transcription factors and RNA polymerase, the spliceosome, mRNA export factors, the nuclear pore, the ribosome and decay machineries. Yeast carrying mutations in genes encoding components of these machineries were examined using microarrays to measure changes in both pre-mRNA and mRNA levels. We used these measurements as a quantitative phenotype to ask how steps in the gene expression pathway are functionally connected. A multiclass support vector machine was trained to recognize the gene expression phenotypes caused by these mutations. In several cases, unexpected phenotype assignments by the computer revealed functional roles for specific factors at multiple steps in the gene expression pathway. The ability to resolve gene expression pathway phenotypes provides insight into how the major machineries of gene expression communicate with each other.

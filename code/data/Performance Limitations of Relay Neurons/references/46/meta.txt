@@ -1,0 +1,6 @@
+TITLE: Parallel organization of functionally segregated circuits linking basal ganglia and cortex.
+AUTHORS: Alexander GE, DeLong MR, Strick PL
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

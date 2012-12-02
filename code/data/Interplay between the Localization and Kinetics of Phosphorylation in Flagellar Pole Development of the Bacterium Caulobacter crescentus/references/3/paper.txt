@@ -1,0 +1,4 @@
+The extracellular matrix: not just pretty fibrils.
+Hynes RO
+Abstract:
+The extracellular matrix (ECM) and ECM proteins are important in phenomena as diverse as developmental patterning, stem cell niches, cancer, and genetic diseases. The ECM has many effects beyond providing structural support. ECM proteins typically include multiple, independently folded domains whose sequences and arrangement are highly conserved. Some of these domains bind adhesion receptors such as integrins that mediate cell-matrix adhesion and also transduce signals into cells. However, ECM proteins also bind soluble growth factors and regulate their distribution, activation, and presentation to cells. As organized, solid-phase ligands, ECM proteins can integrate complex, multivalent signals to cells in a spatially patterned and regulated fashion. These properties need to be incorporated into considerations of the functions of the ECM.

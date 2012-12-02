@@ -1,0 +1,6 @@
+TITLE: Brain-controlled interfaces: movement restoration with neural prosthetics.
+AUTHORS: Schwartz AB, Cui XT, Weber DJ, Moran DW
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Brain-controlled interfaces are devices that capture brain transmissions involved in a subject's intention to act, with the potential to restore communication and movement to those who are immobilized. Current devices record electrical activity from the scalp, on the surface of the brain, and within the cerebral cortex. These signals are being translated to command signals driving prosthetic limbs and computer displays. Somatosensory feedback is being added to this control as generated behaviors become more complex. New technology to engineer the tissue-electrode interface, electrode design, and extraction algorithms to transform the recorded signal to movement will help translate exciting laboratory demonstrations to patient practice in the near future.

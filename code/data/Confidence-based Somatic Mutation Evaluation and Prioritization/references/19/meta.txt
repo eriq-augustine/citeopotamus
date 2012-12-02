@@ -1,0 +1,6 @@
+TITLE: SomaticSniper: identification of somatic point mutations in whole genome sequencing data.
+AUTHORS: Larson DE, Harris CC, Chen K, Koboldt DC, Abbott TE, Dooling DJ, Ley TJ, Mardis ER, Wilson RK, Ding L
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

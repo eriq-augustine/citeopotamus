@@ -1,0 +1,4 @@
+Metagenomic sequencing of an in vitro-simulated microbial community.
+Morgan JL, Darling AE, Eisen JA
+Abstract:
+None

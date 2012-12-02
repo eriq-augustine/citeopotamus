@@ -101,6 +101,7 @@ Text S4.
             Linkerity at various network confidences.
           
 (PDF)
+REFERENCES
 [1]	Nurse P (1990) Universal control mechanism regulating onset of M-phase. Nature 344: 503–508 doi:10.1038/344503a0. 
 [2]	Nurse P (2002) Cyclin dependent kinases and cell cycle control (nobel lecture). Chembiochem 3: 596–603 doi:10.1002/1439-7633(20020703)3:7<596::AID-​CBIC596>3.0.CO;2-U. 
 [3]	Morgan DO (2006) The Cell Cycle: Principles of Control. New Science Press, Ltd. 

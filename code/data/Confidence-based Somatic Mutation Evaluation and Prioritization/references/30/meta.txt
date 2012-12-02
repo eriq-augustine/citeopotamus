@@ -1,0 +1,6 @@
+TITLE: Random forest: a classification and regression tool for compound classification and QSAR modeling.
+AUTHORS: Svetnik V, Liaw A, Tong C, Culberson JC, Sheridan RP, Feuston BP
+TERMS:
+CATEGORIES:
+ABSTRACT:
+A new classification and regression tool, Random Forest, is introduced and investigated for predicting a compound's quantitative or categorical biological activity based on a quantitative description of the compound's molecular structure. Random Forest is an ensemble of unpruned classification or regression trees created by using bootstrap samples of the training data and random feature selection in tree induction. Prediction is made by aggregating (majority vote or averaging) the predictions of the ensemble. We built predictive models for six cheminformatics data sets. Our analysis demonstrates that Random Forest is a powerful tool capable of delivering performance that is among the most accurate methods to date. We also present three additional features of Random Forest: built-in performance assessment, a measure of relative importance of descriptors, and a measure of compound similarity that is weighted by the relative importance of descriptors. It is the combination of relatively high prediction accuracy and its collection of desired features that makes Random Forest uniquely suited for modeling in cheminformatics.

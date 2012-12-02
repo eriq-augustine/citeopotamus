@@ -1,0 +1,6 @@
+TITLE: SAMStat: monitoring biases in next generation sequencing data.
+AUTHORS: Lassmann T, Hayashizaki Y, Daub CO
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

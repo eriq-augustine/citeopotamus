@@ -1,0 +1,6 @@
+TITLE: HITS-CLIP yields genome-wide insights into brain alternative RNA processing.
+AUTHORS: Licatalosi DD, Mele A, Fak JJ, Ule J, Kayikci M, Chi SW, Clark TA, Schweitzer AC, Blume JE, Wang X, Darnell JC, Darnell RB
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Protein-RNA interactions have critical roles in all aspects of gene expression. However, applying biochemical methods to understand such interactions in living tissues has been challenging. Here we develop a genome-wide means of mapping protein-RNA binding sites in vivo, by high-throughput sequencing of RNA isolated by crosslinking immunoprecipitation (HITS-CLIP). HITS-CLIP analysis of the neuron-specific splicing factor Nova revealed extremely reproducible RNA-binding maps in multiple mouse brains. These maps provide genome-wide in vivo biochemical footprints confirming the previous prediction that the position of Nova binding determines the outcome of alternative splicing; moreover, they are sufficiently powerful to predict Nova action de novo. HITS-CLIP revealed a large number of Nova-RNA interactions in 3' untranslated regions, leading to the discovery that Nova regulates alternative polyadenylation in the brain. HITS-CLIP, therefore, provides a robust, unbiased means to identify functional protein-RNA interactions in vivo.

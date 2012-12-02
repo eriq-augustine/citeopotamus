@@ -1,0 +1,6 @@
+TITLE: Role of an A-type K+ conductance in the back-propagation of action potentials in the dendrites of hippocampal pyramidal neurons.
+AUTHORS: Migliore M, Hoffman DA, Magee JC, Johnston D
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Action potentials elicited in the axon actively back-propagate into the dendritic tree. During this process their amplitudes can be modulated by internal and external factors. We used a compartmental model of a hippocampal CA1 pyramidal neuron to illustrate how this modulation could depend on (1) the properties of an A-type K+ conductance that is expressed at high density in hippocampal dendrites and (2) the relative timing of synaptic activation. The simulations suggest that the time relationship between pre- and postsynaptic activity could help regulate the amplitude of back-propagating action potentials, especially in the distal portion of the dendritic tree.

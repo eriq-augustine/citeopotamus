@@ -1,0 +1,4 @@
+Actin, a central player in cell shape and movement.
+Pollard TD, Cooper JA
+Abstract:
+The protein actin forms filaments that provide cells with mechanical support and driving forces for movement. Actin contributes to biological processes such as sensing environmental forces, internalizing membrane vesicles, moving over surfaces, and dividing the cell in two. These cellular activities are complex; they depend on interactions of actin monomers and filaments with numerous other proteins. Here, we present a summary of the key questions in the field and suggest how those questions might be answered. Understanding actin-based biological phenomena will depend on identifying the participating molecules and defining their molecular mechanisms. Comparisons of quantitative measurements of reactions in live cells with computer simulations of mathematical models will also help generate meaningful insights.

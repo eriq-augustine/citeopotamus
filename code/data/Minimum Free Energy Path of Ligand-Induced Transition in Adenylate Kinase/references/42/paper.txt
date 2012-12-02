@@ -1,0 +1,4 @@
+Very fast empirical prediction and rationalization of protein pKa values.
+Li H, Robertson AD, Jensen JH
+Abstract:
+None

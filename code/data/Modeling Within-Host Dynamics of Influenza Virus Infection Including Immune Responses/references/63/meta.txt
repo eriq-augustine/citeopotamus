@@ -1,0 +1,6 @@
+TITLE: Cutting edge: stealth influenza virus replication precedes the initiation of adaptive immunity.
+AUTHORS: Moltedo B, López CB, Pazos M, Becker MI, Hermesh T, Moran TM
+TERMS:
+CATEGORIES:
+ABSTRACT:
+A timely immune response is crucial for the effective control of virus infection. The influenza virus NS1 protein interferes with the expression of key proinflammatory cytokines from infected cells in vitro. To investigate the effect of NS1 during the onset of immunity in vivo, we systematically studied the early events that occur in the lungs and draining lymph nodes upon infection with influenza virus. Strikingly, no sign of innate immunity was detected in the lungs for almost 2 days after infection until a sudden inflammatory burst, including IFNs, cytokines, and chemokines, occurred. This burst preceded the robust dendritic cell migration and T cell activation in the lymph nodes. An NS1-deficient virus triggered rapid inflammation in the lungs whereas a wild-type virus did not. Thus, we demonstrate that, in vivo, influenza virus uses the NS1 protein to replicate for almost 2 days after infection before detection by the immune system.

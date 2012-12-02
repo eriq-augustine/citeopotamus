@@ -1,0 +1,4 @@
+Water wires in atomistic models of the Hv1 proton channel.
+Wood ML, Schow EV, Freites JA, White SH, Tombola F, Tobias DJ
+Abstract:
+None

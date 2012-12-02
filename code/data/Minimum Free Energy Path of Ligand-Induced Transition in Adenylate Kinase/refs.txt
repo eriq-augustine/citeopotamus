@@ -1,0 +1,62 @@
+REFERENCES
+[1]	Frauenfelder H, Sligar SG, Wolynes PG (1991) The energy landscapes and motions of proteins. Science 254: 1598.1603 doi: 10.1126/science.1749933. 
+[2]	Fuchigami S, Fujisaki H, Matsunaga Y, Kidera A (2011) Protein functional motions: basic concepts and computational methodologies. Adv Chem Phys 145: 35.82 
+[3]	E W, Ren W, Vanden-Eijnden E (2005) Finite temperature string method for the study of rare events. J Phys Chem B 109: 6688.6693 doi: 10.1021/jp0455430. 
+[4]	Maragliano L, Fischer A, Vanden-Eijnden E, Ciccotti G (2006) String method in collective variables: minimum free energy paths and isocommittor surfaces. J Chem Phys 125: 24106. doi: 10.1063/1.2212942. 
+[5]	Maragliano L, Vanden-Eijnden E (2007) On-the-fly string method for minimum free energy paths calculation. Chem Phys Lett 446: 182.190 doi: 10.1016/j.cplett.2007.08.017. 
+[6]	Miller TF, Vanden-Eijnden E, Chandler D (2007) Solvent coarse-graining and the string method applied to the hydrophobic collapse of a hydrated chain. Proc Natl Acad Sci U S A 104: 14559.14564 doi: 10.1073/pnas.0705830104. 
+[7]	Pan AC, Sezer D, Roux B (2008) Finding transition pathways using the string method with swarms of trajectories. J Phys Chem B 112: 3432.3440 doi: 10.1021/jp0777059. 
+[8]	Gan W, Yang S, Roux B (2009) Atomistic view of the conformational activation of Src kinase using the string method with swarms-of-trajectories. Biophys J 97: L8.L10 doi: 10.1016/j.bpj.2009.06.016. 
+[9]	Ovchinnikov V, Karplus M, Vanden-Eijnden E (2011) Free energy of conformational transition paths in biomolecules: The string method and its application to myosin VI. J Chem Phys 134: 085103. doi: 10.1063/1.3544209. 
+[10]	Hayward S, Kitao A, Berendsen HJ (1997) Model-free methods of analyzing domain motions in proteins from simulation: a comparison of normal mode analysis and molecular dynamics simulation of lysozyme. Proteins 27: 425.37 doi: 10.1002/(SICI)1097-0134(199703)27:3<425::AID-PROT10>3.0.CO;2-N. 
+[11]	Shirts MR, Chodera JD (2008) Statistically optimal analysis of samples from multiple equilibrium states. J Chem Phys 129: 124105. doi: 10.1063/1.2978177. 
+[12]	Tugarinov V, Shapiro YE, Liang Z, Freed JH, Meirovitch E (2002) A novel view of domain flexibility in E. coli adenylate kinase based on structural mode-coupling 15N NMR relaxation. J Mol Biol 315: 155.170 
+[13]	Shapiro YE, Kahana E, Tugarinov V, Liang Z, Freed JH, et al. (2002) Domain Flexibility in Ligand-Free and Inhibitor-Bound Escherichia coli Adenylate Kinase Based on a Mode-Coupling Analysis of 15N Spin Relaxation. Biochemistry 41: 6271.6281 
+[14]	Wolf-Watz M, Thai V, Henzler-Wildman K, Hadjipavlou G, Eisenmesser EZ, et al. (2004) Linkage between dynamics and catalysis in a thermophilic-mesophilic enzyme pair. Nat Struct Mol Biol 11: 945.949 doi: 10.1038/nsmb821. 
+[15]	Hanson JA, Duderstadt K, Watkins LP, Bhattacharyya S, Brokaw J, et al. (2007) Illuminating the mechanistic roles of enzyme conformational dynamics. Proc Natl Acad Sci U S A 104: 18055.18060 doi: 10.1073/pnas.0708600104. 
+[16]	Henzler-Wildman KA, Thai V, Lei M, Ott M, Wolf-Watz M, et al. (2007) Intrinsic motions along an enzymatic reaction trajectory. Nature 450: 838.844 doi: 10.1038/nature06410. 
+[17]	Lou H, Cukier RI (2006) Molecular dynamics of apo-adenylate kinase: a distance replica exchange method for the free energy of conformational fluctuations. J Phys Chem B 110: 24121.24137 doi: 10.1021/jp064303c. 
+[18]	Kubitzki MB, Groot BL de (2008) The atomistic mechanism of conformational transition in adenylate kinase: a TEE-REX molecular dynamics study. Structure 16: 1175.1182 doi: 10.1016/j.str.2008.04.013. 
+[19]	Beckstein O, Denning EJ, Perilla JR, Woolf TB (2009) Zipping and unzipping of adenylate kinase: atomistic insights into the ensemble of open<–>closed transitions. J Mol Biol 394: 160.176 
+[20]	Arora K, Brooks CL (2007) Large-scale allosteric conformational transitions of adenylate kinase appear to involve a population-shift mechanism. Proc Natl Acad Sci U S A 104: 18496.18501 doi: 10.1073/pnas.0706443104. 
+[21]	Miyashita O, Onuchic JN, Wolynes PG (2003) Nonlinear elasticity, proteinquakes, and the energy landscapes of functional transitions in proteins. Proc Natl Acad Sci?U?S?A 100: 12570.12575 doi: 10.1073/pnas.2135471100. 
+[22]	Maragakis P, Karplus M (2005) Large amplitude conformational change in proteins explored with a plastic network model: adenylate kinase. J?Mol Biol 352: 807.822 doi: 10.1016/j.jmb.2005.07.031. 
+[23]	Whitford PC, Miyashita O, Levy Y, Onuchic JN (2007) Conformational transitions of adenylate kinase: switching by cracking. J?Mol Biol 366: 1661.1671 doi: 10.1016/j.jmb.2006.11.085. 
+[24]	Hayward S, Berendsen HJ (1998) Systematic analysis of domain motions in proteins from conformational change: new results on citrate synthase and T4 lysozyme. Proteins 30: 144.154 
+[25]	Vonrhein C, Schlauderer GJ, Schulz GE (1995) Movie of the structural changes during a catalytic cycle of nucleoside monophosphate kinases. Structure 3: 483.490 doi: 10.1016/S0969-2126(01)00181-2. 
+[26]	Monod J, Wyman J, Changeux J (1965) On the nature of allosteric transitions: a plausible model. J Mol Biol 12: 88.118 doi: 10.1016/S0022-2836(65)80285-6. 
+[27]	Koshland DE (1958) Application of a Theory of Enzyme Specificity to Protein Synthesis. Proc Natl Acad Sci U S A 44: 98.104 doi: 10.1073/pnas.44.2.98. 
+[28]	Müller CW, Schlauderer GJ, Reinstein J, Schulz GE (1996) Adenylate kinase motions during catalysis: an energetic counterweight balancing substrate binding. Structure 4: 147.156 doi: 10.1016/S0969-2126(96)00018-4. 
+[29]	Müller CW, Schulz GE (1992) Structure of the complex between adenylate kinase from Escherichia coli and the inhibitor Ap5A refined at 1.9 A resolution. A model for a catalytic transition state. J Mol Biol 224: 159.177 
+[30]	Sinev MA, Sineva EV, Ittah V, Haas E (1996) Domain Closure in Adenylate Kinase. Biochemistry 35: 6425.6437 doi: 10.1021/bi952687j. 
+[31]	Lou H, Cukier RI (2006) Molecular dynamics of apo-adenylate kinase: a principal component analysis. J Phys Chem B 110: 12796.12808 doi: 10.1021/jp061976m. 
+[32]	Hyeon C, Jennings PA, Adams JA, Onuchic JN (2009) Ligand-induced global transitions in the catalytic domain of protein kinase A. Proc Natl Acad Sci U S A 106: 3023.3028 
+[33]	Bolhuis PG, Chandler D, Dellago C, Geissler PL (2002) TRANSITION PATH SAMPLING: Throwing Ropes Over Rough Mountain Passes, in the Dark. Annu Rev Phys Chem 53: 291.318 
+[34]	Krishnamurthy H, Lou H, Kimple A, Vieille C, Cukier RI (2005) Associative mechanism for phosphoryl transfer: a molecular dynamics simulation of Escherichia coli adenylate kinase complexed with its substrates. Proteins 58: 88.100 doi: 10.1002/prot.20301. 
+[35]	Reinstein J, Gilles A, Rose T, Wittinghofer A, Saint Girons I, et al. (1989) Structural and catalytic role of arginine 88 in Escherichia coli adenylate kinase as evidenced by chemical modification and site-directed mutagenesis. J Biol Chem 264: 8107.8112 
+[36]	Byeon I-JL, Shi Z, Tsai M-D (1995) Mechanism of adenylate kinase. The essential lysine helps to orient the phosphates and the active site residues to proper conformations. Biochemistry 34: 3172.3182 doi: 10.1021/bi00010a006. 
+[37]	Okazaki K, Takada S (2008) Dynamic energy landscape view of coupled binding and protein conformational change: induced-fit versus population-shift mechanisms. Proc Natl Acad Sci U S A 105: 11182.11187 doi: 10.1073/pnas.0802524105. 
+[38]	Silva D-A, Bowman GR, Sosa-Peinado A, Huang X (2011) A Role for Both Conformational Selection and Induced Fit in Ligand Binding by the LAO Protein. PLoS Comput Biol 7: e1002054. doi: 10.1371/journal.pcbi.1002054. 
+[39]	Bucher D, Grant BJ, McCammon JA (2011) Induced Fit or Conformational Selection? The Role of the Semi-closed State in the Maltose Binding Protein. Biochemistry 50: 10530.10539 doi: 10.1021/bi201481a. 
+[40]	Sinev MA, Sineva EV, Ittah V, Haas E (1996) Towards a mechanism of AMP-substrate inhibition in adenylate kinase from Escherichia coli. FEBS Lett 397: 273.276 doi: 10.1016/S0014-5793(96)01195-7. 
+[41]	Chodera JD, Mobley DL, Shirts MR, Dixon RW, Branson K, et al. (2011) Alchemical free energy methods for drug discovery: progress and challenges. Curr Opin Struct Biol 21: 150.160 doi: 10.1016/j.sbi.2011.01.011. 
+[42]	Li H, Robertson AD, Jensen JH (2005) Very fast empirical prediction and rationalization of protein pKa values. Proteins 61: 704.721 doi: 10.1002/prot.20660. 
+[43]	Dolinsky TJ, Nielsen JE, McCammon JA, Baker NA (2004) PDB2PQR: an automated pipeline for the setup of Poisson-Boltzmann electrostatics calculations. Nucleic Acids Res 32: W665.W667 doi: 10.1093/nar/gkh381. 
+[44]	Dolinsky TJ, Czodrowski P, Li H, Nielsen JE, Jensen JH, et al. (2007) PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35: W522.W525 doi: 10.1093/nar/gkm276. 
+[45]	Case DA, Darden TA, Cheatham Iii TE, Simmerling CL, Wang J, et al. (2008) AMBER 10. University of California, San Francisco. 
+[46]	Duan Y, Wu C, Chowdhury S, Lee MC, Xiong G, et al. (2003) A point-charge force field for molecular mechanics simulations of proteins based on condensed-phase quantum mechanical calculations. J Comput Chem 24: 1999.2012 doi: 10.1002/jcc.10349. 
+[47]	Jorgensen WL, Chandrasekhar J, Madura JD, Impey RW, Klein ML (1983) Comparison of simple potential functions for simulating liquid water. J Chem Phys 79: 926.935 doi: 10.1063/1.445869. 
+[48]	Wang J, Wolf RM, Caldwell JW, Kollman PA, Case DA (2004) Development and testing of a general amber force field. J Comput Chem 25: 1157.74 doi: 10.1002/jcc.20035. 
+[49]	Ryckaert J, Ciccotti G, Berendsen H (1977) Numerical integration of the cartesian equations of motion of a system with constraints: molecular dynamics of n-alkanes. J Comput Phys 23: 327.341 doi: 10.1016/0021-9991(77)90098-5. 
+[50]	Darden T, York D, Pedersen L (1993) Particle mesh Ewald: An Nlog(N) method for Ewald sums in large systems. J Chem Phys 98: 10089.10092 
+[51]	Cukier RI (2009) Apo adenylate kinase encodes its holo form: a principal component and varimax analysis. J Phys Chem B 113: 1662.1672 doi: 10.1021/jp8053795. 
+[52]	Kondo HX, Okimoto N, Morimoto G, Taiji M (2011) Free-Energy Landscapes of Protein Domain Movements upon Ligand Binding. J Phys Chem B 115: 7629.7636 doi: 10.1021/jp111902t. 
+[53]	Kabsch W (1976) A solution for the best rotation to relate two sets of vectors. Acta Cryst A32: 922.923 doi: 10.1107/S0567739476001873. 
+[54]	Kabsch W (1978) A discussion of the solution for the best rotation to relate two sets of vectors. Acta Cryst A34: 827.828 doi: 10.1107/S0567739478001680. 
+[55]	Schlitter J, Engels M, Kruger P (1994) Targeted molecular dynamics: A new approach for searching pathways of conformational transitions. J Mol Graph 12: 84.89 doi: 10.1016/0263-7855(94)80072-3. 
+[56]	Eckart C (1935) Some studies concerning rotating axes and polyatomic molecules. Phys Rev 47: 552.558 doi: 10.1103/PhysRev.47.552. 
+[57]	Souaille M, Roux B (2001) Extension to the weighted histogram analysis method: combining umbrella sampling with free energy calculations. Comput Phys Commun 135: 40.57 doi: 10.1016/S0010-4655(00)00215-0. 
+[58]	Kumar S, Rosenberg JM, Bouzida D, Swendsen RH, Kollman PA (1992) The weighted histogram analysis method for free-energy calculations on biomolecules. I. The method. J Comput Chem 13: 1011.1021 doi: 10.1002/jcc.540130812. 
+[59]	Chodera JD, Swope WC, Pitera JW, Seok C, Dill KA (2007) Use of the Weighted Histogram Analysis Method for the Analysis of Simulated and Parallel Tempering Simulations. J Chem Theory Comput 3: 26.41 doi: 10.1021/ct0502864. 
+[60]	Vanden-Eijnden E, Venturoli M (2009) Revisiting the finite temperature string method for the calculation of reaction tubes and free energies. J Chem Phys 130: 194103. doi: 10.1063/1.3130083. 
+[61]	Vanden-Eijnden E, Venturoli M (2009) Markovian milestoning with Voronoi tessellations. J Chem Phys 130: 194101. doi: 10.1063/1.3129843. 

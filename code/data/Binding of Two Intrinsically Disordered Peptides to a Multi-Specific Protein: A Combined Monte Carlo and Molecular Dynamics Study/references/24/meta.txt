@@ -1,0 +1,6 @@
+TITLE: Anchoring Intrinsically Disordered Proteins to Multiple Targets: Lessons from N-Terminus of the p53 Protein.
+AUTHORS: Huang Y, Liu Z
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Anchor residues, which are deeply buried upon binding, play an important role in protein-protein interactions by providing recognition specificity and facilitating the binding kinetics. Up to now, studies on anchor residues have been focused mainly on ordered proteins. In this study, we investigated anchor residues in intrinsically disordered proteins (IDPs) which are flexible in the free state. We identified the anchor residues of the N-terminus of the p53 protein (Glu17-Asn29, abbreviated as p53N) which are involved in binding with two different targets (MDM2 and Taz2), and analyzed their side chain conformations in the unbound states. The anchor residues in the unbound p53N were found to frequently sample conformations similar to those observed in the bound complexes (i.e., Phe19, Trp23, and Leu26 in the p53N-MDM2 complex, and Leu22 in the p53N-Taz2 complex). We argue that the bound-like conformations of the anchor residues in the unbound state are important for controlling the specific interactions between IDPs and their targets. Further, we propose a mechanism to account for the binding promiscuity of IDPs in terms of anchor residues and molecular recognition features (MoRFs).

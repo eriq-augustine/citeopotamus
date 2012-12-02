@@ -1,0 +1,56 @@
+REFERENCES
+[1]	Rohani P, Zhong X, King AA (2010) Contact Network Structure Explains the Changing Epidemiology of Pertussis. Science 330: 982–985. 
+[2]	Kretzschmar M, Teunis PFM, Pebody RG (2010) Incidence and Reproduction Numbers of Pertussis: Estimates from Serological and Social Contact Data in Five European Countries. PLoS Med 7: e1000291. 
+[3]	Merler S, Ajelli M (2010) The role of population heterogeneity and human mobility in the spread of pandemic influenza. Proc R Soc B 277: 557–565. 
+[4]	Nishiura H, Chowell G, Safan M, Castillo-Chavez C (2010) Pros and cons of estimating the reproduction number from early epidemic growth rate of influenza A (H1N1) 2009. Theor Biol Med Mod 7: 1. 
+[5]	Merler S, Ajelli M, Pugliese A, Ferguson NM (2011) Determinants of the spatiotemporal dynamics of the 2009 H1N1 pandemic in Europe: Implications for real-time modelling. PLoS Comput Biol 7: e1002205. 
+[6]	Edmunds WJ, O'Callaghan CJ, Nokes DJ (1997) Who mixes with whom? A method to determine the contact patterns of adults that may lead to the spread of airborne infections. Proc R Soc B 264: 949–957. 
+[7]	Wallinga J, Teunis P, Kretzschmar M (2006) Using Data on Social Contacts to Estimate Agespecific Transmission Parameters for Respiratory-spread Infectious Agents. Am J Epidemiol 164: 936–944. 
+[8]	Beutels P, Shkedy Z, Aerts M, Van Damme P (2006) Social mixing patterns for transmission models of close contact infections: exploring self-evaluation and diary-based data collection through aWebbased interface. Epidemiol Infect 134: 1158–1166. 
+[9]	Mossong J, Hens N, Jit M, Beutels P, Auranen K, et al. (2008) Social contacts and mixing patterns relevant to the spread of infectious diseases. PLoS Med 5: e74. 
+[10]	Zagheni E, Billari FC, Manfredi P, Melegaro A, Mossong J, et al. (2008) Using Time-Use Data to Parameterize Models for the Spread of Close-Contact Infectious Diseases. Am J Epidemiol 168: 1082–1090. 
+[11]	Iozzi F, Trusiano F, Chinazzi M, Billari FC, Zagheni E, et al. (2010) Little-Italy: An Agent-Based Approach to the Estimation of Contact Patterns- Fitting Predicted Matrices to Serological Data. PLoS Comput Biol 6: e1001021. 
+[12]	Horby P, Thai PQ, Hens N, Yen NTT, Thoang DD, et al. (2011) Social contact patterns in Vietnam and implications for the control of infectious diseases. PLoS ONE 6: e16965. 
+[13]	Hens N, Ayele GM, Goeyvaerts N, Aerts M, Mossong J, et al. (2009) Estimating the impact of school closure on social mixing behaviour and the transmission of close contact infections in eight European countries. BMC Infect Dis 9: 187. 
+[14]	Eames KTD, Tilston NL, Brooks-Pollock E, Edmunds WJ (2012) Measured Dynamic Social Contact Patterns Explain the Spread of H1N1v Influenza. PLoS Comput Biol 8: e1002425. 
+[15]	Eubank S, Guclu H, Kumar VSA, Marathe MV, Srinivasan A, et al. (2004) Modelling disease outbreaks in realistic urban social networks. Nature 429: 180–184. 
+[16]	Ferguson NM, Cummings DAT, Cauchemez S, Fraser C, Riley S, et al. (2005) Strategies for containing an emerging influenza pandemic in Southeast Asia. Nature 437: 209–214. 
+[17]	Germann TC, Kadau K, Longini IM, Macken CA (2006) Mitigation strategies for pandemic influenza in the United States. Proc Natl Acad Sci U S A 103: 5935–5940. 
+[18]	Colizza V, Barrat A, Barthélemy M, Vespignani A (2007) Predictability and epidemic pathways in global outbreaks of infectious diseases: the SARS case study. BMC Med 5: 34. 
+[19]	Ciofi Degli Atti ML, Merler S, Rizzo C, Ajelli M, Massari M, et al. (2008) Mitigation Measures for Pandemic Influenza in Italy: An Individual Based Model Considering Different Scenarios. PLoS ONE 3: e1790. 
+[20]	Pitzer VE, Viboud C, Simonsen L, Steiner C, Panozzo CA, et al. (2009) Demographic Variability, Vaccination, and the Spatiotemporal Dynamics of Rotavirus Epidemics. Science 325: 290–294. 
+[21]	Balcan B, Hao H, Gonçalves B, Bajardi P, Poletto C, et al. (2009) Seasonal transmission potential and activity peaks of the new influenza A(H1N1): a Monte Carlo likelihood analysis based on human mobility. BMC Med 7: 45. 
+[22]	Balcan D, Colizza V, Gonçalves B, Hu H, Ramasco JJ, et al. (2009) Multiscale mobility networks and the spatial spreading of infectious diseases. Proc Natl Acad Sci U S A 106: 21484–21489. 
+[23]	Ajelli M, Merler S (2009) An individual-based model of hepatitis A transmission. J Theor Biol 259: 478–488. 
+[24]	Baguelin M, Hoek AJV, Jit M, Flasche S, White PJ, et al. (2010) Vaccination against pandemic influenza A/H1N1v in England: A real-time economic evaluation. Vaccine 28: 2370–2384. 
+[25]	Chao D, Halloran M, Obenchain V, Longini I (2010) FluTE, a publicly available stochastic influenza epidemic simulation model. PLoS Comput Biol 6: e1000656. 
+[26]	Ajelli M, Gonçalves B, Balcan D, Colizza V, Hu H, et al. (2010) Comparing large-scale computational approaches to epidemic modeling: Agent-based versus structured metapopulation models. BMC Infect Dis 10: 190. 
+[27]	Ajelli M, Merler S, Pugliese A, Rizzo C (2011) Model predictions and evaluation of possible control strategies for the 2009 A/H1N1v influenza pandemic in Italy. Epidemiol Infect 139: 68–79. 
+[28]	Cauchemez S, Bhattarai A, Marchbanks TL, Fagan RP, Ostroff S, et al. (2011) Role of social networks in shaping disease transmission during a community outbreak of 2009 H1N1 pandemic influenza. Proc Natl Acad Sci U S A 108: 2825–2830. 
+[29]	Silhol R, Boëlle PY (2011) Modelling the Effects of Population Structure on Childhood Disease: The Case of Varicella. PLoS Comput Biol 7: e1002105. 
+[30]	Van den Broeck W, Gioannini C, Gonçalves B, Quaggiotto M, Colizza V, et al. (2011) The GLEaMviz computational tool, a publicly available software to explore realistic epidemic spreading scenarios at the global scale. BMC Infect Dis 11: 37. 
+[31]	Guzzetta G, Ajelli M, Yang Z, Merler S, Furlanello C, et al. (2011) Modeling socio-demography to capture tuberculosis transmission dynamics in a low burden setting. J Theor Biol 289: 197–205. 
+[32]	Longini IM, Halloran ME, Nizam A, Yang Y (2004) Containing Pandemic Influenza with Antiviral Agents. Am J Epidemiol 159: 623–633. 
+[33]	Meyers LA, Pourbohloul B, Newman MEJ, Skowronski DM, Brunham RC (2005) Network theory and SARS: predicting outbreak diversity. J Theor Biol 232: 71–81. 
+[34]	Meyers LA, Newman MEJ, Pourbohloul B (2006) Predicting epidemics on directed contact networks. J Theor Biol 240: 400–418. 
+[35]	Rvachev L, Longini I (1985) A mathematical model for the global spread of influenza. Math Biosci 75: 3–22. 
+[36]	Epstein J, Goedecke D, Yu F, Morris R, Wagener D, et al. (2007) Controlling pandemic flu: The value of international air travel restrictions. PLoS ONE 2: e401. 
+[37]	Colizza V, Barrat A, Barthélemy M, Valleron AJ, Vespignani A (2007) Modeling the Worldwide spread of pandemic influenza: baseline case and containment interventions. PLoS Med 4: e13. 
+[38]	Balcan D, Gonçalves B, Hu H, Ramasco J, Colizza V, et al. (2010) Modeling the spatial spread of infectious diseases: The GLobal Epidemic and Mobility computational model. J Comput Sci 1: 132–145. 
+[39]	Kenah E, Chao D, Matrajt L, Halloran M, Longini I (2011) The global transmission and control of influenza. PLoS ONE 6: e19515. 
+[40]	Statistical Office of the European Commission (Eurostat) (2011) Database by themes. Available: http://epp.eurostat.ec.europa.eu. 
+[41]	Hethcote H (2000) The Mathematics of Infectious Diseases. SIAM Review 42: 599–653. 
+[42]	Cauchemez S, Carrat F, Viboud C, Valleron AJ, Boëlle PY (2004) A Bayesian MCMC approach to study transmission of influenza: application to household longitudinal data. Stat Med 23: 3469–3487. 
+[43]	Melegaro A, Jit M, Gay M, Zagheni E, Edmunds WJ (2011) What types of contacts are important for the spread of infections? Using contact survey data to explore European mixing patterns. Epidemics 3: 143–151. 
+[44]	Ferguson NM, Cummings DAT, Fraser C, Cajka JC, Cooley PC, et al. (2006) Strategies for mitigating an influenza pandemic. Nature 442: 448–452. 
+[45]	Cauchemez S, Valleron AJ, Boëlle PY, Flahault A, Ferguson NM (2008) Estimating the impact of school closure on influenza transmission from Sentinel data. Nature 452: 750–754. 
+[46]	Kwok KO, Leung GM, Riley S (2011) Modelling the Proportion of Influenza Infections within Households during Pandemic and Non-Pandemic Years. PLoS ONE 6: e22089. 
+[47]	Anderson RM, May RM (1991) Infectious diseases of humans: dynamics and control. Wiley. 
+[48]	Diekmann O, Heesterbeek JAP, Metz JAJ (1990) On the definition and the computation of the basic reproduction ratio R0 in models for infectious diseases in heterogeneous populations. J Math Biol 28: 365–382. 
+[49]	Hardelid P, Andrews NJ, Hoschler K, Stanford E, Baguelin M, et al. (2010) Assessment of baseline age-specific antibody prevalence and incidence of infection to novel influenza A/H1N1 2009. Health Technol Assess 14: 115–192. 
+[50]	Fraser C, Donnelly CA, Cauchemez S, Hanage WP, Van Kerkhove MD, et al. (2009) Pandemic Potential of a Strain of Influenza A (H1N1): Early Findings. Science 324: 1557–1561. 
+[51]	Cauchemez S, Donnelly CA, Reed C, Ghani AC, Fraser C, et al. (2009) Household Transmission of 2009 Pandemic Influenza A (H1N1) Virus in the United States. N Engl J Med 361: 2619–2627. 
+[52]	Statistical Office of the European Commission (Eurostat) (2011) Average exit age from the labour force by gender. Available: http://epp.eurostat.ec.europa.eu, table code tsiem030. 
+[53]	Critchlow DE (1985) Metric Methods for Analyzing Partially Ranked Data. Lecture Notes in Statistics. Springer. 
+[54]	Kohler HP, Billari FC, Ortega JA (2002) The Emergence of Lowest-Low Fertility in Europe During the 1990s. Popul Dev Rev 28: 641–680. 
+[55]	Opatowski L, Fraser C, Griffin J, de Silva E, Van Kerkhove M, et al. (2011) Transmission Characteristics of the 2009 H1N1 Influenza Pandemic: Comparison of 8 Southern Hemisphere Countries. PLoS Pathog 7: e1002225. 

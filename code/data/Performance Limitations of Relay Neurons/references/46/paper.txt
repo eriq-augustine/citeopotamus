@@ -1,0 +1,4 @@
+Parallel organization of functionally segregated circuits linking basal ganglia and cortex.
+Alexander GE, DeLong MR, Strick PL
+Abstract:
+None

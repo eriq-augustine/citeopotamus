@@ -1,0 +1,6 @@
+TITLE: Influenza A virus infection kinetics: quantitative data and models.
+AUTHORS: Smith AM, Perelson AS
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

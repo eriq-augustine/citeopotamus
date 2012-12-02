@@ -1,0 +1,6 @@
+TITLE: Dynamical origin of spectrally rich vocalizations in birdsong.
+AUTHORS: Sitt JD, Amador A, Goller F, Mindlin GB
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Birdsong is a model system for learned vocal behavior with remarkable parallels to human vocal development and sound production mechanisms. Upper vocal tract filtering plays an important role in human speech, and its importance has recently also been recognized in birdsong. However, the mechanisms of how the avian sound source might contribute to spectral richness are largely unknown. Here we show in the most widely studied songbird, the zebra finch (Taeniopygia guttata), that the broad range of upper harmonic content in different low-frequency song elements is the fingerprint of the dynamics displayed by its vocal apparatus, which can be captured by a two-dimensional dynamical model. As in human speech and singing, the varying harmonic content of birdsong is not only the result of vocal tract filtering but of a varying degree of tonality emerging from the sound source. The spectral content carries a strong signature of the intrinsic dynamics of the sound source.

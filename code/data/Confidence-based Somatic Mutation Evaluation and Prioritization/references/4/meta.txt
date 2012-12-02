@@ -1,0 +1,6 @@
+TITLE: Overcoming bias and systematic errors in next generation sequencing data.
+AUTHORS: Taub MA, Corrada Bravo H, Irizarry RA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Considerable time and effort has been spent in developing analysis and quality assessment methods to allow the use of microarrays in a clinical setting. As is the case for microarrays and other high-throughput technologies, data from new high-throughput sequencing technologies are subject to technological and biological biases and systematic errors that can impact downstream analyses. Only when these issues can be readily identified and reliably adjusted for will clinical applications of these new technologies be feasible. Although much work remains to be done in this area, we describe consistently observed biases that should be taken into account when analyzing high-throughput sequencing data. In this article, we review current knowledge about these biases, discuss their impact on analysis results, and propose solutions.

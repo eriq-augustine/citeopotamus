@@ -1,0 +1,6 @@
+TITLE: Tunable signal processing in synthetic MAP kinase cascades.
+AUTHORS: O'Shaughnessy EC, Palani S, Collins JJ, Sarkar CA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

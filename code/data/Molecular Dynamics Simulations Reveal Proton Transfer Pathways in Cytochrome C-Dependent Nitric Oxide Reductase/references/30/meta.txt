@@ -1,0 +1,6 @@
+TITLE: Molecular dynamics simulations of membrane channels and transporters.
+AUTHORS: Khalili-Araghi F, Gumbart J, Wen PC, Sotomayor M, Tajkhorshid E, Schulten K
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Membrane transport constitutes one of the most fundamental processes in all living cells with proteins as major players. Proteins as channels provide highly selective diffusive pathways gated by environmental factors, and as transporters furnish directed, energetically uphill transport consuming energy. X-ray crystallography of channels and transporters furnishes a rapidly growing number of atomic resolution structures, permitting molecular dynamics (MD) simulations to reveal the physical mechanisms underlying channel and transporter function. Ever increasing computational power today permits simulations stretching up to 1 micros, that is, to physiologically relevant time scales. Membrane protein simulations presently focus on ion channels, on aquaporins, on protein-conducting channels, as well as on various transporters. In this review we summarize recent developments in this rapidly evolving field.

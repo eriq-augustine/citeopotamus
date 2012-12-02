@@ -1,0 +1,6 @@
+TITLE: A novel view of domain flexibility in E. coli adenylate kinase based on structural mode-coupling (15)N NMR relaxation.
+AUTHORS: Tugarinov V, Shapiro YE, Liang Z, Freed JH, Meirovitch E
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

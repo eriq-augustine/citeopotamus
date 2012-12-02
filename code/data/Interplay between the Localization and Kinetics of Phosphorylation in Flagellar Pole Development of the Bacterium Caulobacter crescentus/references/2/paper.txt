@@ -1,0 +1,4 @@
+Anatomic demarcation of cells: genes to patterns.
+Chang HY
+Abstract:
+An organizing principle of the diverse cell types in multicellular organisms is their anatomic location. In turn, anatomic location is patterned by the positional identities of cells along developmental axes. Recent progress in functional genomics and chromatin biology illustrates how cells use specific gene expression programs to encode location. Dynamic chromatin states of key genes, notably the Hox loci, serve as the internal representation in cells of their positional identity within the animal.

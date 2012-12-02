@@ -1,0 +1,6 @@
+TITLE: A noninvasive imaging approach to understanding speech changes following deep brain stimulation in Parkinson's disease.
+AUTHORS: Narayana S, Jacks A, Robin DA, Poizner H, Zhang W, Franklin C, Liotti M, Vogel D, Fox PT
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

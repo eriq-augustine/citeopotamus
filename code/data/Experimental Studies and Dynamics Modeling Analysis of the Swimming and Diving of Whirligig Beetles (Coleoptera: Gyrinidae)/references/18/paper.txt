@@ -1,0 +1,4 @@
+How animals move: an integrative view.
+Dickinson MH, Farley CT, Full RJ, Koehl MA, Kram R, Lehman S
+Abstract:
+Recent advances in integrative studies of locomotion have revealed several general principles. Energy storage and exchange mechanisms discovered in walking and running bipeds apply to multilegged locomotion and even to flying and swimming. Nonpropulsive lateral forces can be sizable, but they may benefit stability, maneuverability, or other criteria that become apparent in natural environments. Locomotor control systems combine rapid mechanical preflexes with multimodal sensory feedback and feedforward commands. Muscles have a surprising variety of functions in locomotion, serving as motors, brakes, springs, and struts. Integrative approaches reveal not only how each component within a locomotor system operates but how they function as a collective whole.

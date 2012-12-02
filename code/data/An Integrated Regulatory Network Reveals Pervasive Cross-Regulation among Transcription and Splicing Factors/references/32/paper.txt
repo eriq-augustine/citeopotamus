@@ -1,0 +1,4 @@
+Transcriptome-wide identification of RNA-binding protein and microRNA target sites by PAR-CLIP.
+Hafner M, Landthaler M, Burger L, Khorshid M, Hausser J, Berninger P, Rothballer A, Ascano M Jr, Jungkamp AC, Munschauer M, Ulrich A, Wardle GS, Dewell S, Zavolan M, Tuschl T
+Abstract:
+None

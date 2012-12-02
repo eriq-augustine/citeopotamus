@@ -1,0 +1,6 @@
+TITLE: Molecular dynamics simulation of water in cytochrome c oxidase reveals two water exit pathways and the mechanism of transport.
+AUTHORS: Sugitani R, Stuchebrukhov AA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+We have examined the network of connected internal cavities in cytochrome c oxidase along which water produced at the catalytic center is removed from the enzyme. Using combination of structural analysis, molecular dynamics simulations, and free energy calculations we have identified two exit pathways that connect the Mg2+ ion cavity to the outside of the enzyme. Each pathway has a well-defined bottleneck, which determines the overall rate of water traffic along the exit pathway, and a specific cooperative mechanism of passing it. One of the pathways is going via Arg438/439 (in bovine numbering) toward the CuA center, approaching closely its His204B ligand and Lys171B residue; and the other is going toward Asp364 and Thr294. Comparison of the pathways among different aa3-type enzymes shows that they are well conserved. Possible connections of the finding to redox-coupled proton pumping mechanism are discussed. We propose specific mutations near the bottlenecks of the exit pathways that can test some of our hypotheses.

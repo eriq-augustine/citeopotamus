@@ -1,0 +1,33 @@
+REFERENCES
+[1]	Pollard TD, Cooper JA (2009) Actin, a central player in cell shape and movement. Science 326: 1208–12. 
+[2]	Chang HY (2009) Anatomic demarcation of cells: genes to patterns. Science 326: 1206–7. 
+[3]	Hynes RO (2009) The extracellular matrix: Not just pretty fibrils. Science 326: 1216–1219. 
+[4]	Scott JD, Pawson T (2009) Cell signaling in space and time: where proteins come together and when they're apart. Science 326: 1220–4. 
+[5]	Werner JN, Chen EY, Guberman JM, Zippilli AR, Irgon JJ, et al. (2009) Quantitative genomescale analysis of protein localization in an asymmetric bacterium. Proc Natl Acad Sci U S A 106: 7858–63. 
+[6]	Levskaya A, Weiner OD, Lim WA, Voigt CA (2010) Spatiotemporal control of cell signalling using a light-switchable protein interaction. Nature 461: 1–5. 
+[7]	Bourret RB, Silversmith RE (2010) Two-component signal transduction. Curr Opin Microbiol 13: 113–5. 
+[8]	Hung DY, Shapiro L (2002) A signal transduction protein cues proteolytic events critical to Caulobacter cell cycle progression. Proc Natl Acad Sci U S A 99: 13160–5. 
+[9]	Jacobs C, Domian IJ, Maddock JR, Shapiro L (1999) Cell cycle-dependent polar localization of an essential bacterial histidine kinase that controls dna replication and cell division. Cell 97: 111–20. 
+[10]	Chen YE, Tropini C, Jonas K, Tsokos CG, Huang KC, et al. (2011) Spatial gradient of protein phosphorylation underlies replicative asymmetry in a bacterium. Proc Natl Acad Sci U S A 108: 1052–7. 
+[11]	Hecht GB, Lane T, Ohta N, Sommer JM, Newton A (1995) An essential single domain response regulator required for normal cell division and differentiation in Caulobacter crescentus. EMBO J 14: 3915–24. 
+[12]	Ohta N, Newton A (2003) The core dimerization domains of histidine kinases contain recognition specificity for the cognate response regulator. J Bacteriol 185: 4424–31. 
+[13]	Wheeler RT, Shapiro L (1999) Differential localization of two histidine kinases controlling bacterial cell differentiation. Mol Cell 4: 683–94. 
+[14]	Wang SP, Sharma PL, Schoenlein PV, Ely B (1993) A histidine protein kinase is involved in polar organelle development in Caulobacter crescentus. Proc Natl Acad Sci U S A 90: 630–4. 
+[15]	Hecht GB, Newton A (1995) Identification of a novel response regulator required for the swarmerto-stalked-cell transition in Caulobacter crescentus. J Bacteriol 177: 6223–9. 
+[16]	Lam H, Matroule JY, Jacobs-Wagner C (2003) The asymmetric spatial distribution of bacterial signal transduction proteins coordinates cell cycle events. Dev Cell 5: 149–59. 
+[17]	Jacobs C, Hung D, Shapiro L (2001) Dynamic localization of a cytoplasmic signal transduction response regulator controls morphogenesis during the caulobacter cell cycle. Proc Natl Acad Sci U S A 98: 4095–100. 
+[18]	Ryan KR, Huntwork S, Shapiro L (2004) Recruitment of a cytoplasmic response regulator to the cell pole is linked to its cell cycle-regulated proteolysis. Proc Natl Acad Sci U S A 101: 7415–20. 
+[19]	Sciochetti SA, Ohta N, Newton A (2005) The role of polar localization in the function of an essential Caulobacter crescentus tyrosine kinase. Mol Microbiol 56: 1467–80. 
+[20]	Matroule JY, Lam H, Burnette DT, Jacobs-Wagner C (2004) Cytokinesis monitoring during development; rapid pole-to-pole shuttling of a signaling protein by localized kinase and phosphatase in Caulobacter. Cell 118: 579–90. 
+[21]	Paul R, Jaeger T, Abel S, Wiederkehr I, Folcher M, et al. (2008) Allosteric regulation of histidine kinases by their cognate response regulator determines cell fate. Cell 133: 452–61. 
+[22]	McGrath PT, Viollier P, Mcadams HH (2004) Setting the pace: mechanisms tying Caulobacter cell-cycle progression to macroscopic cellular events. Curr Opin Microbiol 7: 192–7. 
+[23]	Ursell , Huang K (2011) Resolution limits of optical microscopy and the mind. Biomedical Computation Review 27–29. 
+[24]	Hinz AJ, Larson DE, Smith CS, Brun YV (2003) The Caulobacter crescentus polar organelle development protein podj is differentially localized and is required for polar targeting of the plec development regulator. Mol Microbiol 47: 929–41. 
+[25]	Viollier PH, Sternheim N, Shapiro L (2002) Identification of a localization factor for the polar positioning of bacterial structural and regulatory proteins. Proc Natl Acad Sci U S A 99: 13831–6. 
+[26]	Sciochetti SA, Lane T, Ohta N, Newton A (2002) Protein sequences and cellular factors required for polar localization of a histidine kinase in Caulobacter crescentus. J Bacteriol 184: 6037–49. 
+[27]	Ohta N, Lane T, Ninfa EG, Sommer JM, Newton A (1992) A histidine protein kinase homologue required for regulation of bacterial cell division and differentiation. Proc Natl Acad Sci U S A 89: 10297–301. 
+[28]	Altschul SF, Madden TL, Schäffer AA, Zhang J, Zhang Z, et al. (1997) Gapped BLAST and PSI-BLAST: a new generation of protein database search programs. Nucleic Acids Res 25: 3389–3402. 
+[29]	Skerker JM, Prasol MS, Perchuk BS, Biondi EG, Laub MT (2005) Two-component signal transduction pathways regulating growth and cell cycle progression in a bacterium: a system-level analysis. PLoS Biol 3: e334. 
+[30]	Ely B (1991) Genetics of Caulobacter crescentus. Meth Enzymol 204: 372–84. 
+[31]	Sliusarenko O, Heinritz J, Emonet T, Jacobs-Wagner C (2011) High-throughput, subpixel precision analysis of bacterial morphogenesis and intracellular spatio-temporal dynamics. Mol Microbiol 80: 612–27. 
+[32]	Elowitz MB, Surette MG, Wolf PE, Stock JB, Leibler S (1999) Protein mobility in the cytoplasm of Escherichia coli. J Bacteriol 181: 197–203. 

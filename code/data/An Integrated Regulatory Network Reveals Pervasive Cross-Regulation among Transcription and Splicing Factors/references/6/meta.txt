@@ -1,0 +1,6 @@
+TITLE: Functional integration of transcriptional and RNA processing machineries.
+AUTHORS: Pandit S, Wang D, Fu XD
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Cotranscriptional RNA processing not only permits temporal RNA processing before the completion of transcription but also allows sequential recognition of RNA processing signals on nascent transcripts threading out from the elongating RNA polymerase II (RNAPII) complex. Rapid progress in recent years has established multiple contacts that physically connect the transcription and RNA processing machineries, which centers on the C-terminal domain (CTD) of the largest subunit of RNAPII. Although cotranscriptional RNA processing has been substantiated, the evidence for 'reciprocal' coupling starts to emerge, which emphasizes functional integration of transcription and RNA processing machineries in a mutually beneficial manner for efficient and regulated gene expression.

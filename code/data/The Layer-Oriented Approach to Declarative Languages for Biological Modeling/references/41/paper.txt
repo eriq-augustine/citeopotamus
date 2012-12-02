@@ -1,0 +1,4 @@
+Addressing the problems with life-science databases for traditional uses and systems biology.
+Philippi S, Köhler J
+Abstract:
+A prerequisite to systems biology is the integration of heterogeneous experimental data, which are stored in numerous life-science databases. However, a wide range of obstacles that relate to access, handling and integration impede the efficient use of the contents of these databases. Addressing these issues will not only be essential for progress in systems biology, it will also be crucial for sustaining the more traditional uses of life-science databases.

@@ -1,0 +1,55 @@
+REFERENCES
+[1]	Alberts B, Johnson A, Lewis J, Raff M, Roberts K (2002) Molecular Biology of the Cell. Garland Science. 
+[2]	Johnson LN, Bardford D, et al. (1993) The effects of phosphorylation on the structure and function of proteins. Annu Rev Biophys Biomol Struct 22: 199–232. doi: 10.1146/annurev.bb.22.060193.001215. 
+[3]	Holmberg CI, Tran SEF, Eriksson JE, Sistonen L (2002) Multisite phosphorylation provides sophisticated regulation of transcription factors. Trends Biochem Sci 27: 619–27. doi: 10.1016/S0968-0004(02)02207-7. 
+[4]	Manning G, Whyte DB, Martinez R, Hunter T, Sudarsanam S (2002) The protein kinase complement of the human genome. Science 298: 1912–1934. doi: 10.1126/science.1075762. 
+[5]	Verma R, Annan RS, Huddleston MJ, Carr SA, Reynard G, et al. (1997) Phosphorylation of Sic1p by G1 Cdk required for its degradation and entry into S phase. Science 278: 455–460. doi: 10.1126/science.278.5337.455. 
+[6]	Gnad F, Ren S, Cox J, Olsen JV, Macek B, et al. (2007) PHOSIDA (phosphorylation site database): managment, structural and evolutionary investigation, and prediction of phosphosites. Genome Biol 8: R250. doi: 10.1186/gb-2007-8-11-r250. 
+[7]	Monod J, Wyman J, Changeux J-P (1965) On the nature of allosteric transitions: a plausible model. J Mol Biol 1965: 88–118. doi: 10.1016/S0022-2836(65)80285-6. 
+[8]	Ferrell J, Pomerening J, Kim S, Trunnell N, Xiong W, et al. (2009) Simple, realistic models of complex biological processes: positive feedback and bistability in a cell fate switch and a cell cycle oscillator. FEBS Letters 583: 3999–4005. doi: 10.1016/j.febslet.2009.10.068. 
+[9]	Paliwal S, Iglesias P, Campbell K, Hilioti Z, Groisman A, et al. (2007) MAPK-mediated bimodal gene expression and adaptive gradient sensing in yeast. Nature 446: 46–51. doi: 10.1038/nature05561. 
+[10]	Veening J, Smits W, Kuipers O (2008) Bistability, epigenetics, and bet-hedging in bacteria. Annu Rev Microbiol 62: 193–210. doi: 10.1146/annurev.micro.62.081307.163002. 
+[11]	Mitrophanov A, Groisman E (2008) Positive feedback in cellular control systems. Bioessays 30: 542–555. doi: 10.1002/bies.20769. 
+[12]	Wang L, Sontag ED (2008) On the number of steady states in a multiple futile cycle. J Math Biol 57: 29–52. doi: 10.1007/s00285-007-0145-z. 
+[13]	Thomson M, Gunawardena J (2009) Unlimited multistability in multisite phosphorylation systems. Nature 460: 274–277. doi: 10.1038/nature08102. 
+[14]	Markevich NI, Hoek JB, Kholodenko BN (2004) Signaling switches and bistability arising from multisite phosphorylation in protein kinase cascades. J Cell Biol 164: 353–359. doi: 10.1083/jcb.200308060. 
+[15]	Gunawardena J (2005) Multisite protein phosphorylation makes a good threshold but can be a poor switch. Proc Natl Acad Sci U S A 102: 14617–14622. doi: 10.1073/pnas.0507322102. 
+[16]	Liu X, Bardwell L, Nie Q (2010) A Combination of Multisite Phosphorylation and Substrate Sequestration Produces Switch-Like Responses. Biophys J 98: 1396–1407. 
+[17]	Qian H, Cooper J (2008) Temporal cooperativity and sensitivity amplification in biological signal transduction. Biochemistry 47: 2211–2220. doi: 10.1021/bi702125s. 
+[18]	Serber Z, Ferrell J (2007) Tuning bulk electrostatics to regulate protein function. Cell 128: 441–444. doi: 10.1016/j.cell.2007.01.018. 
+[19]	Wang L, Nie Q, Enciso G (2010) Nonessential sites improve phosphorylation switch. Biophys Lett 99: 41–43. doi: 10.1016/j.bpj.2010.07.030. 
+[20]	Anderson D, Craciun G, Kurtz T (2010) Product-form stationary distributions for deficiency zero chemical reaction networks. Bull Math Biol 72: 1947–1970. doi: 10.1007/s11538-010-9517-4. 
+[21]	Feinberg M (1979) Lectures on chemical reaction networks. Notes of lectures given at the Mathematics Research Center of the University of Wisconsin and available at the author's website. 
+[22]	Craciun G, Tang Y, Feinberg M (2006) Understanding bistability in complex enzyme-driven reaction networks. Proc Natl Acad Sci U S A 103: 8697–8702. doi: 10.1073/pnas.0602767103. 
+[23]	Good M, Tang G, Singleton J, ARemenyi, Lim W (2009) The Ste5 scaffold directs mating signaling by catalytically unlocking the Fus3 MAP kinase for activation. Cell 136: 1085–1097. doi: 10.1016/j.cell.2009.01.049. 
+[24]	Zeke A, Lukacs M, Lim W, Remenyi A (2009) Scaffolds: interaction platforms for cellular signalling circuits. Trends Cell Biol 19: 364–374. doi: 10.1016/j.tcb.2009.05.007. 
+[25]	Levchenko A, Bruck J, Sternberg P (2000) Scaffold proteins may biphasically affect the levels of mitogen-activated protein kinase signaling and reduce its threshold properties. Proc Natl Acad Sci U S A 97: 5818–5823. doi: 10.1073/pnas.97.11.5818. 
+[26]	Heinrich R, Neel B, Rapoport T (2002) Mathematical models of protein kinase signal transduction. Mol Cell 9: 957–970. doi: 10.1016/S1097-2765(02)00528-2. 
+[27]	Lester L, Scott J (1997) Anchoring and scaffold proteins for kinases and phosphatases. Recent Prog Horm Res 52: 429–430. 
+[28]	Maeder C, Hink M, Kinkhabwala A, Mayr R, Bastiaens P, et al. (2007) Spatial regulation of Fus3 MAP kinase activity through a reaction-diffusion mechanism in yeast pheromone signalling. Nat Cell Biol 9: 1319–1326. doi: 10.1038/ncb1652. 
+[29]	Maleri S, Ge Q, Hackett E, Wang Y, Dohlman H, et al. (2004) Persistent activation by constitutive ste7 promotes kss1-mediated invasive growth but fails to support fus3-dependent mating in yeast. Mol Cell Biol 24: 9221–9238. doi: 10.1128/MCB.24.20.9221-9238.2004. 
+[30]	Brennan D, Dar A, Hertz N, Chao W, Burlingame A, et al. (2011) A Raf-induced allosteric transition of KSR stimulates phosphorylation of MEK. Nature 472: 366–369. doi: 10.1038/nature09860. 
+[31]	Berg J, Tymoczko JL, Stryer L (2006) Biochemistry. W.H. Freeman and Co. 
+[32]	Keener J, Sneyd J (1998) Mathematical Physiology. Springer. 
+[33]	Dhanasekaran D, Kashef K, Lee C, Xu H, Reddy E (2007) Scaffold proteins of MAP-kinase modules. Oncogene 26: 3185–3202. doi: 10.1038/sj.onc.1210411. 
+[34]	Avruch J (2007) MAP kinase pathways: the first twenty years. Biochim Biophys Acta 1773: 1150–1160. doi: 10.1016/j.bbamcr.2006.11.006. 
+[35]	Bardwell L, Cook J, Chang E, Cairns B, Thorner J (1996) Signaling in the yeast pheromone response pathway: specific and high-affinity interaction of the mitogen-activated protein (MAP) kinases Kss1 and Fus3 with the upstream MAP kinase kinase Ste7. Mol Cell Biol 16: 3637–3650. 
+[36]	Slaughter B, Schwartz J, Li R (2007) Mapping dynamic protein interactions in MAP kinase signaling using live-cell fluorescence fluctuation spectroscopy and imaging. Proc Natl Acad Sci U S A 104: 20320–20325. doi: 10.1073/pnas.0710336105. 
+[37]	Goldbeter A, Koshland DE (1981) An amplified sensitivity arising from covalent modification in biological systems. Proc Natl Acad Sci U S A 78: 6840–6844. doi: 10.1073/pnas.78.11.6840. 
+[38]	Strickfaden SC, Winters MJ, Ben-Ari G, Lamson RE, Tyers M, et al. (2007) A mechanism for cell-cycle regulation of MAP kinase signaling in a yeast differentiation pathway. Cell 128: 519–31. doi: 10.1016/j.cell.2006.12.032. 
+[39]	Pomerening J (2008) Uncovering mechanisms of bistability in biological systems. Curr Op Biotech 19: 381–388. doi: 10.1016/j.copbio.2008.06.009. 
+[40]	Legewie S, Bluthgen N, Herzel H (2006) Mathematical modeling identifies inhibitors of apoptosis as mediators of positive feedback and bistability. PLoS Comput Biol 2: e120. 
+[41]	Legewie S, Schoeberl B, Bluthgen N, Herzel H (2007) Competing docking interactions can bring about bistability in the MAPK cascade. Biophys J 93: 2279–88. doi: 10.1529/biophysj.107.109132. 
+[42]	Qiao L, Nachbar R, Kevrekedis I, Shvartsman S (2007) Bistability and oscillations in the Huang-Ferrell model of MAPK signaling. PloS Comput Biol 3: 1819–26. 
+[43]	Komarova N, Zou X, Nie Q, Bardwell L (2005) A theoretical framework for specificity in cell signaling. Mol Syst Biol 2005: 2005.0023. doi: 10.1038/msb4100031. 
+[44]	Locasale J, Shaw A, Chakraborty A (2007) Scaffold proteins confer diverse regulatory properties to protein kinase cascades. Proc Natl Acad Sci U S A 104: 13307–13312. doi: 10.1073/pnas.0706311104. 
+[45]	Pincet F (2007) Membrane recruitment of scaffold proteins drives specific signaling. PLoS ONE 2: e977. doi: 10.1371/journal.pone.0000977. 
+[46]	Bardwell L, Zou X, Nie Q, Komarova N (2007) Mathematical models of specificity in cell signaling. Biophys J 92: 3425–3441. doi: 10.1529/biophysj.106.090084. 
+[47]	Thalhauser C, Komarova N (2010) Signal response sensitivity in the yeast mitogen-activated protein kinase cascade. PLoS ONE 5: e11568. doi: 10.1371/journal.pone.0011568. 
+[48]	Chapman S, Asthagiri A (2004) Resistance to signal activation governs design features of the MAP kinase signaling module. Biotechnol Bioeng 85: 311–322. doi: 10.1002/bit.10836. 
+[49]	Bashor C, Helman N, Yan S, Lim WA (2008) Using engineered scaffold interactions to reshape MAP kinase pathway signaling dynamics. Science 319: 1539–1543. doi: 10.1126/science.1151153. 
+[50]	Bardwell L (2008) Signal transduction: turning a switch into a rheostat. Curr Biol 18: R910–912. doi: 10.1016/j.cub.2008.07.082. 
+[51]	Macia J, Widder S, Sole R (2009) Specialized or flexible feed-forward loop motifs: a question of topology. BMC Syst Biol 3: 84. doi: 10.1186/1752-0509-3-84. 
+[52]	O'Shaughnessy E, Palani S, Collins J, Sarkar C (2011) Tunable signal processing in synthetic MAP kinase cascades. Cell 144: 119–131. doi: 10.1016/j.cell.2010.12.014. 
+[53]	Alon U (2007) An Introduction to Systems Biology. Boca Raton: Chapman & Hall/CRC. 
+[54]	Chen W, Schoeberl B, Jasper P, Niepel M, Niesen U, et al. (2009) Input-output behavior of ErbB signaling pathways as revealed by a mass action model trained against dynamic data. Mol Syst Biol 5: 239. doi: 10.1038/msb.2008.74. 

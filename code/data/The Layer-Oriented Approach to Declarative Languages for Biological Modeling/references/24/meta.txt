@@ -1,0 +1,6 @@
+TITLE: Accessing and integrating data and knowledge for biomedical research.
+AUTHORS: Burgun A, Bodenreider O
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

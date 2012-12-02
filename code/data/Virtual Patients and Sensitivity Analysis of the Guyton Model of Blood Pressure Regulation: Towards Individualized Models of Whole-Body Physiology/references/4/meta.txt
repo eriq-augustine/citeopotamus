@@ -1,0 +1,6 @@
+TITLE: Systems biology and the virtual physiological human.
+AUTHORS: Kohl P, Noble D
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

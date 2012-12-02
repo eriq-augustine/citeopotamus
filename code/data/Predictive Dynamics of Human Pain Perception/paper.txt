@@ -109,6 +109,7 @@ Correlation between fitted parameters for the second- and first-order models. St
 Text S1. 
 Description of additional data, including fits to individual perception traces, and further comparisons between the proposed models. An interpretation of the second order model in terms of signal processing is also included.
 (DOCX)
+REFERENCES
 [1]	Perl ER (2011) Pain mechanisms: a commentary on concepts and issues. Prog Neurobiol 94: 20. doi: 10.1016/j.pneurobio.2011.03.001. 
 [2]	Finger S (2001) Origins of Neuroscience: A history of explorations into brain function. London: Oxford University Press. 
 [3]	Wittgenstein L (1953) Philosophical investigations. Oxford: Blackwell Publishing (English Translation 2001). 

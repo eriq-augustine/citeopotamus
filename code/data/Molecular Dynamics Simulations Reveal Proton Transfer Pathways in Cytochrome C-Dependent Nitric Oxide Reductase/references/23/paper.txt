@@ -1,0 +1,4 @@
+Simulating proton translocations in proteins: probing proton transfer pathways in the Rhodobacter sphaeroides reaction center.
+Sham YY, Muegge I, Warshel A
+Abstract:
+None

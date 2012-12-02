@@ -1,4 +1,4 @@
-Wavelet measurement suggests cause of period instability in mammalian circadian neurons.
-Meeker K, Harang R, Webb AB, Welsh DK, Doyle FJ 3rd, Bonnet G, Herzog ED, Petzold LR
+WAVOS: a MATLAB toolkit for wavelet analysis and visualization of oscillatory systems.
+Harang R, Bonnet G, Petzold LR
 Abstract:
-Cells in the suprachiasmatic nucleus (SCN) display remarkable precision, while either physically or chemically decoupling these cells from each other leads to a dramatic increase in period-to-period variability. Where previous studies have classified cells as either arrhythmic or circadian, our wavelet analysis reveals that individual cells, when removed from network interactions, intermittently express circadian and/or longer infradian periods. We reproduce the characteristic period distribution of uncoupled SCN cells with a stochastic model of the uncoupled SCN cell near a bifurcation in Bmal1 transcription repression. This suggests that the uncoupled cells may be switching between 2 oscillatory mechanisms: the indirect negative feedback of protein complex PER-CRY on the expression of Per and Cry genes, and the negative feedback of CLOCK-BMAL1 on the expression of the Bmal1 gene. The model is particularly sensitive near this bifurcation point, with only a small change in Bmal1 transcription repression needed to switch from the stable precision of coupled SCN cells to the unstable oscillations of decoupled individual cells, making this rate constant, an ideal target for cell signaling in the SCN.
+None

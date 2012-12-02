@@ -1,0 +1,4 @@
+Acoustic signatures of sound source-tract coupling.
+Arneodo EM, Perl YS, Mindlin GB
+Abstract:
+None

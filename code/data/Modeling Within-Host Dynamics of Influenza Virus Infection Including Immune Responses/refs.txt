@@ -1,0 +1,68 @@
+REFERENCES
+[1]	WHOFact Sheet No. 211. http://www.who.int/mediacentre/factsheet​s/fs211/en/. April 2009. 
+[2]	Ronni T, Sareneva T, Pirhonen J, Julkunen I (1995) Activation of IFN-alpha, IFN-gamma, MxA, and IFN regulatory factor 1 genes in influenza A virus-infected human peripheral blood mononuclear cells. J Immunol 154: 2764–2774. 
+[3]	Maines TR, Szretter KJ, Perrone L, Belser JA, Bright RA, et al. (2008) Pathogenesis of emerging avian influenza viruses in mammals and the host innate immune response. Immunol Rev 225: 68–84. doi: 10.1111/j.1600-065X.2008.00690.x. 
+[4]	Julkunen I, Sareneva T, Pirhonen J, Ronni T, Melen K, et al. (2001) Molecular pathogenesis of influenza A virus infection and virus-induced regulation of cytokine gene expression. Cytokine Growth Factor Rev 12: 171–180. doi: 10.1016/S1359-6101(00)00026-5. 
+[5]	Garcia-Sastre A, Durbin RK, Zheng H, Palese P, Gertner R, et al. (1998) The role of interferon in influenza virus tissue tropism. J Virol 72: 8550–8558. 
+[6]	Gazit R, Gruda R, Elboim M, Arnon TI, Katz G, et al. (2006) Lethal influenza infection in the absence of the natural killer cell receptor gene Ncr1. Nat Immunol 7: 517–523. doi: 10.1038/ni1322. 
+[7]	Arnon TI, Achdout H, Lieberman N, Gazit R, Gonen-Gross T, et al. (2004) The mechanisms controlling the recognition of tumor- and virus-infected cells by NKp46. Blood 103: 664–672. doi: 10.1182/blood-2003-05-1716. 
+[8]	Draghi M, Pashine A, Sanjanwala B, Gendzekhadze K, Cantoni C, et al. (2007) NKp46 and NKG2D recognition of infected dendritic cells is necessary for NK cell activation in the human response to influenza infection. J Immunol 178: 2688–2698. 
+[9]	Mandelboim O, Lieberman N, Lev M, Paul L, Arnon TI, et al. (2001) Recognition of haemagglutinins on virus-infected cells by NKp46 activates lysis by human NK cells. Nature 409: 1055–1060. doi: 10.1038/35059110. 
+[10]	Arnon TI, Lev M, Katz G, Chernobrov Y, Porgador A, et al. (2001) Recognition of viral hemagglutinins by NKp44 but not by NKp30. Eur J Immunol 31: 2680–2689. doi: 10.1002/1521-4141(200109)31:9<2680::AID-IMMU2680>3.0.CO;2-A. 
+[11]	Murphy K (2012) 888 p. Janeway's Immunobiology: Garland Science. 
+[12]	Mogensen TH (2009) Pathogen recognition and inflammatory signaling in innate immune defenses. Clin Microbiol Rev 22: 240–273. Table of Contents. doi: 10.1128/CMR.00046-08. 
+[13]	Miao H, Hollenbaugh JA, Zand MS, Holden-Wiltse J, Mosmann TR, et al. (2010) Quantifying the early immune response and adaptive immune response kinetics in mice infected with influenza A virus. J Virol 84: 6687–6698. doi: 10.1128/JVI.00266-10. 
+[14]	Kuiken T, Rimmelzwaan G, van Riel D, van Amerongen G, Baars M, et al. (2004) Avian H5N1 influenza in cats. Science 306: 241. doi: 10.1126/science.1102287. 
+[15]	Zitzow LA, Rowe T, Morken T, Shieh WJ, Zaki S, et al. (2002) Pathogenesis of avian influenza A (H5N1) viruses in ferrets. J Virol 76: 4420–4429. doi: 10.1128/JVI.76.9.4420-4429.2002. 
+[16]	Quinlivan M, Nelly M, Prendergast M, Breathnach C, Horohov D, et al. (2007) Pro-inflammatory and antiviral cytokine expression in vaccinated and unvaccinated horses exposed to equine influenza virus. Vaccine 25: 7056–7064. doi: 10.1016/j.vaccine.2007.07.059. 
+[17]	Rimmelzwaan GF, Kuiken T, van Amerongen G, Bestebroer TM, Fouchier RA, et al. (2001) Pathogenesis of influenza A (H5N1) virus infection in a primate model. J Virol 75: 6687–6691. doi: 10.1128/JVI.75.14.6687-6691.2001. 
+[18]	Getto P, Kimmel M, Marciniak-Czochra A (2008) Modelling and analysis of dynamics of viral infection of cells and of interferon resistance. J Math Anal Appl 344: 821–850. doi: 10.1016/j.jmaa.2008.02.069. 
+[19]	Saenz RA, Quinlivan M, Elton D, Macrae S, Blunden AS, et al. (2010) Dynamics of influenza virus infection and pathology. J Virol 84: 3974–3983. doi: 10.1128/JVI.02078-09. 
+[20]	Baccam P, Beauchemin C, Macken CA, Hayden FG, Perelson AS (2006) Kinetics of influenza A virus infection in humans. J Virol 80: 7590–7599. doi: 10.1128/JVI.01623-05. 
+[21]	Handel A, Longini IM Jr, Antia R (2010) Towards a quantitative understanding of the within-host dynamics of influenza A infections. J R Soc Interface 7: 35–47. doi: 10.1098/rsif.2009.0067. 
+[22]	Handel A, Longini IM Jr, Antia R (2007) Neuraminidase inhibitor resistance in influenza: assessing the danger of its generation and spread. PLoS Comput Biol 3: e240. doi: 10.1371/journal.pcbi.0030240. 
+[23]	Smith AM, Adler FR, Perelson AS (2010) An accurate two-phase approximate solution to an acute viral infection model. J Math Biol 60: 711–726. doi: 10.1007/s00285-009-0281-8. 
+[24]	Hancioglu B, Swigon D, Clermont G (2007) A dynamical model of human immune response to influenza A virus infection. J Theor Biol 246: 70–86. doi: 10.1016/j.jtbi.2006.12.015. 
+[25]	Bocharov GA, Romanyukha AA (1994) Mathematical model of antiviral immune response. III. Influenza A virus infection. J Theor Biol 167: 323–360. doi: 10.1006/jtbi.1994.1074. 
+[26]	Beauchemin CA, McSharry JJ, Drusano GL, Nguyen JT, Went GT, et al. (2008) Modeling amantadine treatment of influenza A virus in vitro. J Theor Biol 254: 439–451. doi: 10.1016/j.jtbi.2008.05.031. 
+[27]	Lee HY, Topham DJ, Park SY, Hollenbaugh J, Treanor J, et al. (2009) Simulation and prediction of the adaptive immune response to influenza A virus infection. J Virol 83: 7151–7165. doi: 10.1128/JVI.00098-09. 
+[28]	Canini L, Carrat F (2011) Population modeling of influenza A/H1N1 virus kinetics and symptom dynamics. J Virol 85: 2764–2770. doi: 10.1128/JVI.01318-10. 
+[29]	Smith AM, Perelson AS (2011) Influenza A virus infection kinetics: quantitative data and models. Wiley Interdiscip Rev Syst Biol Med 3: 429–445. doi: 10.1002/wsbm.129. 
+[30]	Smith AM, Ribeiro RM (2010) Modeling the viral dynamics of influenza A virus infection. Crit Rev Immunol 30: 291–298. doi: 10.1615/CritRevImmunol.v30.i3.60. 
+[31]	Beauchemin CA, Handel A (2011) A review of mathematical models of influenza A infections within a host or cell culture: lessons learned and challenges ahead. BMC Public Health 11: Suppl 1S7. doi: 10.1186/1471-2458-11-S1-S7. 
+[32]	Garcia-Sastre A (2006) Antiviral response in pandemic influenza viruses. Emerg Infect Dis 12: 44–47. doi: 10.3201/eid1201.051186. 
+[33]	Herold S, Steinmueller M, von Wulffen W, Cakarova L, Pinto R, et al. (2008) Lung epithelial apoptosis in influenza virus pneumonia: the role of macrophage-expressed TNF-related apoptosis-inducing ligand. J Exp Med 205: 3065–3077. doi: 10.1084/jem.20080201. 
+[34]	Cheung CY, Poon LL, Lau AS, Luk W, Lau YL, et al. (2002) Induction of proinflammatory cytokines in human macrophages by influenza A (H5N1) viruses: a mechanism for the unusual severity of human disease? Lancet 360: 1831–1837. doi: 10.1016/S0140-6736(02)11772-7. 
+[35]	Balachandran S, Roberts PC, Kipperman T, Bhalla KN, Compans RW, et al. (2000) Alpha/beta interferons potentiate virus-induced apoptosis through activation of the FADD/Caspase-8 death signaling pathway. J Virol 74: 1513–1523. doi: 10.1128/JVI.74.3.1513-1523.2000. 
+[36]	Mohler L, Flockerzi D, Sann H, Reichl U (2005) Mathematical model of influenza A virus production in large-scale microcarrier culture. Biotechnol Bioeng 90: 46–58. doi: 10.1002/bit.20363. 
+[37]	Julkunen I, Melen K, Nyqvist M, Pirhonen J, Sareneva T, et al. (2000) Inflammatory responses in influenza A virus infection. Vaccine 19: Suppl 1S32–37. doi: 10.1016/S0264-410X(00)00275-9. 
+[38]	Dahari H, Major M, Zhang X, Mihalik K, Rice CM, et al. (2005) Mathematical modeling of primary hepatitis C infection: noncytolytic clearance and early blockage of virion production. Gastroenterology 128: 1056–1066. doi: 10.1053/j.gastro.2005.01.049. 
+[39]	Stone KC, Mercer RR, Gehr P, Stockstill B, Crapo JD (1992) Allometric relationships of cell numbers and size in the mammalian lung. Am J Respir Cell Mol Biol 6: 235–243. 
+[40]	Suzuki Y, Ito T, Suzuki T, Holland RE Jr, Chambers TM, et al. (2000) Sialic acid species as a determinant of the host range of influenza A viruses. J Virol 74: 11825–11831. doi: 10.1128/JVI.74.24.11825-11831.2000. 
+[41]	Thiebaut R, Guedj J, Jacqmin-Gadda H, Chene G, Trimoulet P, et al. (2006) Estimation of dynamical model parameters taking into account undetectable marker values. BMC Med Res Methodol 6: 38. 
+[42]	Helsel D (2010) Much ado about next to nothing: incorporating nondetects in science. Ann Occup Hyg 54: 257–262. doi: 10.1093/annhyg/mep092. 
+[43]	Mumford JA, Hannant D, Jessett DM (1990) Experimental infection of ponies with equine influenza (H3N8) viruses by intranasal inoculation or exposure to aerosols. Equine Vet J 22: 93–98. doi: 10.1111/j.2042-3306.1990.tb04217.x. 
+[44]	Murphy BR, Chanock RM, Clements ML, Anthony WC, Sear AJ, et al. (1981) Evaluation of A/Alaska/6/77 (H3N2) cold-adapted recombinant viruses derived from A/Ann Arbor/6/60 cold-adapted donor virus in adult seronegative volunteers. Infect Immun 32: 693–697. 
+[45]	Murphy BR, Rennels MB, Douglas RG Jr, Betts RF, Couch RB, et al. (1980) Evaluation of influenza A/Hong Kong/123/77 (H1N1) ts-1A2 and cold-adapted recombinant viruses in seronegative adult volunteers. Infect Immun 29: 348–355. 
+[46]	Jao RL, Wheelock EF, Jackson GG (1970) Production of interferon in volunteers infected with Asian influenza. J Infect Dis 121: 419–426. doi: 10.1093/infdis/121.4.419. 
+[47]	Nguyen KB, Salazar-Mather TP, Dalod MY, Van Deusen JB, Wei XQ, et al. (2002) Coordinated and distinct roles for IFN-alpha beta, IL-12, and IL-15 regulation of NK cell responses to viral infection. J Immunol 169: 4279–4287. 
+[48]	Garcia-Sastre A, Biron CA (2006) Type 1 interferons and the virus-host relationship: a lesson in detente. Science 312: 879–882. doi: 10.1126/science.1125676. 
+[49]	Lee CK, Rao DT, Gertner R, Gimeno R, Frey AB, et al. (2000) Distinct requirements for IFNs and STAT1 in NK cell function. J Immunol 165: 3571–3577. 
+[50]	Biron CA, Nguyen KB, Pien GC, Cousens LP, Salazar-Mather TP (1999) Natural killer cells in antiviral defense: function and regulation by innate cytokines. Annu Rev Immunol 17: 189–220. doi: 10.1146/annurev.immunol.17.1.189. 
+[51]	Nogusa S, Ritz BW, Kassim SH, Jennings SR, Gardner EM (2008) Characterization of age-related changes in natural killer cells during primary influenza infection in mice. Mech Ageing Dev 129: 223–230. doi: 10.1016/j.mad.2008.01.003. 
+[52]	Stein-Streilein J, Guffee J (1986) In vivo treatment of mice and hamsters with antibodies to asialo GM1 increases morbidity and mortality to pulmonary influenza infection. J Immunol 136: 1435–1441. 
+[53]	Stein-Streilein J, Guffee J, Fan W (1988) Locally and systemically derived natural killer cells participate in defense against intranasally inoculated influenza virus. Reg Immunol 1: 100–105. 
+[54]	Denney L, Aitken C, Li CK, Wilson-Davies E, Kok WL, et al. (2010) Reduction of natural killer but not effector CD8 T lymphocytes in three consecutive cases of severe/lethal H1N1/09 influenza A virus infection. PLoS One 5: e10675. 
+[55]	Jost S, Quillay H, Reardon J, Peterson E, Simmons RP, et al. (2011) Changes in cytokine levels and NK cell activation associated with influenza. PLoS One 6: e25060. doi: 10.1371/journal.pone.0025060. 
+[56]	Leung KN, Ada GL (1981) Induction of natural killer cells during murine influenza virus infection. Immunobiology 160: 352–366. doi: 10.1016/S0171-2985(81)80061-7. 
+[57]	Liu B, Mori I, Hossain MJ, Dong L, Takeda K, et al. (2004) Interleukin-18 improves the early defence system against influenza virus infection by augmenting natural killer cell-mediated cytotoxicity. J Gen Virol 85: 423–428. doi: 10.1099/vir.0.19596-0. 
+[58]	Monteiro JM, Harvey C, Trinchieri G (1998) Role of interleukin-12 in primary influenza virus infection. J Virol 72: 4825–4831. 
+[59]	Sareneva T, Matikainen S, Kurimoto M, Julkunen I (1998) Influenza A virus-induced IFN-alpha/beta and IL-18 synergistically enhance IFN-gamma gene expression in human T cells. J Immunol 160: 6032–6038. 
+[60]	Cella M, Salio M, Sakakibara Y, Langen H, Julkunen I, et al. (1999) Maturation, activation, and protection of dendritic cells induced by double-stranded RNA. J Exp Med 189: 821–829. doi: 10.1084/jem.189.5.821. 
+[61]	Verdijk RM, Mutis T, Esendam B, Kamp J, Melief CJ, et al. (1999) Polyriboinosinic polyribocytidylic acid (poly(I:C)) induces stable maturation of functionally active human dendritic cells. J Immunol 163: 57–61. 
+[62]	Diebold SS, Kaisho T, Hemmi H, Akira S, Reis e Sousa C (2004) Innate antiviral responses by means of TLR7-mediated recognition of single-stranded RNA. Science 303: 1529–1531. doi: 10.1126/science.1093616. 
+[63]	Moltedo B, Lopez CB, Pazos M, Becker MI, Hermesh T, et al. (2009) Cutting edge: stealth influenza virus replication precedes the initiation of adaptive immunity. J Immunol 183: 3569–3573. doi: 10.4049/jimmunol.0900091. 
+[64]	Fernandez-Sesma A, Marukian S, Ebersole BJ, Kaminski D, Park MS, et al. (2006) Influenza virus evades innate and adaptive immunity via the NS1 protein. J Virol 80: 6295–6304. doi: 10.1128/JVI.02381-05. 
+[65]	Kochs G, Garcia-Sastre A, Martinez-Sobrido L (2007) Multiple anti-interferon actions of the influenza A virus NS1 protein. J Virol 81: 7011–7021. doi: 10.1128/JVI.02581-06. 
+[66]	Mulder JHJ (1972) Influenza. Groningen: Wolters-Noordhoff. 1972 p. 
+[67]	Taubenberger JK, Morens DM (2008) The pathology of influenza virus infections. Annu Rev Pathol 3: 499–522. 

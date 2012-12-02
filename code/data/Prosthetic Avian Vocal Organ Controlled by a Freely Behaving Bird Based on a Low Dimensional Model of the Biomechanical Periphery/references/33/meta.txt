@@ -1,0 +1,6 @@
+TITLE: Partial muting leads to age-dependent modification of motor patterns underlying crystallized zebra finch song.
+AUTHORS: Cooper BG, Goller F
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

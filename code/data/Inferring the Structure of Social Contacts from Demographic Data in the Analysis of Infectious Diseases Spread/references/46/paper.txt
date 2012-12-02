@@ -1,0 +1,4 @@
+Modelling the proportion of influenza infections within households during pandemic and non-pandemic years.
+Kwok KO, Leung GM, Riley S
+Abstract:
+None

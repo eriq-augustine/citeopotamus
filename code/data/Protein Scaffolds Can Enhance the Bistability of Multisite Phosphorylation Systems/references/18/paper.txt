@@ -1,0 +1,4 @@
+Tuning bulk electrostatics to regulate protein function.
+Serber Z, Ferrell JE Jr
+Abstract:
+Cyclin-dependent kinase activation can prevent yeast cells from responding to mating pheromone. Strickfaden et al. (2007) now show that this block arises from the multisite phosphorylation of Ste5. This provides a beautiful example of how phosphorylation can produce decisive changes in protein function through bulk electrostatics, without the necessity of intricate conformational changes.

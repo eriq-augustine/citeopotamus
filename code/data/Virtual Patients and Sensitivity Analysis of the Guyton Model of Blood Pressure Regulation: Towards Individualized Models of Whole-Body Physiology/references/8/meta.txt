@@ -1,0 +1,6 @@
+TITLE: The genotype-phenotype relationship in multicellular pattern-generating models--the neglected role of pattern descriptors.
+AUTHORS: Martens H, Veflingstad SR, Plahte E, Martens M, Bertrand D, Omholt SW
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

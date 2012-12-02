@@ -1,0 +1,6 @@
+TITLE: Biofilms and infectious diseases: biology to mathematics and back again.
+AUTHORS: Cogan NG, Gunn JS, Wozniak DJ
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

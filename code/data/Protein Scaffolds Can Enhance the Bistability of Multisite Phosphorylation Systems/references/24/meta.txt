@@ -1,0 +1,6 @@
+TITLE: Scaffolds: interaction platforms for cellular signalling circuits.
+AUTHORS: Zeke A, Lukács M, Lim WA, Reményi A
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Scaffold proteins influence cellular signalling by binding to multiple signalling enzymes, receptors or ion channels. Although normally devoid of catalytic activity, they have a big impact on controlling the flow of signalling information. By assembling signalling proteins into complexes, they play the part of signal processing hubs. As we learn more about the way signalling components are linked into natural signalling circuits, researchers are becoming interested in building non-natural signalling pathways to test our knowledge and/or to intentionally reprogram cellular behaviour. In this review, we discuss the role of scaffold proteins as efficient tools for assembling intracellular signalling complexes, both natural and artificial.

@@ -1,0 +1,4 @@
+Phenomics: the next challenge.
+Houle D, Govindaraju DR, Omholt S
+Abstract:
+A key goal of biology is to understand phenotypic characteristics, such as health, disease and evolutionary fitness. Phenotypic variation is produced through a complex web of interactions between genotype and environment, and such a 'genotype-phenotype' map is inaccessible without the detailed phenotypic data that allow these interactions to be studied. Despite this need, our ability to characterize phenomes - the full set of phenotypes of an individual - lags behind our ability to characterize genomes. Phenomics should be recognized and pursued as an independent discipline to enable the development and adoption of high-throughput and high-dimensional phenotyping.

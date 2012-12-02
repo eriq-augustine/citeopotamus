@@ -1,0 +1,4 @@
+Why are computational neuroscience and systems biology so separate?
+De Schutter E
+Abstract:
+Despite similar computational approaches, there is surprisingly little interaction between the computational neuroscience and the systems biology research communities. In this review I reconstruct the history of the two disciplines and show that this may explain why they grew up apart. The separation is a pity, as both fields can learn quite a bit from each other. Several examples are given, covering sociological, software technical, and methodological aspects. Systems biology is a better organized community which is very effective at sharing resources, while computational neuroscience has more experience in multiscale modeling and the analysis of information processing by biological systems. Finally, I speculate about how the relationship between the two fields may evolve in the near future.

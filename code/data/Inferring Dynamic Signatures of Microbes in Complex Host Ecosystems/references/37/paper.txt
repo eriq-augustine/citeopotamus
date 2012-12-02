@@ -1,0 +1,4 @@
+Comparative activity of ciprofloxacin, ofloxacin, sparfloxacin, temafloxacin, CI-960, CI-990, and WIN 57273 against anaerobic bacteria.
+Goldstein EJ, Citron DM
+Abstract:
+The in vitro activities of seven fluoroquinolones against 290 anaerobes were determined by agar dilution. CI-960 and WIN 57273 inhibited greater than 95% of the strains at less than or equal to 2 micrograms/ml. CI-990 required less than or equal to 16 micrograms/ml. Clustering around 2 to 4 micrograms/ml was noted for Bacteroides fragilis group organisms with CI-990, sparfloxacin, and temafloxacin. Temafloxacin and sparfloxacin inhibited most strains at less than or equal to 2 micrograms/ml. B. fragilis was more susceptible to all quinolones than were the other B. fragilis group strains.

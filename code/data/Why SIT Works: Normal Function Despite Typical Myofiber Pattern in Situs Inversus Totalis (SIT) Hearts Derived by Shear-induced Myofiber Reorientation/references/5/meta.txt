@@ -1,0 +1,6 @@
+TITLE: Characterization of the normal cardiac myofiber field in goat measured with MR-diffusion tensor imaging.
+AUTHORS: Geerts L, Bovendeerd P, Nicolay K, Arts T
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Cardiac myofiber orientation is a crucial determinant of the distribution of myocardial wall stress. Myofiber orientation is commonly quantified by helix and transverse angles. Accuracy of reported helix angles is limited. Reported transverse angle data are incomplete. We measured cardiac myofiber orientation postmortem in five healthy goat hearts using magnetic resonance-diffusion tensor imaging. A novel local wall-bound coordinate system was derived from the characteristics of the fiber field. The transmural course of the helix angle corresponded to data reported in literature. The mean midwall transverse angle ranged from -12 +/- 4 degrees near the apex to +9.0 +/- 4 degrees near the base of the left ventricle, which is in agreement with the course predicted by Rijcken et al. (18) using a uniform load hypothesis. The divergence of the myofiber field was computed, which is a measure for the extent to which wall stress is transmitted through the myofiber alone. It appeared to be <0.07 mm(-1) throughout the myocardial walls except for the fusion sites between the left and right ventricles and the insertion sites of the papillary muscles.

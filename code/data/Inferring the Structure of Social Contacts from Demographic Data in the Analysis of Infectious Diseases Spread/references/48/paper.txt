@@ -1,0 +1,4 @@
+On the definition and the computation of the basic reproduction ratio R0 in models for infectious diseases in heterogeneous populations.
+Diekmann O, Heesterbeek JA, Metz JA
+Abstract:
+The expected number of secondary cases produced by a typical infected individual during its entire period of infectiousness in a completely susceptible population is mathematically defined as the dominant eigenvalue of a positive linear operator. It is shown that in certain special cases one can easily compute or estimate this eigenvalue. Several examples involving various structuring variables like age, sexual disposition and activity are presented.

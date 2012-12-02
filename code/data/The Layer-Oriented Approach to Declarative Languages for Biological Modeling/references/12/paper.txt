@@ -1,0 +1,4 @@
+The promise and shortcomings of XML as an interchange format for computational models of biology.
+Raikov I, De Schutter E
+Abstract:
+None

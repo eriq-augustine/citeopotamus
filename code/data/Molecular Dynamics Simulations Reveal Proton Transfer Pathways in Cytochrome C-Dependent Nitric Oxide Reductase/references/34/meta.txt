@@ -1,0 +1,6 @@
+TITLE: Exploring atomic resolution physiology on a femtosecond to millisecond timescale using molecular dynamics simulations.
+AUTHORS: Dror RO, Jensen MØ, Borhani DW, Shaw DE
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

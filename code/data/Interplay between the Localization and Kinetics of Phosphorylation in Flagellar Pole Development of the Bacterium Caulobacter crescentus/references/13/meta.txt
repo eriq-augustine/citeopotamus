@@ -1,0 +1,6 @@
+TITLE: Differential localization of two histidine kinases controlling bacterial cell differentiation.
+AUTHORS: Wheeler RT, Shapiro L
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The bacterium C. crescentus coordinates cellular differentiation and cell cycle progression via a network of signal transduction proteins. Here, we demonstrate that the antagonistic DivJ and PleC histidine kinases that regulate polar differentiation are differentially localized as a function of the cell cycle. The DivJ kinase localizes to the stalked pole in response to a signal at the G1-to-S transition, while the PleC kinase is localized to the flagellar pole in swarmer and predivisional cells but is dispersed throughout the cell in the stalked cell. PleC, which is required for DivJ localization, may provide the cue at the G1-to-S transition that directs the polar positioning of DivJ. The dynamic positioning of signal transduction proteins may contribute to the regulation of polar differentiation at specific times during the bacterial cell cycle.

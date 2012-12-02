@@ -1,0 +1,6 @@
+TITLE: The promise and shortcomings of XML as an interchange format for computational models of biology.
+AUTHORS: Raikov I, De Schutter E
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

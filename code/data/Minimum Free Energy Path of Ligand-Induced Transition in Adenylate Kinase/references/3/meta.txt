@@ -1,0 +1,6 @@
+TITLE: Finite temperature string method for the study of rare events.
+AUTHORS: E W, Ren W, Vanden-Eijnden E
+TERMS:
+CATEGORIES:
+ABSTRACT:
+A method is presented for the study of rare events such as conformational changes arising in activated processes whose reaction coordinate is not known beforehand and for which the assumptions of transition state theory are invalid. The method samples the energy landscape adaptively and determines the isoprobability surfaces for the transition: by definition the trajectories initiated anywhere on one of these surfaces has equal probability to reach first one metastable set rather than the other. Upon weighting these surfaces by the equilibrium probability distribution, one obtains an effective transition pathway, i.e., a tube in configuration space inside which conformational changes occur with high probability, and the associated rate. The method is first validated on a simple two-dimensional example; then it is applied to a model of solid-solid transformation of a condensed system.

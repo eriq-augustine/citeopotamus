@@ -1,0 +1,6 @@
+TITLE: Simulating proton translocations in proteins: probing proton transfer pathways in the Rhodobacter sphaeroides reaction center.
+AUTHORS: Sham YY, Muegge I, Warshel A
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

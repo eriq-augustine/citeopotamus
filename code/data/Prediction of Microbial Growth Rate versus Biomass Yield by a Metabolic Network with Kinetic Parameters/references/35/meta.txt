@@ -1,0 +1,6 @@
+TITLE: Bacterial growth laws and their applications.
+AUTHORS: Scott M, Hwa T
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

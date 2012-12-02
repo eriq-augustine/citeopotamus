@@ -1,0 +1,4 @@
+An effective all-atom potential for proteins.
+Irbäck A, Mitternacht S, Mohanty S
+Abstract:
+ We describe and test an implicit solvent all-atom potential for simulations of protein folding and aggregation. The potential is developed through studies of structural and thermodynamic properties of 17 peptides with diverse secondary structure. Results obtained using the final form of the potential are presented for all these peptides. The same model, with unchanged parameters, is furthermore applied to a heterodimeric coiled-coil system, a mixed alpha/beta protein and a three-helix-bundle protein, with very good results. The computational efficiency of the potential makes it possible to investigate the free-energy landscape of these 49-67-residue systems with high statistical accuracy, using only modest computational resources by today's standards.PACS Codes: 87.14.E-, 87.15.A-, 87.15.Cc.

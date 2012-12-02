@@ -1,0 +1,4 @@
+Comparing large-scale computational approaches to epidemic modeling: agent-based versus structured metapopulation models.
+Ajelli M, Gonçalves B, Balcan D, Colizza V, Hu H, Ramasco JJ, Merler S, Vespignani A
+Abstract:
+None

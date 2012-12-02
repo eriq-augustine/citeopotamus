@@ -1,0 +1,6 @@
+TITLE: Computational model for vocal tract dynamics in a suboscine bird.
+AUTHORS: Assaneo MF, Trevisan MA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+In a recent work, active use of the vocal tract has been reported for singing oscines. The reconfiguration of the vocal tract during song serves to match its resonances to the syringeal fundamental frequency, demonstrating a precise coordination of the two main pieces of the avian vocal system for songbirds characterized by tonal songs. In this work we investigated the Great Kiskadee (Pitangus sulfuratus), a suboscine bird whose calls display a rich harmonic content. Using a recently developed mathematical model for the syrinx and a mobile vocal tract, we set up a computational model that provides a plausible reconstruction of the vocal tract movement using a few spectral features taken from the utterances. Moreover, synthetic calls were generated using the articulated vocal tract that accounts for all the acoustical features observed experimentally.

@@ -1,0 +1,6 @@
+TITLE: Mathematical model of influenza A virus production in large-scale microcarrier culture.
+AUTHORS: Möhler L, Flockerzi D, Sann H, Reichl U
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

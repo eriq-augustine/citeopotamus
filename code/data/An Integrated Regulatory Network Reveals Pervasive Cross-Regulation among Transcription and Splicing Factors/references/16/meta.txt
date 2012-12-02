@@ -1,0 +1,6 @@
+TITLE: Cross-regulation between an alternative splicing activator and a transcription repressor controls neurogenesis.
+AUTHORS: Raj B, O'Hanlon D, Vessey JP, Pan Q, Ray D, Buckley NJ, Miller FD, Blencowe BJ
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

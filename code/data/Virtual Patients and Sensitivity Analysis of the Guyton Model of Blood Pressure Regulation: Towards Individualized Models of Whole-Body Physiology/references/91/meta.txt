@@ -1,0 +1,6 @@
+TITLE: An observational study of bevacizumab-induced hypertension as a clinical biomarker of antitumor activity.
+AUTHORS: Mir O, Coriat R, Cabanes L, Ropert S, Billemont B, Alexandre J, Durand JP, Treluyer JM, Knebelmann B, Goldwasser F
+TERMS:
+CATEGORIES:
+ABSTRACT:
+None

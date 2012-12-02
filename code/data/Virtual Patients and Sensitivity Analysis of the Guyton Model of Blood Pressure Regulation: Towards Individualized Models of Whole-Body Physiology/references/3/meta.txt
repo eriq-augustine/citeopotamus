@@ -1,0 +1,6 @@
+TITLE: A vision and strategy for the virtual physiological human in 2010 and beyond.
+AUTHORS: Hunter P, Coveney PV, de Bono B, Diaz V, Fenner J, Frangi AF, Harris P, Hose R, Kohl P, Lawford P, McCormack K, Mendes M, Omholt S, Quarteroni A, Skår J, Tegner J, Randall Thomas S, Tollis I, Tsamardinos I, van Beek JH, Viceconti M
+TERMS:
+CATEGORIES:
+ABSTRACT:
+European funding under framework 7 (FP7) for the virtual physiological human (VPH) project has been in place now for nearly 2 years. The VPH network of excellence (NoE) is helping in the development of common standards, open-source software, freely accessible data and model repositories, and various training and dissemination activities for the project. It is also helping to coordinate the many clinically targeted projects that have been funded under the FP7 calls. An initial vision for the VPH was defined by framework 6 strategy for a European physiome (STEP) project in 2006. It is now time to assess the accomplishments of the last 2 years and update the STEP vision for the VPH. We consider the biomedical science, healthcare and information and communications technology challenges facing the project and we propose the VPH Institute as a means of sustaining the vision of VPH beyond the time frame of the NoE.

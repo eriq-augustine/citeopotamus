@@ -1,0 +1,4 @@
+Functional characterization of the antibiotic resistance reservoir in the human microflora.
+Sommer MO, Dantas G, Church GM
+Abstract:
+To understand the process by which antibiotic resistance genes are acquired by human pathogens, we functionally characterized the resistance reservoir in the microbial flora of healthy individuals. Most of the resistance genes we identified using culture-independent sampling have not been previously identified and are evolutionarily distant from known resistance genes. By contrast, nearly half of the resistance genes we identified in cultured aerobic gut isolates (a small subset of the gut microbiome) are identical to resistance genes harbored by major pathogens. The immense diversity of resistance genes in the human microbiome could contribute to future emergence of antibiotic resistance in human pathogens.

@@ -1,0 +1,6 @@
+TITLE: Attention modulates responses in the human lateral geniculate nucleus.
+AUTHORS: O'Connor DH, Fukui MM, Pinsk MA, Kastner S
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Attentional mechanisms are important for selecting relevant information and filtering out irrelevant information from cluttered visual scenes. Selective attention has previously been shown to affect neural activity in both extrastriate and striate visual cortex. Here, evidence from functional brain imaging shows that attentional response modulation is not confined to cortical processing, but can occur as early as the thalamic level. We found that attention modulated neural activity in the human lateral geniculate nucleus (LGN) in several ways: it enhanced neural responses to attended stimuli, attenuated responses to ignored stimuli and increased baseline activity in the absence of visual stimulation. The LGN, traditionally viewed as the gateway to visual cortex, may also serve as a 'gatekeeper' in controlling attentional response gain.

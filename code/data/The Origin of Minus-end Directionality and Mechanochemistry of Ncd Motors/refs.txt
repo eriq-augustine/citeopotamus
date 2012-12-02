@@ -50,13 +50,13 @@ REFERENCES
 [49]	Sindelar CV, Downing KH (2010) An atomic-level mechanism for activation of the kinesin molecular motors. Proc Natl Acad Sci USA 107: 4111–4116. doi: 10.1073/pnas.0911208107. 
 [50]	Lupas A, Van Dyke M, Stock J (1991) Predicting coiled coils from protein sequences. Science 252: 1162–1164. doi: 10.1126/science.252.5009.1162. 
 [51]	Endow SA, Fletterick RJ (1998) Reversing a ‘backwards’ motor. Bio Essays 20: 108–112. doi: 10.1002/(SICI)1521-1878(199802)20:2<108::AID-BIES2>3.0.CO;2-P. 
-[52]	Foster KA, Correia JJ, Gilbert SP (1998) Equilibrium binding studies of non-claret disjunctional protein (Ncd) reveal cooperative interactions between the motor domains. J Biol Chem 273: 35307–35318. 
-[53]	Cross RA, Crevel I, Carter NJ, Alonso MC, Hirose K, et al. (2000) The conformational cycle of kinesin. Phil Trans Royal Soc London B 355: 459–464. 
-[54]	Crevel IM, Lockhart A, Cross RA (1996) Weak and strong states of Kinesin and ncd. J Mol Biol 257: 66–76. 
+[52]	Foster KA, Correia JJ, Gilbert SP (1998) Equilibrium binding studies of non-claret disjunctional protein (Ncd) reveal cooperative interactions between the motor domains. J Biol Chem 273: 35307–35318. doi: 10.1074/jbc.273.52.35307. 
+[53]	Cross RA, Crevel I, Carter NJ, Alonso MC, Hirose K, et al. (2000) The conformational cycle of kinesin. Phil Trans Royal Soc London B 355: 459–464. doi: 10.1098/rstb.2000.0587. 
+[54]	Crevel IM, Lockhart A, Cross RA (1996) Weak and strong states of Kinesin and ncd. J Mol Biol 257: 66–76. doi: 10.1006/jmbi.1996.0147. 
 [55]	Pechantikova E, Taylor EW (1997) Kinetic mechanism of monomeric non-claret disjunctional protein (Ncd) ATPase. J Biol Chem 272: 30735–30740. 
-[56]	Noel JK, Whitford PC, Sanbonmatsu KY, Onuchic JN (2010) SMOG@ctbp: simplified deployment of structure-based models in GROMACS. Nuc Acids Res 38: W657–661. 
-[57]	Le H, deRosier D, Nicholson W, Nogales E, Downing K (2002) Microtubule Structure at 8 Å Resolution. Structure 10: 1317–1328. 
-[58]	Honeycutt JD, Thirumalai D (1992) The nature of folded states of globular proteins. Bioplymers 32: 695–709. 
+[56]	Noel JK, Whitford PC, Sanbonmatsu KY, Onuchic JN (2010) SMOG@ctbp: simplified deployment of structure-based models in GROMACS. Nuc Acids Res 38: W657–661. doi: 10.1093/nar/gkq498. 
+[57]	Le H, deRosier D, Nicholson W, Nogales E, Downing K (2002) Microtubule Structure at 8 Å Resolution. Structure 10: 1317–1328. doi: 10.1016/S0969-2126(02)00827-4. 
+[58]	Honeycutt JD, Thirumalai D (1992) The nature of folded states of globular proteins. Bioplymers 32: 695–709. doi: 10.1002/bip.360320610. 
 [59]	Walker RA (1995) ncd and kinesin motor domains interact with both alpha- and beta-tubulin. Proc Natl Acad Sci USA 92: 5960–5964. 
-[60]	Song A, Endow SA (1996) Binding sites on microtubules of Kinesin motors of the same or opposite polarity. Biochemistry 35: 11203–11209. 
-[61]	Lockhart A, Crevel M-TC, Cross RA (1995) Kinesin and ncd bind through a single head to microtubules and compete for a shared MT binding site. J Mol Biol 249: 763–771. 
+[60]	Song A, Endow SA (1996) Binding sites on microtubules of Kinesin motors of the same or opposite polarity. Biochemistry 35: 11203–11209. doi: 10.1021/bi960997b. 
+[61]	Lockhart A, Crevel M-TC, Cross RA (1995) Kinesin and ncd bind through a single head to microtubules and compete for a shared MT binding site. J Mol Biol 249: 763–771. doi: 10.1006/jmbi.1995.0335. 

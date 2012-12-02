@@ -1,0 +1,1353 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:dc="http://purl.org/dc/terms/"
+      xmlns:doi="http://dx.doi.org/"
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes#"
+      lang="en" xml:lang="en"
+      itemscope itemtype="http://schema.org/Article">
+
+<head>
+   <title>PLOS Computational Biology: Binding of Two Intrinsically Disordered Peptides to a Multi-Specific Protein: A Combined Monte Carlo and Molecular Dynamics Study</title>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9" />
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+<link rel="home" title="home" href="/home.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D" />
+<link rel="alternate" type="application/rss+xml"
+  title="PLOS Computational Biology: New Articles"
+  href="http://www.ploscompbiol.org/article/feed" />
+
+<link rel="pingback" href="http://www.ploscompbiol.org/pingback" />
+
+
+<!-- global_css.ftl -->
+<link rel="stylesheet" type="text/css" media="screen" href="/css/dojo/dijit/themes/tundra/tundra.css?v=zwugcxLdpBWmb72qqlHgGyeNAGM" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/star_rating.css?v=Mm3HyaUPUahAJAq6xG5W3tdF7Hk" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/rating.css?v=AOT9rozE9sYVjGTdeiyxHf18Ykw" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/screen.css?v=KBNFqBmhD635U0NgiM5tf9dtxRE" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/iepc.css?v=FIjyR83BhSovq_5yNVk1Sih60AI" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/journal.css?v=SiREXztjNSUsOyrlkE9sv028Y+0" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/lightBox.css?v=sDgsUXamFoYAakEshdj0YWrZiiQ" />
+<link rel="stylesheet" type="text/css" media="print" href="/css/print.css?v=0T+LTV7Gd0jtHEhqEvBfSrmHUGg" />
+
+<!--chartbeat --> 
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+
+
+<!--[if IE]><![endif]-->
+<meta name="description" content="PLOS Computational Biology is an open-access" />
+
+<meta name="keywords" content="plos computational biology" />
+
+  <meta name="citation_publisher" content="Public Library of Science" />
+  <meta name="citation_doi" content="10.1371/journal.pcbi.1002682" />
+    <meta name="citation_title" content="Binding of Two Intrinsically Disordered Peptides to a Multi-Specific Protein: A Combined Monte Carlo and Molecular Dynamics Study"/>
+    <meta itemprop="name" content="Binding of Two Intrinsically Disordered Peptides to a Multi-Specific Protein: A Combined Monte Carlo and Molecular Dynamics Study"/>
+
+      <meta name="citation_author" content="Iskra Staneva" />
+          <meta name="citation_author_institution" content="Department of Astronomy and Theoretical Physics, Computational Biology and Biological Physics group, Lund University, Lund, Sweden" />
+      <meta name="citation_author" content="Yongqi Huang" />
+          <meta name="citation_author_institution" content="College of Chemistry and Molecular Engineering, and Center for Quantitative Biology, Peking University, Beijing, China" />
+      <meta name="citation_author" content="Zhirong Liu" />
+          <meta name="citation_author_institution" content="College of Chemistry and Molecular Engineering, and Center for Quantitative Biology, Peking University, Beijing, China" />
+      <meta name="citation_author" content="Stefan Wallin" />
+          <meta name="citation_author_institution" content="Department of Astronomy and Theoretical Physics, Computational Biology and Biological Physics group, Lund University, Lund, Sweden" />
+
+    <meta name="citation_date" content="2012/9/13"/>
+
+  <meta name="citation_pdf_url" content="http://dx.plos.org/10.1371/journal.pcbi.1002682.pdf" />
+
+    <meta name="citation_journal_title" content="PLOS Computational Biology" />
+    <meta name="citation_firstpage" content="e1002682"/>
+    <meta name="citation_issue" content="9"/>
+    <meta name="citation_volume" content="8"/>
+    <meta name="citation_issn" content="1553-7358"/>
+
+    <meta name="citation_journal_abbrev" content="PLoS Comput Biol" />
+
+      <meta name="citation_reference" content="citation_title=Function and structure of inherently disordered proteins; citation_volume=18; citation_number=1; citation_pages=756-764; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Intrinsic disorder in cell-signaling and cancer-associated proteins; citation_volume=323; citation_number=2; citation_pages=573-584; citation_date=2002; " />
+      <meta name="citation_reference" content="citation_title=Protein disorder and the evolution of molecular recognition: theory, predictions and observations; citation_volume=1998; citation_number=3; citation_pages=473-484; citation_date=1998; " />
+      <meta name="citation_reference" content="citation_title=Speeding molecular recognition by using the folding funnel: the y-casting mechanism; citation_volume=97; citation_number=4; citation_pages=8868-8873; citation_date=2000; " />
+      <meta name="citation_reference" content="citation_title=Extended disordered proteins: targeting function with less scaffold; citation_volume=28; citation_number=5; citation_pages=81-85; citation_date=2003; " />
+      <meta name="citation_reference" content="citation_title=Intrinsic disorder as a mechanism to optimize allosteric coupling in proteins; citation_volume=104; citation_number=6; citation_pages=8311-8315; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Structural studies of p21Waf1/Cip1/Sdi1 in the free and Cdk2-bound state: conformational disorder mediates binding diversity; citation_volume=93; citation_number=7; citation_pages=11504-11509; citation_date=1996; " />
+      <meta name="citation_reference" content="citation_title=What properties characterize the hub proteins of the protein-protein interaction network of Saccharomyces cerevisiae; citation_volume=7; citation_number=8; citation_pages=R45; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=Intrinsic disorder is a common feature of hub proteins from four eukaryotic interactomes; citation_volume=2; citation_number=9; citation_pages=e100; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=Activation and activities of the p53 tumour suppressor protein; citation_volume=85; citation_number=10; citation_pages=1813-1823; citation_date=2001; " />
+      <meta name="citation_reference" content="citation_title=Structure of a Sir 2 enzyme bound to an acetylated p53 peptide; citation_volume=10; citation_number=11; citation_pages=523-535; citation_date=2002; " />
+      <meta name="citation_reference" content="citation_title=Specificity determinants of recruitment peptides bound to phospho-CDK2/cyclin A; citation_volume=41; citation_number=12; citation_pages=15625-15634; citation_date=2002; " />
+      <meta name="citation_reference" content="citation_title=Structural mechanism of the bromodomain of the coactivator CBP in p53 transcriptional activation; citation_volume=13; citation_number=13; citation_pages=251-263; citation_date=2004; " />
+      <meta name="citation_reference" content="citation_title=Flexible nets: disorder and induced fit in the associations of p53 and 14-3-3 with their partners; citation_volume=9 Suppl 1; citation_number=14; citation_pages=S1; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Identification of calcium-dependent and calcium-enhanced binding between S100B and the dopamine D2 receptor; citation_volume=50; citation_number=15; citation_pages=9056-9065; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Structure of the negative regulatory domain of p53 bound to S100B(β β); citation_volume=7; citation_number=16; citation_pages=570-574; citation_date=2000; " />
+      <meta name="citation_reference" content="citation_title=Specificity and Zn2+ enhancement of the S100B binding epitope TRTK-12; citation_volume=274; citation_number=17; citation_pages=1502-1508; citation_date=1999; " />
+      <meta name="citation_reference" content="citation_title=A novel target conformation is revealed by the solution structure of the Ca2+–S100B–TRTK-12 complex; citation_volume=278; citation_number=18; citation_pages=6251-6257; citation_date=2003; " />
+      <meta name="citation_reference" content="citation_title=Solution NMR structure of S100B bound to the high-affinity target peptide TRTK-12; citation_volume=324; citation_number=19; citation_pages=1003-1014; citation_date=2002; " />
+      <meta name="citation_reference" content="citation_title=The effects of CapZ peptide (TRTK-12) binding to S100B-Ca2+ as examined by NMR and X-ray crystallography; citation_volume=396; citation_number=20; citation_pages=1227-1243; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Intrinsically disordered p53 extreme C-terminus binds to S100B(β β) through “fly-casting”; citation_volume=131; citation_number=21; citation_pages=2088-2089; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Modeling the relationship between the p53 C-terminal domain and its binding partners using molecular dynamics; citation_volume=114; citation_number=22; citation_pages=13201-13213; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Insight into a novel p53 single point mutation (G389E) by Molecular Dynamics simulations; citation_volume=12; citation_number=23; citation_pages=128-140; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Anchoring Intrinsically Disordered Proteins to Multiple Targets: Lessons from N-Terminus of the p53 Protein; citation_volume=12; citation_number=24; citation_pages=1410-1430; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Thermodynamics of alpha- and betastructure formation in proteins; citation_volume=85; citation_number=25; citation_pages=1466-1473; citation_date=2003; " />
+      <meta name="citation_reference" content="citation_title=PROFASI: A Monte Carlo simulation package for protein folding and aggregation; citation_volume=27; citation_number=26; citation_pages=1548-1555; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=An effective all-atom potential for proteins; citation_volume=2; citation_number=27; citation_pages=2; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=All-atom Monte Carlo approach to protein-peptide binding; citation_volume=393; citation_number=28; citation_pages=1118-1128; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Binding free energy landscape of domain-peptide interactions; citation_volume=7; citation_number=29; citation_pages=e1002131; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Accurate prediction of peptide binding sites on protein surfaces; citation_volume=5; citation_number=30; citation_pages=e1000335; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Rosetta FlexPepDock ab-initio: simultaneous folding, docking and refinement of peptides onto their receptors; citation_volume=6; citation_number=31; citation_pages=e18934; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Structural and dynamic determinants of protein-peptide recognition; citation_volume=19; citation_number=32; citation_pages=1837-1845; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Kinetic studies of protein-protein interactions; citation_volume=12; citation_number=33; citation_pages=41-47; citation_date=2002; " />
+      <meta name="citation_reference" content="citation_title=Linking folding and binding; citation_volume=19; citation_number=34; citation_pages=31-38; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Mechanism of coupled folding and binding of an intrinsically disordered protein; citation_volume=447; citation_number=35; citation_pages=1021-1025; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Mechanism of fast peptide recognition by SH3 domains; citation_volume=47; citation_number=36; citation_pages=7626-7630; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Kinetic Advantage of Intrinsically Disordered Proteins in Coupled FoldingBinding Process: A Critical Assessment of the “Fly-Casting” Mechanism; citation_volume=393; citation_number=37; citation_pages=1143-1159; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Nonnative interactions in coupled folding and binding processes of intrinsically disordered proteins; citation_volume=5; citation_number=38; citation_pages=e15375; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=The Ca2+-dependent interaction of S100(β β) with a peptide derived from p53; citation_volume=37; citation_number=39; citation_pages=1951-1960; citation_date=1998; " />
+      <meta name="citation_reference" content="citation_title=Assessing the effect of conformational averaging on the measured values of observables; citation_volume=19; citation_number=40; citation_pages=305-320; citation_date=2001; " />
+      <meta name="citation_reference" content="citation_title=Comparing atomistic simulation data with the NMR experiment: how much can NOEs actually tell us; citation_volume=63; citation_number=41; citation_pages=210-218; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=Fragment docking to S100 proteins reveals a wide diversity of weak interaction sites; citation_volume=2; citation_number=42; citation_pages=1648-1654; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Assembly of cell regulatory systems through protein interaction domains; citation_volume=300; citation_number=43; citation_pages=445-452; citation_date=2003; " />
+      <meta name="citation_reference" content="citation_title=PDZ domains and their binding partners: structure, specificity, and modification; citation_volume=8; citation_number=44; citation_pages=8; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Structure of the Ca2+/S100B/NDR kinase peptide complex: insights into S100 target specificity and activation of the kinase; citation_volume=42; citation_number=45; citation_pages=14416-14426; citation_date=2003; " />
+      <meta name="citation_reference" content="citation_title=GROMACS: a message-passing parallel molecular dynamics implementation; citation_volume=91; citation_number=46; citation_pages=43-56; citation_date=1995; " />
+      <meta name="citation_reference" content="citation_title=GROMACS 4: algorithms for highly efficient, load-balanced, and scalable molecular simulations; citation_volume=4; citation_number=47; citation_pages=435-447; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Evaluation and reparametrization of the OPLS-AA force field for proteins via comparison with accurate quantum chemical calculations on peptides; citation_volume=105; citation_number=48; citation_pages=6474-6487; citation_date=2001; " />
+      <meta name="citation_reference" content="citation_title=The missing term in effective pair potentials; citation_volume=91; citation_number=49; citation_pages=6269-6271; citation_date=1987; " />
+      <meta name="citation_reference" content="citation_title=Particle mesh Ewald: an N⋅log(N) method for Ewald sums in large systems; citation_volume=98; citation_number=50; citation_pages=10089-10092; citation_date=1993; " />
+      <meta name="citation_reference" content="citation_title=LINCS: a linear constraint solver for molecular simulations; citation_volume=18; citation_number=51; citation_pages=1463-1472; citation_date=1997; " />
+      <meta name="citation_reference" content="citation_title=Canonical sampling through velocity rescaling; citation_volume=126; citation_number=52; citation_pages=014101; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Polymorphic transitions in single crystals: a new molecular dynamics method; citation_volume=52; citation_number=53; citation_pages=7182-7190; citation_date=1981; " />
+      <meta name="citation_reference" content="citation_title=New approach to Monte Carlo calculation of the free energy: Method of expanded ensembles; citation_volume=96; citation_number=54; citation_pages=1776-1783; citation_date=1992; " />
+      <meta name="citation_reference" content="citation_title=Simulated tempering: a new Monte Carlo scheme; citation_volume=19; citation_number=55; citation_pages=451-458; citation_date=1992; " />
+      <meta name="citation_reference" content="citation_title=Knowledge-based protein secondary structure assignment; citation_volume=23; citation_number=56; citation_pages=566-579; citation_date=1995; " />
+      <meta name="citation_reference" content="citation_title=Open source clustering software; citation_volume=20; citation_number=57; citation_pages=1453-1454; citation_date=2004; " />
+      <meta name="citation_reference" content="citation_title=The jackknife – a review; citation_volume=61; citation_number=58; citation_pages=1-15; citation_date=1974; " />
+      <meta name="citation_reference" content="citation_number=59; " />
+
+
+
+<!--
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002682">
+   <license rdf:resource="http://creativecommons.org/licenses/by/2.5/" />
+</Work>
+<License rdf:about="http://creativecommons.org/licenses/by/2.5/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+</License>
+<rdf:Description
+     rdf:about="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002682"
+     dc:identifier="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002682"
+     dc:title="PLOS Computational Biology: Binding of Two Intrinsically Disordered Peptides to a Multi-Specific Protein: A Combined Monte Carlo and Molecular Dynamics Study"
+       trackback:ping="http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002682/trackback;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D"
+     />
+</rdf:RDF>
+
+-->
+</head>
+<body>
+<span property="dc:language" content="en"></span>
+<!-- begin : container -->
+<div id="container">
+  <!-- begin : top banner external ad space -->
+  <div id="topBanner">
+
+
+<!-- begin : left banner slot -->
+<div class="left">
+  <iframe id='affe494b' name='affe494b'
+    src='http://ads.plos.org/www/delivery/afr.php?zoneid=84&amp;cb=2352'
+    frameborder='0' scrolling='no' width='468' height='60'><a
+    href='http://ads.plos.org/www/delivery/ck.php?n=affe494b&amp;cb=393'
+    target='_top'><img src='http://ads.plos.org/www/delivery/avw.php?zoneid=84&amp;cb=2793&amp;n=affe494b'
+    border='0' alt='' /></a></iframe>
+</div>
+<!-- end : left banner slot -->
+<!-- begin : right banner slot -->
+<div class="right">
+  <iframe id='af654bd5' name='af654bd5'
+    src='http://ads.plos.org/www/delivery/afr.php?zoneid=85&amp;cb=7661'
+    frameborder='0' scrolling='no' width='468' height='60'><a
+    href='http://ads.plos.org/www/delivery/ck.php?n=af654bd5&amp;cb=3578'
+    target='_top'><img src='http://ads.plos.org/www/delivery/avw.php?zoneid=85&amp;cb=1314&amp;n=af654bd5'
+    border='0' alt='' /></a></iframe>
+</div>
+<!-- end : right banner slot -->
+
+  </div>
+  <!-- end : top banner external ad space -->
+
+  <!-- begin : header -->
+  <div id="hdr" class="login">
+
+  <!-- begin : logo -->
+  <div id="logo" title="PLOS Computational Biology"><a href="/home.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D" title="PLOS Computational Biology"><span>PLOS Computational Biology</span></a></div>
+  <!-- end : logo -->
+  <!-- begin : user controls -->
+
+
+
+
+
+  <div id="user">
+    <div>
+      <ul>
+        <li><a href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002682" class="feedback"><strong>Login</strong></a> | </li>
+        <li><a href="https://register.plos.org:443/ambra-registration/register.action">Create Account</a> | </li>
+        <li class="feedback"><a href="/feedbackCreate.action?page=%252Farticle%252FfetchArticle.action%253FarticleURI%253Dinfo%25253Adoi%25252F10.1371%25252Fjournal.pcbi.1002682" title="Send us your feedback">Feedback</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <!-- end : user controls -->
+  <!-- begin search links -->
+  <ul id="links"><li class="browse"><a href="/article/browse.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D?field=date" title="Browse Articles">Browse</a></li><li class="rss"><a href="/static/rssFeeds.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D" title="RSS Feeds">RSS</a></li></ul>
+  <!-- end : search links -->
+  <!-- begin : dashboard -->
+  <div id="db">
+    <form name="searchForm" action="/search/simpleSearch.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D" method="get">
+      <input type="hidden" name="from" value="globalSimpleSearch"/>
+      <input type="hidden" name="filterJournals" value="PLoSCompBiol">
+      <fieldset>
+        <legend>Search</legend>
+        <label for="search">Search</label>
+        <div class="wrap"><input id="search" type="text" name="query" value="Search articles..." onfocus="if(this.value=='Search articles...')value='';" onblur="if(this.value=='')value='Search articles...';" class="searchField" alt="Search articles..."/></div>
+        <input src="/images/search_btn1.gif" onclick="submit();" value="ftsearch" alt="SEARCH" tabindex="3" class="button" type="image" />
+      </fieldset>
+    </form>
+    <form name="gasf" action="/search/advancedSearch.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D" method="get">
+<input type="hidden" name="noSearchFlag" value="true" id="noSearchFlag"/><input type="hidden" name="query" value="" id="query"/>    </form>
+    <a id="advSearch" href="#" onclick="if(document.searchForm.query.value!='Search articles...')document.gasf.query.value=document.searchForm.query.value;document.gasf.submit();return false;">Advanced Search</a>
+  </div>
+  <!-- end : dashboard -->
+  <!-- begin : navigation -->
+  <ul id="nav">
+    <li><a href="/home.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D" tabindex="101">Home</a></li>
+     <!-- This is a temporary action to link to th static toc page -->
+    <li><a href="/static/browse.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D" tabindex="102">Browse Articles</a>
+        <ul>
+          <li><a href="/article/browseIssue.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D?field=issue">Current Issue</a></li> <!-- Assuming dynamic TOC is in place -->
+          <li><a href="/article/browseVolume.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D?field=volume">Journal Archive</a></li> 
+          <li><a href="/article/browse.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D?field=date">By Publication Date</a></li>
+          <li><a href="/article/browse.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D">By Subject</a></li>
+          <li><a href="http://www.ploscollections.org/static/pcbiCollections.action">Collections</a></li>
+        </ul>
+    </li>
+    <li><a href="/static/about.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D" tabindex="103">About</a>
+        <ul>
+          <li><a href="/static/information.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D">Journal Information</a></li>
+          <li><a href="/static/edboard.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D">Editorial Board</a></li>
+          <li><a href="/static/eic.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D">Editors-in-Chief</a></li>
+          <li><a href="/static/almInfo.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D">Article-Level Metrics</a></li>
+          <li><a href="/static/license.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D">Open-Access License</a></li>
+          <li><a href="/static/contact.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D">Contact Us</a></li>
+        </ul>
+      </li>
+    <li><a href="/static/users.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D" tabindex="104">For Readers</a>
+        <ul>
+          <li><a href="/static/commentGuidelines.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D">Guidelines for Notes, Comments, and Corrections</a></li>
+          <li><a href="/static/ratingGuidelines.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D">Guidelines for Rating</a></li>
+          <li><a href="/static/help.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D">Help Using This Site</a></li>
+          <li><a href="/static/downloads.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D">Media Downloads</a></li>
+          <li><a href="/static/sitemap.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D">Site Map</a></li>
+        </ul>
+      </li>
+    <li><a href="/static/authors.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D" tabindex="105">For Authors and Reviewers</a>
+        <ul>
+          <li><a href="/static/policies.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D">Editorial and Publishing Policies</a></li>
+          <li><a href="/static/guidelines.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D">Author Guidelines</a></li>
+          <li><a href="/static/figureGuidelines.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D">Figure and Table Guidelines</a></li>
+          <li><a href="/static/checklist.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D">Submit Your Paper</a></li>
+          <li><a href="/static/reviewerGuidelines.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D">Reviewer Guidelines</a></li>
+	   <li><a href="http://www.plos.org/journals/index.php">Submit to Other PLOS Journals</a></li>
+        </ul>
+      </li>
+      <li class="journalnav"><a href="http://www.plos.org" title="PLOS" tabindex="110" class="drop">PLOS.org</a>
+        <ul>
+          <li><a href="http://www.plos.org/oa/index.html" title="Open Access Statement">Open Access</a></li>
+          <li><a href="http://www.plos.org/support/donate.php" title="Join PLOS: Show Your Support">Join PLOS</a></li>
+          <li><a href="http://blogs.plos.org/" title="PLOS Blogs">PLOS Blogs</a></li>
+	  <li><a href="http://www.zazzle.com/plos?rf=238434112415374154" title="PLOS Store">PLOS Store</a></li>
+          <li><a href="http://currents.plos.org" title="PLOS Currents">PLOS Currents</a></li>
+          <li><a href="http://www.plos.org/connect.html" title="PLOS.org | Stay Connected">Stay Connected</a></li>
+        </ul>
+      </li>
+      <li class="journalnav"><a href="http://hubs.plos.org" tabindex="109">Hubs</a>
+        <ul>
+          <li><a href="http://hubs.plos.org/biodiversity" title="PLOS Hubs: Biodiversity">Biodiversity</a></li>
+          <li><a href="http://clinicaltrials.ploshubs.org" title="PLOS Hub for Clinical Trials">Clinical Trials</a></li>
+        </ul>
+    </li>
+      <li class="journalnav"><a href="http://www.plosjournals.org" tabindex="108">Journals</a>
+        <ul>
+          <li><a href="http://www.plosbiology.org/" title="PLOSBiology.org">PLOS Biology</a></li>
+          <li><a href="http://www.plosmedicine.org/" title="PLOSMedicine.org">PLOS Medicine</a></li>
+          <li><a href="http://www.ploscompbiol.org/" title="PLOSCompBiol.org">PLOS Computational Biology</a></li>
+          <li><a href="http://www.plosgenetics.org/" title="PLOSGenetics.org">PLOS Genetics</a></li>
+          <li><a href="http://www.plospathogens.org/" title="PLOSPathogens.org">PLOS Pathogens</a></li>
+          <li><a href="http://www.plosone.org/" title="PLOSONE.org">PLOS ONE</a></li>
+          <li><a href="http://www.plosntds.org/" title="PLOSNTDs.org">PLOS Neglected Tropical Diseases</a></li>
+        </ul>
+      </li>
+    </ul>
+  <!-- end : navigation -->
+  </div>
+  <!-- end : header --> 
+
+
+
+<!-- begin : main content -->
+<div id="content" class="article" style="visibility:visible;">
+
+<!-- begin : right hand column -->
+
+<div id="rhc" xpathLocation="noDialog">
+
+  <div id="download" class="rhcBox_type1">
+    <div class="wrap">
+      <ul>
+        <li class="download icon"><strong>Download:</strong>
+          <a href="/article/fetchObjectAttachment.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D?uri=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002682&amp;representation=PDF" title="Download article PDF">PDF</a> |
+          <a href="/article/citationList.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002682" title="Download citations">Citation</a> |
+          <a href="/article/fetchObjectAttachment.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D?uri=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002682&amp;representation=XML" title="Download Article XML">XML</a>
+        </li>
+        <li class="print icon"><a href="#" onclick="window.print();return false;" title="Print Article"><strong>Print article</strong></a></li>
+        <li class="reprint icon"><a href="https://www.odysseypress.com/onlinehost/reprint_order.php?type=A&page=0&journal=3&doi=10.1371/journal.pcbi.1002682&volume=&issue=&title=Binding of Two Intrinsically Disordered Peptides to a Multi-Specific Protein: A Combined Monte Carlo and Molecular Dynamics Study&author_name=Iskra%20Staneva%2C%20Yongqi%20Huang%2C%20Zhirong%20Liu%2C%20Stefan%20Wallin&start_page=1&end_page=9" title="Odyssey Press">EzReprint</a> New &amp; improved!</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="issues" class="rhcBox_type2">
+    <p><strong>Published in the</strong>
+    <a href="http://www.ploscompbiol.org/article/browseIssue.action?issue=info%3Adoi%2F10.1371%2Fissue.pcbi.v08.i09" title="Browse the Open-Access Issue">September 2012 Issue of <em>PLOS Computational Biology</em></a></p>
+  </div>
+
+  <div id="impact" class="rhcBox_type2">
+    <h6>Metrics <a href="/static/help.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D#articleMetrics" class="replaced" id="info" title="More information"><span>info</span></a></h6>
+
+    <div class="wrap">
+      <img id="rhcDataSpinner" src="/images/loading_small.gif" class="loading" />
+      <div id="totalDataInRHC"></div>
+      <div id="pubDateInRHC"></div>
+      <div id="relatedCitesInRHC"></div>
+    </div>
+
+    <div class="more clearfix"><a href="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002682;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D" title="More information">More</a></div>
+  </div>
+
+  <div id="related" class="rhcBox_type2">
+    <h6>Related Content</h6>
+    <dl class="related">
+      <dt>Related Articles on the Web</dt>
+      <dd><a href="http://scholar.google.com/scholar?hl=en&lr=&q=related:http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002682&btnG=Search">Google Scholar</a></dd>
+      <dd id="pubMedRelatedLIInRHC" style="display:none;"><a id="pubMedRelatedURLInRHC">PubMed</a></dd>
+    </dl>
+    <div class="more clearfix"><a href="/article/related/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002682;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D" title="More information">More</a></div>
+  </div>
+
+  <div id="share" class="rhcBox_type2">
+    <h6>Share this Article <a href="/static/help.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D#socialBookmarkLinks" class="replaced" id="info" title="More information"><span>info</span></a></h6>
+    <ul>
+      <li class="bookmarklets">
+
+        <a href="http://www.reddit.com/submit?url=http://dx.plos.org/10.1371/journal.pcbi.1002682"
+           target="_new"
+           id="reddit">
+          <img src="http://www.reddit.com/static/spreddit4.gif" alt="submit to reddit" border="0"/> </a>
+        <g:plusone size="small" annotation="none" href=http://dx.plos.org/10.1371/journal.pcbi.1002682></g:plusone>
+        <script type="text/javascript">
+          (function () {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+          })();
+        </script>
+        <a href="http://www.stumbleupon.com/submit?url=http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002682" target="_new"> <img border=0 src="http://cdn.stumble-upon.com/images/16x16_su_solid.gif" alt="StumbleUpon" title="Add to StumbleUpon"></a>
+        <script>function fbs_click() {u='http://dx.plos.org/10.1371/journal.pcbi.1002682';t='Binding%20of%20Two%20Intrinsically%20Disordered%20Peptides%20to%20a%20Multi-Specific%20Protein%3A%20A%20Combined%20Monte%20Carlo%20and%20Molecular%20Dynamics%20Study';window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436');return false;}</script><a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002682" onclick="return fbs_click()" target="_blank"><img src="http://static.ak.fbcdn.net/images/share/facebook_share_icon.gif" alt="Facebook" title="Add to Facebook" /></a>       <!-- for mor info, see http://www.facebook.com/share_partners.php -->
+        <script type="text/javascript">
+          function bookmark_in_connotea(u) {
+            a=false; x=window; e=x.encodeURIComponent; d=document;
+            w=open('http://www.connotea.org/addpopup?continue=confirm&uri='+e(u),
+                'add', 'width=600, height=400, scrollbars, resizable');
+            void(x.setTimeout('w.focus()',200));
+          }
+        </script>
+        <a style='cursor: pointer;' onclick='javascript:bookmark_in_connotea("http://dx.plos.org/10.1371/journal.pcbi.1002682");'><img src='/images/icon_connotea_16x16.gif' alt="Connotea" title="Add to Connotea"/></a>
+        <a href="http://www.citeulike.org/posturl?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002682&title=Binding%20of%20Two%20Intrinsically%20Disordered%20Peptides%20to%20a%20Multi-Specific%20Protein%3A%20A%20Combined%20Monte%20Carlo%20and%20Molecular%20Dynamics%20Study" target="_new"><img src='/images/icon_citeulike_16x16.gif' alt="CiteULike" title="Add to CiteULike" /></a>
+        <a href="http://www.mendeley.com/import/?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002682" title="Add to Mendeley" target="_new"><img src="/images/icon_mendeley_16x16.gif" alt="Bibliography"></a>
+        <script type="text/javascript">
+          var twtTitle  = 'Binding of Two Intrinsically Disordered Peptides to a Multi-Specific Protein: A Combined Monte Carlo and Molecular Dynamics Study';
+          var twtUrl    = 'http://dx.plos.org/10.1371/journal.pcbi.1002682';
+          var twtTag    = '#PLOSCompBio:'
+          var maxLength = 140 - (twtUrl.length + 1);
+          if (twtTitle.length > maxLength) {
+            twtTitle = twtTitle.substr(0, (maxLength - 17))+'...';  //truncates title to include space for twtTag and ellipsis
+          }
+          var twtLink = 'http://twitter.com/intent/tweet?text='+encodeURIComponent(twtTag + ' ' + twtTitle + ' ' + twtUrl);
+          document.write('<a href="'+twtLink+'" target="_blank"><img src="/images/icon_twitter.gif" border="0" alt="Twitter icon" title="Tweet This!" /></a>');
+        </script>
+
+      </li>
+      <li class="email icon"><a href="/article/emailArticle.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002682" title="Email this article">Email this article</a></li>
+    </ul>
+  </div>
+  <div id="articleTwitterStream" style="display:none">
+    <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script>
+      new TWTR.Widget({
+        version: 2,
+        type: 'search',
+        search: encodeURIComponent('10.1371/journal.pcbi.1002682'),
+        interval: 6000,
+        title: '',
+        subject: 'From Twitter',
+        width: 300,
+        height: 300,
+        theme: {
+          shell: {
+            background: '#667893',
+            color: '#ffffff'
+          },
+          tweets: {
+            background: '#ffffff',
+            color: '#444444',
+            links: '#006699'
+          }
+        },
+        features: {
+          scrollbar: true,
+          loop: false,
+          live: true,
+          hashtags: true,
+          timestamp: true,
+          avatars: true,
+          toptweets: true,
+          behavior: 'all'
+        }
+      }).render().start();
+    </script>
+  </div>
+</div>
+<!-- end : right hand column -->
+<form name="articleInfo" id="articleInfo" method="" action="">
+<input type="hidden" name="isAuthor" value="true" />
+<input type="hidden" name="authorIdList" value="" />
+<input type="hidden" name="userIdList" value="" />
+<input type="hidden" name="otherIdList" value="" />
+<input type="hidden" name="annotationId" value="" />
+<input type="hidden" name="isResearchArticle" value="true" />
+</form>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.XML" value="108481"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.PDF" value="1360669"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e002.TIF" value="1116"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e002.PNG" value="769"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e003.TIF" value="1116"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e003.PNG" value="769"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e004.TIF" value="476"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e004.PNG" value="458"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e005.TIF" value="1116"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e005.PNG" value="769"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e006.TIF" value="1438"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e006.PNG" value="913"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e007.TIF" value="476"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e007.PNG" value="458"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e008.TIF" value="634"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e008.PNG" value="550"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g001.TIF" value="259678"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g001.PNG_I" value="92959"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g001.PNG_S" value="24690"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g001.PNG_M" value="188272"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g001.PNG_L" value="138149"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e009.TIF" value="634"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e009.PNG" value="550"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e010.TIF" value="634"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e010.PNG" value="550"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e011.TIF" value="634"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e011.PNG" value="550"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e012.TIF" value="476"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e012.PNG" value="458"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e013.TIF" value="1362"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e013.PNG" value="884"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e014.TIF" value="794"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e014.PNG" value="618"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e015.TIF" value="1362"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e015.PNG" value="884"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e016.TIF" value="1362"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e016.PNG" value="884"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e017.TIF" value="794"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e017.PNG" value="618"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e018.TIF" value="4484"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e018.PNG" value="2359"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e019.TIF" value="1458"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e019.PNG" value="918"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e020.TIF" value="1474"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e020.PNG" value="932"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e021.TIF" value="794"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e021.PNG" value="618"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e022.TIF" value="794"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e022.PNG" value="618"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e023.TIF" value="1362"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e023.PNG" value="884"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e024.TIF" value="2014"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e024.PNG" value="1192"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e025.TIF" value="1078"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e025.PNG" value="750"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e026.TIF" value="1362"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e026.PNG" value="884"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e027.TIF" value="794"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e027.PNG" value="618"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e028.TIF" value="572"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e028.PNG" value="512"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e029.TIF" value="1624"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e029.PNG" value="1002"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e030.TIF" value="1258"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e030.PNG" value="826"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g002.TIF" value="230314"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g002.PNG_I" value="77601"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g002.PNG_S" value="22162"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g002.PNG_M" value="130950"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g002.PNG_L" value="61510"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e031.TIF" value="794"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e031.PNG" value="618"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e032.TIF" value="794"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e032.PNG" value="618"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e033.TIF" value="1362"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e033.PNG" value="884"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e034.TIF" value="572"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e034.PNG" value="512"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g003.TIF" value="75006"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g003.PNG_I" value="34149"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g003.PNG_S" value="18013"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g003.PNG_M" value="56635"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g003.PNG_L" value="45414"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e035.TIF" value="1116"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e035.PNG" value="769"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e036.TIF" value="476"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e036.PNG" value="458"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e037.TIF" value="614"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e037.PNG" value="526"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e038.TIF" value="476"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e038.PNG" value="458"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e039.TIF" value="2464"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e039.PNG" value="1410"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g004.TIF" value="255776"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g004.PNG_I" value="52086"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g004.PNG_S" value="13121"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g004.PNG_M" value="121929"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g004.PNG_L" value="224812"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e040.TIF" value="1610"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e040.PNG" value="1009"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e041.TIF" value="614"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e041.PNG" value="526"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e042.TIF" value="1610"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e042.PNG" value="1009"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e043.TIF" value="538"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e043.PNG" value="490"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e044.TIF" value="1362"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e044.PNG" value="884"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e045.TIF" value="614"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e045.PNG" value="526"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e046.TIF" value="1610"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e046.PNG" value="1009"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e047.TIF" value="476"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e047.PNG" value="458"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e048.TIF" value="1402"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e048.PNG" value="892"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e049.TIF" value="1440"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e049.PNG" value="922"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g005.TIF" value="228998"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g005.PNG_I" value="53247"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g005.PNG_S" value="14770"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g005.PNG_M" value="92492"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g005.PNG_L" value="62936"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g006.TIF" value="145628"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g006.PNG_I" value="27864"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g006.PNG_S" value="10697"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g006.PNG_M" value="52731"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g006.PNG_L" value="48779"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e050.TIF" value="476"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e050.PNG" value="458"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e051.TIF" value="3314"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e051.PNG" value="1800"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e052.TIF" value="1464"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e052.PNG" value="926"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e053.TIF" value="1552"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e053.PNG" value="968"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e054.TIF" value="1474"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e054.PNG" value="925"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e055.TIF" value="1052"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e055.PNG" value="733"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e056.TIF" value="476"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e056.PNG" value="458"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e057.TIF" value="476"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e057.PNG" value="458"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e058.TIF" value="1116"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e058.PNG" value="769"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e059.TIF" value="476"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e059.PNG" value="458"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e060.TIF" value="1116"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e060.PNG" value="769"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e061.TIF" value="1116"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e061.PNG" value="769"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g007.TIF" value="346760"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g007.PNG_I" value="94264"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g007.PNG_S" value="23206"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g007.PNG_M" value="203249"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g007.PNG_L" value="151336"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e062.TIF" value="794"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e062.PNG" value="618"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e063.TIF" value="1182"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e063.PNG" value="797"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g008.TIF" value="883440"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g008.PNG_I" value="147019"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g008.PNG_S" value="25545"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g008.PNG_M" value="298573"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.g008.PNG_L" value="692302"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e064.TIF" value="1116"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e064.PNG" value="769"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e065.TIF" value="476"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e065.PNG" value="458"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e066.TIF" value="1116"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e066.PNG" value="769"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e067.TIF" value="1116"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e067.PNG" value="769"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e068.TIF" value="1116"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e068.PNG" value="769"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e069.TIF" value="1116"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e069.PNG" value="769"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e070.TIF" value="902"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e070.PNG" value="652"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e071.TIF" value="1552"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e071.PNG" value="961"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e072.TIF" value="572"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e072.PNG" value="512"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e073.TIF" value="1278"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e073.PNG" value="859"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e074.TIF" value="3212"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e074.PNG" value="1803"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e075.TIF" value="772"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e075.PNG" value="609"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e076.TIF" value="5516"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e076.PNG" value="2792"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e077.TIF" value="550"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e077.PNG" value="500"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e078.TIF" value="926"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e078.PNG" value="685"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e079.TIF" value="674"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e079.PNG" value="553"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e080.TIF" value="1362"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e080.PNG" value="884"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e081.TIF" value="794"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e081.PNG" value="618"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e082.TIF" value="1362"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e082.PNG" value="884"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e083.TIF" value="794"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e083.PNG" value="618"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.s001.TIF" value="152848"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e084.TIF" value="1362"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e084.PNG" value="884"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.s002.TIF" value="218192"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.s003.TIF" value="596404"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e085.TIF" value="1362"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e085.PNG" value="884"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e001.TIF" value="1536"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002682.e001.PNG" value="1372"/>
+<div id="articleContainer">
+
+<span about="http://www.plos.org"  typeof="foaf:Organization" property="foaf:name" style="display:none; visibility:hidden;">PLOS</span>
+<div id="researchArticle" class="content">
+  <span rel="dc:publisher" href="http://www.plos.org"></span>
+  <a id="top" name="top"></a>
+<div id="contentHeader" xpathLocation="noSelect">
+  <p>Open Access</p><p id="articleType">Research Article</p>
+</div>
+
+  <h1 xpathLocation="noSelect" property="dc:title" datatype="" rel="dc:type" href="http://purl.org/dc/dcmitype/Text">Binding of Two Intrinsically Disordered Peptides to a Multi-Specific Protein: A Combined Monte Carlo and Molecular Dynamics Study</h1>
+  <div property="dc:description" datatype="" style="display:none; visibility:hidden;">Author SummaryA substantial fraction of our proteins are believed to be partly or completely disordered, meaning that they contain regions that lack a stable folded structure under typical physiological conditions. This is a feature which plays a key role in their functions. For example, it allows them to have many structurally different binding partners which in turn permits the construction of the intricate signaling and regulatory networks necessary to sustain complex biological organisms such as ourselves. Whereas measuring the binding strengths of associations involving disordered proteins is routine, the binding process itself is today still not fully understood. We use two different computational models to study the interactions of a folded protein, S100B, which can bind various disordered peptides. In particular, we compare two peptides whose structures are known when in complex with S100B. Our results suggest that, although the peptides assume different structures in the bound state, there are similarities in how they associate with S100B. The possibility to computationally model the interplay between proteins is an important complement to experiments, by identifying crucial steps in the binding process. This is essential to understand, e.g., how single mutations sometimes lead to serious diseases.</div>
+  <span property="dc:date" content="2012-09-13" datatype="xsd:date" rel="dc:identifier" href="http://dx.doi.org/10.1371/journal.pcbi.1002682"></span>
+  <span property="dc:subject" content="Biophysics"></span>
+  <span property="dc:subject" content="Computational Biology"></span>
+<form action="">
+  <input type="hidden" name="journalDisplayName" id="journalDisplayName" value="PLOS Computational Biology" />
+  <input type="hidden" name="crossRefPageURL" id="crossRefPageURL" value="/article/crossref/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002682;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D" />
+  <input type="hidden" name="twitterPageURL" id="twitterPageURL" value="/article/twitter/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002682;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D" />
+  <input type="hidden" name="metricsTabURL" id="metricsTabURL" value="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002682;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D" />
+  <input type="hidden" name="doi" id="doi" value="info:doi/10.1371/journal.pcbi.1002682" />
+  <input type="hidden" name="articleTitleUnformatted" id="articleTitleUnformatted" value="Binding%20of%20Two%20Intrinsically%20Disordered%20Peptides%20to%20a%20Multi-Specific%20Protein%3A%20A%20Combined%20Monte%20Carlo%20and%20Molecular%20Dynamics%20Study" />
+  <input type="hidden" name="articlePubDate" id="articlePubDate" value="1347519600000" />
+</form>
+<div class="horizontalTabs" xpathLocation="noSelect">
+  <ul id="tabsContainer">
+        <li id="article" class="active"><a href="/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002682;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D" class="tab" title="Article">Article</a></li>
+        <li id="metrics"><a href="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002682;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D" class="tab" title="Metrics">Metrics</a></li>
+        <li id="related"><a href="/article/related/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002682;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D" class="tab" title="Related Content">Related Content</a></li>
+        <li id="comments"><a href="/article/comments/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002682;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D" class="tab" title="Comments">Comments: 0</a></li>
+  </ul>
+</div>
+  <div id="articleMenuBox" xpathLocation="noSelect">
+    <div id="articleMenu">
+      <div class="wrap">
+        <ul>
+          <li class="annotation icon">To <strong>add a note</strong>, highlight some text. <a href="#" onclick="toggleAnnotation(this, 'public'); return false;" title="Click to turn notes on/off">Hide notes</a></li>
+          <li class="discuss icon">
+              <a href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002682">Make a general comment</a>
+          </li>
+        </ul>
+        <div id="sectionNavTopBox" style="display:none;">
+          <p><strong>Jump to</strong></p>
+          <div id="sectionNavTop" class="tools"></div>
+        </div>
+      </div>
+    </div>
+      <div id="lightBox" xpathLocation="noDialog" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002682')">
+      </div>
+  </div>
+
+
+
+
+<p class="authors" xpathLocation="noSelect"><span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Iskra Staneva</span></span><sup><a href="#aff1">1</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Yongqi Huang</span></span><sup><a href="#aff2">2</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Zhirong Liu</span></span><sup><a href="#aff2">2</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Stefan Wallin</span></span><sup><a href="#aff1">1</a></sup><sup><a href="#cor1" class="fnoteref">*</a></sup></p><p class="affiliations" xpathLocation="noSelect"><a name="aff1" id="aff1"></a><strong>1</strong> Department of Astronomy and Theoretical Physics, Computational Biology and Biological Physics group, Lund University, Lund, Sweden, <a name="aff2" id="aff2"></a><strong>2</strong> College of Chemistry and Molecular Engineering, and Center for Quantitative Biology, Peking University, Beijing, China</p><div class="abstract" xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[1]"><a id="abstract0" name="abstract0" toc="abstract0" title="Abstract"></a><h2 xpathLocation="noSelect">Abstract&nbsp;<a href="#top">Top</a></h2><p xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[1]/p[1]">The unique ability of intrinsically disordered proteins (IDPs) to fold upon binding to partner molecules makes them functionally well-suited for cellular communication networks. For example, the folding-binding of different IDP sequences onto the same surface of an ordered protein provides a mechanism for signaling in a many-to-one manner. Here, we study the molecular details of this signaling mechanism by applying both Molecular Dynamics and Monte Carlo methods to S100B, a calcium-modulated homodimeric protein, and two of its IDP targets, p53 and TRTK-12. Despite adopting somewhat different conformations in complex with S100B and showing no apparent sequence similarity, the two IDP targets associate in virtually the same manner. As free chains, both target sequences remain flexible and sample their respective bound, natively <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e001&amp;representation=PNG"></span>-helical states to a small extent. Association occurs through an intermediate state in the periphery of the S100B binding pocket, stabilized by nonnative interactions which are either hydrophobic or electrostatic in nature. Our results highlight the importance of overall physical properties of IDP segments, such as net charge or presence of strongly hydrophobic amino acids, for molecular recognition via coupled folding-binding.</p>
+</div><div class="abstract" xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[2]"><a id="abstract1" name="abstract1" toc="abstract1" title="Author Summary"></a>
+<h2 xpathLocation="noSelect">Author Summary&nbsp;<a href="#top">Top</a></h2>
+<p xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[2]/p[1]">A substantial fraction of our proteins are believed to be partly or completely disordered, meaning that they contain regions that lack a stable folded structure under typical physiological conditions. This is a feature which plays a key role in their functions. For example, it allows them to have many structurally different binding partners which in turn permits the construction of the intricate signaling and regulatory networks necessary to sustain complex biological organisms such as ourselves. Whereas measuring the binding strengths of associations involving disordered proteins is routine, the binding process itself is today still not fully understood. We use two different computational models to study the interactions of a folded protein, S100B, which can bind various disordered peptides. In particular, we compare two peptides whose structures are known when in complex with S100B. Our results suggest that, although the peptides assume different structures in the bound state, there are similarities in how they associate with S100B. The possibility to computationally model the interplay between proteins is an important complement to experiments, by identifying crucial steps in the binding process. This is essential to understand, e.g., how single mutations sometimes lead to serious diseases.</p>
+</div>
+
+
+<div class="articleinfo" xpathLocation="noSelect"><p><strong>Citation: </strong>Staneva I, Huang Y, Liu Z, Wallin S (2012) Binding of Two Intrinsically Disordered Peptides to a Multi-Specific Protein: A Combined Monte Carlo and Molecular Dynamics Study. PLoS Comput Biol 8(9):
+          e1002682.
+            doi:10.1371/journal.pcbi.1002682</p><p><strong>Editor: </strong>Lilia M. Iakoucheva, 
+        University of California San Diego, United States of America
+      </p><p></p><p><strong>Received:</strong> April 2, 2012; <strong>Accepted:</strong> July 20, 2012; <strong>Published:</strong> September 13, 2012</p><p><strong>Copyright:</strong> ©  Staneva et al. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</p><p><strong>Funding: </strong>Support for this work was provided by the Swedish Research Council to S.W., and Ministry of Science and Technology of China (Grant No. 2009CB918500) and National Natural Science Foundation of China (Grant No. 20973016 and No. 11021463) to Y.H. and Z.L. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p><p><strong>Competing interests:</strong> The authors have declared that no competing interests exist.</p><p><a name="cor1"></a>* E-mail: <a href="mailto:stefan@thep.lu.se">stefan@thep.lu.se</a></p></div>
+
+
+
+
+
+<div id="section1" xpathLocation="/article[1]/body[1]/sec[1]"><a id="s1" name="s1" toc="s1" title="Introduction"></a><h3 xpathLocation="noSelect">Introduction&nbsp;<a href="#top">Top</a></h3><p xpathLocation="/article[1]/body[1]/sec[1]/p[1]">It has become clear that many functional proteins do not fold into unique three-dimensional structures, as expected from the classical view of proteins, but remain highly conformationally dynamic under native conditions. These intrinsically disordered proteins (IDPs) are now estimated to represent a significant fraction of many genomes. For example, roughly half of the proteins in mammals are predicted to contain disordered segments of more than 30 amino acids in length, and a fourth to be fully disordered <a href="#pcbi.1002682-Dunker1">[1]</a>. Interestingly, the prevalence of disorder is far from uniform among different functional classes, suggesting IDPs carry special and biologically relevant properties. In particular, the prevalence is high among proteins performing important regulatory and signaling functions <a href="#pcbi.1002682-Iakoucheva1">[2]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[2]">The perhaps most striking IDP property is their ability to undergo a conformational disorder-order transition upon contact with a target molecule. Various biological advantages have been suggested to stem directly from this coupled folding-binding process <a href="#pcbi.1002682-Dunker2">[3]</a>–<a href="#pcbi.1002682-Hilser1">[6]</a>, including the ability to bind specifically to multiple and structurally diverse partners <a href="#pcbi.1002682-Kriwacki1">[7]</a>. Indeed, intrinsic disorder has been found to be a common feature of “hub” proteins with especially large numbers of links in protein interaction networks <a href="#pcbi.1002682-Ekman1">[8]</a>, <a href="#pcbi.1002682-Haynes1">[9]</a>. An important example is given by the tumor suppressor p53, a transcription factor and regulatory protein that can induce cell cycle arrest and apoptosis <a href="#pcbi.1002682-Blint1">[10]</a>. The C terminal domain of p53 (henceforth simply p53) binds to at least four different globular proteins adopting four different conformations in the process <a href="#pcbi.1002682-Avalos1">[11]</a>–<a href="#pcbi.1002682-Mujtaba1">[13]</a>. How this binding diversity is achieved at the molecular level is not well understood and, in particular, cannot be rationalized by the classical lock-and-key model of protein-protein interactions.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[3]">The binding diversity of IDPs can in principle lead to two different types of signaling modes, one-to-many, in which one disordered region binds to multiple folded proteins, and many-to-one, in which many disordered segments bind to the same folded protein <a href="#pcbi.1002682-Oldfield1">[14]</a>. An example of the latter is given by S100B, a <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e002&amp;representation=PNG"></span>-modulated homodimeric protein with several disordered protein partners <a href="#pcbi.1002682-Dempsey1">[15]</a>–<a href="#pcbi.1002682-Barber1">[17]</a>, one of which is p53. Each S100B monomer consists of two EF-hand motifs which upon <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e003&amp;representation=PNG"></span>-binding reorients one <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e004&amp;representation=PNG"></span>-helix (helix III), thereby exposing a hydrophobic binding pocket. In order to better understand this multiple specificity phenomenon, we study the coupled folding-binding of two disordered peptide sequences to S100B. As target peptides we choose p53 and a fragment from the protein CapZ, denoted TRTK-12, which both have available experimental structural data for the complexes <a href="#pcbi.1002682-Rustandi1">[16]</a>, <a href="#pcbi.1002682-McClintock1">[18]</a>–<a href="#pcbi.1002682-Charpentier1">[20]</a>. Molecular Dynamics (MD) simulation studies have previously been performed on the disordered N and C terminal regions of p53, with either positional constraints on the peptide <a href="#pcbi.1002682-Chen1">[21]</a> or by focusing on the characteristics of the bound and free states separately <a href="#pcbi.1002682-Allen1">[22]</a>–<a href="#pcbi.1002682-Huang1">[24]</a>. There has, however, not been a study comparing the processes of different IDP segments binding to the same ordered target.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[4]">MD simulations of biomolecular systems are typically hampered by limitations in conformational sampling. Large dynamical transitions such as coupled folding-binding of proteins is particularly challenging. We circumvent the problem by using a computationally efficient Monte Carlo-based implicit-solvent model, which has been extensively tested on the folding of peptides and small proteins <a href="#pcbi.1002682-Irbck1">[25]</a>–<a href="#pcbi.1002682-Irbck3">[27]</a>. Our basic approach has previously been tested on PDZ domain-peptide binding, with a variation of the potential energy function <a href="#pcbi.1002682-Staneva1">[28]</a>, <a href="#pcbi.1002682-Staneva2">[29]</a>. One advantage of this approach over recent protein-peptide docking methods <a href="#pcbi.1002682-Petsalaki1">[30]</a>–<a href="#pcbi.1002682-Dagliyan1">[32]</a> is that an equilibrium picture of the association is obtained. Additionally, we perform explicit-water MD simulations on IDP segments as free chains and in complex with S100B to further validate the MC result. Our work suggests striking similarities in the association mechanism of p53 and TRTK-12, despite their different amino acid sequences. In particular, we find that both sequences populate a transient intermediate state which is stabilized by either hydrophobic or electrostatic interactions.</p>
+</div>
+
+<div id="section2" xpathLocation="/article[1]/body[1]/sec[2]"><a id="s2" name="s2" toc="s2" title="Results/Discussion"></a><h3 xpathLocation="noSelect">Results/Discussion&nbsp;<a href="#top">Top</a></h3><p xpathLocation="/article[1]/body[1]/sec[2]/p[1]">Using an all-atom MC procedure, described in detail in <a href="#s3">Methods</a>, we perform extensive fixed-temperature simulations to characterize the interaction between the <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e005&amp;representation=PNG"></span>-loaded form of the S100B homodimer and the two disordered peptides p53 (positions 374–388 of the full-length p53) and TRTK-12 (positions 265–276 of CapZ). In one-letter code, the amino acid sequences are GQSTSRHKKLMFKTE and TRTKIDWNKILS for p53 and TRTK-12, respectively. These peptides were chosen because they are well-characterized targets of S100B, and the interaction with p53 has previously been studied computationally <a href="#pcbi.1002682-Allen1">[22]</a>, <a href="#pcbi.1002682-Pirolli1">[23]</a>. The S100B structural forms used in the MC simulations are taken from the respective p53 and TRTK-12 bound structures but no specific knowledge of the binding pocket is built in. Free energy surfaces of the folding-binding processes are constructed and used to define bound and intermediate states which are then characterized in detail. Additional explicit-water MD simulations are also performed on free peptides, as well as on selected bound structures, to test the validity of our approach.</p>
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/title[1]">Conformational Preferences of Free Peptides</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[1]">We start by examining the conformational behavior of our two peptide sequences as free chains using both MC and MD simulations, respectively (see <a href="#s3">Methods</a>). Despite no discernable sequence similarity between the p53 and TRTK-12 peptides, we find that the two chains behave qualitatively similarly, as seen from <a href="#pcbi-1002682-g001">Figure 1</a>. Both peptides remain rather flexible at temperatures <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e006&amp;representation=PNG"></span> K and sample a wide range of conformations. A slight preference for <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e007&amp;representation=PNG"></span>-helical states can be seen. Consequently, the conformational fluctuations of the free peptide chains include structures resembling the bound state. These bound-like populations are nonetheless quite low (see the low value tails of the RMSD distributions), in agreement with previous MD simulations on the p53 peptide <a href="#pcbi.1002682-Chen1">[21]</a>.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]"><a name="pcbi-1002682-g001" id="pcbi-1002682-g001" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002682?imageURI=info:doi/10.1371/journal.pcbi.1002682.g001" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002682', 'info:doi/10.1371/journal.pcbi.1002682.g001');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002682', 'info:doi/10.1371/journal.pcbi.1002682.g001');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.g001&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002682?imageURI=info:doi/10.1371/journal.pcbi.1002682.g001" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002682', 'info:doi/10.1371/journal.pcbi.1002682.g001');"><span>Figure 1. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]/caption[1]/title[1]">Conformational preferences of the free p53 and TKTK-12 peptide sequences.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/fig[1]/caption[1]/p[1]">(A) Distributions of RMSD for p53 and TRTK-12, as obtained by both implicit-water MC and explicit-water MD simulations, where RMSD is calculated with regard to the experimentally determined bound structures for the respective peptides (PDB IDs 1DT7 and 1MWN). (B) Secondary structure content profiles for p53 and TRTK-12, analyzed using STRIDE <a href="#pcbi.1002682-Frishman1">[56]</a>, presented separately for the MC (solid lines) and MD (dashed line) simulations. The seven different secondary structure categories have been grouped into three main classes: helix (STRIDE notations h, g, i, t), <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e008&amp;representation=PNG"></span>-sheet (e, b) and coil (c).</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002682.g001</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002682.g001/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002682.g001/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002682.g001.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002682.g001/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002682.g001.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[2]">We also find that the results of the two different simulation approaches are in good qualitative agreement. This is important as a validation of the full-scale protein-peptide simulations to be described below. The largest deviation appears for the p53 sequence, for which the MD results produce a peak in the RMSD probability distribution at around 6 Å. By inspection, we see that this peak represents peptide chains folded into a <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e009&amp;representation=PNG"></span>-hairpin-like structure. The MC simulations of p53 also produce a small population of <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e010&amp;representation=PNG"></span>-hairpins, albeit typically more fully formed, resulting in a shift of the peak to around 7.5 Å (see <a href="#pcbi-1002682-g001">Figure 1A</a>). We note that the tendency for the free p53 peptide to form <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e011&amp;representation=PNG"></span>-hairpin-like structures was also observed in the MD study of Allen et al. <a href="#pcbi.1002682-Allen1">[22]</a>. Overall, we find that both the free p53 and TRTK-12 peptides sample multiple conformations, including transient <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e012&amp;representation=PNG"></span>-helical structures.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/title[1]">Binding Free Energy Surfaces</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/p[1]">We turn now to the binding processes of S100B and the p53 and TRTK-12 peptides, respectively. To this end, we rely on the computational convenience of the MC approach. The basic procedure follows earlier work <a href="#pcbi.1002682-Staneva1">[28]</a>, <a href="#pcbi.1002682-Staneva2">[29]</a> and operates in the following way. The S100B dimer structure is maintained in its native state by constraints, allowing side-chain and small backbone motions, while the peptide chains are free to explore the protein surface. Simulations are performed at fixed temperatures and are long enough to produce multiple binding and unbinding events in each trajectory such that an equilibrium picture of the interaction is obtained. Representative MC trajectories are shown in <a href="#pcbi.1002682.s001">Figure S1</a> in Supporting Information.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/p[2]">To monitor the progress of binding we use two different observables, <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e013&amp;representation=PNG"></span> and <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e014&amp;representation=PNG"></span>. The distance <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e015&amp;representation=PNG"></span> is taken between two points, the center-of-mass of the simulated peptide and the center-of-mass obtained from the peptide coordinates in the experimental complex structure. Hence, a small <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e016&amp;representation=PNG"></span> value indicates binding close to the experimentally determined binding site. The other observable, <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e017&amp;representation=PNG"></span>, is the number of amino acid contacts between the peptide chain and the S100B peptide binding pocket, which we have defined as a set of amino acid surface positions (see <a href="#s3">Methods</a>). Because of the symmetry of the S100B homodimer, with its two identical binding pockets, we determine the center-of-mass distance using<br><a name="pcbi.1002682.e018" id="pcbi.1002682.e018"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e018&amp;representation=PNG"><span class="note" xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/p[2]/disp-formula[1]/label[1]">(1)</span></span><br>where <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e019&amp;representation=PNG"></span> and <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e020&amp;representation=PNG"></span> are obtained for the two binding pockets, respectively. For <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e021&amp;representation=PNG"></span>, we count the total contacts made with either binding pocket residues, thus assuming that a peptide can not contact both sites at the same time. This way, high <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e022&amp;representation=PNG"></span> and low <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e023&amp;representation=PNG"></span> is a signature of a peptide bound tightly at either of the two binding pockets.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/p[3]">The overall features of the obtained folding and binding processes can be seen from the free energy surfaces in <a href="#pcbi-1002682-g002">Figure 2</a>. Both sequences exhibit major free energy minima representing bound states, characterized by <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e024&amp;representation=PNG"></span> Å and <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e025&amp;representation=PNG"></span>20–40. This indicates that binding occurs mainly at the experimentally determined S100B peptide binding pockets. We emphasize that this result is obtained in unbiased simulations, in which the peptides are left free to explore the entire protein surface.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[1]"><a name="pcbi-1002682-g002" id="pcbi-1002682-g002" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002682?imageURI=info:doi/10.1371/journal.pcbi.1002682.g002" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002682', 'info:doi/10.1371/journal.pcbi.1002682.g002');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002682', 'info:doi/10.1371/journal.pcbi.1002682.g002');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.g002&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002682?imageURI=info:doi/10.1371/journal.pcbi.1002682.g002" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002682', 'info:doi/10.1371/journal.pcbi.1002682.g002');"><span>Figure 2. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[1]/caption[1]/title[1]">Folding and binding free energy landscapes of p53 and TRTK-12.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[1]/caption[1]/p[1]">The progress of binding is measured by two observables, <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e026&amp;representation=PNG"></span> and <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e027&amp;representation=PNG"></span>, (see text) and folding by the fraction of helical content (defined as in <a href="#pcbi-1002682-g001">Figure 1</a>). Free energies are obtained from extensive fixed-<span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e028&amp;representation=PNG"></span> equilibrium MC simulations of the interaction between peptide and S100B, in which several reversible binding and unbinding events occur, where <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e029&amp;representation=PNG"></span> and <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e030&amp;representation=PNG"></span> for for p53 and TRTK-12, respectively.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002682.g002</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002682.g002/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002682.g002/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002682.g002.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002682.g002/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002682.g002.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/p[4]">We find additional, more detailed similarities between the binding processes of the p53 and TRTK-12 sequences. In the bound state, both p53 and TRTK-12 exhibit fluctuating helical contents. Hence, the peptides display a significant population of bound but not yet folded structures. This population is apparent in the one-dimensional free energy profiles in <a href="#pcbi-1002682-g003">Figure 3</a>, which reveal a plateau-like behavior in <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e031&amp;representation=PNG"></span> representing an intermediate state between the fully bound and free states. The term “encounter complex” has been used to indicate such a metastable state in protein-protein interactions <a href="#pcbi.1002682-Schreiber1">[33]</a>. For coupled folding-binding of disordered chains, there are two extreme mechanistic possibilities for association corresponding to either folding-before-binding (conformational selection) or binding-before-folding (induced folding) of the peptide <a href="#pcbi.1002682-Wright1">[34]</a>. The significant population of “non-native” bound peptide conformations we observe for p53 and TRTK-12 indicate a binding mechanism dominated by induced-folding for both sequences. Similar observations have been made in the studies of Chen <a href="#pcbi.1002682-Chen1">[21]</a> and Pirolli et al. <a href="#pcbi.1002682-Pirolli1">[23]</a> for the p53 sequence, as well as for associations involving other IDPs <a href="#pcbi.1002682-Sugase1">[35]</a>–<a href="#pcbi.1002682-Huang2">[37]</a>.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[2]"><a name="pcbi-1002682-g003" id="pcbi-1002682-g003" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002682?imageURI=info:doi/10.1371/journal.pcbi.1002682.g003" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002682', 'info:doi/10.1371/journal.pcbi.1002682.g003');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002682', 'info:doi/10.1371/journal.pcbi.1002682.g003');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.g003&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[2]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002682?imageURI=info:doi/10.1371/journal.pcbi.1002682.g003" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002682', 'info:doi/10.1371/journal.pcbi.1002682.g003');"><span>Figure 3. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[2]/caption[1]/title[1]">The binding of p53 and TRTK-12 to S100B.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/fig[2]/caption[1]/p[1]">Free energy profiles of binding observables (A) <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e032&amp;representation=PNG"></span> and (B) <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e033&amp;representation=PNG"></span>, obtained from fixed-<span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e034&amp;representation=PNG"></span> MC simulations. Statistical errors are calculated using the jackknife method <a href="#pcbi.1002682-Miller1">[58]</a>.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002682.g003</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002682.g003/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002682.g003/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002682.g003.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002682.g003/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002682.g003.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/p[5]">In previous studies on PDZ domain-peptide interactions we found a two-state-like binding mechanism <a href="#pcbi.1002682-Staneva1">[28]</a>, <a href="#pcbi.1002682-Staneva2">[29]</a>, i.e., where the bound state was reached via a single well-defined binding transition state. The difference with the current systems may be a length effect, as PDZ domains typically bind much shorter peptides (around 4–6 amino acids). These short chains may not have sufficient chain flexibility to promote the formation of intermediate states <a href="#pcbi.1002682-Huang3">[38]</a>.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/title[1]">The Bound State Ensemble: Structure and Protein-Peptide Contacts</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[1]">X-ray and NMR structural studies on p53 <a href="#pcbi.1002682-Rustandi1">[16]</a> and TRTK-12 <a href="#pcbi.1002682-Inman1">[19]</a>, <a href="#pcbi.1002682-Charpentier1">[20]</a> show that both peptides bind the hydrophobic surface on S100B, exposed upon <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e035&amp;representation=PNG"></span>-binding, but with somewhat different configurations. In complex with S100B, the p53 peptide is almost fully helical and docked parallel with the S100B helix III while TRTK-12 has only a single <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e036&amp;representation=PNG"></span>-helical turn and is oriented perpendicular to helix III. The two minimum-energy conformations obtained from our MC binding simulations of p53 and TRTK-12, respectively, manage to capture many of these characteristics as shown in <a href="#pcbi-1002682-g004">Figure 4</a>. The TRTK-12 peptide in particular has in effect assumed the correct structure, being only partly helical and its tryptophan (Trp271) sidechain directed into the hydrophobic binding pocket. The min-<span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e037&amp;representation=PNG"></span> conformation of p53 deviates slightly from the experimental structure. As depicted in <a href="#pcbi-1002682-g004">Figure 4A</a>, its phenylalanine (Phe385) is contacting the hydrophobic pocket rather than being solvent exposed, as in the experimental structure <a href="#pcbi.1002682-Rustandi1">[16]</a>. This hinders the p53 peptide from being fully <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e038&amp;representation=PNG"></span>-helical. However, the overall chain orientation relative to helix III is essentially correct.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[1]"><a name="pcbi-1002682-g004" id="pcbi-1002682-g004" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002682?imageURI=info:doi/10.1371/journal.pcbi.1002682.g004" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002682', 'info:doi/10.1371/journal.pcbi.1002682.g004');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002682', 'info:doi/10.1371/journal.pcbi.1002682.g004');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.g004&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002682?imageURI=info:doi/10.1371/journal.pcbi.1002682.g004" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002682', 'info:doi/10.1371/journal.pcbi.1002682.g004');"><span>Figure 4. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[1]/caption[1]/title[1]">Minimum-energy structures obtained from unbiased MC simulations of the interaction between S100B and its targets.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[1]/caption[1]/p[1]">The minimum-energy conformations, across all MC trajectories, obtained for (A) p53 and (B) TRTK-12 are shown in green. Experimental structures of the p53-S100B (1D7T) <a href="#pcbi.1002682-Rustandi1">[16]</a> and TRTK-12-S100B (1MWN) <a href="#pcbi.1002682-Inman1">[19]</a> complexes are displayed in gray and pink. The “non-optimized” root-mean-square deviation between the minimum-energy and experimental peptide structures are <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e039&amp;representation=PNG"></span> and 7.3 Å for p53 and TRTK-12, respectively (see <a href="#s3">Methods</a>). The figure was prepared with PyMOL <a href="#pcbi.1002682-Delano1">[59]</a>.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002682.g004</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002682.g004/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002682.g004/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002682.g004.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002682.g004/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002682.g004.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[2]">It is clear from the binding free energy surfaces in <a href="#pcbi-1002682-g002">Figure 2</a> that both peptides exhibit a significant structural diversity in the bound state. Minimum-energy structures may therefore not always provide a complete picture. The p53 peptide has a single, smooth bound state free-energy minimum spanning <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e040&amp;representation=PNG"></span>2–10 Å. It turns out that this state is structurally quite well represented by the p53 min-<span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e041&amp;representation=PNG"></span> conformation in <a href="#pcbi-1002682-g004">Figure 4A</a>, with contacts between the S100B binding pocket and the p53 Phe385 as a prominent feature. By contrast, TRTK-12 has two distinct bound state minima characterized by <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e042&amp;representation=PNG"></span>2–5 Å and <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e043&amp;representation=PNG"></span>10 Å, respectively. The underlying structures of the small-<span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e044&amp;representation=PNG"></span> (global) free energy minimum are similar to the min-<span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e045&amp;representation=PNG"></span> conformation. Interestingly, the local minimum at <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e046&amp;representation=PNG"></span>10 Å exhibited by TRTK-12 corresponds to an <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e047&amp;representation=PNG"></span>-helix parallel to the S100B helix III, reminiscent of the experimental binding pose of p53 <a href="#pcbi.1002682-Rustandi1">[16]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[3]">To make a more detailed comparison with experimental data, we define the bound state (BS) by <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e048&amp;representation=PNG"></span> and <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e049&amp;representation=PNG"></span> for the p53 and TRTK-12 systems, respectively, based on the free energy profiles in <a href="#pcbi-1002682-g003">Figure 3A</a>. The populations of all possible amino acid contacts in the BS between the peptide and the S100B binding pocket are illustrated in <a href="#pcbi-1002682-g005">Figure 5</a>. p53 mainly binds to the binding pocket via its hydrophobic residues Leu383, Met384 and Phe385, in contrast to TRTK-12 which interacts with all its amino acids. This difference aside, the simulations suggest that the largest hydrophobic residue in each peptide fulfills a similar function. For p53, Phe385 is involved in all of the most populated contacts, equivalent to Trp271 in TRTK-12. These residues interact mainly with the hydrophobic amino acids of the binding pocket, especially with Ile36, Leu44, Val56 and Phe76. Our simulations suggest more involvement of the p53 Phe385 than what at first glance is apparent from the NMR structure. However, the importance of this position for binding is implied in the study of Rustandi et al. <a href="#pcbi.1002682-Rustandi2">[39]</a>, who found that mutation of the Phe to a Trp, a larger hydrophobic amino acid, increases the binding affinity by 3–4 fold. As demonstrated in <a href="#pcbi-1002682-g006">Figure 6</a>, most S100B binding-pocket residues make on average the same number of contacts with p53 as with TRTK-12. There are however some positions, in particular Lys55 and Cys84, which are mostly involved in binding TRTK-12. These two residues indeed form contacts with TRTK-12 in the experimental structures <a href="#pcbi.1002682-Inman1">[19]</a>, <a href="#pcbi.1002682-Charpentier1">[20]</a>, which we further find to be stable also in MD simulations of the S100B-TRTK-12 complex, performed as described below (see <a href="#pcbi.1002682.s002">Figure S2</a>).</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[2]"><a name="pcbi-1002682-g005" id="pcbi-1002682-g005" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002682?imageURI=info:doi/10.1371/journal.pcbi.1002682.g005" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002682', 'info:doi/10.1371/journal.pcbi.1002682.g005');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002682', 'info:doi/10.1371/journal.pcbi.1002682.g005');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.g005&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[2]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002682?imageURI=info:doi/10.1371/journal.pcbi.1002682.g005" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002682', 'info:doi/10.1371/journal.pcbi.1002682.g005');"><span>Figure 5. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[2]/caption[1]/title[1]">Probabilistic contact maps for the interaction between S100B and its peptide targets taken separately for the bound (BS) and intermediate (IS) states.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[2]/caption[1]/p[1]">The color scale indicate the probability of contact formation between peptide amino acids (horizontal axes) and amino acids of the S100B peptide binding pocket (vertical axes).</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002682.g005</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002682.g005/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002682.g005/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002682.g005.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002682.g005/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002682.g005.TIF"></span> TIFF)
+                  </a></li></ul></div></div><div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[3]"><a name="pcbi-1002682-g006" id="pcbi-1002682-g006" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002682?imageURI=info:doi/10.1371/journal.pcbi.1002682.g006" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002682', 'info:doi/10.1371/journal.pcbi.1002682.g006');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002682', 'info:doi/10.1371/journal.pcbi.1002682.g006');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.g006&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[3]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002682?imageURI=info:doi/10.1371/journal.pcbi.1002682.g006" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002682', 'info:doi/10.1371/journal.pcbi.1002682.g006');"><span>Figure 6. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[3]/caption[1]/title[1]">Involvement in binding for different amino acid positions of the S100B binding pocket.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/fig[3]/caption[1]/p[1]">For each S100B position, the number of contacted amino acids on the peptide is counted. Shown are the average numbers obtained separately for the bound (BS) and intermediate (IS) states. Statistical errors are estimated using the jackknife method <a href="#pcbi.1002682-Miller1">[58]</a>.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002682.g006</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002682.g006/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002682.g006/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002682.g006.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002682.g006/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002682.g006.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[4]">While there is an overlap between the obtained contact maps in <a href="#pcbi-1002682-g005">Figure 5</a> and the set of interactions derived from experiments, our BS ensembles do not perfectly fit with the experimental NMR structures. Some residue-residue contacts are only present in the simulations and, conversely, some contacts are found in the experimental structures but not in the simulations. The latter mainly emerges in the p53 simulations, where the two inter-molecular salt bridges (Arg379–Glu45 and Lys386–Glu86), as well as contacts involving the N-terminal part of the p53 chain, are mostly absent in our simulations. The reason is probably the rather frequent interaction of Phe385 with the hydrophobic S100B binding pocket, which lead to a disrupted folding of the p53 <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e050&amp;representation=PNG"></span>-helix. Our BS conformational ensembles are also more diverse than the set of NMR derived model structures. This can be seen by calculating the average RMSD between pairs of structures ij in the NMR and BS ensembles, respectively. For p53, we obtain <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e051&amp;representation=PNG"></span> Å for the NMR ensemble of S100B-p53 structures and <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e052&amp;representation=PNG"></span> Å for the simulation-derived BS ensemble. The corresponding values for TRTK-12 are <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e053&amp;representation=PNG"></span> Å and <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e054&amp;representation=PNG"></span> Å, respectively. It is possible therefore that our model is not able to capture the folding of the peptides in full, at least for p53. There is some uncertainty, however, in the interpretation of the nuclear Overhauser enhancements (NOEs) intensities which underly NMR structure calculations, especially with regard to the diversity of the protein ensemble <a href="#pcbi.1002682-Burgi1">[40]</a>, . The differences may also be due to the relatively weak binding conditions used in our simulations, where the BS is populated only at around <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e055&amp;representation=PNG"></span>. At lower temperatures, the BS ensemble will likely become structurally more well-defined.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/title[1]">Testing Proposed Structures of the S100B-TRTK-12 Complex</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/p[1]">In the analysis of our binding simulations we rely on available experimental structures of the protein-peptide complexes. For S100B and TRTK-12, three structures have been proposed <a href="#pcbi.1002682-McClintock1">[18]</a>–<a href="#pcbi.1002682-Charpentier1">[20]</a>. One of these involves a novel coil-like conformation of TRTK-12 (PDB ID 1MQ1) <a href="#pcbi.1002682-McClintock1">[18]</a> while the NMR and X-ray structures of Weber <em>et al.</em> both indicate a partially <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e056&amp;representation=PNG"></span>-helical conformation (PDB ID 1MWN and 3IQQ) <a href="#pcbi.1002682-Inman1">[19]</a>, <a href="#pcbi.1002682-Charpentier1">[20]</a>. Our MC results are in line with the presence of a short <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e057&amp;representation=PNG"></span>-helix in TRTK-12, as demonstrated by the minimum-energy conformation in <a href="#pcbi-1002682-g004">Figure 4B</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/p[2]">To further inspect the experimental disagreement in TRTK-12 structure, we employed our MD approach to test the stability of two of the proposed structures, 1MQ1 <a href="#pcbi.1002682-McClintock1">[18]</a> and 1MWN <a href="#pcbi.1002682-Inman1">[19]</a>. Three simulations of 50 ns were performed for each complex, both with and without <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e058&amp;representation=PNG"></span> loaded in S100B, as shown in <a href="#pcbi-1002682-g007">Figure 7</a>. The calculations consistently indicate a higher stability for 1MWN than for 1MQ1, at least in terms of RMSD fluctuation measured over the TRTK-12 chain. The peptide secondary structure in the 1MWN trajectories remains intact over the full MD trajectories (data not shown). These MD trajectories thus also support the partly <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e059&amp;representation=PNG"></span>-helical structural models of Weber <em>et al.</em> <a href="#pcbi.1002682-Inman1">[19]</a>, <a href="#pcbi.1002682-Charpentier1">[20]</a> and, moreover, provide further support for an agreement between our two different computational approaches.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/fig[1]"><a name="pcbi-1002682-g007" id="pcbi-1002682-g007" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002682?imageURI=info:doi/10.1371/journal.pcbi.1002682.g007" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002682', 'info:doi/10.1371/journal.pcbi.1002682.g007');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002682', 'info:doi/10.1371/journal.pcbi.1002682.g007');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.g007&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002682?imageURI=info:doi/10.1371/journal.pcbi.1002682.g007" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002682', 'info:doi/10.1371/journal.pcbi.1002682.g007');"><span>Figure 7. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/fig[1]/caption[1]/title[1]">Stabilities of two alternative native state structures for the S100B–TRTK-12 complex.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[4]/fig[1]/caption[1]/p[1]">Results are shown for four sets of MD simulations, obtained by starting from two different NMR structures of the complex, 1MWN or 1MQ1, and performed either with or without <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e060&amp;representation=PNG"></span> present. In case of absent <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e061&amp;representation=PNG"></span> ions, additional constraints on the S100B dimer are included (see <a href="#s3">Methods</a>). RMSD values are calculated for the structured part of the TRTK-12 peptide, positions 5–12.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002682.g007</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002682.g007/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002682.g007/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002682.g007.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002682.g007/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002682.g007.TIF"></span> TIFF)
+                  </a></li></ul></div></div>
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[5]/title[1]">Characterizing the Intermediate State</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[5]/p[1]">How do the peptide chains reach their respective bound states or, in other words, what is the peptide binding mechanism? Key to answering this question is partly bound peptide conformations populated transiently during the binding process. Although we cannot directly assess kinetic aspects of the binding process with our MC approach, we can examine the structural characteristics of peptide conformations which are neither entirely bound nor in the unbound state. As shown above, both sequences exhibit similar plateau-like regions in the <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e062&amp;representation=PNG"></span> free energy profiles (see <a href="#pcbi-1002682-g003">Figure 3</a>). Many of these conformations must be populated during binding and it is therefore of interest to characterize and compare these states. We define this intermediate state, IS, as conformations which are neither unbound (<span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e063&amp;representation=PNG"></span>) nor part of the bound state, BS.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[5]/p[2]">Contrary to the BS ensembles, the IS of the two peptide sequences exhibit strong similarities. To show this, we performed a clustering procedure on all IS conformations with the aim of visualizing typical structures (see <a href="#s3">Methods</a> for details). The four largest clusters for p53 and TRTK-12, respectively, are displayed in <a href="#pcbi-1002682-g008">Figure 8</a>, representing more than half of the IS ensemble in both cases. As depicted in <a href="#pcbi-1002682-g008">Figures 8A and C</a>, the IS peptide conformations are located primarily in two different regions in the periphery of the S100B binding pocket. In the first group, represented by the violet and the green cluster centroid structures in <a href="#pcbi-1002682-g008">Figure 8</a>, the peptides are located in the vicinity of a hydrophobic surface composed primarily of Phe43 and Phe87 on the S100B domain. Contacts between these amino acids and the peptides are also evident from the IS contact probabilities in <a href="#pcbi-1002682-g005">Figure 5</a>, which moreover indicate that they involve mainly the peptide residues Phe385 and Trp271 on p53 and TRTK-12, respectively. Interestingly, while these contacts are among the most frequent in IS, they are much less populated in the BS. In the second IS group, indicated by the red and the yellow centroids in <a href="#pcbi-1002682-g008">Figure 8</a>, the peptides are situated between helix III and helix IV of S100B. Here the stabilizing interactions are instead primarily electrostatic. The possible existence of binding spots in the periphery of the binding pocket is in part supported by the work of Arendt <em>et al.</em> <a href="#pcbi.1002682-Arendt1">[42]</a>, who found that small molecules from a fragment library mainly bound to two sites of the S100B surface, one of which overlaps with the first region described here.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[5]/fig[1]"><a name="pcbi-1002682-g008" id="pcbi-1002682-g008" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002682?imageURI=info:doi/10.1371/journal.pcbi.1002682.g008" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002682', 'info:doi/10.1371/journal.pcbi.1002682.g008');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002682', 'info:doi/10.1371/journal.pcbi.1002682.g008');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.g008&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[5]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002682?imageURI=info:doi/10.1371/journal.pcbi.1002682.g008" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002682', 'info:doi/10.1371/journal.pcbi.1002682.g008');"><span>Figure 8. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[5]/fig[1]/caption[1]/title[1]">Illustration of the p53 and TRTK-12 intermediate states, IS.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[5]/fig[1]/caption[1]/p[1]">A structural cluster procedure is performed on the IS ensembles, as discussed in the text. Representative peptide structures (cluster centroids) of the four largest clusters are displayed for (A) p53 and (C) TRTK-12. The S100B homodimer is displayed as a molecular surface where positively charged amino acids (Arg, Lys) are shown in blue, negatively charged (Asp, Glu) in red, and hydrophobic (Met, Leu, Ala, Ile, Val, Phe) in white. The experimental bound peptide structures are outlined as thin black backbone traces. The center-of-mass points of all peptide structures in the four clusters are also shown for (B) p53 and (D) TRTK-12, where the amino acids of the S100B binding pocket are colored in green. The figure was prepared with PyMOL <a href="#pcbi.1002682-Delano1">[59]</a>.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002682.g008</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002682.g008/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002682.g008/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002682.g008.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002682.g008/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002682.g008.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/sec[5]/p[3]">The similar binding mechanism of p53 and TRTK-12 is especially interesting in light of their low sequence similarity and the significant structural differences in their bound states. The S100B interaction with disordered peptides can be compared with so-called peptide recognition domains (PRDs), which are common modules in signaling proteins and include 14-3-3, PDZ, and SH3 <a href="#pcbi.1002682-Pawson1">[43]</a>. These domains typically bind sets of peptide sequences conforming to simple linear sequence motifs. For example, SH3 domains bind peptides comprising a Pro-X-X-Pro motif, where Pro is proline and X any amino acid type. A structural analysis of the many-to-one binding exhibited by a particular 14-3-3 domain revealed a relatively high structural similarity in the protein-peptide complexes involving five different target peptides <a href="#pcbi.1002682-Oldfield1">[14]</a>. Similarly, PDZ domains typically bind their peptides in a structurally specific way involving the peptide C terminus <a href="#pcbi.1002682-Lee1">[44]</a>. The multiple specificity exhibited by S100B thus differ from PRDs in at least two ways. First, the peptide sequences do not conform to a simple linear motif and, second, their bound structures differ significantly. A possible biological benefit of these two properties is that cross-reactivity among different S100B target peptides may be minimized. In other words, the relatively high sequence disparity among the IDP targets keep them from acquiring each others general functions. For example, the difference in sequence between CapZ/TRTK-12 and p53 may keep CapZ/TRTK-12 from binding to p53 partner domains other than S100B.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[5]/p[4]">Despite the lack of a simple sequence motif for known S100B targets, we note some interesting common characteristics. Both p53 and TRTK-12 include a single aromatic amino acid (Phe385 and Trp271, respectively), one or more aliphatic amino acids, as well as several Lys and Arg resulting in a net positive charge of the peptide. These characteristics holds also for a third disordered S100B target for which a structure of the complex is available <a href="#pcbi.1002682-Bhattacharya1">[45]</a>, taken from the N terminal regulatory domain of NDR kinase. It is possible that this basic compositional similarity of target peptides underpins the similarity in the binding mechanism, such that interactions made early in the binding process, being diverse and nonspecific in nature, are largely determined by the overall physical properties of the chain segment. An issue which remains to be addressed is to what extent a common binding mechanism is a general characteristics of many-to-one protein signaling. For this comprehensive additional simulations beyond the scope of the present investigation are required. However, we note that preliminary simulations for the interaction between S100B and NDR, performed using our all-atom MC approach, produced a minimum-energy conformation where the (sole) aromatic residue of the NDR peptide is involved in binding in a similar way as for p53 and TRTK-12 (see <a href="#pcbi.1002682.s003">Figure S3</a>).</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/title[1]">Summary and Conclusion</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[6]/p[1]">We have used a combination of MD and MC all-atom simulations to understand the coupled folding and binding of two disordered peptides, p53 and TRTK-12, to the <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e064&amp;representation=PNG"></span>-loaded form of S100B, as an example of a many-to-one signaling mechanism. Despite the significant difference in sequence, we find remarkable and unexpected similarities in their association behavior with S100B. First, as free peptides, the two sequences have similar predispositions towards helical conformations, but overall remain rather flexible chains. Only to a small extent do they sample their respective S100B-bound structures. Second, both p53 and TRTK-12 populate an intermediate, metastable state during the folding-binding process, which may serve as an initial encounter complex of the interaction. The intermediate state is divided structurally between two different binding surfaces on the periphery of the binding pocket where stabilization occur by either hydrophobic or electrostatic interactions and includes a significant fraction of <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e065&amp;representation=PNG"></span>-helical structure (see <a href="#pcbi-1002682-g008">Figure 8</a>). Interestingly, major disparities between the two S100B targets become apparent only in the final bound state, where the patterns of contacts with the S100B surface are significantly dissimilar.</p>
+
+</div>
+
+<div id="section3" xpathLocation="/article[1]/body[1]/sec[3]"><a id="s3" name="s3" toc="s3" title="Methods"></a><h3 xpathLocation="noSelect">Methods&nbsp;<a href="#top">Top</a></h3>
+<h4 xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/title[1]">Molecular Dynamics Simulations</h4>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/p[1]">MD simulations of the free p53 and TRTK-12 peptides were started from random conformations which were obtained from high temperature (400 K) MD simulations. 20 simulations were performed for p53 and TRTK-12, respectively. The duration for each simulation was 200 ns.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/p[2]">The simulations of the <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e066&amp;representation=PNG"></span>–S100B–TRTK-12 complex were initialized from the two available NMR structures (PDB IDs 1MWN and 1MQ1). For each version three runs of 50 ns, with different initial velocity distributions, were performed. In 1MQ1, the coordinates for the four <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e067&amp;representation=PNG"></span> ions are missing. They were therefore added by superimposing the structure of 1MWN on 1MQ1 and transferring the coordinates of the <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e068&amp;representation=PNG"></span> ions from 1MWN to 1MQ1. A final manual adjustment of the ion positions was made in order to avoid steric repulsions with the proteins. We also performed three simulations of each complex variant without the <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e069&amp;representation=PNG"></span> ions present. In order to maintain the structure of S100B, position restraints on the backbone atoms were added.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/p[3]">All simulations were performed using the program GROMACS 4.07 <a href="#pcbi.1002682-Berendsen1">[46]</a>, <a href="#pcbi.1002682-Hess1">[47]</a> with the OPLS-AA/L force field <a href="#pcbi.1002682-Kaminski1">[48]</a> and the SPC/E water model <a href="#pcbi.1002682-Berendsen2">[49]</a>. The starting conformation was placed in the center of a cubic water box with at least 10 Å from the box edge. Periodic boundary conditions were used and counter ions (Na<sup>+</sup> or Cl<sup>−</sup>) were added to neutralize the net charges. The long-range electrostatic interactions were treated with the particle mesh Ewald method <a href="#pcbi.1002682-Darden1">[50]</a>. The cutoff distances were set to 10 Å for short-range Coulomb and van der Waals interactions. The bond lengths were fixed by the LINCS algorithm <a href="#pcbi.1002682-Hess2">[51]</a>, and a time step of 2 fs was used. Each system was first relaxed by 1000 steps of steepest-descent energy minimization. After the minimization, the system was equilibrated at 298 K for 100 ps under an NVT ensemble and further equilibrated for 200 ps at constant pressure (1 bar). V-rescale <a href="#pcbi.1002682-Bussi1">[52]</a> and Parrinello-Rahman <a href="#pcbi.1002682-Parrinello1">[53]</a> were used to couple the system to the simulation temperature and pressure with coupling constants of 0.1 ps and 2.0 ps, respectively. Production simulations were performed at constant temperature (298 K) and pressure (1 bar). Coordinates were saved every 5 ps.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/title[1]">Monte Carlo Simulations</h4>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/p[1]">For the free peptides, 10 simulations were performed with the PROFASI program package <a href="#pcbi.1002682-Irbck1">[25]</a>–<a href="#pcbi.1002682-Irbck3">[27]</a> using a simulated tempering algorithm <a href="#pcbi.1002682-Lyubartsev1">[54]</a>, <a href="#pcbi.1002682-Marinari1">[55]</a>. Each run consisted of <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e070&amp;representation=PNG"></span> MC steps and visited 6 temperatures in the range 280–330 K for p53 and 201–301 K for TRTK-12. The temperature intervals were chosen to envelop the protein–peptide simulation temperatures.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/p[2]">10 simulations were also performed for each S100B-peptide system, where every run consisted of <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e071&amp;representation=PNG"></span> MC steps. All binding simulations were performed in a cube with side length 150 Å and periodic boundary conditions. The temperature <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e072&amp;representation=PNG"></span> was held fixed, chosen such that the peptide would be bound roughly half of the time (<span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e073&amp;representation=PNG"></span> K for p53 and 270 K for TRTK-12). The protein had flexible backbone and sidechains, but was kept close to its native bound conformation (taken from the NMR structures with PDB IDs 1DT7 and 1MWN, where the best representative conformers were chosen). This was done by using a total energy function <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e074&amp;representation=PNG"></span>, where <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e075&amp;representation=PNG"></span> is the original physical energy function defined in Ref. <a href="#pcbi.1002682-Irbck3">[27]</a>. Sampling of protein conformations close to the S100B native state was ensured by the non-optimized root-mean-square deviation penalty term given by<br><a name="pcbi.1002682.e076" id="pcbi.1002682.e076"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e076&amp;representation=PNG"><span class="note" xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/p[2]/disp-formula[1]/label[1]">(2)</span></span><br>where <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e077&amp;representation=PNG"></span> and <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e078&amp;representation=PNG"></span> are the positions of the C<em><sub>α</sub></em> atom of amino acid i in the simulated and experimental protein structures, respectively, and <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e079&amp;representation=PNG"></span> is the number of amino acids in the protein. The additional energy term constitutes typically less than 25% of the total energy in the system. Four flexible N-terminal residues, Phe88–Glu91, of each S100B monomer were removed.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/title[1]">Peptide Folding</h4>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/p[1]">The average amount of secondary structure in the free peptides was determined using STRIDE assignments <a href="#pcbi.1002682-Frishman1">[56]</a>. The similarity to the natively bound structure was analyzed by calculations of the peptide backbone RMSD (translationally and rotationally optimized) with respect to the best representative conformer of the NMR structures (1DT7 for p53 and 1MWN for TRTK-12).</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/title[1]">Binding Observables</h4>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/p[1]">As an indication of whether the peptide is bound to the correct binding site, we used the observables <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e080&amp;representation=PNG"></span> and <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e081&amp;representation=PNG"></span>. <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e082&amp;representation=PNG"></span> is the distance between the centers-of-mass of the simulated and the experimental peptide in the complex, respectively. <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e083&amp;representation=PNG"></span> is the number of contacts between the peptide and the protein binding pocket, where two residues are defined to be in contact if they exhibit at least two pairs of heavy atoms separated by less than 4.5 Å. The residues defining the protein binding pocket are listed in <a href="#pcbi-1002682-g005">Figure 5</a>.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[3]/sec[5]/title[1]">Clustering Procedure</h4>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[5]/p[1]">In order to characterize the most populated structural states of the intermediate, we used a Complete Linkage Hierarchical clustering method <a href="#pcbi.1002682-deHoon1">[57]</a>. The aim of this procedure is to group protein-peptide conformations that are similar to each other into clusters. To determine similarity we used the standard root-mean-square-deviation measure, RMSD. The cutoff value in the clustering procedure was taken to be 6 Å and 8 Å for TRTK-12 and p53, respectively, which resulted in roughly the same number of clusters for both sequences. The clustering procedure guarantees that within each cluster, the RMSD between all pairs of conformations is less than the chosen cutoff value.</p>
+
+</div>
+
+<div id="section4" xpathLocation="/article[1]/body[1]/sec[4]"><a id="s4" name="s4" toc="s4" title="Supporting Information"></a><h3 xpathLocation="noSelect">Supporting Information&nbsp;<a href="#top">Top</a></h3><a name="pcbi.1002682.s001" id="pcbi.1002682.s001"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002682.s001">Figure S1. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[1]/caption[1]/p[1]"><strong>Representative MC trajectories of the binding and unbinding of S100B and its peptide targets.</strong> Shown is the MC evolution of <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e084&amp;representation=PNG"></span> for two of the total 20 independent simulations performed for (A) p53 and (B) TRTK-12.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[1]/caption[1]/p[2]">(EPS)</p>
+<a name="pcbi.1002682.s002" id="pcbi.1002682.s002"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002682.s002">Figure S2. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[2]/caption[1]/p[1]"><strong>Time evolution of residue-residue distances in MD trajectories of the S100B-TRTK-12 complex.</strong> Distances are calculated between the sidechain center-of-mass points of the involved residues, Lys55 and Cys84 for S100B and Ile5 and Leu11 for TRTK-12.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[2]/caption[1]/p[2]">(EPS)</p>
+<a name="pcbi.1002682.s003" id="pcbi.1002682.s003"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002682.s003">Figure S3. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[3]/caption[1]/p[1]"><strong>MC protein-peptide binding simulation of S100B and the N terminal regulatory domain of NDR kinase.</strong> (A) MC evolution of <span class="inline-formula"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002682.e085&amp;representation=PNG"></span> (see <a href="#pcbi.1002682.e018">Equation 1</a> in main text) showing two independent binding/unbinding events, and (B) the minimum-energy conformation found during the trajectory where the simulated peptide is shown in green and the experimental protein-peptide structure is shown in gray and pink (PDB ID 1PSB) <a href="#pcbi.1002682-Bhattacharya1">[45]</a>. The NDR peptide sequence used in the simulation is KETEFLRLKRTRLGLE.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/supplementary-material[3]/caption[1]/p[2]">(EPS)</p>
+</div>
+
+
+
+<div class="contributions"><a id="authcontrib" name="authcontrib" toc="authcontrib" title="Author Contributions"></a><h3 xpathLocation="noSelect">Author Contributions&nbsp;<a href="#top">Top</a></h3><p xpathLocation="noSelect">Conceived and designed the experiments: IS YH ZL SW. Performed the experiments: IS YH. Analyzed the data: IS YH. Wrote the paper: IS YH ZL SW.</p></div><div xpathLocation="noSelect"><a id="references" name="references" toc="references" title="References"></a><h3 xpathLocation="noSelect">References&nbsp;<a href="#top">Top</a></h3><ol class="references" xpathLocation="noSelect"><li xpathLocation="noSelect"><a name="pcbi.1002682-Dunker1" id="pcbi.1002682-Dunker1"></a>Dunker A, Silman I, Uversky V, Sussman J (2008) Function and structure of inherently disordered proteins. Curr Opin Struc Biol 18: 756–764. <a class="find" href="/article/findArticle.action?citedArticleID=5622521">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Iakoucheva1" id="pcbi.1002682-Iakoucheva1"></a>Iakoucheva LM, Brown CJ, Lawson JD, Obradović Z, Dunker AK (2002) Intrinsic disorder in cell-signaling and cancer-associated proteins. J Mol Biol 323: 573–584. <a class="find" href="/article/findArticle.action?citedArticleID=5622523">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Dunker2" id="pcbi.1002682-Dunker2"></a>Dunker AK, Garner E, Guilliot S, Romero P, Albrecht K, et al. (1998) Protein disorder and the evolution of molecular recognition: theory, predictions and observations. Pac Symp Biocomput 1998: 473–484. <a class="find" href="/article/findArticle.action?citedArticleID=5622525">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Shoemaker1" id="pcbi.1002682-Shoemaker1"></a>Shoemaker BA, Portman JJ, Wolynes PG (2000) Speeding molecular recognition by using the folding funnel: the y-casting mechanism. Proc Natl Acad Sci US A 97: 8868–8873. <a class="find" href="/article/findArticle.action?citedArticleID=5622527">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Gunasekaran1" id="pcbi.1002682-Gunasekaran1"></a>Gunasekaran K, Tsai CJ, Kumar S, Zanuy D, Nussinov R (2003) Extended disordered proteins: targeting function with less scaffold. Trends Biochem Sci 28: 81–85. <a class="find" href="/article/findArticle.action?citedArticleID=5622529">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Hilser1" id="pcbi.1002682-Hilser1"></a>Hilser VJ, Thompson EB (2007) Intrinsic disorder as a mechanism to optimize allosteric coupling in proteins. Proc Natl Acad Sci U S A 104: 8311–8315. <a class="find" href="/article/findArticle.action?citedArticleID=5622531">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Kriwacki1" id="pcbi.1002682-Kriwacki1"></a>Kriwacki RW, Hengst L, Tennant L, Reed SI, Wright PE (1996) Structural studies of p21Waf1/Cip1/Sdi1 in the free and Cdk2-bound state: conformational disorder mediates binding diversity. Proc Natl Acad Sci U S A 93: 11504–11509. <a class="find" href="/article/findArticle.action?citedArticleID=5622533">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Ekman1" id="pcbi.1002682-Ekman1"></a>Ekman D, Light S, Björklund ÅK, Elofsson A (2006) What properties characterize the hub proteins of the protein-protein interaction network of Saccharomyces cerevisiae? Genome Biol 7: R45. <a class="find" href="/article/findArticle.action?citedArticleID=5622535">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Haynes1" id="pcbi.1002682-Haynes1"></a>Haynes C, Oldfield CJ, Ji F, Klitgord N, Cusick ME, et al. (2006) Intrinsic disorder is a common feature of hub proteins from four eukaryotic interactomes. PLoS Comput Biol 2: e100. <a class="find" href="/article/findArticle.action?citedArticleID=5622537">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Blint1" id="pcbi.1002682-Blint1"></a>Bálint È, Vousden KH (2001) Activation and activities of the p53 tumour suppressor protein. Brit J Cancer 85: 1813–1823. <a class="find" href="/article/findArticle.action?citedArticleID=5622539">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Avalos1" id="pcbi.1002682-Avalos1"></a>Avalos JL, Celic I, Muhammad S, Cosgrove MS, Boeke JD, et al. (2002) Structure of a Sir 2 enzyme bound to an acetylated p53 peptide. Mol Cell 10: 523–535. <a class="find" href="/article/findArticle.action?citedArticleID=5622541">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Lowe1" id="pcbi.1002682-Lowe1"></a>Lowe ED, Tews I, Cheng KY, Brown NR, Gul S, et al. (2002) Specificity determinants of recruitment peptides bound to phospho-CDK2/cyclin A. Biochemistry 41: 15625–15634. <a class="find" href="/article/findArticle.action?citedArticleID=5622543">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Mujtaba1" id="pcbi.1002682-Mujtaba1"></a>Mujtaba S, He Y, Zeng L, Yan S, Plotnikova O, et al. (2004) Structural mechanism of the bromodomain of the coactivator CBP in p53 transcriptional activation. Mol Cell 13: 251–263. <a class="find" href="/article/findArticle.action?citedArticleID=5622545">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Oldfield1" id="pcbi.1002682-Oldfield1"></a>Oldfield CJ, Meng J, Yang JY, Yang MQ, Uversky VN, et al. (2008) Flexible nets: disorder and induced fit in the associations of p53 and 14-3-3 with their partners. BMC Genomics 9 Suppl 1: S1. <a class="find" href="/article/findArticle.action?citedArticleID=5622547">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Dempsey1" id="pcbi.1002682-Dempsey1"></a>Dempsey B, Shaw G (2011) Identification of calcium-dependent and calcium-enhanced binding between S100B and the dopamine D2 receptor. Biochemistry 50: 9056–9065. <a class="find" href="/article/findArticle.action?citedArticleID=5622549">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Rustandi1" id="pcbi.1002682-Rustandi1"></a>Rustandi RR, Baldisseri DM, Weber DJ (2000) Structure of the negative regulatory domain of p53 bound to S100B(<em>β β</em>). Nature Struct Biol 7: 570–574. <a class="find" href="/article/findArticle.action?citedArticleID=5622551">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Barber1" id="pcbi.1002682-Barber1"></a>Barber KR, McClintock KA, Jamieson GA, Dimlich RVW, Shaw GS (1999) Specificity and Zn<sup>2+</sup> enhancement of the S100B binding epitope TRTK-12. J Biol Chem 274: 1502–1508. <a class="find" href="/article/findArticle.action?citedArticleID=5622553">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-McClintock1" id="pcbi.1002682-McClintock1"></a>McClintock K, Shaw G (2003) A novel target conformation is revealed by the solution structure of the Ca<sup>2+</sup>–S100B–TRTK-12 complex. J Biol Chem 278: 6251–6257. <a class="find" href="/article/findArticle.action?citedArticleID=5622555">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Inman1" id="pcbi.1002682-Inman1"></a>Inman K, Yang R, Rustandi R, Miller K, Baldisseri D, et al. (2002) Solution NMR structure of S100B bound to the high-affinity target peptide TRTK-12. J Mol Biol 324: 1003–1014. <a class="find" href="/article/findArticle.action?citedArticleID=5622557">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Charpentier1" id="pcbi.1002682-Charpentier1"></a>Charpentier T, Thompson L, Liriano M, Varney KM, Wilder P, et al. (2010) The effects of CapZ peptide (TRTK-12) binding to S100B-Ca<sup>2+</sup> as examined by NMR and X-ray crystallography. J Mol Biol 396: 1227–1243. <a class="find" href="/article/findArticle.action?citedArticleID=5622559">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Chen1" id="pcbi.1002682-Chen1"></a>Chen J (2009) Intrinsically disordered p53 extreme C-terminus binds to S100B(<em>β β</em>) through “fly-casting”. J Am Chem Soc 131: 2088–2089. <a class="find" href="/article/findArticle.action?citedArticleID=5622561">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Allen1" id="pcbi.1002682-Allen1"></a>Allen W, Capelluto D, Finkelstein C, Bevan D (2010) Modeling the relationship between the p53 C-terminal domain and its binding partners using molecular dynamics. J Phys Chem 114: 13201–13213. <a class="find" href="/article/findArticle.action?citedArticleID=5622563">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Pirolli1" id="pcbi.1002682-Pirolli1"></a>Pirolli D, Alinovi CC, Capoluongo E, Satta MA, Concolino P, et al. (2011) Insight into a novel p53 single point mutation (G389E) by Molecular Dynamics simulations. Int J Mol Sci 12: 128–140. <a class="find" href="/article/findArticle.action?citedArticleID=5622565">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Huang1" id="pcbi.1002682-Huang1"></a>Huang Y, Liu Z (2011) Anchoring Intrinsically Disordered Proteins to Multiple Targets: Lessons from N-Terminus of the p53 Protein. Int J Mol Sci 12: 1410–1430. <a class="find" href="/article/findArticle.action?citedArticleID=5622567">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Irbck1" id="pcbi.1002682-Irbck1"></a>Irbäck A, Samuelsson B, Sjunnesson F, Wallin S (2003) Thermodynamics of alpha- and betastructure formation in proteins. Biophys J 85: 1466–1473. <a class="find" href="/article/findArticle.action?citedArticleID=5622569">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Irbck2" id="pcbi.1002682-Irbck2"></a>Irbäck A, Mohanty S (2006) PROFASI: A Monte Carlo simulation package for protein folding and aggregation. J Comput Chem 27: 1548–1555. <a class="find" href="/article/findArticle.action?citedArticleID=5622571">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Irbck3" id="pcbi.1002682-Irbck3"></a>Irbäck A, Mitternacht S, Mohanty S (2009) An effective all-atom potential for proteins. PMC Biophys 2: 2. <a class="find" href="/article/findArticle.action?citedArticleID=5622573">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Staneva1" id="pcbi.1002682-Staneva1"></a>Staneva I, Wallin S (2009) All-atom Monte Carlo approach to protein-peptide binding. J Mol Biol 393: 1118–1128. <a class="find" href="/article/findArticle.action?citedArticleID=5622575">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Staneva2" id="pcbi.1002682-Staneva2"></a>Staneva I, Wallin S (2011) Binding free energy landscape of domain-peptide interactions. PLoS Comput Biol 7: e1002131. <a class="find" href="/article/findArticle.action?citedArticleID=5622577">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Petsalaki1" id="pcbi.1002682-Petsalaki1"></a>Petsalaki E, Stark A, García-Urdiales E, Russell RB (2009) Accurate prediction of peptide binding sites on protein surfaces. PLoS Comput Biol 5: e1000335. <a class="find" href="/article/findArticle.action?citedArticleID=5622579">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Raveh1" id="pcbi.1002682-Raveh1"></a>Raveh B, London N, Zimmerman L, Schueler-Furman O (2011) Rosetta FlexPepDock ab-initio: simultaneous folding, docking and refinement of peptides onto their receptors. PLoS ONE 6: e18934. <a class="find" href="/article/findArticle.action?citedArticleID=5622581">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Dagliyan1" id="pcbi.1002682-Dagliyan1"></a>Dagliyan O, Proctor EA, D'Auria KM, Ding F, Dokholyan NV (2011) Structural and dynamic determinants of protein-peptide recognition. Structure 19: 1837–1845. <a class="find" href="/article/findArticle.action?citedArticleID=5622583">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Schreiber1" id="pcbi.1002682-Schreiber1"></a>Schreiber G (2002) Kinetic studies of protein-protein interactions. Curr Opin Struct Biol 12: 41–47. <a class="find" href="/article/findArticle.action?citedArticleID=5622585">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Wright1" id="pcbi.1002682-Wright1"></a>Wright PE, Dyson HJ (2009) Linking folding and binding. Curr Opin Struct Biol 19: 31–38. <a class="find" href="/article/findArticle.action?citedArticleID=5622587">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Sugase1" id="pcbi.1002682-Sugase1"></a>Sugase K, Dyson HJ, Wright PE (2007) Mechanism of coupled folding and binding of an intrinsically disordered protein. Nature 447: 1021–1025. <a class="find" href="/article/findArticle.action?citedArticleID=5622589">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Ahmad1" id="pcbi.1002682-Ahmad1"></a>Ahmad M, Gu W, Helms V (2008) Mechanism of fast peptide recognition by SH3 domains. Angew Chem Int Ed Engl 47: 7626–7630. <a class="find" href="/article/findArticle.action?citedArticleID=5622591">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Huang2" id="pcbi.1002682-Huang2"></a>Huang Y, Liu Z (2009) Kinetic Advantage of Intrinsically Disordered Proteins in Coupled FoldingBinding Process: A Critical Assessment of the “Fly-Casting” Mechanism. J Mol Biol 393: 1143–1159. <a class="find" href="/article/findArticle.action?citedArticleID=5622593">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Huang3" id="pcbi.1002682-Huang3"></a>Huang Y, Liu Z (2010) Nonnative interactions in coupled folding and binding processes of intrinsically disordered proteins. PLoS ONE 5: e15375. <a class="find" href="/article/findArticle.action?citedArticleID=5622595">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Rustandi2" id="pcbi.1002682-Rustandi2"></a>Rustandi RR, Drohat AC, Baldisseri DM, Wilder PT, Weber DJ (1998) The Ca<sup>2+</sup>-dependent interaction of S100(<em>β β</em>) with a peptide derived from p53. Biochemistry 37: 1951–1960. <a class="find" href="/article/findArticle.action?citedArticleID=5622597">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Burgi1" id="pcbi.1002682-Burgi1"></a>Burgi R, Pitera J, van Gunsteren WF (2001) Assessing the effect of conformational averaging on the measured values of observables. J Biomol NMR 19: 305–320. <a class="find" href="/article/findArticle.action?citedArticleID=5622599">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Zagrovic1" id="pcbi.1002682-Zagrovic1"></a>Zagrovic B, van Gunsteren WF (2006) Comparing atomistic simulation data with the NMR experiment: how much can NOEs actually tell us? Proteins 63: 210–218. <a class="find" href="/article/findArticle.action?citedArticleID=5622601">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Arendt1" id="pcbi.1002682-Arendt1"></a>Arendt Y, Bhaumik A, Del Conte R, Luchinat C, Mori M, et al. (2007) Fragment docking to S100 proteins reveals a wide diversity of weak interaction sites. Chem Med Chem 2: 1648–1654. <a class="find" href="/article/findArticle.action?citedArticleID=5622603">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Pawson1" id="pcbi.1002682-Pawson1"></a>Pawson T, Nash P (2003) Assembly of cell regulatory systems through protein interaction domains. Science 300: 445–452. <a class="find" href="/article/findArticle.action?citedArticleID=5622605">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Lee1" id="pcbi.1002682-Lee1"></a>Lee HJ, Zheng JJ (2010) PDZ domains and their binding partners: structure, specificity, and modification. Cell Commun Signal 8: 8. <a class="find" href="/article/findArticle.action?citedArticleID=5622607">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Bhattacharya1" id="pcbi.1002682-Bhattacharya1"></a>Bhattacharya S, Large E, Heizmann CW, Hemmings B, Chazin WJ (2003) Structure of the Ca<sup>2+</sup>/S100B/NDR kinase peptide complex: insights into S100 target specificity and activation of the kinase. Biochemistry 42: 14416–14426. <a class="find" href="/article/findArticle.action?citedArticleID=5622609">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Berendsen1" id="pcbi.1002682-Berendsen1"></a>Berendsen H, van der Spoel D, Drunen R (1995) GROMACS: a message-passing parallel molecular dynamics implementation. Comp Phys Comm 91: 43–56. <a class="find" href="/article/findArticle.action?citedArticleID=5622611">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Hess1" id="pcbi.1002682-Hess1"></a>Hess B, Kutzner C, van der Spoel D, Lindahl E (2008) GROMACS 4: algorithms for highly efficient, load-balanced, and scalable molecular simulations. J Chem Theory Comput 4: 435–447. <a class="find" href="/article/findArticle.action?citedArticleID=5622613">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Kaminski1" id="pcbi.1002682-Kaminski1"></a>Kaminski G, Friesner R, Tirado-Rives J, Jorgensen W (2001) Evaluation and reparametrization of the OPLS-AA force field for proteins via comparison with accurate quantum chemical calculations on peptides. J Phys Chem B 105: 6474–6487. <a class="find" href="/article/findArticle.action?citedArticleID=5622615">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Berendsen2" id="pcbi.1002682-Berendsen2"></a>Berendsen H, Grigera J, Straatsma T (1987) The missing term in effective pair potentials. J Phys Chem 91: 6269–6271. <a class="find" href="/article/findArticle.action?citedArticleID=5622617">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Darden1" id="pcbi.1002682-Darden1"></a>Darden T, York D, Pedersen L (1993) Particle mesh Ewald: an N⋅log(N) method for Ewald sums in large systems. J Chem Phys 98: 10089–10092. <a class="find" href="/article/findArticle.action?citedArticleID=5622619">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Hess2" id="pcbi.1002682-Hess2"></a>Hess B, Bekker H, Berendsen H, Fraaije J (1997) LINCS: a linear constraint solver for molecular simulations. J Comput Chem 18: 1463–1472. <a class="find" href="/article/findArticle.action?citedArticleID=5622621">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Bussi1" id="pcbi.1002682-Bussi1"></a>Bussi G, Donadio D, Parrinello M (2007) Canonical sampling through velocity rescaling. J Chem Phys 126: 014101. <a class="find" href="/article/findArticle.action?citedArticleID=5622623">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Parrinello1" id="pcbi.1002682-Parrinello1"></a>Parrinello M, Rahman A (1981) Polymorphic transitions in single crystals: a new molecular dynamics method. J Appl Phys 52: 7182–7190. <a class="find" href="/article/findArticle.action?citedArticleID=5622625">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Lyubartsev1" id="pcbi.1002682-Lyubartsev1"></a>Lyubartsev A, Martsinovski A, Shevkunov S, Vorontsov-Velyaminov P (1992) New approach to Monte Carlo calculation of the free energy: Method of expanded ensembles. J Chem Phys 96: 1776–1783. <a class="find" href="/article/findArticle.action?citedArticleID=5622627">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Marinari1" id="pcbi.1002682-Marinari1"></a>Marinari E, Parisi G (1992) Simulated tempering: a new Monte Carlo scheme. Europhys Lett 19: 451–458. <a class="find" href="/article/findArticle.action?citedArticleID=5622629">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Frishman1" id="pcbi.1002682-Frishman1"></a>Frishman D, Argos P (1995) Knowledge-based protein secondary structure assignment. Proteins 23: 566–579. <a class="find" href="/article/findArticle.action?citedArticleID=5622631">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-deHoon1" id="pcbi.1002682-deHoon1"></a>de Hoon MJ, Imoto S, Nolan J, Miyano S (2004) Open source clustering software. Bioinformatics 20: 1453–1454. <a class="find" href="/article/findArticle.action?citedArticleID=5622633">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Miller1" id="pcbi.1002682-Miller1"></a>Miller RG (1974) The jackknife – a review. Biometrika 61: 1–15. <a class="find" href="/article/findArticle.action?citedArticleID=5622635">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002682-Delano1" id="pcbi.1002682-Delano1"></a>Delano WL (2011) The PyMOL Molecular Graphics System, Version 1.4.1. Schrödinger, LLC. </li></ol></div>
+
+</div></div>
+<div style="display:none">
+<div dojoType="ambra.widget.RegionalDialog" id="AnnotationDialog" style="padding:0;margin:0;">
+  <div class="dialog annotate">
+    <div class="tipu" id="dTipu"></div>
+    <div class="comment">
+      <h5><span>Post Your Note (For Public Viewing)</span></h5>
+      <div class="posting pane">
+        <form name="createAnnotation" id="createAnnotation" method="post" action="">
+          <input type="hidden" name="target" value="info:doi/10.1371/journal.pcbi.1002682" />
+          <input type="hidden" name="startPath" value="" />
+          <input type="hidden" name="startOffset" value="" />
+          <input type="hidden" name="endPath" value="" />
+          <input type="hidden" name="endOffset" value="" />
+          <input type="hidden" name="commentTitle" id="commentTitle" value="" />
+          <input type="hidden" name="comment" id="commentArea" value="" />
+          <input type="hidden" name="ciStatement" id="statementArea" value="" />
+          <input type="hidden" name="isCompetingInterest" id="isCompetingInterest" value="false" />
+          <input type="hidden" name="noteType" id="noteType" value="" />
+          <fieldset>
+            <legend>Compose Your Note</legend>
+            <span id="submitMsg" class="error" style="display:none;"></span>
+            <table class="layout">
+              <tr>
+                <td>
+                  <label for="cNoteType">This is a </label><select name="cNoteType" id="cNoteType"><option value="note">note</option><option value="correction">correction</option></select>
+                  <span id="cdls" style="visibility:hidden;margin-left:0.3em; white-space:nowrap;"><a href="/static/commentGuidelines.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D?target=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002682#corrections">What are corrections?</a></span>
+                  <label for="cTitle"><span class="none">Enter your note title</span><!-- error message text <em>A title is required for all public notes</em>--></label>
+                  <input type="text" name="cTitle" id="cTitle" value="Enter your note title..." class="title" alt="Enter your note title..." />
+                  <label for="cArea"><span class="none">Enter your note</span><!-- error message text <em>Please enter your note</em>--></label>
+                  <textarea name="cArea" id="cArea" value="Enter your note..." alt="Enter your note...">Enter your note...</textarea>
+                  <input type="hidden" name="isPublic" value="true" />
+                </td>
+                <td>&nbsp;</td>
+                <td class="coi">
+                  <fieldset>
+                    <legend>Declare any competing interests.</legend>
+                    <ul>
+                      <li><label><input id="isCompetingInterestNo" type="radio" checked="checked" name="competingInterest" value="false"  /> No, I don't have any competing interests to declare.</label></li>
+                      <li><label><input id="isCompetingInterestYes" type="radio" name="competingInterest" value="true"  /> Yes, I have competing interests to declare (enter below):</label></li>
+                    </ul>
+                    <textarea name="ciStatementArea" id="ciStatementArea" disabled value="Enter your competing interests..." alt="Enter your competing interests...">Enter your competing interests...</textarea>
+                  </fieldset>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3" class="buttons">
+                  <input type="button" value="Cancel" title="Click to close and cancel" id="btn_cancel"/>
+                  <input type="button" value="Submit" title="Click to post your note publicly" id="btn_post" class="primary"/>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <p>Notes and Corrections can include the following markup tags:</p>
+                  <p><strong>Emphasis:</strong> ''<em>italic</em>''&nbsp;&nbsp;'''<strong>bold</strong>'''&nbsp;&nbsp;'''''<strong><em>bold italic</em></strong>'''''</p>
+                  <p><strong>Other:</strong> ^^<sup>superscript</sup>^^&nbsp;&nbsp;~~<sub>subscript</sub>~~</p>
+                </td>
+              </tr>
+            </table>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <div class="tip" id="dTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialog" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="caTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      Please follow our <a href="/static/commentGuidelines.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D">guidelines for notes and comments</a> and review our <a href="/static/competing.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D">competing interests policy</a>. Comments that do not conform to our guidelines will be promptly removed and the user account disabled. The following must be avoided:
+      <ul>
+        <li>Remarks that could be interpreted as allegations of misconduct</li>
+        <li>Unsupported assertions or statements</li>
+        <li>Inflammatory or insulting language</li>
+      </ul>
+      <form name="contextActionForm" id="contextActionForm" class="clearfix buttons" method="post" action="">
+        <input type="button" name="Continue" value="Continue" id="ContextActionDialogContinueButton" onmouseup="ambra.displayAnnotationContext.startComment(event);" title="Add a note to this text" class="primary"/>
+        <input type="button" name="Cancel" value="Cancel" id="ContextActionDialogCancelButton" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);" title="Close this Window"/>
+      </form>
+    </div>
+    <div class="tip" id="caTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogNotLogged" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canlTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You must be logged in to add a note to an article.
+      You may log in by <a onmousedown="ambra.displayAnnotationContext.disconnect(event);" href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002682">clicking here</a> or <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">cancel this note</a>.
+    </div>
+    <div class="tip" id="canlTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogBadSelection" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canBDTipu"></div>
+    <div class="contextActionContent">
+      <h5 class="annotation icon"><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You cannot annotate this area of the document. <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">Close</a>
+    </div>
+    <div class="tip" id="canBDTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogBadRangeSelection" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canbrTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You cannot create an annotation that spans different sections of the document; please adjust your selection.<br/>
+      <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">Close</a>
+    </div>
+    <div class="tip" id="canbrTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.RegionalDialog" id="CommentDialog" style="padding:0;margin:0;">
+  <div class="dialog preview">
+    <div class="tipu" id="cTipu"></div>
+    <div class="btn close" id="btn_close" title="Click to close"><a title="Click to close">Close</a></div>
+    <div id="cmtContainer" class="comment">
+      <h6 id="viewCmtTitle"></h6>
+      <div class="detail" id="viewCmtDetail"></div>
+      <div class="contentwrap" id="viewComment"></div>
+      <div class="contentwrap" id="viewCIStatement"></div>
+      <div class="detail" id="viewLink">
+        <!--<a href="#" class="commentary icon" title="Click to view full thread and respond">View all responses</a>
+        <a href="#" class="respond tooltip" title="Click to respond to this posting">Respond to this</a>-->
+      </div>
+    </div>
+    <div class="tip" id="cTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.RegionalDialog" id="CommentDialogMultiple" style="padding:0;margin:0;">
+  <div class="dialog multiple preview">
+    <div class="tipu" id="mTipu"></div>
+    <div class="btn close" id="btn_close_multi" title="Click to close"><a title="Click to close">Close</a></div>
+    <ol id="multilist"></ol>
+    <br/>
+    <div id="multidetail"></div>
+    <div class="tip" id="mTip"></div>
+  </div>
+</div>
+
+
+<div dojoType="dijit.Dialog" id="Rating">
+  <div class="dialog annotate">
+    <div class="tipu" id="dTipu"></div>
+    <div class="comment">
+      <h5><span>Rate This Article</span></h5>
+      <div class="instructions">Please follow our <a  href="/static/ratingGuidelines.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D">guidelines for rating</a> and review our <a href="/static/competing.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D">competing interests policy</a>. Comments that do not conform to our guidelines will be promptly removed and the user account disabled. The following must be avoided:
+        <ol>
+          <li>Remarks that could be interpreted as allegations of misconduct</li>
+          <li>Unsupported assertions or statements</li>
+          <li>Inflammatory or insulting language</li>
+        </ol>
+      </div>
+      <div class="posting pane">
+        <form name="ratingForm" id="ratingForm" method="post" action="">
+          <input type="hidden" name="articleURI" value="info:doi/10.1371/journal.pcbi.1002682" />  
+          <input type="hidden" name="commentTitle" id="commentTitle" value="" />
+          <input type="hidden" name="comment" id="commentArea" value="" />
+          <input type="hidden" name="ciStatement" id="statementArea" value="" />
+          <input type="hidden" name="isCompetingInterest" id="isCompetingInterest" value="" />
+          <fieldset>
+            <legend>Compose Your Annotation</legend>
+            <span id="submitRatingMsg" class="error" style="display:none;"></span>
+            <table class="layout">
+              <tr>
+                <td rowspan="2">
+                  <label for="insight">Insight</label>
+                  <ul class="star-rating rating edit" title="Rate insight" id="rateInsight">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Bland" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'insight', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Profound" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="insight" title="insight" value="" />
+                  <label for="reliability">Reliability</label>
+                  <ul class="star-rating rating edit" title="Rate reliability" id="rateReliability">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Tenuous" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'reliability', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Unassailable" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="reliability" title="reliability" value="" />
+                  <label for="style">Style</label>
+                  <ul class="star-rating rating edit" title="Rate style" id="rateStyle">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Crude" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'style', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Elegant" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="style" title="style" value="" />
+                  <label for="cTitle"><span class="none">Enter your comment title</span><!-- error message text <em>A title is required for all public annotations</em>--></label>
+                  <input type="text" name="cTitle" id="cTitle" value="Enter your comment title..." class="title" alt="Enter your comment title..." />
+                  <label for="cArea"><span class="none">Enter your comment</span><!-- error message text <em>Please enter your annotation</em>--></label>
+                  <textarea name="cArea" id="cArea" value="Enter your comment..." alt="Enter your comment...">Enter your comment...</textarea>
+                </td>
+                <td rowspan="2">&nbsp;</td>
+                <td class="coi">
+                  <fieldset>
+                    <legend>Declare any competing interests.</legend>
+                    <ul>
+                      <li><label><input id="isCompetingInterestNo" type="radio" name="competingInterest" value="false"  /> No, I don't have any competing interests to declare.</label></li>
+                      <li><label><input id="isCompetingInterestYes" type="radio" name="competingInterest" value="true"  /> Yes, I have competing interests to declare (enter below):</label></li>
+                    </ul>
+                    <textarea name="ciStatementArea" id="ciStatementArea" disabled value="Enter your competing interests..." title="Enter your competing interests...">Enter your competing interests...</textarea>
+                  </fieldset>
+                </td>
+              </tr>
+              <tr>
+                <td class="buttons">
+                  <input type="button" value="Cancel" title="Click to close and cancel" id="btn_cancel_rating"/>
+                  <input type="button" value="Submit" title="Click to post your annotation publicly" id="btn_post_rating" class="primary"/>
+                </td>
+              </tr>
+              <tr>
+                  <td colspan="3"><p>Ratings can include the following markup tags:</p>
+                  <p><strong>Emphasis:</strong> ''<em>italic</em>''&nbsp;&nbsp;'''<strong>bold</strong>'''&nbsp;&nbsp;'''''<strong><em>bold italic</em></strong>'''''</p>
+                  <p><strong>Other:</strong> ^^<sup>superscript</sup>^^&nbsp;&nbsp;~~<sub>subscript</sub>~~</p></td>
+              </tr>
+            </table>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div dojoType="ambra.widget.LoadingCycle" id="LoadingCycle" class="loadingCycler">
+  <img src="/images/loading.gif" width="58" height="58" title="Loading..." />
+</div>
+<div dojoType="dijit.Dialog" id="LightBox">
+
+    <!-- start main window wrapper-->
+    <div class="figure-window-wrapper">
+
+      <!--start film strip Wrapper-->
+      <div class="figure-window-nav-wrapper">
+        <div id="figure-window-nav"></div>
+      </div><!--end figure-window-nav-wrapper-->
+
+      <!-- start figure container-->
+      <div class="figure-window-container">
+
+        <!-- start/end figure viewer-->
+        <div id="figure-window-viewer">
+          <img id="figure-window-img" class="large"/>
+        </div>
+
+        <!-- start/end figure doi-->
+        <div id="figure-window-doi"></div>
+
+        <!--start figure title-box-->
+        <div id="figure-window-title-box" class="figure-window-title-less">
+          <span id="figure-window-title"></span>
+          <div id="figure-window-more" class="figure-window-more" onclick="return ambra.lightBox.showMoreOrLess();"></div>
+          <div id="figure-window-description"></div>
+        </div><!--end figure title-box-->
+
+        <!--start figure download-->
+        <div class="figure-window-download">
+          <ul>
+            <li class="download icon"><strong>Download:</strong>
+              <a id="figure-window-ppt" title="Click to download PowerPoint slide of this image">PowerPoint
+                slide</a> |
+              <a id="figure-window-large" title="Click to download a larger version of this image">larger image
+                (<span id="figure-window-large-size"></span>)</a> |
+              <a id="figure-window-tiff" title="Click to download a original version of this image">original image
+                (<span id="figure-window-tiff-size"></span>)</a>
+            </li>
+          </ul>
+        </div><!--end figure download-->
+
+        <!--start/end of close, context, next and previous button-->
+        <div class="figure-window-close" onclick="return ambra.lightBox.hide();"></div>
+        <div class="figure-window-context" onclick="return ambra.lightBox.showInContext();"></div>
+        <div id="figure-window-previous" onclick="return ambra.lightBox.showPrevious();"></div>
+        <div id="figure-window-next" onclick="return ambra.lightBox.showNext();"></div>
+
+      </div><!--end figure-window-container-->
+
+    </div><!--end figure-window-wrapper-->
+
+</div><!--end dijit.Dialog-->
+</div>
+</div>
+<!-- end : main contents -->
+
+</div>
+<!-- end : container -->	
+
+<!-- begin : footer -->
+<div id="ftr">
+  <p><span>All site content, except where otherwise noted, is licensed under a <a href="http://creativecommons.org/licenses/by/2.5/" title="Creative Commons Attribution License 2.5" tabindex="200">Creative Commons Attribution License</a>.</span></p>
+  <ul>
+    <li><a href="/static/privacy.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D" title="PLOS Privacy Statement" tabindex="501">Privacy Statement</a></li>
+    <li><a href="/static/terms.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D" title="PLOS Terms of Use" tabindex="502">Terms of Use</a></li>
+    <li><a href="http://www.plos.org/advertise/" title="Advertise With PLOS" tabindex="503">Advertise</a></li>
+    <li><a href="http://www.plos.org/about/media-inquiries/" title="PLOS Embargo Policy" tabindex="504">Media Inquiries</a></li>
+    <li><a href="http://www.plos.org/publish/order-reprints/" title="PLOS in Print" tabindex="505">PLOS in Print</a></li>
+    <li><a href="/static/sitemap.action;jsessionid=9B520FDE2DDD5F35A3DD225DA3713C4D" title="Site Map" tabindex="506">Site Map</a></li>
+    <li><a href="http://www.plos.org" title="PLOS.org" tabindex="507">PLOS.org</a></li>
+  </ul>
+  <div class="powered">
+  <ul>
+    <li><a href="/static/releaseNotes.action" title="Ambra | Release Notes">Ambra 2.4.9</a></li>
+    <li>Managed Colocation provided by <a href="http://www.isc.org/" title="Internet Systems Consortium">Internet Systems Consortium</a>.</li>
+  </ul>
+  </div>
+</div>
+<!-- end : footer -->
+<script type="text/javascript">
+  var _namespace="";
+    var loggedIn = false;
+
+  var almHost = "http://alm.plos.org";
+  var solrHost = "http://api.plos.org/search";
+  var pubGetHost = "http://pubget.com/widgetizer/links_hash";
+  var appContext = "";
+
+  // Safari v3.1.1 "console.debug" issue (http://trac.dojotoolkit.org/ticket/6849) workaround
+  if (/3[\.0-9]+ Safari/.test(navigator.appVersion)) {
+    window.console = {
+      origConsole: window.console,
+      log: function(s){ this.origConsole.log(s); },
+      info: function(s){ this.origConsole.info(s); },
+      error: function(s){ this.origConsole.error(s); },
+      warn: function(s){ this.origConsole.warn(s); }
+    };
+  }
+
+  var djConfig = {
+    // don't debug for IE - as dojo's firebug lite module is error prone in IE
+    isDebug: false,
+    parseOnLoad: true
+  };
+
+  var bamGAID = 'UA-338393-1';
+  var bamGAVPV = location.pathname + location.search + location.hash;
+</script>
+<script type="text/javascript" src="/javascript/dojo/dojo/dojo.js?v=pzlwVCPPo+oJC12upPgJrJ5EG_k"></script>
+<script type="text/javascript" src="/javascript/dojo/dojo/ambra.js?v=Y8JM0CVD9YwjC99M_jvbcRTiGhY"></script>
+<script type="text/javascript" src="/javascript/init_global.js?v=fF03pfG3r+Nkj_czZ8ORg8o5sNM"></script>
+<script type="text/javascript" src="/javascript/init_article.js?v=qzBD_a7nKbeMM2xNUtB3vckN+Zc"></script>
+<script type="text/javascript" src="/javascript/init_ratings.js?v=seKykuS0X33CQGS7Lj+8FtBy5Uw"></script>
+<script type="text/javascript" src="/javascript/init_lightBox.js?v=vJRLPy7RRX8Zp31Ogcm3i+TA4f8"></script>
+<script type="text/javascript" src="/javascript/init_article_body.js?v=YgFei2xCi50CahwaPbSsxUxUsmw"></script>
+<script type="text/javascript" src="/javascript/init_article_rhc.js?v=djtbTMOagorKE6ZPrkCwufAfWWI"></script>
+<script type="text/javascript" src="/javascript/alm.js?v=1tH9JZ8uDtXspXssGJDr8O+jBOs"></script>
+<script type="text/javascript" src="/javascript/reporting/articleViewsCumulative.js?v=RQ+gCrcAl0dBeLbmokxgQZTGYYA"></script>
+<script type="text/javascript" src="/javascript/check_twitter.js?v=Hc0sH1W9xIu0qhqxWPD4c1u50K4"></script>
+<script type="text/javascript" src="/javascript/init_googleAnalytics.js?v=yCD4h9PHGI0dsefmuWDlMn7pHog"></script>
+
+</body>
+</html>
+

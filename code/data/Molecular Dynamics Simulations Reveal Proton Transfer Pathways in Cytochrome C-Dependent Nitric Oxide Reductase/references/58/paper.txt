@@ -1,0 +1,4 @@
+Storage of an excess proton in the hydrogen-bonded network of the d-pathway of cytochrome C oxidase: identification of a protonated water cluster.
+Xu J, Sharpe MA, Qin L, Ferguson-Miller S, Voth GA
+Abstract:
+The mechanism of proton transport in the D-pathway of cytochrome c oxidase (CcO) is further elucidated through examining a protonated water/hydroxyl cluster inside the channel. The second generation multi-state empirical valence bond (MS-EVB2) model was employed in a molecular dynamics study based on a high-resolution X-ray structure to simulate the interaction of the excess proton with the channel environment. Our results indicate that a hydrogen-bonded network consisting of about 5 water molecules surrounded by three side chains and two backbone groups (S197, S200, S201, F108) is involved in storage and translocation of an excess proton to the extracellular side of CcO.

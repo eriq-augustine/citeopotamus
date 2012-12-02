@@ -1,0 +1,41 @@
+REFERENCES
+[1]	 Lengauer T, editor. (2007) Bioinformatics - From Genomes to Therapies 2. Getting at the Inner Workings: Molecular Interactions. Weinheim, Germany: Wiley-VCH. 520 p. 
+[2]	Price ND, Papin JA, Schilling CH, Palsson BO (2003) Genome-scale microbial in silico models: the constraints-based approach. Trends Biotechnol 21: 162–169. doi: 10.1016/S0167-7799(03)00030-1. 
+[3]	Stelling J, Klamt S, Bettenbrock K, Schuster S, Gilles ED (2002) Metabolic network structure determines key aspects of functionality and regulation. Nature 420: 190–193. doi: 10.1038/nature01166. 
+[4]	Segre D, Vitkup D, Church GM (2002) Analysis of optimality in natural and perturbed metabolic networks. Proc Natl Acad Sci U S A 99: 15112–15117. doi: 10.1073/pnas.232349399. 
+[5]	Vemuri GN, Altman E, Sangurdekar DP, Khodursky AB, Eiteman MA (2006) Overflow metabolism in Escherichia coli during steady-state growth: transcriptional regulation and effect of the redox ratio. Appl Environ Microb 72: 3653–3661. doi: 10.1128/AEM.72.5.3653-3661.2006. 
+[6]	Molenaar D, van Berlo R, de Ridder D, Teusink B (2009) Shifts in growth strategies reflect tradeoffs in cellular economics. Mol Syst Biol 5: 323. doi: 10.1038/msb.2009.82. 
+[7]	Beardmore RE, Gudelj I, Lipson DA, Hurst LD (2011) Metabolic trade-offs and the maintenance of the fittest and the flattest. Nature 472: 342–346. doi: 10.1038/nature09905. 
+[8]	Beg QK, Vazquez A, Ernst J, de Menezes MA, Bar-Joseph Z, et al. (2007) Intracellular crowding defines the mode and sequence of substrate uptake by Escherichia coli and constrains its metabolic activity. Proc Natl Acad Sci U S A 104: 12663–12668. doi: 10.1073/pnas.0609845104. 
+[9]	Vazquez A, Beg QK, deMenezes MA, Ernst J, Bar-Joseph Z, et al. (2008) Impact of the solvent capacity constraint on E. coli metabolism. BMC Syst Biol 2: 7. doi: 10.1186/1752-0509-2-7. 
+[10]	Shlomi T, Benyamini T, Gottlieb E, Sharan R, Ruppin E (2011) Genome-scale metabolic modeling elucidates the role of proliferative adaptation in causing the warburg effect. PLoS Comput Biol 7: e1002018. doi: 10.1371/journal.pcbi.1002018. 
+[11]	Zhuang K, Vemuri GN, Mahadevan R (2011) Economics of membrane occupancy and respiro-fermentation. Mol Syst Biol 7: 500. doi: 10.1038/msb.2011.34. 
+[12]	Goelzer A, Fromion V, Scorletti G (2011) Cell design in bacteria as a convex optimization problem. Automatica 47: 1210–1218. 
+[13]	Yizhak K, Benyamini T, Liebermeister W, Ruppin E, Shlomi T (2010) Integrating quantitative proteomics and metabolomics with a genome-scale metabolic network model. Bioinformatics 26: i255–260. doi: 10.1093/bioinformatics/btq183. 
+[14]	Colijn C, Brandes A, Zucker J, Lun DS, Weiner B, et al. (2009) Interpreting expression data with metabolic flux models: predicting Mycobacterium tuberculosis mycolic acid production. PLoS Comput Biol 5: e1000489. doi: 10.1371/journal.pcbi.1000489. 
+[15]	Pharkya P, Nikolaev EV, Maranas CD (2003) Review of the BRENDA Database. Metab Eng 5: 71–73. doi: 10.1016/S1096-7176(03)00008-9. 
+[16]	Wittig U, Golebiewski M, Kania R, Krebs O, Mir S, et al. (2006) SABIO-RK: Integration and curation of reaction kinetics data. Lect N Bioinformat 4075: 94–103. 
+[17]	Ishii N, Nakahigashi K, Baba T, Robert M, Soga T, et al. (2007) Multiple high-throughput analyses monitor the response of E. coli to perturbations. Science 316: 593–597. doi: 10.1126/science.1132067. 
+[18]	Schuetz R, Kuepfer L, Sauer U (2007) Systematic evaluation of objective functions for predicting intracellular fluxes in Escherichia coli. Mol Syst Biol 3: 119. doi: 10.1038/msb4100162. 
+[19]	Feist AM, Henry CS, Reed JL, Krummenacker M, Joyce AR, et al. (2007) A genome-scale metabolic reconstruction for Escherichia coli K-12 MG1655 that accounts for 1260 ORFs and thermodynamic information. Mol Syst Biol 3: 121. doi: 10.1038/msb4100155. 
+[20]	Shlomi T, Berkman O, Ruppin E (2005) Regulatory on/off minimization of metabolic flux changes after genetic perturbations. Proc Natl Acad Sci U S A 102: 7695–7700. doi: 10.1073/pnas.0406346102. 
+[21]	Mahadevan R, Schilling CH (2003) The effects of alternate optimal solutions in constraint-based genome-scale metabolic models. Metab Eng 5: 264–276. doi: 10.1016/j.ymben.2003.09.002. 
+[22]	Bar-Even A, Noor E, Savir Y, Liebermeister W, Davidi D, et al. (2011) The moderately efficient enzyme: evolutionary and physicochemical trends shaping enzyme parameters. Biochemistry 50: 4402–4410. doi: 10.1021/bi2002289. 
+[23]	Kanehisa M, Goto S, Furumichi M, Tanabe M, Hirakawa M (2010) KEGG for representation and analysis of molecular networks involving diseases and drugs. Nucleic Acids Res 38: D355–360. doi: 10.1093/nar/gkp896. 
+[24]	Akesson M, Forster J, Nielsen J (2004) Integration of gene expression data into genome-scale metabolic models. Metab Eng 6: 285–293. doi: 10.1016/j.ymben.2003.12.002. 
+[25]	Becker SA, Palsson BO (2008) Context-specific metabolic networks are consistent with experiments. PLoS Comput Biol 4: e1000082. doi: 10.1371/journal.pcbi.1000082. 
+[26]	Dong T, Kirchhof MG, Schellhorn HE (2008) RpoS regulation of gene expression during exponential growth of Escherichia coli K12. Mol Genet Genomics 279: 267–277. doi: 10.1007/s00438-007-0311-4. 
+[27]	Wagner A (2000) Inferring lifestyle from gene expression patterns. Mol Biol Evol 17: 1985–1987. doi: 10.1093/oxfordjournals.molbev.a026299. 
+[28]	Kim J, Reed JL (2010) OptORF: Optimal metabolic and regulatory perturbations for metabolic engineering of microbial strains. BMC Syst Biol 4: 53. doi: 10.1186/1752-0509-4-53. 
+[29]	Shlomi T, Eisenberg Y, Sharan R, Ruppin E (2007) A genome-scale computational study of the interplay between transcriptional regulation and metabolism. Mol Syst Biol 3: 101. doi: 10.1038/msb4100141. 
+[30]	Bremer H, Dennis PP (1996) Modulation of chemical composition and other parameters of the cell by growth rate. In: Neidhardt RCI FC, Ingraham JL, Lin ECC, Low KB, Magasanik B, Reznikoff WS, Riley M, Schaechter M, Umbarger HE, editors. Washington, DC: American Society for Microbiology. pp. pp 1553–1569. 
+[31]	Wong WW, Tran LM, Liao JC (2009) A hidden square-root boundary between growth rate and biomass yield. Biotechnol Bioeng 102: 73–80. doi: 10.1002/bit.22046. 
+[32]	Veit A, Polen T, Wendisch VF (2007) Global gene expression analysis of glucose overflow metabolism in Escherichia coli and reduction of aerobic acetate formation. Appl Microbiol Biotechnol 74: 406–421. doi: 10.1007/s00253-006-0680-3. 
+[33]	Daran-Lapujade P, Jansen ML, Daran JM, van Gulik W, de Winde JH, et al. (2004) Role of transcriptional regulation in controlling fluxes in central carbon metabolism of Saccharomyces cerevisiae. A chemostat culture study. J Biol Chem 279: 9125–9138. doi: 10.1074/jbc.M309578200. 
+[34]	Lewis NE, Hixson KK, Conrad TM, Lerman JA, Charusanti P, et al. (2010) Omic data from evolved E. coli are consistent with computed optimal growth from genome-scale models. Mol Syst Biol 6: 390. doi: 10.1038/msb.2010.47. 
+[35]	Scott M, Hwa T (2011) Bacterial growth laws and their applications. Curr Opin Biotechnol 22: 559–565. doi: 10.1016/j.copbio.2011.04.014. 
+[36]	Bennett BD, Kimball EH, Gao M, Osterhout R, Van Dien SJ, et al. (2009) Absolute metabolite concentrations and implied enzyme active site occupancy in Escherichia coli. Nat Chem Biol 5: 593–599. doi: 10.1038/nchembio.186. 
+[37]	Henry CS, Broadbelt LJ, Hatzimanikatis V (2007) Thermodynamics-based metabolic flux analysis. Biophys J 92: 1792–1805. doi: 10.1529/biophysj.106.093138. 
+[38]	Burgard AP, Pharkya P, Maranas CD (2003) Optknock: a bilevel programming framework for identifying gene knockout strategies for microbial strain optimization. Biotechnol Bioeng 84: 647–657. doi: 10.1002/bit.10803. 
+[39]	Pharkya P, Burgard AP, Maranas CD (2004) OptStrain: a computational framework for redesign of microbial production systems. Genome Res 14: 2367–2376. doi: 10.1101/gr.2872004. 
+[40]	Tepper N, Shlomi T (2010) Predicting metabolic engineering knockout strategies for chemical production: accounting for competing pathways. Bioinformatics 26: 536–543. doi: 10.1093/bioinformatics/btp704. 

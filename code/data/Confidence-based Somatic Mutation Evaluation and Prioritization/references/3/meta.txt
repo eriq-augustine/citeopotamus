@@ -1,0 +1,6 @@
+TITLE: Biases in Illumina transcriptome sequencing caused by random hexamer priming.
+AUTHORS: Hansen KD, Brenner SE, Dudoit S
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Generation of cDNA using random hexamer priming induces biases in the nucleotide composition at the beginning of transcriptome sequencing reads from the Illumina Genome Analyzer. The bias is independent of organism and laboratory and impacts the uniformity of the reads along the transcriptome. We provide a read count reweighting scheme, based on the nucleotide frequencies of the reads, that mitigates the impact of the bias.

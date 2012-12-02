@@ -1,0 +1,6 @@
+TITLE: Structural and catalytic role of arginine 88 in Escherichia coli adenylate kinase as evidenced by chemical modification and site-directed mutagenesis.
+AUTHORS: Reinstein J, Gilles AM, Rose T, Wittinghofer A, Saint Girons I, Bârzu O, Surewicz WK, Mantsch HH
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Phenylglyoxal inactivates Escherichia coli adenylate kinase by modifying a single arginine residue (Arg-88). ATP, ADP, P1,P5-di(adenosine 5')-pentaphosphate, and to a lesser extent AMP protect the enzyme against inactivation by phenylglyoxal. Site-directed mutagenesis of Arg-88 to glycine yields a modified form of adenylate kinase (RG88 mutant) closely related structurally to the wild-type protein as indicated by Fourier transform infrared spectroscopy, differential scanning calorimetry, and limited proteolysis. However, this modified protein has only 1% of the maximum catalytic activity of the wild-type enzyme and 5- and 85-fold higher apparent Km values for ATP and AMP, respectively, than the parent adenylate kinase. Arg-88, which is a highly conserved residue in all known molecular forms of adenylate kinases (corresponding to Arg-97 in muscle cytosolic enzyme), should be located inside a big cleft of the molecule, close to the phosphate-binding loop. It possibly stabilizes the transferable gamma-phosphate group from ATP to AMP in the transition state.

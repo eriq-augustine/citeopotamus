@@ -1,0 +1,6 @@
+TITLE: Primate models of movement disorders of basal ganglia origin.
+AUTHORS: DeLong MR
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Movement disorders associated with basal ganglia dysfunction comprise a spectrum of abnormalities that range from the hypokinetic disorders (of which Parkinson's disease is the best-known example) at one extreme to the hyperkinetic disorders (exemplified by Huntington's disease and hemiballismus) at the other. Both extremes of this movement disorder spectrum can be accounted for by postulating specific disturbances within the basal ganglia-thalamocortical 'motor' circuit. In this paper, Mahlon DeLong describes the changes in neuronal activity in the motor circuit in animal models of hypo- and hyperkinetic disorders.

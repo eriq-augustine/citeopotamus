@@ -1,0 +1,1247 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:dc="http://purl.org/dc/terms/"
+      xmlns:doi="http://dx.doi.org/"
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes#"
+      lang="en" xml:lang="en"
+      itemscope itemtype="http://schema.org/Article">
+
+<head>
+   <title>PLOS Computational Biology: Inferring Dynamic Signatures of Microbes in Complex Host Ecosystems</title>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9" />
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+<link rel="home" title="home" href="/home.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F" />
+<link rel="alternate" type="application/rss+xml"
+  title="PLOS Computational Biology: New Articles"
+  href="http://www.ploscompbiol.org/article/feed" />
+
+<link rel="pingback" href="http://www.ploscompbiol.org/pingback" />
+
+
+<!-- global_css.ftl -->
+<link rel="stylesheet" type="text/css" media="screen" href="/css/dojo/dijit/themes/tundra/tundra.css?v=zwugcxLdpBWmb72qqlHgGyeNAGM" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/star_rating.css?v=Mm3HyaUPUahAJAq6xG5W3tdF7Hk" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/rating.css?v=AOT9rozE9sYVjGTdeiyxHf18Ykw" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/screen.css?v=KBNFqBmhD635U0NgiM5tf9dtxRE" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/iepc.css?v=FIjyR83BhSovq_5yNVk1Sih60AI" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/journal.css?v=SiREXztjNSUsOyrlkE9sv028Y+0" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/lightBox.css?v=sDgsUXamFoYAakEshdj0YWrZiiQ" />
+<link rel="stylesheet" type="text/css" media="print" href="/css/print.css?v=0T+LTV7Gd0jtHEhqEvBfSrmHUGg" />
+
+<!--chartbeat --> 
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+
+
+<!--[if IE]><![endif]-->
+<meta name="description" content="PLOS Computational Biology is an open-access" />
+
+<meta name="keywords" content="plos computational biology" />
+
+  <meta name="citation_publisher" content="Public Library of Science" />
+  <meta name="citation_doi" content="10.1371/journal.pcbi.1002624" />
+    <meta name="citation_title" content="Inferring Dynamic Signatures of Microbes in Complex Host Ecosystems"/>
+    <meta itemprop="name" content="Inferring Dynamic Signatures of Microbes in Complex Host Ecosystems"/>
+
+      <meta name="citation_author" content="Georg K. Gerber" />
+          <meta name="citation_author_institution" content="Department of Pathology, Brigham and Women's Hospital, Boston, Massachusetts, United States of America" />
+          <meta name="citation_author_institution" content="Department of Pathology, Harvard Medical School, Boston, Massachusetts, United States of America" />
+      <meta name="citation_author" content="Andrew B. Onderdonk" />
+          <meta name="citation_author_institution" content="Department of Pathology, Brigham and Women's Hospital, Boston, Massachusetts, United States of America" />
+          <meta name="citation_author_institution" content="Department of Pathology, Harvard Medical School, Boston, Massachusetts, United States of America" />
+      <meta name="citation_author" content="Lynn Bry" />
+          <meta name="citation_author_institution" content="Department of Pathology, Brigham and Women's Hospital, Boston, Massachusetts, United States of America" />
+          <meta name="citation_author_institution" content="Department of Pathology, Harvard Medical School, Boston, Massachusetts, United States of America" />
+
+    <meta name="citation_date" content="2012/8/2"/>
+
+  <meta name="citation_pdf_url" content="http://dx.plos.org/10.1371/journal.pcbi.1002624.pdf" />
+
+    <meta name="citation_journal_title" content="PLOS Computational Biology" />
+    <meta name="citation_firstpage" content="e1002624"/>
+    <meta name="citation_issue" content="8"/>
+    <meta name="citation_volume" content="8"/>
+    <meta name="citation_issn" content="1553-7358"/>
+
+    <meta name="citation_journal_abbrev" content="PLoS Comput Biol" />
+
+      <meta name="citation_reference" content="citation_title=Overview of DNA sequencing strategies; citation_volume=7; citation_number=1; citation_pages=Unit 7.1; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Microbial community profiling for human microbiome projects: Tools, techniques, and challenges; citation_volume=19; citation_number=2; citation_pages=1141-1152; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Moving pictures of the human microbiome; citation_volume=12; citation_number=3; citation_pages=R50; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_number=4; " />
+      <meta name="citation_reference" content="citation_title=Enterotypes of the human gut microbiome; citation_volume=473; citation_number=5; citation_pages=174-180; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Succession of microbial consortia in the developing infant gut microbiome; citation_volume=108; citation_number=6; citation_pages=4578-4585; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=A human gut microbial gene catalogue established by metagenomic sequencing; citation_volume=464; citation_number=7; citation_pages=59-65; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=A core gut microbiome in obese and lean twins; citation_volume=457; citation_number=8; citation_pages=480-484; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Reduced diversity of faecalmicrobiota in Crohn's disease revealed by a metagenomic approach; citation_volume=55; citation_number=9; citation_pages=205-211; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=Proinflammatory T-cell responses to gut microbiotapromote experimental autoimmune encephalomyelitis; citation_volume=108; citation_number=10; citation_pages=4615-4622; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Vaginal microbiome of reproductive-age women; citation_volume=108; citation_number=11; citation_pages=4680-4687; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Incomplete recovery and individualized responses of the human distal gut microbiota to repeated antibiotic perturbation; citation_volume=108; citation_number=12; citation_pages=4554-4561; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=The Pervasive Effects of an Antibiotic on the Human Gut Microbiota, as Revealed by Deep 16S rRNA Sequencing; citation_volume=6; citation_number=13; citation_pages=e280; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_number=14; citation_pages=144; citation_date=1963; citation_publisher=University of Illinois Press; " />
+      <meta name="citation_reference" content="citation_title=Fast UniFrac: facilitating high-throughput phylogenetic analyses of microbial communities including analysis of pyrosequencing and PhyloChip data; citation_volume=4; citation_number=15; citation_pages=17-27; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=An ordination of upland forest communities of southern Wisconsin; citation_volume=27; citation_number=16; citation_pages=325-349; citation_date=1957; " />
+      <meta name="citation_reference" content="citation_number=17; citation_pages=256; citation_date=2004; citation_publisher=Wiley-Blackwell; " />
+      <meta name="citation_reference" content="citation_title=Continuous Representations of Time Series Gene Expression Data; citation_volume=3–4; citation_number=18; citation_pages=341-356; citation_date=2003; " />
+      <meta name="citation_reference" content="citation_title=Comparing the continuous representation of time-series expression profiles to identify differentially expressed genes; citation_volume=100; citation_number=19; citation_pages=10146-10151; citation_date=2003; " />
+      <meta name="citation_reference" content="citation_title=Bayesian functional data clustering for temporal microarray data; citation_volume=2008; citation_number=20; citation_pages=231897; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=A data-driven clustering method for time course gene expression data; citation_volume=34; citation_number=21; citation_pages=1261-1269; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=Automated discovery of functional generality of human gene expression programs; citation_volume=3; citation_number=22; citation_pages=e148; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Bayesian infinite mixture model based clustering of gene expression profiles; citation_volume=18; citation_number=23; citation_pages=1194-1206; citation_date=2002; " />
+      <meta name="citation_reference" content="citation_title=Active learning for sampling in time-series experiments with application to gene expression analysis; citation_number=24; citation_pages=832-839; citation_date=2005; citation_publisher=ACM; " />
+      <meta name="citation_reference" content="citation_number=25; citation_pages=576; citation_date=2011; citation_publisher=Cambridge University Press; " />
+      <meta name="citation_reference" content="citation_title=Do not log-transform count data; citation_volume=1; citation_number=26; citation_pages=118-122; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Generalized linear mixed models: a practical guide for ecology and evolution; citation_volume=24; citation_number=27; citation_pages=127-135; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Differential expression analysis for sequence count data; citation_volume=11; citation_number=28; citation_pages=R106; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=edgeR: a Bioconductor package for differential expression analysis of digital gene expression data; citation_volume=26; citation_number=29; citation_pages=139-140; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=The NBP Negative Binomial Model for Assessing Differential Gene Expression from RNA-Seq; citation_volume=10; citation_number=30; citation_pages=24; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Dirichlet Multinomial Mixtures: Generative Models for Microbial Metagenomics; citation_volume=7; citation_number=31; citation_pages=e30126; citation_date=2012; " />
+      <meta name="citation_reference" content="citation_title=Prolonged impact of antibiotics on intestinal microbial ecology and susceptibility to enteric Salmonella infection; citation_volume=77; citation_number=32; citation_pages=2741-2753; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Early life antibiotic-driven changes in microbiota enhance susceptibility to allergic asthma; citation_number=33; citation_pages=1-8; citation_date=2012; " />
+      <meta name="citation_reference" content="citation_title=Maternal intestinal flora and wheeze in early childhood; citation_volume=42; citation_number=34; citation_pages=901-908; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Changes in Gut Microbiota Control Metabolic Endotoxemia-Induced Inflammation in High-Fat Diet-Induced Obesity and Diabetes in Mice; citation_volume=57; citation_number=35; citation_pages=1470-1481; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Ciprofloxacin, a quinolone carboxylic acid compound active against aerobic and anaerobic bacteria; citation_volume=25; citation_number=36; citation_pages=319-326; citation_date=1984; " />
+      <meta name="citation_reference" content="citation_title=Comparative activity of ciprofloxacin, ofloxacin, sparfloxacin, temafloxacin, CI-960, CI-990, and WIN 57273 against anaerobic bacteria; citation_volume=36; citation_number=37; citation_pages=1158-1162; citation_date=1992; " />
+      <meta name="citation_reference" content="citation_title=Comparison of the antibacterial activities of the quinolones BAY 12-8039, gatifloxacin (AM 1155), trovafloxacin, clinafloxacin, levofloxacin and ciprofloxacin; citation_volume=40; citation_number=38; citation_pages=639-651; citation_date=1997; " />
+      <meta name="citation_reference" content="citation_title=The mode of action of quinolones: The paradox in activity of low and high concentrations and activity in the anaerobic environment; citation_volume=10; citation_number=39; citation_pages=240-248; citation_date=1991; " />
+      <meta name="citation_reference" content="citation_title=Accumulation of garenoxacin by Bacteroidesfragilis compared with that of five fluoroquinolones; citation_volume=52; citation_number=40; citation_pages=605-609; citation_date=2003; " />
+      <meta name="citation_reference" content="citation_title=SILVA: a comprehensive online resource for quality checked and aligned ribosomal RNA sequence data compatible with ARB; citation_volume=35; citation_number=41; citation_pages=7188-7196; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Search and clustering orders of magnitude faster than BLAST; citation_volume=26; citation_number=42; citation_pages=2460-2461; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_number=43; " />
+      <meta name="citation_reference" content="citation_number=44; citation_pages=696; citation_date=2004; citation_publisher=Chapman & Hall/CRC; " />
+      <meta name="citation_reference" content="citation_title=Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing; citation_volume=57; citation_number=45; citation_pages=289-300; citation_date=1995; " />
+      <meta name="citation_reference" content="citation_title=Bayesian Experimental Design: A Review; citation_volume=3; citation_number=46; citation_pages=273-304; citation_date=1995; " />
+      <meta name="citation_reference" content="citation_title=Bayesian Experimental Design and Shannon Information; citation_number=47; citation_pages=176-181; citation_date=1997; " />
+      <meta name="citation_reference" content="citation_title=On a measure of the information provided by an experiment; citation_volume=27; citation_number=48; citation_pages=986-1005; citation_date=1956; " />
+      <meta name="citation_reference" content="citation_title=Optimum experimental designs for properties of a compartmental model; citation_volume=49; citation_number=49; citation_pages=325-337; citation_date=1993; " />
+      <meta name="citation_reference" content="citation_title=Sequential Experimental Designs for Generalized Linear Models; citation_volume=103; citation_number=50; citation_pages=288-298; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Bacteroides: the good, the bad, and the nitty-gritty; citation_volume=20; citation_number=51; citation_pages=593-621; citation_date=2007; " />
+      <meta name="citation_reference" content="citation_title=Antimicrobial resistance in Bacteroides; citation_volume=16 Suppl 4; citation_number=52; citation_pages=S390-S400; citation_date=1993; " />
+      <meta name="citation_reference" content="citation_title=Human intestinal bacteria as reservoirs for antibiotic resistance genes; citation_volume=12; citation_number=53; citation_pages=412-416; citation_date=2004; " />
+      <meta name="citation_reference" content="citation_title=Clindamycin-induced enrichment and long-term persistence of resistant Bacteroides spp. and resistance genes; citation_volume=58; citation_number=54; citation_pages=1160-1167; citation_date=2006; " />
+      <meta name="citation_reference" content="citation_title=Dissecting the in vivo metabolic potential of two human gut acetogens; citation_volume=285; citation_number=55; citation_pages=22082-22090; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Diversity, metabolism and microbial ecology of butyrate-producing bacteria from the human large intestine; citation_volume=294; citation_number=56; citation_pages=1-8; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=Acetate utilization and butyryl coenzyme A (CoA): acetate-CoA transferase in butyrate-producing bacteria from the human large intestine; citation_volume=68; citation_number=57; citation_pages=5186-5190; citation_date=2002; " />
+      <meta name="citation_reference" content="citation_title=The microbiome and butyrate regulate energy metabolism and autophagy in the mammalian colon; citation_volume=13; citation_number=58; citation_pages=517-526; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Phylotypes related to Ruminococcusbromii are abundant in the large bowel of humans and increase in response to a diet high in resistant starch; citation_volume=66; citation_number=59; citation_pages=505-515; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Diversity of the autochthonous colonic microbiota; citation_volume=2; citation_number=60; citation_pages=99-104; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=Clostridium difficile — More Difficult Than Ever; citation_volume=359; citation_number=61; citation_pages=1932-1940; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Metagenomic sequencing of an in vitro-simulated microbial community; citation_volume=5; citation_number=62; citation_pages=e10209; citation_date=2010; " />
+      <meta name="citation_reference" content="citation_title=Functional characterization of the antibiotic resistance reservoir in the human microflora; citation_volume=325; citation_number=63; citation_pages=1128-1131; citation_date=2009; " />
+      <meta name="citation_reference" content="citation_title=The Bayesian Lasso; citation_volume=103; citation_number=64; citation_pages=681-686; citation_date=2008; " />
+      <meta name="citation_reference" content="citation_title=Bayesian Nonparametric Inference of Switching Dynamic Linear Models; citation_volume=59; citation_number=65; citation_pages=1569-1585; citation_date=2011; " />
+      <meta name="citation_reference" content="citation_title=On the theory of Brownian Motion; citation_volume=36; citation_number=66; citation_pages=823-841; citation_date=1930; " />
+
+
+
+<!--
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002624">
+   <license rdf:resource="http://creativecommons.org/licenses/by/2.5/" />
+</Work>
+<License rdf:about="http://creativecommons.org/licenses/by/2.5/">
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+</License>
+<rdf:Description
+     rdf:about="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002624"
+     dc:identifier="http://www.ploscompbiol.org/article/fetchArticle.action?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002624"
+     dc:title="PLOS Computational Biology: Inferring Dynamic Signatures of Microbes in Complex Host Ecosystems"
+       trackback:ping="http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002624/trackback;jsessionid=10B3F584BF488C3BC70268A3ECAE261F"
+     />
+</rdf:RDF>
+
+-->
+</head>
+<body>
+<span property="dc:language" content="en"></span>
+<!-- begin : container -->
+<div id="container">
+  <!-- begin : top banner external ad space -->
+  <div id="topBanner">
+
+
+<!-- begin : left banner slot -->
+<div class="left">
+  <iframe id='affe494b' name='affe494b'
+    src='http://ads.plos.org/www/delivery/afr.php?zoneid=84&amp;cb=9057'
+    frameborder='0' scrolling='no' width='468' height='60'><a
+    href='http://ads.plos.org/www/delivery/ck.php?n=affe494b&amp;cb=8438'
+    target='_top'><img src='http://ads.plos.org/www/delivery/avw.php?zoneid=84&amp;cb=2439&amp;n=affe494b'
+    border='0' alt='' /></a></iframe>
+</div>
+<!-- end : left banner slot -->
+<!-- begin : right banner slot -->
+<div class="right">
+  <iframe id='af654bd5' name='af654bd5'
+    src='http://ads.plos.org/www/delivery/afr.php?zoneid=85&amp;cb=1870'
+    frameborder='0' scrolling='no' width='468' height='60'><a
+    href='http://ads.plos.org/www/delivery/ck.php?n=af654bd5&amp;cb=1081'
+    target='_top'><img src='http://ads.plos.org/www/delivery/avw.php?zoneid=85&amp;cb=8060&amp;n=af654bd5'
+    border='0' alt='' /></a></iframe>
+</div>
+<!-- end : right banner slot -->
+
+  </div>
+  <!-- end : top banner external ad space -->
+
+  <!-- begin : header -->
+  <div id="hdr" class="login">
+
+  <!-- begin : logo -->
+  <div id="logo" title="PLOS Computational Biology"><a href="/home.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F" title="PLOS Computational Biology"><span>PLOS Computational Biology</span></a></div>
+  <!-- end : logo -->
+  <!-- begin : user controls -->
+
+
+
+
+
+  <div id="user">
+    <div>
+      <ul>
+        <li><a href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002624" class="feedback"><strong>Login</strong></a> | </li>
+        <li><a href="https://register.plos.org:443/ambra-registration/register.action">Create Account</a> | </li>
+        <li class="feedback"><a href="/feedbackCreate.action?page=%252Farticle%252FfetchArticle.action%253FarticleURI%253Dinfo%25253Adoi%25252F10.1371%25252Fjournal.pcbi.1002624" title="Send us your feedback">Feedback</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <!-- end : user controls -->
+  <!-- begin search links -->
+  <ul id="links"><li class="browse"><a href="/article/browse.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F?field=date" title="Browse Articles">Browse</a></li><li class="rss"><a href="/static/rssFeeds.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F" title="RSS Feeds">RSS</a></li></ul>
+  <!-- end : search links -->
+  <!-- begin : dashboard -->
+  <div id="db">
+    <form name="searchForm" action="/search/simpleSearch.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F" method="get">
+      <input type="hidden" name="from" value="globalSimpleSearch"/>
+      <input type="hidden" name="filterJournals" value="PLoSCompBiol">
+      <fieldset>
+        <legend>Search</legend>
+        <label for="search">Search</label>
+        <div class="wrap"><input id="search" type="text" name="query" value="Search articles..." onfocus="if(this.value=='Search articles...')value='';" onblur="if(this.value=='')value='Search articles...';" class="searchField" alt="Search articles..."/></div>
+        <input src="/images/search_btn1.gif" onclick="submit();" value="ftsearch" alt="SEARCH" tabindex="3" class="button" type="image" />
+      </fieldset>
+    </form>
+    <form name="gasf" action="/search/advancedSearch.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F" method="get">
+<input type="hidden" name="noSearchFlag" value="true" id="noSearchFlag"/><input type="hidden" name="query" value="" id="query"/>    </form>
+    <a id="advSearch" href="#" onclick="if(document.searchForm.query.value!='Search articles...')document.gasf.query.value=document.searchForm.query.value;document.gasf.submit();return false;">Advanced Search</a>
+  </div>
+  <!-- end : dashboard -->
+  <!-- begin : navigation -->
+  <ul id="nav">
+    <li><a href="/home.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F" tabindex="101">Home</a></li>
+     <!-- This is a temporary action to link to th static toc page -->
+    <li><a href="/static/browse.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F" tabindex="102">Browse Articles</a>
+        <ul>
+          <li><a href="/article/browseIssue.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F?field=issue">Current Issue</a></li> <!-- Assuming dynamic TOC is in place -->
+          <li><a href="/article/browseVolume.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F?field=volume">Journal Archive</a></li> 
+          <li><a href="/article/browse.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F?field=date">By Publication Date</a></li>
+          <li><a href="/article/browse.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F">By Subject</a></li>
+          <li><a href="http://www.ploscollections.org/static/pcbiCollections.action">Collections</a></li>
+        </ul>
+    </li>
+    <li><a href="/static/about.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F" tabindex="103">About</a>
+        <ul>
+          <li><a href="/static/information.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F">Journal Information</a></li>
+          <li><a href="/static/edboard.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F">Editorial Board</a></li>
+          <li><a href="/static/eic.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F">Editors-in-Chief</a></li>
+          <li><a href="/static/almInfo.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F">Article-Level Metrics</a></li>
+          <li><a href="/static/license.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F">Open-Access License</a></li>
+          <li><a href="/static/contact.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F">Contact Us</a></li>
+        </ul>
+      </li>
+    <li><a href="/static/users.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F" tabindex="104">For Readers</a>
+        <ul>
+          <li><a href="/static/commentGuidelines.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F">Guidelines for Notes, Comments, and Corrections</a></li>
+          <li><a href="/static/ratingGuidelines.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F">Guidelines for Rating</a></li>
+          <li><a href="/static/help.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F">Help Using This Site</a></li>
+          <li><a href="/static/downloads.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F">Media Downloads</a></li>
+          <li><a href="/static/sitemap.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F">Site Map</a></li>
+        </ul>
+      </li>
+    <li><a href="/static/authors.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F" tabindex="105">For Authors and Reviewers</a>
+        <ul>
+          <li><a href="/static/policies.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F">Editorial and Publishing Policies</a></li>
+          <li><a href="/static/guidelines.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F">Author Guidelines</a></li>
+          <li><a href="/static/figureGuidelines.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F">Figure and Table Guidelines</a></li>
+          <li><a href="/static/checklist.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F">Submit Your Paper</a></li>
+          <li><a href="/static/reviewerGuidelines.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F">Reviewer Guidelines</a></li>
+	   <li><a href="http://www.plos.org/journals/index.php">Submit to Other PLOS Journals</a></li>
+        </ul>
+      </li>
+      <li class="journalnav"><a href="http://www.plos.org" title="PLOS" tabindex="110" class="drop">PLOS.org</a>
+        <ul>
+          <li><a href="http://www.plos.org/oa/index.html" title="Open Access Statement">Open Access</a></li>
+          <li><a href="http://www.plos.org/support/donate.php" title="Join PLOS: Show Your Support">Join PLOS</a></li>
+          <li><a href="http://blogs.plos.org/" title="PLOS Blogs">PLOS Blogs</a></li>
+	  <li><a href="http://www.zazzle.com/plos?rf=238434112415374154" title="PLOS Store">PLOS Store</a></li>
+          <li><a href="http://currents.plos.org" title="PLOS Currents">PLOS Currents</a></li>
+          <li><a href="http://www.plos.org/connect.html" title="PLOS.org | Stay Connected">Stay Connected</a></li>
+        </ul>
+      </li>
+      <li class="journalnav"><a href="http://hubs.plos.org" tabindex="109">Hubs</a>
+        <ul>
+          <li><a href="http://hubs.plos.org/biodiversity" title="PLOS Hubs: Biodiversity">Biodiversity</a></li>
+          <li><a href="http://clinicaltrials.ploshubs.org" title="PLOS Hub for Clinical Trials">Clinical Trials</a></li>
+        </ul>
+    </li>
+      <li class="journalnav"><a href="http://www.plosjournals.org" tabindex="108">Journals</a>
+        <ul>
+          <li><a href="http://www.plosbiology.org/" title="PLOSBiology.org">PLOS Biology</a></li>
+          <li><a href="http://www.plosmedicine.org/" title="PLOSMedicine.org">PLOS Medicine</a></li>
+          <li><a href="http://www.ploscompbiol.org/" title="PLOSCompBiol.org">PLOS Computational Biology</a></li>
+          <li><a href="http://www.plosgenetics.org/" title="PLOSGenetics.org">PLOS Genetics</a></li>
+          <li><a href="http://www.plospathogens.org/" title="PLOSPathogens.org">PLOS Pathogens</a></li>
+          <li><a href="http://www.plosone.org/" title="PLOSONE.org">PLOS ONE</a></li>
+          <li><a href="http://www.plosntds.org/" title="PLOSNTDs.org">PLOS Neglected Tropical Diseases</a></li>
+        </ul>
+      </li>
+    </ul>
+  <!-- end : navigation -->
+  </div>
+  <!-- end : header --> 
+
+
+
+<!-- begin : main content -->
+<div id="content" class="article" style="visibility:visible;">
+
+<!-- begin : right hand column -->
+
+<div id="rhc" xpathLocation="noDialog">
+
+  <div id="download" class="rhcBox_type1">
+    <div class="wrap">
+      <ul>
+        <li class="download icon"><strong>Download:</strong>
+          <a href="/article/fetchObjectAttachment.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F?uri=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002624&amp;representation=PDF" title="Download article PDF">PDF</a> |
+          <a href="/article/citationList.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002624" title="Download citations">Citation</a> |
+          <a href="/article/fetchObjectAttachment.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F?uri=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002624&amp;representation=XML" title="Download Article XML">XML</a>
+        </li>
+        <li class="print icon"><a href="#" onclick="window.print();return false;" title="Print Article"><strong>Print article</strong></a></li>
+        <li class="reprint icon"><a href="https://www.odysseypress.com/onlinehost/reprint_order.php?type=A&page=0&journal=3&doi=10.1371/journal.pcbi.1002624&volume=&issue=&title=Inferring Dynamic Signatures of Microbes in Complex Host Ecosystems&author_name=Georg%20K.%20Gerber%2C%20Andrew%20B.%20Onderdonk%2C%20Lynn%20Bry&start_page=1&end_page=14" title="Odyssey Press">EzReprint</a> New &amp; improved!</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="issues" class="rhcBox_type2">
+    <p><strong>Published in the</strong>
+    <a href="http://www.ploscompbiol.org/article/browseIssue.action?issue=info%3Adoi%2F10.1371%2Fissue.pcbi.v08.i08" title="Browse the Open-Access Issue">August 2012 Issue of <em>PLOS Computational Biology</em></a></p>
+  </div>
+
+  <div id="impact" class="rhcBox_type2">
+    <h6>Metrics <a href="/static/help.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F#articleMetrics" class="replaced" id="info" title="More information"><span>info</span></a></h6>
+
+    <div class="wrap">
+      <img id="rhcDataSpinner" src="/images/loading_small.gif" class="loading" />
+      <div id="totalDataInRHC"></div>
+      <div id="pubDateInRHC"></div>
+      <div id="relatedCitesInRHC"></div>
+    </div>
+
+    <div class="more clearfix"><a href="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002624;jsessionid=10B3F584BF488C3BC70268A3ECAE261F" title="More information">More</a></div>
+  </div>
+
+  <div id="related" class="rhcBox_type2">
+    <h6>Related Content</h6>
+    <dl class="related">
+      <dt>Related Articles on the Web</dt>
+      <dd><a href="http://scholar.google.com/scholar?hl=en&lr=&q=related:http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002624&btnG=Search">Google Scholar</a></dd>
+      <dd id="pubMedRelatedLIInRHC" style="display:none;"><a id="pubMedRelatedURLInRHC">PubMed</a></dd>
+    </dl>
+    <div class="more clearfix"><a href="/article/related/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002624;jsessionid=10B3F584BF488C3BC70268A3ECAE261F" title="More information">More</a></div>
+  </div>
+
+  <div id="share" class="rhcBox_type2">
+    <h6>Share this Article <a href="/static/help.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F#socialBookmarkLinks" class="replaced" id="info" title="More information"><span>info</span></a></h6>
+    <ul>
+      <li class="bookmarklets">
+
+        <a href="http://www.reddit.com/submit?url=http://dx.plos.org/10.1371/journal.pcbi.1002624"
+           target="_new"
+           id="reddit">
+          <img src="http://www.reddit.com/static/spreddit4.gif" alt="submit to reddit" border="0"/> </a>
+        <g:plusone size="small" annotation="none" href=http://dx.plos.org/10.1371/journal.pcbi.1002624></g:plusone>
+        <script type="text/javascript">
+          (function () {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+          })();
+        </script>
+        <a href="http://www.stumbleupon.com/submit?url=http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002624" target="_new"> <img border=0 src="http://cdn.stumble-upon.com/images/16x16_su_solid.gif" alt="StumbleUpon" title="Add to StumbleUpon"></a>
+        <script>function fbs_click() {u='http://dx.plos.org/10.1371/journal.pcbi.1002624';t='Inferring%20Dynamic%20Signatures%20of%20Microbes%20in%20Complex%20Host%20Ecosystems';window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436');return false;}</script><a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002624" onclick="return fbs_click()" target="_blank"><img src="http://static.ak.fbcdn.net/images/share/facebook_share_icon.gif" alt="Facebook" title="Add to Facebook" /></a>       <!-- for mor info, see http://www.facebook.com/share_partners.php -->
+        <script type="text/javascript">
+          function bookmark_in_connotea(u) {
+            a=false; x=window; e=x.encodeURIComponent; d=document;
+            w=open('http://www.connotea.org/addpopup?continue=confirm&uri='+e(u),
+                'add', 'width=600, height=400, scrollbars, resizable');
+            void(x.setTimeout('w.focus()',200));
+          }
+        </script>
+        <a style='cursor: pointer;' onclick='javascript:bookmark_in_connotea("http://dx.plos.org/10.1371/journal.pcbi.1002624");'><img src='/images/icon_connotea_16x16.gif' alt="Connotea" title="Add to Connotea"/></a>
+        <a href="http://www.citeulike.org/posturl?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002624&title=Inferring%20Dynamic%20Signatures%20of%20Microbes%20in%20Complex%20Host%20Ecosystems" target="_new"><img src='/images/icon_citeulike_16x16.gif' alt="CiteULike" title="Add to CiteULike" /></a>
+        <a href="http://www.mendeley.com/import/?url=http%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pcbi.1002624" title="Add to Mendeley" target="_new"><img src="/images/icon_mendeley_16x16.gif" alt="Bibliography"></a>
+        <script type="text/javascript">
+          var twtTitle  = 'Inferring Dynamic Signatures of Microbes in Complex Host Ecosystems';
+          var twtUrl    = 'http://dx.plos.org/10.1371/journal.pcbi.1002624';
+          var twtTag    = '#PLOSCompBio:'
+          var maxLength = 140 - (twtUrl.length + 1);
+          if (twtTitle.length > maxLength) {
+            twtTitle = twtTitle.substr(0, (maxLength - 17))+'...';  //truncates title to include space for twtTag and ellipsis
+          }
+          var twtLink = 'http://twitter.com/intent/tweet?text='+encodeURIComponent(twtTag + ' ' + twtTitle + ' ' + twtUrl);
+          document.write('<a href="'+twtLink+'" target="_blank"><img src="/images/icon_twitter.gif" border="0" alt="Twitter icon" title="Tweet This!" /></a>');
+        </script>
+
+      </li>
+      <li class="email icon"><a href="/article/emailArticle.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F?articleURI=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002624" title="Email this article">Email this article</a></li>
+    </ul>
+  </div>
+  <div id="articleTwitterStream" style="display:none">
+    <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script>
+      new TWTR.Widget({
+        version: 2,
+        type: 'search',
+        search: encodeURIComponent('10.1371/journal.pcbi.1002624'),
+        interval: 6000,
+        title: '',
+        subject: 'From Twitter',
+        width: 300,
+        height: 300,
+        theme: {
+          shell: {
+            background: '#667893',
+            color: '#ffffff'
+          },
+          tweets: {
+            background: '#ffffff',
+            color: '#444444',
+            links: '#006699'
+          }
+        },
+        features: {
+          scrollbar: true,
+          loop: false,
+          live: true,
+          hashtags: true,
+          timestamp: true,
+          avatars: true,
+          toptweets: true,
+          behavior: 'all'
+        }
+      }).render().start();
+    </script>
+  </div>
+</div>
+<!-- end : right hand column -->
+<form name="articleInfo" id="articleInfo" method="" action="">
+<input type="hidden" name="isAuthor" value="true" />
+<input type="hidden" name="authorIdList" value="" />
+<input type="hidden" name="userIdList" value="" />
+<input type="hidden" name="otherIdList" value="" />
+<input type="hidden" name="annotationId" value="" />
+<input type="hidden" name="isResearchArticle" value="true" />
+</form>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.XML" value="136935"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.PDF" value="766168"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.g001.TIF" value="3132342"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.g001.PNG_I" value="33493"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.g001.PNG_S" value="5764"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.g001.PNG_M" value="66224"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.g001.PNG_L" value="915323"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.g002.TIF" value="5437548"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.g002.PNG_I" value="92033"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.g002.PNG_S" value="10754"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.g002.PNG_M" value="143946"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.g002.PNG_L" value="2359406"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.e001.TIF" value="11798"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.e001.PNG" value="5551"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.e002.TIF" value="2808"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.e002.PNG" value="1705"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.e003.TIF" value="6338"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.e003.PNG" value="3275"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.e004.TIF" value="6292"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.e004.PNG" value="3182"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.e005.TIF" value="2182"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.e005.PNG" value="1379"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.e006.TIF" value="13676"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.e006.PNG" value="6492"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.e007.TIF" value="5622"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.e007.PNG" value="2888"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.e008.TIF" value="11666"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.e008.PNG" value="5684"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.e009.TIF" value="4678"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.e009.PNG" value="2513"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.e010.TIF" value="7668"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.e010.PNG" value="3914"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.e011.TIF" value="15660"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.e011.PNG" value="6906"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.e012.TIF" value="5534"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.e012.PNG" value="2684"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.e013.TIF" value="12496"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.e013.PNG" value="5924"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.g003.TIF" value="1585220"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.g003.PNG_I" value="26765"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.g003.PNG_S" value="6001"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.g003.PNG_M" value="55570"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.g003.PNG_L" value="641257"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.g004.TIF" value="827922"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.g004.PNG_I" value="30084"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.g004.PNG_S" value="5226"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.g004.PNG_M" value="62249"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.g004.PNG_L" value="310079"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.g005.TIF" value="4105354"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.g005.PNG_I" value="42585"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.g005.PNG_S" value="7416"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.g005.PNG_M" value="88158"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.g005.PNG_L" value="1391581"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.g006.TIF" value="4424258"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.g006.PNG_I" value="91598"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.g006.PNG_S" value="9895"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.g006.PNG_M" value="206391"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.g006.PNG_L" value="2262135"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.s001.TIF" value="698588"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.s002.TIF" value="2897802"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.s003.TIF" value="1114311"/>
+  <input type="hidden" class="assetSize" name="info:doi/10.1371/journal.pcbi.1002624.s004.PDF" value="516265"/>
+<div id="articleContainer">
+
+<span about="http://www.plos.org"  typeof="foaf:Organization" property="foaf:name" style="display:none; visibility:hidden;">PLOS</span>
+<div id="researchArticle" class="content">
+  <span rel="dc:publisher" href="http://www.plos.org"></span>
+  <a id="top" name="top"></a>
+<div id="contentHeader" xpathLocation="noSelect">
+  <p>Open Access</p><p id="articleType">Research Article</p>
+</div>
+
+  <h1 xpathLocation="noSelect" property="dc:title" datatype="" rel="dc:type" href="http://purl.org/dc/dcmitype/Text">Inferring Dynamic Signatures of Microbes in Complex Host Ecosystems</h1>
+  <div property="dc:description" datatype="" style="display:none; visibility:hidden;">Author SummaryMicrobes colonize the human body soon after birth and propagate to form rich ecosystems. These ecosystems play essential roles in health and disease. Recent advances in DNA sequencing technologies make possible comprehensive studies of the time-dependent behavior of microbes throughout the body. Sophisticated computer-based methods are essential for the analysis and interpretation of these complex datasets. We present a computational method that models how human microbial ecosystems respond over time to perturbations, such as when subjects in a study are treated with a drug. When applied to a large publicly available dataset, our method yields new insights into the diversity of dynamic responses to antibiotics among microbes in the human body. We find that within an individual, sub-populations of microbes that share certain physiological roles also share coordinated responses. Moreover, we find that these responses are similar across different people. We use this information to improve the experimental design of the previously conducted study, and to develop strategies for optimal design of future studies. Our work provides an integrated computer-based method for automatically discovering patterns of change over time in the microbiota, and for designing future experiments to identify changes that impact human health and disease.</div>
+  <span property="dc:date" content="2012-08-02" datatype="xsd:date" rel="dc:identifier" href="http://dx.doi.org/10.1371/journal.pcbi.1002624"></span>
+  <span property="dc:subject" content="Computational Biology"></span>
+  <span property="dc:subject" content="Computer Science"></span>
+  <span property="dc:subject" content="Gastroenterology and Hepatology"></span>
+  <span property="dc:subject" content="Genetics and Genomics"></span>
+  <span property="dc:subject" content="Mathematics"></span>
+  <span property="dc:subject" content="Microbiology"></span>
+<form action="">
+  <input type="hidden" name="journalDisplayName" id="journalDisplayName" value="PLOS Computational Biology" />
+  <input type="hidden" name="crossRefPageURL" id="crossRefPageURL" value="/article/crossref/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002624;jsessionid=10B3F584BF488C3BC70268A3ECAE261F" />
+  <input type="hidden" name="twitterPageURL" id="twitterPageURL" value="/article/twitter/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002624;jsessionid=10B3F584BF488C3BC70268A3ECAE261F" />
+  <input type="hidden" name="metricsTabURL" id="metricsTabURL" value="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002624;jsessionid=10B3F584BF488C3BC70268A3ECAE261F" />
+  <input type="hidden" name="doi" id="doi" value="info:doi/10.1371/journal.pcbi.1002624" />
+  <input type="hidden" name="articleTitleUnformatted" id="articleTitleUnformatted" value="Inferring%20Dynamic%20Signatures%20of%20Microbes%20in%20Complex%20Host%20Ecosystems" />
+  <input type="hidden" name="articlePubDate" id="articlePubDate" value="1343890800000" />
+</form>
+<div class="horizontalTabs" xpathLocation="noSelect">
+  <ul id="tabsContainer">
+        <li id="article" class="active"><a href="/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002624;jsessionid=10B3F584BF488C3BC70268A3ECAE261F" class="tab" title="Article">Article</a></li>
+        <li id="metrics"><a href="/article/metrics/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002624;jsessionid=10B3F584BF488C3BC70268A3ECAE261F" class="tab" title="Metrics">Metrics</a></li>
+        <li id="related"><a href="/article/related/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002624;jsessionid=10B3F584BF488C3BC70268A3ECAE261F" class="tab" title="Related Content">Related Content</a></li>
+        <li id="comments"><a href="/article/comments/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002624;jsessionid=10B3F584BF488C3BC70268A3ECAE261F" class="tab" title="Comments">Comments: 0</a></li>
+  </ul>
+</div>
+  <div id="articleMenuBox" xpathLocation="noSelect">
+    <div id="articleMenu">
+      <div class="wrap">
+        <ul>
+          <li class="annotation icon">To <strong>add a note</strong>, highlight some text. <a href="#" onclick="toggleAnnotation(this, 'public'); return false;" title="Click to turn notes on/off">Hide notes</a></li>
+          <li class="discuss icon">
+              <a href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002624">Make a general comment</a>
+          </li>
+        </ul>
+        <div id="sectionNavTopBox" style="display:none;">
+          <p><strong>Jump to</strong></p>
+          <div id="sectionNavTop" class="tools"></div>
+        </div>
+      </div>
+    </div>
+      <div id="lightBox" xpathLocation="noDialog" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002624')">
+      </div>
+  </div>
+
+
+
+
+<p class="authors" xpathLocation="noSelect"><span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Georg K. Gerber</span></span><sup><a href="#aff1">1</a></sup><sup>,</sup><sup><a href="#aff2">2</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Andrew B. Onderdonk</span></span><sup><a href="#aff1">1</a></sup><sup>,</sup><sup><a href="#aff2">2</a></sup>, <span rel="dc:creator"><span class="person" property="foaf:name" typeof="foaf:Person">Lynn Bry</span></span><sup><a href="#aff1">1</a></sup><sup>,</sup><sup><a href="#aff2">2</a></sup><sup><a href="#cor1" class="fnoteref">*</a></sup></p><p class="affiliations" xpathLocation="noSelect"><a name="aff1" id="aff1"></a><strong>1</strong> Department of Pathology, Brigham and Women's Hospital, Boston, Massachusetts, United States of America, <a name="aff2" id="aff2"></a><strong>2</strong> Department of Pathology, Harvard Medical School, Boston, Massachusetts, United States of America</p><div class="abstract" xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[1]"><a id="abstract0" name="abstract0" toc="abstract0" title="Abstract"></a><h2 xpathLocation="noSelect">Abstract&nbsp;<a href="#top">Top</a></h2><p xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[1]/p[1]">The human gut microbiota comprise a complex and dynamic ecosystem that profoundly affects host development and physiology. Standard approaches for analyzing time-series data of the microbiota involve computation of measures of ecological community diversity at each time-point, or measures of dissimilarity between pairs of time-points. Although these approaches, which treat data as static snapshots of microbial communities, can identify shifts in overall community structure, they fail to capture the dynamic properties of individual members of the microbiota and their contributions to the underlying time-varying behavior of host ecosystems. To address the limitations of current methods, we present a computational framework that uses continuous-time dynamical models coupled with Bayesian dimensionality adaptation methods to identify time-dependent signatures of individual microbial taxa within a host as well as across multiple hosts. We apply our framework to a publicly available dataset of 16S rRNA gene sequences from stool samples collected over ten months from multiple human subjects, each of whom received repeated courses of oral antibiotics. Using new diversity measures enabled by our framework, we discover groups of both phylogenetically close and distant bacterial taxa that exhibit consensus responses to antibiotic exposure across multiple human subjects. These consensus responses reveal a timeline for equilibration of sub-communities of micro-organisms with distinct physiologies, yielding insights into the successive changes that occur in microbial populations in the human gut after antibiotic treatments. Additionally, our framework leverages microbial signatures shared among human subjects to automatically design optimal experiments to interrogate dynamic properties of the microbiota in new studies. Overall, our approach provides a powerful, general-purpose framework for understanding the dynamic behaviors of complex microbial ecosystems, which we believe will prove instrumental for future studies in this field.</p>
+</div><div class="abstract" xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[2]"><a id="abstract1" name="abstract1" toc="abstract1" title="Author Summary"></a>
+<h2 xpathLocation="noSelect">Author Summary&nbsp;<a href="#top">Top</a></h2>
+<p xpathLocation="/article[1]/front[1]/article-meta[1]/abstract[2]/p[1]">Microbes colonize the human body soon after birth and propagate to form rich ecosystems. These ecosystems play essential roles in health and disease. Recent advances in DNA sequencing technologies make possible comprehensive studies of the time-dependent behavior of microbes throughout the body. Sophisticated computer-based methods are essential for the analysis and interpretation of these complex datasets. We present a computational method that models how human microbial ecosystems respond over time to perturbations, such as when subjects in a study are treated with a drug. When applied to a large publicly available dataset, our method yields new insights into the diversity of dynamic responses to antibiotics among microbes in the human body. We find that within an individual, sub-populations of microbes that share certain physiological roles also share coordinated responses. Moreover, we find that these responses are similar across different people. We use this information to improve the experimental design of the previously conducted study, and to develop strategies for optimal design of future studies. Our work provides an integrated computer-based method for automatically discovering patterns of change over time in the microbiota, and for designing future experiments to identify changes that impact human health and disease.</p>
+</div>
+
+
+<div class="articleinfo" xpathLocation="noSelect"><p><strong>Citation: </strong>Gerber GK, Onderdonk AB, Bry L (2012) Inferring Dynamic Signatures of Microbes in Complex Host Ecosystems. PLoS Comput Biol 8(8):
+          e1002624.
+            doi:10.1371/journal.pcbi.1002624</p><p><strong>Editor: </strong>Jonathan A. Eisen, 
+        University of California Davis, United States of America
+      </p><p></p><p><strong>Received:</strong> January 17, 2012; <strong>Accepted:</strong> June 12, 2012; <strong>Published:</strong> August 2, 2012</p><p><strong>Copyright:</strong> ©  Gerber et al. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</p><p><strong>Funding: </strong>This work was supported by the Harvard Digestive Diseases Center (NIH Award P30-DK034854), NIH R01-HD061916, the Stanley L. Robbins Memorial Research award, and the Brigham and Women's Hospital Department of Pathology. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p><p><strong>Competing interests:</strong> The authors have declared that no competing interests exist.</p><p><a name="cor1"></a>* E-mail: <a href="mailto:lbry@partners.org">lbry@partners.org</a></p></div>
+
+
+
+
+
+<div id="section1" xpathLocation="/article[1]/body[1]/sec[1]"><a id="s1" name="s1" toc="s1" title="Introduction"></a><h3 xpathLocation="noSelect">Introduction&nbsp;<a href="#top">Top</a></h3><p xpathLocation="/article[1]/body[1]/sec[1]/p[1]">The human gut harbors a dense and complex microbial ecosystem. Our ability to extensively characterize the microbiota has greatly increased in the last several years, due to lower costs and technical improvements in both DNA sequencing <a href="#pcbi.1002624-Shendure1">[1]</a> and bioinformatics tools <a href="#pcbi.1002624-Hamady1">[2]</a>, <a href="#pcbi.1002624-Caporaso1">[3]</a>. High-throughput sequencing-based studies of the microbiota generally analyze regions of the conserved 16S ribosomal subunit gene <a href="#pcbi.1002624-Lane1">[4]</a>, or use shotgun sequencing to sample the entire repertoire of genes present in a complex, mixed population of microbes <a href="#pcbi.1002624-Arumugam1">[5]</a>–<a href="#pcbi.1002624-Turnbaugh1">[8]</a>. These studies, of either human subjects or animal models, have uncovered intriguing associations between the composition of the gut microbiota and various diseases, including obesity <a href="#pcbi.1002624-Turnbaugh1">[8]</a>, inflammatory bowel disease <a href="#pcbi.1002624-Qin1">[7]</a>, <a href="#pcbi.1002624-Manichanh1">[9]</a>, and multiple sclerosis <a href="#pcbi.1002624-Lee1">[10]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[2]">Longitudinal studies of the microbiota are particularly important for further advancing the field <a href="#pcbi.1002624-Caporaso1">[3]</a>, <a href="#pcbi.1002624-Arumugam1">[5]</a>, <a href="#pcbi.1002624-Koenig1">[6]</a>, <a href="#pcbi.1002624-Ravel1">[11]</a>–<a href="#pcbi.1002624-Dethlefsen2">[13]</a>. The majority of such longitudinal studies have been observational, monitoring the composition of the flora in healthy individuals over time at various body sites <a href="#pcbi.1002624-Caporaso1">[3]</a>, <a href="#pcbi.1002624-Arumugam1">[5]</a>, <a href="#pcbi.1002624-Koenig1">[6]</a>, <a href="#pcbi.1002624-Ravel1">[11]</a>. Such observational studies are valuable for understanding natural variations in commensal communities, as well as capturing rarer events such as onset and resolution of acute disease in the host. Additionally, interventional studies have been performed, in which subjects were intentionally exposed to agents that perturb the microflora, with subsequent evaluation of changes in host ecosystems over time <a href="#pcbi.1002624-Dethlefsen1">[12]</a>, <a href="#pcbi.1002624-Dethlefsen2">[13]</a>. Such interventional studies hold promise for discovering the mechanisms by which microbes interact with one another and the host, and to define how sub-communities of micro-organisms may cause or protect against disease.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[3]">To date, longitudinal studies of the microbiota have largely employed static analysis techniques that do not adequately capture the dynamic nature of the data. The most common types of analyses employed involve either computation of diversity measures, such as the Shannon-Weaver diversity index <a href="#pcbi.1002624-Weaver1">[14]</a>, at each data point, or measures such as Unifrac <a href="#pcbi.1002624-Hamady2">[15]</a> or Bray-Curtis dissimilarity <a href="#pcbi.1002624-Bray1">[16]</a>, which characterize pair-wise relationships between data points. These techniques have proven useful for uncovering certain trends in longitudinal data <a href="#pcbi.1002624-Caporaso1">[3]</a>, <a href="#pcbi.1002624-Koenig1">[6]</a>, <a href="#pcbi.1002624-Turnbaugh1">[8]</a>, <a href="#pcbi.1002624-Ravel1">[11]</a>, <a href="#pcbi.1002624-Dethlefsen1">[12]</a>. However, these techniques treat longitudinal data as a collection of static snapshots, and ignore inherent ordering and other temporal dependencies.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[4]">We developed a probabilistic model and inference algorithm, called Microbial Counts Trajectories Infinite Mixture Model Engine (MC-TIMME), which provides a unified framework for analyzing the dynamic behavior of the microbiota captured via high-throughput sequencing data. Our framework models time-varying counts of microbial taxausing exponential <em>relaxation processes</em>. Each relaxation process is characterized by a <em>transient effect level</em> (the amplitude of the process immediately after a perturbation), an <em>equilibrium level</em> (the amplitude of the process approached as time tends to infinity), and a <em>relaxation time</em> constant (the time required for the amplitude of the process to reach 33% of the transient effect level plus 67% of the equilibrium level, as measured on a logarithmic scale).Observed abundances of taxa are assumed to arise from an infinite mixture of <em>prototype signatures</em>. Each prototype signature is composed of a set of relaxation processes that model a response to multiple perturbations. Each reference operational taxonomic unit (refOTU) in the ecosystem(s) analyzed is probabilistically assigned to a prototype signature. Adaptive Bayesian techniques are used to model the dimensionality of prototype signatures and the extent of sharing of prototype signatures among refOTUs within and across ecosystem(s).The time-series of observed counts for a particular refOTU in an ecosystem is modeled through a generative process, in which the prototype signature to which the refOTU has been assigned is customized to an <em>individual signature</em> by addition of refOTU and time-point specific offset terms. Data is then generated from a discrete-valued noise model parameterized by the individual signature.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[5]">MC-TIMME enables several new types of analysis. The first type, termed Signature Diversity (SD) analysis, measures the variety of time-dependent microbial responses to perturbations to the host ecosystem(s). SD utilizes time-varying information, and is thus distinct from traditional static measures of ecological diversity <a href="#pcbi.1002624-Magurran1">[17]</a>, which characterize the complexity of a microbial community in terms of its constituent members at a single point in time. The second type, Relaxation Time Distribution (RTD) analysis, estimates the distribution of times required for members of the host ecosystem(s) to equilibrate after a perturbation event. This analysis summarizes the kinetics of responses, which is useful for understanding the phasing of changes within microbial ecosystems. The third type, Consensus Signature Group (CSG) analysis, identifies sub-communities of microbes within the larger ecosystem(s) that exhibit coordinated responses to a set of perturbations. This latter analysis provides information about which microbes may form functional sub-populations that affect the host or other microbial populations over time. Finally, MC-TIMME enables automated design of longitudinal studies of the microbiota. Our method couples information theoretic and Bayesian approaches to estimate from prior data the optimal sets of time-points to be sampled in future experiments. In this manner, data from a pilot study can be leveraged to develop optimized experimental designs for larger studies.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[6]">MC-TIMME has some similarities to previously published methods for analyzing other types of high-throughput data. Several studies have employed continuous-time models <a href="#pcbi.1002624-BarJoseph1">[18]</a>–<a href="#pcbi.1002624-Ma2">[21]</a> or infinite mixture models <a href="#pcbi.1002624-Gerber1">[22]</a>, <a href="#pcbi.1002624-Medvedovic1">[23]</a>to analyze time-series microarray data. <a href="#s3">Methods</a> for optimal experimental design for time-series microarray data have also been described <a href="#pcbi.1002624-Singh1">[24]</a>. However, methods designed for analyzing gene expression data do not model dynamics inherent in complex microbial ecosystems, such as equilibrium reverting behavior. Further, these methods generally assume observed data are continuously valued and normally distributed, which is reasonable for microarray data, but not sequencing data, which consist of counts. Extensive statistical literature has documented that, for data consisting of discrete counts, direct modeling of the data yields superior results as compared to transforming data to continuous values (see e.g., <a href="#pcbi.1002624-Hilbe1">[25]</a>–<a href="#pcbi.1002624-Bolker1">[27]</a>). This issue has been recognized for RNA Seq data, and several methods have been developed that use discrete-valued noise models <a href="#pcbi.1002624-Anders1">[28]</a>–<a href="#pcbi.1002624-Di1">[30]</a>. Recently, Holmes <em>et al.</em> <a href="#pcbi.1002624-Holmes1">[31]</a>presented a method for modeling microbial metagenomics counts data that also uses discrete-valued distributions. However, in contrast to MC-TIMME, these methods for analyzing RNA Seqor metagenomics count data use only static models.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[7]">To gain new understanding of dynamic changes in the human gut microbiota caused by antibiotic exposure, we applied MC-TIMME to data from a longitudinal study by Dethlefsen <em>et al.</em> <a href="#pcbi.1002624-Dethlefsen1">[12]</a>. Despite the profound effects antibacterial agents presumably have on commensal species <em>in vivo</em>, remarkably little is known about the rates at which these complex ecosystems recover or remain altered after cessation of a course of antibiotics. Further, it remains poorly understood how antibiotic-induced changes in the microbiota affect underlying host physiology, including enhanced susceptibilities to other pathogens <a href="#pcbi.1002624-Croswell1">[32]</a>, disease states such as allergic and auto-immune responses <a href="#pcbi.1002624-Russell1">[33]</a>, <a href="#pcbi.1002624-Lange1">[34]</a>, and acute or chronic effects on host diet and metabolism <a href="#pcbi.1002624-Cani1">[35]</a>.To date, the Dethlefsen <em>et al.</em> study provides the longest time-series systematically monitoring the effects of antibiotics on human gut commensals. In this study, human subjects were given two spaced five day courses of oral ciprofloxacin, a broad-spectrum antibiotic that targets the DNA gyrase and topoisomerases of many microbial species <a href="#pcbi.1002624-Chin1">[36]</a>–<a href="#pcbi.1002624-Ricci1">[40]</a>. Subjects' gut microbiota was monitored at 50+ time-points over nearly a year, by sequencing 16S rRNA gene signatures present in stool samples.</p>
+<p xpathLocation="/article[1]/body[1]/sec[1]/p[8]">The remainder of the manuscript is organized as follows. First, we provide additional background on the Dethlefsen <em>et al.</em> dataset that we re-analyzed. Second, we describe the MC-TIMME framework, including our model of dynamics, inference algorithm, and automated experimental design method. Third, we apply MC-TIMME to the Dethlefsen <em>et al.</em> data to demonstrate the utility of Signature Diversity (SD), Relaxation Time Distribution (RTD), and Consensus Signature Group (CSG) analyses, and experimental design methods. Our results provide new quantitative insights into how antibiotic exposures affect the human gut microbiota, and how these dynamic alterations may influence the host.</p>
+</div>
+
+<div id="section2" xpathLocation="/article[1]/body[1]/sec[2]"><a id="s3" name="s3" toc="s3" title="Methods"></a><h3 xpathLocation="noSelect">Methods&nbsp;<a href="#top">Top</a></h3>
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/title[1]">Dataset Summary</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[1]/p[1]">Dethlefsen <em>et al.</em> <a href="#pcbi.1002624-Dethlefsen1">[12]</a> examined the microbiota from stool samples of three human subjects over a 10 month period, using Roche 454 high-throughput sequencing of PCR amplicons spanning the V1, V2 and V3 regions of 16S rRNA genes, producing a total of approximately 5 million reads. During the study, each subject received two separate 5 day courses of oral ciprofloxacin. Stool samples were collected daily during, one week prior, and one week after the antibiotics courses, but otherwise were collected less regularly throughout the study. Dethlefsen <em>et al.</em> combined the sequencing reads from all subjects to produce 2,582 reference operational taxonomic units (refOTUs). However, they found that only a few hundred refOTUs were present at consistently detectable levels in at least one sample per subject. In order to focus our analysis on refOTUs above the threshold of detection of the sequencing assay, we required that refOTUs have ≥5 counts for ≥10 time-points. This resulted in a total of 218 refOTUs for subject D, 261 for subject E, and 277 for subject F. Dethlefsen <em>et al.</em> taxonomically labeled refOTUs using the Silva 100 Small Subunit Reference database <a href="#pcbi.1002624-Pruesse1">[41]</a>, and UClust <a href="#pcbi.1002624-Edgar1">[42]</a> with a minimum best hit similarity of 95%. Data files containing counts and taxonomic labels for refOTUs were downloaded from the website linked to the original publication; DNA sequences for each refOTU were not available.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/title[1]">MC-TIMME</h4>
+<h5 xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[1]/title[1]">Overview.</h5><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[1]/p[1]">MC-TIMME uses a Bayesian nonparametric hierarchical generative probability model as depicted in <a href="#pcbi-1002624-g001">Figure 1</a>. The ecosystem(s) analyzed are assumed to be decomposable into probabilistic mixtures of functions, continuous in both time and value, termed prototype signatures (<a href="#pcbi-1002624-g001">Figure 1A</a>). The data generation process probabilistically assigns each refOTU to a prototype signature, which induces a clustering of refOTUs into groups that share similar dynamics. The continuous-time prototype signature is then sampled at observed time-points (<a href="#pcbi-1002624-g001">Figure 1B</a>). The prototype signature is converted to an individual signature(<a href="#pcbi-1002624-g001">Figure 1C</a>) through a refOTU specific scaling term, and an experiment-wide normalization term that accounts for the total numbers of sequencing reads across experiments. Finally, the observed data for each refOTU, a time-series of counts, is generated from the individual signature through a discrete-valued noise model (<a href="#pcbi-1002624-g001">Figure 1D</a>).</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[1]/fig[1]"><a name="pcbi-1002624-g001" id="pcbi-1002624-g001" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002624?imageURI=info:doi/10.1371/journal.pcbi.1002624.g001" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002624', 'info:doi/10.1371/journal.pcbi.1002624.g001');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002624', 'info:doi/10.1371/journal.pcbi.1002624.g001');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002624.g001&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[1]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002624?imageURI=info:doi/10.1371/journal.pcbi.1002624.g001" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002624', 'info:doi/10.1371/journal.pcbi.1002624.g001');"><span>Figure 1. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[1]/fig[1]/caption[1]/title[1]">Schematic of the Microbial Counts Trajectories Infinite Mixture Model Engine (MC-TIMME) generative probabilistic model.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[1]/fig[1]/caption[1]/p[1]">Observed data of time-series of sequencing counts for reference operational taxonomic units (refOTUs) are assumed to arise from a multi-level generative probabilistic mixture model.(<strong>A</strong>)Infinite mixture over latent prototype signatures (green, red and blue solid lines),which specify models of dynamics continuous in both time and amplitude. The horizontal axis for each prototype signature represents time, and the vertical axis represents amplitude. Prototype signatures may adapt their dimensionality, which is shown increasing from left to right. The variables π<sub>i</sub> and associated shaded bars represent prior probabilities for choosing among prototype signatures. (<strong>B</strong>)For each refOTU, a prototype signature is probabilistically chosen and sampled at discrete observed time-points. (<strong>C</strong>)Experiment and refOTU specific variables are added to the selected prototype signature to create an individual signature. (<strong>D</strong>) Observed data, consisting of sequencing counts, is generated through a discrete-valued noise model parameterized by individual signatures generated in step C.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002624.g001</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002624.g001/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002624.g001/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002624.g001.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002624.g001/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002624.g001.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[1]/p[2]">MC-TIMME adaptively learns three levels of Signature Diversity (SD) as depicted in <a href="#pcbi-1002624-g002">Figure 2</a>. These three levels are: (SD1) intra-signature (<a href="#pcbi-1002624-g002">Figure 2A</a>), or the dimensionality of each prototype signature, (SD2) intra-ecosystem (<a href="#pcbi-1002624-g002">Figures 2B,2C</a>), or the diversity of prototype signatures among the taxa within an ecosystem, and (SD3) inter-ecosystem (<a href="#pcbi-1002624-g002">Figures 2D,2E</a>), or the diversity of prototype signatures across multiple host ecosystems. For SD1 adaptive learning, MC-TIMME employs latent variables that control the number of parameters that specify each prototype signature. For SD2, MC-TIMME incorporates Dirichlet Process infinite mixture models, which effectively adjust the number of prototype signatures used to model the system. ForSD3, MC-TIMME maps experiments from different ecosystems to the same time-scale for simultaneous analysis, facilitated by the continuous-time model of dynamics.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[1]/fig[2]"><a name="pcbi-1002624-g002" id="pcbi-1002624-g002" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002624?imageURI=info:doi/10.1371/journal.pcbi.1002624.g002" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002624', 'info:doi/10.1371/journal.pcbi.1002624.g002');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002624', 'info:doi/10.1371/journal.pcbi.1002624.g002');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002624.g002&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[1]/fig[2]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002624?imageURI=info:doi/10.1371/journal.pcbi.1002624.g002" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002624', 'info:doi/10.1371/journal.pcbi.1002624.g002');"><span>Figure 2. </span></a> <span xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[1]/fig[2]/caption[1]/title[1]">Schematics of microbial ecosystems illustrating Signature Diversity scores at multiple levels of resolution.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[1]/fig[2]/caption[1]/p[1]">The panels depict examples of simplified microbial ecosystems measured over time, to illustrate three levels of Signature Diversity (SD) scores computed by the Microbial Counts Trajectories Infinite Mixture Model Engine (MC-TIMME) framework. (<strong>A</strong>) Intra-signature diversity (SD1), characterizes the dimensionality of each prototype signature. The top panel depicts a prototype signature with a lower SD1 score than the prototype signature in the bottom panel, which exhibits different equilibrium levels and relaxation time constants on each of the shaded intervals. (<strong>B–C</strong>) Intra-ecosystem signature diversity (SD2), characterizes the extent of prototype signature sharing among taxa within a host ecosystem. Host ecosystem (B) has a lower SD2 score than (C), because all taxa in (B) share the same prototype signature. (<strong>D–E</strong>) Inter-ecosystem signature diversity (SD3), characterizes the extent of prototype signatures haring across ecosystems. Each panel depicts two ecosystems. The two ecosystems in (D) have a lower SD3 score than those in (E), because more prototype signatures are shared between the ecosystems in D.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002624.g002</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002624.g002/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002624.g002/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002624.g002.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002624.g002/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002624.g002.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[1]/p[3]">The MC-TIMME model is fully Bayesian, and we thus seek to infer the posterior probability distribution of the model variables given the data. However, the posterior distribution is not computable in closed form, making exact inference intractable. Instead, we approximate the posterior distribution using Markov Chain Monte Carlo (MCMC) methods, and then compute various summary statistics. Below, we provide further information on the MC-TIMME model and associated algorithms; see Protocol S1 for complete details.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[1]/p[4]">Sample data, instructions, and GPLv3 licensed Matlab™ (MathWorks, Natick, MA) source code for MC-TIMME are available at <a href="https://sourceforge.net/projects/mctimme/">https://sourceforge.net/projects/mctimme​/</a>. The implementation provided will process datasets with an arbitrary number of experimental subjects or perturbations, as specified through user supplied data files.</p>
+
+<h5 xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[2]/title[1]">Dynamical model for antibiotic pulses.</h5><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[2]/p[1]">Prior longitudinal studies have qualitatively described several key dynamic properties of the gut microbiota <a href="#pcbi.1002624-Caporaso1">[3]</a>, <a href="#pcbi.1002624-Dethlefsen1">[12]</a>. First, abundances of individual microbes within a stable ecosystem are constrained around average levels, despite day-to-day temporal variability. Second, when the ecosystem is perturbed, individual members exhibit varied responses. These responses are characterized by transient components that eventually decay toward an equilibrium state. Of note, this equilibrium state may differ from the pre-perturbation state. Third, the responses of micro-organisms within the ecosystem are dependent on one another. These dependencies may be multifactorial, including factors such as competition for nutrients and other essential resources, as well as common reactions to phases of the host immune response.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[2]/p[2]">To model these phenomena for the Dethlefsen <em>et al.</em> data, we assume that the dynamics for each refOTU are characterized by piece-wise defined functions over five intervals delimited by the antibiotic treatments in the experiment (<a href="#pcbi.1002624.s001">Figure S1</a>). These five intervals are: (a) pre-antibiotic, (b) antibiotic treatment one, (c) post-antibiotic treatment one, (d) antibiotic treatment two, and (e) post-antibiotic treatment two.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[2]/p[3]">Observed sequencing counts <em>y<sub>sot</sub></em> for subject <em>s</em>, refOTU<em>o</em>, and at time <em>t</em> are assumed to be samples from the negative binomial distribution (NBD), a two parameter distribution <a href="#pcbi.1002624-Hilbe1">[25]</a>. The density function of the NBD can be parameterized in terms of its mean <em>m</em> and inverse shape parameter <em>ε</em>. Thus, for <em>y<sub>sot</sub></em> the NBD density function is given by:</p>
+<br><a name="pcbi.1002624.e001" id="pcbi.1002624.e001"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002624.e001&amp;representation=PNG"></span><br><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[2]/p[4]">Let each prototype signature <em>k</em> be associated with a deterministic function f(<em>t,θ<sub>k</sub></em>). We then specify the mean of the NBD <em>m<sub>sot</sub></em> at time <em>t</em> for refOTU<em>o</em> in subject <em>s</em> assigned to prototype signature <em>k</em> as:</p>
+<br><a name="pcbi.1002624.e002" id="pcbi.1002624.e002"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002624.e002&amp;representation=PNG"></span><br><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[2]/p[5]">The variable <em>γ<sub>so</sub></em> is a subject and refOTU specific offset that scales the baseline number of counts for refOTU<em>o</em> in subject <em>s</em>. The variable <em>φ<sub>st</sub></em> is a subject and time-point specific offset that accounts for differences in the total number of sequencing reads among experiments for subject <em>s</em>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[2]/p[6]">For intervals (a), (b) and (d), we assume f(<em>t,θ<sub>k</sub></em>) is constant valued, i.e., f<em><sub>a</sub></em>(•) = <em>μ<sub>ka</sub></em>, f<em><sub>b</sub></em>(•) = <em>X<sub>kb</sub></em>, and f<em><sub>d</sub></em>(•) = <em>X<sub>kd</sub></em>. We assume that dynamics in interval (c), the period after the first antibiotic treatment and before the second, are specified by an exponential relaxation process:</p>
+<br><a name="pcbi.1002624.e003" id="pcbi.1002624.e003"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002624.e003&amp;representation=PNG"></span><br><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[2]/p[7]">This process has initial value <em>X<sub>kb</sub></em>, modeling the transient effect of the antibiotic treatment, and approaches equilibrium level <em>μ<sub>kc</sub></em> with relaxation time <em>λ<sub>kc</sub></em>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[2]/p[8]">For interval (e), the period after the second antibiotic treatment, we also assume an exponential relaxation process:</p>
+<br><a name="pcbi.1002624.e004" id="pcbi.1002624.e004"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002624.e004&amp;representation=PNG"></span><br><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[2]/p[9]">For the NBD inverse shape parameter, we assume it is equal to the same value, ε<sub>1</sub>, on intervals (a), (c) and (e), and equal to a different value, ε<sub>2</sub>, on the antibiotic treatment intervals (b) and (d).</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[2]/p[10]">To capture behavior of the microbiota that spans multiple temporal intervals, we model dependencies between interval parameters using random walks. For instance, the equilibrium level on interval (c), <em>μ<sub>kc</sub></em>, for the prototype signature <em>k</em> is given by:</p>
+<br><a name="pcbi.1002624.e005" id="pcbi.1002624.e005"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002624.e005&amp;representation=PNG"></span><br><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[2]/p[11]">Here, <em>μ<sub>ka</sub></em> is the pre-treatment equilibrium level, and <em>δ<sub>ka→c</sub></em> is a random, normally distributed increment. We model relationships between the other interval parameters similarly, as described fully in Protocol S1.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[2]/p[12]">To adapt the complexity of the dynamical models for prototype signatures, we introduce dimensionality changing variables, <em>c<sub>kμ</sub></em> and <em>c<sub>kλ</sub></em>. These variables are discrete-valued, and act as “switches” to control the number of equilibrium levels or relaxation time parameters utilized by each prototype signature.</p>
+
+<h5 xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[3]/title[1]">Model inference and posterior distribution summarization.</h5><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[3]/p[1]">We approximate the posterior distribution of the MC-TIMME model using Markov Chain Monte Carlo (MCMC) methods. The DirichletProcess aspects of the model are handled with Gibbs sampling steps <a href="#pcbi.1002624-Rasmussen1">[43]</a>. Updating prototype signature variables is more involved, because of temporally induced dependencies among variables, non-conjugacy of prior distributions, and the dimensionality changing variables. For these updates, we use combined Reversible Jump/Metropolis-Hastings steps. See Protocol S1 for complete details. We ran our MCMC algorithm with a burn-in of 10,000 iterations, and then collected every 10th sample for an additional 5,000 iterations. Convergence was evaluated using standard techniques as described in <a href="#pcbi.1002624-Gelman1">[44]</a>. Eight independent MCMC runs were pooled for our final analysis. This produced a set of J = 4,000 posterior samples, which were then used to compute summary measures for Signature Diversity (SD), Relaxation Time Distribution (RTD), and Consensus Signature Group (CSG) analysis.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[3]/p[2]">We define the Signature Diversity type 1 equilibrium level score, SD1<sub>μ</sub>, as the expected fraction of refOTUs with greater than one equilibrium level. We similarly define the SD1 relaxation time score, SD1<sub>λ</sub>, as the expected fraction of refOTUs with greater than one relaxation time constant. The SD1 scores are given by:</p>
+<br><a name="pcbi.1002624.e006" id="pcbi.1002624.e006"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002624.e006&amp;representation=PNG"></span><br><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[3]/p[3]">Here, I(•) denotes the indicator function, <em>n<sub>sk</sub><sup>(j)</sup></em> the number of refOTUs from subject <em>s</em> assigned to prototype signature <em>k</em> in MCMC sample <em>j</em>, and <em>O<sub>s</sub></em> the number of refOTUs for subject <em>s</em>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[3]/p[4]">We define the Signature Diversity type 2 (SD2) score as the expected equivalent number of prototype signatures per 100 refOTUs. Because assignment of refOTUs to prototype signatures may be non-uniform, we use a measure that standardizes for this effect. The SD2 score is given by:</p>
+<br><a name="pcbi.1002624.e007" id="pcbi.1002624.e007"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002624.e007&amp;representation=PNG"></span><br><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[3]/p[5]">Here, H<em><sub>s</sub></em>(<em>n<sub>s</sub><sup>(j)</sup></em>) represents the entropy with respect to the distribution over assignments to prototype signatures for sample <em>j</em>, restricted to subject <em>s</em>. The exponentiated entropy yields the equivalent number of prototype signatures: the hypothetical number of prototype signatures, assuming a uniform assignment of refOTUs, which will yield an entropy equal to H<em><sub>s</sub></em>(<em>n<sub>s</sub><sup>(j)</sup></em>).</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[3]/p[6]">We define the Signature Diversity type 3 (SD3) score as a ratio of SD2 scores: SD2<sup>D</sup>, which is an SD2 score computed on a hypothetical combined ecosystem, and SD2<sup>I</sup>, which is the weighted average of independent SD2 scores computed on each ecosystem separately. These scores are given by:</p>
+<br><a name="pcbi.1002624.e008" id="pcbi.1002624.e008"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002624.e008&amp;representation=PNG"></span><br><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[3]/p[7]">Here, H(<em>n<sup>(j)</sup></em>) represents the entropy with respect to the distribution over assignments to prototype signatures for sample <em>j</em> for all subjects' ecosystems combined.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[3]/p[8]">To characterize Relaxation TimeDistributions, we estimated probability density functions for relaxation time constants of all refOTUs, using the <span class="monospace">ksdensity</span>kernel density estimation function in MatlabR2011b with the default options.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[3]/p[9]">To characterize Consensus Signature Groups (CSGs), we used an agglomerative clustering method as described in <a href="#pcbi.1002624-Medvedovic1">[23]</a>. For each pair of refOTUs<em>o</em> and <em>o′</em> in subjects <em>s</em> and <em>s′</em> (possibly the same subject) we computed:</p>
+<br><a name="pcbi.1002624.e009" id="pcbi.1002624.e009"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002624.e009&amp;representation=PNG"></span><br><p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[3]/p[10]">Here, <em>z<sup>(j)</sup></em> is a random variable that specifies the assignment of a refOTU to a prototype signature for MCMC iteration <em>j</em>. The agglomerative clustering method successively merges CSGs based on average linkage using <em>p<sub>so,s′o′</sub></em> as the similarity measure. Merging is stopped when the number of clusters reaches the expected number of prototype signatures, as calculated from all the MCMC samples. Consensus signatures and relaxation time constants for a CSG are then computed from the MCMC samples for all refOTUs belonging to that CSG.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[2]/sec[3]/p[11]">To test for enrichment of Consensus Signature Groups for particular taxonomic labels, we used the following procedure. For each CSG, we computed <em>p</em>-values for the observed configuration of taxonomic labels of refOTUs at the order, family and genus levels, under the null hypothesis that configurations followed the hypergeometric distribution. We computed the false discovery rate (FDR) using the method of <a href="#pcbi.1002624-Benjamini1">[45]</a>, and considered cases with FDR&lt;0.05 significant.</p>
+
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/title[1]">Experimental Design</h4>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[1]">Our approach is based on a Bayesian information theoretic formulation of the experimental design problem (see e.g., <a href="#pcbi.1002624-Chaloner1">[46]</a>–<a href="#pcbi.1002624-Lindley1">[48]</a>). To define notation, suppose we are given a joint probability distribution p(Θ,<em>A(T)</em>) over model parameters Θ and possible data <em>A(T)</em> collected at a set of time-points <em>T</em>. Suppose we then perform experiments, which allow us to collect a dataset denoted <em>a</em>. This results in a gain in Shannon information that is given by:</p>
+<br><a name="pcbi.1002624.e010" id="pcbi.1002624.e010"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002624.e010&amp;representation=PNG"></span><br><p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[2]">Here, H{<em>•</em>} denotes the differential entropy. Thus, we see that the gain in information is due to the difference in entropy between prior and posterior distributions.</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[3]">The objective of our automated experimental design algorithm is then to choose the sampling times <em>T</em> that maximize the expected information gain over all possible data that could be observed at those time-points:</p>
+<br><a name="pcbi.1002624.e011" id="pcbi.1002624.e011"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002624.e011&amp;representation=PNG"></span><br><p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[4]">This is a high dimensional integral that is in general intractable. However, for a linear model with Gaussian noise, the integral can be written as <a href="#pcbi.1002624-Chaloner1">[46]</a>, <a href="#pcbi.1002624-Atkinson1">[49]</a>, <a href="#pcbi.1002624-Ror1">[50]</a>:</p>
+<br><a name="pcbi.1002624.e012" id="pcbi.1002624.e012"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002624.e012&amp;representation=PNG"></span><br><p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[5]">Here, IM denotes the Fisher information matrix, and |•| the determinant of the matrix. The integral can be approximated with a function g(<em>•</em>) of samples Θ<sup>(<em>j</em>)</sup> from the priorp(Θ), yielding:</p>
+<br><a name="pcbi.1002624.e013" id="pcbi.1002624.e013"></a><span class="equation"><img src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002624.e013&amp;representation=PNG"></span><br><p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[6]">In the case of a Generalized Linear Model, a linear approximation can be calculated to yield a local Bayesian <em>D</em>-optimality measure <a href="#pcbi.1002624-Ror1">[50]</a>. We use this measure, as each prototype signature in MC-TIMME is a Generalized Linear Model if we condition on the appropriate parameters (see Protocol S1).</p>
+<p xpathLocation="/article[1]/body[1]/sec[2]/sec[3]/p[7]">We estimate samples from p(Θ), the prior probability distribution over model parameters for future experiments, using a model learned from previously observed data. Specifically, we use 500 MCMC samples obtained from the posterior distribution of the MC-TIMME model conditioned on a set of observed data. We then use a greedy optimization algorithm with the Bayesian <em>D</em>-optimality function g(•)defined above, to generate experimental designs. See Protocol S1 for complete details.</p>
+
+</div>
+
+<div id="section3" xpathLocation="/article[1]/body[1]/sec[3]"><a id="s4" name="s4" toc="s4" title="Results"></a><h3 xpathLocation="noSelect">Results&nbsp;<a href="#top">Top</a></h3>
+<h4 xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/title[1]">Algorithm Performance</h4>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/p[1]">MC-TIMME analyzed the complete Dethlefsen et al. dataset, consisting of 3 subjects with 50+ time-points each, in approximately 12 hours on an Intel Xeon E5507 2.27 GHz core. <a href="#pcbi.1002624.s002">Figure S2</a> provides examples of individual signatures for refOTUs inferred by MC-TIMME. The subsequent sections detail our biological findings based on these analyses.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[1]/p[2]">We also ran additional analyses to evaluate the sensitivity of our results to key model assumptions or features of the data. First, we tested the robustness of the model's dimensionality adaptation capability, which is a critical component of Signature Diversity scores. These tests showed no significant differences in our results when relevant model parameters were varied. Second, we tested the robustness of our results to noise. Because an equivalent gold standard experimental dataset does not exist, we generated simulated data for use in testing. For these simulations, we used all prototype signatures estimated by MC-TIMME from the full Dethlefsen et al. dataset as our gold standard, and then generated test datasets with varying amounts of added noise. When the amount of noise equaled that in the original dataset (coefficient of variation of ≈60% for counts), MC-TIMME recovered Signature Diversity scores with &lt;≈10% error, and relaxation time constant estimates with ≈25% error for the first post-antibiotic exposure interval, and ≈40% error for the second interval; measures of consistency of assignment of refOTUs to prototype signatures showed ≈20% reduction in quality. Third and finally, we tested the sensitivity of our results to exclusion of each experimental subject. These tests showed error rates comparable to those from our simulations when noise levels were equal to those in the original dataset. See Protocol S1 for complete details. Overall, our model performance tests demonstrate that our results are robust to changes in relevant parameter settings, noise, and exclusion of experimental subjects.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/title[1]">Signature Diversity</h4>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/p[1]">To characterize the diversity of responses of the microbiota to repeated antibiotic treatments, we calculated three types of Signature Diversity (SD) scores. As shown in <a href="#pcbi-1002624-g002">Figure 2</a>, each SD score (SD1 to SD3) measures the dynamic behavior of micro-organisms in the host ecosystem(s) at a different level of resolution. These scores take into account the responses over time for refOTUs, and thus provide new information about dynamic properties of the ecosystems studied, as compared to traditional static measures of ecological diversity <a href="#pcbi.1002624-Magurran1">[17]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/p[2]">The intra-signature diversity (SD1) scores for all three subjects in the Dethlefsen <em>et al.</em> study were &gt;≈50% (<a href="#pcbi-1002624-g003">Figures 3A, 3B</a>), indicating that the majority of micro-organisms in these host ecosystems exhibited changes in equilibrium levels or relaxation times after one or both antibiotic treatments. As shown in <a href="#pcbi-1002624-g003">Figures 3A and 3B</a>, the SD1 score has two components: (1) SD1<sub>μ</sub>, which measures the expected fraction of refOTUs with changes in equilibrium levels between pre-treatment and at least one post-antibiotic treatment interval, and (2) SD1<sub>λ</sub>, which measures the expected fraction of refOTUs with changes in relaxation time constants between the two antibiotic treatment intervals. The intra-ecosystem signature diversity (SD2) score was ≈8–20 expected equivalent signatures per 100 refOTUs (<a href="#pcbi-1002624-g003">Figure 3C</a>), indicating that many micro-organisms within each host ecosystem exhibited similar responses to the antibiotic treatments. Stated another way, a typical refOTU in a subject's gut ecosystems shared a similar response with ≈5–12 other refOTUs.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/fig[1]"><a name="pcbi-1002624-g003" id="pcbi-1002624-g003" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002624?imageURI=info:doi/10.1371/journal.pcbi.1002624.g003" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002624', 'info:doi/10.1371/journal.pcbi.1002624.g003');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002624', 'info:doi/10.1371/journal.pcbi.1002624.g003');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002624.g003&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002624?imageURI=info:doi/10.1371/journal.pcbi.1002624.g003" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002624', 'info:doi/10.1371/journal.pcbi.1002624.g003');"><span>Figure 3. </span></a> <span xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/fig[1]/caption[1]/title[1]">SignatureDiversity scores for gut microbiota of three human subjects treated twice with antibiotics.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/fig[1]/caption[1]/p[1]">(<strong>A</strong>) Intra-signature diversity scores for equilibrium levels (SD1<sub>μ</sub>), which measure the expected fraction of reference operational taxonomic units (refOTUs) that change equilibrium levels in response to one or more of the antibiotic treatments. (<strong>B</strong>) Intra-signature diversity scores for relaxation times (SD1<sub>λ</sub>), which measure the expected fraction of refOTUs that exhibit different relaxation time constants after the antibiotic treatments. (<strong>C</strong>) Intra-ecosystem signature diversity scores (SD2), which measure the expected equivalent number of prototype signatures per 100 refOTUs. (<strong>D</strong>) The inter-ecosystem signature diversity score (SD3), which measures the degree of sharing of prototype signatures across host ecosystems, is a ratio of the SD2<sup>D</sup>to the SD2<sup>I</sup> score. The SD2<sup>D</sup>score is computed on a hypothetical combined ecosystem, in which refOTUs from different subjects probabilistically share prototype signatures. The SD2<sup>I</sup> score is a weighted average of SD2 scores computed on each subject separately.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002624.g003</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002624.g003/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002624.g003/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002624.g003.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002624.g003/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002624.g003.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/p[3]">These analyses indicated that subject E's gut microbiota exhibited fewer long-term shifts in abundance levels and responded overall more uniformly to the antibiotic exposures. That is, subject E had significantly lower intra-signature and intra-ecosystem Signature Diversity scores, with an SD1<sub>μ</sub>score of 50% and SD2 score of 10, as compared with the other two subjects with SD1<sub>μ</sub> scores &gt;70% and SD2 scores ≈20. This differential behavior of subject E's microbiota was not discernible in the original analysis performed by Dethlefsen <em>et al.</em>, as they did not use techniques that quantified diversity of temporal responses. Our Signature Diversity analysis thus provides additional information about the functional diversity of subject E's microbiota, suggesting that this subject may have harbored a more ciprofloxacin-resistant flora prior to the experiments. Of note, subjects in the study had not received antibiotics in the past year before the experiments, but their antibiotic exposure history prior to this point was unknown.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[2]/p[4]">The inter-ecosystem signature diversity (SD3) score for the 3 subjects was 48%(<em>p</em>-value&lt;10<sup>−6</sup>using a permutation test with null hypothesis of independent ecosystems), indicating that there were substantial similarities in the time-dependent responses of the subjects' microbiota to the antibiotic treatments. As shown in <a href="#pcbi-1002624-g003">Figure 3D</a>, the SD3 score is a ratio of two SD2 scores: (1) SD2<sup>D</sup>, which is computed on a hypothetical combined ecosystem, in which refOTUs from different subjects probabilistically share prototype signatures, and (2) SD2<sup>I</sup>, which is a weighted average of independent SD2 scores computed separately on each subject. The SD3 score of 48% indicates that approximately as many prototype signatures were shared among the subjects as were unique to each subject. Thus, although subjects' microbiota did exhibit varied responses to the antibiotic treatments, as reported in the Dethlefsen <em>et al.</em> study, our findings indicate that there were substantial commonalities among responses. These commonalities could not have been found using the analysis techniques of the original study, which relied on calculations at individual time-points, in part because different sampling times for each subject made point-wise comparisons impossible. In contrast, MC-TIMME uses a continuous-time model of dynamics that leverages information from multiple time-points to estimate key dynamical properties, allowing comparisons across subjects on a common time-scale.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/title[1]">Relaxation Time Distributions and Consensus Signature Groups</h4>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/p[1]">We generated Relaxation Time Distribution (RTD)plots using data from all three subjects, to investigate common trends in the rates at which the microbiota attained equilibrium levels after repeated antibiotic exposures (<a href="#pcbi-1002624-g004">Figure 4</a>). These plots depict estimated smoothed probability distributions of relaxation time constants, in units of days, for all refOTUs across all subjects. As shown in <a href="#pcbi-1002624-g004">Figure 4</a>, the Relaxation Time Distribution for the first post-antibiotic exposure interval is multi-modal. A large peak in the distribution at ≈1–3 days indicates that many refOTUs quickly reached equilibrium levels, while a subsequent broader peak suggests waves of microbial succession events among subpopulations that took longer to equilibrate. Interestingly, after the second antibiotic exposure, the relaxation time distribution became simpler and more concentrated, with more refOTUs exhibiting relaxation times around ≈1–3 days. This finding suggests that the first antibiotic treatment shifted gut ecosystems toward more rapidly equilibrating states, possibly by selecting for more antibiotic resistant organisms or for sub-communities that more quickly and stably established themselves in relevant niches.</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/fig[1]"><a name="pcbi-1002624-g004" id="pcbi-1002624-g004" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002624?imageURI=info:doi/10.1371/journal.pcbi.1002624.g004" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002624', 'info:doi/10.1371/journal.pcbi.1002624.g004');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002624', 'info:doi/10.1371/journal.pcbi.1002624.g004');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002624.g004&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002624?imageURI=info:doi/10.1371/journal.pcbi.1002624.g004" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002624', 'info:doi/10.1371/journal.pcbi.1002624.g004');"><span>Figure 4. </span></a> <span xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/fig[1]/caption[1]/title[1]">Relaxation Time Distributions for responses of human gut commensals to repeated antibiotic exposures.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/fig[1]/caption[1]/p[1]">Each relaxation time constant characterizes the time for a reference operational taxonomic unit (refOTU) to reach an equilibrium relative abundance level in the ecosystem after an antibiotic pulse. Probability density functions were estimated for either the first post-antibiotic exposure interval (solid blue line, “1<sup>st</sup> relaxation time”) or the second post-antibiotic exposure interval (dashed red line, “2<sup>nd</sup> relaxation time”). A smoothing kernel algorithm was used to estimate probability density functions, using relaxation time constants from refOTUs from all subjects (756 time constants for each post-antibiotic exposure interval).</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002624.g004</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002624.g004/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002624.g004/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002624.g004.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002624.g004/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002624.g004.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/p[2]">To further our understanding of the differential responses of microbial sub-communities to antibiotic exposures, we next generated Consensus Signature Groups (CSGs), which represent groups of refOTUs that consistently covary in terms of relative abundances over time. Combining data from all subjects, MC-TIMME identified 125 CSGs. Interestingly, many of the CSGs contained refOTUs that are phylogenetically related or are common to all subjects. To assess the phylogentic relationships among refOTUs within each CSG, we calculated an enrichment <em>p</em>-value for taxonomic labels at the order, family and genus levels, based on a hypergeometric distribution null hypothesis. Approximately 61% of refOTUs belonged to CSGs significantly enriched for at least one taxonomic label at these levels, with most such CSGs shared across subjects. These results provide evidence that MC-TIMME detected biologically relevant sub-communities of organisms based only on evaluation of time-varying behaviors of refOTUs. MC-TIMME additionally discovered refOTUs that exhibited consistent behavior across all subjects: 88refOTUs were present in all 3 subjects, and of these 88 refOTUs, ≈25% were assigned to common CSGs. These sets of refOTUs, which consistently covary across all subjects, could serve as candidate biomarkers in future studies of antibiotic treatments or other perturbations to the gut flora.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/p[3]">We created a time-line of the largest and best taxonomically defined Consensus Signature Groups (<a href="#pcbi-1002624-g005">Figure 5A–M</a>), to gain insight into the specific responses and successive equilibration of gut commensal sub-populations after antibiotic exposures. For purposes of visualization, we ordered the CSGs according to their relaxation time constants after the first antibiotic pulse, as these relaxation times exhibited the most variation. To facilitate interpretation, we included only CSGs containing at least one refOTU shared among all subjects, and significantly enriched (false discovery rate&lt;0.05, hypergeometric tests)for at least one taxonomic label at the family or genus level. These criteria yielded 13 CSGs, containing ≈50% of all refOTUs. Of the 13 CSGs, 8 exhibited decreases in relative abundance during the first antibiotic pulse (<a href="#pcbi-1002624-g005">Figure 5A–H</a>), and 5 respectively exhibited increases (<a href="#pcbi-1002624-g005">Figure 5I–M</a>).</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/fig[2]"><a name="pcbi-1002624-g005" id="pcbi-1002624-g005" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002624?imageURI=info:doi/10.1371/journal.pcbi.1002624.g005" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002624', 'info:doi/10.1371/journal.pcbi.1002624.g005');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002624', 'info:doi/10.1371/journal.pcbi.1002624.g005');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002624.g005&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/fig[2]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002624?imageURI=info:doi/10.1371/journal.pcbi.1002624.g005" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002624', 'info:doi/10.1371/journal.pcbi.1002624.g005');"><span>Figure 5. </span></a> <span xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/fig[2]/caption[1]/title[1]">Consensus Signature Groups of human gut commensals ordered by relaxation time after first antibiotic pulse.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/fig[2]/caption[1]/p[1]">Each panel (<strong>A–M</strong>) depicts a Consensus Signature Group (CSG), with signatures conformed to a common time-scale and amplitude to facilitate comparison across subjects and CSGs. Displayed CSGs are those containing at least one reference operational taxonomic units (refOTUs) shared among all subjects, and significantly enriched for at least one taxonomic label at the family or genus level (false discovery rate &lt;0.05, hypergeometric tests). The horizontal axis indicates time in days and the vertical axis indicates normalized signature amplitude. Red dashed lines depict median inferred signatures, and shaded red areas indicate 95% credible intervals. Horizontal blue lines depict antibiotic exposure windows. Numbers above plots indicate relaxation time constants in units of days.(<strong>A–H</strong>) are CSGs showing decreases in relative abundance during the first antibiotic pulse, and (<strong>I–M</strong>) are CSGs showing increases in relative abundance during the first antibiotic pulse.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002624.g005</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002624.g005/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002624.g005/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002624.g005.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002624.g005/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002624.g005.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/p[4]">Among Consensus Signature Groups showing decreases in relative abundance during the first antibiotic pulse, those containing refOTUs in the genus <em>Bacteroides</em> (<a href="#pcbi-1002624-g005">Figure 5A,C</a>), or refOTUs in the related family Porphyromonadaceae (<a href="#pcbi-1002624-g005">Figure 5D</a>), were among the first groups to equilibrate after cessation of antibiotics. These groups of refOTUs had relaxation times &lt;≈2 weeks, and returned to the same or higher relative abundances as compared to those prior to the first antibiotic pulse. The <em>Bacteroides</em> <a href="#pcbi.1002624-Wexler1">[51]</a>are obligate anaerobes. Members of this genus, in particular <em>B. fragilis</em>, are known to have greater resistance to ciprofloxacin, mediated in part by several bacterial factors, coupled with reduced activity of the antibiotic under anaerobic conditions <a href="#pcbi.1002624-Ricci1">[40]</a>, <a href="#pcbi.1002624-Rasmussen2">[52]</a>. The <em>Bacteroides</em> can also be opportunistic pathogens and are capable of developing resistance to multiple classes of antibiotics after repeated exposures <a href="#pcbi.1002624-Salyers1">[53]</a>, <a href="#pcbi.1002624-Lfmark1">[54]</a>. These characteristics may explain why the <em>Bacteroides</em> were among the first genera found by MC-TIMME to recover post-antibiotic treatment. Interestingly, another CSG significantly enriched for refOTUs of genus <em>Bacteroides</em> (<a href="#pcbi-1002624-g005">Figure 5M</a>) exhibited an increase in relative abundance during antibiotic treatment, with a very slow return to equilibrium levels (relaxation time ≈42 days). This finding suggests that subjects consistently harbored antibiotic resistant <em>Bacteroides</em>, echoing concerns that members of this genus could serve as reservoirs of resistance genes for more frankly pathogenic bacteria <a href="#pcbi.1002624-Salyers1">[53]</a>, <a href="#pcbi.1002624-Lfmark1">[54]</a>.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/p[5]">MC-TIMME also identified another quickly equilibrating sub-community that contained refOTUs belonging to acetate <a href="#pcbi.1002624-Rey1">[55]</a> and butyrate <a href="#pcbi.1002624-Louis1">[56]</a> producing genera (<a href="#pcbi-1002624-g005">Figure 5I</a>). This sub-community showed increases in relative abundance during antibiotic treatments and was significantly enriched for refOTUs belonging to the genera <em>Blautia</em>, <em>Faecalibacterium</em>, or <em>Roseburia</em>. Many <em>Blautia</em> species are acetogens, producing acetate from H<sub>2</sub> and CO<sub>2</sub> through the acetyl-CoA pathway <a href="#pcbi.1002624-Rey1">[55]</a>. Acetate has known downstream effects on the microbial production of butyrate <a href="#pcbi.1002624-Duncan1">[57]</a>. Butyrate, a 4-carbon short chain fatty acid, has important roles in maintaining colonic health of the host, providing a luminal source of energy to the epithelial barrier <a href="#pcbi.1002624-Duncan1">[57]</a>, while limiting the degree of autophagy in host colonocytes and reducing the host's susceptibility to agents that might otherwise promote damage to the colonic mucosa <a href="#pcbi.1002624-Donohoe1">[58]</a>. Members of the genera <em>Faecalibacterium</em> and <em>Roseburia</em> are prominent butyrate producers in the human gut <a href="#pcbi.1002624-Louis1">[56]</a>. Our CSG analysis suggests that the identified <em>Blautia</em>, <em>Faecalibacterium</em>, and <em>Roseburia</em> refOTUs may operate as a functional multi-species community in the gut, one demonstrating relative resilience tociprofloxacin's effects. This finding highlights MC-TIMME's ability to identify and track over time and across multiple subjects, bacterial sub-communities with potential benefits to the host. Interestingly, MC-TIMME discovered a second CSG containing <em>Blautia</em> refOTUs, but not the butyrate producing genera (<a href="#pcbi-1002624-g005">Figure 5B</a>),and that exhibited a different response pattern, with a decrease in relative abundance during the first antibiotic pulse, and relatively rapid return to pre-antibiotic relative abundances. Of note, certain <em>Blautia</em> species, such as <em>B. hydrogenotrophica</em>, use a broader range of substrates for acetogenesis than other species in the genus <a href="#pcbi.1002624-Rey1">[55]</a>.The presence of such <em>Blautia</em> species with greater metabolic flexibility in the CSG depicted in <a href="#pcbi-1002624-g005">Figure 5B</a> could explain the lack of butyrate producers in this consensus signature group.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/p[6]">Several Consensus Signature Groups contained refOTUs belonging to the family Ruminococcaceae (<a href="#pcbi-1002624-g005">Figure 5F,G,H</a>). These CSGs showed decreases in relative abundance during the first antibiotic pulse and equilibrated slowly thereafter. In fact, one group of these organisms (<a href="#pcbi-1002624-g005">Figure 5H</a>), become undetectable after the first antibiotic pulse, and another group (<a href="#pcbi-1002624-g005">Figure 5F</a>) declined to very low relative abundance levels after the second pulse. The Ruminococcaceae are overall obligately anaerobic, fastidious organisms that may require substrates produced as by-products of metabolism by earlier colonizers in gut luminal food-webs <a href="#pcbi.1002624-Duncan1">[57]</a>–<a href="#pcbi.1002624-Abell1">[59]</a>. Thus, the delay in which these consensus groups of Ruminococcaceae recovered may be due to high degrees of dependence on activities of other organisms in the ecosystem.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[3]/p[7]">MC-TIMME also discovered a number of Consensus Signature Groups containing refOTUs from the family Lachnospiraceae (<a href="#pcbi-1002624-g005">Figure 5E,J,K,L</a>). The majority of these CSGs showed increases during the antibiotic pulses, with fairly long relaxation times to pre-antibiotic relative abundance levels. The Lachnospiraceae are a large family of difficult to cultivate organisms, some of which have been found in close association with the mucous layer over the distal colonic epithelium <a href="#pcbi.1002624-Nava1">[60]</a>. Although little is known about the antibiotic susceptibilities of these organisms, it has been hypothesized that they may have evolved special mechanisms to survive the higher concentrations of endogenously produced host anti-microbial peptides present in this niche <a href="#pcbi.1002624-Nava1">[60]</a>. Our CSG analysis identified distinct groups of refOTUs from the Lachnospiraceae family that exhibited prolonged increases in relative abundance after ciprofloxacin exposure. These findings provide new information about this poorly understood bacterial family, which could be used to guide future studies to evaluate potential mechanisms of innate antibiotic resistance among Lachnospiraceae sub-communities.</p>
+
+
+<h4 xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/title[1]">Automated Experimental Design</h4>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/p[1]">Application of metagenomic techniques to diagnostic medicine will require human clinical trials across many subjects to ascertain time-dependent effects and responses of the microbiota relative to a defined perturbation or clinical course of disease. The complicated logistics and expense of such trials highlight the need for computational techniques to optimize sampling across subjects.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/p[2]">We developed an algorithm for automated experimental design, and applied it to the Dethlefsen <em>et al.</em> dataset to explore how the experimental design of a longitudinal study of the microbiota could be improved for future, larger trials. Our algorithm uses the data from a set of previously performed experiments to estimate an initial model of prototype signatures. This initial model is used to find a set of time-points that maximize the information that can be gained from future, hypothetical experiments. In general, our algorithm prioritizes time-points for sampling in future experiments around time-points in the original experiment that had the highest degree of uncertainty in the model. The selected time-points may differ from those in the original experiments, and thus indicate when increased sampling could better estimate dynamics of the ecosystems under study, or when reduced sampling still yields sufficient information.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/p[3]"><a href="#pcbi-1002624-g006">Figure 6</a> depicts the optimized experimental design produced by our algorithm for each subject. To facilitate comparisons among designs, we restricted our algorithm to choose the same numbers of time points as were used in the original design. Our algorithm generated an optimal design that consistently differed from the original design, over certain temporal intervals. On the pre-antibiotic interval, the optimized design required more uniform sampling, reflecting the modeling assumption that host ecosystems were at equilibrium prior to antibiotic exposure. For the period immediately after the first antibiotic exposure, the optimized design required additional frequent sampling beyond the one week of the original design. This increased sampling requirement is consistent with the relaxation time distribution on the first post-antibiotic treatment interval shown in <a href="#pcbi-1002624-g004">Figure 4</a>, which indicates the presence of transient effects beyond one week for many refOTUs. However, the optimal design required fewer subsequent samples on the first post-antibiotic treatment interval, suggesting that MC-TIMME can effectively leverage earlier time-points obtained while the ecosystem is still equilibrating to estimate later behavior near steady-state. During the period immediately after the second antibiotic exposure, the optimal design generally required less frequent sampling than did the original design. This reduced sampling requirement reflected the shorter relaxation time distribution on the second post-antibiotic interval as shown in <a href="#pcbi-1002624-g004">Figure 4</a>. Finally, the optimal design required considerably more sampling at the end of the time-series; the original experiments clearly under-sampled after the second antibiotic exposure, as is evident from high variability in model parameter estimates on this interval (see <a href="#pcbi-1002624-g005">Figure 5</a> and Figure S2).</p>
+<div class="figure" xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/fig[1]"><a name="pcbi-1002624-g006" id="pcbi-1002624-g006" title="Click for larger image " href="/article/info:doi/10.1371/journal.pcbi.1002624?imageURI=info:doi/10.1371/journal.pcbi.1002624.g006" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002624', 'info:doi/10.1371/journal.pcbi.1002624.g006');"><div class="expand-link" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002624', 'info:doi/10.1371/journal.pcbi.1002624.g006');"></div><img xpathLocation="noSelect" border="1" src="/article/fetchObject.action?uri=info:doi/10.1371/journal.pcbi.1002624.g006&amp;representation=PNG_I" align="left" alt="thumbnail" class="thumbnail"></a><p><strong xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/fig[1]/label[1]"><a xpathLocation="noSelect" href="/article/info:doi/10.1371/journal.pcbi.1002624?imageURI=info:doi/10.1371/journal.pcbi.1002624.g006" onclick="return ambra.lightBox.show('info:doi/10.1371/journal.pcbi.1002624', 'info:doi/10.1371/journal.pcbi.1002624.g006');"><span>Figure 6. </span></a> <span xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/fig[1]/caption[1]/title[1]">Optimized experimental design for studying responses of the human gut microbiota to repeated antibiotic exposures.</span></strong></p><p xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/fig[1]/caption[1]/p[1]">Each panel (<strong>A–C</strong>) depicts an optimized design for one subject in the study. (<strong>A</strong>) Subject D. (<strong>B</strong>) Subject E. (<strong>C</strong>) Subject F. The rows in each panel depict the time-points from the optimal (“opt”) and original (“org”) designs. Times are in days from the start of the experiments. Time-points that overlap in both designs are shown in green boxes. Time-points that are unique to either of the optimal or original designs are depicted with colored numbers (optimal = purple, original = orange). The two antibiotic exposure intervals are shown as blue rectangles.</p>
+<span xpathLocation="noSelect">doi:10.1371/journal.pcbi.1002624.g006</span><div class="clearer"></div><div class="figure-inline-download"><ul><li><strong>Download: </strong><a href="/article/info:doi/10.1371/journal.pcbi.1002624.g006/powerpoint">PowerPoint slide</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002624.g006/largerimage">
+                    larger image (<span id="info:doi/10.1371/journal.pcbi.1002624.g006.PNG_L"></span> PNG)</a> |
+                  <a href="/article/info:doi/10.1371/journal.pcbi.1002624.g006/originalimage">
+                    original image (<span id="info:doi/10.1371/journal.pcbi.1002624.g006.TIF"></span> TIFF)
+                  </a></li></ul></div></div><p xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/p[4]">To assess the predictive accuracy of our experimental design algorithm, we evaluated its ability to find a set of experiments to best estimate a model to predict held-out data (<a href="#pcbi.1002624.s003">Figure S3</a>). We used root mean square error (RMSE) to measure predictive accuracy. RMSE is the square root of the sum of squared differences between actual and predicted sequencing counts, averaged over refOTUs and time-points. Evaluation of predictive accuracy is important to assess the degree to which a probabilistic model generalizes to new data, without over-fitting features particular to one dataset. To perform this evaluation, we estimated optimal experimental designs for each subject, using three design strategies. For the first strategy, a sequential design, we gave the experimental design algorithm data for all refOTUs observed at a subset of time-points, and asked the algorithm to estimate additional time-points to sample in the <em>same</em> subject. For the second strategy, a cross-subject design, we gave the experimental design algorithm all observed data from one subject, and asked the algorithm to estimate time-points to sample for a <em>different</em> subject. In the third strategy, a dispersed design, we did not use the experimental design algorithm, and simply chose time-points to sample that were as evenly spaced on the study interval as possible. The dispersed design uses no information from observed data, and thus served as a baseline with which to compare the other two design strategies.</p>
+<p xpathLocation="/article[1]/body[1]/sec[3]/sec[4]/p[5]">The two experimental design strategies (sequential and cross-subject)that use prior information improved on the uninformative dispersed strategy by an average of 13%, as measured by reduction in prediction accuracy (RMSE). Of the two informative strategies, neither consistently dominated the other. However, the cross-subject strategy did substantially outperform the sequential strategy for subject D. This subject exhibited the highest Signature Diversity equilibrium level (SD1<sub>μ</sub>) score, meaning that many refOTUs in this subject changed equilibrium levels subsequent to one or both antibiotic exposures. Consequently, equilibrium levels for refOTUs in subject D were harder to predict from prior equilibrium levels. Thus, the sequential design strategy, which uses only partial time-series data as input to the design algorithm, suffered in performance. In contrast, the cross-subject strategy that uses complete data from another subject, performed particularly well for subject D, because it leveraged prototype signatures predicted from subject E or F that were substantially similar to those in subject D.</p>
+
+</div>
+
+<div id="section4" xpathLocation="/article[1]/body[1]/sec[4]"><a id="s5" name="s5" toc="s5" title="Discussion"></a><h3 xpathLocation="noSelect">Discussion&nbsp;<a href="#top">Top</a></h3><p xpathLocation="/article[1]/body[1]/sec[4]/p[1]">We presented MC-TIMME, a unified computational framework for inferring dynamic signatures of the microbiota from high-throughput sequencing time-series datasets, and applied our framework to discover new features of the <em>in vivo</em> response of human gut microbes to antibiotic treatments. Our work represents both biologically and computationally significant advances. From the biological perspective, our study provides new insights into the differential and dynamic effects of antibiotic treatments on commensal bacteria in the human gut. Antibiotics disrupt the commensal flora, which can contribute to overgrowth and pathogenic effects of organisms such as <em>Clostridium difficile</em>, the cause of pseudomembranous colitis <a href="#pcbi.1002624-Kelly1">[61]</a>. However, antibiotic effects have primarily been studied in pathogens; the range of effects on complex commensal populations remains largely unknown. Our results provide evidence, consistent across multiple human subjects, that sub-groups of commensals exhibit distinct temporal responses to treatment with a broad spectrum antibiotic. These results illustrate the staged dynamics of responses among sub-populations of commensals, and will enable future experimental studies to characterize the underlying molecular mechanisms behind these differential responses. From the computational standpoint, our study provides a robust, general-purpose framework for extracting fundamental information on ecosystem dynamics from massive sequencing datasets. Our framework may be applied to types of data other than 16S phylotypes, such as metagenomics or RNA Seq data, as well as model systems in animal or plant hosts, or studies in soil or marine environments. MC-TIMME employs probabilistic models of dynamics and associated measures of their properties, which yield important functional information that standard techniques for analyzing microbial communities cannot. Our use of adaptive Bayesian methods not only increases the strength of statistical inferences, but also provides signatures of microbial responses that are robust across multiple experimental subjects. Additionally, MC-TIMME enables optimal design of new time-series experiments, which will provide a strong foundation for future longitudinal studies of the microbiota.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/p[2]">Our results on automated experimental design strategies have implications for how future longitudinal studies of the microbiota should be designed. An automated cross-subject design strategy generally performed comparably to or better than a sequential design strategy. A cross-subject design strategy uses all data from one subject to predict a future experimental design for a second subject. In contrast, a sequential design strategy uses limited samples from one subject to predict a future experimental design for the same subject. In the past, when the costs of experimentally interrogating samples were high, strategies using automated design were advocated in which samples would be over-collected, frozen, and then sequential design methods would be used to select the next samples to interrogate <a href="#pcbi.1002624-Singh1">[24]</a>. Our findings suggest that, in an era of plummeting sequencing costs, automated experimental designs based on pilot studies with small cohorts may prove more effective, particularly for clinical trials in which sample collection costs and logistics can be the limiting factors. However, confirmation of this hypothesis will require larger numbers of subjects and more detailed information about the heterogeneity of cohorts, with respect to factors such as demographics and environmental exposures. Additionally, we used a general-purpose, information theoretic utility function as a basis for selecting optimal experimental designs. This utility function has proven useful in many prior studies (see e.g., <a href="#pcbi.1002624-Chaloner1">[46]</a>), and performed well in our analyses. However, our framework for experimental design could readily be extended, by using utility functions that explicitly include financial or other costs involved in performing experiments.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/p[3]">Analysis of host microbial ecosystems solely by 16S phylotyping has inherent limitations. Sequencing based methods suffer from various biases, due to factors such as the DNA extraction method and sequencing platform utilized <a href="#pcbi.1002624-Morgan1">[62]</a>. Additionally, from 16S phylotyping data, it is only possible to infer abundances of taxa relative to other members of the microbial ecosystem detected with sequencing, and not the actual biomasses of individual taxa relative to the input mass of material analyzed. Thus, from our relaxation time analysis, one cannot infer the time required for taxa to equilibrate in terms of their absolute biomasses <em>in vivo</em>. Nonetheless, many studies have shown that relative abundances of organisms serve as important ecological indicators <a href="#pcbi.1002624-Hamady1">[2]</a>. Relative abundances reflect differential abilities of organisms to compete for and effectively use limited resources, and thus provide insights into the roles of sub-communities within larger host ecosystems. However, the most profound limitation to 16S phylotyping data is that it is only useful for identifying which bacteria are present, not what they are doing. Ultimately, targeted or high-throughput functional studies <a href="#pcbi.1002624-Sommer1">[63]</a> are essential for following up hypotheses generated based on 16S phylotyping.</p>
+<p xpathLocation="/article[1]/body[1]/sec[4]/p[4]">MC-TIMME can be extended with alternate models of dynamics for analyzing other time-series datasets. The key components of the model, including the infinite mixture model for prototype signatures and the noise model for counts data, employ general-purpose inference techniques that would not need to be modified to accommodate different models of dynamics. However, the Reversible Jump MCMC techniques we used for inference of intra-signature dimensionality changes require model-specific moves; in future work, more general techniques such as sparse priors <a href="#pcbi.1002624-Park1">[64]</a>, <a href="#pcbi.1002624-Fox1">[65]</a>could be employed for inference of this portion of the model. For the experimental system we modeled, with defined antibiotic administrations, we assumed that perturbations to the microbiota start at known time-points. This model of dynamics could be extended for analyzing observational studies, in which naturally occurring perturbations may occur, by adding latent variables that automatically determine switch-points in dynamics. Another direction for extension would be building more elaborate relaxation time models. We used a relaxation time model based on ordinary differential equations, which assumes instantaneous transitions to different dynamic regimes and monotonic exponential decay to equilibrium levels. A more detailed model could allow smooth transitions between regimes, and richer kinetics of decay to equilibrium, to capture more subtle or chronic responses to perturbations. Additionally, more complex temporal correlations could be captured using a stochastic differential equation model such as the Ornstein-Uhlenbeck process <a href="#pcbi.1002624-Uhlenbeck1">[66]</a>. Finally, longitudinal covariates, such as subject diet, could be added to the model of dynamics to capture exogenous factors that may affect the microbiota. Such extensions to MC-TIMME will enable increasingly sophisticated longitudinal studies, to expand our knowledge of the role of the microbiota in human health or disease.</p>
+</div>
+
+<div id="section5" xpathLocation="/article[1]/body[1]/sec[5]"><a id="s6" name="s6" toc="s6" title="Supporting Information"></a><h3 xpathLocation="noSelect">Supporting Information&nbsp;<a href="#top">Top</a></h3><a name="pcbi.1002624.s001" id="pcbi.1002624.s001"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002624.s001">Figure S1. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[1]/caption[1]/p[1]"><strong>Model of dynamics for prototype signatures.</strong> An example of a prototype signature (solid blue line) is depicted. The model of dynamics for each prototype signature is a function continuous in both time and values, which is used to parameterize the mean of the negative binomial distribution (NBD). The function is defined piece-wise on 5 intervals: (A) pre-antibiotic exposure, (B) first antibiotic pulse, (C) first post-antibiotic exposure, (D) second antibiotic pulse, and (E) second post-antibiotic exposure. The function is constant on intervals A, B and D. On intervals C and E, the function follows an exponential relaxation process with initial value <em>X</em>, equilibrium value <em>μ</em>, and relaxation time constant <em>λ</em>; an equation for the corresponding relaxation process is shown above intervals C and E. Equilibrium levels for each interval are depicted at the right of the figure.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[1]/caption[1]/p[2]">(TIF)</p>
+<a name="pcbi.1002624.s002" id="pcbi.1002624.s002"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002624.s002">Figure S2. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[2]/caption[1]/p[1]"><strong>Representative individual signatures of human gut commensals perturbed by antibiotic pulses.</strong> Panels (<strong>A–F</strong>) depict normalized individual signatures for reference operational taxonomic units (refOTUs) from a single human subject. The vertical axis represents sequencing counts per 10,000 total reads normalized across experiments. The horizontal axis represents time in days since the start of the experiment. Vertical blue lines depict the two windows of antibiotic exposure (56 to 60 and 238 to 242 days). Dashed red lines depict median inferred individual signatures, and shaded red areas depict 95% credible intervals. Each refOTU is labeled with its number from the original dataset and its taxonomic assignment at the family and genus levels. The symbol <em>λ<sub>c</sub></em> denotes the inferred median relaxation time constant on the first post-antibiotic interval, and <em>λ<sub>e</sub></em> denotes the corresponding relaxation time constant on the second post-antibiotic interval. The symbols <em>μ<sub>a</sub></em>, <em>μ<sub>c</sub></em>, and <em>μ<sub>e</sub></em> denote the equilibrium levels on pre- and first and second post-antibiotic intervals. The five probabilities shown indicate the probability that: 1) the relaxation times on both post-antibiotic intervals are equal, and 2–5) the three equilibrium levels on the pre- and first and second post-antibiotic intervals have a particular pattern.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[2]/caption[1]/p[2]">(TIF)</p>
+<a name="pcbi.1002624.s003" id="pcbi.1002624.s003"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002624.s003">Figure S3. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[3]/caption[1]/p[1]"><strong>Predictive performance of the experimental design algorithm using different design strategies.</strong> Predictive performance was evaluated on held-out time-points, with accuracy assessed using root mean square error (RMSE). (<strong>A</strong>) The sequential design strategy used data for all reference operational taxonomic units (refOTUs) observed at a subset of time-points in a subject, to estimate additional time-points to sample in the same subject. (<strong>B</strong>) The cross-subject design strategy used all observed data from refOTUs in one subject, and estimated time-points to sample in a different subject. A dispersed design strategy was used as a baseline for comparison. The dispersed design did not use the experimental design algorithm, and chose time-points to sample that were as evenly spaced on the study interval as possible.</p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[3]/caption[1]/p[2]">(TIF)</p>
+<a name="pcbi.1002624.s004" id="pcbi.1002624.s004"></a><p><strong xPathLocation="noSelect"><a href="/article/fetchSingleRepresentation.action?uri=info:doi/10.1371/journal.pcbi.1002624.s004">Protocol S1. </a></strong></p><p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[4]/caption[1]/p[1]">
+            <strong>Detailed methods.</strong>
+          </p>
+<p xpathLocation="/article[1]/body[1]/sec[5]/supplementary-material[4]/caption[1]/p[2]">(PDF)</p>
+</div>
+
+
+
+
+
+<div xpathLocation="noSelect"><a id="ack" name="ack" toc="ack" title="Acknowledgments"></a><h3 xpathLocation="noSelect">Acknowledgments&nbsp;<a href="#top">Top</a></h3>
+<p xpathLocation="/article[1]/back[1]/ack[1]/p[1]">We would like to thank Neil Herring for critical reading of the manuscript and Wayne Lencer for helpful discussions.</p>
+</div><div class="contributions"><a id="authcontrib" name="authcontrib" toc="authcontrib" title="Author Contributions"></a><h3 xpathLocation="noSelect">Author Contributions&nbsp;<a href="#top">Top</a></h3><p xpathLocation="noSelect">Conceived and designed the experiments: GKG ABO LB. Performed the experiments: GKG. Analyzed the data: GKG LB. Wrote the paper: GKG LB.</p></div><div xpathLocation="noSelect"><a id="references" name="references" toc="references" title="References"></a><h3 xpathLocation="noSelect">References&nbsp;<a href="#top">Top</a></h3><ol class="references" xpathLocation="noSelect"><li xpathLocation="noSelect"><a name="pcbi.1002624-Shendure1" id="pcbi.1002624-Shendure1"></a>Shendure J, Porreca GJ, Church GM, Gardner AF, Hendrickson CL, et al. (2011) Overview of DNA sequencing strategies. Curr Protoc Mol Biol Chapter 7: Unit 7.1. <a class="find" href="/article/findArticle.action?citedArticleID=5327993">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Hamady1" id="pcbi.1002624-Hamady1"></a>Hamady M, Knight R (2009) Microbial community profiling for human microbiome projects: Tools, techniques, and challenges. Genome Res 19: 1141–1152. <a class="find" href="/article/findArticle.action?citedArticleID=5327995">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Caporaso1" id="pcbi.1002624-Caporaso1"></a>Caporaso JG, Lauber CL, Costello EK, Berg-Lyons D, Gonzalez A, et al. (2011) Moving pictures of the human microbiome. Genome Biol 12: R50. <a class="find" href="/article/findArticle.action?citedArticleID=5327997">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Lane1" id="pcbi.1002624-Lane1"></a>Lane DJ (1991) 16S/23S rRNA sequencing. In: Nucleic acid techniques in bacterial systematics. Stackebrandt E, Goodfellow M, editors. New York: John Wiley and Sons Ltd. 115–147. </li><li xpathLocation="noSelect"><a name="pcbi.1002624-Arumugam1" id="pcbi.1002624-Arumugam1"></a>Arumugam M, Raes J, Pelletier E, Le Paslier D, Yamada T, et al. (2011) Enterotypes of the human gut microbiome. Nature 473: 174–180. <a class="find" href="/article/findArticle.action?citedArticleID=5328001">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Koenig1" id="pcbi.1002624-Koenig1"></a>Koenig JE, Spor A, Scalfone N, Fricker AD, Stombaugh J, et al. (2011) Succession of microbial consortia in the developing infant gut microbiome. Proc Natl Acad Sci U S A 108: 4578–4585. <a class="find" href="/article/findArticle.action?citedArticleID=5328003">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Qin1" id="pcbi.1002624-Qin1"></a>Qin J, Li R, Raes J, Arumugam M, Burgdorf KS, et al. (2010) A human gut microbial gene catalogue established by metagenomic sequencing. Nature 464: 59–65. <a class="find" href="/article/findArticle.action?citedArticleID=5328005">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Turnbaugh1" id="pcbi.1002624-Turnbaugh1"></a>Turnbaugh PJ, Hamady M, Yatsunenko T, Cantarel BL, Duncan A, et al. (2009) A core gut microbiome in obese and lean twins. Nature 457: 480–484. <a class="find" href="/article/findArticle.action?citedArticleID=5328007">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Manichanh1" id="pcbi.1002624-Manichanh1"></a>Manichanh C, Rigottier-Gois L, Bonnaud E, Gloux K, Pelletier E, et al. (2006) Reduced diversity of faecalmicrobiota in Crohn's disease revealed by a metagenomic approach. Gut 55: 205–211. <a class="find" href="/article/findArticle.action?citedArticleID=5328009">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Lee1" id="pcbi.1002624-Lee1"></a>Lee YK, Menezes JS, Umesaki Y, Mazmanian SK (2010) Proinflammatory T-cell responses to gut microbiotapromote experimental autoimmune encephalomyelitis. Proc Natl Acad Sci U S A 108: 4615–4622. <a class="find" href="/article/findArticle.action?citedArticleID=5328011">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Ravel1" id="pcbi.1002624-Ravel1"></a>Ravel J, Gajer P, Abdo Z, Schneider GM, Koenig SSK, et al. (2010) Vaginal microbiome of reproductive-age women. Proc Natl Acad Sci U S A 108: 4680–4687. <a class="find" href="/article/findArticle.action?citedArticleID=5328013">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Dethlefsen1" id="pcbi.1002624-Dethlefsen1"></a>Dethlefsen L, Relman D (2010) Incomplete recovery and individualized responses of the human distal gut microbiota to repeated antibiotic perturbation. Proc Natl Acad Sci U S A 108: 4554–4561. <a class="find" href="/article/findArticle.action?citedArticleID=5328015">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Dethlefsen2" id="pcbi.1002624-Dethlefsen2"></a>Dethlefsen L, Huse S, Sogin ML, Relman DA (2008) The Pervasive Effects of an Antibiotic on the Human Gut Microbiota, as Revealed by Deep 16S rRNA Sequencing. PLoS Genet 6: e280. <a class="find" href="/article/findArticle.action?citedArticleID=5328017">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Weaver1" id="pcbi.1002624-Weaver1"></a>Weaver W, Shannon C (1963) The Mathematical Theory of Communication. Illinois: University of Illinois Press. 144. <a class="find" href="/article/findArticle.action?citedArticleID=5328019">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Hamady2" id="pcbi.1002624-Hamady2"></a>Hamady M, Lozupone C, Knight R (2010) Fast UniFrac: facilitating high-throughput phylogenetic analyses of microbial communities including analysis of pyrosequencing and PhyloChip data. ISME J 4: 17–27. <a class="find" href="/article/findArticle.action?citedArticleID=5328021">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Bray1" id="pcbi.1002624-Bray1"></a>Bray J, Curtis J (1957) An ordination of upland forest communities of southern Wisconsin. Ecol Monogr 27: 325–349. <a class="find" href="/article/findArticle.action?citedArticleID=5328023">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Magurran1" id="pcbi.1002624-Magurran1"></a>Magurran A (2004) Measuring Biological Diversity. New Jersey: Wiley-Blackwell. 256. <a class="find" href="/article/findArticle.action?citedArticleID=5328025">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-BarJoseph1" id="pcbi.1002624-BarJoseph1"></a>Bar-Joseph Z, Gerber G, Jaakkola TS, Gifford DK, Simon I (2003) Continuous Representations of Time Series Gene Expression Data. J Comput Biol 3–4: 341–356. <a class="find" href="/article/findArticle.action?citedArticleID=5328027">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-BarJoseph2" id="pcbi.1002624-BarJoseph2"></a>Bar-Joseph Z, Gerber G, Simon I, Gifford DK, Jaakkola TS (2003) Comparing the continuous representation of time-series expression profiles to identify differentially expressed genes. Proc Natl Acad Sci U S A 100: 10146–10151. <a class="find" href="/article/findArticle.action?citedArticleID=5328029">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Ma1" id="pcbi.1002624-Ma1"></a>Ma P, Zhong W, Feng Y, Liu JS (2008) Bayesian functional data clustering for temporal microarray data. Int J Plant Genomics 2008: 231897. <a class="find" href="/article/findArticle.action?citedArticleID=5328031">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Ma2" id="pcbi.1002624-Ma2"></a>Ma P, Castillo-Davis C, Zhong W, JS  (2006) A data-driven clustering method for time course gene expression data. Nucleic Acids Res 34: 1261–1269. <a class="find" href="/article/findArticle.action?citedArticleID=5328033">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Gerber1" id="pcbi.1002624-Gerber1"></a>Gerber GK, Dowell RD, Jaakkola TS, Gifford DK (2007) Automated discovery of functional generality of human gene expression programs. PLoS Comput Biol 3: e148. <a class="find" href="/article/findArticle.action?citedArticleID=5328035">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Medvedovic1" id="pcbi.1002624-Medvedovic1"></a>Medvedovic M, Sivaganesan S (2002) Bayesian infinite mixture model based clustering of gene expression profiles. Bioinformatics 18: 1194–1206. <a class="find" href="/article/findArticle.action?citedArticleID=5328037">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Singh1" id="pcbi.1002624-Singh1"></a>Singh R, Palmer N, Gifford D, Berger B, Bar-Joseph Z (2005) Active learning for sampling in time-series experiments with application to gene expression analysis. In: ICML '05 Proceedings of the 22nd international conference on Machine learning. De Raedt L, Wrobels S, editors. New York: ACM. 832–839. <a class="find" href="/article/findArticle.action?citedArticleID=5328039">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Hilbe1" id="pcbi.1002624-Hilbe1"></a>Hilbe J (2011) Negative Binomial Regression. 2nd ed. Cambridge: Cambridge University Press. 576. <a class="find" href="/article/findArticle.action?citedArticleID=5328041">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-OHara1" id="pcbi.1002624-OHara1"></a>O'Hara R, Kotze D (2010) Do not log-transform count data. Methods Ecol Evol 1: 118–122. <a class="find" href="/article/findArticle.action?citedArticleID=5328043">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Bolker1" id="pcbi.1002624-Bolker1"></a>Bolker BM, Brooks ME, Clark CJ, Geange SW, Poulsen JR, et al. (2009) Generalized linear mixed models: a practical guide for ecology and evolution. Trends Ecol Evol (Amst.) 24: 127–135. <a class="find" href="/article/findArticle.action?citedArticleID=5328045">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Anders1" id="pcbi.1002624-Anders1"></a>Anders S, Huber W (2010) Differential expression analysis for sequence count data. Genome Biol 11: R106. <a class="find" href="/article/findArticle.action?citedArticleID=5328047">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Robinson1" id="pcbi.1002624-Robinson1"></a>Robinson MD, McCarthy DJ, Smyth GK (2010) edgeR: a Bioconductor package for differential expression analysis of digital gene expression data. Bioinformatics 26: 139–140. <a class="find" href="/article/findArticle.action?citedArticleID=5328049">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Di1" id="pcbi.1002624-Di1"></a>Di Y, Schafer DW, Cumbie JS, Chang JH (2011) The NBP Negative Binomial Model for Assessing Differential Gene Expression from RNA-Seq. Stat Appl Genet Mol Biol 10: 24. <a class="find" href="/article/findArticle.action?citedArticleID=5328051">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Holmes1" id="pcbi.1002624-Holmes1"></a>Holmes I, Harris K, Quince C (2012) Dirichlet Multinomial Mixtures: Generative Models for Microbial Metagenomics. PLoS ONE 7: e30126. <a class="find" href="/article/findArticle.action?citedArticleID=5328053">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Croswell1" id="pcbi.1002624-Croswell1"></a>Croswell A, Amir E, Teggatz P, Barman M, Salzman NH (2009) Prolonged impact of antibiotics on intestinal microbial ecology and susceptibility to enteric Salmonella infection. Infect Immun 77: 2741–2753. <a class="find" href="/article/findArticle.action?citedArticleID=5328055">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Russell1" id="pcbi.1002624-Russell1"></a>Russell SL, Gold MJ, Hartmann M, Willing BP, Thorson L, et al. (2012) Early life antibiotic-driven changes in microbiota enhance susceptibility to allergic asthma. EMBO Rep. 1–8. <a class="find" href="/article/findArticle.action?citedArticleID=5328057">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Lange1" id="pcbi.1002624-Lange1"></a>Lange NE, Celedón JC, Forno E, Ly NP, Onderdonk A, et al. (2011) Maternal intestinal flora and wheeze in early childhood. Clin Exp Allergy 42: 901–908. <a class="find" href="/article/findArticle.action?citedArticleID=5328059">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Cani1" id="pcbi.1002624-Cani1"></a>Cani P, Bibiloni R, Knauf C, Waget A, Neyrinck A, et al. (2008) Changes in Gut Microbiota Control Metabolic Endotoxemia-Induced Inflammation in High-Fat Diet-Induced Obesity and Diabetes in Mice. Diabetes 57: 1470–1481. <a class="find" href="/article/findArticle.action?citedArticleID=5328061">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Chin1" id="pcbi.1002624-Chin1"></a>Chin N, Neu H (1984) Ciprofloxacin, a quinolone carboxylic acid compound active against aerobic and anaerobic bacteria. Antimicrob Agents Chemother 25: 319–326. <a class="find" href="/article/findArticle.action?citedArticleID=5328063">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Goldstein1" id="pcbi.1002624-Goldstein1"></a>Goldstein E, Citron D (1992) Comparative activity of ciprofloxacin, ofloxacin, sparfloxacin, temafloxacin, CI-960, CI-990, and WIN 57273 against anaerobic bacteria. Antimicrob Agents Chemother 36: 1158–1162. <a class="find" href="/article/findArticle.action?citedArticleID=5328065">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Baurenfeind1" id="pcbi.1002624-Baurenfeind1"></a>Baurenfeind A (1997) Comparison of the antibacterial activities of the quinolones BAY 12-8039, gatifloxacin (AM 1155), trovafloxacin, clinafloxacin, levofloxacin and ciprofloxacin. Antimicrob Agents Chemother 40: 639–651. <a class="find" href="/article/findArticle.action?citedArticleID=5328067">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Lewin1" id="pcbi.1002624-Lewin1"></a>Lewin C, Morrissey I, Smith J (1991) The mode of action of quinolones: The paradox in activity of low and high concentrations and activity in the anaerobic environment. Eur J ClinMicrobiol Infect Dis 10: 240–248. <a class="find" href="/article/findArticle.action?citedArticleID=5328069">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Ricci1" id="pcbi.1002624-Ricci1"></a>Ricci V, Piddock L (2003) Accumulation of garenoxacin by Bacteroidesfragilis compared with that of five fluoroquinolones. J Antimicrob Chemother 52: 605–609. <a class="find" href="/article/findArticle.action?citedArticleID=5328071">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Pruesse1" id="pcbi.1002624-Pruesse1"></a>Pruesse E, Quast C, Knittel K, Fuchs BM, Ludwig W, et al. (2007) SILVA: a comprehensive online resource for quality checked and aligned ribosomal RNA sequence data compatible with ARB. Nucleic Acids Res 35: 7188–7196. <a class="find" href="/article/findArticle.action?citedArticleID=5328073">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Edgar1" id="pcbi.1002624-Edgar1"></a>Edgar RC (2010) Search and clustering orders of magnitude faster than BLAST. Bioinformatics 26: 2460–2461. <a class="find" href="/article/findArticle.action?citedArticleID=5328075">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Rasmussen1" id="pcbi.1002624-Rasmussen1"></a>Rasmussen C (2000) The Infinite Gaussian Mixture Model. In: Advances in Neural Information Processing Systems 13. Leen TK, Dietterich G, Tresp V, editors. Cambridge: The MIT Press. 554–560. </li><li xpathLocation="noSelect"><a name="pcbi.1002624-Gelman1" id="pcbi.1002624-Gelman1"></a>Gelman A, Carlin J, Stern H, Rubin D (2004) Bayesian Data Analysis. Florida: Chapman &amp; Hall/CRC. 696. <a class="find" href="/article/findArticle.action?citedArticleID=5328079">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Benjamini1" id="pcbi.1002624-Benjamini1"></a>Benjamini Y, Hochberg Y (1995) Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing. J R Stat Soc Series B Stat Methodol 57: 289–300. <a class="find" href="/article/findArticle.action?citedArticleID=5328081">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Chaloner1" id="pcbi.1002624-Chaloner1"></a>Chaloner K, Verdinelli I (1995) Bayesian Experimental Design: A Review. Stat Sci 3: 273–304. <a class="find" href="/article/findArticle.action?citedArticleID=5328083">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Sebastiani1" id="pcbi.1002624-Sebastiani1"></a>Sebastiani P, Wynn HP (1997) Bayesian Experimental Design and Shannon Information . In: Proceedings of the Section on Bayesian Statistical Science Vol. 44. Alexandria: American Statistical Association 176–181. <a class="find" href="/article/findArticle.action?citedArticleID=5328085">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Lindley1" id="pcbi.1002624-Lindley1"></a>Lindley D (1956) On a measure of the information provided by an experiment. Ann Math Statist 27: 986–1005. <a class="find" href="/article/findArticle.action?citedArticleID=5328087">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Atkinson1" id="pcbi.1002624-Atkinson1"></a>Atkinson A, Chaloner K, Herzberg A, Juritz J (1993) Optimum experimental designs for properties of a compartmental model. Biometrics 49: 325–337. <a class="find" href="/article/findArticle.action?citedArticleID=5328089">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Ror1" id="pcbi.1002624-Ror1"></a>Ror HAD, Teinberg DMS (2008) Sequential Experimental Designs for Generalized Linear Models. J Am Stat Assoc 103: 288–298. <a class="find" href="/article/findArticle.action?citedArticleID=5328091">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Wexler1" id="pcbi.1002624-Wexler1"></a>Wexler HM (2007) Bacteroides: the good, the bad, and the nitty-gritty. Clin Microbiol Rev 20: 593–621. <a class="find" href="/article/findArticle.action?citedArticleID=5328093">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Rasmussen2" id="pcbi.1002624-Rasmussen2"></a>Rasmussen B, Bush K, Tally F (1993) Antimicrobial resistance in Bacteroides. Clin Infect Dis 16 Suppl 4: S390–S400. <a class="find" href="/article/findArticle.action?citedArticleID=5328095">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Salyers1" id="pcbi.1002624-Salyers1"></a>Salyers A, Gupta A, Wang Y (2004) Human intestinal bacteria as reservoirs for antibiotic resistance genes. Trends Microbiol 12: 412–416. <a class="find" href="/article/findArticle.action?citedArticleID=5328097">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Lfmark1" id="pcbi.1002624-Lfmark1"></a>Löfmark S, Jernberg C, Jansson JK, Edlund C (2006) Clindamycin-induced enrichment and long-term persistence of resistant Bacteroides spp. and resistance genes. J Antimicrob Chemother 58: 1160–1167. <a class="find" href="/article/findArticle.action?citedArticleID=5328099">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Rey1" id="pcbi.1002624-Rey1"></a>Rey FE, Faith JJ, Bain J, Muehlbauer MJ, Stevens RD, et al. (2010) Dissecting the in vivo metabolic potential of two human gut acetogens. J Biol Chem 285: 22082–22090. <a class="find" href="/article/findArticle.action?citedArticleID=5328101">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Louis1" id="pcbi.1002624-Louis1"></a>Louis P, Flint HJ (2009) Diversity, metabolism and microbial ecology of butyrate-producing bacteria from the human large intestine. FEMS Microbiol Lett 294: 1–8. <a class="find" href="/article/findArticle.action?citedArticleID=5328103">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Duncan1" id="pcbi.1002624-Duncan1"></a>Duncan S, Barcenilla A, Stewart C, Pryde S, Flint H (2002) Acetate utilization and butyryl coenzyme A (CoA): acetate-CoA transferase in butyrate-producing bacteria from the human large intestine. Appl Environ Microbiol 68: 5186–5190. <a class="find" href="/article/findArticle.action?citedArticleID=5328105">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Donohoe1" id="pcbi.1002624-Donohoe1"></a>Donohoe DR, Garge N, Zhang X, Sun W, O'Connell TM, et al. (2011) The microbiome and butyrate regulate energy metabolism and autophagy in the mammalian colon. Cell Metab 13: 517–526. <a class="find" href="/article/findArticle.action?citedArticleID=5328107">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Abell1" id="pcbi.1002624-Abell1"></a>Abell GCJ, Cooke CM, Bennett CN, Conlon MA, McOrist AL (2008) Phylotypes related to Ruminococcusbromii are abundant in the large bowel of humans and increase in response to a diet high in resistant starch. FEMS Microbiol Ecol 66: 505–515. <a class="find" href="/article/findArticle.action?citedArticleID=5328109">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Nava1" id="pcbi.1002624-Nava1"></a>Nava GM, Stappenbeck TS (2011) Diversity of the autochthonous colonic microbiota. Gut Microbes 2: 99–104. <a class="find" href="/article/findArticle.action?citedArticleID=5328111">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Kelly1" id="pcbi.1002624-Kelly1"></a>Kelly C, LaMont J (2008) Clostridium difficile — More Difficult Than Ever. N Engl J Med 359: 1932–1940. <a class="find" href="/article/findArticle.action?citedArticleID=5328113">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Morgan1" id="pcbi.1002624-Morgan1"></a>Morgan JL, Darling AE, Eisen JA (2010) Metagenomic sequencing of an in vitro-simulated microbial community. PloS One 5: e10209. <a class="find" href="/article/findArticle.action?citedArticleID=5328115">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Sommer1" id="pcbi.1002624-Sommer1"></a>Sommer MOA, Dantas G, Church GM (2009) Functional characterization of the antibiotic resistance reservoir in the human microflora. Science 325: 1128–1131. <a class="find" href="/article/findArticle.action?citedArticleID=5328117">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Park1" id="pcbi.1002624-Park1"></a>Park T, Casella G (2008) The Bayesian Lasso. J Am Stat Assoc 103: 681–686. <a class="find" href="/article/findArticle.action?citedArticleID=5328119">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Fox1" id="pcbi.1002624-Fox1"></a>Fox E, Sudderth E, Jordan M, Willsky A (2011) Bayesian Nonparametric Inference of Switching Dynamic Linear Models. IEEE Trans Signal Process 59: 1569–1585. <a class="find" href="/article/findArticle.action?citedArticleID=5328121">
+                      Find this article online
+                    </a></li><li xpathLocation="noSelect"><a name="pcbi.1002624-Uhlenbeck1" id="pcbi.1002624-Uhlenbeck1"></a>Uhlenbeck G, Ornstein L (1930) On the theory of Brownian Motion. Phys Rev 36: 823–841. <a class="find" href="/article/findArticle.action?citedArticleID=5328123">
+                      Find this article online
+                    </a></li></ol></div>
+
+</div></div>
+<div style="display:none">
+<div dojoType="ambra.widget.RegionalDialog" id="AnnotationDialog" style="padding:0;margin:0;">
+  <div class="dialog annotate">
+    <div class="tipu" id="dTipu"></div>
+    <div class="comment">
+      <h5><span>Post Your Note (For Public Viewing)</span></h5>
+      <div class="posting pane">
+        <form name="createAnnotation" id="createAnnotation" method="post" action="">
+          <input type="hidden" name="target" value="info:doi/10.1371/journal.pcbi.1002624" />
+          <input type="hidden" name="startPath" value="" />
+          <input type="hidden" name="startOffset" value="" />
+          <input type="hidden" name="endPath" value="" />
+          <input type="hidden" name="endOffset" value="" />
+          <input type="hidden" name="commentTitle" id="commentTitle" value="" />
+          <input type="hidden" name="comment" id="commentArea" value="" />
+          <input type="hidden" name="ciStatement" id="statementArea" value="" />
+          <input type="hidden" name="isCompetingInterest" id="isCompetingInterest" value="false" />
+          <input type="hidden" name="noteType" id="noteType" value="" />
+          <fieldset>
+            <legend>Compose Your Note</legend>
+            <span id="submitMsg" class="error" style="display:none;"></span>
+            <table class="layout">
+              <tr>
+                <td>
+                  <label for="cNoteType">This is a </label><select name="cNoteType" id="cNoteType"><option value="note">note</option><option value="correction">correction</option></select>
+                  <span id="cdls" style="visibility:hidden;margin-left:0.3em; white-space:nowrap;"><a href="/static/commentGuidelines.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F?target=info%3Adoi%2F10.1371%2Fjournal.pcbi.1002624#corrections">What are corrections?</a></span>
+                  <label for="cTitle"><span class="none">Enter your note title</span><!-- error message text <em>A title is required for all public notes</em>--></label>
+                  <input type="text" name="cTitle" id="cTitle" value="Enter your note title..." class="title" alt="Enter your note title..." />
+                  <label for="cArea"><span class="none">Enter your note</span><!-- error message text <em>Please enter your note</em>--></label>
+                  <textarea name="cArea" id="cArea" value="Enter your note..." alt="Enter your note...">Enter your note...</textarea>
+                  <input type="hidden" name="isPublic" value="true" />
+                </td>
+                <td>&nbsp;</td>
+                <td class="coi">
+                  <fieldset>
+                    <legend>Declare any competing interests.</legend>
+                    <ul>
+                      <li><label><input id="isCompetingInterestNo" type="radio" checked="checked" name="competingInterest" value="false"  /> No, I don't have any competing interests to declare.</label></li>
+                      <li><label><input id="isCompetingInterestYes" type="radio" name="competingInterest" value="true"  /> Yes, I have competing interests to declare (enter below):</label></li>
+                    </ul>
+                    <textarea name="ciStatementArea" id="ciStatementArea" disabled value="Enter your competing interests..." alt="Enter your competing interests...">Enter your competing interests...</textarea>
+                  </fieldset>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3" class="buttons">
+                  <input type="button" value="Cancel" title="Click to close and cancel" id="btn_cancel"/>
+                  <input type="button" value="Submit" title="Click to post your note publicly" id="btn_post" class="primary"/>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <p>Notes and Corrections can include the following markup tags:</p>
+                  <p><strong>Emphasis:</strong> ''<em>italic</em>''&nbsp;&nbsp;'''<strong>bold</strong>'''&nbsp;&nbsp;'''''<strong><em>bold italic</em></strong>'''''</p>
+                  <p><strong>Other:</strong> ^^<sup>superscript</sup>^^&nbsp;&nbsp;~~<sub>subscript</sub>~~</p>
+                </td>
+              </tr>
+            </table>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <div class="tip" id="dTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialog" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="caTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      Please follow our <a href="/static/commentGuidelines.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F">guidelines for notes and comments</a> and review our <a href="/static/competing.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F">competing interests policy</a>. Comments that do not conform to our guidelines will be promptly removed and the user account disabled. The following must be avoided:
+      <ul>
+        <li>Remarks that could be interpreted as allegations of misconduct</li>
+        <li>Unsupported assertions or statements</li>
+        <li>Inflammatory or insulting language</li>
+      </ul>
+      <form name="contextActionForm" id="contextActionForm" class="clearfix buttons" method="post" action="">
+        <input type="button" name="Continue" value="Continue" id="ContextActionDialogContinueButton" onmouseup="ambra.displayAnnotationContext.startComment(event);" title="Add a note to this text" class="primary"/>
+        <input type="button" name="Cancel" value="Cancel" id="ContextActionDialogCancelButton" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);" title="Close this Window"/>
+      </form>
+    </div>
+    <div class="tip" id="caTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogNotLogged" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canlTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You must be logged in to add a note to an article.
+      You may log in by <a onmousedown="ambra.displayAnnotationContext.disconnect(event);" href="/user/secure/secureRedirect.action?goTo=%2Farticle%2FfetchArticle.action%3FarticleURI%3Dinfo%253Adoi%252F10.1371%252Fjournal.pcbi.1002624">clicking here</a> or <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">cancel this note</a>.
+    </div>
+    <div class="tip" id="canlTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogBadSelection" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canBDTipu"></div>
+    <div class="contextActionContent">
+      <h5 class="annotation icon"><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You cannot annotate this area of the document. <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">Close</a>
+    </div>
+    <div class="tip" id="canBDTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.ContextAction" id="ContextActionDialogBadRangeSelection" class="contextActionDialog">
+  <div class="dialog context">
+    <div class="tipu" id="canbrTipu"></div>
+    <div class="contextActionContent">
+      <h5><img src="/images/tooltip_addannotation.gif" /> Add a note to this text.</h5>
+      You cannot create an annotation that spans different sections of the document; please adjust your selection.<br/>
+      <a href="#" onclick="return false;" onmouseup="ambra.displayAnnotationContext.cancelContext(event);">Close</a>
+    </div>
+    <div class="tip" id="canbrTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.RegionalDialog" id="CommentDialog" style="padding:0;margin:0;">
+  <div class="dialog preview">
+    <div class="tipu" id="cTipu"></div>
+    <div class="btn close" id="btn_close" title="Click to close"><a title="Click to close">Close</a></div>
+    <div id="cmtContainer" class="comment">
+      <h6 id="viewCmtTitle"></h6>
+      <div class="detail" id="viewCmtDetail"></div>
+      <div class="contentwrap" id="viewComment"></div>
+      <div class="contentwrap" id="viewCIStatement"></div>
+      <div class="detail" id="viewLink">
+        <!--<a href="#" class="commentary icon" title="Click to view full thread and respond">View all responses</a>
+        <a href="#" class="respond tooltip" title="Click to respond to this posting">Respond to this</a>-->
+      </div>
+    </div>
+    <div class="tip" id="cTip"></div>
+  </div>
+</div>
+<div dojoType="ambra.widget.RegionalDialog" id="CommentDialogMultiple" style="padding:0;margin:0;">
+  <div class="dialog multiple preview">
+    <div class="tipu" id="mTipu"></div>
+    <div class="btn close" id="btn_close_multi" title="Click to close"><a title="Click to close">Close</a></div>
+    <ol id="multilist"></ol>
+    <br/>
+    <div id="multidetail"></div>
+    <div class="tip" id="mTip"></div>
+  </div>
+</div>
+
+
+<div dojoType="dijit.Dialog" id="Rating">
+  <div class="dialog annotate">
+    <div class="tipu" id="dTipu"></div>
+    <div class="comment">
+      <h5><span>Rate This Article</span></h5>
+      <div class="instructions">Please follow our <a  href="/static/ratingGuidelines.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F">guidelines for rating</a> and review our <a href="/static/competing.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F">competing interests policy</a>. Comments that do not conform to our guidelines will be promptly removed and the user account disabled. The following must be avoided:
+        <ol>
+          <li>Remarks that could be interpreted as allegations of misconduct</li>
+          <li>Unsupported assertions or statements</li>
+          <li>Inflammatory or insulting language</li>
+        </ol>
+      </div>
+      <div class="posting pane">
+        <form name="ratingForm" id="ratingForm" method="post" action="">
+          <input type="hidden" name="articleURI" value="info:doi/10.1371/journal.pcbi.1002624" />  
+          <input type="hidden" name="commentTitle" id="commentTitle" value="" />
+          <input type="hidden" name="comment" id="commentArea" value="" />
+          <input type="hidden" name="ciStatement" id="statementArea" value="" />
+          <input type="hidden" name="isCompetingInterest" id="isCompetingInterest" value="" />
+          <fieldset>
+            <legend>Compose Your Annotation</legend>
+            <span id="submitRatingMsg" class="error" style="display:none;"></span>
+            <table class="layout">
+              <tr>
+                <td rowspan="2">
+                  <label for="insight">Insight</label>
+                  <ul class="star-rating rating edit" title="Rate insight" id="rateInsight">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Bland" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'insight', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Profound" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'insight', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="insight" title="insight" value="" />
+                  <label for="reliability">Reliability</label>
+                  <ul class="star-rating rating edit" title="Rate reliability" id="rateReliability">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Tenuous" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'reliability', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Unassailable" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'reliability', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="reliability" title="reliability" value="" />
+                  <label for="style">Style</label>
+                  <ul class="star-rating rating edit" title="Rate style" id="rateStyle">
+                    <li class="current-rating pct0"></li>
+                    <li><a href="javascript:void(0);" title="Crude" class="one-star" onclick="ambra.rating.setRatingCategory(this, 'style', 1);">1</a></li>
+                    <li><a href="javascript:void(0);" title="" class="two-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 2);">2</a></li>
+                    <li><a href="javascript:void(0);" title="" class="three-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 3);">3</a></li>
+                    <li><a href="javascript:void(0);" title="" class="four-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 4);">4</a></li>
+                    <li><a href="javascript:void(0);" title="Elegant" class="five-stars" onclick="ambra.rating.setRatingCategory(this, 'style', 5);">5</a></li>
+                  </ul>    
+                  <input type="hidden" name="style" title="style" value="" />
+                  <label for="cTitle"><span class="none">Enter your comment title</span><!-- error message text <em>A title is required for all public annotations</em>--></label>
+                  <input type="text" name="cTitle" id="cTitle" value="Enter your comment title..." class="title" alt="Enter your comment title..." />
+                  <label for="cArea"><span class="none">Enter your comment</span><!-- error message text <em>Please enter your annotation</em>--></label>
+                  <textarea name="cArea" id="cArea" value="Enter your comment..." alt="Enter your comment...">Enter your comment...</textarea>
+                </td>
+                <td rowspan="2">&nbsp;</td>
+                <td class="coi">
+                  <fieldset>
+                    <legend>Declare any competing interests.</legend>
+                    <ul>
+                      <li><label><input id="isCompetingInterestNo" type="radio" name="competingInterest" value="false"  /> No, I don't have any competing interests to declare.</label></li>
+                      <li><label><input id="isCompetingInterestYes" type="radio" name="competingInterest" value="true"  /> Yes, I have competing interests to declare (enter below):</label></li>
+                    </ul>
+                    <textarea name="ciStatementArea" id="ciStatementArea" disabled value="Enter your competing interests..." title="Enter your competing interests...">Enter your competing interests...</textarea>
+                  </fieldset>
+                </td>
+              </tr>
+              <tr>
+                <td class="buttons">
+                  <input type="button" value="Cancel" title="Click to close and cancel" id="btn_cancel_rating"/>
+                  <input type="button" value="Submit" title="Click to post your annotation publicly" id="btn_post_rating" class="primary"/>
+                </td>
+              </tr>
+              <tr>
+                  <td colspan="3"><p>Ratings can include the following markup tags:</p>
+                  <p><strong>Emphasis:</strong> ''<em>italic</em>''&nbsp;&nbsp;'''<strong>bold</strong>'''&nbsp;&nbsp;'''''<strong><em>bold italic</em></strong>'''''</p>
+                  <p><strong>Other:</strong> ^^<sup>superscript</sup>^^&nbsp;&nbsp;~~<sub>subscript</sub>~~</p></td>
+              </tr>
+            </table>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div dojoType="ambra.widget.LoadingCycle" id="LoadingCycle" class="loadingCycler">
+  <img src="/images/loading.gif" width="58" height="58" title="Loading..." />
+</div>
+<div dojoType="dijit.Dialog" id="LightBox">
+
+    <!-- start main window wrapper-->
+    <div class="figure-window-wrapper">
+
+      <!--start film strip Wrapper-->
+      <div class="figure-window-nav-wrapper">
+        <div id="figure-window-nav"></div>
+      </div><!--end figure-window-nav-wrapper-->
+
+      <!-- start figure container-->
+      <div class="figure-window-container">
+
+        <!-- start/end figure viewer-->
+        <div id="figure-window-viewer">
+          <img id="figure-window-img" class="large"/>
+        </div>
+
+        <!-- start/end figure doi-->
+        <div id="figure-window-doi"></div>
+
+        <!--start figure title-box-->
+        <div id="figure-window-title-box" class="figure-window-title-less">
+          <span id="figure-window-title"></span>
+          <div id="figure-window-more" class="figure-window-more" onclick="return ambra.lightBox.showMoreOrLess();"></div>
+          <div id="figure-window-description"></div>
+        </div><!--end figure title-box-->
+
+        <!--start figure download-->
+        <div class="figure-window-download">
+          <ul>
+            <li class="download icon"><strong>Download:</strong>
+              <a id="figure-window-ppt" title="Click to download PowerPoint slide of this image">PowerPoint
+                slide</a> |
+              <a id="figure-window-large" title="Click to download a larger version of this image">larger image
+                (<span id="figure-window-large-size"></span>)</a> |
+              <a id="figure-window-tiff" title="Click to download a original version of this image">original image
+                (<span id="figure-window-tiff-size"></span>)</a>
+            </li>
+          </ul>
+        </div><!--end figure download-->
+
+        <!--start/end of close, context, next and previous button-->
+        <div class="figure-window-close" onclick="return ambra.lightBox.hide();"></div>
+        <div class="figure-window-context" onclick="return ambra.lightBox.showInContext();"></div>
+        <div id="figure-window-previous" onclick="return ambra.lightBox.showPrevious();"></div>
+        <div id="figure-window-next" onclick="return ambra.lightBox.showNext();"></div>
+
+      </div><!--end figure-window-container-->
+
+    </div><!--end figure-window-wrapper-->
+
+</div><!--end dijit.Dialog-->
+</div>
+</div>
+<!-- end : main contents -->
+
+</div>
+<!-- end : container -->	
+
+<!-- begin : footer -->
+<div id="ftr">
+  <p><span>All site content, except where otherwise noted, is licensed under a <a href="http://creativecommons.org/licenses/by/2.5/" title="Creative Commons Attribution License 2.5" tabindex="200">Creative Commons Attribution License</a>.</span></p>
+  <ul>
+    <li><a href="/static/privacy.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F" title="PLOS Privacy Statement" tabindex="501">Privacy Statement</a></li>
+    <li><a href="/static/terms.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F" title="PLOS Terms of Use" tabindex="502">Terms of Use</a></li>
+    <li><a href="http://www.plos.org/advertise/" title="Advertise With PLOS" tabindex="503">Advertise</a></li>
+    <li><a href="http://www.plos.org/about/media-inquiries/" title="PLOS Embargo Policy" tabindex="504">Media Inquiries</a></li>
+    <li><a href="http://www.plos.org/publish/order-reprints/" title="PLOS in Print" tabindex="505">PLOS in Print</a></li>
+    <li><a href="/static/sitemap.action;jsessionid=10B3F584BF488C3BC70268A3ECAE261F" title="Site Map" tabindex="506">Site Map</a></li>
+    <li><a href="http://www.plos.org" title="PLOS.org" tabindex="507">PLOS.org</a></li>
+  </ul>
+  <div class="powered">
+  <ul>
+    <li><a href="/static/releaseNotes.action" title="Ambra | Release Notes">Ambra 2.4.9</a></li>
+    <li>Managed Colocation provided by <a href="http://www.isc.org/" title="Internet Systems Consortium">Internet Systems Consortium</a>.</li>
+  </ul>
+  </div>
+</div>
+<!-- end : footer -->
+<script type="text/javascript">
+  var _namespace="";
+    var loggedIn = false;
+
+  var almHost = "http://alm.plos.org";
+  var solrHost = "http://api.plos.org/search";
+  var pubGetHost = "http://pubget.com/widgetizer/links_hash";
+  var appContext = "";
+
+  // Safari v3.1.1 "console.debug" issue (http://trac.dojotoolkit.org/ticket/6849) workaround
+  if (/3[\.0-9]+ Safari/.test(navigator.appVersion)) {
+    window.console = {
+      origConsole: window.console,
+      log: function(s){ this.origConsole.log(s); },
+      info: function(s){ this.origConsole.info(s); },
+      error: function(s){ this.origConsole.error(s); },
+      warn: function(s){ this.origConsole.warn(s); }
+    };
+  }
+
+  var djConfig = {
+    // don't debug for IE - as dojo's firebug lite module is error prone in IE
+    isDebug: false,
+    parseOnLoad: true
+  };
+
+  var bamGAID = 'UA-338393-1';
+  var bamGAVPV = location.pathname + location.search + location.hash;
+</script>
+<script type="text/javascript" src="/javascript/dojo/dojo/dojo.js?v=pzlwVCPPo+oJC12upPgJrJ5EG_k"></script>
+<script type="text/javascript" src="/javascript/dojo/dojo/ambra.js?v=Y8JM0CVD9YwjC99M_jvbcRTiGhY"></script>
+<script type="text/javascript" src="/javascript/init_global.js?v=fF03pfG3r+Nkj_czZ8ORg8o5sNM"></script>
+<script type="text/javascript" src="/javascript/init_article.js?v=qzBD_a7nKbeMM2xNUtB3vckN+Zc"></script>
+<script type="text/javascript" src="/javascript/init_ratings.js?v=seKykuS0X33CQGS7Lj+8FtBy5Uw"></script>
+<script type="text/javascript" src="/javascript/init_lightBox.js?v=vJRLPy7RRX8Zp31Ogcm3i+TA4f8"></script>
+<script type="text/javascript" src="/javascript/init_article_body.js?v=YgFei2xCi50CahwaPbSsxUxUsmw"></script>
+<script type="text/javascript" src="/javascript/init_article_rhc.js?v=djtbTMOagorKE6ZPrkCwufAfWWI"></script>
+<script type="text/javascript" src="/javascript/alm.js?v=1tH9JZ8uDtXspXssGJDr8O+jBOs"></script>
+<script type="text/javascript" src="/javascript/reporting/articleViewsCumulative.js?v=RQ+gCrcAl0dBeLbmokxgQZTGYYA"></script>
+<script type="text/javascript" src="/javascript/check_twitter.js?v=Hc0sH1W9xIu0qhqxWPD4c1u50K4"></script>
+<script type="text/javascript" src="/javascript/init_googleAnalytics.js?v=yCD4h9PHGI0dsefmuWDlMn7pHog"></script>
+
+</body>
+</html>
+

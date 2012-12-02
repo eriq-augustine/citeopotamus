@@ -1,0 +1,4 @@
+PROFASI: A Monte Carlo simulation package for protein folding and aggregation.
+Irbäck A, Mohanty S
+Abstract:
+None

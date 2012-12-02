@@ -1,0 +1,6 @@
+TITLE: MAP kinase pathways: the first twenty years.
+AUTHORS: Avruch J
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The MAP kinases, discovered approximately 20 years ago, together with their immediate upstream regulators, are among the most highly studied signal transduction molecules. This body of work has shaped many aspects of our present views of signal transduction by protein kinases. The effort expended in this area reflects the extensive participation of these regulatory modules in the control of cell fate decisions, i.e., proliferation, differentiation and death, across all eukaryotic phylla and in all tissues of metazoans. The discovery of these kinases is reviewed, followed by a discussion of some of the features of this signaling module that account for its broad impact on cell function and its enormous interest to many investigators.

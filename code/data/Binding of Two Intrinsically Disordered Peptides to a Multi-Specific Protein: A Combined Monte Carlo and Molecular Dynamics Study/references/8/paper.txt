@@ -1,0 +1,4 @@
+What properties characterize the hub proteins of the protein-protein interaction network of Saccharomyces cerevisiae?
+Ekman D, Light S, Björklund AK, Elofsson A
+Abstract:
+None

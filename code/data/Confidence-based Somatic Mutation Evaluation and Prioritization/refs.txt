@@ -1,0 +1,31 @@
+REFERENCES
+[1]	Nothnagel M, Herrmann A, Wolf A, Schreiber S, Platzer M, et al. (2011) Technology-specific error signatures in the 1000 Genomes Project data. Hum Genet 130: 505–516. doi: 10.1007/s00439-011-0971-3. 
+[2]	Yoshida K, Sanada M, Shiraishi Y, Nowak D, Nagata Y, et al. (2010) Frequent pathway mutations of splicing machinery in myelodysplasia. Nature 478: 64–69. doi: 10.1038/nature10496. 
+[3]	Hansen KD, Brenner SE, Dudoit S (2010) Biases in Illumina transcriptome sequencing caused by random hexamer priming. Nucleic Acids Res 38: e131. doi: 10.1093/nar/gkq224. 
+[4]	Taub MA, Corrada Bravo H, Irizarry RA (2010) Overcoming bias and systematic errors in next generation sequencing data. Genome Med 2: 87. doi: 10.1186/gm208. 
+[5]	Bainbridge MN, Wang M, Burgess DL, Kovar C, Rodesch MJ, et al. (2010) Whole exome capture in solution with 3 Gbp of data. Genome Biol 11: R62. doi: 10.1186/gb-2010-11-6-r62. 
+[6]	Nakamura K, Oshima T, Morimoto T, Ikeda S, Yoshikawa H, et al. (2011) Sequence-specific error profile of Illumina sequencers. Nucleic Acids Res 39: e90. doi: 10.1093/nar/gkr344. 
+[7]	Kircher M, Stenzel U, Kelso J (2009) Improved base calling for the Illumina Genome Analyzer using machine learning strategies. Genome Biol 10: R83. doi: 10.1186/gb-2009-10-8-r83. 
+[8]	Lassmann T, Hayashizaki Y, Daub CO (2011) SAMStat: monitoring biases in next generation sequencing data. Bioinformatics 27: 130–131. doi: 10.1093/bioinformatics/btq614. 
+[9]	Li H (2011) Improving SNP discovery by base alignment quality. Bioinformatics 27: 1157–1158. doi: 10.1093/bioinformatics/btr076. 
+[10]	Zhang Z, Gerstein M (2003) Patterns of nucleotide substitution, insertion and deletion in the human genome inferred from pseudogenes,. Nucleic Acids Res 31: 5338–5348. doi: 10.1093/nar/gkg745. 
+[11]	DePristo MA, Banks E, Poplin R, Garimella KV, Maguire JR, et al. (2011) A framework for variation discovery and genotyping using next-generation DNA sequencing data. Nat Genet 43: 491–498. doi: 10.1038/ng.806. 
+[12]	Ewen KR, Bahlo M, Treloar SA, Levinson DF, Mowry B, et al. (2000) Identification and analysis of error types in high-throughput genotyping. Am J Hum Genet 67: 727–736. doi: 10.1086/303048. 
+[13]	Druley TE, Vallania FL, Wegner DJ, Varley KE, Knowles OL, et al. (2009) Quantification of rare allelic variants from pooled genomic DNA. Nat Methods 6: 263–265. doi: 10.1038/nmeth.1307. 
+[14]	Bansal V (2010) A statistical method for the detection of variants from next-generation resequencing of DNA pools. Bioinformatics 26: 318–324. doi: 10.1093/bioinformatics/btq214. 
+[15]	Van Tassell CP, Smith TP, Matukumalli LK, Taylor JF, Schnabel RD, et al. (2008) SNP discovery and allele frequency estimation by deep sequencing of reduced representation libraries. Nat Methods 5: 247–252. doi: 10.1038/nmeth.1185. 
+[16]	Li H, Durbin R (2009) Fast and accurate short read alignment with Burrows-Wheeler transform. Bioinformatics 25: 1754–1760. doi: 10.1093/bioinformatics/btp324. 
+[17]	Langmead B, Trapnell C, Pop M, Salzberg SL (2009) Ultrafast and memory-efficient alignment of short DNA sequences to the human genome. Genome Biol 10: R25. doi: 10.1186/gb-2009-10-3-r25. 
+[18]	Li H, Handsaker B, Wysoker A, Fennell T, Ruan J, et al. (2009) The Sequence alignment/map (SAM) format and SAMtools. Bioinformatics 25: 2078–2079. 
+[19]	Larson DE, Harris CC, Chen K, Koboldt DC, Abbott TE, et al. (2012) SomaticSniper: identification of somatic point mutations in whole genome sequencing data. Bioinformatics 28: 311–317. doi: 10.1093/bioinformatics/btr665. 
+[20]	Breiman L (2001) Statistical Modeling: The Two Cultures. Statist Sci 16: 199–231. doi: 10.1214/ss/1009213726. 
+[21]	Fawcett T (2006) An introduction to ROC analysis. Pattern Recogn Lett 27: 861–874. doi: 10.1016/j.patrec.2005.10.010. 
+[22]	Ajay SS, Parker SC, OzelAbaan H, Fuentes Fajardo KV, Margulies EH (2011) Accurate and comprehensive sequencing of personal genomes. Genome Res 21: 1498–1505. doi: 10.1101/gr.123638.111. 
+[23]	Gnirke A, Melnikov A, Maguire J, Rogov P, LeProust EM, et al. (2009) Solution hybrid selection with ultra-long oligonucleotides for massively parallel targeted sequencing. Nat Biotechnol 27: 182–189. doi: 10.1038/nbt.1523. 
+[24]	Mouse Genome Sequencing Consortium (2002) Initial sequencing and comparative analysis of the mouse genome. Nature 420: 520–562. 
+[25]	Sherry ST, Ward MH, Kholodov M, Baker J, Phan L, et al. (2009) dbSNP: the NCBI database of genetic variation. Nucleic Acids Res 29: 308–311. doi: 10.1093/nar/29.1.308. 
+[26]	Dreszer TR, Karolchik D, Zweig AS, Hinrichs AS, Raney BJ, et al. (2011) The UCSC Genome Browser database: extensions and updates 2011. Nucleic Acids Res 39: 876–882. doi: 10.1093/nar/gkr1055. 
+[27]	Pruitt KD, Tatusova T, Maglott DR (2005) NCBI Reference Sequence (RefSeq): a curated non-redundant sequence database of genomes, transcripts and proteins. Nucleic Acids Res 33: 501–504. 
+[28]	Mortazavi A, Williams BA, McCue K, Schaeffer L, Wold B (2008) Mapping and quantifying mammalian transcriptomes by rna-seq. Nat Methods 5: 621–628. doi: 10.1038/nmeth.1226. 
+[29]	R Development Core Team (2010) R: A language and environment for statistical computing. Vienna: R Foundation for Statistical Computing. 
+[30]	Liaw A, Wiener M (2002) Classification and Regression by randomForest. R News 2: 18–22. 

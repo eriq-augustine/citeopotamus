@@ -1,0 +1,4 @@
+Rosetta FlexPepDock ab-initio: simultaneous folding, docking and refinement of peptides onto their receptors.
+Raveh B, London N, Zimmerman L, Schueler-Furman O
+Abstract:
+None

@@ -1,0 +1,6 @@
+TITLE: Phosphorylation of Sic1p by G1 Cdk required for its degradation and entry into S phase.
+AUTHORS: Verma R, Annan RS, Huddleston MJ, Carr SA, Reynard G, Deshaies RJ
+TERMS:
+CATEGORIES:
+ABSTRACT:
+G1 cyclin-dependent kinase (Cdk)-triggered degradation of the S-phase Cdk inhibitor Sic1p has been implicated in the transition from G1 to S phase in the cell cycle of budding yeast. A multidimensional electrospray mass spectrometry technique was used to map G1 Cdk phosphorylation sites in Sic1p both in vitro and in vivo. A Sic1p mutant lacking three Cdk phosphorylation sites did not serve as a substrate for Cdc34p-dependent ubiquitination in vitro, was stable in vivo, and blocked DNA replication. Moreover, purified phosphoSic1p was ubiquitinated in cyclin-depleted G1 extract, indicating that a primary function of G1 cyclins is to tag Sic1p for destruction. These data suggest a molecular model of how phosphorylation and proteolysis cooperate to bring about the G1/S transition in budding yeast.

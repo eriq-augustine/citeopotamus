@@ -1,0 +1,6 @@
+TITLE: Real-time control of a robot arm using simultaneously recorded neurons in the motor cortex.
+AUTHORS: Chapin JK, Moxon KA, Markowitz RS, Nicolelis MA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+To determine whether simultaneously recorded motor cortex neurons can be used for real-time device control, rats were trained to position a robot arm to obtain water by pressing a lever. Mathematical transformations, including neural networks, converted multineuron signals into 'neuronal population functions' that accurately predicted lever trajectory. Next, these functions were electronically converted into real-time signals for robot arm control. After switching to this 'neurorobotic' mode, 4 of 6 animals (those with > 25 task-related neurons) routinely used these brain-derived signals to position the robot arm and obtain water. With continued training in neurorobotic mode, the animals' lever movement diminished or stopped. These results suggest a possible means for movement restoration in paralysis patients.

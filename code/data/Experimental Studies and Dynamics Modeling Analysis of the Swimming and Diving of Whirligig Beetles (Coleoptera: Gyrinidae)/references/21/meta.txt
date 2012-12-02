@@ -1,0 +1,6 @@
+TITLE: Biophysics: water-repellent legs of water striders.
+AUTHORS: Gao X, Jiang L
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Water striders (Gerris remigis) have remarkable non-wetting legs that enable them to stand effortlessly and move quickly on water, a feature believed to be due to a surface-tension effect caused by secreted wax. We show here, however, that it is the special hierarchical structure of the legs, which are covered by large numbers of oriented tiny hairs (microsetae) with fine nanogrooves, that is more important in inducing this water resistance.

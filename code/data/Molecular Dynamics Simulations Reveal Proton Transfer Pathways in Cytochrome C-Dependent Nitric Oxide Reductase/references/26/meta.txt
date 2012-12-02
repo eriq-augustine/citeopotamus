@@ -1,0 +1,6 @@
+TITLE: Insight into the mechanism of the influenza A proton channel from a structure in a lipid bilayer.
+AUTHORS: Sharma M, Yi M, Dong H, Qin H, Peterson E, Busath DD, Zhou HX, Cross TA
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The M2 protein from the influenza A virus, an acid-activated proton-selective channel, has been the subject of numerous conductance, structural, and computational studies. However, little is known at the atomic level about the heart of the functional mechanism for this tetrameric protein, a His(37)-Trp(41) cluster. We report the structure of the M2 conductance domain (residues 22 to 62) in a lipid bilayer, which displays the defining features of the native protein that have not been attainable from structures solubilized by detergents. We propose that the tetrameric His(37)-Trp(41) cluster guides protons through the channel by forming and breaking hydrogen bonds between adjacent pairs of histidines and through specific interactions of the histidines with the tryptophan gate. This mechanism explains the main observations on M2 proton conductance.

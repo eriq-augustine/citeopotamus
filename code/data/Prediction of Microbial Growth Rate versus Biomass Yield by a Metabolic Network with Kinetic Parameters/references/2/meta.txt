@@ -1,0 +1,6 @@
+TITLE: Genome-scale microbial in silico models: the constraints-based approach.
+AUTHORS: Price ND, Papin JA, Schilling CH, Palsson BO
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Genome sequencing and annotation has enabled the reconstruction of genome-scale metabolic networks. The phenotypic functions that these networks allow for can be defined and studied using constraints-based models and in silico simulation. Several useful predictions have been obtained from such in silico models, including substrate preference, consequences of gene deletions, optimal growth patterns, outcomes of adaptive evolution and shifts in expression profiles. The success rate of these predictions is typically in the order of 70-90% depending on the organism studied and the type of prediction being made. These results are useful as a basis for iterative model building and for several practical applications.

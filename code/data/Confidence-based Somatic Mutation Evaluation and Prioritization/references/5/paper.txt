@@ -1,0 +1,4 @@
+Whole exome capture in solution with 3 Gbp of data.
+Bainbridge MN, Wang M, Burgess DL, Kovar C, Rodesch MJ, D'Ascenzo M, Kitzman J, Wu YQ, Newsham I, Richmond TA, Jeddeloh JA, Muzny D, Albert TJ, Gibbs RA
+Abstract:
+We have developed a solution-based method for targeted DNA capture-sequencing that is directed to the complete human exome. Using this approach allows the discovery of greater than 95% of all expected heterozygous singe base variants, requires as little as 3 Gbp of raw sequence data and constitutes an effective tool for identifying rare coding alleles in large scale genomic studies.

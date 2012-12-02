@@ -1,0 +1,6 @@
+TITLE: Assessing the effect of conformational averaging on the measured values of observables.
+AUTHORS: Bürgi R, Pitera J, van Gunsteren WF
+TERMS:
+CATEGORIES:
+ABSTRACT:
+Experiment and computer simulation are two complementary tools to understand the dynamics and behavior of biopolymers in solution. One particular area of interest is the ensemble of conformations populated by a particular molecule in solution. For example, what fraction of a protein sample exists in its folded conformation? How often does a particular peptide form an alpha helix versus a beta hairpin? To address these questions, it is important to determine the sensitivity of a particular experiment to changes in the distribution of molecular conformations. Consequently, a general analytic formalism is proposed to determine the sensitivity of a spectroscopic observable to the underlying distribution of conformations. A particular strength of the approach is that it provides an expression for a weighted average across conformational substates that is independent of the averaging function used. The formalism is described and applied to experimental and simulated nuclear Overhauser enhancement (NOE) and 3J-coupling data on peptides in solution.

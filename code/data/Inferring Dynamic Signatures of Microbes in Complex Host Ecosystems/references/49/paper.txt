@@ -1,0 +1,4 @@
+Optimum experimental designs for properties of a compartmental model.
+Atkinson AC, Chaloner K, Herzberg AM, Juritz J
+Abstract:
+Three properties of interest in bioavailability studies using compartmental models are the area under the concentration curve, the maximum concentration, and the time to maximum concentration. Methods are described for finding designs that minimize the variance of the estimates of these quantities in such a model. These methods use prior information. Both prior estimates and prior distributions are used. The designs for an open one-compartment model are compared with the corresponding D theta-optimum design for all parameters and also with designs that minimize the sum of the scaled variances of the individual properties.
