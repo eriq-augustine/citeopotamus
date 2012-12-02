@@ -68,33 +68,35 @@ class ContextMethod(Method):
 # Title/Author methods
 
 class BaseTitleAuthorMethod(ContextMethod):
-   properNouns = None
+   properNouns = {}
 
    def __init__(self, paper):
       super(BaseTitleAuthorMethod, self).__init__()
 
-      if BaseTitleAuthorMethod.properNouns:
+      if BaseTitleAuthorMethod.properNouns.has_key(paper.title):
          return
 
       # Pre-build a list of all proper nouns in the references' title and authors.
-      BaseTitleAuthorMethod.properNouns = {}
+      paperProperNouns = {}
 
       # TODO(eriq): remove stopwords and try to remove other capitilization false positives.
       for (key, reference) in paper.references.items():
          # Make sure to avoid initials (and double initials).
          authorNouns = re.findall('\w{3,}', ' '.join(reference.authors))
-         BaseTitleAuthorMethod.properNouns[key] = set([authorNoun.upper() for authorNoun in authorNouns])
-         BaseTitleAuthorMethod.properNouns[key] |= util.removeTitleStopwords(util.getCapitalWords(reference.title))
+         paperProperNouns[key] = set([authorNoun.upper() for authorNoun in authorNouns])
+         paperProperNouns[key] |= util.removeTitleStopwords(util.getCapitalWords(reference.title))
 
-      BaseTitleAuthorMethod.properNouns = util.uniqueSets(BaseTitleAuthorMethod.properNouns, 1)
+      paperProperNouns = util.uniqueSets(paperProperNouns, 1)
 
       if DEBUG:
          print "Title/Author:"
-         for (ref, nouns) in BaseTitleAuthorMethod.properNouns.items():
+         for (ref, nouns) in paperProperNouns.items():
             print "{0} -- {1}".format(ref, nouns)
 
+      BaseTitleAuthorMethod.properNouns[paper.title] = paperProperNouns
+
    def getReferenceContext(self, paper):
-      return BaseTitleAuthorMethod.properNouns
+      return BaseTitleAuthorMethod.properNouns[paper.title]
 
 class SentenceTitleAuthorMethod(BaseTitleAuthorMethod):
    def __init__(self, paper):
@@ -119,28 +121,28 @@ class PreContextTitleAuthorMethod(BaseTitleAuthorMethod):
 # ABSTRACT methods
 
 class BaseAbstractMethod(ContextMethod):
-   abstractWords = None
-   abstractBigrams = None
+   abstractWords = {}
+   abstractBigrams = {}
 
    def __init__(self, paper):
       super(BaseAbstractMethod, self).__init__()
 
-      if BaseAbstractMethod.abstractWords:
+      if BaseAbstractMethod.abstractWords.has_key(paper.title):
          return
 
-      BaseAbstractMethod.abstractWords = {}
-      BaseAbstractMethod.abstractBigrams = {}
+      paperAbstractWords = {}
+      paperAbstractBigrams = {}
 
       for (key, reference) in paper.references.items():
-         BaseAbstractMethod.abstractWords[key] = util.getCapitalWords(reference.abstract)
-         #BaseAbstractMethod.abstractWords[key] = util.removeStopwords(set(util.wordSplit(reference.abstract)))
-         BaseAbstractMethod.abstractBigrams[key] = util.getNonStopNgrams(reference.abstract, 2)
+         paperAbstractWords[key] = util.getCapitalWords(reference.abstract)
+         #paperAbstractWords[key] = util.removeStopwords(set(util.wordSplit(reference.abstract)))
+         paperAbstractBigrams[key] = util.getNonStopNgrams(reference.abstract, 2)
 
-      BaseAbstractMethod.abstractWords = util.uniqueSets(BaseAbstractMethod.abstractWords)
-      BaseAbstractMethod.abstractBigrams = util.uniqueSets(BaseAbstractMethod.abstractBigrams)
+      paperAbstractWords = util.uniqueSets(paperAbstractWords)
+      paperAbstractBigrams = util.uniqueSets(paperAbstractBigrams)
 
       # If a word appears in >= 25% of bigrams, then put it in the unigrams.
-      for (referenceKey, bigrams) in BaseAbstractMethod.abstractBigrams.items():
+      for (referenceKey, bigrams) in paperAbstractBigrams.items():
          counts = {}
          for bigram in bigrams:
             for word in bigram.split('-'):
@@ -151,19 +153,22 @@ class BaseAbstractMethod(ContextMethod):
                   counts[word] += 1
          for (word, count) in counts.items():
             if float(count) / len(bigrams) >= 0.25:
-               BaseAbstractMethod.abstractWords[referenceKey].add(word)
+               paperAbstractWords[referenceKey].add(word)
 
       if DEBUG:
          print "ABSTRACT:"
-         for (ref, nouns) in BaseAbstractMethod.abstractWords.items():
-            print "{0}\n\tWords -- {1}\n\tBigrams -- {2}".format(ref, nouns, BaseAbstractMethod.abstractBigrams[ref])
+         for (ref, nouns) in paperAbstractWords.items():
+            print "{0}\n\tWords -- {1}\n\tBigrams -- {2}".format(ref, nouns, paperAbstractBigrams[ref])
+
+      BaseAbstractMethod.abstractWords[paper.title] = paperAbstractWords
+      BaseAbstractMethod.abstractBigrams[paper.title] = paperAbstractBigrams
 
 class SentenceContextAbstractWordsMethod(BaseAbstractMethod):
    def __init__(self, paper):
       super(SentenceContextAbstractWordsMethod, self).__init__(paper)
 
    def getReferenceContext(self, paper):
-      return BaseAbstractMethod.abstractWords
+      return BaseAbstractMethod.abstractWords[paper.title]
 
    def getCiteContext(self, cite):
       return cite.sentenceContext.noCitations
@@ -176,7 +181,7 @@ class SentenceContextAbstractBigramsMethod(BaseAbstractMethod):
       super(SentenceContextAbstractBigramsMethod, self).__init__(paper)
 
    def getReferenceContext(self, paper):
-      return BaseAbstractMethod.abstractBigrams
+      return BaseAbstractMethod.abstractBigrams[paper.title]
 
    def getCiteContext(self, cite):
       return cite.sentenceContext.noCitations
@@ -189,7 +194,7 @@ class ParagraphContextAbstractWordsMethod(BaseAbstractMethod):
       super(ParagraphContextAbstractWordsMethod, self).__init__(paper)
 
    def getReferenceContext(self, paper):
-      return BaseAbstractMethod.abstractWords
+      return BaseAbstractMethod.abstractWords[paper.title]
 
    def getCiteContext(self, cite):
       return cite.paragraphContext.noCitations
@@ -202,7 +207,7 @@ class ParagraphContextAbstractBigramsMethod(BaseAbstractMethod):
       super(ParagraphContextAbstractBigramsMethod, self).__init__(paper)
 
    def getReferenceContext(self, paper):
-      return BaseAbstractMethod.abstractBigrams
+      return BaseAbstractMethod.abstractBigrams[paper.title]
 
    def getCiteContext(self, cite):
       return cite.paragraphContext.noCitations
