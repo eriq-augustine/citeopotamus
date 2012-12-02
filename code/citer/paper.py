@@ -1,5 +1,8 @@
 import re
 
+import util
+import parser
+
 class Paper:
    # |parseStructire| is assumed to be a dict generated from parser::parseFullDataset().
    def __init__(self, parseStructure, root = True):
@@ -28,6 +31,20 @@ class Paper:
          self.noNumbersText = parseStructure['root']['noNumbersText']
          self.citationKey = parseStructure['root']['citationKey']
          self.citations = parseStructure['root']['citations']
+
+         # Do pre-processing on the citations.
+         for citation in self.citations:
+            # proper nouns
+            citation.sentenceProperNouns = util.removeStopwords(util.getCapitalWords(citation.sentenceContext.noCitations))
+            citation.paragraphProperNouns = util.removeStopwords(util.getCapitalWords(citation.paragraphContext.noCitations))
+
+            # bigrams
+            citation.sentenceBigrams = util.getNonStopNgrams(citation.sentenceContext.noCitations, 2)
+            citation.paragraphBigrams = util.getNonStopNgrams(citation.paragraphContext.noCitations, 2)
+
+            # Add important unigrams to the proper nouns
+            citation.sentenceProperNouns.update(util.importantUnigrams(citation.sentenceBigrams))
+            citation.paragraphProperNouns.update(util.importantUnigrams(citation.paragraphBigrams))
 
          # This is a dict to accomodate missing references, and index by 1.
          self.references = {}
@@ -66,3 +83,17 @@ class Citation:
                                      markedSentence, citesPerSentence)
       self.paragraphContext = Context(paragraph, noCitesParagraph, noNumbersParagraph,
                                      markedParagraph, citesPerParagraph)
+
+      # Figure out the pre context
+      self.preContext = ''
+      # Check for a para surround first.
+      match = re.search('\(([^\)]*{}[^\(]*)\)'.format(re.escape(parser.MARKED_CITATION_MARKER)), markedSentence)
+      if match:
+         self.preContext = match.group(1).replace(parser.MARKED_CITATION_MARKER, ' ').strip()
+      else:
+         match = re.search('([^\[\]\.,;:!"\-]+){}'.format(re.escape(parser.MARKED_CITATION_MARKER)), markedSentence)
+
+         if match:
+            self.preContext = match.group(1).strip()
+
+      self.preContextUnigrams = util.getNonStopNgrams(self.preContext, 1)

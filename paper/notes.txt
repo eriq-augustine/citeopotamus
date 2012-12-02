@@ -1,0 +1,6 @@
+Some thoughts that eriq was having:
+
+Foaad wasts section about just using information from reference.
+
+Why it is doing worse on bio? Different format, different style, different culture.
+We programmed for our known environment.

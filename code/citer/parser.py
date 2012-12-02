@@ -2,6 +2,8 @@ import os
 import re
 import sys
 
+import util
+
 from paper import Paper
 from paper import Citation
 
@@ -15,8 +17,8 @@ def parseMeta(fileName):
    fileObj = open(fileName, 'r')
 
    rtn = {}
-   rtn['title'] = fileObj.readline().replace('TITLE: ', '').strip()
-   rtn['authors'] = [ author.strip() for author in fileObj.readline().replace('AUTHORS: ', '').split(',') ]
+   rtn['title'] = util.normalize(fileObj.readline().replace('TITLE: ', '').strip())
+   rtn['authors'] = [ util.normalize(author.strip()) for author in fileObj.readline().replace('AUTHORS: ', '').split(',') ]
    rtn['terms'] = [ term.strip() for term in fileObj.readline().replace('TERMS: ', '').split(',') ]
    rtn['categories'] = [ cat.strip() for cat in fileObj.readline().replace('CATEGORIES: ', '').split(',') ]
 
@@ -42,7 +44,7 @@ def parseDir(dirName):
 
    if os.path.exists(dirName + '/paper.txt'):
       fileObj = open(dirName + '/paper.txt')
-      entry['fullText'] = fileObj.read().strip()
+      entry['fullText'] = util.normalize(fileObj.read().strip())
    else:
       entry['fullText'] = ''
 
