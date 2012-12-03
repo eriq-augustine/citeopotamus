@@ -1,4 +1,0 @@
-Clann: investigating phylogenetic information through supertree analyses.
-Creevey CJ, McInerney JO
-Abstract:
- Clann has been developed in order to provide methods of investigating phylogenetic information through the application of supertrees. AVAILABILITY: Clann has been precompiled for Linux, Apple Macintosh and Windows operating systems and is available from http://bioinf.may.ie/software/clann. Source code is available on request from the authors. SUPPLEMENTARY INFORMATION: Clann has been written in the C programming language. Source code is available on request.

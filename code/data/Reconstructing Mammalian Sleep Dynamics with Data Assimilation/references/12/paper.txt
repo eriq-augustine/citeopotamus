@@ -1,4 +1,0 @@
-Neuronal excitability modulation over the sleep cycle: a structural and mathematical model.
-McCarley RW, Hobson JA
-Abstract:
-A model for control of the desynchronized phase of the sleep cycle postulates reciprocal interaction between cells in the pontine gigantocellular tegmental field (FTG cells) and cells in the nucleus locus coeruleus and nucleus subcoeruleus (LC cells). This physiological model leads to equations of the Lotka-Volterra type; the time course of activity predicted by the model is in good agreement with actual long-term recordings of FTG cells and single-cycle data for LC cells.

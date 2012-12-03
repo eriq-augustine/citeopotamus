@@ -1,6 +1,0 @@
-TITLE: Constant-pH molecular dynamics using continuous titration coordinates.
-AUTHORS: Lee MS, Salsbury FR Jr, Brooks CL 3rd
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

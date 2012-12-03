@@ -1,4 +1,0 @@
-CAVER: a new tool to explore routes from protein clefts, pockets and cavities.
-Petrek M, Otyepka M, Banás P, Kosinová P, Koca J, Damborský J
-Abstract:
-None

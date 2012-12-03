@@ -1,6 +1,0 @@
-TITLE: Gene connectivity, function, and sequence conservation: predictions from modular yeast co-expression networks.
-AUTHORS: Carlson MR, Zhang B, Fang Z, Mischel PS, Horvath S, Nelson SF
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

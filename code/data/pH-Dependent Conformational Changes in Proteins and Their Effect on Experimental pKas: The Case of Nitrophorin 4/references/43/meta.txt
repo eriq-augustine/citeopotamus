@@ -1,6 +1,0 @@
-TITLE: Thermodynamic coupling of protonation and conformational equilibria in proteins: theory and simulation.
-AUTHORS: Shi C, Wallace JA, Shen JK
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

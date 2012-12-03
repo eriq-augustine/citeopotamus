@@ -1,6 +1,0 @@
-TITLE: Embedding mRNA stability in correlation analysis of time-series gene expression data.
-AUTHORS: Farina L, De Santis A, Salvucci S, Morelli G, Ruberti I
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Current methods for the identification of putatively co-regulated genes directly from gene expression time profiles are based on the similarity of the time profile. Such association metrics, despite their central role in gene network inference and machine learning, have largely ignored the impact of dynamics or variation in mRNA stability. Here we introduce a simple, but powerful, new similarity metric called lead-lag R(2) that successfully accounts for the properties of gene dynamics, including varying mRNA degradation and delays. Using yeast cell-cycle time-series gene expression data, we demonstrate that the predictive power of lead-lag R(2) for the identification of co-regulated genes is significantly higher than that of standard similarity measures, thus allowing the selection of a large number of entirely new putatively co-regulated genes. Furthermore, the lead-lag metric can also be used to uncover the relationship between gene expression time-series and the dynamics of formation of multiple protein complexes. Remarkably, we found a high lead-lag R(2) value among genes coding for a transient complex.

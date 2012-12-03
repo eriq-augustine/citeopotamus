@@ -1,6 +1,0 @@
-TITLE: Transition-path theory and path-finding algorithms for the study of rare events.
-AUTHORS: E W, Vanden-Eijnden E
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Transition-path theory is a theoretical framework for describing rare events in complex systems. It can also be used as a starting point for developing efficient numerical algorithms for analyzing such rare events. Here we review the basic components of transition-path theory and path-finding algorithms. We also discuss connections with the classical transition-state theory.

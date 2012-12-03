@@ -1,6 +1,0 @@
-TITLE: Bioinformatics prediction of HIV coreceptor usage.
-AUTHORS: Lengauer T, Sander O, Sierra S, Thielen A, Kaiser R
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

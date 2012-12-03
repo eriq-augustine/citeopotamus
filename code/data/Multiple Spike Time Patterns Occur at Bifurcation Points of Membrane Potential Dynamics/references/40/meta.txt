@@ -1,6 +1,0 @@
-TITLE: Computation and the single neuron.
-AUTHORS: Koch C
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

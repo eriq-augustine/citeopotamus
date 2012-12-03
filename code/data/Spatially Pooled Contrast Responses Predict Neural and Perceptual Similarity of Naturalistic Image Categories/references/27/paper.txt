@@ -1,4 +1,0 @@
-Effects of occlusion, edges, and scaling on the power spectra of natural images.
-Hsiao WH, Millane RP
-Abstract:
-The circularly averaged power spectra of natural image ensembles tend to have a power-law dependence on spatial frequency with an exponent of approximately -2. This phenomenon has been attributed to object occlusion, the presence of edges, and scaling of object sizes (self-similarity) in natural scenes, although the relative importance of these properties is still unclear. A detailed examination of the effects of occlusion, edges, and self-similarity on the behavior of the power spectrum is conducted using a simple model of natural images. Numerical simulations show that edges and self-similarity are necessary for a power-law power spectrum over a wide range of spatial frequencies. Object occlusion is not an essential factor. A theoretical analysis for images containing nonoccluding objects supports these results.

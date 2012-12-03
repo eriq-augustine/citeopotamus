@@ -1,4 +1,0 @@
-A data-driven framework for neural field modeling.
-Freestone DR, Aram P, Dewar M, Scerri K, Grayden DB, Kadirkamanathan V
-Abstract:
-None

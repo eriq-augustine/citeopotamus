@@ -1,6 +1,0 @@
-TITLE: Emerging methods for ensemble-based virtual screening.
-AUTHORS: Amaro RE, Li WW
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Ensemble based virtual screening refers to the use of conformational ensembles from crystal structures, NMR studies or molecular dynamics simulations. It has gained greater acceptance as advances in the theoretical framework, computational algorithms, and software packages enable simulations at longer time scales. Here we focus on the use of computationally generated conformational ensembles and emerging methods that use these ensembles for discovery, such as the Relaxed Complex Scheme or Dynamic Pharmacophore Model. We also discuss the more rigorous physics-based computational techniques such as accelerated molecular dynamics and thermodynamic integration and their applications in improving conformational sampling or the ranking of virtual screening hits. Finally, technological advances that will help make virtual screening tools more accessible to a wider audience in computer aided drug design are discussed.

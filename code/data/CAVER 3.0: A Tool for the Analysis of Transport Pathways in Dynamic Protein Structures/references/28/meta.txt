@@ -1,6 +1,0 @@
-TITLE: Redesigning dehalogenase access tunnels as a strategy for degrading an anthropogenic substrate.
-AUTHORS: Pavlova M, Klvana M, Prokop Z, Chaloupkova R, Banas P, Otyepka M, Wade RC, Tsuda M, Nagata Y, Damborsky J
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Engineering enzymes to degrade anthropogenic compounds efficiently is challenging. We obtained Rhodococcus rhodochrous haloalkane dehalogenase mutants with up to 32-fold higher activity than wild type toward the toxic, recalcitrant anthropogenic compound 1,2,3-trichloropropane (TCP) using a new strategy. We identified key residues in access tunnels connecting the buried active site with bulk solvent by rational design and randomized them by directed evolution. The most active mutant has large aromatic residues at two out of three randomized positions and two positions modified by site-directed mutagenesis. These changes apparently enhance activity with TCP by decreasing accessibility of the active site for water molecules, thereby promoting activated complex formation. Kinetic analyses confirmed that the mutations improved carbon-halogen bond cleavage and shifted the rate-limiting step to the release of products. Engineering access tunnels by combining computer-assisted protein design with directed evolution may be a valuable strategy for refining catalytic properties of enzymes with buried active sites.

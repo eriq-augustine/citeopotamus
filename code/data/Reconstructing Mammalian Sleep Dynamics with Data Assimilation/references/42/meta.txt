@@ -1,6 +1,0 @@
-TITLE: Interplay between synchronization, observability, and dynamics.
-AUTHORS: Letellier C, Aguirre LA
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Synchronizing nonidentical chaotic oscillators is very often achieved by using various types of couplings. In the practice of synchronization the "right choice" of the coupling variable- y for the Rössler system, x for the Lorenz equations, and so on-is usually stated rather than explained or justified. Using the Rössler and Rucklidge system, in this paper, it is shown that such "optimal" choices are strongly related to observability properties which, in turn, can be quantified. In this paper it will also be shown that synchronizability does not only depend on the observability of the system but it is also a consequence of the dynamical regimes under study. The paper aims at providing important insight into the critical problem of making the "right choice" when it comes to choosing the coupling variable in synchronization schemes.

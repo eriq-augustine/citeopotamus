@@ -1,6 +1,0 @@
-TITLE: A panorama of mammalian gene expression evolution.
-AUTHORS: Zhang J
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

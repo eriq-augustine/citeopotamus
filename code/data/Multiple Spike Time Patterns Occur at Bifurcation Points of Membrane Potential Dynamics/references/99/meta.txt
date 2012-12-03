@@ -1,6 +1,0 @@
-TITLE: Determining the number of clusters using the weighted gap statistic.
-AUTHORS: Yan M, Ye K
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Estimating the number of clusters in a data set is a crucial step in cluster analysis. In this article, motivated by the gap method (Tibshirani, Walther, and Hastie, 2001, Journal of the Royal Statistical Society B63, 411-423), we propose the weighted gap and the difference of difference-weighted (DD-weighted) gap methods for estimating the number of clusters in data using the weighted within-clusters sum of errors: a measure of the within-clusters homogeneity. In addition, we propose a "multilayer" clustering approach, which is shown to be more accurate than the original gap method, particularly in detecting the nested cluster structure of the data. The methods are applicable when the input data contain continuous measurements and can be used with any clustering method. Simulation studies and real data are investigated and compared among these proposed methods as well as with the original gap method.

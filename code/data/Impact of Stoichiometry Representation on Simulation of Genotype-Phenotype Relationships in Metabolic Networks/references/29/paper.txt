@@ -1,4 +1,0 @@
-Flux-sum analysis: a metabolite-centric approach for understanding the metabolic network.
-Chung BK, Lee DY
-Abstract:
-None

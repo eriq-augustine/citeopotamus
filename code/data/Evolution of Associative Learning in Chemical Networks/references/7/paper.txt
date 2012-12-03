@@ -1,4 +1,0 @@
-Molecular networks: the top-down view.
-Bray D
-Abstract:
-Network theory can give a useful overview of how a biological system works. But to make testable predictions, we need the details.

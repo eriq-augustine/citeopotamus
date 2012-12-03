@@ -1,4 +1,0 @@
-Neurometabolic coupling in cerebral cortex reflects synaptic more than spiking activity.
-Viswanathan A, Freeman RD
-Abstract:
-In noninvasive neuroimaging, neural activity is inferred from local fluctuations in deoxyhemoglobin. A fundamental question of functional magnetic resonance imaging (fMRI) is whether the inferred neural activity is driven primarily by synaptic or spiking activity. The answer is critical for the interpretation of the blood oxygen level-dependent (BOLD) signal in fMRI. Here, we have used well-established visual-system circuitry to create a stimulus that elicits synaptic activity without associated spike discharge. In colocalized recordings of neural and metabolic activity in cat primary visual cortex, we observed strong coupling between local field potentials (LFPs) and changes in tissue oxygen concentration in the absence of spikes. These results imply that the BOLD signal is more closely coupled to synaptic activity.

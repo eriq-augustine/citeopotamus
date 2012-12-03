@@ -1,6 +1,0 @@
-TITLE: Intrinsic firing patterns of diverse neocortical neurons.
-AUTHORS: Connors BW, Gutnick MJ
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Neurons of the neocortex differ dramatically in the patterns of action potentials they generate in response to current steps. Regular-spiking cells adapt strongly during maintained stimuli, whereas fast-spiking cells can sustain very high firing frequencies with little or no adaptation. Intrinsically bursting cells generate clusters of spikes (bursts), either singly or repetitively. These physiological distinctions have morphological correlates. RS and IB cells can be either pyramidal neurons or spiny stellate cells, and thus constitute the excitatory cells of the cortex. FS cells are smooth or sparsely spiny non-pyramidal cells, and are likely to be GABAergic inhibitory interneurons. The different firing properties of neurons in neocortex contribute significantly to its network behavior.

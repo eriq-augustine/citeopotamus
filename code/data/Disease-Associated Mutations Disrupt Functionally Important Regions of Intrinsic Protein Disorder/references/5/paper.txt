@@ -1,4 +1,0 @@
-Predicting the functional consequences of non-synonymous single nucleotide polymorphisms: structure-based assessment of amino acid variation.
-Chasman D, Adams RM
-Abstract:
-None

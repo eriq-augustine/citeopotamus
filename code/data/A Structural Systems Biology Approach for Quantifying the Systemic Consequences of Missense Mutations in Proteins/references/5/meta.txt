@@ -1,6 +1,0 @@
-TITLE: Bridging from molecular simulation to biochemical networks.
-AUTHORS: Stein M, Gabdoulline RR, Wade RC
-TERMS:
-CATEGORIES:
-ABSTRACT:
-How can we make the connection between the three-dimensional structures of individual proteins and understanding how complex biological systems involving many proteins work? The modelling and simulation of protein structures can help to answer this question for systems ranging from multimacromolecular complexes to organelles and cells. On one hand, multiscale modelling and simulation techniques are advancing to permit the spatial and temporal properties of large systems to be simulated using atomic-detail structures. On the other hand, the estimation of kinetic parameters for the mathematical modelling of biochemical pathways using protein structure information provides a basis for iterative manipulation of biochemical pathways guided by protein structure. Recent advances include the structural modelling of protein complexes on the genomic level, novel coarse-graining strategies to increase the size of the system and the time span that can be simulated, and comparative molecular field analyses to estimate enzyme kinetic parameters.

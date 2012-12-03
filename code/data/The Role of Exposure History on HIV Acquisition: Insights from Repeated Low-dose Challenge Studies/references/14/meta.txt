@@ -1,6 +1,0 @@
-TITLE: Preclinical assessment of HIV vaccines and microbicides by repeated low-dose virus challenges.
-AUTHORS: Regoes RR, Longini IM, Feinberg MB, Staprans SI
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

@@ -283,9 +283,9 @@ def fetch_plos_references(plos_conn, ref_dir, doc_parser, ref_ndx=0):
       pubmed_html = plos_conn.get_page(pubmed_page)
       if (pubmed_html is None): continue
 
-      ref_dir = os.path.join(ref_dir, '%s' % ref_ndx)
-      if (not os.path.exists(ref_dir)):
-         os.makedirs(ref_dir)
+      sub_ref_dir = os.path.join(ref_dir, '%s' % ref_ndx)
+      if (not os.path.exists(sub_ref_dir)):
+         os.makedirs(sub_ref_dir)
 
       # each pubmed doc meta dictionary consists of 3 keys:
       # title, authors, abstract
@@ -299,12 +299,12 @@ def fetch_plos_references(plos_conn, ref_dir, doc_parser, ref_ndx=0):
          err_file.close()
 
       # create and populate meta data for the reference
-      ref_meta_file = open(os.path.join(ref_dir, 'meta.txt'), 'w+')
+      ref_meta_file = open(os.path.join(sub_ref_dir, 'meta.txt'), 'w+')
       ref_meta_file.write(generate_ref_meta(pubmed_meta).encode('utf-8'))
       ref_meta_file.close()
 
       # create and populate text for the reference
-      text_file = open(os.path.join(ref_dir, 'paper.txt'), 'w+')
+      text_file = open(os.path.join(sub_ref_dir, 'paper.txt'), 'w+')
       text_file.write(generate_ref_text(pubmed_meta).encode('utf-8'))
       text_file.close()
 

@@ -1,4 +1,0 @@
-The many pathways of RNA degradation.
-Houseley J, Tollervey D
-Abstract:
-From the earliest comparisons of RNA production with steady-state levels, it has been clear that cells transcribe more RNA than they accumulate, implying the existence of active RNA degradation systems. In general, RNA is degraded at the end of its useful life, which is long for a ribosomal RNA but very short for excised introns or spacer fragments, and is closely regulated for most mRNA species. RNA molecules with defects in processing, folding, or assembly with proteins are identified and rapidly degraded by the surveillance machinery. Because RNA degradation is ubiquitous in all cells, it is clear that it must be carefully controlled to accurately recognize target RNAs. How this is achieved is perhaps the most pressing question in the field.

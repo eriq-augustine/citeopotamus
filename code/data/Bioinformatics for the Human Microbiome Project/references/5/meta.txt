@@ -1,6 +1,0 @@
-TITLE: A renaissance for the pioneering 16S rRNA gene.
-AUTHORS: Tringe SG, Hugenholtz P
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Culture-independent molecular surveys using the 16S rRNA gene have become a mainstay for characterizing microbial community structure over the past quarter century. More recently this approach has been overshadowed by metagenomics, which provides a global overview of a community's functional potential rather than just an inventory of its inhabitants. However, the pioneering 16S rRNA gene is making a comeback in its own right thanks to a number of methodological advancements including higher resolution (more sequences), analysis of multiple related samples (e.g. spatial and temporal series) and improved metadata, and use of metadata. The standard conclusion that microbial ecosystems are remarkably complex and diverse is now being replaced by detailed insights into microbial ecology and evolution based only on this one historically important marker gene.

@@ -1,4 +1,0 @@
-The control of the metabolic switch in cancers by oncogenes and tumor suppressor genes.
-Levine AJ, Puzio-Kuter AM
-Abstract:
-Cells from some tumors use an altered metabolic pattern compared with that of normal differentiated adult cells in the body. Tumor cells take up much more glucose and mainly process it through aerobic glycolysis, producing large quantities of secreted lactate with a lower use of oxidative phosphorylation that would generate more adenosine triphosphate (ATP), water, and carbon dioxide. This is the Warburg effect, which provides substrates for cell growth and division and free energy (ATP) from enhanced glucose use. This metabolic switch places the emphasis on producing intermediates for cell growth and division, and it is regulated by both oncogenes and tumor suppressor genes in a number of key cancer-producing pathways. Blocking these metabolic pathways or restoring these altered pathways could lead to a new approach in cancer treatments.

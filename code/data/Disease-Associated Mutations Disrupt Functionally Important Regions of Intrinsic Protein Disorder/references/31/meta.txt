@@ -1,6 +1,0 @@
-TITLE: Evolution and disorder.
-AUTHORS: Brown CJ, Johnson AK, Dunker AK, Daughdrill GW
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

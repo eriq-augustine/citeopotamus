@@ -1,6 +1,0 @@
-TITLE: Convergent evolution of domain architectures (is rare).
-AUTHORS: Gough J
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

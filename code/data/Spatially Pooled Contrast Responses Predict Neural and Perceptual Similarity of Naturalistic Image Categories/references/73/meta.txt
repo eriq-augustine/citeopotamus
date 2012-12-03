@@ -1,6 +1,0 @@
-TITLE: Perceiving real-world scenes.
-AUTHORS: Biederman I
-TERMS:
-CATEGORIES:
-ABSTRACT:
-When a briefly presented real-world scene was jumbled, the accuracy of identifying a single, cued object was less than that when the scene was coherent. Jumbling remained an effective variable even when the subject knew where to look and what to look for. Thus an object's meaningful context may affect the course of perceptual recognition and not just peripheral scanning or memory.

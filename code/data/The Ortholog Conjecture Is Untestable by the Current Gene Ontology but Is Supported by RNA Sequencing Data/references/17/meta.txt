@@ -1,6 +1,0 @@
-TITLE: Maintenance of duplicate genes and their functional redundancy by reduced expression.
-AUTHORS: Qian W, Liao BY, Chang AY, Zhang J
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

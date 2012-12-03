@@ -1,6 +1,0 @@
-TITLE: Developmental genetics and evolution of symbiotic structures in nitrogen-fixing nodules and arbuscular mycorrhiza.
-AUTHORS: Provorov NA, Borisov AY, Tikhonovich IA
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

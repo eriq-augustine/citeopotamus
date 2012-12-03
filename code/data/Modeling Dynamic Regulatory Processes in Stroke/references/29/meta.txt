@@ -1,6 +1,0 @@
-TITLE: Neuroprotective effects of TNF binding protein in focal cerebral ischemia.
-AUTHORS: Nawashiro H, Martin D, Hallenbeck JM
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The effect of tumor necrosis factor binding protein (TNFbp) was studied in mice subjected to a permanent middle cerebral artery occlusion (MCAO). TNFbp is a dimeric form of the type I soluble TNF receptor linked to polyethylene glycol (TNFbp), and binds and inhibits TNF-alpha. TNFbp produced a significant reduction in the cortical infarct volume (22.6 +/- 3.5 mm3 immediately after MCAO; 25.2 +/- 2.4 mm3 1 h after MCAO) compared with vehicle-treated animals (30.3 +/- 3.7 mm3 immediately post MCAO; 31 +/- 3.7 mm3 1 h after MCAO (mean +/- S.D.) when administered intracranially up to 60 min post-occlusion. The neuroprotective effect of TNFbp was sustained in mice for 2 weeks after MCAO. DNA fragmentation at the margin of the cortical infarcts was dramatically reduced in mice treated with TNFbp whereas all control animals showed consistent and obvious DNA fragmentation 2 weeks after MCAO. TNFbp could have therapeutic value for the treatment of ischemic stroke if the problem of delivery to brain can be overcome.

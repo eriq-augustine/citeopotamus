@@ -1,6 +1,0 @@
-TITLE: Nitrophorins and related antihemostatic lipocalins from Rhodnius prolixus and other blood-sucking arthropods.
-AUTHORS: Montfort WR, Weichsel A, Andersen JF
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Recent gene sequence and crystal structure determinations of salivary proteins from several blood-sucking arthropods have revealed an unusual evolutionary relationship: many such proteins derive their functions from lipocalin protein folds. Many blood-sucking arthropods have independently evolved the ability to overcome a host organism's means of preventing blood loss (called hemostasis). Most blood feeders have proteins that induce vasodilation, inhibit blood coagulation, and reduce inflammation, but do so by distinctly different mechanisms. Despite this diversity, in many cases the antihemostatic activities in such organisms reside in proteins with lipocalin folds. Thirteen such lipocalins are described in this review, with a particular focus on the heme-containing nitrophorins from Rhodnius prolixus, which transport nitric oxide, sequester histamine, and disrupt blood coagulation. Also described are the antiplatelet compounds RPAI, moubatin, and pallidipin from R. prolixus, Ornithodoros moubata, and Triatoma pallidipennis; the antithrombin protein triabin from T. pallidipennis; and the tick histamine binding proteins from Rhipicephalus appendiculatus.

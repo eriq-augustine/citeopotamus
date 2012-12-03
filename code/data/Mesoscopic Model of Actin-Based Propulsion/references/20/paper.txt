@@ -1,4 +1,0 @@
-Leading-edge-gel coupling in lamellipodium motion.
-Zimmermann J, Enculescu M, Falcke M
-Abstract:
-We present a model for actin-based motility that combines the dynamics of the semiflexible region at the leading edge of the lamellipodium with actomyosin gel properties in the bulk described by the theory of active polar gels. We calculate the velocity of the lamellipodium determined by the interaction of the gel and adhesion with forces in the semiflexible region. The stationary concave force-velocity relation of the model reproduces experimental results. We suggest that it is determined by retrograde flow at small forces and gel formation and retrograde flow at large ones. The variety of dynamic regimes of the semiflexible region reproducing experimentally observed morphodynamics is conserved when we couple the leading edge to the gel.

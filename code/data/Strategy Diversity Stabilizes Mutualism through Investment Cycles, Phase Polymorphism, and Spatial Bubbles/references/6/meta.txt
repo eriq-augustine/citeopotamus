@@ -1,6 +1,0 @@
-TITLE: The evolution of mutualisms: exploring the paths between conflict and cooperation.
-AUTHORS: Herre EA, Knowlton N, Mueller UG, Rehner SA
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Mutualisms are of fundamental importance in all ecosystems but their very existence poses a series of challenging evolutionary questions. Recently, the application of molecular analyses combined with theoretical advances have transformed our understanding of many specific systems, thereby contributing to the possibility of a more general understanding of the factors that influence mutualisms.

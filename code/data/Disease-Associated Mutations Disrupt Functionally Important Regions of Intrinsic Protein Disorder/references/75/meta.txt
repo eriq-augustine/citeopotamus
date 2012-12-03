@@ -1,6 +1,0 @@
-TITLE: Towards a structural basis of human non-synonymous single nucleotide polymorphisms.
-AUTHORS: Sunyaev S, Ramensky V, Bork P
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

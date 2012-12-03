@@ -1,4 +1,0 @@
-Why do species vary in their rate of molecular evolution?
-Bromham L
-Abstract:
-Despite hopes that the processes of molecular evolution would be simple, clock-like and essentially universal, variation in the rate of molecular evolution is manifest at all levels of biological organization. Furthermore, it has become clear that rate variation has a systematic component: rate of molecular evolution can vary consistently with species body size, population dynamics, lifestyle and location. This suggests that the rate of molecular evolution should be considered part of life-history variation between species, which must be taken into account when interpreting DNA sequence differences between lineages. Uncovering the causes and correlates of rate variation may allow the development of new biologically motivated models of molecular evolution that may improve bioinformatic and phylogenetic analyses.

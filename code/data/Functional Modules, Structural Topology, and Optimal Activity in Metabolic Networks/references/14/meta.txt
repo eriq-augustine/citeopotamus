@@ -1,6 +1,0 @@
-TITLE: Carbon Metabolism Enzymes of Rhizobium tropici Cultures and Bacteroids.
-AUTHORS: Romanov VI, Hernández-Lucas I, Martínez-Romero E
-TERMS:
-CATEGORIES:
-ABSTRACT:
-We determined the activities of selected enzymes involved in carbon metabolism in free-living cells of Rhizobium tropici CFN299 grown in minimal medium with different carbon sources and in bacteroids of the same strain. The set of enzymatic activities in sucrose-grown cells suggests that the pentose phosphate pathway, with the participation of the Entner-Doudoroff pathway, is probably the primary route for sugar catabolism. In glutamate- and malate-grown cells, high activities of the gluconeogenic enzymes (phosphoenolpyruvate carboxykinase, fructose-6-phosphate aldolase, and fructose bisphosphatase) were detected. In bacteroids, isolated in Percoll gradients, the levels of activity for many of the enzymes measured were similar to those of malate-grown cells, except that higher activities of glucokinase, glucose-6-phosphate dehydrogenase, and NAD-dependent phosphogluconate dehydrogenase were detected. Phosphoglucomutase and UDP glucose pyrophosphorylase showed high and constant levels under all growth conditions and in bacteroids.

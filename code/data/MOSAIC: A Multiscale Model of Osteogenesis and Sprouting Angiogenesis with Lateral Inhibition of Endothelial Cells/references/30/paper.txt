@@ -1,4 +1,0 @@
-Angiogenesis: a team effort coordinated by notch.
-Phng LK, Gerhardt H
-Abstract:
-The past two decades of angiogenesis research have identified a wealth of pro- and antiangiogenic signals originating from the tissue environment, which control blood vessel density and function. Understanding when and how blood vessels respond to the combination of signals they encounter to achieve a balanced cellular response is a major challenge for the field of developmental and tumor angiogenesis. This review focuses on how endothelial cell-cell communication via the Notch pathway contributes to this signal integration and is essential for functional vessel patterning.

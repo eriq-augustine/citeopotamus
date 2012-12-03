@@ -1,4 +1,0 @@
-The metagenomics RAST server - a public resource for the automatic phylogenetic and functional analysis of metagenomes.
-Meyer F, Paarmann D, D'Souza M, Olson R, Glass EM, Kubal M, Paczian T, Rodriguez A, Stevens R, Wilke A, Wilkening J, Edwards RA
-Abstract:
-None

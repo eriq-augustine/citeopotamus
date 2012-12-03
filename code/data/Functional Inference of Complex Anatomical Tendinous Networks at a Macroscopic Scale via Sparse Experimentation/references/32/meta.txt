@@ -1,6 +1,0 @@
-TITLE: Computational Models for Neuromuscular Function.
-AUTHORS: Valero-Cuevas FJ, Hoffmann H, Kurse MU, Kutch JJ, Theodorou EA
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Computational models of the neuromuscular system hold the potential to allow us to reach a deeper understanding of neuromuscular function and clinical rehabilitation by complementing experimentation. By serving as a means to distill and explore specific hypotheses, computational models emerge from prior experimental data and motivate future experimental work. Here we review computational tools used to understand neuromuscular function including musculoskeletal modeling, machine learning, control theory, and statistical model analysis. We conclude that these tools, when used in combination, have the potential to further our understanding of neuromuscular function by serving as a rigorous means to test scientific hypotheses in ways that complement and leverage experimental data.

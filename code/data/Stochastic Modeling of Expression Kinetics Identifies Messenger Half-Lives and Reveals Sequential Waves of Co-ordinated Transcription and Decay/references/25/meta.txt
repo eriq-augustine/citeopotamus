@@ -1,6 +1,0 @@
-TITLE: Progression of the cell cycle through mitosis leads to abortion of nascent transcripts.
-AUTHORS: Shermoen AW, O'Farrell PH
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Nascent transcripts of the Drosophila Ubx gene were detected by in situ hybridization. Following onset of expression, the progress of RNA polymerase (1.4 kb/min) across the gene was visualized as the successive appearance of hybridization signals from different positions within the transcription unit. Nascent transcripts disappeared at mitosis. Hybridization signals reappeared in the next cell cycle first with a 5' probe, and later, following a delay consistent with the transcription rate, with a 3' probe. Nascent transcripts were observed continuously in expressing cells of a mutant embryo in which cells are blocked in interphase. We conclude that progression through mitosis causes abortion of nascent transcripts and suggest that periodic abortion of transcription contributes to regulation of expression of large genes.

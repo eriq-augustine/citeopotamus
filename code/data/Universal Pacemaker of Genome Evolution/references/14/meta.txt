@@ -1,6 +1,0 @@
-TITLE: Molecular evolutionary clock and the neutral theory.
-AUTHORS: Kimura M
-TERMS:
-CATEGORIES:
-ABSTRACT:
-From the standpoint of the neutral theory of molecular evolution, it is expected that a universally valid and exact molecular evolutionary clock would exist if, for a given molecule, the mutation rate for neutral alleles per year were exactly equal among all organisms at all times. Any deviation from the equality of neutral mutation rate per year makes the molecular clock less exact. Such deviation may be due to two causes: one is the change of the mutation rate per year (such as due to change of generation span), and the other is the alteration of the selective constraint of each molecule (due to change of internal molecular environment). A statistical method was developed to investigate the equality of evolutionary rates among lineages. This was used to analyze protein data to demonstrate that these two causes are actually at work in molecular evolution. It was emphasized that departures from exact clockwise progression of molecular evolution by no means invalidates the neutral theory. It was pointed out that experimental studies should be done to settle the issue of whether the mutation rate for nucleotide change is more constant per year or per generation among organisms whose generation spans are very different.

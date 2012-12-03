@@ -1,4 +1,0 @@
-Relative rates of gene fusion and fission in multi-domain proteins.
-Kummerfeld SK, Teichmann SA
-Abstract:
-During evolution genes can produce more complex proteins by gene fusion or less complex proteins by gene fission. Considering proteins from 131 completely sequenced genomes from all three kingdoms of life, we identified 2869 groups of multi-domain proteins as a single protein in certain organisms and as two or more smaller proteins with equivalent domain architectures in other organisms. We found that fusion events are approximately four times more common than fission events, and we established that, in most cases, any particular fusion or fission event only occurred once during the course of evolution.

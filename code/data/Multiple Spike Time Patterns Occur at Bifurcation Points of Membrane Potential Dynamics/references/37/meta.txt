@@ -1,6 +1,0 @@
-TITLE: Predicting spike timing of neocortical pyramidal neurons by simple threshold models.
-AUTHORS: Jolivet R, Rauch A, Lüscher HR, Gerstner W
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Neurons generate spikes reliably with millisecond precision if driven by a fluctuating current--is it then possible to predict the spike timing knowing the input? We determined parameters of an adapting threshold model using data recorded in vitro from 24 layer 5 pyramidal neurons from rat somatosensory cortex, stimulated intracellularly by a fluctuating current simulating synaptic bombardment in vivo. The model generates output spikes whenever the membrane voltage (a filtered version of the input current) reaches a dynamic threshold. We find that for input currents with large fluctuation amplitude, up to 75% of the spike times can be predicted with a precision of +/-2 ms. Some of the intrinsic neuronal unreliability can be accounted for by a noisy threshold mechanism. Our results suggest that, under random current injection into the soma, (i) neuronal behavior in the subthreshold regime can be well approximated by a simple linear filter; and (ii) most of the nonlinearities are captured by a simple threshold process.

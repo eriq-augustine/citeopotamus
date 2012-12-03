@@ -1,6 +1,0 @@
-TITLE: Metabolon formation and metabolic channeling in the biosynthesis of plant natural products.
-AUTHORS: Jørgensen K, Rasmussen AV, Morant M, Nielsen AH, Bjarnholt N, Zagrobelny M, Bak S, Møller BL
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Metabolon formation and metabolic channeling in plant secondary metabolism enable plants to effectively synthesize specific natural products and to avoid metabolic interference. Channeling can involve different cell types, take advantage of compartmentalization within the same cell or proceed directly within a metabolon. New experimental approaches document the importance of channeling in the synthesis of isoprenoids, alkaloids, phenylpropanoids, flavonoids and cyanogenic glucosides. Metabolon formation and metabolic channeling in natural-product synthesis facilitate attempts to genetically engineer new pathways into plants to improve their content of valuable natural products. They also offer the opportunity to introduce new traits by genetic engineering to produce plant cultivars that adhere to the principle of substantial equivalence.

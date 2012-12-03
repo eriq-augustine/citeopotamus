@@ -1,4 +1,0 @@
-Dislocation dynamics in Rayleigh-Bénard convection.
-Walter T, Pesch W, Bodenschatz E
-Abstract:
-None

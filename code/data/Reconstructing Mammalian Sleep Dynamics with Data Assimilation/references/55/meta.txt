@@ -1,6 +1,0 @@
-TITLE: Identifiability and observability analysis for experimental design in nonlinear dynamical models.
-AUTHORS: Raue A, Becker V, Klingmüller U, Timmer J
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

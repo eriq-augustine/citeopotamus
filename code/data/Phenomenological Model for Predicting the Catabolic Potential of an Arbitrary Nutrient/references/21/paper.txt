@@ -1,4 +1,0 @@
-Genome-scale reconstruction of the metabolic network in Staphylococcus aureus N315: an initial draft to the two-dimensional annotation.
-Becker SA, Palsson BØ
-Abstract:
-None

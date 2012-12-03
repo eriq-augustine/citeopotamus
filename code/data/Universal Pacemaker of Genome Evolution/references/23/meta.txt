@@ -1,6 +1,0 @@
-TITLE: Molecular clock in neutral protein evolution.
-AUTHORS: Wilke CO
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

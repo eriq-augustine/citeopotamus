@@ -1,6 +1,0 @@
-TITLE: Rapid evolution of functional complexity in a domain family.
-AUTHORS: Ernst A, Sazinsky SL, Hui S, Currell B, Dharsee M, Seshagiri S, Bader GD, Sidhu SS
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Multicellular organisms rely on complex, fine-tuned protein networks to respond to environmental changes. We used in vitro evolution to explore the role of domain mutation and expansion in the evolution of network complexity. Using random mutagenesis to facilitate family expansion, we asked how versatile and robust the binding site must be to produce the rich functional diversity of the natural PDZ domain family. From a combinatorial protein library, we analyzed several hundred structured domain variants and found that one-quarter were functional for carboxyl-terminal ligand recognition and that our variant repertoire was as specific and diverse as the natural family. Our results show that ligand binding is hardwired in the PDZ fold and suggest that this flexibility may facilitate the rapid evolution of complex protein interaction networks.

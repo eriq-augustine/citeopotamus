@@ -1,6 +1,0 @@
-TITLE: Large-scale 13C-flux analysis reveals mechanistic principles of metabolic network robustness to null mutations in yeast.
-AUTHORS: Blank LM, Kuepfer L, Sauer U
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

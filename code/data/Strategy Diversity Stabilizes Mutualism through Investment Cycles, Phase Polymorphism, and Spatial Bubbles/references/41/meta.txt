@@ -1,6 +1,0 @@
-TITLE: A note on evolutionary stable strategies and game dynamics.
-AUTHORS: Hofbauer J, Schuster P, Sigmund K
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

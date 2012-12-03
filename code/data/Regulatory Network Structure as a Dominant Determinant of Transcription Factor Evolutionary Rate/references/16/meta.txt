@@ -1,6 +1,0 @@
-TITLE: Genome-wide analysis in vivo of translation with nucleotide resolution using ribosome profiling.
-AUTHORS: Ingolia NT, Ghaemmaghami S, Newman JR, Weissman JS
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Techniques for systematically monitoring protein translation have lagged far behind methods for measuring messenger RNA (mRNA) levels. Here, we present a ribosome-profiling strategy that is based on the deep sequencing of ribosome-protected mRNA fragments and enables genome-wide investigation of translation with subcodon resolution. We used this technique to monitor translation in budding yeast under both rich and starvation conditions. These studies defined the protein sequences being translated and found extensive translational control in both determining absolute protein abundance and responding to environmental stress. We also observed distinct phases during translation that involve a large decrease in ribosome density going from early to late peptide elongation as well as widespread regulated initiation at non-adenine-uracil-guanine (AUG) codons. Ribosome profiling is readily adaptable to other organisms, making high-precision investigation of protein translation experimentally accessible.

@@ -1,6 +1,0 @@
-TITLE: A universal design principle for visual system pinwheels.
-AUTHORS: Stevens CF
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

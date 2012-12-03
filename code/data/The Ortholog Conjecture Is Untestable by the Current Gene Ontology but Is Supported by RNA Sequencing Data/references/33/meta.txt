@@ -1,6 +1,0 @@
-TITLE: Nrarp coordinates endothelial Notch and Wnt signaling to control vessel density in angiogenesis.
-AUTHORS: Phng LK, Potente M, Leslie JD, Babbage J, Nyqvist D, Lobov I, Ondr JK, Rao S, Lang RA, Thurston G, Gerhardt H
-TERMS:
-CATEGORIES:
-ABSTRACT:
-When and where to make or break new blood vessel connections is the key to understanding guided vascular patterning. VEGF-A stimulation and Dll4/Notch signaling cooperatively control the number of new connections by regulating endothelial tip cell formation. Here, we show that the Notch-regulated ankyrin repeat protein (Nrarp) acts as a molecular link between Notch- and Lef1-dependent Wnt signaling in endothelial cells to control stability of new vessel connections in mouse and zebrafish. Dll4/Notch-induced expression of Nrarp limits Notch signaling and promotes Wnt/Ctnnb1 signaling in endothelial stalk cells through interactions with Lef1. BATgal-reporter expression confirms Wnt signaling activity in endothelial stalk cells. Ex vivo, combined Wnt3a and Dll4 stimulation of endothelial cells enhances Wnt-reporter activity, which is abrogated by loss of Nrarp. In vivo, loss of Nrarp, Lef1, or endothelial Ctnnb1 causes vessel regression. We suggest that the balance between Notch and Wnt signaling determines whether to make or break new vessel connections.

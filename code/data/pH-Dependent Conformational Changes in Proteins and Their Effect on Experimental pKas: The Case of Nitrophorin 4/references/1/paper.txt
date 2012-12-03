@@ -1,4 +1,0 @@
-A summary of the measured pK values of the ionizable groups in folded proteins.
-Grimsley GR, Scholtz JM, Pace CN
-Abstract:
-We tabulated 541 measured pK values reported in the literature for the Asp, Glu, His, Cys, Tyr, and Lys side chains, and the C and N termini of 78 folded proteins. The majority of these values are for the Asp, Glu, and His side chains. The average pK values are Asp 3.5 +/- 1.2 (139); Glu 4.2 +/- 0.9 (153); His 6.6 +/- 1.0 (131); Cys 6.8 +/- 2.7 (25); Tyr 10.3 +/- 1.2 (20); Lys 10.5 +/- 1.1 (35); C-terminus 3.3 +/- 0.8 (22) and N-terminus 7.7 +/- 0.5 (16). We compare these results with the measured pK values of these groups in alanine pentapeptides, and comment on our overall findings.

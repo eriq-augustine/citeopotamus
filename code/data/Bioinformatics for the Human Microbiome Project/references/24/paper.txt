@@ -1,4 +1,0 @@
-Search and clustering orders of magnitude faster than BLAST.
-Edgar RC
-Abstract:
-None

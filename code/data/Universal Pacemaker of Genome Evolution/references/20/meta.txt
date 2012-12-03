@@ -1,6 +1,0 @@
-TITLE: Molecular dating when rates vary.
-AUTHORS: Welch JJ, Bromham L
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Molecular-dating techniques potentially enable us to estimate the time of origin of any biological lineage. Such techniques were originally premised on the assumption of a 'molecular clock'; that is, the assumption that genetic change accumulated steadily over time. However, it is becoming increasingly clear that constant rates of molecular evolution might be the exception rather than the rule. Recently, new methods have appeared that enable the incorporation of variable rates into molecular dating. Direct comparisons between these methods are difficult, because they differ in so many respects. However, the assumptions about rate change on which they rely fall into a few broad categories. Improving our understanding of molecular evolution will be an important next step towards evaluating and improving these methods.

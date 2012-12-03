@@ -1,4 +1,0 @@
-Principles of selective ion transport in channels and pumps.
-Gouaux E, Mackinnon R
-Abstract:
-The transport of ions across the membranes of cells and organelles is a prerequisite for many of life's processes. Transport often involves very precise selectivity for specific ions. Recently, atomic-resolution structures have been determined for channels or pumps that are selective for sodium, potassium, calcium, and chloride: four of the most abundant ions in biology. From these structures we can begin to understand the principles of selective ion transport in terms of the architecture and detailed chemistry of the ion conduction pathways.

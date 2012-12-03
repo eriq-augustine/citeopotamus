@@ -1,6 +1,0 @@
-TITLE: UCHIME improves sensitivity and speed of chimera detection.
-AUTHORS: Edgar RC, Haas BJ, Clemente JC, Quince C, Knight R
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

@@ -1,4 +1,0 @@
-Modeling the fitness consequences of a cyanophage-encoded photosynthesis gene.
-Bragg JG, Chisholm SW
-Abstract:
-None

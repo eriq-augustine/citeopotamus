@@ -1,6 +1,0 @@
-TITLE: Exploration of the cytochrome c oxidase pathway puzzle and examination of the origin of elusive mutational effects.
-AUTHORS: Chakrabarty S, Namslauer I, Brzezinski P, Warshel A
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

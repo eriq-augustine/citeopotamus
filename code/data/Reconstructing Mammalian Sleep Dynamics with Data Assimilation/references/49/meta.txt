@@ -1,6 +1,0 @@
-TITLE: Synchronization-based estimation of all parameters of chaotic systems from time series.
-AUTHORS: Huang D
-TERMS:
-CATEGORIES:
-ABSTRACT:
-By a simple combination of adaptive scheme and linear feedback with the updated feedback strength, for a large class of chaotic systems it is proved rigorously by using the invariance principle of differential equations that all unknown model parameters can be estimated dynamically. This approach supplies a systematic and analytical procedure for estimating parameters from time series, and it is simple to implement in practice. In addition, this method is quite robust against the effect of noise and able to respond rapidly to changes in operating parameters of the experimental system. Lorenz and Rössler hyperchaos systems are used to illustrate the validity of this technique.

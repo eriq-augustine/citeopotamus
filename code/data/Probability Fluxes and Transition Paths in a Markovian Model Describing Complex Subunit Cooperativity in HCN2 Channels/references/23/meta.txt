@@ -1,6 +1,0 @@
-TITLE: Probing molecular kinetics with Markov models: metastable states, transition pathways and spectroscopic observables.
-AUTHORS: Prinz JH, Keller B, Noé F
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Markov (state) models (MSMs) have attracted a lot of interest recently as they (1) can probe long-term molecular kinetics based on short-time simulations, (2) offer a way to analyze great amounts of simulation data with relatively little subjectivity of the analyst, (3) provide insight into microscopic quantities such as the ensemble of transition pathways, and (4) allow simulation data to be reconciled with measurement data in a rigorous and explicit way. Here we sketch our current perspective of Markov models and explain in short their theoretical basis and assumptions. We describe transition path theory which allows the entire ensemble of protein folding pathways to be investigated and that combines naturally with Markov models. Experimental observations can be naturally linked to Markov models with the dynamical fingerprint theory, by which experimentally observable timescales can be equipped with an understanding of the structural rearrangement processes that take place at these timescales. The concepts of this paper are illustrated by a simple kinetic model of protein folding.

@@ -1,6 +1,0 @@
-TITLE: Chronic DLL4 blockade induces vascular neoplasms.
-AUTHORS: Yan M, Callahan CA, Beyer JC, Allamneni KP, Zhang G, Ridgway JB, Niessen K, Plowman GD
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Delta-like 4 (DLL4)-mediated Notch signalling has emerged as an attractive target for cancer therapy. However, the potential side effects of blocking this pathway remain uncertain. Here we show that chronic DLL4 blockade causes pathological activation of endothelial cells, disrupts normal organ homeostasis and induces vascular tumours, raising important safety concerns.

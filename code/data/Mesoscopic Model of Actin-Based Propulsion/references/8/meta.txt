@@ -1,6 +1,0 @@
-TITLE: Cellular motions and thermal fluctuations: the Brownian ratchet.
-AUTHORS: Peskin CS, Odell GM, Oster GF
-TERMS:
-CATEGORIES:
-ABSTRACT:
-We present here a model for how chemical reactions generate protrusive forces by rectifying Brownian motion. This sort of energy transduction drives a number of intracellular processes, including filopodial protrusion, propulsion of the bacterium Listeria, and protein translocation.

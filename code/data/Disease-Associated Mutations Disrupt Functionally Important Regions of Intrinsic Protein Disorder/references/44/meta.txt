@@ -1,6 +1,0 @@
-TITLE: Linking folding and binding.
-AUTHORS: Wright PE, Dyson HJ
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Many cellular proteins are intrinsically disordered and undergo folding, in whole or in part, upon binding to their physiological targets. The past few years have seen an exponential increase in papers describing characterization of intrinsically disordered proteins, both free and bound to targets. Although NMR spectroscopy remains the favored tool, a number of new biophysical techniques are proving exceptionally useful in defining the limits of the conformational ensembles. Advances have been made in prediction of the recognition elements in disordered proteins, in elucidating the kinetics and mechanism of the coupled folding and binding process, and in understanding the role of post-translational modifications in tuning the biological response. Here we review these and other recent advances that are providing new insights into the conformational propensities and interactions of intrinsically disordered proteins and are beginning to reveal general principles underlying their biological functions.

@@ -1,6 +1,0 @@
-TITLE: Cloning, sequencing and transcriptional control of the Schizosaccharomyces pombe cdc10 'start' gene.
-AUTHORS: Aves SJ, Durkacz BW, Carr A, Nurse P
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The cdc10 'start' gene from the fission yeast Schizosaccharomyces pombe has been cloned by rescue of mutant function. It is present as a single copy in the haploid genome. Hybridisation of the gene to Northern blots has identified a low abundance 2.7-kb polyadenylated RNA. Study of RNA extracted from cells both entering stationary phase and undergoing synchronous cell divisions suggests that commitment to the cell cycle is not controlled by regulation of cdc10 transcript level. DNA sequence analysis of the gene has identified an open reading frame capable of encoding a protein of mol. wt. 85 400. The putative cdc10 gene product shows no significant primary structure similarity with products of other fission and budding yeast cell cycle genes, or with other protein sequences in several databases.

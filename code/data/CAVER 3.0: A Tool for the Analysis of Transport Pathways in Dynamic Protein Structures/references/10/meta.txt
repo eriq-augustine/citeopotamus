@@ -1,6 +1,0 @@
-TITLE: The gates of ion channels and enzymes.
-AUTHORS: Zhou HX, McCammon JA
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

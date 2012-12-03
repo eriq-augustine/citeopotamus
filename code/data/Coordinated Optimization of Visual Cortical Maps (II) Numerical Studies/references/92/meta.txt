@@ -1,6 +1,0 @@
-TITLE: Ocular motility and recovery of orientational properties of visual cortical neurones in dark-reared kittens.
-AUTHORS: Buisseret P, Gary-Bobo E, Imbert M
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

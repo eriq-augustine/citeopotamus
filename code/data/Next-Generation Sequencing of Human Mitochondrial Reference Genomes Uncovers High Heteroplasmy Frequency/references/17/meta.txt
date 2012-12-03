@@ -1,6 +1,0 @@
-TITLE: Mitochondrial genetics: a paradigm for aging and degenerative diseases?
-AUTHORS: Wallace DC
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Studies of diseases caused by mitochondrial DNA mutations suggest that a variety of degenerative processes may be associated with defects in oxidative phosphorylation (OXPHOS). Application of this hypothesis has provided new insights into such diverse clinical problems as ischemic heart disease, late-onset diabetes, Parkinson's disease, Alzheimer's disease, and aging.

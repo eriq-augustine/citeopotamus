@@ -1,4 +1,0 @@
-Exploring protein native states and large-scale conformational changes with a modified generalized born model.
-Onufriev A, Bashford D, Case DA
-Abstract:
-None

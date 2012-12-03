@@ -1,6 +1,0 @@
-TITLE: Visual perception and the statistical properties of natural scenes.
-AUTHORS: Geisler WS
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The environments in which we live and the tasks we must perform to survive and reproduce have shaped the design of our perceptual systems through evolution and experience. Therefore, direct measurement of the statistical regularities in natural environments (scenes) has great potential value for advancing our understanding of visual perception. This review begins with a general discussion of the natural scene statistics approach, of the different kinds of statistics that can be measured, and of some existing measurement techniques. This is followed by a summary of the natural scene statistics measured over the past 20 years. Finally, there is a summary of the hypotheses, models, and experiments that have emerged from the analysis of natural scene statistics.

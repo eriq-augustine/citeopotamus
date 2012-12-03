@@ -1,6 +1,0 @@
-TITLE: Quartet MaxCut: a fast algorithm for amalgamating quartet trees.
-AUTHORS: Snir S, Rao S
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

@@ -1,6 +1,0 @@
-TITLE: pKa of the essential Glu54 and backbone conformation for subunit c from the H+-coupled F1F0 ATP synthase from an alkaliphilic Bacillus.
-AUTHORS: Rivera-Torres IO, Krueger-Koplin RD, Hicks DB, Cahill SM, Krulwich TA, Girvin ME
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The conformation of the ATP synthase c-subunit and the pKa of its essential E54 residue were characterized in alkaliphilic Bacillus pseudofirmus OF4. The c-subunit folds as a helix-loop-helix, with inter-helical contacts demonstrated by paramagnetic relaxation effects. The E54 pKa of 7.7 is significantly higher than in non-alkaliphiles, which likely prevents proton loss from the c-rotor at high pH. The E54 pKa was unchanged in a mutant, cP51A, that has a severe ATP synthesis defect at high pH only. cP51 must have some structural role that accounts for the mutant defect, such as different subunit-subunit interactions at high pH.

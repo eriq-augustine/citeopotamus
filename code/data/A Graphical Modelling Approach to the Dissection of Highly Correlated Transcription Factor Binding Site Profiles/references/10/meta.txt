@@ -1,6 +1,0 @@
-TITLE: Deciphering the splicing code.
-AUTHORS: Barash Y, Calarco JA, Gao W, Pan Q, Wang X, Shai O, Blencowe BJ, Frey BJ
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Alternative splicing has a crucial role in the generation of biological complexity, and its misregulation is often involved in human disease. Here we describe the assembly of a 'splicing code', which uses combinations of hundreds of RNA features to predict tissue-dependent changes in alternative splicing for thousands of exons. The code determines new classes of splicing patterns, identifies distinct regulatory programs in different tissues, and identifies mutation-verified regulatory sequences. Widespread regulatory strategies are revealed, including the use of unexpectedly large combinations of features, the establishment of low exon inclusion levels that are overcome by features in specific tissues, the appearance of features deeper into introns than previously appreciated, and the modulation of splice variant levels by transcript structure characteristics. The code detected a class of exons whose inclusion silences expression in adult tissues by activating nonsense-mediated messenger RNA decay, but whose exclusion promotes expression during embryogenesis. The code facilitates the discovery and detailed characterization of regulated alternative splicing events on a genome-wide scale.

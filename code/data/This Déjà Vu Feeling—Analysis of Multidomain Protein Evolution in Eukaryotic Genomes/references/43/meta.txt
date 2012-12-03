@@ -1,6 +1,0 @@
-TITLE: mRNA helicases: the tacticians of translational control.
-AUTHORS: Parsyan A, Svitkin Y, Shahbazian D, Gkogkas C, Lasko P, Merrick WC, Sonenberg N
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The translation initiation step in eukaryotes is highly regulated and rate-limiting. During this process, the 40S ribosomal subunit is usually recruited to the 5' terminus of the mRNA. It then migrates towards the initiation codon, where it is joined by the 60S ribosomal subunit to form the 80S initiation complex. Secondary structures in the 5' untranslated region (UTR) can impede binding and movement of the 40S ribosome. The canonical eukaryotic translation initiation factor eIF4A (also known as DDX2), together with its accessory proteins eIF4B and eIF4H, is thought to act as a helicase that unwinds secondary structures in the mRNA 5' UTR. Growing evidence suggests that other helicases are also important for translation initiation and may promote the scanning processivity of the 40S subunit, synergize with eIF4A to 'melt' secondary structures or facilitate translation of a subset of mRNAs.

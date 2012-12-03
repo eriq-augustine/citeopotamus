@@ -1,6 +1,0 @@
-TITLE: Metabolic investigation of host/pathogen interaction using MS2-infected Escherichia coli.
-AUTHORS: Jain R, Srivastava R
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

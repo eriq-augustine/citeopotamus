@@ -1,6 +1,0 @@
-TITLE: Constant relative rate of protein evolution and detection of functional diversification among bacterial, archaeal and eukaryotic proteins.
-AUTHORS: Jordan IK, Kondrashov FA, Rogozin IB, Tatusov RL, Wolf YI, Koonin EV
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

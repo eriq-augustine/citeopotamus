@@ -1,6 +1,0 @@
-TITLE: Effect of ischaemic preconditioning on genomic response to cerebral ischaemia: similarity to neuroprotective strategies in hibernation and hypoxia-tolerant states.
-AUTHORS: Stenzel-Poore MP, Stevens SL, Xiong Z, Lessov NS, Harrington CA, Mori M, Meller R, Rosenzweig HL, Tobar E, Shaw TE, Chu X, Simon RP
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

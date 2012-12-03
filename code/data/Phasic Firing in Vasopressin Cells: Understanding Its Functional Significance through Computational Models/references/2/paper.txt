@@ -1,4 +1,0 @@
-Physiological pathways regulating the activity of magnocellular neurosecretory cells.
-Leng G, Brown CH, Russell JA
-Abstract:
-Magnocellular oxytocin and vasopressin cells are among the most extensively studied neurons in the brain; their large size and high synthetic capacity, their discrete, homogeneous distribution and the anatomical separation of their terminals from their cell bodies, and the ability to determine their neuronal output readily by measurements of hormone concentration in the plasma, combine to make these systems amenable to a wide range of fundamental investigations. While vasopressin cells have intrinsic burst-generating properties, oxytocin cells are organized within local pattern-generating networks. In this review we consider the rôle played by particular afferent pathways in the regulation of the activity of oxytocin and vasopressin cells. For both cell types, the effects of changes in the activity of synaptic input can be complex.

@@ -1,6 +1,0 @@
-TITLE: A systematic map of direction preference in primary visual cortex.
-AUTHORS: Weliky M, Bosking WH, Fitzpatrick D
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Neurons in the primary visual cortex respond selectively to the orientation of edges and their direction of motion. Orientation preference is mapped in a systematic fashion across the cortical surface, such that neurons in adjacent columns have similar but slightly shifted preferred orientations. Microelectrode studies have suggested that direction preference is also arranged in a systematic fashion, but exactly how this response property is mapped remains unclear. Here we show by optical imaging of intrinsic signals in ferret cortical area 17 that there is a mosaic-like map of direction preference. This map consists of numerous regions within which direction preference changes in a slow, continuous fashion. These regions are separated by winding boundaries (fractures) across which direction preference shifts abruptly, often by 180 degrees. Comparison of direction and orientation preference maps shows that these fractures subdivide iso-orientation domains into regions selective for opposite directions of motion.

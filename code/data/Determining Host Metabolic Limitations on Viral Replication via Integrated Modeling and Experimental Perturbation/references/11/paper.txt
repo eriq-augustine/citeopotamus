@@ -1,4 +1,0 @@
-The virus as metabolic engineer.
-Maynard ND, Gutschow MV, Birch EW, Covert MW
-Abstract:
-Recent genome-wide screens of host genetic requirements for viral infection have reemphasized the critical role of host metabolism in enabling the production of viral particles. In this review, we highlight the metabolic aspects of viral infection found in these studies, and focus on the opportunities these requirements present for metabolic engineers. In particular, the objectives and approaches that metabolic engineers use are readily comparable to the behaviors exhibited by viruses during infection. As a result, metabolic engineers have a unique perspective that could lead to novel and effective methods to combat viral infection.

@@ -1,6 +1,0 @@
-TITLE: Relationship between the entomologic inoculation rate and the force of infection for Plasmodium falciparum malaria.
-AUTHORS: Smith T, Maire N, Dietz K, Killeen GF, Vounatsou P, Molineaux L, Tanner M
-TERMS:
-CATEGORIES:
-ABSTRACT:
-We propose a stochastic model for the relationship between the entomologic inoculation rate (EIR) for Plasmodium falciparum malaria and the force of infection in endemic areas. The model incorporates effects of increased exposure to mosquito bites as a result of the growth in body surface area with the age of the host, naturally acquired pre-erythrocytic immunity, and the reduction in the proportion of entomologically assessed inoculations leading to infection, as the EIR increases. It is fitted to multiple datasets from field studies of the relationship between malaria infection and the EIR. We propose that this model can account for non-monotonic relationships between the age of the host and the parasite prevalence and incidence of disease. It provides a parsimonious explanation for the faster acquisition of natural immunity in adults than in children exposed to high EIRs. This forms one component of a new stochastic model for the entire transmission cycle of P. falciparum that we have derived to estimate the potential epidemiologic impact of malaria vaccines and other malaria control interventions.

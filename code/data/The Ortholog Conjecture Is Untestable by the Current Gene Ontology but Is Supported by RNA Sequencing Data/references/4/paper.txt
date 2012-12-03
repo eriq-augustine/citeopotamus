@@ -1,4 +1,0 @@
-Testing the ortholog conjecture with comparative functional genomic data from mammals.
-Nehrt NL, Clark WT, Radivojac P, Hahn MW
-Abstract:
-None

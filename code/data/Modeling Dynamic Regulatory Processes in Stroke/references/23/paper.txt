@@ -1,4 +1,0 @@
-ChEA: transcription factor regulation inferred from integrating genome-wide ChIP-X experiments.
-Lachmann A, Xu H, Krishnan J, Berger SI, Mazloom AR, Ma'ayan A
-Abstract:
-None

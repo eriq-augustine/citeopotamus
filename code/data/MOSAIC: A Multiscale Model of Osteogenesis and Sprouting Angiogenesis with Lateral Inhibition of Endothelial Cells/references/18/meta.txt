@@ -1,6 +1,0 @@
-TITLE: A hybrid bioregulatory model of angiogenesis during bone fracture healing.
-AUTHORS: Peiffer V, Gerisch A, Vandepitte D, Van Oosterwyck H, Geris L
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Bone fracture healing is a complex process in which angiogenesis or the development of a blood vessel network plays a crucial role. In this paper, a mathematical model is presented that simulates the biological aspects of fracture healing including the formation of individual blood vessels. The model consists of partial differential equations, several of which describe the evolution in density of the most important cell types, growth factors, tissues and nutrients. The other equations determine the growth of blood vessels as a result of the movement of leading endothelial (tip) cells. Branching and anastomoses are accounted for in the model. The model is applied to a normal fracture healing case and subjected to a sensitivity analysis. The spatiotemporal evolution of soft tissues and bone, as well as the development of a blood vessel network are corroborated by comparison with experimental data. Moreover, this study shows that the proposed mathematical framework can be a useful tool in the research of impaired healing and the design of treatment strategies.

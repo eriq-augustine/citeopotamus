@@ -1,4 +1,0 @@
-Investigating the metabolic capabilities of Mycobacterium tuberculosis H37Rv using the in silico strain iNJ661 and proposing alternative drug targets.
-Jamshidi N, Palsson BØ
-Abstract:
-None

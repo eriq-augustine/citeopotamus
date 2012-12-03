@@ -1,6 +1,0 @@
-TITLE: Mapping SNPs to protein sequence and structure data.
-AUTHORS: Cavallo A, Martin AC
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

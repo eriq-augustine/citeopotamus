@@ -1,4 +1,0 @@
-Exploring genomic dark matter: a critical assessment of the performance of homology search methods on noncoding RNA.
-Freyhult EK, Bollback JP, Gardner PP
-Abstract:
-Homology search is one of the most ubiquitous bioinformatic tasks, yet it is unknown how effective the currently available tools are for identifying noncoding RNAs (ncRNAs). In this work, we use reliable ncRNA data sets to assess the effectiveness of methods such as BLAST, FASTA, HMMer, and Infernal. Surprisingly, the most popular homology search methods are often the least accurate. As a result, many studies have used inappropriate tools for their analyses. On the basis of our results, we suggest homology search strategies using the currently available tools and some directions for future development.

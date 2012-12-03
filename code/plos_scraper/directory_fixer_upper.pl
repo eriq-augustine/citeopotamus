@@ -35,6 +35,8 @@ sub dir_map {
 }
 
 sub hoist_references {
+   my ($REF_ROOT) = @_;
+
    opendir(my $REF_DIR, getcwd()) or croak('Unable to open current directory');
 
    my $DIR_BEGIN = telldir($REF_DIR);
@@ -42,7 +44,7 @@ sub hoist_references {
    # A loop to pull all sub directories up to current directory
    for my $sub_dir (read_dir($REF_DIR)) {
       dir_map($sub_dir, sub {
-         hoist_references();
+         hoist_references($REF_ROOT);
       });
    }
    closedir($REF_DIR);
@@ -71,11 +73,12 @@ sub fix_ref_dir {
    my ($paper_dir) = @_;
 
    my $success = dir_map("$paper_dir/references", sub {
-      opendir(my $REF_DIR, getcwd()) or croak('Unable to open cwd');
+      my $reference_root = getcwd();
+      opendir(my $REF_DIR, $reference_root) or croak('Unable to open cwd');
 
       for my $sub_dir (read_dir($REF_DIR)) {
          dir_map($sub_dir, sub {
-            hoist_references();
+            hoist_references($reference_root);
          });
       }
       closedir($REF_DIR);

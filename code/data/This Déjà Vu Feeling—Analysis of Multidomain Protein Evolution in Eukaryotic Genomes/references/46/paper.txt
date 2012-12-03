@@ -1,4 +1,0 @@
-CHOP proteins into structural domain-like fragments.
-Liu J, Rost B
-Abstract:
-None

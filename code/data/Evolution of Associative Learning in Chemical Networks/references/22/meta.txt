@@ -1,6 +1,0 @@
-TITLE: Sensory mechanisms in Paramecium. I. Two components of the electric response to mechanical stimulation of the anterior surface.
-AUTHORS: Eckert R, Naitoh Y, Friedman K
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

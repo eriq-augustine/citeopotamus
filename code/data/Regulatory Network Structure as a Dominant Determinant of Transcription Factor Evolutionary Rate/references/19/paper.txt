@@ -1,4 +1,0 @@
-Inferring condition-specific modulation of transcription factor activity in yeast through regulon-based analysis of genomewide expression.
-Boorsma A, Lu XJ, Zakrzewska A, Klis FM, Bussemaker HJ
-Abstract:
-None

@@ -1,6 +1,0 @@
-TITLE: Prediction of the phenotypic effects of non-synonymous single nucleotide polymorphisms using structural and evolutionary information.
-AUTHORS: Bao L, Cui Y
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

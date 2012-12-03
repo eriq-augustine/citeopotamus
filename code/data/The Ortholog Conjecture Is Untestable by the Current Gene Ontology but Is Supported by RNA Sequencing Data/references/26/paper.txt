@@ -1,4 +1,0 @@
-Estimating accuracy of RNA-Seq and microarrays with proteomics.
-Fu X, Fu N, Guo S, Yan Z, Xu Y, Hu H, Menzel C, Chen W, Li Y, Zeng R, Khaitovich P
-Abstract:
-None

@@ -1,6 +1,0 @@
-TITLE: Theory for the systemic definition of metabolic pathways and their use in interpreting metabolic function from a pathway-oriented perspective.
-AUTHORS: Schilling CH, Letscher D, Palsson BO
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

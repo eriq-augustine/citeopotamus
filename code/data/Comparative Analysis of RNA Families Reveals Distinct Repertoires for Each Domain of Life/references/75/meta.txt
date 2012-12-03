@@ -1,6 +1,0 @@
-TITLE: The function and synthesis of ribosomes.
-AUTHORS: Lafontaine DL, Tollervey D
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Structural analyses of the large and small ribosomal subunits have allowed us to think about how they work in more detail than ever before. The mechanisms that underlie ribosomal synthesis, translocation and catalysis are now being unravelled, with practical implications for the design of antibiotics.

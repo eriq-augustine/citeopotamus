@@ -1,4 +1,0 @@
-Psychometric functions for pure-tone frequency discrimination.
-Dai H, Micheyl C
-Abstract:
-None

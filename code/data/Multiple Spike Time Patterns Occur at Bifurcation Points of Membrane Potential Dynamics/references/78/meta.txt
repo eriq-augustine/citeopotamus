@@ -1,6 +1,0 @@
-TITLE: Multistability in recurrent neural loops arising from delay.
-AUTHORS: Foss J, Milton J
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The dynamics of a recurrent inhibitory neural loop composed of a periodically spiking Aplysia motoneuron reciprocally connected to a computer are investigated as a function of the time delay, tau, for propagation around the loop. It is shown that for certain choices of tau, multiple qualitatively different neural spike trains co-exist. A mathematical model is constructed for the dynamics of this pulsed-coupled recurrent loop in which all parameters are readily measured experimentally: the phase resetting curve of the neuron for a given simulated postsynaptic current and tau. For choices of the parameters for which multiple spiking patterns co-exist in the experimental paradigm, the model exhibits multistability. Numerical simulations suggest that qualitatively similar results will occur if the motoneuron is replaced by several other types of neurons and that once tau becomes sufficiently long, multistability will be the dominant form of dynamical behavior. These observations suggest that great care must be taken in determining the etiology of qualitative changes in neural spiking patterns, particularly when propagation times around polysynaptic loops are long.

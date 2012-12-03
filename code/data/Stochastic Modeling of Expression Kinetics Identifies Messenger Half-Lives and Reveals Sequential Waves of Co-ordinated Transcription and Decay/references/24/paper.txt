@@ -1,4 +1,0 @@
-GOrilla: a tool for discovery and visualization of enriched GO terms in ranked gene lists.
-Eden E, Navon R, Steinfeld I, Lipson D, Yakhini Z
-Abstract:
-None

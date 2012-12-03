@@ -1,6 +1,0 @@
-TITLE: Circuit-breakers: optical technologies for probing neural signals and systems.
-AUTHORS: Zhang F, Aravanis AM, Adamantidis A, de Lecea L, Deisseroth K
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Neuropsychiatric disorders, which arise from a combination of genetic, epigenetic and environmental influences, epitomize the challenges faced in understanding the mammalian brain. Elucidation and treatment of these diseases will benefit from understanding how specific brain cell types are interconnected and signal in neural circuits. Newly developed neuroengineering tools based on two microbial opsins, channelrhodopsin-2 (ChR2) and halorhodopsin (NpHR), enable the investigation of neural circuit function with cell-type-specific, temporally accurate and reversible neuromodulation. These tools could lead to the development of precise neuromodulation technologies for animal models of disease and clinical neuropsychiatry.

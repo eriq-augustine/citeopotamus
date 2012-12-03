@@ -1,6 +1,0 @@
-TITLE: Evolutionary trees from DNA sequences: a maximum likelihood approach.
-AUTHORS: Felsenstein J
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The application of maximum likelihood techniques to the estimation of evolutionary trees from nucleic acid sequence data is discussed. A computationally feasible method for finding such maximum likelihood estimates is developed, and a computer program is available. This method has advantages over the traditional parsimony algorithms, which can give misleading results if rates of evolution differ in different lineages. It also allows the testing of hypotheses about the constancy of evolutionary rates by likelihood ratio tests, and gives rough indication of the error of ;the estimate of the tree.

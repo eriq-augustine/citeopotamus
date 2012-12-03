@@ -1,4 +1,0 @@
-Different effects of redundant feedback loops on a bistable switch.
-Domingo-Sananes MR, Novak B
-Abstract:
-None

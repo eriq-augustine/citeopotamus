@@ -1,6 +1,0 @@
-TITLE: BEAST: Bayesian evolutionary analysis by sampling trees.
-AUTHORS: Drummond AJ, Rambaut A
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

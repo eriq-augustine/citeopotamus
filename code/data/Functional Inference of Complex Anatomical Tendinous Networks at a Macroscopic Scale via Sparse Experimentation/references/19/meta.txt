@@ -1,6 +1,0 @@
-TITLE: Sonography of tendons.
-AUTHORS: Rasmussen OS
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Recent advances in ultrasound technology and the development of high-resolution ultrasound transducers have enabled detailed depiction of superficial musculoskeletal structures. While in the past considered as complementary to magnetic resonance (MR) imaging, modern ultrasound has clearly become competitive. It is now the imaging modality of choice for evaluating tendon pathology. The major advantages of ultrasound include dynamic evaluation of structures, low cost and wide availability. The main disadvantage is a high degree of operator dependency. This article discusses the current ultrasound characteristics of normal tendon, the artefacts that may mimic tendon disease and reviews the applications of ultrasound to the evaluation of tendon disorders, including tendon tears, tendinitis, tenosynovitis, ganglion cysts and bursitis.

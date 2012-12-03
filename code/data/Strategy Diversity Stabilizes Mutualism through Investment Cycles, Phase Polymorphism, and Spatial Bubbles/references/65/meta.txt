@@ -1,6 +1,0 @@
-TITLE: Coevolutionary biology: sex and the geographic mosaic of coevolution.
-AUTHORS: Thompson JN
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Natural selection can favor the coexistence of sexual and asexual forms of a species even within a single ecosystem, when hotspots of coevolution between hosts and parasites occur next to coldspots.

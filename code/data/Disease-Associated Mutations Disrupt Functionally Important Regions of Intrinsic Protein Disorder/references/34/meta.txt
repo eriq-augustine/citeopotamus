@@ -1,6 +1,0 @@
-TITLE: Intrinsically disordered proteins: regulation and disease.
-AUTHORS: Babu MM, van der Lee R, de Groot NS, Gsponer J
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

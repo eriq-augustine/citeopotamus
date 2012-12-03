@@ -1,4 +1,0 @@
-A technique for kinematic modeling of anatomical joints.
-Sommer HJ 3rd, Miller NR
-Abstract:
-This paper describes a general technique for fitting a spatial kinematic model to an in-vivo anatomical joint under typical physiological loading conditions. The method employs a nonlinear least squares algorithm to minimize the aggregate deviation between postulated model motion and experimentally measured anatomical joint motion over multiple joint positions. Estimation of the parameters of a universal joint with skew-oblique revolutes to best reproduce wrist motion was used as an example. Experimental motion data from the right wrists of five subjects were analyzed. The technique performed very well and produced repeatable results consistent with previous biomechanical wrist findings.

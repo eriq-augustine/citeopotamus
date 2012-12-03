@@ -1,6 +1,0 @@
-TITLE: Orthology and functional conservation in eukaryotes.
-AUTHORS: Dolinski K, Botstein D
-TERMS:
-CATEGORIES:
-ABSTRACT:
-In recent years, it has become clear that all of the organisms on the Earth are related to each other in ways that can be documented by molecular sequence comparison. In this review, we focus on the evolutionary relationships among the proteins of the eukaryotes, especially those that allow inference of function from one species to another. Data and illustrations are derived from specific comparison of eight species: Homo sapiens, Mus musculus, Arabidopsis thaliana, Caenorhabditis elegans, Danio rerio, Saccharomyces cerevisiae, and Plasmodium falciparum.

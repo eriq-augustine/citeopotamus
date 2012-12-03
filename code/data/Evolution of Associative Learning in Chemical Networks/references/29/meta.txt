@@ -1,6 +1,0 @@
-TITLE: Predictive behavior within microbial genetic networks.
-AUTHORS: Tagkopoulos I, Liu YC, Tavazoie S
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The homeostatic framework has dominated our understanding of cellular physiology. We question whether homeostasis alone adequately explains microbial responses to environmental stimuli, and explore the capacity of intracellular networks for predictive behavior in a fashion similar to metazoan nervous systems. We show that in silico biochemical networks, evolving randomly under precisely defined complex habitats, capture the dynamical, multidimensional structure of diverse environments by forming internal representations that allow prediction of environmental change. We provide evidence for such anticipatory behavior by revealing striking correlations of Escherichia coli transcriptional responses to temperature and oxygen perturbations-precisely mirroring the covariation of these parameters upon transitions between the outside world and the mammalian gastrointestinal tract. We further show that these internal correlations reflect a true associative learning paradigm, because they show rapid decoupling upon exposure to novel environments.

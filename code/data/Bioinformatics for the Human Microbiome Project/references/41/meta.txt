@@ -1,6 +1,0 @@
-TITLE: Linking long-term dietary patterns with gut microbial enterotypes.
-AUTHORS: Wu GD, Chen J, Hoffmann C, Bittinger K, Chen YY, Keilbaugh SA, Bewtra M, Knights D, Walters WA, Knight R, Sinha R, Gilroy E, Gupta K, Baldassano R, Nessel L, Li H, Bushman FD, Lewis JD
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Diet strongly affects human health, partly by modulating gut microbiome composition. We used diet inventories and 16S rDNA sequencing to characterize fecal samples from 98 individuals. Fecal communities clustered into enterotypes distinguished primarily by levels of Bacteroides and Prevotella. Enterotypes were strongly associated with long-term diets, particularly protein and animal fat (Bacteroides) versus carbohydrates (Prevotella). A controlled-feeding study of 10 subjects showed that microbiome composition changed detectably within 24 hours of initiating a high-fat/low-fiber or low-fat/high-fiber diet, but that enterotype identity remained stable during the 10-day study. Thus, alternative enterotype states are associated with long-term diet.

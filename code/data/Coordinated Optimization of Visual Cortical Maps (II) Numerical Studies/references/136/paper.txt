@@ -1,4 +1,0 @@
-Inducible genetic suppression of neuronal excitability.
-Johns DC, Marx R, Mains RE, O'Rourke B, Marbán E
-Abstract:
-Graded, reversible suppression of neuronal excitability represents a logical goal of therapy for epilepsy and intractable pain. To achieve such suppression, we have developed the means to transfer "electrical silencing" genes into neurons with sensitive control of transgene expression. An ecdysone-inducible promoter drives the expression of inwardly rectifying potassium channels in polycistronic adenoviral vectors. Infection of superior cervical ganglion neurons did not affect normal electrical activity but suppressed excitability after the induction of gene expression. These experiments demonstrate the feasibility of controlled ion channel expression after somatic gene transfer into neurons and serve as the prototype for a novel generalizable approach to modulate excitability.

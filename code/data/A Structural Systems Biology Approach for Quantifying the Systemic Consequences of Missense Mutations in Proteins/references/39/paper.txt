@@ -1,4 +1,0 @@
-JOY: protein sequence-structure representation and analysis.
-Mizuguchi K, Deane CM, Blundell TL, Johnson MS, Overington JP
-Abstract:
-None

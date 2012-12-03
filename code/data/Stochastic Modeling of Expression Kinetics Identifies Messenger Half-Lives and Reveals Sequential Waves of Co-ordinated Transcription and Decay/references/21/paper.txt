@@ -1,4 +1,0 @@
-Major role for mRNA stability in shaping the kinetics of gene induction.
-Elkon R, Zlotorynski E, Zeller KI, Agami R
-Abstract:
-None

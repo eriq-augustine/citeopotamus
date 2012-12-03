@@ -1,4 +1,0 @@
-The eukaryotic genome as an RNA machine.
-Amaral PP, Dinger ME, Mercer TR, Mattick JS
-Abstract:
-The past few years have revealed that the genomes of all studied eukaryotes are almost entirely transcribed, generating an enormous number of non-protein-coding RNAs (ncRNAs). In parallel, it is increasingly evident that many of these RNAs have regulatory functions. Here, we highlight recent advances that illustrate the diversity of ncRNA control of genome dynamics, cell biology, and developmental programming.

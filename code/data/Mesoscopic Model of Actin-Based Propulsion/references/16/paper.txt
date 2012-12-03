@@ -1,4 +1,0 @@
-An elastic analysis of Listeria monocytogenes propulsion.
-Gerbal F, Chaikin P, Rabin Y, Prost J
-Abstract:
-The bacterium Listeria monocytogenes uses the energy of the actin polymerization to propel itself through infected tissues. In steady state, it continuously adds new polymerized filaments to its surface, pushing on its tail, which is made from previously cross-linked actin filaments. In this paper we introduce an elastic model to describe how the addition of actin filaments to the tail results in the propulsive force on the bacterium. Filament growth on the bacterial surface produces stresses that are relieved at the back of the bacterium as it moves forward. The model leads to a natural competition between growth from the sides and growth from the back of the bacterium, with different velocities and strengths for each. This competition can lead to the periodic motion observed in a Listeria mutant.

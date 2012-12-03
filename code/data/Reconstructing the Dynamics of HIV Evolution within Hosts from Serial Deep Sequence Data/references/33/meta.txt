@@ -1,6 +1,0 @@
-TITLE: A new method for calculating evolutionary substitution rates.
-AUTHORS: Lanave C, Preparata G, Saccone C, Serio G
-TERMS:
-CATEGORIES:
-ABSTRACT:
-In this paper we present a new method for analysing molecular evolution in homologous genes based on a general stationary Markov process. The elaborate statistical analysis necessary to apply the method effectively has been performed using Monte Carlo techniques. We have applied our method to the silent third position of the codon of the five mitochondrial genes coding for identified proteins of four mammalian species (rat, mouse, cow and man). We found that the method applies satisfactorily to the three former species, while the last appears to be outside the scope of the present approach. The method allows one to calculate the evolutionarily effective silent substitution rate (vs) for mitochondrial genes, which in the species mentioned above is 1.4 X 10(-8) nucleotide substitutions per site per year. We have also determined the divergence time ratios between the couples mouse-cow/rat-mouse and rat-cow/rat-mouse. In both cases this value is approximately 1.4.

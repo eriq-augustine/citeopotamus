@@ -1,6 +1,0 @@
-TITLE: Bayesian-based selection of metabolic objective functions.
-AUTHORS: Knorr AL, Jain R, Srivastava R
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

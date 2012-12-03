@@ -1,6 +1,0 @@
-TITLE: The development of direction selectivity in ferret visual cortex requires early visual experience.
-AUTHORS: Li Y, Fitzpatrick D, White LE
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Development of the selective response properties that define columns in sensory cortex is thought to begin early in cortical maturation, without the need for experience. We investigated the development of direction selectivity in ferret visual cortex using optical imaging and electrophysiological techniques and found an exception to this view. Unlike orientation selectivity and ocular dominance, direction selectivity was not detected at eye opening. Direction selectivity emerged several days later and strengthened to adult levels over the following 2 weeks. Visual experience was essential for this process, as shown by the absence of direction selectivity in dark-reared ferrets. The impairment persisted in dark-reared ferrets that were given experience after this period, despite the recovery of response amplitude, preference and bandwidth for stimulus orientation, spatial and temporal frequency, and contrast. Visual experience in early postnatal life plays a necessary and unique role in the development of cortical direction selectivity.

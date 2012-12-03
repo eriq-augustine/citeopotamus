@@ -1,6 +1,0 @@
-TITLE: Binding, gating, affinity and efficacy: the interpretation of structure-activity relationships for agonists and of the effects of mutating receptors.
-AUTHORS: Colquhoun D
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

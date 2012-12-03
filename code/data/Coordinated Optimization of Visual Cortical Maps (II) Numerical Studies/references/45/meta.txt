@@ -1,6 +1,0 @@
-TITLE: Genetic influence on quantitative features of neocortical architecture.
-AUTHORS: Kaschube M, Wolf F, Geisel T, Löwel S
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The layout of functional cortical maps exhibits a high degree of interindividual variability that may account for individual differences in sensory and cognitive abilities. By quantitatively assessing the interindividual variability of orientation preference columns in the primary visual cortex, we demonstrate that column sizes and shapes as well as a measure of the homogeneity of column sizes across the visual cortex are significantly clustered in genetically related animals and in the two hemispheres of individual brains. Taking the developmental timetable of column formation into account, our data indicate a substantial genetic influence on the developmental specification of visual cortical architecture and suggest ways in which genetic information may influence an individual's visual abilities.

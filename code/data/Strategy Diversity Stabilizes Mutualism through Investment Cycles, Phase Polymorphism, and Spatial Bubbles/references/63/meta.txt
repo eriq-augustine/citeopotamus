@@ -1,6 +1,0 @@
-TITLE: Pathways to mutualism breakdown.
-AUTHORS: Sachs JL, Simms EL
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Mutualisms are ubiquitous in nature despite the widely held view that they are unstable interactions. Models predict that mutualists might often evolve into parasites, can abandon their partners to live autonomously and are also vulnerable to extinction. Yet a basic empirical question, whether mutualisms commonly break down, has been mostly overlooked. As we discuss here, recent progress in molecular systematics helps address this question. Newly constructed phylogenies reveal that parasites as well as autonomous (non-mutualist) taxa are nested within ancestrally mutualistic clades. Although models have focused on the propensity of mutualism to become parasitic, such shifts appear relatively rarely. By contrast, diverse systems exhibit reversions to autonomy, and this might be a common and unexplored endpoint to mutualism.

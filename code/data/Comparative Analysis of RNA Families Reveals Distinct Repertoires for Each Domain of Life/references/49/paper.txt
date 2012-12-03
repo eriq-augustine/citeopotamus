@@ -1,4 +1,0 @@
-SnoPatrol: how many snoRNA genes are there?
-Gardner PP, Bateman A, Poole AM
-Abstract:
-Small nucleolar RNAs (snoRNAs) are among the most evolutionarily ancient classes of small RNA. Two experimental screens published in BMC Genomics expand the eukaryotic snoRNA catalog, but many more snoRNAs remain to be found.

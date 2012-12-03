@@ -1,6 +1,0 @@
-TITLE: The ecology and evolution of ant association in the Lycaenidae (Lepidoptera).
-AUTHORS: Pierce NE, Braby MF, Heath A, Lohman DJ, Mathew J, Rand DB, Travassos MA
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The estimated 6000 species of Lycaenidae account for about one third of all Papilionoidea. The majority of lycaenids have associations with ants that can be facultative or obligate and range from mutualism to parasitism. Lycaenid larvae and pupae employ complex chemical and acoustical signals to manipulate ants. Cost/benefit analyses have demonstrated multiple trade-offs involved in myrmecophily. Both demographic and phylogenetic evidence indicate that ant association has shaped the evolution of obligately associated groups. Parasitism typically arises from mutualism with ants, and entomophagous species are disproportionately common in the Lycaenidae compared with other Lepidoptera. Obligate associations are more common in the Southern Hemisphere, in part because highly ant-associated lineages make up a larger proportion of the fauna in these regions. Further research on phylogeny and natural history, particularly of the Neotropical fauna, will be necessary to understand the role ant association has played in the evolution of the Lycaenidae.

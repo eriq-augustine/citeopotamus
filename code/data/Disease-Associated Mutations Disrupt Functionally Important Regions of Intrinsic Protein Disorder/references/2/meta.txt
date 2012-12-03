@@ -1,6 +1,0 @@
-TITLE: Human allelic variation: perspective from protein function, structure, and evolution.
-AUTHORS: Jordan DM, Ramensky VE, Sunyaev SR
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

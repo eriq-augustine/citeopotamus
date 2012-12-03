@@ -1,6 +1,0 @@
-TITLE: The NACHT family - a new group of predicted NTPases implicated in apoptosis and MHC transcription activation.
-AUTHORS: Koonin EV, Aravind L
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

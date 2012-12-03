@@ -1,6 +1,0 @@
-TITLE: On the mechanism of molecular interactions in the control of cellular metabolism.
-AUTHORS: Monod J
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

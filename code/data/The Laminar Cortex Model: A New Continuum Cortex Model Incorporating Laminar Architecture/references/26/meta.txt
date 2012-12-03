@@ -1,6 +1,0 @@
-TITLE: Theory of current source-density analysis and determination of conductivity tensor for anuran cerebellum.
-AUTHORS: Nicholson C, Freeman JA
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The theoretical basis of current source-density (CSD) analysis in the central nervous system is described. Equations relating CSD, the current flow vector, and the extracellular field potential are given. It is shown that the CSD provides superior resolution of neuronal events when compared to conventional field-potential analysis. Expressions for the CSD in rectangular Cartesian coordinates are derived, including the general case of anisotropic, inhomogeneous conductive tissue, and a coordinate system rotated with respect to the principal axes (APPENDIX). The minimum number of spatial dimensions for accurate CSD analysis is discussed. The conductivity tensor was experimentally measured in frog and toad cerebella. All three principal components of the tensor were evaluated and their spatial gradients determined to be negligible. It was also shown that the conductivity was independent of potential. Thus the anuran cerebellum is anisotropic, homogeneous, and ohmic. On the basis of these results the appropriate mathematical expression for the CSD was selected.

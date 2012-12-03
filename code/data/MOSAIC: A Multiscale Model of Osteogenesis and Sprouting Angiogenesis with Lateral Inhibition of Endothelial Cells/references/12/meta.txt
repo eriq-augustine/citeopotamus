@@ -1,6 +1,0 @@
-TITLE: Mathematical modeling of tumor-induced angiogenesis.
-AUTHORS: Mantzaris NV, Webb S, Othmer HG
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

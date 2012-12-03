@@ -1,6 +1,0 @@
-TITLE: Reliability of ERP and single-trial analyses.
-AUTHORS: Gaspar CM, Rousselet GA, Pernet CR
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

@@ -1,4 +1,0 @@
-Purification and properties of haloalkane dehalogenase from Corynebacterium sp. strain m15-3.
-Yokota T, Omori T, Kodama T
-Abstract:
-A haloalkane dehalogenase was purified to electrophoretic homogeneity from cell extracts of a 1-chlorobutane-utilizing strain, m15-3, which was identified as a Corynebacterium sp. The enzyme hydrolyzed C2 to C12 mono- and dihalogenated alkanes, some haloalcohols, and haloacids. The Km value of the enzyme for 1-chlorobutane was 0.18 mM. Its molecular weight was estimated to be 36,000 by sodium dodecyl sulfate-polyacrylamide gel electrophoresis and 33,000 by gel filtration. The isoelectric point was pH 4.5. The optimum pH for enzyme activity was found to be 9.4, and the optimum temperature was 30 to 35 degrees C. The enzyme was stable for 1 h at temperatures ranging from 4 to 30 degrees C but was progressively less stable at 40 and 50 degrees C.

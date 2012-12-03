@@ -1,4 +1,0 @@
-Individual-based modelling of angiogenesis inside three-dimensional porous biomaterials.
-Lemon G, Howard D, Rose FR, King JR
-Abstract:
-None

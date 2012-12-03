@@ -1,4 +1,0 @@
-Applications of genome-scale metabolic reconstructions.
-Oberhardt MA, Palsson BØ, Papin JA
-Abstract:
-The availability and utility of genome-scale metabolic reconstructions have exploded since the first genome-scale reconstruction was published a decade ago. Reconstructions have now been built for a wide variety of organisms, and have been used toward five major ends: (1) contextualization of high-throughput data, (2) guidance of metabolic engineering, (3) directing hypothesis-driven discovery, (4) interrogation of multi-species relationships, and (5) network property discovery. In this review, we examine the many uses and future directions of genome-scale metabolic reconstructions, and we highlight trends and opportunities in the field that will make the greatest impact on many fields of biology.

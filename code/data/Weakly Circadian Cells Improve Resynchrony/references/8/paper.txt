@@ -1,4 +1,0 @@
-Multiscale complexity in the mammalian circadian clock.
-Yamada Y, Forger D
-Abstract:
-None

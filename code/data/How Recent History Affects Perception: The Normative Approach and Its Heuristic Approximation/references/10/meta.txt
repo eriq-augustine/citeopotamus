@@ -1,6 +1,0 @@
-TITLE: Psychometric functions for pure-tone frequency discrimination.
-AUTHORS: Dai H, Micheyl C
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

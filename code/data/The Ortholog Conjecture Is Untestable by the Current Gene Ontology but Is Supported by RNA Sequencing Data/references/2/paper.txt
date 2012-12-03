@@ -1,4 +1,0 @@
-Orthology, paralogy and proposed classification for paralog subtypes.
-Sonnhammer EL, Koonin EV
-Abstract:
-None

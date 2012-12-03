@@ -1,6 +1,0 @@
-TITLE: Fission yeast Clp1p phosphatase regulates G2/M transition and coordination of cytokinesis with cell cycle progression.
-AUTHORS: Trautmann S, Wolfe BA, Jorgensen P, Tyers M, Gould KL, McCollum D
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

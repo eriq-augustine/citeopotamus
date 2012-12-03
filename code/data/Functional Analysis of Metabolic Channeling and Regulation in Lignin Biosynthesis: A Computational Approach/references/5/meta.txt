@@ -1,6 +1,0 @@
-TITLE: The biosynthesis of monolignols: a "metabolic grid", or independent pathways to guaiacyl and syringyl units?
-AUTHORS: Dixon RA, Chen F, Guo D, Parvathi K
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Lignin is a complex polymer formed by the oxidative polymerization of hydroxycinnamyl alcohol derivatives termed monolignols. The major monolignols in dicotyledonous angiosperm lignin are monomethylated guaiacyl (G) units derived from coniferyl alcohol, and dimethylated syringyl (S) units derived from sinapyl alcohol. The biochemical pathways leading to the formation of monolignols feature successive hydroxylation and O-methylation of the aromatic ring and conversion of the side chain carboxyl to an alcohol function. The current view of the monolignol biosynthetic pathway envisages a metabolic grid leading to G and S units, through which the successive hydroxylation and O-methylation reactions may occur at different levels of side chain oxidation. The present article assesses biochemical and genetic evidence for and against such a model, including recent data on the methylation reactions of monolignol biosynthesis in alfalfa. We draw attention to portions of the currently accepted monolignol pathway that may require revision, and suggest an alternative model in which metabolic channeling allows for independent pathways to G and S lignin.

@@ -1,6 +1,0 @@
-TITLE: Phylogenomics reveals a new 'megagroup' including most photosynthetic eukaryotes.
-AUTHORS: Burki F, Shalchian-Tabrizi K, Pawlowski J
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Advances in molecular phylogeny of eukaryotes have suggested a tree composed of a small number of supergroups. Phylogenomics recently established the relationships between some of these large assemblages, yet the deepest nodes are still unresolved. Here, we investigate early evolution among the major eukaryotic supergroups using the broadest multigene dataset to date (65 species, 135 genes). Our analyses provide strong support for the clustering of plants, chromalveolates, rhizarians, haptophytes and cryptomonads, thus linking nearly all photosynthetic lineages and raising the question of a possible unique origin of plastids. At its deepest level, the tree of eukaryotes now receives strong support for two monophyletic megagroups comprising most of the eukaryotic diversity.

@@ -1,4 +1,0 @@
-Metabolic dynamics in the human red cell. Part I--A comprehensive kinetic model.
-Joshi A, Palsson BO
-Abstract:
-The experimental investigation of the red cell over the last three decades has accumulated extensive biochemical data on its enzymes and metabolites. The goal of this work is to provide a unified theoretical framework for the integration and consistent interpretation of these data by means of a comprehensive mathematical metabolic model of the red cell. This model is described in four parts. Here, we describe the general conception, scope and the biological assumptions of the model. The model is comprised of dynamic mass balances based on stoichiometry and enzyme kinetics with the imposed physico-chemical constraints of osmotic balance and electroneutrality.

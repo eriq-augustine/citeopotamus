@@ -1,6 +1,0 @@
-TITLE: Genome-scale reconstruction of the Saccharomyces cerevisiae metabolic network.
-AUTHORS: Förster J, Famili I, Fu P, Palsson BØ, Nielsen J
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The metabolic network in the yeast Saccharomyces cerevisiae was reconstructed using currently available genomic, biochemical, and physiological information. The metabolic reactions were compartmentalized between the cytosol and the mitochondria, and transport steps between the compartments and the environment were included. A total of 708 structural open reading frames (ORFs) were accounted for in the reconstructed network, corresponding to 1035 metabolic reactions. Further, 140 reactions were included on the basis of biochemical evidence resulting in a genome-scale reconstructed metabolic network containing 1175 metabolic reactions and 584 metabolites. The number of gene functions included in the reconstructed network corresponds to approximately 16% of all characterized ORFs in S. cerevisiae. Using the reconstructed network, the metabolic capabilities of S. cerevisiae were calculated and compared with Escherichia coli. The reconstructed metabolic network is the first comprehensive network for a eukaryotic organism, and it may be used as the basis for in silico analysis of phenotypic functions.

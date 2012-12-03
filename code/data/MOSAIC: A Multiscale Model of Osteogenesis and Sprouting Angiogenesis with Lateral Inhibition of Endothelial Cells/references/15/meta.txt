@@ -1,6 +1,0 @@
-TITLE: A hybrid model for three-dimensional simulations of sprouting angiogenesis.
-AUTHORS: Milde F, Bergdorf M, Koumoutsakos P
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Recent advances in cancer research have identified critical angiogenic signaling pathways and the influence of the extracellular matrix on endothelial cell migration. These findings provide us with insight into the process of angiogenesis that can facilitate the development of effective computational models of sprouting angiogenesis. In this work, we present the first three-dimensional model of sprouting angiogenesis that considers explicitly the effect of the extracellular matrix and of the soluble as well as matrix-bound growth factors on capillary growth. The computational model relies on a hybrid particle-mesh representation of the blood vessels and it introduces an implicit representation of the vasculature that can accommodate detailed descriptions of nutrient transport. Extensive parametric studies reveal the role of the extracellular matrix structure and the distribution of the different vascular endothelial growth factors isoforms on the dynamics and the morphology of the generated vascular networks.

@@ -1,6 +1,0 @@
-TITLE: Metagenomics--the key to the uncultured microbes.
-AUTHORS: Streit WR, Schmitz RA
-TERMS:
-CATEGORIES:
-ABSTRACT:
-It is widely accepted that up to 99.8% of the microbes present in many environments are not readily culturable. 'Metagenome technology' tries to overcome this bottleneck by developing and using culture-independent approaches. From the outset, metagenome-based approaches have led to the accumulation of an increasing number of DNA sequences, but until this time the sequences retrieved have been those of uncultured microbes. These genomic sequences are currently exploited for novel biotechnological and pharmaceutical applications and to increase our knowledge on microbial ecology and physiology of these microbes. Using the metagenome sequences to fully understand how complex microbial communities function and how microbes interact within these niches represents a major challenge for microbiologists today.

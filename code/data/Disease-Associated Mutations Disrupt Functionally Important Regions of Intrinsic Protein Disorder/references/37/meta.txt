@@ -1,6 +1,0 @@
-TITLE: IUPred: web server for the prediction of intrinsically unstructured regions of proteins based on estimated energy content.
-AUTHORS: Dosztányi Z, Csizmok V, Tompa P, Simon I
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Intrinsically unstructured/disordered proteins and domains (IUPs) lack a well-defined three-dimensional structure under native conditions. The IUPred server presents a novel algorithm for predicting such regions from amino acid sequences by estimating their total pairwise interresidue interaction energy, based on the assumption that IUP sequences do not fold due to their inability to form sufficient stabilizing interresidue interactions. Optional to the prediction are built-in parameter sets optimized for predicting short or long disordered regions and structured domains.

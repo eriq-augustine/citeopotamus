@@ -1,4 +1,0 @@
-Understanding network concepts in modules.
-Dong J, Horvath S
-Abstract:
-None

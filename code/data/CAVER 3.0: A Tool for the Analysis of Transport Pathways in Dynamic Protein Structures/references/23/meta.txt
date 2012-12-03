@@ -1,6 +1,0 @@
-TITLE: Site-directed mutagenesis of the lower parts of the major substrate channel of yeast catalase A leads to highly increased peroxidatic activity.
-AUTHORS: Zamocky M, Herzog C, Nykyri LM, Koller F
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Five single replacement mutants of catalase A from Saccharomyces cerevisiae were prepared (F148V, F149V, F156V, F159V, and V111A). The exchanges were expected to relieve steric constraints in the lowest part of the major substrate channel. The overall stability of the isolated enzymes is unaffected by the respective amino acid exchanges, but some modifications lead to decreased protohaem binding. All isolated mutants (most pronounced the V111A-species) show decreased catalatic and markedly increased peroxidatic activity, both with aliphatic and aromatic substrates. These effects can in part be explained by steric effects, but also reveal destabilisation of compound I.

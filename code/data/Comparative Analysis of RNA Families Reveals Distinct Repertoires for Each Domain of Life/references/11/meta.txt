@@ -1,6 +1,0 @@
-TITLE: Riboswitches and the RNA world.
-AUTHORS: Breaker RR
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Riboswitches are structured noncoding RNA domains that selectively bind metabolites and control gene expression (Mandal and Breaker 2004a; Coppins et al. 2007; Roth and Breaker 2009). Nearly all examples of the known riboswitches reside in noncoding regions of messenger RNAs where they control transcription or translation. Newfound classes of riboswitches are being reported at a rate of about three per year (Ames and Breaker 2009), and these have been shown to selectively respond to fundamental metabolites including coenzymes, nucleobases or their derivatives, amino acids, and other small molecule ligands. The characteristics of some riboswitches suggest they could be modern descendents of an ancient sensory and regulatory system that likely functioned before the emergence of enzymes and genetic factors made of protein (Nahvi et al. 2002; Vitreschak et al. 2004; Breaker 2006). If true, then some of the riboswitch structures and functions that serve modern cells so well may accurately reflect the capabilities of RNA sensors and switches that existed in the RNA World. This article will address some of the characteristics of modern riboswitches that may be relevant to ancient versions of these metabolite-sensing RNAs.

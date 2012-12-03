@@ -1,6 +1,0 @@
-TITLE: PIP(2) and proteins: interactions, organization, and information flow.
-AUTHORS: McLaughlin S, Wang J, Gambhir A, Murray D
-TERMS:
-CATEGORIES:
-ABSTRACT:
-We review the physical properties of phosphatidylinositol 4,5-bisphosphate (PIP2) that determine both its specific interactions with protein domains of known structure and its nonspecific electrostatic sequestration by unstructured domains. Several investigators have postulated the existence of distinct pools of PIP2 within the cell to account for the myriad functions of this lipid. Recent experimental work indicates certain regions of the plasma membrane-membrane ruffles and nascent phagosomes-do indeed concentrate PIP2. We consider two mechanisms that could account for this phenomenon: local synthesis and electrostatic sequestration. We conclude by considering the hypothesis that proteins such as MARCKS bind a significant fraction of the PIP2 in a cell, helping to sequester it in lateral membrane domains, then release this lipid in response to local signals such as an increased concentration of Ca(++)/calmodulin or activation of protein kinase C.

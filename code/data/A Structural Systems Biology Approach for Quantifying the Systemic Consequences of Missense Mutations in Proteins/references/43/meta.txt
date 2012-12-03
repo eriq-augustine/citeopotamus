@@ -1,6 +1,0 @@
-TITLE: JOY: protein sequence-structure representation and analysis.
-AUTHORS: Mizuguchi K, Deane CM, Blundell TL, Johnson MS, Overington JP
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

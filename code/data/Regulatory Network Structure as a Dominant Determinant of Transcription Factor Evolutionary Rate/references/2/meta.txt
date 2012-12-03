@@ -1,6 +1,0 @@
-TITLE: Co-evolution of transcription factors and their targets depends on mode of regulation.
-AUTHORS: Hershberg R, Margalit H
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

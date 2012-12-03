@@ -1,6 +1,0 @@
-TITLE: Phylogenomics: intersection of evolution and genomics.
-AUTHORS: Eisen JA, Fraser CM
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Much has been gained from genomic and evolutionary studies of species. Combining the perspectives of these different approaches suggests that an integrated phylogenomic approach will be beneficial.

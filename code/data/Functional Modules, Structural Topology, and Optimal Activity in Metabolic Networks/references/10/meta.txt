@@ -1,6 +1,0 @@
-TITLE: Systems biology of bacterial nitrogen fixation: high-throughput technology and its integrative description with constraint-based modeling.
-AUTHORS: Resendis-Antonio O, Hernández M, Salazar E, Contreras S, Batallar GM, Mora Y, Encarnación S
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

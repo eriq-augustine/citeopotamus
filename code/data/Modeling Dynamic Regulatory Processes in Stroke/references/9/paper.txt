@@ -1,4 +1,0 @@
-A systematic petri net approach for multiple-scale modeling and simulation of biochemical processes.
-Chen M, Hu M, Hofestädt R
-Abstract:
-A method to exploit hybrid Petri nets for modeling and simulating biochemical processes in a systematic way was introduced. Both molecular biology and biochemical engineering aspects are manipulated. With discrete and continuous elements, the hybrid Petri nets can easily handle biochemical factors such as metabolites concentration and kinetic behaviors. It is possible to translate both molecular biological behavior and biochemical processes workflow into hybrid Petri nets in a natural manner. As an example, penicillin production bioprocess is modeled to illustrate the concepts of the methodology. Results of the dynamic of production parameters in the bioprocess were simulated and observed diagrammatically. Current problems and post-genomic perspectives were also discussed.

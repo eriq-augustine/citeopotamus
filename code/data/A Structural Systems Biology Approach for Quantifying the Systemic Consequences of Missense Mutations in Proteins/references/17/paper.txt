@@ -1,4 +1,0 @@
-Tripping the switch fantastic: how a protein kinase cascade can convert graded inputs into switch-like outputs.
-Ferrell JE Jr
-Abstract:
-Recent experimental work has shown that the mitogen-activated protein (MAP) kinase cascade can convert graded inputs into switch-like outputs. The cascade could therefore filter out noise (signals of insufficient magnitude or duration) and still respond decisively to supra-threshold stimuli. Here, we explore the biochemical mechanisms likely to be at the root of this behavior.

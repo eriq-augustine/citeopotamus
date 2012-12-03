@@ -1,6 +1,0 @@
-TITLE: Metagenomic analysis of the human distal gut microbiome.
-AUTHORS: Gill SR, Pop M, Deboy RT, Eckburg PB, Turnbaugh PJ, Samuel BS, Gordon JI, Relman DA, Fraser-Liggett CM, Nelson KE
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The human intestinal microbiota is composed of 10(13) to 10(14) microorganisms whose collective genome ("microbiome") contains at least 100 times as many genes as our own genome. We analyzed approximately 78 million base pairs of unique DNA sequence and 2062 polymerase chain reaction-amplified 16S ribosomal DNA sequences obtained from the fecal DNAs of two healthy adults. Using metabolic function analyses of identified genes, we compared our human genome with the average content of previously sequenced microbial genomes. Our microbiome has significantly enriched metabolism of glycans, amino acids, and xenobiotics; methanogenesis; and 2-methyl-d-erythritol 4-phosphate pathway-mediated biosynthesis of vitamins and isoprenoids. Thus, humans are superorganisms whose metabolism represents an amalgamation of microbial and human attributes.

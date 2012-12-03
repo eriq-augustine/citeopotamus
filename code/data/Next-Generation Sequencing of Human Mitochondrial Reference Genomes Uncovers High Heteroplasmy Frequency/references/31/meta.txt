@@ -1,6 +1,0 @@
-TITLE: Pyrobayes: an improved base caller for SNP discovery in pyrosequences.
-AUTHORS: Quinlan AR, Stewart DA, Strömberg MP, Marth GT
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Previously reported applications of the 454 Life Sciences pyrosequencing technology have relied on deep sequence coverage for accurate polymorphism discovery because of frequent insertion and deletion sequence errors. Here we report a new base calling program, Pyrobayes, for pyrosequencing reads. Pyrobayes permits accurate single-nucleotide polymorphism (SNP) calling in resequencing applications, even in shallow read coverage, primarily because it produces more confident base calls than the native base calling program.

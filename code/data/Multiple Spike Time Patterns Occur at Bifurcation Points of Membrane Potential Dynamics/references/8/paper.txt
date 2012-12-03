@@ -1,4 +1,0 @@
-Low response variability in simultaneously recorded retinal, thalamic, and cortical neurons.
-Kara P, Reinagel P, Reid RC
-Abstract:
-The response of a cortical cell to a repeated stimulus can be highly variable from one trial to the next. Much lower variability has been reported of retinal cells. We recorded visual responses simultaneously from three successive stages of the cat visual system: retinal ganglion cells (RGCs), thalamic (LGN) relay cells, and simple cells in layer 4 of primary visual cortex. Spike count variability was lower than that of a Poisson process at all three stages but increased at each stage. Absolute and relative refractory periods largely accounted for the reliability at all three stages. Our results show that cortical responses can be more reliable than previously thought. The differences in reliability in retina, LGN, and cortex can be explained by (1) decreasing firing rates and (2) decreasing absolute and relative refractory periods.

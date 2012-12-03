@@ -1,6 +1,0 @@
-TITLE: Imaging how attention modulates pain in humans using functional MRI.
-AUTHORS: Bantick SJ, Wise RG, Ploghaus A, Clare S, Smith SM, Tracey I
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Current clinical and experimental literature strongly supports the phenomenon of reduced pain perception whilst attention is distracted away from noxious stimuli. This study used functional MRI to elucidate the underlying neural systems and mechanisms involved. An analogue of the Stroop task, the counting Stroop, was used as a cognitive distraction task whilst subjects received intermittent painful thermal stimuli. Pain intensity scores were significantly reduced when subjects took part in the more cognitively demanding interference task of the counting Stroop than in the less demanding neutral task. When subjects were distracted during painful stimulation, brain areas associated with the affective division of the anterior cingulate cortex (ACC) and orbitofrontal regions showed increased activation. In contrast, many areas of the pain matrix (i.e. thalamus, insula, cognitive division of the ACC) displayed reduced activation, supporting the behavioural results of reduced pain perception.

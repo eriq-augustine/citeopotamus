@@ -1,6 +1,0 @@
-TITLE: Search for a 'Tree of Life' in the thicket of the phylogenetic forest.
-AUTHORS: Puigbò P, Wolf YI, Koonin EV
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

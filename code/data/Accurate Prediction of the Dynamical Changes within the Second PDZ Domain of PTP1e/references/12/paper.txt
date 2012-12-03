@@ -1,4 +1,0 @@
-Sending signals dynamically.
-Smock RG, Gierasch LM
-Abstract:
-Proteins mediate transmission of signals along intercellular and intracellular pathways and between the exterior and the interior of a cell. The dynamic properties of signaling proteins are crucial to their functions. We discuss emerging paradigms for the role of protein dynamics in signaling. A central tenet is that proteins fluctuate among many states on evolutionarily selected energy landscapes. Upstream signals remodel this landscape, causing signaling proteins to transmit information to downstream partners. New methods provide insight into the dynamic properties of signaling proteins at the atomic scale. The next stages in the signaling hierarchy-how multiple signals are integrated and how cellular signaling pathways are organized in space and time-present exciting challenges for the future, requiring bold multidisciplinary approaches.

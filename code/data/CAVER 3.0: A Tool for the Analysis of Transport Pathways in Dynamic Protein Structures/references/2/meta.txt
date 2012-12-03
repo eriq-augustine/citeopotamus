@@ -1,6 +1,0 @@
-TITLE: Aquaporin water channels: unanswered questions and unresolved controversies.
-AUTHORS: Agre P, Brown D, Nielsen S
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The long-standing biophysical question of how water crosses plasma membranes has been answered by the recent discovery of the aquaporins. Identification of this large family of membrane water-transport proteins has generated new questions about the physiological functions, tissue distributions, and regulatory mechanisms of individual aquaporins. The fast pace of developments in this field has also resulted in major discrepancies in published reports which warrant resolution.

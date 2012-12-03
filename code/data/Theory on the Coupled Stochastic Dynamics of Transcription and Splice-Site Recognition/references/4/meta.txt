@@ -1,6 +1,0 @@
-TITLE: Mechanisms of alternative pre-messenger RNA splicing.
-AUTHORS: Black DL
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Alternative pre-mRNA splicing is a central mode of genetic regulation in higher eukaryotes. Variability in splicing patterns is a major source of protein diversity from the genome. In this review, I describe what is currently known of the molecular mechanisms that control changes in splice site choice. I start with the best-characterized systems from the Drosophila sex determination pathway, and then describe the regulators of other systems about whose mechanisms there is some data. How these regulators are combined into complex systems of tissue-specific splicing is discussed. In conclusion, very recent studies are presented that point to new directions for understanding alternative splicing and its mechanisms.

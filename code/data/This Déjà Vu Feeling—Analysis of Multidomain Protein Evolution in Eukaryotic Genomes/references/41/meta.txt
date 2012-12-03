@@ -1,6 +1,0 @@
-TITLE: The structure of the C-terminal KH domains of KSRP reveals a noncanonical motif important for mRNA degradation.
-AUTHORS: García-Mayoral MF, Hollingworth D, Masino L, Díaz-Moreno I, Kelly G, Gherzi R, Chou CF, Chen CY, Ramos A
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The AU-rich element (ARE) RNA-binding protein KSRP (K-homology splicing regulator protein) contains four KH domains and promotes the degradation of specific mRNAs that encode proteins with functions in cellular proliferation and inflammatory response. The fourth KH domain (KH4) is essential for mRNA recognition and decay but requires the third KH domain (KH3) for its function. We show that KH3 and KH4 behave as independent binding modules and can interact with different regions of the AU-rich RNA targets of KSRP. This provides KSRP with the structural flexibility needed to recognize a set of different targets in the context of their 3'UTR structural settings. Surprisingly, we find that KH4 binds to its target AREs with lower affinity than KH3 and that KSRP's mRNA binding, and mRNA degradation activities are closely associated with a conserved structural element of KH4.

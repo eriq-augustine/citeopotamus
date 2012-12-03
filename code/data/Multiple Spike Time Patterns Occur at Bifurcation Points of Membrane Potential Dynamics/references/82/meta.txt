@@ -1,6 +1,0 @@
-TITLE: Shunting inhibition does not have a divisive effect on firing rates.
-AUTHORS: Holt GR, Koch C
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Shunting inhibition, a conductance increase with a reversal potential close to the resting potential of the cell, has been shown to have a divisive effect on subthreshold excitatory postsynaptic potential amplitudes. It has therefore been assumed to have the same divisive effect on firing rates. We show that shunting inhibition actually has a subtractive effect on the firing rate in most circumstances. Averaged over several interspike intervals, the spiking mechanism effectively clamps the somatic membrane potential to a value significantly above the resting potential, so that the current through the shunting conductance is approximately independent of the firing rate. This leads to a subtractive rather than a divisive effect. In addition, at distal synapses, shunting inhibition will also have an approximately subtractive effect if the excitatory conductance is not small compared to the inhibitory conductance. Therefore regulating a cell's passive membrane conductance-for instance, via massive feedback-is not an adequate mechanism for normalizing or scaling its output.

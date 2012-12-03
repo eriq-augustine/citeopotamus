@@ -1,6 +1,0 @@
-TITLE: Gene network interconnectedness and the generalized topological overlap measure.
-AUTHORS: Yip AM, Horvath S
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

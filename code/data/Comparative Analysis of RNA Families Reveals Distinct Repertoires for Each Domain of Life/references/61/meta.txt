@@ -1,6 +1,0 @@
-TITLE: Mesophilic Crenarchaeota: proposal for a third archaeal phylum, the Thaumarchaeota.
-AUTHORS: Brochier-Armanet C, Boussau B, Gribaldo S, Forterre P
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The archaeal domain is currently divided into two major phyla, the Euryarchaeota and Crenarchaeota. During the past few years, diverse groups of uncultivated mesophilic archaea have been discovered and affiliated with the Crenarchaeota. It was recently recognized that these archaea have a major role in geochemical cycles. Based on the first genome sequence of a crenarchaeote, Cenarchaeum symbiosum, we show that these mesophilic archaea are different from hyperthermophilic Crenarchaeota and branch deeper than was previously assumed. Our results indicate that C. symbiosum and its relatives are not Crenarchaeota, but should be considered as a third archaeal phylum, which we propose to name Thaumarchaeota (from the Greek 'thaumas', meaning wonder).

@@ -1,4 +1,0 @@
-Constant-pH molecular dynamics using continuous titration coordinates.
-Lee MS, Salsbury FR Jr, Brooks CL 3rd
-Abstract:
-None

@@ -1,4 +1,0 @@
-Signaling pathways of PDZ2 domain: a molecular dynamics interaction correlation analysis.
-Kong Y, Karplus M
-Abstract:
-None

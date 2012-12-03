@@ -1,6 +1,0 @@
-TITLE: Dynamics of the 2001 UK foot and mouth epidemic: stochastic dispersal in a heterogeneous landscape.
-AUTHORS: Keeling MJ, Woolhouse ME, Shaw DJ, Matthews L, Chase-Topping M, Haydon DT, Cornell SJ, Kappey J, Wilesmith J, Grenfell BT
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Foot-and-mouth is one of the world's most economically important livestock diseases. We developed an individual farm-based stochastic model of the current UK epidemic. The fine grain of the epidemiological data reveals the infection dynamics at an unusually high spatiotemporal resolution. We show that the spatial distribution, size, and species composition of farms all influence the observed pattern and regional variability of outbreaks. The other key dynamical component is long-tailed stochastic dispersal of infection, combining frequent local movements with occasional long jumps. We assess the history and possible duration of the epidemic, the performance of control strategies, and general implications for disease dynamics in space and time.

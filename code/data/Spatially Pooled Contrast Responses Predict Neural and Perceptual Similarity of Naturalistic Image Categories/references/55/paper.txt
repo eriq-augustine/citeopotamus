@@ -1,4 +1,0 @@
-Spatial scaling factors explain eccentricity effects on face ERPs.
-Rousselet GA, Husk JS, Bennett PJ, Sekuler AB
-Abstract:
-Event-related potential (ERP) studies consistently have described a strong, face-sensitive response termed the N170. This component is maximal at the fovea and decreases strongly with eccentricity, a result that could suggest a foveal bias in the cortical generators responsible for face processing. Here we demonstrate that scaling stimulus size according to V1 cortical magnification factor can virtually eliminate face-related eccentricity effects, indicating that eccentricity effects on face ERPs are largely due to low-level visual factors rather than high-level cortical specialization for foveal stimuli.

@@ -1,4 +1,0 @@
-RNA recognition by RNP proteins during RNA processing.
-Varani G, Nagai K
-Abstract:
-The ribonucleoprotein (RNP) domain is one of the most common eukaryotic protein folds. Proteins containing RNP domains function in important steps of posttranscriptional regulation of gene expression by directing the assembly of multiprotein complexes on primary transcripts, mature mRNAs, and stable ribonucleoprotein components of the RNA processing machinery. The diverse functions performed by these proteins depend on their dual ability to recognize RNA and to interact with other proteins, often utilizing specialized auxiliary domains. Crystallographic and NMR structures of several RNP domains and a handful of structures of RNA-protein complexes have begun to reveal the molecular basis for RNP-RNA recognition.

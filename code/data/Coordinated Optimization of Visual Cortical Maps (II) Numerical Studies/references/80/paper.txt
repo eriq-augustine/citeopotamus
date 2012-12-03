@@ -1,4 +1,0 @@
-Development of neuronal selectivity in primary visual cortex of cat.
-Frégnac Y, Imbert M
-Abstract:
-None

@@ -1,4 +1,0 @@
-Modeling the spatial reach of the LFP.
-Lindén H, Tetzlaff T, Potjans TC, Pettersen KH, Grün S, Diesmann M, Einevoll GT
-Abstract:
-None

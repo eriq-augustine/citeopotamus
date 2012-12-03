@@ -1,4 +1,0 @@
-How do amplitude spectra influence rapid animal detection?
-Gaspar CM, Rousselet GA
-Abstract:
-Amplitude spectra might provide information for natural scene classification. Amplitude does play a role in animal detection because accuracy suffers when amplitude is normalized. However, this effect could be due to an interaction between phase and amplitude, rather than to a loss of amplitude-only information. We used an amplitude-swapping paradigm to establish that animal detection is partly based on an interaction between phase and amplitude. A difference in false alarms for two subsets of our distractor stimuli suggests that the classification of scene environment (man-made versus natural) may also be based on an interaction between phase and amplitude. Examples of interaction between amplitude and phase are discussed.

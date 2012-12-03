@@ -1,6 +1,0 @@
-TITLE: The Trichoplax genome and the nature of placozoans.
-AUTHORS: Srivastava M, Begovic E, Chapman J, Putnam NH, Hellsten U, Kawashima T, Kuo A, Mitros T, Salamov A, Carpenter ML, Signorovitch AY, Moreno MA, Kamm K, Grimwood J, Schmutz J, Shapiro H, Grigoriev IV, Buss LW, Schierwater B, Dellaporta SL, Rokhsar DS
-TERMS:
-CATEGORIES:
-ABSTRACT:
-As arguably the simplest free-living animals, placozoans may represent a primitive metazoan form, yet their biology is poorly understood. Here we report the sequencing and analysis of the approximately 98 million base pair nuclear genome of the placozoan Trichoplax adhaerens. Whole-genome phylogenetic analysis suggests that placozoans belong to a 'eumetazoan' clade that includes cnidarians and bilaterians, with sponges as the earliest diverging animals. The compact genome shows conserved gene content, gene structure and synteny in relation to the human and other complex eumetazoan genomes. Despite the apparent cellular and organismal simplicity of Trichoplax, its genome encodes a rich array of transcription factor and signalling pathway genes that are typically associated with diverse cell types and developmental processes in eumetazoans, motivating further searches for cryptic cellular complexity and/or as yet unobserved life history stages.

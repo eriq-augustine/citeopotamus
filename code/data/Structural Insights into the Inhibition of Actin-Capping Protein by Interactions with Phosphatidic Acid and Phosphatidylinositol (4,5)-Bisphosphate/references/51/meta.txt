@@ -1,6 +1,0 @@
-TITLE: Influence of hydrophobic mismatch and amino acid composition on the lateral diffusion of transmembrane peptides.
-AUTHORS: Ramadurai S, Holt A, Schäfer LV, Krasnikov VV, Rijkers DT, Marrink SJ, Killian JA, Poolman B
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

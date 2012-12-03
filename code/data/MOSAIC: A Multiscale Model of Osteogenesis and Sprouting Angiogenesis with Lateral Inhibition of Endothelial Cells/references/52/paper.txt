@@ -1,4 +1,0 @@
-Notch signalling: a simple pathway becomes complex.
-Bray SJ
-Abstract:
-A small number of signalling pathways are used iteratively to regulate cell fates, cell proliferation and cell death in development. Notch is the receptor in one such pathway, and is unusual in that most of its ligands are also transmembrane proteins; therefore signalling is restricted to neighbouring cells. Although the intracellular transduction of the Notch signal is remarkably simple, with no secondary messengers, this pathway functions in an enormous diversity of developmental processes and its dysfunction is implicated in many cancers.

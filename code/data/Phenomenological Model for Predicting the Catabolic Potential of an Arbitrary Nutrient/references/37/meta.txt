@@ -1,6 +1,0 @@
-TITLE: Large-scale comparative genomic analyses of cytoplasmic membrane transport systems in prokaryotes.
-AUTHORS: Ren Q, Paulsen IT
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

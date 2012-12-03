@@ -1,4 +1,0 @@
-Phenotypic plasticity in the interactions and evolution of species.
-Agrawal AA
-Abstract:
-When individuals of two species interact, they can adjust their phenotypes in response to their respective partner, be they antagonists or mutualists. The reciprocal phenotypic change between individuals of interacting species can reflect an evolutionary response to spatial and temporal variation in species interactions and ecologically result in the structuring of food chains. The evolution of adaptive phenotypic plasticity has led to the success of organisms in novel habitats, and potentially contributes to genetic differentiation and speciation. Taken together, phenotypic responses in species interactions represent modifications that can lead to reciprocal change in ecological time, altered community patterns, and expanded evolutionary potential of species.

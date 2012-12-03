@@ -1,6 +1,0 @@
-TITLE: Large-scale analysis of secondary structure changes in proteins suggests a role for disorder-to-order transitions in nucleotide binding proteins.
-AUTHORS: Dan A, Ofran Y, Kliger Y
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

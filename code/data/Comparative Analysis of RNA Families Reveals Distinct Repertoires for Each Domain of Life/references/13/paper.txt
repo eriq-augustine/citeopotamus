@@ -1,4 +1,0 @@
-Non-coding RNA genes and the modern RNA world.
-Eddy SR
-Abstract:
-Non-coding RNA (ncRNA) genes produce functional RNA molecules rather than encoding proteins. However, almost all means of gene identification assume that genes encode proteins, so even in the era of complete genome sequences, ncRNA genes have been effectively invisible. Recently, several different systematic screens have identified a surprisingly large number of new ncRNA genes. Non-coding RNAs seem to be particularly abundant in roles that require highly specific nucleic acid recognition without complex catalysis, such as in directing post-transcriptional regulation of gene expression or in guiding RNA modifications.

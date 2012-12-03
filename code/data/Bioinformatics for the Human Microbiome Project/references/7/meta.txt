@@ -1,6 +1,0 @@
-TITLE: Gastrointestinal microbiology enters the metagenomics era.
-AUTHORS: Frank DN, Pace NR
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

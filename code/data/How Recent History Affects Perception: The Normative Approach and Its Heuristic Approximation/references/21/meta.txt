@@ -1,6 +1,0 @@
-TITLE: Predictive properties of visual adaptation.
-AUTHORS: Chopin A, Mamassian P
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

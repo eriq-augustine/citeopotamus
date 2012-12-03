@@ -1,4 +1,0 @@
-The distribution of afferents representing the right and left eyes in the cat's visual cortex.
-Shatz CJ, Lindström S, Wiesel TN
-Abstract:
-None

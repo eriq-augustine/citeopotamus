@@ -1,6 +1,0 @@
-TITLE: Cell cycle regulation in the yeasts Saccharomyces cerevisiae and Schizosaccharomyces pombe.
-AUTHORS: Forsburg SL, Nurse P
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

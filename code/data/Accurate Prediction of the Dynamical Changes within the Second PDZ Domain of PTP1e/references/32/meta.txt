@@ -1,6 +1,0 @@
-TITLE: Making optimal use of empirical energy functions: force-field parameterization in crystal space.
-AUTHORS: Krieger E, Darden T, Nabuurs SB, Finkelstein A, Vriend G
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

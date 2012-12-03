@@ -1,6 +1,0 @@
-TITLE: Factor analysis for gene regulatory networks and transcription factor activity profiles.
-AUTHORS: Pournara I, Wernisch L
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

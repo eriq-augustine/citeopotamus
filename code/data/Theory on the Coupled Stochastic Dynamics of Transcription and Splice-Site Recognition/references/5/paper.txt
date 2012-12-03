@@ -1,4 +1,0 @@
-Protein diversity from alternative splicing: a challenge for bioinformatics and post-genome biology.
-Black DL
-Abstract:
-None

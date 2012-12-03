@@ -1,6 +1,0 @@
-TITLE: Formation of VEGF isoform-specific spatial distributions governing angiogenesis: computational analysis.
-AUTHORS: Vempati P, Popel AS, Mac Gabhann F
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

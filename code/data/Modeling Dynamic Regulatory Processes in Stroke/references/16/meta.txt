@@ -1,6 +1,0 @@
-TITLE: Inflammation and the emerging role of the toll-like receptor system in acute brain ischemia.
-AUTHORS: Marsh BJ, Stevens SL, Hunter B, Stenzel-Poore MP
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

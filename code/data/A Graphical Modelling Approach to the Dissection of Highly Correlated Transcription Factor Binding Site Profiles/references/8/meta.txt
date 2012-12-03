@@ -1,6 +1,0 @@
-TITLE: Developmental roles of 21 Drosophila transcription factors are determined by quantitative differences in binding to an overlapping set of thousands of genomic regions.
-AUTHORS: MacArthur S, Li XY, Li J, Brown JB, Chu HC, Zeng L, Grondona BP, Hechmer A, Simirenko L, Keränen SV, Knowles DW, Stapleton M, Bickel P, Biggin MD, Eisen MB
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

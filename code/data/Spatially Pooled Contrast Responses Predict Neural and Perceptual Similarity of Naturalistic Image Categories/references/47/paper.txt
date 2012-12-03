@@ -1,4 +1,0 @@
-The speed of categorization in the human visual system.
-Thorpe SJ
-Abstract:
-A new study by Liu et al. in this issue of Neuron looks at how information about object category can be extracted from intracerebral recordings from the visual cortical areas in epileptic patients. It shows that information about whether the object is a face, an animal, a chair, a fruit, or a vehicle is present as early as 100 ms after the onset of a stimulus.

@@ -1,6 +1,0 @@
-TITLE: Basic and therapeutic aspects of angiogenesis.
-AUTHORS: Potente M, Gerhardt H, Carmeliet P
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

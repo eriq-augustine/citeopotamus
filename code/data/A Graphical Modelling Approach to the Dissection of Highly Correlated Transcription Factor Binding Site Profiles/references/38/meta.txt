@@ -1,6 +1,0 @@
-TITLE: Automatic identification of subcellular phenotypes on human cell arrays.
-AUTHORS: Conrad C, Erfle H, Warnat P, Daigle N, Lörch T, Ellenberg J, Pepperkok R, Eils R
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

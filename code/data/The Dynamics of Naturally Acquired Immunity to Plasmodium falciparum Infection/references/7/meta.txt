@@ -1,6 +1,0 @@
-TITLE: Target antigen, age, and duration of antigen exposure independently regulate immunoglobulin G subclass switching in malaria.
-AUTHORS: Tongren JE, Drakeley CJ, McDonald SL, Reyburn HG, Manjurano A, Nkya WM, Lemnge MM, Gowda CD, Todd JE, Corran PH, Riley EM
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The isotype/subclass of immunoglobulin determines antibody function, but rather little is known about factors that direct class switching in vivo. To evaluate factors that might influence the maturation of the antibody response during infection, we conducted a seroepidemiological study of the immunoglobulin G (IgG) subclass response to four merozoite-associated antigens of Plasmodium falciparum in a mountainous region of northeastern Tanzania, where malaria endemicity declines with increasing altitudes. We found that IgG1/IgG3 class switching is independently affected by the nature of the antigen, cumulative exposure to the antigen, and the maturity of the immune system (i.e., the age of the individual). These observations provide insights into the effects of immune system maturity, the duration and intensity of antigen exposure, and inherent characteristics of individual antigens on the process of class switching in human B cells. Our data also throw light on the consequences of class switch decisions on the gradual acquisition of antimalarial immunity.

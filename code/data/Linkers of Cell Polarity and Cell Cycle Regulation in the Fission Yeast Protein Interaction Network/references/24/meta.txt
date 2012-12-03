@@ -1,6 +1,0 @@
-TITLE: The S. pombe cdc15 gene is a key element in the reorganization of F-actin at mitosis.
-AUTHORS: Fankhauser C, Reymond A, Cerutti L, Utzig S, Hofmann K, Simanis V
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The S. pombe cdc15 gene is essential for cell division. cdc15ts mutants do not form a septum, but growth and nuclear division continue, leading to formation of multinucleate cells. The earliest step in septum formation and cytokinesis, rearrangement of actin to the center of the cell, is associated with appearance of hypophosphorylated cdc15p and formation of a cdc15p ring, which colocalizes with actin. Loss of cdc15p function impairs formation of the actin ring. The abundance of cdc15 mRNA varies through the cell division cycle, peaking in early mitosis before septation. Expression of cdc15 in G2-arrested cells induces actin rearrangement to the center of the cell. These data implicate cdc15p as a key element in mediating the cytoskeletal rearrangements required for cytokinesis.

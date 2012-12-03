@@ -1,4 +1,0 @@
-Antibody multispecificity mediated by conformational diversity.
-James LC, Roversi P, Tawfik DS
-Abstract:
-A single antibody was shown to adopt different binding-site conformations and thereby bind unrelated antigens. Analysis by both x-ray crystallography and pre-steady-state kinetics revealed an equilibrium between different preexisting isomers, one of which possessed a promiscuous, low-affinity binding site for aromatic ligands, including the immunizing hapten. A subsequent induced-fit isomerization led to high-affinity complexes with a deep and narrow binding site. A protein antigen identified by repertoire selection made use of an unrelated antibody isomer with a wide, shallow binding site. Conformational diversity, whereby one sequence adopts multiple structures and multiple functions, can increase the effective size of the antibody repertoire but may also lead to autoimmunity and allergy.

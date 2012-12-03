@@ -1,6 +1,0 @@
-TITLE: Drosophila MEF2 is regulated by twist and is expressed in both the primordia and differentiated cells of the embryonic somatic, visceral and heart musculature.
-AUTHORS: Taylor MV, Beatty KE, Hunter HK, Baylies MK
-TERMS:
-CATEGORIES:
-ABSTRACT:
-We describe a group of Drosophila cDNAs that encode MADs box proteins and which are members of the MEF2 (myocyte enhancer-binding factor 2) family of transcription factors. Drosophila has a single MEF2 gene, DMEF2, that is alternatively spliced to produce different transcripts and which is expressed in the mesodermal primordium before gastrulation. The mechanisms responsible for the subsequent subdivision of the mesoderm are unknown. However, DMEF2 may play a role in this important event because our experiments show that it is a downstream target for twist and that its early expression pattern modulates as the mesoderm is organising into cell groupings with distinct fates. DMEF2 is also expressed in both the segregating primordia and the differentiated cells of the somatic, visceral and heart musculature. It is the only known gene expressed in these three main types of muscle throughout differentiation.

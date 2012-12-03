@@ -1,6 +1,0 @@
-TITLE: Inferring gene networks from time series microarray data using dynamic Bayesian networks.
-AUTHORS: Kim SY, Imoto S, Miyano S
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Dynamic Bayesian networks (DBNs) are considered as a promising model for inferring gene networks from time series microarray data. DBNs have overtaken Bayesian networks (BNs) as DBNs can construct cyclic regulations using time delay information. In this paper, a general framework for DBN modelling is outlined. Both discrete and continuous DBN models are constructed systematically and criteria for learning network structures are introduced from a Bayesian statistical viewpoint. This paper reviews the applications of DBNs over the past years. Real data applications for Saccharomyces cerevisiae time series gene expression data are also shown.

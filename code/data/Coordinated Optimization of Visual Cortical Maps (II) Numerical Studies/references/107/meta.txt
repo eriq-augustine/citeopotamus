@@ -1,6 +1,0 @@
-TITLE: Retinal origin of orientation maps in visual cortex.
-AUTHORS: Paik SB, Ringach DL
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The orientation map is a hallmark of primary visual cortex in higher mammals. It is not yet known how orientation maps develop, what function they have in visual processing and why some species lack them. Here we advance the notion that quasi-periodic orientation maps are established by moiré interference of regularly spaced ON- and OFF-center retinal ganglion cell mosaics. A key prediction of the theory is that the centers of iso-orientation domains must be arranged in a hexagonal lattice on the cortical surface. Here we show that such a pattern is observed in individuals of four different species: monkeys, cats, tree shrews and ferrets. The proposed mechanism explains how orientation maps can develop without requiring precise patterns of spontaneous activity or molecular guidance. Further, it offers a possible account for the emergence of orientation tuning in single neurons despite the absence of orderly orientation maps in rodents species.

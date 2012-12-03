@@ -1,6 +1,0 @@
-TITLE: Computational and mathematical modeling of angiogenesis.
-AUTHORS: Peirce SM
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Over the past two decades, a number of mathematical and computational models have been developed to study different aspects of angiogenesis that span the spatial and temporal scales encompassed by this complex process. For example, models have been built to investigate how growth factors and receptors signal endothelial cell proliferation, how groups of endothelial cells assemble into individual vessels, and how tumors recruit the ingrowth of whole microvascular networks. A prudent question to pose is: "what have we learned from these models?" This review aims to answer this question as it pertains to angiogenesis in the context of normal physiological growth, tumorigenesis, wound healing, tissue engineering, and the design of therapeutic strategies. We also provide a framework for parsing angiogenesis models into categories, according to the type of modeling approach used, the spatial and temporal scales simulated, and the overarching question being posed to the model. Finally, this review introduces some of the simplification strategies and assumptions used in model building, discusses model validation, and makes recommendations for application of modeling approaches to unresolved questions in the field.

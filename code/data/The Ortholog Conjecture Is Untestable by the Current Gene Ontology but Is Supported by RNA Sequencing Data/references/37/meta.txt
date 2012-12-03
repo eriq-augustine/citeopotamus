@@ -1,6 +1,0 @@
-TITLE: Ilf2 is regulated during meiosis and associated to transcriptionally active chromatin.
-AUTHORS: López-Fernández LA, Párraga M, del Mazo J
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Analysis of gene expression during testis development demonstrated accumulation of Ilf2 mRNA in pachytene spermatocytes. In these cells, the protein was localized in the nucleus, but it was absent from chromatin of the XY pachytene bivalent, in which there is no transcriptional activity. Nucleolar signal is inmmunolocalized in spermatogonia, Sertoli cells and oocytes. By in situ hybridisation, Ilf2 expression is detected in proliferative cells of adult ovary and a defined pattern is also exhibited in different tissues of embryos. The presence of ILF2 in active chromatin is corroborated in NIH3T3 cultured cells after transfection with Ilf2-EGFP constructs.

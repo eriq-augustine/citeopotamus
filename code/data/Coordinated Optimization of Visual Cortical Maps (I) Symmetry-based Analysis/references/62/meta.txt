@@ -1,6 +1,0 @@
-TITLE: Symmetry induced coupling of cortical feature maps.
-AUTHORS: Thomas PJ, Cowan JD
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The mammalian visual cortex maps retinal position (retinotopy) and orientation preference (OP) across its surface. Simultaneous measurements in vivo suggest that positive correlation exists between the location of dislocations in these two maps, contradicting the predictions of classical dimension reduction models. Model symmetries exert a significant influence on pattern development. However, classical models for cortical map formation have inappropriate symmetry properties. By applying equivariant bifurcation theory we derive symmetry induced, model independent coupling of the OP and retinotopic maps and show that this coupling replicates observations.

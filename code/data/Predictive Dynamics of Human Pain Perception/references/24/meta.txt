@@ -1,6 +1,0 @@
-TITLE: The lasso method for variable selection in the Cox model.
-AUTHORS: Tibshirani R
-TERMS:
-CATEGORIES:
-ABSTRACT:
-I propose a new method for variable selection and shrinkage in Cox's proportional hazards model. My proposal minimizes the log partial likelihood subject to the sum of the absolute values of the parameters being bounded by a constant. Because of the nature of this constraint, it shrinks coefficients and produces some coefficients that are exactly zero. As a result it reduces the estimation variance while providing an interpretable final model. The method is a variation of the 'lasso' proposal of Tibshirani, designed for the linear regression context. Simulations indicate that the lasso can be more accurate than stepwise selection in this setting.

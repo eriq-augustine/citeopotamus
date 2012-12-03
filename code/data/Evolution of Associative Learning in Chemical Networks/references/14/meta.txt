@@ -1,6 +1,0 @@
-TITLE: Evolution before genes.
-AUTHORS: Vasas V, Fernando C, Santos M, Kauffman S, Szathmáry E
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

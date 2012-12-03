@@ -1,6 +1,0 @@
-TITLE: On the origin of the functional architecture of the cortex.
-AUTHORS: Ringach DL
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The basic structure of receptive fields and functional maps in primary visual cortex is established without exposure to normal sensory experience and before the onset of the critical period. How the brain wires these circuits in the early stages of development remains unknown. Possible explanations include activity-dependent mechanisms driven by spontaneous activity in the retina and thalamus, and molecular guidance orchestrating thalamo-cortical connections on a fine spatial scale. Here I propose an alternative hypothesis: the blueprint for receptive fields, feature maps, and their inter-relationships may reside in the layout of the retinal ganglion cell mosaics along with a simple statistical connectivity scheme dictating the wiring between thalamus and cortex. The model is shown to account for a number of experimental findings, including the relationship between retinotopy, orientation maps, spatial frequency maps and cytochrome oxidase patches. The theory's simplicity, explanatory and predictive power makes it a serious candidate for the origin of the functional architecture of primary visual cortex.

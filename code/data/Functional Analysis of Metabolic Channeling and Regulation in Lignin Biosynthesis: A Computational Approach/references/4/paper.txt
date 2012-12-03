@@ -1,4 +1,0 @@
-Lignin modification improves fermentable sugar yields for biofuel production.
-Chen F, Dixon RA
-Abstract:
-Recalcitrance to saccharification is a major limitation for conversion of lignocellulosic biomass to ethanol. In stems of transgenic alfalfa lines independently downregulated in each of six lignin biosynthetic enzymes, recalcitrance to both acid pretreatment and enzymatic digestion is directly proportional to lignin content. Some transgenics yield nearly twice as much sugar from cell walls as wild-type plants. Lignin modification could bypass the need for acid pretreatment and thereby facilitate bioprocess consolidation.

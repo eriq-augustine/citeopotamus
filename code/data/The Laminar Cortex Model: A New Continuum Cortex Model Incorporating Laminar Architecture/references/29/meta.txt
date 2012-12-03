@@ -1,6 +1,0 @@
-TITLE: Early discrimination of coherent versus incoherent motion by multiunit and synaptic activity in human putative MT+.
-AUTHORS: Ulbert I, Karmos G, Heit G, Halgren E
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

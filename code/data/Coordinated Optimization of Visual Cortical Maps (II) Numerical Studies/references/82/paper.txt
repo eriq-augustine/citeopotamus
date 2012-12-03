@@ -1,4 +1,0 @@
-Critical-period plasticity in the visual cortex.
-Levelt CN, Hübener M
-Abstract:
-In many regions of the developing brain, neuronal circuits undergo defined phases of enhanced plasticity, termed critical periods. Work in the rodent visual cortex has led to important insights into the cellular and molecular mechanisms regulating the timing of the critical period. Although there is little doubt that the maturation of specific inhibitory circuits plays a key role in the opening of the critical period in the visual cortex, it is less clear what puts an end to it. In this review, we describe the established mechanisms and point out where more experimental work is needed. We also show that plasticity in the visual cortex is present well before, and long after, the peak of the critical period.

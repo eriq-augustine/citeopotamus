@@ -1,4 +1,0 @@
-Coupling of folding and binding for unstructured proteins.
-Dyson HJ, Wright PE
-Abstract:
-There are now numerous examples of proteins that are unstructured or only partially structured under physiological conditions and yet are nevertheless functional. Such proteins are especially prevalent in eukaryotes. In many cases, intrinsically disordered proteins adopt folded structures upon binding to their biological targets. Many new examples of coupled folding and binding events have been reported recently, providing new insights into mechanisms of molecular recognition.

@@ -1,6 +1,0 @@
-TITLE: Prestressed F-actin networks cross-linked by hinged filamins replicate mechanical properties of cells.
-AUTHORS: Gardel ML, Nakamura F, Hartwig JH, Crocker JC, Stossel TP, Weitz DA
-TERMS:
-CATEGORIES:
-ABSTRACT:
-We show that actin filaments, shortened to physiological lengths by gelsolin and cross-linked with recombinant human filamins (FLNs), exhibit dynamic elastic properties similar to those reported for live cells. To achieve elasticity values of comparable magnitude to those of cells, the in vitro network must be subjected to external prestress, which directly controls network elasticity. A molecular requirement for the strain-related behavior at physiological conditions is a flexible hinge found in FLNa and some FLNb molecules. Basic physical properties of the in vitro filamin-F-actin network replicate the essential mechanical properties of living cells. This physical behavior could accommodate passive deformation and internal organelle trafficking at low strains yet resist externally or internally generated high shear forces.

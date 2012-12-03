@@ -1,6 +1,0 @@
-TITLE: Transgene-mediated and elicitor-induced perturbation of metabolic channeling at the entry point into the phenylpropanoid pathway
-AUTHORS: Rasmussen S, Dixon RA
-TERMS:
-CATEGORIES:
-ABSTRACT:
-3H-l-Phenylalanine is incorporated into a range of phenylpropanoid compounds when fed to tobacco cell cultures. A significant proportion of (3)H-trans-cinnamic acid formed from (3)H-l-phenylalanine did not equilibrate with exogenous trans-cinnamic acid and therefore may be rapidly channeled through the cinnamate 4-hydroxylase (C4H) reaction to 4-coumaric acid. Such compartmentalization of trans-cinnamic acid was not observed after elicitation or in cell cultures constitutively expressing a bean phenylalanine ammonia-lyase (PAL) transgene. Channeling between PAL and C4H was confirmed in vitro in isolated microsomes from tobacco stems or cell suspension cultures. This channeling was strongly reduced in microsomes from stems or cell cultures of transgenic PAL-overexpressing plants or after elicitation of wild-type cell cultures. Protein gel blot analysis showed that tobacco PAL1 and bean PAL were localized in both soluble and microsomal fractions, whereas tobacco PAL2 was found only in the soluble fraction. We propose that metabolic channeling of trans-cinnamic acid requires the close association of specific forms of PAL with C4H on microsomal membranes.

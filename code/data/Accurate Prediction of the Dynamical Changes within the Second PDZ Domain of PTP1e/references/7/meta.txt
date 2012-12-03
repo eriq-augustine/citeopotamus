@@ -1,6 +1,0 @@
-TITLE: An allosteric intramolecular PDZ-PDZ interaction modulates PTP-BL PDZ2 binding specificity.
-AUTHORS: van den Berk LC, Landi E, Walma T, Vuister GW, Dente L, Hendriks WJ
-TERMS:
-CATEGORIES:
-ABSTRACT:
-PDZ (acronym of the synapse-associated protein PSD-95/SAP90, the septate junction protein Discs-large, and the tight junction protein ZO-1) domains are abundant small globular protein interaction domains that mainly recognize the carboxyl termini of their target proteins. Detailed knowledge on PDZ domain binding specificity is a prerequisite for understanding the interaction networks they establish. We determined the binding preference of the five PDZ domains in the protein tyrosine phosphatase PTP-BL by screening a random C-terminal peptide lambda phage display library. Interestingly, the potential of PDZ2 to interact with class III-type ligands was found to be modulated by the presence of PDZ1. Structural studies revealed a direct and specific interaction of PDZ1 with a surface on PDZ2 that is opposite the peptide binding groove. Long-range allosteric effects that cause structural changes in the PDZ2 peptide binding groove thus explain the altered PDZ2 binding preference. Our results experimentally corroborate that the molecular embedding of PDZ domains is an important determinant of their ligand binding specificity.

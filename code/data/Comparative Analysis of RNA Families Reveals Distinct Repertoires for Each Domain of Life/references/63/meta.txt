@@ -1,6 +1,0 @@
-TITLE: CLANS: a Java application for visualizing protein families based on pairwise similarity.
-AUTHORS: Frickey T, Lupas A
-TERMS:
-CATEGORIES:
-ABSTRACT:
-SUMMARY: The main source of hypotheses on the structure and function of new proteins is their homology to proteins with known properties. Homologous relationships are typically established through sequence similarity searches, multiple alignments and phylogenetic reconstruction. In cases where the number of potential relationships is large, for example in P-loop NTPases with many thousands of members, alignments and phylogenies become computationally demanding, accumulate errors and lose resolution. In search of a better way to analyze relationships in large sequence datasets we have developed a Java application, CLANS (CLuster ANalysis of Sequences), which uses a version of the Fruchterman-Reingold graph layout algorithm to visualize pairwise sequence similarities in either two-dimensional or three-dimensional space. AVAILABILITY: CLANS can be downloaded at http://protevo.eb.tuebingen.mpg.de/download.

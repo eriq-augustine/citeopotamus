@@ -1,6 +1,0 @@
-TITLE: Exploring protein native states and large-scale conformational changes with a modified generalized born model.
-AUTHORS: Onufriev A, Bashford D, Case DA
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

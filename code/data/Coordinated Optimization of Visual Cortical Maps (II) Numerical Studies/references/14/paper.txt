@@ -1,4 +1,0 @@
-Distortions of visuotopic map match orientation singularities in primary visual cortex.
-Das A, Gilbert CD
-Abstract:
-The map of orientation columns in primary visual cortex (V1) is known to show strong local distortions, with a generally smooth progression of orientation preference across extended regions of cortex, interrupted by sharp jumps (fractures) and point singularities. The map of visual space on V1, in contrast, has been assumed to be locally smooth and isotropic. We find, on the contrary, that the map of visual space on cat V1 shows strong and systematic local distortions in register with inhomogeneities in the orientation map, with the rate of receptive field movement across cortex being largely proportional to the local rate of change of orientation. This suggests possible systematic local variations in the functional connectivity of short-range lateral connections that underlie local cortical processing.

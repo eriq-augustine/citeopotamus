@@ -1,6 +1,0 @@
-TITLE: Clustering gene expression patterns.
-AUTHORS: Ben-Dor A, Shamir R, Yakhini Z
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Recent advances in biotechnology allow researchers to measure expression levels for thousands of genes simultaneously, across different conditions and over time. Analysis of data produced by such experiments offers potential insight into gene function and regulatory mechanisms. A key step in the analysis of gene expression data is the detection of groups of genes that manifest similar expression patterns. The corresponding algorithmic problem is to cluster multicondition gene expression patterns. In this paper we describe a novel clustering algorithm that was developed for analysis of gene expression data. We define an appropriate stochastic error model on the input, and prove that under the conditions of the model, the algorithm recovers the cluster structure with high probability. The running time of the algorithm on an n-gene dataset is O[n2[log(n)]c]. We also present a practical heuristic based on the same algorithmic ideas. The heuristic was implemented and its performance is demonstrated on simulated data and on real gene expression data, with very promising results.

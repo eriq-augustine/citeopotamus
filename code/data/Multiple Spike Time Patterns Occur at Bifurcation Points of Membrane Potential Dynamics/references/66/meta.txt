@@ -1,6 +1,0 @@
-TITLE: Noise enhancement of information transfer in crayfish mechanoreceptors by stochastic resonance.
-AUTHORS: Douglass JK, Wilkens L, Pantazelou E, Moss F
-TERMS:
-CATEGORIES:
-ABSTRACT:
-In linear information theory, electrical engineering and neurobiology, random noise has traditionally been viewed as a detriment to information transmission. Stochastic resonance (SR) is a nonlinear, statistical dynamics whereby information flow in a multi-state system is enhanced by the presence of optimized, random noise. A major consequence of SR for signal reception is that it makes possible substantial improvements in the detection of weak periodic signals. Although SR has recently been demonstrated in several artificial physical systems, it may also occur naturally, and an intriguing possibility is that biological systems have evolved the capability to exploit SR by optimizing endogenous sources of noise. Sensory systems are an obvious place to look for SR, as they excel at detecting weak signals in a noisy environment. Here we demonstrate SR using external noise applied to crayfish mechanoreceptor cells. Our results show that individual neurons can provide a physiological substrate for SR in sensory systems.

@@ -1,6 +1,0 @@
-TITLE: Expression divergence measured by transcriptome sequencing of four yeast species.
-AUTHORS: Busby MA, Gray JM, Costa AM, Stewart C, Stromberg MP, Barnett D, Chuang JH, Springer M, Marth GT
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

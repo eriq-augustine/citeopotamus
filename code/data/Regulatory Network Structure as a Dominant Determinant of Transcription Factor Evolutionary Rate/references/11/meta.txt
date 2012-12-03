@@ -1,6 +1,0 @@
-TITLE: Just-in-time transcription program in metabolic pathways.
-AUTHORS: Zaslaver A, Mayo AE, Rosenberg R, Bashkin P, Sberro H, Tsalyuk M, Surette MG, Alon U
-TERMS:
-CATEGORIES:
-ABSTRACT:
-A primary goal of systems biology is to understand the design principles of the transcription networks that govern the timing of gene expression. Here we measured promoter activity for approximately 100 genes in parallel from living cells at a resolution of minutes and accuracy of 10%, based on GFP and Lux reporter libraries. Focusing on the amino-acid biosynthesis systems of Escherichia coli, we identified a previously unknown temporal expression program and expression hierarchy that matches the enzyme order in unbranched pathways. We identified two design principles: the closer the enzyme is to the beginning of the pathway, the shorter the response time of the activation of its promoter and the higher its maximal promoter activity. Mathematical analysis suggests that this 'just-in-time' (ref. 5) transcription program is optimal under constraints of rapidly reaching a production goal with minimal total enzyme production. Our findings suggest that metabolic regulation networks are designed to generate precision promoter timing and activity programs that can be understood using the engineering principles of production pipelines.

@@ -1,6 +1,0 @@
-TITLE: A disorder-to-order transition coupled to DNA binding in the essential zinc-finger DNA-binding domain of yeast ADR1.
-AUTHORS: Hyre DE, Klevit RE
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

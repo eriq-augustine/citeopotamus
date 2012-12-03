@@ -1,6 +1,0 @@
-TITLE: Why highly expressed proteins evolve slowly.
-AUTHORS: Drummond DA, Bloom JD, Adami C, Wilke CO, Arnold FH
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Much recent work has explored molecular and population-genetic constraints on the rate of protein sequence evolution. The best predictor of evolutionary rate is expression level, for reasons that have remained unexplained. Here, we hypothesize that selection to reduce the burden of protein misfolding will favor protein sequences with increased robustness to translational missense errors. Pressure for translational robustness increases with expression level and constrains sequence evolution. Using several sequenced yeast genomes, global expression and protein abundance data, and sets of paralogs traceable to an ancient whole-genome duplication in yeast, we rule out several confounding effects and show that expression level explains roughly half the variation in Saccharomyces cerevisiae protein evolutionary rates. We examine causes for expression's dominant role and find that genome-wide tests favor the translational robustness explanation over existing hypotheses that invoke constraints on function or translational efficiency. Our results suggest that proteins evolve at rates largely unrelated to their functions and can explain why highly expressed proteins evolve slowly across the tree of life.

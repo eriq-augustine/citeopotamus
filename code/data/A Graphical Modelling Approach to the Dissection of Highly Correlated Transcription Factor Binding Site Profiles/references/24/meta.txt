@@ -1,6 +1,0 @@
-TITLE: twist and snail as positive and negative regulators during Drosophila mesoderm development.
-AUTHORS: Leptin M
-TERMS:
-CATEGORIES:
-ABSTRACT:
-twist and snail are members of the helix-loop-helix and zinc-finger protein families, respectively, and determine the development of the mesoderm in Drosophila. This paper analyzes their role in mesoderm development by examining how they affect the expression of downstream genes. twist and snail act by regulating gene expression in the mesoderm and in neighboring regions, and have distinct roles in this process. snail prevents expression in the mesoderm of genes that are destined to be active only in more lateral or dorsal regions. twist is required for the activation of downstream mesodermal genes. twist is also required for the full expression of snail and for the maintenance of its own expression. Only the absence of both twist and snail results in the complete loss of all mesodermal characteristics.

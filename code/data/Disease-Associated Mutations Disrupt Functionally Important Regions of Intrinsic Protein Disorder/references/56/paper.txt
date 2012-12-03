@@ -1,4 +1,0 @@
-A method and server for predicting damaging missense mutations.
-Adzhubei IA, Schmidt S, Peshkin L, Ramensky VE, Gerasimova A, Bork P, Kondrashov AS, Sunyaev SR
-Abstract:
-None

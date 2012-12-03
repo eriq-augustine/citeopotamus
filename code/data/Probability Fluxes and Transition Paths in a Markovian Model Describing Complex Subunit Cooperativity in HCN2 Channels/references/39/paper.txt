@@ -1,4 +1,0 @@
-Thermodynamic entropy of two conformational transitions of single Na+ channel molecules.
-Benndorf K, Koopmann R
-Abstract:
-Single cardiac Na+ channel currents were recorded with improved resolution (bandwidth up to 20 kHz) at two temperatures, 10 and 25 degrees C. The mean open time was determined at voltages between -50 and 0 mV by evaluation of the distribution of the event-related gaps in the center of the baseline noise. Fit of the voltage-dependent reciprocal mean open times at both temperatures allowed even for a single channel molecule to separate an entropic from an enthalpic part of activation energy for both deactivation and inactivation. Both entropies are positive and the entropy of deactivation exceeds that of inactivation by more than twice.

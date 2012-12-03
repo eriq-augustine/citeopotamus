@@ -1,4 +1,0 @@
-Carbohydrate transporters of the bacterial phosphoenolpyruvate: sugar phosphotransferase system (PTS).
-Siebold C, Flükiger K, Beutler R, Erni B
-Abstract:
-The glucose transporter of Escherichia coli couples translocation with phosphorylation of glucose. The IICB(Glc) subunit spans the membrane eight times. Split, circularly permuted and cyclized forms of IICB(Glc) are described. The split variant was 30 times more active when the two proteins were encoded by a dicistronic mRNA than by two genes. The stability and activity of circularly permuted forms was improved when they were expressed as fusion proteins with alkaline phosphatase. Cyclized IICB(Glc) and IIA(Glc) were produced in vivo by RecA intein-mediated trans-splicing. Purified, cyclized IIA(Glc) and IICB(Glc) had 100% and 30% of wild-type glucose phosphotransferase activity, respectively. Cyclized IIA(Glc) displayed increased stability against temperature and GuHCl-induced unfolding.

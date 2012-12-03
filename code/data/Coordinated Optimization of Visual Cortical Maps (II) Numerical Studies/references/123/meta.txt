@@ -1,6 +1,0 @@
-TITLE: Capricious expression of cortical columns in the primate brain.
-AUTHORS: Adams DL, Horton JC
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

@@ -1,4 +1,0 @@
-Protein annotation and modelling servers at University College London.
-Buchan DW, Ward SM, Lobley AE, Nugent TC, Bryson K, Jones DT
-Abstract:
-The UCL Bioinformatics Group web portal offers several high quality protein structure prediction and function annotation algorithms including PSIPRED, pGenTHREADER, pDomTHREADER, MEMSAT, MetSite, DISOPRED2, DomPred and FFPred for the prediction of secondary structure, protein fold, protein structural domain, transmembrane helix topology, metal binding sites, regions of protein disorder, protein domain boundaries and protein function, respectively. We also now offer a fully automated 3D modelling pipeline: BioSerf, which performed well in CASP8 and uses a fragment-assembly approach which placed it in the top five servers in the de novo modelling category. The servers are available via the group web site at http://bioinf.cs.ucl.ac.uk/.

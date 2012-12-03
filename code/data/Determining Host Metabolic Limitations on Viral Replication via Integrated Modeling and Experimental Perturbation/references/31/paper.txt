@@ -1,4 +1,0 @@
-Organization and expression of bacteriophage T7 DNA.
-Studier FW, Dunn JJ
-Abstract:
-None

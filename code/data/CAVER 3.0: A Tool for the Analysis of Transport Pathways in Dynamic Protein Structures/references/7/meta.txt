@@ -1,6 +1,0 @@
-TITLE: Mechanism of ammonia transport by Amt/MEP/Rh: structure of AmtB at 1.35 A.
-AUTHORS: Khademi S, O'Connell J 3rd, Remis J, Robles-Colmenares Y, Miercke LJ, Stroud RM
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The first structure of an ammonia channel from the Amt/MEP/Rh protein superfamily, determined to 1.35 angstrom resolution, shows it to be a channel that spans the membrane 11 times. Two structurally similar halves span the membrane with opposite polarity. Structures with and without ammonia or methyl ammonia show a vestibule that recruits NH4+/NH3, a binding site for NH4+, and a 20 angstrom-long hydrophobic channel that lowers the NH4+ pKa to below 6 and conducts NH3. Favorable interactions for NH3 are seen within the channel and use conserved histidines. Reconstitution of AmtB into vesicles shows that AmtB conducts uncharged NH3.

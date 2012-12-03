@@ -1,6 +1,0 @@
-TITLE: Phosphoinositide lipids as signaling molecules: common themes for signal transduction, cytoskeletal regulation, and membrane trafficking.
-AUTHORS: Martin TF
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Signaling roles for phosphoinositides that involve their regulated hydrolysis to generate second messengers have been well characterized. Recent work has revealed additional signaling roles for phosphoinositides that do not involve their hydrolysis. PtdIns 3-P, PtdIns 3,4,5-P3, and PtdIns 4,5-P2 function as site-specific signals on membranes that recruit and/or activate proteins for the assembly of spatially localized functional complexes. A large number of phosphoinositide-binding proteins have been identified as the potential effectors for phosphoinositide signals. Common themes of localized signal generation and the spatially localized recruitment of effector proteins appear to underlie mechanisms employed in signal transduction, cytoskeletal, and membrane trafficking events.

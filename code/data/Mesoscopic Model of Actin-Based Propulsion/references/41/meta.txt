@@ -1,6 +1,0 @@
-TITLE: Simulation of cell motility that reproduces the force-velocity relationship.
-AUTHORS: Schreiber CH, Stewart M, Duke T
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Many cells crawl by extending an actin-rich pseudopod. We have devised a simulation that describes how the polymerization kinetics of a branched actin filament network, coupled with excluded volume effects, powers the motility of crawling cells such as amoebae and fish keratocytes. Our stochastic simulation is based on the key fundamental properties of actin polymerization, namely growth, shrinkage, capping, branching, and nucleation, and also includes contributions from the creation and breaking of adhesive contacts with the substrate together with excluded volume effects related to filament packing. When reasonable values for appropriate constants were employed, this simulation generated a force-velocity relationship that resembled closely that observed experimentally. Our simulations indicated that excluded volume effects associated with actin filament branching lead to a decreased packing efficiency and resultant swelling of the cytoskeleton gel that contributes substantially to lamellipod protrusion.

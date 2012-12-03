@@ -1,6 +1,0 @@
-TITLE: Cdc2 regulatory factors.
-AUTHORS: Coleman TR, Dunphy WG
-TERMS:
-CATEGORIES:
-ABSTRACT:
-A growing family of kinases and phosphatases controls the activity of the cyclin-dependent kinase cdc2. The past year has seen the identification of the cdk activating kinase as well as considerable elucidation of the cdc25/wee1 regulatory pathways. Both cdc25 and wee1 appear to be regulated by upstream kinase/phosphatase networks. In addition, it is likely that other regulatory mechanisms cooperate with the wee1/cdc25 phosphorylation systems to control the action of cdc2. Together, these elaborate checks and balances ensure that cdc2 triggers mitosis at the appropriate time.

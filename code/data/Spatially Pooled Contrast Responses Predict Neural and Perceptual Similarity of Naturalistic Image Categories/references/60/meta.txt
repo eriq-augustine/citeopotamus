@@ -1,6 +1,0 @@
-TITLE: Parametric study of EEG sensitivity to phase noise during face processing.
-AUTHORS: Rousselet GA, Pernet CR, Bennett PJ, Sekuler AB
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

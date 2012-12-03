@@ -1,6 +1,0 @@
-TITLE: Intrinsically unstructured proteins: re-assessing the protein structure-function paradigm.
-AUTHORS: Wright PE, Dyson HJ
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

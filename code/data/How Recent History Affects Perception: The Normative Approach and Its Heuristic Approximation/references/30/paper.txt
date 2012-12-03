@@ -1,4 +1,0 @@
-Transformed up-down methods in psychoacoustics.
-Levitt H
-Abstract:
-None

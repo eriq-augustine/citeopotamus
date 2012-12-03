@@ -1,4 +1,0 @@
-Molecular, cellular, and physiological responses to phosphatidic acid formation in plants.
-Testerink C, Munnik T
-Abstract:
-Phosphatidic acid (PA) is an essential phospholipid involved in membrane biosynthesis and signal transduction in all eukaryotes. This review focuses on its role as lipid second messenger during plant stress, metabolism, and development. The contribution of different individual isoforms of enzymes that generate and break down PA will be discussed and the downstream responses highlighted, with particular focus on proteins that bind PA. Through characterization of several of these PA targets, a molecular and genetic basis for PA's role in plant stress and development is emerging.

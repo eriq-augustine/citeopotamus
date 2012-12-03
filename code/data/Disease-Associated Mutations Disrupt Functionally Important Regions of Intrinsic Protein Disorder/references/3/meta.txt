@@ -1,6 +1,0 @@
-TITLE: Loss of protein structure stability as a major causative factor in monogenic disease.
-AUTHORS: Yue P, Li Z, Moult J
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The most common cause of monogenic disease is a single base DNA variant resulting in an amino acid substitution. In a previous study, we observed that a high fraction of these substitutions appear to result in reduction of stability of the corresponding protein structure. We have now investigated this phenomenon more fully. A set of structural effects, such as reduction in hydrophobic area, overpacking, backbone strain, and loss of electrostatic interactions, is used to represent the impact of single residue mutations on protein stability. A support vector machine (SVM) was trained on a set of mutations causative of disease, and a control set of non-disease causing mutations. In jack-knifed testing, the method identifies 74% of disease mutations, with a false positive rate of 15%. Evaluation of a set of in vitro mutagenesis data with the SVM established that the majority of disease mutations affect protein stability by 1 to 3 kcal/mol. The method's effective distinction between disease and non-disease variants, strongly supports the hypothesis that loss of protein stability is a major factor contributing to monogenic disease.

@@ -1,4 +1,0 @@
-Lipids on the move: simulations of membrane pores, domains, stalks and curves.
-Marrink SJ, de Vries AH, Tieleman DP
-Abstract:
-In this review we describe the state-of-the-art of computer simulation studies of lipid membranes. We focus on collective lipid-lipid and lipid-protein interactions that trigger deformations of the natural lamellar membrane state, showing that many important biological processes including self-aggregation of membrane components into domains, the formation of non-lamellar phases, and membrane poration and curving, are now amenable to detailed simulation studies.

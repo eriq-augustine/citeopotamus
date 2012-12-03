@@ -1,4 +1,0 @@
-Single Na+ channel currents observed in cultured rat muscle cells.
-Sigworth FJ, Neher E
-Abstract:
-The voltage- and time-dependent conductance of membrane Na+ channels is responsible for the propagation of action potentials in nerve and muscle cells. In voltage-step-clamp experiments on neurone preparations containing 10(4)-10(7) Na+ channels the membrane conductance shows smooth variations in time, but analysis of fluctuations and other eivdence suggest that the underlying single-channel conductance changes are stochastic, rapid transitions between 'closed' and 'open' states as seen in other channel types. We report here the first observations of currents through individual Na+ channels under physiological conditions using an improved version of the extracellular patch-clamp technique on cultured rat muscle cells. Our observations support earlier inferences about channel gating and show a single-channel conductance of approximately 18 pS.

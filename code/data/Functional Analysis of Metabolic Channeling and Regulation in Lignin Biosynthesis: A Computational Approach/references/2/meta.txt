@@ -1,6 +1,0 @@
-TITLE: Biomass recalcitrance: engineering plants and enzymes for biofuels production.
-AUTHORS: Himmel ME, Ding SY, Johnson DK, Adney WS, Nimlos MR, Brady JW, Foust TD
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Lignocellulosic biomass has long been recognized as a potential sustainable source of mixed sugars for fermentation to biofuels and other biomaterials. Several technologies have been developed during the past 80 years that allow this conversion process to occur, and the clear objective now is to make this process cost-competitive in today's markets. Here, we consider the natural resistance of plant cell walls to microbial and enzymatic deconstruction, collectively known as "biomass recalcitrance." It is this property of plants that is largely responsible for the high cost of lignocellulose conversion. To achieve sustainable energy production, it will be necessary to overcome the chemical and structural properties that have evolved in biomass to prevent its disassembly.

@@ -1,6 +1,0 @@
-TITLE: Bacteriophage for biocontrol of foodborne pathogens: calculations and considerations.
-AUTHORS: Hagens S, Loessner MJ
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The use of phage or phage products in food production has recently become an option for the food industry as a novel method for biocontrol of unwanted pathogens, enhancing the safety of especially fresh and ready-to-eat food products. While it can be expected that many more phage products currently under development might become available in the future, several questions may be raised concerning the use of such products, regarding both immediate and long-term efficacy, consumer safety, and application methods. The available evidence suggests that, with a few caveats, safety concerns have been satisfactorily addressed. Answers concerning efficacy are more complex, depending on particular applications or the target pathogens. To ensure long-term efficacy beyond what can be tested on a laboratory scale, food safety concepts employing phages will have to be well-thought out and may involve rotation schemes as used with bacterial starter cultures, the use of phage cocktails, or application of phages combined with other antimicrobials. This review will discuss these issues on the basis of the available literature as well as providing an outlook on the potential of phages in future applications.

@@ -1,6 +1,0 @@
-TITLE: The origin of autonomous agents by natural selection.
-AUTHORS: Fernando C, Rowe J
-TERMS:
-CATEGORIES:
-ABSTRACT:
-We propose conditions in which an autonomous agent could arise, and increase in complexity. It is assumed that on the primitive Earth there arose a recycling flow-reactor containing spontaneously formed oil droplets or lipid aggregates. These droplets grew at a basal rate by simple incorporation of lipid phase material, and divided by external agitation. This type of system was able to implement a natural selection algorithm once heredity was added. Macroevolution became possible by selection for rarely occurring chemical reactions that produced holistic autocatalytic molecular replicators (contained within the aggregate) capable of doubling at least as fast as the lipid aggregate, and which were also capable of benefiting the growth of its lipid aggregate container. No nucleotides or monomers capable of modular heredity were required at the outset. To explicitly state this hypothesis, a computer model was developed that employed an artificial chemistry, exhibiting conservation of mass and energy, incorporated within each individual of a population of lipid aggregates. This model evolved increasingly complex self-sustaining processes of constitution, a result that is also expected in real chemistry.

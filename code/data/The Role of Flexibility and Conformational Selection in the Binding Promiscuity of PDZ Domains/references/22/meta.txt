@@ -1,6 +1,0 @@
-TITLE: Inhibition of Wnt signaling by Dishevelled PDZ peptides.
-AUTHORS: Zhang Y, Appleton BA, Wiesmann C, Lau T, Costa M, Hannoush RN, Sidhu SS
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Dishevelled proteins are key regulators of Wnt signaling pathways that have been implicated in the progression of human cancers. We found that the binding cleft of the Dishevelled PDZ domain is more flexible than those of canonical PDZ domains and enables recognition of both C-terminal and internal peptides. These peptide ligands inhibit Wnt/beta-catenin signaling in cells, showing that Dishevelled PDZ domains are potential targets for small-molecule cancer therapeutics.

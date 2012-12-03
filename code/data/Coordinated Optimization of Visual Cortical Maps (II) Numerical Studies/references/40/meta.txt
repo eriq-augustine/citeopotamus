@@ -1,6 +1,0 @@
-TITLE: Comment on "Universality in the evolution of orientation columns in the visual cortex".
-AUTHORS: Meng Y, Tanaka S, Poon CS
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Kaschube et al. (Reports, 19 November 2010, p. 1113) argue that pinwheel density in three mammalian species follows a universal constant of π as predicted by their orientation-selective suppressive long-range connectivity model. We dispute their conclusions and suggest that a simple brain size-pinwheel density scaling law suffices in predicting the self-organized and disorganized orientation maps from primates to rodents.

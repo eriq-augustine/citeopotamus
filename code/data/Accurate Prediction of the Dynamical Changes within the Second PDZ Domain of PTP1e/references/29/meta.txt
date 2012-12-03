@@ -1,6 +1,0 @@
-TITLE: Evolutionarily conserved pathways of energetic connectivity in protein families.
-AUTHORS: Lockless SW, Ranganathan R
-TERMS:
-CATEGORIES:
-ABSTRACT:
-For mapping energetic interactions in proteins, a technique was developed that uses evolutionary data for a protein family to measure statistical interactions between amino acid positions. For the PDZ domain family, this analysis predicted a set of energetically coupled positions for a binding site residue that includes unexpected long-range interactions. Mutational studies confirm these predictions, demonstrating that the statistical energy function is a good indicator of thermodynamic coupling in proteins. Sets of interacting residues form connected pathways through the protein fold that may be the basis for efficient energy conduction within proteins.

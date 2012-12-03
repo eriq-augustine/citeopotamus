@@ -1,6 +1,0 @@
-TITLE: Composition Profiler: a tool for discovery and visualization of amino acid composition differences.
-AUTHORS: Vacic V, Uversky VN, Dunker AK, Lonardi S
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

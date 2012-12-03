@@ -1,6 +1,0 @@
-TITLE: Bambus 2: scaffolding metagenomes.
-AUTHORS: Koren S, Treangen TJ, Pop M
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

@@ -1,4 +1,0 @@
-Reliability, synchrony and noise.
-Ermentrout GB, Galán RF, Urban NN
-Abstract:
-The brain is noisy. Neurons receive tens of thousands of highly fluctuating inputs and generate spike trains that appear highly irregular. Much of this activity is spontaneous - uncoupled to overt stimuli or motor outputs - leading to questions about the functional impact of this noise. Although noise is most often thought of as disrupting patterned activity and interfering with the encoding of stimuli, recent theoretical and experimental work has shown that noise can play a constructive role - leading to increased reliability or regularity of neuronal firing in single neurons and across populations. These results raise fundamental questions about how noise can influence neural function and computation.

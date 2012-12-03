@@ -1,4 +1,0 @@
-Profiling the antibody immune response against blood stage malaria vaccine candidates.
-Gray JC, Corran PH, Mangia E, Gaunt MW, Li Q, Tetteh KK, Polley SD, Conway DJ, Holder AA, Bacarese-Hamilton T, Riley EM, Crisanti A
-Abstract:
-None

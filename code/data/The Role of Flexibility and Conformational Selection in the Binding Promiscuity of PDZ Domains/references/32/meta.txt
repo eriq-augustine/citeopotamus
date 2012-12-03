@@ -1,6 +1,0 @@
-TITLE: Identification of specificity and promiscuity of PDZ domain interactions through their dynamic behavior.
-AUTHORS: Gerek ZN, Keskin O, Ozkan SB
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

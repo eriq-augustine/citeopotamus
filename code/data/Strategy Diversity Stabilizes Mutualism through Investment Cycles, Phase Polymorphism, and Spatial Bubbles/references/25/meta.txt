@@ -1,6 +1,0 @@
-TITLE: Preferential allocation to beneficial symbiont with spatial structure maintains mycorrhizal mutualism.
-AUTHORS: Bever JD, Richardson SC, Lawrence BM, Holmes J, Watson M
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Mutualisms, beneficial interactions between species, are expected to be unstable because delivery of benefit likely involves fitness costs and selection should favour partners that deliver less benefit. Yet, mutualisms are common and persistent, even in the largely promiscuous associations between plants and soil microorganisms such as arbuscular mycorrhizal fungi. In two different systems, we demonstrate preferential allocation of photosynthate by host plants to the more beneficial of two AM fungal symbionts. This preferential allocation could allow the persistence of the mutualism if it confers sufficient advantage to the beneficial symbiont that it overcomes the cost of mutualism. We find that the beneficial fungus does increase in biomass when the fungi are spatially separated within the root system. However, in well-mixed fungal communities, non-beneficial fungi proliferate as expected from their reduced cost of mutualism. Our findings suggest that preferential allocation within spatially structured microbial communities can stabilize mutualisms between plants and root symbionts.

@@ -1,6 +1,0 @@
-TITLE: QIIME allows analysis of high-throughput community sequencing data.
-AUTHORS: Caporaso JG, Kuczynski J, Stombaugh J, Bittinger K, Bushman FD, Costello EK, Fierer N, Peña AG, Goodrich JK, Gordon JI, Huttley GA, Kelley ST, Knights D, Koenig JE, Ley RE, Lozupone CA, McDonald D, Muegge BD, Pirrung M, Reeder J, Sevinsky JR, Turnbaugh PJ, Walters WA, Widmann J, Yatsunenko T, Zaneveld J, Knight R
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

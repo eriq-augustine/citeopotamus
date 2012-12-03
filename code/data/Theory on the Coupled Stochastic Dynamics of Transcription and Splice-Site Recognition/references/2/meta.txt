@@ -1,6 +1,0 @@
-TITLE: SR proteins and splicing control.
-AUTHORS: Manley JL, Tacke R
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

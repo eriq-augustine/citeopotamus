@@ -1,6 +1,0 @@
-TITLE: The origin of the genetic code.
-AUTHORS: Crick FH
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

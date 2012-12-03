@@ -1,6 +1,0 @@
-TITLE: Method to test inhibitory antibodies in human sera to wild populations of Plasmodium falciparum.
-AUTHORS: Wilson RJ, Phillips RS
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

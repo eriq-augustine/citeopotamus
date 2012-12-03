@@ -1,6 +1,0 @@
-TITLE: Modelling metabolic networks using power-laws and S-systems.
-AUTHORS: Voit EO
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Mathematical modelling has great potential in biochemical network analysis because, in contrast with the unaided human mind, mathematics has no problems keeping track of hundreds of interacting variables that affect each other in intricate ways. The scalability of mathematical models, together with their ability to capture all imaginable non-linear responses, allows us to explore the dynamics of complicated pathway systems, to study what happens if a metabolite, gene or enzyme is altered, and to optimize biochemical systems, for instance toward the goal of increased yield of some desired organic compound. Before we can utilize models for such purposes, we must define their mathematical structure and identify suitable parameter values. Because nature has not provided us with guidelines for selecting the best model design, the choice of the most useful model is not trivial. In the present chapter I show that power-law modelling within BST (Biochemical Systems Theory) offers guidance for model selection, construction and analysis that is otherwise difficult to find.

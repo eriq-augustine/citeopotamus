@@ -1,6 +1,0 @@
-TITLE: Nature of spatial chaos.
-AUTHORS: Coullet P, Elphick C, Repaux D
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

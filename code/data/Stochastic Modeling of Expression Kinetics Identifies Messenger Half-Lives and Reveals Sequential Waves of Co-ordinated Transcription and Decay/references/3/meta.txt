@@ -1,6 +1,0 @@
-TITLE: The global dynamics of RNA stability orchestrates responses to cellular activation.
-AUTHORS: Keene JD
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Transcriptomics is used to quantify changes in accumulated levels of mRNAs following cellular activation. These changes arise from the opposing fluxes of transcription and mRNA decay, both of which affect the functional dynamics of global gene expression. A study published recently in BMC Genomics focuses on the contribution made by mRNA stability in shaping the kinetics of gene responses in mammalian cells.

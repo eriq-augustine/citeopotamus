@@ -1,6 +1,0 @@
-TITLE: Endothelial cells dynamically compete for the tip cell position during angiogenic sprouting.
-AUTHORS: Jakobsson L, Franco CA, Bentley K, Collins RT, Ponsioen B, Aspalter IM, Rosewell I, Busse M, Thurston G, Medvinsky A, Schulte-Merker S, Gerhardt H
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Sprouting angiogenesis requires the coordinated behaviour of endothelial cells, regulated by Notch and vascular endothelial growth factor receptor (VEGFR) signalling. Here, we use computational modelling and genetic mosaic sprouting assays in vitro and in vivo to investigate the regulation and dynamics of endothelial cells during tip cell selection. We find that endothelial cells compete for the tip cell position through relative levels of Vegfr1 and Vegfr2, demonstrating a biological role for differential Vegfr regulation in individual endothelial cells. Differential Vegfr levels affect tip selection only in the presence of a functional Notch system by modulating the expression of the ligand Dll4. Time-lapse microscopy imaging of mosaic sprouts identifies dynamic position shuffling of tip and stalk cells in vitro and in vivo, indicating that the VEGFR-Dll4-Notch signalling circuit is constantly re-evaluated as cells meet new neighbours. The regular exchange of the leading tip cell raises novel implications for the concept of guided angiogenic sprouting.

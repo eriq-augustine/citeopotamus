@@ -1,6 +1,0 @@
-TITLE: The changing landscape of protein allostery.
-AUTHORS: Swain JF, Gierasch LM
-TERMS:
-CATEGORIES:
-ABSTRACT:
-It is becoming increasingly clear that the fundamental capacity to undergo conformational change in response to ligand binding is intrinsic to proteins. This property confers on proteins the ability to be allosterically modulated in order to shift substrate binding affinities, alter enzymatic activity or regulate protein-protein interaction. How this allosteric modulation occurs--the pathways of communication, the shifting of conformational ensembles and the altered molecular dynamics--has received considerable attention during the past two years. Recent progress has helped outline the molecular origins of allostery in proteins as diverse as Hsp70 molecular chaperones and signal integrating proteins, such as WASP. In addition, allosteric properties have been successfully engineered into proteins for drug design or the development of novel biosensors. Methodological advances have provided exciting prospects for new insights and new biological roles of allosteric systems have been uncovered.

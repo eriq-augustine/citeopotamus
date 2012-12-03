@@ -1,4 +1,0 @@
-Evolutionary explanations for cooperation.
-West SA, Griffin AS, Gardner A
-Abstract:
-Natural selection favours genes that increase an organism's ability to survive and reproduce. This would appear to lead to a world dominated by selfish behaviour. However, cooperation can be found at all levels of biological organisation: genes cooperate in genomes, organelles cooperate to form eukaryotic cells, cells cooperate to make multicellular organisms, bacterial parasites cooperate to overcome host defences, animals breed cooperatively, and humans and insects cooperate to build societies. Over the last 40 years, biologists have developed a theoretical framework that can explain cooperation at all these levels. Here, we summarise this theory, illustrate how it may be applied to real organisms and discuss future directions.

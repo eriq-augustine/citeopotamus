@@ -1,6 +1,0 @@
-TITLE: Allostery: absence of a change in shape does not imply that allostery is not at play.
-AUTHORS: Tsai CJ, del Sol A, Nussinov R
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Allostery is essential for controlled catalysis, signal transmission, receptor trafficking, turning genes on and off, and apoptosis. It governs the organism's response to environmental and metabolic cues, dictating transient partner interactions in the cellular network. Textbooks taught us that allostery is a change of shape at one site on the protein surface brought about by ligand binding to another. For several years, it has been broadly accepted that the change of shape is not induced; rather, it is observed simply because a larger protein population presents it. Current data indicate that while side chains can reorient and rewire, allostery may not even involve a change of (backbone) shape. Assuming that the enthalpy change does not reverse the free-energy change due to the change in entropy, entropy is mainly responsible for binding.

@@ -1,6 +1,0 @@
-TITLE: Coupling of local folding to site-specific binding of proteins to DNA.
-AUTHORS: Spolar RS, Record MT Jr
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Thermodynamic studies have demonstrated the central importance of a large negative heat capacity change (delta C degree assoc) in site-specific protein-DNA recognition. Dissection of the large negative delta C degree assoc and the entropy change of protein-ligand and protein-DNA complexation provide a thermodynamic signature identifying processes in which local folding is coupled to binding. Estimates of the number of residues that fold on binding obtained from this analysis agree with structural data. Structural comparisons indicate that these local folding transitions create key parts of the protein-DNA interface. The energetic implications of this "induced fit" model for DNA site recognition are considered.

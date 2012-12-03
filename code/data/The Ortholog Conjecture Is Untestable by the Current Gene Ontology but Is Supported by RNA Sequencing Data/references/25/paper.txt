@@ -1,4 +1,0 @@
-RNA-Seq: a revolutionary tool for transcriptomics.
-Wang Z, Gerstein M, Snyder M
-Abstract:
-RNA-Seq is a recently developed approach to transcriptome profiling that uses deep-sequencing technologies. Studies using this method have already altered our view of the extent and complexity of eukaryotic transcriptomes. RNA-Seq also provides a far more precise measurement of levels of transcripts and their isoforms than other methods. This article describes the RNA-Seq approach, the challenges associated with its application, and the advances made so far in characterizing several eukaryote transcriptomes.

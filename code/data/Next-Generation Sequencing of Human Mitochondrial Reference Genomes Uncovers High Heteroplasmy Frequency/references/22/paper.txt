@@ -1,4 +1,0 @@
-Validation of microarray-based resequencing of 93 worldwide mitochondrial genomes.
-Hartmann A, Thieme M, Nanduri LK, Stempfl T, Moehle C, Kivisild T, Oefner PJ
-Abstract:
-None

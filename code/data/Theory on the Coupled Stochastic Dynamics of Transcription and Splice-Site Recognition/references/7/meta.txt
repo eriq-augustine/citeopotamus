@@ -1,6 +1,0 @@
-TITLE: Variation in alternative splicing across human tissues.
-AUTHORS: Yeo G, Holste D, Kreiman G, Burge CB
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

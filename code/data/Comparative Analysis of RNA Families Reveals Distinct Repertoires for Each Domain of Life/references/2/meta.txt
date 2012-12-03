@@ -1,6 +1,0 @@
-TITLE: Infectivity of ribonucleic acid from tobacco mosaic virus.
-AUTHORS: GIERER A, SCHRAMM G
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

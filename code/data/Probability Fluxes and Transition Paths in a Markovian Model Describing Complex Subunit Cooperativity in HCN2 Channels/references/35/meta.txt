@@ -1,6 +1,0 @@
-TITLE: The protein folding network.
-AUTHORS: Rao F, Caflisch A
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The conformation space of a 20 residue antiparallel beta-sheet peptide, sampled by molecular dynamics simulations, is mapped to a network. Snapshots saved along the trajectory are grouped according to secondary structure into nodes of the network and the transitions between them are links. The conformation space network describes the significant free energy minima and their dynamic connectivity without requiring arbitrarily chosen reaction coordinates. As previously found for the Internet and the World-Wide Web as well as for social and biological networks, the conformation space network is scale-free and contains highly connected hubs like the native state which is the most populated free energy basin. Furthermore, the native basin exhibits a hierarchical organization, which is not found for a random heteropolymer lacking a predominant free-energy minimum. The network topology is used to identify conformations in the folding transition state (TS) ensemble, and provides a basis for understanding the heterogeneity of the TS and denatured state ensemble as well as the existence of multiple pathways.

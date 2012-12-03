@@ -1,6 +1,0 @@
-TITLE: Metabolite-centric approaches for the discovery of antibacterials using genome-scale metabolic networks.
-AUTHORS: Kim TY, Kim HU, Lee SY
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

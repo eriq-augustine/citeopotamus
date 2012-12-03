@@ -1,6 +1,0 @@
-TITLE: Colloquium papers: Adaptive landscapes and protein evolution.
-AUTHORS: Carneiro M, Hartl DL
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The principles governing protein evolution under strong selection are important because of the recent history of evolved resistance to insecticides, antibiotics, and vaccines. One experimental approach focuses on studies of mutant proteins and all combinations of mutant sites that could possibly be intermediates in the evolutionary pathway to resistance. In organisms carrying each of the engineered proteins, a measure of protein function or a proxy for fitness is estimated. The correspondence between protein sequence and fitness is widely known as a fitness landscape or adaptive landscape. Here, we examine some empirical fitness landscapes and compare them with simulated landscapes in which the fitnesses are randomly assigned. We find that mutant sites in real proteins show significantly more additivity than those obtained from random simulations. The high degree of additivity is reflected in a summary statistic for adaptive landscapes known as the "roughness," which for the actual proteins so far examined lies in the smallest 0.5% tail of random landscapes.

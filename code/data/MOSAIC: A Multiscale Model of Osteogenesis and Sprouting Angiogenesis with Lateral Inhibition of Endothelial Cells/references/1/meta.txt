@@ -1,6 +1,0 @@
-TITLE: The role of bone marrow-derived cells in bone fracture repair in a green fluorescent protein chimeric mouse model.
-AUTHORS: Taguchi K, Ogawa R, Migita M, Hanawa H, Ito H, Orimo H
-TERMS:
-CATEGORIES:
-ABSTRACT:
-We investigated the role of bone marrow cells in bone fracture repair using green fluorescent protein (GFP) chimeric model mice. First, the chimeric model mice were created: bone marrow cells from GFP-transgenic C57BL/6 mice were injected into the tail veins of recipient wild-type C57BL/6 mice that had been irradiated with a lethal dose of 10Gy from a cesium source. Next, bone fracture models were created from these mice: closed transverse fractures of the left femur were produced using a specially designed device. One, three, and five weeks later, fracture lesions were extirpated for histological and immunohistochemical analyses. In the specimens collected 3 and 5 weeks after operation, we confirmed calluses showing intramembranous ossification peripheral to the fracture site. The calluses consisted of GFP- and osteocalcin-positive cells at the same site, although the femur consisted of only osteocalcin-positive cells. We suggest that bone marrow cells migrated outside of the bone marrow and differentiated into osteoblasts to make up the calluses.

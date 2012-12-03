@@ -1,6 +1,0 @@
-TITLE: Domain combinations in archaeal, eubacterial and eukaryotic proteomes.
-AUTHORS: Apic G, Gough J, Teichmann SA
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

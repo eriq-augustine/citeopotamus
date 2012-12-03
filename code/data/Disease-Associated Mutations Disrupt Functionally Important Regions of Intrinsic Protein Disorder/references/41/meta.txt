@@ -1,6 +1,0 @@
-TITLE: Natively unstructured regions in proteins identified from contact predictions.
-AUTHORS: Schlessinger A, Punta M, Rost B
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

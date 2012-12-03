@@ -1,6 +1,0 @@
-TITLE: Force generation by actin polymerization II: the elastic ratchet and tethered filaments.
-AUTHORS: Mogilner A, Oster G
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The motion of many intracellular pathogens is driven by the polymerization of actin filaments. The propulsive force developed by the polymerization process is thought to arise from the thermal motions of the polymerizing filament tips. Recent experiments suggest that the nucleation of actin filaments involves a phase when the filaments are attached to the pathogen surface by a protein complex. Here we extend the "elastic ratchet model" of Mogilner and Oster to incorporate these new findings. We apply this "tethered ratchet" model to derive the force-velocity relation for Listeria and discuss relations of our theoretical predictions to experimental measurements. We also discuss "symmetry breaking" dynamics observed in ActA-coated bead experiments, and the implications of the model for lamellipodial protrusion in migrating cells.

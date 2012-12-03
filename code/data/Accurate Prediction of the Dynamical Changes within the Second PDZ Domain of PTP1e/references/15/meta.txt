@@ -1,6 +1,0 @@
-TITLE: Is allostery an intrinsic property of all dynamic proteins?
-AUTHORS: Gunasekaran K, Ma B, Nussinov R
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

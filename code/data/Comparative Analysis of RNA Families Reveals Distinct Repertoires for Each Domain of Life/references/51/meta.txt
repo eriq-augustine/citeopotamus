@@ -1,6 +1,0 @@
-TITLE: Homologs of small nucleolar RNAs in Archaea.
-AUTHORS: Omer AD, Lowe TM, Russell AG, Ebhardt H, Eddy SR, Dennis PP
-TERMS:
-CATEGORIES:
-ABSTRACT:
-In eukaryotes, dozens of posttranscriptional modifications are directed to specific nucleotides in ribosomal RNAs (rRNAs) by small nucleolar RNAs (snoRNAs). We identified homologs of snoRNA genes in both branches of the Archaea. Eighteen small sno-like RNAs (sRNAs) were cloned from the archaeon Sulfolobus acidocaldarius by coimmunoprecipitation with archaeal fibrillarin and NOP56, the homologs of eukaryotic snoRNA-associated proteins. We trained a probabilistic model on these sRNAs to search for more sRNAs in archaeal genomic sequences. Over 200 additional sRNAs were identified in seven archaeal genomes representing both the Crenarchaeota and the Euryarchaeota. snoRNA-based rRNA processing was therefore probably present in the last common ancestor of Archaea and Eukarya, predating the evolution of a morphologically distinct nucleolus.

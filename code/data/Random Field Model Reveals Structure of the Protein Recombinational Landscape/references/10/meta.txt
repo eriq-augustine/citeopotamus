@@ -1,6 +1,0 @@
-TITLE: Site-directed protein recombination as a shortest-path problem.
-AUTHORS: Endelman JB, Silberg JJ, Wang ZG, Arnold FH
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Protein function can be tuned using laboratory evolution, in which one rapidly searches through a library of proteins for the properties of interest. In site-directed recombination, n crossovers are chosen in an alignment of p parents to define a set of p(n + 1) peptide fragments. These fragments are then assembled combinatorially to create a library of p(n+1) proteins. We have developed a computational algorithm to enrich these libraries in folded proteins while maintaining an appropriate level of diversity for evolution. For a given set of parents, our algorithm selects crossovers that minimize the average energy of the library, subject to constraints on the length of each fragment. This problem is equivalent to finding the shortest path between nodes in a network, for which the global minimum can be found efficiently. Our algorithm has a running time of O(N(3)p(2) + N(2)n) for a protein of length N. Adjusting the constraints on fragment length generates a set of optimized libraries with varying degrees of diversity. By comparing these optima for different sets of parents, we rapidly determine which parents yield the lowest energy libraries.

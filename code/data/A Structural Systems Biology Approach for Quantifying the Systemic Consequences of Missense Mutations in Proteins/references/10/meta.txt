@@ -1,6 +1,0 @@
-TITLE: Regulation of mitosis by cyclic accumulation of p80cdc25 mitotic inducer in fission yeast.
-AUTHORS: Moreno S, Nurse P, Russell P
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The coordination of somatic cell division with cell size must be accomplished by the accumulation of mitotic inducers or the dilution, in the course of cell growth, of mitotic inhibitors. In fission yeast (Schizosaccharomyces pombe), cell size at mitosis is determined by expression of the cdc25+ and nim1+ inducer genes and of the inhibitor gene wee1+, which between them regulate the M-phase protein kinase p34cdc2. We now report that both the phosphoprotein product of cdc25+ (p80cdc25, with apparent relative molecular mass 80,000) and the corresponding messenger RNA increase in concentration as cells proceed through interphase, peaking at mitosis. We propose that the cell-cycle timing of mitosis in somatic cells is regulated by the cyclic accumulation of the cdc25 mitotic inducer, which on reaching a critical level results in activation of p34cdc2 protein kinase. Accumulation of this inducer could play a part in coordinating cell division with growth.

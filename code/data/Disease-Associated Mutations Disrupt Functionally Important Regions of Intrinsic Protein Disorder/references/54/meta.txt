@@ -1,6 +1,0 @@
-TITLE: Molecular basis of inherited diseases: a structural perspective.
-AUTHORS: Steward RE, MacArthur MW, Laskowski RA, Thornton JM
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

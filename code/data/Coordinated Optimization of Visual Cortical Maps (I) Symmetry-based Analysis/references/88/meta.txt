@@ -1,6 +1,0 @@
-TITLE: Ocular dominance columns and their development in layer IV of the cat's visual cortex: a quantitative study.
-AUTHORS: LeVay S, Stryker MP, Shatz CJ
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

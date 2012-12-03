@@ -1,4 +1,0 @@
-Metabolic, phylogenetic, and ecological diversity of the methanogenic archaea.
-Liu Y, Whitman WB
-Abstract:
-Although of limited metabolic diversity, methanogenic archaea or methanogens possess great phylogenetic and ecological diversity. Only three types of methanogenic pathways are known: CO(2)-reduction, methyl-group reduction, and the aceticlastic reaction. Cultured methanogens are grouped into five orders based upon their phylogeny and phenotypic properties. In addition, uncultured methanogens that may represent new orders are present in many environments. The ecology of methanogens highlights their complex interactions with other anaerobes and the physical and chemical factors controlling their function.

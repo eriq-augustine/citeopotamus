@@ -1,6 +1,0 @@
-TITLE: Repair of mtDNA in vertebrates.
-AUTHORS: Bogenhagen DF
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

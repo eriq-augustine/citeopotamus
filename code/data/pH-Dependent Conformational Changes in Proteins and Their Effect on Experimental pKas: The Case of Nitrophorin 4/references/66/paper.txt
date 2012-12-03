@@ -1,4 +1,0 @@
-Comparison of multiple Amber force fields and development of improved protein backbone parameters.
-Hornak V, Abel R, Okur A, Strockbine B, Roitberg A, Simmerling C
-Abstract:
-None

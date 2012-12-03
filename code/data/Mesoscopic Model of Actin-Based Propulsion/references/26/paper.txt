@@ -1,4 +1,0 @@
-Stress release drives symmetry breaking for actin-based movement.
-van der Gucht J, Paluch E, Plastino J, Sykes C
-Abstract:
-By using a simple assay composed of purified proteins, we studied the spontaneous polarization of actin networks polymerizing on spherical beads, which subsequently undergo movement. We show evidence that this symmetry breaking is based on the release of elastic energy, analogous to the fracture of polymer gels. The dynamics of this process and the thickness at which it occurs depend on the growth rate and mechanical properties of the actin gel. We explain our experimental results with a model based on elasticity theory and fracture mechanics.

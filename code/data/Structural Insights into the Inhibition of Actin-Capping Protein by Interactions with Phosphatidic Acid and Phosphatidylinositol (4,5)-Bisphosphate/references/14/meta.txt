@@ -1,6 +1,0 @@
-TITLE: Membrane-protein interactions in cell signaling and membrane trafficking.
-AUTHORS: Cho W, Stahelin RV
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Research in the past decade has revealed that many cytosolic proteins are recruited to different cellular membranes to form protein-protein and lipid-protein interactions during cell signaling and membrane trafficking. Membrane recruitment of these peripheral proteins is mediated by a growing number of modular membrane-targeting domains, including C1, C2, PH, FYVE, PX, ENTH, ANTH, BAR, FERM, and tubby domains, that recognize specific lipid molecules in the membranes. Structural studies of these membrane-targeting domains demonstrate how they specifically recognize their cognate lipid ligands. However, the mechanisms by which these domains and their host proteins are recruited to and interact with various cell membranes are only beginning to unravel with recent computational studies, in vitro membrane binding studies using model membranes, and cellular translocation studies using fluorescent protein-tagged proteins. This review summarizes the recent progress in our understanding of how the kinetics and energetics of membrane-protein interactions are regulated during the cellular membrane targeting and activation of peripheral proteins.

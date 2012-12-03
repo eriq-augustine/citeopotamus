@@ -1,6 +1,0 @@
-TITLE: Nonadiabatic effects in convection.
-AUTHORS: Bensimon D, Shraiman BI, Croquette V V
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

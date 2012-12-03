@@ -1,6 +1,0 @@
-TITLE: Comparative genomics of eukaryotic small nucleolar RNAs reveals deep evolutionary ancestry amidst ongoing intragenomic mobility.
-AUTHORS: Hoeppner MP, Poole AM
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

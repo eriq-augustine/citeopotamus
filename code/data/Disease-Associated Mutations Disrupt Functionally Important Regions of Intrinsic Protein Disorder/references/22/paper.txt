@@ -1,4 +1,0 @@
-Identification, analysis, and prediction of protein ubiquitination sites.
-Radivojac P, Vacic V, Haynes C, Cocklin RR, Mohan A, Heyen JW, Goebl MG, Iakoucheva LM
-Abstract:
-None

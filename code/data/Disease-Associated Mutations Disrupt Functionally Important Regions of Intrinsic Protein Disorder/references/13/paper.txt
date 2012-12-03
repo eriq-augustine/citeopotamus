@@ -1,4 +1,0 @@
-In silico functional profiling of human disease-associated and polymorphic amino acid substitutions.
-Mort M, Evani US, Krishnan VG, Kamati KK, Baenziger PH, Bagchi A, Peters BJ, Sathyesh R, Li B, Sun Y, Xue B, Shah NH, Kann MG, Cooper DN, Radivojac P, Mooney SD
-Abstract:
-None

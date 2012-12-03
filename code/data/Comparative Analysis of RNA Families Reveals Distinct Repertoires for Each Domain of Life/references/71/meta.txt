@@ -1,6 +1,0 @@
-TITLE: Dendroscope: An interactive viewer for large phylogenetic trees.
-AUTHORS: Huson DH, Richter DC, Rausch C, Dezulian T, Franz M, Rupp R
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

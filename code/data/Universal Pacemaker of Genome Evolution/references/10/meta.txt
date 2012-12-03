@@ -1,6 +1,0 @@
-TITLE: The erratic mitochondrial clock: variations of mutation rate, not population size, affect mtDNA diversity across birds and mammals.
-AUTHORS: Nabholz B, Glémin S, Galtier N
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

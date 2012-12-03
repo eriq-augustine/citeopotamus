@@ -1,6 +1,0 @@
-TITLE: Quantitative metabolome analysis using capillary electrophoresis mass spectrometry.
-AUTHORS: Soga T, Ohashi Y, Ueno Y, Naraoka H, Tomita M, Nishioka T
-TERMS:
-CATEGORIES:
-ABSTRACT:
-A new approach for the comprehensive and quantitative analysis of charged metabolites by capillary electrophoresis mass spectrometry (CE-MS) is proposed. Metabolites are first separated by CE based on charge and size and then selectively detected using MS by monitoring over a large range of m/z values. This method enabled the determination of 352 metabolic standards and its utility was demonstrated in the analysis of 1692 metabolites from Bacillus subtilis extracts, revealing significant changes in metabolites during B. subtilis sporulation.

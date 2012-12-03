@@ -1,6 +1,0 @@
-TITLE: A technique of nonparametric multivariate analysis.
-AUTHORS: Mantel N, Valand RS
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

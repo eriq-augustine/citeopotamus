@@ -1,6 +1,0 @@
-TITLE: Structural identifiability analysis of some highly structured families of statespace models using differential algebra.
-AUTHORS: Margaria G, Riccomagno E, White LJ
-TERMS:
-CATEGORIES:
-ABSTRACT:
-In this paper we identify biologically relevant families of models whose structural identifiability analysis could not be performed with available techniques directly. The models considered come from both the immunological and epidemiological literature.

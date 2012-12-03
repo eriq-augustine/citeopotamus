@@ -1,6 +1,0 @@
-TITLE: Perceptual illusion of "paradoxical heat" engages the insular cortex.
-AUTHORS: Davis KD, Pope GE, Crawley AP, Mikulis DJ
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Paradoxical heat (PH), the illusion of skin heat, accompanies many neurological disorders. Using the technique of percept-related functional MRI, we found a region of the right insular cortex specifically activated when subjects perceive a heat sensation in their right hand even though their skin temperature is cool or at neutral. This region was suppressed during mild skin cooling. We propose that this differential response is a manifestation of the role of the insula in signaling temperature perceptions regardless of the actual temperature of the skin. These findings suggest that a region within the insula has a complex role in heat perception, perhaps contributing to a specific, rather than general, thermosensory perception. These data provide insight to our basic understanding of normal and pathological thermosensory perceptions.

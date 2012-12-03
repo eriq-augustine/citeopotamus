@@ -1,6 +1,0 @@
-TITLE: Environmental modification of the visual cortex and the neural basis of learning and memory.
-AUTHORS: Blakemore C, Mitchell DE
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

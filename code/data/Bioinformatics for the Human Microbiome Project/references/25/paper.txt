@@ -1,4 +1,0 @@
-DNACLUST: accurate and efficient clustering of phylogenetic marker genes.
-Ghodsi M, Liu B, Pop M
-Abstract:
-None

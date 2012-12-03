@@ -1,4 +1,0 @@
-Diversity of the human intestinal microbial flora.
-Eckburg PB, Bik EM, Bernstein CN, Purdom E, Dethlefsen L, Sargent M, Gill SR, Nelson KE, Relman DA
-Abstract:
-The human endogenous intestinal microflora is an essential "organ" in providing nourishment, regulating epithelial development, and instructing innate immunity; yet, surprisingly, basic features remain poorly described. We examined 13,355 prokaryotic ribosomal RNA gene sequences from multiple colonic mucosal sites and feces of healthy subjects to improve our understanding of gut microbial diversity. A majority of the bacterial sequences corresponded to uncultivated species and novel microorganisms. We discovered significant intersubject variability and differences between stool and mucosa community composition. Characterization of this immensely diverse ecosystem is the first step in elucidating its role in health and disease.

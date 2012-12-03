@@ -1,4 +1,0 @@
-Quartet MaxCut: a fast algorithm for amalgamating quartet trees.
-Snir S, Rao S
-Abstract:
-None

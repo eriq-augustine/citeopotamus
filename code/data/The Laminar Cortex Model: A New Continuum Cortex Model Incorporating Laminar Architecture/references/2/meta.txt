@@ -1,6 +1,0 @@
-TITLE: Local origin of field potentials in visual cortex.
-AUTHORS: Katzner S, Nauhaus I, Benucci A, Bonin V, Ringach DL, Carandini M
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The local field potential (LFP) is increasingly used to measure the combined activity of neurons within a region of tissue. Yet, available estimates of the size of this region are highly disparate, ranging from several hundred microns to a few millimeters. To measure the size of this region directly, we used a combination of multielectrode recordings and optical imaging. We determined the orientation selectivity of stimulus-evoked LFP signals in primary visual cortex and were able to predict it on the basis of the surrounding map of orientation preference. The results show that > 95% of the LFP signal originates within 250 microm of the recording electrode. This quantitative estimate indicates that LFPs are more local than often recognized and provides a guide to the interpretation of the increasing number of studies that rest on LFP recordings.

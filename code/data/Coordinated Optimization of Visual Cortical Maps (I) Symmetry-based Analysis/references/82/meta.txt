@@ -1,6 +1,0 @@
-TITLE: Geometry of orientation columns in the visual cortex.
-AUTHORS: Braitenberg V, Braitenberg C
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The optimal direction of lines in the visual field to which neurons in the visual cortex respond changes in a regular way when the recording electrode progresses tangentially through the cortex (Hubel and Wiesel, 1962). It is possible to reconstruct the field of orientations from long, sometimes multiple parallel penetrations (Hubel and Wiesel, 1974; Albus, 1975) by assuming that the orientations are arranged radially around centers. A method is developed which makes it possible to define uniquely the position of the centers in the vicinity of the electrode track. They turn out to be spaced at distances of about 0.5 mm and may be tentatively identified with the positions of the giant cells of Meynert.

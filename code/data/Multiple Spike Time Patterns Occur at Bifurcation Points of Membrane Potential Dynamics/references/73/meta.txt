@@ -1,6 +1,0 @@
-TITLE: Resonance effect for neural spike time reliability.
-AUTHORS: Hunter JD, Milton JG, Thomas PJ, Cowan JD
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The spike timing reliability of Aplysia motoneurons stimulated by repeated presentation of periodic or aperiodic input currents is investigated. Two properties of the input are varied, the frequency content and the relative amplitude of the fluctuations to the mean (expressed as the coefficient of variation: CV). It is shown that, for small relative amplitude fluctuations (CV approximately 0.05-0.15), the reliability of spike timing is enhanced if the input contains a resonant frequency equal to the firing rate of the neuron in response to the DC component of the input. This resonance-related enhancement in reliability decreases as the relative amplitude of the fluctuations increases (CV-->1). Similar results were obtained for a leaky integrate-and-fire neuronal model, suggesting that these effects are a general property of encoders that combine a threshold with a leaky integrator. These observations suggest that, when the magnitude of input fluctuations is small, changes in the power spectrum of the current fluctuations or in the spike discharge rate can have a pronounced effect on the ability of the neuron to encode a time-varying input with reliably timed spikes.

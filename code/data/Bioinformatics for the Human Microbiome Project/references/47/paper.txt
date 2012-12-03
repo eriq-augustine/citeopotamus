@@ -1,4 +1,0 @@
-Bambus 2: scaffolding metagenomes.
-Koren S, Treangen TJ, Pop M
-Abstract:
-None

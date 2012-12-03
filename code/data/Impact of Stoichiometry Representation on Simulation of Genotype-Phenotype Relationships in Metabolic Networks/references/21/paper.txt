@@ -1,4 +1,0 @@
-Improving the iMM904 S. cerevisiae metabolic model using essentiality and synthetic lethality data.
-Zomorrodi AR, Maranas CD
-Abstract:
-None

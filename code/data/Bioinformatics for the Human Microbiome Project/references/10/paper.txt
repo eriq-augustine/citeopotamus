@@ -1,4 +1,0 @@
-Microbiology in the post-genomic era.
-Medini D, Serruto D, Parkhill J, Relman DA, Donati C, Moxon R, Falkow S, Rappuoli R
-Abstract:
-Genomics has revolutionized every aspect of microbiology. Now, 13 years after the first bacterial genome was sequenced, it is important to pause and consider what has changed in microbiology research as a consequence of genomics. In this article, we review the evolving field of bacterial typing and the genomic technologies that enable comparative analysis of multiple genomes and the metagenomes of complex microbial environments, and address the implications of the genomic era for the future of microbiology.

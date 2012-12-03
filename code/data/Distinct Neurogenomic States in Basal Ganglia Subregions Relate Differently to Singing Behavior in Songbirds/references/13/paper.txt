@@ -1,4 +1,0 @@
-Gene network interconnectedness and the generalized topological overlap measure.
-Yip AM, Horvath S
-Abstract:
-None

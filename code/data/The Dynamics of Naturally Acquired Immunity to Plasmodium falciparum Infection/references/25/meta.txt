@@ -1,6 +1,0 @@
-TITLE: A retrospective examination of the patterns of recrudescence in patients infected with Plasmodium falciparum.
-AUTHORS: Collins WE, Jeffery GM
-TERMS:
-CATEGORIES:
-ABSTRACT:
-A retrospective examination was made to determine median intervals between recrudescences of Plasmodium falciparum in 343 neurosyphilitic patients who were given malariatherapy, which was routine care at that time. Data were collected at the National Institutes of Health laboratories in Columbia, South Carolina and Milledgeville, Georgia during the period 1940 to 1963. The geometric mean days of peak parasite count for the patients were 8, 26.5, 43.5, 62, 78.5, and 95.5 days, respectively. The intervals between these peaks of 18.5, 17, 18.5, 16.5, and 17 days suggest a fixed time frame for the appearance of different dominant parasite populations during the first 100 days of patent infection. When the data from these same patients were examined for mean peak parasite counts, the patterns indicated a consistent decrease in parasite count suggestive of increasing immunity, which was sufficient to reduce but not eliminate subsequent parasite populations. The geometric mean peak parasite counts for the 343 patients during the primary attack and the first 5 recrudescences were 40,350, 6,975, 5,090, 3,820, 3,455, and 2,375/microl, respectively.

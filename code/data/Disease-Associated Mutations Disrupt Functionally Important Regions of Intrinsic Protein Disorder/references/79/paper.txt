@@ -1,4 +1,0 @@
-The Amber biomolecular simulation programs.
-Case DA, Cheatham TE 3rd, Darden T, Gohlke H, Luo R, Merz KM Jr, Onufriev A, Simmerling C, Wang B, Woods RJ
-Abstract:
-None

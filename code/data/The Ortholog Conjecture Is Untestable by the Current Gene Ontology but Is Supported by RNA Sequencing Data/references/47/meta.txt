@@ -1,6 +1,0 @@
-TITLE: Highly expressed genes in yeast evolve slowly.
-AUTHORS: Pál C, Papp B, Hurst LD
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

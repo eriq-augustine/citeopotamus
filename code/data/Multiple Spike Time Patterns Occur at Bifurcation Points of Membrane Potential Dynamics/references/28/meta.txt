@@ -1,6 +1,0 @@
-TITLE: Divisive gain modulation with dynamic stimuli in integrate-and-fire neurons.
-AUTHORS: Ly C, Doiron B
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The modulation of the sensitivity, or gain, of neural responses to input is an important component of neural computation. It has been shown that divisive gain modulation of neural responses can result from a stochastic shunting from balanced (mixed excitation and inhibition) background activity. This gain control scheme was developed and explored with static inputs, where the membrane and spike train statistics were stationary in time. However, input statistics, such as the firing rates of pre-synaptic neurons, are often dynamic, varying on timescales comparable to typical membrane time constants. Using a population density approach for integrate-and-fire neurons with dynamic and temporally rich inputs, we find that the same fluctuation-induced divisive gain modulation is operative for dynamic inputs driving nonequilibrium responses. Moreover, the degree of divisive scaling of the dynamic response is quantitatively the same as the steady-state responses--thus, gain modulation via balanced conductance fluctuations generalizes in a straight-forward way to a dynamic setting.

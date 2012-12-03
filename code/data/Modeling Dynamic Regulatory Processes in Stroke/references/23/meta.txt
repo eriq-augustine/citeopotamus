@@ -1,6 +1,0 @@
-TITLE: ChEA: transcription factor regulation inferred from integrating genome-wide ChIP-X experiments.
-AUTHORS: Lachmann A, Xu H, Krishnan J, Berger SI, Mazloom AR, Ma'ayan A
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

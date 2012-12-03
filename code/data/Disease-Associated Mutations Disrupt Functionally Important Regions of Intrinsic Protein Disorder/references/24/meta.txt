@@ -1,6 +1,0 @@
-TITLE: What properties characterize the hub proteins of the protein-protein interaction network of Saccharomyces cerevisiae?
-AUTHORS: Ekman D, Light S, Björklund AK, Elofsson A
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

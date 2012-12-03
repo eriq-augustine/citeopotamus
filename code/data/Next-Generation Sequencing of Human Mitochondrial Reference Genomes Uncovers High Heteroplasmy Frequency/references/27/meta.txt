@@ -1,6 +1,0 @@
-TITLE: Mitochondrial genomes gleaned from human whole-exome sequencing.
-AUTHORS: Picardi E, Pesole G
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

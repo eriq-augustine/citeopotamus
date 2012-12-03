@@ -1,6 +1,0 @@
-TITLE: Capillary gravity waves caused by a moving disturbance: Wave resistance.
-AUTHORS: Raphaël E, de Gennes P
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

@@ -1,6 +1,0 @@
-TITLE: Statistical-mechanical analysis of self-organization and pattern formation during the development of visual maps.
-AUTHORS: Obermayer K, Blasdel GG, Schulten K
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

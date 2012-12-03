@@ -1,6 +1,0 @@
-TITLE: Investigating the metabolic capabilities of Mycobacterium tuberculosis H37Rv using the in silico strain iNJ661 and proposing alternative drug targets.
-AUTHORS: Jamshidi N, Palsson BØ
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

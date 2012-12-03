@@ -1,6 +1,0 @@
-TITLE: When orthologs diverge between human and mouse.
-AUTHORS: Gharib WH, Robinson-Rechavi M
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Despite the common assumption that orthologs usually share the same function, there have been various reports of divergence between orthologs, even among species as close as mammals. The comparison of mouse and human is of special interest, because mouse is often used as a model organism to understand human biology. We review the literature on evidence for divergence between human and mouse orthologous genes, and discuss it in the context of biomedical research.

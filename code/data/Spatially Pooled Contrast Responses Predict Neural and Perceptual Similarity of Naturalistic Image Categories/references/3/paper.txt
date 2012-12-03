@@ -1,4 +1,0 @@
-Rapid natural scene categorization in the near absence of attention.
-Li FF, VanRullen R, Koch C, Perona P
-Abstract:
-What can we see when we do not pay attention? It is well known that we can be "blind" even to major aspects of natural scenes when we attend elsewhere. The only tasks that do not need attention appear to be carried out in the early stages of the visual system. Contrary to this common belief, we report that subjects can rapidly detect animals or vehicles in briefly presented novel natural scenes while simultaneously performing another attentionally demanding task. By comparison, they are unable to discriminate large T's from L's, or bisected two-color disks from their mirror images under the same conditions. We conclude that some visual tasks associated with "high-level" cortical areas may proceed in the near absence of attention.

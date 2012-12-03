@@ -1,6 +1,0 @@
-TITLE: Assimilating seizure dynamics.
-AUTHORS: Ullah G, Schiff SJ
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Observability of a dynamical system requires an understanding of its state-the collective values of its variables. However, existing techniques are too limited to measure all but a small fraction of the physical variables and parameters of neuronal networks. We constructed models of the biophysical properties of neuronal membrane, synaptic, and microenvironment dynamics, and incorporated them into a model-based predictor-controller framework from modern control theory. We demonstrate that it is now possible to meaningfully estimate the dynamics of small neuronal networks using as few as a single measured variable. Specifically, we assimilate noisy membrane potential measurements from individual hippocampal neurons to reconstruct the dynamics of networks of these cells, their extracellular microenvironment, and the activities of different neuronal types during seizures. We use reconstruction to account for unmeasured parts of the neuronal system, relating micro-domain metabolic processes to cellular excitability, and validate the reconstruction of cellular dynamical interactions against actual measurements. Data assimilation, the fusing of measurement with computational models, has significant potential to improve the way we observe and understand brain dynamics.

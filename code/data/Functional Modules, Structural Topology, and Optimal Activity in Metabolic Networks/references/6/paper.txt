@@ -1,4 +1,0 @@
-What is flux balance analysis?
-Orth JD, Thiele I, Palsson BØ
-Abstract:
-None

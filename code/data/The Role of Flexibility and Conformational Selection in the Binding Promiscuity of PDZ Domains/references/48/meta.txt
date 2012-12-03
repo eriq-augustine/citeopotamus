@@ -1,6 +1,0 @@
-TITLE: Biochemical studies and molecular dynamics simulations of Smad3-Erbin interaction identify a non-classical Erbin PDZ binding.
-AUTHORS: Déliot N, Chavent M, Nourry C, Lécine P, Arnaud C, Hermant A, Maigret B, Borg JP
-TERMS:
-CATEGORIES:
-ABSTRACT:
-In this work, we describe how the Erbin PDZ domain interacts with Smad3, a transductor of the Transforming Growth Factor-beta (TGFbeta) pathway, via its MH2 domain. This interaction was described as important for TGFbeta signaling as it could potentially repress the transcriptional activity of the growth factor. In order to clarify our preliminary experimental observations pointing this interaction, we built a 3D model of the Erbin PDZ/Smad3 MH2 complex and checked its stability using molecular dynamics simulations. This model pointed out charged residues in Smad3 and Erbin which could be important for the interaction. By introducing point mutations of these residues within the proposed binding domains, we experimentally confirmed that arginine 279, glutamic acid 246 in Smad3 and glutamic acid 1321 in Erbin are important for the binding. These data suggest a possible novel interface of binding in the Erbin PDZ domain and reveal an unconventional mode of interaction for a PDZ domain and its ligand.

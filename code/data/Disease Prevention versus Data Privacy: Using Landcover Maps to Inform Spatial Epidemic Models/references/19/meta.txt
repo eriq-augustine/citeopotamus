@@ -1,6 +1,0 @@
-TITLE: Spatial epidemiology: an emerging (or re-emerging) discipline.
-AUTHORS: Ostfeld RS, Glass GE, Keesing F
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Spatial epidemiology is the study of spatial variation in disease risk or incidence. Several ecological processes can result in strong spatial patterns of such risk or incidence: for example, pathogen dispersal might be highly localized, vectors or reservoirs for pathogens might be spatially restricted, or susceptible hosts might be clumped. Here, we briefly describe approaches to spatial epidemiology that are spatially implicit, such as metapopulation models of disease transmission, and then focus on research in spatial epidemiology that is spatially explicit, such as the creation of risk maps for particular geographical areas. Although the spatial dynamics of infectious diseases are the subject of intensive study, the impacts of landscape structure on epidemiological processes have so far been neglected. The few studies that demonstrate how landscape composition (types of elements) and configuration (spatial positions of those elements) influence disease risk or incidence suggest that a true integration of landscape ecology with epidemiology will be fruitful.

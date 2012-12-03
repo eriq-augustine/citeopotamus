@@ -1,6 +1,0 @@
-TITLE: Early to late switch in bacteriophage T7 development: functional decay of T7 early messenger RNA.
-AUTHORS: Yamada Y, Whitaker PA, Nakada D
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

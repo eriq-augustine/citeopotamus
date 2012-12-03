@@ -1,6 +1,0 @@
-TITLE: Noisy information processing through transcriptional regulation.
-AUTHORS: Libby E, Perkins TJ, Swain PS
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Cells must respond to environmental changes to remain viable, yet the information they receive is often noisy. Through a biochemical implementation of Bayes's rule, we show that genetic networks can act as inference modules, inferring from intracellular conditions the likely state of the extracellular environment and regulating gene expression appropriately. By considering a two-state environment, either poor or rich in nutrients, we show that promoter occupancy is proportional to the (posterior) probability of the high nutrient state given current intracellular information. We demonstrate that single-gene networks inferring and responding to a high environmental state infer best when negatively controlled, and those inferring and responding to a low environmental state infer best when positively controlled. Our interpretation is supported by experimental data from the lac operon and should provide a basis for both understanding more complex cellular decision-making and designing synthetic inference circuits.

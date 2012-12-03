@@ -1,6 +1,0 @@
-TITLE: Scoring overlapping and adjacent signals from genome-wide ChIP and DamID assays.
-AUTHORS: Fu AQ, Adryan B
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Much of the research utilising genome-wide ChIP and DamID assays aims to understand the combinatorial feature of transcription factor binding and the chromatin modification code. With these experimental methods becoming more affordable and widespread, the focus of research is shifting to making sense of the data. Amongst the many challenges arising from data analyses, we are concerned with identifying biologically meaningful co-occurrences of transcription factor binding or chromatin modifications, using genome-wide profiles generated from ChIP and DamID assays. Co-occurrences are reflected in overlapping and adjacent signals in multiple ChIP or DamID profiles. We review existing quantitative methods to score overlaps and to cluster binding events in ChIP and DamID profiles. For pairwise comparison, existing methods either are based on a single score at the genome level or take a genomic, region-specific view. To draw inference from many profiles simultaneously, methods exist to cluster regions by their regulatory importance or to infer cis-regulatory modules for a particular region. We provide a simple guide to some of the statistical tools used by these methods.

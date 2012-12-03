@@ -1,4 +1,0 @@
-A modified splint for mallet finger.
-Stack HG
-Abstract:
-None

@@ -1,6 +1,0 @@
-TITLE: Intrinsic disorder and protein function.
-AUTHORS: Dunker AK, Brown CJ, Lawson JD, Iakoucheva LM, Obradović Z
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

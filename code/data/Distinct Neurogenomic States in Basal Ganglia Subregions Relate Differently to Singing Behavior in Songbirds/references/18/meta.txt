@@ -1,6 +1,0 @@
-TITLE: Learned birdsong and the neurobiology of human language.
-AUTHORS: Jarvis ED
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Vocal learning, the substrate for human language, is a rare trait found to date in only three distantly related groups of mammals (humans, bats, and cetaceans) and three distantly related groups of birds (parrots, hummingbirds, and songbirds). Brain pathways for vocal learning have been studied in the three bird groups and in humans. Here I present a hypothesis on the relationships and evolution of brain pathways for vocal learning among birds and humans. The three vocal learning bird groups each appear to have seven similar but not identical cerebral vocal nuclei distributed into two vocal pathways, one posterior and one anterior. Humans also appear to have a posterior vocal pathway, which includes projections from the face motor cortex to brainstem vocal lower motor neurons, and an anterior vocal pathway, which includes a strip of premotor cortex, the anterior basal ganglia, and the anterior thalamus. These vocal pathways are not found in vocal non-learning birds or mammals, but are similar to brain pathways used for other types of learning. Thus, I argue that if vocal learning evolved independently among birds and humans, then it did so under strong genetic constraints of a pre-existing basic neural network of the vertebrate brain.

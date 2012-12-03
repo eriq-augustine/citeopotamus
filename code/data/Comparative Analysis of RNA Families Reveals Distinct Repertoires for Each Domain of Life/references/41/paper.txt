@@ -1,4 +1,0 @@
-Metabolite-binding RNA domains are present in the genes of eukaryotes.
-Sudarsan N, Barrick JE, Breaker RR
-Abstract:
-Genetic control by metabolite-binding mRNAs is widespread in prokaryotes. These riboswitches are typically located in noncoding regions of mRNA, where they selectively bind their target compound and subsequently modulate gene expression. We have identified mRNA elements in fungi and in plants that match the consensus sequence and structure of thiamine pyrophosphate-binding domains of prokaryotes. In Arabidopsis, the consensus motif resides in the 3'-UTR of a thiamine biosynthetic gene, and the isolated RNA domain binds the corresponding coenzyme in vitro. These results suggest that metabolite-binding mRNAs are possibly involved in eukaryotic gene regulation and that some riboswitches might be representatives of an ancient form of genetic control.

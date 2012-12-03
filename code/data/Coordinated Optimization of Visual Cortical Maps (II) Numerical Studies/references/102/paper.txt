@@ -1,4 +1,0 @@
-Pairing-induced changes of orientation maps in cat visual cortex.
-Schuett S, Bonhoeffer T, Hübener M
-Abstract:
-We have studied the precise temporal requirements for plasticity of orientation preference maps in kitten visual cortex. Pairing a brief visual stimulus with electrical stimulation in the cortex, we found that the relative timing determines the direction of plasticity: a shift in orientation preference toward the paired orientation occurs if the cortex is activated first visually and then electrically; the cortical response to the paired orientation is diminished if the sequence of visual and electrical activation is reversed. We furthermore show that pinwheel centers are less affected by the pairing than the pinwheel surround. Thus, plasticity is not uniformly distributed across the cortex, and, most importantly, the same spike time-dependent learning rules that have been found in single-cell in vitro studies are also valid on the level of cortical maps.

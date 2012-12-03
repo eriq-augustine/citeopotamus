@@ -1,6 +1,0 @@
-TITLE: Protonation state of Asp30 exerts crucial influence over surface loop rearrangements responsible for NO release in nitrophorin 4.
-AUTHORS: Menyhárd DK, Keserü GM
-TERMS:
-CATEGORIES:
-ABSTRACT:
-pK(a) values of ionizable residues were calculated for the crystal structures describing the pH and NO binding dependant conformations of nitrophorin 4, a pH sensitive NO carrier heme protein. Comparison of resultant H-bonding patterns allowed the identification of the amino acids that take part in signaling pH change. We carried out MD simulations to show that the protonation state of Asp30, buried in the closed conformation, is crucial for maintaining the tight packed conformation of the closed form of the complex - presenting a model for the functional decrease of NO binding affinity of nitrophorins at physiological pH.

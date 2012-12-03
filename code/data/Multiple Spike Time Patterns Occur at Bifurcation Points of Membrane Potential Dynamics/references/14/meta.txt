@@ -1,6 +1,0 @@
-TITLE: Regulation of spike timing in visual cortical circuits.
-AUTHORS: Tiesinga P, Fellous JM, Sejnowski TJ
-TERMS:
-CATEGORIES:
-ABSTRACT:
-A train of action potentials (a spike train) can carry information in both the average firing rate and the pattern of spikes in the train. But can such a spike-pattern code be supported by cortical circuits? Neurons in vitro produce a spike pattern in response to the injection of a fluctuating current. However, cortical neurons in vivo are modulated by local oscillatory neuronal activity and by top-down inputs. In a cortical circuit, precise spike patterns thus reflect the interaction between internally generated activity and sensory information encoded by input spike trains. We review the evidence for precise and reliable spike timing in the cortex and discuss its computational role.

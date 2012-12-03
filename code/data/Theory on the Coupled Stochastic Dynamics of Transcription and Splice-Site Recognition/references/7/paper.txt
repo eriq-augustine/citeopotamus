@@ -1,4 +1,0 @@
-Variation in alternative splicing across human tissues.
-Yeo G, Holste D, Kreiman G, Burge CB
-Abstract:
-None

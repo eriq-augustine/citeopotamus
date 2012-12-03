@@ -1,4 +1,0 @@
-The HIV coreceptor switch: a population dynamical perspective.
-Regoes RR, Bonhoeffer S
-Abstract:
-Over the course of infection, the coreceptor usage of the HIV virus changes from a preference for CCR5 to a preference for CXCR4 in approximately 50% of infected individuals. The change in coreceptor usage is the result of the complex interaction of the viral population with various cell populations of the immune system. Although many of the molecular processes involved in viral attachment and entry have been resolved, the population dynamical mechanisms leading to the emergence of CXCR4-using HIV variants in some infected individuals are not yet understood. Here, we review various hypotheses that have been proposed to explain the change of HIV coreceptor usage in the course of infection, and conclude that any corroboration or rejection of these hypotheses requires a quantitative analysis of the interaction between the virus and immune cells.

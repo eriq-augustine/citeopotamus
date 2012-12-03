@@ -1,6 +1,0 @@
-TITLE: Ultra-rapid object detection with saccadic eye movements: visual processing speed revisited.
-AUTHORS: Kirchner H, Thorpe SJ
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Previous ultra-rapid go/no-go categorization studies with manual responses have demonstrated the remarkable speed and efficiency with which humans process natural scenes. Using a forced-choice saccade task we show here that when two scenes are simultaneously flashed in the left and right hemifields, human participants can reliably make saccades to the side containing an animal in as little as 120 ms. Low level differences between target and distractor images were unable to account for these exceptionally fast responses. The results suggest a very fast and unexpected route linking visual processing in the ventral stream with the programming of saccadic eye movements.

@@ -1,6 +1,0 @@
-TITLE: Symmetry, multistability, and long-range interactions in brain development.
-AUTHORS: Wolf F
-TERMS:
-CATEGORIES:
-ABSTRACT:
-An analytically tractable class of dynamical models for the pattern of contour detecting neurons in the visual cortex is introduced. A permutation symmetry of the model equations guarantees the emergence of contour detectors for all stimulus orientations. By this symmetry a large number of dynamically degenerate solutions exist that quantitatively reproduce the experimentally observed patterns. Long-range interactions are essential for the stability of these realistic solutions.

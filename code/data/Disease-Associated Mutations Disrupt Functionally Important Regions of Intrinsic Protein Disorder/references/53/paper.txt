@@ -1,4 +1,0 @@
-Composition Profiler: a tool for discovery and visualization of amino acid composition differences.
-Vacic V, Uversky VN, Dunker AK, Lonardi S
-Abstract:
-None

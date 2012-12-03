@@ -1,4 +1,0 @@
-Development of direction selectivity in mouse cortical neurons.
-Rochefort NL, Narushima M, Grienberger C, Marandi N, Hill DN, Konnerth A
-Abstract:
-None

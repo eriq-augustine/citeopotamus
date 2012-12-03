@@ -1,6 +1,0 @@
-TITLE: Perceptual classification in a rapidly changing environment.
-AUTHORS: Summerfield C, Behrens TE, Koechlin E
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

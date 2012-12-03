@@ -1,4 +1,0 @@
-Prediction of the phenotypic effects of non-synonymous single nucleotide polymorphisms using structural and evolutionary information.
-Bao L, Cui Y
-Abstract:
-None

@@ -1,6 +1,0 @@
-TITLE: Oxygen as a key developmental regulator of Rhizobium meliloti N2-fixation gene expression within the alfalfa root nodule.
-AUTHORS: Soupène E, Foussard M, Boistard P, Truchet G, Batut J
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The symbiotic pattern of expression of Rhizobium meliloti N2-fixation genes is tightly coupled with the histological organization of the alfalfa root nodule and thus is under developmental control. N2-fixation gene expression is induced very sharply at a particular zone of the nodule called interzone II-III that precedes the zone where N2 fixation takes place. We show here that this coupling can be disrupted, hereby resulting in ectopic expression of N2-fixation genes in the prefixing zone II of the nodule. Uncoupling was obtained either by using a R. meliloti strain in which a mutation rendered N2-fixation gene expression constitutive with respect to oxygen in free-living bacterial cultures or by placing nodules induced by a wild-type R. meliloti strain in a microoxic environment. These results implicate oxygen as a key determinant of the symbiotic pattern of N2-fixation gene expression.

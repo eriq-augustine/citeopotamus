@@ -1,4 +1,0 @@
-Molecular signatures database (MSigDB) 3.0.
-Liberzon A, Subramanian A, Pinchback R, Thorvaldsdóttir H, Tamayo P, Mesirov JP
-Abstract:
-None

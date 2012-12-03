@@ -1,6 +1,0 @@
-TITLE: Evolutionarily conserved bias of amino-acid usage refines the definition of PDZ-binding motif.
-AUTHORS: Chimura T, Launey T, Ito M
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

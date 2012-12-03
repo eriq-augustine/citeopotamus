@@ -1,6 +1,0 @@
-TITLE: Modeling of protrusion phenotypes driven by the actin-membrane interaction.
-AUTHORS: Enculescu M, Sabouri-Ghomi M, Danuser G, Falcke M
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

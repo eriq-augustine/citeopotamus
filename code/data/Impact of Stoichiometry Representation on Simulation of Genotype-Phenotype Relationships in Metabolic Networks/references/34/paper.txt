@@ -1,4 +1,0 @@
-Genome-scale models of microbial cells: evaluating the consequences of constraints.
-Price ND, Reed JL, Palsson BØ
-Abstract:
-Microbial cells operate under governing constraints that limit their range of possible functions. With the availability of annotated genome sequences, it has become possible to reconstruct genome-scale biochemical reaction networks for microorganisms. The imposition of governing constraints on a reconstructed biochemical network leads to the definition of achievable cellular functions. In recent years, a substantial and growing toolbox of computational analysis methods has been developed to study the characteristics and capabilities of microorganisms using a constraint-based reconstruction and analysis (COBRA) approach. This approach provides a biochemically and genetically consistent framework for the generation of hypotheses and the testing of functions of microbial cells.

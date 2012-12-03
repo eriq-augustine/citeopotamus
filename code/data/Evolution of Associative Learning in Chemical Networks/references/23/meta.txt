@@ -1,6 +1,0 @@
-TITLE: Localization of calcium channels in Paramecium caudatum.
-AUTHORS: Dunlap K
-TERMS:
-CATEGORIES:
-ABSTRACT:
-1. Electrical recordings from Paramecium caudatum were made after removal of the cilia with chloral hydrate and during ciliary regrowth to study the electrical properties of that portion of the surface membrane enclosing the ciliary axoneme. 2. Removal of the somatic cilia (a 50% reduction in membrane surface area) results in an almost complete elimination of the regenerative Ca response, all-or-none Ba2+ spike, and delayed rectification. 3. A twofold increase in input resistance resulted from the 50% reduction in membrane surface area. 4. The electrical properties remained unchanged, despite prolonged exposure to the chloral hydrate, until the cilia were mechanically removed. 5. Restoration of the Ca response accompanied ciliary regrowth, so that complete excitability returns when the cilia regain their original lengths. 6. It is concluded that the voltage-sensitive Ca channels are localized to that portion of surface membrane surrounding the cilia. 7. Measurements of membrane constants before and after deciliation and estimations of the cable constants of a single cilium suggest that the cilia of Paramecium may be fully isopotential along their length and with the major cell compartment.

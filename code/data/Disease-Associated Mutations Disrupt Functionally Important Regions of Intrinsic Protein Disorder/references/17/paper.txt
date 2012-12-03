@@ -1,4 +1,0 @@
-Why are "natively unfolded" proteins unstructured under physiologic conditions?
-Uversky VN, Gillespie JR, Fink AL
-Abstract:
-"Natively unfolded" proteins occupy a unique niche within the protein kingdom in that they lack ordered structure under conditions of neutral pH in vitro. Analysis of amino acid sequences, based on the normalized net charge and mean hydrophobicity, has been applied to two sets of proteins: small globular folded proteins and "natively unfolded" ones. The results show that "natively unfolded" proteins are specifically localized within a unique region of charge-hydrophobicity phase space and indicate that a combination of low overall hydrophobicity and large net charge represent a unique structural feature of "natively unfolded" proteins.

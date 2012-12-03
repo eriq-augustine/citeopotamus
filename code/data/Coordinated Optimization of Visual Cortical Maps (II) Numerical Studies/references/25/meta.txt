@@ -1,6 +1,0 @@
-TITLE: The coordinated mapping of visual space and response features in visual cortex.
-AUTHORS: Yu H, Farley BJ, Jin DZ, Sur M
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Whether general principles can explain the layouts of cortical maps remains unresolved. In primary visual cortex of ferret, the relationships between the maps of visual space and response features are predicted by a "dimension-reduction" model. The representation of visual space is anisotropic, with the elevation and azimuth axes having different magnification. This anisotropy is reflected in the orientation, ocular dominance, and spatial frequency domains, which are elongated such that their directions of rapid change, or high-gradient axes, are orthogonal to the high-gradient axis of the visual map. The feature maps are also strongly interdependent-their high-gradient regions avoid one another and intersect orthogonally where essential, so that overlap is minimized. Our results demonstrate a clear influence of the visual map on each feature map. In turn, the local representation of visual space is smooth, as predicted when many features are mapped within a cortical area.

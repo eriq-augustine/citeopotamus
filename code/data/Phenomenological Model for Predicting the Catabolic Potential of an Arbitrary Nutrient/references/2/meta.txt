@@ -1,6 +1,0 @@
-TITLE: Designing microorganisms for the treatment of toxic wastes.
-AUTHORS: Timmis KN, Steffan RJ, Unterman R
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The genetic design of novel metabolic routes offers exciting possibilities for biological research and biotechnology, both in the exploration of the metabolic/evolutionary potential of cells and in the development of innovative applications. In this chapter, we review recent advances in the development of genetic tools and strategies for the design of new microorganisms for elimination of environmental pollutants. These include the design of regulated gene expression circuits that provide high levels of catalytic activity, even under environmental conditions that ordinarily repress expression of catabolic genes; the rational alteration of relevant properties of proteins that qualitatively or quantitatively restrict catabolic activities; the judicious assembly of gene blocks encoding selected metabolic modules to create novel metabolic routes and combinations of routes; and the design of microorganisms exhibiting properties that contribute to better process development.

@@ -1,6 +1,0 @@
-TITLE: Circadian rhythms: interactions with seizures and epilepsy.
-AUTHORS: Quigg M
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Circadian rhythms are endogenously-mediated 24 h cycles of behavioral or physiological activity. The interactions among the mammalian circadian clock, acute seizures, and chronic epilepsy are not well-characterized. Evidence suggests that seizures are susceptible to circadian modulation, and that this modulation varies with epilepsy syndrome and location of seizure foci. The circadian timing system and secondary circadian cycles of hormone secretion, sleep and wakefulness, and recurrent environmental factors are discussed as potential systems that effect spontaneous seizure recurrence. Experimental designs should take into account time-of-day effects on seizure threshold and occurrence. Further work is required to determine what mechanisms account for daily variation in seizure susceptibility.

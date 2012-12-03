@@ -1,4 +1,0 @@
-Dynamics based alignment of proteins: an alternative approach to quantify dynamic similarity.
-Münz M, Lyngsø R, Hein J, Biggin PC
-Abstract:
-None

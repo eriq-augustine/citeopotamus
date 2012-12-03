@@ -1,4 +1,0 @@
-Cortex is driven by weak but synchronously active thalamocortical synapses.
-Bruno RM, Sakmann B
-Abstract:
-Sensory stimuli reach the brain via the thalamocortical projection, a group of axons thought to be among the most powerful in the neocortex. Surprisingly, these axons account for only approximately 15% of synapses onto cortical neurons. The thalamocortical pathway might thus achieve its effectiveness via high-efficacy thalamocortical synapses or via amplification within cortical layer 4. In rat somatosensory cortex, we measured in vivo the excitatory postsynaptic potential evoked by a single synaptic connection and found that thalamocortical synapses have low efficacy. Convergent inputs, however, are both numerous and synchronous, and intracortical amplification is not required. Our results suggest a mechanism of cortical activation by which thalamic input alone can drive cortex.

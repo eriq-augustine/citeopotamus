@@ -1,4 +1,0 @@
-A panorama of mammalian gene expression evolution.
-Zhang J
-Abstract:
-None

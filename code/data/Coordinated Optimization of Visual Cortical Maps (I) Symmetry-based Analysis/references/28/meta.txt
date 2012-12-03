@@ -1,6 +1,0 @@
-TITLE: Orientation preference patterns in mammalian visual cortex: a wire length minimization approach.
-AUTHORS: Koulakov AA, Chklovskii DB
-TERMS:
-CATEGORIES:
-ABSTRACT:
-In the visual cortex of many mammals, orientation preference changes smoothly along the cortical surface, with the exception of singularities such as pinwheels and fractures. The reason for the existence of these singularities has remained elusive, suggesting that they are developmental artifacts. We show that singularities reduce the length of intracortical neuronal connections for some connection rules. Therefore, pinwheels and fractures could be evolutionary adaptations keeping cortical volume to a minimum. Wire length minimization approach suggests that interspecies differences in orientation preference maps reflect differences in intracortical neuronal circuits, thus leading to experimentally testable predictions. We discuss application of our model to direction preference maps.

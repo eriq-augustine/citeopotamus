@@ -1,6 +1,0 @@
-TITLE: The Unscented Kalman Filter estimates the plasma insulin from glucose measurement.
-AUTHORS: Eberle C, Ament C
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

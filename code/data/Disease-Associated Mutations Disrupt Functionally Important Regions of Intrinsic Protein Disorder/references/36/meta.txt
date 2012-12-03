@@ -1,6 +1,0 @@
-TITLE: Length-dependent prediction of protein intrinsic disorder.
-AUTHORS: Peng K, Radivojac P, Vucetic S, Dunker AK, Obradovic Z
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

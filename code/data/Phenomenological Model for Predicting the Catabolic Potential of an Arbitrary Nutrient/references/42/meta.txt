@@ -1,6 +1,0 @@
-TITLE: Inositol pyrophosphates: structure, enzymology and function.
-AUTHORS: Barker CJ, Illies C, Gaboardi GC, Berggren PO
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The stereochemistry of the inositol backbone provides a platform on which to generate a vast array of distinct molecular motifs that are used to convey information both in signal transduction and many other critical areas of cell biology. Diphosphoinositol phosphates, or inositol pyrophosphates, are the most recently characterized members of the inositide family. They represent a new frontier with both novel targets within the cell and novel modes of action. This includes the proposed pyrophosphorylation of a unique subset of proteins. We review recent insights into the structures of these molecules and the properties of the enzymes which regulate their concentration. These enzymes also act independently of their catalytic activity via protein-protein interactions. This unique combination of enzymes and products has an important role in diverse cellular processes including vesicle trafficking, endo- and exocytosis, apoptosis, telomere length regulation, chromatin hyperrecombination, the response to osmotic stress, and elements of nucleolar function.

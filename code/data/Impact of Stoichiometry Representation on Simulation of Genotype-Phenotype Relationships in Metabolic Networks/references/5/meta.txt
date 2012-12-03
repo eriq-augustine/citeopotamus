@@ -1,6 +1,0 @@
-TITLE: Fifteen years of large scale metabolic modeling of yeast: developments and impacts.
-AUTHORS: Osterlund T, Nookaew I, Nielsen J
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

@@ -1,6 +1,0 @@
-TITLE: Coupled folding and binding with alpha-helix-forming molecular recognition elements.
-AUTHORS: Oldfield CJ, Cheng Y, Cortese MS, Romero P, Uversky VN, Dunker AK
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Many protein-protein and protein-nucleic acid interactions involve coupled folding and binding of at least one of the partners. Here, we propose a protein structural element or feature that mediates the binding events of initially disordered regions. This element consists of a short region that undergoes coupled binding and folding within a longer region of disorder. We call these features "molecular recognition elements" (MoREs). Examples of MoREs bound to their partners can be found in the alpha-helix, beta-strand, polyproline II helix, or irregular secondary structure conformations, and in various mixtures of the four structural forms. Here we describe an algorithm that identifies regions having propensities to become alpha-helix-forming molecular recognition elements (alpha-MoREs) based on a discriminant function that indicates such regions while giving a low false-positive error rate on a large collection of structured proteins. Application of this algorithm to databases of genomics and functionally annotated proteins indicates that alpha-MoREs are likely to play important roles protein-protein interactions involved in signaling events.

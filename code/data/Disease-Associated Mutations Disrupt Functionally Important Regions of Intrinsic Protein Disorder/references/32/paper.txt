@@ -1,4 +1,0 @@
-Bringing order to protein disorder through comparative genomics and genetic interactions.
-Bellay J, Han S, Michaut M, Kim T, Costanzo M, Andrews BJ, Boone C, Bader GD, Myers CL, Kim PM
-Abstract:
-None

@@ -1,4 +1,0 @@
-A fast algorithm for joint reconstruction of ancestral amino acid sequences.
-Pupko T, Pe'er I, Shamir R, Graur D
-Abstract:
-A dynamic programming algorithm is developed for maximum-likelihood reconstruction of the set of all ancestral amino acid sequences in a phylogenetic tree. To date, exhaustive algorithms that find the most likely set of ancestral states (joint reconstruction) have running times that scale exponentially with the number of sequences and are thus limited to very few taxa. The time requirement of our new algorithm scales linearly with the number of sequences and is therefore applicable to practically any number of taxa. A detailed description of the new algorithm and an example of its application to cytochrome b sequences are provided.

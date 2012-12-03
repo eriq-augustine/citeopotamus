@@ -1,6 +1,0 @@
-TITLE: The representation of perceived shape similarity and its role for category learning in monkeys: a modeling study.
-AUTHORS: Op de Beeck HP, Wagemans J, Vogels R
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Categorization models often assume an intermediate stimulus representation by units implementing "distance functions", that is, units that are activated according to the distance or similarity among stimuli. Here we show that a popular example of these models, ALCOVE, is able to account for the performance of monkeys during category learning when it takes the perceived similarity among stimuli into account. Similar results were obtained with a slightly different model (ITCOVE) that included experimentally measured tuning curves of neurons in inferior temporal (IT) cortex. These results show the intimate link between category learning and perceived similarity as represented in IT cortex.

@@ -1,4 +1,0 @@
-Estimating model parameters from time series by autosynchronization.
-Parlitz U
-Abstract:
-None

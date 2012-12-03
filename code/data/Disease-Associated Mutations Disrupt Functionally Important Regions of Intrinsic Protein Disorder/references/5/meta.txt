@@ -1,6 +1,0 @@
-TITLE: Predicting the functional consequences of non-synonymous single nucleotide polymorphisms: structure-based assessment of amino acid variation.
-AUTHORS: Chasman D, Adams RM
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

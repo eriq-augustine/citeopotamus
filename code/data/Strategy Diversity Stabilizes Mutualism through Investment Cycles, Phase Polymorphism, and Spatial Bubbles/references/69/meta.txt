@@ -1,6 +1,0 @@
-TITLE: Genetic regulation of biological nitrogen fixation.
-AUTHORS: Dixon R, Kahn D
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

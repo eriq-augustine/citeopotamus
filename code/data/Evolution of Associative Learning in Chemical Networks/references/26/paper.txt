@@ -1,4 +1,0 @@
-Amount of induced avoidance behaviour to light in the protozoa Tetrahymena as a function of time after training and cell fission.
-Bergström SR
-Abstract:
-None

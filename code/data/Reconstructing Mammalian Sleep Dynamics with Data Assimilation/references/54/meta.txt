@@ -1,6 +1,0 @@
-TITLE: Structural and practical identifiability analysis of partially observed dynamical models by exploiting the profile likelihood.
-AUTHORS: Raue A, Kreutz C, Maiwald T, Bachmann J, Schilling M, Klingmüller U, Timmer J
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

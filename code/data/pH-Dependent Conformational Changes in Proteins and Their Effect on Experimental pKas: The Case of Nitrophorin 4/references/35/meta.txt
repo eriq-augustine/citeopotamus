@@ -1,6 +1,0 @@
-TITLE: Constant pH molecular dynamics in generalized Born implicit solvent.
-AUTHORS: Mongan J, Case DA, McCammon JA
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

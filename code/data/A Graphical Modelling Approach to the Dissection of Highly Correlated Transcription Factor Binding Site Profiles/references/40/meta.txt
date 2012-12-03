@@ -1,6 +1,0 @@
-TITLE: Quantitative morphological signatures define local signaling networks regulating cell morphology.
-AUTHORS: Bakal C, Aach J, Church G, Perrimon N
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Although classical genetic and biochemical approaches have identified hundreds of proteins that function in the dynamic remodeling of cell shape in response to upstream signals, there is currently little systems-level understanding of the organization and composition of signaling networks that regulate cell morphology. We have developed quantitative morphological profiling methods to systematically investigate the role of individual genes in the regulation of cell morphology in a fast, robust, and cost-efficient manner. We analyzed a compendium of quantitative morphological signatures and described the existence of local signaling networks that act to regulate cell protrusion, adhesion, and tension.

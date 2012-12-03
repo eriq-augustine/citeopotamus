@@ -1,4 +1,0 @@
-Mitochondrial genomes gleaned from human whole-exome sequencing.
-Picardi E, Pesole G
-Abstract:
-None

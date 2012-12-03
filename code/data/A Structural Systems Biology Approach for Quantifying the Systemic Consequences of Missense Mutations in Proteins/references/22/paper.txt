@@ -1,4 +1,0 @@
-Predicting free energy changes using structural ensembles.
-Benedix A, Becker CM, de Groot BL, Caflisch A, Böckmann RA
-Abstract:
-None

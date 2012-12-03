@@ -1,6 +1,0 @@
-TITLE: Probability of HIV-1 transmission per coital act in monogamous, heterosexual, HIV-1-discordant couples in Rakai, Uganda.
-AUTHORS: Gray RH, Wawer MJ, Brookmeyer R, Sewankambo NK, Serwadda D, Wabwire-Mangen F, Lutalo T, Li X, vanCott T, Quinn TC, Rakai Project Team
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

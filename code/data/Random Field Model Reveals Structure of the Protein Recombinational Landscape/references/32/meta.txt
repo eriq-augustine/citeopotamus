@@ -1,6 +1,0 @@
-TITLE: Simulating protein evolution in sequence and structure space.
-AUTHORS: Xia Y, Levitt M
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Naturally occurring proteins comprise a special subset of all plausible sequences and structures selected through evolution. Simulating protein evolution with simplified and all-atom models has shed light on the evolutionary dynamics of protein populations, the nature of evolved sequences and structures, and the extent to which today's proteins are shaped by selection pressures on folding, structure and function. Extensive mapping of the native structure, stability and folding rate in sequence space using lattice proteins has revealed organizational principles of the sequence/structure map important for evolutionary dynamics. Evolutionary simulations with lattice proteins have highlighted the importance of fitness landscapes, evolutionary mechanisms, population dynamics and sequence space entropy in shaping the generic properties of proteins. Finally, evolutionary-like simulations with all-atom models, in particular computational protein design, have helped identify the dominant selection pressures on naturally occurring protein sequences and structures.

@@ -1,6 +1,0 @@
-TITLE: The RNA moiety of ribonuclease P is the catalytic subunit of the enzyme.
-AUTHORS: Guerrier-Takada C, Gardiner K, Marsh T, Pace N, Altman S
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The RNA moieties of ribonuclease P purified from both E. coli (M1 RNA) and B. subtilis (P-RNA) can cleave tRNA precursor molecules in buffers containing either 60 mM Mg2+ or 10 mM Mg2+ plus 1 mM spermidine. The RNA acts as a true catalyst under these conditions whereas the protein moieties of the enzymes alone show no catalytic activity. However, in buffers containing 5-10 mM Mg2+ (in the absence of spermidine) both kinds of subunits are required for enzymatic activity, as shown previously. In the presence of low concentrations of Mg2+, in vitro, the RNA and protein subunits from one species can complement subunits from the other species in reconstitution experiments. When the precursor to E. coli 4.5S RNA is used as a substrate, only the enzyme complexes formed with M1 RNA from E. coli and the protein moieties from either bacterial species are active.

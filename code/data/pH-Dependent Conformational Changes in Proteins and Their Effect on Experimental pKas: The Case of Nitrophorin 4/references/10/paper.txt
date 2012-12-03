@@ -1,4 +1,0 @@
-What are the dielectric "constants" of proteins and how to validate electrostatic models?
-Schutz CN, Warshel A
-Abstract:
-None

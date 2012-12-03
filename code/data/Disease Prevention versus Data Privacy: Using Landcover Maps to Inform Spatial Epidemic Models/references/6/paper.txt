@@ -1,4 +1,0 @@
-Goodness-of-fit measures for individual-level models of infectious disease in a Bayesian framework.
-Gardner A, Deardon R, Darlington G
-Abstract:
-None

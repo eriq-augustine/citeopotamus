@@ -1,6 +1,0 @@
-TITLE: Estimating the rate of molecular evolution: incorporating non-contemporaneous sequences into maximum likelihood phylogenies.
-AUTHORS: Rambaut A
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

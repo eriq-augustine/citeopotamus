@@ -1,6 +1,0 @@
-TITLE: Pathogenic landscapes: interactions between land, people, disease vectors, and their animal hosts.
-AUTHORS: Lambin EF, Tran A, Vanwambeke SO, Linard C, Soti V
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

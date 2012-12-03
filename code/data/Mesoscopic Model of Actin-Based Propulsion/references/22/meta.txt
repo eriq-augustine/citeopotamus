@@ -1,6 +1,0 @@
-TITLE: Curved tails in polymerization-based bacterial motility.
-AUTHORS: Rutenberg AD, Grant M
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The curved actin "comet-tail" of the bacterium Listeria monocytogenes is a visually striking signature of actin polymerization-based motility. Similar actin tails are associated with Shigella flexneri, spotted-fever Rickettsiae, the Vaccinia virus, and vesicles and microspheres in related in vitro systems. We show that the torque required to produce the curvature in the tail can arise from randomly placed actin filaments pushing the bacterium or particle. We find that the curvature magnitude determines the number of actively pushing filaments, independent of viscosity and of the molecular details of force generation. The variation of the curvature with time can be used to infer the dynamics of actin filaments at the bacterial surface.

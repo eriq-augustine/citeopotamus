@@ -1,6 +1,0 @@
-TITLE: Organization and expression of bacteriophage T7 DNA.
-AUTHORS: Studier FW, Dunn JJ
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

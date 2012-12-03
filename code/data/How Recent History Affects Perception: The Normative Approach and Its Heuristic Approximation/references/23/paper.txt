@@ -1,4 +1,0 @@
-Perceptual classification in a rapidly changing environment.
-Summerfield C, Behrens TE, Koechlin E
-Abstract:
-None

@@ -1,6 +1,0 @@
-TITLE: Power to detect the effects of HIV vaccination in repeated low-dose challenge experiments.
-AUTHORS: Hudgens MG, Gilbert PB, Mascola JR, Wu CD, Barouch DH, Self SG
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Simulation studies were conducted to estimate the statistical power of repeated low-dose challenge experiments performed in nonhuman primates to detect the effect of a candidate human immunodeficiency virus vaccine. The effect of various design parameters on power was explored. Results of simulation studies indicate that repeated low-dose challenge studies with a total sample of size 50 (25 animals/arm) typically provide adequate power to detect a 50% reduction in the per-exposure probability of infection resulting from vaccination. Power generally increases with the maximum number of allowable challenges per animal, the per-exposure risk of infection in control animals, and the proportion of animals susceptible to infection.

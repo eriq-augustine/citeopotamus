@@ -1,6 +1,0 @@
-TITLE: The chi square periodogram: its utility for analysis of circadian rhythms.
-AUTHORS: Sokolove PG, Bushell WN
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

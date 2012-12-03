@@ -1,6 +1,0 @@
-TITLE: Domain boundaries in convection patterns.
-AUTHORS: Malomed BA, Nepomnyashchy AA, Tribelsky MI
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

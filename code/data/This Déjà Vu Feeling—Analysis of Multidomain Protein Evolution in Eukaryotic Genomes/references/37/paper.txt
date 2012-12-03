@@ -1,4 +1,0 @@
-Inflammatory caspases: linking an intracellular innate immune system to autoinflammatory diseases.
-Martinon F, Tschopp J
-Abstract:
-Caspases not only play an essential role during apoptotic cell death, but a subfamily of them-the inflammatory caspases-are associated with immune responses to microbial pathogens. Activation of inflammatory caspases, such as caspase-1 and caspase-5, occurs upon assembly of an intracellular complex, designated the inflammasome. This results in the cleavage and activation of the proinflammatory cytokines IL-1beta and IL-18. Mutations in one of the scaffold proteins of the inflammasome, NALP3/Cryopyrin, are associated with autoinflammatory disorders underscoring the importance of regulating inflammatory caspase activation.

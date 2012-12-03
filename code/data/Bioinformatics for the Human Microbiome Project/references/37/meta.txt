@@ -1,6 +1,0 @@
-TITLE: Critical review of published microarray studies for cancer outcome and guidelines on statistical analysis and reporting.
-AUTHORS: Dupuy A, Simon RM
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

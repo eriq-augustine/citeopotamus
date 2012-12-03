@@ -1,4 +1,0 @@
-Minimal media for quantitative studies with Bacillus subtilis.
-DEMAIN AL
-Abstract:
-None

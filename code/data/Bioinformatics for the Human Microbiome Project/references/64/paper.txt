@@ -1,4 +1,0 @@
-Experimental and analytical tools for studying the human microbiome.
-Kuczynski J, Lauber CL, Walters WA, Parfrey LW, Clemente JC, Gevers D, Knight R
-Abstract:
-The human microbiome substantially affects many aspects of human physiology, including metabolism, drug interactions and numerous diseases. This realization, coupled with ever-improving nucleotide sequencing technology, has precipitated the collection of diverse data sets that profile the microbiome. In the past 2 years, studies have begun to include sufficient numbers of subjects to provide the power to associate these microbiome features with clinical states using advanced algorithms, increasing the use of microbiome studies both individually and collectively. Here we discuss tools and strategies for microbiome studies, from primer selection to bioinformatics analysis.

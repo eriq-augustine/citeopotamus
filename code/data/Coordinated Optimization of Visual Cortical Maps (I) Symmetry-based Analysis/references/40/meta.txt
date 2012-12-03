@@ -1,6 +1,0 @@
-TITLE: A computational model for the development of multiple maps in primary visual cortex.
-AUTHORS: Carreira-Perpiñán MA, Lister RJ, Goodhill GJ
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Primary visual cortex contains multiple maps of features of the visual scene, including visual field position, orientation, direction, ocular dominance and spatial frequency. The complex relationships between these maps provide clues to the strategies the cortex uses for representing and processing information. Here we simulate the combined development of all these map systems using a computational model, the elastic net. We show that this model robustly produces combined maps of these four variables that bear a close resemblance to experimental maps. In addition we show that the experimentally observed effects of monocular deprivation and single-orientation rearing can be reproduced in this model, and we make some testable predictions. These results provide strong support for the hypothesis that cortical representations attempt to optimize a trade-off between coverage and continuity.

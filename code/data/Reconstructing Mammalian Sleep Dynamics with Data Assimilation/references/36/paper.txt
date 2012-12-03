@@ -1,4 +1,0 @@
-Estimating parameters and hidden variables in non-linear state-space models based on ODEs for biological networks inference.
-Quach M, Brunel N, d'Alché-Buc F
-Abstract:
-None

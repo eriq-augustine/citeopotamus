@@ -1,6 +1,0 @@
-TITLE: Prediction of deleterious human alleles.
-AUTHORS: Sunyaev S, Ramensky V, Koch I, Lathe W 3rd, Kondrashov AS, Bork P
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Single nucleotide polymorphisms (SNPs) constitute the bulk of human genetic variation, occurring with an average density of approximately 1/1000 nucleotides of a genotype. SNPs are either neutral allelic variants or are under selection of various strengths, and the impact of SNPs on fitness remains unknown. Identification of SNPs affecting human phenotype, especially leading to risks of complex disorders, is one of the key problems of medical genetics. SNPs in protein-coding regions that cause amino acid variants (non-synonymous cSNPs) are most likely to affect phenotypes. We have developed a straightforward and reliable method based on physical and comparative considerations that estimates the impact of an amino acid replacement on the three-dimensional structure and function of the protein. We estimate that approximately 20% of common human non-synonymous SNPs damage the protein. The average minor allele frequency of such SNPs in our data set was two times lower than that of benign non-synonymous SNPs. The average human genotype carries approximately 10(3) damaging non-synonymous SNPs that together cause a substantial reduction in fitness.

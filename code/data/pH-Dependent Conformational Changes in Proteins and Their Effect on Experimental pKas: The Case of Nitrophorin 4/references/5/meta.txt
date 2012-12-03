@@ -1,6 +1,0 @@
-TITLE: Intracellular pH sensors: design principles and functional significance.
-AUTHORS: Srivastava J, Barber DL, Jacobson MP
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Changes in intracellular pH regulate many cell behaviors, including proliferation, migration, and transformation. However, our understanding of how physiological changes in pH affect protein conformations and macromolecular assemblies is limited. We present design principles, current modeling predictions, and examples of pH sensors or proteins that have activities or ligand-binding affinities that are regulated by changes in intracellular pH.

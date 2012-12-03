@@ -1,6 +1,0 @@
-TITLE: Mechanisms of 'inducer exclusion' by glucose.
-AUTHORS: Kornberg H, Watts PD, Brown K
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

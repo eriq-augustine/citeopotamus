@@ -1,4 +1,0 @@
-Dynamics of encoding in a population of neurons.
-Knight BW
-Abstract:
-A simple encoder model, which is a reasonable idealization from known electrophysiological properties, yields a population in which the variation of the firing rate with time is a perfect replica of the shape of the input stimulus. A population of noise-free encoders which depart even slightly from the simple model yield a very much degraded copy of the input stimulus. The presence of noise improves the performance of such a population. The firing rate of a population of neurons is related to the firing rate of a single member in a subtle way.

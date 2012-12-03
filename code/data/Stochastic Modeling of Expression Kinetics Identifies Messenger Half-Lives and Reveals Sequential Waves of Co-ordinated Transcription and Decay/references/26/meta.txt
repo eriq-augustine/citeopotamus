@@ -1,6 +1,0 @@
-TITLE: Regulatory mechanisms and networks couple the different phases of gene expression.
-AUTHORS: Dahan O, Gingold H, Pilpel Y
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

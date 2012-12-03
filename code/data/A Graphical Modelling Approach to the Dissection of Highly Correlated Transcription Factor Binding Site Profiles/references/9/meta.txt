@@ -1,6 +1,0 @@
-TITLE: Identification of core promoter modules in Drosophila and their application in accurate transcription start site prediction.
-AUTHORS: Ohler U
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The reliable recognition of eukaryotic RNA polymerase II core promoters, and the associated transcription start sites (TSSs) of genes, has been an ongoing challenge for computational biology. High throughput experimental methods such as tiling arrays or 5' SAGE/EST sequencing have recently lead to much larger datasets of core promoters, and to the assessment that the well-known core promoter sequence elements such as the TATA box appear to be much less frequent than thought. Here, we address the co-occurrence of several previously identified core promoter sequence motifs in Drosophila melanogaster to determine frequently occurring core promoter modules. We then use this in a new strategy to model core promoters as a set of alternative submodels for different core promoter architectures reflecting these different motif modules. We show that this system improves greatly on computational promoter recognition and leads to highly accurate in silico TSS prediction. Our results indicate that at least for the case of the fruit fly, we are getting closer to an understanding of how the beginning of a gene is defined in a eukaryotic genome.

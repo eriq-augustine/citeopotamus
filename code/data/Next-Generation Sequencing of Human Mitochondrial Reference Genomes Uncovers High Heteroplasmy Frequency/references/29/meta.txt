@@ -1,6 +1,0 @@
-TITLE: Accuracy and quality of massively parallel DNA pyrosequencing.
-AUTHORS: Huse SM, Huber JA, Morrison HG, Sogin ML, Welch DM
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

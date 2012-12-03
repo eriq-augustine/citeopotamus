@@ -1,6 +1,0 @@
-TITLE: A problem with the correlation coefficient as a measure of gene expression divergence.
-AUTHORS: Pereira V, Waxman D, Eyre-Walker A
-TERMS:
-CATEGORIES:
-ABSTRACT:
-The correlation coefficient is commonly used as a measure of the divergence of gene expression profiles between different species. Here we point out a potential problem with this statistic: if measurement error is large relative to the differences in expression, the correlation coefficient will tend to show high divergence for genes that have relatively uniform levels of expression across tissues or time points. We show that genes with a conserved uniform pattern of expression have significantly higher levels of expression divergence, when measured using the correlation coefficient, than other genes, in a data set from mouse, rat, and human. We also show that the Euclidean distance yields low estimates of expression divergence for genes with a conserved uniform pattern of expression.

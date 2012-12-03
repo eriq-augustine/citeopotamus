@@ -1,4 +1,0 @@
-The amino-acid mutational spectrum of human genetic disease.
-Vitkup D, Sander C, Church GM
-Abstract:
-None

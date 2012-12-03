@@ -1,6 +1,0 @@
-TITLE: Ligand-induced conformational change in penicillin acylase.
-AUTHORS: Done SH, Brannigan JA, Moody PC, Hubbard RE
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

@@ -1,4 +1,0 @@
-Branching morphogenesis and antiangiogenesis candidates: tip cells lead the way.
-Carmeliet P, De Smet F, Loges S, Mazzone M
-Abstract:
-From the original concepts that tumors require a vascular supply to grow and that blocking angiogenesis could suppress tumor growth, the oncology field has witnessed clinical successes of VEGF-targeted antiangiogenic medicine. The field is now facing the challenge of overcoming resistance to VEGF-targeted therapy, and therefore additional angiogenesis inhibitors are being developed. Studies on how endothelial 'tip, stalk and phalanx cells' form sprouts have identified promising candidate targets with complementary mechanisms to VEGF. This Review provides a conceptual framework in which molecular discoveries and principles are discussed in light of clinical opportunities to develop new antiangiogenic agents.

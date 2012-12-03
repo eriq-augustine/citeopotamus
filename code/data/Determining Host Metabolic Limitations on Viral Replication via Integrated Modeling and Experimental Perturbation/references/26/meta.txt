@@ -1,6 +1,0 @@
-TITLE: The genetics and physiology of bacteriophage T7.
-AUTHORS: Studier FW
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

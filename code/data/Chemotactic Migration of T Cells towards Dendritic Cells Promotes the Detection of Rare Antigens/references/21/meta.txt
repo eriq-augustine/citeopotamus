@@ -1,6 +1,0 @@
-TITLE: Cell adhesion and cortex contractility determine cell patterning in the Drosophila retina.
-AUTHORS: Käfer J, Hayashi T, Marée AF, Carthew RW, Graner F
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Because of the resemblance of many epithelial tissues to densely packed soap bubbles, it has been suggested that surface minimization, which drives soap bubble packing, could be governing cell packing as well. We test this by modeling the shape of the cells in a Drosophila retina ommatidium. We use the observed configurations and shapes in wild-type flies, as well as in flies with different numbers of cells per ommatidia, and mutants with cells where E- or N-cadherin is either deleted or misexpressed. We find that surface minimization is insufficient to model the experimentally observed shapes and packing of the cells based on their cadherin expression. We then consider a model in which adhesion leads to a surface increase, balanced by cell cortex contraction. Using the experimentally observed distributions of E- and N-cadherin, we simulate the packing and cell shapes in the wild-type eye. Furthermore, by changing only the corresponding parameters, this model can describe the mutants with different numbers of cells or changes in cadherin expression.

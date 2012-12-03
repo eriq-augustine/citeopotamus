@@ -1,6 +1,0 @@
-TITLE: Channeling of ammonia in glucosamine-6-phosphate synthase.
-AUTHORS: Teplyakov A, Obmolova G, Badet B, Badet-Denisot MA
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

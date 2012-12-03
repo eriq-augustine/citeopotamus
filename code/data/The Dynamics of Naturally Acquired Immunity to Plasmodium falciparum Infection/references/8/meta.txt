@@ -1,6 +1,0 @@
-TITLE: Acquisition of growth-inhibitory antibodies against blood-stage Plasmodium falciparum.
-AUTHORS: McCallum FJ, Persson KE, Mugyenyi CK, Fowkes FJ, Simpson JA, Richards JS, Williams TN, Marsh K, Beeson JG
-TERMS:
-CATEGORIES:
-ABSTRACT:
-None

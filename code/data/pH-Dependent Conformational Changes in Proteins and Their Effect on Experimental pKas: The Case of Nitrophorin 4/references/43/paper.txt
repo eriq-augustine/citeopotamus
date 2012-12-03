@@ -1,4 +1,0 @@
-Thermodynamic coupling of protonation and conformational equilibria in proteins: theory and simulation.
-Shi C, Wallace JA, Shen JK
-Abstract:
-None

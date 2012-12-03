@@ -1,6 +1,0 @@
-TITLE: Precision and functional specificity in mRNA decay.
-AUTHORS: Wang Y, Liu CL, Storey JD, Tibshirani RJ, Herschlag D, Brown PO
-TERMS:
-CATEGORIES:
-ABSTRACT:
-Posttranscriptional processing of mRNA is an integral component of the gene expression program. By using DNA microarrays, we precisely measured the decay of each yeast mRNA, after thermal inactivation of a temperature-sensitive RNA polymerase II. The half-lives varied widely, ranging from approximately 3 min to more than 90 min. We found no simple correlation between mRNA half-lives and ORF size, codon bias, ribosome density, or abundance. However, the decay rates of mRNAs encoding groups of proteins that act together in stoichiometric complexes were generally closely matched, and other evidence pointed to a more general relationship between physiological function and mRNA turnover rates. The results provide strong evidence that precise control of the decay of each mRNA is a fundamental feature of the gene expression program in yeast.

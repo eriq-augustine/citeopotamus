@@ -1,4 +1,0 @@
-Challenges in engineering microbes for biofuels production.
-Stephanopoulos G
-Abstract:
-Economic and geopolitical factors (high oil prices, environmental concerns, and supply instability) have been prompting policy-makers to put added emphasis on renewable energy sources. For the scientific community, recent advances, embodied in new insights into basic biology and technology that can be applied to metabolic engineering, are generating considerable excitement. There is justified optimism that the full potential of biofuel production from cellulosic biomass will be obtainable in the next 10 to 15 years.
