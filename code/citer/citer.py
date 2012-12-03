@@ -46,7 +46,7 @@ def fullTest():
          res.append(normalRun(paper))
       except OSError:
          print "Error parsing paper: " + paperName
-         next
+         continue
 
    res = sorted(res, reverse = True)
    for paper in res:
@@ -66,7 +66,7 @@ def normalRun(paper):
 
       # Skip citations that do not have a reference.
       if not paper.references.has_key(correctReference):
-         next
+         continue
 
       total += 1
 
@@ -82,9 +82,7 @@ def normalRun(paper):
                misses += 1
             break
 
-   #print "{} (Hits: {}, Misses: {}, Total: {}) -- {}".format((float(hits) / total), hits, misses, total, paper.title)
-   #print "{:.2%}\t(Hits: {},\tMisses: {},\tTotal: {})\t-- {}".format((float(hits) / len(paper.citations)), hits, misses, len(paper.citations), paper.title)
-   return ((float(hits) / len(paper.citations)), "{:.2%}\t(Hits: {},\tMisses: {},\tTotal: {})\t{}".format((float(hits) / len(paper.citations)), hits, misses, len(paper.citations), paper.title))
+   return ((float(hits) / total), "{:.2%}\t(Hits: {},\tMisses: {},\tTotal: {})\t{}".format((float(hits) / total), hits, misses, total, paper.title))
 
 
 # This one runs all the mothods in isolation and then tries to give a suggested ordering.
@@ -103,7 +101,7 @@ def orderingRun(paper):
 
          # Skip citations that do not have a reference.
          if not paper.references.has_key(correctReference):
-            next
+            continue
 
          guess = methodObj.guess(cite, paper)
          if guess == correctReference:
@@ -133,7 +131,7 @@ def debugRun(paper):
       # Skip citations that do not have a reference.
       if not paper.references.has_key(correctReference):
          print "Warning: There is no citation information found for citation #{}, skipping".format(correctReference)
-         next
+         continue
 
       print '---------'
       print cite.paragraphContext.raw
