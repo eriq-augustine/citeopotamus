@@ -49,8 +49,11 @@ def fullTest():
          continue
 
    res = sorted(res, reverse = True)
+   total = 0
    for paper in res:
       print paper[1]
+      total += paper[0]
+   print "Total: {}".format(total / len(res))
 
 def normalRun(paper):
    methods = [ method(paper) for method in AVAILABLE_METHODS ]

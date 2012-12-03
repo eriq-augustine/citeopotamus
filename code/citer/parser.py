@@ -71,8 +71,9 @@ def parseCitations(entry):
    # For when we see the references
    noMoreCitations = False
 
-   # First, make a global replacement for multiple cites eg. '[1, 2]'
    parsedText = entry['fullText']
+
+   # First, make a global replacement for multiple cites eg. '[1, 2]' => '[1][2]'
    groupedCitations = re.findall('\[\s*\d+\s*(?:,\s*\d+\s*)+\]', parsedText)
    for cite in groupedCitations:
       numbers = re.findall('\d+', cite)
@@ -81,8 +82,19 @@ def parseCitations(entry):
          replacement += '[{0}]'.format(number)
       parsedText = parsedText.replace(cite, replacement)
 
-   # TODO(eriq): Catch ranges and expand them.
+   # Expand citation ranges.
    # [1]-[5] => [1][2][3][4][5]
+   ranges = re.findall('\[\s*\d+\s*\]\s*\-\s*\[\s*\d+\s*\]', parsedText)
+   for citeRange in ranges:
+      numbers = re.findall('\d+', citeRange)
+      if len(numbers) != 2:
+         print "WARNING: A range of non-two length was found (" + citeRange + "). No replacement will occur."
+         continue
+
+      replacement = ''
+      for number in range(int(numbers[0]), int(numbers[1]) + 1):
+         replacement += '[{0}]'.format(number)
+      parsedText = parsedText.replace(citeRange, replacement)
 
    # Go line by line.
    for line in parsedText.splitlines():
