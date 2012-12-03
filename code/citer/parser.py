@@ -81,6 +81,9 @@ def parseCitations(entry):
          replacement += '[{0}]'.format(number)
       parsedText = parsedText.replace(cite, replacement)
 
+   # TODO(eriq): Catch ranges and expand them.
+   # [1]-[5] => [1][2][3][4][5]
+
    # Go line by line.
    for line in parsedText.splitlines():
       rawLine = line.strip()
@@ -99,7 +102,6 @@ def parseCitations(entry):
 
          for cite in cites:
             citeNum = int(re.search('(\d+)', cite).group(1))
-            citationKey.append(citeNum)
 
             markedLine = rawLine.replace(cite, MARKED_CITATION_MARKER)
             markedLine = re.sub('\[\s*\d+\s*\]', CITATION_MARKER, markedLine)
@@ -126,6 +128,17 @@ def parseCitations(entry):
             markedSentence = rawSentence.replace(cite, MARKED_CITATION_MARKER)
             markedSentence = re.sub('\[\s*\d+\s*\]', CITATION_MARKER, markedSentence)
             citesPerSentence = len(re.findall('\[\s*\d+\s*\]', rawSentence))
+
+            # Allow all cites in the sentence that are not seperated by a word character to be
+            # allowed as a correct citation.
+            # So things like [1][2][3] and [1],[2],[3] can be caught
+            correctCitations = set([citeNum])
+            match = re.search('(?:\[\s*\d+\s*\]\W*)*{}(?:\w*\[\s*\d+\s*\])*'.format(re.escape(cite)), rawSentence)
+            if match and match.group(0) != cite:
+               adjacentCites = re.findall('\[\s*\d+\s*\]', match.group(0))
+               for adjacentCite in adjacentCites:
+                  correctCitations.add(int(re.search('(\d+)', adjacentCite).group(1)))
+            citationKey.append({'main': citeNum, 'allowed': correctCitations})
 
             citations.append(Citation(rawLine, noCitationsLine,
                                       noNumbersLine, markedLine,

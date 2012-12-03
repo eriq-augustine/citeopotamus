@@ -65,7 +65,7 @@ def normalRun(paper):
       correctReference = paper.citationKey[i]
 
       # Skip citations that do not have a reference.
-      if not paper.references.has_key(correctReference):
+      if not paper.references.has_key(correctReference['main']):
          continue
 
       total += 1
@@ -76,7 +76,7 @@ def normalRun(paper):
       for methodObj in methods:
          guess = methodObj.guess(cite, paper)
          if guess:
-            if guess == correctReference:
+            if guess in correctReference['allowed']:
                hits += 1
             else:
                misses += 1
@@ -100,11 +100,11 @@ def orderingRun(paper):
          correctReference = paper.citationKey[i]
 
          # Skip citations that do not have a reference.
-         if not paper.references.has_key(correctReference):
+         if not paper.references.has_key(correctReference['main']):
             continue
 
          guess = methodObj.guess(cite, paper)
-         if guess == correctReference:
+         if guess in correctReference['allowed']:
             hits += 1
          elif guess:
             misses += 1
@@ -129,8 +129,8 @@ def debugRun(paper):
       correctReference = paper.citationKey[i]
 
       # Skip citations that do not have a reference.
-      if not paper.references.has_key(correctReference):
-         print "Warning: There is no citation information found for citation #{}, skipping".format(correctReference)
+      if not paper.references.has_key(correctReference['main']):
+         print "Warning: There is no citation information found for citation #{}, skipping".format(correctReference['main'])
          continue
 
       print '---------'
@@ -146,13 +146,13 @@ def debugRun(paper):
          res += methodObj.__class__.__name__ + "(" + str(guess) + '), '
          if not reportedValue and guess:
             reportedValue = True
-            if guess == correctReference:
+            if guess in correctReference['allowed']:
                hits += 1
             else:
                misses += 1
 
       print res
-      print "Actual Reference: {0}".format(correctReference)
+      print "Actual Reference: {0}".format(correctReference['allowed'])
       print '---------'
 
    print "HITS: {0} / {1} ({2})".format(hits, len(paper.citations), hits / float(len(paper.citations)))
