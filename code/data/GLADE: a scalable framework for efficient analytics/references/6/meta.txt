@@ -1,0 +1,6 @@
+TITLE: User-defined aggregate functions: bridging theory and practice
+AUTHORS: Sara Cohen
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The ability to create user-defined aggregate functions (UDAs) is rapidly becoming a standard feature in relational database systems. Therefore, problems such as query optimization, query rewriting and view maintenance must take into account queries (or views) with UDAs. There is a wealth of research on these problems for queries with general aggregate functions. Unfortunately, there is a mismatch between the manner in which UDAs are created, and the information that the database system requires in order to apply previous research.The purpose of this paper is to explore this mismatch and to bridge the gap between theory and practice, thereby enabling UDAs to become first-class citizens within the database. Specifically, we consider query optimization, query rewriting and view maintenance for queries with UDAs. For each of these problems we first survey previous results and explore the mismatch between theory and practice. We then present theoretical and practical insights that can be combined to derive a coherent framework for defining UDAs within a database system.

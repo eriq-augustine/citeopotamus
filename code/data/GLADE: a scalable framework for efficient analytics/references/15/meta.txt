@@ -1,0 +1,6 @@
+TITLE: Hive: a warehousing solution over a map-reduce framework
+AUTHORS: Ashish Thusoo and Joydeep Sen Sarma and Namit Jain and Zheng Shao and Prasad Chakka and Suresh Anthony and Hao Liu and Pete Wyckoff and and Raghotham Murthy
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The size of data sets being collected and analyzed in the industry for business intelligence is growing rapidly, making traditional warehousing solutions prohibitively expensive. Hadoop [3] is a popular open-source map-reduce implementation which is being used as an alternative to store and process extremely large data sets on commodity hardware. However, the map-reduce programming model is very low level and requires developers to write custom programs which are hard to maintain and reuse.

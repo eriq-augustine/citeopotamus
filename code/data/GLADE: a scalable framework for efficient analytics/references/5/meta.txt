@@ -1,0 +1,6 @@
+TITLE: MAD skills: new analysis practices for big data
+AUTHORS: Jeffrey Cohen and Brian Dolan and Mark Dunlap and Joseph M.  Hellerstein and Caleb Welton
+TERMS:
+CATEGORIES:
+ABSTRACT:
+As massive data acquisition and storage becomes increasingly affordable, a wide variety of enterprises are employing statisticians to engage in sophisticated data analysis. In this paper we highlight the emerging practice of Magnetic, Agile, Deep (MAD) data analysis as a radical departure from traditional Enterprise Data Warehouses and Business Intelligence. We present our design philosophy, techniques and experience providing MAD analytics for one of the world's largest advertising networks at Fox Audience Network, using the Greenplum parallel database system. We describe database design methodologies that support the agile working style of analysts in these settings. We present dataparallel algorithms for sophisticated statistical techniques, with a focus on density methods. Finally, we reflect on database system features that enable agile design and flexible algorithm development using both SQL and MapReduce interfaces over a variety of storage mechanisms.

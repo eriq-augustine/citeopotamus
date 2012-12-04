@@ -1,0 +1,10 @@
+TITLE: GLADE: a scalable framework for efficient analytics
+AUTHORS: Florin Rusu and Alin Dobra
+TERMS:
+CATEGORIES:
+ABSTRACT:
+In this paper we introduce GLADE, a scalable distributed framework for large scale data analytics. GLADE consists of a simple user-interface to define Generalized Linear Aggregates (GLA), the fundamental abstraction at the core of GLADE, and a distributed runtime environment that executes GLAs by using parallelism extensively.
+
+GLAs are derived from User-Defined Aggregates (UDA), a relational database extension that allows the user to add specialized aggregates to be executed inside the query processor. GLAs extend the UDA interface with methods to Serialize/Deserialize the state of the aggregate required for distributed computation. As a significant departure from UDAs which can be invoked only through SQL, GLAs give the user direct access to the state of the aggregate, thus allowing for the computation of significantly more complex aggregate functions.
+
+GLADE runtime is an execution engine optimized for the GLA computation. The runtime takes the user-defined GLA code, compiles it inside the engine, and executes it right near the data by taking advantage of parallelism both inside a single machine as well as across a cluster of computers. This results in maximum possible execution time performance (all our experimental tasks are I/O-bound) and linear scaleup.

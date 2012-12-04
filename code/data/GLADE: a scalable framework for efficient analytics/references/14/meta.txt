@@ -1,0 +1,6 @@
+TITLE: The POSTGRES data model
+AUTHORS: L. A. Rowe and M. R. Stonebraker
+TERMS:
+CATEGORIES:
+ABSTRACT:
+The design of the POSTGRES data model is described. The data model is a relational model that has been extended with abstract data types including user-deﬁned operators and procedures, relation attributes of type procedure, and attribute and procedure inheritance. These mechanism can be used to simulate a wide variety of semantic and object-oriented data modeling constructs including aggregation and generalization, complex objects with shared subobjects, and attributes that reference tuples in other relations.

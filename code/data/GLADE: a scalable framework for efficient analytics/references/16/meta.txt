@@ -1,0 +1,8 @@
+TITLE: Using SQL to Build New Aggregates and Extenders for Object- Relational Systems
+AUTHORS: Haixun Wang and Carlo Zaniolo
+TERMS:
+CATEGORIES:
+ABSTRACT:
+User-defined Aggregates (UDAs) provide a versatile mechanism for extending the power and applicability of Object-Relational Databases (O-R DBs). In this paper, we describe the AXL system that supports an SQL-based language for introducing new UDAs. AXL is easy to learn and use for database programmers because it preserves the constructs, programming paradigm and data types of SQL (whereas there is an 'impedance mistmatch' between SQL and the procedural languages of user-defined functions currently used in O-R DBs). AXL will also inherit the benefits of database query languages, such as scalability, data independence and parallelizability. In this paper, we show that, while adding only minimal extensions to SQL, AXL is very powerful and capable of expressing complex algorithms efficiently. We demonstrate this by coding data mining functions and other advanced applications that, previously, had been a major problem for SQL databases.
+
+Due to its flexibility, SQL-compatibility and ease of use, the AXL approach offers a better extensibility mechanism, in several application domains, than the function libraries now offered by commercial O-R DBs under names such as Datablades or DB-Extenders.
