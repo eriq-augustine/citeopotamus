@@ -29,13 +29,16 @@ Cal Poly, San Luis Obispo\\
 \pagestyle{empty}
 
 \section{Introduction}\label{sec:introduction}
-%problem statement
-%The whole problem of recommending citations
-%Discuss the two situations we are attacking
+The problem of recommending citations for a technical paper is known and has many approaches to attempt to solve it.\cite{cite1,cite2,cite3,cite4,cite5,cite6,cite7,cite8} Solutions range from graph based social network approaches to language models to match meaning in both the paper and the recommended text. But the problem of recommending where inside the paper to put citations is unknown. 
+The ideal solution would recommend an exact spot in the paper to put a specific citation. To solve this problem there exist two separate pieces. First, given a location of a citation the solution must be able to examine the references for the paper and choose the most appropriate citations.
+Second, find locations where citations should go. We leave the second problem to be done in the future while we focus on solving the first in this paper.
+
+The rest of the paper is laid out as follows. Section \ref{sec:contributions} is about what we are contributing. The following section describes
+out testing dataset. We then talk about our architecture we created to solve the problem. Then we go into how we parse papers and
+discuss the methods for choosing the best citation. Then we go into future work, related work, and lastly our conclusion.
 
 \section{Contributions}\label{sec:contributions}
-%dataset
-%Citation matching methods
+Our contributions consist of a dataset to test new solutions and methods to recommend citations given a location for a citation.
 
 
 \section{Dataset}\label{sec:dataset}
@@ -55,12 +58,19 @@ Cal Poly, San Luis Obispo\\
 \section{Results}\label{sec:results}
 
 \section{Future Work}\label{sec:future}
+We believe this work can be continued on in a couple obvious directions. The most obvious is to tackle the second part of the problem we mentioned early in the paper. That is the case where the solution must automatically look through the document to find places that need citations. The next most obvious extension is to improve our methods for recommending citations. New ways of comparing the context of a location for a citation and all of the papers available for citations are needed. Something that would be interesting to examine is summarizing every possible citation paper and treat the summarization as another abstract to use in our pipeline. The hardest and most interesting extension
+of this work would be to tie the solution in with a citation recommendation solution. We feel that would be an awesome advance in paper writing.
 
 \section{Related Work}\label{sec:related}
+We were unable to find any related work on recommending citations given a spot for a citation to go. Unlike the problem of recommending citations for a paper. Copious amounts of work already exists on the topic. With several different approaches. One of the most common was using models to compare a paper and the rest of the dataset. Some of the models used includes translation models, probabilistic models, and several forms of LDAs.\cite{cite1, cite2, cite3} The next most common group of solutions was to use citations graphs to recommend missing citations.\cite{cite6} One group extended the notion of graphs and included metadata to help filter out results.\cite{cite4} One of the most 
+interesting and unique approaches was to not look at co-citations but to look at co-accesses via logs like HTTP access records.\cite{cite7} 
+Another interesting approach used collaborative filtering to let communities help decide citations.\cite{cite8} For more related work in
+citation recommendation we recommend the survey by McNee et al. they go into a lot of depth on the problem and common pitfalls.\cite{cite5}
 
 \section{Conclusion}\label{sec:conclusion}
 
 \section{Thanks}
+We thanks the folks at PLOS for providing the source of our dataset. Without them this would of been a lot harder.
 
 \bibliographystyle{acm}
 \bibliography{refs}
