@@ -46,11 +46,14 @@ def fullTest():
          res.append(normalRun(paper))
       except OSError:
          print "Error parsing paper: " + paperName
-         next
+         continue
 
    res = sorted(res, reverse = True)
+   total = 0
    for paper in res:
       print paper[1]
+      total += paper[0]
+   print "Total: {}".format(total / len(res))
 
 def normalRun(paper):
    methods = [ method(paper) for method in AVAILABLE_METHODS ]
@@ -65,8 +68,8 @@ def normalRun(paper):
       correctReference = paper.citationKey[i]
 
       # Skip citations that do not have a reference.
-      if not paper.references.has_key(correctReference):
-         next
+      if not paper.references.has_key(correctReference['main']):
+         continue
 
       total += 1
 
@@ -76,15 +79,13 @@ def normalRun(paper):
       for methodObj in methods:
          guess = methodObj.guess(cite, paper)
          if guess:
-            if guess == correctReference:
+            if guess in correctReference['allowed']:
                hits += 1
             else:
                misses += 1
             break
 
-   #print "{} (Hits: {}, Misses: {}, Total: {}) -- {}".format((float(hits) / total), hits, misses, total, paper.title)
-   #print "{:.2%}\t(Hits: {},\tMisses: {},\tTotal: {})\t-- {}".format((float(hits) / len(paper.citations)), hits, misses, len(paper.citations), paper.title)
-   return ((float(hits) / len(paper.citations)), "{:.2%}\t(Hits: {},\tMisses: {},\tTotal: {})\t{}".format((float(hits) / len(paper.citations)), hits, misses, len(paper.citations), paper.title))
+   return ((float(hits) / total), "{:.2%}\t(Hits: {},\tMisses: {},\tTotal: {})\t{}".format((float(hits) / total), hits, misses, total, paper.title))
 
 
 # This one runs all the mothods in isolation and then tries to give a suggested ordering.
@@ -102,11 +103,11 @@ def orderingRun(paper):
          correctReference = paper.citationKey[i]
 
          # Skip citations that do not have a reference.
-         if not paper.references.has_key(correctReference):
-            next
+         if not paper.references.has_key(correctReference['main']):
+            continue
 
          guess = methodObj.guess(cite, paper)
-         if guess == correctReference:
+         if guess in correctReference['allowed']:
             hits += 1
          elif guess:
             misses += 1
@@ -131,9 +132,9 @@ def debugRun(paper):
       correctReference = paper.citationKey[i]
 
       # Skip citations that do not have a reference.
-      if not paper.references.has_key(correctReference):
-         print "Warning: There is no citation information found for citation #{}, skipping".format(correctReference)
-         next
+      if not paper.references.has_key(correctReference['main']):
+         print "Warning: There is no citation information found for citation #{}, skipping".format(correctReference['main'])
+         continue
 
       print '---------'
       print cite.paragraphContext.raw
@@ -148,13 +149,13 @@ def debugRun(paper):
          res += methodObj.__class__.__name__ + "(" + str(guess) + '), '
          if not reportedValue and guess:
             reportedValue = True
-            if guess == correctReference:
+            if guess in correctReference['allowed']:
                hits += 1
             else:
                misses += 1
 
       print res
-      print "Actual Reference: {0}".format(correctReference)
+      print "Actual Reference: {0}".format(correctReference['allowed'])
       print '---------'
 
    print "HITS: {0} / {1} ({2})".format(hits, len(paper.citations), hits / float(len(paper.citations)))

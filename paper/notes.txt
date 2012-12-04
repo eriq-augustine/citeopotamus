@@ -4,3 +4,5 @@ Foaad wasts section about just using information from reference.
 
 Why it is doing worse on bio? Different format, different style, different culture.
 We programmed for our known environment.
+
+All the different ways that cites are transformed (multiple possibilities if right next to eachother)

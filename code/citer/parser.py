@@ -71,8 +71,9 @@ def parseCitations(entry):
    # For when we see the references
    noMoreCitations = False
 
-   # First, make a global replacement for multiple cites eg. '[1, 2]'
    parsedText = entry['fullText']
+
+   # First, make a global replacement for multiple cites eg. '[1, 2]' => '[1][2]'
    groupedCitations = re.findall('\[\s*\d+\s*(?:,\s*\d+\s*)+\]', parsedText)
    for cite in groupedCitations:
       numbers = re.findall('\d+', cite)
@@ -80,6 +81,20 @@ def parseCitations(entry):
       for number in numbers:
          replacement += '[{0}]'.format(number)
       parsedText = parsedText.replace(cite, replacement)
+
+   # Expand citation ranges.
+   # [1]-[5] => [1][2][3][4][5]
+   ranges = re.findall('\[\s*\d+\s*\]\s*\-\s*\[\s*\d+\s*\]', parsedText)
+   for citeRange in ranges:
+      numbers = re.findall('\d+', citeRange)
+      if len(numbers) != 2:
+         print "WARNING: A range of non-two length was found (" + citeRange + "). No replacement will occur."
+         continue
+
+      replacement = ''
+      for number in range(int(numbers[0]), int(numbers[1]) + 1):
+         replacement += '[{0}]'.format(number)
+      parsedText = parsedText.replace(citeRange, replacement)
 
    # Go line by line.
    for line in parsedText.splitlines():
@@ -99,7 +114,6 @@ def parseCitations(entry):
 
          for cite in cites:
             citeNum = int(re.search('(\d+)', cite).group(1))
-            citationKey.append(citeNum)
 
             markedLine = rawLine.replace(cite, MARKED_CITATION_MARKER)
             markedLine = re.sub('\[\s*\d+\s*\]', CITATION_MARKER, markedLine)
@@ -126,6 +140,17 @@ def parseCitations(entry):
             markedSentence = rawSentence.replace(cite, MARKED_CITATION_MARKER)
             markedSentence = re.sub('\[\s*\d+\s*\]', CITATION_MARKER, markedSentence)
             citesPerSentence = len(re.findall('\[\s*\d+\s*\]', rawSentence))
+
+            # Allow all cites in the sentence that are not seperated by a word character to be
+            # allowed as a correct citation.
+            # So things like [1][2][3] and [1],[2],[3] can be caught
+            correctCitations = set([citeNum])
+            match = re.search('(?:\[\s*\d+\s*\]\W*)*{}(?:\w*\[\s*\d+\s*\])*'.format(re.escape(cite)), rawSentence)
+            if match and match.group(0) != cite:
+               adjacentCites = re.findall('\[\s*\d+\s*\]', match.group(0))
+               for adjacentCite in adjacentCites:
+                  correctCitations.add(int(re.search('(\d+)', adjacentCite).group(1)))
+            citationKey.append({'main': citeNum, 'allowed': correctCitations})
 
             citations.append(Citation(rawLine, noCitationsLine,
                                       noNumbersLine, markedLine,
