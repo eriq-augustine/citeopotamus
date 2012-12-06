@@ -6,7 +6,7 @@ use Carp;
 use Cwd;
 use File::Copy;
 
-use constant ROOT_DIR => getcwd().'/data/';
+use constant ROOT_DIR => getcwd().'/fix_data/';
 
 sub dir_status {
    if ($ENV{DEBUG}) {
@@ -17,7 +17,7 @@ sub dir_status {
 sub read_dir {
    my ($dir_handle) = @_;
 
-   return grep { $_ !~ m/[.]+/ } readdir($dir_handle);
+   return grep { $_ !~ m/^[.]/ } readdir($dir_handle);
 }
 
 sub dir_map {
@@ -35,59 +35,50 @@ sub dir_map {
 }
 
 sub hoist_references {
-   my ($REF_ROOT) = @_;
+   my ($num_files, $ref_root) = (0, @_);
 
-   opendir(my $REF_DIR, getcwd()) or croak('Unable to open current directory');
+   opendir(my $CURR_DIR, getcwd()) or croak('Unable to open current directory');
 
-   my $DIR_BEGIN = telldir($REF_DIR);
-
-   # A loop to pull all sub directories up to current directory
-   for my $sub_dir (read_dir($REF_DIR)) {
-      dir_map($sub_dir, sub {
-         hoist_references($REF_ROOT);
-      });
-   }
-   closedir($REF_DIR);
-
-   opendir($REF_DIR, getcwd()) or croak('Unable to open current directory');
-
-   for my $sub_dir (read_dir($REF_DIR)) {
+   for my $sub_dir (read_dir($CURR_DIR)) {
+      $num_files++;
       if (-d $sub_dir) {
-         my ($abs_sub_dir, $parent_dir) = (getcwd()."/$sub_dir", getcwd().'/..');
-         print("move '$abs_sub_dir' '$parent_dir\n'");
+         if (chdir($sub_dir)) {
+            my $has_files = hoist_references($ref_root);
+            chdir(q{..});
 
-         if (!$ENV{DEBUG}) {
-            #move($abs_sub_dir, $parent_dir) or croak("error moving file: $!");
-            `mv "$abs_sub_dir" "$parent_dir"`;
-            #print `pwd`;
-            #print `ls`;
+            if (!$has_files) {
+               dir_status();
+               if ($ENV{DEBUG}) { print "rm -rf $sub_dir\n"; }
+               else { `rm -rf $sub_dir`; }
+               next;
+            }
+         }
+
+         if (!-d "$ref_root/$sub_dir") {
+            dir_status();
+            if ($ENV{DEBUG}) { print "mv '$sub_dir' '$ref_root'\n"; }
+            else { `mv "$sub_dir" "$ref_root"`; }
          }
       }
    }
 
-   closedir($REF_DIR);
+   closedir($CURR_DIR);
 
+   return $num_files;
 }
 
 sub fix_ref_dir {
    my ($paper_dir) = @_;
 
-   my $success = dir_map("$paper_dir/references", sub {
-      my $reference_root = getcwd();
-      opendir(my $REF_DIR, $reference_root) or croak('Unable to open cwd');
+   if (chdir("$paper_dir/references")) {
+      my $ref_root = getcwd();
 
-      for my $sub_dir (read_dir($REF_DIR)) {
-         dir_map($sub_dir, sub {
-            hoist_references($reference_root);
-         });
-      }
-      closedir($REF_DIR);
+      hoist_references($ref_root);
 
-      chdir(q{..});
-   });
-
-   if (!$success) {
-      print({*STDERR} "Failed to map function on dir $paper_dir/references\n");
+      chdir(q{../..});
+   }
+   else {
+      print("rm -rf \"$paper_dir\"\n");
    }
 }
 
@@ -99,8 +90,8 @@ sub main {
       for my $paper_dir (read_dir($DIR_HANDLE)) {
          chomp($paper_dir);
 
-         if ($paper_dir !~ m/dynamo/ && -d $paper_dir) {
-            if ($ENV{DEBUG}) { print("fixing $paper_dir\n"); }
+         if (-d $paper_dir) {
+            if ($ENV{DEBUG}) { print("$paper_dir\n"); }
 
             fix_ref_dir($paper_dir);
          }
