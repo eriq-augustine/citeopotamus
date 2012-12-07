@@ -29,22 +29,62 @@ Cal Poly, San Luis Obispo\\
 \pagestyle{empty}
 
 \section{Introduction}\label{sec:introduction}
-The problem of recommending citations for a technical paper is known and has many approaches to attempt to solve it.\cite{cite1,cite2,cite3,cite4,cite5,cite6,cite7,cite8} Solutions range from graph based social network approaches to language models to match meaning in both the paper and the recommended text. But the problem of recommending where inside the paper to put citations is unknown. 
-The ideal solution would recommend an exact spot in the paper to put a specific citation. To solve this problem there exist two separate pieces. First, given a location of a citation the solution must be able to examine the references for the paper and choose the most appropriate citations.
-Second, find locations where citations should go. We leave the second problem to be done in the future while we focus on solving the first in this paper.
+The problem of recommending citations for a technical paper is known and has
+many approaches to attempt to solve it~\cite{cite1, cite2, cite3, cite4, cite5,
+cite6, cite7, cite8}. Solutions range from graph based social network
+approaches to language models to match meaning in both the paper and the
+recommended text. But the problem of recommending where inside the paper to put
+citations is unknown.  The ideal solution would recommend an exact spot in the
+paper to put a specific citation. To solve this problem there exist two
+separate pieces. First, given a location of a citation the solution must be
+able to examine the references for the paper and choose the most appropriate
+citations.  Second, find locations where citations should go. We leave the
+second problem to be done in the future while we focus on solving the first in
+this paper.
 
-The rest of the paper is laid out as follows. Section \ref{sec:contributions} is about what we are contributing. The following section describes
-out testing dataset. We then talk about our architecture we created to solve the problem. Then we go into how we parse papers and
-discuss the methods for choosing the best citation. Then we go into future work, related work, and lastly our conclusion.
+The rest of the paper is laid out as follows. Section \ref{sec:contributions}
+is about what we are contributing. The following section describes out testing
+dataset. We then talk about our architecture we created to solve the problem.
+Then we go into how we parse papers and discuss the methods for choosing the
+best citation. Then we go into future work, related work, and lastly our
+conclusion.
 
 \section{Contributions}\label{sec:contributions}
-Our contributions consist of a dataset to test new solutions and methods to recommend citations given a location for a citation.
+Our contributions consist of a dataset to test new solutions and methods to
+recommend citations given a location for a citation.
 
 \section{Dataset}\label{sec:dataset}
 %overview
+The dataset for which we report results was collected from \textit{PLoS
+Computational Biology}~\cite{plos}. PLoS (Public Library of Science) is a
+nonprofit publisher that aims to accelerate progress in science. PLoS has
+several journals--ONE, Biology, Medicine, Genetics, Computational Biology,
+Pathogens, and Neglected Tropical Diseases--available to the public. For our
+purposes we collected articles from PLoS Computational Biology, the
+computational biology journal published by PLoS. We only collected articles
+from this journal simply for the reason that as computer scientists it is the
+most likely to be similar to computer science publications in style and in
+content. We initially were interested in a corpus of computer science
+publications, however we were unable to find a source that would allow us to
+programmatically collect computer science publications and articles.
+
 %different components of the data
-%implementation
-%Metrics - #papers, #references, etc
+From PLoS Computational Biology we collected a set of \textit{root papers}, the
+papers whose citations we attempt to correctly predict. For each root paper we
+attempted to retrieve all \textit{reference papers}, or papers listed in the
+reference section of the root paper. For each reference paper, we retrieve
+metadata of the paper--title and authors--and the abstract text. We prefer to
+get the full text of a reference paper, but unfortunately we were unable to
+retrieve these, and so we settled for paper abstracts. One of our main
+objectives for the data, which we mostly satisfied, was to collect what we
+refer to as \textit{complete papers}. A complete paper is a paper for which we
+could retrieve metadata and abstracts for all reference papers.
+
+In order to simplify our implementation, we maintain a particular structure of
+the articles collected from PLoS. This structure dictates how the articles are
+stored on disk (files with a particular format) and what data must be
+possessed. This structure is further described in sections
+\ref{sec:text_structure} and \ref{sec:dir_structure} below.
 
 \section{Architecture}\label{sec:architecture}
 The Citeopotamus system is broken into two independent parts, the scrapper and citer.
