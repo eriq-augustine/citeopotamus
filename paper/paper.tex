@@ -40,7 +40,6 @@ discuss the methods for choosing the best citation. Then we go into future work,
 \section{Contributions}\label{sec:contributions}
 Our contributions consist of a dataset to test new solutions and methods to recommend citations given a location for a citation.
 
-
 \section{Dataset}\label{sec:dataset}
 %overview
 %different components of the data
@@ -48,22 +47,79 @@ Our contributions consist of a dataset to test new solutions and methods to reco
 %Metrics - #papers, #references, etc
 
 \section{Architecture}\label{sec:architecture}
+The Citeopotamus system is broken into two independent parts, the scrapper and citer.
+The general architecture can be seen in Figure \ref{fig:arch}.
+
+\begin{figure*}[ht]
+   \includegraphics[width=\textwidth px]{images/arch.eps}
+        \caption{The Citeopotamus architecture overlaid on a hippopotamus.}
+        \label{fig:arch}
+\end{figure*}
+
+\subsection{Scraper}
+TODO(aldrin)
+
+\subsection{Structured Paper Directory Format}
+The output of the scraper is a directory that contains information about the root paper and all the reference that were collected.
+To make all the information easily accessible to anyone without imposing any arbitrary restrictions, the structure of the
+data is enforced by directory structure.
+
+The root directory is named using the root paper's title. Inside the root directory is a ``references'' directory.
+Inside the ``references'' directory are sub-directories named with the number of that citation. A missing directory
+means that the scraper could not collect that reference's information.
+
+Every directory that represents a paper will have at most four files:
+\begin{enumerate}
+   \item meta.txt -- Contains the title, authors, tags, categories, and abstract. This is the only required file.
+   \item paper.pdf -- The pdf version of the paper.
+   \item paper.txt -- The text version of the paper.
+   \item refs.txt -- Only the references that appear at the bottom of the paper. This information is duplicated in paper.txt, but placed here for convenience.
+\end{enumerate}
+
+A sample directory structure can be seen in Figure \ref{fig:tree}.
+
+\begin{figure}[ht]
+   \includegraphics[width=\columnwidth px]{images/tree.eps}
+        \caption{The structure of a paper directory.}
+        \label{fig:tree}
+\end{figure}
+
+\subsection{Citer}\label{sec:archCiter}
+The citer begins by attempting to parse a directory structure into a structured collection of papers.
+The citer then pre-processed each paper and generates a set of contexts (see Section \ref{sec:context}) for each citation in each
+root paper.
+
+After all of the contexts are generated, those contexts are fed into the Method Pipeline. In this pipeline are all the methods (see Section \ref{sec:methods})
+that operate on the contexts to try and generate citations. Each citation in put through each method one at a time. If any method emits a value, then the pipeline
+it short circuited and the emitted value is used as the citation. Because of this short circuiting behavior, the methods in the pipeline are ordered by approximate
+precision. That is, all of the methods that rarely miss (regardless of how many citations they correctly place) are moved to the front of the pipeline.
+As a citation travels through the pipeline, its citation becomes more and more uncertain.
 
 \section{Parsing}\label{sec:parsing}
 %transformations
 %contexts
+\label{sec:context}
 
 \section{Methods}\label{sec:methods}
 
 \section{Results}\label{sec:results}
 
 \section{Future Work}\label{sec:future}
+TODO(eriq): THis section is bad.
 We believe this work can be continued on in a couple obvious directions. The most obvious is to tackle the second part of the problem we mentioned early in the paper. That is the case where the solution must automatically look through the document to find places that need citations. The next most obvious extension is to improve our methods for recommending citations. New ways of comparing the context of a location for a citation and all of the papers available for citations are needed. Something that would be interesting to examine is summarizing every possible citation paper and treat the summarization as another abstract to use in our pipeline. The hardest and most interesting extension
 of this work would be to tie the solution in with a citation recommendation solution. We feel that would be an awesome advance in paper writing.
 
+\subsection{Improvements}
+
+\subsubsection{Pipeline Uncertianty}
+As mentioned in Section \ref{sec:archCiter}, the further a citation moves into the pipeline the more uncertain its guessed citation becomes.
+Incorporating this uncertainty into the information provided to the user can be very useful in a real-world system.
+
+\subsection{Future Product}
+
 \section{Related Work}\label{sec:related}
 We were unable to find any related work on recommending citations given a spot for a citation to go. Unlike the problem of recommending citations for a paper. Copious amounts of work already exists on the topic. With several different approaches. One of the most common was using models to compare a paper and the rest of the dataset. Some of the models used includes translation models, probabilistic models, and several forms of LDAs.\cite{cite1, cite2, cite3} The next most common group of solutions was to use citations graphs to recommend missing citations.\cite{cite6} One group extended the notion of graphs and included metadata to help filter out results.\cite{cite4} One of the most 
-interesting and unique approaches was to not look at co-citations but to look at co-accesses via logs like HTTP access records.\cite{cite7} 
+interesting and unique approaches was to not look at co-citations but to look at co-accesses via logs like HTTP access records.\cite{cite7}
 Another interesting approach used collaborative filtering to let communities help decide citations.\cite{cite8} For more related work in
 citation recommendation we recommend the survey by McNee et al. they go into a lot of depth on the problem and common pitfalls.\cite{cite5}
 
