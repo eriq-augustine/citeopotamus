@@ -59,6 +59,14 @@ The general architecture can be seen in Figure \ref{fig:arch}.
 \subsection{Scraper}
 TODO(aldrin)
 
+\subsubsection{Structure of Paper Text}
+%TODO(aldrin): Expand here if necessary
+If the paper text was generated from OCR, then the structure of the text was left up to the OCR engine.
+However, papers scraped from PLOS were in HTML and extra formatting can be infered.
+
+All text inside top-level $p$ tags can be infered to be an entire paragraph and was placed on a single line.
+The references section was seperated from the rest of the paper by a single line with only ``REFERENCES'' on it.
+
 \subsection{Structured Paper Directory Format}
 The output of the scraper is a directory that contains information about the root paper and all the reference that were collected.
 To make all the information easily accessible to anyone without imposing any arbitrary restrictions, the structure of the
@@ -70,9 +78,9 @@ means that the scraper could not collect that reference's information.
 
 Every directory that represents a paper will have at most four files:
 \begin{enumerate}
-   \item meta.txt -- Contains the title, authors, tags, categories, and abstract. This is the only required file.
+   \item meta.txt -- Contains the title, authors, tags, categories, and abstract. This is the only file required for every paper directory.
    \item paper.pdf -- The pdf version of the paper.
-   \item paper.txt -- The text version of the paper.
+   \item paper.txt -- The text version of the paper. This file is required for the root paper.
    \item refs.txt -- Only the references that appear at the bottom of the paper. This information is duplicated in paper.txt, but placed here for convenience.
 \end{enumerate}
 
@@ -96,11 +104,108 @@ precision. That is, all of the methods that rarely miss (regardless of how many 
 As a citation travels through the pipeline, its citation becomes more and more uncertain.
 
 \section{Parsing}\label{sec:parsing}
-%transformations
-%contexts
-\label{sec:context}
+Because of its recursive nature, parsing the directory sreucture itself is rather simple.
+Parsing the text of a paper however, can be quite complex.
+
+\subsection{OCR}
+Before any parsing can be done a paper, it must first be converted to a plain text (UTF-8) format.
+Since PLOS provides most of their papers in an HTML format, this only had to be done offline for a few
+papers. After looking at many alternatives, we chose to use ABBYY Finereader 10\cite{abbyy}. This
+is a comercial OCR product, and requires a lisence to use.
+
+ABBYY Finereader clearly outperformed all of the other OCR products we tried. It is especially
+good at maintaining and recognizing formatting. Many other OCR products failed to correctly parse
+two-column formats and thus generated unusable output.
+
+\subsection{Transformations}
+Before parsing the text of the paper, we had to make some global transformation on the paper.
+Most of these transformations were done with simple regular expressions.
+
+\subsubsection{Multiple Citations}
+It is not unheard of for authors to make multiple citations within the same brackets: $$[1, 2]$$
+These have to be parsed out and replaced with individual citations next to eachother: $$[1][2]$$
+
+\subsubsection{Ranges}
+It is very common for authors to cite entire ranges at a time: $$[1] - [3]$$
+This is especially seen when an author is referencing background material. These ranges must be expanded out to
+the fill listof citations: $$[1][2][3]$$
+
+\subsubsection{False Positive Sentence Enders}\label{sec:fpEnders}
+Being able to split up paragraphs into sentences is very important to the Citeopotamus system.
+We first tried to use NLTK's \textit{PunktSentenceTokenizer}. However, this did not seem to work well.
+It seemed to have a problem with some of the symbols used in acedemic papers, such as the square brackets around
+citations. To combat the punctuation tokenizing problem, we decided to only spolit sentnce on periods, question marks, and
+exclamations points. Additionally, we replaced common false positive sentence enters i.e.
+$$i.e. => \_ie\_$$
+$$dr. => \_dr\_$$
+$$0.05 => \_0\_05\_$$
+
+Using this tactic, there is a chance that a real sentence ender is replaced. However, this will still
+include the original sentence in the result and the original sentence will still be located closer to the
+citation that the incorrectly included sentence. Missing a significant portion of a sentence would be a much more
+grevious error because then the context required to identify the citation may be missing.
+
+\subsection{Contexts}\label{sec:context}
+Contexts are the core of the Citeopotamus system. A ``context'' is just the words surrounding the citation.
+Deciding which words to include in a context is very important. We use three different types of contexts that are meant for different
+levels of precision. The contexts that include more words tends to be less precise and will therefore appear later in the pipeline.
+However, these larger contexts have access to more information than the smaller ones and can sometimes makes guesses that are impossible
+(outside of random) to the smaller contexts.
+
+\subsubsection{Paragraph}
+The largest of the contexts. We do not consider anything larger because it is very rare for an author to include information about a citation
+outside of the paragrapgh that the citation is in (not including parsing or OCR formatting errors). Paragraphs are easy to parse because the
+scraper puts one paragraph per line.
+
+\subsubsection{Sentence}
+Sentence level contexts contain just the sentence that the citation was main in. As discussed in Section \ref{sec:fpEnders},
+sentence context is parsed just by splitting the paragraph on sentence ending punctuation after false positives have been replaced.
+
+\subsubsection{Clause}
+Clause context is the smallest and most complex context. The purpose of this context is to capture the clause that the citation was made in.
+There are two parts to parsing this context: looking for parenthesis and walking backwards in the sentence.
+
+We will use the following actual sentence as a running example:
+\begin{quote}
+In previous work, the Guyton models were modularized and re-implemented in Fortran, C++ (M2SL \textbf{[]}), and Simulink \textbf{[]}.
+\end{quote}
+
+When trying to find the context of the first citaion, we recognize that it is surrounded by parenthesis.
+We take the parenthesis as a hint the that content inside the parenthesis is more related to the citation than the surrounding words.
+
+If there are no parethesis surrounding the citaion (as with the second citation), then we begin walking backwards in the sentence from the citation.
+We will continue walking backwards in the sentence until we find:
+\begin{enumerate}
+   \item The beginning of the sentence.
+   \item Another citation.
+   \item A character that may break a clause: '[', ']', '.', ',', ';', ':', '!', '"', '?', or '-'.
+\end{enumerate}
+
+We do not include the words that appear after the citation because we want to avoid a clause context expanding into a sentence context and
+in English, information about a reference is usually presented before the citation.
+
+Our example would generate two clause contexts:
+\begin{quote}
+M2SL
+\end{quote}
+
+\begin{quote}
+and Simulink
+\end{quote}
+
+Note that both cases generate contexts that contain the name of the product featured in the paper and no erronous inforamtion. Whereas the
+sentence context not only contains both produces, but a slew of other seemingly important words: ``Guyton'', ``Fortran'', and ``C++''.
+
+\subsection{References}
 
 \section{Methods}\label{sec:methods}
+
+\subsection{History}
+
+\section{Evaluation}
+
+\subsection{Adjacent Citations}
+%[][]; [], []
 
 \section{Results}\label{sec:results}
 
@@ -110,6 +215,13 @@ We believe this work can be continued on in a couple obvious directions. The mos
 of this work would be to tie the solution in with a citation recommendation solution. We feel that would be an awesome advance in paper writing.
 
 \subsection{Improvements}
+
+\subsubsection{Parsing and Scraping}
+Parsing is vital to the Citeopotamus system. If a context is inproperly parsed, then everything else around that citation falls apart.
+A spot check of papers that perform poorly (under 10\%) reveals that many of these these papers have many incorectly parsed contexts.
+Some of these errors come from an error in parsing like missing a false positive sentence ender. However, most of these errors appear to
+come from difficulties scraping the paper. We believe that irregularities in the paper's HTML causes poor formatting of the resulting
+plain text paper and therefore causes parsing errors.
 
 \subsubsection{Pipeline Uncertianty}
 As mentioned in Section \ref{sec:archCiter}, the further a citation moves into the pipeline the more uncertain its guessed citation becomes.

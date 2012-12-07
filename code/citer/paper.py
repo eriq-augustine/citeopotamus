@@ -91,7 +91,7 @@ class Citation:
       if match:
          self.preContext = match.group(1).replace(parser.MARKED_CITATION_MARKER, ' ').strip()
       else:
-         match = re.search('([^\[\]\.,;:!"\-]+){}'.format(re.escape(parser.MARKED_CITATION_MARKER)), markedSentence)
+         match = re.search('([^\[\]\.,;:!"\?\-]+){}'.format(re.escape(parser.MARKED_CITATION_MARKER)), markedSentence)
 
          if match:
             self.preContext = match.group(1).strip()

@@ -122,12 +122,16 @@ def parseCitations(entry):
             # 'e.g.', 'mr.', etc.
             # This may accidentally join extra sentences, but it is better than too short sentences.
             # This could be done in one, but it looks ugly and it should be fine.
-            hackLine = re.sub('e\.?g\.', '_eg_', rawLine, flags=re.IGNORECASE)
-            hackLine = re.sub('dr\.', '_dr_', hackLine, flags=re.IGNORECASE)
-            hackLine = re.sub('mr\.', '_mr_', hackLine, flags=re.IGNORECASE)
-            hackLine = re.sub('mrs\.', '_mrs_', hackLine, flags=re.IGNORECASE)
-            hackLine = re.sub('ms\.', '_ms_', hackLine, flags=re.IGNORECASE)
-            hackLine = re.sub('mme\.', '_mme_', hackLine, flags=re.IGNORECASE)
+            hackLine = re.sub(r'\be\.?g\.', '_eg_', rawLine, flags=re.IGNORECASE)
+            #hackLine = re.sub(r'\bi\.?e\.', '_ie_', rawLine, flags=re.IGNORECASE)
+            hackLine = re.sub(r'\bdr\.', '_dr_', hackLine, flags=re.IGNORECASE)
+            hackLine = re.sub(r'\bmr\.', '_mr_', hackLine, flags=re.IGNORECASE)
+            hackLine = re.sub(r'\bmrs\.', '_mrs_', hackLine, flags=re.IGNORECASE)
+            hackLine = re.sub(r'\bms\.', '_ms_', hackLine, flags=re.IGNORECASE)
+            hackLine = re.sub(r'\bmme\.', '_mme_', hackLine, flags=re.IGNORECASE)
+            hackLine = re.sub(r'\bet\.', '_et_', hackLine, flags=re.IGNORECASE)
+            hackLine = re.sub(r'\bal\.', '_al_', hackLine, flags=re.IGNORECASE)
+            hackLine = re.sub(r'\b(\d+)\.(\d+)', '_\1_\2_', hackLine, flags=re.IGNORECASE)
 
             rawSentence = re.search(
                   '(?:^|[\.\?!])\s*([^\.\?!]*' +
