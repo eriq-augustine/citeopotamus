@@ -97,3 +97,4 @@ class Citation:
             self.preContext = match.group(1).strip()
 
       self.preContextUnigrams = util.getNonStopNgrams(self.preContext, 1)
+      self.preContextBigrams = util.getNonStopNgrams(self.preContext, 2)

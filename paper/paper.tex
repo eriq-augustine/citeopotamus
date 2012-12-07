@@ -41,6 +41,7 @@ discuss the methods for choosing the best citation. Then we go into future work,
 Our contributions consist of a dataset to test new solutions and methods to recommend citations given a location for a citation.
 
 \section{Dataset}\label{sec:dataset}
+%TODO(aldrin)
 %overview
 %different components of the data
 %implementation
@@ -62,12 +63,12 @@ TODO(aldrin)
 \subsubsection{Structure of Paper Text}
 %TODO(aldrin): Expand here if necessary
 If the paper text was generated from OCR, then the structure of the text was left up to the OCR engine.
-However, papers scraped from PLOS were in HTML and extra formatting can be infered.
+However, papers scraped from PLOS were in HTML and extra formatting can be inferred.
 
-All text inside top-level $p$ tags can be infered to be an entire paragraph and was placed on a single line.
-The references section was seperated from the rest of the paper by a single line with only ``REFERENCES'' on it.
+All text inside top-level $p$ tags can be inferred to be an entire paragraph and was placed on a single line.
+The references section was separated from the rest of the paper by a single line with only ``REFERENCES'' on it.
 
-\subsection{Structured Paper Directory Format}
+\subsection{Structured Paper Directory Format}\label{sec:paperFormat}
 The output of the scraper is a directory that contains information about the root paper and all the reference that were collected.
 To make all the information easily accessible to anyone without imposing any arbitrary restrictions, the structure of the
 data is enforced by directory structure.
@@ -104,37 +105,37 @@ precision. That is, all of the methods that rarely miss (regardless of how many 
 As a citation travels through the pipeline, its citation becomes more and more uncertain.
 
 \section{Parsing}\label{sec:parsing}
-Because of its recursive nature, parsing the directory sreucture itself is rather simple.
+Because of its recursive nature, parsing the directory structure itself is rather simple.
 Parsing the text of a paper however, can be quite complex.
 
 \subsection{OCR}
 Before any parsing can be done a paper, it must first be converted to a plain text (UTF-8) format.
-Since PLOS provides most of their papers in an HTML format, this only had to be done offline for a few
+Since PLOS provides most of their papers in an HTML format, this only had to be done off-line for a few
 papers. After looking at many alternatives, we chose to use ABBYY Finereader 10\cite{abbyy}. This
-is a comercial OCR product, and requires a lisence to use.
+is a commercial OCR product, and requires a licence to use.
 
 ABBYY Finereader clearly outperformed all of the other OCR products we tried. It is especially
 good at maintaining and recognizing formatting. Many other OCR products failed to correctly parse
 two-column formats and thus generated unusable output.
 
-\subsection{Transformations}
+\subsection{Transformations}\label{sec:transforms}
 Before parsing the text of the paper, we had to make some global transformation on the paper.
 Most of these transformations were done with simple regular expressions.
 
 \subsubsection{Multiple Citations}
 It is not unheard of for authors to make multiple citations within the same brackets: $$[1, 2]$$
-These have to be parsed out and replaced with individual citations next to eachother: $$[1][2]$$
+These have to be parsed out and replaced with individual citations next to each other: $$[1][2]$$
 
 \subsubsection{Ranges}
 It is very common for authors to cite entire ranges at a time: $$[1] - [3]$$
 This is especially seen when an author is referencing background material. These ranges must be expanded out to
-the fill listof citations: $$[1][2][3]$$
+the fill list of citations: $$[1][2][3]$$
 
 \subsubsection{False Positive Sentence Enders}\label{sec:fpEnders}
 Being able to split up paragraphs into sentences is very important to the Citeopotamus system.
 We first tried to use NLTK's \textit{PunktSentenceTokenizer}. However, this did not seem to work well.
-It seemed to have a problem with some of the symbols used in acedemic papers, such as the square brackets around
-citations. To combat the punctuation tokenizing problem, we decided to only spolit sentnce on periods, question marks, and
+It seemed to have a problem with some of the symbols used in academic papers, such as the square brackets around
+citations. To combat the punctuation tokenizing problem, we decided to only split sentence on periods, question marks, and
 exclamations points. Additionally, we replaced common false positive sentence enters i.e.
 $$i.e. => \_ie\_$$
 $$dr. => \_dr\_$$
@@ -143,7 +144,7 @@ $$0.05 => \_0\_05\_$$
 Using this tactic, there is a chance that a real sentence ender is replaced. However, this will still
 include the original sentence in the result and the original sentence will still be located closer to the
 citation that the incorrectly included sentence. Missing a significant portion of a sentence would be a much more
-grevious error because then the context required to identify the citation may be missing.
+grievous error because then the context required to identify the citation may be missing.
 
 \subsection{Contexts}\label{sec:context}
 Contexts are the core of the Citeopotamus system. A ``context'' is just the words surrounding the citation.
@@ -154,7 +155,7 @@ However, these larger contexts have access to more information than the smaller 
 
 \subsubsection{Paragraph}
 The largest of the contexts. We do not consider anything larger because it is very rare for an author to include information about a citation
-outside of the paragrapgh that the citation is in (not including parsing or OCR formatting errors). Paragraphs are easy to parse because the
+outside of the paragraph that the citation is in (not including parsing or OCR formatting errors). Paragraphs are easy to parse because the
 scraper puts one paragraph per line.
 
 \subsubsection{Sentence}
@@ -170,10 +171,10 @@ We will use the following actual sentence as a running example:
 In previous work, the Guyton models were modularized and re-implemented in Fortran, C++ (M2SL \textbf{[]}), and Simulink \textbf{[]}.
 \end{quote}
 
-When trying to find the context of the first citaion, we recognize that it is surrounded by parenthesis.
+When trying to find the context of the first citation, we recognize that it is surrounded by parenthesis.
 We take the parenthesis as a hint the that content inside the parenthesis is more related to the citation than the surrounding words.
 
-If there are no parethesis surrounding the citaion (as with the second citation), then we begin walking backwards in the sentence from the citation.
+If there are no parenthesis surrounding the citation (as with the second citation), then we begin walking backwards in the sentence from the citation.
 We will continue walking backwards in the sentence until we find:
 \begin{enumerate}
    \item The beginning of the sentence.
@@ -193,41 +194,119 @@ M2SL
 and Simulink
 \end{quote}
 
-Note that both cases generate contexts that contain the name of the product featured in the paper and no erronous inforamtion. Whereas the
+Note that both cases generate contexts that contain the name of the product featured in the paper and no erroneous information. Whereas the
 sentence context not only contains both produces, but a slew of other seemingly important words: ``Guyton'', ``Fortran'', and ``C++''.
 
-\subsection{References}
-
 \section{Methods}\label{sec:methods}
+All of our current methods use the same algorithm for determining the most appropriate reference for a citation.
+The difference in methods is the context and reference material that they choose to use.
+We use the full cross-product of contexts and reference materials in the final system.
+
+\subsection{Reference Material}
+The reference material is the text that is associated with the reference.
+The reference material that has the highest similarity to the context and surpassing the threshold is
+used as the guess for that citation.
+We use two different kinds of reference material: \textit{Reference Only} and \textit{Abstract}.
+
+\subsubsection{Reference Only}
+This reference material contains only information that is found in the reference section at the bottom of a paper.
+Note that for ease of parsing we take this information from the reference's meta information, and not the actual paper. However given
+some knowledge about how the references are formatted, it is trivial to parse out the title and authors.
+
+For this reference material we take the all the author names longer than two characters and the paper title.
+These words are then treated as unigrams.
+
+\subsubsection{Abstract}
+This reference material starts with the reference paper's abstract. However taking the entire abstract would include too many
+useless features, so we try to narrow it down some. We begin by removing all the stopwords from the abstract. We use
+the stopword list from the Onix Text Retrieval Toolkit\cite{stopwords}.
+
+The first set of features that we grab are all of the capital words in the abstract. The main idea here is to grab
+most of the ``important words'' in an abstract. A pronoun would be a very important word. The drawback of this method is that
+is will usually grab the first word in a sentence. This is mitigated by removing stopwords. The first word in a sentence
+is often the subject or a stopword (``The'', ``A'', etc).
+
+The second set of features we collect are the bigrams of the abstract, after stopword removal.
+
+To supplement the unigrams, we include any word that appears in any position of $\geq25\%$ of the bigrams.
+
+\subsubsection{Unique Sets}
+To help distinguish between the different references, we take all of the parsed reference material features and
+keep only features that appear in no more than two of the references. This way we can keep features that are somewhat
+unique, but get rid of features that occur too much.
 
 \subsection{History}
+It is rare for an author to cite the same paper twice in a paragraph. Even more rare for
+an author to cite the same paper twice in a sentence, and almost unheard of for an author to cite the
+same paper twice in the same clause. However, it is very common for there to be multiple citations
+made in the same context. To combat this, every method remembers every citation that it has given
+for each context in each paper. Since a method can remember its history, it can avoid making the
+same guess for a context.
+
+\subsection{Context Similarity}
+To compare the similarity between a context and the reference material, we use a Jaccardian Distance\cite{jaccard}.
 
 \section{Evaluation}
+To evaluate our system, we find the total number of references that we have successfully placed.
+
+Given $n$ papers $(p_{1}, p_{2}, p_{3} ..., p_{n})$. We will let $RF(n_{i})$ be the number of references
+for which we have full contextual information on and let $RT(n_{i})$ is the number of references
+that were correctly placed in the paper.
+
+Then we let our accuracy be:
+$$Accuracy = \frac{\sum_{i = 1}^{m} RF(p_{i})}{\sum_{i = 1}^{m} RT(p_{i})}$$
 
 \subsection{Adjacent Citations}
-%[][]; [], []
+While evaluating the results of a run, it is important to take into account \textit{adjacent citations}.
+These are citations that appear right next to each other without any content separating each other (``[][]'' and ``[], []''
+are both adjacent citation). We run into this situation often because we purposefully generate adjacent citations (see
+Section \ref{sec:transforms}).
+
+To deal with adjacent citations, we allow a citation guess to appear in any one of the adjacent positions.
 
 \section{Results}\label{sec:results}
+Because there are no other programs that attempt to do automated citation placement, we have no baseline to compare against.
+A random baseline would be inappropriate for this situation since there are is such a small chance of getting a correct
+citation when a paper has 50+ references.
+
+TODO(eriq): Table
 
 \section{Future Work}\label{sec:future}
-TODO(eriq): THis section is bad.
-We believe this work can be continued on in a couple obvious directions. The most obvious is to tackle the second part of the problem we mentioned early in the paper. That is the case where the solution must automatically look through the document to find places that need citations. The next most obvious extension is to improve our methods for recommending citations. New ways of comparing the context of a location for a citation and all of the papers available for citations are needed. Something that would be interesting to examine is summarizing every possible citation paper and treat the summarization as another abstract to use in our pipeline. The hardest and most interesting extension
-of this work would be to tie the solution in with a citation recommendation solution. We feel that would be an awesome advance in paper writing.
+There are many opportunities for future work in this project.
+Improving the actual implementation and increasing the scope of this project are both very plausible.
 
-\subsection{Improvements}
+\subsection{Implementation Improvements}
 
 \subsubsection{Parsing and Scraping}
-Parsing is vital to the Citeopotamus system. If a context is inproperly parsed, then everything else around that citation falls apart.
-A spot check of papers that perform poorly (under 10\%) reveals that many of these these papers have many incorectly parsed contexts.
+Parsing is vital to the Citeopotamus system. If a context is improperly parsed, then everything else around that citation falls apart.
+A spot check of papers that perform poorly (under 10\% accuracy) reveals that many of these these papers have many incorrectly parsed contexts.
 Some of these errors come from an error in parsing like missing a false positive sentence ender. However, most of these errors appear to
 come from difficulties scraping the paper. We believe that irregularities in the paper's HTML causes poor formatting of the resulting
 plain text paper and therefore causes parsing errors.
 
-\subsubsection{Pipeline Uncertianty}
+\subsubsection{Pipeline Uncertainty}
 As mentioned in Section \ref{sec:archCiter}, the further a citation moves into the pipeline the more uncertain its guessed citation becomes.
 Incorporating this uncertainty into the information provided to the user can be very useful in a real-world system.
 
-\subsection{Future Product}
+\subsubsection{Context Similarity}
+Our current method for determining context similarity is very simplistic. A more complex algorithm that takes into account a word's distance to the
+citation may perform better.
+
+\subsubsection{Important Words}
+Currently, we very simplistically find words that we believe to be important in a sentence. Because these are the words that
+we compare to the reference material, choosing these words is key to guessing a citation. A very simple way to try and improve on this
+would be to use a parts of speech tagger to find all the proper nouns in a context. We did not use POS tagging because
+the NLTK POS taggers take too much time to run for the amount of gain it provides.
+
+Using synonym can also help finding important words.
+
+\subsection{Scope Increase}
+The first step to increasing the scope of this project would be to tackle the other problem discussed in the Introduction,
+guessing a citation given no information about where the citation appears.
+
+Once that step is complete, a citation placement engine can be turned into a citation recommendation system.
+The end goal would be a system where you can input your entire paper, and the system would recommend what papers
+you should be citing. This can be an invaluable tool when writing related works and background sections.
 
 \section{Related Work}\label{sec:related}
 We were unable to find any related work on recommending citations given a spot for a citation to go. Unlike the problem of recommending citations for a paper. Copious amounts of work already exists on the topic. With several different approaches. One of the most common was using models to compare a paper and the rest of the dataset. Some of the models used includes translation models, probabilistic models, and several forms of LDAs.\cite{cite1, cite2, cite3} The next most common group of solutions was to use citations graphs to recommend missing citations.\cite{cite6} One group extended the notion of graphs and included metadata to help filter out results.\cite{cite4} One of the most 
@@ -236,6 +315,7 @@ Another interesting approach used collaborative filtering to let communities hel
 citation recommendation we recommend the survey by McNee et al. they go into a lot of depth on the problem and common pitfalls.\cite{cite5}
 
 \section{Conclusion}\label{sec:conclusion}
+We have found that automatic citation placement is a difficult, but doable problem.
 
 \section{Thanks}
 We thanks the folks at PLOS for providing the source of our dataset. Without them this would of been a lot harder.
