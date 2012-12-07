@@ -12,7 +12,9 @@ DATA_DIR = '../data'
 AVAILABLE_METHODS = [
                      method.PreContextTitleAuthorMethod,
                      method.SentenceTitleAuthorMethod,
+                     method.PreContextAbstractWordsMethod,
                      method.SentenceContextAbstractBigramsMethod,
+                     method.PreContextAbstractBigramsMethod,
                      method.ParagraphContextAbstractBigramsMethod,
                      method.SentenceContextAbstractWordsMethod,
                      method.ParagraphContextAbstractWordsMethod,
@@ -63,6 +65,7 @@ def fullTest():
    for paper in res:
       print paper[1]
       total += paper[0]
+   print "Total Papers: {}".format(len(res))
    print "Average: {}".format(total / len(res))
    if len(res) % 2 == 0:
       print "Median: {}".format((res[len(res) / 2][0] + res[len(res) / 2 - 1][0]) / 2.0)

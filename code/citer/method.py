@@ -163,6 +163,32 @@ class BaseAbstractMethod(ContextMethod):
       BaseAbstractMethod.abstractWords[paper.title] = paperAbstractWords
       BaseAbstractMethod.abstractBigrams[paper.title] = paperAbstractBigrams
 
+class PreContextAbstractWordsMethod(BaseAbstractMethod):
+   def __init__(self, paper):
+      super(PreContextAbstractWordsMethod, self).__init__(paper)
+
+   def getReferenceContext(self, paper):
+      return BaseAbstractMethod.abstractWords[paper.title]
+
+   def getCiteContext(self, cite):
+      return cite.sentenceContext.noCitations
+
+   def getCiteContextGrams(self, cite):
+      return cite.preContextUnigrams
+
+class PreContextAbstractBigramsMethod(BaseAbstractMethod):
+   def __init__(self, paper):
+      super(PreContextAbstractBigramsMethod, self).__init__(paper)
+
+   def getReferenceContext(self, paper):
+      return BaseAbstractMethod.abstractBigrams[paper.title]
+
+   def getCiteContext(self, cite):
+      return cite.sentenceContext.noCitations
+
+   def getCiteContextGrams(self, cite):
+      return cite.preContextBigrams
+
 class SentenceContextAbstractWordsMethod(BaseAbstractMethod):
    def __init__(self, paper):
       super(SentenceContextAbstractWordsMethod, self).__init__(paper)
