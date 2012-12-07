@@ -7,6 +7,8 @@ from constants import DEBUG
 import method
 import parser
 
+DATA_DIR = '../data'
+
 AVAILABLE_METHODS = [
                      method.PreContextTitleAuthorMethod,
                      method.SentenceTitleAuthorMethod,
@@ -38,12 +40,20 @@ def main():
 
 def fullTest():
    res = []
-   for paperName in os.listdir('../data'):
+   allHitRefs = set()
+   allRefs = set()
+
+   for paperName in os.listdir(DATA_DIR):
       paper = None
 
       try:
-         paper = parser.parseFullDataset('../data/' + paperName)
-         res.append(normalRun(paper))
+         paper = parser.parseFullDataset(DATA_DIR + '/' + paperName)
+         paperRes = normalRun(paper)
+
+         allHitRefs.update(paperRes[2])
+         allRefs.update([ ref.title.strip().upper() for ref in paper.references.values()])
+
+         res.append((paperRes[0], paperRes[1]))
       except OSError:
          print "Error parsing paper: " + paperName
          continue
@@ -53,7 +63,14 @@ def fullTest():
    for paper in res:
       print paper[1]
       total += paper[0]
-   print "Total: {}".format(total / len(res))
+   print "Average: {}".format(total / len(res))
+   if len(res) % 2 == 0:
+      print "Median: {}".format((res[len(res) / 2][0] + res[len(res) / 2 - 1][0]) / 2.0)
+   else:
+      print "Median: {}".format(res[len(res) / 2][0])
+
+   print "Hit Refs: {}, All Refs: {}".format(len(allHitRefs), len(allRefs))
+   print "Foaad Metric: {}".format(float(len(allHitRefs)) / len(allRefs))
 
 def normalRun(paper):
    methods = [ method(paper) for method in AVAILABLE_METHODS ]
@@ -62,6 +79,9 @@ def normalRun(paper):
    misses = 0
    # Don't count references without any information
    total = 0
+
+   # foaad counting system
+   hitRefs = set()
 
    for i in range(0, len(paper.citations)):
       cite = paper.citations[i]
@@ -81,12 +101,14 @@ def normalRun(paper):
          if guess:
             if guess in correctReference['allowed']:
                hits += 1
+               hitRefs.add(paper.references[guess].title.strip().upper())
             else:
                misses += 1
             break
 
-   return ((float(hits) / total), "{:.2%}\t(Hits: {},\tMisses: {},\tTotal: {})\t{}".format((float(hits) / total), hits, misses, total, paper.title))
-
+   return ((float(hits) / total),
+           "{:.2%}\t(Hits: {},\tMisses: {},\tTotal: {})\t{}".format((float(hits) / total), hits, misses, total, paper.title),
+           hitRefs)
 
 # This one runs all the mothods in isolation and then tries to give a suggested ordering.
 # Highest precision first.
