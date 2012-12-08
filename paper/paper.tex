@@ -166,6 +166,18 @@ then information for paper ``foo'' is maintained in the directory ``4'' in the
 root paper's ``references'' directory. A missing directory
 means that the scraper could not collect that reference's information.
 
+Unfortunately, there was a problem as we were writing the information for some
+of these reference papers to disk. In some cases the directory containing information for a
+reference paper is incorrectly labelled. Specifically, as with the example
+above, if we have a reference paper ``foo'' that is the fourth citation, our
+dataset, as is, may have ``foo'' in a directory ``5.'' That is, instead of
+``[4]'' being in the directory ``4,'' it is in the directory ``5.'' While this
+is unfortunate, and can be redone (the raw HTML for every root paper has
+information that would allow the reference directories to be properly renamed),
+it could not be fixed at the time of getting results. So the results mentioned
+in this paper reflect appropriate measures taken during the parsing phase,
+further described in section \ref{sec:parsing}.
+
 Every directory that represents a paper will have at most four files:
 \begin{itemize}
    \item \textbf{meta.txt}\footnotemark[1]{} -- Contains the title, authors,
