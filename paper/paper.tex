@@ -42,16 +42,18 @@ citations.  Second, find locations where citations should go. We leave the
 second problem to be done in the future while we focus on solving the first in
 this paper.
 
-The rest of the paper is laid out as follows. Section \ref{sec:contributions}
-is about what we are contributing. The following section describes out testing
-dataset. We then talk about our architecture we created to solve the problem.
-Then we go into how we parse papers and discuss the methods for choosing the
-best citation. Then we go into future work, related work, and lastly our
-conclusion.
-
-\section{Contributions}\label{sec:contributions}
-Our contributions consist of a dataset to test new solutions and methods to
-recommend citations given a location for a citation.
+This paper discusses our approach to this problem, as well as the dataset we
+procured for this use. In section \ref{sec:dataset} we highlight our dataset,
+where it came from and what it contains. Section \ref{sec:architecture} follows
+up with how we designed the system, our method of collecting our dataset, and
+how it is structured, while section \ref{sec:parsing} goes into detail of how
+our system parses and understands the publication text. Section
+\ref{sec:methods} describes our methods for predicting a citation and section
+\ref{sec:eval} discusses our approach for evaluating our system. Our results
+are shown in section \ref{sec:results}, section \ref{sec:future} is where we
+talk about future work and we discuss related work in section
+\ref{sec:related}. Finally, we conclude our work in section
+\ref{sec:conclusion}.
 
 \section{Dataset}\label{sec:dataset}
 %overview
@@ -96,7 +98,7 @@ The general architecture can be seen in Figure \ref{fig:arch}.
         \label{fig:arch}
 \end{figure*}
 
-\subsection{Scraper}
+\subsection{Scraper}\label{sec:scrape}
 The scraper, written in python, extensively uses urllib2 and lxml.html. The
 first task is to access a search landing page using urllib2. Each search result
 page maintains 10 publications per page and links at the top
@@ -346,7 +348,7 @@ same guess for a context.
 \subsection{Context Similarity}
 To compare the similarity between a context and the reference material, we use a Jaccardian Distance\cite{jaccard}.
 
-\section{Evaluation}
+\section{Evaluation}\label{sec:eval}
 To evaluate our system, we find the total number of references that we have successfully placed.
 
 Given $n$ papers $(p_{1}, p_{2}, p_{3} ..., p_{n})$. We will let $RF(p_{i})$ be the number of references
