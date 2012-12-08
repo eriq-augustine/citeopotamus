@@ -92,7 +92,7 @@ The Citeopotamus system is broken into two independent parts, the scrapper and c
 The general architecture can be seen in Figure \ref{fig:arch}.
 
 \begin{figure*}[ht]
-   \includegraphics[width=\textwidth px]{images/arch.eps}
+   \includegraphics[width=\textwidth]{images/arch.eps}
         \caption{The Citeopotamus architecture overlaid on a hippopotamus.}
         \label{fig:arch}
 \end{figure*}
@@ -100,35 +100,46 @@ The general architecture can be seen in Figure \ref{fig:arch}.
 \subsection{Scraper}
 TODO(aldrin)
 
-\subsubsection{Structure of Paper Text}
-%TODO(aldrin): Expand here if necessary
-If the paper text was generated from OCR, then the structure of the text was left up to the OCR engine.
-However, papers scraped from PLOS were in HTML and extra formatting can be inferred.
+\subsubsection{Structure of Paper Text}\label{sec:text_structure}
+If the paper text was generated from OCR, then the structure of the text was
+left up to the OCR engine.  However, papers scraped from PLOS were in HTML and
+extra formatting can be inferred.
 
-All text inside top-level $p$ tags can be inferred to be an entire paragraph and was placed on a single line.
-The references section was separated from the rest of the paper by a single line with only ``REFERENCES'' on it.
+All text inside top-level $p$ tags can be inferred to be an entire paragraph
+and was placed on a single line.  The references section was separated from the
+rest of the paper by a single line with only ``REFERENCES'' on it.
 
-\subsection{Structured Paper Directory Format}\label{sec:paperFormat}
-The output of the scraper is a directory that contains information about the root paper and all the reference that were collected.
-To make all the information easily accessible to anyone without imposing any arbitrary restrictions, the structure of the
-data is enforced by directory structure.
+\subsection{Structured Paper Directory Format}\label{sec:dir_structure}
+The output of the scraper is a directory that contains information about the
+root paper and all the reference that were collected.  To make all the
+information easily accessible to anyone without imposing any arbitrary
+restrictions, the structure of the data is enforced by directory structure.
 
-The root directory is named using the root paper's title. Inside the root directory is a ``references'' directory.
-Inside the ``references'' directory are sub-directories named with the number of that citation. A missing directory
+The root directory is named using the root paper's title. Inside the root
+directory is a ``references'' directory.  Inside the ``references'' directory
+are sub-directories named with the number of that citation. A missing directory
 means that the scraper could not collect that reference's information.
 
 Every directory that represents a paper will have at most four files:
-\begin{enumerate}
-   \item meta.txt -- Contains the title, authors, tags, categories, and abstract. This is the only file required for every paper directory.
-   \item paper.pdf -- The pdf version of the paper.
-   \item paper.txt -- The text version of the paper. This file is required for the root paper.
-   \item refs.txt -- Only the references that appear at the bottom of the paper. This information is duplicated in paper.txt, but placed here for convenience.
-\end{enumerate}
+\begin{description}
+   \item[meta.txt\footnotemark{1}] Contains the title, authors, tags, categories, and abstract.
+                   This is the only file required for every paper directory.
+   \item[paper.txt\footnotemark{1}] The text version of the paper. This file is required for
+                    the root paper.
+   \item[refs.txt\footnotemark{1}] Only the references that appear at the bottom of the paper.
+                   This information is duplicated in paper.txt, but placed here
+                   for convenience.
+   \item[paper.pdf] The pdf version of the paper.
+   \item[paper.html] The HTML version of the paper. This is grabbed should
+                     the paper need to be re-parsed.
+\end{description}
+
+\footnotetext[1]{These files are not required for our implementation to work}
 
 A sample directory structure can be seen in Figure \ref{fig:tree}.
 
 \begin{figure}[ht]
-   \includegraphics[width=\columnwidth px]{images/tree.eps}
+   \includegraphics[width=\columnwidth]{images/tree.eps}
         \caption{The structure of a paper directory.}
         \label{fig:tree}
 \end{figure}
@@ -208,7 +219,7 @@ There are two parts to parsing this context: looking for parenthesis and walking
 
 We will use the following actual sentence as a running example:
 \begin{quote}
-In previous work, the Guyton models were modularized and re-implemented in Fortran, C++ (M2SL \textbf{[]}), and Simulink \textbf{[]}.
+In previous work, the Guyton models were modularized and reimplemented in Fortran, C++ (M2SL \textbf{[]}), and Simulink \textbf{[]}.
 \end{quote}
 
 When trying to find the context of the first citation, we recognize that it is surrounded by parenthesis.
@@ -318,7 +329,7 @@ Improving the actual implementation and increasing the scope of this project are
 \subsection{Implementation Improvements}
 
 \subsubsection{Parsing and Scraping}
-Parsing is vital to the Citeopotamus system. If a context is improperly parsed, then everything else around that citation falls apart.
+Parsing is essential to the Citeopotamus system. If a context is improperly parsed, then everything else around that citation falls apart.
 A spot check of papers that perform poorly (under 10\% accuracy) reveals that many of these these papers have many incorrectly parsed contexts.
 Some of these errors come from an error in parsing like missing a false positive sentence ender. However, most of these errors appear to
 come from difficulties scraping the paper. We believe that irregularities in the paper's HTML causes poor formatting of the resulting
