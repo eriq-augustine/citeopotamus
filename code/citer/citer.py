@@ -7,11 +7,12 @@ from constants import DEBUG
 import method
 import parser
 
-DATA_DIR = '../data'
+#DATA_DIR = '../data'
+DATA_DIR = '/home/eriq/aldrin/data'
 
 AVAILABLE_METHODS = [
-                     method.PreContextTitleAuthorMethod,
-                     method.SentenceTitleAuthorMethod,
+                     #method.PreContextTitleAuthorMethod,
+                     #method.SentenceTitleAuthorMethod,
                      method.PreContextAbstractWordsMethod,
                      method.SentenceContextAbstractBigramsMethod,
                      method.PreContextAbstractBigramsMethod,
@@ -32,6 +33,11 @@ def main():
    if '-p' in sys.argv:
       paperName = sys.argv[sys.argv.index('-p') + 1]
    paper = parser.parseFullDataset(paperName)
+
+   if not paper:
+      print "Error parsing paper"
+      return
+
    print paper
 
    # Ordering mode
@@ -45,20 +51,38 @@ def fullTest():
    allHitRefs = set()
    allRefs = set()
 
+   #TEST
+   totalCount = 0
+   keep = []
+
    for paperName in os.listdir(DATA_DIR):
       paper = None
 
       try:
+         #TEST
+         totalCount += 1
+
          paper = parser.parseFullDataset(DATA_DIR + '/' + paperName)
+         if not paper:
+            print "Error parsing " + paperName
+            continue
+
+         #TEST
+         keep.append(paperName)
+
          paperRes = normalRun(paper)
+         if paperRes:
+            allHitRefs.update(paperRes[2])
+            allRefs.update([ ref.title.strip().upper() for ref in paper.references.values()])
 
-         allHitRefs.update(paperRes[2])
-         allRefs.update([ ref.title.strip().upper() for ref in paper.references.values()])
-
-         res.append((paperRes[0], paperRes[1]))
+            res.append((paperRes[0], paperRes[1]))
       except OSError:
          print "Error parsing paper: " + paperName
          continue
+
+   #TEST
+   print "\n\n------------------------\n\n"
+   print "{} / {}".format(len(keep), totalCount)
 
    res = sorted(res, reverse = True)
    total = 0
@@ -108,6 +132,9 @@ def normalRun(paper):
             else:
                misses += 1
             break
+
+   if total == 0:
+      return None
 
    return ((float(hits) / total),
            "{:.2%}\t(Hits: {},\tMisses: {},\tTotal: {})\t{}".format((float(hits) / total), hits, misses, total, paper.title),

@@ -1,0 +1,1306 @@
+ERROR: Paper does not have any references
+Error parsing Revisiting Date and Party Hubs: Novel Approaches to Role Assignment in Protein Interaction Networks
+ERROR: Paper does not have any references
+Error parsing Interconversion of Functional Motions between Mesophilic and Thermophilic Adenylate Kinases
+ERROR: Paper does not have any references
+Error parsing Reconstruction of Protein Backbones from the BriX Collection of Canonical Protein Fragments
+ERROR: Paper does not have any references
+Error parsing Mutation Bias Favors Protein Folding Stability in the Evolution of Small Populations
+ERROR: Paper does not have any references
+Error parsing Application of Biomarkers in Cancer Risk Management: Evaluation from Stochastic Clonal Evolutionary and Dynamic System Optimization Points of View
+ERROR: Paper does not have any references
+Error parsing Mutual Inactivation of Notch Receptors and Ligands Facilitates Developmental Patterning
+ERROR: Paper does not have any references
+Error parsing A Systems Model for Immune Cell Interactions Unravels the Mechanism of Inflammation in Human Skin
+ERROR: Paper does not have any references
+Error parsing Accurately Measuring Recombination between Closely Related HIV-1 Genomes
+ERROR: Paper does not have any references
+Error parsing A Quick Guide to Large-Scale Genomic Data Mining
+ERROR: Paper does not have any references
+Error parsing Time Scale Hierarchies in the Functional Organization of Complex Behaviors
+ERROR: Paper does not have any references
+Error parsing Gene Expression Noise in Spatial Patterning: hunchback Promoter Structure Affects Noise Amplitude and Distribution in Drosophila Segmentation
+ERROR: Paper does not have any references
+Error parsing The Dynamics of Supply and Demand in mRNA Translation
+ERROR: Paper does not have any references
+Error parsing Molecular Dynamics Simulations of Forced Unbending of Integrin αVβ3
+ERROR: Paper does not have any references
+Error parsing A Dynamical Systems Hypothesis of Schizophrenia
+ERROR: Paper does not have any references
+Error parsing An Evolutionary Trade-Off between Protein Turnover Rate and Protein Aggregation Favors a Higher Aggregation Propensity in Fast Degrading Proteins
+ERROR: Paper does not have any references
+Error parsing Predicting Novel Binding Modes of Agonists to β Adrenergic Receptors Using All-Atom Molecular Dynamics Simulations
+ERROR: Paper does not have any references
+Error parsing Quantifying the Relative Contributions of Divisive and Subtractive Feedback to Rhythm Generation
+ERROR: Paper does not have any references
+Error parsing Combining Network Modeling and Gene Expression Microarray Analysis to Explore the Dynamics of Th1 and Th2 Cell Regulation
+ERROR: Paper does not have any references
+Error parsing Cooperative Transition between Open and Closed Conformations in Potassium Channels
+ERROR: Paper does not have any references
+Error parsing Robustness of Circadian Clocks to Daylight Fluctuations: Hints from the Picoeucaryote Ostreococcus tauri
+ERROR: Paper does not have any references
+Error parsing Synaptic Plasticity and Connectivity Requirements to Produce Stimulus-Pair Specific Responses in Recurrent Networks of Spiking Neurons
+ERROR: Paper does not have any references
+Error parsing No Need for a Cognitive Map: Decentralized Memory for Insect Navigation
+ERROR: Paper does not have any references
+Error parsing Replication Timing: A Fingerprint for Cell Identity and Pluripotency
+ERROR: Paper does not have any references
+Error parsing Interspecies Translation of Disease Networks Increases Robustness and Predictive Accuracy
+ERROR: Paper does not have any references
+Error parsing Unbiased Simulations Reveal the Inward-Facing Conformation of the Human Serotonin Transporter and Na+ Ion Release
+ERROR: Paper does not have any references
+Error parsing Ensemble-Based Computational Approach Discriminates Functional Activity of p53 Cancer and Rescue Mutants
+ERROR: Paper does not have any references
+Error parsing Falling towards Forgetfulness: Synaptic Decay Prevents Spontaneous Recovery of Memory
+ERROR: Paper does not have any references
+Error parsing Drug Off-Target Effects Predicted Using Structural Analysis in the Context of a Metabolic Network Model
+ERROR: Paper does not have any references
+Error parsing Network Models of TEM β-Lactamase Mutations Coevolving under Antibiotic Selection Show Modular Structure and Anticipate Evolutionary Trajectories
+ERROR: Paper does not have any references
+Error parsing The Morphology of the Rat Vibrissal Array: A Model for Quantifying Spatiotemporal Patterns of Whisker-Object Contact
+ERROR: Paper does not have any references
+Error parsing Distinct Timing Mechanisms Produce Discrete and Continuous Movements
+ERROR: Paper does not have any references
+Error parsing Lysine120 Interactions with p53 Response Elements can Allosterically Direct p53 Organization
+ERROR: Paper does not have any references
+Error parsing A Quick Guide for Computer-Assisted Instruction in Computational Biology and Bioinformatics
+ERROR: Paper does not have any references
+Error parsing Drug Discovery Using Chemical Systems Biology: Weak Inhibition of Multiple Kinases May Contribute to the Anti-Cancer Effect of Nelfinavir
+ERROR: Paper does not have any references
+Error parsing CAERUS: Predicting CAncER oUtcomeS Using Relationship between Protein Structural Information, Protein Networks, Gene Expression Data, and Mutation Data
+ERROR: Paper does not have any references
+Error parsing Rescuing Loading Induced Bone Formation at Senescence
+ERROR: Paper does not have any references
+Error parsing Toward a Detailed Description of the Thermally Induced Dynamics of the Core Promoter
+ERROR: Paper does not have any references
+Error parsing Network-Based Prediction and Analysis of HIV Dependency Factors
+ERROR: Paper does not have any references
+Error parsing A Bayesian Approach to the Evolution of Metabolic Networks on a Phylogeny
+ERROR: Paper does not have any references
+Error parsing Patterns of HIV-1 Protein Interaction Identify Perturbed Host-Cellular Subsystems
+ERROR: Paper does not have any references
+Error parsing Genome-Scale Metabolic Modeling Elucidates the Role of Proliferative Adaptation in Causing the Warburg Effect
+ERROR: Paper does not have any references
+Error parsing A Single-Rate Context-Dependent Learning Process Underlies Rapid Adaptation to Familiar Object Dynamics
+ERROR: Paper does not have any references
+Error parsing A Genomewide Functional Network for the Laboratory Mouse
+ERROR: Paper does not have any references
+Error parsing A Computational Approach to Analyze the Mechanism of Action of the Kinase Inhibitor Bafetinib
+ERROR: Paper does not have any references
+Error parsing Organization of Cellular Receptors into a Nanoscale Junction during HIV-1 Adhesion
+ERROR: Paper does not have any references
+Error parsing Differential Producibility Analysis (DPA) of Transcriptomic Data with Metabolic Networks: Deconstructing the Metabolic Response of M. tuberculosis
+ERROR: Paper does not have any references
+Error parsing Role of Lipids in Spheroidal High Density Lipoproteins
+ERROR: Paper does not have any references
+Error parsing Robustness of Learning That Is Based on Covariance-Driven Synaptic Plasticity
+ERROR: Paper does not have any references
+Error parsing The Evolutionary Analysis of Emerging Low Frequency HIV-1 CXCR4 Using Variants through Time—An Ultra-Deep Approach
+ERROR: Paper does not have any references
+Error parsing Integrative Analysis of Many Weighted Co-Expression Networks Using Tensor Computation
+ERROR: Paper does not have any references
+Error parsing Multi-Scaled Explorations of Binding-Induced Folding of Intrinsically Disordered Protein Inhibitor IA3 to its Target Enzyme
+ERROR: Paper does not have any references
+Error parsing Correlation of Influenza Virus Excess Mortality with Antigenic Variation: Application to Rapid Estimation of Influenza Mortality Burden
+ERROR: Paper does not have any references
+Error parsing Stochastic Delay Accelerates Signaling in Gene Networks
+ERROR: Paper does not have any references
+Error parsing Assessing Computational Methods of Cis-Regulatory Module Prediction
+ERROR: Paper does not have any references
+Error parsing Computational Investigation of the Changing Patterns of Subtype Specific NMDA Receptor Activation during Physiological Glutamatergic Neurotransmission
+ERROR: Paper does not have any references
+Error parsing Categorial Compositionality: A Category Theory Explanation for the Systematicity of Human Cognition
+ERROR: Paper does not have any references
+Error parsing Enzyme Kinetics of the Mitochondrial Deoxyribonucleoside Salvage Pathway Are Not Sufficient to Support Rapid mtDNA Replication
+ERROR: Paper does not have any references
+Error parsing Spatial Pattern Switching Enables Cyclic Evolution in Spatial Epidemics
+ERROR: Paper does not have any references
+Error parsing An Introduction to Bioinformatics for Glycomics Research
+ERROR: Paper does not have any references
+Error parsing Advanced Genomic Data Mining
+ERROR: Paper does not have any references
+Error parsing Minimal Models of Multidimensional Computations
+ERROR: Paper does not have any references
+Error parsing Local Function Conservation in Sequence and Structure Space
+ERROR: Paper does not have any references
+Error parsing Mathematical Modelling of DNA Replication Reveals a Trade-off between Coherence of Origin Activation and Robustness against Rereplication
+ERROR: Paper does not have any references
+Error parsing A Differentiation-Based Phylogeny of Cancer Subtypes
+ERROR: Paper does not have any references
+Error parsing Computer-Based Screening of Functional Conformers of Proteins
+ERROR: Paper does not have any references
+Error parsing Human Leg Model Predicts Ankle Muscle-Tendon Morphology, State, Roles and Energetics in Walking
+ERROR: Paper does not have any references
+Error parsing Learning, Memory, and the Role of Neural Network Architecture
+ERROR: Paper does not have any references
+Error parsing Evaluation of Paired-End Sequencing Strategies for Detection of Genome Rearrangements in Cancer
+ERROR: Paper does not have any references
+Error parsing Identifying Causal Genes and Dysregulated Pathways in Complex Diseases
+ERROR: Paper does not have any references
+Error parsing Quantitative Analysis of Immune Response and Erythropoiesis during Rodent Malarial Infection
+ERROR: Paper does not have any references
+Error parsing Geometric Interpretation of Gene Coexpression Network Analysis
+ERROR: Paper does not have any references
+Error parsing Recurrent Network Models for Perfect Temporal Integration of Fluctuating Correlated Inputs
+ERROR: Paper does not have any references
+Error parsing A Primer on Learning in Bayesian Networks for Computational Biology
+ERROR: Paper does not have any references
+Error parsing A Comprehensive, Quantitative, and Genome-Wide Model of Translation
+ERROR: Paper does not have any references
+Error parsing Gambling in the Visual Periphery: A Conjoint-Measurement Analysis of Human Ability to Judge Visual Uncertainty
+ERROR: Paper does not have any references
+Error parsing Analysis of the Free-Energy Surface of Proteins from Reversible Folding Simulations
+ERROR: Paper does not have any references
+Error parsing Modeling Reveals Bistability and Low-Pass Filtering in the Network Module Determining Blood Stem Cell Fate
+ERROR: Paper does not have any references
+Error parsing Functional Rotation of the Transporter AcrB: Insights into Drug Extrusion from Simulations
+ERROR: Paper does not have any references
+Error parsing Podbat: A Novel Genomic Tool Reveals Swr1-Independent H2A.Z Incorporation at Gene Coding Sequences through Epigenetic Meta-Analysis
+ERROR: Paper does not have any references
+Error parsing Biomedical Cloud Computing With Amazon Web Services
+ERROR: Paper does not have any references
+Error parsing The Effect of Heterogeneity on Invasion in Spatial Epidemics: From Theory to Experimental Evidence in a Model System
+ERROR: Paper does not have any references
+Error parsing Redundancy and the Evolution of Cis-Regulatory Element Multiplicity
+ERROR: Paper does not have any references
+Error parsing Impact of Fast Sodium Channel Inactivation on Spike Threshold Dynamics and Synaptic Integration
+ERROR: Paper does not have any references
+Error parsing Selection upon Genome Architecture: Conservation of Functional Neighborhoods with Changing Genes
+ERROR: Paper does not have any references
+Error parsing Information Flow Analysis of Interactome Networks
+ERROR: Paper does not have any references
+Error parsing Structural Characteristics of Novel Protein Folds
+ERROR: Paper does not have any references
+Error parsing Systematic Analysis of Pleiotropy in C. elegans Early Embryogenesis
+ERROR: Paper does not have any references
+Error parsing Patient-Specific Data Fusion Defines Prognostic Cancer Subtypes
+ERROR: Paper does not have any references
+Error parsing Brain Anatomical Network and Intelligence
+ERROR: Paper does not have any references
+Error parsing Discovering Transcription Factor Binding Sites in Highly Repetitive Regions of Genomes with Multi-Read Analysis of ChIP-Seq Data
+ERROR: Paper does not have any references
+Error parsing Nonlinearity of Mechanochemical Motions in Motor Proteins
+ERROR: Paper does not have any references
+Error parsing Introduction to Computational Proteomics
+ERROR: Paper does not have any references
+Error parsing Characterization of Growth and Metabolism of the Haloalkaliphile Natronomonas pharaonis
+ERROR: Paper does not have any references
+Error parsing A Multi-Variant, Viral Dynamic Model of Genotype 1 HCV to Assess the in vivo Evolution of Protease-Inhibitor Resistant Variants
+ERROR: Paper does not have any references
+Error parsing Accurate Path Integration in Continuous Attractor Network Models of Grid Cells
+ERROR: Paper does not have any references
+Error parsing Protein–Protein Interactions Essentials: Key Concepts to Building and Analyzing Interactome Networks
+ERROR: Paper does not have any references
+Error parsing Functional Brain Networks Develop from a “Local to Distributed” Organization
+ERROR: Paper does not have any references
+Error parsing Quantifying Intramolecular Binding in Multivalent Interactions: A Structure-Based Synergistic Study on Grb2-Sos1 Complex
+ERROR: Paper does not have any references
+Error parsing Identification of Potential Pathway Mediation Targets in Toll-like Receptor Signaling
+ERROR: Paper does not have any references
+Error parsing Categorial Compositionality II: Universal Constructions and a General Theory of (Quasi-)Systematicity in Human Cognition
+ERROR: Paper does not have any references
+Error parsing Dynamic Changes in Protein Functional Linkage Networks Revealed by Integration with Gene Expression Data
+ERROR: Paper does not have any references
+Error parsing Identification of Potent EGFR Inhibitors from TCM Database@Taiwan
+ERROR: Paper does not have any references
+Error parsing Metabolic Regulation in Progression to Autoimmune Diabetes
+ERROR: Paper does not have any references
+Error parsing Unraveling Protein Networks with Power Graph Analysis
+ERROR: Paper does not have any references
+Error parsing Multiscale Coarse-Graining of the Protein Energy Landscape
+ERROR: Paper does not have any references
+Error parsing Lobe Specific Ca2+-Calmodulin Nano-Domain in Neuronal Spines: A Single Molecule Level Analysis
+ERROR: Paper does not have any references
+Error parsing Characterizing the Metabolism of Dehalococcoides with a Constraint-Based Model
+ERROR: Paper does not have any references
+Error parsing NHE Inhibition Does Not Improve Na+ or Ca2+ Overload During Reperfusion: Using Modeling to Illuminate the Mechanisms Underlying a Therapeutic Failure
+ERROR: Paper does not have any references
+Error parsing Shaping Embodied Neural Networks for Adaptive Goal-directed Behavior
+ERROR: Paper does not have any references
+Error parsing One Rule to Grow Them All: A General Theory of Neuronal Branching and Its Practical Application
+ERROR: Paper does not have any references
+Error parsing Conductance Ratios and Cellular Identity
+ERROR: Paper does not have any references
+Error parsing Steady-State Kinetic Modeling Constrains Cellular Resting States and Dynamic Behavior
+ERROR: Paper does not have any references
+Error parsing Ribavirin-Induced Anemia in Hepatitis C Virus Patients Undergoing Combination Therapy
+ERROR: Paper does not have any references
+Error parsing In Silico Elucidation of the Recognition Dynamics of Ubiquitin
+ERROR: Paper does not have any references
+Error parsing A New Integrated Variable Based on Thermometry, Actimetry and Body Position (TAP) to Evaluate Circadian System Status in Humans
+ERROR: Paper does not have any references
+Error parsing Integrated Information Increases with Fitness in the Evolution of Animats
+ERROR: Paper does not have any references
+Error parsing A Comprehensive Benchmark of Kernel Methods to Extract Protein–Protein Interactions from Literature
+ERROR: Paper does not have any references
+Error parsing Teaching Bioinformatics at the Secondary School Level
+ERROR: Paper does not have any references
+Error parsing A Quantitative Model of Transcriptional Regulation Reveals the Influence of Binding Location on Expression
+ERROR: Paper does not have any references
+Error parsing Computational Prediction and Experimental Verification of New MAP Kinase Docking Sites and Substrates Including Gli Transcription Factors
+ERROR: Paper does not have any references
+Error parsing Natural Image Coding in V1: How Much Use Is Orientation Selectivity?
+ERROR: Paper does not have any references
+Error parsing A Third Measure-Metastable State in the Dynamics of Spontaneous Shape Change in Healthy Human's White Cells
+ERROR: Paper does not have any references
+Error parsing Efficient Physical Embedding of Topologically Complex Information Processing Networks in Brains and Computer Circuits
+ERROR: Paper does not have any references
+Error parsing A Combined Experimental and Mathematical Approach for Molecular-based Optimization of Irinotecan Circadian Delivery
+ERROR: Paper does not have any references
+Error parsing Mathematical Model of a Cell Size Checkpoint
+ERROR: Paper does not have any references
+Error parsing Blockade of Neuronal α7-nAChR by α-Conotoxin ImI Explained by Computational Scanning and Energy Calculations
+ERROR: Paper does not have any references
+Error parsing Reactive Oxygen Species Production by Forward and Reverse Electron Fluxes in the Mitochondrial Respiratory Chain
+ERROR: Paper does not have any references
+Error parsing Spontaneous Reaction Silencing in Metabolic Optimization
+ERROR: Paper does not have any references
+Error parsing Network Analysis of Global Influenza Spread
+ERROR: Paper does not have any references
+Error parsing A Computational Framework for Influenza Antigenic Cartography
+ERROR: Paper does not have any references
+Error parsing Malleable Machines in Transcription Regulation: The Mediator Complex
+ERROR: Paper does not have any references
+Error parsing Bistability in Apoptosis by Receptor Clustering
+ERROR: Paper does not have any references
+Error parsing The Emergence and Fate of Horizontally Acquired Genes in Escherichia coli
+ERROR: Paper does not have any references
+Error parsing Gene Expression Variability within and between Human Populations and Implications toward Disease Susceptibility
+ERROR: Paper does not have any references
+Error parsing Inference for Nonlinear Epidemiological Models Using Genealogies and Time Series
+ERROR: Paper does not have any references
+Error parsing Mechanical Network in Titin Immunoglobulin from Force Distribution Analysis
+ERROR: Paper does not have any references
+Error parsing Sequence-Based Prediction for Vaccine Strain Selection and Identification of Antigenic Variability in Foot-and-Mouth Disease Virus
+ERROR: Paper does not have any references
+Error parsing Predicting Binding to P-Glycoprotein by Flexible Receptor Docking
+ERROR: Paper does not have any references
+Error parsing The Construction and Use of Log-Odds Substitution Scores for Multiple Sequence Alignment
+ERROR: Paper does not have any references
+Error parsing Evolutionary Establishment of Moral and Double Moral Standards through Spatial Interactions
+ERROR: Paper does not have any references
+Error parsing The Statistical Neuroanatomy of Frontal Networks in the Macaque
+ERROR: Paper does not have any references
+Error parsing The Ascent of the Abundant: How Mutational Networks Constrain Evolution
+ERROR: Paper does not have any references
+Error parsing A Bayesian Framework to Account for Complex Non-Genetic Factors in Gene Expression Levels Greatly Increases Power in eQTL Studies
+ERROR: Paper does not have any references
+Error parsing What Do I Want from the Publisher of the Future?
+ERROR: Paper does not have any references
+Error parsing Quantitative Prediction of miRNA-mRNA Interaction Based on Equilibrium Concentrations
+ERROR: Paper does not have any references
+Error parsing Identifying a High Fraction of the Human Genome to be under Selective Constraint Using GERP++
+ERROR: Paper does not have any references
+Error parsing A Mathematical Framework for Protein Structure Comparison
+ERROR: Paper does not have any references
+Error parsing Comprehensive Analysis of Affymetrix Exon Arrays Using BioConductor
+ERROR: Paper does not have any references
+Error parsing Learning the Optimal Control of Coordinated Eye and Head Movements
+ERROR: Paper does not have any references
+Error parsing Bayesian Inference for Genomic Data Integration Reduces Misclassification Rate in Predicting Protein-Protein Interactions
+ERROR: Paper does not have any references
+Error parsing Automatic Annotation of Spatial Expression Patterns via Sparse Bayesian Factor Models
+ERROR: Paper does not have any references
+Error parsing Asymmetric Switching in a Homodimeric ABC Transporter: A Simulation Study
+ERROR: Paper does not have any references
+Error parsing Assimilating Seizure Dynamics
+ERROR: Paper does not have any references
+Error parsing Gene Expression Network Reconstruction by Convex Feature Selection when Incorporating Genetic Perturbations
+ERROR: Paper does not have any references
+Error parsing From Structure Prediction to Genomic Screens for Novel Non-Coding RNAs
+ERROR: Paper does not have any references
+Error parsing Minimum Information About a Simulation Experiment (MIASE)
+ERROR: Paper does not have any references
+Error parsing BioStar: An Online Question & Answer Resource for the Bioinformatics Community
+ERROR: Paper does not have any references
+Error parsing Finding the “Dark Matter” in Human and Yeast Protein Network Prediction and Modelling
+ERROR: Paper does not have any references
+Error parsing A Threshold Equation for Action Potential Initiation
+ERROR: Paper does not have any references
+Error parsing Spike-Based Population Coding and Working Memory
+ERROR: Paper does not have any references
+Error parsing A Minimal Model of Metabolism-Based Chemotaxis
+ERROR: Paper does not have any references
+Error parsing Directing Experimental Biology: A Case Study in Mitochondrial Biogenesis
+ERROR: Paper does not have any references
+Error parsing Mechanism of MicroRNA-Target Interaction: Molecular Dynamics Simulations and Thermodynamics Analysis
+ERROR: Paper does not have any references
+Error parsing The Gene Ontology's Reference Genome Project: A Unified Framework for Functional Annotation across Species
+ERROR: Paper does not have any references
+Error parsing deFuse: An Algorithm for Gene Fusion Discovery in Tumor RNA-Seq Data
+ERROR: Paper does not have any references
+Error parsing Dynamically-Driven Inactivation of the Catalytic Machinery of the SARS 3C-Like Protease by the N214A Mutation on the Extra Domain
+ERROR: Paper does not have any references
+Error parsing Training Signaling Pathway Maps to Biochemical Data with Constrained Fuzzy Logic: Quantitative Analysis of Liver Cell Responses to Inflammatory Stimuli
+ERROR: Paper does not have any references
+Error parsing Coordinate Dependence of Variability Analysis
+ERROR: Paper does not have any references
+Error parsing Genome-Wide Association between Branch Point Properties and Alternative Splicing
+ERROR: Paper does not have any references
+Error parsing Feedback Control Architecture and the Bacterial Chemotaxis Network
+ERROR: Paper does not have any references
+Error parsing The Organization of Local and Distant Functional Connectivity in the Human Brain
+ERROR: Paper does not have any references
+Error parsing Latent Factor Analysis to Discover Pathway-Associated Putative Segmental Aneuploidies in Human Cancers
+ERROR: Paper does not have any references
+Error parsing A Dynamical Model Reveals Gene Co-Localizations in Nucleus
+ERROR: Paper does not have any references
+Error parsing Towards a System Level Understanding of Non-Model Organisms Sampled from the Environment: A Network Biology Approach
+ERROR: Paper does not have any references
+Error parsing Autonomous Targeting of Infectious Superspreaders Using Engineered Transmissible Therapies
+ERROR: Paper does not have any references
+Error parsing Experimental and Computational Analysis of Polyglutamine-Mediated Cytotoxicity
+ERROR: Paper does not have any references
+Error parsing The Development of Computational Biology in Pakistan: Still a Long Way to Go
+Error parsing paper: The International Society for Computational Biology 10th Anniversary
+ERROR: Paper does not have any references
+Error parsing ChromaSig: A Probabilistic Approach to Finding Common Chromatin Signatures in the Human Genome
+ERROR: Paper does not have any references
+Error parsing Evolution and Optimality of Similar Neural Mechanisms for Perception and Action during Search
+ERROR: Paper does not have any references
+Error parsing A Primer on Python for Life Science Researchers
+ERROR: Paper does not have any references
+Error parsing Directed Mammalian Gene Regulatory Networks Using Expression and Comparative Genomic Hybridization Microarray Data from Radiation Hybrids
+ERROR: Paper does not have any references
+Error parsing Consensus-Phenotype Integration of Transcriptomic and Metabolomic Data Implies a Role for Metabolism in the Chemosensitivity of Tumour Cells
+ERROR: Paper does not have any references
+Error parsing A Quick Guide to Organizing Computational Biology Projects
+ERROR: Paper does not have any references
+Error parsing Critical Dynamics in the Evolution of Stochastic Strategies for the Iterated Prisoner's Dilemma
+ERROR: Paper does not have any references
+Error parsing Noise Contributions in an Inducible Genetic Switch: A Whole-Cell Simulation Study
+ERROR: Paper does not have any references
+Error parsing Systematic Inference of Copy-Number Genotypes from Personal Genome Sequencing Data Reveals Extensive Olfactory Receptor Gene Content Diversity
+ERROR: Paper does not have any references
+Error parsing Reliability of Transcriptional Cycles and the Yeast Cell-Cycle Oscillator
+ERROR: Paper does not have any references
+Error parsing Epistasis in a Model of Molecular Signal Transduction
+ERROR: Paper does not have any references
+Error parsing Computational Analysis of Whole-Genome Differential Allelic Expression Data in Human
+ERROR: Paper does not have any references
+Error parsing Crawling Cells Can Close Wounds without Purse Strings or Signaling
+ERROR: Paper does not have any references
+Error parsing Nonnegative Matrix Factorization: An Analytical and Interpretive Tool in Computational Biology
+ERROR: Paper does not have any references
+Error parsing High Resolution Models of Transcription Factor-DNA Affinities Improve In Vitro and In Vivo Binding Predictions
+ERROR: Paper does not have any references
+Error parsing Geometric De-noising of Protein-Protein Interaction Networks
+ERROR: Paper does not have any references
+Error parsing A Scalable Approach for Discovering Conserved Active Subnetworks across Species
+ERROR: Paper does not have any references
+Error parsing Active Dendrites Enhance Neuronal Dynamic Range
+ERROR: Paper does not have any references
+Error parsing Computation of Steady-State Probability Distributions in Stochastic Models of Cellular Networks
+ERROR: Paper does not have any references
+Error parsing Shape, Size, and Robustness: Feasible Regions in the Parameter Space of Biochemical Networks
+ERROR: Paper does not have any references
+Error parsing Semantic Similarity for Automatic Classification of Chemical Compounds
+ERROR: Paper does not have any references
+Error parsing Analyzing ChIP-chip Data Using Bioconductor
+ERROR: Paper does not have any references
+Error parsing Endothelial Cell Capture of Heparin-Binding Growth Factors under Flow
+ERROR: Paper does not have any references
+Error parsing A Cervid Vocal Fold Model Suggests Greater Glottal Efficiency in Calling at High Frequencies
+ERROR: Paper does not have any references
+Error parsing Fast Statistical Alignment
+ERROR: Paper does not have any references
+Error parsing A Stochastic Model of Latently Infected Cell Reactivation and Viral Blip Generation in Treated HIV Patients
+ERROR: Paper does not have any references
+Error parsing Exploring the Universe of Protein Structures beyond the Protein Data Bank
+ERROR: Paper does not have any references
+Error parsing Towards Reproducible Descriptions of Neuronal Network Models
+ERROR: Paper does not have any references
+Error parsing Similarity Queries for Temporal Toxicogenomic Expression Profiles
+ERROR: Paper does not have any references
+Error parsing Robust Network Topologies for Generating Switch-Like Cellular Responses
+ERROR: Paper does not have any references
+Error parsing Prediction of Cell Penetrating Peptides by Support Vector Machines
+ERROR: Paper does not have any references
+Error parsing Constraint-Based Model of Shewanella oneidensis MR-1 Metabolism: A Tool for Data Analysis and Hypothesis Generation
+ERROR: Paper does not have any references
+Error parsing Functional Genomics Complements Quantitative Genetics in Identifying Disease-Gene Associations
+ERROR: Paper does not have any references
+Error parsing Sequence Motifs in MADS Transcription Factors Responsible for Specificity and Diversification of Protein-Protein Interaction
+ERROR: Paper does not have any references
+Error parsing Evolution of Networks for Body Plan Patterning; Interplay of Modularity, Robustness and Evolvability
+ERROR: Paper does not have any references
+Error parsing Mechanics and Dynamics of X-Chromosome Pairing at X Inactivation
+ERROR: Paper does not have any references
+Error parsing A Critical Quantity for Noise Attenuation in Feedback Systems
+ERROR: Paper does not have any references
+Error parsing Exploring the Free Energy Landscape: From Dynamics to Networks and Back
+ERROR: Paper does not have any references
+Error parsing A Multiscale Approach to Characterize the Early Aggregation Steps of the Amyloid-Forming Peptide GNNQQNY from the Yeast Prion Sup-35
+ERROR: Paper does not have any references
+Error parsing Deciphering the Code for Retroviral Integration Target Site Selection
+ERROR: Paper does not have any references
+Error parsing To Lyse or Not to Lyse: Transient-Mediated Stochastic Fate Determination in Cells Infected by Bacteriophages
+ERROR: Paper does not have any references
+Error parsing Genetic Signatures in the Envelope Glycoproteins of HIV-1 that Associate with Broadly Neutralizing Antibodies
+ERROR: Paper does not have any references
+Error parsing Informed Switching Strongly Decreases the Prevalence of Antibiotic Resistance in Hospital Wards
+ERROR: Paper does not have any references
+Error parsing Model-Based Therapeutic Correction of Hypothalamic-Pituitary-Adrenal Axis Dysfunction
+ERROR: Paper does not have any references
+Error parsing Individualization as Driving Force of Clustering Phenomena in Humans
+ERROR: Paper does not have any references
+Error parsing Accurate and Fast Simulation of Channel Noise in Conductance-Based Model Neurons by Diffusion Approximation
+ERROR: Paper does not have any references
+Error parsing Network Analysis of Intrinsic Functional Brain Connectivity in Alzheimer's Disease
+ERROR: Paper does not have any references
+Error parsing Conflicting Biomedical Assumptions for Mathematical Modeling: The Case of Cancer Metastasis
+ERROR: Paper does not have any references
+Error parsing Integrated Information in Discrete Dynamical Systems: Motivation and Theoretical Framework
+ERROR: Paper does not have any references
+Error parsing Decoding Complex Chemical Mixtures with a Physical Model of a Sensor Array
+ERROR: Paper does not have any references
+Error parsing First Principles Modeling of Nonlinear Incidence Rates in Seasonal Epidemics
+ERROR: Paper does not have any references
+Error parsing Quantifying the Impact of Human Immunodeficiency Virus-1 Escape From Cytotoxic T-Lymphocytes
+ERROR: Paper does not have any references
+Error parsing Identification of Biochemical Network Modules Based on Shortest Retroactive Distances
+ERROR: Paper does not have any references
+Error parsing Graph-Based Analysis of the Metabolic Exchanges between Two Co-Resident Intracellular Symbionts, Baumannia cicadellinicola and Sulcia muelleri, with Their Insect Host, Homalodisca coagulata
+ERROR: Paper does not have any references
+Error parsing Making Informed Choices about Microarray Data Analysis
+ERROR: Paper does not have any references
+Error parsing Correlated Mutations: A Hallmark of Phenotypic Amino Acid Substitutions
+ERROR: Paper does not have any references
+Error parsing Trade-off between Responsiveness and Noise Suppression in Biomolecular System Responses to Environmental Cues
+ERROR: Paper does not have any references
+Error parsing Modeling Conformational Ensembles of Slow Functional Motions in Pin1-WW
+ERROR: Paper does not have any references
+Error parsing A Dynamical Systems Model for Combinatorial Cancer Therapy Enhances Oncolytic Adenovirus Efficacy by MEK-Inhibition
+ERROR: Paper does not have any references
+Error parsing Literature Mining for the Discovery of Hidden Connections between Drugs, Genes and Diseases
+ERROR: Paper does not have any references
+Error parsing Using Electronic Patient Records to Discover Disease Correlations and Stratify Patient Cohorts
+ERROR: Paper does not have any references
+Error parsing Evidence for Gene-Specific Rather Than Transcription Rate–Dependent Histone H3 Exchange in Yeast Coding Regions
+ERROR: Paper does not have any references
+Error parsing Learning a Weighted Sequence Model of the Nucleosome Core and Linker Yields More Accurate Predictions in Saccharomyces cerevisiae and Homo sapiens
+ERROR: Paper does not have any references
+Error parsing Prediction of Human Disease Genes by Human-Mouse Conserved Coexpression Analysis
+ERROR: Paper does not have any references
+Error parsing Heterogeneous Host Susceptibility Enhances Prevalence of Mixed-Genotype Micro-Parasite Infections
+ERROR: Paper does not have any references
+Error parsing Structured Pathway across the Transition State for Peptide Folding Revealed by Molecular Dynamics Simulations
+ERROR: Paper does not have any references
+Error parsing The Effect of Macromolecular Crowding, Ionic Strength and Calcium Binding on Calmodulin Dynamics
+ERROR: Paper does not have any references
+Error parsing Minimal Mesoscale Model for Protein-Mediated Vesiculation in Clathrin-Dependent Endocytosis
+ERROR: Paper does not have any references
+Error parsing Dynamics and Mechanical Stability of the Developing Dorsoventral Organizer of the Wing Imaginal Disc
+ERROR: Paper does not have any references
+Error parsing Context-Specific Metabolic Networks Are Consistent with Experiments
+ERROR: Paper does not have any references
+Error parsing Analysis of Combinatorial Regulation: Scaling of Partnerships between Regulators with the Number of Governed Targets
+ERROR: Paper does not have any references
+Error parsing Outlook on Thailand's Genomics and Computational Biology Research and Development
+ERROR: Paper does not have any references
+Error parsing Diversity and Plasticity of Th Cell Types Predicted from Regulatory Network Modelling
+ERROR: Paper does not have any references
+Error parsing Kinetics of Rhodopsin Deactivation and Its Role in Regulating Recovery and Reproducibility of Rod Photoresponse
+ERROR: Paper does not have any references
+Error parsing Using Transcription Modules to Identify Expression Clusters Perturbed in Williams-Beuren Syndrome
+ERROR: Paper does not have any references
+Error parsing Biosynthetic Potentials of Metabolites and Their Hierarchical Organization
+ERROR: Paper does not have any references
+Error parsing How To Record a Million Synaptic Weights in a Hippocampal Slice
+ERROR: Paper does not have any references
+Error parsing MCAM: Multiple Clustering Analysis Methodology for Deriving Hypotheses and Insights from High-Throughput Proteomic Datasets
+ERROR: Paper does not have any references
+Error parsing An Integrative Multi-Network and Multi-Classifier Approach to Predict Genetic Interactions
+ERROR: Paper does not have any references
+Error parsing A Computational Clonal Analysis of the Developing Mouse Limb Bud
+ERROR: Paper does not have any references
+Error parsing Nucleotide Binding Switches the Information Flow in Ras GTPases
+ERROR: Paper does not have any references
+Error parsing Organization of Excitable Dynamics in Hierarchical Biological Networks
+ERROR: Paper does not have any references
+Error parsing A Switching Mechanism in Doxorubicin Bioactivation Can Be Exploited to Control Doxorubicin Toxicity
+ERROR: Paper does not have any references
+Error parsing Computational Modeling of the Hematopoietic Erythroid-Myeloid Switch Reveals Insights into Cooperativity, Priming, and Irreversibility
+ERROR: Paper does not have any references
+Error parsing Synaptic Plasticity Controls Sensory Responses through Frequency-Dependent Gamma Oscillation Resonance
+ERROR: Paper does not have any references
+Error parsing Quantitative Predictions of Peptide Binding to Any HLA-DR Molecule of Known Sequence: NetMHCIIpan
+ERROR: Paper does not have any references
+Error parsing Exploring Off-Targets and Off-Systems for Adverse Drug Reactions via Chemical-Protein Interactome — Clozapine-Induced Agranulocytosis as a Case Study
+ERROR: Paper does not have any references
+Error parsing Detecting Remote Evolutionary Relationships among Proteins by Large-Scale Semantic Embedding
+ERROR: Paper does not have any references
+Error parsing Colocalization of Protein Kinase A with Adenylyl Cyclase Enhances Protein Kinase A Activity during Induction of Long-Lasting Long-Term-Potentiation
+ERROR: Paper does not have any references
+Error parsing Thermodynamics-Based Models of Transcriptional Regulation by Enhancers: The Roles of Synergistic Activation, Cooperative Binding and Short-Range Repression
+ERROR: Paper does not have any references
+Error parsing Computational Models of HIV-1 Resistance to Gene Therapy Elucidate Therapy Design Principles
+ERROR: Paper does not have any references
+Error parsing Impact of Sarcoplasmic Reticulum Calcium Release on Calcium Dynamics and Action Potential Morphology in Human Atrial Myocytes: A Computational Study
+ERROR: Paper does not have any references
+Error parsing Representing Where along with What Information in a Model of a Cortical Patch
+ERROR: Paper does not have any references
+Error parsing Order-Based Representation in Random Networks of Cortical Neurons
+ERROR: Paper does not have any references
+Error parsing Analysis and Computational Dissection of Molecular Signature Multiplicity
+ERROR: Paper does not have any references
+Error parsing Analyzing the Functional Properties of the Creatine Kinase System with Multiscale ‘Sloppy’ Modeling
+ERROR: Paper does not have any references
+Error parsing Structure and Dynamics of the Membrane-Bound Cytochrome P450 2C9
+ERROR: Paper does not have any references
+Error parsing Flexible Cognitive Strategies during Motor Learning
+ERROR: Paper does not have any references
+Error parsing Using Expression Profiles of Caenorhabditis elegans - Neurons To Identify Genes that Mediate Synaptic Connectivity
+ERROR: Paper does not have any references
+Error parsing Determinants of the Spatiotemporal Dynamics of the 2009 H1N1 Pandemic in Europe: Implications for Real-Time Modelling
+ERROR: Paper does not have any references
+Error parsing Structure of Spontaneous UP and DOWN Transitions Self-Organizing in a Cortical Network Model
+ERROR: Paper does not have any references
+Error parsing Predicting and Validating Protein Interactions Using Network Structure
+ERROR: Paper does not have any references
+Error parsing An Online Bioinformatics Curriculum
+ERROR: Paper does not have any references
+Error parsing Abnormal Cortical Networks in Mild Cognitive Impairment and Alzheimer's Disease
+ERROR: Paper does not have any references
+Error parsing Forcing Versus Feedback: Epidemic Malaria and Monsoon Rains in Northwest India
+ERROR: Paper does not have any references
+Error parsing Age-Dependent Evolution of the Yeast Protein Interaction Network Suggests a Limited Role of Gene Duplication and Divergence
+ERROR: Paper does not have any references
+Error parsing Intrinsically Disordered Regions May Lower the Hydration Free Energy in Proteins: A Case Study of Nudix Hydrolase in the Bacterium Deinococcus radiodurans
+ERROR: Paper does not have any references
+Error parsing Quantitative Epistasis Analysis and Pathway Inference from Genetic Interaction Data
+ERROR: Paper does not have any references
+Error parsing Dynamic Analysis of Integrated Signaling, Metabolic, and Regulatory Networks
+ERROR: Paper does not have any references
+Error parsing Is Protein Folding Sub-Diffusive?
+
+
+------------------------
+
+
+732 / 1020
+100.00%	(Hits: 3,	Misses: 0,	Total: 3)	Transmission Selects for HIV-1 Strains of Intermediate Virulence: A Modelling Approach
+100.00%	(Hits: 3,	Misses: 0,	Total: 3)	Decoding of Superimposed Traces Produced by Direct Sequencing of Heterozygous Indels
+100.00%	(Hits: 2,	Misses: 0,	Total: 2)	Synchronization of Firing in Cortical Fast-Spiking Interneurons at Gamma Frequencies: A Phase-Resetting Analysis
+100.00%	(Hits: 2,	Misses: 0,	Total: 2)	Prediction by Graph Theoretic Measures of Structural Effects in Proteins Arising from Non-Synonymous Single Nucleotide Polymorphisms
+100.00%	(Hits: 2,	Misses: 0,	Total: 2)	Bioinformatics Meets User-Centred Design: A Perspective
+100.00%	(Hits: 1,	Misses: 0,	Total: 1)	Why Do Hubs in the Yeast Protein Interaction Network Tend To Be Essential: Reexamining the Connection between the Network Topology and Essentiality
+100.00%	(Hits: 1,	Misses: 0,	Total: 1)	Transcriptomic Coordination in the Human Metabolic Network Reveals Links between n-3 Fat Intake, Adipose Tissue Gene Expression and Metabolic Health
+100.00%	(Hits: 1,	Misses: 0,	Total: 1)	Trade-Offs and Constraints in Allosteric Sensing
+100.00%	(Hits: 1,	Misses: 0,	Total: 1)	The Effects of Alignment Quality, Distance Calculation Method, Sequence Filtering, and Region on the Analysis of 16S rRNA Gene-Based Studies
+100.00%	(Hits: 1,	Misses: 0,	Total: 1)	Quantification of the Relative Importance of CTL, B Cell, NK Cell, and Target Cell Limitation in the Control of Primary SIV-Infection
+100.00%	(Hits: 1,	Misses: 0,	Total: 1)	Promoter Complexity and Tissue-Specific Expression of Stress Response Components in Mytilus galloprovincialis, a Sessile Marine Invertebrate Species
+100.00%	(Hits: 1,	Misses: 0,	Total: 1)	Novel Peptide-Mediated Interactions Derived from High-Resolution 3-Dimensional Structures
+100.00%	(Hits: 1,	Misses: 0,	Total: 1)	Neurobiological Models of Two-Choice Decision Making Can Be Reduced to a One-Dimensional Nonlinear Diffusion Equation
+100.00%	(Hits: 1,	Misses: 0,	Total: 1)	LsrR Quorum Sensing "Switch" Is Revealed by a Bottom-Up Approach
+100.00%	(Hits: 1,	Misses: 0,	Total: 1)	Local Orientation and the Evolution of Foraging: Changes in Decision Making Can Eliminate Evolutionary Trade-offs
+100.00%	(Hits: 1,	Misses: 0,	Total: 1)	Identification of Hammerhead Ribozymes in All Domains of Life Reveals Novel Structural Variations
+100.00%	(Hits: 1,	Misses: 0,	Total: 1)	Genome Landscapes and Bacteriophage Codon Usage
+100.00%	(Hits: 1,	Misses: 0,	Total: 1)	Expansion of the Protein Repertoire in Newly Explored Environments: Human Gut Microbiome Specific Protein Families
+100.00%	(Hits: 1,	Misses: 0,	Total: 1)	Exhaustive Sampling of Docking Poses Reveals Binding Hypotheses for Propafenone Type Inhibitors of P-Glycoprotein
+100.00%	(Hits: 1,	Misses: 0,	Total: 1)	Dynamical and Structural Analysis of a T Cell Survival Network Identifies Novel Candidate Therapeutic Targets for Large Granular Lymphocyte Leukemia
+100.00%	(Hits: 1,	Misses: 0,	Total: 1)	Discovering Sequence Motifs with Arbitrary Insertions and Deletions
+100.00%	(Hits: 1,	Misses: 0,	Total: 1)	Computational Biology in Brazil
+100.00%	(Hits: 1,	Misses: 0,	Total: 1)	Analysis of Stochastic Strategies in Bacterial Competence: A Master Equation Approach
+100.00%	(Hits: 1,	Misses: 0,	Total: 1)	An Introduction to Biomolecular Graphics
+100.00%	(Hits: 1,	Misses: 0,	Total: 1)	An Automated Phenotype-Driven Approach (GeneForce) for Refining Metabolic and Regulatory Models
+100.00%	(Hits: 1,	Misses: 0,	Total: 1)	A Simple Self-Maintaining Metabolic System: Robustness, Autocatalysis, Bistability
+100.00%	(Hits: 1,	Misses: 0,	Total: 1)	A Peptide Filtering Relation Quantifies MHC Class I Peptide Optimization
+66.67%	(Hits: 6,	Misses: 1,	Total: 9)	Prediction of Gene Expression in Embryonic Structures of Drosophila melanogaster
+66.67%	(Hits: 2,	Misses: 1,	Total: 3)	How Cations Can Assist DNase I in DNA Binding and Hydrolysis
+66.67%	(Hits: 2,	Misses: 0,	Total: 3)	Identification of a Topological Characteristic Responsible for the Biological Robustness of Regulatory Networks
+66.67%	(Hits: 2,	Misses: 0,	Total: 3)	Computational Modeling and Analysis of Insulin Induced Eukaryotic Translation Initiation
+66.67%	(Hits: 2,	Misses: 0,	Total: 3)	Combining Structural Connectivity and Response Latencies to Model the Structure of the Visual System
+66.67%	(Hits: 2,	Misses: 0,	Total: 3)	Axial and Radial Forces of Cross-Bridges Depend on Lattice Spacing
+62.50%	(Hits: 5,	Misses: 0,	Total: 8)	Bayesian Comparison of Neurovascular Coupling Models Using EEG-fMRI
+61.54%	(Hits: 8,	Misses: 0,	Total: 13)	Predicting Gene Expression from Sequence: A Reexamination
+60.00%	(Hits: 18,	Misses: 6,	Total: 30)	Genome Majority Vote Improves Gene Predictions
+57.14%	(Hits: 4,	Misses: 0,	Total: 7)	A Model for the Origin and Properties of Flicker-Induced Geometric Phosphenes
+53.33%	(Hits: 16,	Misses: 2,	Total: 30)	AutoClickChem: Click Chemistry in Silico
+50.00%	(Hits: 4,	Misses: 0,	Total: 8)	Exploring Massive, Genome Scale Datasets with the GenometriCorr Package
+50.00%	(Hits: 2,	Misses: 0,	Total: 4)	Robustness under Functional Constraint: The Genetic Network for Temporal Expression in Drosophila Neurogenesis
+50.00%	(Hits: 2,	Misses: 0,	Total: 4)	Modeling Chemotaxis Reveals the Role of Reversed Phosphotransfer and a Bi-Functional Kinase-Phosphatase
+50.00%	(Hits: 2,	Misses: 0,	Total: 4)	Meta-Analysis of Drosophila Circadian Microarray Studies
+50.00%	(Hits: 2,	Misses: 0,	Total: 4)	Genome-Scale Reconstruction of Escherichia coli's Transcriptional and Translational Machinery: A Knowledge Base, Its Mathematical Formulation, and Its Functional Characterization
+50.00%	(Hits: 2,	Misses: 0,	Total: 4)	Detecting Network Communities: An Application to Phylogenetic Analysis
+50.00%	(Hits: 2,	Misses: 0,	Total: 4)	Accessing a Hidden Conformation of the Maltose Binding Protein Using Accelerated Molecular Dynamics
+50.00%	(Hits: 12,	Misses: 0,	Total: 24)	Conformational Spread in the Flagellar Motor Switch: A Model Study
+50.00%	(Hits: 1,	Misses: 0,	Total: 2)	Transat—A Method for Detecting the Conserved Helices of Functional RNA Structures, Including Transient, Pseudo-Knotted and Alternative Structures
+50.00%	(Hits: 1,	Misses: 0,	Total: 2)	Probability Matching as a Computational Strategy Used in Perception
+50.00%	(Hits: 1,	Misses: 0,	Total: 2)	Noise during Rest Enables the Exploration of the Brain's Dynamic Repertoire
+50.00%	(Hits: 1,	Misses: 0,	Total: 2)	Nash Equilibria in Multi-Agent Motor Interactions
+50.00%	(Hits: 1,	Misses: 0,	Total: 2)	Integrating Signals from the T-Cell Receptor and the Interleukin-2 Receptor
+50.00%	(Hits: 1,	Misses: 0,	Total: 2)	HIV Promoter Integration Site Primarily Modulates Transcriptional Burst Size Rather Than Frequency
+50.00%	(Hits: 1,	Misses: 0,	Total: 2)	Compensation for Changing Motor Uncertainty
+50.00%	(Hits: 1,	Misses: 0,	Total: 2)	Combinations of Protein-Chemical Complex Structures Reveal New Targets for Established Drugs
+46.67%	(Hits: 7,	Misses: 4,	Total: 15)	Lipid Exchange Mechanism of the Cholesteryl Ester Transfer Protein Clarified by Atomistic and Coarse-grained Simulations
+45.45%	(Hits: 5,	Misses: 3,	Total: 11)	Signal Propagation in Proteins and Relation to Equilibrium Fluctuations
+44.44%	(Hits: 12,	Misses: 6,	Total: 27)	In Silico Detection of Sequence Variations Modifying Transcriptional Regulation
+42.86%	(Hits: 12,	Misses: 5,	Total: 28)	Google Goes Cancer: Improving Outcome Prediction for Cancer Patients by Network-Based Ranking of Marker Genes
+42.22%	(Hits: 19,	Misses: 16,	Total: 45)	PhyloGibbs-MP: Module Prediction and Discriminative Motif-Finding by Gibbs Sampling
+40.00%	(Hits: 2,	Misses: 1,	Total: 5)	Local Gene Regulation Details a Recognition Code within the LacI Transcriptional Factor Family
+40.00%	(Hits: 2,	Misses: 1,	Total: 5)	Getting Started in Biological Pathway Construction and Analysis
+40.00%	(Hits: 2,	Misses: 0,	Total: 5)	Simulating Microdosimetry in a Virtual Hepatic Lobule
+40.00%	(Hits: 2,	Misses: 0,	Total: 5)	Molecular Dynamics Simulations Suggest that Electrostatic Funnel Directs Binding of Tamiflu to Influenza N1 Neuraminidases
+40.00%	(Hits: 2,	Misses: 0,	Total: 5)	Formation and Growth of Oligomers: A Monte Carlo Study of an Amyloid Tau Fragment
+38.46%	(Hits: 5,	Misses: 1,	Total: 13)	Computational Biology in Argentina
+37.50%	(Hits: 12,	Misses: 4,	Total: 32)	Resolving the Ortholog Conjecture: Orthologs Tend to Be Weakly, but Significantly, More Similar in Function than Paralogs
+35.71%	(Hits: 15,	Misses: 2,	Total: 42)	Prediction of Microbial Growth Rate versus Biomass Yield by a Metabolic Network with Kinetic Parameters
+34.88%	(Hits: 15,	Misses: 10,	Total: 43)	A Two-Dimensional Model of the Colonic Crypt Accounting for the Role of the Basement Membrane and Pericryptal Fibroblast Sheath
+33.33%	(Hits: 5,	Misses: 2,	Total: 15)	Structural and Dynamic Requirements for Optimal Activity of the Essential Bacterial Enzyme Dihydrodipicolinate Synthase
+33.33%	(Hits: 4,	Misses: 0,	Total: 12)	Microarray Based Diagnosis Profits from Better Documentation of Gene Expression Signatures
+33.33%	(Hits: 2,	Misses: 0,	Total: 6)	High Resolution Genome Wide Binding Event Finding and Motif Discovery Reveals Transcription Factor Spatial Binding Constraints
+33.33%	(Hits: 2,	Misses: 0,	Total: 6)	Genomics and Privacy: Implications of the New Reality of Closed Data for the Field
+33.33%	(Hits: 12,	Misses: 9,	Total: 36)	Phasic Firing in Vasopressin Cells: Understanding Its Functional Significance through Computational Models
+33.33%	(Hits: 10,	Misses: 2,	Total: 30)	Recent Evolutions of Multiple Sequence Alignment Algorithms
+33.33%	(Hits: 1,	Misses: 1,	Total: 3)	Brain Rhythms Reveal a Hierarchical Network Organization
+33.33%	(Hits: 1,	Misses: 0,	Total: 3)	On the Inverse Problem of Binocular 3D Motion Perception
+33.33%	(Hits: 1,	Misses: 0,	Total: 3)	Induced Effects of Sodium Ions on Dopaminergic G-Protein Coupled Receptors
+33.33%	(Hits: 1,	Misses: 0,	Total: 3)	Hydrophobicity and Charge Shape Cellular Metabolite Concentrations
+33.33%	(Hits: 1,	Misses: 0,	Total: 3)	Game Theory of Mind
+33.33%	(Hits: 1,	Misses: 0,	Total: 3)	Filament Depolymerization Can Explain Chromosome Pulling during Bacterial Mitosis
+33.33%	(Hits: 1,	Misses: 0,	Total: 3)	Change in Allosteric Network Affects Binding Affinities of PDZ Domains: Analysis through Perturbation Response Scanning
+33.33%	(Hits: 1,	Misses: 0,	Total: 3)	Broadband Criticality of Human Brain Network Synchronization
+32.61%	(Hits: 15,	Misses: 14,	Total: 46)	Identifying Single Copy Orthologs in Metazoa
+32.56%	(Hits: 14,	Misses: 13,	Total: 43)	The Role of Flexibility and Conformational Selection in the Binding Promiscuity of PDZ Domains
+31.58%	(Hits: 6,	Misses: 1,	Total: 19)	De-Novo Discovery of Differentially Abundant Transcription Factor Binding Sites Including Their Positional Preference
+31.25%	(Hits: 5,	Misses: 3,	Total: 16)	Visualization and Analysis of 3D Microscopic Images
+30.91%	(Hits: 17,	Misses: 17,	Total: 55)	An Integrated Regulatory Network Reveals Pervasive Cross-Regulation among Transcription and Splicing Factors
+30.77%	(Hits: 8,	Misses: 0,	Total: 26)	Noise Propagation and Signaling Sensitivity in Biological Networks: A Role for Positive Feedback
+30.77%	(Hits: 4,	Misses: 3,	Total: 13)	Buffering Mechanisms in Aging: A Systems Approach Toward Uncovering the Genetic Component of Aging
+30.77%	(Hits: 4,	Misses: 3,	Total: 13)	A Bayesian Inference Framework to Reconstruct Transmission Trees Using Epidemiological and Genetic Data
+30.77%	(Hits: 12,	Misses: 4,	Total: 39)	Genome Comparison of Human and Non-Human Malaria Parasites Reveals Species Subset-Specific Genes Potentially Linked to Human Disease
+30.00%	(Hits: 3,	Misses: 4,	Total: 10)	What Can Systems Theory of Networks Offer to Biology?
+30.00%	(Hits: 12,	Misses: 4,	Total: 40)	Stochastic Modeling of Expression Kinetics Identifies Messenger Half-Lives and Reveals Sequential Waves of Co-ordinated Transcription and Decay
+29.41%	(Hits: 5,	Misses: 2,	Total: 17)	Joint Analysis of Multiple Metagenomic Samples
+29.41%	(Hits: 5,	Misses: 0,	Total: 17)	Action Potential Energy Efficiency Varies Among Neuron Types in Vertebrates and Invertebrates
+29.41%	(Hits: 10,	Misses: 4,	Total: 34)	Structural Consensus among Antibodies Defines the Antigen Binding Site
+29.17%	(Hits: 7,	Misses: 2,	Total: 24)	Circular Permutation in Proteins
+28.95%	(Hits: 11,	Misses: 2,	Total: 38)	Proteome Sampling by the HLA Class I Antigen Processing Pathway
+28.57%	(Hits: 4,	Misses: 0,	Total: 14)	Multiple Genetic Interaction Experiments Provide Complementary Information Useful for Gene Function Prediction
+28.00%	(Hits: 7,	Misses: 5,	Total: 25)	Enzyme Localization Can Drastically Affect Signal Amplification in Signal Transduction Pathways
+27.55%	(Hits: 27,	Misses: 22,	Total: 98)	Allosteric Communication across the Native and Mutated KIT Receptor Tyrosine Kinase
+27.27%	(Hits: 3,	Misses: 2,	Total: 11)	On the Use of Gene Ontology Annotations to Assess Functional Similarity among Orthologs and Paralogs: A Short Report
+26.67%	(Hits: 4,	Misses: 5,	Total: 15)	Combinatorial Binding in Human and Mouse Embryonic Stem Cells Identifies Conserved Enhancers Active in Early Embryonic Development
+26.67%	(Hits: 12,	Misses: 5,	Total: 45)	Mathematical Model of Viral Kinetics In Vitro Estimates the Number of E2-CD81 Complexes Necessary for Hepatitis C Virus Entry
+26.32%	(Hits: 5,	Misses: 7,	Total: 19)	Integrating Bioinformatics Tools to Handle Glycosylation
+25.00%	(Hits: 9,	Misses: 6,	Total: 36)	Reconstructing the Dynamics of HIV Evolution within Hosts from Serial Deep Sequence Data
+25.00%	(Hits: 5,	Misses: 4,	Total: 20)	The Impact of Phenotypic Switching on Glioblastoma Growth and Invasion
+25.00%	(Hits: 3,	Misses: 0,	Total: 12)	Stochastic De-repression of Rhodopsins in Single Photoreceptors of the Fly Retina
+25.00%	(Hits: 2,	Misses: 4,	Total: 8)	Hierarchical Processing of Auditory Objects in Humans
+25.00%	(Hits: 11,	Misses: 6,	Total: 44)	Accessible High-Throughput Virtual Screening Molecular Docking Software for Students and Educators
+25.00%	(Hits: 11,	Misses: 20,	Total: 44)	Automated Protein Subfamily Identification and Classification
+25.00%	(Hits: 1,	Misses: 3,	Total: 4)	G-Quadruplex DNA Sequences Are Evolutionarily Conserved and Associated with Distinct Genomic Features in Saccharomyces cerevisiae
+25.00%	(Hits: 1,	Misses: 0,	Total: 4)	Insights into Protein-DNA Interactions through Structure Network Analysis
+25.00%	(Hits: 1,	Misses: 0,	Total: 4)	Conformational Sampling and Nucleotide-Dependent Transitions of the GroEL Subunit Probed by Unbiased Molecular Dynamics Simulations
+24.56%	(Hits: 14,	Misses: 29,	Total: 57)	Artificial Neural Networks Trained to Detect Viral and Phage Structural Proteins
+24.53%	(Hits: 13,	Misses: 11,	Total: 53)	Coherent Conformational Degrees of Freedom as a Structural Basis for Allosteric Communication
+23.53%	(Hits: 8,	Misses: 7,	Total: 34)	Evolution of Function in the "Two Dinucleotide Binding Domains" Flavoproteins
+23.53%	(Hits: 8,	Misses: 11,	Total: 34)	Integrative Approach to Pain Genetics Identifies Pain Sensitivity Loci across Diseases
+23.53%	(Hits: 4,	Misses: 0,	Total: 17)	Prediction of Drug Combinations by Integrating Molecular and Pharmacological Data
+23.08%	(Hits: 3,	Misses: 3,	Total: 13)	Data Sharing in the Post-Genomic World: The Experience of the International Cancer Genome Consortium (ICGC) Data Access Compliance Office (DACO)
+22.92%	(Hits: 11,	Misses: 7,	Total: 48)	Matt: Local Flexibility Aids Protein Multiple Structure Alignment
+22.86%	(Hits: 8,	Misses: 12,	Total: 35)	How Cells Integrate Complex Stimuli: The Effect of Feedback from Phosphoinositides and Cell Shape on Cell Polarization and Motility
+22.81%	(Hits: 26,	Misses: 49,	Total: 114)	MOSAIC: A Multiscale Model of Osteogenesis and Sprouting Angiogenesis with Lateral Inhibition of Endothelial Cells
+22.58%	(Hits: 7,	Misses: 3,	Total: 31)	ProteinHistorian: Tools for the Comparative Analysis of Eukaryote Protein Origin
+22.58%	(Hits: 7,	Misses: 10,	Total: 31)	BeadArray Expression Analysis Using Bioconductor
+22.39%	(Hits: 15,	Misses: 20,	Total: 67)	Structural Insights into the Inhibition of Actin-Capping Protein by Interactions with Phosphatidic Acid and Phosphatidylinositol (4,5)-Bisphosphate
+22.22%	(Hits: 6,	Misses: 9,	Total: 27)	Co-Regulation of Metabolic Genes Is Better Explained by Flux Coupling Than by Network Distance
+22.22%	(Hits: 4,	Misses: 3,	Total: 18)	Bistability and Oscillations in the Huang-Ferrell Model of MAPK Signaling
+22.22%	(Hits: 2,	Misses: 2,	Total: 9)	Machine Learning and Its Applications to Biology
+21.95%	(Hits: 9,	Misses: 5,	Total: 41)	Comparative Microbial Modules Resource: Generation and Visualization of Multi-species Biclusters
+21.88%	(Hits: 7,	Misses: 3,	Total: 32)	Exploring the Evolution of Novel Enzyme Functions within Structurally Defined Protein Superfamilies
+21.50%	(Hits: 23,	Misses: 48,	Total: 107)	The Rates of Protein Synthesis and Degradation Account for the Differential Response of Neurons to Spaced and Massed Training Protocols
+21.43%	(Hits: 3,	Misses: 4,	Total: 14)	The Layer-Oriented Approach to Declarative Languages for Biological Modeling
+21.21%	(Hits: 7,	Misses: 9,	Total: 33)	In Silico Elucidation of the Molecular Mechanism Defining the Adverse Effect of Selective Estrogen Receptor Modulators
+21.21%	(Hits: 7,	Misses: 3,	Total: 33)	The Per2 Negative Feedback Loop Sets the Period in the Mammalian Circadian Clock Mechanism
+21.05%	(Hits: 8,	Misses: 7,	Total: 38)	A Structural Systems Biology Approach for Quantifying the Systemic Consequences of Missense Mutations in Proteins
+20.83%	(Hits: 5,	Misses: 0,	Total: 24)	GDP Release Preferentially Occurs on the Phosphate Side in Heterotrimeric G-proteins
+20.69%	(Hits: 6,	Misses: 2,	Total: 29)	Quality of Computationally Inferred Gene Ontology Annotations
+20.59%	(Hits: 7,	Misses: 14,	Total: 34)	A Common Model for Cytokine Receptor Activation: Combined Scissor-Like Rotation and Self-Rotation of Receptor Dimer Induced by Class I Cytokine
+20.51%	(Hits: 8,	Misses: 9,	Total: 39)	Design of Multi-Specificity in Protein Interfaces
+20.51%	(Hits: 8,	Misses: 12,	Total: 39)	From Endosymbiont to Host-Controlled Organelle: The Hijacking of Mitochondrial Protein Synthesis and Metabolism
+20.00%	(Hits: 8,	Misses: 7,	Total: 40)	Genome-Scale Modeling of Light-Driven Reductant Partitioning and Carbon Fluxes in Diazotrophic Unicellular Cyanobacterium Cyanothece sp. ATCC 51142
+20.00%	(Hits: 2,	Misses: 1,	Total: 10)	From Inverse Problems in Mathematical Physiology to Quantitative Differential Diagnoses
+20.00%	(Hits: 1,	Misses: 1,	Total: 5)	Inferring Correlation Networks from Genomic Survey Data
+20.00%	(Hits: 1,	Misses: 1,	Total: 5)	Charge as a Selection Criterion for Translocation through the Nuclear Pore Complex
+20.00%	(Hits: 1,	Misses: 0,	Total: 5)	Questioning the Ubiquity of Neofunctionalization
+20.00%	(Hits: 1,	Misses: 0,	Total: 5)	Parameters in Dynamic Models of Complex Traits are Containers of Missing Heritability
+20.00%	(Hits: 1,	Misses: 0,	Total: 5)	Evolutionary Patterns in the Sequence and Structure of Transfer RNA: Early Origins of Archaea and Viruses
+19.77%	(Hits: 17,	Misses: 24,	Total: 86)	Mitochondrial Variability as a Source of Extrinsic Cellular Noise
+19.51%	(Hits: 8,	Misses: 9,	Total: 41)	The FGGY Carbohydrate Kinase Family: Insights into the Evolution of Functional Specificities
+19.44%	(Hits: 7,	Misses: 5,	Total: 36)	Systems Analysis of Chaperone Networks in the Malarial Parasite Plasmodium falciparum
+19.35%	(Hits: 6,	Misses: 11,	Total: 31)	Dynamic Prestress in a Globular Protein
+19.23%	(Hits: 5,	Misses: 4,	Total: 26)	Disease Prevention versus Data Privacy: Using Landcover Maps to Inform Spatial Epidemic Models
+19.23%	(Hits: 5,	Misses: 2,	Total: 26)	Fine-Tuning Tomato Agronomic Properties by Computational Genome Redesign
+19.05%	(Hits: 8,	Misses: 2,	Total: 42)	Metabolic Reconstruction for Metagenomic Data and Its Application to the Human Microbiome
+18.97%	(Hits: 11,	Misses: 20,	Total: 58)	Protein Design Using Continuous Rotamers
+18.75%	(Hits: 9,	Misses: 3,	Total: 48)	Automatic Filtering and Substantiation of Drug Safety Signals
+18.75%	(Hits: 6,	Misses: 6,	Total: 32)	Stereochemical Criteria for Prediction of the Effects of Proline Mutations on Protein Stability
+18.64%	(Hits: 11,	Misses: 21,	Total: 59)	Comparison of Insertional RNA Editing in Myxomycetes
+18.52%	(Hits: 5,	Misses: 4,	Total: 27)	CpG Island Mapping by Epigenome Prediction
+18.52%	(Hits: 10,	Misses: 10,	Total: 54)	Enhancing the Prioritization of Disease-Causing Genes through Tissue Specific Protein Interaction Networks
+18.42%	(Hits: 7,	Misses: 15,	Total: 38)	Filling-In and Suppression of Visual Perception from Context: A Bayesian Account of Perceptual Biases by Contextual Influences
+18.31%	(Hits: 13,	Misses: 21,	Total: 71)	The Ortholog Conjecture Is Untestable by the Current Gene Ontology but Is Supported by RNA Sequencing Data
+18.18%	(Hits: 2,	Misses: 0,	Total: 11)	How to Get the Most out of Your Curation Effort
+18.03%	(Hits: 11,	Misses: 14,	Total: 61)	Persisting Viral Sequences Shape Microbial CRISPR-based Immunity
+17.95%	(Hits: 7,	Misses: 13,	Total: 39)	Prediction of Drug-Target Interactions and Drug Repositioning via Network-Based Inference
+17.86%	(Hits: 5,	Misses: 8,	Total: 28)	A Novel Computational Method Identifies Intra- and Inter-Species Recombination Events in Staphylococcus aureus and Streptococcus pneumoniae
+17.65%	(Hits: 6,	Misses: 9,	Total: 34)	Inference of Genotype-Phenotype Relationships in the Antigenic Evolution of Human Influenza A (H3N2) Viruses
+17.65%	(Hits: 3,	Misses: 3,	Total: 17)	RNA-Seq Mapping and Detection of Gene Fusions with a Suffix Array Algorithm
+17.54%	(Hits: 10,	Misses: 6,	Total: 57)	Uncovering MicroRNA and Transcription Factor Mediated Regulatory Networks in Glioblastoma
+17.50%	(Hits: 7,	Misses: 10,	Total: 40)	The p7 Protein of Hepatitis C Virus Forms Structurally Plastic, Minimalist Ion Channels
+17.39%	(Hits: 8,	Misses: 18,	Total: 46)	Microarray Analysis of LTR Retrotransposon Silencing Identifies Hdac1 as a Regulator of Retrotransposon Expression in Mouse Embryonic Stem Cells
+17.39%	(Hits: 4,	Misses: 5,	Total: 23)	Genes and (Common) Pathways Underlying Drug Addiction
+17.39%	(Hits: 4,	Misses: 3,	Total: 23)	Accurate Structural Correlations from Maximum Likelihood Superpositions
+17.39%	(Hits: 12,	Misses: 23,	Total: 69)	Natively Unstructured Loops Differ from Other Loops
+17.14%	(Hits: 6,	Misses: 4,	Total: 35)	Which of Our Modeling Predictions Are Robust?
+17.07%	(Hits: 7,	Misses: 6,	Total: 41)	Assessing the Relative Stability of Dimer Interfaces in G Protein-Coupled Receptors
+17.07%	(Hits: 7,	Misses: 10,	Total: 41)	Comparative Genomics Search for Losses of Long-Established Genes on the Human Lineage
+17.07%	(Hits: 7,	Misses: 10,	Total: 41)	Bioinformatics for the Human Microbiome Project
+16.90%	(Hits: 12,	Misses: 23,	Total: 71)	Versatility and Invariance in the Evolution of Homologous Heteromeric Interfaces
+16.90%	(Hits: 12,	Misses: 17,	Total: 71)	A Whole-Body Model for Glycogen Regulation Reveals a Critical Role for Substrate Cycling in Maintaining Blood Glucose Homeostasis
+16.67%	(Hits: 5,	Misses: 6,	Total: 30)	Intragenomic Matching Reveals a Huge Potential for miRNA-Mediated Regulation in Plants
+16.67%	(Hits: 5,	Misses: 13,	Total: 30)	Linkers of Cell Polarity and Cell Cycle Regulation in the Fission Yeast Protein Interaction Network
+16.67%	(Hits: 14,	Misses: 11,	Total: 84)	Insights into the Fold Organization of TIM Barrel from Interaction Energy Based Structure Networks
+16.67%	(Hits: 11,	Misses: 19,	Total: 66)	Phenomenological Model for Predicting the Catabolic Potential of an Arbitrary Nutrient
+16.67%	(Hits: 1,	Misses: 0,	Total: 6)	Temporal Expression-based Analysis of Metabolism
+16.67%	(Hits: 1,	Misses: 0,	Total: 6)	Computer Simulation of Cellular Patterning Within the Drosophila Pupal Eye
+16.51%	(Hits: 18,	Misses: 49,	Total: 109)	From Dynamic Expression Patterns to Boundary Formation in the Presomitic Mesoderm
+16.28%	(Hits: 14,	Misses: 19,	Total: 86)	Increased Vulnerability of Human Ventricle to Re-entrant Excitation in hERG-linked Variant 1 Short QT Syndrome
+16.22%	(Hits: 6,	Misses: 20,	Total: 37)	Dynamic Control of Selectivity in the Ubiquitination Pathway Revealed by an ASP to GLU Substitution in an Intra-Molecular Salt-Bridge Network
+16.00%	(Hits: 4,	Misses: 7,	Total: 25)	Viral Perturbations of Host Networks Reflect Disease Etiology
+16.00%	(Hits: 4,	Misses: 0,	Total: 25)	Multi-scale Inference of Interaction Rules in Animal Groups Using Bayesian Model Selection
+15.91%	(Hits: 7,	Misses: 10,	Total: 44)	Simulation of Molecular Data under Diverse Evolutionary Scenarios
+15.87%	(Hits: 10,	Misses: 15,	Total: 63)	Cytoskeletal Signaling: Is Memory Encoded in Microtubule Lattices by CaMKII Phosphorylation?
+15.79%	(Hits: 6,	Misses: 5,	Total: 38)	Equation-Free Analysis of Two-Component System Signalling Model Reveals the Emergence of Co-Existing Phenotypes in the Absence of Multistationarity
+15.79%	(Hits: 3,	Misses: 2,	Total: 19)	Translating Clinical Findings into Knowledge in Drug Safety Evaluation - Drug Induced Liver Injury Prediction System (DILIps)
+15.52%	(Hits: 9,	Misses: 18,	Total: 58)	Intrinsic Disorder in the Human Spliceosomal Proteome
+15.38%	(Hits: 6,	Misses: 6,	Total: 39)	The Role of Local Backrub Motions in Evolved and Designed Mutations
+15.38%	(Hits: 6,	Misses: 15,	Total: 39)	Using Multiple Microenvironments to Find Similar Ligand-Binding Sites: Application to Kinase Inhibitor Binding
+15.38%	(Hits: 6,	Misses: 11,	Total: 39)	Single Nucleotide Polymorphisms Can Create Alternative Polyadenylation Signals and Affect Gene Expression through Loss of MicroRNA-Regulation
+15.38%	(Hits: 10,	Misses: 13,	Total: 65)	NIBBS-Search for Fast and Accurate Prediction of Phenotype-Biased Metabolic Systems
+15.28%	(Hits: 11,	Misses: 9,	Total: 72)	Strategy Diversity Stabilizes Mutualism through Investment Cycles, Phase Polymorphism, and Spatial Bubbles
+15.00%	(Hits: 3,	Misses: 9,	Total: 20)	Network-Assisted Investigation of Combined Causal Signals from Genome-Wide Association Studies in Schizophrenia
+15.00%	(Hits: 3,	Misses: 3,	Total: 20)	Optimizing Experimental Design for Comparing Models of Brain Function
+14.93%	(Hits: 10,	Misses: 17,	Total: 67)	An Evolutionary-Network Model Reveals Stratified Interactions in the V3 Loop of the HIV-1 Envelope
+14.89%	(Hits: 7,	Misses: 9,	Total: 47)	Alternative Protein-Protein Interfaces Are Frequent Exceptions
+14.77%	(Hits: 13,	Misses: 21,	Total: 88)	OptCom: A Multi-Level Optimization Framework for the Metabolic Modeling and Analysis of Microbial Communities
+14.71%	(Hits: 5,	Misses: 0,	Total: 34)	The Modular Organization of Domain Structures: Insights into Protein-Protein Binding
+14.63%	(Hits: 6,	Misses: 15,	Total: 41)	Regulatory Network Structure as a Dominant Determinant of Transcription Factor Evolutionary Rate
+14.49%	(Hits: 10,	Misses: 5,	Total: 69)	Combining the Finite Element Method with Structural Connectome-based Analysis for Modeling Neurotrauma: Connectome Neurotrauma Mechanics
+14.29%	(Hits: 7,	Misses: 17,	Total: 49)	Network Evolution: Rewiring and Signatures of Conservation in Signaling
+14.29%	(Hits: 4,	Misses: 9,	Total: 28)	Structural Drift: The Population Dynamics of Sequential Learning
+14.29%	(Hits: 4,	Misses: 8,	Total: 28)	Ligand Binding and Circular Permutation Modify Residue Interaction Network in DHFR
+14.29%	(Hits: 4,	Misses: 6,	Total: 28)	Self-organizing Mechanism for Development of Space-filling Neuronal Dendrites
+14.29%	(Hits: 24,	Misses: 39,	Total: 168)	Modeling Brain Resonance Phenomena Using a Neural Mass Model
+14.29%	(Hits: 1,	Misses: 3,	Total: 7)	Predictive Dynamics of Human Pain Perception
+14.29%	(Hits: 1,	Misses: 1,	Total: 7)	Genome-Scale Computational Biology and Bioinformatics in Australia
+13.89%	(Hits: 5,	Misses: 8,	Total: 36)	Tissue-Specific Functional Networks for Prioritizing Phenotype and Disease Genes
+13.79%	(Hits: 8,	Misses: 20,	Total: 58)	Replication Pauses of the Wild-Type and Mutant Mitochondrial DNA Polymerase Gamma: A Simulation Study
+13.79%	(Hits: 4,	Misses: 4,	Total: 29)	Shrinking the Metabolic Solution Space Using Experimental Datasets
+13.79%	(Hits: 4,	Misses: 2,	Total: 29)	Beyond Statistical Significance: Implications of Network Structure on Neuronal Activity
+13.73%	(Hits: 7,	Misses: 15,	Total: 51)	Modeling HIV-1 Drug Resistance as Episodic Directional Selection
+13.64%	(Hits: 3,	Misses: 7,	Total: 22)	Modeling Dynamic Regulatory Processes in Stroke
+13.64%	(Hits: 3,	Misses: 5,	Total: 22)	Implications of Behavioral Architecture for the Evolution of Self-Organized Division of Labor
+13.64%	(Hits: 3,	Misses: 2,	Total: 22)	Next-Generation Sequencing of Human Mitochondrial Reference Genomes Uncovers High Heteroplasmy Frequency
+13.51%	(Hits: 5,	Misses: 4,	Total: 37)	Universal Pacemaker of Genome Evolution
+13.46%	(Hits: 7,	Misses: 19,	Total: 52)	Kinetic Rate Constant Prediction Supports the Conformational Selection Mechanism of Protein Binding
+13.33%	(Hits: 6,	Misses: 9,	Total: 45)	How Force Might Activate Talin's Vinculin Binding Sites: SMD Reveals a Structural Mechanism
+13.33%	(Hits: 6,	Misses: 6,	Total: 45)	Reconstructing Mammalian Sleep Dynamics with Data Assimilation
+13.33%	(Hits: 4,	Misses: 11,	Total: 30)	Reconstruction of Genome-Scale Active Metabolic Networks for 69 Human Cell Types and 16 Cancer Types Using INIT
+13.33%	(Hits: 4,	Misses: 1,	Total: 30)	Deciphering Interactions in Moving Animal Groups
+13.33%	(Hits: 2,	Misses: 4,	Total: 15)	Confidence-based Somatic Mutation Evaluation and Prioritization
+13.33%	(Hits: 10,	Misses: 27,	Total: 75)	Disease-Associated Mutations Disrupt Functionally Important Regions of Intrinsic Protein Disorder
+13.16%	(Hits: 10,	Misses: 24,	Total: 76)	Mechanisms of Firing Patterns in Fast-Spiking Cortical Interneurons
+13.04%	(Hits: 3,	Misses: 4,	Total: 23)	Molecular Machines in the Synapse: Overlapping Protein Sets Control Distinct Steps in Neurosecretion
+12.96%	(Hits: 7,	Misses: 10,	Total: 54)	Potassium Starvation in Yeast: Mechanisms of Homeostasis Revealed by Mathematical Modeling
+12.90%	(Hits: 4,	Misses: 9,	Total: 31)	Gene Network Homology in Prokaryotes Using a Similarity Search Approach: Queries of Quorum Sensing Signal Transduction
+12.82%	(Hits: 5,	Misses: 18,	Total: 39)	Energetic Selection of Topology in Ferredoxins
+12.50%	(Hits: 8,	Misses: 17,	Total: 64)	Degenerate T-cell Recognition of Peptides on MHC Molecules Creates Large Holes in the T-cell Repertoire
+12.50%	(Hits: 5,	Misses: 13,	Total: 40)	Using Functional Signatures to Identify Repositioned Drugs for Breast, Myelogenous Leukemia and Prostate Cancer
+12.50%	(Hits: 5,	Misses: 13,	Total: 40)	Distinct Neurogenomic States in Basal Ganglia Subregions Relate Differently to Singing Behavior in Songbirds
+12.50%	(Hits: 4,	Misses: 5,	Total: 32)	Functional Analysis of Metabolic Channeling and Regulation in Lignin Biosynthesis: A Computational Approach
+12.50%	(Hits: 1,	Misses: 1,	Total: 8)	Predicting the Extension of Biomedical Ontologies
+12.24%	(Hits: 6,	Misses: 10,	Total: 49)	Sarcomeric Pattern Formation by Actin Cluster Coalescence
+12.24%	(Hits: 6,	Misses: 0,	Total: 49)	Thermodynamic State Ensemble Models of cis-Regulation
+12.12%	(Hits: 4,	Misses: 9,	Total: 33)	In Search of the Biological Significance of Modular Structures in Protein Networks
+12.07%	(Hits: 7,	Misses: 10,	Total: 58)	A Genome-Scale Metabolic Reconstruction of Mycoplasma genitalium, iPS189
+12.00%	(Hits: 3,	Misses: 5,	Total: 25)	The Efficiency of the Human CD8+ T Cell Response: How Should We Quantify It, What Determines It, and Does It Matter?
+11.90%	(Hits: 5,	Misses: 5,	Total: 42)	Operating Regimes of Signaling Cycles: Statics, Dynamics, and Noise Filtering
+11.76%	(Hits: 6,	Misses: 18,	Total: 51)	Validation of Skeletal Muscle cis-Regulatory Module Predictions Reveals Nucleotide Composition Bias in Functional Enhancers
+11.76%	(Hits: 4,	Misses: 5,	Total: 34)	Virus Capsid Dissolution Studied by Microsecond Molecular Dynamics Simulations
+11.76%	(Hits: 4,	Misses: 2,	Total: 34)	Recovering Protein-Protein and Domain-Domain Interactions from Aggregation of IP-MS Proteomics of Coregulator Complexes
+11.67%	(Hits: 7,	Misses: 29,	Total: 60)	Modelling Cell Polarization Driven by Synthetic Spatially Graded Rac Activation
+11.63%	(Hits: 5,	Misses: 7,	Total: 43)	Weighted Frequent Gene Co-expression Network Mining to Identify Genes Involved in Genome Stability
+11.63%	(Hits: 5,	Misses: 4,	Total: 43)	Inferring Dynamic Signatures of Microbes in Complex Host Ecosystems
+11.63%	(Hits: 5,	Misses: 10,	Total: 43)	Tension and Robustness in Multitasking Cellular Networks
+11.63%	(Hits: 5,	Misses: 10,	Total: 43)	Coupling between Catalytic Loop Motions and Enzyme Global Dynamics
+11.59%	(Hits: 8,	Misses: 18,	Total: 69)	Tuning the Mammalian Circadian Clock: Robust Synergy of Two Loops
+11.43%	(Hits: 12,	Misses: 35,	Total: 105)	Molecular Constraints on Synaptic Tagging and Maintenance of Long-Term Potentiation: A Predictive Model
+11.38%	(Hits: 14,	Misses: 29,	Total: 123)	Dynamic Energy Landscapes of Riboswitches Help Interpret Conformational Rearrangements and Function
+11.36%	(Hits: 5,	Misses: 6,	Total: 44)	A Spatial Model of Mosquito Host-Seeking Behavior
+11.36%	(Hits: 5,	Misses: 17,	Total: 44)	Information Routing Driven by Background Chatter in a Signaling Network
+11.32%	(Hits: 6,	Misses: 13,	Total: 53)	The Landscape of the Prion Protein's Structural Response to Mutation Revealed by Principal Component Analysis of Multiple NMR Ensembles
+11.29%	(Hits: 7,	Misses: 19,	Total: 62)	pH-Dependent Conformational Changes in Proteins and Their Effect on Experimental pKas: The Case of Nitrophorin 4
+11.27%	(Hits: 8,	Misses: 4,	Total: 71)	Evidence for Sequential and Increasing Activation of Replication Origins along Replication Timing Gradients in the Human Genome
+11.11%	(Hits: 2,	Misses: 6,	Total: 18)	Quantifying and Analyzing the Network Basis of Genetic Complexity
+11.11%	(Hits: 1,	Misses: 4,	Total: 9)	Bioinformatics in China: A Personal Perspective
+11.11%	(Hits: 1,	Misses: 0,	Total: 9)	Theoretical Analysis of the Stress Induced B-Z Transition in Superhelical DNA
+10.94%	(Hits: 7,	Misses: 25,	Total: 64)	Conformational Control of the Binding of the Transactivation Domain of the MLL Protein and c-Myb to the KIX Domain of CREB
+10.91%	(Hits: 6,	Misses: 13,	Total: 55)	Short Conduction Delays Cause Inhibition Rather than Excitation to Favor Synchrony in Hybrid Neuronal Networks of the Entorhinal Cortex
+10.87%	(Hits: 10,	Misses: 30,	Total: 92)	Minimum Free Energy Path of Ligand-Induced Transition in Adenylate Kinase
+10.84%	(Hits: 9,	Misses: 29,	Total: 83)	Uncovering the Dynamics of Cardiac Systems Using Stochastic Pacing and Frequency Domain Analyses
+10.81%	(Hits: 4,	Misses: 2,	Total: 37)	Evolution of Complex Modular Biological Networks
+10.81%	(Hits: 4,	Misses: 11,	Total: 37)	Substrate-Specific Reorganization of the Conformational Ensemble of CSK Implicates Novel Modes of Kinase Function
+10.64%	(Hits: 10,	Misses: 26,	Total: 94)	Structure and Age Jointly Influence Rates of Protein Evolution
+10.53%	(Hits: 4,	Misses: 8,	Total: 38)	Modular Design of Artificial Tissue Homeostasis: Robust Control through Synthetic Cellular Heterogeneity
+10.34%	(Hits: 3,	Misses: 8,	Total: 29)	Efficiency and Power as a Function of Sequence Coverage, SNP Array Density, and Imputation
+10.29%	(Hits: 7,	Misses: 25,	Total: 68)	HIV-1 Polymerase Inhibition by Nucleoside Analogs: Cellular- and Kinetic Parameters of Efficacy, Susceptibility and Resistance Selection
+10.20%	(Hits: 5,	Misses: 14,	Total: 49)	Role of Histone Tails in Structural Stability of the Nucleosome
+10.00%	(Hits: 1,	Misses: 4,	Total: 10)	Not All Scale-Free Networks Are Born Equal: The Role of the Seed Graph in PPI Network Evolution
+10.00%	(Hits: 1,	Misses: 1,	Total: 10)	Direct Inference of SNP Heterozygosity Rates and Resolution of LOH Detection
+9.86%	(Hits: 7,	Misses: 24,	Total: 71)	Prosthetic Avian Vocal Organ Controlled by a Freely Behaving Bird Based on a Low Dimensional Model of the Biomechanical Periphery
+9.84%	(Hits: 6,	Misses: 7,	Total: 61)	Effects of Electrical and Structural Remodeling on Atrial Fibrillation Maintenance: A Simulation Study
+9.68%	(Hits: 6,	Misses: 21,	Total: 62)	Modeling Protective Anti-Tumor Immunity via Preventative Cancer Vaccines Using a Hybrid Agent-based and Delay Differential Equation Approach
+9.68%	(Hits: 6,	Misses: 15,	Total: 62)	Correlated Electrostatic Mutations Provide a Reservoir of Stability in HIV Protease
+9.68%	(Hits: 3,	Misses: 4,	Total: 31)	Epitope Flexibility and Dynamic Footprint Revealed by Molecular Dynamics of a pMHC-TCR Complex
+9.57%	(Hits: 11,	Misses: 22,	Total: 115)	A Hierarchical Neuronal Model for Generation and Online Recognition of Birdsongs
+9.52%	(Hits: 6,	Misses: 10,	Total: 63)	Positive Evolutionary Selection of an HD Motif on Alzheimer Precursor Protein Orthologues Suggests a Functional Role
+9.52%	(Hits: 2,	Misses: 5,	Total: 21)	Novel Approach to Meta-Analysis of Microarray Datasets Reveals Muscle Remodeling-related Drug Targets and Biomarkers in Duchenne Muscular Dystrophy
+9.52%	(Hits: 2,	Misses: 1,	Total: 21)	Predicting Protein Function with Hierarchical Phylogenetic Profiles: The Gene3D Phylo-Tuner Method Applied to Eukaryotic Genomes
+9.43%	(Hits: 5,	Misses: 10,	Total: 53)	Ten Years of Pathway Analysis: Current Approaches and Outstanding Challenges
+9.38%	(Hits: 6,	Misses: 8,	Total: 64)	Hemodynamic Traveling Waves in Human Visual Cortex
+9.38%	(Hits: 3,	Misses: 5,	Total: 32)	Sensitivity Analysis of Intracellular Signaling Pathway Kinetics Predicts Targets for Stem Cell Fate Control
+9.38%	(Hits: 3,	Misses: 3,	Total: 32)	Genome-Wide Localization of Protein-DNA Binding and Histone Modification by a Bayesian Change-Point Method with ChIP-seq Data
+9.09%	(Hits: 3,	Misses: 8,	Total: 33)	Integrating Flux Balance Analysis into Kinetic Models to Decipher the Dynamic Metabolism of Shewanella oneidensis MR-1
+9.09%	(Hits: 10,	Misses: 14,	Total: 110)	Changes in Lysozyme Flexibility upon Mutation Are Frequent, Large and Long-Ranged
+9.01%	(Hits: 10,	Misses: 46,	Total: 111)	Subcellular Location of PKA Controls Striatal Plasticity: Stochastic Simulations in Spiny Dendrites
+8.86%	(Hits: 7,	Misses: 16,	Total: 79)	A Model of Ant Route Navigation Driven by Scene Familiarity
+8.82%	(Hits: 9,	Misses: 23,	Total: 102)	Location-Dependent Effects of Inhibition on Local Spiking in Pyramidal Neuron Dendrites
+8.77%	(Hits: 5,	Misses: 17,	Total: 57)	Coincidence Detection of Place and Temporal Context in a Network Model of Spiking Hippocampal Neurons
+8.77%	(Hits: 5,	Misses: 15,	Total: 57)	Power-Law Inter-Spike Interval Distributions Infer a Conditional Maximization of Entropy in Cortical Neurons
+8.70%	(Hits: 6,	Misses: 20,	Total: 69)	Construction and Analysis of an Integrated Regulatory Network Derived from High-Throughput Sequencing Data
+8.70%	(Hits: 6,	Misses: 16,	Total: 69)	Network Topologies and Dynamics Leading to Endotoxin Tolerance and Priming in Innate Immune Cells
+8.66%	(Hits: 11,	Misses: 38,	Total: 127)	Evolutionary Dynamics on Protein Bi-stability Landscapes can Potentially Resolve Adaptive Conflicts
+8.45%	(Hits: 6,	Misses: 10,	Total: 71)	Parsimonious Higher-Order Hidden Markov Models for Improved Array-CGH Analysis with Applications to Arabidopsis thaliana
+8.33%	(Hits: 4,	Misses: 30,	Total: 48)	Rational Engineering of Enzyme Allosteric Regulation through Sequence Evolution Analysis
+8.33%	(Hits: 3,	Misses: 5,	Total: 36)	Molecular Basis for Evolving Modularity in the Yeast Protein Interaction Network
+8.33%	(Hits: 3,	Misses: 5,	Total: 36)	Beyond the Binding Site: The Role of the β2 - β3 Loop and Extra-Domain Structures in PDZ Domains
+8.28%	(Hits: 12,	Misses: 18,	Total: 145)	Exploration of Multi-State Conformational Dynamics and Underlying Global Functional Landscape of Maltose Binding Protein
+8.13%	(Hits: 10,	Misses: 31,	Total: 123)	Modeling Planarian Regeneration: A Primer for Reverse-Engineering the Worm
+8.11%	(Hits: 6,	Misses: 15,	Total: 74)	Deceleration of Fusion-Fission Cycles Improves Mitochondrial Quality Control during Aging
+8.11%	(Hits: 6,	Misses: 11,	Total: 74)	Comparative Analysis of RNA Families Reveals Distinct Repertoires for Each Domain of Life
+8.00%	(Hits: 4,	Misses: 13,	Total: 50)	Single Sample Expression-Anchored Mechanisms Predict Survival in Head and Neck Cancer
+8.00%	(Hits: 2,	Misses: 8,	Total: 25)	Functional Modules, Structural Topology, and Optimal Activity in Metabolic Networks
+8.00%	(Hits: 2,	Misses: 6,	Total: 25)	Assessing Drug Target Association Using Semantic Linked Data
+7.89%	(Hits: 3,	Misses: 15,	Total: 38)	Ensemble Models of Neutrophil Trafficking in Severe Sepsis
+7.84%	(Hits: 4,	Misses: 6,	Total: 51)	A Self-Organizing State-Space-Model Approach for Parameter Estimation in Hodgkin-Huxley-Type Models of Single Neurons
+7.84%	(Hits: 4,	Misses: 23,	Total: 51)	Binding of Two Intrinsically Disordered Peptides to a Multi-Specific Protein: A Combined Monte Carlo and Molecular Dynamics Study
+7.84%	(Hits: 4,	Misses: 11,	Total: 51)	Protein Scaffolds Can Enhance the Bistability of Multisite Phosphorylation Systems
+7.69%	(Hits: 5,	Misses: 23,	Total: 65)	Two Birds with One Stone? Possible Dual-Targeting H1N1 Inhibitors from Traditional Chinese Medicine
+7.69%	(Hits: 4,	Misses: 10,	Total: 52)	Decoding Unattended Fearful Faces with Whole-Brain Correlations: An Approach to Identify Condition-Dependent Large-Scale Functional Connectivity
+7.69%	(Hits: 3,	Misses: 8,	Total: 39)	Random Field Model Reveals Structure of the Protein Recombinational Landscape
+7.69%	(Hits: 3,	Misses: 10,	Total: 39)	The CanOE Strategy: Integrating Genomic and Metabolic Contexts across Multiple Prokaryote Genomes to Find Candidate Genes for Orphan Enzymes
+7.69%	(Hits: 2,	Misses: 4,	Total: 26)	Quantitative Predictions of Binding Free Energy Changes in Drug-Resistant Influenza Neuraminidase
+7.59%	(Hits: 6,	Misses: 12,	Total: 79)	Prediction by Promoter Logic in Bacterial Quorum Sensing
+7.58%	(Hits: 5,	Misses: 7,	Total: 66)	Accurate Prediction of the Dynamical Changes within the Second PDZ Domain of PTP1e
+7.58%	(Hits: 5,	Misses: 14,	Total: 66)	Termination of Ca2+ Release for Clustered IP3R Channels
+7.56%	(Hits: 9,	Misses: 29,	Total: 119)	Residual Structures, Conformational Fluctuations, and Electrostatic Interactions in the Synergistic Folding of Two Intrinsically Disordered Proteins
+7.55%	(Hits: 4,	Misses: 15,	Total: 53)	Microbial Co-occurrence Relationships in the Human Microbiome
+7.50%	(Hits: 3,	Misses: 6,	Total: 40)	Probability Fluxes and Transition Paths in a Markovian Model Describing Complex Subunit Cooperativity in HCN2 Channels
+7.50%	(Hits: 3,	Misses: 15,	Total: 40)	Characterization of Protein Hubs by Inferring Interacting Motifs from Protein Interactions
+7.41%	(Hits: 2,	Misses: 6,	Total: 27)	Selective Adaptation in Networks of Heterogeneous Populations: Model, Simulation, and Experiment
+7.32%	(Hits: 6,	Misses: 30,	Total: 82)	A Computational Investigation on the Connection between Dynamics Properties of Ribosomal Proteins and Ribosome Assembly
+7.14%	(Hits: 5,	Misses: 13,	Total: 70)	Virtual Patients and Sensitivity Analysis of the Guyton Model of Blood Pressure Regulation: Towards Individualized Models of Whole-Body Physiology
+7.14%	(Hits: 3,	Misses: 8,	Total: 42)	A Range-Normalization Model of Context-Dependent Choice: A New Model and Evidence
+6.90%	(Hits: 6,	Misses: 22,	Total: 87)	Complementarity of Spike- and Rate-Based Dynamics of Neural Systems
+6.90%	(Hits: 2,	Misses: 5,	Total: 29)	The Role of Social Contacts and Original Antigenic Sin in Shaping the Age Pattern of Immunity to Seasonal Influenza
+6.86%	(Hits: 7,	Misses: 32,	Total: 102)	Suppressed Expression of T-Box Transcription Factors Is Involved in Senescence in Chronic Obstructive Pulmonary Disease
+6.67%	(Hits: 4,	Misses: 21,	Total: 60)	Integrating Cellular Metabolism into a Multiscale Whole-Body Model
+6.67%	(Hits: 4,	Misses: 10,	Total: 60)	Determinants of Brain Cell Metabolic Phenotypes and Energy Substrate Utilization Unraveled with a Modeling Approach
+6.67%	(Hits: 3,	Misses: 16,	Total: 45)	Theory on the Coupled Stochastic Dynamics of Transcription and Splice-Site Recognition
+6.67%	(Hits: 2,	Misses: 2,	Total: 30)	On Genetic Specificity in Symbiont-Mediated Host-Parasite Coevolution
+6.60%	(Hits: 7,	Misses: 25,	Total: 106)	Optimal Control of Saccades by Spatial-Temporal Activity Patterns in the Monkey Superior Colliculus
+6.58%	(Hits: 5,	Misses: 7,	Total: 76)	Influence of the Fibroblastic Reticular Network on Cell-Cell Interactions in Lymphoid Organs
+6.56%	(Hits: 4,	Misses: 12,	Total: 61)	Geometric Theory Predicts Bifurcations in Minimal Wiring Cost Trees in Biology Are Flat
+6.48%	(Hits: 7,	Misses: 49,	Total: 108)	Comprehensive Modelling of the Neurospora Circadian Clock and Its Temperature Compensation
+6.45%	(Hits: 4,	Misses: 13,	Total: 62)	Interplay between the Localization and Kinetics of Phosphorylation in Flagellar Pole Development of the Bacterium Caulobacter crescentus
+6.45%	(Hits: 2,	Misses: 1,	Total: 31)	Dynamic Modelling under Uncertainty: The Case of Trypanosoma brucei Energy Metabolism
+6.40%	(Hits: 8,	Misses: 32,	Total: 125)	The Dynamic Brain: From Spiking Neurons to Neural Masses and Cortical Fields
+6.38%	(Hits: 3,	Misses: 17,	Total: 47)	Viral Proteins Acquired from a Host Converge to Simplified Domain Architectures
+6.35%	(Hits: 4,	Misses: 23,	Total: 63)	Mesoscopic Model of Actin-Based Propulsion
+6.25%	(Hits: 8,	Misses: 37,	Total: 128)	State-Space Analysis of Time-Varying Higher-Order Spike Correlation for Multiple Neural Spike Train Data
+6.25%	(Hits: 6,	Misses: 22,	Total: 96)	Computational Design of a PDZ Domain Peptide Inhibitor that Rescues CFTR Activity
+6.25%	(Hits: 4,	Misses: 5,	Total: 64)	Molecular Dynamics Simulations Reveal Proton Transfer Pathways in Cytochrome C-Dependent Nitric Oxide Reductase
+6.25%	(Hits: 2,	Misses: 5,	Total: 32)	Control of Whole Heart Geometry by Intramyocardial Mechano-Feedback: A Model Study
+6.14%	(Hits: 7,	Misses: 16,	Total: 114)	The Mechanistic Basis of Myxococcus xanthus Rippling Behavior and Its Physiological Role during Predation
+6.02%	(Hits: 5,	Misses: 52,	Total: 83)	Adhesion Failures Determine the Pattern of Choroidal Neovascularization in the Eye: A Computer Simulation Study
+6.00%	(Hits: 3,	Misses: 12,	Total: 50)	The Impact of Imitation on Vaccination Behavior in Social Contact Networks
+5.88%	(Hits: 3,	Misses: 9,	Total: 51)	System-Level Insights into Yeast Metabolism by Thermodynamic Analysis of Elementary Flux Modes
+5.71%	(Hits: 6,	Misses: 21,	Total: 105)	Entrainment of the Mammalian Cell Cycle by the Circadian Clock: Modeling Two Coupled Cellular Rhythms
+5.66%	(Hits: 3,	Misses: 3,	Total: 53)	Implementing Arithmetic and Other Analytic Operations By Transcriptional Regulation
+5.66%	(Hits: 3,	Misses: 15,	Total: 53)	Evolutionary Models for Formation of Network Motifs and Modularity in the Saccharomyces Transcription Factor Network
+5.61%	(Hits: 6,	Misses: 8,	Total: 107)	Modeling of Gap Gene Expression in Drosophila Kruppel Mutants
+5.56%	(Hits: 3,	Misses: 3,	Total: 54)	What Evidence Is There for the Homology of Protein-Protein Interactions?
+5.56%	(Hits: 2,	Misses: 7,	Total: 36)	Spatial Guilds in the Serengeti Food Web Revealed by a Bayesian Group Model
+5.56%	(Hits: 2,	Misses: 16,	Total: 36)	Spike Correlations in a Songbird Agree with a Simple Markov Population Model
+5.45%	(Hits: 3,	Misses: 5,	Total: 55)	Modeling Within-Host Dynamics of Influenza Virus Infection Including Immune Responses
+5.45%	(Hits: 3,	Misses: 18,	Total: 55)	The Laminar Cortex Model: A New Continuum Cortex Model Incorporating Laminar Architecture
+5.33%	(Hits: 4,	Misses: 7,	Total: 75)	Speed, Sensitivity, and Bistability in Auto-activating Signaling Circuits
+5.26%	(Hits: 2,	Misses: 15,	Total: 38)	A Mass Conserved Reaction-Diffusion System Captures Properties of Cell Polarity
+5.17%	(Hits: 3,	Misses: 19,	Total: 58)	Adaptive Temperature Compensation in Circadian Oscillations
+5.17%	(Hits: 3,	Misses: 13,	Total: 58)	CAVER 3.0: A Tool for the Analysis of Transport Pathways in Dynamic Protein Structures
+5.17%	(Hits: 3,	Misses: 12,	Total: 58)	Chemotactic Migration of T Cells towards Dendritic Cells Promotes the Detection of Rare Antigens
+5.13%	(Hits: 2,	Misses: 15,	Total: 39)	Inferring Epidemic Contact Structure from Phylogenetic Trees
+5.08%	(Hits: 3,	Misses: 8,	Total: 59)	Radial and Spiral Stream Formation in Proteus mirabilis Colonies
+5.08%	(Hits: 3,	Misses: 8,	Total: 59)	Does Sex Speed Up Evolutionary Rate and Increase Biodiversity?
+5.08%	(Hits: 3,	Misses: 4,	Total: 59)	Noise and Robustness in Phyllotaxis
+5.06%	(Hits: 4,	Misses: 34,	Total: 79)	Effect of Network Architecture on Synchronization and Entrainment Properties of the Circadian Oscillations in the Suprachiasmatic Nucleus
+5.00%	(Hits: 3,	Misses: 4,	Total: 60)	This Dejà Vu Feeling—Analysis of Multidomain Protein Evolution in Eukaryotic Genomes
+5.00%	(Hits: 3,	Misses: 25,	Total: 60)	Mechanism of Bacterial Signal Transduction Revealed by Molecular Dynamics of Tsr Dimers and Trimers of Dimers in Lipid Vesicles
+5.00%	(Hits: 2,	Misses: 5,	Total: 40)	Robust Detection of Hierarchical Communities from Escherichia coli Gene Expression Data
+4.96%	(Hits: 6,	Misses: 38,	Total: 121)	Multiple Spike Time Patterns Occur at Bifurcation Points of Membrane Potential Dynamics
+4.92%	(Hits: 6,	Misses: 20,	Total: 122)	Mutual Repression Enhances the Steepness and Precision of Gene Expression Boundaries
+4.88%	(Hits: 2,	Misses: 9,	Total: 41)	Measured Dynamic Social Contact Patterns Explain the Spread of H1N1v Influenza
+4.76%	(Hits: 3,	Misses: 19,	Total: 63)	Weakly Circadian Cells Improve Resynchrony
+4.76%	(Hits: 2,	Misses: 9,	Total: 42)	In silico Experimentation of Glioma Microenvironment Development and Anti-tumor Therapy
+4.76%	(Hits: 2,	Misses: 3,	Total: 42)	Modelling the Self-Assembly of Elastomeric Proteins Provides Insights into the Evolution of Their Domain Architectures
+4.69%	(Hits: 3,	Misses: 22,	Total: 64)	Importance of Electrostatic Interactions in the Association of Intrinsically Disordered Histone Chaperone Chz1 and Histone H2A.Z-H2B
+4.65%	(Hits: 4,	Misses: 17,	Total: 86)	The Role of Conserved Waters in Conformational Transitions of Q61H K-ras
+4.65%	(Hits: 2,	Misses: 7,	Total: 43)	Bringing Molecules Back into Molecular Evolution
+4.55%	(Hits: 1,	Misses: 9,	Total: 22)	Evolution of Associative Learning in Chemical Networks
+4.50%	(Hits: 5,	Misses: 15,	Total: 111)	The Emergence and Early Evolution of Biological Carbon-Fixation
+4.42%	(Hits: 5,	Misses: 56,	Total: 113)	Decorrelation of Neural-Network Activity by Inhibitory Feedback
+4.42%	(Hits: 5,	Misses: 19,	Total: 113)	Coupling Mechanical Deformations and Planar Cell Polarity to Create Regular Patterns in the Zebrafish Retina
+4.35%	(Hits: 3,	Misses: 7,	Total: 69)	Teasing Apart Translational and Transcriptional Components of Stochastic Variations in Eukaryotic Gene Expression
+4.35%	(Hits: 3,	Misses: 12,	Total: 69)	Impact of Adaptation Currents on Synchronization of Coupled Exponential Integrate-and-Fire Neurons
+4.30%	(Hits: 4,	Misses: 15,	Total: 93)	Corresponding Functional Dynamics across the Hsp90 Chaperone Family: Insights from a Multiscale Analysis of MD Simulations
+4.29%	(Hits: 3,	Misses: 13,	Total: 70)	Coding Conspecific Identity and Motion in the Electric Sense
+4.12%	(Hits: 4,	Misses: 9,	Total: 97)	Branch Mode Selection during Early Lung Development
+4.00%	(Hits: 2,	Misses: 12,	Total: 50)	Criticality Is an Emergent Property of Genetic Networks that Exhibit Evolvability
+4.00%	(Hits: 1,	Misses: 0,	Total: 25)	A Graphical Modelling Approach to the Dissection of Highly Correlated Transcription Factor Binding Site Profiles
+3.92%	(Hits: 2,	Misses: 7,	Total: 51)	Efficiency, Selectivity, and Robustness of Nucleocytoplasmic Transport
+3.88%	(Hits: 8,	Misses: 33,	Total: 206)	Coordinated Optimization of Visual Cortical Maps (II) Numerical Studies
+3.85%	(Hits: 2,	Misses: 1,	Total: 52)	Failure of Adaptive Self-Organized Criticality during Epileptic Seizure Attacks
+3.85%	(Hits: 2,	Misses: 0,	Total: 52)	Chemotaxis when Bacteria Remember: Drift versus Diffusion
+3.70%	(Hits: 1,	Misses: 6,	Total: 27)	Computational and Statistical Analysis of Protein Mass Spectrometry Data
+3.70%	(Hits: 1,	Misses: 4,	Total: 27)	A Cell-based Computational Modeling Approach for Developing Site-Directed Molecular Probes
+3.66%	(Hits: 3,	Misses: 21,	Total: 82)	Spatially Pooled Contrast Responses Predict Neural and Perceptual Similarity of Naturalistic Image Categories
+3.64%	(Hits: 2,	Misses: 8,	Total: 55)	Using Likelihood-Free Inference to Compare Evolutionary Dynamics of the Protein Networks of H. pylori and P. falciparum
+3.57%	(Hits: 3,	Misses: 30,	Total: 84)	Sparse Gamma Rhythms Arising through Clustering in Adapting Neuronal Networks
+3.57%	(Hits: 2,	Misses: 13,	Total: 56)	Elastic Energy Storage and Radial Forces in the Myofilament Lattice Depend on Sarcomere Length
+3.51%	(Hits: 2,	Misses: 6,	Total: 57)	Predictability of Evolutionary Trajectories in Fitness Landscapes
+3.51%	(Hits: 2,	Misses: 2,	Total: 57)	Dominant Glint Based Prey Localization in Horseshoe Bats: A Possible Strategy for Noise Rejection
+3.45%	(Hits: 2,	Misses: 14,	Total: 58)	Identification of Molecular Pathologies Sufficient to Cause Neuropathic Excitability in Primary Somatosensory Afferents Using Dynamical Systems Theory
+3.33%	(Hits: 1,	Misses: 7,	Total: 30)	Determining Host Metabolic Limitations on Viral Replication via Integrated Modeling and Experimental Perturbation
+3.31%	(Hits: 4,	Misses: 36,	Total: 121)	Neurogenesis Drives Stimulus Decorrelation in a Model of the Olfactory Bulb
+3.28%	(Hits: 2,	Misses: 7,	Total: 61)	Prediction of Mutational Tolerance in HIV-1 Protease and Reverse Transcriptase Using Flexible Backbone Protein Design
+3.12%	(Hits: 1,	Misses: 6,	Total: 32)	How Recent History Affects Perception: The Normative Approach and Its Heuristic Approximation
+3.12%	(Hits: 1,	Misses: 3,	Total: 32)	Inferring the Structure of Social Contacts from Demographic Data in the Analysis of Infectious Diseases Spread
+3.03%	(Hits: 1,	Misses: 14,	Total: 33)	A Logical Model Provides Insights into T Cell Receptor Signaling
+3.01%	(Hits: 4,	Misses: 23,	Total: 133)	Stochastic Simulations Suggest that HIV-1 Survives Close to Its Error Threshold
+2.94%	(Hits: 3,	Misses: 18,	Total: 102)	Adjusting Phenotypes by Noise Control
+2.94%	(Hits: 1,	Misses: 7,	Total: 34)	Why SIT Works: Normal Function Despite Typical Myofiber Pattern in Situs Inversus Totalis (SIT) Hearts Derived by Shear-induced Myofiber Reorientation
+2.94%	(Hits: 1,	Misses: 6,	Total: 34)	A Platform-Independent Method for Detecting Errors in Metagenomic Sequencing Data: DRISEE
+2.94%	(Hits: 1,	Misses: 4,	Total: 34)	Global and Local Architecture of the Mammalian microRNA-Transcription Factor Regulatory Network
+2.91%	(Hits: 3,	Misses: 45,	Total: 103)	The What and Where of Adding Channel Noise to the Hodgkin-Huxley Equations
+2.86%	(Hits: 1,	Misses: 12,	Total: 35)	What Can Causal Networks Tell Us about Metabolic Pathways?
+2.78%	(Hits: 1,	Misses: 2,	Total: 36)	Genetic Co-Occurrence Network across Sequenced Microbes
+2.76%	(Hits: 4,	Misses: 32,	Total: 145)	A Common Cortical Circuit Mechanism for Perceptual Categorical
+2.70%	(Hits: 2,	Misses: 6,	Total: 74)	Multi-Scale Modeling of HIV Infection in vitro and APOBEC3G-Based Anti-Retroviral Therapy
+2.70%	(Hits: 1,	Misses: 9,	Total: 37)	Replication Fork Polarity Gradients Revealed by Megabase-Sized U-Shaped Replication Timing Domains in Human Cell Lines
+2.70%	(Hits: 1,	Misses: 12,	Total: 37)	Experimental Studies and Dynamics Modeling Analysis of the Swimming and Diving of Whirligig Beetles (Coleoptera: Gyrinidae)
+2.68%	(Hits: 4,	Misses: 37,	Total: 149)	A Tale of Two Stories: Astrocyte Regulation of Synaptic Depression and Facilitation
+2.67%	(Hits: 2,	Misses: 7,	Total: 75)	The Origin of Minus-end Directionality and Mechanochemistry of Ncd Motors
+2.53%	(Hits: 2,	Misses: 23,	Total: 79)	Performance Limitations of Relay Neurons
+2.50%	(Hits: 1,	Misses: 4,	Total: 40)	Social Interaction, Noise and Antibiotic-Mediated Switches in the Intestinal Microbiota
+2.50%	(Hits: 1,	Misses: 2,	Total: 40)	A Feedback Quenched Oscillator Produces Turing Patterning with One Diffuser
+2.44%	(Hits: 1,	Misses: 4,	Total: 41)	"Guilt by Association" Is the Exception Rather Than the Rule in Gene Networks
+2.44%	(Hits: 1,	Misses: 13,	Total: 41)	Impact of Stoichiometry Representation on Simulation of Genotype-Phenotype Relationships in Metabolic Networks
+2.33%	(Hits: 3,	Misses: 14,	Total: 129)	Mapping the Environmental Fitness Landscape of a Synthetic Gene Circuit
+2.33%	(Hits: 1,	Misses: 7,	Total: 43)	Virus Replication Strategies and the Critical CTL Numbers Required for the Control of Infection
+2.27%	(Hits: 4,	Misses: 39,	Total: 176)	Coordinated Optimization of Visual Cortical Maps (I) Symmetry-based Analysis
+2.25%	(Hits: 2,	Misses: 10,	Total: 89)	Thermodynamic Basis for the Emergence of Genomes during Prebiotic Evolution
+2.17%	(Hits: 2,	Misses: 29,	Total: 92)	Efficient Reverse-Engineering of a Developmental Gene Regulatory Network
+2.17%	(Hits: 1,	Misses: 12,	Total: 46)	Risk-Sensitivity in Bayesian Sensorimotor Integration
+2.11%	(Hits: 2,	Misses: 24,	Total: 95)	Significance of Input Correlations in Striatal Function
+2.08%	(Hits: 2,	Misses: 12,	Total: 96)	Filament Compliance Influences Cooperative Activation of Thin Filaments and the Dynamics of Force Production in Skeletal Muscle
+1.89%	(Hits: 1,	Misses: 5,	Total: 53)	Quantifying the Contribution of the Liver to Glucose Homeostasis: A Detailed Kinetic Model of Human Hepatic Glucose Metabolism
+1.79%	(Hits: 3,	Misses: 35,	Total: 168)	A Theory of Rate Coding Control by Intrinsic Plasticity Effects
+1.67%	(Hits: 1,	Misses: 14,	Total: 60)	Emergence of the Mitochondrial Reticulum from Fission and Fusion Dynamics
+1.64%	(Hits: 1,	Misses: 30,	Total: 61)	Metabolic Reconstruction and Modeling of Nitrogen Fixation in Rhizobium etli
+1.64%	(Hits: 1,	Misses: 2,	Total: 61)	Rise and Demise of Bioinformatics? Promise and Progress
+1.54%	(Hits: 1,	Misses: 20,	Total: 65)	A Canonical Model of Multistability and Scale-Invariance in Biological Systems
+1.47%	(Hits: 1,	Misses: 11,	Total: 68)	Perceptual Learning via Modification of Cortical Top-Down Signals
+1.44%	(Hits: 2,	Misses: 25,	Total: 139)	Emergence of a Small-World Functional Network in Cultured Neurons
+0.74%	(Hits: 1,	Misses: 20,	Total: 135)	Theoretical Analysis of Competing Conformational Transitions in Superhelical DNA
+0.73%	(Hits: 1,	Misses: 27,	Total: 137)	Modeling Meiotic Chromosomes Indicates a Size Dependent Contribution of Telomere Clustering and Chromosome Rigidity to Homologue Juxtaposition
+0.00%	(Hits: 0,	Misses: 6,	Total: 43)	Robust Signal Processing in Living Cells
+0.00%	(Hits: 0,	Misses: 5,	Total: 38)	A Scalable Algorithm to Explore the Gibbs Energy Landscape of Genome-Scale Metabolic Networks
+0.00%	(Hits: 0,	Misses: 5,	Total: 26)	Helicobacter pylori Evolution: Lineage- Specific Adaptations in Homologs of Eukaryotic Sel1-Like Genes
+0.00%	(Hits: 0,	Misses: 4,	Total: 46)	Systematic Search for Recipes to Generate Induced Pluripotent Stem Cells
+0.00%	(Hits: 0,	Misses: 4,	Total: 28)	Multistationary and Oscillatory Modes of Free Radicals Generation by the Mitochondrial Respiratory Chain Revealed by a Bifurcation Analysis
+0.00%	(Hits: 0,	Misses: 4,	Total: 24)	Functional Inference of Complex Anatomical Tendinous Networks at a Macroscopic Scale via Sparse Experimentation
+0.00%	(Hits: 0,	Misses: 4,	Total: 15)	Heat Shock Response in CHO Mammalian Cells Is Controlled by a Nonlinear Stochastic Process
+0.00%	(Hits: 0,	Misses: 18,	Total: 68)	The Generation of Phase Differences and Frequency Changes in a Network Model of Inferior Olive Subthreshold Oscillations
+0.00%	(Hits: 0,	Misses: 16,	Total: 66)	Macro-level Modeling of the Response of C. elegans Reproduction to Chronic Heat Stress
+0.00%	(Hits: 0,	Misses: 15,	Total: 47)	Modeling of Pharmacokinetics of Cocaine in Human Reveals the Feasibility for Development of Enzyme Therapies for Drugs of Abuse
+0.00%	(Hits: 0,	Misses: 14,	Total: 39)	Deconvolution of the Cellular Force-Generating Subsystems that Govern Cytokinesis Furrow Ingression
+0.00%	(Hits: 0,	Misses: 14,	Total: 31)	A Universal Mechanism Ties Genotype to Phenotype in Trinucleotide Diseases
+0.00%	(Hits: 0,	Misses: 1,	Total: 7)	Encoding of Naturalistic Stimuli by Local Field Potential Spectra in Networks of Excitatory and Inhibitory Neurons
+0.00%	(Hits: 0,	Misses: 1,	Total: 6)	Decrypting the Sequence of Structural Events during the Gating Transition of Pentameric Ligand-Gated Ion Channels Based on an Interpolated Elastic Network Model
+0.00%	(Hits: 0,	Misses: 1,	Total: 6)	Chemotactic Response and Adaptation Dynamics in Escherichia coli
+0.00%	(Hits: 0,	Misses: 1,	Total: 50)	Exploring the Contextual Sensitivity of Factors that Determine Cell-to-Cell Variability in Receptor-Mediated Apoptosis
+0.00%	(Hits: 0,	Misses: 1,	Total: 4)	Library of Disordered Patterns in 3D Protein Structures
+0.00%	(Hits: 0,	Misses: 1,	Total: 4)	A View from the Dark Side
+0.00%	(Hits: 0,	Misses: 1,	Total: 2)	Inferring Visuomotor Priors for Sensorimotor Learning
+0.00%	(Hits: 0,	Misses: 1,	Total: 2)	Evolution under Fluctuating Environments Explains Observed Robustness in Metabolic Networks
+0.00%	(Hits: 0,	Misses: 1,	Total: 2)	Beauty Is in the Eye of the Beholder: Proteins Can Recognize Binding Sites of Homologous Proteins in More than One Way
+0.00%	(Hits: 0,	Misses: 0,	Total: 9)	Protrusive Push versus Enveloping Embrace: Computational Model of Phagocytosis Predicts Key Regulatory Role of Cytoskeletal Membrane Anchors
+0.00%	(Hits: 0,	Misses: 0,	Total: 8)	Spike-Timing Theory of Working Memory
+0.00%	(Hits: 0,	Misses: 0,	Total: 8)	Encoding of Spatio-Temporal Input Characteristics by a CA1 Pyramidal Neuron Model
+0.00%	(Hits: 0,	Misses: 0,	Total: 8)	Dendritic Spikes Amplify the Synaptic Signal to Enhance Detection of Motion in a Simulation of the Direction-Selective Ganglion Cell
+0.00%	(Hits: 0,	Misses: 0,	Total: 7)	Treatment-Mediated Alterations in HIV Fitness Preserve CD4+ T Cell Counts but Have Minimal Effects on Viral Load
+0.00%	(Hits: 0,	Misses: 0,	Total: 7)	Stochastic Ion Channel Gating in Dendritic Neurons: Morphology Dependence and Probabilistic Synaptic Activation of Dendritic Spikes
+0.00%	(Hits: 0,	Misses: 0,	Total: 7)	Optimal Control Predicts Human Performance on Objects with Internal Degrees of Freedom
+0.00%	(Hits: 0,	Misses: 0,	Total: 7)	On the Accessibility of Adaptive Phenotypes of a Bacterial Metabolic Network
+0.00%	(Hits: 0,	Misses: 0,	Total: 7)	Do Humans Optimally Exploit Redundancy to Control Step Variability in Walking?
+0.00%	(Hits: 0,	Misses: 0,	Total: 7)	"Fluctuograms" Reveal the Intermittent Intra-Protein Communication in Subtilisin Carlsberg and Correlate Mechanical Coupling with Co-Evolution
+0.00%	(Hits: 0,	Misses: 0,	Total: 6)	Using Entropy Maximization to Understand the Determinants of Structural Dynamics beyond Native Contact Topology
+0.00%	(Hits: 0,	Misses: 0,	Total: 6)	The Role of Exposure History on HIV Acquisition: Insights from Repeated Low-dose Challenge Studies
+0.00%	(Hits: 0,	Misses: 0,	Total: 6)	Shunting Inhibition Controls the Gain Modulation Mediated by Asynchronous Neurotransmitter Release in Early Development
+0.00%	(Hits: 0,	Misses: 0,	Total: 6)	Linking Changes in Epithelial Morphogenesis to Cancer Mutations Using Computational Modeling
+0.00%	(Hits: 0,	Misses: 0,	Total: 6)	Enhancement of Transport Selectivity through Nano-Channels by Non-Specific Competition
+0.00%	(Hits: 0,	Misses: 0,	Total: 6)	Calcium Signals Driven by Single Channel Noise
+0.00%	(Hits: 0,	Misses: 0,	Total: 5)	Using Sequence-Specific Chemical and Structural Properties of DNA to Predict Transcription Factor Binding Sites
+0.00%	(Hits: 0,	Misses: 0,	Total: 5)	The Role of Incoherent MicroRNA-Mediated Feedforward Loops in Noise Buffering
+0.00%	(Hits: 0,	Misses: 0,	Total: 5)	The Distinct Conformational Dynamics of K-Ras and H-Ras A59G
+0.00%	(Hits: 0,	Misses: 0,	Total: 5)	Neural Computation via Neural Geometry: A Place Code for Inter-whisker Timing in the Barrel Cortex?
+0.00%	(Hits: 0,	Misses: 0,	Total: 5)	Hypergraphs and Cellular Networks
+0.00%	(Hits: 0,	Misses: 0,	Total: 5)	Estimating the Location and Spatial Extent of a Covert Anthrax Release
+0.00%	(Hits: 0,	Misses: 0,	Total: 5)	Effect of Promoter Architecture on the Cell-to-Cell Variability in Gene Expression
+0.00%	(Hits: 0,	Misses: 0,	Total: 5)	Determinants of Heterogeneity, Excitation and Conduction in the Sinoatrial Node: A Model Study
+0.00%	(Hits: 0,	Misses: 0,	Total: 5)	Design and Implementation of a Genomics Field Trip Program Aimed at Secondary School Students
+0.00%	(Hits: 0,	Misses: 0,	Total: 5)	Bistable, Irregular Firing and Population Oscillations in a Modular Attractor Memory Network
+0.00%	(Hits: 0,	Misses: 0,	Total: 5)	A Probabilistic Model of Local Sequence Alignment That Simplifies Statistical Significance Estimation
+0.00%	(Hits: 0,	Misses: 0,	Total: 4)	Vulnerabilities in the Tau Network and the Role of Ultrasensitive Points in Tau Pathophysiology
+0.00%	(Hits: 0,	Misses: 0,	Total: 4)	Use of Data-Biased Random Walks on Graphs for the Retrieval of Context-Specific Networks from Genomic Data
+0.00%	(Hits: 0,	Misses: 0,	Total: 4)	Translational Systems Biology of Inflammation
+0.00%	(Hits: 0,	Misses: 0,	Total: 4)	Probing the Extent of Randomness in Protein Interaction Networks
+0.00%	(Hits: 0,	Misses: 0,	Total: 4)	Patterns of Subnet Usage Reveal Distinct Scales of Regulation in the Transcriptional Regulatory Network of Escherichia coli
+0.00%	(Hits: 0,	Misses: 0,	Total: 4)	Large-Scale Analysis of Network Bistability for Human Cancers
+0.00%	(Hits: 0,	Misses: 0,	Total: 4)	Heat Shock Partially Dissociates the Overlapping Modules of the Yeast Protein-Protein Interaction Network: A Systems Level Model of Adaptation
+0.00%	(Hits: 0,	Misses: 0,	Total: 4)	Four Distances between Pairs of Amino Acids Provide a Precise Description of their Interaction
+0.00%	(Hits: 0,	Misses: 0,	Total: 4)	Evolutionary Accessibility of Mutational Pathways
+0.00%	(Hits: 0,	Misses: 0,	Total: 4)	Dose-to-Duration Encoding and Signaling beyond Saturation in Intracellular Signaling Networks
+0.00%	(Hits: 0,	Misses: 0,	Total: 4)	An Acidic Loop and Cognate Phosphorylation Sites Define a Molecular Switch That Modulates Ubiquitin Charging Activity in Cdc34-Like Enzymes
+0.00%	(Hits: 0,	Misses: 0,	Total: 4)	Accurate Quantification of Functional Analogy among Close Homologs
+0.00%	(Hits: 0,	Misses: 0,	Total: 4)	A Boolean Model of the Gene Regulatory Network Underlying Mammalian Cortical Area Development
+0.00%	(Hits: 0,	Misses: 0,	Total: 3)	Widespread Compensatory Evolution Conserves DNA-Encoded Nucleosome Organization in Yeast
+0.00%	(Hits: 0,	Misses: 0,	Total: 3)	Transmembrane Topology and Signal Peptide Prediction Using Dynamic Bayesian Networks
+0.00%	(Hits: 0,	Misses: 0,	Total: 3)	Transition from Persistent to Anti-Persistent Correlations in Postural Sway Indicates Velocity-Based Control
+0.00%	(Hits: 0,	Misses: 0,	Total: 3)	Thousands of Rab GTPases for the Cell Biologist
+0.00%	(Hits: 0,	Misses: 0,	Total: 3)	The Signaling Petri Net-Based Simulator: A Non-Parametric Strategy for Characterizing the Dynamics of Cell-Specific Signaling Networks
+0.00%	(Hits: 0,	Misses: 0,	Total: 3)	The Dynamics of Human Body Weight Change
+0.00%	(Hits: 0,	Misses: 0,	Total: 3)	Symmetric Allosteric Mechanism of Hexameric Escherichia coli Arginine Repressor Exploits Competition between L-Arginine Ligands and Resident Arginine Residues
+0.00%	(Hits: 0,	Misses: 0,	Total: 3)	Structure Learning in Human Sequential Decision-Making
+0.00%	(Hits: 0,	Misses: 0,	Total: 3)	Statistical Inference for Multi-Pathogen Systems
+0.00%	(Hits: 0,	Misses: 0,	Total: 3)	Small RNAs Originated from Pseudogenes: cis- or trans-Acting?
+0.00%	(Hits: 0,	Misses: 0,	Total: 3)	Sampling the Solution Space in Genome-Scale Metabolic Networks Reveals Transcriptional Regulation in Key Enzymes
+0.00%	(Hits: 0,	Misses: 0,	Total: 3)	Representation of Dynamical Stimuli in Populations of Threshold Neurons
+0.00%	(Hits: 0,	Misses: 0,	Total: 3)	Optimal Workloop Energetics of Muscle-Actuated Systems: An Impedance Matching View
+0.00%	(Hits: 0,	Misses: 0,	Total: 3)	Non-Centered Spike-Triggered Covariance Analysis Reveals Neurotrophin-3 as a Developmental Regulator of Receptive Field Properties of ON-OFF Retinal Ganglion Cells
+0.00%	(Hits: 0,	Misses: 0,	Total: 3)	Modeling Mechanisms of In Vivo Variability in Methotrexate Accumulation and Folate Pathway Inhibition in Acute Lymphoblastic Leukemia Cells
+0.00%	(Hits: 0,	Misses: 0,	Total: 3)	Memory Switches in Chemical Reaction Space
+0.00%	(Hits: 0,	Misses: 0,	Total: 3)	Loss of Genetic Redundancy in Reductive Genome Evolution
+0.00%	(Hits: 0,	Misses: 0,	Total: 3)	Highly Sensitive and Specific Detection of Rare Variants in Mixed Viral Populations from Massively Parallel Sequence Data
+0.00%	(Hits: 0,	Misses: 0,	Total: 3)	Getting Started in Text Mining
+0.00%	(Hits: 0,	Misses: 0,	Total: 3)	Evolutionary Modeling of Rate Shifts Reveals Specificity Determinants in HIV-1 Subtypes
+0.00%	(Hits: 0,	Misses: 0,	Total: 3)	Evaluating Gene Expression Dynamics Using Pairwise RNA FISH Data
+0.00%	(Hits: 0,	Misses: 0,	Total: 3)	Energy-Information Trade-Offs between Movement and Sensing
+0.00%	(Hits: 0,	Misses: 0,	Total: 3)	Emergence of Switch-Like Behavior in a Large Family of Simple Biochemical Networks
+0.00%	(Hits: 0,	Misses: 0,	Total: 3)	Effects of Heterogeneous and Clustered Contact Patterns on Infectious Disease Dynamics
+0.00%	(Hits: 0,	Misses: 0,	Total: 3)	Dual Coding with STDP in a Spiking Recurrent Neural Network Model of the Hippocampus
+0.00%	(Hits: 0,	Misses: 0,	Total: 3)	Defrosting the Digital Library: Bibliographic Tools for the Next Generation Web
+0.00%	(Hits: 0,	Misses: 0,	Total: 3)	Coding Efficiency of Fly Motion Processing Is Set by Firing Rate, Not Firing Precision
+0.00%	(Hits: 0,	Misses: 0,	Total: 3)	Circadian Phase Resetting via Single and Multiple Control Targets
+0.00%	(Hits: 0,	Misses: 0,	Total: 3)	Binding Leverage as a Molecular Basis for Allosteric Regulation
+0.00%	(Hits: 0,	Misses: 0,	Total: 3)	Allosteric Communication Occurs via Networks of Tertiary and Quaternary Motions in Proteins
+0.00%	(Hits: 0,	Misses: 0,	Total: 3)	A Mechanistic View of the Role of E3 in Sumoylation
+0.00%	(Hits: 0,	Misses: 0,	Total: 3)	A Mathematical Model for the Reciprocal Differentiation of T Helper 17 Cells and Induced Regulatory T Cells
+0.00%	(Hits: 0,	Misses: 0,	Total: 3)	A Generalized Framework for Quantifying the Dynamics of EEG Event-Related Desynchronization
+0.00%	(Hits: 0,	Misses: 0,	Total: 22)	The Dynamics of Naturally Acquired Immunity to Plasmodium falciparum Infection
+0.00%	(Hits: 0,	Misses: 0,	Total: 22)	Distributed Representations Accelerate Evolution of Adaptive Behaviours
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	VASP: A Volumetric Analysis of Surface Properties Yields Insights into Protein-Ligand Binding Specificity
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Using Structure to Explore the Sequence Alignment Space of Remote Homologs
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Untangling the Interplay between Epidemic Spread and Transmission Network Dynamics
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Spike-Timing-Based Computation in Sound Localization
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Slope-Based Stochastic Resonance: How Noise Enables Phasic Neurons to Encode Slow Signals
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Sequence Similarity Network Reveals Common Ancestry of Multidomain Proteins
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Rule-Based Cell Systems Model of Aging using Feedback Loop Motifs Mediated by Stress Responses
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Role of Hsp70 ATPase Domain Intrinsic Dynamics and Sequence Evolution in Enabling its Functional Interactions with NEFs
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Risk, Unexpected Uncertainty, and Estimation Uncertainty: Bayesian Learning in Unstable Settings
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	PhylOTU: A High-Throughput Procedure Quantifies Microbial Community Diversity and Resolves Novel Taxa from Metagenomic Data
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Phase-Locked Signals Elucidate Circuit Architecture of an Oscillatory Pathway
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Organization of Physical Interactomes as Uncovered by Network Schemas
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Optimal Compensation for Temporal Uncertainty in Movement Planning
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Non-Bulk-Like Solvent Behavior in the Ribosome Exit Tunnel
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Networks of High Mutual Information Define the Structural Proximity of Catalytic Sites: Implications for Catalytic Residue Identification
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Network Clustering Revealed the Systemic Alterations of Mitochondrial Protein Expression
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Modelling Reveals Kinetic Advantages of Co-Transcriptional Splicing
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Modeling the Effects of Cell Cycle M-phase Transcriptional Inhibition on Circadian Oscillation
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	MetMap Enables Genome-Scale Methyltyping for Determining Methylation States in Populations
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Maximum-Likelihood Model Averaging To Profile Clustering of Site Types across Discrete Linear Sequences
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Mathematical Description of Bacterial Traveling Pulses
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Inter-domain Communication Mechanisms in an ABC Importer: A Molecular Dynamics Study of the MalFGK2E Complex
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Integrating Quantitative Knowledge into a Qualitative Gene Regulatory Network
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Impact of Dendritic Size and Dendritic Topology on Burst Firing in Pyramidal Cells
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Identifying the Important HIV-1 Recombination Breakpoints
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Hierarchical Models in the Brain
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Genome-Wide Analysis of Human Disease Alleles Reveals That Their Locations Are Correlated in Paralogous Proteins
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	From Pathways Databases to Network Models of Switching Behavior
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Drug-Induced Regulation of Target Expression
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Does the Potential for Chaos Constrain the Embryonic Cell-Cycle Oscillator?
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Divisive Gain Modulation with Dynamic Stimuli in Integrate-and-Fire Neurons
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Cellularly-Driven Differences in Network Synchronization Propensity Are Differentially Modulated by Firing Frequency
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Cell Groups Reveal Structure of Stimulus Space
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Canalization of Gene Expression and Domain Shifts in the Drosophila Blastoderm by Dynamical Attractors
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Binding Free Energy Landscape of Domain-Peptide Interactions
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Barriers to Diffusion in Dendrites and Estimation of Calcium Spread Following Synaptic Inputs
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Assessing Vaccination Sentiments with Online Social Media: Implications for Infectious Disease Dynamics and Control
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Activated Membrane Patches Guide Chemotactic Cell Motility
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	Accelerated Profile HMM Searches
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	A Mathematical Model of Muscle Containing Heterogeneous Half-Sarcomeres Exhibits Residual Force Enhancement
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	A Learning Theory for Reward-Modulated Spike-Timing-Dependent
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	A Hierarchy of Time-Scales and the Brain
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	A Dynamic Neural Field Model of Mesoscopic Cortical Activity Captured with Voltage-Sensitive Dye Imaging
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	A Covering Method for Detecting Genetic Associations between Rare Variants and Common Phenotypes
+0.00%	(Hits: 0,	Misses: 0,	Total: 2)	A Cell-Based Model for Quorum Sensing in Heterogeneous Bacterial Colonies
+0.00%	(Hits: 0,	Misses: 0,	Total: 18)	Traffic Instabilities in Self-Organized Pedestrian Crowds
+0.00%	(Hits: 0,	Misses: 0,	Total: 17)	Chromosome Driven Spatial Patterning of Proteins in Bacteria
+0.00%	(Hits: 0,	Misses: 0,	Total: 15)	Attracting Dynamics of Frontal Cortex Ensembles during Memory-Guided Decision-Making
+0.00%	(Hits: 0,	Misses: 0,	Total: 13)	Reverse Engineering of Oxygen Transport in the Lung: Adaptation to Changing Demands and Resources through Space-Filling Networks
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Wide-Field Motion Integration in Fly VS Cells: Insights from an Inverse Approach
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Why Are Computational Neuroscience and Systems Biology So Separate?
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Weak Noise in Neurons May Powerfully Inhibit the Generation of Repetitive Spiking but Not Its Propagation
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Understanding the Origins of Bacterial Resistance to Aminoglycosides through Molecular Dynamics Mutational Study of the Ribosomal A-Site
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Understanding the Adaptive Growth Strategy of Lactobacillus plantarum by In Silico Optimisation
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Transient Cognitive Dynamics, Metastability, and Decision Making
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Transcriptional Regulation: Effects of Promoter Proximal Pausing on Speed, Synchrony and Reliability
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Towards an Evolutionary Model of Transcription Networks
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	The Role of Additive Neurogenesis and Synaptic Plasticity in a Hippocampal Memory Model with Grid-Cell Like Input
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	The Mycobacterium tuberculosis Drugome and Its Polypharmacological Implications
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	The Energy Landscape, Folding Pathways and the Kinetics of a Knotted Protein
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	The Carbon Assimilation Network in Escherichia coli Is Densely Connected and Largely Sign-Determined by Directions of Metabolic Fluxes
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Testing the Ortholog Conjecture with Comparative Functional Genomic Data from Mammals
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Ten Simple Rules for Doing Your Best Research, According to Hamming
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Structure-Guided Comparative Analysis of Proteins: Principles, Tools, and Applications for Predicting Function
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Simultaneous Genome-Wide Inference of Physical, Genetic, Regulatory, and Functional Pathway Components
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Simulating the Mammalian Blastocyst - Molecular and Mechanical Interactions Pattern the Embryo
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Scalable Rule-Based Modelling of Allosteric Proteins and Biochemical Networks
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Reversible and Noisy Progression towards a Commitment Point Enables Adaptable and Reliable Cellular Decision-Making
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Reinforcement Learning on Slow Features of High-Dimensional Input Streams
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Regression Analysis for Constraining Free Parameters in Electrophysiological Models of Cardiac Cells
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Reconciliation of Genome-Scale Metabolic Reconstructions for Comparative Systems Analysis
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	RNAcontext: A New Method for Learning the Sequence and Structure Binding Preferences of RNA-Binding Proteins
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Qualia: The Geometry of Integrated Information
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Proteins with Complex Architecture as Potential Targets for Drug Design: A Case Study of Mycobacterium tuberculosis
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Protein Networks as Logic Functions in Development and Cancer
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Predicting Co-Complexed Protein Pairs from Heterogeneous Data
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Plato's Cave Algorithm: Inferring Functional Signaling Networks from Early Gene Expression Shadows
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Pattern Recognition Software and Techniques for Biological Image Analysis
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Pathway Switching Explains the Sharp Response Characteristic of Hypoxia Response Network
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Optimal Drug Synergy in Antimicrobial Treatments
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Open Access: Taking Full Advantage of the Content
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	On the Growth of Scientific Knowledge: Yeast Biology as a Case Study
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Numerical Analysis of Ca2+ Signaling in Rat Ventricular Myocytes with Realistic Transverse-Axial Tubular Geometry and Inhibited Sarcoplasmic Reticulum
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Nonlinear Gap Junctions Enable Long-Distance Propagation of Pulsating Calcium Waves in Astrocyte Networks
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Noise Reduction by Diffusional Dissipation in a Minimal Quorum Sensing Motif
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Noise Driven Evolutionary Waves
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	NeuroML: A Language for Describing Data Driven Models of Neurons and Networks with a High Degree of Biological Detail
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Network Archaeology: Uncovering Ancient Networks from Present-Day Interactions
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Neighbor-Dependent Ramachandran Probability Distributions of Amino Acids Developed from a Hierarchical Dirichlet Process Model
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Near-Native Protein Loop Sampling Using Nonparametric Density Estimation Accommodating Sparcity
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Mutation D816V Alters the Internal Structure and Dynamics of c-KIT Receptor Cytoplasmic Region: Implications for Dimerization and Activation Mechanisms
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Modification of Gene Duplicability during the Evolution of Protein Interaction Network
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Models of Neocortical Layer 5b Pyramidal Cells Capturing aWide Range of Dendritic and Perisomatic Active Properties
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Modelling Vesicular Release at Hippocampal Synapses
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Modeling the Impact of Lesions in the Human Brain
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Modeling the Evolution of Regulatory Elements by Simultaneous Detection and Alignment with Phylogenetic Pair HMMs
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Modeling Evolutionary Dynamics of Epigenetic Mutations in Hierarchically Organized Tumors
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Measuring the Evolutionary Rewiring of Biological Networks
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Mapping Dynamic Histone Acetylation Patterns to Gene Expression in Nanog-Depleted Murine Embryonic Stem Cells
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Mammalian Sleep Dynamics: How Diverse Features Arise from a Common Physiological Framework
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Ligand-Induced Modulation of the Free-Energy Landscape of G Protein-Coupled Receptors Explored by Adaptive Biasing Techniques
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Large-Scale Conformational Changes of Trypanosoma cruzi Proline Racemase Predicted by Accelerated Molecular Dynamics Simulation
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Is My Network Module Preserved and Reproducible?
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Inversion of the Balance between Hydrophobic and Hydrogen Bonding Interactions in Protein Folding and Aggregation
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Integrative Features of the Yeast Phosphoproteome and Protein-Protein Interaction Map
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Instantaneous Non-Linear Processing by Pulse-Coupled Threshold Units
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Informing Optimal Environmental Influenza Interventions: How the Host, Agent, and Environment Alter Dominant Routes of Transmission
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Inductive Game Theory and the Dynamics of Animal Conflict
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Indirect Reciprocity under Incomplete Observation
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	In Silico Evidence for Gluconeogenesis from Fatty Acids in Humans
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Identifying Tightly Regulated and Variably Expressed Networks by Differential Rank Conservation (DIRAC)
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Identification of a Novel Class of Farnesylation Targets by Structure-Based Modeling of Binding Specificity
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Identification of Key Processes that Control Tumor Necrosis Factor Availability in a Tuberculosis Granuloma
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	How Molecular Motors Are Arranged on a Cargo Is Important for Vesicular Transport
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	High-Precision, In Vitro Validation of the Sequestration Mechanism for Generating Ultrasensitive Dose-Response Curves in Regulatory Networks
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Grid Cells, Place Cells, and Geodesic Generalization for Spatial Reinforcement Learning
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Getting Started in Text Mining: Part Two
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Genome-Scale Reconstruction and Analysis of the Pseudomonas
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Genome-Scale Analysis of Translation Elongation with a Ribosome Flow Model
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Generation of Diverse Biological Forms through Combinatorial Interactions between Tissue Polarity and Growth
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Gene Expression in the Rodent Brain is Associated with Its Regional Connectivity
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Functional Maps of Protein Complexes from Quantitative Genetic Interaction Data
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Frequency-Dependent Selection Predicts Patterns of Radiations and Biodiversity
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Formation of Regulatory Modules by Local Sequence Duplication
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Evolution of a Signaling Nexus Constrained by Protein Interfaces and Conformational States
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Evolution of Gene Regulatory Networks by Fluctuating Selection and Intrinsic Constraints
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Estimation of Parent Specific DNA Copy Number in Tumors using High-Density Genotyping Arrays
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Estimating the Relevance of World Disturbances to Explain Savings, Interference and Long-Term Motor Adaptation Effects
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Environments that Induce Synthetic Microbial Ecosystems
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Emergent Synchronous Bursting of Oxytocin Neuronal Network
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Emergence of Functional Hierarchy in a Multiple Timescale Neural
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Efficient Network Reconstruction from Dynamical Cascades Identifies
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Efficacy of Synaptic Inhibition Depends on Multiple, Dynamically Interacting Mechanisms Implicated in Chloride Homeostasis
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Distributions of Transposable Elements Reveal Hazardous Zones in Mammalian Introns
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Discovering Biological Progression Underlying Microarray Samples
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Digital Atlasing and Standardization in the Mouse Brain
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Differences in Nutrient Requirements Imply a Non-Linear Emergence of Leaders in Animal Groups
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Deciphering Diseases and Biological Targets for Environmental Chemicals using Toxicogenomics Networks
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Conformation Regulation of the X Chromosome Inactivation Center: A Model
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Computational Modeling of Allosteric Communication Reveals Organizing Principles of Mutation-Induced Signaling in ABL and EGFR Kinases
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Computational Biology in Cuba: An Opportunity to Promote Science in a Developing Country
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Computational Analysis of Phosphopeptide Binding to the Polo-Box Domain of the Mitotic Kinase PLK1 Using Molecular Dynamics Simulation
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Combinatorial Gene Regulation Using Auto-Regulation
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	CodonTest: Modeling Amino Acid Substitution Preferences in Coding Sequences
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Cholera- and Anthrax-Like Toxins Are among Several New ADP-Ribosyltransferases
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Changes in Dynamics upon Oligomerization Regulate Substrate Binding and Allostery in Amino Acid Kinase Family Members
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Causal Modeling Using Network Ensemble Simulations of Genetic and Gene Expression Data Predicts Genes Involved in Rheumatoid Arthritis
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Building Disease-Specific Drug-Protein Connectivity Maps from Molecular Interaction Networks and PubMed Abstracts
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Biophysical Basis for Three Distinct Dynamical Mechanisms of Action Potential Initiation
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Benchmarking Ontologies: Bigger or Better?
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Avalanches in a Stochastic Model of Spiking Neurons
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Automatic Morphological Subtyping Reveals New Roles of Caspases in Mitochondrial Dynamics
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Automatic Design of Digital Synthetic Gene Circuits
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Atomic-Resolution Simulations Predict a Transition State for Vesicle Fusion Defined by Contact of a Few Lipid Tails
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Association Rate Constants of Ras-Effector Interactions Are Evolutionarily Conserved
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Achieving Optimal Growth through Product Feedback Inhibition in Metabolism
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	Accurate Prediction of Peptide Binding Sites on Protein Surfaces
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	A Semi-Quantitative, Synteny-Based Method to Improve Functional Predictions for Hypothetical and Poorly Annotated Bacterial and Archaeal Genes
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	A Multi-cell, Multi-scale Model of Vertebrate Segmentation and Somite Formation
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	A Multi-Compartment Model for Interneurons in the Dorsal Lateral Geniculate Nucleus
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	A Model of Stimulus-Specific Neural Assemblies in the Insect Antennal Lobe
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	A Low Dimensional Description of Globally Coupled Heterogeneous Neural Networks of Excitatory and Inhibitory Neurons
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	A Hybrid Model of Mammalian Cell Cycle Regulation
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	A First Attempt to Bring Computational Biology into Advanced High School Biology Classrooms
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	A Feature-Based Approach to Modeling Protein-DNA Interactions
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	A Computational and Experimental Study of the Regulatory Mechanisms of the Complement System
+0.00%	(Hits: 0,	Misses: 0,	Total: 1)	A Comparison of Mathematical Models for Polarization of Single Eukaryotic Cells in Response to Guided Cues
+Total Papers: 720
+Average: 0.135637131235
+Median: 0.0568733153639
+Hit Refs: 1576, All Refs: 11840
+Foaad Metric: 0.133108108108
