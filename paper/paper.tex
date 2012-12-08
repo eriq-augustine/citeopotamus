@@ -29,66 +29,168 @@ Cal Poly, San Luis Obispo\\
 \pagestyle{empty}
 
 \section{Introduction}\label{sec:introduction}
-The problem of recommending citations for a technical paper is known and has many approaches to attempt to solve it.\cite{cite1,cite2,cite3,cite4,cite5,cite6,cite7,cite8} Solutions range from graph based social network approaches to language models to match meaning in both the paper and the recommended text. But the problem of recommending where inside the paper to put citations is unknown. 
-The ideal solution would recommend an exact spot in the paper to put a specific citation. To solve this problem there exist two separate pieces. First, given a location of a citation the solution must be able to examine the references for the paper and choose the most appropriate citations.
-Second, find locations where citations should go. We leave the second problem to be done in the future while we focus on solving the first in this paper.
+The problem of recommending citations for a technical paper is known and has
+many approaches to attempt to solve it~\cite{cite1, cite2, cite3, cite4, cite5,
+cite6, cite7, cite8}. Solutions range from graph based social network
+approaches to language models to match meaning in both the paper and the
+recommended text. But the problem of recommending where inside the paper to put
+citations is unknown.  The ideal solution would recommend an exact spot in the
+paper to put a specific citation. To solve this problem there exist two
+separate pieces. First, given a location of a citation the solution must be
+able to examine the references for the paper and choose the most appropriate
+citations.  Second, find locations where citations should go. We leave the
+second problem to be done in the future while we focus on solving the first in
+this paper.
 
-The rest of the paper is laid out as follows. Section \ref{sec:contributions} is about what we are contributing. The following section describes
-out testing dataset. We then talk about our architecture we created to solve the problem. Then we go into how we parse papers and
-discuss the methods for choosing the best citation. Then we go into future work, related work, and lastly our conclusion.
-
-\section{Contributions}\label{sec:contributions}
-Our contributions consist of a dataset to test new solutions and methods to recommend citations given a location for a citation.
+This paper discusses our approach to this problem, as well as the dataset we
+procured for this use. In section \ref{sec:dataset} we highlight our dataset,
+where it came from and what it contains. Section \ref{sec:architecture} follows
+up with how we designed the system, our method of collecting our dataset, and
+how it is structured, while section \ref{sec:parsing} goes into detail of how
+our system parses and understands the publication text. Section
+\ref{sec:methods} describes our methods for predicting a citation and section
+\ref{sec:eval} discusses our approach for evaluating our system. Our results
+are shown in section \ref{sec:results}, section \ref{sec:future} is where we
+talk about future work and we discuss related work in section
+\ref{sec:related}. Finally, we conclude our work in section
+\ref{sec:conclusion}.
 
 \section{Dataset}\label{sec:dataset}
-%TODO(aldrin)
 %overview
+The dataset for which we report results was collected from \textit{PLoS
+Computational Biology}~\cite{plos}. PLoS (Public Library of Science) is a
+nonprofit publisher that aims to accelerate progress in science. PLoS has
+several journals--ONE, Biology, Medicine, Genetics, Computational Biology,
+Pathogens, and Neglected Tropical Diseases--available to the public. For our
+purposes we collected articles from PLoS Computational Biology, the
+computational biology journal published by PLoS. We only collected articles
+from this journal simply for the reason that as computer scientists it is the
+most likely to be similar to computer science publications in style and in
+content. We initially were interested in a corpus of computer science
+publications, however we were unable to find a source that would allow us to
+programmatically collect computer science publications and articles.
+
 %different components of the data
-%implementation
-%Metrics - #papers, #references, etc
+From PLoS Computational Biology we collected a set of \textit{root papers}, the
+papers whose citations we attempt to correctly predict. For each root paper we
+attempted to retrieve all \textit{reference papers}, or papers listed in the
+reference section of the root paper. For each reference paper, we retrieve
+metadata of the paper--title and authors--and the abstract text. We prefer to
+get the full text of a reference paper, but unfortunately we were unable to
+retrieve these, and so we settled for paper abstracts. One of our main
+objectives for the data, which we mostly satisfied, was to collect what we
+refer to as \textit{complete papers}. A complete paper is a paper for which we
+could retrieve metadata and abstracts for all reference papers.
+
+In order to simplify our implementation, we maintain a particular structure of
+the articles collected from PLoS. This structure dictates how the articles are
+stored on disk (files with a particular format) and what data must be
+possessed. This structure is further described in sections
+\ref{sec:text_structure} and \ref{sec:dir_structure} below.
 
 \section{Architecture}\label{sec:architecture}
 The Citeopotamus system is broken into two independent parts, the scrapper and citer.
 The general architecture can be seen in Figure \ref{fig:arch}.
 
 \begin{figure*}[ht]
-   \includegraphics[width=\textwidth px]{images/arch.eps}
+   \includegraphics[width=\textwidth]{images/arch.eps}
         \caption{The Citeopotamus architecture overlaid on a hippopotamus.}
         \label{fig:arch}
 \end{figure*}
 
-\subsection{Scraper}
-TODO(aldrin)
+\subsection{Scraper}\label{sec:scrape}
+The scraper, written in python, extensively uses urllib2 and lxml.html. The
+first task is to access a search landing page using urllib2. Each search result
+page maintains 10 publications per page and links at the top
+and bottom of the search page that lead to other search result pages. Each
+publication located on a search result page is used as a root paper.
+Each listing on the search result page contains metadata for the publication
+listed such as title, author, and path to the HTML of the publication.
+Since we are collecting this dataset programmatically, the HTML
+version is easier to work with than a PDF version of the publication, which
+would require OCR to extract text. Due to the structure of the page (which is
+amazingly consistent), the HTML is parsed in the following sections:
+\begin{itemize}
+   \item Abstract
+   \item Body sections and titles
+   \item References
+      \begin{itemize}
+         \item Search pages for each references paper
+         \item Pubmed page for each reference paper
+         \item Abstract, Title, and Author for refererence paper from pubmed
+      \end{itemize}
+\end{itemize}
 
-\subsubsection{Structure of Paper Text}
-%TODO(aldrin): Expand here if necessary
-If the paper text was generated from OCR, then the structure of the text was left up to the OCR engine.
-However, papers scraped from PLOS were in HTML and extra formatting can be inferred.
+First, we extract the abstract text. This is made trivial with lxml's html
+parser, specifically the cssselect and text\_content methods. Similarly, the
+extraction of body section text and titles of publication is easily done.
+Reference papers are more difficult to obtain due to the extra content that
+must be fetched online. Each reference paper listing may or may not have a link
+to a landing page listing various other sources where the publication may be
+found. In cases where there is no link, then this listing is skipped and the
+next one parsed. For cases where there is indeed a link, the pubmed source is
+always picked and the provided pubmed URL to the publication is used to
+retrieve the abstract, title, and authors for the reference paper. While pubmed
+makes extraction of the abstract text somewhat difficult, it is solved through
+the use of text\_content in python's lxml library, which grabs all text from
+child nodes and removes HTML markup. As the necessary information for each
+reference paper is retrieved, the reference paper is written out in the
+appropriate directory location as mentioned below in section
+\ref{sec:dir_structure}.
 
-All text inside top-level $p$ tags can be inferred to be an entire paragraph and was placed on a single line.
-The references section was separated from the rest of the paper by a single line with only ``REFERENCES'' on it.
+\subsubsection{Structure of Paper Text}\label{sec:text_structure}
+If the paper text was generated from OCR, then the structure of the text was
+left up to the OCR engine. However, papers scraped from PLOS were in HTML and
+extra formatting can be inferred.
 
-\subsection{Structured Paper Directory Format}\label{sec:paperFormat}
-The output of the scraper is a directory that contains information about the root paper and all the reference that were collected.
-To make all the information easily accessible to anyone without imposing any arbitrary restrictions, the structure of the
-data is enforced by directory structure.
+All text inside top-level $p$ tags can be inferred to be an entire paragraph
+which was placed on a single line. The references section was separated from the
+rest of the paper by a single line with only ``REFERENCES'' on it.
+Additionally, the top of the text file listed ``TITLE:'', ``AUTHORS:'', and
+extra information if accessible (which was not the case for PLoS Computational
+Biology, specifically ``TERMS:'' and ``CATEGORIES:'').
 
-The root directory is named using the root paper's title. Inside the root directory is a ``references'' directory.
-Inside the ``references'' directory are sub-directories named with the number of that citation. A missing directory
+\subsection{Structured Paper Directory Format}\label{sec:dir_structure}
+The output of the scraper is a directory that contains information about the
+root paper and all collected reference papers. To make all the
+information easily accessible to anyone without imposing any arbitrary
+restrictions, the structure of the data is enforced by directory structure.
+
+The root directory is named using the root paper's title. Inside the root
+directory is a ``references'' directory and four or five files, described
+below. Inside the ``references'' directory are sub-directories for each
+citation number in the root paper. The information for reference papers are
+maintained in the appropriately numbered directory, such that a reference paper
+``foo'', is the fourth citation (i.e. appears in the root paper as ``[4]'')
+then information for paper ``foo'' is maintained in the directory ``4'' in the
+root paper's ``references'' directory. A missing directory
 means that the scraper could not collect that reference's information.
 
 Every directory that represents a paper will have at most four files:
-\begin{enumerate}
-   \item meta.txt -- Contains the title, authors, tags, categories, and abstract. This is the only file required for every paper directory.
-   \item paper.pdf -- The pdf version of the paper.
-   \item paper.txt -- The text version of the paper. This file is required for the root paper.
-   \item refs.txt -- Only the references that appear at the bottom of the paper. This information is duplicated in paper.txt, but placed here for convenience.
-\end{enumerate}
+\begin{itemize}
+   \item \textbf{meta.txt}\footnotemark[1]{} -- Contains the title, authors,
+                                                tags, categories, and abstract.
+                                                This is the only file required
+                                                for every paper directory.
+   \item \textbf{paper.txt}\footnotemark[1]{} -- The text version of the paper.
+                                                 This file is required for the
+                                                 root paper.
+   \item \textbf{refs.txt}\footnotemark[1]{} -- Only the references that appear
+                                                at the bottom of the paper.
+                                                This information is duplicated
+                                                in paper.txt, but placed here
+                                                for convenience.
+   \item \textbf{paper.pdf} -- The pdf version of the paper.
+   \item \textbf{paper.html} -- The HTML version of the publication. This is
+                                grabbed should the paper need to be re-parsed.
+\end{itemize}
+
+\footnotetext[1]{These files \textbf{are required} for our implementation to work}
 
 A sample directory structure can be seen in Figure \ref{fig:tree}.
 
 \begin{figure}[ht]
-   \includegraphics[width=\columnwidth px]{images/tree.eps}
+   \includegraphics[width=\columnwidth]{images/tree.eps}
         \caption{The structure of a paper directory.}
         \label{fig:tree}
 \end{figure}
@@ -168,7 +270,7 @@ There are two parts to parsing this context: looking for parenthesis and walking
 
 We will use the following actual sentence as a running example:
 \begin{quote}
-In previous work, the Guyton models were modularized and re-implemented in Fortran, C++ (M2SL \textbf{[]}), and Simulink \textbf{[]}.
+In previous work, the Guyton models were modularized and reimplemented in Fortran, C++ (M2SL \textbf{[]}), and Simulink \textbf{[]}.
 \end{quote}
 
 When trying to find the context of the first citation, we recognize that it is surrounded by parenthesis.
@@ -246,7 +348,7 @@ same guess for a context.
 \subsection{Context Similarity}
 To compare the similarity between a context and the reference material, we use a Jaccardian Distance\cite{jaccard}.
 
-\section{Evaluation}
+\section{Evaluation}\label{sec:eval}
 To evaluate our system, we find the total number of references that we have successfully placed.
 
 Given $n$ papers $(p_{1}, p_{2}, p_{3} ..., p_{n})$. We will let $RF(p_{i})$ be the number of references
@@ -288,7 +390,7 @@ Improving the actual implementation and increasing the scope of this project are
 \subsection{Implementation Improvements}
 
 \subsubsection{Parsing and Scraping}
-Parsing is vital to the Citeopotamus system. If a context is improperly parsed, then everything else around that citation falls apart.
+Parsing is essential to the Citeopotamus system. If a context is improperly parsed, then everything else around that citation falls apart.
 A spot check of papers that perform poorly (under 10\% accuracy) reveals that many of these these papers have many incorrectly parsed contexts.
 Some of these errors come from an error in parsing like missing a false positive sentence ender. However, most of these errors appear to
 come from difficulties scraping the paper. We believe that irregularities in the paper's HTML causes poor formatting of the resulting

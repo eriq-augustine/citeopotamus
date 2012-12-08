@@ -6,7 +6,7 @@ use Carp;
 use Cwd;
 use File::Copy;
 
-use constant ROOT_DIR => getcwd().'/fix_data/';
+use constant ROOT_DIR => getcwd().'/data/';
 
 sub dir_status {
    if ($ENV{DEBUG}) {

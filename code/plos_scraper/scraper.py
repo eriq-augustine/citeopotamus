@@ -28,7 +28,7 @@ class plos_connection(object):
    def __init__(self):
       self.base_url = ('http://www.ploscompbiol.org')
       self.seed_url = ('/article/browse.action?field=on&pageSize=10&' +
-                       'startPage=7&selectedSubjects=Computational+Biology')
+                       'startPage=85&selectedSubjects=Computer+and+information+sciences')
 
    '''
       Send HTTP GET to the url 'page_url'. Returns the response to the HTTP
