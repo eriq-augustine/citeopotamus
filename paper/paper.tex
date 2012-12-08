@@ -54,7 +54,6 @@ Our contributions consist of a dataset to test new solutions and methods to
 recommend citations given a location for a citation.
 
 \section{Dataset}\label{sec:dataset}
-%TODO(aldrin)
 %overview
 The dataset for which we report results was collected from \textit{PLoS
 Computational Biology}~\cite{plos}. PLoS (Public Library of Science) is a
@@ -98,43 +97,93 @@ The general architecture can be seen in Figure \ref{fig:arch}.
 \end{figure*}
 
 \subsection{Scraper}
-TODO(aldrin)
+The scraper, written in python, extensively uses urllib2 and lxml.html. The
+first task is to access a search landing page using urllib2. Each search result
+page maintains 10 publications per page and links at the top
+and bottom of the search page that lead to other search result pages. Each
+publication located on a search result page is used as a root paper.
+Each listing on the search result page contains metadata for the publication
+listed such as title, author, and path to the HTML of the publication.
+Since we are collecting this dataset programmatically, the HTML
+version is easier to work with than a PDF version of the publication, which
+would require OCR to extract text. Due to the structure of the page (which is
+amazingly consistent), the HTML is parsed in the following sections:
+\begin{itemize}
+   \item Abstract
+   \item Body sections and titles
+   \item References
+      \begin{itemize}
+         \item Search pages for each references paper
+         \item Pubmed page for each reference paper
+         \item Abstract, Title, and Author for refererence paper from pubmed
+      \end{itemize}
+\end{itemize}
+
+First, we extract the abstract text. This is made trivial with lxml's html
+parser, specifically the cssselect and text\_content methods. Similarly, the
+extraction of body section text and titles of publication is easily done.
+Reference papers are more difficult to obtain due to the extra content that
+must be fetched online. Each reference paper listing may or may not have a link
+to a landing page listing various other sources where the publication may be
+found. In cases where there is no link, then this listing is skipped and the
+next one parsed. For cases where there is indeed a link, the pubmed source is
+always picked and the provided pubmed URL to the publication is used to
+retrieve the abstract, title, and authors for the reference paper. While pubmed
+makes extraction of the abstract text somewhat difficult, it is solved through
+the use of text\_content in python's lxml library, which grabs all text from
+child nodes and removes HTML markup. As the necessary information for each
+reference paper is retrieved, the reference paper is written out in the
+appropriate directory location as mentioned below in section
+\ref{sec:dir_structure}.
 
 \subsubsection{Structure of Paper Text}\label{sec:text_structure}
 If the paper text was generated from OCR, then the structure of the text was
-left up to the OCR engine.  However, papers scraped from PLOS were in HTML and
+left up to the OCR engine. However, papers scraped from PLOS were in HTML and
 extra formatting can be inferred.
 
 All text inside top-level $p$ tags can be inferred to be an entire paragraph
-and was placed on a single line.  The references section was separated from the
+which was placed on a single line. The references section was separated from the
 rest of the paper by a single line with only ``REFERENCES'' on it.
+Additionally, the top of the text file listed ``TITLE:'', ``AUTHORS:'', and
+extra information if accessible (which was not the case for PLoS Computational
+Biology, specifically ``TERMS:'' and ``CATEGORIES:'').
 
 \subsection{Structured Paper Directory Format}\label{sec:dir_structure}
 The output of the scraper is a directory that contains information about the
-root paper and all the reference that were collected.  To make all the
+root paper and all collected reference papers. To make all the
 information easily accessible to anyone without imposing any arbitrary
 restrictions, the structure of the data is enforced by directory structure.
 
 The root directory is named using the root paper's title. Inside the root
-directory is a ``references'' directory.  Inside the ``references'' directory
-are sub-directories named with the number of that citation. A missing directory
+directory is a ``references'' directory and four or five files, described
+below. Inside the ``references'' directory are sub-directories for each
+citation number in the root paper. The information for reference papers are
+maintained in the appropriately numbered directory, such that a reference paper
+``foo'', is the fourth citation (i.e. appears in the root paper as ``[4]'')
+then information for paper ``foo'' is maintained in the directory ``4'' in the
+root paper's ``references'' directory. A missing directory
 means that the scraper could not collect that reference's information.
 
 Every directory that represents a paper will have at most four files:
-\begin{description}
-   \item[meta.txt\footnotemark{1}] Contains the title, authors, tags, categories, and abstract.
-                   This is the only file required for every paper directory.
-   \item[paper.txt\footnotemark{1}] The text version of the paper. This file is required for
-                    the root paper.
-   \item[refs.txt\footnotemark{1}] Only the references that appear at the bottom of the paper.
-                   This information is duplicated in paper.txt, but placed here
-                   for convenience.
-   \item[paper.pdf] The pdf version of the paper.
-   \item[paper.html] The HTML version of the paper. This is grabbed should
-                     the paper need to be re-parsed.
-\end{description}
+\begin{itemize}
+   \item \textbf{meta.txt}\footnotemark[1]{} -- Contains the title, authors,
+                                                tags, categories, and abstract.
+                                                This is the only file required
+                                                for every paper directory.
+   \item \textbf{paper.txt}\footnotemark[1]{} -- The text version of the paper.
+                                                 This file is required for the
+                                                 root paper.
+   \item \textbf{refs.txt}\footnotemark[1]{} -- Only the references that appear
+                                                at the bottom of the paper.
+                                                This information is duplicated
+                                                in paper.txt, but placed here
+                                                for convenience.
+   \item \textbf{paper.pdf} -- The pdf version of the paper.
+   \item \textbf{paper.html} -- The HTML version of the publication. This is
+                                grabbed should the paper need to be re-parsed.
+\end{itemize}
 
-\footnotetext[1]{These files are not required for our implementation to work}
+\footnotetext[1]{These files \textbf{are required} for our implementation to work}
 
 A sample directory structure can be seen in Figure \ref{fig:tree}.
 
