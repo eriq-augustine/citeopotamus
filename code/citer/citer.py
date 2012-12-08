@@ -11,8 +11,8 @@ import parser
 DATA_DIR = '/home/eriq/aldrin/data'
 
 AVAILABLE_METHODS = [
-                     method.PreContextTitleAuthorMethod,
-                     method.SentenceTitleAuthorMethod,
+                     #method.PreContextTitleAuthorMethod,
+                     #method.SentenceTitleAuthorMethod,
                      method.PreContextAbstractWordsMethod,
                      method.SentenceContextAbstractBigramsMethod,
                      method.PreContextAbstractBigramsMethod,

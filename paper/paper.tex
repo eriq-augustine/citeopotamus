@@ -299,6 +299,14 @@ and Simulink
 Note that both cases generate contexts that contain the name of the product featured in the paper and no erroneous information. Whereas the
 sentence context not only contains both produces, but a slew of other seemingly important words: ``Guyton'', ``Fortran'', and ``C++''.
 
+\subsection{Incorrect References}
+Sometimes their is an error in scraping which causes a reference to take on the incorrect number.
+To prevent these refernces from polluting our data, we check for them at during parsing.
+We parse the refernce section of the paper and look at every reference. If the reference does not contain all of the author names with
+more than three letters, then we drop the reference and assume it is incorrect.
+If there are no references left after all the references have been parsed, then the entire paper is droped.
+Of our original 102O papers, 720 made it pass this phase.
+
 \section{Methods}\label{sec:methods}
 All of our current methods use the same algorithm for determining the most appropriate reference for a citation.
 The difference in methods is the context and reference material that they choose to use.
@@ -373,11 +381,15 @@ citation when a paper has 50+ references.
 
 \begin{table}[H]
 \centering
-\begin{tabular} { l | c | r }
+\begin{tabular} { l | c | c | r }
 \hline\hline
-        {\bf $\sum_{i = 1}^{n} RF(p_{i})$} & {\bf $\sum_{i = 1}^{n} RT(p_{i})$} & {\bf Accuracy} \\[0.5ex]
+        {\bf Reference Material} & {\bf $\sum_{i = 1}^{n} RF(p_{i})$} & {\bf $\sum_{i = 1}^{n} RT(p_{i})$} & {\bf Accuracy} \\[0.5ex]
 \hline
-        ? & ? & ? \\[0.5ex]
+        Abstract and Reference & 3146 & 11840 & 0.2657 \\[0.5ex]
+\hline
+        Abstract Only & 2642 & 11840 & 0.2231 \\[0.5ex]
+\hline
+        Reference Only & 1576 & 11840 & 0.1331 \\[0.5ex]
 \end{tabular}
 \caption{Results}
 \label{tab:results}
@@ -428,6 +440,7 @@ citation recommendation we recommend the survey by McNee et al. they go into a l
 
 \section{Conclusion}\label{sec:conclusion}
 We have found that automatic citation placement is a difficult, but doable problem.
+Even with only the information that appears on the page, we were able to achieve over 10\% accuracy.
 
 \section{Thanks}
 We thanks the folks at PLOS for providing the source of our dataset. Without them this would of been a lot harder.
