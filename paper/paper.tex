@@ -300,12 +300,12 @@ To compare the similarity between a context and the reference material, we use a
 \section{Evaluation}
 To evaluate our system, we find the total number of references that we have successfully placed.
 
-Given $n$ papers $(p_{1}, p_{2}, p_{3} ..., p_{n})$. We will let $RF(n_{i})$ be the number of references
-for which we have full contextual information on and let $RT(n_{i})$ is the number of references
-that were correctly placed in the paper.
+Given $n$ papers $(p_{1}, p_{2}, p_{3} ..., p_{n})$. We will let $RF(p_{i})$ be the number of references
+for which we have full contextual information on and let $RT(p_{i})$ is the number of references
+that were correctly placed in the paper $p_{i}$.
 
 Then we let our accuracy be:
-$$Accuracy = \frac{\sum_{i = 1}^{m} RF(p_{i})}{\sum_{i = 1}^{m} RT(p_{i})}$$
+$$Accuracy = \frac{\sum_{i = 1}^{n} RF(p_{i})}{\sum_{i = 1}^{n} RT(p_{i})}$$
 
 \subsection{Adjacent Citations}
 While evaluating the results of a run, it is important to take into account \textit{adjacent citations}.
@@ -320,7 +320,17 @@ Because there are no other programs that attempt to do automated citation placem
 A random baseline would be inappropriate for this situation since there are is such a small chance of getting a correct
 citation when a paper has 50+ references.
 
-TODO(eriq): Table
+\begin{table}[H]
+\centering
+\begin{tabular} { l | c | r }
+\hline\hline
+        {\bf $\sum_{i = 1}^{n} RF(p_{i})$} & {\bf $\sum_{i = 1}^{n} RT(p_{i})$} & {\bf Accuracy} \\[0.5ex]
+\hline
+        ? & ? & ? \\[0.5ex]
+\end{tabular}
+\caption{Results}
+\label{tab:results}
+\end{table}
 
 \section{Future Work}\label{sec:future}
 There are many opportunities for future work in this project.
