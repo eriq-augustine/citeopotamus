@@ -63,13 +63,15 @@ def parseDir(dirName):
 # 'citationKey' will be an array of citations in the order that they appear in the text.
 # Both 'noNumbersText' and 'noCitationsText' will not contain anything in or after after the references section.
 # NOTE: This will probably not be effective if it is not one paragraph per line.
-def parseCitations(entry):
+def parseCitations(entry, references):
    noNumbersText = ''
    noCitationsText = ''
    citations = []
    citationKey = []
    # For when we see the references
    noMoreCitations = False
+
+   referenceCount = 0
 
    parsedText = entry['fullText']
 
@@ -102,6 +104,39 @@ def parseCitations(entry):
 
       if re.search('REFERENCES', rawLine):
          noMoreCitations = True
+         currentReference = 0
+         continue
+
+      if noMoreCitations:
+         # In references.
+         currentReference += 1
+
+         match = re.match('\[\s*(\d+)\s*\]\s*(.*)', rawLine)
+         if not match:
+            print "ERROR: could not parse reference"
+            return None
+
+         if int(match.group(1)) != currentReference:
+            print "ERROR: reference does not match position"
+            return None
+
+         if not references.has_key(int(match.group(1))):
+            continue
+
+         # Verify that all the authors are present.
+         reference = match.group(2).upper().strip()
+         authors = [ author.upper().strip() for author in re.findall('\w{3,}', ' '.join(references[currentReference]['meta']['authors'])) ]
+
+         # Remove incorrect references
+         for author in authors:
+            if not author in reference:
+               #print "ERROR: Author not found in reference: {}, ({})".format(author, reference)
+               #TEST
+               #return None
+               references.pop(currentReference)
+               break
+
+         referenceCount += 1
 
       if not noMoreCitations and re.search('\[\s*\d+\s*\]', rawLine):
          cites = re.findall('\[\s*\d+\s*\]', rawLine)
@@ -170,6 +205,16 @@ def parseCitations(entry):
    entry['citationKey'] = citationKey
    entry['citations'] = citations
 
+   if len(references) == 0:
+      print "ERROR: Paper does not have any references"
+      return None
+
+   return True
+   #TEST
+   #if referenceCount != 0:
+   #   print referenceCount
+   #return referenceCount == 0
+
 
 # Parse an entire directory structure.
 # At the root should be the base paper, and then references/ should contain all the reference papers.
@@ -182,9 +227,10 @@ def parseFullDataset(baseDir):
    for fileName in os.listdir(baseDir + "/references"):
       rtn['references'][int(fileName)] = parseDir(baseDir + "/references/" + fileName)
 
-   parseCitations(rtn['root'])
+   if parseCitations(rtn['root'], rtn['references']):
+      return Paper(rtn)
 
-   return Paper(rtn)
+   return None
 
 if __name__ == "__main__":
    #print parseDir('data/dynamo')
